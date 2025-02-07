@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
     let synth = window.speechSynthesis;
     let voices = [];
@@ -37,16 +36,39 @@ document.addEventListener('DOMContentLoaded', function () {
         lines.forEach(line => {
             const content = line.replace(/^\d+\.\s*/, '');
             const parts = content.split(':');
-            if (parts.length < 2) return; const english = parts[0].trim(); const rest = parts[1].trim(); let type = ''; let vietnamese = ''
-                ; let pronunciation = ''; const typeMatch = rest.match(/\([a-z]+\)/); if (typeMatch) { type = typeMatch[0]; } const
-                    pronunciationMatch = rest.match(/\/[^/]+\//); if (pronunciationMatch) { pronunciation = pronunciationMatch[0]; }
-            vietnamese = rest.replace(type, '').replace(pronunciation, '').trim(); const
-                vocabItem = document.createElement('div'); vocabItem.className = 'vocab-item'; vocabItem.dataset.text = english;
-            vocabItem.innerHTML = ` <span class="english">${english}</span>
-    <span class="type">${type}</span>
-    <span class="vietnamese">${vietnamese}</span>
-    <span class="pronunciation">${pronunciation}</span>
-    `;
+            if (parts.length < 2) return;
+
+            const english = parts[0].trim();
+            const rest = parts[1].trim();
+
+            let type = '';
+            let vietnamese = '';
+            let pronunciation = '';
+
+            const typeMatch = rest.match(/\([a-z]+\)/);
+            if (typeMatch) {
+                type = typeMatch[0];
+            }
+
+            const pronunciationMatch = rest.match(/\/[^/]+\//);
+            if (pronunciationMatch) {
+                pronunciation = pronunciationMatch[0];
+            }
+
+            vietnamese = rest
+                .replace(type, '')
+                .replace(pronunciation, '')
+                .trim();
+
+            const vocabItem = document.createElement('div');
+            vocabItem.className = 'vocab-item';
+            vocabItem.dataset.text = english;
+            vocabItem.innerHTML = `
+                <span class="english">${english}</span>
+                <span class="type">${type}</span>
+                <span class="vietnamese">${vietnamese}</span>
+                <span class="pronunciation">${pronunciation}</span>
+            `;
 
             vocabItem.addEventListener('click', () => {
                 readText(english);
