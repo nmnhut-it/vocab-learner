@@ -329,10 +329,11 @@ class VocabVideoGenerator {
         this.ctx.fillText(word.type, this.canvas.width / 2, this.canvas.height / 3 + 40);
 
         // Vietnamese translation with fade in
-        this.ctx.font = '36px Arial';
-        this.ctx.fillStyle = '#e74c3c';
-        this.ctx.globalAlpha = progress < 0.3 ? progress / 0.3 : opacity;
-        this.ctx.fillText(word.vietnamese, this.canvas.width / 2, this.canvas.height / 2 + 30);
+
+        // this.ctx.font = '36px Arial';
+        // this.ctx.fillStyle = '#e74c3c';
+        // this.ctx.globalAlpha = progress < 0.3 ? progress / 0.3 : opacity;
+        // this.ctx.fillText(word.vietnamese, this.canvas.width / 2, this.canvas.height / 2 + 30);
 
         // Pronunciation with slide in
         this.ctx.font = 'italic 28px Arial';

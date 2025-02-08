@@ -252,4 +252,51 @@ document.addEventListener('DOMContentLoaded', function () {
     // setTimeout(() => {
     //     parseAndDisplay();
     // }, 1000);
+
+    const modeBtns = document.querySelectorAll('.mode-btn');
+    const modeContents = document.querySelectorAll('.mode-content');
+
+    const gameToggle = document.getElementById('gameToggle');
+    const gameContainer = document.getElementById('gameContainer');
+    const closeGame = document.getElementById('closeGame');
+    const gameFrame = document.getElementById('vocabHootFrame');
+    const mainContent = document.getElementById('mainContent');
+
+    function showGame() {
+        // Only set src first time to avoid reloading
+        if (!gameFrame.src) {
+            gameFrame.src = 'vocabhoot.html';
+        }
+        gameContainer.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+    }
+
+    function hideGame() {
+        gameContainer.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    gameToggle.addEventListener('click', showGame);
+    closeGame.addEventListener('click', hideGame);
+
+    // Handle communication with game iframe
+    window.addEventListener('message', function (event) {
+        if (event.data.type === 'requestVocabulary') {
+            const vocabItems = document.querySelectorAll('.vocab-item');
+            const vocabularyList = Array.from(vocabItems).map(item => ({
+                english: item.querySelector('.english').textContent,
+                type: item.querySelector('.type').textContent,
+                vietnamese: item.querySelector('.vietnamese').textContent,
+                pronunciation: item.querySelector('.pronunciation').textContent
+            }));
+
+            if (gameFrame && gameFrame.contentWindow) {
+                console.log('Sending vocabulary data:', vocabularyList);
+                gameFrame.contentWindow.postMessage({
+                    type: 'vocabularyData',
+                    data: vocabularyList
+                }, '*');
+            }
+        }
+    });
 });

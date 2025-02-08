@@ -11,6 +11,9 @@ An interactive web application for learning vocabulary with text-to-speech and v
 - Multiple voice options
 - Download generated videos
 
+
+
+
 ## Usage
 
 1. Enter vocabulary in the format:
