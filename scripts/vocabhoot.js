@@ -7,10 +7,10 @@ let timeWarningTimeout;
 let tickInterval;
 let streak = 0;
 let bestStreak = 0;
-const QUESTION_TIME = 20; // seconds
+const QUESTION_TIME = 7; // seconds
 let isAnswered = false;
 let currentQuestionId = null; // Track the active question ID
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 20;
 let soundEffects = {
     correct: new Audio('sound/correct.mp3'),
     wrong: new Audio('sound/wrong.mp3'),
