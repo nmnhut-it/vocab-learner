@@ -126,28 +126,201 @@ function startGame() {
     updateStreak();
     showQuestion();
 }
-
 function generateQuestion() {
     const word = vocabulary[currentQuestion];
-    const options = [word.vietnamese];
 
-    // Add 3 random incorrect options
-    while (options.length < 4) {
-        const randomIndex = Math.floor(Math.random() * vocabulary.length);
-        const randomWord = vocabulary[randomIndex];
-        if (!options.includes(randomWord.vietnamese) && randomWord.vietnamese !== word.vietnamese) {
-            options.push(randomWord.vietnamese);
+    // Randomly decide question type:
+    // 0: English to Vietnamese
+    // 1: Vietnamese to English
+    // 2: Spelling challenge (various types)
+
+    const questionType = Math.floor(Math.random() * 3);
+
+    let question, correct, options, prompt;
+    let spellingType = 0; // Default spelling type (scrambled)
+
+    if (questionType === 0) {
+        // English to Vietnamese
+        question = word.english;
+        correct = word.vietnamese;
+        options = [word.vietnamese];
+        prompt = "What's the correct translation?";
+
+        // Add 3 random incorrect options
+        while (options.length < 4) {
+            const randomIndex = Math.floor(Math.random() * vocabulary.length);
+            const randomWord = vocabulary[randomIndex];
+            if (!options.includes(randomWord.vietnamese) && randomWord.vietnamese !== word.vietnamese) {
+                options.push(randomWord.vietnamese);
+            }
+        }
+    } else if (questionType === 1) {
+        // Vietnamese to English
+        question = word.vietnamese;
+        correct = word.english;
+        options = [word.english];
+        prompt = "What's the English translation?";
+
+        // Add 3 random incorrect options
+        while (options.length < 4) {
+            const randomIndex = Math.floor(Math.random() * vocabulary.length);
+            const randomWord = vocabulary[randomIndex];
+            if (!options.includes(randomWord.english) && randomWord.english !== word.english) {
+                options.push(randomWord.english);
+            }
+        }
+    } else {
+        // Spelling challenge with multiple variations
+        const originalWord = word.english;
+
+        // Only do spelling challenges for words with 3+ characters
+        if (originalWord.length <= 3) {
+            // If word is too short, default to English-Vietnamese
+            question = word.english;
+            correct = word.vietnamese;
+            options = [word.vietnamese];
+            prompt = "What's the correct translation?";
+
+            while (options.length < 4) {
+                const randomIndex = Math.floor(Math.random() * vocabulary.length);
+                const randomWord = vocabulary[randomIndex];
+                if (!options.includes(randomWord.vietnamese) && randomWord.vietnamese !== word.vietnamese) {
+                    options.push(randomWord.vietnamese);
+                }
+            }
+        } else {
+            // Choose spelling challenge type:
+            // 0: Scrambled word
+            // 1: Missing vowels
+            // 2: Missing consonants
+            spellingType = Math.floor(Math.random() * 3);
+
+            let modifiedWord;
+
+            if (spellingType === 0) {
+                // Scrambled word
+                modifiedWord = scrambleWord(originalWord);
+                prompt = "Unscramble this English word:";
+            } else if (spellingType === 1) {
+                // Missing vowels
+                modifiedWord = removeVowels(originalWord);
+                prompt = "Fill in the vowels for this word:";
+            } else {
+                // Missing consonants
+                modifiedWord = removeConsonants(originalWord);
+                prompt = "Fill in the consonants for this word:";
+            }
+
+            question = modifiedWord;
+            correct = originalWord;
+            options = [originalWord];
+
+            // Add 3 random incorrect options (other English words)
+            while (options.length < 4) {
+                const randomIndex = Math.floor(Math.random() * vocabulary.length);
+                const randomWord = vocabulary[randomIndex].english;
+                // Make sure options are unique and different from the answer
+                if (!options.includes(randomWord) && randomWord !== originalWord) {
+                    options.push(randomWord);
+                }
+            }
         }
     }
 
     return {
-        question: word.english,
-        type: word.type || '',
+        question: question,
+        type: questionType === 0 ? word.type : '', // Only show type for English to Vietnamese
         options: shuffleArray(options),
-        correct: word.vietnamese
+        correct: correct,
+        prompt: prompt,
+        questionType: questionType,
+        spellingType: spellingType // Add this to track spelling challenge type
     };
 }
 
+// Function to scramble a word while keeping first and last letters in place
+function scrambleWord(word) {
+    if (word.length <= 3) return word;
+
+    // If word contains spaces (multiple words), scramble each word separately
+    if (word.includes(' ')) {
+        return word.split(' ')
+            .map(w => scrambleWord(w))
+            .join(' ');
+    }
+
+    // If word contains hyphens, scramble each part separately
+    if (word.includes('-')) {
+        return word.split('-')
+            .map(w => scrambleWord(w))
+            .join('-');
+    }
+
+    // Get first and last letters
+    const firstLetter = word.charAt(0);
+    const lastLetter = word.charAt(word.length - 1);
+
+    // Get middle section
+    let middle = word.substring(1, word.length - 1);
+
+    // Convert to array, shuffle, and join
+    const middleArray = middle.split('');
+
+    // Shuffle the middle section
+    for (let i = middleArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [middleArray[i], middleArray[j]] = [middleArray[j], middleArray[i]];
+    }
+
+    // Make sure the scrambled word is different from the original
+    const scrambledMiddle = middleArray.join('');
+    if (scrambledMiddle === middle && middle.length > 1) {
+        // If it's the same, swap two random characters
+        const i = Math.floor(Math.random() * middleArray.length);
+        const j = (i + 1) % middleArray.length;
+        [middleArray[i], middleArray[j]] = [middleArray[j], middleArray[i]];
+    }
+
+    return firstLetter + middleArray.join('') + lastLetter;
+}
+
+// Function to remove vowels from a word
+function removeVowels(word) {
+    // If word contains spaces (multiple words), process each word separately
+    if (word.includes(' ')) {
+        return word.split(' ')
+            .map(w => removeVowels(w))
+            .join(' ');
+    }
+
+    // If word contains hyphens, process each part separately
+    if (word.includes('-')) {
+        return word.split('-')
+            .map(w => removeVowels(w))
+            .join('-');
+    }
+
+    return word.replace(/[aeiou]/gi, '_');
+}
+
+// Function to remove consonants from a word
+function removeConsonants(word) {
+    // If word contains spaces (multiple words), process each word separately
+    if (word.includes(' ')) {
+        return word.split(' ')
+            .map(w => removeConsonants(w))
+            .join(' ');
+    }
+
+    // If word contains hyphens, process each part separately
+    if (word.includes('-')) {
+        return word.split('-')
+            .map(w => removeConsonants(w))
+            .join('-');
+    }
+
+    return word.replace(/[bcdfghjklmnpqrstvwxyz]/gi, '_');
+}
 function showQuestion() {
     if (currentQuestion >= vocabulary.length || currentQuestion >= MAX_QUESTIONS) {
         showResults();
@@ -175,6 +348,24 @@ function showQuestion() {
     document.getElementById('currentQuestion').textContent = currentQuestion + 1;
     document.getElementById('questionWord').textContent = question.question;
     document.getElementById('questionType').textContent = question.type;
+    document.getElementById('questionPrompt').textContent = question.prompt;
+
+    // Special styling for spelling challenge questions
+    const questionWordElement = document.getElementById('questionWord');
+
+    // Remove all possible spelling classes first
+    questionWordElement.classList.remove('scrambled-word', 'missing-vowels', 'missing-consonants');
+
+    if (question.questionType === 2) {
+        // Apply specific class based on spelling challenge type
+        if (question.spellingType === 0) {
+            questionWordElement.classList.add('scrambled-word');
+        } else if (question.spellingType === 1) {
+            questionWordElement.classList.add('missing-vowels');
+        } else if (question.spellingType === 2) {
+            questionWordElement.classList.add('missing-consonants');
+        }
+    }
 
     const container = document.getElementById('answersContainer');
     container.innerHTML = '';
@@ -197,7 +388,6 @@ function showQuestion() {
 
     startTimer();
 }
-
 function startTimer() {
     const timerBar = document.querySelector('.timer-bar');
     timerBar.style.transition = 'none';

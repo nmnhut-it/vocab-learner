@@ -361,6 +361,76 @@ body {
     }
 }
 
+/* Base styling for all spelling challenges */
+.scrambled-word,
+.missing-vowels,
+.missing-consonants {
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+/* Scrambled word styling */
+.scrambled-word {
+    color: #e67e22;
+    animation: gentle-shake 2s infinite;
+}
+
+.scrambled-word::before {
+    content: '🔤 ';
+    margin-right: 5px;
+}
+
+/* Missing vowels styling */
+.missing-vowels {
+    color: #2980b9;
+}
+
+.missing-vowels::before {
+    content: '🔡 ';
+    margin-right: 5px;
+}
+
+/* Missing consonants styling */
+.missing-consonants {
+    color: #8e44ad;
+}
+
+.missing-consonants::before {
+    content: '🔠 ';
+    margin-right: 5px;
+}
+
+/* Animations */
+@keyframes gentle-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-3px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(3px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Make underscore characters more visible */
+.missing-vowels,
+.missing-consonants {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
 /* Results Screen */
 .results-screen {
     padding: 40px;
