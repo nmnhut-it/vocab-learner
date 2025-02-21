@@ -262,7 +262,40 @@ document.addEventListener('DOMContentLoaded', function () {
     const gameFrame = document.getElementById('vocabHootFrame');
     const mainContent = document.getElementById('mainContent');
 
+    // Modified encryption functions that support Unicode characters
+    const CRYPTO_KEY = "voctoolpasskey"; // Change this to your own secret key
+
+    // Unicode-safe encryption
+    function encryptData(text, key) {
+        // First encode the Unicode string as UTF-8
+        const encoded = encodeURIComponent(text);
+        let result = '';
+        for (let i = 0; i < encoded.length; i++) {
+            result += String.fromCharCode(encoded.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+        }
+        // Convert to base64 (ASCII only now)
+        return btoa(result);
+    }
+
+    // Unicode-safe decryption
+    function decryptData(encoded, key) {
+        try {
+            const text = atob(encoded); // Convert from base64
+            let result = '';
+            for (let i = 0; i < text.length; i++) {
+                result += String.fromCharCode(text.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+            }
+            // Decode the UTF-8 string back to Unicode
+            return decodeURIComponent(result);
+        } catch (error) {
+            console.error('Decryption error:', error);
+            return '';
+        }
+    }
+
+    // Modified showGame function with Unicode support
     function showGame() {
+        // Get vocabulary data from DOM
         const vocabularyList = Array.from(
             document.querySelectorAll('.vocab-item')
         ).map(item => ({
@@ -272,20 +305,18 @@ document.addEventListener('DOMContentLoaded', function () {
             pronunciation: item.querySelector('.pronunciation').textContent
         }));
 
-        if (vocabularyList.length === 0) {
-            alert('Please add some vocabulary first!');
-            return;
-        }
+        // First stringify, then encrypt the data
+        const jsonData = JSON.stringify(vocabularyList);
+        const encodedData = encryptData(jsonData, CRYPTO_KEY);
 
-        // Encode vocabulary data as JSON and then as a URL-safe string
-        const vocabData = encodeURIComponent(JSON.stringify(vocabularyList));
-
-        // Set the iframe src with the data in the URL
-        gameFrame.src = `vocabhoot.html?data=${vocabData}`;
+        // Set the iframe src with encrypted data parameter
+        const gameFrame = document.getElementById('vocabHootFrame');
+        gameFrame.src = `vocabhoot.html?data=${encodedData}`;
 
         // Show the game container
+        const gameContainer = document.getElementById('gameContainer');
         gameContainer.style.display = 'flex';
-        document.body.style.overflow = 'hidden'; // Prevent scrolling
+        document.body.style.overflow = 'hidden';
     }
 
 

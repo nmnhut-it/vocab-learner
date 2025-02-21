@@ -5,269 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VocabHoot</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f0f2f5;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #gameContainer {
-            width: 100%;
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        .screen {
-            display: none;
-            animation: fadeIn 0.3s;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Welcome Screen */
-        .welcome-screen {
-            text-align: center;
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .welcome-screen h1 {
-            color: #2196F3;
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .welcome-message {
-            color: #666;
-            margin-bottom: 30px;
-        }
-
-        .start-btn {
-            background: #4CAF50;
-            color: white;
-            border: none;
-            padding: 16px 32px;
-            font-size: 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .start-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
-        }
-
-        /* Question Screen */
-        .game-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            background: white;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .progress {
-            color: #666;
-        }
-
-        .score {
-            font-size: 24px;
-            font-weight: bold;
-            color: #2196F3;
-        }
-
-        .timer {
-            height: 8px;
-            background: #ddd;
-            border-radius: 4px;
-            margin: 10px 0;
-            overflow: hidden;
-        }
-
-        .timer-bar {
-            height: 100%;
-            background: #2196F3;
-            width: 100%;
-            transition: width linear;
-        }
-
-        .question-container {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            margin: 20px 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .question {
-            font-size: 28px;
-            margin-bottom: 30px;
-            color: #333;
-            line-height: 1.4;
-        }
-
-        .answers {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .answer-btn {
-            border: none;
-            padding: 20px;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 12px;
-            color: white;
-            display: flex;
-            align-items: center;
-            transition: all 0.2s;
-            line-height: 1.4;
-            min-height: 100px;
-            text-align: left;
-        }
-
-        .answer-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .answer-btn.disabled {
-            pointer-events: none;
-            opacity: 0.7;
-        }
-
-        .answer-btn.correct {
-            background: #4CAF50 !important;
-            animation: pulse 0.5s;
-        }
-
-        .answer-btn.wrong {
-            background: #f44336 !important;
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.05);
-            }
-
-            100% {
-                transform: scale(1);
-            }
-        }
-
-        .answer-shape {
-            width: 24px;
-            height: 24px;
-            margin-right: 15px;
-            flex-shrink: 0;
-        }
-
-        .answer-0 {
-            background: #e21b3c;
-        }
-
-        .answer-1 {
-            background: #1368ce;
-        }
-
-        .answer-2 {
-            background: #d89e00;
-        }
-
-        .answer-3 {
-            background: #26890c;
-        }
-
-        /* Results Screen */
-        .results-screen {
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .results-title {
-            color: #2196F3;
-            font-size: 36px;
-            margin-bottom: 30px;
-        }
-
-        .final-score {
-            font-size: 64px;
-            color: #4CAF50;
-            margin: 20px 0;
-            font-weight: bold;
-        }
-
-        .stats {
-            margin: 30px 0;
-            color: #666;
-            font-size: 18px;
-        }
-
-        .stats div {
-            margin: 10px 0;
-        }
-
-        .play-again {
-            background: #2196F3;
-            margin-top: 20px;
-        }
-
-        /* Error Screen */
-        .error-screen {
-            text-align: center;
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .error-title {
-            color: #f44336;
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .error-message {
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 18px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/vocabhoot.css">
 </head>
 
 <body>
@@ -275,14 +13,27 @@
         <div id="welcomeScreen" class="screen welcome-screen">
             <h1>VocabHoot!</h1>
             <p class="welcome-message">Test your vocabulary knowledge with this fun quiz!</p>
-            <button class="start-btn" onclick="startGame()">Start Game</button>
+            <div class="instructions">
+                <h2>How to Play</h2>
+                <ul>
+                    <li>You'll be shown words from your vocabulary list</li>
+                    <li>Select the correct translation for each word</li>
+                    <li>Answer quickly to score more points</li>
+                    <li>The green checkmark shows the correct answer</li>
+                    <li>Try to get the highest score possible!</li>
+                </ul>
+            </div>
+            <button class="start-btn pulse-animation" onclick="startGame()">Start Game</button>
         </div>
 
         <div id="questionScreen" class="screen">
             <div class="game-header">
                 <div class="progress">Question <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
                 </div>
-                <div class="score">Score: <span id="scoreDisplay">0</span></div>
+                <div class="score-container">
+                    <div class="score">Score: <span id="scoreDisplay">0</span></div>
+                    <div class="streak-info">Streak: <span id="streakDisplay">0</span></div>
+                </div>
             </div>
 
             <div class="timer">
@@ -290,7 +41,11 @@
             </div>
 
             <div class="question-container">
-                <div class="question" id="questionText"></div>
+                <div class="question">
+                    <div class="question-word" id="questionWord"></div>
+                    <div class="question-type" id="questionType"></div>
+                    <div class="question-prompt">What's the correct translation?</div>
+                </div>
                 <div class="answers" id="answersContainer"></div>
             </div>
         </div>
@@ -302,6 +57,7 @@
                 <div id="correctAnswers">Correct: 0/0</div>
                 <div id="accuracy">Accuracy: 0%</div>
                 <div id="avgScore">Average Score per Question: 0</div>
+                <div id="bestStreak">Best Streak: 0</div>
             </div>
             <button class="start-btn play-again" onclick="startGame()">Play Again</button>
         </div>
@@ -319,11 +75,78 @@
         let score = 0;
         let correctCount = 0;
         let timer;
+        let streak = 0;
+        let bestStreak = 0;
         const QUESTION_TIME = 20; // seconds
         let isAnswered = false;
         const MAX_QUESTIONS = 10;
-        Plants can make places more beautiful, but they can harm the environment by taking over the natural resources of local plants
-Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.html
+        let soundEffects = {
+            correct: new Audio('https://cdn.freesound.org/previews/476/476177_7157349-lq.mp3'),
+            wrong: new Audio('https://cdn.freesound.org/previews/476/476178_7157349-lq.mp3')
+        };
+
+        // Request vocabulary data from parent window
+        window.onload = () => {
+            // First try to get from parent window
+            window.parent.postMessage({ type: 'requestVocabulary' }, '*');
+            // Add this to vocabhoot.html
+            const CRYPTO_KEY = "voctoolpasskey"; // Must match the key in main.js
+
+            // Unicode-safe decryption
+            function decryptData(encoded, key) {
+                try {
+                    const text = atob(encoded); // Convert from base64
+                    let result = '';
+                    for (let i = 0; i < text.length; i++) {
+                        result += String.fromCharCode(text.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+                    }
+                    // Decode the UTF-8 string back to Unicode
+                    return decodeURIComponent(result);
+                } catch (error) {
+                    console.error('Decryption error:', error);
+                    return '';
+                }
+            }
+
+            // Modified getVocabularyFromURL function
+            function getVocabularyFromURL() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const encryptedData = urlParams.get('data');
+
+                if (encryptedData) {
+                    try {
+                        const decryptedData = decryptData(encryptedData, CRYPTO_KEY);
+                        return JSON.parse(decryptedData);
+                    } catch (error) {
+                        console.error('Error parsing vocabulary data:', error);
+                        return [];
+                    }
+                }
+                return [];
+            }
+            // Listen for vocabulary data from parent
+            window.addEventListener('message', function (event) {
+                if (event.data && event.data.type === 'vocabularyData') {
+                    vocabulary = event.data.data;
+                    initializeGame();
+                }
+            });
+
+            // Set a timeout to show error if no data received
+            setTimeout(() => {
+                if (vocabulary.length === 0) {
+                    showScreen('errorScreen');
+                }
+            }, 1000);
+        };
+
+        function initializeGame() {
+            if (vocabulary.length > 0) {
+                document.getElementById('totalQuestions').textContent =
+                    Math.min(vocabulary.length, MAX_QUESTIONS);
+                showScreen('welcomeScreen');
+            }
+        }
 
         // Extract vocabulary data from URL parameters
         function getVocabularyFromURL() {
@@ -341,20 +164,6 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
             return [];
         }
 
-        // Load vocabulary data on page load
-        window.onload = () => {
-            vocabulary = getVocabularyFromURL();
-
-            if (vocabulary.length === 0) {
-                showScreen('errorScreen');
-            } else {
-                // Update total questions display
-                document.getElementById('totalQuestions').textContent =
-                    Math.min(vocabulary.length, MAX_QUESTIONS);
-                showScreen('welcomeScreen');
-            }
-        };
-
         function showScreen(screenId) {
             document.querySelectorAll('.screen').forEach(screen => {
                 screen.style.display = 'none';
@@ -371,7 +180,10 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
             score = 0;
             currentQuestion = 0;
             correctCount = 0;
+            streak = 0;
+            bestStreak = 0;
             updateScore();
+            updateStreak();
             showQuestion();
         }
 
@@ -381,14 +193,16 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
 
             // Add 3 random incorrect options
             while (options.length < 4) {
-                const randomWord = vocabulary[Math.floor(Math.random() * vocabulary.length)];
-                if (!options.includes(randomWord.vietnamese)) {
+                const randomIndex = Math.floor(Math.random() * vocabulary.length);
+                const randomWord = vocabulary[randomIndex];
+                if (!options.includes(randomWord.vietnamese) && randomWord.vietnamese !== word.vietnamese) {
                     options.push(randomWord.vietnamese);
                 }
             }
 
             return {
                 question: word.english,
+                type: word.type || '',
                 options: shuffleArray(options),
                 correct: word.vietnamese
             };
@@ -405,8 +219,8 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
             const question = generateQuestion();
 
             document.getElementById('currentQuestion').textContent = currentQuestion + 1;
-            document.getElementById('questionText').textContent =
-                `What's the meaning of "${question.question}"?`;
+            document.getElementById('questionWord').textContent = question.question;
+            document.getElementById('questionType').textContent = question.type;
 
             const container = document.getElementById('answersContainer');
             container.innerHTML = '';
@@ -458,20 +272,55 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
             });
 
             const isCorrect = selected === correct;
+
             if (selectedButton) {
                 selectedButton.classList.add(isCorrect ? 'correct' : 'wrong');
             }
 
             if (isCorrect) {
+                // Play correct sound
+                soundEffects.correct.currentTime = 0;
+                soundEffects.correct.play().catch(e => console.log('Error playing sound:', e));
+
+                // Calculate score based on remaining time
                 const timeLeft = parseFloat(getComputedStyle(document.querySelector('.timer-bar')).width) /
                     parseFloat(getComputedStyle(document.querySelector('.timer')).width);
                 score += Math.round(1000 * timeLeft);
                 correctCount++;
-                updateScore();
+
+                // Update streak
+                streak++;
+                if (streak > bestStreak) {
+                    bestStreak = streak;
+                }
+            } else {
+                // Play wrong sound
+                soundEffects.wrong.currentTime = 0;
+                soundEffects.wrong.play().catch(e => console.log('Error playing sound:', e));
+
+                // Reset streak
+                streak = 0;
             }
 
+            updateScore();
+            updateStreak();
             currentQuestion++;
+
             setTimeout(showQuestion, 2000);
+        }
+
+        function updateStreak() {
+            const streakDisplay = document.getElementById('streakDisplay');
+            if (streakDisplay) {
+                streakDisplay.textContent = streak;
+
+                // Add combo class for visual effect if streak is 3 or more
+                if (streak >= 3) {
+                    streakDisplay.className = 'combo';
+                } else {
+                    streakDisplay.className = '';
+                }
+            }
         }
 
         function showResults() {
@@ -483,6 +332,8 @@ Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.htm
                 `Accuracy: ${Math.round((correctCount / currentQuestion) * 100)}%`;
             document.getElementById('avgScore').textContent =
                 `Average Score per Question: ${Math.round(score / currentQuestion)}`;
+            document.getElementById('bestStreak').textContent =
+                `Best Streak: ${bestStreak}`;
         }
 
         function updateScore() {

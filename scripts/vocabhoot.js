@@ -9,14 +9,14 @@ class VocabHootGame {
         this.QUESTION_TIME = 20;
         this.isAnswered = false;
         this.sounds = {
-            background: new Audio('/sounds/game-music.mp3'),
-            correct: new Audio('/sounds/correct.mp3'),
-            wrong: new Audio('/sounds/wrong.mp3'),
-            tick: new Audio('/sounds/tick.mp3'),
-            timeWarning: new Audio('/sounds/time-warning.mp3'),
-            gameOver: new Audio('/sounds/game-over.mp3'),
-            click: new Audio('/sounds/click.mp3'),
-            start: new Audio('/sounds/game-start.mp3')
+            background: new Audio('sound/game-music.mp3'),
+            correct: new Audio('sound/correct.mp3'),
+            wrong: new Audio('sound/wrong.mp3'),
+            tick: new Audio('sound/tick.mp3'),
+            timeWarning: new Audio('sound/time-warning.mp3'),
+            gameOver: new Audio('sound/game-over.mp3'),
+            click: new Audio('sound/click.mp3'),
+            start: new Audio('sound/game-start.mp3')
         };
 
         // Initialize sound settings
