@@ -223,7 +223,7 @@ function startTimer() {
             soundEffects.timeWarning.currentTime = 0;
             soundEffects.timeWarning.play().catch(e => console.log('Error playing sound:', e));
         }
-    }, (QUESTION_TIME - 5) * 1000);
+    }, (QUESTION_TIME - 3) * 1000);
 
     // Play tick sound for timer
     tickInterval = setInterval(() => {
