@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Vocabulary Video Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        canvas {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            max-width: 100%;
+        }
+
+        .progress {
+            height: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin: 20px 0;
+            overflow: hidden;
+            display: none;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        #status {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        video {
+            max-width: 100%;
+            margin: 20px 0;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Vocabulary Video Generator</h1>
+
+    <div class="container">
+        <h2>Enter Vocabulary</h2>
+        <textarea id="vocabInput" placeholder="1. hello: (n) xin chào /həˈləʊ/
+2. world: (n) thế giới /wɜːld/
+3. example: (n) ví dụ /ɪɡˈzɑːmpəl/">1. fair: (n) hội chợ /feə/
+2. awesome: (adj) tuyệt vời /ˈɔːsəm/
+3. open-air market: (n) chợ ngoài trời /ˈəʊpən eə ˈmɑːkɪt/
+4. what do you like about it: (phrase) bạn thích gì về nó /wɒt duː juː laɪk əˈbaʊt ɪt/
+5. costume: (n) trang phục /ˈkɒstjuːm/
+6. wear: (v) mặc /weə/</textarea>
+
+        <div>
+            <button id="convertBtn">Parse Vocabulary</button>
+            <button id="recordBtn" disabled>Generate Video</button>
+            <button id="downloadBtn" disabled>Download Video</button>
+        </div>
+
+        <div id="status"></div>
+        <div class="progress" id="progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <canvas id="canvas" width="800" height="450"></canvas>
+        <video id="videoPreview" controls></video>
+    </div>
+
+    <script>
+        // DOM Elements
+        const vocabInput = document.getElementById('vocabInput');
+        const convertBtn = document.getElementById('convertBtn');
+        const recordBtn = document.getElementById('recordBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const status = document.getElementById('status');
+        const progress = document.getElementById('progress');
+        const progressBar = document.getElementById('progressBar');
+        const videoPreview = document.getElementById('videoPreview');
+
+        // Video settings
+        const WIDTH = 1280;
+        const HEIGHT = 720;
+        const FPS = 30;
+        const WORD_DURATION = 6; // seconds
+        const INTRO_DURATION = 3; // seconds
+
+        // Resize canvas for better display
+        canvas.width = WIDTH;
+        canvas.height = HEIGHT;
+
+        // Global variables
+        let vocabulary = [];
+        let mediaRecorder = null;
+        let recordedChunks = [];
+        let videoBlob = null;
+        let isRecording = false;
+
+        // Parse vocabulary function
+        function parseVocabulary(text) {
+            const lines = text.trim().split('\n');
+            const vocabulary = [];
+
+            for (const line of lines) {
+                if (!line.trim()) continue;
+
+                // Remove line numbers
+                const content = line.replace(/^\d+\.\s*/, '');
+                const parts = content.split(':');
+
+                if (parts.length < 2) continue;
+
+                const english = parts[0].trim();
+                const rest = parts[1].trim();
+
+                const typeMatch = rest.match(/\([a-z.\s]+\)/);
+                const type = typeMatch ? typeMatch[0] : '';
+
+                const pronMatch = rest.match(/\/[^/]+\//);
+                const pronunciation = pronMatch ? pronMatch[0] : '';
+
+                let vietnamese = rest
+                    .replace(type, '')
+                    .replace(pronunciation, '')
+                    .trim();
+
+                vocabulary.push({
+                    english,
+                    type,
+                    vietnamese,
+                    pronunciation
+                });
+            }
+
+            return vocabulary;
+        }
+
+        // Draw word frame
+        function drawWordFrame(word) {
+            // Clear canvas
+            ctx.fillStyle = '#f5f5f5';
+            ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+            // Card background
+            ctx.fillStyle = '#ffffff';
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.1)';
+            ctx.shadowBlur = 10;
+            ctx.fillRect(50, 50, WIDTH - 100, HEIGHT - 100);
+            ctx.shadowBlur = 0;
+
+            // Text properties
+            ctx.textAlign = 'center';
+            const centerX = WIDTH / 2;
+
+            // English word
+            ctx.font = `bold ${HEIGHT / 15}px Arial, sans-serif`;
+            ctx.fillStyle = '#2c3e50';
+            ctx.fillText(word.english, centerX, HEIGHT / 3);
+
+            // Word type
+            ctx.font = `${HEIGHT / 20}px Arial, sans-serif`;
+            ctx.fillStyle = '#27ae60';
+            ctx.fillText(word.type, centerX, HEIGHT / 3 + HEIGHT / 15 + 10);
+
+            // Vietnamese translation
+            ctx.font = `${HEIGHT / 18}px Arial, sans-serif`;
+            ctx.fillStyle = '#e74c3c';
+            ctx.fillText(word.vietnamese, centerX, HEIGHT / 2 + 20);
+
+            // Pronunciation
+            ctx.font = `italic ${HEIGHT / 25}px Arial, sans-serif`;
+            ctx.fillStyle = '#3498db';
+            ctx.fillText(word.pronunciation, centerX, HEIGHT / 2 + HEIGHT / 15 + 40);
+        }
+
+        // Draw intro frame
+        function drawIntroFrame(progress) {
+            // Clear canvas
+            ctx.fillStyle = '#f5f5f5';
+            ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+            // Calculate opacity for fade
+            const opacity = progress < 0.2 ? progress / 0.2 :
+                progress > 0.8 ? (1 - progress) / 0.2 : 1;
+
+            // Draw title
+            ctx.globalAlpha = opacity;
+            ctx.font = `bold ${HEIGHT / 10}px Arial, sans-serif`;
+            ctx.fillStyle = '#2c3e50';
+            ctx.textAlign = 'center';
+            ctx.fillText('Vocabulary Learning', WIDTH / 2, HEIGHT / 2 - 40);
+
+            // Draw subtitle
+            ctx.font = `${HEIGHT / 15}px Arial, sans-serif`;
+            ctx.fillStyle = '#3498db';
+            ctx.fillText('Learn with videos', WIDTH / 2, HEIGHT / 2 + 40);
+
+            ctx.globalAlpha = 1.0;
+        }
+
+        // Generate video function
+        async function generateVideo() {
+            if (vocabulary.length === 0) {
+                alert('No vocabulary loaded. Please parse vocabulary first.');
+                return;
+            }
+
+            try {
+                // Reset recorded chunks
+                recordedChunks = [];
+
+                // Set up MediaRecorder with canvas stream
+                const stream = canvas.captureStream(FPS);
+                mediaRecorder = new MediaRecorder(stream, {
+                    mimeType: 'video/webm;codecs=vp8',
+                    videoBitsPerSecond: 5000000 // 5 Mbps
+                });
+
+                mediaRecorder.ondataavailable = (e) => {
+                    if (e.data && e.data.size > 0) {
+                        recordedChunks.push(e.data);
+                    }
+                };
+
+                mediaRecorder.onstop = () => {
+                    // Create video blob
+                    videoBlob = new Blob(recordedChunks, { type: 'video/webm' });
+
+                    // Display video for preview
+                    videoPreview.src = URL.createObjectURL(videoBlob);
+                    videoPreview.style.display = 'block';
+
+                    // Enable download button
+                    downloadBtn.disabled = false;
+
+                    // Hide progress
+                    progress.style.display = 'none';
+
+                    // Update status
+                    status.textContent = 'Video ready! Click "Download Video" to save.';
+                };
+
+                // Start recording
+                mediaRecorder.start(1000); // Collect data every second
+                isRecording = true;
+
+                // Disable record button during recording
+                recordBtn.disabled = true;
+
+                // Show progress
+                progress.style.display = 'block';
+                status.textContent = 'Generating video...';
+
+                // Calculate total frames
+                const totalFrames = ((vocabulary.length * WORD_DURATION) + INTRO_DURATION) * FPS;
+                let currentFrame = 0;
+
+                // Animation function for recording
+                const animate = async () => {
+                    // Calculate current time
+                    const elapsedSeconds = currentFrame / FPS;
+
+                    if (elapsedSeconds < INTRO_DURATION) {
+                        // Draw intro
+                        const progress = elapsedSeconds / INTRO_DURATION;
+                        drawIntroFrame(progress);
+                    } else {
+                        // Draw vocabulary words
+                        const wordSeconds = elapsedSeconds - INTRO_DURATION;
+                        const wordIndex = Math.min(
+                            Math.floor(wordSeconds / WORD_DURATION),
+                            vocabulary.length - 1
+                        );
+
+                        drawWordFrame(vocabulary[wordIndex]);
+                    }
+
+                    // Update progress
+                    currentFrame++;
+                    const percentage = (currentFrame / totalFrames) * 100;
+                    progressBar.style.width = `${percentage}%`;
+
+                    // Check if done
+                    if (currentFrame >= totalFrames) {
+                        // Stop recording
+                        if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                            mediaRecorder.stop();
+                        }
+
+                        isRecording = false;
+                        recordBtn.disabled = false;
+
+                        return;
+                    }
+
+                    // Continue animation
+                    if (isRecording) {
+                        setTimeout(animate, 1000 / FPS);
+                    }
+                };
+
+                // Start animation
+                animate();
+
+            } catch (error) {
+                console.error('Error generating video:', error);
+                status.textContent = 'Error: ' + error.message;
+                recordBtn.disabled = false;
+            }
+        }
+
+        // Download function
+        function downloadVideo() {
+            if (!videoBlob) {
+                alert('No video available to download.');
+                return;
+            }
+
+            const url = URL.createObjectURL(videoBlob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'vocabulary.webm';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            // Clean up URL object
+            setTimeout(() => URL.revokeObjectURL(url), 100);
+        }
+
+        // Button event listeners
+        convertBtn.addEventListener('click', () => {
+            try {
+                vocabulary = parseVocabulary(vocabInput.value);
+
+                if (vocabulary.length === 0) {
+                    status.textContent = 'No valid vocabulary entries found.';
+                    return;
+                }
+
+                // Draw first word for preview
+                drawWordFrame(vocabulary[0]);
+
+                // Enable record button
+                recordBtn.disabled = false;
+
+                // Update status
+                status.textContent = `Parsed ${vocabulary.length} vocabulary entries. Click "Generate Video" to create video.`;
+
+            } catch (error) {
+                console.error('Error parsing vocabulary:', error);
+                status.textContent = 'Error: ' + error.message;
+            }
+        });
+
+        recordBtn.addEventListener('click', generateVideo);
+        downloadBtn.addEventListener('click', downloadVideo);
+    </script>
+</body>
+
+</html> 

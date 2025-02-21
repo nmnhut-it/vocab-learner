@@ -246,6 +246,27 @@
             background: #2196F3;
             margin-top: 20px;
         }
+
+        /* Error Screen */
+        .error-screen {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .error-title {
+            color: #f44336;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
     </style>
 </head>
 
@@ -259,7 +280,8 @@
 
         <div id="questionScreen" class="screen">
             <div class="game-header">
-                <div class="progress">Question <span id="currentQuestion">1</span>/10</div>
+                <div class="progress">Question <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
+                </div>
                 <div class="score">Score: <span id="scoreDisplay">0</span></div>
             </div>
 
@@ -283,6 +305,12 @@
             </div>
             <button class="start-btn play-again" onclick="startGame()">Play Again</button>
         </div>
+
+        <div id="errorScreen" class="screen error-screen">
+            <h2 class="error-title">Oops!</h2>
+            <p class="error-message">No vocabulary data found. Please add some vocabulary words first!</p>
+            <button class="start-btn" onclick="window.parent.closeGame()">Go Back</button>
+        </div>
     </div>
 
     <script>
@@ -291,25 +319,41 @@
         let score = 0;
         let correctCount = 0;
         let timer;
-        const QUESTION_TIME = 20;
+        const QUESTION_TIME = 20; // seconds
         let isAnswered = false;
+        const MAX_QUESTIONS = 10;
+        Plants can make places more beautiful, but they can harm the environment by taking over the natural resources of local plants
+Xem thêm tại: https://loigiaihay.com/tieng-anh-9-unit-10-skills-2-a163773.html
 
-        // Request vocabulary data from parent window
-        window.onload = () => {
-            window.parent.postMessage({ type: 'requestVocabulary' }, '*');
-            showScreen('welcomeScreen');
-            requestVocabulary();
-        };
+        // Extract vocabulary data from URL parameters
+        function getVocabularyFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const dataParam = urlParams.get('data');
 
-        // Receive vocabulary data
-        window.addEventListener('message', (event) => {
-            if (event.data.type === 'vocabularyData') {
-                vocabulary = event.data.data;
-                if (vocabulary.length === 0) {
-                    alert('Please add some vocabulary first!');
+            if (dataParam) {
+                try {
+                    return JSON.parse(decodeURIComponent(dataParam));
+                } catch (error) {
+                    console.error('Error parsing vocabulary data:', error);
+                    return [];
                 }
             }
-        });
+            return [];
+        }
+
+        // Load vocabulary data on page load
+        window.onload = () => {
+            vocabulary = getVocabularyFromURL();
+
+            if (vocabulary.length === 0) {
+                showScreen('errorScreen');
+            } else {
+                // Update total questions display
+                document.getElementById('totalQuestions').textContent =
+                    Math.min(vocabulary.length, MAX_QUESTIONS);
+                showScreen('welcomeScreen');
+            }
+        };
 
         function showScreen(screenId) {
             document.querySelectorAll('.screen').forEach(screen => {
@@ -317,16 +361,13 @@
             });
             document.getElementById(screenId).style.display = 'block';
         }
-        function requestVocabulary() {
-            window.parent.postMessage({ type: 'requestVocabulary' }, '*');
-        }
+
         function startGame() {
             if (vocabulary.length === 0) {
-                window.parent.postMessage({ type: 'requestVocabulary' }, '*');
-                // alert('Please add some vocabulary first!');
+                showScreen('errorScreen');
                 return;
-
             }
+
             score = 0;
             currentQuestion = 0;
             correctCount = 0;
@@ -354,7 +395,7 @@
         }
 
         function showQuestion() {
-            if (currentQuestion >= vocabulary.length || currentQuestion >= 10) {
+            if (currentQuestion >= vocabulary.length || currentQuestion >= MAX_QUESTIONS) {
                 showResults();
                 return;
             }
@@ -449,11 +490,12 @@
         }
 
         function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
+            const newArray = [...array]; // Create a copy to avoid modifying the original
+            for (let i = newArray.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
             }
-            return array;
+            return newArray;
         }
     </script>
 </body>

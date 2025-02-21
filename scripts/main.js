@@ -263,13 +263,31 @@ document.addEventListener('DOMContentLoaded', function () {
     const mainContent = document.getElementById('mainContent');
 
     function showGame() {
-        // Only set src first time to avoid reloading
-        if (!gameFrame.src) {
-            gameFrame.src = 'vocabhoot.html';
+        const vocabularyList = Array.from(
+            document.querySelectorAll('.vocab-item')
+        ).map(item => ({
+            english: item.querySelector('.english').textContent,
+            type: item.querySelector('.type').textContent,
+            vietnamese: item.querySelector('.vietnamese').textContent,
+            pronunciation: item.querySelector('.pronunciation').textContent
+        }));
+
+        if (vocabularyList.length === 0) {
+            alert('Please add some vocabulary first!');
+            return;
         }
+
+        // Encode vocabulary data as JSON and then as a URL-safe string
+        const vocabData = encodeURIComponent(JSON.stringify(vocabularyList));
+
+        // Set the iframe src with the data in the URL
+        gameFrame.src = `vocabhoot.html?data=${vocabData}`;
+
+        // Show the game container
         gameContainer.style.display = 'flex';
         document.body.style.overflow = 'hidden'; // Prevent scrolling
     }
+
 
     function hideGame() {
         gameContainer.style.display = 'none';

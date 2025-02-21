@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI TTS</title>
+</head>
+<body>
+    <h2>OpenAI Text-to-Speech</h2>
+    <label>Enter your OpenAI API Key:</label>
+    <input type="password" id="api-key" placeholder="Paste API key here"><br><br>
+    <textarea id="text-input" rows="4" cols="50" placeholder="Enter text here..."></textarea><br>
+    <button onclick="generateSpeech()">Convert to Speech</button>
+    <audio id="audio-player" controls></audio>
+
+    <script>
+        async function generateSpeech() {
+            const apiKey = document.getElementById("api-key").value.trim();
+            const text = document.getElementById("text-input").value.trim();
+
+            if (!apiKey) {
+                alert("Please enter your OpenAI API key.");
+                return;
+            }
+            if (!text) {
+                alert("Please enter some text.");
+                return;
+            }
+
+            try {
+                const response = await fetch("https://api.openai.com/v1/audio/speech", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: "tts-1",
+                        voice: "alloy",
+                        input: text
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.statusText}`);
+                }
+
+                const audioBlob = await response.blob();
+                const audioUrl = URL.createObjectURL(audioBlob);
+                document.getElementById("audio-player").src = audioUrl;
+            } catch (error) {
+                alert("Failed to generate speech: " + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

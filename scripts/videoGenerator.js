@@ -330,10 +330,10 @@ class VocabVideoGenerator {
 
         // Vietnamese translation with fade in
 
-        // this.ctx.font = '36px Arial';
-        // this.ctx.fillStyle = '#e74c3c';
-        // this.ctx.globalAlpha = progress < 0.3 ? progress / 0.3 : opacity;
-        // this.ctx.fillText(word.vietnamese, this.canvas.width / 2, this.canvas.height / 2 + 30);
+        this.ctx.font = '36px Arial';
+        this.ctx.fillStyle = '#e74c3c';
+        this.ctx.globalAlpha = progress < 0.3 ? progress / 0.3 : opacity;
+        this.ctx.fillText(word.vietnamese, this.canvas.width / 2, this.canvas.height / 2 + 30);
 
         // Pronunciation with slide in
         this.ctx.font = 'italic 28px Arial';
@@ -533,23 +533,21 @@ class VocabVideoGenerator {
             await this.measureAllPronunciations();
         }
 
-
         const canvasStream = this.canvas.captureStream(30);
 
         // Set up audio context and destination
         this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
         this.audioDestination = this.audioContext.createMediaStreamDestination();
 
-        // Create audio elements for recording
-        const audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        const micSource = this.audioContext.createMediaStreamSource(audioStream);
-        micSource.connect(this.audioDestination);
+        // REMOVED: No longer requesting microphone access
+        // const audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        // const micSource = this.audioContext.createMediaStreamSource(audioStream);
+        // micSource.connect(this.audioDestination);
 
         recordBtn.disabled = false;
         recordBtn.textContent = '⏹ Stop Recording';
         recordBtn.style.backgroundColor = '#c0392b';
 
-        // Set up audio elements for recording
         // Set up audio elements for recording - only create sources if they don't exist
         if (!this.introSource) {
             this.introSource = this.audioContext.createMediaElementSource(this.introSound);
@@ -563,6 +561,42 @@ class VocabVideoGenerator {
         this.introSource.connect(this.audioContext.destination);
         this.tinkSource.connect(this.audioDestination);
         this.tinkSource.connect(this.audioContext.destination);
+
+        // Set up speech synthesis for recording
+        // Create a custom audio node for speech synthesis
+        this.speechSynthNode = this.audioContext.createGain();
+        this.speechSynthNode.gain.value = 1.0; // Full volume
+        this.speechSynthNode.connect(this.audioDestination);
+        this.speechSynthNode.connect(this.audioContext.destination);
+
+        // Modified speakWord to capture speech synthesis for recording
+        this.originalSpeakWord = this.speakWord;
+        this.speakWord = (text, volume = 1) => {
+            return new Promise((resolve) => {
+                this.currentUtterance = new SpeechSynthesisUtterance(text);
+
+                const voiceSelect = document.getElementById('voiceSelect');
+                const speedRange = document.getElementById('speedRange');
+
+                if (voiceSelect.value) {
+                    this.currentUtterance.voice = this.synth.getVoices()[voiceSelect.value];
+                }
+                this.currentUtterance.volume = volume;
+                this.currentUtterance.rate = parseFloat(speedRange.value);
+
+                this.currentUtterance.onend = () => {
+                    this.lastPronunciationEnd = performance.now();
+                    resolve();
+                };
+
+                this.currentUtterance.onerror = (error) => {
+                    console.error("Speech error for:", text, error);
+                    resolve();  // Resolve even on error
+                };
+
+                this.synth.speak(this.currentUtterance);
+            });
+        };
 
         // Create media recorder with combined streams
         const combinedStream = new MediaStream([
@@ -604,6 +638,11 @@ class VocabVideoGenerator {
 
         this.mediaRecorder.onstop = () => {
             document.getElementById('downloadBtn').disabled = false;
+            // Restore original speakWord function
+            if (this.originalSpeakWord) {
+                this.speakWord = this.originalSpeakWord;
+                this.originalSpeakWord = null;
+            }
         };
 
         this.recordedChunks = [];
