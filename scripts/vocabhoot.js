@@ -1,152 +1,185 @@
-// Game state management
-class VocabHootGame {
-    constructor() {
-        this.vocabulary = [];
-        this.currentQuestion = 0;
-        this.score = 0;
-        this.correctCount = 0;
-        this.timer = null;
-        this.QUESTION_TIME = 20;
-        this.isAnswered = false;
-        this.sounds = {
-            background: new Audio('sound/game-music.mp3'),
-            correct: new Audio('sound/correct.mp3'),
-            wrong: new Audio('sound/wrong.mp3'),
-            tick: new Audio('sound/tick.mp3'),
-            timeWarning: new Audio('sound/time-warning.mp3'),
-            gameOver: new Audio('sound/game-over.mp3'),
-            click: new Audio('sound/click.mp3'),
-            start: new Audio('sound/game-start.mp3')
-        };
+let vocabulary = [];
+let currentQuestion = 0;
+let score = 0;
+let correctCount = 0;
+let timer;
+let timeWarningTimeout;
+let tickInterval;
+let streak = 0;
+let bestStreak = 0;
+const QUESTION_TIME = 20; // seconds
+let isAnswered = false;
+let currentQuestionId = null; // Track the active question ID
+const MAX_QUESTIONS = 10;
+let soundEffects = {
+    correct: new Audio('sound/correct.mp3'),
+    wrong: new Audio('sound/wrong.mp3'),
+    tick: new Audio('sound/tick.mp3'),
+    tink: new Audio('sound/tink.mp3'),
+    gameStart: new Audio('sound/game-start.mp3'),
+    gameOver: new Audio('sound/game-over.mp3'),
+    timeWarning: new Audio('sound/time-warning.mp3')
+};
 
-        // Initialize sound settings
-        Object.values(this.sounds).forEach(sound => {
-            sound.preload = 'auto';
-            if (sound === this.sounds.background) {
-                sound.loop = true;
-                sound.volume = 0.3;
+// Request vocabulary data from parent window
+window.onload = () => {
+    // First try to get from parent window
+    window.parent.postMessage({ type: 'requestVocabulary' }, '*');
+    // Add this to vocabhoot.html
+    const CRYPTO_KEY = "voctoolpasskey"; // Must match the key in main.js
+
+    // Unicode-safe decryption
+    function decryptData(encoded, key) {
+        try {
+            const text = atob(encoded); // Convert from base64
+            let result = '';
+            for (let i = 0; i < text.length; i++) {
+                result += String.fromCharCode(text.charCodeAt(i) ^ key.charCodeAt(i % key.length));
             }
-        });
-
-        this.initializeGame();
-        this.setupEventListeners();
-    }
-
-    initializeGame() {
-        // Request vocabulary data from parent window
-        window.parent.postMessage({ type: 'requestVocabulary' }, '*');
-        this.showScreen('welcomeScreen');
-
-        // Initialize UI elements
-        this.screens = {
-            welcome: document.getElementById('welcomeScreen'),
-            question: document.getElementById('questionScreen'),
-            results: document.getElementById('resultsScreen')
-        };
-
-        this.elements = {
-            currentQuestion: document.getElementById('currentQuestion'),
-            scoreDisplay: document.getElementById('scoreDisplay'),
-            questionText: document.getElementById('questionText'),
-            answersContainer: document.getElementById('answersContainer'),
-            timerBar: document.querySelector('.timer-bar'),
-            streakCounter: document.getElementById('streakCounter'),
-            comboMultiplier: document.getElementById('comboMultiplier')
-        };
-    }
-
-    setupEventListeners() {
-        // Handle vocabulary data reception
-        window.addEventListener('message', (event) => {
-            if (event.data.type === 'vocabularyData') {
-                this.vocabulary = event.data.data;
-                if (this.vocabulary.length === 0) {
-                    alert('Please add some vocabulary first!');
-                }
-            }
-        });
-
-        // Add touch support for mobile devices
-        document.addEventListener('touchstart', this.handleTouchStart.bind(this));
-    }
-
-    startGame() {
-        if (this.vocabulary.length === 0) {
-            window.parent.postMessage({ type: 'requestVocabulary' }, '*');
-            alert('Please add some vocabulary first!');
-            return;
+            // Decode the UTF-8 string back to Unicode
+            return decodeURIComponent(result);
+        } catch (error) {
+            console.error('Decryption error:', error);
+            return '';
         }
-
-        this.resetGameState();
-        this.sounds.start.play();
-        this.sounds.background.play();
-        this.showQuestion();
     }
 
-    resetGameState() {
-        this.score = 0;
-        this.currentQuestion = 0;
-        this.correctCount = 0;
-        this.streak = 0;
-        this.updateScore();
-        this.updateStreak();
-    }
+    // Modified getVocabularyFromURL function
+    function getVocabularyFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const encryptedData = urlParams.get('data');
 
-    generateQuestion() {
-        const word = this.vocabulary[this.currentQuestion];
-        const options = [word.vietnamese];
-
-        // Add 3 random incorrect options
-        while (options.length < 4) {
-            const randomWord = this.vocabulary[Math.floor(Math.random() * this.vocabulary.length)];
-            if (!options.includes(randomWord.vietnamese)) {
-                options.push(randomWord.vietnamese);
+        if (encryptedData) {
+            try {
+                const decryptedData = decryptData(encryptedData, CRYPTO_KEY);
+                return JSON.parse(decryptedData);
+            } catch (error) {
+                console.error('Error parsing vocabulary data:', error);
+                return [];
             }
         }
-
-        return {
-            question: word.english,
-            options: this.shuffleArray(options),
-            correct: word.vietnamese,
-            type: word.type // Include word type for additional context
-        };
+        return [];
     }
-
-    showQuestion() {
-        if (this.currentQuestion >= this.vocabulary.length || this.currentQuestion >= 10) {
-            this.showResults();
-            return;
+    // Listen for vocabulary data from parent
+    window.addEventListener('message', function (event) {
+        if (event.data && event.data.type === 'vocabularyData') {
+            vocabulary = event.data.data;
+            initializeGame();
         }
+    });
 
-        this.isAnswered = false;
-        this.showScreen('questionScreen');
-        const question = this.generateQuestion();
+    // Set a timeout to show error if no data received
+    setTimeout(() => {
+        if (vocabulary.length === 0) {
+            showScreen('errorScreen');
+        }
+    }, 1000);
+};
 
-        // Update UI
-        this.elements.currentQuestion.textContent = this.currentQuestion + 1;
-        this.elements.questionText.innerHTML = this.formatQuestion(question);
-        this.renderAnswerOptions(question);
-        this.startTimer();
+function initializeGame() {
+    if (vocabulary.length > 0) {
+        document.getElementById('totalQuestions').textContent =
+            Math.min(vocabulary.length, MAX_QUESTIONS);
+        showScreen('welcomeScreen');
+    }
+}
+
+// Extract vocabulary data from URL parameters
+function getVocabularyFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const dataParam = urlParams.get('data');
+
+    if (dataParam) {
+        try {
+            return JSON.parse(decodeURIComponent(dataParam));
+        } catch (error) {
+            console.error('Error parsing vocabulary data:', error);
+            return [];
+        }
+    }
+    return [];
+}
+
+function showScreen(screenId) {
+    document.querySelectorAll('.screen').forEach(screen => {
+        screen.style.display = 'none';
+    });
+    document.getElementById(screenId).style.display = 'block';
+}
+
+function startGame() {
+    if (vocabulary.length === 0) {
+        showScreen('errorScreen');
+        return;
     }
 
-    formatQuestion(question) {
-        return `
-            <div class="question-word">${question.question}</div>
-            <div class="question-type">${question.type}</div>
-            <div class="question-prompt">What's the meaning?</div>
-        `;
+    // Play game start sound
+    soundEffects.gameStart.currentTime = 0;
+    soundEffects.gameStart.play().catch(e => console.log('Error playing sound:', e));
+
+    score = 0;
+    currentQuestion = 0;
+    correctCount = 0;
+    streak = 0;
+    bestStreak = 0;
+    updateScore();
+    updateStreak();
+    showQuestion();
+}
+
+function generateQuestion() {
+    const word = vocabulary[currentQuestion];
+    const options = [word.vietnamese];
+
+    // Add 3 random incorrect options
+    while (options.length < 4) {
+        const randomIndex = Math.floor(Math.random() * vocabulary.length);
+        const randomWord = vocabulary[randomIndex];
+        if (!options.includes(randomWord.vietnamese) && randomWord.vietnamese !== word.vietnamese) {
+            options.push(randomWord.vietnamese);
+        }
     }
 
-    renderAnswerOptions(question) {
-        this.elements.answersContainer.innerHTML = '';
-        question.options.forEach((option, index) => {
-            const button = this.createAnswerButton(option, index);
-            button.onclick = () => this.checkAnswer(option, question.correct, button);
-            this.elements.answersContainer.appendChild(button);
-        });
+    return {
+        question: word.english,
+        type: word.type || '',
+        options: shuffleArray(options),
+        correct: word.vietnamese
+    };
+}
+
+function showQuestion() {
+    if (currentQuestion >= vocabulary.length || currentQuestion >= MAX_QUESTIONS) {
+        showResults();
+        return;
     }
 
-    createAnswerButton(option, index) {
+    // Generate unique ID for this question to prevent misplays
+    currentQuestionId = Math.random().toString(36).substring(2, 10);
+    const questionId = currentQuestionId;
+
+    isAnswered = false;
+    showScreen('questionScreen');
+    const question = generateQuestion();
+
+    // Play sound effect when showing a new question
+    soundEffects.tink.currentTime = 0;
+    soundEffects.tink.play().catch(e => console.log('Error playing sound:', e));
+
+    // Safety check to prevent sounds from playing on wrong questions
+    if (questionId !== currentQuestionId) {
+        console.log('Question changed, cancelling sounds');
+        return;
+    }
+
+    document.getElementById('currentQuestion').textContent = currentQuestion + 1;
+    document.getElementById('questionWord').textContent = question.question;
+    document.getElementById('questionType').textContent = question.type;
+
+    const container = document.getElementById('answersContainer');
+    container.innerHTML = '';
+
+    question.options.forEach((option, index) => {
         const button = document.createElement('button');
         button.className = `answer-btn answer-${index}`;
 
@@ -158,144 +191,168 @@ class VocabHootGame {
 
         button.appendChild(shape);
         button.appendChild(text);
+        button.onclick = () => checkAnswer(option, question.correct, button);
+        container.appendChild(button);
+    });
 
-        return button;
+    startTimer();
+}
+
+function startTimer() {
+    const timerBar = document.querySelector('.timer-bar');
+    timerBar.style.transition = 'none';
+    timerBar.style.width = '100%';
+
+    // Store current question ID to check if question changes
+    const questionId = currentQuestionId;
+
+    setTimeout(() => {
+        // Check if we're still on the same question
+        if (questionId !== currentQuestionId) return;
+
+        timerBar.style.transition = `width ${QUESTION_TIME}s linear`;
+        timerBar.style.width = '0%';
+    }, 50);
+
+    // Set a timer to play a warning sound when time is running low (5 seconds left)
+    timeWarningTimeout = setTimeout(() => {
+        // Check if we're still on the same question
+        if (questionId !== currentQuestionId) return;
+
+        if (!isAnswered) {
+            soundEffects.timeWarning.currentTime = 0;
+            soundEffects.timeWarning.play().catch(e => console.log('Error playing sound:', e));
+        }
+    }, (QUESTION_TIME - 5) * 1000);
+
+    // Play tick sound for timer
+    tickInterval = setInterval(() => {
+        // Check if we're still on the same question
+        if (questionId !== currentQuestionId) {
+            clearInterval(tickInterval);
+            return;
+        }
+
+        if (isAnswered) {
+            clearInterval(tickInterval);
+            return;
+        }
+        soundEffects.tick.currentTime = 0;
+        soundEffects.tick.play().catch(e => { });
+    }, 1000);
+
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+        // Check if we're still on the same question
+        if (questionId !== currentQuestionId) return;
+
+        clearInterval(tickInterval);
+        checkAnswer(null);
+    }, QUESTION_TIME * 1000);
+}
+
+function checkAnswer(selected, correct, selectedButton) {
+    if (isAnswered) return;
+
+    // Store current question ID to prevent answer processing for wrong questions
+    const questionId = currentQuestionId;
+
+    isAnswered = true;
+    clearTimeout(timer);
+    clearTimeout(timeWarningTimeout);
+    clearInterval(tickInterval);
+
+    const buttons = document.querySelectorAll('.answer-btn');
+    buttons.forEach(button => {
+        button.classList.add('disabled');
+        if (button.querySelector('span').textContent === correct) {
+            button.classList.add('correct');
+        }
+    });
+
+    const isCorrect = selected === correct;
+
+    if (selectedButton) {
+        selectedButton.classList.add(isCorrect ? 'correct' : 'wrong');
     }
 
-    startTimer() {
-        this.elements.timerBar.style.transition = 'none';
-        this.elements.timerBar.style.width = '100%';
+    if (isCorrect) {
+        // Play correct sound
+        soundEffects.correct.currentTime = 0;
+        soundEffects.correct.play().catch(e => console.log('Error playing sound:', e));
 
-        // Play tick sound when 5 seconds remaining
-        setTimeout(() => {
-            if (!this.isAnswered) {
-                this.sounds.timeWarning.play();
-            }
-        }, (this.QUESTION_TIME - 5) * 1000);
+        // Calculate score based on remaining time
+        const timeLeft = parseFloat(getComputedStyle(document.querySelector('.timer-bar')).width) /
+            parseFloat(getComputedStyle(document.querySelector('.timer')).width);
+        score += Math.round(1000 * timeLeft);
+        correctCount++;
 
-        setTimeout(() => {
-            this.elements.timerBar.style.transition = `width ${this.QUESTION_TIME}s linear`;
-            this.elements.timerBar.style.width = '0%';
-        }, 50);
+        // Update streak
+        streak++;
+        if (streak > bestStreak) {
+            bestStreak = streak;
+        }
+    } else {
+        // Play wrong sound
+        soundEffects.wrong.currentTime = 0;
+        soundEffects.wrong.play().catch(e => console.log('Error playing sound:', e));
 
-        clearTimeout(this.timer);
-        this.timer = setTimeout(() => this.checkAnswer(null), this.QUESTION_TIME * 1000);
+        // Reset streak
+        streak = 0;
     }
 
-    checkAnswer(selected, correct, selectedButton) {
-        if (this.isAnswered) return;
-        this.isAnswered = true;
-        clearTimeout(this.timer);
+    updateScore();
+    updateStreak();
+    currentQuestion++;
 
-        const isCorrect = selected === correct;
-        this.updateGameState(isCorrect, selectedButton);
-        this.playFeedbackSound(isCorrect);
-        this.showAnswerFeedback(correct, selectedButton, isCorrect);
+    setTimeout(() => {
+        // Check if we're still on the same question (prevents duplicate navigation)
+        if (questionId !== currentQuestionId) return;
 
-        setTimeout(() => this.proceedToNextQuestion(), 2000);
-    }
+        showQuestion();
+    }, 2000);
+}
 
-    updateGameState(isCorrect, selectedButton) {
-        if (isCorrect) {
-            const timeLeft = parseFloat(getComputedStyle(this.elements.timerBar).width) /
-                parseFloat(getComputedStyle(document.querySelector('.timer')).width);
-            const baseScore = Math.round(1000 * timeLeft);
-            const multiplier = Math.min(3, 1 + Math.floor(this.streak / 3));
-            this.score += baseScore * multiplier;
-            this.correctCount++;
-            this.streak++;
+function updateStreak() {
+    const streakDisplay = document.getElementById('streakDisplay');
+    if (streakDisplay) {
+        streakDisplay.textContent = streak;
+
+        // Add combo class for visual effect if streak is 3 or more
+        if (streak >= 3) {
+            streakDisplay.className = 'combo';
         } else {
-            this.streak = 0;
-        }
-
-        this.updateScore();
-        this.updateStreak();
-    }
-
-    playFeedbackSound(isCorrect) {
-        if (isCorrect) {
-            this.sounds.correct.play();
-        } else {
-            this.sounds.wrong.play();
-        }
-    }
-
-    showAnswerFeedback(correct, selectedButton, isCorrect) {
-        const buttons = document.querySelectorAll('.answer-btn');
-        buttons.forEach(button => {
-            button.classList.add('disabled');
-            if (button.querySelector('span').textContent === correct) {
-                button.classList.add('correct');
-            }
-        });
-
-        if (selectedButton) {
-            selectedButton.classList.add(isCorrect ? 'correct' : 'wrong');
-        }
-    }
-
-    proceedToNextQuestion() {
-        this.currentQuestion++;
-        this.showQuestion();
-    }
-
-    showResults() {
-        this.sounds.background.pause();
-        this.sounds.background.currentTime = 0;
-        this.sounds.gameOver.play();
-
-        this.showScreen('resultsScreen');
-        this.updateResultsScreen();
-    }
-
-    updateResultsScreen() {
-        document.getElementById('finalScore').textContent = this.score;
-        document.getElementById('correctAnswers').textContent =
-            `Correct: ${this.correctCount}/${this.currentQuestion}`;
-        document.getElementById('accuracy').textContent =
-            `Accuracy: ${Math.round((this.correctCount / this.currentQuestion) * 100)}%`;
-        document.getElementById('avgScore').textContent =
-            `Average Score per Question: ${Math.round(this.score / this.currentQuestion)}`;
-
-        // Add high score tracking if needed
-        this.updateHighScore();
-    }
-
-    // Utility methods
-    showScreen(screenId) {
-        Object.values(this.screens).forEach(screen => {
-            screen.style.display = 'none';
-        });
-        this.screens[screenId].style.display = 'block';
-    }
-
-    updateScore() {
-        this.elements.scoreDisplay.textContent = this.score;
-    }
-
-    updateStreak() {
-        this.elements.streakCounter.textContent = `Streak: ${this.streak}`;
-        const multiplier = Math.min(3, 1 + Math.floor(this.streak / 3));
-        this.elements.comboMultiplier.textContent = `${multiplier}x`;
-    }
-
-    shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
-    handleTouchStart(event) {
-        // Prevent default touch behavior for game buttons
-        if (event.target.closest('.answer-btn')) {
-            event.preventDefault();
+            streakDisplay.className = '';
         }
     }
 }
 
-// Initialize game when document is ready
-document.addEventListener('DOMContentLoaded', () => {
-    window.vocabHoot = new VocabHootGame();
-});
+function showResults() {
+    // Play game over sound
+    soundEffects.gameOver.currentTime = 0;
+    soundEffects.gameOver.play().catch(e => console.log('Error playing sound:', e));
+
+    showScreen('resultsScreen');
+    document.getElementById('finalScore').textContent = score;
+    document.getElementById('correctAnswers').textContent =
+        `Correct: ${correctCount}/${currentQuestion}`;
+    document.getElementById('accuracy').textContent =
+        `Accuracy: ${Math.round((correctCount / currentQuestion) * 100)}%`;
+    document.getElementById('avgScore').textContent =
+        `Average Score per Question: ${Math.round(score / currentQuestion)}`;
+    document.getElementById('bestStreak').textContent =
+        `Best Streak: ${bestStreak}`;
+}
+
+function updateScore() {
+    document.getElementById('scoreDisplay').textContent = score;
+}
+
+function shuffleArray(array) {
+    const newArray = [...array]; // Create a copy to avoid modifying the original
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+}
