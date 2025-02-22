@@ -440,13 +440,93 @@ function generateQuestion() {
             }
         }
     } else if (questionType === 1) {
-        // Vietnamese to English
+        // Vietnamese to English with REALISTIC SPELLING MISTAKES as distractors
         question = word.vietnamese;
         correct = word.english;
         options = [word.english];
         prompt = LANGUAGES[currentLanguage].prompt_translation_vn_en;
 
-        // Add 3 random incorrect options
+        // Generate realistic spelling mistake variants as distractors
+        if (word.english.length >= 3) {
+            // Get user settings from localStorage or default to medium and Vietnamese
+            const difficultyLevel = localStorage.getItem('vocabhoot_difficulty') || 'medium';
+            const nativeLanguage = localStorage.getItem('vocabhoot_nativelang') || 'vi';
+
+            // Check which spelling mistake generator function is available
+            if (typeof generateRealisticVariants === 'function') {
+                // Use the advanced generator from wordScrambler.js
+                const spellingMistakes = generateRealisticVariants(word.english, 3, {
+                    nativeLanguage: nativeLanguage,
+                    difficultyLevel: difficultyLevel,
+                    errorTypes: null, // use all error types
+                    preserveLength: false // allow different lengths for more realistic errors
+                });
+
+                // Add the spelling mistake variants to options
+                for (const mistake of spellingMistakes) {
+                    if (!options.includes(mistake)) {
+                        options.push(mistake);
+                    }
+                }
+            }
+            else if (typeof createL1InterferenceMistake === 'function') {
+                // Direct use of specific error generators if available
+                const errorGenerators = [
+                    createSilentLetterMistake,
+                    createVowelConfusionMistake,
+                    createDoubleLetterMistake,
+                    createLetterCombinationMistake,
+                    createPhoneticSubstitutionMistake,
+                    createHomophoneMistake,
+                    (w) => createL1InterferenceMistake(w, nativeLanguage),
+                    createAffixMistake,
+                    createPronunciationMistake,
+                    createTypingMistake
+                ];
+
+                // Generate mistakes with different error types
+                const usedGenerators = new Set();
+                while (options.length < 4 && usedGenerators.size < errorGenerators.length) {
+                    // Choose a random generator we haven't used yet
+                    let generatorIndex;
+                    do {
+                        generatorIndex = Math.floor(Math.random() * errorGenerators.length);
+                    } while (usedGenerators.has(generatorIndex));
+
+                    usedGenerators.add(generatorIndex);
+                    const errorGenerator = errorGenerators[generatorIndex];
+
+                    // Generate mistake
+                    const mistake = errorGenerator(word.english);
+
+                    // Only add if it's different from original and not already in options
+                    if (mistake !== word.english && !options.includes(mistake)) {
+                        options.push(mistake);
+                    }
+                }
+            }
+            else if (typeof smartScrambleWord === 'function') {
+                // Fallback to basic smart scramble
+                for (let i = 0; i < 3; i++) {
+                    const mistake = smartScrambleWord(word.english, nativeLanguage);
+                    if (!options.includes(mistake)) {
+                        options.push(mistake);
+                    }
+                }
+            }
+            else if (typeof lengthPreservingScramble === 'function') {
+                // Even more basic fallback
+                for (let i = 0; i < 3; i++) {
+                    const mistake = lengthPreservingScramble(word.english);
+                    if (!options.includes(mistake)) {
+                        options.push(mistake);
+                    }
+                }
+            }
+        }
+
+        // If we still don't have enough options (e.g., for very short words),
+        // add random words from vocabulary
         while (options.length < 4) {
             const randomIndex = Math.floor(Math.random() * vocabulary.length);
             const randomWord = vocabulary[randomIndex];

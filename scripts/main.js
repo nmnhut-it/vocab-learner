@@ -829,3 +829,221 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add the Create Link button
     setTimeout(addCreateLinkButton, 500);
 });
+
+
+/**
+ * Helper function to create a simple typical spelling mistake for Vietnamese learners
+ * This is used as a fallback if the advanced spelling mistake generators are not available
+ */
+function createSimpleSpellingMistake(word) {
+    if (word.length <= 3) return word + "s"; // For very short words, just add an 's'
+
+    // Common spelling mistake patterns
+    const patterns = [
+        // Double a letter that shouldn't be doubled
+        () => {
+            const pos = 1 + Math.floor(Math.random() * (word.length - 2));
+            return word.slice(0, pos) + word[pos] + word.slice(pos);
+        },
+
+        // Omit a letter
+        () => {
+            const pos = 1 + Math.floor(Math.random() * (word.length - 2));
+            return word.slice(0, pos) + word.slice(pos + 1);
+        },
+
+        // Swap two adjacent letters
+        () => {
+            const pos = 1 + Math.floor(Math.random() * (word.length - 2));
+            return word.slice(0, pos) + word[pos + 1] + word[pos] + word.slice(pos + 2);
+        },
+
+        // Substitute a vowel
+        () => {
+            const vowels = 'aeiou';
+            const pos = word.split('').findIndex((char, idx) =>
+                idx > 0 && vowels.includes(char.toLowerCase())
+            );
+
+            if (pos > 0) {
+                const otherVowels = vowels.replace(word[pos].toLowerCase(), '').split('');
+                const newVowel = otherVowels[Math.floor(Math.random() * otherVowels.length)];
+                return word.slice(0, pos) + newVowel + word.slice(pos + 1);
+            }
+            return word;
+        },
+
+        // Common b/p, d/t confusion (typical for Vietnamese speakers)
+        () => {
+            const confusions = [
+                { a: 'b', b: 'p' },
+                { a: 'd', b: 't' },
+                { a: 'l', b: 'r' },
+                { a: 'sh', b: 's' },
+                { a: 'j', b: 'ch' },
+                { a: 'th', b: 't' }
+            ];
+
+            for (const { a, b } of confusions) {
+                if (word.toLowerCase().includes(a)) {
+                    return word.replace(new RegExp(a, 'i'), b);
+                } else if (word.toLowerCase().includes(b)) {
+                    return word.replace(new RegExp(b, 'i'), a);
+                }
+            }
+            return word;
+        }
+    ];
+
+    // Choose a random pattern
+    const pattern = patterns[Math.floor(Math.random() * patterns.length)];
+    return pattern();
+}
+
+// Replace getLanguageSpecificErrors function if it doesn't exist
+if (typeof getLanguageSpecificErrors !== 'function') {
+    function getLanguageSpecificErrors(nativeLanguage) {
+        // Basic language-specific error patterns for Vietnamese speakers learning English
+        const viErrors = {
+            finalConsonantOmission: ['t', 'd', 'p', 'c', 'k', 'ch', 'f'],
+            consonantConfusion: [
+                { a: 'b', b: 'p' }, // b/p confusion
+                { a: 'd', b: 't' }, // d/t confusion
+                { a: 'j', b: 'ch' }, // j/ch confusion
+                { a: 'l', b: 'r' }, // l/r confusion (very common)
+                { a: 'sh', b: 's' }, // sh/s confusion
+                { a: 'v', b: 'f' } // v/f confusion
+            ]
+        };
+
+        return nativeLanguage === 'vi' ? viErrors : {};
+    }
+}
+
+// Helper function to create L1 interference mistakes if it doesn't exist
+if (typeof createL1InterferenceMistake !== 'function') {
+    function createL1InterferenceMistake(word, nativeLanguage) {
+        if (nativeLanguage !== 'vi' || word.length <= 3) {
+            return word;
+        }
+
+        const errors = getLanguageSpecificErrors('vi');
+
+        // 50% chance to apply final consonant omission
+        if (Math.random() < 0.5) {
+            for (const consonant of errors.finalConsonantOmission) {
+                if (word.toLowerCase().endsWith(consonant)) {
+                    return word.slice(0, word.length - consonant.length);
+                }
+            }
+        }
+
+        // 50% chance to apply consonant confusion
+        if (Math.random() < 0.5) {
+            for (const { a, b } of errors.consonantConfusion) {
+                if (word.toLowerCase().includes(a)) {
+                    return word.replace(new RegExp(a, 'ig'), b);
+                } else if (word.toLowerCase().includes(b)) {
+                    return word.replace(new RegExp(b, 'ig'), a);
+                }
+            }
+        }
+
+        return word;
+    }
+}
+
+/**
+ * Replace the simple version of smartScrambleWord if it doesn't exist
+ * This creates a language-aware scrambling that preserves word structure
+ */
+if (typeof smartScrambleWord !== 'function') {
+    function smartScrambleWord(word, nativeLanguage = null) {
+        if (word.length <= 3) return word;
+
+        // Handle multi-word phrases
+        if (word.includes(' ')) {
+            return word.split(' ')
+                .map(w => smartScrambleWord(w, nativeLanguage))
+                .join(' ');
+        }
+
+        // Keep first and last letters
+        const firstLetter = word.charAt(0);
+        const lastLetter = word.charAt(word.length - 1);
+
+        // Get middle section
+        let middle = word.substring(1, word.length - 1);
+
+        // Identify vowels and consonants in the middle section
+        const vowels = 'aeiou';
+        const middleVowels = [];
+        const middleConsonants = [];
+
+        for (let i = 0; i < middle.length; i++) {
+            const char = middle[i].toLowerCase();
+            if (vowels.includes(char)) {
+                middleVowels.push({ char, index: i, isUpper: middle[i] !== char });
+            } else if (/[a-z]/i.test(char)) {
+                middleConsonants.push({ char, index: i, isUpper: middle[i] !== char });
+            }
+        }
+
+        // Create a new scrambled middle while maintaining vowel and consonant positions
+        const middleArray = middle.split('');
+
+        // Scramble vowels among vowel positions
+        for (let i = middleVowels.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const tempChar = middleVowels[i].char;
+            const tempIsUpper = middleVowels[i].isUpper;
+
+            middleVowels[i].char = middleVowels[j].char;
+            middleVowels[i].isUpper = middleVowels[j].isUpper;
+
+            middleVowels[j].char = tempChar;
+            middleVowels[j].isUpper = tempIsUpper;
+        }
+
+        // Scramble consonants among consonant positions
+        for (let i = middleConsonants.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const tempChar = middleConsonants[i].char;
+            const tempIsUpper = middleConsonants[i].isUpper;
+
+            middleConsonants[i].char = middleConsonants[j].char;
+            middleConsonants[i].isUpper = middleConsonants[j].isUpper;
+
+            middleConsonants[j].char = tempChar;
+            middleConsonants[j].isUpper = tempIsUpper;
+        }
+
+        // Reassemble the middle section
+        for (const vowel of middleVowels) {
+            middleArray[vowel.index] = vowel.isUpper ? vowel.char.toUpperCase() : vowel.char;
+        }
+
+        for (const consonant of middleConsonants) {
+            middleArray[consonant.index] = consonant.isUpper ? consonant.char.toUpperCase() : consonant.char;
+        }
+
+        // Make sure it's different from original
+        const scrambledMiddle = middleArray.join('');
+        if (scrambledMiddle === middle && middle.length > 1) {
+            // Swap two adjacent characters
+            const i = Math.floor(Math.random() * (middleArray.length - 1));
+            [middleArray[i], middleArray[i + 1]] = [middleArray[i + 1], middleArray[i]];
+        }
+
+        // Apply language-specific transformations if available
+        let result = firstLetter + middleArray.join('') + lastLetter;
+        if (nativeLanguage && typeof createL1InterferenceMistake === 'function') {
+            // 30% chance to apply L1 interference
+            if (Math.random() < 0.3) {
+                result = createL1InterferenceMistake(result, nativeLanguage);
+            }
+        }
+
+        return result;
+    }
+}   
