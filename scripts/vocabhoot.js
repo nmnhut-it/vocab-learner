@@ -420,8 +420,7 @@ function generateQuestion() {
 
     // const questionType = Math.floor(Math.random() * 3);
     let questionType = Math.floor(Math.random() * 3);
-    if (cheating)
-        questionType = 2;
+
     let question, correct, options, prompt;
     let spellingType = 0; // Default spelling type (scrambled)
 
@@ -480,8 +479,7 @@ function generateQuestion() {
             // 1: Missing vowels
             // 2: Missing consonants
             spellingType = Math.floor(Math.random() * 3);
-            if (cheating)
-                spellingType = 0;
+
             let modifiedWord;
 
             if (spellingType === 0) {
@@ -621,15 +619,39 @@ function removeConsonants(word) {
 
     return word.replace(/[bcdfghjklmnpqrstvwxyz]/gi, '_');
 }
-// Replace the current `addScrambleOptions` function in vocabhoot.js with this version:
-
 /**
- * Adds options for scrambled word challenges
+ * Update for addScrambleOptions function to use the combined approach
  */
 function addScrambleOptions(options, originalWord, vocabulary) {
-    // Import the external scrambler functions if available
-    if (typeof generateScrambleOptions === 'function') {
-        // Use the enhanced scrambler to get 4 options
+    // Get user settings from localStorage or default to medium and Vietnamese
+    const difficultyLevel = localStorage.getItem('vocabhoot_difficulty') || 'medium';
+    const nativeLanguage = localStorage.getItem('vocabhoot_nativelang') || 'vi';
+
+    // Check if our enhanced filter approach is available
+    if (typeof generateFilteredGameOptions === 'function') {
+        // Generate realistic options that maintain length and use only original letters
+        const generatorOptions = {
+            nativeLanguage: nativeLanguage,
+            difficultyLevel: difficultyLevel,
+            preserveLength: true,
+            useOriginalLettersOnly: true,
+            overgenerate: 3
+        };
+
+        // Generate filtered options
+        const filteredOptions = generateFilteredGameOptions(originalWord, 4, generatorOptions);
+
+        // Add the filtered options to our options array
+        for (const option of filteredOptions) {
+            if (!options.includes(option) && option !== originalWord) {
+                options.push(option);
+                if (options.length >= 4) break;
+            }
+        }
+    }
+    // Check if length-preserving scrambler is available as fallback
+    else if (typeof lengthPreservingScramble === 'function') {
+        // Generate scrambled options
         const scrambledOptions = generateScrambleOptions(originalWord, 4);
 
         // Add the scrambled options to our options array
@@ -639,15 +661,15 @@ function addScrambleOptions(options, originalWord, vocabulary) {
                 if (options.length >= 4) break;
             }
         }
-    } else {
-        // Fallback to current implementation if external functions aren't available
-        // Create a differently scrambled version of the word
+    }
+    // Final fallback to original implementation
+    else {
         const altScramble = createAlternativeScramble(originalWord);
         if (altScramble && !options.includes(altScramble)) {
             options.push(altScramble);
         }
 
-        // Add words with similar length and some common letters
+        // Add similar words from vocabulary
         const similarWords = vocabulary
             .map(item => item.english)
             .filter(word =>
@@ -671,7 +693,7 @@ function addScrambleOptions(options, originalWord, vocabulary) {
         }
     }
 
-    // Still need more options? Add random words as a last resort
+    // If we still need more options, add random words from vocabulary
     while (options.length < 4) {
         const randomIndex = Math.floor(Math.random() * vocabulary.length);
         const randomWord = vocabulary[randomIndex].english;
@@ -681,8 +703,7 @@ function addScrambleOptions(options, originalWord, vocabulary) {
     }
 }
 
-// Also replace the scrambleWord function with this improved version
-// (which will be used as fallback if the external functions aren't available)
+
 function scrambleWord(word) {
     if (word.length <= 3) return word;
 
