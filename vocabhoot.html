@@ -9,30 +9,41 @@
 </head>
 
 <body>
+    <div class="language-switcher">
+        <label id="language-label">Language:</label>
+        <select id="language-select" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="vi">Tiếng Việt</option>
+        </select>
+    </div>
+
     <div id="gameContainer">
         <div id="welcomeScreen" class="screen welcome-screen">
-            <h1>VocabHoot!</h1>
-            <p class="welcome-message">Test your vocabulary knowledge with this fun quiz!</p>
+            <h1 id="welcome-title">VocabHoot!</h1>
+            <p id="welcome-message" class="welcome-message">Test your vocabulary knowledge with this fun quiz!</p>
             <div class="instructions">
-                <h2>How to Play</h2>
-                <ul>
+                <h2 id="instructions-title">How to Play</h2>
+                <ul id="instructions-list">
                     <li>You'll be shown words from your vocabulary list</li>
                     <li>Select the correct translation for each word</li>
                     <li>Answer quickly to score more points</li>
                     <li>The green checkmark shows the correct answer</li>
+                    <li>Use keyboard shortcuts: <strong>Q, W, E, R</strong> keys to select answers</li>
                     <li>Try to get the highest score possible!</li>
                 </ul>
             </div>
-            <button class="start-btn pulse-animation" onclick="startGame()">Start Game</button>
+            <button id="start-btn" class="start-btn pulse-animation" onclick="startGame()">Start Game</button>
         </div>
 
         <div id="questionScreen" class="screen">
             <div class="game-header">
-                <div class="progress">Question <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
+                <div class="progress"><span id="question-label">Question</span> <span
+                        id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
                 </div>
                 <div class="score-container">
-                    <div class="score">Score: <span id="scoreDisplay">0</span></div>
-                    <div class="streak-info">Streak: <span id="streakDisplay">0</span></div>
+                    <div class="score"><span id="score-label">Score:</span> <span id="scoreDisplay">0</span></div>
+                    <div class="streak-info"><span id="streak-label">Streak:</span> <span id="streakDisplay">0</span>
+                    </div>
                 </div>
             </div>
 
@@ -48,10 +59,15 @@
                 </div>
                 <div class="answers" id="answersContainer"></div>
             </div>
+
+            <div class="keyboard-shortcuts">
+                <div id="shortcut-hint" class="shortcut-hint">Quick Answer: Use <strong>Q</strong>, <strong>W</strong>,
+                    <strong>E</strong>, <strong>R</strong> keys</div>
+            </div>
         </div>
 
         <div id="resultsScreen" class="screen results-screen">
-            <h2 class="results-title">Game Over!</h2>
+            <h2 id="results-title" class="results-title">Game Over!</h2>
             <div class="final-score" id="finalScore">0</div>
             <div class="stats">
                 <div id="correctAnswers">Correct: 0/0</div>
@@ -59,17 +75,19 @@
                 <div id="avgScore">Average Score per Question: 0</div>
                 <div id="bestStreak">Best Streak: 0</div>
             </div>
-            <button class="start-btn play-again" onclick="startGame()">Play Again</button>
+            <button id="play-again-btn" class="start-btn play-again" onclick="startGame()">Play Again</button>
         </div>
 
         <div id="errorScreen" class="screen error-screen">
-            <h2 class="error-title">Oops!</h2>
-            <p class="error-message">No vocabulary data found. Please add some vocabulary words first!</p>
-            <button class="start-btn" onclick="window.parent.closeGame()">Go Back</button>
+            <h2 id="error-title" class="error-title">Oops!</h2>
+            <p id="error-message" class="error-message">No vocabulary data found. Please add some vocabulary words
+                first!</p>
+            <button id="go-back-btn" class="start-btn" onclick="window.parent.closeGame()">Go Back</button>
         </div>
     </div>
 
-    <script src="scripts/vocabhoot.js" />
+    <script src="scripts/language.js"></script>
+    <script src="scripts/vocabhoot.js"></script>
 </body>
 
 </html>

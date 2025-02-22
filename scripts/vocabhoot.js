@@ -21,10 +21,27 @@ let soundEffects = {
     timeWarning: new Audio('sound/time-warning.mp3')
 };
 
+// Current language (default: English)
+let currentLanguage = 'vi';
+
 // Request vocabulary data from parent window
 window.onload = () => {
     // First try to get from parent window
     window.parent.postMessage({ type: 'requestVocabulary' }, '*');
+
+    // Add keyboard event listener for QWER keys
+    document.addEventListener('keydown', handleKeyPress);
+
+    // Load language from local storage (if saved)
+    const savedLanguage = localStorage.getItem('vocabhoot_language');
+    if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'vi')) {
+        currentLanguage = savedLanguage;
+        document.getElementById('language-select').value = currentLanguage;
+    }
+
+    // Apply initial language
+    applyLanguage();
+
     // Add this to vocabhoot.html
     const CRYPTO_KEY = "voctoolpasskey"; // Must match the key in main.js
 
@@ -60,6 +77,7 @@ window.onload = () => {
         }
         return [];
     }
+
     // Listen for vocabulary data from parent
     window.addEventListener('message', function (event) {
         if (event.data && event.data.type === 'vocabularyData') {
@@ -75,6 +93,134 @@ window.onload = () => {
         }
     }, 1000);
 };
+
+// Change language function
+function changeLanguage(lang) {
+    if (lang === 'en' || lang === 'vi') {
+        currentLanguage = lang;
+        // Save to localStorage for persistence
+        localStorage.setItem('vocabhoot_language', lang);
+        // Apply language changes
+        applyLanguage();
+    }
+}
+
+// Apply language to all UI elements
+function applyLanguage() {
+    const langData = LANGUAGES[currentLanguage];
+
+    if (!langData) return;
+
+    // Welcome screen
+    document.getElementById('welcome-title').textContent = langData.welcome_title;
+    document.getElementById('welcome-message').textContent = langData.welcome_message;
+    document.getElementById('instructions-title').textContent = langData.instructions_title;
+
+    // Instructions list
+    const instructionsList = document.getElementById('instructions-list');
+    instructionsList.innerHTML = '';
+    langData.instructions.forEach(instruction => {
+        const li = document.createElement('li');
+        li.innerHTML = instruction;
+        instructionsList.appendChild(li);
+    });
+
+    // Buttons
+    document.getElementById('start-btn').textContent = langData.start_button;
+    document.getElementById('play-again-btn').textContent = langData.play_again;
+    document.getElementById('go-back-btn').textContent = langData.go_back;
+
+    // Question screen
+    document.getElementById('question-label').textContent = langData.question;
+    document.getElementById('score-label').textContent = langData.score;
+    document.getElementById('streak-label').textContent = langData.streak;
+    document.getElementById('shortcut-hint').innerHTML = langData.shortcut_hint;
+
+    // Results screen
+    document.getElementById('results-title').textContent = langData.game_over;
+
+    // Error screen
+    document.getElementById('error-title').textContent = langData.error_title;
+    document.getElementById('error-message').textContent = langData.error_message;
+
+    // Language switcher
+    document.getElementById('language-label').textContent = langData.language;
+
+    // Update current question text if it exists
+    updateQuestionText();
+}
+
+// Update question text based on question type
+function updateQuestionText() {
+    const questionPrompt = document.getElementById('questionPrompt');
+    if (!questionPrompt || !currentQuestion) return;
+
+    // If we have a current question with a type, update it
+    if (currentQuestionType !== undefined && currentSpellingType !== undefined) {
+        setQuestionPrompt(currentQuestionType, currentSpellingType);
+    }
+}
+
+// Store current question and spelling types
+let currentQuestionType;
+let currentSpellingType;
+
+// Set question prompt based on question type and spelling type
+function setQuestionPrompt(questionType, spellingType) {
+    const langData = LANGUAGES[currentLanguage];
+    const questionPrompt = document.getElementById('questionPrompt');
+
+    currentQuestionType = questionType;
+    currentSpellingType = spellingType;
+
+    if (!questionPrompt || !langData) return;
+
+    if (questionType === 0) {
+        questionPrompt.textContent = langData.prompt_translation_en_vn;
+    } else if (questionType === 1) {
+        questionPrompt.textContent = langData.prompt_translation_vn_en;
+    } else if (questionType === 2) {
+        if (spellingType === 0) {
+            questionPrompt.textContent = langData.prompt_unscramble;
+        } else if (spellingType === 1) {
+            questionPrompt.textContent = langData.prompt_vowels;
+        } else {
+            questionPrompt.textContent = langData.prompt_consonants;
+        }
+    }
+}
+
+// Handle key press events for QWER keys
+function handleKeyPress(event) {
+    // Only process key events if we're on the question screen and the question hasn't been answered
+    if (document.getElementById('questionScreen').style.display !== 'block' || isAnswered) {
+        return;
+    }
+
+    const key = event.key.toLowerCase();
+    let answerIndex = -1;
+
+    // Map keys to answer indices
+    switch (key) {
+        case 'q': answerIndex = 0; break;
+        case 'w': answerIndex = 1; break;
+        case 'e': answerIndex = 2; break;
+        case 'r': answerIndex = 3; break;
+        default: return; // Not a key we're interested in
+    }
+
+    // Find the corresponding answer button and simulate a click
+    const answerButtons = document.querySelectorAll('.answer-btn');
+    if (answerIndex >= 0 && answerIndex < answerButtons.length) {
+        answerButtons[answerIndex].click();
+
+        // Add visual feedback for key press
+        answerButtons[answerIndex].classList.add('key-pressed');
+        setTimeout(() => {
+            answerButtons[answerIndex].classList.remove('key-pressed');
+        }, 150);
+    }
+}
 
 function initializeGame() {
     if (vocabulary.length > 0) {
@@ -126,6 +272,7 @@ function startGame() {
     updateStreak();
     showQuestion();
 }
+
 function generateQuestion() {
     const word = vocabulary[currentQuestion];
 
@@ -144,7 +291,7 @@ function generateQuestion() {
         question = word.english;
         correct = word.vietnamese;
         options = [word.vietnamese];
-        prompt = "What's the correct translation?";
+        prompt = LANGUAGES[currentLanguage].prompt_translation_en_vn;
 
         // Add 3 random incorrect options
         while (options.length < 4) {
@@ -159,7 +306,7 @@ function generateQuestion() {
         question = word.vietnamese;
         correct = word.english;
         options = [word.english];
-        prompt = "What's the English translation?";
+        prompt = LANGUAGES[currentLanguage].prompt_translation_vn_en;
 
         // Add 3 random incorrect options
         while (options.length < 4) {
@@ -179,7 +326,7 @@ function generateQuestion() {
             question = word.english;
             correct = word.vietnamese;
             options = [word.vietnamese];
-            prompt = "What's the correct translation?";
+            prompt = LANGUAGES[currentLanguage].prompt_translation_en_vn;
 
             while (options.length < 4) {
                 const randomIndex = Math.floor(Math.random() * vocabulary.length);
@@ -200,15 +347,15 @@ function generateQuestion() {
             if (spellingType === 0) {
                 // Scrambled word
                 modifiedWord = scrambleWord(originalWord);
-                prompt = "Unscramble this English word:";
+                prompt = LANGUAGES[currentLanguage].prompt_unscramble;
             } else if (spellingType === 1) {
                 // Missing vowels
                 modifiedWord = removeVowels(originalWord);
-                prompt = "Fill in the vowels for this word:";
+                prompt = LANGUAGES[currentLanguage].prompt_vowels;
             } else {
                 // Missing consonants
                 modifiedWord = removeConsonants(originalWord);
-                prompt = "Fill in the consonants for this word:";
+                prompt = LANGUAGES[currentLanguage].prompt_consonants;
             }
 
             question = modifiedWord;
@@ -321,6 +468,7 @@ function removeConsonants(word) {
 
     return word.replace(/[bcdfghjklmnpqrstvwxyz]/gi, '_');
 }
+
 function showQuestion() {
     if (currentQuestion >= vocabulary.length || currentQuestion >= MAX_QUESTIONS) {
         showResults();
@@ -334,6 +482,10 @@ function showQuestion() {
     isAnswered = false;
     showScreen('questionScreen');
     const question = generateQuestion();
+
+    // Store current question and spelling types for language changes
+    currentQuestionType = question.questionType;
+    currentSpellingType = question.spellingType;
 
     // Play sound effect when showing a new question
     soundEffects.tink.currentTime = 0;
@@ -374,12 +526,18 @@ function showQuestion() {
         const button = document.createElement('button');
         button.className = `answer-btn answer-${index}`;
 
+        // Add key hint to the button
+        const keyHint = document.createElement('div');
+        keyHint.className = 'key-hint';
+        keyHint.textContent = ['Q', 'W', 'E', 'R'][index];
+
         const shape = document.createElement('div');
         shape.className = 'answer-shape';
 
         const text = document.createElement('span');
         text.textContent = option;
 
+        button.appendChild(keyHint);
         button.appendChild(shape);
         button.appendChild(text);
         button.onclick = () => checkAnswer(option, question.correct, button);
@@ -388,6 +546,7 @@ function showQuestion() {
 
     startTimer();
 }
+
 function startTimer() {
     const timerBar = document.querySelector('.timer-bar');
     timerBar.style.transition = 'none';
@@ -524,14 +683,17 @@ function showResults() {
 
     showScreen('resultsScreen');
     document.getElementById('finalScore').textContent = score;
+
+    const langData = LANGUAGES[currentLanguage];
+
     document.getElementById('correctAnswers').textContent =
-        `Correct: ${correctCount}/${currentQuestion}`;
+        `${langData.correct} ${correctCount}/${currentQuestion}`;
     document.getElementById('accuracy').textContent =
-        `Accuracy: ${Math.round((correctCount / currentQuestion) * 100)}%`;
+        `${langData.accuracy} ${Math.round((correctCount / currentQuestion) * 100)}%`;
     document.getElementById('avgScore').textContent =
-        `Average Score per Question: ${Math.round(score / currentQuestion)}`;
+        `${langData.avg_score} ${Math.round(score / currentQuestion)}`;
     document.getElementById('bestStreak').textContent =
-        `Best Streak: ${bestStreak}`;
+        `${langData.best_streak} ${bestStreak}`;
 }
 
 function updateScore() {
