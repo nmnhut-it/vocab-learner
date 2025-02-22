@@ -85,6 +85,18 @@ window.onload = () => {
             initializeGame();
         }
     });
+    // First check if we have data in the URL
+    const urlVocabulary = getVocabularyFromURL();
+
+    if (urlVocabulary && urlVocabulary.length > 0) {
+        // If we have vocabulary in the URL, use it
+        vocabulary = urlVocabulary;
+        initializeGame();
+    } else {
+        // Otherwise, request from parent window
+        window.parent.postMessage({ type: 'requestVocabulary' }, '*');
+    }
+
 
     // Set a timeout to show error if no data received
     setTimeout(() => {
@@ -261,7 +273,7 @@ function startGame() {
 
     // Play game start sound
     soundEffects.gameStart.currentTime = 0;
-    soundEffects.gameStart.play().catch(e => console.log('Error playing sound:', e));
+    soundEffects.gameStart.play().catch(e => console.error('Error playing sound:', e));
 
     score = 0;
     currentQuestion = 0;

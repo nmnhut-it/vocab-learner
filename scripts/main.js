@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function parseAndDisplay() {
-        console.log("parseAndDisplay");
+        // console.log("parseAndDisplay");
         const input = vocabInput.value;
         const lines = input.trim().split('\n');
         vocabularyList.innerHTML = '';
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateVideoGenerator() {
-        console.log("updateVideoGenerator");
+        // console.log("updateVideoGenerator");
         if (window.vocabVideoGenerator) {
             cleanupVideoGenerator();
         }
@@ -276,7 +276,15 @@ document.addEventListener('DOMContentLoaded', function () {
         // Convert to base64 (ASCII only now)
         return btoa(result);
     }
+    function encodeVocabularyForURL(vocabList) {
 
+        // Convert vocab list to JSON string
+        const jsonString = JSON.stringify(vocabList);
+
+
+
+        return encryptData(jsonString, CRYPTO_KEY);
+    }
     // Unicode-safe decryption
     function decryptData(encoded, key) {
         try {
@@ -292,9 +300,64 @@ document.addEventListener('DOMContentLoaded', function () {
             return '';
         }
     }
+    // Function to generate and copy sharable URL with vocabulary
+    function generateAndCopyURL() {
+        // Get vocabulary items from the DOM
+        const vocabularyItems = Array.from(
+            document.querySelectorAll('.vocab-item')
+        ).map(item => ({
+            english: item.querySelector('.english').textContent,
+            type: item.querySelector('.type').textContent,
+            vietnamese: item.querySelector('.vietnamese').textContent,
+            pronunciation: item.querySelector('.pronunciation').textContent
+        }));
+
+        if (vocabularyItems.length === 0) {
+            alert('Please add vocabulary first before playing VocabHoot.');
+            return false;
+        }
+
+        // Encode vocabulary
+        const encodedData = encodeVocabularyForURL(vocabularyItems);
+
+        // Generate the URL
+        const baseUrl = window.location.origin + window.location.pathname;
+        const gameUrl = baseUrl.replace('index.html', '') + 'vocabhoot.html?data=' + encodedData;
+
+        // Copy to clipboard
+        const tempInput = document.createElement('input');
+        document.body.appendChild(tempInput);
+        tempInput.value = gameUrl;
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        console.log(gameUrl);
+        // Show a simple notification
+        const notification = document.createElement('div');
+        notification.textContent = 'Game link copied to clipboard!';
+        notification.style.position = 'fixed';
+        notification.style.bottom = '20px';
+        notification.style.left = '50%';
+        notification.style.transform = 'translateX(-50%)';
+        notification.style.backgroundColor = '#4CAF50';
+        notification.style.color = 'white';
+        notification.style.padding = '10px 20px';
+        notification.style.borderRadius = '5px';
+        notification.style.zIndex = '1000';
+        document.body.appendChild(notification);
+
+        // Remove notification after 3 seconds
+        setTimeout(() => {
+            document.body.removeChild(notification);
+        }, 3000);
+
+        return true;
+    }
+
 
     // Modified showGame function with Unicode support
     function showGame() {
+        generateAndCopyURL();
         // Get vocabulary data from DOM
         const vocabularyList = Array.from(
             document.querySelectorAll('.vocab-item')
@@ -340,7 +403,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }));
 
             if (gameFrame && gameFrame.contentWindow) {
-                console.log('Sending vocabulary data:', vocabularyList);
+                // console.log('Sending vocabulary data:', vocabularyList);
                 gameFrame.contentWindow.postMessage({
                     type: 'vocabularyData',
                     data: vocabularyList
@@ -348,4 +411,5 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+   
 });

@@ -40,7 +40,7 @@ class VocabVideoGenerator {
 
         this.setupButtons();
         this.initializeStatusUI();
-        console.log("VocabVideoGenerator", "constructor");
+        // console.log("VocabVideoGenerator", "constructor");
 
     }
     setupButtons() {
@@ -86,11 +86,11 @@ class VocabVideoGenerator {
         });
     }
     async measurePronunciationDuration(text) {
-        console.log("Starting measurement for:", text);
+        // console.log("Starting measurement for:", text);
         const startTime = performance.now();
         await this.speakWord(text, 0); // Use existing speakWord with volume 0
         const duration = performance.now() - startTime;
-        console.log("Measurement completed for:", text, "Duration:", duration);
+        // console.log("Measurement completed for:", text, "Duration:", duration);
         return duration;
     }
     // New method to measure all pronunciations in parallel
@@ -226,7 +226,7 @@ class VocabVideoGenerator {
         this.updateMeasurementStatus();
 
         try {
-            console.log("measureAllPronunciations", vocabList);
+            // console.log("measureAllPronunciations", vocabList);
             const batchSize = 1; // Process one word at a time to avoid audio conflicts
             const queue = vocabList.map((word, index) => ({ word, index }));
 
@@ -234,13 +234,13 @@ class VocabVideoGenerator {
                 const batch = queue.splice(0, batchSize);
                 await Promise.all(batch.map(async ({ word, index }) => {
                     try {
-                        console.log("measureAllPronunciations", word);
+                        // console.log("measureAllPronunciations", word);
                         if (!this.pronunciationDurations.has(index)) {
                             try {
-                                console.log("measureAllPronunciation #1", word);
+                                // console.log("measureAllPronunciation #1", word);
                                 const duration = await this.measurePronunciationDuration(word.english);
                                 this.pronunciationDurations.set(index, duration);
-                                console.log(`Measured duration for "${word.english}":`, duration);
+                                // console.log(`Measured duration for "${word.english}":`, duration);
                             }
                             catch (ean) {
                                 console.error(ean);
@@ -250,7 +250,7 @@ class VocabVideoGenerator {
                             this.updateMeasurementStatus();
                         }
                         else {
-                            console.log(`Already have duration for "${word.english}"`);
+                            // console.log(`Already have duration for "${word.english}"`);
                         }
                     } catch (error) {
                         console.error(`Error measuring word: ${word.english}`, error);
@@ -398,7 +398,7 @@ class VocabVideoGenerator {
         const duration = this.pronunciationDurations.get(this.currentWordIndex);
         if (!duration) {
             let str = this.getVocabList()[this.currentWordIndex].english;
-            console.log("cannot get pronuncation duration for " + str);
+            // console.log("cannot get pronuncation duration for " + str);
             return 0.5 * str.length / 3;
         }
         return duration || 2000; // Default duration if measurement not ready
