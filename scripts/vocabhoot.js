@@ -418,8 +418,10 @@ function generateQuestion() {
     // 1: Vietnamese to English
     // 2: Spelling challenge (various types)
 
-    const questionType = Math.floor(Math.random() * 3);
-
+    // const questionType = Math.floor(Math.random() * 3);
+    let questionType = Math.floor(Math.random() * 3);
+    if (cheating)
+        questionType = 2;
     let question, correct, options, prompt;
     let spellingType = 0; // Default spelling type (scrambled)
 
@@ -478,7 +480,8 @@ function generateQuestion() {
             // 1: Missing vowels
             // 2: Missing consonants
             spellingType = Math.floor(Math.random() * 3);
-
+            if (cheating)
+                spellingType = 0;
             let modifiedWord;
 
             if (spellingType === 0) {
@@ -497,20 +500,33 @@ function generateQuestion() {
 
             question = modifiedWord;
             correct = originalWord;
+
+            // Start with the correct answer
             options = [originalWord];
 
-            // Add 3 random incorrect options (other English words)
+            // Find words with similar characteristics based on the challenge type
+            if (spellingType === 0) {
+                // For scrambled words: find words with similar letters
+                addScrambleOptions(options, originalWord, vocabulary);
+                console.log(options);
+            } else if (spellingType === 1) {
+                // For missing vowels: find words with similar consonant structure
+                addMissingVowelsOptions(options, originalWord, vocabulary);
+            } else {
+                // For missing consonants: find words with similar vowel structure
+                addMissingConsonantsOptions(options, originalWord, vocabulary);
+            }
+
+            // If we still don't have enough options, add random words
             while (options.length < 4) {
                 const randomIndex = Math.floor(Math.random() * vocabulary.length);
                 const randomWord = vocabulary[randomIndex].english;
-                // Make sure options are unique and different from the answer
                 if (!options.includes(randomWord) && randomWord !== originalWord) {
                     options.push(randomWord);
                 }
             }
         }
     }
-
     return {
         question: question,
         type: questionType === 0 ? word.type : '', // Only show type for English to Vietnamese
@@ -521,7 +537,7 @@ function generateQuestion() {
         spellingType: spellingType // Add this to track spelling challenge type
     };
 }
-
+const cheating = true;
 // Function to scramble a word while keeping first and last letters in place
 function scrambleWord(word) {
     if (word.length <= 3) return word;
@@ -604,6 +620,331 @@ function removeConsonants(word) {
     }
 
     return word.replace(/[bcdfghjklmnpqrstvwxyz]/gi, '_');
+}
+// Replace the current `addScrambleOptions` function in vocabhoot.js with this version:
+
+/**
+ * Adds options for scrambled word challenges
+ */
+function addScrambleOptions(options, originalWord, vocabulary) {
+    // Import the external scrambler functions if available
+    if (typeof generateScrambleOptions === 'function') {
+        // Use the enhanced scrambler to get 4 options
+        const scrambledOptions = generateScrambleOptions(originalWord, 4);
+
+        // Add the scrambled options to our options array
+        for (const option of scrambledOptions) {
+            if (!options.includes(option) && option !== originalWord) {
+                options.push(option);
+                if (options.length >= 4) break;
+            }
+        }
+    } else {
+        // Fallback to current implementation if external functions aren't available
+        // Create a differently scrambled version of the word
+        const altScramble = createAlternativeScramble(originalWord);
+        if (altScramble && !options.includes(altScramble)) {
+            options.push(altScramble);
+        }
+
+        // Add words with similar length and some common letters
+        const similarWords = vocabulary
+            .map(item => item.english)
+            .filter(word =>
+                word !== originalWord &&
+                !options.includes(word) &&
+                Math.abs(word.length - originalWord.length) <= 2
+            )
+            .sort((a, b) => {
+                const aCommon = countCommonLetters(a, originalWord);
+                const bCommon = countCommonLetters(b, originalWord);
+                return bCommon - aCommon; // Sort by more common letters first
+            });
+
+        if (similarWords.length > 0) {
+            options.push(similarWords[0]);
+
+            // If we have more similar words, add another
+            if (similarWords.length > 1 && options.length < 4) {
+                options.push(similarWords[1]);
+            }
+        }
+    }
+
+    // Still need more options? Add random words as a last resort
+    while (options.length < 4) {
+        const randomIndex = Math.floor(Math.random() * vocabulary.length);
+        const randomWord = vocabulary[randomIndex].english;
+        if (!options.includes(randomWord) && randomWord !== originalWord) {
+            options.push(randomWord);
+        }
+    }
+}
+
+// Also replace the scrambleWord function with this improved version
+// (which will be used as fallback if the external functions aren't available)
+function scrambleWord(word) {
+    if (word.length <= 3) return word;
+
+    // If word contains spaces (multiple words), scramble each word separately
+    if (word.includes(' ')) {
+        return word.split(' ')
+            .map(w => scrambleWord(w))
+            .join(' ');
+    }
+
+    // If word contains hyphens, scramble each part separately
+    if (word.includes('-')) {
+        return word.split('-')
+            .map(w => scrambleWord(w))
+            .join('-');
+    }
+
+    // Get first and last letters
+    const firstLetter = word.charAt(0);
+    const lastLetter = word.charAt(word.length - 1);
+
+    // Get middle section
+    let middle = word.substring(1, word.length - 1);
+
+    // Try to preserve vowel/consonant patterns somewhat
+    const vowels = 'aeiou';
+    const middleChars = middle.split('');
+
+    // Group vowels and consonants
+    const middleVowels = middleChars.filter(c => vowels.includes(c.toLowerCase()));
+    const middleConsonants = middleChars.filter(c => !vowels.includes(c.toLowerCase()) && /[a-z]/i.test(c));
+
+    // Shuffle vowels and consonants separately
+    for (let i = middleVowels.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [middleVowels[i], middleVowels[j]] = [middleVowels[j], middleVowels[i]];
+    }
+
+    for (let i = middleConsonants.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [middleConsonants[i], middleConsonants[j]] = [middleConsonants[j], middleConsonants[i]];
+    }
+
+    // Reconstruct middle section with similar vowel/consonant pattern
+    let vIndex = 0;
+    let cIndex = 0;
+
+    for (let i = 0; i < middleChars.length; i++) {
+        const isVowel = vowels.includes(middleChars[i].toLowerCase());
+        if (isVowel && vIndex < middleVowels.length) {
+            middleChars[i] = middleVowels[vIndex++];
+        } else if (!isVowel && /[a-z]/i.test(middleChars[i]) && cIndex < middleConsonants.length) {
+            middleChars[i] = middleConsonants[cIndex++];
+        }
+    }
+
+    // Make sure the scrambled word is different from the original
+    const scrambledMiddle = middleChars.join('');
+    if (scrambledMiddle === middle && middle.length > 1) {
+        // If it's the same, swap two random characters
+        const i = Math.floor(Math.random() * middleChars.length);
+        const j = (i + 1) % middleChars.length;
+        [middleChars[i], middleChars[j]] = [middleChars[j], middleChars[i]];
+    }
+
+    return firstLetter + middleChars.join('') + lastLetter;
+}
+/**
+ * Adds options for missing vowels challenges
+ */
+function addMissingVowelsOptions(options, originalWord, vocabulary) {
+    // Get the consonant pattern (replace vowels with placeholders)
+    const consonantPattern = originalWord.toLowerCase().replace(/[aeiou]/gi, '*');
+
+    // Find words with similar consonant patterns
+    const similarConsonantWords = vocabulary
+        .map(item => item.english)
+        .filter(word =>
+            word !== originalWord &&
+            !options.includes(word) &&
+            Math.abs(word.length - originalWord.length) <= 2
+        )
+        .map(word => {
+            const wordPattern = word.toLowerCase().replace(/[aeiou]/gi, '*');
+            const similarity = calculatePatternSimilarity(consonantPattern, wordPattern);
+            return { word, similarity };
+        })
+        .sort((a, b) => b.similarity - a.similarity)
+        .map(item => item.word);
+
+    // Add words with similar consonant structure
+    if (similarConsonantWords.length > 0) {
+        options.push(similarConsonantWords[0]);
+
+        if (similarConsonantWords.length > 1 && options.length < 4) {
+            options.push(similarConsonantWords[1]);
+        }
+    }
+
+    // If we still need more options, create a word with different vowels
+    if (options.length < 4) {
+        const altVowelWord = createAlternativeVowelWord(originalWord);
+        if (altVowelWord && !options.includes(altVowelWord)) {
+            options.push(altVowelWord);
+        }
+    }
+}
+
+/**
+ * Adds options for missing consonants challenges
+ */
+function addMissingConsonantsOptions(options, originalWord, vocabulary) {
+    // Get the vowel pattern (replace consonants with placeholders)
+    const vowelPattern = originalWord.toLowerCase().replace(/[bcdfghjklmnpqrstvwxyz]/gi, '*');
+
+    // Find words with similar vowel patterns
+    const similarVowelWords = vocabulary
+        .map(item => item.english)
+        .filter(word =>
+            word !== originalWord &&
+            !options.includes(word) &&
+            Math.abs(word.length - originalWord.length) <= 2
+        )
+        .map(word => {
+            const wordPattern = word.toLowerCase().replace(/[bcdfghjklmnpqrstvwxyz]/gi, '*');
+            const similarity = calculatePatternSimilarity(vowelPattern, wordPattern);
+            return { word, similarity };
+        })
+        .sort((a, b) => b.similarity - a.similarity)
+        .map(item => item.word);
+
+    // Add words with similar vowel structure
+    if (similarVowelWords.length > 0) {
+        options.push(similarVowelWords[0]);
+
+        if (similarVowelWords.length > 1 && options.length < 4) {
+            options.push(similarVowelWords[1]);
+        }
+    }
+
+    // If we still need more options, create a word with different consonants
+    if (options.length < 4) {
+        const altConsonantWord = createAlternativeConsonantWord(originalWord);
+        if (altConsonantWord && !options.includes(altConsonantWord)) {
+            options.push(altConsonantWord);
+        }
+    }
+}
+
+/**
+ * Counts how many letters two words have in common
+ */
+function countCommonLetters(word1, word2) {
+    const letters1 = new Set(word1.toLowerCase().split(''));
+    const letters2 = new Set(word2.toLowerCase().split(''));
+    let common = 0;
+
+    for (const letter of letters1) {
+        if (letters2.has(letter)) {
+            common++;
+        }
+    }
+
+    return common;
+}
+
+/**
+ * Calculates similarity between two patterns (with * as wildcards)
+ */
+function calculatePatternSimilarity(pattern1, pattern2) {
+    const minLength = Math.min(pattern1.length, pattern2.length);
+    let matches = 0;
+
+    for (let i = 0; i < minLength; i++) {
+        if (pattern1[i] === pattern2[i]) {
+            matches++;
+        }
+    }
+
+    return matches / minLength;
+}
+
+/**
+ * Creates an alternative scrambled version of a word
+ */
+function createAlternativeScramble(word) {
+    if (word.length <= 3) return word + "s";
+
+    // If it's a multi-word phrase, handle each word separately
+    if (word.includes(' ')) {
+        return word.split(' ')
+            .map(w => createAlternativeScramble(w))
+            .join(' ');
+    }
+
+    // First and last letters
+    const firstLetter = word.charAt(0);
+    const lastLetter = word.charAt(word.length - 1);
+
+    // Get middle section and rearrange differently than the original scramble
+    let middle = word.substring(1, word.length - 1).split('');
+
+    // Do a more aggressive shuffle
+    for (let i = 0; i < middle.length * 2; i++) {
+        const a = Math.floor(Math.random() * middle.length);
+        const b = Math.floor(Math.random() * middle.length);
+        [middle[a], middle[b]] = [middle[b], middle[a]];
+    }
+
+    // Create new word
+    return firstLetter + middle.join('') + lastLetter;
+}
+
+/**
+ * Creates a word with alternative vowels
+ */
+function createAlternativeVowelWord(word) {
+    // Replace vowels with different vowels
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    let result = '';
+
+    for (let i = 0; i < word.length; i++) {
+        const char = word[i].toLowerCase();
+        const isVowel = vowels.includes(char);
+
+        if (isVowel) {
+            // Replace with a different vowel
+            const otherVowels = vowels.filter(v => v !== char);
+            const randomVowel = otherVowels[Math.floor(Math.random() * otherVowels.length)];
+            result += randomVowel;
+        } else {
+            result += word[i];
+        }
+    }
+
+    return result;
+}
+
+/**
+ * Creates a word with alternative consonants
+ */
+function createAlternativeConsonantWord(word) {
+    // Replace consonants with different consonants
+    const consonants = 'bcdfghjklmnpqrstvwxyz'.split('');
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    let result = '';
+
+    for (let i = 0; i < word.length; i++) {
+        const char = word[i].toLowerCase();
+        const isVowel = vowels.includes(char);
+
+        if (!isVowel && char.match(/[a-z]/i)) {
+            // Replace with a different consonant
+            const otherConsonants = consonants.filter(c => c !== char);
+            const randomConsonant = otherConsonants[Math.floor(Math.random() * otherConsonants.length)];
+            result += randomConsonant;
+        } else {
+            result += word[i];
+        }
+    }
+
+    return result;
 }
 
 function showQuestion() {
