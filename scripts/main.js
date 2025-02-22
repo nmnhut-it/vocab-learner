@@ -411,5 +411,421 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
-   
+
+});
+
+// Add this to your main.js file
+
+// Function to load vocabulary from GitHub based on URL parameters
+async function loadVocabFromGitHubURL() {
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const owner = urlParams.get('owner');
+    const repo = urlParams.get('repo');
+    const path = urlParams.get('path');
+
+    // If any parameter is missing, return
+    if (!owner || !repo || !path) {
+        return;
+    }
+
+    try {
+        // Create loading indicator
+        const loadingIndicator = document.createElement('div');
+        loadingIndicator.textContent = 'Loading vocabulary from GitHub...';
+        loadingIndicator.style.position = 'fixed';
+        loadingIndicator.style.top = '10px';
+        loadingIndicator.style.left = '50%';
+        loadingIndicator.style.transform = 'translateX(-50%)';
+        loadingIndicator.style.background = '#3498db';
+        loadingIndicator.style.color = 'white';
+        loadingIndicator.style.padding = '10px 20px';
+        loadingIndicator.style.borderRadius = '5px';
+        loadingIndicator.style.zIndex = '1000';
+        document.body.appendChild(loadingIndicator);
+
+        // GitHub raw content URL format
+        const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/${path}`;
+
+        // Fetch the file content
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch file: ${response.status} ${response.statusText}`);
+        }
+
+        const content = await response.text();
+
+        // Process the content based on file extension
+        const fileExtension = path.split('.').pop().toLowerCase();
+
+        let vocabularyList = [];
+
+        if (fileExtension === 'json') {
+            // If it's a JSON file, parse it directly
+            vocabularyList = JSON.parse(content);
+        } else if (fileExtension === 'txt' || fileExtension === 'csv') {
+            // If it's a text file, parse it as a vocabulary list format
+            const lines = content.split('\n');
+
+            lines.forEach((line, index) => {
+                if (!line.trim()) return;
+
+                // Parse line based on your vocabulary format
+                // Format example: 1. word: (type) translation /pronunciation/
+                const lineMatch = line.match(/(\d+)?\.\s*(.*?):\s*(\([a-z]+\))?\s*(.*?)\s*(\/.*?\/)?\s*$/);
+
+                if (lineMatch) {
+                    const [, , english, type, vietnamese, pronunciation] = lineMatch;
+                    vocabularyList.push({
+                        english: english.trim(),
+                        type: type ? type.trim() : '',
+                        vietnamese: vietnamese.trim(),
+                        pronunciation: pronunciation ? pronunciation.trim() : ''
+                    });
+                }
+            });
+        }
+
+        // Remove loading indicator
+        document.body.removeChild(loadingIndicator);
+
+        if (vocabularyList.length === 0) {
+            throw new Error('No vocabulary items found in the file');
+        }
+
+        // Format the vocabulary list for the textarea
+        const formattedText = vocabularyList.map((item, index) => {
+            return `${index + 1}. ${item.english}: ${item.type} ${item.vietnamese} ${item.pronunciation}`;
+        }).join('\n');
+
+        // Set the formatted text in the vocabulary input textarea
+        const vocabInput = document.getElementById('vocabInput');
+        if (vocabInput) {
+            vocabInput.value = formattedText;
+
+            // Trigger the convert function to display the vocabulary
+            const convertBtn = document.getElementById('convertBtn');
+            if (convertBtn) {
+                convertBtn.click();
+            }
+        }
+
+        // If the 'play' parameter is set to 'true', automatically click the Play VocabHoot button
+        if (urlParams.get('play') === 'true') {
+            setTimeout(() => {
+                const gameToggle = document.getElementById('gameToggle');
+                if (gameToggle) {
+                    gameToggle.click();
+                }
+            }, 1000); // Give it a second to process the vocabulary
+        }
+
+    } catch (error) {
+        console.error('Error loading vocabulary from GitHub:', error);
+        alert(`Error loading vocabulary: ${error.message}`);
+    }
+}
+
+// Call the function when the page loads
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(loadVocabFromGitHubURL, 500);
+});
+
+// Function to create a GitHub vocabulary URL
+function createGitHubVocabURL(owner, repo, path, playDirectly = false) {
+    const baseUrl = window.location.origin + window.location.pathname;
+    let url = `${baseUrl}?owner=${encodeURIComponent(owner)}&repo=${encodeURIComponent(repo)}&path=${encodeURIComponent(path)}`;
+
+    if (playDirectly) {
+        url += '&play=true';
+    }
+
+    return url;
+}
+
+// Add a "Create Shareable Link" button
+function addCreateLinkButton() {
+    const controlsDiv = document.querySelector('.input-section');
+    if (!controlsDiv) return;
+
+    const linkBtn = document.createElement('button');
+    linkBtn.id = 'createLinkBtn';
+    linkBtn.textContent = 'Create Shareable Link';
+    linkBtn.style.marginLeft = '10px';
+    linkBtn.onclick = showCreateLinkDialog;
+
+    // Insert the button next to the Convert button
+    const convertBtn = document.getElementById('convertBtn');
+    if (convertBtn) {
+        controlsDiv.insertBefore(linkBtn, convertBtn.nextSibling);
+    } else {
+        controlsDiv.appendChild(linkBtn);
+    }
+}
+
+// Function to show the Create Link dialog
+function showCreateLinkDialog() {
+    // Create modal if it doesn't exist
+    let linkModal = document.getElementById('createLinkModal');
+
+    if (!linkModal) {
+        linkModal = document.createElement('div');
+        linkModal.id = 'createLinkModal';
+        linkModal.className = 'create-link-modal';
+
+        const modalContent = document.createElement('div');
+        modalContent.className = 'create-link-content';
+
+        const closeBtn = document.createElement('span');
+        closeBtn.className = 'close-modal';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.onclick = () => linkModal.style.display = 'none';
+
+        const title = document.createElement('h3');
+        title.textContent = 'Create Shareable Link';
+
+        const form = document.createElement('form');
+        form.id = 'createLinkForm';
+        form.onsubmit = (e) => {
+            e.preventDefault();
+
+            const owner = document.getElementById('linkOwner').value.trim();
+            const repo = document.getElementById('linkRepo').value.trim();
+            const path = document.getElementById('linkPath').value.trim();
+            const playDirectly = document.getElementById('playDirectly').checked;
+
+            if (!owner || !repo || !path) {
+                alert('Please fill all fields');
+                return;
+            }
+
+            // Create the URL
+            const url = createGitHubVocabURL(owner, repo, path, playDirectly);
+
+            // Update the link display
+            document.getElementById('generatedLink').value = url;
+            document.getElementById('linkActions').style.display = 'block';
+
+            // Save the GitHub details to localStorage for future use
+            localStorage.setItem('githubVocabOwner', owner);
+            localStorage.setItem('githubVocabRepo', repo);
+            localStorage.setItem('githubVocabPath', path);
+        };
+
+        // Create form fields
+        const ownerLabel = document.createElement('label');
+        ownerLabel.textContent = 'GitHub Username:';
+        const ownerInput = document.createElement('input');
+        ownerInput.type = 'text';
+        ownerInput.id = 'linkOwner';
+        ownerInput.placeholder = 'e.g., yourusername';
+        ownerInput.required = true;
+
+        const repoLabel = document.createElement('label');
+        repoLabel.textContent = 'Repository Name:';
+        const repoInput = document.createElement('input');
+        repoInput.type = 'text';
+        repoInput.id = 'linkRepo';
+        repoInput.placeholder = 'e.g., vocabulary-learner';
+        repoInput.required = true;
+
+        const pathLabel = document.createElement('label');
+        pathLabel.textContent = 'File Path:';
+        const pathInput = document.createElement('input');
+        pathInput.type = 'text';
+        pathInput.id = 'linkPath';
+        pathInput.placeholder = 'e.g., vocab-lists/week1.txt';
+        pathInput.required = true;
+
+        const playDirectlyLabel = document.createElement('label');
+        playDirectlyLabel.className = 'checkbox-label';
+        const playDirectlyInput = document.createElement('input');
+        playDirectlyInput.type = 'checkbox';
+        playDirectlyInput.id = 'playDirectly';
+        const playDirectlyText = document.createTextNode(' Start game automatically');
+        playDirectlyLabel.appendChild(playDirectlyInput);
+        playDirectlyLabel.appendChild(playDirectlyText);
+
+        const submitBtn = document.createElement('button');
+        submitBtn.type = 'submit';
+        submitBtn.textContent = 'Generate Link';
+        submitBtn.className = 'generate-link-btn';
+
+        // Link display and actions
+        const linkDisplay = document.createElement('div');
+        linkDisplay.id = 'linkActions';
+        linkDisplay.style.display = 'none';
+        linkDisplay.className = 'link-actions';
+
+        const linkInput = document.createElement('input');
+        linkInput.type = 'text';
+        linkInput.id = 'generatedLink';
+        linkInput.readOnly = true;
+
+        const copyBtn = document.createElement('button');
+        copyBtn.textContent = 'Copy Link';
+        copyBtn.onclick = () => {
+            linkInput.select();
+            document.execCommand('copy');
+            copyBtn.textContent = 'Copied!';
+            setTimeout(() => copyBtn.textContent = 'Copy Link', 2000);
+        };
+
+        const testBtn = document.createElement('button');
+        testBtn.textContent = 'Test Link';
+        testBtn.onclick = () => {
+            window.open(document.getElementById('generatedLink').value, '_blank');
+        };
+
+        linkDisplay.appendChild(linkInput);
+        linkDisplay.appendChild(copyBtn);
+        linkDisplay.appendChild(testBtn);
+
+        // Help text
+        const helpText = document.createElement('p');
+        helpText.className = 'help-text';
+        helpText.innerHTML = 'This tool creates a direct link to your vocabulary list stored on GitHub. Share this link with your students to provide them immediate access to the vocabulary.';
+
+        // Assemble the form
+        form.appendChild(ownerLabel);
+        form.appendChild(ownerInput);
+        form.appendChild(repoLabel);
+        form.appendChild(repoInput);
+        form.appendChild(pathLabel);
+        form.appendChild(pathInput);
+        form.appendChild(playDirectlyLabel);
+        form.appendChild(submitBtn);
+
+        // Assemble the modal content
+        modalContent.appendChild(closeBtn);
+        modalContent.appendChild(title);
+        modalContent.appendChild(form);
+        modalContent.appendChild(linkDisplay);
+        modalContent.appendChild(helpText);
+
+        linkModal.appendChild(modalContent);
+        document.body.appendChild(linkModal);
+
+        // Add styles for the modal
+        const style = document.createElement('style');
+        style.textContent = `
+            .create-link-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.6);
+            }
+            .create-link-content {
+                background-color: #fff;
+                margin: 10% auto;
+                padding: 20px;
+                border-radius: 10px;
+                width: 90%;
+                max-width: 500px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                position: relative;
+            }
+            .close-modal {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                font-size: 28px;
+                cursor: pointer;
+                color: #777;
+            }
+            #createLinkForm {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 20px;
+            }
+            #createLinkForm label {
+                font-weight: bold;
+                margin-bottom: -10px;
+            }
+            #createLinkForm input[type="text"] {
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+            .checkbox-label {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                font-weight: normal !important;
+            }
+            .checkbox-label input {
+                margin-right: 8px;
+            }
+            .generate-link-btn {
+                background: #3498db;
+                color: white;
+                border: none;
+                padding: 12px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .link-actions {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .link-actions input {
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+            .link-actions button {
+                padding: 8px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+                color: white;
+            }
+            .link-actions button:first-of-type {
+                background: #2ecc71;
+            }
+            .link-actions button:last-of-type {
+                background: #9b59b6;
+            }
+            .help-text {
+                margin-top: 15px;
+                color: #666;
+                font-size: 14px;
+                line-height: 1.4;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    // Load saved GitHub details from localStorage if available
+    const savedOwner = localStorage.getItem('githubVocabOwner');
+    const savedRepo = localStorage.getItem('githubVocabRepo');
+    const savedPath = localStorage.getItem('githubVocabPath');
+
+    if (savedOwner) document.getElementById('linkOwner').value = savedOwner;
+    if (savedRepo) document.getElementById('linkRepo').value = savedRepo;
+    if (savedPath) document.getElementById('linkPath').value = savedPath;
+
+    // Reset the link display
+    document.getElementById('linkActions').style.display = 'none';
+
+    // Show the modal
+    linkModal.style.display = 'block';
+}
+
+// Call this function after DOM is loaded
+document.addEventListener('DOMContentLoaded', function () {
+    // Add the Create Link button
+    setTimeout(addCreateLinkButton, 500);
 });
