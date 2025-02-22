@@ -24,6 +24,131 @@ let soundEffects = {
 // Current language (default: English)
 let currentLanguage = 'vi';
 
+// Add this to the top of vocabhoot.js file, after the initial variable declarations
+
+// Default GitHub repository settings (can be customized)
+const DEFAULT_GITHUB_OWNER = "nmnhut-it"; // Replace with your GitHub username
+const DEFAULT_GITHUB_REPO = "vocabulary-learner"; // Replace with your repository name
+
+// Function to load vocabulary from GitHub based on URL parameters
+async function loadVocabFromGitHub() {
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const owner = urlParams.get('owner') || DEFAULT_GITHUB_OWNER;
+    const repo = urlParams.get('repo') || DEFAULT_GITHUB_REPO;
+    const path = urlParams.get('path');
+
+    // If path parameter is missing, return without loading
+    if (!path) {
+        return false;
+    }
+
+    try {
+        // Show loading indicator
+        showLoadingIndicator("Loading vocabulary from GitHub...");
+
+        // GitHub raw content URL format
+        const url = `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/${path}`;
+
+        // Fetch the file content
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch file: ${response.status} ${response.statusText}`);
+        }
+
+        const content = await response.text();
+
+        // Process the content based on file extension
+        const fileExtension = path.split('.').pop().toLowerCase();
+        let vocabularyList = [];
+
+        if (fileExtension === 'json') {
+            // If it's a JSON file, parse it directly
+            vocabularyList = JSON.parse(content);
+        } else if (fileExtension === 'txt' || fileExtension === 'csv') {
+            // If it's a text file, parse it as a vocabulary list format
+            const lines = content.split('\n');
+
+            lines.forEach((line) => {
+                if (!line.trim()) return;
+
+                // Parse line based on vocabulary format
+                // Format example: 1. word: (type) translation /pronunciation/
+                const lineMatch = line.match(/(\d+)?\.\s*(.*?):\s*(\([a-z]+\))?\s*(.*?)\s*(\/.*?\/)?\s*$/);
+
+                if (lineMatch) {
+                    const [, , english, type, vietnamese, pronunciation] = lineMatch;
+                    vocabularyList.push({
+                        english: english.trim(),
+                        type: type ? type.trim() : '',
+                        vietnamese: vietnamese.trim(),
+                        pronunciation: pronunciation ? pronunciation.trim() : ''
+                    });
+                }
+            });
+        }
+
+        // Hide loading indicator
+        hideLoadingIndicator();
+
+        if (vocabularyList.length === 0) {
+            throw new Error('No vocabulary items found in the file');
+        }
+
+        // Set the vocabulary list and initialize the game
+        vocabulary = vocabularyList;
+        initializeGame();
+        return true;
+
+    } catch (error) {
+        console.error('Error loading vocabulary from GitHub:', error);
+        hideLoadingIndicator();
+        showError(`Failed to load vocabulary: ${error.message}`);
+        return false;
+    }
+}
+
+// Helper function to show loading indicator
+function showLoadingIndicator(message) {
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'loading-indicator';
+    loadingDiv.textContent = message;
+    loadingDiv.style.position = 'fixed';
+    loadingDiv.style.top = '50%';
+    loadingDiv.style.left = '50%';
+    loadingDiv.style.transform = 'translate(-50%, -50%)';
+    loadingDiv.style.padding = '15px 20px';
+    loadingDiv.style.background = 'rgba(0, 0, 0, 0.8)';
+    loadingDiv.style.color = 'white';
+    loadingDiv.style.borderRadius = '10px';
+    loadingDiv.style.zIndex = '1000';
+    document.body.appendChild(loadingDiv);
+}
+
+// Helper function to hide loading indicator
+function hideLoadingIndicator() {
+    const loadingDiv = document.getElementById('loading-indicator');
+    if (loadingDiv) {
+        document.body.removeChild(loadingDiv);
+    }
+}
+
+// Helper function to show error message
+function showError(message) {
+    const errorMessage = document.getElementById('error-message');
+    if (errorMessage) {
+        errorMessage.textContent = message;
+    }
+    showScreen('errorScreen');
+}
+
+// Generate a VocabHoot URL with GitHub parameters
+function generateGitHubVocabHootURL(path, owner = DEFAULT_GITHUB_OWNER, repo = DEFAULT_GITHUB_REPO) {
+    const baseUrl = window.location.origin + window.location.pathname;
+    return `${baseUrl}?owner=${encodeURIComponent(owner)}&repo=${encodeURIComponent(repo)}&path=${encodeURIComponent(path)}`;
+}
+
 // Request vocabulary data from parent window
 window.onload = () => {
     // First try to get from parent window
@@ -582,7 +707,7 @@ function startTimer() {
 
         if (!isAnswered) {
             soundEffects.timeWarning.currentTime = 0;
-            soundEffects.timeWarning.play().catch(e => console.log('Error playing sound:', e));
+            // soundEffects.timeWarning.play().catch(e => console.log('Error playing sound:', e));
         }
     }, (QUESTION_TIME - 3) * 1000);
 

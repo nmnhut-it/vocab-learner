@@ -445,8 +445,8 @@ async function loadVocabFromGitHubURL() {
         document.body.appendChild(loadingIndicator);
 
         // GitHub raw content URL format
-        const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/${path}`;
-
+        const url = `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/${path}`
+        console.log()
         // Fetch the file content
         const response = await fetch(url);
 
