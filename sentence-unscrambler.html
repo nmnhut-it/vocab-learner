@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Unscrambler</title>
+    <link rel="stylesheet" href="styles/vocabhoot.css">
+    <style>
+        /* Fix for container height issue */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .quiz-container {
+            width: 100%;
+            max-width: 800px;
+            min-height: 400px;
+            /* Ensure minimum height */
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        /* Make sure screens take up full height */
+        .screen {
+            display: none;
+            flex-grow: 1;
+            /* Fill available space */
+            width: 100%;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        /* Add styles for error messages */
+        .error-message {
+            background-color: #ffebee;
+            color: #c62828;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Style for selected words */
+        .answer-btn.selected {
+            border: 2px solid white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        /* Style for github source display */
+        #githubSource {
+            display: none;
+            background: #f6f8fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            align-items: center;
+        }
+
+        /* Make textarea fit properly */
+        #contentInput {
+            width: 100%;
+            min-height: 150px;
+            padding: 10px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: monospace;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        /* Loading spinner */
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Button styling */
+        .btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            margin: 20px 0;
+        }
+
+        .btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+
+        /* Timer bar */
+        .timer {
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .timer-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #2196F3, #03A9F4);
+            width: 100%;
+            transition: width linear;
+        }
+
+        /* Sentence area styling */
+        #sentenceArea {
+            min-height: 60px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        /* Make sure wordBank has proper styling */
+        #wordBank {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Language switcher positioning */
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 8px 12px;
+            border-radius: 20px;
+            z-index: 100;
+        }
+
+        /* Enhanced styling for word selection */
+        .answer-btn {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.2s ease-out;
+            transform-origin: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Selection state styling */
+        .answer-btn.selected {
+            border: 2px solid white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transform: scale(0.95);
+        }
+
+        /* Animation for adding a word */
+        .word-added {
+            animation: wordAdded 0.3s ease-out;
+        }
+
+        @keyframes wordAdded {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(0.95);
+            }
+        }
+
+        /* Animation for removing a word */
+        .word-removed {
+            animation: wordRemoved 0.3s ease-out;
+        }
+
+        @keyframes wordRemoved {
+            0% {
+                transform: scale(0.95);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.05);
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Enhanced sentence area */
+        #sentenceArea {
+            min-height: 60px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #f9f9f9;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            border: 2px dashed #ddd;
+            transition: all 0.3s ease;
+        }
+
+        /* Styling for sentence area when drag is over */
+        #sentenceArea.drag-over {
+            background: #e8f4fe;
+            border-color: #2196F3;
+            box-shadow: 0 0 10px rgba(33, 150, 243, 0.3);
+        }
+
+        /* Styling for sentence words */
+        .sentence-word {
+            display: inline-block;
+            padding: 5px;
+            margin: 2px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            animation: wordAppear 0.3s ease-out;
+            position: relative;
+            cursor: grab;
+        }
+
+        @keyframes wordAppear {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Word being touched/dragged */
+        .sentence-word.touched {
+            background: #e3f2fd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        /* Partial correctness indicators */
+        #sentenceArea.correct-so-far {
+            background: rgba(76, 175, 80, 0.1);
+            border-color: rgba(76, 175, 80, 0.5);
+        }
+
+        #sentenceArea.incorrect-order {
+            background: rgba(255, 152, 0, 0.1);
+            border-color: rgba(255, 152, 0, 0.5);
+        }
+
+        /* Hint message styling */
+        .hint-message {
+            margin: 10px auto;
+            padding: 10px 15px;
+            text-align: center;
+            border-radius: 20px;
+            background: #f5f5f5;
+            color: #666;
+            font-size: 14px;
+            max-width: 80%;
+            transition: all 0.3s ease;
+            opacity: 1;
+        }
+
+        .hint-message.hidden {
+            opacity: 0;
+            transform: translateY(-10px);
+            height: 0;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .hint-message.positive {
+            background: rgba(76, 175, 80, 0.1);
+            color: #388E3C;
+        }
+
+        .hint-message.hint {
+            background: rgba(255, 193, 7, 0.1);
+            color: #FFA000;
+        }
+
+        /* Settings button and panel */
+        .settings-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            transition: all 0.2s;
+            z-index: 100;
+        }
+
+        .settings-btn:hover {
+            background: white;
+            transform: rotate(30deg);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .settings-panel {
+            position: absolute;
+            top: 70px;
+            left: 20px;
+            width: 250px;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            z-index: 100;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .settings-panel.hidden {
+            display: none;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .settings-panel h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+            text-align: center;
+        }
+
+        .setting {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        /* Toggle switch styling */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+        }
+
+        input:checked+.slider {
+            background-color: #2196F3;
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(26px);
+        }
+
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+        /* Responsive enhancements */
+        @media (max-width: 600px) {
+            .answer-btn {
+                min-height: 80px;
+                font-size: 16px;
+            }
+
+            #sentenceArea {
+                min-height: 100px;
+                padding: 15px;
+            }
+
+            .sentence-word {
+                margin: 5px;
+                padding: 8px;
+            }
+
+            .settings-panel {
+                left: 50%;
+                transform: translateX(-50%);
+                width: 280px;
+            }
+        }
+
+        /* New button states for better visual feedback */
+        .answer-btn:active {
+            transform: scale(0.95);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Add visual cue for draggable elements */
+        .answer-btn:not(.selected)::after {
+            content: '';
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 9px 0 rgba(255, 255, 255, 0.6), 0 18px 0 rgba(255, 255, 255, 0.6);
+        }
+
+        /* Highlight correct ongoing sequence */
+        .correct-sequence {
+            border-bottom: 2px solid #4CAF50;
+            background: rgba(76, 175, 80, 0.05);
+        }
+    </style>
+    <style>
+        /* Updated Word Bank Styling */
+        #wordBank {
+            display: flex !important;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        /* Updated Answer Button Styling */
+        .answer-btn {
+            border: none;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            color: white;
+            display: inline-block;
+            transition: all 0.2s;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin: 5px;
+        }
+
+        /* Selected state styling - dim greatly */
+        .answer-btn.selected {
+            opacity: 0.3 !important;
+            transform: none !important;
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+        /* Remove key hints */
+        .key-hint {
+            display: none !important;
+        }
+
+        /* Override the grid styling */
+        #wordBank.answers {
+            display: flex !important;
+            grid-template-columns: unset !important;
+        }
+
+        /* Control button styling */
+        /* Button container for reset and submit - positioned for easier interaction */
+        .control-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 300px;
+            margin: 15px auto 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Button container for reset and submit - positioned for easier interaction */
+        .control-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 300px;
+            margin: 15px auto 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Control button styling with equal width */
+        .control-btn {
+            border: none;
+            padding: 12px 0;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            color: white;
+            transition: all 0.2s;
+            flex: 1;
+            max-width: 120px;
+        }
+
+        .reset-btn {
+            background-color: #f44336;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+        }
+
+        /* Equal-sized word pieces */
+        .answer-btn {
+            flex: 1;
+            min-width: 0;
+            max-width: 150px;
+            padding: 12px 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 5px;
+            flex-basis: 0;
+        }
+
+        /* Make sure word bank adjusts for different screen sizes */
+        #wordBank {
+            display: flex !important;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 480px) {
+            .control-buttons {
+                position: fixed;
+                bottom: 20px;
+                left: 0;
+                right: 0;
+                background: rgba(255, 255, 255, 0.9);
+                padding: 10px;
+                box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .answer-btn {
+                max-width: none;
+            }
+        }
+
+        .control-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        /* Ensure answer buttons stay in a line */
+        @media (max-width: 600px) {
+            #wordBank {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .answer-btn {
+                font-size: 14px;
+                padding: 10px 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="language-switcher">
+        <label for="languageSelect">Language:</label>
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+        </select>
+    </div>
+
+    <div class="quiz-container" id="inputContent">
+        <!-- GitHub Source Indicator -->
+        <div id="githubSource">
+            <svg viewBox="0 0 16 16" height="16" width="16">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+            <span>Loading from GitHub...</span>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loadingScreen" class="screen">
+            <div style="text-align: center; margin: 20px;">
+                <div class="loading-spinner"></div>
+                <p>Loading content...</p>
+            </div>
+        </div>
+
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <h1 style="text-align: center; margin-bottom: 20px;">Sentence Unscrambler</h1>
+            <p style="text-align: center; margin-bottom: 20px;">Rearrange the words to form correct sentences!</p>
+            <textarea id="contentInput">The cat sleeps on the mat
+I love to read good books
+She runs in the park daily
+They played soccer yesterday afternoon
+The sun shines brightly today</textarea>
+            <button class="btn" onclick="Game.start()" style="display: block; margin: 20px auto;">Start Game</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="gameScreen" class="screen">
+            <div class="progress-bar">
+                <div class="progress">
+                    Sentence <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
+                </div>
+                <div class="score">
+                    Score: <span id="score">0</span>
+                    <span id="bonusInfo">Bonus: <span id="timeBonus">1.0</span>x</span>
+                </div>
+            </div>
+            <div class="timer">
+                <div class="timer-bar"></div>
+            </div>
+            <div id="sentenceArea" class="question-text">Click words to build your sentence</div>
+            <div id="wordBank" class="answers"></div>
+
+            <!-- Add reset and submit buttons -->
+            <div class="control-buttons">
+                <button id="resetBtn" class="control-btn reset-btn">Reset</button>
+                <button id="submitBtn" class="control-btn submit-btn">Submit</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <h2 style="text-align: center; margin-bottom: 20px;">Game Complete!</h2>
+            <div id="finalScore" class="final-score"
+                style="font-size: 48px; text-align: center; color: #4CAF50; margin: 30px 0;">0</div>
+
+            <div style="margin: 20px 0;">
+                <div>Sentences Completed: <span id="completedCount">0</span></div>
+                <div>Accuracy: <span id="accuracy">0%</span></div>
+                <div>Average Time: <span id="avgTime">0s</span></div>
+            </div>
+
+            <button class="btn" onclick="Game.reset()" style="display: block; margin: 20px auto;">Try Again</button>
+        </div>
+    </div>
+
+    <script src="scripts/sentence-unscrambler.js"></script>
+    <script>
+        // Add this script right after the main script
+        document.addEventListener('DOMContentLoaded', function () {
+            // Original Game.init() will run from the main script file
+
+            // Add event listeners for reset and submit buttons after DOM is loaded
+            const resetBtn = document.getElementById('resetBtn');
+            const submitBtn = document.getElementById('submitBtn');
+
+            if (resetBtn) {
+                resetBtn.addEventListener('click', function () {
+                    // Reset the selected words
+                    Game.selectedWords = [];
+
+                    // Remove selected class from all word buttons
+                    document.querySelectorAll('.answer-btn').forEach(btn => {
+                        btn.classList.remove('selected');
+                    });
+
+                    // Update the sentence area
+                    Game.updateSentenceArea();
+                });
+            }
+
+            if (submitBtn) {
+                submitBtn.addEventListener('click', function () {
+                    // Check the answer
+                    Game.checkAnswer();
+                });
+            }
+
+            // Override the updateDisplay function to remove key hints
+            const originalUpdateDisplay = Game.updateDisplay;
+            Game.updateDisplay = function () {
+                const wordBank = document.getElementById('wordBank');
+                wordBank.innerHTML = '';
+
+                this.scrambledWords.forEach((word, index) => {
+                    const button = document.createElement('button');
+                    button.className = `answer-btn answer-${index % 4}`;
+                    button.setAttribute('draggable', 'true');
+
+                    // Just add the word text without key hint
+                    button.textContent = word;
+                    button.dataset.index = index;
+                    button.dataset.word = word;
+
+                    // Click handler
+                    button.onclick = () => this.toggleWord(word, index);
+
+                    // Drag-and-drop handlers
+                    button.addEventListener('dragstart', this.handleDragStart.bind(this));
+
+                    wordBank.appendChild(button);
+                });
+
+                // Make sentence area a drop target
+                const sentenceArea = document.getElementById('sentenceArea');
+                sentenceArea.addEventListener('dragover', this.handleDragOver.bind(this));
+                sentenceArea.addEventListener('drop', this.handleDrop.bind(this));
+                sentenceArea.addEventListener('dragleave', this.handleDragLeave.bind(this));
+
+                this.updateSentenceArea();
+            };
+
+            // Remove the keyboard event listener (it will be null after this)
+            document.onkeydown = null;
+        });
+    </script>
+</body>
+
+</html>
