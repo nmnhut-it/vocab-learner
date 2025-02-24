@@ -4,7 +4,8 @@ const Quiz = {
     score: 0,
     timer: null,
     QUESTION_TIME: 10000, // 10 seconds
-
+    isAnswered: false,
+    currentQuestionId: null,
 
     // Add new async init method
     async init() {
@@ -19,7 +20,6 @@ const Quiz = {
         const path = urlParams.get('path');
 
         if (owner && repo && path) {
-            // Hide the markdown input if loading from GitHub
             const markdownInput = document.getElementById('markdownInput');
             const loadingIndicator = document.createElement('div');
             loadingIndicator.id = 'loadingIndicator';
@@ -41,19 +41,13 @@ const Quiz = {
                 }
 
                 const content = await response.text();
-
-                // Set the content and remove loading indicator
                 markdownInput.value = content;
-                if (loadingIndicator) {
-                    loadingIndicator.remove();
-                }
+                loadingIndicator.remove();
 
-                // Auto-start the quiz if requested
                 if (urlParams.get('autostart') === 'true') {
                     this.start();
                 }
             } catch (error) {
-                // Show error message
                 if (loadingIndicator) {
                     loadingIndicator.innerHTML = `
                         <div class="error-message" style="color: red; text-align: center; margin: 20px;">
@@ -63,13 +57,14 @@ const Quiz = {
                 console.error('Error loading from GitHub:', error);
             }
         }
-    }
+    },
 
     loadSounds() {
         this.sounds = {
             correct: new Audio('sound/correct.mp3'),
             wrong: new Audio('sound/wrong.mp3'),
-            tick: new Audio('sound/tick.mp3')
+            tick: new Audio('sound/tick.mp3'),
+            tink: new Audio('sound/tink.mp3')
         };
 
         // Preload sounds
@@ -89,7 +84,6 @@ const Quiz = {
         lines.forEach(line => {
             const trimmedLine = line.trim();
 
-            // Handle question headers
             if (trimmedLine.startsWith('## ')) {
                 if (currentQuestion && options.length > 0) {
                     questions.push({
@@ -102,11 +96,9 @@ const Quiz = {
                 options = [];
                 correctAnswer = null;
             }
-            // Handle question text (with any number of underscores)
             else if (trimmedLine.match(/[_]+/) || trimmedLine.includes('\\_')) {
                 currentQuestion = trimmedLine;
             }
-            // Handle answer options
             else if (trimmedLine.match(/^[A-D][.)]/)) {
                 const option = trimmedLine.slice(2).trim();
                 const isCorrect = option.includes('[x]');
@@ -119,7 +111,6 @@ const Quiz = {
             }
         });
 
-        // Add the last question if exists
         if (currentQuestion && options.length > 0) {
             questions.push({
                 text: currentQuestion,
@@ -127,7 +118,6 @@ const Quiz = {
                 correctAnswer
             });
         }
-
         return questions;
     },
 
@@ -158,10 +148,18 @@ const Quiz = {
             return;
         }
 
+        // Generate unique ID for this question
+        this.currentQuestionId = Math.random().toString(36).substring(2, 10);
+        this.isAnswered = false;
+
         const question = this.questions[this.currentIndex];
         document.getElementById('questionText').textContent = question.text;
         document.getElementById('currentQuestion').textContent = this.currentIndex + 1;
         document.getElementById('totalQuestions').textContent = this.questions.length;
+
+        // Play tink sound for new question
+        this.sounds.tink.currentTime = 0;
+        this.sounds.tink.play().catch(e => console.log('Error playing sound:', e));
 
         const answersContainer = document.getElementById('answers');
         answersContainer.innerHTML = '';
@@ -171,13 +169,22 @@ const Quiz = {
             const button = document.createElement('button');
             button.className = `answer-btn answer-${index}`;
 
-            // Add key hint directly in the button
+            // Add key hint
             const keyHint = document.createElement('div');
             keyHint.className = 'key-hint';
             keyHint.textContent = ['Q', 'W', 'E', 'R'][index];
 
+            // Add shape div for visual effects
+            const shape = document.createElement('div');
+            shape.className = 'answer-shape';
+
+            // Add text span
+            const text = document.createElement('span');
+            text.textContent = option;
+
             button.appendChild(keyHint);
-            button.appendChild(document.createTextNode(option));
+            button.appendChild(shape);
+            button.appendChild(text);
 
             button.onclick = () => this.checkAnswer(option);
             answersContainer.appendChild(button);
@@ -186,7 +193,6 @@ const Quiz = {
         this.startTimer();
     },
 
-    // Rest of the Quiz object methods remain the same...
     shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -200,21 +206,63 @@ const Quiz = {
         timerBar.style.transition = 'none';
         timerBar.style.width = '100%';
 
+        const questionId = this.currentQuestionId;
+
         setTimeout(() => {
-            timerBar.style.transition = 'width linear 10s';
+            if (questionId !== this.currentQuestionId) return;
+            timerBar.style.transition = `width ${this.QUESTION_TIME / 1000}s linear`;
             timerBar.style.width = '0';
         }, 50);
 
+        // Start tick sound interval
+        const tickInterval = setInterval(() => {
+            if (questionId !== this.currentQuestionId || this.isAnswered) {
+                clearInterval(tickInterval);
+                return;
+            }
+            this.sounds.tick.currentTime = 0;
+            this.sounds.tick.play().catch(() => { });
+        }, 1000);
+
         if (this.timer) clearTimeout(this.timer);
-        this.timer = setTimeout(() => this.checkAnswer(null), this.QUESTION_TIME);
+        this.timer = setTimeout(() => {
+            if (questionId !== this.currentQuestionId) return;
+            clearInterval(tickInterval);
+            this.checkAnswer(null);
+        }, this.QUESTION_TIME);
     },
 
     checkAnswer(answer) {
+        if (this.isAnswered) return;
+
+        this.isAnswered = true;
         if (this.timer) clearTimeout(this.timer);
 
         const question = this.questions[this.currentIndex];
         const isCorrect = answer === question.correctAnswer;
 
+        // Get all answer buttons
+        let buttons = document.querySelectorAll('.answer-btn');
+
+        // Disable all buttons and add visual feedback
+        buttons.forEach(button => {
+            button.classList.add('disabled');
+            if (button.querySelector('span').textContent === question.correctAnswer) {
+                button.classList.add('correct');
+            }
+        });
+
+        // Add visual feedback for selected wrong answer
+        if (answer !== null && !isCorrect) {
+            const selectedButton = Array.from(buttons).find(btn =>
+                btn.querySelector('span').textContent === answer
+            );
+            if (selectedButton) {
+                selectedButton.classList.add('wrong');
+            }
+        }
+
+        // Play sound effects and update score
         if (isCorrect) {
             this.sounds.correct.play().catch(() => { });
             const timeLeft = parseFloat(getComputedStyle(document.querySelector('.timer-bar')).width) /
@@ -226,10 +274,11 @@ const Quiz = {
 
         document.getElementById('score').textContent = this.score;
 
+        // Wait longer for animations to complete
         setTimeout(() => {
             this.currentIndex++;
             this.showQuestion();
-        }, 1000);
+        }, 2000);
     },
 
     showResults() {
@@ -242,7 +291,6 @@ const Quiz = {
     }
 };
 
-
 // Handle keyboard shortcuts
 document.addEventListener('keydown', (event) => {
     const keyMap = {
@@ -252,13 +300,17 @@ document.addEventListener('keydown', (event) => {
         'r': 3
     };
 
-    if (event.key.toLowerCase() in keyMap) {
+    if (event.key.toLowerCase() in keyMap && !Quiz.isAnswered) {
         const buttons = document.querySelectorAll('.answer-btn');
         const index = keyMap[event.key.toLowerCase()];
-        if (buttons[index]) {
+        if (buttons[index] && !buttons[index].classList.contains('disabled')) {
             buttons[index].classList.add('key-pressed');
             setTimeout(() => buttons[index].classList.remove('key-pressed'), 150);
             buttons[index].click();
         }
     }
+});
+
+document.addEventListener('DOMContentLoaded', async () => {
+    await Quiz.init();
 });
