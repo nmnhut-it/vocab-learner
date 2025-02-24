@@ -35,7 +35,8 @@ const Game = {
         }, 0);
 
         await this.checkGitHubParams();
-
+        this.correctSound = new Audio('sound/correct.mp3');
+        this.wrongSound = new Audio('sound/wrong.mp3');
     },
 
     setupLanguageHandler() {
@@ -245,7 +246,27 @@ const Game = {
             }
         }
     },
+    playSoundEffect(type) {
+        if (!this.soundEnabled) return;
 
+        try {
+            if (type === 'correct') {
+                // Play preloaded correct sound
+                this.correctSound.currentTime = 0; // Reset to beginning
+                this.correctSound.play().catch(e => {
+                    console.log('Error playing sound:', e);
+                });
+            } else if (type === 'wrong') {
+                // Play preloaded wrong sound
+                this.wrongSound.currentTime = 0; // Reset to beginning
+                this.wrongSound.play().catch(e => {
+                    console.log('Error playing sound:', e);
+                });
+            }
+        } catch (e) {
+            console.log('Audio feedback not supported');
+        }
+    },
     updateDisplay() {
         const wordBank = document.getElementById('wordBank');
         wordBank.innerHTML = '';
@@ -391,6 +412,12 @@ const Game = {
     checkPartialCorrectness() {
         if (this.selectedWords.length === 0) return;
 
+        const userSentence = this.selectedWords.join(' ');
+        const isCorrect = userSentence === this.currentSentence;
+        if (isCorrect) {
+            this.checkAnswer();
+            return;
+        }
         const correctWords = this.currentSentence.split(' ');
         const userWords = this.selectedWords;
 
@@ -566,7 +593,7 @@ const Game = {
             const sentenceArea = document.getElementById('sentenceArea');
             sentenceArea.classList.add('correct-so-far');
             this.showHint("Perfect! Great job!", "positive");
-
+            this.playSoundEffect("correct");
             buttons.forEach(button => {
                 button.classList.add('correct');
             });
@@ -580,6 +607,7 @@ const Game = {
                     }
                 });
             });
+            this.playSoundEffect("wrong");
 
             // Show the correct sentence
             const sentenceArea = document.getElementById('sentenceArea');
