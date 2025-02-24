@@ -28,7 +28,6 @@ const Game = {
         // New initialization for better UX
         this.soundEnabled = true;
         this.difficulty = 'medium';
-        this.addSettings();
 
         // Set up touch support in next frame (after DOM is ready)
         setTimeout(() => {
@@ -36,7 +35,7 @@ const Game = {
         }, 0);
 
         await this.checkGitHubParams();
-        
+
     },
 
     setupLanguageHandler() {
@@ -52,7 +51,6 @@ const Game = {
         const owner = urlParams.get('owner');
         const repo = urlParams.get('repo');
         const path = urlParams.get('path');
-
         if (owner && repo && path) {
             this.showScreen('loadingScreen');
 
@@ -64,6 +62,7 @@ const Game = {
 
             try {
                 const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/${path}`;
+                console.log(url);
                 const response = await fetch(url);
 
                 if (!response.ok) {
