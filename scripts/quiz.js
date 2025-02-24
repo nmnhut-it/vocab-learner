@@ -103,7 +103,7 @@ const Quiz = {
                 correctAnswer = null;
             }
             else if (trimmedLine.match(/[_]+/) || trimmedLine.includes('\\_')) {
-                currentQuestion = trimmedLine;
+                currentQuestion = trimmedLine.replaceAll("\\*\\*__\\*\\*", "_____");
             }
             else if (trimmedLine.match(/^[A-D][.)]/)) {
                 const option = trimmedLine.slice(2).trim();
