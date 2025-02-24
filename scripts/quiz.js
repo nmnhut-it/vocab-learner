@@ -6,7 +6,7 @@ const Quiz = {
     QUESTION_TIME: 10000, // 10 seconds
     isAnswered: false,
     currentQuestionId: null,
-    MAX_QUESTIONS: 20,
+    MAX_QUESTIONS: 15,
     // Add new async init method
     async init() {
         this.loadSounds();
