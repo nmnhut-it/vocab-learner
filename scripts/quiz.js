@@ -6,7 +6,7 @@ const Quiz = {
     QUESTION_TIME: 10000, // 10 seconds
     isAnswered: false,
     currentQuestionId: null,
-
+    MAX_QUESTIONS: 20,
     // Add new async init method
     async init() {
         this.loadSounds();
@@ -73,7 +73,13 @@ const Quiz = {
             sound.volume = 0.5;
         });
     },
-
+    shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    },
     parseMarkdown(markdown) {
         const lines = markdown.split('\n');
         const questions = [];
@@ -118,7 +124,9 @@ const Quiz = {
                 correctAnswer
             });
         }
-        return questions;
+        // Shuffle and limit to MAX_QUESTIONS
+        const shuffledQuestions = this.shuffleArray([...questions]);
+        return shuffledQuestions.slice(0, this.MAX_QUESTIONS);
     },
 
     start() {
