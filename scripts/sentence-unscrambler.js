@@ -160,9 +160,23 @@ const Game = {
     },
 
     scrambleSentence(sentence) {
-        return sentence.split(" ")
-            .sort(() => Math.random() - 0.5);
-    },
+        let words = sentence.split(" ")
+
+        if (words.length > 5) {
+            let grouped = [];
+            for (let i = 0; i < words.length; i += 2) {
+                if (i + 1 < words.length) {
+                    grouped.push(words[i] + " " + words[i + 1]); // Pair two words
+                } else {
+                    grouped.push(words[i]); // If odd count, last word stays alone
+                }
+            }
+            return grouped.sort(() => Math.random() - 0.5);;
+        }
+
+        return words.sort(() => Math.random() - 0.5);; // Return normally scrambled words if 5 or fewer
+    }
+    ,
 
     startTimer() {
         const timerBar = document.querySelector('.timer-bar');

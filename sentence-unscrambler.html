@@ -174,6 +174,12 @@
         .answer-btn {
             position: relative;
             overflow: hidden;
+            word-wrap: break-word;
+            /* This will wrap long words */
+            overflow-wrap: break-word;
+            /* Modern version of word-wrap */
+            white-space: normal;
+            /* Ensures text wraps */
             transition: all 0.2s ease-out;
             transform-origin: center;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
