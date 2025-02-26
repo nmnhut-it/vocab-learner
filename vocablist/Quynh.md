@@ -54,3 +54,34 @@
 54. participate: (v) tham gia /pɑːˈtɪsɪpeɪt/
 55. interaction: (n) sự tương tác /ˌɪntərˈækʃn/
 56. conditional: (adj) có điều kiện /kənˈdɪʃənl/
+57. credit card: thẻ tín dụng /ˈkred.ɪt kɑːd/
+58. seller's website: trang web của người bán /ˈsel.əz ˈweb.saɪt/
+59. purchase: (v) mua /ˈpɜː.tʃəs/
+60. even: (adv) thậm chí /ˈiː.vən/
+61. save the trouble of: tránh khỏi rắc rối của việc... /seɪv ðə ˈtrʌb.l̩ ɒv/
+62. advantage: (n) lợi thế, ưu điểm /əd.ˈvɑːn.tɪdʒ/
+63. disadvantage: (n) bất lợi, nhược điểm /ˌdɪs.əd.ˈvɑːn.tɪdʒ/
+64. shipping: (n) vận chuyển /ˈʃɪp.ɪŋ/
+65. find it + adj + to V0: cảm thấy... để mà... /faɪnd ɪt ... tuː/
+66. over-shopping: (n) mua sắm quá mức cần thiết /ˌəʊ.vəˈʃɒp.ɪŋ/
+67. expect: (v) kì vọng, dự tính /ɪkˈspekt/
+68. return: (v) trả lại /rɪˈtɜːn/
+69. refund: (v) hoàn tiền; (n) khoản tiền hoàn lại /ˈriː.fʌnd/
+70. shopping center: trung tâm mua sắm /ˈʃɒpɪŋ ˌsentə/
+71. customer: (n) khách hàng /ˈkʌstəmə/
+72. choose from: lựa chọn từ /tʃuːz frɒm/
+73. a wide range of products: một loạt các sản phẩm đa dạng /ə waɪd reɪndʒ ɒv ˈprɒdʌkts/
+74. touch: (v) chạm vào, sờ vào /tʌtʃ/
+75. decide: (v) quyết định /dɪˈsaɪd/
+76. for many other reasons: vì nhiều lý do khác /fə ˈmeni ˈʌðə ˈriːznz/
+77. year-round: (adj) suốt năm, quanh năm /jɪə raʊnd/
+78. of all ages: thuộc mọi lứa tuổi /ɒv ɔːl eɪdʒɪz/
+79. live music: (n) nhạc sống, nhạc trực tiếp /laɪv ˈmjuːzɪk/
+80. holiday excitement: không khí lễ hội sôi động /ˈhɒlədeɪ ɪkˈsaɪtmənt/
+81. hang out with friends: đi chơi với bạn bè /hæŋ aʊt wɪð frendz/
+82. go browsing: đi dạo xem hàng /ɡəʊ ˈbraʊzɪŋ/
+83. wander: (v) đi lang thang, đi dạo /ˈwɒndə/
+84. get exercise: tập thể dục /ɡet ˈeksəsaɪz/
+85. well-lit areas: khu vực được chiếu sáng tốt /wel lɪt ˈeəriəz/
+86. heat: (n) nhiệt, sức nóng /hiːt/
+87. air conditioning: (n) điều hòa không khí /eə kənˈdɪʃənɪŋ/
