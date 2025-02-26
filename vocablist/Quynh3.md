@@ -1,4 +1,4 @@
-1. sdestruction: (n) sự phá hủy /dɪˈstrʌkʃn/
+1. destruction: (n) sự phá hủy /dɪˈstrʌkʃn/
 2. erupt: (v) phun trào /ɪˈrʌpt/
 3. eruption: (n) sự phun trào /ɪˈrʌpʃn/
 4. warn: (v) cảnh báo /wɔːn/
