@@ -464,7 +464,7 @@ async function loadVocabFromGitHubURL() {
         if (fileExtension === 'json') {
             // If it's a JSON file, parse it directly
             vocabularyList = JSON.parse(content);
-        } else if (fileExtension === 'txt' || fileExtension === 'csv') {
+        } else if (fileExtension === 'txt' || fileExtension === 'csv' || fileExtension === 'md' ) {
             // If it's a text file, parse it as a vocabulary list format
             const lines = content.split('\n');
 
