@@ -446,16 +446,16 @@ async function loadVocabFromGitHubURL() {
 
         // GitHub raw content URL format
         const url = `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/${path}`
-        console.log()
+        console.log(url)
         // Fetch the file content
         const response = await fetch(url);
-
+        
         if (!response.ok) {
             throw new Error(`Failed to fetch file: ${response.status} ${response.statusText}`);
         }
 
         const content = await response.text();
-
+        console.log(content);
         // Process the content based on file extension
         const fileExtension = path.split('.').pop().toLowerCase();
 
