@@ -14,7 +14,7 @@
 1. popularity: (n) sự phổ biến /ˌpɒpjuˈlærəti/
 1. privacy: (n) sự riêng tư /ˈprɪvəsi/
 1. promise: (n, v) lời hứa, hứa /ˈprɒmɪs/
-1. pursue: (v) theo đuổi /pəˈsjuː/
+1. pursue: (v) theo đuổi /pə ˈsjuː/
 1. replace: (v) thay thế /rɪˈpleɪs/
 1. take notes: ghi chép /teɪk nəʊts/
 1. trend: (n) xu hướng /trend/
