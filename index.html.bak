@@ -10,12 +10,11 @@
 
 <body>
     <h1>Học từ vựng nè!</h1>
-    <div class="advanced-mode-indicator">Advanced Mode</div>
-    <div class="mode-selector advanced-feature">
+    <div class="mode-selector">
         <button id="gameToggle" class="mode-toggle">Play VocabHoot!</button>
     </div>
 
-    <div class="view-toggle advanced-feature flex">
+    <div class="view-toggle">
         <button id="listViewBtn" class="active">List View</button>
         <button id="flashcardViewBtn">Flashcard View</button>
     </div>
@@ -32,16 +31,16 @@ Examples:
 4. what do you like about it: bạn thích gì về nó /wɒt duː juː laɪk əˈbaʊt ɪt/
 5. costume: (n) trang phục /ˈkɒstjuːm/
 6. wear: (v) mặc /weə/</textarea>
-        <button id="convertBtn" style="margin-bottom: 10px;">Convert</button>
         <div class="input-buttons">
             <button id="geminiBtn" class="gemini-button">✨ Process with Gemini AI</button>
+            <button id="convertBtn">Convert</button>
         </div>
         <div id="geminiStatus" class="gemini-status"></div>
     </div>
 
     <div class="mode-content" id="studyMode">
 
-        <div class="controls advanced-feature">
+        <div class="controls">
             <button id="readAll">Read All Words</button>
             <button id="stopReading">Stop Reading</button>
             <select id="voiceSelect">
@@ -58,7 +57,7 @@ Examples:
             <div id="vocabularyList"></div>
         </div>
 
-        <div id="flashcardView" class="advanced-feature">
+        <div id="flashcardView">
             <div class="flashcard-container">
                 <div class="flashcard-word" id="flashcardWord"></div>
                 <div class="flashcard-actions">
@@ -76,7 +75,7 @@ Examples:
             </div>
         </div>
 
-        <div class="video-generator advanced-feature">
+        <div class="video-generator">
             <h2>Generate Vocabulary Video</h2>
             <canvas id="videoCanvas"></canvas>
             <div class="video-controls">
@@ -104,8 +103,6 @@ Examples:
 
     <!-- LZ-String compression library for URL compression -->
     <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
-    <!-- Shared TTS Service -->
-    <script src="scripts/ttsService.js"></script>
     <!-- IPA Pronunciation Guide -->
     <script src="scripts/ipaGuide.js"></script>
     <!-- Gemini Processor -->

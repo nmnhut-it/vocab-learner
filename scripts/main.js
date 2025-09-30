@@ -105,11 +105,36 @@ document.addEventListener('DOMContentLoaded', function () {
         return vocabItem;
     }
 
-    function readText(text) {
+    async function readText(text) {
         if (isReading) {
             synth.cancel();
         }
 
+        // Only use high-quality TTS in advanced mode
+        const isAdvancedMode = document.body.classList.contains('advanced-mode');
+
+        if (isAdvancedMode && window.ttsService) {
+            try {
+                await window.ttsService.speak(text, {
+                    onStart: () => console.log('Speaking:', text),
+                    onEnd: () => console.log('Finished speaking'),
+                    onError: (error) => {
+                        console.warn('TTS service failed, falling back to Web Speech API:', error);
+                        fallbackToWebSpeech(text);
+                    }
+                });
+                return; // Success - exit
+            } catch (error) {
+                console.warn('TTS service error, using fallback:', error);
+                // Fall through to Web Speech API
+            }
+        }
+
+        // Use browser TTS (basic mode or fallback)
+        fallbackToWebSpeech(text);
+    }
+
+    function fallbackToWebSpeech(text) {
         currentUtterance = new SpeechSynthesisUtterance(text);
 
         const voiceIndex = voiceSelect.value;
@@ -603,18 +628,22 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // ===== GEMINI TOGGLE (SECRET) =====
+    // ===== ADVANCED MODE TOGGLE (SECRET - G KEY) =====
     document.addEventListener('keydown', (e) => {
         if (e.key === 'g' || e.key === 'G') {
+            // Toggle advanced mode
+            document.body.classList.toggle('advanced-mode');
+
+            // Also toggle Gemini visibility
             const inputButtons = document.querySelector('.input-buttons');
             const geminiStatus = document.getElementById('geminiStatus');
 
-            if (inputButtons.classList.contains('visible')) {
-                inputButtons.classList.remove('visible');
-                geminiStatus.classList.remove('visible');
-            } else {
+            if (document.body.classList.contains('advanced-mode')) {
                 inputButtons.classList.add('visible');
                 geminiStatus.classList.add('visible');
+            } else {
+                inputButtons.classList.remove('visible');
+                geminiStatus.classList.remove('visible');
             }
         }
     });

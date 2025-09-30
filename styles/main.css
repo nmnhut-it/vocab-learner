@@ -8,6 +8,42 @@ body {
     line-height: 1.6;
 }
 
+/* Hidden by default until G key pressed */
+.advanced-feature {
+    display: none !important;
+}
+
+.advanced-mode .advanced-feature {
+    display: block !important;
+}
+
+.advanced-mode .advanced-feature.inline {
+    display: inline-block !important;
+}
+
+.advanced-mode .advanced-feature.flex {
+    display: flex !important;
+}
+
+/* Advanced mode indicator */
+.advanced-mode-indicator {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #2c2c2c;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 999;
+}
+
+.advanced-mode .advanced-mode-indicator {
+    display: block;
+}
+
 .input-section {
     margin-bottom: 30px;
 }
