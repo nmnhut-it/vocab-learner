@@ -233,21 +233,50 @@ class VocabVideoGeneratorWasm {
 
         this.ctx.font = 'bold 48px Arial';
         this.ctx.fillStyle = '#2c3e50';
-        this.ctx.fillText(word.english, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 3);
+        this.ctx.fillText(word.english, CANVAS_WIDTH / 2, 150);
 
         this.ctx.font = '24px Arial';
         this.ctx.fillStyle = '#27ae60';
-        this.ctx.fillText(word.type, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 3 + 40);
+        this.ctx.fillText(word.type, CANVAS_WIDTH / 2, 185);
 
         this.ctx.font = '36px Arial';
         this.ctx.fillStyle = '#e74c3c';
-        this.ctx.fillText(word.vietnamese, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2 + 30);
+        this.ctx.fillText(word.vietnamese, CANVAS_WIDTH / 2, 240);
 
         this.ctx.font = 'italic 28px Arial';
         this.ctx.fillStyle = '#3498db';
-        this.ctx.fillText(word.pronunciation, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2 + 80);
+        this.ctx.fillText(word.pronunciation, CANVAS_WIDTH / 2, 280);
 
-        // Progress counter (static text instead of animated bar)
+        // Add IPA pronunciation guide hint
+        if (word.pronunciation && window.IPAGuideHelper) {
+            const simpleGuide = window.IPAGuideHelper.generateSimpleGuide(word.pronunciation);
+            if (simpleGuide) {
+                this.ctx.font = 'italic 18px Arial';
+                this.ctx.fillStyle = '#7f8c8d';
+
+                // Word wrap the guide if too long
+                const maxWidth = 700;
+                const words = simpleGuide.split(' → ');
+                let line = '';
+                let y = 320;
+
+                for (let i = 0; i < words.length; i++) {
+                    const testLine = line + (line ? ' → ' : '') + words[i];
+                    const metrics = this.ctx.measureText(testLine);
+
+                    if (metrics.width > maxWidth && i > 0) {
+                        this.ctx.fillText(line, CANVAS_WIDTH / 2, y);
+                        line = words[i];
+                        y += 25;
+                    } else {
+                        line = testLine;
+                    }
+                }
+                this.ctx.fillText(line, CANVAS_WIDTH / 2, y);
+            }
+        }
+
+        // Progress counter
         this.ctx.font = 'bold 24px Arial';
         this.ctx.fillStyle = '#95a5a6';
         this.ctx.fillText(`${wordIndex + 1}/${totalWords}`, CANVAS_WIDTH / 2, CANVAS_HEIGHT - 40);

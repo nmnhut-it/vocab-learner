@@ -4,8 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentUtterance = null;
     let isReading = false;
 
+    // Initialize Gemini processor
+    const geminiProcessor = new window.GeminiProcessor();
+
     // Get DOM elements
     const convertBtn = document.getElementById('convertBtn');
+    const geminiBtn = document.getElementById('geminiBtn');
+    const geminiStatus = document.getElementById('geminiStatus');
     const readAllBtn = document.getElementById('readAll');
     const stopReadingBtn = document.getElementById('stopReading');
     const speedRange = document.getElementById('speedRange');
@@ -85,14 +90,33 @@ document.addEventListener('DOMContentLoaded', function () {
         vocabItem.className = 'vocab-item';
         vocabItem.dataset.text = english;
 
+        // Generate IPA guide if pronunciation exists
+        const ipaGuideHTML = pronunciation && window.IPAGuideHelper ?
+            window.IPAGuideHelper.generateGuideHTML(pronunciation) : '';
+
         vocabItem.innerHTML = `
             <span class="english">${english}</span>
             <span class="type">${type}</span>
             <span class="vietnamese">${vietnamese}</span>
             <span class="pronunciation">${pronunciation}</span>
+            ${ipaGuideHTML}
         `;
 
-        vocabItem.addEventListener('click', () => readText(english));
+        vocabItem.addEventListener('click', () => {
+            // Toggle IPA guide visibility
+            const guide = vocabItem.querySelector('.ipa-guide');
+            if (guide) {
+                guide.style.display = guide.style.display === 'none' ? 'block' : 'none';
+            }
+            readText(english);
+        });
+
+        // Hide IPA guide by default
+        setTimeout(() => {
+            const guide = vocabItem.querySelector('.ipa-guide');
+            if (guide) guide.style.display = 'none';
+        }, 0);
+
         return vocabItem;
     }
 
@@ -218,11 +242,52 @@ document.addEventListener('DOMContentLoaded', function () {
         window.vocabVideoGenerator = null;
     }
 
+    // Gemini AI Processing
+    async function processWithGemini() {
+        const rawText = vocabInput.value.trim();
+        if (!rawText) {
+            alert('Please enter vocabulary to process!');
+            return;
+        }
+
+        if (!geminiProcessor.hasApiKey()) {
+            const apiKey = prompt('Enter your Gemini API key:\n(Get it from https://makersuite.google.com/app/apikey)');
+            if (!apiKey) return;
+            geminiProcessor.setApiKey(apiKey);
+        }
+
+        try {
+            geminiStatus.textContent = '✨ Processing with Gemini AI...';
+            geminiStatus.style.color = '#3498db';
+            geminiBtn.disabled = true;
+
+            const processed = await geminiProcessor.processVocabulary(rawText);
+            vocabInput.value = processed;
+
+            geminiStatus.textContent = '✅ Processed! Click Convert to display.';
+            geminiStatus.style.color = '#27ae60';
+
+            // Auto-convert after 1 second
+            setTimeout(() => {
+                parseAndDisplay();
+                geminiStatus.textContent = '';
+            }, 1000);
+
+        } catch (error) {
+            console.error('Gemini error:', error);
+            geminiStatus.textContent = '❌ Error: ' + error.message;
+            geminiStatus.style.color = '#e74c3c';
+        } finally {
+            geminiBtn.disabled = false;
+        }
+    }
+
     // Event Listeners
     if (speechSynthesis.onvoiceschanged !== undefined) {
         speechSynthesis.onvoiceschanged = loadVoices;
     }
 
+    geminiBtn.addEventListener('click', processWithGemini);
     convertBtn.addEventListener('click', parseAndDisplay);
 
     readAllBtn.addEventListener('click', async () => {

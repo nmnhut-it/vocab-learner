@@ -15,16 +15,22 @@
     </div>
 
     <div class="input-section">
-        <textarea id="vocabInput" placeholder="Enter vocabulary list in format:
-1. fair: (n) hội chợ /feə/
-2. awesome: (adj) tuyệt vời /ˈɔːsəm/
+        <textarea id="vocabInput" placeholder="Enter vocabulary list in any format - Gemini AI will standardize it!
+Examples:
+- fair - hội chợ
+- awesome (tuyệt vời)
+- open-air market: chợ ngoài trời
 ...">1. fair: (n) hội chợ /feə/
 2. awesome: (adj) tuyệt vời /ˈɔːsəm/
 3. open-air market: chợ ngoài trời /ˈəʊpən eə ˈmɑːkɪt/
 4. what do you like about it: bạn thích gì về nó /wɒt duː juː laɪk əˈbaʊt ɪt/
 5. costume: (n) trang phục /ˈkɒstjuːm/
 6. wear: (v) mặc /weə/</textarea>
-        <button id="convertBtn">Convert</button>
+        <div class="input-buttons">
+            <button id="geminiBtn" class="gemini-button">✨ Process with Gemini AI</button>
+            <button id="convertBtn">Convert</button>
+        </div>
+        <div id="geminiStatus" class="gemini-status"></div>
     </div>
 
     <div class="mode-content" id="studyMode">
@@ -70,6 +76,10 @@
     <p>&copy; 2025 - Vocabulary Learning Tool by Nguyễn Minh Nhựt</p>
 </footer>
 
+    <!-- IPA Pronunciation Guide -->
+    <script src="scripts/ipaGuide.js"></script>
+    <!-- Gemini Processor -->
+    <script src="scripts/geminiProcessor.js"></script>
     <!-- Original video generator (MediaRecorder-based) -->
     <script src="scripts/videoGenerator.js"></script>
     <!-- New WASM-based video generator -->
