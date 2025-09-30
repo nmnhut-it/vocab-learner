@@ -117,15 +117,23 @@ document.addEventListener('DOMContentLoaded', function () {
         if (window.vocabVideoGenerator) {
             cleanupVideoGenerator();
         }
-        window.vocabVideoGenerator = new VocabVideoGenerator();
+
+        // Try to use WASM-based generator, fallback to MediaRecorder
+        if (window.VocabVideoGeneratorWasm && !window.vocabVideoGenerator) {
+            window.vocabVideoGenerator = new VocabVideoGeneratorWasm();
+        } else if (window.VocabVideoGenerator) {
+            window.vocabVideoGenerator = new VocabVideoGenerator();
+        }
 
         if (window.vocabVideoGenerator) {
             const vocabList = window.vocabVideoGenerator.getVocabList();
-            if (vocabList.length > 0) {
+            if (vocabList.length > 0 && window.vocabVideoGenerator.drawFrame) {
                 window.vocabVideoGenerator.drawFrame(vocabList[0], 1);
             }
-            window.vocabVideoGenerator.measureAllPronunciations().catch(err =>
-                console.error('Error measuring pronunciations:', err));
+            if (window.vocabVideoGenerator.measureAllPronunciations) {
+                window.vocabVideoGenerator.measureAllPronunciations().catch(err =>
+                    console.error('Error measuring pronunciations:', err));
+            }
         }
     }
 
