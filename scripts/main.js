@@ -623,10 +623,108 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Add this to your main.js file
 
-// Function to load vocabulary from GitHub based on URL parameters
-async function loadVocabFromGitHubURL() {
-    // Get URL parameters
+// ===== COMPRESSION HELPERS FOR SHAREABLE LINKS =====
+const LINK_TTL_MS = 60 * 60 * 1000; // 1 hour in milliseconds
+
+function compressVocabData(vocabText) {
+    try {
+        // Create payload with timestamp and data
+        const payload = {
+            ts: Date.now(), // timestamp
+            d: vocabText    // data
+        };
+
+        const jsonStr = JSON.stringify(payload);
+        const compressed = LZString.compressToEncodedURIComponent(jsonStr);
+
+        return compressed;
+    } catch (error) {
+        console.error('Compression error:', error);
+        return null;
+    }
+}
+
+function decompressVocabData(compressedData) {
+    try {
+        const decompressed = LZString.decompressFromEncodedURIComponent(compressedData);
+        if (!decompressed) {
+            throw new Error('Failed to decompress data');
+        }
+
+        const payload = JSON.parse(decompressed);
+
+        // Check TTL - link expires after 1 hour
+        const now = Date.now();
+        const age = now - payload.ts;
+
+        if (age > LINK_TTL_MS) {
+            const hoursAgo = Math.floor(age / (60 * 60 * 1000));
+            throw new Error(`This link expired ${hoursAgo} hour(s) ago. Links are valid for 1 hour only.`);
+        }
+
+        return payload.d;
+    } catch (error) {
+        console.error('Decompression error:', error);
+        throw error;
+    }
+}
+
+function estimateURLLength(vocabText) {
+    const compressed = compressVocabData(vocabText);
+    if (!compressed) return null;
+
+    const baseUrl = window.location.origin + window.location.pathname;
+    const fullUrl = `${baseUrl}?data=${compressed}`;
+
+    return {
+        length: fullUrl.length,
+        compressed: compressed,
+        isSafe: fullUrl.length < 2000,
+        isMax: fullUrl.length < 8000
+    };
+}
+
+// Function to load vocabulary from URL parameters (GitHub or compressed data)
+async function loadVocabFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
+
+    // Check for compressed data parameter first
+    const compressedData = urlParams.get('data');
+    if (compressedData) {
+        try {
+            const vocabText = decompressVocabData(compressedData);
+
+            // Set the decompressed text in the vocabulary input textarea
+            const vocabInput = document.getElementById('vocabInput');
+            if (vocabInput) {
+                vocabInput.value = vocabText;
+
+                // Trigger the convert function to display the vocabulary
+                const convertBtn = document.getElementById('convertBtn');
+                if (convertBtn) {
+                    convertBtn.click();
+                }
+            }
+
+            // If the 'play' parameter is set to 'true', automatically click the Play VocabHoot button
+            if (urlParams.get('play') === 'true') {
+                setTimeout(() => {
+                    const gameToggle = document.getElementById('gameToggle');
+                    if (gameToggle) {
+                        gameToggle.click();
+                    }
+                }, 1000);
+            }
+
+            return; // Exit after processing compressed data
+        } catch (error) {
+            console.error('Error loading compressed vocabulary:', error);
+            alert(`Error: ${error.message}`);
+            return;
+        }
+    }
+
+    // Fallback to GitHub mode if no data parameter
     const owner = urlParams.get('owner');
     const repo = urlParams.get('repo');
     const path = urlParams.get('path');
@@ -736,7 +834,7 @@ async function loadVocabFromGitHubURL() {
 
 // Call the function when the page loads
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(loadVocabFromGitHubURL, 500);
+    setTimeout(loadVocabFromURL, 500);
 });
 
 // Function to create a GitHub vocabulary URL
@@ -789,42 +887,140 @@ function showCreateLinkDialog() {
         const title = document.createElement('h3');
         title.textContent = 'Create Shareable Link';
 
+        // Mode selector
+        const modeSelector = document.createElement('div');
+        modeSelector.className = 'link-mode-selector';
+        modeSelector.style.marginBottom = '20px';
+
+        const embedRadio = document.createElement('input');
+        embedRadio.type = 'radio';
+        embedRadio.name = 'linkMode';
+        embedRadio.id = 'embedMode';
+        embedRadio.value = 'embed';
+        embedRadio.checked = true;
+
+        const embedLabel = document.createElement('label');
+        embedLabel.htmlFor = 'embedMode';
+        embedLabel.textContent = ' Embed in URL (expires in 1 hour)';
+        embedLabel.style.marginRight = '20px';
+
+        const githubRadio = document.createElement('input');
+        githubRadio.type = 'radio';
+        githubRadio.name = 'linkMode';
+        githubRadio.id = 'githubMode';
+        githubRadio.value = 'github';
+
+        const githubLabel = document.createElement('label');
+        githubLabel.htmlFor = 'githubMode';
+        githubLabel.textContent = ' Load from GitHub';
+
+        modeSelector.appendChild(embedRadio);
+        modeSelector.appendChild(embedLabel);
+        modeSelector.appendChild(githubRadio);
+        modeSelector.appendChild(githubLabel);
+
+        // GitHub form
+        const githubForm = document.createElement('div');
+        githubForm.id = 'githubFormFields';
+        githubForm.style.display = 'none';
+
+        // Embed form
+        const embedForm = document.createElement('div');
+        embedForm.id = 'embedFormFields';
+
+        const embedInfo = document.createElement('div');
+        embedInfo.style.padding = '10px';
+        embedInfo.style.background = '#f8f8f8';
+        embedInfo.style.borderRadius = '4px';
+        embedInfo.style.marginBottom = '12px';
+        embedInfo.style.fontSize = '13px';
+        embedInfo.style.color = '#666';
+        embedInfo.innerHTML = 'Current vocabulary will be compressed and embedded in URL.<br>Link expires after 1 hour.';
+
+        const urlLengthInfo = document.createElement('div');
+        urlLengthInfo.id = 'urlLengthInfo';
+        urlLengthInfo.style.marginBottom = '12px';
+
+        embedForm.appendChild(embedInfo);
+        embedForm.appendChild(urlLengthInfo);
+
+        // Toggle between forms
+        const toggleForms = () => {
+            const isEmbed = document.getElementById('embedMode').checked;
+            embedForm.style.display = isEmbed ? 'block' : 'none';
+            githubForm.style.display = isEmbed ? 'none' : 'block';
+        };
+
+        embedRadio.addEventListener('change', toggleForms);
+        githubRadio.addEventListener('change', toggleForms);
+
         const form = document.createElement('form');
         form.id = 'createLinkForm';
         form.onsubmit = (e) => {
             e.preventDefault();
 
-            const owner = document.getElementById('linkOwner').value.trim();
-            const repo = document.getElementById('linkRepo').value.trim();
-            const path = document.getElementById('linkPath').value.trim();
-            const playDirectly = document.getElementById('playDirectly').checked;
+            const isEmbed = document.getElementById('embedMode').checked;
+            let url;
 
-            if (!owner || !repo || !path) {
-                alert('Please fill all fields');
-                return;
+            if (isEmbed) {
+                // Embed mode - compress current vocabulary
+                const vocabInput = document.getElementById('vocabInput');
+                if (!vocabInput || !vocabInput.value.trim()) {
+                    alert('Please enter vocabulary first!');
+                    return;
+                }
+
+                const estimate = estimateURLLength(vocabInput.value);
+                if (!estimate) {
+                    alert('Failed to compress vocabulary');
+                    return;
+                }
+
+                if (!estimate.isMax) {
+                    alert('Vocabulary is too long for URL (exceeds 8000 characters).\nPlease use GitHub mode instead.');
+                    return;
+                }
+
+                const baseUrl = window.location.origin + window.location.pathname;
+                const playDirectly = document.getElementById('playDirectlyEmbed')?.checked;
+                url = `${baseUrl}?data=${estimate.compressed}`;
+
+                if (playDirectly) {
+                    url += '&play=true';
+                }
+
+            } else {
+                // GitHub mode
+                const owner = document.getElementById('linkOwner').value.trim();
+                const repo = document.getElementById('linkRepo').value.trim();
+                const path = document.getElementById('linkPath').value.trim();
+                const playDirectly = document.getElementById('playDirectly').checked;
+
+                if (!owner || !repo || !path) {
+                    alert('Please fill all fields');
+                    return;
+                }
+
+                url = createGitHubVocabURL(owner, repo, path, playDirectly);
+
+                // Save the GitHub details to localStorage for future use
+                localStorage.setItem('githubVocabOwner', owner);
+                localStorage.setItem('githubVocabRepo', repo);
+                localStorage.setItem('githubVocabPath', path);
             }
-
-            // Create the URL
-            const url = createGitHubVocabURL(owner, repo, path, playDirectly);
 
             // Update the link display
             document.getElementById('generatedLink').value = url;
             document.getElementById('linkActions').style.display = 'block';
-
-            // Save the GitHub details to localStorage for future use
-            localStorage.setItem('githubVocabOwner', owner);
-            localStorage.setItem('githubVocabRepo', repo);
-            localStorage.setItem('githubVocabPath', path);
         };
 
-        // Create form fields
+        // Create GitHub form fields
         const ownerLabel = document.createElement('label');
         ownerLabel.textContent = 'GitHub Username:';
         const ownerInput = document.createElement('input');
         ownerInput.type = 'text';
         ownerInput.id = 'linkOwner';
         ownerInput.placeholder = 'e.g., yourusername';
-        ownerInput.required = true;
 
         const repoLabel = document.createElement('label');
         repoLabel.textContent = 'Repository Name:';
@@ -832,7 +1028,6 @@ function showCreateLinkDialog() {
         repoInput.type = 'text';
         repoInput.id = 'linkRepo';
         repoInput.placeholder = 'e.g., vocabulary-learner';
-        repoInput.required = true;
 
         const pathLabel = document.createElement('label');
         pathLabel.textContent = 'File Path:';
@@ -840,7 +1035,6 @@ function showCreateLinkDialog() {
         pathInput.type = 'text';
         pathInput.id = 'linkPath';
         pathInput.placeholder = 'e.g., vocab-lists/week1.txt';
-        pathInput.required = true;
 
         const playDirectlyLabel = document.createElement('label');
         playDirectlyLabel.className = 'checkbox-label';
@@ -850,6 +1044,37 @@ function showCreateLinkDialog() {
         const playDirectlyText = document.createTextNode(' Start game automatically');
         playDirectlyLabel.appendChild(playDirectlyInput);
         playDirectlyLabel.appendChild(playDirectlyText);
+
+        githubForm.appendChild(ownerLabel);
+        githubForm.appendChild(ownerInput);
+        githubForm.appendChild(repoLabel);
+        githubForm.appendChild(repoInput);
+        githubForm.appendChild(pathLabel);
+        githubForm.appendChild(pathInput);
+        githubForm.appendChild(playDirectlyLabel);
+
+        // Create embed form checkbox
+        const playDirectlyEmbedLabel = document.createElement('label');
+        playDirectlyEmbedLabel.className = 'checkbox-label';
+        const playDirectlyEmbedInput = document.createElement('input');
+        playDirectlyEmbedInput.type = 'checkbox';
+        playDirectlyEmbedInput.id = 'playDirectlyEmbed';
+        const playDirectlyEmbedText = document.createTextNode(' Start game automatically');
+        playDirectlyEmbedLabel.appendChild(playDirectlyEmbedInput);
+        playDirectlyEmbedLabel.appendChild(playDirectlyEmbedText);
+
+        embedForm.appendChild(playDirectlyEmbedLabel);
+
+        // Calculate URL length when opening modal
+        const vocabInput = document.getElementById('vocabInput');
+        if (vocabInput && vocabInput.value.trim()) {
+            const estimate = estimateURLLength(vocabInput.value);
+            if (estimate) {
+                const status = estimate.isSafe ? '✓ Safe' : estimate.isMax ? '⚠ Long (may not work in all browsers)' : '✗ Too long';
+                urlLengthInfo.innerHTML = `URL length: ${estimate.length} characters - ${status}`;
+                urlLengthInfo.style.color = estimate.isSafe ? '#27ae60' : estimate.isMax ? '#f39c12' : '#e74c3c';
+            }
+        }
 
         const submitBtn = document.createElement('button');
         submitBtn.type = 'submit';
@@ -889,21 +1114,19 @@ function showCreateLinkDialog() {
         // Help text
         const helpText = document.createElement('p');
         helpText.className = 'help-text';
-        helpText.innerHTML = 'This tool creates a direct link to your vocabulary list stored on GitHub. Share this link with your students to provide them immediate access to the vocabulary.';
+        helpText.style.fontSize = '13px';
+        helpText.style.color = '#666';
+        helpText.innerHTML = '<strong>Embed mode:</strong> Vocabulary is compressed and embedded in URL. Link expires after 1 hour.<br><strong>GitHub mode:</strong> Load vocabulary from your GitHub repository (no expiration).';
 
         // Assemble the form
-        form.appendChild(ownerLabel);
-        form.appendChild(ownerInput);
-        form.appendChild(repoLabel);
-        form.appendChild(repoInput);
-        form.appendChild(pathLabel);
-        form.appendChild(pathInput);
-        form.appendChild(playDirectlyLabel);
+        form.appendChild(embedForm);
+        form.appendChild(githubForm);
         form.appendChild(submitBtn);
 
         // Assemble the modal content
         modalContent.appendChild(closeBtn);
         modalContent.appendChild(title);
+        modalContent.appendChild(modeSelector);
         modalContent.appendChild(form);
         modalContent.appendChild(linkDisplay);
         modalContent.appendChild(helpText);
