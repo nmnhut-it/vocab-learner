@@ -3,7 +3,7 @@
 import { FFmpeg } from './ffmpeg/classes.js';
 import { fetchFile, toBlobURL } from './ffmpeg-util/index.js';
 
-const FRAME_RATE = 30;
+const FRAME_RATE = 10; // Reduced from 30 to 10 fps
 const CANVAS_WIDTH = 800;
 const CANVAS_HEIGHT = 600;
 const INTRO_DURATION = 3;
@@ -218,7 +218,7 @@ class VocabVideoGeneratorWasm {
         this.ctx.globalAlpha = 1;
     }
 
-    drawVocabFrame(word, progress) {
+    drawVocabFrame(word, wordIndex, totalWords) {
         this.ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         this.ctx.fillStyle = '#f5f5f5';
         this.ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
@@ -229,8 +229,6 @@ class VocabVideoGeneratorWasm {
         this.ctx.fillRect(50, 50, CANVAS_WIDTH - 100, CANVAS_HEIGHT - 100);
         this.ctx.shadowBlur = 0;
 
-        const opacity = progress < 0.1 ? progress * 10 : progress > 0.9 ? (1 - progress) * 10 : 1;
-        this.ctx.globalAlpha = opacity;
         this.ctx.textAlign = 'center';
 
         this.ctx.font = 'bold 48px Arial';
@@ -249,9 +247,10 @@ class VocabVideoGeneratorWasm {
         this.ctx.fillStyle = '#3498db';
         this.ctx.fillText(word.pronunciation, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2 + 80);
 
-        this.ctx.globalAlpha = 1;
-        this.ctx.fillStyle = '#3498db';
-        this.ctx.fillRect(50, CANVAS_HEIGHT - 30, (CANVAS_WIDTH - 100) * progress, 5);
+        // Progress counter (static text instead of animated bar)
+        this.ctx.font = 'bold 24px Arial';
+        this.ctx.fillStyle = '#95a5a6';
+        this.ctx.fillText(`${wordIndex + 1}/${totalWords}`, CANVAS_WIDTH / 2, CANVAS_HEIGHT - 40);
     }
 
     async togglePreview() {
@@ -314,60 +313,73 @@ class VocabVideoGeneratorWasm {
     async generateVideoFrames(vocabList) {
         this.updateStatus('Generating frames...', 0);
 
+        // Generate unique frames only (one intro + one per word)
         const frames = [];
-        const totalFrames = (INTRO_DURATION + vocabList.length * REPETITIONS * 2) * FRAME_RATE;
-        let frameCount = 0;
 
-        // Intro frames
-        for (let i = 0; i < INTRO_DURATION * FRAME_RATE; i++) {
-            this.drawIntroFrame(i / (INTRO_DURATION * FRAME_RATE));
-            frames.push(this.canvas.toDataURL('image/jpeg', 0.9));
-            frameCount++;
-            this.updateStatus(`Generating frames: ${frameCount}/${totalFrames}`, frameCount / totalFrames);
-        }
+        // Generate intro frame once
+        this.drawIntroFrame(0.5);
+        const introFrame = this.canvas.toDataURL('image/jpeg', 0.9);
+        frames.push({ data: introFrame, duration: INTRO_DURATION });
 
-        // Vocab frames
+        // Generate one frame per word
+        let wordIndex = 0;
         for (const word of vocabList) {
-            const wordFrames = REPETITIONS * 2 * FRAME_RATE;
-            for (let i = 0; i < wordFrames; i++) {
-                this.drawVocabFrame(word, i / wordFrames);
-                frames.push(this.canvas.toDataURL('image/jpeg', 0.9));
-                frameCount++;
-                this.updateStatus(`Generating frames: ${frameCount}/${totalFrames}`, frameCount / totalFrames);
-            }
+            this.drawVocabFrame(word, wordIndex, vocabList.length);
+            const wordFrame = this.canvas.toDataURL('image/jpeg', 0.9);
+            frames.push({ data: wordFrame, duration: REPETITIONS * 2 });
+            wordIndex++;
+            this.updateStatus(`Generating frames: ${wordIndex + 1}/${vocabList.length + 1}`, (wordIndex + 1) / (vocabList.length + 1));
         }
 
-        // Write frames to FFmpeg
+        // Write unique frames to FFmpeg and create frame list
         this.updateStatus('Writing frames to video encoder...', 0);
+        const frameList = [];
+
         for (let i = 0; i < frames.length; i++) {
-            const data = frames[i].split(',')[1];
+            const frame = frames[i];
+            const filename = `frame${i.toString().padStart(4, '0')}.jpg`;
+
+            // Write frame image
+            const data = frame.data.split(',')[1];
             const binaryData = atob(data);
             const bytes = new Uint8Array(binaryData.length);
             for (let j = 0; j < binaryData.length; j++) {
                 bytes[j] = binaryData.charCodeAt(j);
             }
-            await this.ffmpeg.writeFile(`frame${i.toString().padStart(6, '0')}.jpg`, bytes);
+            await this.ffmpeg.writeFile(filename, bytes);
 
-            if (i % 30 === 0) {
-                this.updateStatus(`Writing frames: ${i}/${frames.length}`, i / frames.length);
-            }
+            // Add to frame list with duration
+            frameList.push({ filename, duration: frame.duration });
+
+            this.updateStatus(`Writing frames: ${i + 1}/${frames.length}`, (i + 1) / frames.length);
         }
+
+        // Create concat demuxer file for variable frame durations
+        let concatContent = '';
+        for (const item of frameList) {
+            concatContent += `file '${item.filename}'\n`;
+            concatContent += `duration ${item.duration}\n`;
+        }
+        // Add last frame again (ffmpeg concat requires this)
+        concatContent += `file '${frameList[frameList.length - 1].filename}'\n`;
+
+        await this.ffmpeg.writeFile('frames.txt', new TextEncoder().encode(concatContent));
 
         // Generate audio
         this.updateStatus('Generating audio...', 0);
         await this.generateAudioTrack(vocabList);
 
-        // Encode video with audio
+        // Encode video with audio using concat demuxer for variable frame durations
         this.updateStatus('Encoding video with audio...', 0);
         await this.ffmpeg.exec([
-            '-framerate', FRAME_RATE.toString(),
-            '-pattern_type', 'glob',
-            '-i', '*.jpg',
+            '-f', 'concat',
+            '-safe', '0',
+            '-i', 'frames.txt',
             '-i', 'audio.wav',
             '-c:v', 'libx264',
             '-c:a', 'aac',
             '-pix_fmt', 'yuv420p',
-            '-preset', 'medium',
+            '-preset', 'fast',
             '-shortest',
             'output.mp4'
         ]);
