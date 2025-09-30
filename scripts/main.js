@@ -90,32 +90,17 @@ document.addEventListener('DOMContentLoaded', function () {
         vocabItem.className = 'vocab-item';
         vocabItem.dataset.text = english;
 
-        // Generate IPA guide if pronunciation exists
-        const ipaGuideHTML = pronunciation && window.IPAGuideHelper ?
-            window.IPAGuideHelper.generateGuideHTML(pronunciation) : '';
-
+        // No IPA guide in list view - keep it simple
         vocabItem.innerHTML = `
             <span class="english">${english}</span>
             <span class="type">${type}</span>
             <span class="vietnamese">${vietnamese}</span>
             <span class="pronunciation">${pronunciation}</span>
-            ${ipaGuideHTML}
         `;
 
         vocabItem.addEventListener('click', () => {
-            // Toggle IPA guide visibility
-            const guide = vocabItem.querySelector('.ipa-guide');
-            if (guide) {
-                guide.style.display = guide.style.display === 'none' ? 'block' : 'none';
-            }
             readText(english);
         });
-
-        // Hide IPA guide by default
-        setTimeout(() => {
-            const guide = vocabItem.querySelector('.ipa-guide');
-            if (guide) guide.style.display = 'none';
-        }, 0);
 
         return vocabItem;
     }
@@ -485,6 +470,155 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // ===== FLASHCARD VIEW FUNCTIONALITY =====
+    let currentFlashcardIndex = 0;
+    let flashcardVocabList = [];
+    let seenIPASymbols = new Set();
+
+    const listViewBtn = document.getElementById('listViewBtn');
+    const flashcardViewBtn = document.getElementById('flashcardViewBtn');
+    const listView = document.getElementById('listView');
+    const flashcardView = document.getElementById('flashcardView');
+    const flashcardWord = document.getElementById('flashcardWord');
+    const flashcardIpaGuide = document.getElementById('flashcardIpaGuide');
+    const flashcardCounter = document.getElementById('flashcardCounter');
+    const prevCardBtn = document.getElementById('prevCard');
+    const nextCardBtn = document.getElementById('nextCard');
+    const speakCardBtn = document.getElementById('speakCard');
+
+    function switchToListView() {
+        listViewBtn.classList.add('active');
+        flashcardViewBtn.classList.remove('active');
+        listView.classList.add('active');
+        flashcardView.classList.remove('active');
+    }
+
+    function switchToFlashcardView() {
+        flashcardViewBtn.classList.add('active');
+        listViewBtn.classList.remove('active');
+        flashcardView.classList.add('active');
+        listView.classList.remove('active');
+
+        // Build flashcard vocab list from current vocabulary
+        buildFlashcardList();
+        if (flashcardVocabList.length > 0) {
+            currentFlashcardIndex = 0;
+            seenIPASymbols = new Set();
+            showFlashcard(currentFlashcardIndex);
+        }
+    }
+
+    function buildFlashcardList() {
+        flashcardVocabList = [];
+        const items = document.querySelectorAll('.vocab-item');
+        items.forEach(item => {
+            const english = item.querySelector('.english')?.textContent || '';
+            const type = item.querySelector('.type')?.textContent || '';
+            const vietnamese = item.querySelector('.vietnamese')?.textContent || '';
+            const pronunciation = item.querySelector('.pronunciation')?.textContent || '';
+
+            if (english) {
+                flashcardVocabList.push({ english, type, vietnamese, pronunciation });
+            }
+        });
+    }
+
+    function showFlashcard(index) {
+        if (flashcardVocabList.length === 0) {
+            flashcardWord.innerHTML = '<p>No vocabulary to display</p>';
+            flashcardIpaGuide.innerHTML = '';
+            flashcardCounter.textContent = '0 / 0';
+            return;
+        }
+
+        const vocab = flashcardVocabList[index];
+
+        // Display word info
+        flashcardWord.innerHTML = `
+            <span class="english">${vocab.english}</span>
+            <span class="type">${vocab.type}</span>
+            <span class="vietnamese">${vocab.vietnamese}</span>
+            <span class="pronunciation">${vocab.pronunciation}</span>
+        `;
+
+        // Generate deduplicated IPA guide
+        if (vocab.pronunciation && window.IPAGuideHelper) {
+            const { html, newSymbols } = window.IPAGuideHelper.generateCompactGuide(
+                vocab.pronunciation,
+                seenIPASymbols
+            );
+            seenIPASymbols = newSymbols;
+            flashcardIpaGuide.innerHTML = html || '<em>No new pronunciation symbols</em>';
+        } else {
+            flashcardIpaGuide.innerHTML = '<em>No pronunciation guide available</em>';
+        }
+
+        // Update counter
+        flashcardCounter.textContent = `${index + 1} / ${flashcardVocabList.length}`;
+
+        // Update button states
+        prevCardBtn.disabled = index === 0;
+        nextCardBtn.disabled = index === flashcardVocabList.length - 1;
+
+        // Auto-read the word
+        readText(vocab.english);
+    }
+
+    function speakCurrentFlashcard() {
+        if (flashcardVocabList.length > 0 && currentFlashcardIndex < flashcardVocabList.length) {
+            const vocab = flashcardVocabList[currentFlashcardIndex];
+            readText(vocab.english);
+        }
+    }
+
+    function nextFlashcard() {
+        if (currentFlashcardIndex < flashcardVocabList.length - 1) {
+            currentFlashcardIndex++;
+            showFlashcard(currentFlashcardIndex);
+        }
+    }
+
+    function prevFlashcard() {
+        if (currentFlashcardIndex > 0) {
+            currentFlashcardIndex--;
+            showFlashcard(currentFlashcardIndex);
+        }
+    }
+
+    // Event listeners for view toggle
+    listViewBtn.addEventListener('click', switchToListView);
+    flashcardViewBtn.addEventListener('click', switchToFlashcardView);
+    nextCardBtn.addEventListener('click', nextFlashcard);
+    prevCardBtn.addEventListener('click', prevFlashcard);
+    speakCardBtn.addEventListener('click', speakCurrentFlashcard);
+
+    // Arrow key navigation in flashcard view
+    document.addEventListener('keydown', (e) => {
+        if (!flashcardView.classList.contains('active')) return;
+
+        if (e.key === 'ArrowRight') {
+            nextFlashcard();
+        } else if (e.key === 'ArrowLeft') {
+            prevFlashcard();
+        }
+    });
+
+    // ===== GEMINI TOGGLE (SECRET) =====
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'g' || e.key === 'G') {
+            const inputButtons = document.querySelector('.input-buttons');
+            const geminiStatus = document.getElementById('geminiStatus');
+
+            if (inputButtons.classList.contains('visible')) {
+                inputButtons.classList.remove('visible');
+                geminiStatus.classList.remove('visible');
+            } else {
+                inputButtons.classList.add('visible');
+                geminiStatus.classList.add('visible');
+            }
+        }
+    });
+
 });
 
 // Add this to your main.js file
@@ -619,22 +753,19 @@ function createGitHubVocabURL(owner, repo, path, playDirectly = false) {
 
 // Add a "Create Shareable Link" button
 function addCreateLinkButton() {
-    const controlsDiv = document.querySelector('.input-section');
-    if (!controlsDiv) return;
+    const inputButtons = document.querySelector('.input-buttons');
+    if (!inputButtons) return;
+
+    // Check if button already exists
+    if (document.getElementById('createLinkBtn')) return;
 
     const linkBtn = document.createElement('button');
     linkBtn.id = 'createLinkBtn';
     linkBtn.textContent = 'Create Shareable Link';
-    linkBtn.style.marginLeft = '10px';
     linkBtn.onclick = showCreateLinkDialog;
 
-    // Insert the button next to the Convert button
-    const convertBtn = document.getElementById('convertBtn');
-    if (convertBtn) {
-        controlsDiv.insertBefore(linkBtn, convertBtn.nextSibling);
-    } else {
-        controlsDiv.appendChild(linkBtn);
-    }
+    // Add the button to the input-buttons container
+    inputButtons.appendChild(linkBtn);
 }
 
 // Function to show the Create Link dialog
@@ -1119,4 +1250,4 @@ if (typeof smartScrambleWord !== 'function') {
 
         return result;
     }
-}   
+}

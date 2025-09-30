@@ -14,6 +14,11 @@
         <button id="gameToggle" class="mode-toggle">Play VocabHoot!</button>
     </div>
 
+    <div class="view-toggle">
+        <button id="listViewBtn" class="active">List View</button>
+        <button id="flashcardViewBtn">Flashcard View</button>
+    </div>
+
     <div class="input-section">
         <textarea id="vocabInput" placeholder="Enter vocabulary list in any format - Gemini AI will standardize it!
 Examples:
@@ -48,7 +53,27 @@ Examples:
             </label>
         </div>
 
-        <div id="vocabularyList"></div>
+        <div id="listView" class="active">
+            <div id="vocabularyList"></div>
+        </div>
+
+        <div id="flashcardView">
+            <div class="flashcard-container">
+                <div class="flashcard-word" id="flashcardWord"></div>
+                <div class="flashcard-actions">
+                    <button id="speakCard" class="speak-button">🔊 Read Aloud</button>
+                </div>
+                <div class="flashcard-ipa-guide">
+                    <h3>Pronunciation Guide</h3>
+                    <div class="ipa-compact" id="flashcardIpaGuide"></div>
+                </div>
+                <div class="flashcard-nav">
+                    <button id="prevCard">← Previous</button>
+                    <span class="flashcard-counter" id="flashcardCounter">1 / 1</span>
+                    <button id="nextCard">Next →</button>
+                </div>
+            </div>
+        </div>
 
         <div class="video-generator">
             <h2>Generate Vocabulary Video</h2>

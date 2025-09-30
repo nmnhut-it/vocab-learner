@@ -1,181 +1,225 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    line-height: 1.6;
 }
 
 .input-section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 textarea {
     width: 100%;
     height: 200px;
     margin-bottom: 10px;
-    padding: 10px;
-    font-family: monospace;
+    padding: 12px;
+    font-family: "SF Mono", Consolas, monospace;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    color: #2c2c2c;
 }
 
 .input-buttons {
-    display: flex;
+    display: none;
     gap: 10px;
     margin-bottom: 10px;
 }
 
+.input-buttons.visible {
+    display: flex;
+}
+
 .gemini-button {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 8px;
+    background: #f8f8f8;
+    color: #2c2c2c;
+    border: 1px solid #e0e0e0;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: background-color 0.2s;
     flex: 1;
 }
 
 .gemini-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    background-color: #e8e8e8;
 }
 
 .gemini-button:disabled {
-    opacity: 0.6;
+    opacity: 0.5;
     cursor: not-allowed;
-    transform: none;
+    background-color: #f8f8f8;
 }
 
 .gemini-status {
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: 600;
+    display: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
     min-height: 20px;
     margin-bottom: 10px;
+    color: #666666;
+}
+
+.gemini-status.visible {
+    display: block;
 }
 
 .vocab-item {
-    background-color: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 12px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .vocab-item:hover {
-    background-color: #f0f0f0;
+    background-color: #f8f8f8;
     cursor: pointer;
 }
 
 .english {
-    font-weight: bold;
-    color: #2c3e50;
+    font-weight: 600;
+    color: #2c2c2c;
 }
 
 .vietnamese {
-    color: #e74c3c;
-}
-
-.pronunciation {
-    color: #3498db;
+    color: #666666;
     font-style: italic;
 }
 
+.pronunciation {
+    color: #666666;
+    font-family: "SF Mono", Consolas, monospace;
+    font-size: 14px;
+}
+
 .type {
-    color: #27ae60;
+    color: #999999;
+    font-size: 13px;
 }
 
 .controls {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 12px;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
 }
 
 button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #3498db;
-    color: white;
+    padding: 8px 16px;
+    margin: 4px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #2c2c2c;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #f8f8f8;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 select {
-    padding: 10px;
-    margin: 5px;
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    font-size: 14px;
 }
 
 .video-generator {
-    margin: 20px 0;
+    margin: 30px 0;
     padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
 }
 
 #videoCanvas {
     width: 800px;
     height: 600px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
 .video-controls {
-    margin-top: 10px;
+    margin-top: 12px;
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .video-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 14px;
     display: flex;
     align-items: center;
     gap: 5px;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    transition: background-color 0.2s;
+}
+
+.video-button:hover {
+    background-color: #f8f8f8;
 }
 
 .record-button {
-    background-color: #e74c3c;
-    color: white;
+    background-color: #ffffff;
+    color: #2c2c2c;
 }
 
 .download-button {
-    background-color: #2ecc71;
-    color: white;
+    background-color: #ffffff;
+    color: #2c2c2c;
 }
 
 .preview-button {
-    background-color: #3498db;
-    color: white;
+    background-color: #ffffff;
+    color: #2c2c2c;
 }
 
 .mode-selector {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .mode-toggle {
-    background: #4CAF50;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px;
+    background: #ffffff;
+    color: #2c2c2c;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background-color 0.2s;
 }
 
 .mode-toggle:hover {
-    transform: scale(1.05);
+    background-color: #f8f8f8;
 }
 
 .game-container {
@@ -184,7 +228,7 @@ select {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -194,11 +238,10 @@ select {
 
 .game-container iframe {
     background: white;
-    border-radius: 12px;
+    border-radius: 4px;
     max-width: 1000px;
     width: 100%;
     height: 90vh;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .close-game {
@@ -206,7 +249,7 @@ select {
     top: 20px;
     right: 20px;
     background: white;
-    border: none;
+    border: 1px solid #e0e0e0;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -215,10 +258,147 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    transition: background-color 0.2s;
 }
 
 .close-game:hover {
-    transform: scale(1.1);
+    background-color: #f8f8f8;
+}
+
+/* Flashcard View Styles */
+.view-toggle {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.view-toggle button {
+    margin: 0 8px;
+}
+
+.view-toggle button.active {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+#listView {
+    display: block;
+}
+
+#flashcardView {
+    display: none;
+}
+
+#flashcardView.active {
+    display: block;
+}
+
+#listView.active {
+    display: block;
+}
+
+.flashcard-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.flashcard-word {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flashcard-word .english {
+    font-size: 32px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.flashcard-word .type {
+    font-size: 14px;
+    color: #999999;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.flashcard-word .vietnamese {
+    font-size: 20px;
+    color: #666666;
+    font-style: italic;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.flashcard-word .pronunciation {
+    font-size: 16px;
+    font-family: "SF Mono", Consolas, monospace;
+    color: #666666;
+    display: block;
+}
+
+.flashcard-actions {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.speak-button {
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: none;
+}
+
+.speak-button:hover {
+    background-color: #1a1a1a;
+}
+
+.flashcard-ipa-guide {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.flashcard-ipa-guide h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #2c2c2c;
+}
+
+.ipa-compact {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666666;
+}
+
+.ipa-compact-item {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.ipa-compact-symbol {
+    font-family: "SF Mono", Consolas, monospace;
+    font-weight: 600;
+    color: #2c2c2c;
+}
+
+.flashcard-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.flashcard-nav button {
+    padding: 8px 20px;
+}
+
+.flashcard-counter {
+    font-size: 14px;
+    color: #666666;
 }

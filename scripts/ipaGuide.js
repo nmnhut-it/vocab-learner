@@ -309,73 +309,96 @@ class IPAGuideHelper {
 
         return symbols.map(s => s.info.sound).join(' → ');
     }
+
+    static generateCompactGuide(ipaString, seenSymbols = new Set()) {
+        if (!ipaString) return { html: '', newSymbols: seenSymbols };
+
+        const symbols = this.parseIPA(ipaString);
+        if (symbols.length === 0) return { html: '', newSymbols: seenSymbols };
+
+        const newSymbols = new Set(seenSymbols);
+        const uniqueSymbols = [];
+
+        symbols.forEach(({ symbol, info }) => {
+            if (!newSymbols.has(symbol)) {
+                newSymbols.add(symbol);
+                uniqueSymbols.push({ symbol, info });
+            }
+        });
+
+        if (uniqueSymbols.length === 0) {
+            return { html: '', newSymbols };
+        }
+
+        const html = uniqueSymbols.map(({ symbol, info }) =>
+            `<span class="ipa-compact-item"><span class="ipa-compact-symbol">${symbol}</span> ${info.sound}</span>`
+        ).join(' • ');
+
+        return { html, newSymbols };
+    }
 }
 
-// Add CSS for IPA guide
+// Add CSS for IPA guide - minimal monochrome design
 const style = document.createElement('style');
 style.textContent = `
     .ipa-guide {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 15px;
-        margin: 20px 0;
-        color: white;
+        display: none;
+        background: #f8f8f8;
+        padding: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        margin: 12px 0;
     }
 
     .ipa-guide-title {
-        font-weight: 700;
-        font-size: 1.3rem;
-        margin-bottom: 15px;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: #2c2c2c;
     }
 
     .ipa-symbols {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 8px;
     }
 
     .ipa-symbol-card {
-        background: rgba(255, 255, 255, 0.95);
-        padding: 15px;
-        border-radius: 10px;
-        color: #2c3e50;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        background: #ffffff;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
     }
 
     .ipa-symbol-main {
-        font-size: 2.5rem;
-        font-weight: 700;
-        font-family: 'Courier New', monospace;
-        color: #3498db;
-        margin-bottom: 8px;
-        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "SF Mono", Consolas, monospace;
+        color: #2c2c2c;
+        margin-bottom: 4px;
     }
 
     .ipa-symbol-sound {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #e74c3c;
-        margin-bottom: 8px;
-        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+        color: #666666;
+        margin-bottom: 4px;
     }
 
     .ipa-symbol-example {
-        font-size: 0.95rem;
-        color: #7f8c8d;
+        font-size: 12px;
+        color: #999999;
         font-style: italic;
-        margin-bottom: 8px;
-        text-align: center;
+        margin-bottom: 6px;
     }
 
     .ipa-symbol-vn {
-        font-size: 0.9rem;
-        color: #27ae60;
-        font-weight: 500;
-        padding: 8px;
-        background: #e8f8f5;
-        border-radius: 5px;
-        border-left: 3px solid #27ae60;
+        font-size: 12px;
+        color: #666666;
+        padding: 6px;
+        background: #f8f8f8;
+        border-radius: 4px;
+        border-left: 2px solid #999999;
     }
 
     @media (max-width: 768px) {
