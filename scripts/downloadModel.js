@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 /**
- * Download Xenova/speecht5_tts model files from Hugging Face
+ * Download Xenova AI model files from Hugging Face
+ * - TTS (Text-to-Speech): speecht5_tts, speecht5_hifigan, speaker_embeddings (~587MB)
+ * - STT (Speech-to-Text): whisper-small.en (~466MB)
+ *
  * Run: node scripts/downloadModel.js
+ *
+ * Models will be saved to: ./models/Xenova/
  */
 
 import { createWriteStream } from 'fs';
@@ -52,6 +57,25 @@ const MODELS = [
             // Speaker embeddings for voice characteristics
             'speaker_embeddings.bin',
         ]
+    },
+    {
+        name: 'whisper-small.en',
+        baseUrl: 'https://huggingface.co/Xenova/whisper-small.en/resolve/main',
+        files: [
+            // Config files (small, required)
+            'config.json',
+            'tokenizer.json',
+            'tokenizer_config.json',
+            'generation_config.json',
+            'preprocessor_config.json',
+            'normalizer.json',
+            'vocab.json',
+            'merges.txt',
+
+            // Full precision ONNX models (fp32 - best quality)
+            'onnx/encoder_model.onnx',           // ~298 MB
+            'onnx/decoder_model_merged.onnx',    // ~168 MB
+        ]
     }
 ];
 
@@ -95,7 +119,7 @@ async function downloadFileWithProgress(url, destPath) {
 
 // Main download function
 async function downloadModel() {
-    console.log('=== Downloading Xenova TTS Models ===\n');
+    console.log('=== Downloading Xenova AI Models (TTS + STT) ===\n');
     console.log('Downloading from Hugging Face CDN\n');
 
     let totalDownloaded = 0;

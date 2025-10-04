@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Speaking Test Practice</title>
+    <link rel="stylesheet" href="styles/conversation.css">
+    <style>
+        .test-part {
+            background: #f8f8f8;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .part-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .part-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+
+        .part-duration {
+            font-size: 12px;
+            color: #666;
+            font-family: "SF Mono", Consolas, monospace;
+        }
+
+        .topic-card {
+            background: #fff;
+            border: 2px solid #2c2c2c;
+            border-radius: 4px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .topic-card h3 {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .topic-card ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .prep-timer {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 4px;
+            padding: 15px;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .prep-timer.active {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .prep-time {
+            font-size: 32px;
+            font-weight: 600;
+            font-family: "SF Mono", Consolas, monospace;
+            color: #2c2c2c;
+        }
+
+        .question-mode {
+            margin: 20px 0;
+        }
+
+        .mode-option {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .mode-option:hover {
+            background: #f8f8f8;
+            border-color: #2c2c2c;
+        }
+
+        .mode-option input[type="radio"] {
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+
+        .mode-details {
+            flex: 1;
+        }
+
+        .custom-questions {
+            width: 100%;
+            min-height: 100px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 14px;
+        }
+
+        .test-timer {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #2c2c2c;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 4px;
+            font-family: "SF Mono", Consolas, monospace;
+            font-size: 24px;
+            font-weight: 600;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>IELTS Speaking Test Practice</h1>
+            <p class="subtitle">Practice with AI examiner following official IELTS format</p>
+        </header>
+
+        <!-- Usage Counter -->
+        <div id="usageCounter" class="usage-counter hidden">
+            <div class="usage-header">
+                <span class="usage-label">Session Usage</span>
+                <span class="usage-time" id="usageTime">0:00</span>
+            </div>
+            <div class="usage-bar">
+                <div class="usage-fill" id="usageFill"></div>
+            </div>
+            <div class="usage-stats">
+                <span id="usageTokens">0 tokens</span>
+                <span id="usageRate">0 tok/min</span>
+            </div>
+            <div class="usage-breakdown">
+                <span id="usagePrompt">↑ 0</span>
+                <span id="usageResponse">↓ 0</span>
+            </div>
+        </div>
+
+        <!-- Test Timer -->
+        <div id="testTimer" class="test-timer hidden">0:00</div>
+
+        <!-- Setup Section -->
+        <section id="setupSection">
+            <div class="test-part">
+                <h2>IELTS Speaking Test Format</h2>
+                <p style="margin: 10px 0; color: #666;">The test consists of 3 parts (11-14 minutes total):</p>
+
+                <div class="test-part">
+                    <div class="part-header">
+                        <span class="part-title">Part 1: Introduction & Interview</span>
+                        <span class="part-duration">4-5 minutes</span>
+                    </div>
+                    <p style="font-size: 14px; color: #666;">General questions about yourself, home, family, work, studies, interests</p>
+                </div>
+
+                <div class="test-part">
+                    <div class="part-header">
+                        <span class="part-title">Part 2: Long Turn (Cue Card)</span>
+                        <span class="part-duration">3-4 minutes</span>
+                    </div>
+                    <p style="font-size: 14px; color: #666;">1 minute to prepare, 2 minutes to speak on given topic</p>
+                </div>
+
+                <div class="test-part">
+                    <div class="part-header">
+                        <span class="part-title">Part 3: Discussion</span>
+                        <span class="part-duration">4-5 minutes</span>
+                    </div>
+                    <p style="font-size: 14px; color: #666;">Abstract questions related to Part 2 topic</p>
+                </div>
+            </div>
+
+            <div class="test-part">
+                <h3>Question Mode</h3>
+                <div class="question-mode">
+                    <label class="mode-option">
+                        <input type="radio" name="questionMode" value="ai" checked>
+                        <div class="mode-details">
+                            <strong>AI Generated Questions</strong>
+                            <p style="font-size: 13px; color: #666; margin: 5px 0 0 0;">AI will generate authentic IELTS questions for all 3 parts</p>
+                        </div>
+                    </label>
+
+                    <label class="mode-option">
+                        <input type="radio" name="questionMode" value="custom">
+                        <div class="mode-details">
+                            <strong>Custom Questions</strong>
+                            <p style="font-size: 13px; color: #666; margin: 5px 0;">Paste your own questions (one per line)</p>
+                            <textarea id="customQuestions" class="custom-questions hidden" placeholder="Part 1 questions:&#10;Do you work or study?&#10;What do you do?&#10;&#10;Part 2 topic:&#10;Describe a place you like to visit&#10;&#10;Part 3 questions:&#10;Why do people travel?"></textarea>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="topic-buttons">
+                <button class="btn" id="startTestBtn">🎤 Start IELTS Speaking Test</button>
+            </div>
+        </section>
+
+        <!-- Test Section -->
+        <section id="testSection" class="hidden">
+            <!-- Current Part Indicator -->
+            <div id="currentPart" class="test-part">
+                <div class="part-header">
+                    <span class="part-title" id="partTitle">Part 1: Introduction & Interview</span>
+                    <span class="part-duration" id="partDuration">4-5 minutes</span>
+                </div>
+            </div>
+
+            <!-- Part 2 Topic Card (only shown in Part 2) -->
+            <div id="topicCard" class="topic-card hidden">
+                <h3 id="topicTitle">Describe a person who influenced you</h3>
+                <p style="margin: 10px 0; font-weight: 500;">You should say:</p>
+                <ul id="topicPoints">
+                    <li>Who this person is</li>
+                    <li>How you know them</li>
+                    <li>What they did to influence you</li>
+                    <li>And explain why this person is important to you</li>
+                </ul>
+            </div>
+
+            <!-- Preparation Timer (only shown in Part 2) -->
+            <div id="prepTimer" class="prep-timer hidden">
+                <div style="font-size: 14px; margin-bottom: 5px;">Preparation Time</div>
+                <div class="prep-time" id="prepTime">1:00</div>
+                <div style="font-size: 12px; margin-top: 5px; color: #666;">Make notes if you wish</div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="messages-area" id="messagesArea">
+                <div class="message assistant">
+                    <div class="message-avatar">👔</div>
+                    <div>
+                        <div class="message-bubble">
+                            Good morning. My name is the AI examiner. Can you tell me your full name, please?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Controls -->
+            <div class="input-area">
+                <div id="voiceStatus" class="voice-status">
+                    <span class="status-icon">🔴</span>
+                    <span class="status-text">Disconnected</span>
+                </div>
+
+                <div class="voice-controls">
+                    <button class="voice-btn hidden" id="connectVoiceBtn">🎤 Start Speaking</button>
+                    <button class="voice-btn" id="turnCompleteBtn">✅ I'm Done Speaking</button>
+                    <button class="voice-btn hidden" id="disconnectVoiceBtn">⏹️ End Test</button>
+                </div>
+
+                <div id="voiceActivity" class="voice-activity hidden">
+                    <div class="activity-bar"></div>
+                    <span class="activity-text">Listening...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons hidden" id="actionButtons">
+            <button class="btn btn-secondary" id="endTestBtn">End Test</button>
+            <button class="btn btn-secondary" id="newTestBtn">New Test</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/geminiLiveService.js"></script>
+    <script src="scripts/conversationAgent.js"></script>
+    <script>
+        // Main Application Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            // DOM Elements
+            const setupSection = document.getElementById('setupSection');
+            const testSection = document.getElementById('testSection');
+            const startTestBtn = document.getElementById('startTestBtn');
+            const customQuestions = document.getElementById('customQuestions');
+            const messagesArea = document.getElementById('messagesArea');
+            const currentPart = document.getElementById('currentPart');
+            const topicCard = document.getElementById('topicCard');
+            const prepTimer = document.getElementById('prepTimer');
+            const testTimer = document.getElementById('testTimer');
+            const voiceStatus = document.getElementById('voiceStatus');
+            const voiceActivity = document.getElementById('voiceActivity');
+            const connectVoiceBtn = document.getElementById('connectVoiceBtn');
+            const turnCompleteBtn = document.getElementById('turnCompleteBtn');
+            const disconnectVoiceBtn = document.getElementById('disconnectVoiceBtn');
+            const actionButtons = document.getElementById('actionButtons');
+
+            // State
+            let currentTestPart = 1;
+            let testStartTime = null;
+            let prepStartTime = null;
+            let prepTimerInterval = null;
+            let testTimerInterval = null;
+
+            // Question mode toggle
+            document.querySelectorAll('input[name="questionMode"]').forEach(radio => {
+                radio.addEventListener('change', (e) => {
+                    customQuestions.classList.toggle('hidden', e.target.value === 'ai');
+                });
+            });
+
+            // Setup Gemini Live API callbacks
+            window.geminiLiveService.onStatusChange = (status) => {
+                updateVoiceStatus(status);
+            };
+
+            window.geminiLiveService.onTranscript = (text) => {
+                addMessageToUI('assistant', text);
+            };
+
+            window.geminiLiveService.onUsageUpdate = (usage) => {
+                updateUsageCounter(usage);
+            };
+
+            // Start Test
+            startTestBtn.addEventListener('click', async () => {
+                if (!window.conversationAgent.hasApiKey()) {
+                    const apiKey = prompt('Enter your Gemini API key:\n(Get it from https://aistudio.google.com/app/apikey)');
+                    if (!apiKey) return;
+                    window.conversationAgent.setApiKey(apiKey);
+                }
+
+                const mode = document.querySelector('input[name="questionMode"]:checked').value;
+                const customQs = customQuestions.value.trim();
+
+                if (mode === 'custom' && !customQs) {
+                    alert('Please enter custom questions');
+                    return;
+                }
+
+                startTestBtn.disabled = true;
+
+                try {
+                    // Build system instruction
+                    let systemInstruction = `You are an IELTS speaking test examiner. Conduct a full IELTS speaking test with 3 parts:
+
+PART 1 (4-5 min): Ask 4-5 general questions about the student (work/study, hometown, hobbies, daily routine).
+
+PART 2 (3-4 min): Give the student a topic card. They get 1 minute to prepare, then speak for 2 minutes. After they finish, ask 1-2 follow-up questions.
+
+PART 3 (4-5 min): Ask 4-5 abstract discussion questions related to the Part 2 topic.
+
+`;
+
+                    if (mode === 'custom') {
+                        systemInstruction += `\nUse these questions:\n${customQs}`;
+                    } else {
+                        systemInstruction += `\nGenerate authentic IELTS questions. Be natural and conversational like a real examiner.`;
+                    }
+
+                    systemInstruction += `\n\nImportant:
+- Introduce yourself as the examiner at the start
+- Clearly indicate when moving to Part 2 and show the topic
+- For Part 2, tell the student they have 1 minute to prepare
+- After Part 2 prep, tell them to start speaking
+- Be encouraging and professional
+- Keep track of time for each part`;
+
+                    // Connect to Live API with VAD disabled (prevents AI interrupting student)
+                    await window.geminiLiveService.connect(window.conversationAgent.apiKey, {
+                        systemInstruction: {
+                            parts: [{ text: systemInstruction }]
+                        },
+                        disableVAD: true  // Student controls when to pass turn to AI
+                    });
+
+                    // Start listening
+                    await window.geminiLiveService.startListening();
+
+                    // Show test section
+                    setupSection.classList.add('hidden');
+                    testSection.classList.remove('hidden');
+                    actionButtons.classList.remove('hidden');
+                    document.getElementById('usageCounter').classList.remove('hidden');
+
+                    // Start test timer
+                    testStartTime = Date.now();
+                    testTimer.classList.remove('hidden');
+                    startTestTimer();
+
+                    connectVoiceBtn.classList.remove('hidden');
+
+                } catch (error) {
+                    console.error('Test start error:', error);
+                    alert('Could not start test: ' + error.message);
+                    startTestBtn.disabled = false;
+                }
+            });
+
+            // Voice button handlers
+            connectVoiceBtn.addEventListener('click', () => {
+                connectVoiceBtn.classList.add('hidden');
+                disconnectVoiceBtn.classList.remove('hidden');
+            });
+
+            // Signal to AI that student finished speaking
+            turnCompleteBtn.addEventListener('click', () => {
+                console.log('Student finished speaking');
+                window.geminiLiveService.sendTurnComplete();
+
+                // Visual feedback
+                turnCompleteBtn.disabled = true;
+                turnCompleteBtn.textContent = '⏳ Waiting for examiner...';
+
+                setTimeout(() => {
+                    turnCompleteBtn.disabled = false;
+                    turnCompleteBtn.textContent = '✅ I\'m Done Speaking';
+                }, 2000);
+            });
+
+            disconnectVoiceBtn.addEventListener('click', () => {
+                endTest();
+            });
+
+            document.getElementById('endTestBtn').addEventListener('click', () => {
+                if (confirm('Are you sure you want to end the test?')) {
+                    endTest();
+                }
+            });
+
+            document.getElementById('newTestBtn').addEventListener('click', () => {
+                if (confirm('Start a new test? Current progress will be lost.')) {
+                    location.reload();
+                }
+            });
+
+            function endTest() {
+                window.geminiLiveService.disconnect();
+                disconnectVoiceBtn.classList.add('hidden');
+                connectVoiceBtn.classList.remove('hidden');
+                stopTestTimer();
+                testTimer.classList.add('hidden');
+            }
+
+            function startTestTimer() {
+                testTimerInterval = setInterval(() => {
+                    const elapsed = Math.floor((Date.now() - testStartTime) / 1000);
+                    const minutes = Math.floor(elapsed / 60);
+                    const seconds = elapsed % 60;
+                    testTimer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                }, 1000);
+            }
+
+            function stopTestTimer() {
+                if (testTimerInterval) {
+                    clearInterval(testTimerInterval);
+                    testTimerInterval = null;
+                }
+            }
+
+            function updateVoiceStatus(status) {
+                const statusIcon = voiceStatus.querySelector('.status-icon');
+                const statusText = voiceStatus.querySelector('.status-text');
+
+                switch (status) {
+                    case 'connected':
+                        statusIcon.textContent = '🟢';
+                        statusText.textContent = 'Connected';
+                        voiceActivity.classList.add('hidden');
+                        break;
+                    case 'listening':
+                        statusIcon.textContent = '🎤';
+                        statusText.textContent = 'Your turn to speak';
+                        voiceActivity.classList.remove('hidden');
+                        voiceActivity.querySelector('.activity-text').textContent = 'Listening...';
+                        break;
+                    case 'speaking':
+                        statusIcon.textContent = '👔';
+                        statusText.textContent = 'Examiner speaking';
+                        voiceActivity.querySelector('.activity-text').textContent = 'Examiner speaking...';
+                        break;
+                    case 'disconnected':
+                        statusIcon.textContent = '🔴';
+                        statusText.textContent = 'Disconnected';
+                        voiceActivity.classList.add('hidden');
+                        break;
+                }
+            }
+
+            function updateUsageCounter(usage) {
+                const minutes = Math.floor(usage.duration / 60);
+                const seconds = usage.duration % 60;
+                document.getElementById('usageTime').textContent =
+                    `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+                document.getElementById('usageTokens').textContent =
+                    `${usage.tokens.toLocaleString()} tokens`;
+
+                document.getElementById('usageRate').textContent =
+                    `${usage.tokensPerMinute.toLocaleString()} tok/min`;
+
+                document.getElementById('usagePrompt').textContent =
+                    `↑ ${usage.promptTokens?.toLocaleString() || 0}`;
+                document.getElementById('usageResponse').textContent =
+                    `↓ ${usage.responseTokens?.toLocaleString() || 0}`;
+
+                const percentage = Math.min(usage.percentage, 100);
+                const fill = document.getElementById('usageFill');
+                fill.style.width = `${percentage}%`;
+
+                if (percentage >= 90) {
+                    fill.style.backgroundColor = '#e74c3c';
+                } else if (percentage >= 80) {
+                    fill.style.backgroundColor = '#f39c12';
+                } else {
+                    fill.style.backgroundColor = '#2c2c2c';
+                }
+            }
+
+            function addMessageToUI(role, content) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${role}`;
+
+                const avatar = role === 'user' ? '🗣️' : '👔';
+                const time = new Date().toLocaleTimeString('en-US', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                messageDiv.innerHTML = `
+                    <div class="message-avatar">${avatar}</div>
+                    <div>
+                        <div class="message-bubble">${content}</div>
+                        <div class="message-time">${time}</div>
+                    </div>
+                `;
+
+                messagesArea.appendChild(messageDiv);
+                messagesArea.scrollTop = messagesArea.scrollHeight;
+            }
+        });
+    </script>
+</body>
+</html>
