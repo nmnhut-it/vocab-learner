@@ -19,8 +19,8 @@ class VocabVideoGeneratorWasm {
         this.isProcessing = false;
         this.ffmpeg = null;
         this.ffmpegLoaded = false;
-        this.ttsModel = null;
-        this.speakerEmbeddings = null;
+        // Use shared TTS service instead of loading models separately
+        this.ttsService = window.ttsService;
 
         this.setupButtons();
         this.initializeLibraries();
@@ -43,7 +43,7 @@ class VocabVideoGeneratorWasm {
     async initializeLibraries() {
         try {
             // Show loading status
-            this.updateStatus('Initializing AI libraries...', 0);
+            this.updateStatus('Loading FFmpeg WASM...', 0.1);
 
             // Initialize FFmpeg
             this.ffmpeg = new FFmpeg();
@@ -61,6 +61,7 @@ class VocabVideoGeneratorWasm {
             // Load FFmpeg core from local files (no CORS issues)
             // Use absolute path from root
             const baseURL = '/scripts/ffmpeg';
+            this.updateStatus('Downloading FFmpeg core files...', 0.3);
             await this.ffmpeg.load({
                 coreURL: `${baseURL}/ffmpeg-core.js`,
                 wasmURL: `${baseURL}/ffmpeg-core.wasm`,
@@ -68,18 +69,20 @@ class VocabVideoGeneratorWasm {
             });
 
             this.ffmpegLoaded = true;
-            this.updateStatus('FFmpeg loaded successfully', 1);
+            this.updateStatus('✓ FFmpeg ready', 0.5, false);
             console.log('FFmpeg loaded');
 
-            // Enable record button
+            // Enable record button (TTS will be initialized on first use)
             const recordBtn = document.getElementById('recordBtn');
             if (recordBtn) {
                 recordBtn.disabled = false;
-                recordBtn.textContent = '🎬 Generate Video (Basic)';
+                // Update button text based on TTS status
+                if (this.ttsService && this.ttsService.isLoaded) {
+                    recordBtn.textContent = '🎬 Generate Video (AI TTS)';
+                } else {
+                    recordBtn.textContent = '🎬 Generate Video';
+                }
             }
-
-            // Initialize Transformers.js TTS in background
-            this.initializeTTS();
 
         } catch (error) {
             console.error('Error initializing libraries:', error);
@@ -87,53 +90,15 @@ class VocabVideoGeneratorWasm {
         }
     }
 
-    async initializeTTS() {
-        try {
-            this.updateStatus('Loading TTS model...', 0);
-
-            // Load Transformers.js
-            const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
-
-            // Use local models and cache
-            env.allowLocalModels = false;
-            env.useBrowserCache = true;
-
-            this.updateStatus('Downloading TTS model (this may take a minute)...', 0.3);
-
-            // Load TTS model (use WASM backend for compatibility)
-            this.ttsModel = await pipeline('text-to-speech', 'Xenova/speecht5_tts', {
-                quantized: false
-            });
-
-            // Load speaker embeddings
-            this.updateStatus('Loading speaker embeddings...', 0.8);
-            const speakerResponse = await fetch('https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/speaker_embeddings.bin');
-            this.speakerEmbeddings = await speakerResponse.arrayBuffer();
-
-            this.updateStatus('TTS model ready!', 1);
-            console.log('TTS model loaded');
-
-            // Update record button text to show TTS is ready
-            const recordBtn = document.getElementById('recordBtn');
-            if (recordBtn) {
-                recordBtn.textContent = '🎬 Generate Video (AI TTS)';
-            }
-
-        } catch (error) {
-            console.error('Error loading TTS:', error);
-            this.updateStatus('Error loading TTS: ' + error.message, 0);
-
-            // Fall back to Web Speech API
-            this.ttsModel = null;
-            const recordBtn = document.getElementById('recordBtn');
-            if (recordBtn) {
-                recordBtn.disabled = false;
-                recordBtn.textContent = '🎬 Generate Video (Web Speech)';
-            }
+    // TTS initialization is now handled by shared ttsService
+    // This method is kept for compatibility but delegates to shared service
+    async ensureTTSReady() {
+        if (this.ttsService && !this.ttsService.isLoaded) {
+            await this.ttsService.initialize();
         }
     }
 
-    updateStatus(message, progress) {
+    updateStatus(message, progress, autoHide = false) {
         const statusDiv = document.querySelector('.measurement-status');
         if (!statusDiv) return;
 
@@ -144,8 +109,8 @@ class VocabVideoGeneratorWasm {
         if (statusText) statusText.textContent = message;
         if (progressFill) progressFill.style.width = `${progress * 100}%`;
 
-        if (progress >= 1) {
-            setTimeout(() => statusDiv.classList.add('hidden'), 2000);
+        if (autoHide && progress >= 1) {
+            setTimeout(() => statusDiv.classList.add('hidden'), 3000);
         }
     }
 
@@ -160,10 +125,11 @@ class VocabVideoGeneratorWasm {
     }
 
     async generateSpeech(text) {
-        if (this.ttsModel && this.speakerEmbeddings) {
+        // Use shared TTS service
+        if (this.ttsService && this.ttsService.ttsModel && this.ttsService.speakerEmbeddings) {
             try {
-                const output = await this.ttsModel(text, {
-                    speaker_embeddings: new Float32Array(this.speakerEmbeddings)
+                const output = await this.ttsService.ttsModel(text, {
+                    speaker_embeddings: this.ttsService.speakerEmbeddings
                 });
                 return {
                     audio: output.audio,
@@ -497,18 +463,14 @@ class VocabVideoGeneratorWasm {
     }
 
     async generateTTS(text, sampleRate = 16000) {
-        // Try using Transformers.js TTS if available
-        if (this.ttsModel && this.speakerEmbeddings) {
+        // Try using cached TTS from shared service
+        if (this.ttsService && this.ttsService.ttsModel && this.ttsService.speakerEmbeddings) {
             try {
-                console.log('Generating TTS for:', text);
-                const output = await this.ttsModel(text, {
-                    speaker_embeddings: new Float32Array(this.speakerEmbeddings)
-                });
-
-                console.log('TTS output:', output.sampling_rate, 'Hz,', output.audio.length, 'samples');
-
-                // Keep original sample rate to avoid distortion
-                return output.audio;
+                console.log('Getting TTS for:', text);
+                // Use getAudio which checks cache first
+                const audioData = await this.ttsService.getAudio(text);
+                console.log('TTS audio:', audioData.length, 'samples');
+                return audioData;
 
             } catch (error) {
                 console.error('TTS error, using fallback:', error);

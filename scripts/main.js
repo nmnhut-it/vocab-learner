@@ -19,6 +19,58 @@ document.addEventListener('DOMContentLoaded', function () {
     const vocabInput = document.getElementById('vocabInput');
     const vocabularyList = document.getElementById('vocabularyList');
 
+    // Connect TTS status indicator to ttsService
+    const ttsStatusGlobal = document.getElementById('ttsStatusGlobal');
+    const ttsStatusMessage = document.querySelector('.tts-status-message');
+    const ttsProgressFill = document.querySelector('.tts-progress-fill');
+
+    // Register progress callback for TTS initialization
+    if (window.ttsService) {
+        window.ttsService.onProgress((message, progress) => {
+            // Show status indicator
+            if (ttsStatusGlobal) {
+                ttsStatusGlobal.classList.remove('hidden');
+            }
+
+            // Update message
+            if (ttsStatusMessage) {
+                ttsStatusMessage.textContent = message;
+            }
+
+            // Update progress bar
+            if (ttsProgressFill) {
+                ttsProgressFill.style.width = `${progress * 100}%`;
+            }
+
+            // Hide when complete
+            if (progress >= 1) {
+                setTimeout(() => {
+                    if (ttsStatusGlobal) {
+                        ttsStatusGlobal.classList.add('hidden');
+                    }
+                }, 3000);
+            }
+
+            // Update button states based on TTS readiness
+            updateButtonStates();
+        });
+    }
+
+    // Update button states based on TTS loading status
+    function updateButtonStates() {
+        const ttsReady = window.ttsService && window.ttsService.isLoaded;
+        const ttsLoading = window.ttsService && window.ttsService.isLoading;
+
+        // Disable buttons during loading
+        if (ttsLoading) {
+            if (readAllBtn) readAllBtn.disabled = true;
+            if (convertBtn) convertBtn.textContent = 'Converting...';
+        } else if (ttsReady) {
+            if (readAllBtn) readAllBtn.disabled = false;
+            if (convertBtn) convertBtn.textContent = 'Convert';
+        }
+    }
+
     // Enhanced voice loading with retry mechanism
     async function loadVoices(retryCount = 0, maxRetries = 5) {
         voices = synth.getVoices();
@@ -168,6 +220,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.vocabVideoGenerator.measureAllPronunciations().catch(err =>
                     console.error('Error measuring pronunciations:', err));
             }
+        }
+    }
+
+    function initializeVideoGeneratorIfNeeded() {
+        const isAdvancedMode = document.body.classList.contains('advanced-mode');
+        if (isAdvancedMode && !window.vocabVideoGenerator && window.VocabVideoGeneratorWasm) {
+            window.vocabVideoGenerator = new VocabVideoGeneratorWasm();
         }
     }
 
@@ -326,6 +385,59 @@ document.addEventListener('DOMContentLoaded', function () {
         synth.cancel();
     });
 
+    // Pre-generate TTS cache for all vocabulary
+    const preGenerateBtn = document.getElementById('preGenerateBtn');
+    const preGenerateStatus = document.getElementById('preGenerateStatus');
+
+    if (preGenerateBtn) {
+        preGenerateBtn.addEventListener('click', async () => {
+            const vocabItems = document.querySelectorAll('.vocab-item');
+            if (vocabItems.length === 0) {
+                alert('Please add vocabulary first!');
+                return;
+            }
+
+            if (!window.ttsService) {
+                alert('TTS service not available');
+                return;
+            }
+
+            // Build vocab list
+            const vocabList = Array.from(vocabItems).map(item => ({
+                english: item.querySelector('.english').textContent
+            }));
+
+            // Show status
+            preGenerateStatus.classList.remove('hidden');
+            preGenerateBtn.disabled = true;
+
+            try {
+                await window.ttsService.preGenerateVocab(vocabList, (completed, total, text) => {
+                    const statusText = preGenerateStatus.querySelector('.status-text');
+                    const progressFill = preGenerateStatus.querySelector('.progress-fill');
+
+                    const progress = completed / total;
+                    statusText.textContent = `Pre-generating: ${completed}/${total} - "${text}"`;
+                    progressFill.style.width = `${progress * 100}%`;
+                });
+
+                // Show completion
+                const statusText = preGenerateStatus.querySelector('.status-text');
+                statusText.textContent = '✓ Pre-generation complete! Cache ready for video generation.';
+
+                setTimeout(() => {
+                    preGenerateStatus.classList.add('hidden');
+                }, 3000);
+
+            } catch (error) {
+                console.error('Pre-generation error:', error);
+                alert('Error pre-generating audio: ' + error.message);
+            } finally {
+                preGenerateBtn.disabled = false;
+            }
+        });
+    }
+
     speedRange.addEventListener('input', (e) => {
         speedValue.textContent = e.target.value;
     });
@@ -335,6 +447,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // setTimeout(() => {
     //     parseAndDisplay();
     // }, 1000);
+
+    // Initialize video generator if page loads in advanced mode
+    setTimeout(() => {
+        initializeVideoGeneratorIfNeeded();
+    }, 500);
 
     const modeBtns = document.querySelectorAll('.mode-btn');
     const modeContents = document.querySelectorAll('.mode-content');
@@ -641,9 +758,15 @@ document.addEventListener('DOMContentLoaded', function () {
             if (document.body.classList.contains('advanced-mode')) {
                 inputButtons.classList.add('visible');
                 geminiStatus.classList.add('visible');
+
+                // Initialize video generator and load models when entering advanced mode
+                initializeVideoGeneratorIfNeeded();
             } else {
                 inputButtons.classList.remove('visible');
                 geminiStatus.classList.remove('visible');
+
+                // Cleanup when leaving advanced mode
+                cleanupVideoGenerator();
             }
         }
     });

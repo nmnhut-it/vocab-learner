@@ -11,6 +11,17 @@
 <body>
     <h1>Học từ vựng nè!</h1>
     <div class="advanced-mode-indicator">Advanced Mode</div>
+    
+    <!-- Global TTS Initialization Status -->
+    <div id="ttsStatusGlobal" class="tts-status-global hidden">
+        <div class="tts-status-content">
+            <div class="spinner"></div>
+            <div class="tts-status-message">Loading AI voice...</div>
+            <div class="tts-progress-bar">
+                <div class="tts-progress-fill"></div>
+            </div>
+        </div>
+    </div>
     <div class="mode-selector advanced-feature">
         <button id="gameToggle" class="mode-toggle">Play VocabHoot!</button>
     </div>
@@ -44,6 +55,7 @@ Examples:
         <div class="controls advanced-feature">
             <button id="readAll">Read All Words</button>
             <button id="stopReading">Stop Reading</button>
+            <button id="preGenerateBtn" class="pre-generate-button">⚡ Pre-generate AI Voice Cache</button>
             <select id="voiceSelect">
                 <option value="">Select Voice</option>
             </select>
@@ -52,6 +64,12 @@ Examples:
                 <input type="range" id="speedRange" min="0.5" max="1.5" step="0.1" value="1">
                 <span id="speedValue">1.0</span>
             </label>
+        </div>
+        <div id="preGenerateStatus" class="pre-generate-status hidden">
+            <div class="status-text">Pre-generating...</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
         </div>
 
         <div id="listView" class="active">
@@ -78,6 +96,12 @@ Examples:
 
         <div class="video-generator advanced-feature">
             <h2>Generate Vocabulary Video</h2>
+            <div class="measurement-status hidden">
+                <div class="status-text">Initializing...</div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
             <canvas id="videoCanvas"></canvas>
             <div class="video-controls">
                 <button id="previewBtn" class="video-button preview-button">

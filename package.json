@@ -1,0 +1,19 @@
+{
+  "name": "vocab-learner",
+  "version": "1.0.0",
+  "description": "Vocabulary learning tool with TTS and video generation",
+  "type": "module",
+  "scripts": {
+    "download-model": "node scripts/downloadModel.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "vocabulary",
+    "learning",
+    "tts",
+    "text-to-speech"
+  ],
+  "author": "Nguyễn Minh Nhựt",
+  "license": "MIT"
+}

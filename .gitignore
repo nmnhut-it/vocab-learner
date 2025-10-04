@@ -1,1 +1,10 @@
 vocablist/raw/
+
+# Model files (too large for git - download with: node scripts/downloadModel.js)
+models/**/*.onnx
+models/**/*.bin
+
+# But track config files
+!models/**/*.json
+!models/**/spm_char.model
+!models/**/README.md
