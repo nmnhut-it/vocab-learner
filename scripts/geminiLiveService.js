@@ -170,11 +170,25 @@ class GeminiLiveService {
             source.connect(processor);
             processor.connect(this.inputAudioContext.destination);
 
+            // Track if we've sent activityStart (for manual VAD mode)
+            let activityStartSent = false;
+
             processor.onaudioprocess = (e) => {
                 if (this.isListening && this.ws && this.ws.readyState === WebSocket.OPEN) {
                     const inputData = e.inputBuffer.getChannelData(0);
                     const pcm16 = this._floatTo16BitPCM(inputData);
                     const base64Audio = btoa(String.fromCharCode(...new Uint8Array(pcm16.buffer)));
+
+                    // If VAD is disabled, send activityStart on first audio chunk
+                    if (this.sessionConfig.realtimeInputConfig?.automaticActivityDetection?.disabled && !activityStartSent) {
+                        this._send({
+                            realtimeInput: {
+                                activityStart: {}
+                            }
+                        });
+                        activityStartSent = true;
+                        console.log('📍 Activity start sent');
+                    }
 
                     this._send({
                         realtimeInput: {
@@ -186,6 +200,9 @@ class GeminiLiveService {
                     });
                 }
             };
+
+            // Reset activityStart flag when listening stops
+            this.resetActivityStart = () => { activityStartSent = false; };
 
             this.isListening = true;
             this._updateStatus('listening');
@@ -223,6 +240,9 @@ class GeminiLiveService {
         if (message.serverContent) {
             const parts = message.serverContent.modelTurn?.parts || [];
 
+            // DEBUG: Log what we're receiving
+            console.log('📦 ServerContent parts:', parts);
+
             for (const part of parts) {
                 // Handle audio response
                 if (part.inlineData?.mimeType?.includes('audio')) {
@@ -242,6 +262,9 @@ class GeminiLiveService {
                 console.log('✓ Turn complete');
                 this.isSpeaking = false;
                 this._updateStatus('listening');
+
+                // Resume listening for next turn (in manual VAD mode)
+                this._resumeListening();
             }
         }
 
@@ -380,12 +403,35 @@ class GeminiLiveService {
             throw new Error('Not connected to Live API');
         }
 
-        console.log('🔄 Signaling turn complete');
+        console.log('🔄 Signaling activity end (turn complete)');
+
+        // Pause audio streaming to prevent interrupting AI response
+        const wasListening = this.isListening;
+        this.isListening = false;
+
+        // Send activityEnd to signal user finished speaking
         this._send({
-            clientContent: {
-                turnComplete: true
+            realtimeInput: {
+                activityEnd: {}
             }
         });
+
+        // Reset activity start flag for next turn
+        if (this.resetActivityStart) {
+            this.resetActivityStart();
+        }
+
+        // Resume listening after AI responds (wait for turnComplete)
+        this._resumeAfterTurn = wasListening;
+    }
+
+    // Resume listening after AI's turn completes
+    _resumeListening() {
+        if (this._resumeAfterTurn) {
+            this.isListening = true;
+            this._resumeAfterTurn = false;
+            console.log('🎤 Resumed listening for next turn');
+        }
     }
 
     // Start usage tracking
