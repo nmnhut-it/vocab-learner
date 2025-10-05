@@ -509,18 +509,44 @@ class GeminiLiveService {
         this._updateStatus('disconnected');
     }
 
-    // Set conversation context (for topic-based learning)
+    // Set conversation context (for topic-based learning or role-play)
     setContext(topicSummary) {
         if (this.sessionConfig && topicSummary) {
-            this.sessionConfig.systemInstruction = {
-                parts: [{
-                    text: `You are a friendly AI tutor helping with English conversation practice.
+            // Detect if this is a role-play scenario
+            const isRolePlay = topicSummary.toLowerCase().includes('role') ||
+                             topicSummary.toLowerCase().includes('scenario') ||
+                             topicSummary.toLowerCase().includes('your role:');
+
+            if (isRolePlay) {
+                this.sessionConfig.systemInstruction = {
+                    parts: [{
+                        text: `You are participating in an English conversation role-play practice session.
+
+${topicSummary}
+
+IMPORTANT INSTRUCTIONS:
+- Adopt the role specified in the scenario
+- Use the context data (menu items, prices, etc.) accurately
+- Follow the conversation patterns from the examples
+- Encourage the student to practice similar questions/answers
+- Speak naturally and at a moderate pace
+- Wait for the student to respond - practice turn-taking
+- If student struggles, provide gentle hints or rephrase
+- Vary the practice by asking different questions within the same pattern`
+                    }]
+                };
+            } else {
+                // Regular topic-based learning
+                this.sessionConfig.systemInstruction = {
+                    parts: [{
+                        text: `You are a friendly AI tutor helping with English conversation practice.
 
 Topic context: ${topicSummary}
 
 Engage the student in natural conversation about this topic. Ask follow-up questions, provide explanations when needed, and encourage them to practice speaking. Speak naturally and conversationally.`
-                }]
-            };
+                    }]
+                };
+            }
         }
     }
 }

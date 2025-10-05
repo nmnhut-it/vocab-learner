@@ -28,9 +28,20 @@ class ConversationAgent {
             throw new Error('Gemini API key not set');
         }
 
-        const prompt = `You are an expert educator. A student has provided the following lesson notes (which may be messy, copied from the web, or unorganized).
+        const prompt = `You are an expert educator. A student has provided content which could be either:
+- Regular lesson notes (topics, concepts, facts)
+- Role-play scenario (dialogue practice, conversation examples)
 
-Please analyze and structure these notes into:
+Analyze the content and respond accordingly:
+
+**If it's a ROLE-PLAY scenario** (contains dialogues, Q&A patterns, conversation examples):
+1. **Scenario Type**: Identify the practice type (e.g., "Shopping - Asking Prices", "Restaurant Ordering")
+2. **Roles**: Who are the participants? (e.g., Customer & Shopkeeper, Student & Teacher)
+3. **Context Data**: Extract key information (menu items, prices, locations, etc.)
+4. **Sample Patterns**: List the question-answer patterns to practice
+5. **Your Role**: Specify which role the AI should play (usually the native speaker role)
+
+**If it's REGULAR LESSON NOTES**:
 1. **Main Topic**: A clear, concise title
 2. **Key Concepts**: 3-5 main ideas or points (bullet points)
 3. **Important Vocabulary**: 5-10 key terms with brief definitions
@@ -38,7 +49,7 @@ Please analyze and structure these notes into:
 
 Keep it concise and student-friendly. Use simple language.
 
-Raw notes:
+Content:
 ${rawNotes}
 
 Provide the structured summary:`;
