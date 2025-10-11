@@ -26,6 +26,11 @@ class GeminiLiveService {
         this.lastWarningTime = 0;
         this.usageInterval = null;
 
+        // Audio recording for playback
+        this.mediaRecorder = null;
+        this.recordedChunks = [];
+        this.recordingBlob = null;
+
         // Callbacks
         this.onStatusChange = null;
         this.onError = null;
@@ -208,6 +213,9 @@ class GeminiLiveService {
             this._updateStatus('listening');
             console.log('🎤 Microphone active');
 
+            // Start recording for playback
+            this._startRecording();
+
         } catch (error) {
             console.error('Microphone error:', error);
             this._triggerError('Could not access microphone: ' + error.message);
@@ -224,6 +232,71 @@ class GeminiLiveService {
         this.isListening = false;
         this._updateStatus('connected');
         console.log('🎤 Microphone stopped');
+
+        // Stop recording
+        this._stopRecording();
+    }
+
+    // Start recording for playback
+    _startRecording() {
+        try {
+            if (!this.mediaStream) return;
+
+            this.recordedChunks = [];
+            this.mediaRecorder = new MediaRecorder(this.mediaStream, {
+                mimeType: 'audio/webm'
+            });
+
+            this.mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    this.recordedChunks.push(event.data);
+                }
+            };
+
+            this.mediaRecorder.onstop = () => {
+                this.recordingBlob = new Blob(this.recordedChunks, {
+                    type: 'audio/webm'
+                });
+                console.log('Recording saved:', this.recordingBlob.size, 'bytes');
+            };
+
+            this.mediaRecorder.start(100); // Collect data every 100ms
+            console.log('📹 Recording started');
+        } catch (error) {
+            console.error('Recording error:', error);
+        }
+    }
+
+    // Stop recording
+    _stopRecording() {
+        if (this.mediaRecorder && this.mediaRecorder.state !== 'inactive') {
+            this.mediaRecorder.stop();
+            console.log('📹 Recording stopped');
+        }
+    }
+
+    // Get recording blob for playback
+    getRecording() {
+        return this.recordingBlob;
+    }
+
+    // Pause conversation (stops mic but keeps connection)
+    pause() {
+        if (!this.isConnected) {
+            throw new Error('Not connected to Live API');
+        }
+        this.stopListening();
+        this._updateStatus('paused');
+        console.log('⏸️ Conversation paused');
+    }
+
+    // Resume conversation (restarts mic)
+    async resume() {
+        if (!this.isConnected) {
+            throw new Error('Not connected to Live API');
+        }
+        await this.startListening();
+        console.log('▶️ Conversation resumed');
     }
 
     // Handle incoming WebSocket messages

@@ -110,7 +110,9 @@ Restaurant Menu:
                 <!-- Voice Controls -->
                 <div class="voice-controls">
                     <button class="voice-btn" id="connectVoiceBtn">🎤 Start Voice Chat</button>
-                    <button class="voice-btn hidden" id="disconnectVoiceBtn">⏹️ Stop Voice Chat</button>
+                    <button class="voice-btn hidden" id="pauseVoiceBtn">⏸️ Pause</button>
+                    <button class="voice-btn hidden" id="resumeVoiceBtn">▶️ Resume</button>
+                    <button class="voice-btn btn-secondary hidden" id="disconnectVoiceBtn">⏹️ Stop Voice Chat</button>
                 </div>
 
                 <!-- Voice Activity Indicator -->
@@ -147,6 +149,8 @@ Restaurant Menu:
             const messagesArea = document.getElementById('messagesArea');
             const questionChips = document.getElementById('questionChips');
             const connectVoiceBtn = document.getElementById('connectVoiceBtn');
+            const pauseVoiceBtn = document.getElementById('pauseVoiceBtn');
+            const resumeVoiceBtn = document.getElementById('resumeVoiceBtn');
             const disconnectVoiceBtn = document.getElementById('disconnectVoiceBtn');
             const voiceStatus = document.getElementById('voiceStatus');
             const voiceActivity = document.getElementById('voiceActivity');
@@ -314,6 +318,7 @@ Engage in natural conversation, ask follow-up questions, and encourage speaking 
 
                     isVoiceConnected = true;
                     connectVoiceBtn.classList.add('hidden');
+                    pauseVoiceBtn.classList.remove('hidden');
                     disconnectVoiceBtn.classList.remove('hidden');
                     hideVoiceStatusGlobal();
 
@@ -328,10 +333,24 @@ Engage in natural conversation, ask follow-up questions, and encourage speaking 
                 }
             });
 
+            pauseVoiceBtn.addEventListener('click', () => {
+                window.geminiLiveService.pause();
+                pauseVoiceBtn.classList.add('hidden');
+                resumeVoiceBtn.classList.remove('hidden');
+            });
+
+            resumeVoiceBtn.addEventListener('click', async () => {
+                await window.geminiLiveService.resume();
+                resumeVoiceBtn.classList.add('hidden');
+                pauseVoiceBtn.classList.remove('hidden');
+            });
+
             disconnectVoiceBtn.addEventListener('click', () => {
                 window.geminiLiveService.disconnect();
                 isVoiceConnected = false;
                 disconnectVoiceBtn.classList.add('hidden');
+                pauseVoiceBtn.classList.add('hidden');
+                resumeVoiceBtn.classList.add('hidden');
                 connectVoiceBtn.classList.remove('hidden');
                 connectVoiceBtn.disabled = false;
                 voiceActivity.classList.add('hidden');
@@ -446,6 +465,11 @@ Engage in natural conversation, ask follow-up questions, and encourage speaking 
                         statusIcon.textContent = '🔊';
                         statusText.textContent = 'Speaking';
                         voiceActivity.querySelector('.activity-text').textContent = 'AI Speaking...';
+                        break;
+                    case 'paused':
+                        statusIcon.textContent = '🟡';
+                        statusText.textContent = 'Paused';
+                        voiceActivity.classList.add('hidden');
                         break;
                     case 'disconnected':
                         statusIcon.textContent = '🔴';
