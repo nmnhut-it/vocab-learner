@@ -176,64 +176,470 @@ Format your response clearly with checkmarks (✓) for covered elements.`
             {
                 id: 'm2_practice2',
                 type: 'ai_practice',
-                title: 'Practice More Topics (20 Questions)',
+                title: 'Practice More Topics (100 Questions)',
                 instructions: 'Try the 5W1H method with different topics. The AI will track your progress. Complete as many as you want!',
                 practiceQuestions: [
                     // Hobbies & Interests (5)
-                    'What kind of music do you like?',
-                    'Do you enjoy watching movies?',
-                    'What do you like to do on weekends?',
-                    'Do you have any hobbies?',
-                    'What do you do in your free time?',
+                    {
+                        question: 'What kind of music do you like?',
+                        sampleAnswer: 'I really enjoy listening to jazz music, particularly in the evenings when I want to unwind after a long day. I usually play it at home or during my commute because the smooth melodies help me feel relaxed and focused. What I love most about jazz is how it can be both soothing and intellectually stimulating at the same time.'
+                    },
+                    {
+                        question: 'Do you enjoy watching movies?',
+                        sampleAnswer: 'Yes, I absolutely love watching movies, especially thriller and sci-fi films. I typically watch them on weekends at home with my family, though occasionally I go to the cinema for big releases. Movies help me escape from daily stress and I find the storytelling really engaging and thought-provoking.'
+                    },
+                    {
+                        question: 'What do you like to do on weekends?',
+                        sampleAnswer: 'On weekends, I usually spend time exploring new cafés and restaurants around the city with my friends. We typically go out on Saturday afternoons because it gives us a chance to relax and catch up after a busy week. I also enjoy trying different cuisines, which makes these outings both fun and interesting.'
+                    },
+                    {
+                        question: 'Do you have any hobbies?',
+                        sampleAnswer: 'Yes, I\'m really into photography, which I\'ve been practicing for about three years now. I usually take photos during my travels or even just around my neighborhood on weekends. Photography helps me see the world differently and capture meaningful moments, which is why I find it so rewarding.'
+                    },
+                    {
+                        question: 'What do you do in your free time?',
+                        sampleAnswer: 'In my free time, I enjoy reading mystery novels and playing tennis. I usually read before bed because it helps me relax, and I play tennis twice a week at a local court with some friends. Both activities help me unwind and stay physically and mentally active.'
+                    },
 
                     // Daily Life (5)
-                    'Do you prefer studying alone or with others?',
-                    'What time do you usually wake up?',
-                    'How do you usually spend your evenings?',
-                    'Do you prefer eating at home or at restaurants?',
-                    'What do you usually do after work/school?',
+                    {
+                        question: 'Do you prefer studying alone or with others?',
+                        sampleAnswer: 'I generally prefer studying alone, especially when I need to focus on complex material. I usually study in my room or at the library because quiet environments help me concentrate better. However, I do study with classmates sometimes when we have group projects, as it helps us share different perspectives and ideas.'
+                    },
+                    {
+                        question: 'What time do you usually wake up?',
+                        sampleAnswer: 'I typically wake up around 6:30 AM on weekdays so I have enough time to prepare for work and avoid the morning rush. On weekends, I usually sleep in until about 8 or 9 AM because I like to catch up on rest. Waking up early during the week helps me feel more productive throughout the day.'
+                    },
+                    {
+                        question: 'How do you usually spend your evenings?',
+                        sampleAnswer: 'Most evenings, I spend time at home either cooking dinner or watching series on Netflix to relax. I usually finish work around 6 PM, so my evenings are when I can unwind and do things I enjoy. Sometimes I also call friends or family to catch up, which helps me feel connected.'
+                    },
+                    {
+                        question: 'Do you prefer eating at home or at restaurants?',
+                        sampleAnswer: 'I prefer eating at home most of the time because it\'s healthier and more economical. I usually cook simple meals like pasta or stir-fries during weekdays when I\'m busy. However, I do enjoy going to restaurants on weekends with friends or family as it\'s a nice way to socialize and try new dishes.'
+                    },
+                    {
+                        question: 'What do you usually do after work/school?',
+                        sampleAnswer: 'After work, I usually go for a quick walk or jog to clear my mind and get some exercise. This typically takes about 30 minutes, and I do it in a nearby park because the fresh air helps me decompress. After that, I head home to prepare dinner and spend the rest of the evening relaxing.'
+                    },
 
                     // Activities & Sports (5)
-                    'Do you like playing sports?',
-                    'Do you enjoy outdoor activities?',
-                    'Have you ever tried swimming?',
-                    'Do you like going to the gym?',
-                    'What kind of exercise do you do?',
+                    {
+                        question: 'Do you like playing sports?',
+                        sampleAnswer: 'Yes, I really enjoy playing badminton, which I usually do twice a week at a community sports center. I started playing with friends from university, and now it\'s become a regular activity for us. Sports help me stay fit and are a great way to socialize, which is why I find them so enjoyable.'
+                    },
+                    {
+                        question: 'Do you enjoy outdoor activities?',
+                        sampleAnswer: 'Absolutely! I love hiking in the mountains, especially during spring and autumn when the weather is perfect. I usually go with a group of friends on weekends because it\'s safer and more fun together. Being outdoors helps me disconnect from technology and appreciate nature, which I find really refreshing.'
+                    },
+                    {
+                        question: 'Have you ever tried swimming?',
+                        sampleAnswer: 'Yes, I learned to swim when I was about seven years old, and I still swim occasionally at a local pool. I usually go swimming during summer because it\'s a great way to cool down and stay active. Swimming is excellent exercise and it helps me feel energized without putting too much stress on my joints.'
+                    },
+                    {
+                        question: 'Do you like going to the gym?',
+                        sampleAnswer: 'Yes, I try to go to the gym three times a week, usually in the evenings after work. I mainly focus on cardio and weight training because they help me maintain my fitness and reduce stress. The gym near my house is quite convenient, and I find that regular exercise really improves my mood and energy levels.'
+                    },
+                    {
+                        question: 'What kind of exercise do you do?',
+                        sampleAnswer: 'I mainly do jogging and yoga to stay healthy. I jog in the park near my home early in the morning about four times a week, and I practice yoga at home on other days. Jogging helps me build endurance while yoga improves my flexibility and mental clarity, so together they give me a balanced workout routine.'
+                    },
 
                     // Technology & Media (5)
-                    'Do you use social media?',
-                    'What do you use your phone for most?',
-                    'Do you like watching TV shows?',
-                    'Do you prefer online shopping or in-store shopping?',
-                    'How often do you use the internet?',
+                    {
+                        question: 'Do you use social media?',
+                        sampleAnswer: 'Yes, I use social media daily, mainly Instagram and Facebook to stay connected with friends and family. I usually check them during breaks at work or in the evening when I\'m relaxing at home. Social media helps me keep up with what\'s happening in my friends\' lives, though I try not to spend too much time on it.'
+                    },
+                    {
+                        question: 'What do you use your phone for most?',
+                        sampleAnswer: 'I mainly use my phone for messaging and checking emails, especially for work-related communications. I also use it for navigation when I\'m driving and for listening to music during my commute. My phone has become essential for staying organized and connected throughout the day.'
+                    },
+                    {
+                        question: 'Do you like watching TV shows?',
+                        sampleAnswer: 'Yes, I enjoy watching TV shows, particularly crime dramas and documentaries. I usually watch them in the evenings after dinner as a way to unwind before bed. Streaming services like Netflix make it convenient because I can watch episodes at my own pace without waiting for weekly releases.'
+                    },
+                    {
+                        question: 'Do you prefer online shopping or in-store shopping?',
+                        sampleAnswer: 'I prefer online shopping for most things because it\'s more convenient and saves time. I usually shop online during weekends when I have time to browse different websites and compare prices. However, for clothes and shoes, I still prefer shopping in-store because I like to try them on before buying.'
+                    },
+                    {
+                        question: 'How often do you use the internet?',
+                        sampleAnswer: 'I use the internet constantly throughout the day, both for work and personal purposes. At work, I need it for research and communication, and at home, I use it for entertainment and staying informed. I probably spend around 6-8 hours online daily, which is quite typical these days.'
+                    },
 
                     // People & Relationships (5)
-                    'Do you spend a lot of time with your family?',
-                    'Do you have many friends?',
-                    'Do you like meeting new people?',
-                    'Do you keep in touch with childhood friends?',
-                    'Do you prefer spending time alone or with others?',
+                    {
+                        question: 'Do you spend a lot of time with your family?',
+                        sampleAnswer: 'Yes, I try to spend quality time with my family, especially on weekends when everyone is free. We usually have dinner together and sometimes go out for activities like hiking or watching movies. Family time is important to me because it helps us stay connected despite our busy schedules.'
+                    },
+                    {
+                        question: 'Do you have many friends?',
+                        sampleAnswer: 'I have a small but close group of friends whom I\'ve known for several years. We usually meet up once or twice a month for dinner or coffee to catch up. I prefer having a few close friends rather than many acquaintances because deeper friendships are more meaningful to me.'
+                    },
+                    {
+                        question: 'Do you like meeting new people?',
+                        sampleAnswer: 'Yes, I generally enjoy meeting new people, especially in professional or social settings. I usually meet new people through work events or through mutual friends at gatherings. Meeting new people helps me learn different perspectives and expand my network, which I find both interesting and valuable.'
+                    },
+                    {
+                        question: 'Do you keep in touch with childhood friends?',
+                        sampleAnswer: 'Yes, I\'m still in contact with two of my closest childhood friends, though we don\'t see each other as often as before. We usually chat online or meet up a few times a year when everyone is available. It\'s nice to maintain these friendships because we share so many memories from growing up together.'
+                    },
+                    {
+                        question: 'Do you prefer spending time alone or with others?',
+                        sampleAnswer: 'It really depends on my mood and energy levels. I enjoy spending time with friends and family on weekends because it\'s fun and energizing. However, I also value alone time during weekdays to recharge and focus on personal activities like reading or hobbies.'
+                    },
 
                     // Learning & Work (5)
-                    'What do you find most interesting about your studies?',
-                    'Do you enjoy learning new things?',
-                    'What was your favorite subject at school?',
-                    'Do you think your job is interesting?',
-                    'Would you like to change your job in the future?',
+                    {
+                        question: 'What do you find most interesting about your studies?',
+                        sampleAnswer: 'I find the practical applications of what I learn most interesting, especially when we work on real-world projects. In my business course, we analyze actual companies and their strategies, which makes the learning much more engaging. This hands-on approach helps me understand how theories work in practice.'
+                    },
+                    {
+                        question: 'Do you enjoy learning new things?',
+                        sampleAnswer: 'Absolutely! I love learning new things, especially skills that I can apply in my daily life or career. Recently, I\'ve been learning graphic design through online courses during my free time. Learning keeps my mind active and helps me stay curious about the world around me.'
+                    },
+                    {
+                        question: 'What was your favorite subject at school?',
+                        sampleAnswer: 'My favorite subject was history because I found it fascinating to learn about how societies developed over time. I particularly enjoyed our teacher\'s storytelling approach, which made historical events come alive. History classes taught me to think critically about cause and effect, which is useful even now.'
+                    },
+                    {
+                        question: 'Do you think your job is interesting?',
+                        sampleAnswer: 'Yes, I find my job as a marketing coordinator quite interesting because every project is different and challenging. I work with various clients across different industries, which means I\'m constantly learning about new products and markets. The creative aspect of developing campaigns keeps the work engaging and never boring.'
+                    },
+                    {
+                        question: 'Would you like to change your job in the future?',
+                        sampleAnswer: 'Eventually, yes. I\'m happy with my current position, but I\'d like to move into a management role in the next few years where I can lead projects and mentor others. I believe gaining more experience now will prepare me for those responsibilities, so I\'m focused on developing my skills.'
+                    },
 
                     // Places & Travel (5)
-                    'Do you like traveling to new places?',
-                    'What is your hometown like?',
-                    'Do you prefer the city or the countryside?',
-                    'Have you ever been abroad?',
-                    'Where would you like to visit in the future?',
+                    {
+                        question: 'Do you like traveling to new places?',
+                        sampleAnswer: 'Yes, I absolutely love traveling to new places whenever I get the chance. I usually take one or two trips a year, either to explore different cities in my country or to visit neighboring countries. Traveling broadens my perspective and allows me to experience different cultures and cuisines.'
+                    },
+                    {
+                        question: 'What is your hometown like?',
+                        sampleAnswer: 'My hometown is a medium-sized coastal city with a relaxed atmosphere and beautiful beaches. It has a good mix of modern amenities and historical sites, which makes it attractive to both residents and tourists. I really appreciate growing up there because it gave me access to both nature and urban facilities.'
+                    },
+                    {
+                        question: 'Do you prefer the city or the countryside?',
+                        sampleAnswer: 'I prefer living in the city because I enjoy having easy access to restaurants, entertainment, and career opportunities. However, I do appreciate visiting the countryside on weekends for a change of pace and to enjoy the peace and natural scenery. Ideally, I\'d like to live near a city but not right in the center.'
+                    },
+                    {
+                        question: 'Have you ever been abroad?',
+                        sampleAnswer: 'Yes, I\'ve been abroad several times, mainly to Southeast Asian countries like Thailand and Singapore. I usually travel during my annual vacation because it\'s the best time to take extended trips. Traveling abroad has taught me a lot about different cultures and helped me become more open-minded and adaptable.'
+                    },
+                    {
+                        question: 'Where would you like to visit in the future?',
+                        sampleAnswer: 'I\'d really love to visit Japan, particularly during cherry blossom season in spring. I\'m fascinated by Japanese culture, especially their blend of traditional values and modern technology. I\'ve been researching the best places to visit in Tokyo and Kyoto, and I hope to make this trip happen within the next two years.'
+                    },
 
                     // Food & Cooking (5)
-                    'Do you like cooking?',
-                    'What is your favorite food?',
-                    'Do you often eat out?',
-                    'Do you like trying new foods?',
-                    'Can you cook traditional food from your country?'
+                    {
+                        question: 'Do you like cooking?',
+                        sampleAnswer: 'Yes, I enjoy cooking, especially on weekends when I have more time to experiment with new recipes. I usually cook Italian and Asian dishes because they\'re flavorful and not too complicated. Cooking is relaxing for me, and I find it satisfying to create something delicious from scratch.'
+                    },
+                    {
+                        question: 'What is your favorite food?',
+                        sampleAnswer: 'My favorite food is definitely sushi because I love the fresh flavors and the variety of options available. I usually have sushi at restaurants rather than making it at home since it requires specific skills and ingredients. What I particularly enjoy is how sushi can be both simple and sophisticated at the same time.'
+                    },
+                    {
+                        question: 'Do you often eat out?',
+                        sampleAnswer: 'I eat out about two or three times a week, usually during weekends or when I\'m too busy to cook after work. I typically go to casual restaurants or cafés near my office or home. Eating out is convenient and also gives me a chance to try different cuisines that I might not cook at home.'
+                    },
+                    {
+                        question: 'Do you like trying new foods?',
+                        sampleAnswer: 'Yes, I\'m quite adventurous when it comes to food and I enjoy trying dishes from different cultures. Whenever I travel or visit a new restaurant, I usually order something I\'ve never had before. Trying new foods has broadened my palate and made me appreciate how diverse and interesting cuisine can be.'
+                    },
+                    {
+                        question: 'Can you cook traditional food from your country?',
+                        sampleAnswer: 'Yes, I can cook several traditional dishes from my country, which I learned from my mother when I was younger. I usually prepare these dishes during special occasions or when I miss home-cooked meals. Cooking traditional food helps me maintain a connection to my cultural roots and it\'s something I enjoy sharing with friends.'
+                    },
+
+                    // Weather & Seasons (5)
+                    {
+                        question: 'What is the weather like in your hometown?',
+                        sampleAnswer: 'My hometown has a tropical climate with hot and humid weather throughout most of the year. We have two main seasons: a rainy season from June to October and a dry season from November to May. The temperature usually stays around 30 degrees Celsius, which can be quite intense during the dry months.'
+                    },
+                    {
+                        question: 'Do you prefer hot or cold weather?',
+                        sampleAnswer: 'I prefer mild, cooler weather because I find it more comfortable for outdoor activities. Hot weather can be exhausting and makes me feel lethargic, while cold weather energizes me. I especially enjoy autumn temperatures around 20-25 degrees Celsius, which I think is perfect for both work and leisure.'
+                    },
+                    {
+                        question: 'What is your favorite season?',
+                        sampleAnswer: 'My favorite season is autumn because the weather is pleasant and the changing colors of the leaves are beautiful. I usually spend more time outdoors during this season, going for walks in parks or hiking. Autumn also brings a sense of coziness that I really enjoy after the heat of summer.'
+                    },
+                    {
+                        question: 'Does the weather affect your mood?',
+                        sampleAnswer: 'Yes, definitely. Sunny weather usually makes me feel more energetic and positive, while rainy or gloomy days tend to make me feel a bit more subdued. I\'ve noticed that I\'m more productive and motivated to go out when the weather is nice, which is why I appreciate living in a place with generally good weather.'
+                    },
+                    {
+                        question: 'Do you check the weather forecast regularly?',
+                        sampleAnswer: 'Yes, I check the weather forecast almost every morning on my phone before getting ready for work. This helps me decide what to wear and whether I need to bring an umbrella. I find it particularly useful when planning weekend activities, as I like to know if the weather will be suitable for outdoor plans.'
+                    },
+
+                    // Shopping & Fashion (5)
+                    {
+                        question: 'Do you enjoy shopping for clothes?',
+                        sampleAnswer: 'I have mixed feelings about clothes shopping. I enjoy it when I find something I really like, but I often find the process time-consuming. I usually shop for clothes two or three times a year when the seasons change, and I prefer shopping at stores where I know the style and fit suit me well.'
+                    },
+                    {
+                        question: 'What kind of clothes do you usually wear?',
+                        sampleAnswer: 'I usually wear casual, comfortable clothes like jeans and t-shirts on weekends, and business casual attire for work. I prefer simple, classic styles in neutral colors because they\'re versatile and easy to match. Comfort is my priority, so I tend to avoid anything too formal or restrictive unless absolutely necessary.'
+                    },
+                    {
+                        question: 'Do you follow fashion trends?',
+                        sampleAnswer: 'Not really. I\'m aware of current trends through social media and magazines, but I don\'t feel the need to follow them closely. I prefer to develop my own personal style that feels authentic to me rather than constantly changing my wardrobe based on what\'s trendy. I think it\'s more sustainable and cost-effective this way.'
+                    },
+                    {
+                        question: 'Where do you usually buy things?',
+                        sampleAnswer: 'I usually buy most things online through e-commerce platforms like Amazon or local shopping websites because it\'s convenient and offers better variety. For groceries, I prefer visiting supermarkets near my home once or twice a week. Online shopping saves me time, though I still enjoy browsing physical stores occasionally, especially for electronics or furniture.'
+                    },
+                    {
+                        question: 'Do you prefer shopping alone or with friends?',
+                        sampleAnswer: 'I prefer shopping alone for most things because I can take my time and make decisions without feeling rushed. However, I do enjoy shopping with friends occasionally, especially for special purchases like gifts or when trying new stores. Shopping with others can be more fun and you get helpful second opinions.'
+                    },
+
+                    // Home & Living (5)
+                    {
+                        question: 'Do you live in a house or an apartment?',
+                        sampleAnswer: 'I currently live in an apartment in the city center, which is convenient for my work commute. It\'s a two-bedroom unit on the fifth floor with a nice view of the surrounding neighborhood. I prefer apartment living in the city because everything I need is within walking distance and the maintenance is handled by the building management.'
+                    },
+                    {
+                        question: 'What is your favorite room in your home?',
+                        sampleAnswer: 'My favorite room is definitely my bedroom because it\'s where I can relax and have privacy. I\'ve decorated it in a minimalist style with calming colors, which helps me unwind after a long day. It\'s also where I do most of my reading and personal activities, so it feels like my personal sanctuary.'
+                    },
+                    {
+                        question: 'Do you like decorating your room?',
+                        sampleAnswer: 'Yes, I enjoy decorating my room occasionally to keep it fresh and reflect my current tastes. I usually add small touches like plants, artwork, or new cushions rather than making major changes. Decorating is a creative outlet for me, and having a space that feels personal and comfortable really improves my overall well-being.'
+                    },
+                    {
+                        question: 'Would you like to move to a different place?',
+                        sampleAnswer: 'Eventually, yes. While I\'m happy with my current apartment, I\'d like to move to a slightly larger place with more natural light, maybe in a quieter neighborhood. I\'m planning to stay here for another year or two to save more money, then look for somewhere that better suits my long-term needs.'
+                    },
+                    {
+                        question: 'Do you prefer living with family or alone?',
+                        sampleAnswer: 'Right now, I prefer living alone because I value my independence and privacy. Living alone allows me to maintain my own schedule and lifestyle without compromising. However, I do miss the companionship of living with family sometimes, which is why I make sure to visit them regularly on weekends.'
+                    },
+
+                    // Arts & Entertainment (5)
+                    {
+                        question: 'Do you enjoy going to museums?',
+                        sampleAnswer: 'Yes, I enjoy visiting museums, especially art and history museums when I travel to new cities. I usually go on weekends or during vacations because it\'s a relaxing way to learn about different cultures and time periods. Museums help me appreciate creativity and understand historical context, which I find both educational and inspiring.'
+                    },
+                    {
+                        question: 'Have you ever been to a concert?',
+                        sampleAnswer: 'Yes, I\'ve been to several concerts over the years, mostly rock and pop performances. I usually attend them with friends when our favorite artists visit our city. The live atmosphere and energy of concerts are incredible, and it\'s always exciting to experience music performed live rather than just listening to recordings.'
+                    },
+                    {
+                        question: 'Do you like taking photographs?',
+                        sampleAnswer: 'Yes, I really enjoy photography, particularly landscape and street photography. I usually take photos when I travel or during weekend walks around the city. Photography helps me notice details I might otherwise miss, and it\'s a wonderful way to preserve memories and share experiences with others.'
+                    },
+                    {
+                        question: 'Do you enjoy drawing or painting?',
+                        sampleAnswer: 'I\'m not particularly skilled at drawing or painting, but I do enjoy it as a relaxing hobby occasionally. I usually do simple watercolor paintings or sketches when I have free time on weekends. It\'s a nice way to express creativity without any pressure, and I find the process quite therapeutic and meditative.'
+                    },
+                    {
+                        question: 'What kind of art do you appreciate?',
+                        sampleAnswer: 'I particularly appreciate contemporary art and impressionist paintings because of their use of color and emotional expression. I usually visit art galleries a few times a year to see new exhibitions. What I love about art is how it can convey complex emotions and ideas without words, and how each person can interpret pieces differently.'
+                    },
+
+                    // Nature & Environment (5)
+                    {
+                        question: 'Do you like spending time in nature?',
+                        sampleAnswer: 'Absolutely! I love spending time in nature, especially hiking in forests or walking along beaches. I try to get outdoors at least once a week, usually on weekends when I have more time. Being in nature helps me clear my mind and reduces stress, which is why I consider it essential for my mental health.'
+                    },
+                    {
+                        question: 'Do you have any plants at home?',
+                        sampleAnswer: 'Yes, I have several indoor plants in my apartment, mainly succulents and a few small trees. I keep them on my balcony and near windows where they get enough sunlight. Taking care of plants is relaxing for me, and they also help purify the air and add a natural touch to my living space.'
+                    },
+                    {
+                        question: 'Are you concerned about the environment?',
+                        sampleAnswer: 'Yes, I\'m very concerned about environmental issues like climate change and pollution. I try to do my part by reducing waste, recycling regularly, and using public transportation when possible. I believe everyone should take responsibility for protecting the environment because the consequences of inaction affect us all.'
+                    },
+                    {
+                        question: 'Do you prefer mountains or beaches?',
+                        sampleAnswer: 'I prefer mountains because I enjoy hiking and the cooler climate they offer. Mountain scenery is breathtaking, and I find the quiet, peaceful atmosphere very rejuvenating. While I do appreciate beaches for relaxation, mountains provide more opportunities for adventure and exploration, which I find more appealing.'
+                    },
+                    {
+                        question: 'Do you think it\'s important to protect wildlife?',
+                        sampleAnswer: 'Absolutely. Protecting wildlife is crucial for maintaining ecological balance and biodiversity. Many species are facing extinction due to human activities like deforestation and pollution, which affects entire ecosystems. I think governments and individuals both have a responsibility to support conservation efforts and protect natural habitats for future generations.'
+                    },
+
+                    // Transportation (5)
+                    {
+                        question: 'How do you usually travel to work or school?',
+                        sampleAnswer: 'I usually take the subway to work because it\'s the most efficient and reliable option in my city. The commute takes about 30 minutes, which gives me time to read or catch up on news. I prefer public transport over driving because it\'s less stressful and more environmentally friendly.'
+                    },
+                    {
+                        question: 'Do you prefer public transportation or driving?',
+                        sampleAnswer: 'I prefer public transportation for daily commuting because it\'s convenient and I don\'t have to worry about parking or traffic. However, I do enjoy driving when traveling to places not well-served by public transport or when I need flexibility. Each option has its advantages depending on the situation.'
+                    },
+                    {
+                        question: 'Have you ever traveled by train?',
+                        sampleAnswer: 'Yes, I\'ve traveled by train many times, both for short commutes and longer journeys between cities. I particularly enjoy train travel because the views are often scenic and it\'s more comfortable than buses. Trains also allow me to work or relax during the journey, which makes the time feel more productive.'
+                    },
+                    {
+                        question: 'Do you enjoy long journeys?',
+                        sampleAnswer: 'It depends on the mode of transport and the destination. I enjoy long train or plane journeys when I\'m traveling somewhere exciting because the anticipation makes it worthwhile. However, long car journeys can be tiring. I usually bring books or download movies to make long trips more enjoyable.'
+                    },
+                    {
+                        question: 'Would you like to learn to drive?',
+                        sampleAnswer: 'Yes, I would like to learn to drive in the near future as it would give me more independence and flexibility. I\'m planning to take driving lessons next year when my schedule is less busy. Having a driver\'s license would be particularly useful for weekend trips and visiting places outside the city.'
+                    },
+
+                    // Health & Lifestyle (5)
+                    {
+                        question: 'Do you think you have a healthy lifestyle?',
+                        sampleAnswer: 'I try to maintain a healthy lifestyle, though there\'s room for improvement. I exercise regularly and eat a balanced diet most of the time, but I could probably sleep more consistently. I think achieving a healthy lifestyle is an ongoing process that requires constant attention and adjustment based on your circumstances.'
+                    },
+                    {
+                        question: 'How much sleep do you usually get?',
+                        sampleAnswer: 'I typically get around 6-7 hours of sleep on weeknights, which is slightly less than ideal. On weekends, I try to catch up by sleeping 8-9 hours when I don\'t have early commitments. I\'ve noticed that getting enough sleep significantly affects my mood and productivity, so I\'m trying to improve my sleep schedule.'
+                    },
+                    {
+                        question: 'Do you take any vitamins or supplements?',
+                        sampleAnswer: 'Yes, I take a daily multivitamin and vitamin D supplements, especially during winter when there\'s less sunlight. I started taking them a few years ago after consulting with my doctor, who recommended them for overall health maintenance. I believe supplements can help fill nutritional gaps in my diet.'
+                    },
+                    {
+                        question: 'Do you prefer to relax at home or go out?',
+                        sampleAnswer: 'It really depends on my mood and energy levels. After a long work week, I prefer relaxing at home with a book or movie. However, on weekends when I feel more energetic, I enjoy going out to cafés, parks, or meeting friends. Having a balance between both options helps me recharge in different ways.'
+                    },
+                    {
+                        question: 'What do you do when you feel stressed?',
+                        sampleAnswer: 'When I feel stressed, I usually go for a run or do some yoga to help clear my mind. Physical activity really helps me manage stress levels and regain perspective. I also find that talking to close friends or listening to calming music can be therapeutic, depending on what caused the stress.'
+                    },
+
+                    // Celebrations & Festivals (5)
+                    {
+                        question: 'What is your favorite festival or celebration?',
+                        sampleAnswer: 'My favorite celebration is the Lunar New Year because it\'s a time when the whole family gathers together. We usually celebrate with a big dinner, exchange red envelopes, and visit relatives. The festive atmosphere, traditional food, and quality time with loved ones make it special, and I look forward to it every year.'
+                    },
+                    {
+                        question: 'How do you usually celebrate your birthday?',
+                        sampleAnswer: 'I usually celebrate my birthday with a small dinner gathering with close friends and family. We typically go to a nice restaurant or I host a dinner at home with home-cooked food. I prefer intimate celebrations rather than large parties because it allows for meaningful conversations and connection with the people who matter most to me.'
+                    },
+                    {
+                        question: 'Do you enjoy public holidays?',
+                        sampleAnswer: 'Yes, I really enjoy public holidays because they give me a break from work and a chance to recharge. I usually use these days to travel, spend time with family, or catch up on personal projects. Public holidays are important for maintaining work-life balance, and I always try to make the most of them.'
+                    },
+                    {
+                        question: 'Do you give gifts to friends and family?',
+                        sampleAnswer: 'Yes, I give gifts during special occasions like birthdays, holidays, and important milestones. I usually spend time choosing thoughtful presents that reflect the person\'s interests rather than buying expensive items. I believe gift-giving is a meaningful way to show appreciation and strengthen relationships with people I care about.'
+                    },
+                    {
+                        question: 'What traditional celebrations does your country have?',
+                        sampleAnswer: 'My country celebrates many traditional festivals, but the most significant is our Independence Day, which involves parades, fireworks, and cultural performances. We also celebrate harvest festivals and religious holidays that have been observed for generations. These celebrations help preserve our cultural heritage and bring communities together.'
+                    },
+
+                    // Pets & Animals (5)
+                    {
+                        question: 'Do you have any pets?',
+                        sampleAnswer: 'No, I don\'t have any pets currently because my apartment doesn\'t allow them and my work schedule is quite demanding. However, I grew up with a dog, so I understand the joy and companionship that pets bring. I hope to get a pet in the future when my living situation and lifestyle are more suitable.'
+                    },
+                    {
+                        question: 'Do you like animals?',
+                        sampleAnswer: 'Yes, I love animals, especially dogs and cats. I find them fascinating to observe and they bring so much joy to people\'s lives. Whenever I visit friends who have pets, I always enjoy spending time playing with them. I think animals teach us about loyalty, compassion, and living in the moment.'
+                    },
+                    {
+                        question: 'What is your favorite animal?',
+                        sampleAnswer: 'My favorite animal is the elephant because of their intelligence, strong family bonds, and gentle nature despite their size. I\'ve always been fascinated by how they communicate and care for each other. Elephants also represent wisdom and strength in many cultures, which I find inspiring and meaningful.'
+                    },
+                    {
+                        question: 'Did you have pets when you were a child?',
+                        sampleAnswer: 'Yes, I had a golden retriever named Max when I was growing up. He was part of our family for about 12 years, and taking care of him taught me responsibility and empathy. We used to play together in the backyard every day after school, and those memories are still very special to me.'
+                    },
+                    {
+                        question: 'Would you like to have a pet in the future?',
+                        sampleAnswer: 'Yes, I\'d definitely like to have a dog in the future when I have more space and time to properly care for one. I think having a pet would encourage me to be more active and provide companionship. I\'m particularly interested in adopting a rescue dog because I believe in giving animals a second chance.'
+                    },
+
+                    // Language & Communication (5)
+                    {
+                        question: 'What languages can you speak?',
+                        sampleAnswer: 'I can speak English fluently and my native language, Vietnamese. I\'m also learning basic Spanish through an app in my free time because I find it useful for travel. Being multilingual opens up opportunities for communication and helps me understand different cultures better.'
+                    },
+                    {
+                        question: 'Do you think learning languages is important?',
+                        sampleAnswer: 'Absolutely. Learning languages is important both for practical reasons like career opportunities and travel, and for cognitive benefits. It helps you understand different perspectives and cultures more deeply. In our globalized world, being able to communicate in multiple languages is increasingly valuable and enriching.'
+                    },
+                    {
+                        question: 'How are you learning English?',
+                        sampleAnswer: 'I\'m learning English through a combination of methods: taking classes twice a week, watching English movies and series with subtitles, and practicing conversation with native speakers online. I also try to read English articles and books regularly because exposure to the language in different contexts really helps improve my skills.'
+                    },
+                    {
+                        question: 'Do you enjoy writing?',
+                        sampleAnswer: 'Yes, I enjoy writing, particularly journaling and creative writing in my free time. I usually write in the evenings when I have quiet time to reflect on my day or explore ideas. Writing helps me organize my thoughts and express myself more clearly, which I find both therapeutic and intellectually satisfying.'
+                    },
+                    {
+                        question: 'Do you prefer texting or calling?',
+                        sampleAnswer: 'I generally prefer texting for quick, non-urgent communication because it\'s convenient and allows me to respond when I have time. However, for important conversations or when I want to have a deeper discussion, I prefer calling because it\'s more personal and reduces misunderstandings. Each method has its place depending on the situation.'
+                    },
+
+                    // Memory & Childhood (5)
+                    {
+                        question: 'What is your earliest childhood memory?',
+                        sampleAnswer: 'My earliest memory is from when I was about four years old, playing in my grandparents\' garden during summer vacation. I remember chasing butterflies and picking flowers with my grandmother. It\'s a vivid and happy memory that reminds me of simpler times and the special bond I had with her.'
+                    },
+                    {
+                        question: 'Do you have a good memory?',
+                        sampleAnswer: 'I have a reasonably good memory for faces and experiences, but I sometimes struggle with remembering specific details like names or dates. I usually use reminder apps and write things down to help me stay organized. I think my memory works better when I\'m genuinely interested in something or when I make emotional connections.'
+                    },
+                    {
+                        question: 'What did you enjoy doing as a child?',
+                        sampleAnswer: 'As a child, I loved playing outdoor games like hide-and-seek and riding my bicycle around the neighborhood with friends. We would spend hours outside until it got dark. Those activities taught me teamwork and creativity, and I have fond memories of the freedom and carefree nature of childhood.'
+                    },
+                    {
+                        question: 'Are you still in contact with childhood friends?',
+                        sampleAnswer: 'Yes, I\'m still in touch with two of my closest friends from primary school. We don\'t see each other as often as we used to because we live in different cities now, but we chat regularly online and meet up whenever possible. These friendships are valuable because we share a long history and understand each other well.'
+                    },
+                    {
+                        question: 'What games did you play when you were young?',
+                        sampleAnswer: 'When I was young, I played a lot of traditional games like hopscotch, tag, and jump rope with kids in my neighborhood. We also played board games like Monopoly on rainy days. These games were simple but taught us important social skills like cooperation, fair play, and how to handle both winning and losing gracefully.'
+                    },
+
+                    // Colors & Preferences (5)
+                    {
+                        question: 'What is your favorite color?',
+                        sampleAnswer: 'My favorite color is blue, particularly navy and sky blue shades. I find blue calming and versatile - it works well in both clothing and interior design. I think I\'m drawn to blue because it reminds me of the ocean and clear skies, which are associated with tranquility and freedom.'
+                    },
+                    {
+                        question: 'Do different colors affect your mood?',
+                        sampleAnswer: 'Yes, I believe colors do affect my mood. Bright colors like yellow and orange make me feel more energetic and positive, while softer colors like blue and green help me feel calm and relaxed. That\'s why I\'m quite intentional about the colors I choose for my clothes and home decor based on how I want to feel.'
+                    },
+                    {
+                        question: 'What color would you paint your room?',
+                        sampleAnswer: 'I would paint my room a soft sage green or light grey because these colors are soothing and create a peaceful atmosphere perfect for relaxation and sleep. I prefer neutral, calming tones over bold colors in personal spaces because they\'re easier to live with long-term and provide a good backdrop for various decorating styles.'
+                    },
+                    {
+                        question: 'Do you wear bright or dark colors?',
+                        sampleAnswer: 'I usually wear dark or neutral colors like black, navy, and grey because they\'re practical, versatile, and easy to mix and match. Occasionally, I add pops of color with accessories or during summer months. Dark colors suit my personal style and are appropriate for both professional and casual settings.'
+                    },
+                    {
+                        question: 'Has your favorite color changed over time?',
+                        sampleAnswer: 'Yes, my favorite color has changed as I\'ve gotten older. As a child, I loved bright red because it was bold and exciting. Now I prefer blue and green because I appreciate their calming qualities more. I think our color preferences evolve as our personalities mature and our understanding of what we need emotionally changes.'
+                    },
+
+                    // Time Management (5)
+                    {
+                        question: 'Are you good at managing your time?',
+                        sampleAnswer: 'I think I\'m reasonably good at time management, though there\'s always room for improvement. I usually use a digital calendar and to-do lists to stay organized and prioritize tasks effectively. Planning ahead helps me balance work responsibilities with personal activities, though unexpected events sometimes disrupt my schedule.'
+                    },
+                    {
+                        question: 'Do you make daily or weekly plans?',
+                        sampleAnswer: 'I make both daily and weekly plans to stay organized. At the start of each week, I outline my major tasks and commitments, then each morning I create a detailed daily plan with priorities. This two-level approach helps me see the bigger picture while staying focused on immediate tasks. I find it reduces stress and increases productivity.'
+                    },
+                    {
+                        question: 'Are you usually punctual?',
+                        sampleAnswer: 'Yes, I\'m generally quite punctual because I believe being on time shows respect for other people\'s schedules. I usually arrive a few minutes early to appointments or meetings to avoid any last-minute stress. Being punctual also helps me feel more in control and prepared, which reduces anxiety about being late.'
+                    },
+                    {
+                        question: 'Do you prefer mornings or evenings?',
+                        sampleAnswer: 'I\'m definitely more of a morning person. I feel most alert and productive in the early hours, which is when I do my most important work. I usually wake up early to take advantage of this natural energy peak. By evening, I prefer to wind down with lighter activities like reading or watching shows.'
+                    },
+                    {
+                        question: 'How do you organize your schedule?',
+                        sampleAnswer: 'I organize my schedule using a combination of digital tools and traditional methods. I use Google Calendar for appointments and deadlines, and I keep a physical planner for daily tasks and notes. I also set reminders on my phone for important events. This system helps me stay on track and ensures I don\'t forget anything important.'
+                    }
                 ],
                 aiPromptTemplate: `Student is practicing the 5W1H method (Who, What, When, Where, Why, How).
 

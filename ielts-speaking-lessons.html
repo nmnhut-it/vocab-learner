@@ -704,9 +704,11 @@
 
             // Set up first question
             const questionDiv = clone.querySelector('#practiceQuestion');
-            updateQuestion();
 
             container.appendChild(clone);
+
+            // Now update question after elements are in DOM
+            updateQuestion();
 
             // Setup AI feedback button
             document.getElementById('getAIFeedbackBtn').addEventListener('click', async () => {
@@ -742,7 +744,65 @@
                 document.getElementById('currentEx').textContent = currentQuestionIndex + 1;
 
                 if (section.practiceQuestions) {
-                    questionDiv.innerHTML = `<p class="practice-q"><strong>Question:</strong> ${section.practiceQuestions[currentQuestionIndex]}</p>`;
+                    const currentQ = section.practiceQuestions[currentQuestionIndex];
+
+                    // Handle both string format (old) and object format (new)
+                    let questionText, sampleAnswer;
+                    if (typeof currentQ === 'string') {
+                        questionText = currentQ;
+                        sampleAnswer = null;
+                    } else {
+                        questionText = currentQ.question;
+                        sampleAnswer = currentQ.sampleAnswer;
+                    }
+
+                    // Build question HTML
+                    let html = `<p class="practice-q"><strong>Question:</strong> ${questionText}</p>`;
+
+                    // Add sample answer section if available
+                    if (sampleAnswer) {
+                        html += `
+                            <div class="sample-answer-section" style="margin-top: 20px;">
+                                <button class="btn btn-secondary" id="toggleSampleBtn" style="font-size: 14px; padding: 8px 16px;">
+                                    💡 Show Sample Answer
+                                </button>
+                                <div class="sample-answer-box" id="sampleAnswerBox" style="display: none; margin-top: 15px; padding: 15px; background: #f8f9fa; border-left: 4px solid #667eea; border-radius: 4px;">
+                                    <div class="sample-header" style="font-weight: 600; color: #667eea; margin-bottom: 10px;">
+                                        📝 Model Answer (Band 7-7.5)
+                                    </div>
+                                    <p class="sample-text" style="line-height: 1.6; margin-bottom: 15px; font-style: italic;">
+                                        ${sampleAnswer}
+                                    </p>
+                                    <div class="sample-tip" style="font-size: 13px; color: #666; padding: 10px; background: white; border-radius: 4px;">
+                                        <strong>💡 Tip:</strong> Try to answer first, then compare your ideas with this sample. Notice which 5W1H elements (What, When, Where, Who, Why, How) are included.
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+
+                    questionDiv.innerHTML = html;
+
+                    // Add toggle functionality if sample answer exists
+                    if (sampleAnswer) {
+                        setTimeout(() => {
+                            const toggleBtn = document.getElementById('toggleSampleBtn');
+                            const sampleBox = document.getElementById('sampleAnswerBox');
+
+                            if (toggleBtn && sampleBox) {
+                                toggleBtn.addEventListener('click', function() {
+                                    if (sampleBox.style.display === 'none') {
+                                        sampleBox.style.display = 'block';
+                                        this.textContent = '🔼 Hide Sample Answer';
+                                    } else {
+                                        sampleBox.style.display = 'none';
+                                        this.textContent = '💡 Show Sample Answer';
+                                    }
+                                });
+                            }
+                        }, 0);
+                    }
+
                 } else if (section.exercises) {
                     const exercise = section.exercises[currentQuestionIndex];
                     questionDiv.innerHTML = `
@@ -781,9 +841,10 @@
                 let feedback;
                 let currentQuestion;
 
-                // Get the current question
+                // Get the current question (handle both string and object format)
                 if (section.practiceQuestions) {
-                    currentQuestion = section.practiceQuestions[questionIndex];
+                    const q = section.practiceQuestions[questionIndex];
+                    currentQuestion = typeof q === 'string' ? q : q.question;
                 } else if (section.exercises) {
                     currentQuestion = section.exercises[questionIndex].basic;
                 } else {

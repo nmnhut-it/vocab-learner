@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Practice - Finding Ideas Fast | IELTS Speaking</title>
+    <link rel="stylesheet" href="styles/practice-interface.css">
+</head>
+<body>
+    <div class="practice-container">
+        <!-- Header -->
+        <header class="practice-header">
+            <h1>💡 Module 2: Finding Ideas Fast</h1>
+            <div class="header-actions">
+                <a href="ielts-speaking-lessons.html" class="back-button">
+                    ⬅️ Back to Lessons
+                </a>
+            </div>
+        </header>
+
+        <!-- Compact Progress Bar -->
+        <div class="compact-progress">
+            <div class="progress-info">
+                <span class="progress-count" id="progressText">0/100</span>
+                <span class="progress-label">completed</span>
+            </div>
+            <div class="progress-bar-mini">
+                <div class="progress-fill-mini" id="progressBar" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <!-- Collapsible Options -->
+        <div class="options-panel">
+            <button class="options-toggle" id="optionsToggle" onclick="toggleOptions()">
+                ⚙️ Options (Modes & Filters)
+            </button>
+            <div class="options-content" id="optionsContent" style="display: none;">
+                <!-- Practice Modes -->
+                <div class="practice-modes">
+                    <label class="options-label">Practice Mode:</label>
+                    <button class="mode-button active" data-mode="sequential" id="modeSequential">
+                        📋 Sequential
+                    </button>
+                    <button class="mode-button" data-mode="random" id="modeRandom">
+                        🎲 Random
+                    </button>
+                    <button class="mode-button" data-mode="favorites" id="modeFavorites">
+                        ⭐ Favorites
+                    </button>
+                    <button class="mode-button" data-mode="incomplete" id="modeIncomplete">
+                        🔄 Incomplete
+                    </button>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-section-inline">
+                    <label class="options-label" for="categoryFilter">Category:</label>
+                    <select class="filter-select" id="categoryFilter">
+                        <option value="all">All Categories (100)</option>
+                        <option value="hobbies">Hobbies & Interests</option>
+                        <option value="daily">Daily Life</option>
+                        <option value="sports">Activities & Sports</option>
+                        <option value="technology">Technology & Media</option>
+                        <option value="relationships">People & Relationships</option>
+                        <option value="work">Learning & Work</option>
+                        <option value="travel">Places & Travel</option>
+                        <option value="food">Food & Cooking</option>
+                        <option value="weather">Weather & Seasons</option>
+                        <option value="shopping">Shopping & Fashion</option>
+                        <option value="home">Home & Living</option>
+                        <option value="arts">Arts & Entertainment</option>
+                        <option value="nature">Nature & Environment</option>
+                        <option value="transport">Transportation</option>
+                        <option value="health">Health & Lifestyle</option>
+                        <option value="celebrations">Celebrations & Festivals</option>
+                        <option value="pets">Pets & Animals</option>
+                        <option value="language">Language & Communication</option>
+                        <option value="memory">Memory & Childhood</option>
+                        <option value="time">Time Management</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-card" id="questionCard">
+            <div class="question-header">
+                <span class="question-number" id="questionNumber">Question 1/100</span>
+                <span class="question-category" id="questionCategory">Category</span>
+                <button class="favorite-button" id="favoriteButton" title="Add to favorites">☆</button>
+            </div>
+
+            <div class="question-text-large" id="questionText">
+                Loading question...
+            </div>
+
+            <!-- Answer Input Section - 5W1H Form -->
+            <div class="answer-section">
+                <div class="section-header">
+                    <h3>📝 Your Answer</h3>
+                    <p class="section-hint">Fill in the 5W1H elements to build your answer</p>
+                </div>
+
+                <div class="5w1h-form">
+                    <div class="form-field">
+                        <label class="field-label">📌 WHAT (specifically)?</label>
+                        <input
+                            type="text"
+                            id="input-what"
+                            class="field-input"
+                            placeholder="e.g., jazz music, badminton, photography..."
+                        >
+                        <span class="field-hint">Be specific about what you're talking about</span>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="field-label">⏰ WHEN (do you do it)?</label>
+                        <input
+                            type="text"
+                            id="input-when"
+                            class="field-input"
+                            placeholder="e.g., in the evenings, on weekends, every day..."
+                        >
+                        <span class="field-hint">Mention the time or frequency</span>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="field-label">📍 WHERE (does it happen)?</label>
+                        <input
+                            type="text"
+                            id="input-where"
+                            class="field-input"
+                            placeholder="e.g., at home, in the park, at the gym..."
+                        >
+                        <span class="field-hint">Specify the location or place</span>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="field-label">👥 WHO (is involved)?</label>
+                        <input
+                            type="text"
+                            id="input-who"
+                            class="field-input"
+                            placeholder="e.g., with friends, alone, with family..."
+                        >
+                        <span class="field-hint">Who do you do this with? (optional)</span>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="field-label">❓ WHY (do you like/do it)?</label>
+                        <input
+                            type="text"
+                            id="input-why"
+                            class="field-input"
+                            placeholder="e.g., because it helps me relax, it's fun..."
+                        >
+                        <span class="field-hint">Give your reason or motivation</span>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="field-label">💭 HOW (does it make you feel)?</label>
+                        <input
+                            type="text"
+                            id="input-how"
+                            class="field-input"
+                            placeholder="e.g., relaxed, energized, happy, inspired..."
+                        >
+                        <span class="field-hint">Describe your feelings or the impact</span>
+                    </div>
+                </div>
+
+                <!-- Real-time Answer Preview -->
+                <div class="answer-preview">
+                    <div class="preview-header">
+                        <strong>💡 Your Complete Answer:</strong>
+                        <span class="preview-hint">(Auto-generated from your inputs above)</span>
+                    </div>
+                    <div class="preview-content" id="generatedAnswer">
+                        <em>Start filling in the fields above to see your answer...</em>
+                    </div>
+                    <div class="preview-stats" id="previewStats">
+                        <span class="stat-badge">0/6 elements used</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-primary" id="getFeedbackBtn" onclick="getAIFeedback()">
+                    🤖 Get AI Feedback
+                </button>
+                <button class="btn btn-success" id="markCompleteBtn" onclick="markComplete()">
+                    ✓ Mark Complete
+                </button>
+                <button class="btn btn-secondary" id="skipBtn" onclick="skipQuestion()">
+                    ⏭️ Skip
+                </button>
+            </div>
+        </div>
+
+        <!-- Sample Answer Section (collapsible, after student answers) -->
+        <div class="sample-answer-card">
+            <button class="sample-answer-toggle-btn" id="toggleSampleBtn" onclick="toggleSampleAnswer()">
+                <span class="toggle-icon">▼</span>
+                <span class="toggle-text">💡 Compare with Band 7-7.5 Sample Answer</span>
+            </button>
+            <div class="sample-answer-box" id="sampleAnswerBox" style="display: none;">
+                <!-- 5W1H Breakdown FIRST -->
+                <div class="5w1h-breakdown">
+                    <h4>📋 5W1H Elements Used:</h4>
+                    <div class="breakdown-grid" id="breakdownGrid">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <div class="breakdown-divider"></div>
+
+                <!-- Full Sample Answer SECOND -->
+                <div class="full-sample-answer">
+                    <h4>📝 Complete Answer (Band 7-7.5):</h4>
+                    <p class="sample-text" id="sampleAnswerText">
+                        Sample answer will appear here...
+                    </p>
+                </div>
+
+                <div class="sample-tip">
+                    <strong>💡 Tip:</strong> Compare the 5W1H breakdown above with your own answer. Try to include at least 3-4 elements naturally in your response.
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Feedback Section (appears after feedback) -->
+        <div class="feedback-section" id="feedbackSection" style="display: none;">
+            <div class="feedback-header">
+                💬 AI Teacher Feedback
+            </div>
+            <div class="feedback-content" id="feedbackContent">
+                Feedback will appear here...
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation-buttons">
+            <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()">
+                ⬅️ Previous
+            </button>
+            <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">
+                Next ➡️
+            </button>
+        </div>
+
+        <!-- Keyboard Shortcuts Hint -->
+        <div class="shortcuts-hint">
+            <strong>Keyboard Shortcuts:</strong><br>
+            <kbd>N</kbd> Next • <kbd>P</kbd> Previous • <kbd>S</kbd> Show Sample • <kbd>F</kbd> Get Feedback
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/ieltsLessons.js"></script>
+    <script src="scripts/ieltsCoachAI.js"></script>
+    <script src="scripts/practiceInterface.js"></script>
+    <script>
+        // Module 2 Practice Implementation
+        let practiceInterface;
+        let currentQuestion;
+
+        // Extract Module 2 questions from IELTS_LESSONS
+        const module2Data = IELTS_LESSONS.module2;
+        const practiceSection = module2Data.sections.find(s => s.id === 'm2_practice2');
+        const allQuestions = practiceSection.practiceQuestions;
+
+        // Initialize Practice Interface
+        document.addEventListener('DOMContentLoaded', () => {
+            practiceInterface = new PracticeInterface({
+                moduleId: 'module2',
+                questions: allQuestions,
+                onAnswerSubmit: handleAnswerSubmit,
+                onQuestionChange: handleQuestionChange
+            });
+
+            // Override renderQuestion to use our custom UI
+            practiceInterface.renderQuestion = renderCurrentQuestion;
+
+            // Initial render
+            renderCurrentQuestion();
+            updateProgress();
+
+            // Setup mode buttons
+            document.querySelectorAll('.mode-button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.mode-button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    practiceInterface.setMode(btn.dataset.mode);
+                });
+            });
+
+            // Setup category filter
+            document.getElementById('categoryFilter').addEventListener('change', (e) => {
+                filterByCategory(e.target.value);
+            });
+
+            // Setup favorite button
+            document.getElementById('favoriteButton').addEventListener('click', toggleFavorite);
+
+            // Check API key
+            if (!window.ieltsCoachAI.hasApiKey()) {
+                showApiKeyReminder();
+            }
+        });
+
+        function renderCurrentQuestion() {
+            currentQuestion = practiceInterface.getCurrentQuestion();
+            const index = practiceInterface.currentIndex;
+            const total = practiceInterface.questions.length;
+
+            // Handle both string and object formats
+            let questionText, sampleAnswer, category;
+            if (typeof currentQuestion === 'string') {
+                questionText = currentQuestion;
+                sampleAnswer = null;
+                category = 'General';
+            } else {
+                questionText = currentQuestion.question;
+                sampleAnswer = currentQuestion.sampleAnswer;
+                category = currentQuestion.category || getCategoryFromIndex(index);
+            }
+
+            // Update UI
+            document.getElementById('questionNumber').textContent = `Question ${index + 1}/${total}`;
+            document.getElementById('questionText').textContent = questionText;
+            document.getElementById('questionCategory').textContent = category;
+
+            // Update sample answer
+            if (sampleAnswer) {
+                document.getElementById('sampleAnswerText').textContent = sampleAnswer;
+
+                // Parse and display 5W1H breakdown
+                const breakdown = parse5W1HFromSampleAnswer(sampleAnswer, questionText);
+                renderBreakdown(breakdown);
+
+                document.getElementById('toggleSampleBtn').style.display = 'inline-flex';
+            } else {
+                document.getElementById('toggleSampleBtn').style.display = 'none';
+            }
+
+            // Reset sample answer display
+            document.getElementById('sampleAnswerBox').style.display = 'none';
+            document.getElementById('toggleSampleBtn').textContent = '💡 Show Sample Answer';
+
+            // Clear previous answer fields and feedback
+            document.getElementById('input-what').value = '';
+            document.getElementById('input-when').value = '';
+            document.getElementById('input-where').value = '';
+            document.getElementById('input-who').value = '';
+            document.getElementById('input-why').value = '';
+            document.getElementById('input-how').value = '';
+            document.getElementById('generatedAnswer').innerHTML = '<em>Start filling in the fields above to see your answer...</em>';
+            document.getElementById('feedbackSection').style.display = 'none';
+
+            // Setup real-time answer generation
+            setupAnswerGeneration();
+
+            // Update favorite button
+            const questionId = practiceInterface.getQuestionId(currentQuestion, index);
+            const isFav = practiceInterface.isFavorite(questionId);
+            document.getElementById('favoriteButton').textContent = isFav ? '★' : '☆';
+            document.getElementById('favoriteButton').classList.toggle('active', isFav);
+
+            updateProgress();
+        }
+
+        function getCategoryFromIndex(index) {
+            const categories = [
+                { start: 0, end: 5, name: 'Hobbies & Interests' },
+                { start: 5, end: 10, name: 'Daily Life' },
+                { start: 10, end: 15, name: 'Activities & Sports' },
+                { start: 15, end: 20, name: 'Technology & Media' },
+                { start: 20, end: 25, name: 'People & Relationships' },
+                { start: 25, end: 30, name: 'Learning & Work' },
+                { start: 30, end: 35, name: 'Places & Travel' },
+                { start: 35, end: 40, name: 'Food & Cooking' },
+                { start: 40, end: 45, name: 'Weather & Seasons' },
+                { start: 45, end: 50, name: 'Shopping & Fashion' },
+                { start: 50, end: 55, name: 'Home & Living' },
+                { start: 55, end: 60, name: 'Arts & Entertainment' },
+                { start: 60, end: 65, name: 'Nature & Environment' },
+                { start: 65, end: 70, name: 'Transportation' },
+                { start: 70, end: 75, name: 'Health & Lifestyle' },
+                { start: 75, end: 80, name: 'Celebrations & Festivals' },
+                { start: 80, end: 85, name: 'Pets & Animals' },
+                { start: 85, end: 90, name: 'Language & Communication' },
+                { start: 90, end: 95, name: 'Memory & Childhood' },
+                { start: 95, end: 100, name: 'Time Management' }
+            ];
+
+            for (const cat of categories) {
+                if (index >= cat.start && index < cat.end) {
+                    return cat.name;
+                }
+            }
+            return 'General';
+        }
+
+        function updateProgress() {
+            const stats = practiceInterface.getCompletionStats();
+            document.getElementById('progressText').textContent = `${stats.completed}/${stats.total}`;
+            document.getElementById('progressPercent').textContent = stats.percentage;
+            document.getElementById('progressBar').style.width = `${stats.percentage}%`;
+        }
+
+        function toggleSampleAnswer() {
+            const box = document.getElementById('sampleAnswerBox');
+            const icon = document.querySelector('.toggle-icon');
+            const text = document.querySelector('.toggle-text');
+
+            if (box.style.display === 'none') {
+                box.style.display = 'block';
+                icon.textContent = '▲';
+                text.textContent = '🔼 Hide Sample Answer';
+            } else {
+                box.style.display = 'none';
+                icon.textContent = '▼';
+                text.textContent = '💡 Compare with Band 7-7.5 Sample Answer';
+            }
+        }
+
+        function toggleOptions() {
+            const content = document.getElementById('optionsContent');
+            const toggle = document.getElementById('optionsToggle');
+
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggle.textContent = '⚙️ Hide Options';
+            } else {
+                content.style.display = 'none';
+                toggle.textContent = '⚙️ Options (Modes & Filters)';
+            }
+        }
+
+        function toggleFavorite() {
+            const questionId = practiceInterface.getQuestionId(currentQuestion, practiceInterface.currentIndex);
+            practiceInterface.toggleFavorite(questionId);
+            renderCurrentQuestion();
+        }
+
+        function nextQuestion() {
+            practiceInterface.nextQuestion();
+        }
+
+        function previousQuestion() {
+            practiceInterface.previousQuestion();
+        }
+
+        function skipQuestion() {
+            practiceInterface.nextQuestion();
+        }
+
+        function markComplete() {
+            practiceInterface.markComplete();
+            nextQuestion();
+        }
+
+        async function getAIFeedback() {
+            const answer = generateFullAnswer();
+
+            if (!answer || answer.trim().length < 10) {
+                alert('Please fill in at least 2-3 fields before getting feedback');
+                return;
+            }
+
+            if (!window.ieltsCoachAI.hasApiKey()) {
+                showApiKeyReminder();
+                return;
+            }
+
+            const btn = document.getElementById('getFeedbackBtn');
+            const feedbackSection = document.getElementById('feedbackSection');
+            const feedbackContent = document.getElementById('feedbackContent');
+
+            try {
+                btn.disabled = true;
+                btn.textContent = '⏳ Getting AI Feedback...';
+
+                // Get question text
+                const questionText = typeof currentQuestion === 'string'
+                    ? currentQuestion
+                    : currentQuestion.question;
+
+                // Get AI feedback
+                const feedback = await window.ieltsCoachAI.feedbackOnIdeas(questionText, answer);
+
+                // Display feedback
+                feedbackContent.innerHTML = feedback.replace(/\n/g, '<br>');
+                feedbackSection.style.display = 'block';
+
+                // Save progress
+                practiceInterface.saveProgress(
+                    practiceInterface.getQuestionId(currentQuestion, practiceInterface.currentIndex),
+                    { answer, completed: true, hasFeedback: true }
+                );
+
+                // Scroll to feedback
+                feedbackSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            } catch (error) {
+                console.error('AI Feedback Error:', error);
+                alert('Error getting feedback: ' + error.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🤖 Get AI Feedback';
+            }
+        }
+
+        function handleAnswerSubmit(question, answer) {
+            // Handled in getAIFeedback
+        }
+
+        function handleQuestionChange(question) {
+            // Optional: track analytics or other actions
+        }
+
+        function filterByCategory(category) {
+            // TODO: Implement category filtering
+            // For now, just show all questions
+            console.log('Filter by category:', category);
+        }
+
+        function showApiKeyReminder() {
+            const reminder = confirm(
+                'You need a free Gemini API key to get AI feedback.\n\n' +
+                'Would you like to set it up now?\n\n' +
+                '(You can still practice and view sample answers without it)'
+            );
+
+            if (reminder) {
+                window.location.href = 'ielts-speaking-lessons.html#api-key';
+            }
+        }
+
+        // NEW FUNCTIONS FOR 5W1H FORM
+
+        function setupAnswerGeneration() {
+            // Setup real-time answer generation
+            const inputs = ['what', 'when', 'where', 'who', 'why', 'how'];
+            inputs.forEach(id => {
+                const input = document.getElementById(`input-${id}`);
+                if (input) {
+                    input.addEventListener('input', updateGeneratedAnswer);
+                }
+            });
+        }
+
+        function updateGeneratedAnswer() {
+            const answer = generateFullAnswer();
+            const previewDiv = document.getElementById('generatedAnswer');
+
+            if (answer) {
+                previewDiv.innerHTML = answer;
+                previewDiv.style.fontStyle = 'normal';
+            } else {
+                previewDiv.innerHTML = '<em>Start filling in the fields above to see your answer...</em>';
+            }
+
+            // Update stats
+            updateElementStats();
+        }
+
+        function generateFullAnswer() {
+            const what = document.getElementById('input-what').value.trim();
+            const when = document.getElementById('input-when').value.trim();
+            const where = document.getElementById('input-where').value.trim();
+            const who = document.getElementById('input-who').value.trim();
+            const why = document.getElementById('input-why').value.trim();
+            const how = document.getElementById('input-how').value.trim();
+
+            if (!what && !when && !where && !who && !why && !how) {
+                return '';
+            }
+
+            // Smart sentence construction
+            let parts = [];
+
+            // Start with WHAT
+            if (what) {
+                parts.push(`I ${what}`);
+            }
+
+            // Add WHEN
+            if (when) {
+                if (parts.length > 0) {
+                    parts.push(`, ${when}`);
+                } else {
+                    parts.push(`${when}`);
+                }
+            }
+
+            // Add WHERE
+            if (where) {
+                if (parts.length > 0) {
+                    parts.push(` ${where}`);
+                } else {
+                    parts.push(`${where}`);
+                }
+            }
+
+            // Add WHO
+            if (who) {
+                if (parts.length > 0) {
+                    parts.push(` ${who}`);
+                } else {
+                    parts.push(`${who}`);
+                }
+            }
+
+            // Add WHY (with conjunction)
+            if (why) {
+                if (parts.length > 0) {
+                    parts.push(` ${why}`);
+                } else {
+                    parts.push(`${why}`);
+                }
+            }
+
+            // Add HOW (feelings)
+            if (how) {
+                if (parts.length > 0) {
+                    parts.push(`, which makes me feel ${how}`);
+                } else {
+                    parts.push(`${how}`);
+                }
+            }
+
+            let answer = parts.join('');
+
+            // Ensure it ends with a period
+            if (answer && !answer.endsWith('.') && !answer.endsWith('!') && !answer.endsWith('?')) {
+                answer += '.';
+            }
+
+            return answer;
+        }
+
+        function updateElementStats() {
+            const inputs = ['what', 'when', 'where', 'who', 'why', 'how'];
+            let count = 0;
+
+            inputs.forEach(id => {
+                const input = document.getElementById(`input-${id}`);
+                if (input && input.value.trim()) {
+                    count++;
+                }
+            });
+
+            const statsBadge = document.getElementById('previewStats');
+            if (statsBadge) {
+                statsBadge.innerHTML = `<span class="stat-badge">${count}/6 elements used</span>`;
+
+                // Color code based on count
+                const badge = statsBadge.querySelector('.stat-badge');
+                if (count >= 4) {
+                    badge.style.background = '#4caf50';
+                    badge.style.color = 'white';
+                } else if (count >= 2) {
+                    badge.style.background = '#ff9800';
+                    badge.style.color = 'white';
+                } else {
+                    badge.style.background = '#e0e0e0';
+                    badge.style.color = '#666';
+                }
+            }
+        }
+
+        function parse5W1HFromSampleAnswer(sampleText, questionText) {
+            // Smart parsing to extract 5W1H elements from sample answer
+            // This is a simplified version - could be enhanced with AI
+
+            const breakdown = {
+                what: '',
+                when: '',
+                where: '',
+                who: '',
+                why: '',
+                how: ''
+            };
+
+            // Extract patterns
+            const text = sampleText.toLowerCase();
+
+            // WHAT - usually at the start or after "I"
+            const whatMatch = sampleText.match(/(?:I (?:really )?(?:enjoy|love|like|prefer) )([^,\.]+?)(?:,|\.| when| where| because)/i);
+            if (whatMatch) {
+                breakdown.what = whatMatch[1].trim();
+            }
+
+            // WHEN - look for time expressions
+            const whenPatterns = ['in the evening', 'on weekends', 'every day', 'usually', 'typically', 'during', 'after', 'before'];
+            for (const pattern of whenPatterns) {
+                if (text.includes(pattern)) {
+                    const whenMatch = sampleText.match(new RegExp(`(${pattern}[^,\.]+)`, 'i'));
+                    if (whenMatch) {
+                        breakdown.when = whenMatch[1].trim();
+                        break;
+                    }
+                }
+            }
+
+            // WHERE - look for location words
+            const wherePatterns = ['at home', 'in the park', 'at the gym', 'at work', 'in my', 'at a', 'near'];
+            for (const pattern of wherePatterns) {
+                if (text.includes(pattern)) {
+                    const whereMatch = sampleText.match(new RegExp(`(${pattern}[^,\.]+)`, 'i'));
+                    if (whereMatch) {
+                        breakdown.where = whereMatch[1].trim();
+                        break;
+                    }
+                }
+            }
+
+            // WHY - look for "because", "as", "since"
+            const whyMatch = sampleText.match(/(?:because|as|since) ([^,\.]+)/i);
+            if (whyMatch) {
+                breakdown.why = whyMatch[1].trim();
+            }
+
+            // HOW - look for feeling words
+            const howMatch = sampleText.match(/(?:feel|makes me feel|feeling) ([^,\.]+)/i);
+            if (howMatch) {
+                breakdown.how = howMatch[1].trim();
+            }
+
+            // WHO - look for people mentions
+            const whoPatterns = ['with friends', 'with family', 'alone', 'with my', 'with colleagues'];
+            for (const pattern of whoPatterns) {
+                if (text.includes(pattern)) {
+                    breakdown.who = pattern;
+                    break;
+                }
+            }
+
+            return breakdown;
+        }
+
+        function renderBreakdown(breakdown) {
+            const grid = document.getElementById('breakdownGrid');
+            grid.innerHTML = '';
+
+            const elements = [
+                { key: 'what', icon: '📌', label: 'WHAT' },
+                { key: 'when', icon: '⏰', label: 'WHEN' },
+                { key: 'where', icon: '📍', label: 'WHERE' },
+                { key: 'who', icon: '👥', label: 'WHO' },
+                { key: 'why', icon: '❓', label: 'WHY' },
+                { key: 'how', icon: '💭', label: 'HOW' }
+            ];
+
+            elements.forEach(elem => {
+                const value = breakdown[elem.key];
+                if (value) {
+                    const div = document.createElement('div');
+                    div.className = 'breakdown-item';
+                    div.innerHTML = `
+                        <span class="breakdown-label">${elem.icon} ${elem.label}:</span>
+                        <span class="breakdown-value">${value}</span>
+                    `;
+                    grid.appendChild(div);
+                }
+            });
+
+            if (grid.children.length === 0) {
+                grid.innerHTML = '<p><em>No 5W1H elements identified</em></p>';
+            }
+        }
+    </script>
+</body>
+</html>
