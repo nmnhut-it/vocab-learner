@@ -169,11 +169,37 @@
                     </div>
                 </div>
 
+                <!-- Answer Template Guide -->
+                <div class="template-guide">
+                    <div class="template-header">
+                        <strong>📐 Answer Template:</strong>
+                        <button class="template-toggle" id="templateToggleBtn" onclick="toggleTemplate()">Show</button>
+                    </div>
+                    <div class="template-content" id="templateContent" style="display: none;">
+                        <p class="template-pattern">
+                            I <span class="template-slot">[WHAT]</span>,
+                            <span class="template-slot">[WHEN]</span>
+                            <span class="template-slot">[WHERE]</span>
+                            <span class="template-slot">[WHO]</span>.
+                            <span class="template-slot">[WHY]</span>,
+                            which makes me feel <span class="template-slot">[HOW]</span>.
+                        </p>
+                        <p class="template-note">
+                            <strong>Example:</strong> I <strong>enjoy listening to jazz music</strong>,
+                            <strong>particularly in the evenings</strong>
+                            <strong>at home</strong>
+                            <strong>alone</strong>.
+                            <strong>Because it helps me relax</strong>,
+                            which makes me feel <strong>calm and peaceful</strong>.
+                        </p>
+                    </div>
+                </div>
+
                 <!-- Real-time Answer Preview -->
                 <div class="answer-preview">
                     <div class="preview-header">
                         <strong>💡 Your Complete Answer:</strong>
-                        <span class="preview-hint">(Auto-generated from your inputs above)</span>
+                        <span class="preview-hint">(Watch it build as you type!)</span>
                     </div>
                     <div class="preview-content" id="generatedAnswer">
                         <em>Start filling in the fields above to see your answer...</em>
@@ -279,8 +305,10 @@
                 onQuestionChange: handleQuestionChange
             });
 
-            // Override renderQuestion to use our custom UI
-            practiceInterface.renderQuestion = renderCurrentQuestion;
+            // Override renderQuestion BEFORE any rendering happens
+            practiceInterface.renderQuestion = function() {
+                renderCurrentQuestion();
+            };
 
             // Initial render
             renderCurrentQuestion();
@@ -339,14 +367,23 @@
                 const breakdown = parse5W1HFromSampleAnswer(sampleAnswer, questionText);
                 renderBreakdown(breakdown);
 
-                document.getElementById('toggleSampleBtn').style.display = 'inline-flex';
+                // Show sample answer card
+                const sampleCard = document.querySelector('.sample-answer-card');
+                if (sampleCard) sampleCard.style.display = 'block';
             } else {
-                document.getElementById('toggleSampleBtn').style.display = 'none';
+                // Hide sample answer card if no sample
+                const sampleCard = document.querySelector('.sample-answer-card');
+                if (sampleCard) sampleCard.style.display = 'none';
             }
 
-            // Reset sample answer display
-            document.getElementById('sampleAnswerBox').style.display = 'none';
-            document.getElementById('toggleSampleBtn').textContent = '💡 Show Sample Answer';
+            // Reset sample answer display and button text
+            const sampleBox = document.getElementById('sampleAnswerBox');
+            const toggleIcon = document.querySelector('.toggle-icon');
+            const toggleText = document.querySelector('.toggle-text');
+
+            if (sampleBox) sampleBox.style.display = 'none';
+            if (toggleIcon) toggleIcon.textContent = '▼';
+            if (toggleText) toggleText.textContent = '💡 Compare with Band 7-7.5 Sample Answer';
 
             // Clear previous answer fields and feedback
             document.getElementById('input-what').value = '';
@@ -404,9 +441,16 @@
 
         function updateProgress() {
             const stats = practiceInterface.getCompletionStats();
-            document.getElementById('progressText').textContent = `${stats.completed}/${stats.total}`;
-            document.getElementById('progressPercent').textContent = stats.percentage;
-            document.getElementById('progressBar').style.width = `${stats.percentage}%`;
+            const progressTextEl = document.getElementById('progressText');
+            const progressBarEl = document.getElementById('progressBar');
+
+            if (progressTextEl) {
+                progressTextEl.textContent = `${stats.completed}/${stats.total}`;
+            }
+
+            if (progressBarEl) {
+                progressBarEl.style.width = `${stats.percentage}%`;
+            }
         }
 
         function toggleSampleAnswer() {
@@ -414,14 +458,16 @@
             const icon = document.querySelector('.toggle-icon');
             const text = document.querySelector('.toggle-text');
 
-            if (box.style.display === 'none') {
+            if (!box) return; // Safety check
+
+            if (box.style.display === 'none' || box.style.display === '') {
                 box.style.display = 'block';
-                icon.textContent = '▲';
-                text.textContent = '🔼 Hide Sample Answer';
+                if (icon) icon.textContent = '▲';
+                if (text) text.textContent = '🔼 Hide Sample Answer';
             } else {
                 box.style.display = 'none';
-                icon.textContent = '▼';
-                text.textContent = '💡 Compare with Band 7-7.5 Sample Answer';
+                if (icon) icon.textContent = '▼';
+                if (text) text.textContent = '💡 Compare with Band 7-7.5 Sample Answer';
             }
         }
 
@@ -435,6 +481,19 @@
             } else {
                 content.style.display = 'none';
                 toggle.textContent = '⚙️ Options (Modes & Filters)';
+            }
+        }
+
+        function toggleTemplate() {
+            const content = document.getElementById('templateContent');
+            const toggle = document.getElementById('templateToggleBtn');
+
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggle.textContent = 'Hide';
+            } else {
+                content.style.display = 'none';
+                toggle.textContent = 'Show';
             }
         }
 
@@ -578,67 +637,104 @@
                 return '';
             }
 
-            // Smart sentence construction
-            let parts = [];
+            // Smart sentence construction - more natural flow
+            let sentence = '';
 
-            // Start with WHAT
+            // 1. Start with "I [WHAT]" (main verb/activity)
             if (what) {
-                parts.push(`I ${what}`);
+                // Check if WHAT already starts with a verb
+                if (what.toLowerCase().startsWith('enjoy') ||
+                    what.toLowerCase().startsWith('like') ||
+                    what.toLowerCase().startsWith('love') ||
+                    what.toLowerCase().startsWith('prefer')) {
+                    sentence = `I ${what}`;
+                } else if (what.toLowerCase().startsWith('really') ||
+                           what.toLowerCase().startsWith('absolutely')) {
+                    sentence = `I ${what}`;
+                } else {
+                    // Add a verb if missing
+                    sentence = `I enjoy ${what}`;
+                }
             }
 
-            // Add WHEN
+            // 2. Add WHEN with proper connector
             if (when) {
-                if (parts.length > 0) {
-                    parts.push(`, ${when}`);
+                // Check if when already has connector words
+                const lowerWhen = when.toLowerCase();
+                if (lowerWhen.startsWith('in ') ||
+                    lowerWhen.startsWith('on ') ||
+                    lowerWhen.startsWith('during ') ||
+                    lowerWhen.startsWith('every ') ||
+                    lowerWhen.startsWith('usually') ||
+                    lowerWhen.startsWith('typically')) {
+                    sentence += `, ${when}`;
                 } else {
-                    parts.push(`${when}`);
+                    sentence += `, usually ${when}`;
                 }
             }
 
-            // Add WHERE
+            // 3. Add WHERE
             if (where) {
-                if (parts.length > 0) {
-                    parts.push(` ${where}`);
+                const lowerWhere = where.toLowerCase();
+                if (lowerWhere.startsWith('at ') ||
+                    lowerWhere.startsWith('in ') ||
+                    lowerWhere.startsWith('near ')) {
+                    sentence += ` ${where}`;
                 } else {
-                    parts.push(`${where}`);
+                    sentence += ` at ${where}`;
                 }
             }
 
-            // Add WHO
+            // 4. Add WHO
             if (who) {
-                if (parts.length > 0) {
-                    parts.push(` ${who}`);
+                const lowerWho = who.toLowerCase();
+                if (lowerWho.startsWith('with ') ||
+                    lowerWho.startsWith('alone') ||
+                    lowerWho.startsWith('by myself')) {
+                    sentence += ` ${who}`;
                 } else {
-                    parts.push(`${who}`);
+                    sentence += ` with ${who}`;
                 }
             }
 
-            // Add WHY (with conjunction)
+            // Close first sentence
+            if (sentence) {
+                sentence += '.';
+            }
+
+            // 5. Add WHY (new sentence or continuation)
             if (why) {
-                if (parts.length > 0) {
-                    parts.push(` ${why}`);
+                const lowerWhy = why.toLowerCase();
+                if (lowerWhy.startsWith('because') ||
+                    lowerWhy.startsWith('since') ||
+                    lowerWhy.startsWith('as ') ||
+                    lowerWhy.startsWith('it ')) {
+                    sentence += ` ${why.charAt(0).toUpperCase() + why.slice(1)}`;
+                } else if (lowerWhy.startsWith('i ')) {
+                    sentence += ` ${why.charAt(0).toUpperCase() + why.slice(1)}`;
                 } else {
-                    parts.push(`${why}`);
+                    sentence += ` I do this because ${why}`;
                 }
             }
 
-            // Add HOW (feelings)
+            // 6. Add HOW (feelings)
             if (how) {
-                if (parts.length > 0) {
-                    parts.push(`, which makes me feel ${how}`);
+                const lowerHow = how.toLowerCase();
+                if (lowerHow.startsWith('it makes') ||
+                    lowerHow.startsWith('which makes') ||
+                    lowerHow.startsWith('i feel')) {
+                    sentence += `, ${how}`;
                 } else {
-                    parts.push(`${how}`);
+                    sentence += `, which makes me feel ${how}`;
                 }
             }
 
-            let answer = parts.join('');
-
-            // Ensure it ends with a period
-            if (answer && !answer.endsWith('.') && !answer.endsWith('!') && !answer.endsWith('?')) {
-                answer += '.';
+            // Ensure proper ending
+            if (sentence && !sentence.endsWith('.') && !sentence.endsWith('!') && !sentence.endsWith('?')) {
+                sentence += '.';
             }
 
-            return answer;
+            return sentence;
         }
 
         function updateElementStats() {

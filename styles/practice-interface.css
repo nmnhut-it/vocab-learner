@@ -910,3 +910,90 @@ body {
 .sample-answer-card .sample-answer-box {
     padding: 25px;
 }
+
+/* Template Guide Styles */
+.template-guide {
+    background: #fff9e6;
+    border: 2px dashed #ffa726;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.template-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.template-header strong {
+    color: #f57c00;
+    font-size: 15px;
+}
+
+.template-toggle {
+    padding: 5px 15px;
+    background: #ffa726;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.template-toggle:hover {
+    background: #fb8c00;
+}
+
+.template-content {
+    animation: slideDown 0.3s ease;
+}
+
+.template-pattern {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #ffa726;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-family: 'Courier New', monospace;
+}
+
+.template-slot {
+    background: #ffe0b2;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #e65100;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.template-note {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #5d4037;
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.template-note strong {
+    color: #f57c00;
+}
+
+@media (max-width: 768px) {
+    .template-pattern {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .template-slot {
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+}
