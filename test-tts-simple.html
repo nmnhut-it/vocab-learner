@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test TTS Simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .log {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 14px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .log-entry {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        .log-success {
+            color: #28a745;
+        }
+        .log-error {
+            color: #dc3545;
+        }
+        .log-info {
+            color: #666;
+        }
+        button {
+            padding: 12px 24px;
+            background: #2c2c2c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #1a1a1a;
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .status {
+            padding: 15px;
+            background: #e8f4f8;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎙️ Simple TTS Test</h1>
+    <p>This tests if your TTS service is working correctly.</p>
+
+    <div class="status" id="status">
+        Status: Initializing...
+    </div>
+
+    <div>
+        <button id="initBtn">1. Initialize TTS</button>
+        <button id="speakBtn" disabled>2. Speak Test Sentence</button>
+        <button id="generateBtn" disabled>3. Generate Audio Blob</button>
+    </div>
+
+    <div class="log" id="log"></div>
+
+    <script src="scripts/ttsService.js"></script>
+    <script>
+        const logDiv = document.getElementById('log');
+        const statusDiv = document.getElementById('status');
+        const initBtn = document.getElementById('initBtn');
+        const speakBtn = document.getElementById('speakBtn');
+        const generateBtn = document.getElementById('generateBtn');
+
+        let ttsService = null;
+
+        function log(message, type = 'info') {
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        function updateStatus(message) {
+            statusDiv.textContent = `Status: ${message}`;
+        }
+
+        // Initialize TTS
+        initBtn.addEventListener('click', async () => {
+            try {
+                initBtn.disabled = true;
+                log('Starting TTS initialization...', 'info');
+                updateStatus('Initializing TTS...');
+
+                ttsService = window.ttsService || new TTSService();
+
+                // Listen to progress
+                ttsService.onProgress((message, progress) => {
+                    log(`Progress: ${message} (${Math.round(progress * 100)}%)`, 'info');
+                    updateStatus(message);
+                });
+
+                const success = await ttsService.initialize();
+
+                if (success) {
+                    log('✓ TTS initialized successfully!', 'success');
+                    updateStatus('Ready!');
+                    speakBtn.disabled = false;
+                    generateBtn.disabled = false;
+                } else {
+                    log('✗ TTS initialization failed', 'error');
+                    updateStatus('Failed');
+                }
+
+            } catch (error) {
+                log(`✗ Error: ${error.message}`, 'error');
+                updateStatus('Error');
+                console.error(error);
+            }
+        });
+
+        // Test speaking
+        speakBtn.addEventListener('click', async () => {
+            try {
+                speakBtn.disabled = true;
+                log('Generating speech...', 'info');
+                updateStatus('Generating speech...');
+
+                const testText = "Hello! This is a test of the text to speech system.";
+
+                await ttsService.speak(testText, {
+                    onStart: () => {
+                        log('Started playing audio', 'success');
+                        updateStatus('Playing audio...');
+                    },
+                    onEnd: () => {
+                        log('✓ Finished playing audio', 'success');
+                        updateStatus('Ready!');
+                        speakBtn.disabled = false;
+                    },
+                    onError: (error) => {
+                        log(`✗ Playback error: ${error.message}`, 'error');
+                        speakBtn.disabled = false;
+                    }
+                });
+
+            } catch (error) {
+                log(`✗ Error: ${error.message}`, 'error');
+                updateStatus('Error');
+                speakBtn.disabled = false;
+                console.error(error);
+            }
+        });
+
+        // Test blob generation
+        generateBtn.addEventListener('click', async () => {
+            try {
+                generateBtn.disabled = true;
+                log('Generating audio blob...', 'info');
+                updateStatus('Generating blob...');
+
+                const testText = "This is a test for blob generation.";
+
+                // Generate audio data directly
+                const output = await ttsService.ttsModel(testText, {
+                    speaker_embeddings: ttsService.speakerEmbeddings
+                });
+
+                log(`✓ Generated audio data: ${output.audio.length} samples`, 'success');
+
+                // Convert to WAV blob
+                const blob = audioDataToWavBlob(output.audio, 16000);
+                log(`✓ Created WAV blob: ${blob.size} bytes`, 'success');
+
+                // Test playback
+                const audioUrl = URL.createObjectURL(blob);
+                const audio = new Audio(audioUrl);
+
+                audio.onplay = () => log('Playing blob audio...', 'info');
+                audio.onended = () => {
+                    log('✓ Blob playback complete!', 'success');
+                    URL.revokeObjectURL(audioUrl);
+                    generateBtn.disabled = false;
+                    updateStatus('Ready!');
+                };
+                audio.onerror = (e) => {
+                    log(`✗ Blob playback error: ${e}`, 'error');
+                    generateBtn.disabled = false;
+                };
+
+                await audio.play();
+
+            } catch (error) {
+                log(`✗ Error: ${error.message}`, 'error');
+                updateStatus('Error');
+                generateBtn.disabled = false;
+                console.error(error);
+            }
+        });
+
+        // Helper function to convert audio data to WAV blob
+        function audioDataToWavBlob(audioData, sampleRate = 16000) {
+            const numChannels = 1;
+            const bitsPerSample = 16;
+            const bytesPerSample = bitsPerSample / 8;
+            const blockAlign = numChannels * bytesPerSample;
+
+            const dataLength = audioData.length * bytesPerSample;
+            const buffer = new ArrayBuffer(44 + dataLength);
+            const view = new DataView(buffer);
+
+            // WAV header
+            writeString(view, 0, 'RIFF');
+            view.setUint32(4, 36 + dataLength, true);
+            writeString(view, 8, 'WAVE');
+            writeString(view, 12, 'fmt ');
+            view.setUint32(16, 16, true);
+            view.setUint16(20, 1, true);
+            view.setUint16(22, numChannels, true);
+            view.setUint32(24, sampleRate, true);
+            view.setUint32(28, sampleRate * blockAlign, true);
+            view.setUint16(32, blockAlign, true);
+            view.setUint16(34, bitsPerSample, true);
+            writeString(view, 36, 'data');
+            view.setUint32(40, dataLength, true);
+
+            let offset = 44;
+            for (let i = 0; i < audioData.length; i++) {
+                const sample = Math.max(-1, Math.min(1, audioData[i]));
+                view.setInt16(offset, sample < 0 ? sample * 0x8000 : sample * 0x7FFF, true);
+                offset += 2;
+            }
+
+            return new Blob([buffer], { type: 'audio/wav' });
+        }
+
+        function writeString(view, offset, string) {
+            for (let i = 0; i < string.length; i++) {
+                view.setUint8(offset + i, string.charCodeAt(i));
+            }
+        }
+
+        log('Page loaded. Click "1. Initialize TTS" to start.', 'info');
+    </script>
+</body>
+</html>
