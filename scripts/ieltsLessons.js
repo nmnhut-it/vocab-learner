@@ -655,6 +655,738 @@ Provide brief, specific feedback:
 - Encourage them to keep practicing
 
 Keep it concise (3-5 sentences max). Use checkmarks ✓ for covered elements.`
+            },
+            {
+                id: 'm2_prep',
+                type: 'audio_lesson',
+                title: 'The PREP Method',
+                audioScript: {
+                    text: `Now let's learn another powerful technique called PREP. It stands for Point, Reason, Example, Point. This is perfect when you want a clear, structured answer. Here's how it works: First, make your POINT - give a direct answer. "Yes, I enjoy reading." Second, give a REASON - why? "Because it helps me relax." Third, add an EXAMPLE - be specific. "For instance, last week I read a mystery novel that kept me engaged for hours." Finally, restate or extend your POINT. "So yes, reading is definitely one of my favorite activities." See how clear and complete that is? PREP works especially well for opinion questions and preference questions. The structure keeps you organized and ensures you give a full answer. Let me show you another example. Question: "Do you prefer studying alone or with others?" POINT: "I generally prefer studying alone." REASON: "Because I can focus better without distractions." EXAMPLE: "For example, when I studied for my last exam at the library by myself, I covered twice as much material as when I studied with classmates." POINT: "So for serious study sessions, alone works best for me." That's PREP in action!`,
+                    duration: 70
+                },
+                content: {
+                    structure: {
+                        p: 'Point - Direct answer to the question',
+                        r: 'Reason - Why you think/feel this way',
+                        e: 'Example - Specific instance or detail',
+                        p2: 'Point - Restate or extend your answer'
+                    },
+                    example: {
+                        question: 'Do you enjoy reading?',
+                        point: 'Yes, I enjoy reading.',
+                        reason: 'Because it helps me relax.',
+                        example: 'For instance, last week I read a mystery novel that kept me engaged for hours.',
+                        pointAgain: 'So yes, reading is definitely one of my favorite activities.'
+                    }
+                }
+            },
+            {
+                id: 'm2_prep_practice',
+                type: 'ai_practice',
+                title: 'PREP Method Practice',
+                instructions: 'Answer using the PREP structure: Point → Reason → Example → Point',
+                practiceQuestions: [
+                    {
+                        question: 'Do you think children should learn to play musical instruments?',
+                        sampleAnswer: 'Yes, I definitely think children should learn musical instruments. The reason is that music education helps develop cognitive skills, creativity, and discipline from an early age. For example, I learned piano as a child, and it taught me patience and the value of regular practice, skills that have helped me in many areas of life. So yes, I believe musical training is valuable for children\'s overall development.',
+                        prep: { point: 'Yes, definitely', reason: 'develops cognitive skills, creativity, discipline', example: 'I learned piano - taught patience and practice', pointAgain: 'valuable for overall development' }
+                    },
+                    {
+                        question: 'Is it better to live in the city or countryside?',
+                        sampleAnswer: 'I think it depends on personal priorities, but for me, city living is better. The reason is that cities offer more career opportunities, entertainment options, and convenient access to services. For instance, in my city, I can reach my office in 20 minutes, and there are countless restaurants, theaters, and cultural events nearby. So overall, while the countryside has its charm, the city provides the lifestyle and opportunities I value most.',
+                        prep: { point: 'City living is better for me', reason: 'more opportunities, entertainment, convenient services', example: '20 min commute, countless options nearby', pointAgain: 'city provides lifestyle I value' }
+                    },
+                    {
+                        question: 'Do you prefer to shop online or in physical stores?',
+                        sampleAnswer: 'I prefer shopping online for most purchases. The reason is that it saves time, offers better price comparisons, and delivers directly to my door. For example, last month I needed a laptop, and I spent an hour comparing prices and reviews online before finding the best deal, which would have been impossible visiting multiple stores. So yes, online shopping is definitely my preferred method for convenience and efficiency.',
+                        prep: { point: 'Prefer online shopping', reason: 'saves time, better comparisons, convenient delivery', example: 'laptop shopping - found best deal in 1 hour online', pointAgain: 'preferred for convenience and efficiency' }
+                    },
+                    {
+                        question: 'Should students wear uniforms at school?',
+                        sampleAnswer: 'Yes, I believe school uniforms are beneficial. The reason is that they promote equality among students and eliminate distractions related to fashion competition. For instance, when I wore a uniform at school, I never worried about what to wear or felt judged based on clothing brands, which helped me focus more on studying. So overall, I think uniforms create a better learning environment.',
+                        prep: { point: 'Uniforms are beneficial', reason: 'promote equality, eliminate fashion distractions', example: 'I never worried about clothing - focused on studying', pointAgain: 'create better learning environment' }
+                    },
+                    {
+                        question: 'Is it important to learn about history?',
+                        sampleAnswer: 'Absolutely, learning history is very important. The reason is that it helps us understand how societies developed and avoid repeating past mistakes. For example, studying historical events like wars and revolutions has taught me about the consequences of political decisions and the importance of diplomacy. So yes, history education is essential for developing informed, thoughtful citizens.',
+                        prep: { point: 'History is very important', reason: 'understand development, avoid past mistakes', example: 'wars/revolutions taught about consequences and diplomacy', pointAgain: 'essential for informed citizens' }
+                    },
+                    {
+                        question: 'Do you think people watch too much TV nowadays?',
+                        sampleAnswer: 'I think many people do watch excessive TV, yes. The reason is that streaming services make it too easy to binge-watch entire series, which can be quite addictive and time-consuming. For instance, I know several friends who spend 4-5 hours every evening watching shows, which leaves little time for exercise, socializing, or other productive activities. So I do believe TV consumption has become excessive for many people.',
+                        prep: { point: 'Many people watch excessive TV', reason: 'streaming makes binge-watching addictive', example: 'friends spend 4-5 hours nightly, no time for other activities', pointAgain: 'TV consumption has become excessive' }
+                    },
+                    {
+                        question: 'Should people save money or spend it on experiences?',
+                        sampleAnswer: 'I think a balance is ideal, but I lean toward spending on experiences. The reason is that experiences create lasting memories and personal growth, while material possessions often lose their appeal quickly. For example, I once spent money on a trip to Japan, and those memories and cultural insights have enriched my life far more than any gadget I\'ve bought. So while saving is important, investing in meaningful experiences is equally valuable.',
+                        prep: { point: 'Lean toward experiences', reason: 'create lasting memories and growth vs temporary appeal', example: 'Japan trip enriched life more than gadgets', pointAgain: 'experiences are equally valuable to savings' }
+                    },
+                    {
+                        question: 'Is it better to have a few close friends or many acquaintances?',
+                        sampleAnswer: 'I believe having a few close friends is better. The reason is that deep friendships provide genuine support, trust, and meaningful connection that superficial relationships cannot match. For instance, when I faced a difficult time last year, it was my two closest friends who truly helped me through it, while my many acquaintances offered only surface-level sympathy. So quality definitely matters more than quantity in friendships.',
+                        prep: { point: 'Few close friends is better', reason: 'provide genuine support and deep connection', example: 'difficult time - close friends truly helped, acquaintances just sympathized', pointAgain: 'quality over quantity in friendships' }
+                    },
+                    {
+                        question: 'Do you think learning a foreign language is important?',
+                        sampleAnswer: 'Yes, I think language learning is extremely important. The reason is that it opens up career opportunities, enables cultural understanding, and enhances cognitive abilities. For example, learning English has allowed me to access international job markets, communicate with people worldwide, and even improved my problem-solving skills according to research. So yes, foreign language proficiency is a valuable asset in today\'s globalized world.',
+                        prep: { point: 'Extremely important', reason: 'career opportunities, cultural understanding, cognitive benefits', example: 'English opened job markets, global communication, better problem-solving', pointAgain: 'valuable in globalized world' }
+                    },
+                    {
+                        question: 'Should companies allow employees to work from home?',
+                        sampleAnswer: 'Yes, I believe companies should offer work-from-home options. The reason is that remote work increases flexibility, reduces commute stress, and often improves productivity for many roles. For instance, during the pandemic, my company switched to remote work, and we actually saw a 15% increase in output while employees reported better work-life balance. So yes, remote work options are beneficial for both companies and employees.',
+                        prep: { point: 'Should offer remote options', reason: 'increases flexibility, reduces stress, improves productivity', example: 'company saw 15% increase + better work-life balance', pointAgain: 'beneficial for both sides' }
+                    },
+                    {
+                        question: 'Is it better to plan vacations in advance or be spontaneous?',
+                        sampleAnswer: 'I think planning in advance is generally better. The reason is that advance planning allows you to secure better prices, ensure availability, and create a more organized itinerary. For example, when I planned a European trip three months ahead, I saved about 40% on flights and hotels compared to last-minute bookings, and I could reserve popular attractions. So while spontaneity has its appeal, planning usually leads to better and more economical trips.',
+                        prep: { point: 'Planning advance is better', reason: 'better prices, ensure availability, organized itinerary', example: 'European trip - saved 40%, secured attractions', pointAgain: 'planning leads to better, economical trips' }
+                    },
+                    {
+                        question: 'Do you think social media has more positive or negative effects?',
+                        sampleAnswer: 'I think social media has mixed effects, but the negatives are concerning. The reason is that while it connects people globally, it also spreads misinformation, creates addiction, and negatively impacts mental health, especially among young users. For instance, studies show increased anxiety and depression rates correlate with heavy social media use among teenagers. So while social media has benefits, I believe we need to be more cautious about its negative psychological impacts.',
+                        prep: { point: 'Mixed but negatives are concerning', reason: 'connects people BUT spreads misinformation, addiction, mental health issues', example: 'studies show anxiety/depression in heavy-user teenagers', pointAgain: 'need caution about psychological impacts' }
+                    },
+                    {
+                        question: 'Should children have smartphones?',
+                        sampleAnswer: 'I think children should have smartphones but with restrictions. The reason is that phones can be educational tools and safety devices, but unrestricted access can lead to addiction and exposure to inappropriate content. For example, giving a child a phone with parental controls and time limits allows them to learn digital skills and stay in contact with parents, while protecting them from harm. So yes, smartphones for children are acceptable with proper supervision.',
+                        prep: { point: 'Yes but with restrictions', reason: 'educational and safety benefits BUT risk of addiction and inappropriate content', example: 'phone with parental controls allows learning + safety while protecting', pointAgain: 'acceptable with proper supervision' }
+                    },
+                    {
+                        question: 'Is it important to eat breakfast every day?',
+                        sampleAnswer: 'Yes, I believe eating breakfast is important. The reason is that it provides energy for the morning, improves concentration, and helps maintain a healthy metabolism. For instance, on days when I skip breakfast, I notice I feel sluggish by mid-morning and tend to overeat at lunch, whereas a good breakfast keeps me energized and focused. So yes, breakfast is definitely an important meal that shouldn\'t be skipped regularly.',
+                        prep: { point: 'Breakfast is important', reason: 'provides energy, improves concentration, healthy metabolism', example: 'skipping makes me sluggish + overeat, eating keeps me energized', pointAgain: 'important meal, shouldn\'t skip' }
+                    },
+                    {
+                        question: 'Do you prefer reading books or watching movies?',
+                        sampleAnswer: 'I prefer reading books to watching movies. The reason is that books engage imagination more deeply, provide richer detail, and allow you to set your own pace. For example, when I read "The Lord of the Rings," I could visualize the world in my own way and take time to appreciate the language, whereas movies condense everything and control the experience. So while I enjoy both, reading offers a more immersive and personal experience.',
+                        prep: { point: 'Prefer reading books', reason: 'engage imagination, richer detail, own pace', example: 'LOTR - visualized my own way, appreciated language vs condensed movies', pointAgain: 'reading offers more immersive experience' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned PREP method: Point → Reason → Example → Point (restate/extend)
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Provide feedback:
+✓ Structure Check: Did they follow PREP? (identify each part)
+📊 Completeness: All 4 elements present?
+💡 Quality: Is the example specific enough?
+🎯 One Improvement: How to enhance their answer
+✨ Band Estimate: [5.5-7.5]
+
+Be encouraging and specific.`
+            },
+            {
+                id: 'm2_past_present',
+                type: 'audio_lesson',
+                title: 'Past vs Present Comparison',
+                audioScript: {
+                    text: `Another excellent way to extend your answers is comparing past and present. This works beautifully for questions about habits, preferences, or changes over time. The structure is simple: talk about how things WERE before, then contrast with how they ARE now, and optionally mention WHY things changed. Let me demonstrate. Question: "Do you enjoy cooking?" Answer: "Actually, my feelings about cooking have changed over time. When I was younger, I found cooking boring and saw it as just a chore. But nowadays, I really enjoy it. I think the change happened when I moved out and had to cook for myself - I started experimenting with different recipes and discovered it's actually quite creative and relaxing. So yes, I definitely enjoy cooking now, though that wasn't always the case." This technique shows sophistication because you're not giving a simple yes/no - you're showing development and reflection. It also naturally creates more content. Another example: "Do you read much?" "I used to read all the time as a child - I'd finish several books a week during school holidays. However, these days I read less frequently, maybe one or two books a month, mainly because work keeps me quite busy. That said, I still value reading and I'm trying to make more time for it." See how natural this sounds?`,
+                    duration: 75
+                }
+            },
+            {
+                id: 'm2_past_present_practice',
+                type: 'ai_practice',
+                title: 'Past vs Present Practice',
+                instructions: 'Answer by comparing BEFORE and NOW. Show how your habits/preferences have changed.',
+                practiceQuestions: [
+                    {
+                        question: 'What kind of music do you listen to?',
+                        sampleAnswer: 'My music taste has really evolved over the years. When I was younger, I was really into pop and dance music - I used to listen to it constantly, especially during high school. But nowadays, I prefer jazz and classical music because I find them more relaxing and sophisticated. I think the change happened as I matured and started appreciating more complex melodies and instrumental arrangements.',
+                        pastPresent: { past: 'pop and dance music constantly in high school', present: 'prefer jazz and classical now', why: 'matured, appreciate complex melodies' }
+                    },
+                    {
+                        question: 'Do you enjoy sports?',
+                        sampleAnswer: 'Actually, my attitude toward sports has changed quite dramatically. In the past, I was never interested in sports - I used to think they were boring and I avoided physical activities. However, these days I really enjoy playing badminton and going for runs. The change came when my doctor recommended exercise for health reasons, and I discovered that sports can actually be fun when you find the right ones.',
+                        pastPresent: { past: 'never interested, thought boring, avoided physical activity', present: 'enjoy badminton and running', why: 'doctor recommendation, discovered can be fun' }
+                    },
+                    {
+                        question: 'How much time do you spend with your family?',
+                        sampleAnswer: 'My family time has decreased over the years, though I try to compensate. When I was a child and teenager, I spent every day with my family since we all lived together. Now that I\'ve moved out for work, I only see them on weekends or special occasions. While I miss the daily interaction, the quality of our time together has actually improved because we make more effort to do meaningful activities when we meet.',
+                        pastPresent: { past: 'every day living together as child', present: 'only weekends/occasions now', why: 'moved out for work, but quality improved' }
+                    },
+                    {
+                        question: 'What do you do in your free time?',
+                        sampleAnswer: 'My free time activities have shifted quite a bit. In the past, I used to spend most of my free time playing video games - sometimes 4-5 hours a day on weekends. These days, I prefer reading books, going to cafés, or exploring new parts of the city. I think I started seeking more enriching activities as I got older and realized video games, while fun, weren\'t adding much value to my life.',
+                        pastPresent: { past: 'video games 4-5 hours daily on weekends', present: 'reading, cafés, exploring city', why: 'sought more enriching activities with age' }
+                    },
+                    {
+                        question: 'Do you like traveling?',
+                        sampleAnswer: 'Yes, though my enthusiasm for travel has grown significantly. When I was younger, I found traveling stressful - the planning, packing, and unfamiliar environments made me anxious. But now I absolutely love it. I think the change happened when I started traveling solo and realized I could go at my own pace. Nowadays, I travel at least twice a year and find it incredibly enriching.',
+                        pastPresent: { past: 'found stressful, anxious about planning and unfamiliar places', present: 'absolutely love it, travel twice yearly', why: 'solo travel taught going at own pace' }
+                    },
+                    {
+                        question: 'What types of TV shows do you watch?',
+                        sampleAnswer: 'My TV preferences have become more serious over time. I used to watch mainly sitcoms and reality shows for light entertainment - things like Friends or cooking competitions. These days, I\'m more drawn to documentaries and political dramas because I want content that\'s both entertaining and educational. I suppose my tastes matured as I wanted to use my leisure time more productively.',
+                        pastPresent: { past: 'sitcoms and reality shows for light entertainment', present: 'documentaries and political dramas', why: 'want entertaining + educational content' }
+                    },
+                    {
+                        question: 'How do you stay in touch with friends?',
+                        sampleAnswer: 'The way I connect with friends has changed dramatically with technology. In the past, we used to meet in person regularly or make phone calls - that was the only way to stay connected. Nowadays, we primarily use messaging apps and social media, with occasional video calls. While I sometimes miss the face-to-face interaction, the convenience of instant messaging means we actually communicate more frequently, even if it\'s briefer.',
+                        pastPresent: { past: 'in-person meetings and phone calls only', present: 'messaging apps, social media, video calls', why: 'technology enables more frequent contact' }
+                    },
+                    {
+                        question: 'What do you usually eat for breakfast?',
+                        sampleAnswer: 'My breakfast habits have become healthier over the years. I used to skip breakfast entirely or just grab sugary cereals when I was a student because I was always rushing. But these days, I make time for a proper breakfast with eggs, fruit, and whole grain toast. The change happened when I learned about nutrition and noticed how much better I feel throughout the day when I eat a balanced morning meal.',
+                        pastPresent: { past: 'skipped or sugary cereals when rushing as student', present: 'proper breakfast: eggs, fruit, whole grain toast', why: 'learned about nutrition, feel better all day' }
+                    },
+                    {
+                        question: 'How often do you use social media?',
+                        sampleAnswer: 'My social media usage has actually decreased significantly. A few years ago, I was constantly on social media - checking Instagram and Facebook every few minutes throughout the day. These days, I limit myself to about 30 minutes in the evening. I made this change after realizing how much time I was wasting and how it was affecting my productivity and mental health. Now I feel much more focused and less anxious.',
+                        pastPresent: { past: 'constantly checking every few minutes all day', present: 'limited to 30 minutes evening only', why: 'realized time waste, affected productivity and mental health' }
+                    },
+                    {
+                        question: 'Do you prefer studying in the morning or evening?',
+                        sampleAnswer: 'Interestingly, my optimal study time has shifted. When I was in high school and university, I was definitely a night owl - I used to study best between 10 PM and 2 AM when everything was quiet. However, now I find I\'m much more productive in the early morning, usually between 6 and 9 AM. I think my body clock has adjusted as I\'ve gotten older and adopted more regular working hours.',
+                        pastPresent: { past: 'night owl, studied 10 PM-2 AM in school/university', present: 'early morning 6-9 AM more productive', why: 'body clock adjusted with age and regular work hours' }
+                    },
+                    {
+                        question: 'What kind of movies do you enjoy?',
+                        sampleAnswer: 'My movie preferences have matured quite a bit. In my teenage years, I used to love action movies and superhero films - the more explosions and special effects, the better. Nowadays, I prefer independent films and foreign cinema that offer deeper storytelling and character development. I think my tastes changed as I started appreciating substance over spectacle, and I wanted films that made me think rather than just entertained me.',
+                        pastPresent: { past: 'action and superhero films with explosions in teens', present: 'independent and foreign films with depth', why: 'appreciate substance over spectacle, want thought-provoking content' }
+                    },
+                    {
+                        question: 'How do you usually spend your weekends?',
+                        sampleAnswer: 'My weekend routine has become much more active. I used to spend weekends mostly at home, sleeping in late and watching TV or browsing the internet. But these days, I try to go out and be productive - visiting museums, hiking, or meeting friends for brunch. The change came when I realized I was wasting my precious free time. Now I feel much more fulfilled by Monday morning.',
+                        pastPresent: { past: 'home, sleeping late, TV and internet', present: 'active: museums, hiking, brunch with friends', why: 'realized wasting free time, feel more fulfilled' }
+                    },
+                    {
+                        question: 'Do you play any video games?',
+                        sampleAnswer: 'My gaming habits have changed completely. When I was younger, I was an avid gamer - I would play competitive online games for hours every day, sometimes even neglecting homework. These days, I rarely play, maybe just casual mobile games during my commute. The change happened when I started working full-time and realized I had other priorities. While I still appreciate games, they\'re no longer central to my life.',
+                        pastPresent: { past: 'avid gamer, competitive online games for hours, neglected homework', present: 'rarely play, just casual mobile games on commute', why: 'full-time work brought other priorities' }
+                    },
+                    {
+                        question: 'What do you like to do after work/school?',
+                        sampleAnswer: 'My after-work routine has evolved significantly. Right after graduating, I used to go straight home and collapse on the couch, too exhausted to do anything. But now I\'ve made exercise a priority - I go to the gym or for a run right after work. This change came from understanding that physical activity actually gives me energy rather than depleting it. I feel much better now than when I was sedentary.',
+                        pastPresent: { past: 'straight home, collapse on couch, too exhausted', present: 'gym or running right after work', why: 'learned exercise gives energy, feel much better' }
+                    },
+                    {
+                        question: 'How often do you go shopping?',
+                        sampleAnswer: 'My shopping frequency has changed quite dramatically. In the past, especially during my university years, I used to go shopping almost every weekend - it was my main hobby and social activity. Nowadays, I shop much less frequently, maybe once a month or only when I really need something. This shift happened as I became more financially conscious and realized I was buying things impulsively. Now I\'m much more intentional with my purchases.',
+                        pastPresent: { past: 'almost every weekend in university, main hobby', present: 'once monthly or only when needed', why: 'became financially conscious, stopped impulsive buying' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned Past vs Present comparison technique.
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Evaluate:
+⏮️ Past: Did they describe how things were before?
+⏭️ Present: Did they describe how things are now?
+🔄 Transition: Smooth comparison?
+📈 Development: Did they explain what changed or why?
+💬 Naturalness: Does it sound conversational?
+🎯 Band Estimate: [5.5-7.5]
+
+Provide specific feedback and one suggestion for improvement.`
+            },
+            {
+                id: 'm2_personal_general',
+                type: 'audio_lesson',
+                title: 'Personal + General Approach',
+                audioScript: {
+                    text: `Here's a sophisticated technique that Band 7 and 8 candidates often use: start with personal experience, then broaden to a general observation. This shows you can think beyond just yourself. The structure: first, answer from YOUR perspective with specific details. Then, add what you've noticed about OTHER people or society in general. Let me show you. Question: "Do people in your country enjoy sports?" Answer: "Well, speaking personally, I'm quite into badminton and I try to play twice a week with friends. As for the broader picture, I'd say sports are quite popular in my country. You can see parks filled with people jogging or playing football on weekends, and major sporting events always draw huge crowds. So yes, there's definitely a strong sports culture here." Notice what I did? Started with "I," then zoomed out to "people in general." This technique is especially useful for questions that ask about "people" or "your country" - don't just give general observations, make it personal first. Another example: "Is reading popular among young people?" "From my own experience, I read regularly and several of my friends do too, especially on their commutes. However, I've noticed that many young people now prefer shorter content like articles or social media posts rather than full books. So I'd say reading is still popular, but the format has changed." This shows balanced, thoughtful consideration.`,
+                    duration: 80
+                }
+            },
+            {
+                id: 'm2_personal_general_practice',
+                type: 'ai_practice',
+                title: 'Personal + General Practice',
+                instructions: 'Start with YOUR experience, then broaden to what you observe about others/society.',
+                practiceQuestions: [
+                    {
+                        question: 'Do people in your country like to travel?',
+                        sampleAnswer: 'Speaking from my own experience, I absolutely love traveling and try to take at least two trips a year to explore new places. As for the broader picture, I\'d say travel is quite popular in my country. You can see this from how packed airports and tourist destinations get during holiday seasons, and travel agencies are everywhere. People seem to value experiencing different cultures and taking breaks from routine.',
+                        personalGeneral: { personal: 'I love traveling, 2 trips yearly', general: 'popular in country - packed destinations, many travel agencies', observation: 'people value culture and breaks' }
+                    },
+                    {
+                        question: 'Is technology important in your country?',
+                        sampleAnswer: 'From my personal perspective, technology is absolutely essential - I use my smartphone, laptop, and various apps throughout the day for work and personal life. When I look at society more broadly, I see that my country has embraced technology rapidly. Almost everyone has a smartphone, digital payments are common even in small shops, and tech startups are flourishing. So yes, technology plays a central role in our daily lives.',
+                        personalGeneral: { personal: 'absolutely essential, use smartphone/laptop/apps daily', general: 'country embraced rapidly - everyone has phones, digital payments everywhere, startups flourishing', observation: 'central role in daily life' }
+                    },
+                    {
+                        question: 'Do young people eat healthy food?',
+                        sampleAnswer: 'Personally, I try to maintain a healthy diet with fruits, vegetables, and whole grains, though I do indulge in junk food occasionally. However, when I observe my peers and younger generation generally, I notice a concerning trend. Many young people rely heavily on fast food and processed snacks due to busy lifestyles and convenience. Though there\'s growing health awareness, I\'d say unhealthy eating is still quite common among youth.',
+                        personalGeneral: { personal: 'I try healthy diet with occasional indulgence', general: 'peers rely on fast food/processed snacks', observation: 'convenience trumps health, though awareness growing' }
+                    },
+                    {
+                        question: 'Are people in your country interested in learning English?',
+                        sampleAnswer: 'For me personally, learning English has been a priority since childhood because I knew it would open up opportunities. Looking at the bigger picture, there\'s definitely strong interest in English across my country. You see English learning centers in every neighborhood, parents enroll children in English classes from a young age, and English proficiency is often required for good jobs. It\'s viewed as a gateway to better careers and global connections.',
+                        personalGeneral: { personal: 'priority since childhood for opportunities', general: 'strong interest nationwide - centers everywhere, early enrollment, job requirement', observation: 'viewed as career and global gateway' }
+                    },
+                    {
+                        question: 'Do people prefer traditional or modern entertainment?',
+                        sampleAnswer: 'Personally, I find myself drawn to both - I enjoy streaming modern shows but also appreciate traditional theater performances occasionally. From what I observe in society, there\'s been a clear shift toward modern entertainment. Most people, especially younger generations, prefer Netflix, YouTube, and online gaming over traditional forms. However, traditional entertainment still has its devoted audience, particularly among older people and during cultural festivals.',
+                        personalGeneral: { personal: 'drawn to both - streaming + occasional traditional theater', general: 'clear shift to modern - Netflix/YouTube/gaming popular, traditional has older devoted audience', observation: 'generational divide in preferences' }
+                    },
+                    {
+                        question: 'Is family important in your culture?',
+                        sampleAnswer: 'From my personal experience, family is extremely important - I stay in close contact with my parents and extended family, and we gather regularly for meals and celebrations. This seems to reflect broader cultural values in my country. Family bonds remain very strong here, with multiple generations often living together or nearby, and major decisions are typically discussed with family members. Family remains the cornerstone of our society.',
+                        personalGeneral: { personal: 'extremely important, close contact, regular gatherings', general: 'strong bonds nationwide - multi-generational living, collective decisions', observation: 'cornerstone of society' }
+                    },
+                    {
+                        question: 'Do people in your city use public transportation?',
+                        sampleAnswer: 'I personally use public transportation daily - taking the subway to work because it\'s faster and cheaper than driving. From what I can see, public transport is quite popular in my city. During rush hours, trains and buses are packed with commuters, and the government continues investing in expanding the network. While some people still prefer cars for convenience, I\'d say the majority rely on public transit.',
+                        personalGeneral: { personal: 'use daily - subway faster and cheaper than driving', general: 'quite popular - packed during rush hour, government investing', observation: 'majority rely on it despite car preference by some' }
+                    },
+                    {
+                        question: 'Are people environmentally conscious?',
+                        sampleAnswer: 'Personally, I try to be environmentally conscious - I recycle, use reusable bags, and minimize plastic usage where possible. When I look at society generally, I see growing but still limited environmental awareness. More people are talking about environmental issues and some are making changes, but many still prioritize convenience over sustainability. Younger people tend to be more eco-conscious than older generations, so I think awareness is gradually improving.',
+                        personalGeneral: { personal: 'I try - recycle, reusable bags, minimize plastic', general: 'growing but limited - more talk than action, convenience prioritized', observation: 'youth more aware, gradually improving' }
+                    },
+                    {
+                        question: 'Do young people save money or spend it?',
+                        sampleAnswer: 'From my own habits, I try to save at least 20% of my income each month while still enjoying life occasionally. Looking at my peers and younger generation broadly, I see a mixed picture. Some young people are quite financially responsible and invest early, but many tend to spend freely on experiences, gadgets, and lifestyle, often living paycheck to paycheck. Economic pressures and consumer culture seem to encourage spending over saving.',
+                        personalGeneral: { personal: 'save 20% monthly while enjoying life', general: 'mixed - some responsible investors, many spend freely paycheck to paycheck', observation: 'economic pressure and consumer culture encourage spending' }
+                    },
+                    {
+                        question: 'Is eating out popular in your country?',
+                        sampleAnswer: 'I personally eat out quite frequently, probably 3-4 times a week, because I enjoy trying different cuisines and socializing over meals. This seems to be a common pattern across my country. Restaurants are always busy, food delivery services are booming, and dining out has become a major social activity. With more dual-income households and busy lifestyles, eating out has become more of a norm than an occasional treat.',
+                        personalGeneral: { personal: 'eat out 3-4 times weekly, enjoy variety and socializing', general: 'common pattern - busy restaurants, booming delivery, major social activity', observation: 'busy lifestyles made it norm vs occasional' }
+                    },
+                    {
+                        question: 'Do people like to read newspapers?',
+                        sampleAnswer: 'Personally, I rarely read physical newspapers anymore - I get all my news from online sources and apps on my phone. This reflects a broader trend I observe in society. Physical newspaper readership has declined significantly, especially among younger people who prefer digital news, social media, and instant updates. Older generations still buy newspapers, but overall, traditional print media is definitely declining.',
+                        personalGeneral: { personal: 'rarely physical papers, all news from online/apps', general: 'significant decline especially in youth, prefer digital/social media', observation: 'older still buy, but print declining overall' }
+                    },
+                    {
+                        question: 'Are people interested in fashion?',
+                        sampleAnswer: 'For me, I have moderate interest in fashion - I like to dress well but don\'t follow every trend obsessively. When I look around, fashion seems quite important in my society, particularly in urban areas. Social media has amplified this interest, with fashion influencers having huge followings. Shopping malls are always crowded, and people pay attention to brands and style. I\'d say fashion consciousness is definitely high, especially among young people.',
+                        personalGeneral: { personal: 'moderate interest, dress well without obsessing', general: 'quite important in cities, social media amplified, influencers popular', observation: 'malls crowded, high consciousness especially in youth' }
+                    },
+                    {
+                        question: 'Do people in your country work long hours?',
+                        sampleAnswer: 'From my experience, I typically work 9-10 hours a day including commute, which I find quite exhausting. Unfortunately, this seems to be the norm rather than exception in my country. Long working hours are common, with many people working late into the evening or even weekends. Work-life balance is often sacrificed for career advancement. While there\'s growing discussion about reducing hours, the culture of overwork remains deeply ingrained.',
+                        personalGeneral: { personal: '9-10 hours daily with commute, quite exhausting', general: 'norm in country - late evenings, weekends common, work-life balance sacrificed', observation: 'growing discussion but overwork culture ingrained' }
+                    },
+                    {
+                        question: 'Is exercise popular among young people?',
+                        sampleAnswer: 'I personally make exercise a priority, going to the gym three times a week and running on weekends. When I observe young people generally, I see increasing interest in fitness. Gyms are proliferating, fitness apps are popular, and social media is full of workout content. However, I\'d say it\'s more of a trend among some groups rather than universal - many young people still lead sedentary lifestyles due to work and study pressures.',
+                        personalGeneral: { personal: 'priority for me - gym 3x weekly, weekend runs', general: 'increasing interest - gyms proliferating, apps popular, social media content', observation: 'trend among some, but many still sedentary due to pressures' }
+                    },
+                    {
+                        question: 'Do people prefer shopping online or in stores?',
+                        sampleAnswer: 'I personally do about 80% of my shopping online because it saves time and offers better variety and prices. From what I observe in society, online shopping has grown dramatically, especially after the pandemic. E-commerce platforms are thriving, and delivery services are everywhere. However, physical stores still have their place, particularly for items people want to see or try first, like clothes and furniture. I\'d say the trend is definitely shifting toward online.',
+                        personalGeneral: { personal: '80% online for time, variety, and prices', general: 'dramatic growth post-pandemic, e-commerce thriving, delivery everywhere', observation: 'physical stores for try-first items, but shifting online' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned Personal + General approach.
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Check:
+👤 Personal: Did they share their own experience first?
+🌍 General: Did they broaden to wider observation?
+🔗 Connection: Smooth transition between personal and general?
+📊 Balance: Good mix of both perspectives?
+🎓 Sophistication: Shows thoughtful consideration?
+🎯 Band Estimate: [6.0-8.0]
+
+Provide constructive feedback with one enhancement suggestion.`
+            },
+            {
+                id: 'm2_contrast',
+                type: 'audio_lesson',
+                title: 'The Contrast Technique',
+                audioScript: {
+                    text: `The contrast technique is brilliant for creating interesting, extended answers. You compare two things to highlight differences. Common contrasts include: yourself versus others, weekdays versus weekends, past versus present, different situations, or different preferences. Let me demonstrate. Question: "How do you spend your free time?" Answer: "It really depends on the day. On weekdays, I tend to stay home and do quiet activities like reading or watching series because I'm usually tired from work. But on weekends, I'm much more active - I meet friends, go to cafés, or explore new places in the city. So my free time activities vary quite a bit depending on how much energy I have." See the contrast? Weekdays versus weekends. Another example: "Do you like cooking?" Answer: "Unlike many of my friends who see cooking as a chore, I actually find it quite enjoyable. While they prefer ordering takeout or eating at restaurants, I like experimenting with recipes at home. I think it's more about personal preference and how much time you have." This compares yourself to others. The word "unlike," "while," "whereas," "but," and "however" are your friends here. They signal contrast. One more: "Do you prefer studying alone or with others?" "For routine studying, I prefer working alone because I can focus better. However, when preparing for exams or working on difficult topics, I find group study more helpful because we can discuss different perspectives. So it really depends on the situation." Situation-based contrast. This technique makes your answers more nuanced and interesting.`,
+                    duration: 85
+                }
+            },
+            {
+                id: 'm2_contrast_practice',
+                type: 'ai_practice',
+                title: 'Contrast Technique Practice',
+                instructions: 'Use contrast in your answer: yourself vs others, weekdays vs weekends, different situations, etc.',
+                practiceQuestions: [
+                    {
+                        question: 'What do you like to do on weekends?',
+                        sampleAnswer: 'It really depends on how I\'m feeling. On some weekends, when I need to recharge, I prefer staying home and doing quiet activities like reading or watching movies. But on other weekends, when I\'m feeling more energetic, I like to go out and explore - visiting new restaurants, hiking, or meeting friends. So my weekend activities vary quite a bit depending on my energy levels.',
+                        contrast: { type: 'situation-based', sideA: 'quiet weekends at home reading/movies', sideB: 'active weekends out exploring/hiking/friends', marker: 'but on other weekends' }
+                    },
+                    {
+                        question: 'How do you prefer to communicate with friends?',
+                        sampleAnswer: 'Unlike many people my age who rely heavily on texting, I actually prefer voice or video calls for meaningful conversations. While quick messages are fine for simple updates, I find that hearing someone\'s voice creates a much deeper connection. However, I do understand that texts are more convenient, so I use both depending on the situation.',
+                        contrast: { type: 'self vs others', sideA: 'others rely on texting', sideB: 'I prefer voice/video for depth', marker: 'unlike, while, however' }
+                    },
+                    {
+                        question: 'Do you like shopping?',
+                        sampleAnswer: 'My feelings about shopping depend entirely on what I\'m buying. For everyday items like groceries, I find shopping quite tedious and I just want to get it done quickly. But when I\'m shopping for something special like gifts or tech gadgets, I actually enjoy the research and selection process. So I can\'t say I universally like or dislike shopping - it varies.',
+                        contrast: { type: 'different items', sideA: 'everyday groceries tedious, get done quickly', sideB: 'special items/gifts enjoy research process', marker: 'but when, so I can\'t say universally' }
+                    },
+                    {
+                        question: 'What kind of movies do you enjoy?',
+                        sampleAnswer: 'My movie preferences are quite mood-dependent. When I want to unwind after a stressful week, I go for lighthearted comedies that don\'t require much thinking. However, when I\'m in a more contemplative mood, I prefer thought-provoking dramas or documentaries that challenge my perspective. So I don\'t stick to just one genre.',
+                        contrast: { type: 'mood-based', sideA: 'stressful times = lighthearted comedies', sideB: 'contemplative mood = dramas/documentaries', marker: 'however, when' }
+                    },
+                    {
+                        question: 'How do you usually travel around the city?',
+                        sampleAnswer: 'During the work week, I always take the subway because it\'s faster and more predictable than driving in rush hour traffic. But on weekends, I prefer to drive my car since parking is easier and I have more flexibility with my schedule. So my transportation choice really depends on whether it\'s a weekday or weekend.',
+                        contrast: { type: 'weekday vs weekend', sideA: 'weekday subway for speed in rush hour', sideB: 'weekend car for parking and flexibility', marker: 'but on weekends' }
+                    },
+                    {
+                        question: 'Do you prefer hot or cold weather?',
+                        sampleAnswer: 'Whereas many people love hot summer weather for swimming and outdoor activities, I actually prefer cooler temperatures. Hot weather makes me feel lethargic and uncomfortable, while cool weather energizes me and makes me feel more productive. I suppose everyone has their ideal temperature range, and mine is definitely on the cooler side.',
+                        contrast: { type: 'self vs others + temperature', sideA: 'others love hot weather for activities', sideB: 'I prefer cool weather, feels energizing vs lethargic', marker: 'whereas, while' }
+                    },
+                    {
+                        question: 'What time of day do you prefer to study?',
+                        sampleAnswer: 'For routine studying and review, I work best in the morning when my mind is fresh and there are fewer distractions. However, for creative tasks or essay writing, I find the evening more productive because I feel more relaxed and ideas flow more naturally. So my ideal study time really depends on the type of work I\'m doing.',
+                        contrast: { type: 'task-based', sideA: 'routine study = morning, fresh mind', sideB: 'creative tasks = evening, relaxed and flowing', marker: 'however, for' }
+                    },
+                    {
+                        question: 'Do you like eating at home or at restaurants?',
+                        sampleAnswer: 'During busy weekdays, I prefer eating at home because it\'s healthier, cheaper, and I can control what goes into my food. But on weekends or special occasions, I really enjoy going to restaurants because it\'s a social experience and a chance to try dishes I wouldn\'t cook myself. So both have their place in my life.',
+                        contrast: { type: 'weekday vs special occasions', sideA: 'weekdays home for health/cost/control', sideB: 'weekends/special restaurants for social/variety', marker: 'but on, so both' }
+                    },
+                    {
+                        question: 'How do you stay informed about news?',
+                        sampleAnswer: 'For breaking news and quick updates, I rely on news apps and social media because they deliver information instantly. However, for in-depth analysis and understanding complex issues, I prefer reading long-form articles or watching documentaries. So I use different sources depending on whether I need quick facts or deep understanding.',
+                        contrast: { type: 'purpose-based', sideA: 'breaking news = apps/social media for speed', sideB: 'deep understanding = long-form/documentaries', marker: 'however, for' }
+                    },
+                    {
+                        question: 'Do you prefer indoor or outdoor activities?',
+                        sampleAnswer: 'In good weather, I definitely prefer being outdoors - hiking, cycling, or even just reading in a park. But when it\'s rainy or extremely hot, I\'m quite happy to stay indoors with activities like cooking, gaming, or watching movies. So my preference really changes with the weather conditions.',
+                        contrast: { type: 'weather-based', sideA: 'good weather = outdoor hiking/cycling/park', sideB: 'bad weather = indoor cooking/gaming/movies', marker: 'but when, so my preference' }
+                    },
+                    {
+                        question: 'What type of music do you listen to?',
+                        sampleAnswer: 'While I\'m working or studying, I listen to instrumental music or lo-fi beats because lyrics distract me from concentrating. But in my free time, I enjoy vocal music across various genres - pop, rock, jazz - because I can fully appreciate the lyrics and melodies. So my music choice is very context-dependent.',
+                        contrast: { type: 'context-based', sideA: 'work/study = instrumental/lo-fi, no distraction', sideB: 'free time = vocal music, appreciate lyrics', marker: 'while, but in' }
+                    },
+                    {
+                        question: 'Do you like visiting museums?',
+                        sampleAnswer: 'My interest varies by museum type. Art museums can sometimes feel tedious to me because I don\'t always connect with visual art emotionally. In contrast, I find science and history museums fascinating because they tell stories and explain how things work. So yes, I like museums, but it depends on the subject matter.',
+                        contrast: { type: 'museum type', sideA: 'art museums sometimes tedious, don\'t connect', sideB: 'science/history fascinating, tell stories', marker: 'in contrast, but it depends' }
+                    },
+                    {
+                        question: 'How do you celebrate special occasions?',
+                        sampleAnswer: 'For family-oriented occasions like birthdays or anniversaries, I prefer intimate gatherings at home or restaurants with close relatives. However, for achievements like graduations or promotions, I like to celebrate with larger groups of friends in more lively settings. So the way I celebrate really depends on the nature of the occasion.',
+                        contrast: { type: 'occasion type', sideA: 'family occasions = intimate home/restaurant', sideB: 'achievements = large groups, lively settings', marker: 'however, for' }
+                    },
+                    {
+                        question: 'Do you prefer watching sports or playing them?',
+                        sampleAnswer: 'Unlike my brother who loves watching sports on TV for hours, I much prefer actually playing sports myself. Watching feels passive to me, whereas playing gives me exercise, social interaction, and a real sense of achievement. That said, I do occasionally watch major events like the Olympics, but active participation is definitely my preference.',
+                        contrast: { type: 'self vs others + activity type', sideA: 'brother loves watching TV for hours', sideB: 'I prefer playing for exercise/social/achievement', marker: 'unlike, whereas, but' }
+                    },
+                    {
+                        question: 'What do you do to relax?',
+                        sampleAnswer: 'After mentally exhausting days at work, I relax through physical activities like going for a run or doing yoga because they help me disconnect from mental stress. But after physically tiring days, I prefer passive relaxation like watching series or listening to music. So my relaxation method depends on what type of fatigue I\'m experiencing.',
+                        contrast: { type: 'fatigue type', sideA: 'mental exhaustion = physical activities to disconnect', sideB: 'physical tiredness = passive watching/listening', marker: 'but after, so my method depends' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned the Contrast Technique.
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Analyze:
+⚖️ Contrast Used: What are they comparing?
+🔤 Signal Words: Did they use contrast markers (unlike, while, whereas, but, however)?
+📐 Balance: Are both sides explained clearly?
+✨ Natural Flow: Does the contrast enhance the answer?
+🎯 Band Estimate: [6.0-7.5]
+
+Give specific feedback and show how to strengthen the contrast.`
+            },
+            {
+                id: 'm2_feelings',
+                type: 'audio_lesson',
+                title: 'Feelings + Reasons Method',
+                audioScript: {
+                    text: `Many students forget the emotional aspect of answers, but expressing feelings makes your responses more engaging and natural. The Feelings plus Reasons method is simple: say how something makes you FEEL, then explain WHY it creates that feeling. This works especially well for questions about preferences and experiences. Let me demonstrate. Question: "Do you enjoy traveling?" Answer: "Yes, absolutely! Traveling makes me feel excited and curious about the world. I think it's because every new place offers different experiences and perspectives. When I visit somewhere new, I feel energized by trying local food, meeting people, and seeing different ways of life. It's that sense of discovery that I find so thrilling." Notice how feelings are central here - excited, curious, energized, thrilling. Another example: "What's your favorite time of year?" Answer: "I really love autumn because it makes me feel peaceful and reflective. There's something calming about the cooler weather and the changing colors of the leaves. I feel more comfortable doing outdoor activities when it's not too hot or too cold, and I enjoy that cozy feeling of wearing sweaters and drinking warm beverages. The whole season just puts me in a good mood." Key feelings vocabulary: excited, calm, energized, relaxed, motivated, inspired, happy, comfortable, stressed, overwhelmed. Use these naturally and always connect them to specific reasons. Don't just say "It makes me happy" - explain WHY it makes you happy. "It makes me happy because I feel accomplished when I finish a good book" - see the difference?`,
+                    duration: 80
+                }
+            },
+            {
+                id: 'm2_feelings_practice',
+                type: 'ai_practice',
+                title: 'Feelings + Reasons Practice',
+                instructions: 'Focus on expressing HOW things make you feel and explain WHY they create those feelings.',
+                practiceQuestions: [
+                    {
+                        question: 'How do you feel about learning English?',
+                        sampleAnswer: 'Learning English makes me feel both excited and challenged at the same time. I feel excited because I know it opens up so many opportunities for my career and allows me to connect with people worldwide. However, it can also feel overwhelming sometimes because there\'s always so much more to learn - new vocabulary, expressions, and cultural nuances. Overall though, the sense of progress I feel when I understand something new is incredibly rewarding.',
+                        feelings: { emotions: 'excited, challenged, overwhelmed, rewarding', reasons: 'career opportunities, global connections; but endless learning; progress feels rewarding' }
+                    },
+                    {
+                        question: 'What makes you feel relaxed?',
+                        sampleAnswer: 'Reading before bed always makes me feel calm and peaceful. I think it\'s because when I\'m absorbed in a good story, I completely forget about my daily worries and stress from work. The quiet ritual of sitting with a book in my comfortable chair creates this soothing atmosphere that helps my mind unwind. By the time I\'m ready to sleep, I feel completely relaxed and my racing thoughts have settled.',
+                        feelings: { emotions: 'calm, peaceful, soothed, relaxed', reasons: 'absorbed in story, forget worries; quiet ritual creates atmosphere; mind unwinds, thoughts settle' }
+                    },
+                    {
+                        question: 'How does music affect your mood?',
+                        sampleAnswer: 'Music has a powerful effect on how I feel throughout the day. Upbeat pop music in the morning makes me feel energized and motivated to start my day productively. When I\'m stressed, classical or jazz music helps me feel more centered and calm because the smooth melodies seem to slow down my racing thoughts. Even when I\'m feeling sad, the right music can make me feel understood and less alone, which is strangely comforting.',
+                        feelings: { emotions: 'energized, motivated, centered, calm, understood, comforted', reasons: 'upbeat morning boosts energy; smooth melodies slow racing thoughts; sad music creates understanding connection' }
+                    },
+                    {
+                        question: 'What activity makes you feel most energized?',
+                        sampleAnswer: 'Going for a run early in the morning makes me feel incredibly energized and alive. I think it\'s because the physical movement gets my blood pumping and releases endorphins, which naturally boost my mood. There\'s also something refreshing about being outside in the cool morning air while the city is just waking up. After my run, I feel ready to tackle anything the day throws at me, and that confidence is really empowering.',
+                        feelings: { emotions: 'energized, alive, refreshed, confident, empowered', reasons: 'blood pumping + endorphins boost mood; cool morning air refreshing; ready to tackle challenges' }
+                    },
+                    {
+                        question: 'How do you feel about your daily routine?',
+                        sampleAnswer: 'I have mixed feelings about my daily routine. On one hand, it makes me feel secure and organized because I know what to expect each day and can plan accordingly. However, sometimes it makes me feel a bit trapped or monotonous, especially when every day feels exactly the same. I think what I need is some variety to break the pattern, which would help me feel more spontaneous and excited about life.',
+                        feelings: { emotions: 'secure, organized, trapped, monotonous, need for spontaneity and excitement', reasons: 'predictability gives security; but sameness feels trapping; variety would create excitement' }
+                    },
+                    {
+                        question: 'What type of weather makes you feel good?',
+                        sampleAnswer: 'Cool, sunny weather with a light breeze always makes me feel happy and optimistic. I think it\'s because this kind of weather is perfect for being active outdoors - not too hot to be uncomfortable, but bright enough to lift my spirits. The sunshine specifically makes me feel more cheerful and energetic, probably because of the vitamin D and natural light. Rainy or grey days, in contrast, tend to make me feel sluggish and unmotivated.',
+                        feelings: { emotions: 'happy, optimistic, cheerful, energetic; vs sluggish, unmotivated', reasons: 'perfect for outdoor activity; sunshine lifts spirits; vitamin D + natural light boost mood; grey dampens motivation' }
+                    },
+                    {
+                        question: 'How does spending time in nature affect you?',
+                        sampleAnswer: 'Being in nature makes me feel incredibly peaceful and grounded. I think it\'s because natural environments provide a break from the constant noise and stimulation of city life, allowing my mind to truly rest. When I\'m hiking in the forest or sitting by a lake, I feel connected to something bigger than my daily concerns, which puts things in perspective. It\'s almost meditative and always leaves me feeling refreshed and mentally clearer.',
+                        feelings: { emotions: 'peaceful, grounded, connected, refreshed, mentally clear', reasons: 'break from city noise allows mind to rest; connection to bigger picture; meditative quality clears mind' }
+                    },
+                    {
+                        question: 'What makes you feel stressed?',
+                        sampleAnswer: 'Tight deadlines at work always make me feel anxious and overwhelmed. I think it\'s because I\'m naturally a perfectionist, so when I don\'t have enough time to do something properly, I feel frustrated and pressured. The constant worry about not meeting expectations or disappointing people creates this heavy tension in my chest. Even though I usually manage to complete tasks on time, the stress during the process makes me feel emotionally drained.',
+                        feelings: { emotions: 'anxious, overwhelmed, frustrated, pressured, tense, drained', reasons: 'perfectionist needs time for quality; worry about expectations; constant pressure emotionally exhausting' }
+                    },
+                    {
+                        question: 'How do you feel about meeting new people?',
+                        sampleAnswer: 'Meeting new people makes me feel both excited and nervous at the same time. I feel excited because I enjoy learning about different perspectives and potentially forming new friendships, which makes life more interesting. However, I also feel a bit nervous initially because I\'m not sure how the interaction will go or if we\'ll connect well. Once the conversation starts flowing though, I usually feel more comfortable and the nervousness fades into genuine interest.',
+                        feelings: { emotions: 'excited, nervous, interested, comfortable', reasons: 'enjoy new perspectives and friendships; but uncertain about connection; flowing conversation builds comfort' }
+                    },
+                    {
+                        question: 'What hobby makes you feel most satisfied?',
+                        sampleAnswer: 'Photography makes me feel incredibly satisfied and accomplished. I think it\'s because when I capture a beautiful moment or composition, there\'s this sense of having created something meaningful that will last. The process of improving my skills over time makes me feel proud of my progress, and when others appreciate my photos, it validates my effort. It\'s one of the few activities that leaves me feeling both creatively fulfilled and technically challenged.',
+                        feelings: { emotions: 'satisfied, accomplished, proud, validated, creatively fulfilled, challenged', reasons: 'creating lasting meaningful moments; visible skill progress; others\' appreciation validates effort; creative + technical balance' }
+                    },
+                    {
+                        question: 'How does exercise make you feel?',
+                        sampleAnswer: 'Exercise always makes me feel better, both physically and mentally. During the workout, I initially feel challenged and sometimes uncomfortable, but there\'s also a sense of determination and strength building. Afterward, I feel accomplished and proud for pushing through, and the endorphin release creates this natural high that makes me feel happy and energized. Even on days I don\'t want to exercise, I never regret it because I always feel more positive and confident afterward.',
+                        feelings: { emotions: 'challenged, uncomfortable, determined, strong, accomplished, proud, happy, energized, positive, confident', reasons: 'pushing limits builds strength; completion brings pride; endorphins create natural high; boosts overall mood and confidence' }
+                    },
+                    {
+                        question: 'What type of food makes you feel happy?',
+                        sampleAnswer: 'Comfort foods like pasta or homemade soup make me feel warm and happy inside. I think it\'s because these foods are associated with positive memories from childhood when my family would gather for meals. The familiar tastes and aromas create a sense of nostalgia that feels comforting and secure. Even when I\'m feeling down, a bowl of my favorite pasta makes me feel cared for and content, almost like a warm hug.',
+                        feelings: { emotions: 'warm, happy, nostalgic, comforting, secure, cared for, content', reasons: 'childhood family memories; familiar tastes/aromas; creates sense of being cared for like warm hug' }
+                    },
+                    {
+                        question: 'How do you feel about working in teams?',
+                        sampleAnswer: 'Working in teams makes me feel energized but sometimes frustrated. I feel energized because bouncing ideas off others sparks creativity and we can achieve more together than individually. The collaborative energy and shared goals create a sense of camaraderie that I find motivating. However, I can feel frustrated when team members don\'t pull their weight or when decision-making takes too long due to conflicting opinions. Overall though, when teams work well, I feel inspired and more productive.',
+                        feelings: { emotions: 'energized, frustrated, creative, motivated, inspired, productive', reasons: 'collaboration sparks creativity and achievement; camaraderie motivates; but unequal effort frustrates; slow decisions due to conflicts; good teams inspire' }
+                    },
+                    {
+                        question: 'What makes you feel proud of yourself?',
+                        sampleAnswer: 'Overcoming challenges makes me feel most proud of myself. I think it\'s because when I push through difficult situations - whether it\'s a tough project at work or a personal goal - I prove to myself that I\'m capable and resilient. The sense of achievement when I succeed after struggling makes me feel strong and confident in my abilities. It also gives me courage to tackle future challenges because I know I have the determination to overcome obstacles.',
+                        feelings: { emotions: 'proud, capable, resilient, strong, confident, courageous, determined', reasons: 'proving capability through struggle; achievement after difficulty; builds confidence; gives courage for future challenges' }
+                    },
+                    {
+                        question: 'How does your home environment affect your mood?',
+                        sampleAnswer: 'My home environment has a huge impact on how I feel. When my space is clean and organized, I feel calm, focused, and in control of my life. The orderliness creates a sense of peace that helps me think clearly and feel less stressed. However, when things are messy or cluttered, I feel anxious and overwhelmed because the physical chaos seems to mirror mental chaos. That\'s why I always try to maintain a tidy space - it directly affects my emotional well-being.',
+                        feelings: { emotions: 'calm, focused, in control, peaceful, clear-minded; vs anxious, overwhelmed', reasons: 'clean/organized creates peace and control; helps thinking clarity; mess mirrors mental chaos; direct link to emotional well-being' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned Feelings + Reasons method.
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Evaluate:
+💙 Feelings Expressed: What emotions did they mention?
+🔍 Reasons Given: Did they explain WHY those feelings occur?
+🎭 Authenticity: Does it sound genuine and personal?
+📚 Vocabulary: Appropriate feelings words used?
+🎯 Band Estimate: [5.5-7.5]
+
+Provide feedback with suggestions for more emotional vocabulary if needed.`
+            },
+            {
+                id: 'm2_frequency',
+                type: 'audio_lesson',
+                title: 'Frequency + Details Method',
+                audioScript: {
+                    text: `The Frequency plus Details method is perfect for extending answers about activities and habits. Instead of just saying "yes" or "no," you specify HOW OFTEN and add SPECIFIC CIRCUMSTANCES or variations. This creates natural, extended responses. Here's the pattern: state the frequency, then add details about different scenarios or exceptions. Let me show you. Question: "Do you exercise?" Answer: "Yes, I exercise regularly - usually about three times a week. I typically go jogging on Monday and Wednesday mornings before work, and then I do yoga at home on Saturday afternoons. Occasionally, if I'm particularly busy, I might skip a session, but I try to maintain that routine because it helps me feel energized throughout the week." See what I did? Frequency words: regularly, usually, typically, occasionally. Then specific details: what days, what times, what types of exercise. Another example: "Do you eat out much?" Answer: "I eat out fairly often, probably two or three times a week. During the work week, I sometimes grab lunch at cafés near my office, especially on busy days when I don't have time to prepare food. On weekends, I usually go to restaurants with friends or family for dinner. But I do cook at home most evenings because it's healthier and more economical." Notice the variations: weekdays versus weekends, lunch versus dinner, with friends versus alone. Key frequency expressions: always, usually, often, regularly, sometimes, occasionally, rarely, seldom, never, every day, twice a week, from time to time, once in a while. Use these to show patterns and variations in your habits.`,
+                    duration: 85
+                }
+            },
+            {
+                id: 'm2_frequency_practice',
+                type: 'ai_practice',
+                title: 'Frequency + Details Practice',
+                instructions: 'State HOW OFTEN you do something, then add specific details and variations.',
+                practiceQuestions: [
+                    {
+                        question: 'How often do you use your phone?',
+                        sampleAnswer: 'I use my phone constantly throughout the day - probably checking it every 10-15 minutes on average. During work hours, I mainly use it for professional communication like emails and messaging colleagues. In the evenings, my usage shifts to social media and entertainment. On weekends, I try to reduce my phone time and only check it occasionally, maybe once every hour or two, because I want to be more present with family and friends.',
+                        frequency: { main: 'constantly, every 10-15 minutes', variations: 'work hours = emails/messaging; evenings = social media/entertainment; weekends = occasionally, once per hour to be present' }
+                    },
+                    {
+                        question: 'Do you watch TV regularly?',
+                        sampleAnswer: 'Yes, I watch TV quite regularly - about 1-2 hours each evening after dinner. On weekdays, I usually stick to one or two episodes of a series because I have limited time before bed. However, on weekends, I sometimes binge-watch shows for 3-4 hours, especially if it\'s a new season of something I\'ve been waiting for. Occasionally, during busy work weeks, I might skip TV entirely for a few days.',
+                        frequency: { main: 'regularly, 1-2 hours nightly', variations: 'weekdays = 1-2 episodes only; weekends = 3-4 hour binges; busy weeks = skip entirely' }
+                    },
+                    {
+                        question: 'How often do you go shopping?',
+                        sampleAnswer: 'I go grocery shopping once a week, typically on Saturday mornings when stores are less crowded. For clothes and other items, I shop much less frequently - maybe once every 2-3 months or only when I need something specific. Online shopping is more frequent though, probably 2-3 times a month for various items. During sale seasons, I admit I shop more often, sometimes weekly, to catch good deals.',
+                        frequency: { main: 'groceries weekly; clothes every 2-3 months; online 2-3 times monthly', variations: 'Saturday mornings for groceries; only when needed for clothes; sale seasons = weekly for deals' }
+                    },
+                    {
+                        question: 'Do you read books often?',
+                        sampleAnswer: 'I read daily, usually for about 30-45 minutes before bed. During the week, I stick to lighter fiction that\'s easy to follow when I\'m tired. On weekends, I sometimes read for longer stretches, up to 2 hours at a time, especially if the book is really engaging. During holidays, my reading increases significantly - I can finish a book every 2-3 days when I have free time.',
+                        frequency: { main: 'daily 30-45 minutes before bed', variations: 'weekdays = light fiction; weekends = up to 2 hours if engaging; holidays = book every 2-3 days' }
+                    },
+                    {
+                        question: 'How frequently do you see your friends?',
+                        sampleAnswer: 'I see my close friends about 2-3 times a month, usually on weekends for dinner or coffee. With work colleagues, we occasionally grab lunch together once or twice a week. During busy periods like exam seasons or project deadlines, I might not see friends for 2-3 weeks. However, we stay in touch daily through messaging even when we can\'t meet in person.',
+                        frequency: { main: 'close friends 2-3 times monthly; colleagues 1-2 times weekly', variations: 'weekends for dinner/coffee; busy periods = 2-3 weeks gap; daily messaging regardless' }
+                    },
+                    {
+                        question: 'Do you use social media much?',
+                        sampleAnswer: 'I use social media moderately - about 30-60 minutes total per day, spread throughout the day. In the morning, I spend 10-15 minutes scrolling through updates while having coffee. During lunch breaks, I check for about 15-20 minutes. In the evening, I might spend 20-30 minutes catching up on posts and stories. I deliberately avoid social media after 9 PM to maintain better sleep.',
+                        frequency: { main: '30-60 minutes daily, spread out', variations: 'morning 10-15 min with coffee; lunch 15-20 min; evening 20-30 min; after 9 PM = avoid for sleep' }
+                    },
+                    {
+                        question: 'How often do you travel?',
+                        sampleAnswer: 'I take major trips about 2-3 times a year, usually during holiday seasons and my annual leave. For weekend getaways to nearby cities, I travel more frequently, roughly once every 2 months. Business trips happen occasionally, maybe 3-4 times a year depending on work requirements. During summer, my travel frequency peaks - I might take 2-3 trips in just that season.',
+                        frequency: { main: 'major trips 2-3 times yearly; weekend getaways every 2 months', variations: 'holidays and annual leave; business 3-4 times yearly; summer peak = 2-3 trips in season' }
+                    },
+                    {
+                        question: 'Do you cook regularly?',
+                        sampleAnswer: 'Yes, I cook almost every day - typically 5-6 days a week for dinner. On weeknights, I prepare simple meals like stir-fries or pasta that take 20-30 minutes. Weekends are when I cook more elaborate dishes and might spend 1-2 hours trying new recipes. On particularly busy or exhausting days, I order takeout instead, which happens maybe once a week.',
+                        frequency: { main: 'almost daily, 5-6 days weekly', variations: 'weeknights = simple 20-30 min meals; weekends = elaborate 1-2 hour recipes; once weekly = takeout when busy/tired' }
+                    },
+                    {
+                        question: 'How often do you exercise?',
+                        sampleAnswer: 'I exercise 4-5 times a week, usually in the morning before work. Three of those days, I do cardio like running or cycling for 30-40 minutes. The other 1-2 days, I focus on strength training or yoga for about 45 minutes. Occasionally, when I\'m traveling or very busy, I might miss a week entirely, but I always get back to my routine as soon as possible.',
+                        frequency: { main: '4-5 times weekly, morning before work', variations: '3 days cardio 30-40 min; 1-2 days strength/yoga 45 min; travel/busy = might miss full week but resume' }
+                    },
+                    {
+                        question: 'Do you go to the cinema much?',
+                        sampleAnswer: 'I go to the cinema about once a month on average, though it varies depending on movie releases. When there are several good movies out, I might go 2-3 times in a month. During quiet periods with fewer interesting releases, I might not go for 2-3 months. I typically go on weekend evenings to avoid crowds, and occasionally for weekday matinees when I have time off.',
+                        frequency: { main: 'about once monthly average', variations: 'good releases = 2-3 times monthly; quiet periods = skip 2-3 months; weekend evenings usual; occasional weekday matinees' }
+                    },
+                    {
+                        question: 'How frequently do you eat fast food?',
+                        sampleAnswer: 'I eat fast food fairly rarely - maybe 2-3 times a month at most. It\'s usually when I\'m in a rush and need a quick meal between appointments. On road trips or when traveling, I might have it more frequently, perhaps once a day if there aren\'t better options. However, I actively try to avoid it during normal weeks because I prefer healthier options.',
+                        frequency: { main: 'rarely, 2-3 times monthly max', variations: 'when rushing between appointments; road trips = once daily if limited options; normal weeks = actively avoid for health' }
+                    },
+                    {
+                        question: 'Do you listen to music often?',
+                        sampleAnswer: 'Yes, I listen to music almost constantly - probably 4-6 hours a day in total. During my morning and evening commutes, I always have music or podcasts playing for about an hour each way. While working, I play instrumental music in the background for 4-5 hours to help concentration. At the gym, I listen to upbeat music for 30-45 minutes. Only during meetings or focused tasks do I not listen to anything.',
+                        frequency: { main: 'almost constantly, 4-6 hours daily', variations: 'commute 1 hour each way; work 4-5 hours instrumental; gym 30-45 min upbeat; silent during meetings/focused work' }
+                    },
+                    {
+                        question: 'How often do you clean your room?',
+                        sampleAnswer: 'I do light cleaning daily - making my bed every morning and tidying up clutter each evening before bed. A more thorough cleaning happens once a week, usually on Sunday mornings, including vacuuming, dusting, and organizing. Deep cleaning with tasks like washing windows or reorganizing closets happens monthly or every 6 weeks. When I\'m very busy with work, I might skip the weekly deep clean and just do the daily maintenance.',
+                        frequency: { main: 'light daily; thorough weekly; deep monthly', variations: 'bed + clutter daily; Sunday thorough cleaning; windows/closets every 6 weeks; busy times = skip thorough, keep daily' }
+                    },
+                    {
+                        question: 'Do you play sports regularly?',
+                        sampleAnswer: 'Yes, I play badminton regularly - twice a week on Tuesday and Thursday evenings at a local sports center. During summer, I increase to three times a week because the weather is nice and I have more energy. In winter, sometimes I reduce to once a week or take breaks when it\'s too cold or I\'m not feeling well. Occasionally, I also play casual games with friends on weekends, though this is less regular.',
+                        frequency: { main: 'regularly twice weekly, Tuesday/Thursday evenings', variations: 'summer = three times weekly; winter = once weekly or breaks; occasional weekend casual games' }
+                    },
+                    {
+                        question: 'How often do you check your email?',
+                        sampleAnswer: 'I check my work email constantly during office hours - probably every 30 minutes to stay on top of important messages. First thing in the morning, I spend 15-20 minutes going through overnight emails. Throughout the workday, I check it briefly between tasks. Personal email, I check much less frequently - usually once in the evening and maybe once on weekend mornings. During vacations, I try to check work email only once daily, just for urgent matters.',
+                        frequency: { main: 'work email every 30 min during office hours; personal once evening + weekend mornings', variations: 'morning 15-20 min review; between tasks brief checks; vacations = once daily urgent only' }
+                    }
+                ],
+                aiPromptTemplate: `Student learned Frequency + Details method.
+
+Question: {{question}}
+Student answer: {{studentResponse}}
+
+Check:
+⏰ Frequency: Did they specify how often? (used frequency words?)
+📝 Details: Did they add specific circumstances?
+🔄 Variations: Did they mention different scenarios/exceptions?
+🎯 Specificity: Concrete details vs vague statements?
+📊 Band Estimate: [5.5-7.5]
+
+Provide feedback showing how to add more specific variations if needed.`
+            },
+            {
+                id: 'm2_selection_guide',
+                type: 'interactive_guide',
+                title: 'Technique Selection Guide',
+                description: 'Learn when to use which technique for maximum impact',
+                content: {
+                    guide: [
+                        {
+                            questionType: 'Opinion/Preference Questions (Do you think...? Do you prefer...?)',
+                            bestTechniques: ['PREP Method', 'Contrast Technique'],
+                            reason: 'PREP gives clear structure for opinions. Contrast shows nuanced thinking.'
+                        },
+                        {
+                            questionType: 'Habit/Frequency Questions (How often...? Do you usually...?)',
+                            bestTechniques: ['Frequency + Details', '5W1H'],
+                            reason: 'Frequency + Details directly addresses the question. 5W1H adds depth.'
+                        },
+                        {
+                            questionType: 'Change Over Time (Have your habits changed...?)',
+                            bestTechniques: ['Past vs Present', '5W1H'],
+                            reason: 'Past vs Present is perfect for showing development over time.'
+                        },
+                        {
+                            questionType: 'About "People" or "Your Country" (Do people in your country...?)',
+                            bestTechniques: ['Personal + General', 'Contrast'],
+                            reason: 'Personal + General shows sophisticated thinking. Contrast shows awareness of differences.'
+                        },
+                        {
+                            questionType: 'Experience Questions (What do you enjoy...? How do you feel...?)',
+                            bestTechniques: ['Feelings + Reasons', '5W1H'],
+                            reason: 'Feelings + Reasons creates engaging, authentic answers.'
+                        },
+                        {
+                            questionType: 'Any General Question',
+                            bestTechniques: ['5W1H', 'PREP'],
+                            reason: 'These are versatile techniques that work for almost any question.'
+                        }
+                    ]
+                },
+                practiceSection: {
+                    instructions: 'Look at each question and decide which technique would work best. Then answer using that technique.',
+                    questions: [
+                        { q: 'Do you think children should spend more time outdoors?', type: 'opinion' },
+                        { q: 'How has technology changed the way you communicate?', type: 'change' },
+                        { q: 'Do people in your country enjoy cooking?', type: 'people' },
+                        { q: 'How often do you visit your relatives?', type: 'frequency' },
+                        { q: 'What makes you feel motivated to work hard?', type: 'experience' }
+                    ]
+                }
+            },
+            {
+                id: 'm2_mixed_practice',
+                type: 'ai_conversation',
+                title: 'Mixed Practice: Use Different Techniques',
+                instructions: 'Practice Part 1 with variety. Try to use DIFFERENT techniques for each question to show versatility.',
+                conversationSettings: {
+                    numberOfQuestions: 8,
+                    focusArea: 'technique_variety',
+                    feedbackStyle: 'technique_identification'
+                },
+                aiSystemPrompt: `You are an IELTS examiner. The student learned 6 techniques:
+1. 5W1H (Who, What, When, Where, Why, How)
+2. PREP (Point, Reason, Example, Point)
+3. Past vs Present Comparison
+4. Personal + General Approach
+5. Contrast Technique
+6. Feelings + Reasons Method
+7. Frequency + Details
+
+Conduct Part 1 with 8 questions covering different question types.
+
+After EACH answer:
+1. Identify which technique(s) they used
+2. Brief praise for what worked well
+3. Suggest which technique might have been even better if they chose a suboptimal one
+
+After ALL 8 questions:
+Give comprehensive feedback:
+- Technique variety score (did they mix techniques?)
+- Band estimate (6.0-8.0)
+- Strengths (2-3 points)
+- Suggestions for improvement
+
+Encourage versatility and natural use of different approaches.`
             }
         ]
     },
@@ -1265,6 +1997,12 @@ class LessonProgress {
         localStorage.removeItem(this.storageKey);
         this.progress = this.load();
     }
+}
+
+// Export to window for global access
+if (typeof window !== 'undefined') {
+    window.IELTS_LESSONS = IELTS_LESSONS;
+    window.LESSON_CONSTANTS = LESSON_CONSTANTS;
 }
 
 // Initialize progress tracker
