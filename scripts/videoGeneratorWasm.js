@@ -58,19 +58,36 @@ class VocabVideoGeneratorWasm {
                 this.updateStatus(`Encoding video: ${Math.round(progress * 100)}%`, progress);
             });
 
-            // Load FFmpeg core from local files (no CORS issues)
-            // Use absolute path from root
-            const baseURL = '/scripts/ffmpeg';
-            this.updateStatus('Downloading FFmpeg core files...', 0.3);
-            await this.ffmpeg.load({
-                coreURL: `${baseURL}/ffmpeg-core.js`,
-                wasmURL: `${baseURL}/ffmpeg-core.wasm`,
-                workerURL: `${baseURL}/ffmpeg-core.worker.js`
-            });
+            // Detect environment and load FFmpeg accordingly
+            const isGitHubPages = window.location.hostname.includes('github.io');
+
+            if (isGitHubPages) {
+                // GitHub Pages: Use CDN with blob URLs to avoid CORS issues
+                console.log('Loading FFmpeg from CDN (GitHub Pages mode)');
+                this.updateStatus('Downloading FFmpeg from CDN...', 0.2);
+                const cdnBase = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd';
+
+                const coreURL = await toBlobURL(`${cdnBase}/ffmpeg-core.js`, 'text/javascript');
+                const wasmURL = await toBlobURL(`${cdnBase}/ffmpeg-core.wasm`, 'application/wasm');
+                const workerURL = await toBlobURL(`${cdnBase}/ffmpeg-core.worker.js`, 'text/javascript');
+
+                this.updateStatus('Loading FFmpeg core...', 0.4);
+                await this.ffmpeg.load({ coreURL, wasmURL, workerURL });
+            } else {
+                // Local development: Use local files
+                console.log('Loading FFmpeg from local files');
+                const baseURL = '/scripts/ffmpeg';
+                this.updateStatus('Loading FFmpeg core files...', 0.3);
+                await this.ffmpeg.load({
+                    coreURL: `${baseURL}/ffmpeg-core.js`,
+                    wasmURL: `${baseURL}/ffmpeg-core.wasm`,
+                    workerURL: `${baseURL}/ffmpeg-core.worker.js`
+                });
+            }
 
             this.ffmpegLoaded = true;
             this.updateStatus('✓ FFmpeg ready', 0.5, false);
-            console.log('FFmpeg loaded');
+            console.log('FFmpeg loaded successfully');
 
             // Enable record button (TTS will be initialized on first use)
             const recordBtn = document.getElementById('recordBtn');
