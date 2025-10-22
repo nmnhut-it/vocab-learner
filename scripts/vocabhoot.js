@@ -167,18 +167,68 @@ window.onload = () => {
     // Apply initial language
     applyLanguage();
 
-    // Add this to vocabhoot.html
     const CRYPTO_KEY = "voctoolpasskey"; // Must match the key in main.js
+    const LINK_TTL_MS = 3 * 24 * 60 * 60 * 1000; // 3 days in milliseconds
 
-    // Unicode-safe decryption
+    // Decompress vocabulary data (same format as index.html)
+    function decompressVocabData(compressedData) {
+        try {
+            const decompressed = LZString.decompressFromEncodedURIComponent(compressedData);
+            if (!decompressed) {
+                throw new Error('Failed to decompress data');
+            }
+
+            const payload = JSON.parse(decompressed);
+
+            // Check TTL - link expires after 3 days
+            const now = Date.now();
+            const age = now - payload.ts;
+
+            if (age > LINK_TTL_MS) {
+                const daysAgo = Math.floor(age / (24 * 60 * 60 * 1000));
+                throw new Error(`This link expired ${daysAgo} day(s) ago. Links are valid for 3 days only.`);
+            }
+
+            return payload.d;
+        } catch (error) {
+            console.error('Decompression error:', error);
+            throw error;
+        }
+    }
+
+    // Parse vocabulary text into structured format
+    function parseVocabText(vocabText) {
+        const lines = vocabText.trim().split('\n');
+        const vocabularyList = [];
+
+        lines.forEach((line) => {
+            if (!line.trim()) return;
+
+            // Format: 1. word: (type) translation /pronunciation/
+            const lineMatch = line.match(/(\d+)?\.\s*(.*?):\s*(\([a-z]+\))?\s*(.*?)\s*(\/.*?\/)?\s*$/);
+
+            if (lineMatch) {
+                const [, , english, type, vietnamese, pronunciation] = lineMatch;
+                vocabularyList.push({
+                    english: english.trim(),
+                    type: type ? type.trim() : '',
+                    vietnamese: vietnamese.trim(),
+                    pronunciation: pronunciation ? pronunciation.trim() : ''
+                });
+            }
+        });
+
+        return vocabularyList;
+    }
+
+    // Unicode-safe decryption (legacy format)
     function decryptData(encoded, key) {
         try {
-            const text = atob(encoded); // Convert from base64
+            const text = atob(encoded);
             let result = '';
             for (let i = 0; i < text.length; i++) {
                 result += String.fromCharCode(text.charCodeAt(i) ^ key.charCodeAt(i % key.length));
             }
-            // Decode the UTF-8 string back to Unicode
             return decodeURIComponent(result);
         } catch (error) {
             console.error('Decryption error:', error);
@@ -186,21 +236,29 @@ window.onload = () => {
         }
     }
 
-    // Modified getVocabularyFromURL function
+    // Get vocabulary from URL - supports both compressed and encrypted formats
     function getVocabularyFromURL() {
         const urlParams = new URLSearchParams(window.location.search);
-        const encryptedData = urlParams.get('data');
+        const dataParam = urlParams.get('data');
 
-        if (encryptedData) {
+        if (!dataParam) return [];
+
+        // Try compressed format first (new format from index.html)
+        try {
+            const vocabText = decompressVocabData(dataParam);
+            return parseVocabText(vocabText);
+        } catch (compressionError) {
+            console.log('Not compressed format, trying encrypted format...');
+
+            // Fallback to encrypted format (legacy)
             try {
-                const decryptedData = decryptData(encryptedData, CRYPTO_KEY);
+                const decryptedData = decryptData(dataParam, CRYPTO_KEY);
                 return JSON.parse(decryptedData);
-            } catch (error) {
-                console.error('Error parsing vocabulary data:', error);
+            } catch (decryptionError) {
+                console.error('Failed to parse data in any format:', { compressionError, decryptionError });
                 return [];
             }
         }
-        return [];
     }
 
     // Listen for vocabulary data from parent
@@ -367,21 +425,6 @@ function initializeGame() {
     }
 }
 
-// Extract vocabulary data from URL parameters
-function getVocabularyFromURL() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const dataParam = urlParams.get('data');
-
-    if (dataParam) {
-        try {
-            return JSON.parse(decodeURIComponent(dataParam));
-        } catch (error) {
-            console.error('Error parsing vocabulary data:', error);
-            return [];
-        }
-    }
-    return [];
-}
 
 function showScreen(screenId) {
     document.querySelectorAll('.screen').forEach(screen => {
@@ -783,74 +826,6 @@ function addScrambleOptions(options, originalWord, vocabulary) {
     }
 }
 
-
-function scrambleWord(word) {
-    if (word.length <= 3) return word;
-
-    // If word contains spaces (multiple words), scramble each word separately
-    if (word.includes(' ')) {
-        return word.split(' ')
-            .map(w => scrambleWord(w))
-            .join(' ');
-    }
-
-    // If word contains hyphens, scramble each part separately
-    if (word.includes('-')) {
-        return word.split('-')
-            .map(w => scrambleWord(w))
-            .join('-');
-    }
-
-    // Get first and last letters
-    const firstLetter = word.charAt(0);
-    const lastLetter = word.charAt(word.length - 1);
-
-    // Get middle section
-    let middle = word.substring(1, word.length - 1);
-
-    // Try to preserve vowel/consonant patterns somewhat
-    const vowels = 'aeiou';
-    const middleChars = middle.split('');
-
-    // Group vowels and consonants
-    const middleVowels = middleChars.filter(c => vowels.includes(c.toLowerCase()));
-    const middleConsonants = middleChars.filter(c => !vowels.includes(c.toLowerCase()) && /[a-z]/i.test(c));
-
-    // Shuffle vowels and consonants separately
-    for (let i = middleVowels.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [middleVowels[i], middleVowels[j]] = [middleVowels[j], middleVowels[i]];
-    }
-
-    for (let i = middleConsonants.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [middleConsonants[i], middleConsonants[j]] = [middleConsonants[j], middleConsonants[i]];
-    }
-
-    // Reconstruct middle section with similar vowel/consonant pattern
-    let vIndex = 0;
-    let cIndex = 0;
-
-    for (let i = 0; i < middleChars.length; i++) {
-        const isVowel = vowels.includes(middleChars[i].toLowerCase());
-        if (isVowel && vIndex < middleVowels.length) {
-            middleChars[i] = middleVowels[vIndex++];
-        } else if (!isVowel && /[a-z]/i.test(middleChars[i]) && cIndex < middleConsonants.length) {
-            middleChars[i] = middleConsonants[cIndex++];
-        }
-    }
-
-    // Make sure the scrambled word is different from the original
-    const scrambledMiddle = middleChars.join('');
-    if (scrambledMiddle === middle && middle.length > 1) {
-        // If it's the same, swap two random characters
-        const i = Math.floor(Math.random() * middleChars.length);
-        const j = (i + 1) % middleChars.length;
-        [middleChars[i], middleChars[j]] = [middleChars[j], middleChars[i]];
-    }
-
-    return firstLetter + middleChars.join('') + lastLetter;
-}
 /**
  * Adds options for missing vowels challenges
  */
