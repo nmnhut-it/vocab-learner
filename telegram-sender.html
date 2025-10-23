@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Message Sender</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .result.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .result.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .info {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #004085;
+        }
+
+        .info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Telegram Message Sender</h1>
+
+        <div class="info">
+            <strong>Setup:</strong> Create a bot via <a href="https://t.me/BotFather" target="_blank">@BotFather</a> to get your Bot Token.
+            Start a chat with your bot and send a message to get your Chat ID from
+            <a href="https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates" target="_blank">getUpdates</a>.
+        </div>
+
+        <form id="telegramForm">
+            <div class="form-group">
+                <label for="botToken">Bot Token</label>
+                <input type="text" id="botToken" placeholder="123456789:ABCdefGHIjklMNOpqrsTUVwxyz" required>
+            </div>
+
+            <div class="form-group">
+                <label for="chatId">Chat ID</label>
+                <input type="text" id="chatId" placeholder="123456789 or @channel_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Type your message here..." required></textarea>
+            </div>
+
+            <button type="submit" id="sendBtn">Send Message</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        const STORAGE_KEY_BOT_TOKEN = 'telegram_bot_token';
+        const STORAGE_KEY_CHAT_ID = 'telegram_chat_id';
+        const API_BASE_URL = 'https://api.telegram.org/bot';
+
+        const form = document.getElementById('telegramForm');
+        const botTokenInput = document.getElementById('botToken');
+        const chatIdInput = document.getElementById('chatId');
+        const messageInput = document.getElementById('message');
+        const sendBtn = document.getElementById('sendBtn');
+        const resultDiv = document.getElementById('result');
+
+        loadSavedCredentials();
+
+        function loadSavedCredentials() {
+            const savedToken = localStorage.getItem(STORAGE_KEY_BOT_TOKEN);
+            const savedChatId = localStorage.getItem(STORAGE_KEY_CHAT_ID);
+
+            if (savedToken) botTokenInput.value = savedToken;
+            if (savedChatId) chatIdInput.value = savedChatId;
+        }
+
+        function saveCredentials(token, chatId) {
+            localStorage.setItem(STORAGE_KEY_BOT_TOKEN, token);
+            localStorage.setItem(STORAGE_KEY_CHAT_ID, chatId);
+        }
+
+        function showResult(message, isSuccess) {
+            resultDiv.textContent = message;
+            resultDiv.className = 'result ' + (isSuccess ? 'success' : 'error');
+            resultDiv.style.display = 'block';
+
+            setTimeout(() => {
+                resultDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        async function sendTelegramMessage(botToken, chatId, message) {
+            const url = `${API_BASE_URL}${botToken}/sendMessage`;
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    chat_id: chatId,
+                    text: message,
+                    parse_mode: 'HTML'
+                })
+            });
+
+            return await response.json();
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const botToken = botTokenInput.value.trim();
+            const chatId = chatIdInput.value.trim();
+            const message = messageInput.value.trim();
+
+            if (!botToken || !chatId || !message) {
+                showResult('Please fill in all fields', false);
+                return;
+            }
+
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Sending...';
+
+            try {
+                const result = await sendTelegramMessage(botToken, chatId, message);
+
+                if (result.ok) {
+                    showResult('✅ Message sent successfully!', true);
+                    saveCredentials(botToken, chatId);
+                    messageInput.value = '';
+                } else {
+                    showResult(`❌ Error: ${result.description || 'Failed to send message'}`, false);
+                }
+            } catch (error) {
+                showResult(`❌ Network error: ${error.message}`, false);
+            } finally {
+                sendBtn.disabled = false;
+                sendBtn.textContent = 'Send Message';
+            }
+        });
+    </script>
+</body>
+</html>

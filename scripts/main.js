@@ -351,12 +351,62 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+    // Gemini Enrichment - Add meaning, IPA, and part of speech with context
+    async function processEnrichWithGemini() {
+        const wordList = vocabInput.value.trim();
+        const context = document.getElementById('contextInput')?.value.trim() || '';
+
+        if (!wordList) {
+            alert('Please enter words/phrases to enrich!');
+            return;
+        }
+
+        if (!geminiProcessor.hasApiKey()) {
+            const apiKey = prompt('Enter your Gemini API key:\n(Get it from https://makersuite.google.com/app/apikey)');
+            if (!apiKey) return;
+            geminiProcessor.setApiKey(apiKey);
+        }
+
+        const geminiEnrichBtn = document.getElementById('geminiEnrichBtn');
+
+        try {
+            geminiStatus.textContent = '✨ Enriching vocabulary with Gemini AI...';
+            geminiStatus.style.color = '#3498db';
+            if (geminiEnrichBtn) geminiEnrichBtn.disabled = true;
+
+            const enriched = await geminiProcessor.enrichVocabulary(wordList, context);
+            vocabInput.value = enriched;
+
+            geminiStatus.textContent = '✅ Enriched! Click Convert to display.';
+            geminiStatus.style.color = '#27ae60';
+
+            // Auto-convert after 1 second
+            setTimeout(() => {
+                parseAndDisplay();
+                geminiStatus.textContent = '';
+            }, 1000);
+
+        } catch (error) {
+            console.error('Gemini enrichment error:', error);
+            geminiStatus.textContent = '❌ Error: ' + error.message;
+            geminiStatus.style.color = '#e74c3c';
+        } finally {
+            if (geminiEnrichBtn) geminiEnrichBtn.disabled = false;
+        }
+    }
+
     // Event Listeners
     if (speechSynthesis.onvoiceschanged !== undefined) {
         speechSynthesis.onvoiceschanged = loadVoices;
     }
 
     geminiBtn.addEventListener('click', processWithGemini);
+
+    const geminiEnrichBtn = document.getElementById('geminiEnrichBtn');
+    if (geminiEnrichBtn) {
+        geminiEnrichBtn.addEventListener('click', processEnrichWithGemini);
+    }
+
     convertBtn.addEventListener('click', parseAndDisplay);
 
     readAllBtn.addEventListener('click', async () => {
