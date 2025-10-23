@@ -56,6 +56,30 @@ class TelegramSender {
         return this.handleResponse(response);
     }
 
+    async sendPhoto(photoBlob, caption, fileName = 'photo.jpg') {
+        if (photoBlob.size > MAX_AUDIO_SIZE_MB * BYTES_PER_MB) {
+            throw new Error(`Photo exceeds ${MAX_AUDIO_SIZE_MB}MB limit`);
+        }
+
+        const url = `${TELEGRAM_API_BASE}${this.botToken}/sendPhoto`;
+        const formData = new FormData();
+
+        formData.append('chat_id', this.chatId);
+        formData.append('photo', photoBlob, fileName);
+
+        if (caption) {
+            formData.append('caption', caption);
+            formData.append('parse_mode', 'HTML');
+        }
+
+        const response = await fetch(url, {
+            method: 'POST',
+            body: formData
+        });
+
+        return this.handleResponse(response);
+    }
+
     async handleResponse(response) {
         const data = await response.json();
 
@@ -66,12 +90,19 @@ class TelegramSender {
         return data.result;
     }
 
-    formatAudioCaption(questionText, questionNum, category, duration) {
+    formatAudioCaption(questionText, questionNum, category, duration, studentName = null) {
         const durationSec = Math.round(duration / 1000);
 
-        return `<b>IELTS Module 2 - Question ${questionNum}</b>\n\n` +
-               `<b>Category:</b> ${category}\n` +
-               `<b>Question:</b> ${questionText}\n\n` +
-               `<b>Duration:</b> ${durationSec}s`;
+        let caption = `<b>IELTS Module 2 - Question ${questionNum}</b>\n\n`;
+
+        if (studentName) {
+            caption += `<b>Student:</b> ${studentName}\n`;
+        }
+
+        caption += `<b>Category:</b> ${category}\n` +
+                   `<b>Question:</b> ${questionText}\n\n` +
+                   `<b>Duration:</b> ${durationSec}s`;
+
+        return caption;
     }
 }

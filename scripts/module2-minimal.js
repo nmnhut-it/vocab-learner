@@ -955,7 +955,7 @@ async function sendSessionStartToTelegram(studentName, photoDataUrl) {
                        `<b>Module:</b> Module 2 - Finding Ideas Fast\n` +
                        `<b>Time:</b> ${new Date().toLocaleString()}`;
 
-        await telegramSender.sendAudio(photoBlob, caption, `${studentName}_session.jpg`);
+        await telegramSender.sendPhoto(photoBlob, caption, `${studentName}_session.jpg`);
     } catch (error) {
         console.error('Failed to send session start to Telegram:', error);
     }
@@ -1117,20 +1117,33 @@ async function sendAudioToTelegram() {
             ? question.category
             : getCategoryFromIndex(currentIndex);
 
+        const session = studentSession.getSession();
+        const studentName = session ? session.name : 'Unknown Student';
+
         const caption = telegramSender.formatAudioCaption(
             questionText,
             currentIndex + 1,
             category,
-            currentRecording.duration
+            currentRecording.duration,
+            studentName
         );
+
+        if (session?.photoDataUrl) {
+            const photoBlob = dataURLtoBlob(session.photoDataUrl);
+            await telegramSender.sendPhoto(
+                photoBlob,
+                caption,
+                `${studentName}_q${currentIndex + 1}.jpg`
+            );
+        }
 
         await telegramSender.sendAudio(
             currentRecording.blob,
             caption,
-            `recording_q${currentIndex + 1}.ogg`
+            `${studentName}_q${currentIndex + 1}.ogg`
         );
 
-        alert('✅ Sent to Telegram successfully!');
+        alert('✅ Sent to nmnhut-it successfully!');
         deleteRecording();
     } catch (error) {
         alert(`Failed to send: ${error.message}`);
