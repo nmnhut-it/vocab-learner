@@ -83,20 +83,23 @@ const FAVORITES_KEY = 'module2_minimal_favorites';
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
-    // Initialize studentSession first
-    if (!studentSession) {
-        studentSession = new StudentSession();
-    }
-
     // Wait for IELTS_LESSONS to load
     if (!window.IELTS_LESSONS?.module2) {
         setTimeout(init, 100);
         return;
     }
 
+    // Initialize studentSession
+    studentSession = new StudentSession();
     initializeAudioRecording();
 
-    if (studentSession.hasActiveSession()) {
+    // Check if student has active session
+    const hasSession = studentSession.hasActiveSession();
+    console.log('Student has active session:', hasSession);
+
+    if (hasSession) {
+        // Student is authenticated, hide modal and load content
+        console.log('Hiding identification modal - student authenticated');
         hideIdentificationModal();
         displayStudentInfo();
         loadProgress();
@@ -105,6 +108,8 @@ function init() {
         setupEventListeners();
         renderCurrentQuestion();
     } else {
+        // No active session, ensure modal is visible and setup listeners
+        console.log('Showing identification modal - no active session');
         showIdentificationModal();
         setupIdentificationListeners();
     }
@@ -137,15 +142,23 @@ function initializeAudioRecording() {
 }
 
 function showIdentificationModal() {
-    document.getElementById('identificationModal').classList.add('active');
-    document.getElementById('identificationOverlay').classList.add('active');
-    document.getElementById('mainContainer').classList.add('hidden');
+    const modal = document.getElementById('identificationModal');
+    const overlay = document.getElementById('identificationOverlay');
+    const mainContainer = document.getElementById('mainContainer');
+
+    if (modal) modal.classList.add('active');
+    if (overlay) overlay.classList.add('active');
+    if (mainContainer) mainContainer.classList.add('hidden');
 }
 
 function hideIdentificationModal() {
-    document.getElementById('identificationModal').classList.remove('active');
-    document.getElementById('identificationOverlay').classList.remove('active');
-    document.getElementById('mainContainer').classList.remove('hidden');
+    const modal = document.getElementById('identificationModal');
+    const overlay = document.getElementById('identificationOverlay');
+    const mainContainer = document.getElementById('mainContainer');
+
+    if (modal) modal.classList.remove('active');
+    if (overlay) overlay.classList.remove('active');
+    if (mainContainer) mainContainer.classList.remove('hidden');
 }
 
 function displayStudentInfo() {
