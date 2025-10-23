@@ -64,6 +64,17 @@ let completed = new Set();
 let sampleExpanded = false;
 let templateExpanded = false;
 
+// Audio recording state
+let audioRecorder = null;
+let recordingTimer = null;
+let currentRecording = null;
+let telegramSender = null;
+
+// Student identification state
+let studentSession = null;
+let identificationCamera = null;
+let capturedPhotoData = null;
+
 // Storage keys
 const STORAGE_KEY = 'module2_minimal_progress';
 const FAVORITES_KEY = 'module2_minimal_favorites';
@@ -78,10 +89,49 @@ function init() {
         return;
     }
 
-    loadProgress();
-    loadQuestions();
-    setupEventListeners();
-    renderCurrentQuestion();
+    studentSession = new StudentSession();
+    initializeAudioRecording();
+
+    if (studentSession.hasActiveSession()) {
+        hideIdentificationModal();
+        displayStudentInfo();
+        loadProgress();
+        loadQuestions();
+        setupEventListeners();
+        renderCurrentQuestion();
+    } else {
+        showIdentificationModal();
+        setupIdentificationListeners();
+    }
+}
+
+function initializeAudioRecording() {
+    if (typeof botToken !== 'undefined' && typeof groupId !== 'undefined') {
+        telegramSender = new TelegramSender(botToken, groupId);
+    } else {
+        console.warn('Telegram credentials not found');
+    }
+}
+
+function showIdentificationModal() {
+    document.getElementById('identificationModal').classList.add('active');
+    document.getElementById('identificationOverlay').classList.add('active');
+    document.getElementById('mainContainer').classList.add('hidden');
+}
+
+function hideIdentificationModal() {
+    document.getElementById('identificationModal').classList.remove('active');
+    document.getElementById('identificationOverlay').classList.remove('active');
+    document.getElementById('mainContainer').classList.remove('hidden');
+}
+
+function displayStudentInfo() {
+    const session = studentSession.getSession();
+    if (session) {
+        const nameDisplay = document.getElementById('studentNameDisplay');
+        nameDisplay.textContent = session.name;
+        nameDisplay.style.display = 'inline';
+    }
 }
 
 // Load questions for current technique
@@ -785,4 +835,307 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupJumpSearch);
 } else {
     setupJumpSearch();
+}
+
+// ========== STUDENT IDENTIFICATION FUNCTIONS ==========
+
+function setupIdentificationListeners() {
+    const nameInput = document.getElementById('studentName');
+    nameInput.addEventListener('input', updateSubmitButtonState);
+}
+
+function updateSubmitButtonState() {
+    const nameInput = document.getElementById('studentName');
+    const submitBtn = document.getElementById('submitIdentificationBtn');
+    const hasName = nameInput.value.trim().length > 0;
+    const hasPhoto = capturedPhotoData !== null;
+
+    submitBtn.disabled = !(hasName && hasPhoto);
+}
+
+async function startIdentificationCamera() {
+    const videoElement = document.getElementById('cameraVideo');
+    const startBtn = document.getElementById('startCameraBtn');
+    const captureBtn = document.getElementById('capturePhotoBtn');
+    const placeholder = document.getElementById('cameraPlaceholder');
+
+    try {
+        identificationCamera = new CameraCapture();
+        await identificationCamera.initialize(videoElement);
+
+        placeholder.style.display = 'none';
+        videoElement.style.display = 'block';
+        startBtn.style.display = 'none';
+        captureBtn.style.display = 'inline-block';
+    } catch (error) {
+        alert(`Camera error: ${error.message}`);
+    }
+}
+
+function captureIdentificationPhoto() {
+    if (!identificationCamera) return;
+
+    try {
+        capturedPhotoData = identificationCamera.capturePhoto();
+
+        const photoImg = document.getElementById('capturedPhoto');
+        const photoPreview = document.getElementById('photoPreview');
+        const cameraPreview = document.getElementById('cameraPreview');
+        const captureBtn = document.getElementById('capturePhotoBtn');
+        const retakeBtn = document.getElementById('retakePhotoBtn');
+
+        photoImg.src = capturedPhotoData;
+        photoPreview.style.display = 'block';
+        cameraPreview.style.display = 'none';
+        captureBtn.style.display = 'none';
+        retakeBtn.style.display = 'inline-block';
+
+        identificationCamera.stopCamera();
+        identificationCamera = null;
+
+        updateSubmitButtonState();
+    } catch (error) {
+        alert(`Capture error: ${error.message}`);
+    }
+}
+
+function retakeIdentificationPhoto() {
+    capturedPhotoData = null;
+
+    const photoPreview = document.getElementById('photoPreview');
+    const cameraPreview = document.getElementById('cameraPreview');
+    const startBtn = document.getElementById('startCameraBtn');
+    const retakeBtn = document.getElementById('retakePhotoBtn');
+
+    photoPreview.style.display = 'none';
+    cameraPreview.style.display = 'block';
+    startBtn.style.display = 'inline-block';
+    retakeBtn.style.display = 'none';
+
+    updateSubmitButtonState();
+}
+
+async function submitIdentification() {
+    const nameInput = document.getElementById('studentName');
+    const studentName = nameInput.value.trim();
+
+    if (!studentName || !capturedPhotoData) {
+        alert('Please enter your name and take a photo');
+        return;
+    }
+
+    const submitBtn = document.getElementById('submitIdentificationBtn');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Starting session...';
+
+    try {
+        studentSession.createSession(studentName, capturedPhotoData);
+        await sendSessionStartToTelegram(studentName, capturedPhotoData);
+
+        hideIdentificationModal();
+        displayStudentInfo();
+        loadProgress();
+        loadQuestions();
+        setupEventListeners();
+        renderCurrentQuestion();
+    } catch (error) {
+        alert(`Failed to start session: ${error.message}`);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Start Practice Session';
+    }
+}
+
+async function sendSessionStartToTelegram(studentName, photoDataUrl) {
+    if (!telegramSender) return;
+
+    try {
+        const photoBlob = dataURLtoBlob(photoDataUrl);
+        const caption = `<b>📚 New Practice Session Started</b>\n\n` +
+                       `<b>Student:</b> ${studentName}\n` +
+                       `<b>Module:</b> Module 2 - Finding Ideas Fast\n` +
+                       `<b>Time:</b> ${new Date().toLocaleString()}`;
+
+        await telegramSender.sendAudio(photoBlob, caption, `${studentName}_session.jpg`);
+    } catch (error) {
+        console.error('Failed to send session start to Telegram:', error);
+    }
+}
+
+function dataURLtoBlob(dataURL) {
+    const parts = dataURL.split(',');
+    const mimeMatch = parts[0].match(/:(.*?);/);
+    const mime = mimeMatch ? mimeMatch[1] : 'image/jpeg';
+    const binary = atob(parts[1]);
+    const array = new Uint8Array(binary.length);
+
+    for (let i = 0; i < binary.length; i++) {
+        array[i] = binary.charCodeAt(i);
+    }
+
+    return new Blob([array], { type: mime });
+}
+
+function endStudentSession() {
+    const confirmed = confirm('Are you sure you want to end your session? Your progress will be saved.');
+
+    if (confirmed) {
+        studentSession.clearSession();
+        capturedPhotoData = null;
+
+        if (identificationCamera) {
+            identificationCamera.stopCamera();
+            identificationCamera = null;
+        }
+
+        location.reload();
+    }
+}
+
+// ========== AUDIO RECORDING FUNCTIONS ==========
+
+async function toggleRecording() {
+    if (!audioRecorder) {
+        await startRecording();
+    } else if (audioRecorder.isRecording()) {
+        await stopRecording();
+    }
+}
+
+async function startRecording() {
+    try {
+        audioRecorder = new AudioRecorder();
+        await audioRecorder.initialize();
+        audioRecorder.startRecording();
+        updateRecordingUI(true);
+        startRecordingTimer();
+    } catch (error) {
+        alert(`Recording error: ${error.message}`);
+        audioRecorder = null;
+    }
+}
+
+async function stopRecording() {
+    const recording = await audioRecorder.stopRecording();
+
+    if (recording) {
+        currentRecording = recording;
+        displayAudioPreview(recording.blob);
+    }
+
+    stopRecordingTimer();
+    updateRecordingUI(false);
+    audioRecorder.cleanup();
+    audioRecorder = null;
+}
+
+function updateRecordingUI(isRecording) {
+    const recordBtn = document.getElementById('recordBtn');
+    const recordIcon = document.getElementById('recordIcon');
+    const recordLabel = document.getElementById('recordLabel');
+
+    if (isRecording) {
+        recordBtn.classList.add('recording');
+        recordIcon.textContent = '⏹️';
+        recordLabel.textContent = 'Stop Recording';
+    } else {
+        recordBtn.classList.remove('recording');
+        recordIcon.textContent = '🎤';
+        recordLabel.textContent = 'Record Answer';
+    }
+}
+
+function startRecordingTimer() {
+    const timerDisplay = document.getElementById('recordTimer');
+    timerDisplay.style.display = 'inline';
+    timerDisplay.textContent = '0:00';
+
+    recordingTimer = setInterval(() => {
+        if (audioRecorder) {
+            const duration = audioRecorder.getRecordingDuration();
+            timerDisplay.textContent = formatDuration(duration);
+        }
+    }, 1000);
+}
+
+function stopRecordingTimer() {
+    if (recordingTimer) {
+        clearInterval(recordingTimer);
+        recordingTimer = null;
+    }
+    document.getElementById('recordTimer').style.display = 'none';
+}
+
+function formatDuration(milliseconds) {
+    const totalSeconds = Math.floor(milliseconds / 1000);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+}
+
+function displayAudioPreview(audioBlob) {
+    const audioPlayer = document.getElementById('audioPlayer');
+    const audioPreview = document.getElementById('audioPreview');
+
+    audioPlayer.src = URL.createObjectURL(audioBlob);
+    audioPreview.style.display = 'block';
+}
+
+function deleteRecording() {
+    currentRecording = null;
+    const audioPlayer = document.getElementById('audioPlayer');
+    const audioPreview = document.getElementById('audioPreview');
+
+    if (audioPlayer.src) {
+        URL.revokeObjectURL(audioPlayer.src);
+        audioPlayer.src = '';
+    }
+
+    audioPreview.style.display = 'none';
+}
+
+async function sendAudioToTelegram() {
+    if (!currentRecording) {
+        alert('No recording available');
+        return;
+    }
+
+    if (!telegramSender) {
+        alert('Telegram not configured');
+        return;
+    }
+
+    const sendBtn = document.getElementById('sendTelegramBtn');
+    const originalText = sendBtn.textContent;
+
+    try {
+        sendBtn.disabled = true;
+        sendBtn.textContent = 'Sending...';
+
+        const question = allQuestions[currentIndex];
+        const questionText = typeof question === 'string' ? question : question.question;
+        const category = typeof question === 'object' && question.category
+            ? question.category
+            : getCategoryFromIndex(currentIndex);
+
+        const caption = telegramSender.formatAudioCaption(
+            questionText,
+            currentIndex + 1,
+            category,
+            currentRecording.duration
+        );
+
+        await telegramSender.sendAudio(
+            currentRecording.blob,
+            caption,
+            `recording_q${currentIndex + 1}.ogg`
+        );
+
+        alert('✅ Sent to Telegram successfully!');
+        deleteRecording();
+    } catch (error) {
+        alert(`Failed to send: ${error.message}`);
+    } finally {
+        sendBtn.disabled = false;
+        sendBtn.textContent = originalText;
+    }
 }

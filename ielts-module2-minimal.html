@@ -7,11 +7,60 @@
     <link rel="stylesheet" href="styles/module2-minimal.css">
 </head>
 <body>
+    <!-- Student Identification Modal -->
+    <div class="modal-overlay active" id="identificationOverlay"></div>
+    <div class="identification-modal active" id="identificationModal">
+        <div class="modal-header">
+            <h3>👤 Student Identification</h3>
+        </div>
+        <div class="modal-body">
+            <p class="identification-intro">Please enter your name and take a photo to start your practice session.</p>
+
+            <div class="form-field">
+                <label for="studentName">Your Name</label>
+                <input type="text" id="studentName" placeholder="Enter your full name" autocomplete="name" required>
+            </div>
+
+            <div class="camera-section">
+                <div class="camera-preview" id="cameraPreview">
+                    <video id="cameraVideo" autoplay playsinline></video>
+                    <div class="camera-placeholder" id="cameraPlaceholder">
+                        <span class="camera-icon">📷</span>
+                        <p>Camera will appear here</p>
+                    </div>
+                </div>
+
+                <div class="photo-preview" id="photoPreview" style="display: none;">
+                    <img id="capturedPhoto" alt="Your photo">
+                </div>
+
+                <div class="camera-controls">
+                    <button class="btn-camera" id="startCameraBtn" onclick="startIdentificationCamera()">
+                        📷 Start Camera
+                    </button>
+                    <button class="btn-camera" id="capturePhotoBtn" onclick="captureIdentificationPhoto()" style="display: none;">
+                        📸 Capture Photo
+                    </button>
+                    <button class="btn-camera-secondary" id="retakePhotoBtn" onclick="retakeIdentificationPhoto()" style="display: none;">
+                        🔄 Retake
+                    </button>
+                </div>
+            </div>
+
+            <button class="btn-primary btn-submit-identification" id="submitIdentificationBtn" onclick="submitIdentification()" disabled>
+                Start Practice Session
+            </button>
+
+            <p class="identification-note">⚠️ Your photo will be sent to your instructor via Telegram.</p>
+        </div>
+    </div>
+
     <!-- Top Bar -->
     <header class="top-bar">
         <a href="ielts-speaking-lessons.html" class="back-link">← Lessons</a>
         <h1 class="title">Module 2 Practice</h1>
         <div class="progress-mini">
+            <span class="student-name" id="studentNameDisplay" style="display: none; margin-right: 1rem; font-weight: 500;"></span>
             <span id="progressCount" onclick="openJumpModal()" style="cursor: pointer;" title="Click to jump to question">0/100</span>
             <button class="settings-btn" onclick="toggleSettings()" aria-label="Settings">⚙</button>
         </div>
@@ -70,11 +119,15 @@
             </select>
         </div>
 
+        <div class="setting-group" style="border-top: 1px solid var(--color-border); padding-top: 1rem; margin-top: 1rem;">
+            <button class="btn-end-session" onclick="endStudentSession()">🚪 End Session</button>
+        </div>
+
         <button class="btn-close" onclick="toggleSettings()">Done</button>
     </aside>
 
     <!-- Main Content -->
-    <main class="container">
+    <main class="container hidden" id="mainContainer">
         <!-- Question -->
         <section class="question-section">
             <div class="question-meta">
@@ -89,6 +142,27 @@
         <section class="input-section">
             <div class="form-container" id="formContainer">
                 <!-- Dynamically generated form fields -->
+            </div>
+
+            <!-- Audio Recording Section -->
+            <div class="audio-recording-section">
+                <div class="audio-controls">
+                    <button class="btn-record" id="recordBtn" onclick="toggleRecording()" aria-label="Record Audio">
+                        <span class="record-icon" id="recordIcon">🎤</span>
+                        <span class="record-label" id="recordLabel">Record Answer</span>
+                    </button>
+                    <span class="record-timer" id="recordTimer" style="display: none;">0:00</span>
+                </div>
+
+                <div class="audio-preview" id="audioPreview" style="display: none;">
+                    <audio controls id="audioPlayer"></audio>
+                    <div class="audio-actions">
+                        <button class="btn-send-telegram" id="sendTelegramBtn" onclick="sendAudioToTelegram()">
+                            📤 Send to Telegram
+                        </button>
+                        <button class="btn-delete-audio" onclick="deleteRecording()">🗑️ Delete</button>
+                    </div>
+                </div>
             </div>
 
             <!-- Answer Template Guide -->
@@ -142,6 +216,11 @@
     </main>
 
     <!-- Scripts -->
+    <script src="telegram.js"></script>
+    <script src="scripts/cameraCapture.js"></script>
+    <script src="scripts/studentSession.js"></script>
+    <script src="scripts/audioRecorder.js"></script>
+    <script src="scripts/telegramSender.js"></script>
     <script src="scripts/ieltsLessons.js"></script>
     <script src="scripts/ieltsCoachAI.js"></script>
     <script src="scripts/module2-config.js"></script>

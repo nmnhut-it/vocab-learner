@@ -670,7 +670,340 @@ body {
     }
 }
 
+/* Audio Recording Section */
+.audio-recording-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-record {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-record:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.btn-record.recording {
+    background: #dc2626;
+    animation: pulse 1.5s infinite;
+}
+
+.btn-record.recording:hover {
+    background: #b91c1c;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.record-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.record-timer {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    min-width: 60px;
+}
+
+.audio-preview {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.audio-preview audio {
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
+.audio-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.btn-send-telegram {
+    flex: 1;
+    padding: 0.75rem 1.5rem;
+    background: #0088cc;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-send-telegram:hover {
+    background: #006699;
+    transform: translateY(-1px);
+}
+
+.btn-send-telegram:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn-delete-audio {
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-light);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    transition: all 0.2s;
+}
+
+.btn-delete-audio:hover {
+    background: #fee;
+    border-color: #dc2626;
+    color: #dc2626;
+}
+
+/* Responsive Audio Controls */
+@media (max-width: 640px) {
+    .audio-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-record {
+        justify-content: center;
+    }
+
+    .record-timer {
+        text-align: center;
+    }
+
+    .audio-actions {
+        flex-direction: column;
+    }
+
+    .btn-send-telegram,
+    .btn-delete-audio {
+        width: 100%;
+    }
+}
+
+/* Student Identification Modal */
+.identification-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    z-index: 302;
+    opacity: 0;
+    transition: opacity 0.3s;
+    overflow-y: auto;
+}
+
+.identification-modal.active {
+    display: block;
+    opacity: 1;
+}
+
+.identification-intro {
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.9375rem;
+}
+
+.identification-note {
+    text-align: center;
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+    margin-top: 1rem;
+}
+
+.camera-section {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+}
+
+.camera-preview {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: #000;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.camera-preview video {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camera-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--color-text-light);
+}
+
+.camera-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.photo-preview {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camera-controls {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.btn-camera {
+    flex: 1;
+    padding: 0.875rem 1.5rem;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-camera:hover {
+    background: #1d4ed8;
+}
+
+.btn-camera-secondary {
+    padding: 0.875rem 1.5rem;
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    transition: all 0.2s;
+}
+
+.btn-camera-secondary:hover {
+    background: var(--color-bg-light);
+    border-color: var(--color-accent);
+}
+
+.btn-submit-identification {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-submit-identification:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-end-session {
+    width: 100%;
+    padding: 0.75rem;
+    background: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-end-session:hover {
+    background: #b91c1c;
+}
+
+.student-name {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+/* Responsive Identification Modal */
+@media (max-width: 640px) {
+    .identification-modal {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .camera-section {
+        padding: 1rem;
+    }
+
+    .camera-controls {
+        flex-direction: column;
+    }
+
+    .btn-camera,
+    .btn-camera-secondary {
+        width: 100%;
+    }
+}
+
 /* Utilities */
 .hidden {
-    display: none;
+    display: none !important;
 }
