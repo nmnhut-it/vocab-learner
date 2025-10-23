@@ -1091,6 +1091,7 @@ async function submitIdentification() {
         displayStudentInfo();
         loadProgress();
         loadQuestions();
+        checkURLParameters();
         setupEventListeners();
         renderCurrentQuestion();
     } catch (error) {
