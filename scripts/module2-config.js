@@ -93,7 +93,7 @@ const TECHNIQUE_CONFIG = {
                 hint: 'Describe your feelings or the impact'
             }
         ],
-        breakdownKey: null
+        breakdownKey: 'w5h1'
     },
 
     prep: {

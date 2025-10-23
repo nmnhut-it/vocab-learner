@@ -83,13 +83,17 @@ const FAVORITES_KEY = 'module2_minimal_favorites';
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
+    // Initialize studentSession first
+    if (!studentSession) {
+        studentSession = new StudentSession();
+    }
+
     // Wait for IELTS_LESSONS to load
     if (!window.IELTS_LESSONS?.module2) {
         setTimeout(init, 100);
         return;
     }
 
-    studentSession = new StudentSession();
     initializeAudioRecording();
 
     if (studentSession.hasActiveSession()) {
@@ -97,12 +101,31 @@ function init() {
         displayStudentInfo();
         loadProgress();
         loadQuestions();
+        checkURLParameters();
         setupEventListeners();
         renderCurrentQuestion();
     } else {
         showIdentificationModal();
         setupIdentificationListeners();
     }
+}
+
+function checkURLParameters() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const questionParam = urlParams.get('q') || urlParams.get('question');
+
+    if (questionParam) {
+        const questionNum = parseInt(questionParam);
+        if (!isNaN(questionNum) && questionNum >= 1 && questionNum <= allQuestions.length) {
+            currentIndex = questionNum - 1;
+        }
+    }
+}
+
+function updateURLParameter(questionNum) {
+    const url = new URL(window.location);
+    url.searchParams.set('q', questionNum);
+    window.history.replaceState({}, '', url);
 }
 
 function initializeAudioRecording() {
@@ -193,6 +216,14 @@ function setupEventListeners() {
         if (e.key === 's') toggleSample();
         if (e.key === 'f') getAIFeedback();
     });
+
+    // Quick jump input enter key
+    const quickJumpInput = document.getElementById('quickJumpInput');
+    if (quickJumpInput) {
+        quickJumpInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') quickJumpToQuestion();
+        });
+    }
 }
 
 // Render current question
@@ -234,6 +265,7 @@ function renderCurrentQuestion() {
     if (sampleExpanded) toggleSample();
 
     updateProgress();
+    updateURLParameter(currentIndex + 1);
 }
 
 // Render form fields
@@ -301,6 +333,47 @@ function updatePreview() {
     // Update meta
     document.getElementById('elementCount').textContent = `${filledCount}/${config.fields.length} elements`;
     document.getElementById('wordCount').textContent = `${wordCount} words`;
+
+    // Show breakdown for all techniques
+    if (filledCount > 0) {
+        updateBreakdownDisplay(values, filledCount, config);
+    } else {
+        document.getElementById('previewBreakdown').style.display = 'none';
+    }
+}
+
+// Update breakdown display for all techniques
+function updateBreakdownDisplay(values, filledCount, config) {
+    const breakdownDiv = document.getElementById('previewBreakdown');
+    const contentDiv = document.getElementById('breakdownContent');
+
+    if (filledCount === 0) {
+        breakdownDiv.style.display = 'none';
+        return;
+    }
+
+    breakdownDiv.style.display = 'block';
+
+    let html = '';
+
+    config.fields.forEach(field => {
+        const value = values[field.id];
+        const colorClass = field.id.replace(/_/g, '-'); // Convert field id to CSS class name
+
+        if (value) {
+            html += `<div class="preview-breakdown-item">
+                <span class="technique-tag ${colorClass}">${field.icon} ${field.label.split('(')[0].trim()}</span>
+                <span>${value}</span>
+            </div>`;
+        } else {
+            html += `<div class="preview-breakdown-item element-missing">
+                <span class="technique-tag ${colorClass}">${field.icon} ${field.label.split('(')[0].trim()}</span>
+                <span>(not filled yet)</span>
+            </div>`;
+        }
+    });
+
+    contentDiv.innerHTML = html;
 }
 
 // Generate answer from values
@@ -515,13 +588,77 @@ function renderSampleAnswer(sampleText) {
 
     // Render breakdown
     const breakdownDiv = document.getElementById('sampleBreakdown');
-    breakdownDiv.innerHTML = '<strong>Elements used:</strong><br>';
 
-    Object.entries(breakdown).forEach(([key, value]) => {
-        if (value) {
-            breakdownDiv.innerHTML += `<strong>${key.toUpperCase()}:</strong> ${value}<br>`;
-        }
-    });
+    if (Object.keys(breakdown).length > 0) {
+        // Visual rendering with color tags for all techniques
+        breakdownDiv.innerHTML = '<strong>Elements used:</strong><br><div style="margin-top: 0.5rem;">';
+
+        // Get field mapping from config
+        const fieldMapping = getFieldMapping(currentTechnique);
+
+        fieldMapping.forEach(elem => {
+            const value = breakdown[elem.key];
+            if (value) {
+                breakdownDiv.innerHTML += `
+                    <div style="margin-bottom: 0.5rem;">
+                        <span class="technique-tag ${elem.color}">${elem.icon} ${elem.label}</span>
+                        <span style="margin-left: 0.5rem;">${value}</span>
+                    </div>`;
+            }
+        });
+
+        breakdownDiv.innerHTML += '</div>';
+    } else {
+        // Fallback for questions without breakdown data
+        breakdownDiv.innerHTML = '<strong>Elements used:</strong><br><em style="color: #999;">Breakdown not available for this question</em>';
+    }
+}
+
+// Get field mapping for visual breakdown
+function getFieldMapping(technique) {
+    const mappings = {
+        '5w1h': [
+            { key: 'what', label: 'WHAT', icon: '📌', color: 'what' },
+            { key: 'when', label: 'WHEN', icon: '⏰', color: 'when' },
+            { key: 'where', label: 'WHERE', icon: '📍', color: 'where' },
+            { key: 'who', label: 'WHO', icon: '👥', color: 'who' },
+            { key: 'why', label: 'WHY', icon: '❓', color: 'why' },
+            { key: 'how', label: 'HOW', icon: '💭', color: 'how' }
+        ],
+        'prep': [
+            { key: 'point', label: 'POINT', icon: '🎯', color: 'point' },
+            { key: 'reason', label: 'REASON', icon: '💡', color: 'reason' },
+            { key: 'example', label: 'EXAMPLE', icon: '📋', color: 'example' },
+            { key: 'pointAgain', label: 'POINT AGAIN', icon: '🔁', color: 'point-again' }
+        ],
+        'past_present': [
+            { key: 'past', label: 'PAST', icon: '⏮️', color: 'past' },
+            { key: 'present', label: 'PRESENT', icon: '⏭️', color: 'present' },
+            { key: 'why', label: 'WHY CHANGED', icon: '🔄', color: 'why-changed' }
+        ],
+        'personal_general': [
+            { key: 'personal', label: 'PERSONAL', icon: '👤', color: 'personal' },
+            { key: 'general', label: 'GENERAL', icon: '🌍', color: 'general' },
+            { key: 'observation', label: 'OBSERVATION', icon: '👁️', color: 'general' }
+        ],
+        'contrast': [
+            { key: 'type', label: 'TYPE', icon: '🔀', color: 'markers' },
+            { key: 'sideA', label: 'SIDE A', icon: '⚖️', color: 'side-a' },
+            { key: 'sideB', label: 'SIDE B', icon: '⚡', color: 'side-b' },
+            { key: 'marker', label: 'MARKERS', icon: '🔤', color: 'markers' }
+        ],
+        'feelings': [
+            { key: 'emotions', label: 'EMOTIONS', icon: '💙', color: 'feelings' },
+            { key: 'reasons', label: 'REASONS', icon: '🔍', color: 'reasons' },
+            { key: 'impact', label: 'IMPACT', icon: '✨', color: 'impact' }
+        ],
+        'frequency': [
+            { key: 'main', label: 'MAIN FREQUENCY', icon: '⏰', color: 'main-freq' },
+            { key: 'variations', label: 'VARIATIONS', icon: '🔄', color: 'variations' }
+        ]
+    };
+
+    return mappings[technique] || [];
 }
 
 // Navigation
@@ -537,6 +674,21 @@ function nextQuestion() {
         currentIndex++;
         renderCurrentQuestion();
     }
+}
+
+function quickJumpToQuestion() {
+    const input = document.getElementById('quickJumpInput');
+    const questionNum = parseInt(input.value);
+
+    if (isNaN(questionNum) || questionNum < 1 || questionNum > allQuestions.length) {
+        alert(`Please enter a number between 1 and ${allQuestions.length}`);
+        return;
+    }
+
+    currentIndex = questionNum - 1;
+    renderCurrentQuestion();
+    input.value = '';
+    input.blur();
 }
 
 // Toggle functions

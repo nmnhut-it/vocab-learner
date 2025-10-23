@@ -61,6 +61,10 @@
         <h1 class="title">Module 2 Practice</h1>
         <div class="progress-mini">
             <span class="student-name" id="studentNameDisplay" style="display: none; margin-right: 1rem; font-weight: 500;"></span>
+            <div class="quick-jump">
+                <input type="number" id="quickJumpInput" class="quick-jump-input" placeholder="#" min="1" max="100" title="Jump to question">
+                <button class="quick-jump-btn" onclick="quickJumpToQuestion()" aria-label="Go">→</button>
+            </div>
             <span id="progressCount" onclick="openJumpModal()" style="cursor: pointer;" title="Click to jump to question">0/100</span>
             <button class="settings-btn" onclick="toggleSettings()" aria-label="Settings">⚙</button>
         </div>
@@ -186,6 +190,12 @@
             <div class="preview-meta">
                 <span id="elementCount">0/6 elements</span>
                 <span id="wordCount">0 words</span>
+            </div>
+
+            <!-- 5W1H Breakdown (only shown for 5W1H technique) -->
+            <div class="preview-breakdown" id="previewBreakdown" style="display: none;">
+                <div class="preview-breakdown-title">Elements Breakdown:</div>
+                <div id="breakdownContent"></div>
             </div>
         </section>
 
