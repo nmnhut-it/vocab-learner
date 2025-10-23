@@ -94,16 +94,20 @@ function init() {
         return;
     }
 
+    // Force cleanup any stale overlays/modals from previous sessions
+    cleanupStaleModals();
+
     // Initialize studentSession
     studentSession = new StudentSession();
     initializeAudioRecording();
+    setupTTSProgressIndicator();
 
     // Check if student has active session
     const hasSession = studentSession.hasActiveSession();
     console.log('Student has active session:', hasSession);
 
     if (hasSession) {
-        // Student is authenticated, hide modal and load content
+        // Student is authenticated, ensure modal is hidden and load content
         console.log('Hiding identification modal - student authenticated');
         hideIdentificationModal();
         displayStudentInfo();
@@ -113,10 +117,40 @@ function init() {
         setupEventListeners();
         renderCurrentQuestion();
     } else {
-        // No active session, ensure modal is visible and setup listeners
+        // No active session, show modal and setup listeners
         console.log('Showing identification modal - no active session');
         showIdentificationModal();
         setupIdentificationListeners();
+    }
+}
+
+function setupTTSProgressIndicator() {
+    const ttsStatusGlobal = document.getElementById('ttsStatusGlobal');
+    const ttsStatusMessage = document.querySelector('.tts-status-message');
+    const ttsProgressFill = document.querySelector('.tts-progress-fill');
+
+    if (window.ttsService) {
+        window.ttsService.onProgress((message, progress) => {
+            if (ttsStatusGlobal) {
+                ttsStatusGlobal.classList.remove('hidden');
+            }
+
+            if (ttsStatusMessage) {
+                ttsStatusMessage.textContent = message;
+            }
+
+            if (ttsProgressFill) {
+                ttsProgressFill.style.width = `${progress * 100}%`;
+            }
+
+            if (progress >= 1) {
+                setTimeout(() => {
+                    if (ttsStatusGlobal) {
+                        ttsStatusGlobal.classList.add('hidden');
+                    }
+                }, 2000);
+            }
+        });
     }
 }
 
@@ -136,6 +170,17 @@ function updateURLParameter(questionNum) {
     const url = new URL(window.location);
     url.searchParams.set('q', questionNum);
     window.history.replaceState({}, '', url);
+}
+
+function cleanupStaleModals() {
+    // Remove active class from any stale overlays/modals
+    const identOverlay = document.getElementById('identificationOverlay');
+    const identModal = document.getElementById('identificationModal');
+
+    if (identOverlay) identOverlay.classList.remove('active');
+    if (identModal) identModal.classList.remove('active');
+
+    console.log('Cleaned up stale modal states');
 }
 
 function initializeAudioRecording() {
@@ -868,160 +913,6 @@ function shuffleArray(array) {
 // Load favorites on init
 loadFavorites();
 
-// ========== JUMP MODAL ==========
-
-let currentJumpFilter = 'all';
-let jumpSearchText = '';
-
-function openJumpModal() {
-    const overlay = document.getElementById('jumpModalOverlay');
-    const modal = document.getElementById('jumpModal');
-
-    overlay.classList.add('active');
-    modal.classList.add('active');
-
-    // Populate question list
-    populateJumpList();
-
-    // Focus search input
-    setTimeout(() => {
-        document.getElementById('searchInput').focus();
-    }, 100);
-}
-
-function closeJumpModal() {
-    const overlay = document.getElementById('jumpModalOverlay');
-    const modal = document.getElementById('jumpModal');
-
-    overlay.classList.remove('active');
-    modal.classList.remove('active');
-
-    // Clear search
-    document.getElementById('searchInput').value = '';
-    document.getElementById('jumpNumber').value = '';
-    jumpSearchText = '';
-}
-
-function setJumpFilter(filter) {
-    currentJumpFilter = filter;
-
-    // Update tab buttons
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === filter);
-    });
-
-    // Repopulate list
-    populateJumpList();
-}
-
-function populateJumpList() {
-    const listContainer = document.getElementById('questionList');
-    listContainer.innerHTML = '';
-
-    if (!allQuestions || allQuestions.length === 0) return;
-
-    allQuestions.forEach((q, index) => {
-        const questionId = getQuestionId(q, index);
-        const questionText = typeof q === 'string' ? q : q.question;
-
-        // Apply filters
-        if (currentJumpFilter === 'favorites' && !favorites.has(questionId)) return;
-        if (currentJumpFilter === 'completed' && !completed.has(questionId)) return;
-
-        // Apply search
-        if (jumpSearchText && !questionText.toLowerCase().includes(jumpSearchText.toLowerCase())) return;
-
-        // Determine status icon
-        let statusIcon = '○'; // incomplete
-        if (completed.has(questionId)) statusIcon = '✓';
-        if (favorites.has(questionId)) statusIcon = '★';
-
-        // Create item
-        const item = document.createElement('div');
-        item.className = 'question-item';
-        if (index === currentIndex) item.classList.add('current');
-
-        item.innerHTML = `
-            <span class="question-status">${statusIcon}</span>
-            <span class="question-num-badge">Q${index + 1}</span>
-            <span class="question-preview">${questionText}</span>
-        `;
-
-        item.onclick = () => jumpToQuestion(index);
-        listContainer.appendChild(item);
-    });
-
-    // Show count
-    const count = listContainer.children.length;
-    if (count === 0) {
-        listContainer.innerHTML = '<p style="text-align: center; color: #999; padding: 2rem;">No questions found</p>';
-    }
-}
-
-function jumpToQuestion(index) {
-    if (index < 0 || index >= allQuestions.length) return;
-
-    currentIndex = index;
-    renderCurrentQuestion();
-    closeJumpModal();
-}
-
-function jumpToNumber() {
-    const input = document.getElementById('jumpNumber');
-    const num = parseInt(input.value);
-
-    if (isNaN(num) || num < 1 || num > allQuestions.length) {
-        alert(`Please enter a number between 1 and ${allQuestions.length}`);
-        return;
-    }
-
-    jumpToQuestion(num - 1); // Convert to 0-based index
-}
-
-// Setup search input
-function setupJumpSearch() {
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            jumpSearchText = e.target.value;
-            populateJumpList();
-        });
-    }
-
-    // Jump number on Enter key
-    const jumpNumberInput = document.getElementById('jumpNumber');
-    if (jumpNumberInput) {
-        jumpNumberInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') jumpToNumber();
-        });
-    }
-
-    // ESC to close modal
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            const modal = document.getElementById('jumpModal');
-            if (modal.classList.contains('active')) {
-                closeJumpModal();
-            }
-        }
-
-        // 'j' to open modal (when not in input)
-        if (e.key === 'j' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
-            const modal = document.getElementById('jumpModal');
-            if (!modal.classList.contains('active')) {
-                openJumpModal();
-            }
-        }
-    });
-}
-
-// Call setup after DOM loads
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupJumpSearch);
-} else {
-    setupJumpSearch();
-}
-
 // ========== STUDENT IDENTIFICATION FUNCTIONS ==========
 
 function setupIdentificationListeners() {
@@ -1533,55 +1424,65 @@ function updateVocabularySection() {
 
 async function playSampleAnswer() {
     if (!currentSampleText) {
-        alert('No sample answer available');
+        console.warn('No sample answer text available');
         return;
     }
 
     if (!window.ttsService) {
-        alert('Text-to-speech service not available');
+        console.error('TTS service not loaded');
         return;
     }
 
     const listenBtn = document.getElementById('btnListenSample');
     const stopBtn = document.getElementById('btnStopSample');
-    const loadingIndicator = document.getElementById('audioLoading');
 
     try {
-        isTTSPlaying = true;
-        listenBtn.style.display = 'none';
-        loadingIndicator.style.display = 'inline';
-
-        if (!ttsInitialized) {
-            await window.ttsService.initialize();
-            ttsInitialized = true;
+        if (listenBtn) listenBtn.style.display = 'none';
+        if (stopBtn) {
+            stopBtn.style.display = 'inline-block';
+            stopBtn.textContent = '⏳ Generating...';
+            stopBtn.disabled = true;
         }
 
-        loadingIndicator.style.display = 'none';
-        stopBtn.style.display = 'inline-block';
+        isTTSPlaying = true;
 
         await window.ttsService.speak(currentSampleText, {
             useCache: true,
+            onStart: () => {
+                console.log('Playing sample answer');
+                if (stopBtn) {
+                    stopBtn.textContent = '⏹️ Stop';
+                    stopBtn.disabled = false;
+                }
+                ttsInitialized = true;
+            },
             onEnd: () => {
                 isTTSPlaying = false;
-                stopBtn.style.display = 'none';
-                listenBtn.style.display = 'inline-block';
+                if (stopBtn) stopBtn.style.display = 'none';
+                if (listenBtn) {
+                    listenBtn.style.display = 'inline-block';
+                    listenBtn.disabled = false;
+                }
             },
             onError: (error) => {
-                console.error('TTS error:', error);
+                console.error('TTS playback error:', error);
                 isTTSPlaying = false;
-                stopBtn.style.display = 'none';
-                listenBtn.style.display = 'inline-block';
-                loadingIndicator.style.display = 'none';
+                if (stopBtn) stopBtn.style.display = 'none';
+                if (listenBtn) {
+                    listenBtn.style.display = 'inline-block';
+                    listenBtn.disabled = false;
+                }
             }
         });
 
     } catch (error) {
-        console.error('Failed to play sample:', error);
-        alert('Failed to play audio. Please try again.');
+        console.error('Failed to play sample audio:', error);
         isTTSPlaying = false;
-        stopBtn.style.display = 'none';
-        listenBtn.style.display = 'inline-block';
-        loadingIndicator.style.display = 'none';
+        if (stopBtn) stopBtn.style.display = 'none';
+        if (listenBtn) {
+            listenBtn.style.display = 'inline-block';
+            listenBtn.disabled = false;
+        }
     }
 }
 

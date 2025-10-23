@@ -148,12 +148,18 @@ class TTSService {
                 return;
             }
 
-            // Generate speech
+            // Call onStart BEFORE heavy operation
             if (onStart) onStart();
 
+            // Yield to browser to update UI before heavy TTS generation
+            await new Promise(resolve => setTimeout(resolve, 100));
+
+            // Generate speech (this is CPU-intensive and may block briefly)
+            console.log('Starting TTS generation for:', text.substring(0, 50) + '...');
             const output = await this.ttsModel(text, {
                 speaker_embeddings: this.speakerEmbeddings
             });
+            console.log('TTS generation complete, audio length:', output.audio?.length);
 
             // Cache the audio data
             if (useCache) {
@@ -161,7 +167,9 @@ class TTSService {
             }
 
             // Play audio
+            console.log('Starting audio playback...');
             await this.playAudio(output.audio, null, onEnd);
+            console.log('Audio playback complete');
 
         } catch (error) {
             console.error('TTS error:', error);
@@ -175,13 +183,13 @@ class TTSService {
             try {
                 // Create audio context
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                const sampleRate = 16000; // SpeechT5 native sample rate
+                const modelSampleRate = 16000; // SpeechT5 native sample rate
 
-                // Create audio buffer
+                // Create buffer at model's sample rate, AudioContext will resample
                 const audioBuffer = audioContext.createBuffer(
                     1,
                     audioData.length,
-                    sampleRate
+                    modelSampleRate
                 );
 
                 audioBuffer.copyToChannel(audioData, 0);

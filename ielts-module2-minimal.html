@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="styles/module2-minimal.css">
 </head>
 <body>
+    <!-- Global TTS Status Indicator -->
+    <div id="ttsStatusGlobal" class="tts-status-global hidden">
+        <div class="tts-status-content">
+            <div class="spinner"></div>
+            <div class="tts-status-message">Loading AI voice...</div>
+            <div class="tts-progress-bar">
+                <div class="tts-progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Student Identification Modal -->
-    <div class="modal-overlay active" id="identificationOverlay"></div>
-    <div class="identification-modal active" id="identificationModal">
+    <div class="identification-overlay" id="identificationOverlay"></div>
+    <div class="identification-modal" id="identificationModal">
         <div class="modal-header">
             <h3>👤 Student Identification</h3>
         </div>
@@ -65,36 +76,10 @@
                 <input type="number" id="quickJumpInput" class="quick-jump-input" placeholder="#" min="1" max="100" title="Jump to question">
                 <button class="quick-jump-btn" onclick="quickJumpToQuestion()" aria-label="Go">→</button>
             </div>
-            <span id="progressCount" onclick="openJumpModal()" style="cursor: pointer;" title="Click to jump to question">0/100</span>
+            <span id="progressCount" style="cursor: default;">0/100</span>
             <button class="settings-btn" onclick="toggleSettings()" aria-label="Settings">⚙</button>
         </div>
     </header>
-
-    <!-- Jump Modal -->
-    <div class="modal-overlay" id="jumpModalOverlay" onclick="closeJumpModal()"></div>
-    <div class="jump-modal" id="jumpModal">
-        <header class="modal-header">
-            <h3>Jump to Question</h3>
-            <button class="modal-close" onclick="closeJumpModal()" aria-label="Close">✕</button>
-        </header>
-        <div class="modal-body">
-            <div class="jump-input-group">
-                <input type="search" placeholder="Search questions..." id="searchInput" autocomplete="off">
-                <div class="jump-number-group">
-                    <input type="number" placeholder="#" id="jumpNumber" min="1" max="100">
-                    <button class="btn-go" onclick="jumpToNumber()">Go</button>
-                </div>
-            </div>
-            <div class="filter-tabs">
-                <button class="tab-btn active" data-filter="all" onclick="setJumpFilter('all')">All</button>
-                <button class="tab-btn" data-filter="favorites" onclick="setJumpFilter('favorites')">Favorites</button>
-                <button class="tab-btn" data-filter="completed" onclick="setJumpFilter('completed')">Completed</button>
-            </div>
-            <div class="question-list" id="questionList">
-                <!-- Questions populated by JavaScript -->
-            </div>
-        </div>
-    </div>
 
     <!-- Settings Overlay -->
     <div class="settings-overlay" id="settingsOverlay" onclick="toggleSettings()"></div>
@@ -213,7 +198,6 @@
                     <button class="btn-audio-stop" id="btnStopSample" onclick="stopSampleAudio()" style="display: none;">
                         ⏹️ Stop
                     </button>
-                    <span class="audio-loading" id="audioLoading" style="display: none;">Loading voice...</span>
                 </div>
             </div>
             <div class="sample-content" id="sampleContent" style="display: none;">
