@@ -201,10 +201,21 @@
 
         <!-- Sample Answer (Collapsible) -->
         <section class="sample-section" id="sampleSection" style="display: none;">
-            <button class="sample-toggle" onclick="toggleSample()">
-                <span id="sampleToggleIcon">▶</span>
-                <span>Compare with Band 7-7.5 Sample</span>
-            </button>
+            <div class="sample-header">
+                <button class="sample-toggle" onclick="toggleSample()">
+                    <span id="sampleToggleIcon">▶</span>
+                    <span>Compare with Band 7-7.5 Sample</span>
+                </button>
+                <div class="sample-audio-controls">
+                    <button class="btn-audio-listen" id="btnListenSample" onclick="playSampleAnswer()" style="display: none;">
+                        🔊 Listen
+                    </button>
+                    <button class="btn-audio-stop" id="btnStopSample" onclick="stopSampleAudio()" style="display: none;">
+                        ⏹️ Stop
+                    </button>
+                    <span class="audio-loading" id="audioLoading" style="display: none;">Loading voice...</span>
+                </div>
+            </div>
             <div class="sample-content" id="sampleContent" style="display: none;">
                 <div class="sample-breakdown" id="sampleBreakdown"></div>
                 <div class="sample-answer" id="sampleAnswer"></div>
@@ -241,6 +252,7 @@
 
     <!-- Scripts -->
     <script src="telegram.js"></script>
+    <script src="scripts/ttsService.js"></script>
     <script src="scripts/cameraCapture.js"></script>
     <script src="scripts/studentSession.js"></script>
     <script src="scripts/audioRecorder.js"></script>

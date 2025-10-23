@@ -75,6 +75,11 @@ let studentSession = null;
 let identificationCamera = null;
 let capturedPhotoData = null;
 
+// TTS state
+let currentSampleText = null;
+let isTTSPlaying = false;
+let ttsInitialized = false;
+
 // Storage keys
 const STORAGE_KEY = 'module2_minimal_progress';
 const FAVORITES_KEY = 'module2_minimal_favorites';
@@ -242,6 +247,11 @@ function setupEventListeners() {
 // Render current question
 function renderCurrentQuestion() {
     if (!allQuestions || allQuestions.length === 0) return;
+
+    // Stop any playing TTS audio when switching questions
+    if (isTTSPlaying) {
+        stopSampleAudio();
+    }
 
     const question = allQuestions[currentIndex];
     const questionText = typeof question === 'string' ? question : question.question;
@@ -592,6 +602,13 @@ function generateTemplate4(v) {
 // Render sample answer
 function renderSampleAnswer(sampleText) {
     document.getElementById('sampleAnswer').textContent = sampleText;
+    currentSampleText = sampleText;
+
+    // Show listen button when sample is available
+    const listenBtn = document.getElementById('btnListenSample');
+    if (listenBtn) {
+        listenBtn.style.display = 'inline-block';
+    }
 
     // Parse breakdown
     const config = TECHNIQUE_CONFIG[currentTechnique];
@@ -1510,4 +1527,74 @@ function updateVocabularySection() {
     } else {
         vocabSection.style.display = 'none';
     }
+}
+
+// ========== TTS SAMPLE ANSWER PLAYBACK ==========
+
+async function playSampleAnswer() {
+    if (!currentSampleText) {
+        alert('No sample answer available');
+        return;
+    }
+
+    if (!window.ttsService) {
+        alert('Text-to-speech service not available');
+        return;
+    }
+
+    const listenBtn = document.getElementById('btnListenSample');
+    const stopBtn = document.getElementById('btnStopSample');
+    const loadingIndicator = document.getElementById('audioLoading');
+
+    try {
+        isTTSPlaying = true;
+        listenBtn.style.display = 'none';
+        loadingIndicator.style.display = 'inline';
+
+        if (!ttsInitialized) {
+            await window.ttsService.initialize();
+            ttsInitialized = true;
+        }
+
+        loadingIndicator.style.display = 'none';
+        stopBtn.style.display = 'inline-block';
+
+        await window.ttsService.speak(currentSampleText, {
+            useCache: true,
+            onEnd: () => {
+                isTTSPlaying = false;
+                stopBtn.style.display = 'none';
+                listenBtn.style.display = 'inline-block';
+            },
+            onError: (error) => {
+                console.error('TTS error:', error);
+                isTTSPlaying = false;
+                stopBtn.style.display = 'none';
+                listenBtn.style.display = 'inline-block';
+                loadingIndicator.style.display = 'none';
+            }
+        });
+
+    } catch (error) {
+        console.error('Failed to play sample:', error);
+        alert('Failed to play audio. Please try again.');
+        isTTSPlaying = false;
+        stopBtn.style.display = 'none';
+        listenBtn.style.display = 'inline-block';
+        loadingIndicator.style.display = 'none';
+    }
+}
+
+function stopSampleAudio() {
+    if (window.ttsService) {
+        window.ttsService.stop();
+    }
+
+    isTTSPlaying = false;
+
+    const listenBtn = document.getElementById('btnListenSample');
+    const stopBtn = document.getElementById('btnStopSample');
+
+    if (stopBtn) stopBtn.style.display = 'none';
+    if (listenBtn) listenBtn.style.display = 'inline-block';
 }

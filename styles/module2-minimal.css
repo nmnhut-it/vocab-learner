@@ -343,12 +343,21 @@ body {
     margin-bottom: 3rem;
 }
 
-.sample-toggle {
-    width: 100%;
-    padding: 1rem 1.5rem;
+.sample-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 0.5rem;
+    padding-right: 1rem;
+}
+
+.sample-toggle {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    background: transparent;
+    border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -360,6 +369,55 @@ body {
 
 .sample-toggle:hover {
     background: var(--color-bg-light);
+}
+
+.sample-audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-audio-listen,
+.btn-audio-stop {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+}
+
+.btn-audio-listen:hover {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+}
+
+.btn-audio-stop {
+    background: #dc2626;
+    color: white;
+    border-color: #dc2626;
+}
+
+.btn-audio-stop:hover {
+    background: #b91c1c;
+    border-color: #b91c1c;
+}
+
+.audio-loading {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
 }
 
 #sampleToggleIcon {
@@ -476,6 +534,22 @@ body {
 
     .student-name {
         display: none !important;
+    }
+
+    .sample-header {
+        flex-direction: column;
+        align-items: stretch;
+        padding-right: 0;
+    }
+
+    .sample-audio-controls {
+        padding: 0 1rem 1rem;
+        justify-content: center;
+    }
+
+    .btn-audio-listen,
+    .btn-audio-stop {
+        flex: 1;
     }
 
     .nav-section {
