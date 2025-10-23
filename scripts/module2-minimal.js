@@ -258,6 +258,9 @@ function renderCurrentQuestion() {
         document.getElementById('sampleSection').style.display = 'none';
     }
 
+    // Update vocabulary section
+    updateVocabularySection();
+
     // Hide feedback
     document.getElementById('feedbackSection').style.display = 'none';
 
@@ -1302,5 +1305,195 @@ async function sendAudioToTelegram() {
     } finally {
         sendBtn.disabled = false;
         sendBtn.textContent = originalText;
+    }
+}
+
+// ============================================
+// VOCABULARY SECTION
+// ============================================
+
+// Vocabulary Toggle
+function toggleVocab() {
+    const vocabContent = document.getElementById('vocabContent');
+    const vocabToggleIcon = document.getElementById('vocabToggleIcon');
+
+    if (vocabContent.style.display === 'none') {
+        vocabContent.style.display = 'block';
+        vocabToggleIcon.textContent = '▼';
+        loadVocabularyForCurrentQuestion();
+    } else {
+        vocabContent.style.display = 'none';
+        vocabToggleIcon.textContent = '▶';
+    }
+}
+
+// Question to vocabulary category mapping
+const QUESTION_TO_VOCAB = {
+    'music': 'hobbies',
+    'movies': 'hobbies',
+    'watching': 'hobbies',
+    'weekends': 'hobbies',
+    'hobbies': 'hobbies',
+    'free time': 'hobbies',
+    'studying': 'daily-life',
+    'wake up': 'daily-life',
+    'evenings': 'daily-life',
+    'eating at': 'daily-life',
+    'after work': 'daily-life',
+    'after school': 'daily-life',
+    'sports': 'sports',
+    'outdoor activities': 'sports',
+    'swimming': 'sports',
+    'gym': 'sports',
+    'exercise': 'sports',
+    'social media': 'technology',
+    'phone': 'technology',
+    'TV shows': 'technology',
+    'online shopping': 'shopping',
+    'internet': 'technology',
+    'family': 'people',
+    'friends': 'people',
+    'meeting new people': 'people',
+    'childhood friends': 'people',
+    'spending time': 'people',
+    'studies': 'work',
+    'learning': 'work',
+    'subject': 'work',
+    'job': 'work',
+    'traveling': 'travel',
+    'hometown': 'travel',
+    'city or countryside': 'travel',
+    'abroad': 'travel',
+    'visit': 'travel',
+    'cooking': 'food',
+    'food': 'food',
+    'eat out': 'food',
+    'trying new foods': 'food',
+    'traditional food': 'food',
+    'weather': 'weather',
+    'hot or cold': 'weather',
+    'season': 'weather',
+    'affect your mood': 'weather',
+    'forecast': 'weather',
+    'clothes': 'shopping',
+    'wear': 'shopping',
+    'fashion': 'shopping',
+    'buy things': 'shopping',
+    'shopping alone': 'shopping',
+    'house or apartment': 'home',
+    'favorite room': 'home',
+    'decorating': 'home',
+    'move': 'home',
+    'living with': 'home',
+    'museums': 'arts',
+    'concert': 'arts',
+    'photographs': 'arts',
+    'drawing': 'arts',
+    'painting': 'arts',
+    'art': 'arts',
+    'nature': 'nature',
+    'plants': 'nature',
+    'environment': 'nature',
+    'mountains or beaches': 'nature',
+    'wildlife': 'nature',
+    'travel to work': 'transport',
+    'public transportation': 'transport',
+    'train': 'transport',
+    'journeys': 'transport',
+    'drive': 'transport',
+    'healthy lifestyle': 'health',
+    'sleep': 'health',
+    'vitamins': 'health',
+    'supplements': 'health',
+    'relax': 'health',
+    'stressed': 'health',
+    'festival': 'celebrations',
+    'celebration': 'celebrations',
+    'birthday': 'celebrations',
+    'holidays': 'celebrations',
+    'gifts': 'celebrations',
+    'pets': 'pets',
+    'animals': 'pets',
+    'languages': 'language',
+    'learning languages': 'language',
+    'English': 'language',
+    'writing': 'language',
+    'texting or calling': 'language'
+};
+
+// Get vocabulary category for current question
+function getVocabCategoryForQuestion(questionText) {
+    if (!questionText) return null;
+
+    const lowerQuestion = questionText.toLowerCase();
+    for (const [keyword, category] of Object.entries(QUESTION_TO_VOCAB)) {
+        if (lowerQuestion.includes(keyword)) {
+            return category;
+        }
+    }
+    return null;
+}
+
+// Load vocabulary for current question
+async function loadVocabularyForCurrentQuestion() {
+    const vocabList = document.getElementById('vocabList');
+    const vocabLoading = document.getElementById('vocabLoading');
+
+    const currentQuestion = allQuestions[currentIndex];
+    if (!currentQuestion) return;
+
+    const category = getVocabCategoryForQuestion(currentQuestion.question);
+    if (!category) {
+        vocabList.innerHTML = '<p style="color: #6b7280; text-align: center;">No vocabulary available for this question.</p>';
+        return;
+    }
+
+    vocabLoading.style.display = 'block';
+    vocabList.innerHTML = '';
+
+    try {
+        const response = await fetch(`data/module2-vocab-${category}.json`);
+        if (!response.ok) throw new Error('Failed to load vocabulary');
+
+        const vocabulary = await response.json();
+        vocabLoading.style.display = 'none';
+
+        if (vocabulary.length === 0) {
+            vocabList.innerHTML = '<p style="color: #6b7280;">No vocabulary found.</p>';
+            return;
+        }
+
+        vocabList.innerHTML = vocabulary.map(item => `
+            <div class="vocab-item">
+                <div class="vocab-header">
+                    <span class="vocab-word">${item.english}</span>
+                    <span class="vocab-type">${item.type}</span>
+                </div>
+                <div class="vocab-pronunciation">${item.pronunciation}</div>
+                <div class="vocab-meaning">${item.vietnamese}</div>
+            </div>
+        `).join('');
+
+    } catch (error) {
+        console.error('Error loading vocabulary:', error);
+        vocabLoading.style.display = 'none';
+        vocabList.innerHTML = '<p style="color: #ef4444;">Error loading vocabulary. Please try again.</p>';
+    }
+}
+
+// Show/hide vocabulary section based on question
+function updateVocabularySection() {
+    const vocabSection = document.getElementById('vocabSection');
+    const currentQuestion = allQuestions[currentIndex];
+
+    if (currentQuestion && currentTechnique === '5w1h') {
+        const category = getVocabCategoryForQuestion(currentQuestion.question);
+        if (category) {
+            vocabSection.style.display = 'block';
+        } else {
+            vocabSection.style.display = 'none';
+        }
+    } else {
+        vocabSection.style.display = 'none';
     }
 }

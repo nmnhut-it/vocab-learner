@@ -211,6 +211,20 @@
             </div>
         </section>
 
+        <!-- Vocabulary Section (Collapsible) -->
+        <section class="vocab-section" id="vocabSection" style="display: none;">
+            <button class="vocab-toggle" onclick="toggleVocab()">
+                <span id="vocabToggleIcon">▶</span>
+                <span>💡 Useful Vocabulary for This Topic</span>
+            </button>
+            <div class="vocab-content" id="vocabContent" style="display: none;">
+                <div class="vocab-loading" id="vocabLoading" style="display: none;">
+                    <p>Loading vocabulary...</p>
+                </div>
+                <div class="vocab-list" id="vocabList"></div>
+            </div>
+        </section>
+
         <!-- AI Feedback -->
         <section class="feedback-section" id="feedbackSection" style="display: none;">
             <h3>AI Feedback</h3>
