@@ -54,8 +54,10 @@ class TTSService {
             env.allowLocalModels = true;
             env.allowRemoteModels = true; // Fallback to remote if local not found
 
-            // Configure to use WASM backend for better compatibility
-            env.backends.onnx.wasm.proxy = false;
+            // Try to use WebGPU for GPU acceleration
+            const hasWebGPU = 'gpu' in navigator;
+            this.useGPU = hasWebGPU;
+            console.log(`Using ${hasWebGPU ? 'WebGPU (GPU)' : 'WASM (CPU)'} backend`);
 
             // Check if local models exist
             const hasLocal = await this.checkLocalModels();
@@ -72,7 +74,7 @@ class TTSService {
             // Load TTS model (full precision for best audio quality)
             this.ttsModel = await pipeline('text-to-speech', 'Xenova/speecht5_tts', {
                 quantized: false,
-                device: 'wasm',
+                device: this.useGPU ? 'webgpu' : 'wasm',
                 progress_callback: (progress) => {
                     if (progress.status === 'progress' && progress.file) {
                         fileProgress.set(progress.file, progress.progress || 0);
