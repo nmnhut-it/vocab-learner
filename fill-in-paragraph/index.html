@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge English Grammar Study</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #2d5016 0%, #1a3d0a 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: rgba(76, 175, 80, 0.3);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .controls {
+            padding: 20px 30px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .level-selector {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .level-selector label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .level-selector select {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            font-size: 1em;
+            color: white;
+            cursor: pointer;
+        }
+
+        .level-selector select option {
+            background: #1a3d0a;
+            color: white;
+        }
+
+        .progress-info {
+            flex: 1;
+            text-align: right;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .exercise-area {
+            padding: 30px;
+        }
+
+        .exercise-title {
+            font-size: 1.5em;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .exercise-number {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 20px;
+        }
+
+        .exercise-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .gap-input {
+            display: inline-block;
+            min-width: 100px;
+            padding: 6px 10px;
+            border: none;
+            border-bottom: 2px solid rgba(76, 175, 80, 0.7);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(5px);
+            font-size: 1em;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        .gap-input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .gap-input.correct {
+            border-bottom-color: #66bb6a;
+            background: rgba(102, 187, 106, 0.25);
+        }
+
+        .gap-input.incorrect {
+            border-bottom-color: #ef5350;
+            background: rgba(239, 83, 80, 0.25);
+        }
+
+        .gap-input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .answers-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(76, 175, 80, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+            display: none;
+        }
+
+        .answers-section.show {
+            display: block;
+        }
+
+        .answers-title {
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .answer-item {
+            padding: 8px;
+            margin: 5px 0;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .answer-item.correct {
+            color: #66bb6a;
+        }
+
+        .answer-item.incorrect {
+            color: #ef5350;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .button {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 400;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-primary {
+            background: rgba(76, 175, 80, 0.4);
+            color: white;
+        }
+
+        .button-primary:hover {
+            background: rgba(76, 175, 80, 0.5);
+        }
+
+        .button-secondary {
+            background: rgba(129, 199, 132, 0.4);
+            color: white;
+        }
+
+        .button-secondary:hover {
+            background: rgba(129, 199, 132, 0.5);
+        }
+
+        .button-tertiary {
+            background: rgba(102, 187, 106, 0.4);
+            color: white;
+        }
+
+        .button-tertiary:hover {
+            background: rgba(102, 187, 106, 0.5);
+        }
+
+        .score-display {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+            }
+
+            .progress-info {
+                text-align: left;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cambridge English Grammar Study</h1>
+            <p>Practice B1 (PET) & B2 (FCE) Grammar Exercises</p>
+        </div>
+
+        <div class="controls">
+            <div class="level-selector">
+                <label for="levelSelect">Select Level</label>
+                <select id="levelSelect">
+                    <option value="PET">B1 - Preliminary (PET)</option>
+                    <option value="FCE">B2 - First (FCE)</option>
+                </select>
+            </div>
+            <div class="progress-info">
+                <span id="progressText">Exercise 1 of 21</span>
+            </div>
+        </div>
+
+        <div class="exercise-area" id="exerciseArea">
+            <div class="loading">Loading exercises...</div>
+        </div>
+    </div>
+
+    <script>
+        let exercises = [];
+        let currentExerciseIndex = 0;
+        let currentLevel = 'PET';
+        let userAnswers = [];
+        let score = 0;
+
+        const exerciseArea = document.getElementById('exerciseArea');
+        const levelSelect = document.getElementById('levelSelect');
+        const progressText = document.getElementById('progressText');
+
+        async function loadExercises(level) {
+            try {
+                const response = await fetch(`data/${level}.json`);
+                const data = await response.text();
+                exercises = data.trim().split('\n').map(line => JSON.parse(line));
+                currentExerciseIndex = 0;
+                renderExercise();
+            } catch (error) {
+                exerciseArea.innerHTML = '<div class="loading">Error loading exercises. Make sure the data files are available.</div>';
+            }
+        }
+
+        function renderExercise() {
+            const exercise = exercises[currentExerciseIndex];
+            userAnswers = new Array(exercise.gaps.length).fill('');
+
+            progressText.textContent = `Exercise ${currentExerciseIndex + 1} of ${exercises.length}`;
+
+            let textWithGaps = exercise.text;
+            exercise.gaps.forEach((gap, index) => {
+                textWithGaps = textWithGaps.replace('_', `<input type="text" class="gap-input" data-gap="${index}" placeholder="${index + 1}">`);
+            });
+
+            exerciseArea.innerHTML = `
+                ${exercise.title ? `<div class="exercise-title">${exercise.title}</div>` : ''}
+                <div class="exercise-number">${currentLevel} - Exercise ${currentExerciseIndex + 1}</div>
+                <div class="exercise-text">${textWithGaps}</div>
+
+                <div class="answers-section" id="answersSection">
+                    <div class="answers-title">Answers:</div>
+                    <div id="answersContent"></div>
+                </div>
+
+                <div id="scoreDisplay"></div>
+
+                <div class="button-group">
+                    <button class="button button-primary" onclick="checkAnswers()">Check Answers</button>
+                    <button class="button button-secondary" onclick="showAnswers()">Show Answers</button>
+                    <button class="button button-tertiary" onclick="nextExercise()">Next Exercise</button>
+                </div>
+            `;
+
+            document.querySelectorAll('.gap-input').forEach(input => {
+                input.addEventListener('input', (e) => {
+                    const gapIndex = parseInt(e.target.dataset.gap);
+                    userAnswers[gapIndex] = e.target.value.trim().toLowerCase();
+                });
+            });
+        }
+
+        function checkAnswers() {
+            const exercise = exercises[currentExerciseIndex];
+            let correct = 0;
+            const inputs = document.querySelectorAll('.gap-input');
+
+            inputs.forEach((input, index) => {
+                const userAnswer = userAnswers[index];
+                const correctAnswers = exercise.gaps[index].answers.map(a => a.toLowerCase());
+
+                input.classList.remove('correct', 'incorrect');
+
+                if (correctAnswers.includes(userAnswer)) {
+                    input.classList.add('correct');
+                    correct++;
+                } else if (userAnswer !== '') {
+                    input.classList.add('incorrect');
+                }
+            });
+
+            const total = exercise.gaps.length;
+            const percentage = Math.round((correct / total) * 100);
+
+            document.getElementById('scoreDisplay').innerHTML = `
+                <div class="score-display">
+                    Score: ${correct} / ${total} (${percentage}%)
+                </div>
+            `;
+        }
+
+        function showAnswers() {
+            const exercise = exercises[currentExerciseIndex];
+            const answersContent = document.getElementById('answersContent');
+            const answersSection = document.getElementById('answersSection');
+
+            let html = '';
+            exercise.gaps.forEach((gap, index) => {
+                const userAnswer = userAnswers[index];
+                const correctAnswers = gap.answers.join(' / ');
+                const isCorrect = gap.answers.map(a => a.toLowerCase()).includes(userAnswer);
+
+                html += `
+                    <div class="answer-item ${isCorrect ? 'correct' : 'incorrect'}">
+                        Gap ${index + 1}: <strong>${correctAnswers}</strong>
+                        ${userAnswer ? ` (You wrote: ${userAnswer})` : ''}
+                    </div>
+                `;
+            });
+
+            answersContent.innerHTML = html;
+            answersSection.classList.add('show');
+        }
+
+        function nextExercise() {
+            currentExerciseIndex = (currentExerciseIndex + 1) % exercises.length;
+            renderExercise();
+        }
+
+        levelSelect.addEventListener('change', (e) => {
+            currentLevel = e.target.value;
+            loadExercises(currentLevel);
+        });
+
+        loadExercises('PET');
+    </script>
+</body>
+</html>
