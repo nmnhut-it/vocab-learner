@@ -5,6 +5,222 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cambridge English Grammar Study</title>
     <style>
+        /* Identification Modal Styles */
+        .identification-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 9998;
+        }
+
+        .identification-overlay.active {
+            display: block;
+        }
+
+        .identification-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            z-index: 9999;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .identification-modal.active {
+            display: block;
+        }
+
+        .modal-header h3 {
+            color: #1a3d0a;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .modal-body {
+            color: #333;
+        }
+
+        .identification-intro {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .form-field {
+            margin-bottom: 20px;
+        }
+
+        .form-field label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #1a3d0a;
+        }
+
+        .form-field input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #76af50;
+            border-radius: 8px;
+            font-size: 1em;
+            background: white;
+            color: #333;
+        }
+
+        .camera-section {
+            margin: 20px 0;
+        }
+
+        .camera-preview {
+            width: 100%;
+            height: 300px;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .camera-preview video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .camera-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #999;
+        }
+
+        .camera-placeholder.hidden {
+            display: none;
+        }
+
+        .camera-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .photo-preview {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .photo-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .camera-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn-camera, .btn-camera-secondary {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-camera {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-camera:hover {
+            background: #45a049;
+        }
+
+        .btn-camera-secondary {
+            background: #666;
+            color: white;
+        }
+
+        .btn-camera-secondary:hover {
+            background: #555;
+        }
+
+        .btn-submit-identification {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 500;
+            cursor: pointer;
+            background: #4caf50;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-submit-identification:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-submit-identification:not(:disabled):hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .identification-note {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #e67e22;
+            text-align: center;
+        }
+
+        .student-info {
+            display: none;
+            color: rgba(255, 255, 255, 0.95);
+            font-weight: 500;
+        }
+
+        .student-info.active {
+            display: inline;
+        }
+
+        .btn-end-session {
+            padding: 10px 20px;
+            background: rgba(239, 83, 80, 0.4);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .btn-end-session:hover {
+            background: rgba(239, 83, 80, 0.6);
+            transform: translateY(-2px);
+        }
+    </style>
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -279,6 +495,54 @@
     </style>
 </head>
 <body>
+    <!-- Student Identification Modal -->
+    <div class="identification-overlay" id="identificationOverlay"></div>
+    <div class="identification-modal" id="identificationModal">
+        <div class="modal-header">
+            <h3>👤 Student Identification</h3>
+        </div>
+        <div class="modal-body">
+            <p class="identification-intro">Please enter your name and take a photo to start your practice session.</p>
+
+            <div class="form-field">
+                <label for="studentName">Your Name</label>
+                <input type="text" id="studentName" placeholder="Enter your full name" autocomplete="name" required>
+            </div>
+
+            <div class="camera-section">
+                <div class="camera-preview" id="cameraPreview">
+                    <video id="cameraVideo" autoplay playsinline></video>
+                    <div class="camera-placeholder" id="cameraPlaceholder">
+                        <span class="camera-icon">📷</span>
+                        <p>Camera will appear here</p>
+                    </div>
+                </div>
+
+                <div class="photo-preview" id="photoPreview" style="display: none;">
+                    <img id="capturedPhoto" alt="Your photo">
+                </div>
+
+                <div class="camera-controls">
+                    <button class="btn-camera" id="startCameraBtn" onclick="startIdentificationCamera()">
+                        📷 Start Camera
+                    </button>
+                    <button class="btn-camera" id="capturePhotoBtn" onclick="captureIdentificationPhoto()" style="display: none;">
+                        📸 Capture Photo
+                    </button>
+                    <button class="btn-camera-secondary" id="retakePhotoBtn" onclick="retakeIdentificationPhoto()" style="display: none;">
+                        🔄 Retake
+                    </button>
+                </div>
+            </div>
+
+            <button class="btn-submit-identification" id="submitIdentificationBtn" onclick="submitIdentification()" disabled>
+                Start Practice Session
+            </button>
+
+            <p class="identification-note">⚠️ Your photo will be sent to your instructor via Telegram.</p>
+        </div>
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>Cambridge English Grammar Study</h1>
@@ -294,7 +558,11 @@
                 </select>
             </div>
             <div class="progress-info">
+                <span class="student-info" id="studentInfo" style="margin-right: 1rem;"></span>
                 <span id="progressText">Exercise 1 of 21</span>
+                <button class="btn-end-session" id="btnEndSession" onclick="endStudentSession()" style="display: none; margin-left: 1rem;">
+                    🚪 End Session
+                </button>
             </div>
         </div>
 
@@ -303,7 +571,205 @@
         </div>
     </div>
 
+    <!-- Scripts -->
+    <script src="../telegram.js"></script>
+    <script src="../scripts/cameraCapture.js"></script>
+    <script src="../scripts/studentSession.js"></script>
     <script>
+        // Student session management
+        let studentSession = null;
+        let cameraCapture = null;
+        let capturedPhotoData = null;
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            studentSession = new StudentSession();
+            cameraCapture = new CameraCapture();
+
+            if (studentSession.hasActiveSession()) {
+                startMainApp();
+            } else {
+                showIdentificationModal();
+            }
+        });
+
+        function showIdentificationModal() {
+            document.getElementById('identificationOverlay').classList.add('active');
+            document.getElementById('identificationModal').classList.add('active');
+            document.querySelector('.container').style.display = 'none';
+        }
+
+        function hideIdentificationModal() {
+            document.getElementById('identificationOverlay').classList.remove('active');
+            document.getElementById('identificationModal').classList.remove('active');
+            document.querySelector('.container').style.display = 'block';
+        }
+
+        async function startIdentificationCamera() {
+            try {
+                const videoElement = document.getElementById('cameraVideo');
+                await cameraCapture.initialize(videoElement);
+
+                document.getElementById('cameraPlaceholder').classList.add('hidden');
+                document.getElementById('startCameraBtn').style.display = 'none';
+                document.getElementById('capturePhotoBtn').style.display = 'block';
+            } catch (error) {
+                alert('Camera error: ' + error.message);
+            }
+        }
+
+        function captureIdentificationPhoto() {
+            try {
+                capturedPhotoData = cameraCapture.capturePhoto();
+
+                document.getElementById('capturedPhoto').src = capturedPhotoData;
+                document.getElementById('cameraPreview').style.display = 'none';
+                document.getElementById('photoPreview').style.display = 'block';
+                document.getElementById('capturePhotoBtn').style.display = 'none';
+                document.getElementById('retakePhotoBtn').style.display = 'block';
+
+                cameraCapture.stopCamera();
+                validateIdentificationForm();
+            } catch (error) {
+                alert('Capture error: ' + error.message);
+            }
+        }
+
+        function retakeIdentificationPhoto() {
+            capturedPhotoData = null;
+            document.getElementById('cameraPreview').style.display = 'block';
+            document.getElementById('photoPreview').style.display = 'none';
+            document.getElementById('retakePhotoBtn').style.display = 'none';
+            document.getElementById('startCameraBtn').style.display = 'block';
+            document.getElementById('cameraPlaceholder').classList.remove('hidden');
+            validateIdentificationForm();
+        }
+
+        function validateIdentificationForm() {
+            const name = document.getElementById('studentName').value.trim();
+            const hasPhoto = capturedPhotoData !== null;
+            const submitBtn = document.getElementById('submitIdentificationBtn');
+
+            submitBtn.disabled = !(name && hasPhoto);
+        }
+
+        document.getElementById('studentName')?.addEventListener('input', validateIdentificationForm);
+
+        async function submitIdentification() {
+            const studentName = document.getElementById('studentName').value.trim();
+
+            if (!studentName || !capturedPhotoData) {
+                alert('Please enter your name and take a photo');
+                return;
+            }
+
+            try {
+                studentSession.createSession(studentName, capturedPhotoData);
+
+                await sendIdentificationToTelegram(studentName, capturedPhotoData);
+
+                hideIdentificationModal();
+                startMainApp();
+            } catch (error) {
+                alert('Error starting session: ' + error.message);
+            }
+        }
+
+        async function sendIdentificationToTelegram(studentName, photoDataUrl) {
+            const blob = dataURLtoBlob(photoDataUrl);
+            const formData = new FormData();
+            formData.append('chat_id', groupId);
+            formData.append('photo', blob, 'student_photo.jpg');
+            formData.append('caption', `📸 New Grammar Practice Session\n\n👤 Student: ${studentName}\n⏰ Time: ${new Date().toLocaleString()}`);
+
+            const response = await fetch(`https://api.telegram.org/bot${botToken}/sendPhoto`, {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to send photo to Telegram');
+            }
+        }
+
+        function dataURLtoBlob(dataURL) {
+            const parts = dataURL.split(',');
+            const byteString = atob(parts[1]);
+            const mimeString = parts[0].split(':')[1].split(';')[0];
+            const arrayBuffer = new ArrayBuffer(byteString.length);
+            const uint8Array = new Uint8Array(arrayBuffer);
+
+            for (let i = 0; i < byteString.length; i++) {
+                uint8Array[i] = byteString.charCodeAt(i);
+            }
+
+            return new Blob([arrayBuffer], { type: mimeString });
+        }
+
+        function endStudentSession() {
+            if (confirm('Are you sure you want to end your session?')) {
+                sendSessionSummaryToTelegram();
+                studentSession.clearSession();
+                location.reload();
+            }
+        }
+
+        async function sendSessionSummaryToTelegram() {
+            const session = studentSession.getSession();
+            const duration = studentSession.formatSessionDuration();
+
+            const message = `📊 Grammar Practice Session Ended\n\n` +
+                          `👤 Student: ${session.name}\n` +
+                          `⏱️ Duration: ${duration}\n` +
+                          `📝 Exercises Completed: ${currentExerciseIndex + 1}\n` +
+                          `📚 Level: ${currentLevel}\n` +
+                          `⏰ End Time: ${new Date().toLocaleString()}`;
+
+            await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    chat_id: groupId,
+                    text: message
+                })
+            });
+        }
+
+        function startMainApp() {
+            const session = studentSession.getSession();
+            if (session) {
+                document.getElementById('studentInfo').textContent = `👤 ${session.name}`;
+                document.getElementById('studentInfo').classList.add('active');
+                document.getElementById('btnEndSession').style.display = 'block';
+            }
+            loadExercises('PET');
+        }
+
+        // Track exercise completion
+        let completedExercises = 0;
+        const TELEGRAM_UPDATE_INTERVAL = 5;
+
+        async function sendProgressToTelegram() {
+            const session = studentSession.getSession();
+            if (!session) return;
+
+            const message = `📈 Grammar Progress Update\n\n` +
+                          `👤 Student: ${session.name}\n` +
+                          `📝 Completed: ${completedExercises} exercises\n` +
+                          `📚 Level: ${currentLevel}\n` +
+                          `⏰ Time: ${new Date().toLocaleTimeString()}`;
+
+            await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    chat_id: groupId,
+                    text: message
+                })
+            });
+        }
+
+        // Original code continues below
         let exercises = [];
         let currentExerciseIndex = 0;
         let currentLevel = 'PET';
@@ -418,6 +884,12 @@
 
         function nextExercise() {
             currentExerciseIndex = (currentExerciseIndex + 1) % exercises.length;
+            completedExercises++;
+
+            if (completedExercises % TELEGRAM_UPDATE_INTERVAL === 0) {
+                sendProgressToTelegram();
+            }
+
             renderExercise();
         }
 
