@@ -417,17 +417,31 @@
         }
 
         .answer-item {
-            padding: 8px;
-            margin: 5px 0;
+            padding: 12px;
+            margin: 8px 0;
             color: #1a1a1a;
+            background: white;
+            border-radius: 6px;
+            border-left: 3px solid #e5e5e5;
         }
 
         .answer-item.correct {
             color: #16a34a;
+            border-left-color: #22c55e;
         }
 
         .answer-item.incorrect {
             color: #dc2626;
+            border-left-color: #ef4444;
+        }
+
+        .answer-explanation {
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px solid #e5e5e5;
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
         }
 
         .button-group {
@@ -930,11 +944,13 @@
                 const userAnswer = userAnswers[index];
                 const correctAnswers = gap.answers.join(' / ');
                 const isCorrect = gap.answers.map(a => a.toLowerCase()).includes(userAnswer);
+                const explanation = gap.explanation || '';
 
                 html += `
                     <div class="answer-item ${isCorrect ? 'correct' : 'incorrect'}">
-                        Gap ${index + 1}: <strong>${correctAnswers}</strong>
-                        ${userAnswer ? ` (You wrote: ${userAnswer})` : ''}
+                        <div>Gap ${index + 1}: <strong>${correctAnswers}</strong>
+                        ${userAnswer ? ` (You wrote: ${userAnswer})` : ''}</div>
+                        ${explanation ? `<div class="answer-explanation">${explanation}</div>` : ''}
                     </div>
                 `;
             });
