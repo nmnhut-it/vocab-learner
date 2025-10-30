@@ -895,6 +895,8 @@
             const total = exercise.gaps.length;
             const percentage = Math.round((correct / total) * 100);
 
+            lastExerciseScore = { correct, total, percentage, mistakes };
+
             document.getElementById('scoreDisplay').innerHTML = `
                 <div class="score-display">
                     Score: ${correct} / ${total} (${percentage}%)
@@ -959,15 +961,55 @@
             answersSection.classList.add('show');
         }
 
-        function nextExercise() {
+        let lastExerciseScore = null;
+
+        async function nextExercise() {
+            const previousExercise = exercises[currentExerciseIndex];
+
             currentExerciseIndex = (currentExerciseIndex + 1) % exercises.length;
             completedExercises++;
 
-            if (completedExercises % TELEGRAM_UPDATE_INTERVAL === 0) {
-                sendProgressToTelegram();
+            await sendExerciseCompletionToTelegram(previousExercise);
+
+            lastExerciseScore = null;
+            renderExercise();
+        }
+
+        async function sendExerciseCompletionToTelegram(exercise) {
+            const session = studentSession.getSession();
+            if (!session) return;
+
+            let message = `✅ Exercise Completed\n\n` +
+                          `👤 Student: ${session.name}\n` +
+                          `📝 Completed: ${completedExercises} exercises\n` +
+                          `📚 Level: ${currentLevel}\n` +
+                          `📖 Question: ${exercise.title || `Exercise ${currentExerciseIndex + 1}`}\n`;
+
+            if (lastExerciseScore) {
+                message += `📊 Score: ${lastExerciseScore.correct}/${lastExerciseScore.total} (${lastExerciseScore.percentage}%)\n`;
+
+                if (lastExerciseScore.mistakes.length > 0) {
+                    message += `\n❌ Wrong Answers:\n`;
+                    lastExerciseScore.mistakes.forEach(mistake => {
+                        message += `  Gap ${mistake.gapNumber}: "${mistake.userAnswer}" ✗ (Correct: ${mistake.correctAnswers.join('/')})\n`;
+                    });
+                } else {
+                    message += `\n🎉 Perfect Score!\n`;
+                }
+            } else {
+                message += `⚠️ Skipped without checking answers\n`;
             }
 
-            renderExercise();
+            message += `⏰ Time: ${new Date().toLocaleString()}`;
+
+            await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    chat_id: groupId,
+                    text: message
+                })
+            });
         }
 
         levelSelect.addEventListener('change', (e) => {
