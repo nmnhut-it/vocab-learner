@@ -1,0 +1,1058 @@
+{
+  "id": "global-tourism",
+  "title": "Global Tourism Impact",
+  "category": "Environment",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people believe that international tourism brings positive benefits to countries, while others think it causes harm to local environments and cultures. Discuss both views and give your own opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (tourism benefits AND tourism harm) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss positive impacts of international tourism",
+            "Discuss negative impacts on environment and culture",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "international tourism",
+            "definition": "Travel and visits by people from other countries",
+            "importance": "This is the main topic you must analyze from both perspectives"
+          },
+          {
+            "word": "positive benefits",
+            "definition": "Advantages or favorable outcomes",
+            "importance": "First perspective - you must explain what good tourism brings"
+          },
+          {
+            "word": "harm",
+            "definition": "Damage or negative impacts",
+            "importance": "Second perspective - you must explain tourism's negative effects"
+          },
+          {
+            "word": "local environments",
+            "definition": "Natural surroundings of tourist destinations",
+            "importance": "One area of negative impact you should address"
+          },
+          {
+            "word": "cultures",
+            "definition": "Traditional customs and ways of life",
+            "importance": "Another area of potential harm from tourism"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss benefits of tourism (economic, employment, cultural exchange)",
+          "body2": "4-5 sentences: Discuss harms (environmental damage, cultural erosion)",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing economic benefits without cultural exchange",
+          "Focusing only on environment and ignoring cultural impacts",
+          "Opinion is unclear or too neutral",
+          "Not providing concrete examples from real tourist destinations",
+          "Forgetting to balance both perspectives equally"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "revenue",
+            "pronunciation": "/ˈrevənjuː/",
+            "partOfSpeech": "noun",
+            "definition": "Income generated from business activities",
+            "example": "International tourism generates substantial revenue for many developing nations.",
+            "synonyms": ["income", "earnings", "proceeds"]
+          },
+          {
+            "word": "preservation",
+            "pronunciation": "/ˌprezəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The act of maintaining something in its original state",
+            "example": "Tourism revenue can fund the preservation of historical landmarks.",
+            "synonyms": ["conservation", "protection", "maintenance"]
+          },
+          {
+            "word": "degradation",
+            "pronunciation": "/ˌdeɡrəˈdeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The process of declining to a lower condition",
+            "example": "Environmental degradation occurs when tourist numbers exceed carrying capacity.",
+            "synonyms": ["deterioration", "decline", "damage"]
+          },
+          {
+            "word": "exploitation",
+            "pronunciation": "/ˌeksplɔɪˈteɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Unfair use of something for profit",
+            "example": "Critics argue that tourism leads to exploitation of local communities.",
+            "synonyms": ["abuse", "misuse", "manipulation"]
+          },
+          {
+            "word": "authentic",
+            "pronunciation": "/ɔːˈθentɪk/",
+            "partOfSpeech": "adjective",
+            "definition": "Genuine and not copied or false",
+            "example": "Mass tourism often replaces authentic cultural experiences with commercialized versions.",
+            "synonyms": ["genuine", "real", "original"]
+          },
+          {
+            "word": "sustainable",
+            "pronunciation": "/səˈsteɪnəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Able to be maintained without depleting resources",
+            "example": "Sustainable tourism practices minimize environmental impact.",
+            "synonyms": ["viable", "maintainable", "renewable"]
+          },
+          {
+            "word": "infrastructure",
+            "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+            "partOfSpeech": "noun",
+            "definition": "Basic physical systems and facilities of a country",
+            "example": "Tourism revenue enables governments to improve local infrastructure.",
+            "synonyms": ["facilities", "framework", "foundation"]
+          },
+          {
+            "word": "erode",
+            "pronunciation": "/ɪˈrəʊd/",
+            "partOfSpeech": "verb",
+            "definition": "To gradually destroy or diminish",
+            "example": "Excessive tourism can erode traditional cultural values and practices.",
+            "synonyms": ["wear away", "deteriorate", "undermine"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "economic benefits",
+            "definition": "Financial advantages or gains",
+            "example": "Tourism provides significant economic benefits through foreign currency income."
+          },
+          {
+            "phrase": "cultural exchange",
+            "definition": "Sharing of ideas and customs between different cultures",
+            "example": "International tourism promotes cultural exchange and global understanding."
+          },
+          {
+            "phrase": "environmental impact",
+            "definition": "Effect on natural surroundings",
+            "example": "The environmental impact of mass tourism includes pollution and habitat destruction."
+          },
+          {
+            "phrase": "local communities",
+            "definition": "People living in tourist destination areas",
+            "example": "Local communities often face rising living costs due to tourism."
+          },
+          {
+            "phrase": "tourist destinations",
+            "definition": "Places that attract visitors",
+            "example": "Popular tourist destinations struggle to balance growth with preservation."
+          },
+          {
+            "phrase": "carrying capacity",
+            "definition": "Maximum number of visitors a location can sustain",
+            "example": "Many attractions now limit visitor numbers to prevent exceeding carrying capacity."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["international tourism brings economic prosperity", "tourism is always beneficial", "travel should be unlimited"], "correctAnswer": "international tourism brings economic prosperity"},
+                  {"id": "thesis1_b2", "options": ["it damages local environments and cultures", "tourism creates jobs only", "visitors should pay more"], "correctAnswer": "it damages local environments and cultures"}
+                ],
+                "correctSentence": "While some believe international tourism brings economic prosperity, others argue that it damages local environments and cultures.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ depends on _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["whether tourism is beneficial or harmful", "tourist spending", "hotel quality"], "correctAnswer": "whether tourism is beneficial or harmful"},
+                  {"id": "thesis2_b2", "options": ["how destinations manage tourist numbers and environmental protection", "ticket prices", "weather conditions"], "correctAnswer": "how destinations manage tourist numbers and environmental protection"}
+                ],
+                "correctSentence": "In my opinion, whether tourism is beneficial or harmful depends on how destinations manage tourist numbers and environmental protection.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "There is ongoing debate about whether _____ or _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["tourism's economic benefits outweigh its negative impacts", "tourists should visit more", "hotels should be cheaper"], "correctAnswer": "tourism's economic benefits outweigh its negative impacts"},
+                  {"id": "thesis3_b2", "options": ["environmental and cultural damage makes it undesirable", "countries should ban visitors", "travel is too expensive"], "correctAnswer": "environmental and cultural damage makes it undesirable"}
+                ],
+                "correctSentence": "There is ongoing debate about whether tourism's economic benefits outweigh its negative impacts or environmental and cultural damage makes it undesirable.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "From my perspective, _____ because _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["sustainable tourism can benefit both economies and environments", "all tourism is harmful", "travel should be free"], "correctAnswer": "sustainable tourism can benefit both economies and environments"},
+                  {"id": "thesis4_b2", "options": ["proper management prevents damage while maintaining economic gains", "tourists always spend money", "hotels provide jobs"], "correctAnswer": "proper management prevents damage while maintaining economic gains"}
+                ],
+                "correctSentence": "From my perspective, sustainable tourism can benefit both economies and environments because proper management prevents damage while maintaining economic gains.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will discuss _____ before concluding that _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["both the advantages and disadvantages of international tourism", "only tourism benefits", "hotel management"], "correctAnswer": "both the advantages and disadvantages of international tourism"},
+                  {"id": "thesis5_b2", "options": ["responsible tourism practices are essential for long-term sustainability", "all tourism should stop", "prices should increase"], "correctAnswer": "responsible tourism practices are essential for long-term sustainability"}
+                ],
+                "correctSentence": "This essay will discuss both the advantages and disadvantages of international tourism before concluding that responsible tourism practices are essential for long-term sustainability.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ offers _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["international tourism", "local shopping", "hotel construction"], "correctAnswer": "international tourism"},
+                  {"id": "topic1_b2", "options": ["substantial economic benefits to host countries", "cheap accommodation", "free entertainment"], "correctAnswer": "substantial economic benefits to host countries"}
+                ],
+                "correctSentence": "On the one hand, international tourism offers substantial economic benefits to host countries.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ causes _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["mass tourism", "travel agents", "airplane food"], "correctAnswer": "mass tourism"},
+                  {"id": "topic2_b2", "options": ["significant environmental degradation and cultural erosion", "better hotels", "cheaper flights"], "correctAnswer": "significant environmental degradation and cultural erosion"}
+                ],
+                "correctSentence": "On the other hand, mass tourism causes significant environmental degradation and cultural erosion.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "One significant advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["tourist revenue", "hotel rooms", "flight bookings"], "correctAnswer": "tourist revenue"},
+                  {"id": "topic3_b2", "options": ["the employment opportunities it creates for local residents", "comfortable beds", "good food"], "correctAnswer": "the employment opportunities it creates for local residents"}
+                ],
+                "correctSentence": "One significant advantage of tourist revenue is the employment opportunities it creates for local residents.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A key concern about _____ is that _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["uncontrolled tourism growth", "expensive hotels", "long flights"], "correctAnswer": "uncontrolled tourism growth"},
+                  {"id": "topic4_b2", "options": ["it exceeds the carrying capacity of natural habitats", "tourists complain about prices", "airports are crowded"], "correctAnswer": "it exceeds the carrying capacity of natural habitats"}
+                ],
+                "correctSentence": "A key concern about uncontrolled tourism growth is that it exceeds the carrying capacity of natural habitats.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "_____ argue that _____ is essential for _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["Supporters of tourism", "Hotel owners", "Travel bloggers"], "correctAnswer": "Supporters of tourism"},
+                  {"id": "topic5_b2", "options": ["foreign currency income", "cheap souvenirs", "better airports"], "correctAnswer": "foreign currency income"},
+                  {"id": "topic5_b3", "options": ["economic development in poorer regions", "tourist satisfaction", "airline profits"], "correctAnswer": "economic development in poorer regions"}
+                ],
+                "correctSentence": "Supporters of tourism argue that foreign currency income is essential for economic development in poorer regions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "_____ contend that _____ threatens _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["Environmental advocates", "Tourism boards", "Travel companies"], "correctAnswer": "Environmental advocates"},
+                  {"id": "topic6_b2", "options": ["excessive tourist traffic", "low prices", "bad weather"], "correctAnswer": "excessive tourist traffic"},
+                  {"id": "topic6_b3", "options": ["fragile ecosystems and endangered species", "hotel profits", "souvenir sales"], "correctAnswer": "fragile ecosystems and endangered species"}
+                ],
+                "correctSentence": "Environmental advocates contend that excessive tourist traffic threatens fragile ecosystems and endangered species.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The primary advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["tourism development", "cheap flights", "hotel discounts"], "correctAnswer": "tourism development"},
+                  {"id": "topic7_b2", "options": ["improved infrastructure that benefits both visitors and locals", "free wifi", "comfortable beds"], "correctAnswer": "improved infrastructure that benefits both visitors and locals"}
+                ],
+                "correctSentence": "The primary advantage of tourism development is improved infrastructure that benefits both visitors and locals.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "A major drawback of _____ is _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["popular tourist destinations", "travel insurance", "passport requirements"], "correctAnswer": "popular tourist destinations"},
+                  {"id": "topic8_b2", "options": ["the loss of authentic cultural identity", "expensive restaurants", "crowded airports"], "correctAnswer": "the loss of authentic cultural identity"}
+                ],
+                "correctSentence": "A major drawback of popular tourist destinations is the loss of authentic cultural identity.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ enables countries to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["tourism revenue", "airplane tickets", "hotel websites"], "correctAnswer": "tourism revenue"},
+                  {"id": "support1_b2", "options": ["fund public services and infrastructure improvements", "build more hotels", "sell more souvenirs"], "correctAnswer": "fund public services and infrastructure improvements"}
+                ],
+                "correctSentence": "This is because tourism revenue enables countries to fund public services and infrastructure improvements.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["unchecked tourist expansion", "better hotels", "cheaper flights"], "correctAnswer": "unchecked tourist expansion"},
+                  {"id": "support2_b2", "options": ["pollution, habitat destruction, and resource depletion", "happier tourists", "more profits"], "correctAnswer": "pollution, habitat destruction, and resource depletion"}
+                ],
+                "correctSentence": "The main reason is that unchecked tourist expansion leads to pollution, habitat destruction, and resource depletion.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ allows local businesses to _____ without _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Tourism income", "Free wifi", "Cheap hotels"], "correctAnswer": "Tourism income"},
+                  {"id": "support3_b2", "options": ["expand and create employment", "close down", "relocate"], "correctAnswer": "expand and create employment"},
+                  {"id": "support3_b3", "options": ["relying solely on traditional industries", "spending money", "hiring workers"], "correctAnswer": "relying solely on traditional industries"}
+                ],
+                "correctSentence": "Tourism income allows local businesses to expand and create employment without relying solely on traditional industries.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ damages _____, which is crucial for _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["Mass tourism", "Hotel construction", "Airplane noise"], "correctAnswer": "Mass tourism"},
+                  {"id": "support4_b2", "options": ["natural landscapes and marine ecosystems", "hotel profits", "tourist satisfaction"], "correctAnswer": "natural landscapes and marine ecosystems"},
+                  {"id": "support4_b3", "options": ["biodiversity and long-term environmental health", "souvenir sales", "flight schedules"], "correctAnswer": "biodiversity and long-term environmental health"}
+                ],
+                "correctSentence": "Mass tourism damages natural landscapes and marine ecosystems, which is crucial for biodiversity and long-term environmental health.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By _____, destinations can _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["attracting international visitors", "building hotels", "selling tickets"], "correctAnswer": "attracting international visitors"},
+                  {"id": "support5_b2", "options": ["generate income that supports conservation efforts", "earn quick profits", "attract more tourists"], "correctAnswer": "generate income that supports conservation efforts"}
+                ],
+                "correctSentence": "By attracting international visitors, destinations can generate income that supports conservation efforts.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ erodes _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["Commercialized tourism", "Hotel service", "Flight quality"], "correctAnswer": "Commercialized tourism"},
+                  {"id": "support6_b2", "options": ["traditional cultural practices", "tourist budgets", "airline schedules"], "correctAnswer": "traditional cultural practices"},
+                  {"id": "support6_b3", "options": ["replacing authentic experiences with staged performances", "providing good service", "offering discounts"], "correctAnswer": "replacing authentic experiences with staged performances"}
+                ],
+                "correctSentence": "Commercialized tourism erodes traditional cultural practices through replacing authentic experiences with staged performances.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Tourism contributes to _____ by _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["cultural preservation", "hotel profits", "cheap flights"], "correctAnswer": "cultural preservation"},
+                  {"id": "support7_b2", "options": ["providing funds to maintain historical sites and monuments", "attracting more visitors", "selling souvenirs"], "correctAnswer": "providing funds to maintain historical sites and monuments"}
+                ],
+                "correctSentence": "Tourism contributes to cultural preservation by providing funds to maintain historical sites and monuments.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Tourist activities create _____ that _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["waste and carbon emissions", "happy memories", "good reviews"], "correctAnswer": "waste and carbon emissions"},
+                  {"id": "support8_b2", "options": ["accelerate climate change and pollute local areas", "improve tourism", "increase profits"], "correctAnswer": "accelerate climate change and pollute local areas"}
+                ],
+                "correctSentence": "Tourist activities create waste and carbon emissions that accelerate climate change and pollute local areas.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "_____ provides local communities with _____ beyond _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["International tourism", "Hotel construction", "Cheap flights"], "correctAnswer": "International tourism"},
+                  {"id": "support9_b2", "options": ["economic opportunities", "free accommodation", "airline tickets"], "correctAnswer": "economic opportunities"},
+                  {"id": "support9_b3", "options": ["traditional agricultural or fishing work", "tourist complaints", "hotel management"], "correctAnswer": "traditional agricultural or fishing work"}
+                ],
+                "correctSentence": "International tourism provides local communities with economic opportunities beyond traditional agricultural or fishing work.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "In popular destinations, _____ drives up _____ significantly.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["tourist demand", "hotel quality", "flight frequency"], "correctAnswer": "tourist demand"},
+                  {"id": "support10_b2", "options": ["property prices and living costs for residents", "tourist satisfaction", "airline profits"], "correctAnswer": "property prices and living costs for residents"}
+                ],
+                "correctSentence": "In popular destinations, tourist demand drives up property prices and living costs for residents significantly.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ experience _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["developing nations", "luxury hotels", "airline companies"], "correctAnswer": "developing nations"},
+                  {"id": "support11_b2", "options": ["economic growth and reduced unemployment", "tourist complaints", "construction problems"], "correctAnswer": "economic growth and reduced unemployment"}
+                ],
+                "correctSentence": "As a result, developing nations experience economic growth and reduced unemployment.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ becomes _____ in overtouristed areas.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["environmental protection", "hotel booking", "souvenir shopping"], "correctAnswer": "environmental protection"},
+                  {"id": "support12_b2", "options": ["increasingly difficult to maintain", "more profitable", "less expensive"], "correctAnswer": "increasingly difficult to maintain"}
+                ],
+                "correctSentence": "Consequently, environmental protection becomes increasingly difficult to maintain in overtouristed areas.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ relies on _____ for _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["Thailand", "Germany", "Canada"], "correctAnswer": "Thailand"},
+                  {"id": "example1_b2", "options": ["tourism revenue", "manufacturing", "agriculture"], "correctAnswer": "tourism revenue"},
+                  {"id": "example1_b3", "options": ["approximately 20% of its GDP", "building hotels", "training staff"], "correctAnswer": "approximately 20% of its GDP"}
+                ],
+                "correctSentence": "For instance, Thailand relies on tourism revenue for approximately 20% of its GDP.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ in _____ suffer from _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["coral reefs", "hotels", "airports"], "correctAnswer": "coral reefs"},
+                  {"id": "example2_b2", "options": ["the Caribbean and Southeast Asia", "Europe and America", "shopping malls"], "correctAnswer": "the Caribbean and Southeast Asia"},
+                  {"id": "example2_b3", "options": ["severe damage from excessive diving and boat anchors", "improved water quality", "better protection"], "correctAnswer": "severe damage from excessive diving and boat anchors"}
+                ],
+                "correctSentence": "For example, coral reefs in the Caribbean and Southeast Asia suffer from severe damage from excessive diving and boat anchors.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ has created _____ jobs in _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["the tourism industry", "technology", "banking"], "correctAnswer": "the tourism industry"},
+                  {"id": "example3_b2", "options": ["millions of", "a few", "no"], "correctAnswer": "millions of"},
+                  {"id": "example3_b3", "options": ["hospitality, transportation, and entertainment sectors", "manufacturing only", "government offices"], "correctAnswer": "hospitality, transportation, and entertainment sectors"}
+                ],
+                "correctSentence": "Specifically, the tourism industry has created millions of jobs in hospitality, transportation, and entertainment sectors.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research shows that _____ increases _____ when _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["environmental degradation", "tourist happiness", "hotel quality"], "correctAnswer": "environmental degradation"},
+                  {"id": "example4_b2", "options": ["exponentially", "slowly", "never"], "correctAnswer": "exponentially"},
+                  {"id": "example4_b3", "options": ["visitor numbers exceed local carrying capacity", "hotels provide good service", "prices are reasonable"], "correctAnswer": "visitor numbers exceed local carrying capacity"}
+                ],
+                "correctSentence": "Research shows that environmental degradation increases exponentially when visitor numbers exceed local carrying capacity.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A study of _____ found that tourism income _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["African wildlife reserves", "European hotels", "Asian restaurants"], "correctAnswer": "African wildlife reserves"},
+                  {"id": "example5_b2", "options": ["funds critical anti-poaching operations", "only benefits hotel owners", "creates no jobs"], "correctAnswer": "funds critical anti-poaching operations"}
+                ],
+                "correctSentence": "A study of African wildlife reserves found that tourism income funds critical anti-poaching operations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ face _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["historic cities", "modern airports", "shopping centers"], "correctAnswer": "historic cities"},
+                  {"id": "example6_b2", "options": ["Venice and Barcelona", "Tokyo and Seoul", "London and Paris"], "correctAnswer": "Venice and Barcelona"},
+                  {"id": "example6_b3", "options": ["severe overtourism that damages infrastructure and displaces residents", "increased profits", "better transportation"], "correctAnswer": "severe overtourism that damages infrastructure and displaces residents"}
+                ],
+                "correctSentence": "In particular, historic cities such as Venice and Barcelona face severe overtourism that damages infrastructure and displaces residents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, have experienced _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["island nations", "landlocked countries", "arctic regions"], "correctAnswer": "island nations"},
+                  {"id": "example7_b2", "options": ["Maldives and Fiji", "Switzerland and Austria", "Canada and Russia"], "correctAnswer": "Maldives and Fiji"},
+                  {"id": "example7_b3", "options": ["rapid economic development through tourism-led growth", "population decline", "industrial collapse"], "correctAnswer": "rapid economic development through tourism-led growth"}
+                ],
+                "correctSentence": "Many island nations, including Maldives and Fiji, have experienced rapid economic development through tourism-led growth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ has resulted in _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["Bali", "Berlin", "Boston"], "correctAnswer": "Bali"},
+                  {"id": "example8_b2", "options": ["unchecked tourism expansion", "better public transport", "improved education"], "correctAnswer": "unchecked tourism expansion"},
+                  {"id": "example8_b3", "options": ["water shortages and waste management crises", "economic prosperity only", "cultural preservation"], "correctAnswer": "water shortages and waste management crises"}
+                ],
+                "correctSentence": "Take Bali as an example: unchecked tourism expansion has resulted in water shortages and waste management crises.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, countries that promote tourism _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["World Tourism Organization data", "travel blogs", "hotel reviews"], "correctAnswer": "World Tourism Organization data"},
+                  {"id": "example9_b2", "options": ["see significant increases in foreign exchange earnings", "only build hotels", "ignore local needs"], "correctAnswer": "see significant increases in foreign exchange earnings"}
+                ],
+                "correctSentence": "According to World Tourism Organization data, countries that promote tourism see significant increases in foreign exchange earnings.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ is more likely when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["cultural commodification", "tourist satisfaction", "hotel profitability"], "correctAnswer": "cultural commodification"},
+                  {"id": "example10_b2", "options": ["traditional practices are performed solely for tourist entertainment", "destinations are well-managed", "prices are competitive"], "correctAnswer": "traditional practices are performed solely for tourist entertainment"}
+                ],
+                "correctSentence": "Evidence suggests that cultural commodification is more likely when traditional practices are performed solely for tourist entertainment.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may lead to _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["over-reliance on tourism revenue", "better hotels", "cheaper flights"], "correctAnswer": "over-reliance on tourism revenue"},
+                  {"id": "counter1_b2", "options": ["economic vulnerability during global crises", "guaranteed prosperity", "unlimited growth"], "correctAnswer": "economic vulnerability during global crises"}
+                ],
+                "correctSentence": "However, it could be argued that over-reliance on tourism revenue may lead to economic vulnerability during global crises.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these concerns, _____ can be mitigated through _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["environmental damage", "tourist spending", "hotel construction"], "correctAnswer": "environmental damage"},
+                  {"id": "counter2_b2", "options": ["sustainable tourism practices and visitor limits", "building more hotels", "reducing prices"], "correctAnswer": "sustainable tourism practices and visitor limits"}
+                ],
+                "correctSentence": "Despite these concerns, environmental damage can be mitigated through sustainable tourism practices and visitor limits.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ requires _____ that not all destinations possess.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["successfully managing tourism impact", "building hotels", "selling tickets"], "correctAnswer": "successfully managing tourism impact"},
+                  {"id": "counter3_b2", "options": ["strong governance and enforcement mechanisms", "cheap labor", "good weather"], "correctAnswer": "strong governance and enforcement mechanisms"}
+                ],
+                "correctSentence": "Nevertheless, successfully managing tourism impact requires strong governance and enforcement mechanisms that not all destinations possess.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ creates benefits, it also generates _____ that _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["tourism development", "flight tickets", "hotel websites"], "correctAnswer": "tourism development"},
+                  {"id": "counter4_b2", "options": ["seasonal employment instability", "guaranteed jobs", "high salaries"], "correctAnswer": "seasonal employment instability"},
+                  {"id": "counter4_b3", "options": ["leaves workers vulnerable during off-peak periods", "improves living standards", "provides security"], "correctAnswer": "leaves workers vulnerable during off-peak periods"}
+                ],
+                "correctSentence": "Although tourism development creates benefits, it also generates seasonal employment instability that leaves workers vulnerable during off-peak periods.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ can _____ if not regulated properly.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["tourism expansion", "hotel prices", "flight schedules"], "correctAnswer": "tourism expansion"},
+                  {"id": "counter5_b2", "options": ["destroy the very attractions that draw visitors", "increase profits", "create more jobs"], "correctAnswer": "destroy the very attractions that draw visitors"}
+                ],
+                "correctSentence": "Critics point out that tourism expansion can destroy the very attractions that draw visitors if not regulated properly.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["tourism brings undeniable economic benefits", "all tourism is good", "travel should be unlimited"], "correctAnswer": "tourism brings undeniable economic benefits"},
+                  {"id": "conclusion1_b2", "options": ["sustainable management is essential to prevent environmental and cultural damage", "all destinations should accept unlimited tourists", "economic growth is the only priority"], "correctAnswer": "sustainable management is essential to prevent environmental and cultural damage"}
+                ],
+                "correctSentence": "In conclusion, while tourism brings undeniable economic benefits, I believe sustainable management is essential to prevent environmental and cultural damage.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ offers _____, whereas _____ causes _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["international tourism", "hotel construction", "airplane travel"], "correctAnswer": "international tourism"},
+                  {"id": "conclusion2_b2", "options": ["economic growth and employment", "free entertainment", "cheap accommodation"], "correctAnswer": "economic growth and employment"},
+                  {"id": "conclusion2_b3", "options": ["unregulated tourism", "good hotels", "efficient airports"], "correctAnswer": "unregulated tourism"},
+                  {"id": "conclusion2_b4", "options": ["environmental degradation and cultural loss", "tourist satisfaction", "higher profits"], "correctAnswer": "environmental degradation and cultural loss"}
+                ],
+                "correctSentence": "Overall, international tourism offers economic growth and employment, whereas unregulated tourism causes environmental degradation and cultural loss.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ depends largely on _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["whether tourism is beneficial or harmful", "hotel quality", "flight prices"], "correctAnswer": "whether tourism is beneficial or harmful"},
+                  {"id": "conclusion3_b2", "options": ["implementing responsible tourism policies and enforcing visitor limits", "building more hotels", "attracting more tourists"], "correctAnswer": "implementing responsible tourism policies and enforcing visitor limits"}
+                ],
+                "correctSentence": "To summarize, whether tourism is beneficial or harmful depends largely on implementing responsible tourism policies and enforcing visitor limits.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ should balance _____ with _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["destination governments", "hotel chains", "airlines"], "correctAnswer": "destination governments"},
+                  {"id": "conclusion4_b2", "options": ["economic benefits from tourism", "tourist comfort", "cheap prices"], "correctAnswer": "economic benefits from tourism"},
+                  {"id": "conclusion4_b3", "options": ["environmental protection and cultural preservation", "hotel profits", "visitor numbers"], "correctAnswer": "environmental protection and cultural preservation"}
+                ],
+                "correctSentence": "Ultimately, destination governments should balance economic benefits from tourism with environmental protection and cultural preservation.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ represents the most viable solution because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["sustainable tourism development", "unlimited tourism growth", "banning all tourism"], "correctAnswer": "sustainable tourism development"},
+                  {"id": "conclusion5_b2", "options": ["it allows destinations to gain economic benefits while preserving natural and cultural assets", "it maximizes short-term profits", "it eliminates all problems"], "correctAnswer": "it allows destinations to gain economic benefits while preserving natural and cultural assets"}
+                ],
+                "correctSentence": "In my view, sustainable tourism development represents the most viable solution because it allows destinations to gain economic benefits while preserving natural and cultural assets.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "On balance, _____ outweighs _____ provided that _____.",
+                "blanks": [
+                  {"id": "conclusion6_b1", "options": ["the economic value of tourism", "hotel profits", "tourist satisfaction"], "correctAnswer": "the economic value of tourism"},
+                  {"id": "conclusion6_b2", "options": ["its environmental impact", "construction costs", "travel expenses"], "correctAnswer": "its environmental impact"},
+                  {"id": "conclusion6_b3", "options": ["destinations enforce strict sustainability measures", "tourists spend more money", "hotels are profitable"], "correctAnswer": "destinations enforce strict sustainability measures"}
+                ],
+                "correctSentence": "On balance, the economic value of tourism outweighs its environmental impact provided that destinations enforce strict sustainability measures.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Looking forward, _____ must prioritize _____ over _____.",
+                "blanks": [
+                  {"id": "conclusion7_b1", "options": ["the tourism industry", "hotel chains", "travel agencies"], "correctAnswer": "the tourism industry"},
+                  {"id": "conclusion7_b2", "options": ["long-term sustainability", "quick profits", "tourist numbers"], "correctAnswer": "long-term sustainability"},
+                  {"id": "conclusion7_b3", "options": ["short-term profit maximization", "customer comfort", "price competition"], "correctAnswer": "short-term profit maximization"}
+                ],
+                "correctSentence": "Looking forward, the tourism industry must prioritize long-term sustainability over short-term profit maximization.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "All things considered, _____ offers the best pathway to _____ while _____.",
+                "blanks": [
+                  {"id": "conclusion8_b1", "options": ["responsible tourism management", "unlimited tourist growth", "banning all visitors"], "correctAnswer": "responsible tourism management"},
+                  {"id": "conclusion8_b2", "options": ["economic prosperity", "higher prices", "more hotels"], "correctAnswer": "economic prosperity"},
+                  {"id": "conclusion8_b3", "options": ["protecting environmental and cultural heritage", "maximizing profits", "building infrastructure"], "correctAnswer": "protecting environmental and cultural heritage"}
+                ],
+                "correctSentence": "All things considered, responsible tourism management offers the best pathway to economic prosperity while protecting environmental and cultural heritage.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [View A], others argue that [View B]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence supporting View A]. This is because [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence supporting View B]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            },
+            "example": {
+              "introduction": "While some believe international tourism drives economic prosperity, others argue that it damages environments and cultures. In my opinion, sustainable management can balance both concerns.",
+              "body1": "On the one hand, tourism provides vital economic benefits. This is because visitor spending creates jobs and generates tax revenue. For instance, Thailand derives 20% of GDP from tourism. As a result, millions escape poverty through tourism employment.",
+              "body2": "On the other hand, mass tourism causes environmental harm. The main reason is that excessive visitors exceed natural carrying capacity. For example, coral reefs in the Caribbean suffer severe damage. Therefore, uncontrolled tourism threatens long-term sustainability.",
+              "conclusion": "In conclusion, while tourism offers economic advantages but environmental risks, I believe destinations must implement strict visitor limits to achieve sustainable development."
+            }
+          },
+          {
+            "name": "Template 2: Opinion-First Approach",
+            "structure": {
+              "introduction": "There is ongoing debate about [Topic]. From my perspective, [Your opinion], although [acknowledge opposite view].",
+              "body1": "[Your main view - Topic sentence]. Firstly, [Reason 1]. Secondly, [Reason 2]. For example, [Supporting example].",
+              "body2": "Nevertheless, [Opposite view - Topic sentence]. [Explanation of why others hold this view]. However, [Counter-argument or limitation].",
+              "conclusion": "To summarize, despite [opposite view], [restate your position] because [final reason]."
+            }
+          },
+          {
+            "name": "Template 3: Cause-Effect Pattern",
+            "structure": {
+              "introduction": "[Restate topic]. This essay will discuss both perspectives and explain why [your position].",
+              "body1": "Supporters of [View A] point to several benefits. The primary advantage is [Main benefit]. This leads to [Effect/consequence]. Additionally, [Secondary benefit with example].",
+              "body2": "Conversely, advocates of [View B] emphasize different concerns. Chief among these is [Main concern]. This results in [Effect/consequence]. Furthermore, [Secondary concern with example].",
+              "conclusion": "In conclusion, both arguments have merit. However, [your final judgment based on context or priorities]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters argue that", "Advocates contend that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Critics argue that", "Opponents claim that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about tourism benefits], others _____ [state the opposite view about tourism harm]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about tourism benefits",
+                "hint": "Start with 'believe that international tourism' or 'argue that tourist revenue'",
+                "placeholder": "e.g., believe that international tourism brings substantial economic benefits and employment opportunities",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about tourism harm",
+                "hint": "Use 'argue that' or 'contend that' followed by environmental/cultural damage",
+                "placeholder": "e.g., contend that mass tourism causes environmental degradation and erodes traditional cultures",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position or say 'it depends on management/sustainability'",
+                "placeholder": "e.g., sustainable tourism practices can balance economic growth with environmental and cultural protection",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about tourism benefits]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - tourism benefits",
+                "hint": "Main economic or cultural benefit of international tourism",
+                "placeholder": "e.g., international tourism generates substantial revenue that supports national economic development",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does tourism provide this benefit? Explain the mechanism.",
+                "placeholder": "e.g., foreign visitors spend money on accommodation, food, and activities which creates jobs and tax income",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example - country, region, or research study",
+                "placeholder": "e.g., Thailand depends on tourism for approximately twenty percent of its gross domestic product annually",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome or impact of tourism revenue?",
+                "placeholder": "e.g., this income enables governments to improve infrastructure and fund public services for citizens",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about tourism harm]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - tourism harm",
+                "hint": "Main environmental or cultural damage from tourism",
+                "placeholder": "e.g., mass tourism causes significant environmental damage and threatens fragile ecosystems in popular destinations",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the mechanism or reasoning behind tourism damage",
+                "placeholder": "e.g., excessive visitor numbers exceed natural carrying capacity leading to pollution and habitat destruction",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing environmental or cultural damage",
+                "placeholder": "e.g., coral reefs in the Caribbean suffer severe damage from boat anchors and careless divers touching formations",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective with a concluding thought",
+                "placeholder": "e.g., these environmental impacts undermine the long-term sustainability of tourism-dependent regions and threaten biodiversity",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought or recommendation].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both tourism benefits and harms",
+                "placeholder": "e.g., international tourism provides economic benefits but also causes environmental and cultural damage",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight or recommendation",
+                "placeholder": "e.g., destinations must implement strict visitor limits and sustainable practices to preserve natural and cultural assets for future generations",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss tourism benefits with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss tourism harm with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses tourism benefits with example",
+          "Body paragraph 2 discusses tourism harm with example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "There is ongoing debate about whether international tourism benefits or harms destination countries. While tourist revenue undoubtedly provides economic advantages, I believe that uncontrolled tourism causes environmental degradation and cultural erosion that outweigh these benefits unless sustainable practices are implemented.\n\nOn the one hand, tourism generates substantial income for host nations. Foreign visitors contribute billions of dollars through spending on accommodation, dining, transportation, and attractions, which creates employment across multiple sectors. For instance, countries like Thailand and the Maldives derive approximately 20% of their GDP from tourism-related activities. Moreover, tourism revenue enables governments to fund infrastructure improvements and conservation projects that benefit both visitors and local residents. This economic injection can lift entire communities out of poverty.\n\nOn the other hand, mass tourism inflicts considerable damage on natural environments and local cultures. When visitor numbers exceed the carrying capacity of destinations, pollution intensifies, habitats deteriorate, and traditional ways of life become commercialized. For example, popular sites such as Venice and Barcelona now face severe overtourism, resulting in infrastructure strain, resident displacement, and loss of authentic cultural character. Furthermore, fragile ecosystems like coral reefs in Southeast Asia have suffered irreversible damage from excessive diving and boat traffic. These impacts threaten the very attractions that originally drew tourists.\n\nIn conclusion, while international tourism offers economic benefits through revenue generation and employment creation, I believe its environmental and cultural costs are too significant to ignore. Destination governments must therefore implement strict visitor limits and sustainable tourism policies to protect natural and cultural resources for future generations.",
+    "wordCount": 278,
+    "structure": {
+      "introduction": "There is ongoing debate about whether international tourism benefits or harms destination countries. While tourist revenue undoubtedly provides economic advantages, I believe that uncontrolled tourism causes environmental degradation and cultural erosion that outweigh these benefits unless sustainable practices are implemented.",
+      "body1": "On the one hand, tourism generates substantial income for host nations. Foreign visitors contribute billions of dollars through spending on accommodation, dining, transportation, and attractions, which creates employment across multiple sectors. For instance, countries like Thailand and the Maldives derive approximately 20% of their GDP from tourism-related activities. Moreover, tourism revenue enables governments to fund infrastructure improvements and conservation projects that benefit both visitors and local residents. This economic injection can lift entire communities out of poverty.",
+      "body2": "On the other hand, mass tourism inflicts considerable damage on natural environments and local cultures. When visitor numbers exceed the carrying capacity of destinations, pollution intensifies, habitats deteriorate, and traditional ways of life become commercialized. For example, popular sites such as Venice and Barcelona now face severe overtourism, resulting in infrastructure strain, resident displacement, and loss of authentic cultural character. Furthermore, fragile ecosystems like coral reefs in Southeast Asia have suffered irreversible damage from excessive diving and boat traffic. These impacts threaten the very attractions that originally drew tourists.",
+      "conclusion": "In conclusion, while international tourism offers economic benefits through revenue generation and employment creation, I believe its environmental and cultural costs are too significant to ignore. Destination governments must therefore implement strict visitor limits and sustainable tourism policies to protect natural and cultural resources for future generations."
+    },
+    "highlights": [
+      {
+        "text": "ongoing debate",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for discussing controversial topics"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for presenting contrasting viewpoints"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific supporting examples"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point in first body paragraph"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds another point about environmental damage"
+      },
+      {
+        "text": "Thailand and the Maldives derive approximately 20% of their GDP from tourism",
+        "type": "example",
+        "explanation": "Specific, concrete example with data that supports the economic argument"
+      },
+      {
+        "text": "degradation",
+        "type": "academic-vocab",
+        "explanation": "Academic noun showing vocabulary range"
+      },
+      {
+        "text": "carrying capacity",
+        "type": "academic-vocab",
+        "explanation": "Technical term demonstrating topic-specific vocabulary"
+      }
+    ]
+  }
+}

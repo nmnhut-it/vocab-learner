@@ -1233,7 +1233,7 @@ async function startPracticeSession() {
     const photoDataUrl = photoImg.style.display === 'block' ? photoImg.src : null;
 
     // Create session
-    studentSession.startSession(studentName, photoDataUrl);
+    studentSession.createSession(studentName, photoDataUrl);
 
     // Hide modal
     document.getElementById('studentLoginModal').style.display = 'none';

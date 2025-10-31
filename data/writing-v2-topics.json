@@ -98,6 +98,24 @@
       "difficulty": "Medium",
       "file": "data/writing-v2-fast-food-health.json",
       "unlocked": false
+    },
+    {
+      "id": "space-exploration",
+      "title": "Space Exploration Funding",
+      "category": "Science & Government",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-space-exploration.json",
+      "unlocked": false
+    },
+    {
+      "id": "global-tourism",
+      "title": "Global Tourism Impact",
+      "category": "Environment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-global-tourism.json",
+      "unlocked": false
     }
   ]
 }
