@@ -10,6 +10,15 @@
       "unlocked": true
     },
     {
+      "id": "technology-education",
+      "title": "Technology in Education",
+      "category": "Education & Technology",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-technology-education.json",
+      "unlocked": true
+    },
+    {
       "id": "online-education",
       "title": "Online Education",
       "category": "Education & Technology",
@@ -44,6 +53,15 @@
       "difficulty": "Easy",
       "file": "data/writing-v2-gap-year.json",
       "unlocked": false
+    },
+    {
+      "id": "high-rise-living",
+      "title": "High-Rise Living",
+      "category": "Infrastructure",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-high-rise-living.json",
+      "unlocked": true
     },
     {
       "id": "public-transport",
@@ -115,6 +133,15 @@
       "questionType": "Discuss Both Views",
       "difficulty": "Medium",
       "file": "data/writing-v2-global-tourism.json",
+      "unlocked": false
+    },
+    {
+      "id": "elderly-care",
+      "title": "Caring for Aging Parents",
+      "category": "Family & Society",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-elderly-care.json",
       "unlocked": false
     }
   ]
