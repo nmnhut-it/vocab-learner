@@ -1,0 +1,23 @@
+{
+  "voice": "en-US-JennyNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "files_processed": [
+    {
+      "source": "Module 3 (Speaking Part 2)",
+      "file": "scripts/module3-minimal.js",
+      "output_dir": "audio\\module3-samples",
+      "count": 10,
+      "total_size_kb": 6664.08
+    },
+    {
+      "source": "IELTS Lessons",
+      "file": "scripts/ieltsLessons.js",
+      "output_dir": "audio\\ielts-lessons",
+      "count": 194,
+      "total_size_kb": 27849.63
+    }
+  ],
+  "total_files": 204,
+  "total_size_kb": 34513.71
+}

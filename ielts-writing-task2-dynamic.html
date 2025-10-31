@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Writing Task 2 Practice</title>
+    <link rel="stylesheet" href="styles/module2-minimal.css">
+    <style>
+        /* Additional styles for Writing Task 2 */
+        .section-card {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 1rem;
+            background: var(--color-bg-light);
+            border-radius: 0.375rem;
+            margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .section-header h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            font-weight: 600;
+            margin-right: 0.75rem;
+            font-size: 0.875rem;
+        }
+
+        .section-description {
+            color: var(--color-text-light);
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .collapsible-content {
+            display: none;
+        }
+
+        .collapsible-content.active {
+            display: block;
+        }
+
+        .toggle-icon {
+            transition: transform 0.2s;
+        }
+
+        .toggle-icon.active {
+            transform: rotate(180deg);
+        }
+
+        .vocab-card {
+            background: var(--color-bg-light);
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--color-accent);
+        }
+
+        .vocab-word-header {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .vocab-pronunciation {
+            color: var(--color-accent);
+            font-style: italic;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .vocab-definition {
+            color: var(--color-text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .vocab-example {
+            font-style: italic;
+            color: var(--color-text-light);
+            padding-left: 1rem;
+            border-left: 2px solid var(--color-border);
+        }
+
+        .key-idea-card {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-bottom: 1rem;
+        }
+
+        .key-idea-title {
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .key-idea-text {
+            color: var(--color-text-light);
+            margin-bottom: 0.5rem;
+            font-size: 0.9375rem;
+        }
+
+        .exercise-card {
+            background: var(--color-bg-light);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .exercise-title {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .exercise-question {
+            background: var(--color-bg);
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--color-border);
+        }
+
+        .scrambled-words {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .word-chip {
+            background: var(--color-accent);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s;
+        }
+
+        .word-chip:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .answer-area {
+            min-height: 60px;
+            background: var(--color-bg);
+            border: 2px dashed var(--color-border);
+            border-radius: 0.375rem;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .select-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin: 0.5rem 0;
+        }
+
+        .inline-select {
+            padding: 0.375rem;
+            border: 1px solid var(--color-border);
+            border-radius: 0.25rem;
+            background: var(--color-bg);
+            font-size: 0.9375rem;
+        }
+
+        .model-annotation {
+            background: #fffbeb;
+            border-left: 3px solid #fbbf24;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0.375rem;
+        }
+
+        .annotation-highlight {
+            background: #fef3c7;
+            padding: 0.125rem 0.25rem;
+            border-radius: 0.25rem;
+            font-weight: 500;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: var(--color-bg-light);
+            border-radius: 0.375rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .checklist-item input[type="checkbox"] {
+            margin-top: 0.25rem;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checklist-label {
+            flex: 1;
+            font-size: 0.9375rem;
+        }
+
+        .tips-list {
+            list-style: none;
+            padding-left: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .tips-list li {
+            color: var(--color-text-light);
+            font-size: 0.875rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .tips-list li::before {
+            content: "→ ";
+            color: var(--color-accent);
+            margin-right: 0.5rem;
+        }
+
+        .band-descriptor {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .band-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            font-weight: 600;
+            margin-right: 1rem;
+            font-size: 1.125rem;
+        }
+
+        .essay-editor {
+            width: 100%;
+            min-height: 400px;
+            padding: 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            line-height: 1.7;
+            font-family: var(--font-sans);
+            resize: vertical;
+        }
+
+        .word-counter {
+            text-align: right;
+            margin-top: 0.5rem;
+            color: var(--color-text-light);
+            font-size: 0.875rem;
+            font-family: var(--font-mono);
+        }
+
+        .guidance-panel {
+            background: #fffbeb;
+            border: 1px solid #fbbf24;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-top: 1rem;
+        }
+
+        .guidance-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #92400e;
+        }
+
+        .brainstorm-area {
+            width: 100%;
+            min-height: 150px;
+            padding: 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: 0.375rem;
+            font-size: 0.9375rem;
+            margin-top: 0.5rem;
+            resize: vertical;
+        }
+
+        .planning-field {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: var(--color-bg-light);
+            border-radius: 0.375rem;
+        }
+
+        .planning-field label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .planning-field input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: 0.25rem;
+            font-size: 0.9375rem;
+        }
+
+        .key-words {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .keyword-tag {
+            background: var(--color-accent);
+            color: white;
+            padding: 0.375rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .task-requirement {
+            padding: 0.75rem;
+            background: var(--color-bg-light);
+            border-left: 3px solid var(--color-accent);
+            margin-bottom: 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        .common-mistake {
+            padding: 0.75rem;
+            background: #fee;
+            border-left: 3px solid #dc2626;
+            margin-bottom: 0.5rem;
+            border-radius: 0.25rem;
+            color: #991b1b;
+        }
+
+        .academic-phrase-category {
+            margin-bottom: 1rem;
+        }
+
+        .phrase-category-title {
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .phrase-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .phrase-list li {
+            padding: 0.375rem 0.75rem;
+            background: var(--color-bg-light);
+            margin-bottom: 0.25rem;
+            border-radius: 0.25rem;
+            font-size: 0.9375rem;
+        }
+
+        .strength-indicator {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .strength-item {
+            flex: 1;
+            text-align: center;
+            padding: 0.75rem;
+            background: var(--color-bg-light);
+            border-radius: 0.375rem;
+        }
+
+        .strength-label {
+            font-size: 0.75rem;
+            color: var(--color-text-light);
+            margin-bottom: 0.25rem;
+        }
+
+        .strength-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--color-accent);
+        }
+
+        .loading-message {
+            text-align: center;
+            padding: 3rem;
+            color: var(--color-text-light);
+        }
+
+        @media (max-width: 640px) {
+            .strength-indicator {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <a href="ielts-speaking-lessons.html" class="back-link">← Lessons</a>
+        <h1 class="title" id="pageTitle">IELTS Writing Task 2 Practice</h1>
+        <div class="progress-mini">
+            <span id="progressCount">0/9 sections</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container" id="mainContainer">
+        <div class="loading-message">Loading practice session...</div>
+    </main>
+
+    <script>
+        // Configuration: Set your JSON file path here
+        const JSON_FILE_PATH = 'data/ielts-writing-remote-work.json';
+
+        let practiceData = null;
+        let sectionCount = 0;
+
+        // Load JSON data
+        async function loadPracticeData() {
+            try {
+                const response = await fetch(JSON_FILE_PATH);
+                if (!response.ok) throw new Error('Failed to load practice data');
+                practiceData = await response.json();
+                renderPractice();
+            } catch (error) {
+                console.error('Error loading practice data:', error);
+                document.getElementById('mainContainer').innerHTML = `
+                    <div class="loading-message">
+                        <p style="color: #dc2626;">Error loading practice data.</p>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Make sure the JSON file exists at: ${JSON_FILE_PATH}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Render the entire practice session
+        function renderPractice() {
+            const container = document.getElementById('mainContainer');
+            container.innerHTML = '';
+
+            // Update page title
+            document.getElementById('pageTitle').textContent = `IELTS Writing Task 2 - ${practiceData.question.category}`;
+
+            // Render question section
+            container.appendChild(renderQuestionSection());
+
+            // Render all sections
+            practiceData.sections.forEach((section, index) => {
+                const sectionEl = renderSection(section, index + 1);
+                if (sectionEl) container.appendChild(sectionEl);
+            });
+
+            // Render navigation
+            container.appendChild(renderNavigation());
+
+            // Update section count
+            sectionCount = practiceData.sections.length;
+            updateProgress();
+        }
+
+        // Render question section
+        function renderQuestionSection() {
+            const section = document.createElement('section');
+            section.className = 'question-section';
+            section.innerHTML = `
+                <div class="question-meta">
+                    <span class="question-category">${practiceData.question.category}</span>
+                    <span class="question-num">${practiceData.question.type}</span>
+                </div>
+                <h2 class="question-text">${practiceData.question.text}</h2>
+                <div class="preview-meta" style="margin-top: 1rem;">
+                    <span>⏱️ Time: ${practiceData.question.timeAllocation.total} minutes</span>
+                    <span>📝 ${practiceData.question.instructions}</span>
+                </div>
+            `;
+            return section;
+        }
+
+        // Render individual section based on ID
+        function renderSection(section, order) {
+            const sectionCard = document.createElement('div');
+            sectionCard.className = 'section-card';
+
+            const sectionHeader = `
+                <div class="section-header" onclick="toggleSection(${order})">
+                    <div style="display: flex; align-items: center;">
+                        <span class="section-number">${order}</span>
+                        <div>
+                            <h2>${section.title}</h2>
+                            <div class="section-description">${section.description}</div>
+                        </div>
+                    </div>
+                    <span class="toggle-icon" id="toggle-${order}">▼</span>
+                </div>
+            `;
+
+            let sectionContent = '';
+
+            // Render content based on section ID
+            switch(section.id) {
+                case 'question-analysis':
+                    sectionContent = renderQuestionAnalysis(section.content);
+                    break;
+                case 'vocabulary-ideas':
+                    sectionContent = renderVocabularyIdeas(section.content);
+                    break;
+                case 'brainstorming':
+                    sectionContent = renderBrainstorming(section.content);
+                    break;
+                case 'essay-planning':
+                    sectionContent = renderEssayPlanning(section.content);
+                    break;
+                case 'interactive-exercises':
+                    sectionContent = renderExercises(section.content);
+                    break;
+                case 'essay-writing':
+                    sectionContent = renderEssayWriting(section.content);
+                    break;
+                case 'essay-checking':
+                    sectionContent = renderEssayChecking(section.content);
+                    break;
+                case 'model-answer':
+                    sectionContent = renderModelAnswer(section.content);
+                    break;
+                case 'self-assessment':
+                    sectionContent = renderSelfAssessment(section.content);
+                    break;
+                default:
+                    sectionContent = '<p>Section content not available</p>';
+            }
+
+            sectionCard.innerHTML = sectionHeader + `<div class="collapsible-content" id="content-${order}">${sectionContent}</div>`;
+            return sectionCard;
+        }
+
+        // Render Question Analysis section
+        function renderQuestionAnalysis(content) {
+            let html = `
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Question Type</h3>
+                    <p><strong>${content.questionType.value}</strong> - ${content.questionType.explanation}</p>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Key Words to Notice</h3>
+                    <div class="key-words">
+                        ${content.keyWords.map(kw => `<span class="keyword-tag">${kw.word}</span>`).join('')}
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Task Requirements</h3>
+                    ${content.taskRequirements.map(req => `<div class="task-requirement">✓ ${req}</div>`).join('')}
+                </div>
+
+                <div>
+                    <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Common Mistakes to Avoid</h3>
+                    ${content.commonMistakes.map(mistake => `<div class="common-mistake">✗ ${mistake}</div>`).join('')}
+                </div>
+            `;
+            return html;
+        }
+
+        // Render Vocabulary & Ideas section
+        function renderVocabularyIdeas(content) {
+            let html = '<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Topic Vocabulary</h3>';
+
+            content.topicVocabulary.forEach(vocab => {
+                html += `
+                    <div class="vocab-card">
+                        <div class="vocab-word-header">${vocab.word}</div>
+                        <div class="vocab-pronunciation">${vocab.pronunciation}</div>
+                        <div class="vocab-definition"><strong>${vocab.partOfSpeech}</strong> - ${vocab.definition}</div>
+                        <div class="vocab-example">"${vocab.example}"</div>
+                    </div>
+                `;
+            });
+
+            html += '<h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Academic Phrases</h3>';
+
+            Object.entries(content.academicPhrases).forEach(([category, phrases]) => {
+                const title = category.charAt(0).toUpperCase() + category.slice(1);
+                html += `
+                    <div class="academic-phrase-category">
+                        <div class="phrase-category-title">${title}:</div>
+                        <ul class="phrase-list">
+                            ${phrases.map(phrase => `<li>${phrase}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            });
+
+            html += '<h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Key Ideas to Use</h3>';
+
+            content.keyIdeas.forEach(idea => {
+                html += `
+                    <div class="key-idea-card">
+                        <div class="key-idea-title">💡 ${idea.mainPoint}</div>
+                        <div class="key-idea-text"><strong>Explanation:</strong> ${idea.explanation}</div>
+                        <div class="key-idea-text"><strong>Example:</strong> ${idea.example}</div>
+                    </div>
+                `;
+            });
+
+            return html;
+        }
+
+        // Render Brainstorming section
+        function renderBrainstorming(content) {
+            const template = content.brainstormTemplate;
+            return `
+                <p style="margin-bottom: 1rem; color: var(--color-text-light);">${content.instruction}</p>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.advantages.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-advantages" placeholder="${template.advantages.placeholder}"></textarea>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.disadvantages.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-disadvantages" placeholder="${template.disadvantages.placeholder}"></textarea>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.examples.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-examples" placeholder="${template.examples.placeholder}"></textarea>
+                </div>
+
+                <div>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.yourPosition.label}:</label>
+                    <select class="select" data-save="brainstorm-position" style="width: 100%;">
+                        <option value="">Select your position...</option>
+                        ${template.yourPosition.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
+                    </select>
+                </div>
+            `;
+        }
+
+        // Render Essay Planning section
+        function renderEssayPlanning(content) {
+            const plan = content.planStructure;
+            return `
+                <div class="guidance-panel" style="margin-bottom: 1.5rem;">
+                    <div class="guidance-title">Simon's 4-Paragraph Structure</div>
+                    <ul style="margin: 0; padding-left: 1.5rem;">
+                        <li>Introduction: 2 sentences (paraphrase + position)</li>
+                        <li>Body Paragraph 1: 5 sentences numbered 1-5</li>
+                        <li>Body Paragraph 2: 5 sentences numbered 1-5</li>
+                        <li>Conclusion: 1-2 sentences (summary + final thought)</li>
+                    </ul>
+                </div>
+
+                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Introduction</h3>
+                <div class="planning-field">
+                    <label>${plan.introduction.sentence1.label}</label>
+                    <input type="text" data-save="plan-intro-1" placeholder="${plan.introduction.sentence1.placeholder}">
+                </div>
+                <div class="planning-field">
+                    <label>${plan.introduction.sentence2.label}</label>
+                    <input type="text" data-save="plan-intro-2" placeholder="${plan.introduction.sentence2.placeholder}">
+                </div>
+
+                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Body Paragraph 1</h3>
+                <div class="planning-field">
+                    <label>${plan.bodyParagraph1.theme.label}:</label>
+                    <input type="text" data-save="plan-body1-theme" placeholder="${plan.bodyParagraph1.theme.placeholder}">
+                </div>
+                ${plan.bodyParagraph1.ideas.map((idea, i) => `
+                    <div class="planning-field">
+                        <label>${idea.label}:</label>
+                        <input type="text" data-save="plan-body1-idea${i}" placeholder="${idea.placeholder}">
+                    </div>
+                `).join('')}
+
+                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Body Paragraph 2</h3>
+                <div class="planning-field">
+                    <label>${plan.bodyParagraph2.theme.label}:</label>
+                    <input type="text" data-save="plan-body2-theme" placeholder="${plan.bodyParagraph2.theme.placeholder}">
+                </div>
+                ${plan.bodyParagraph2.ideas.map((idea, i) => `
+                    <div class="planning-field">
+                        <label>${idea.label}:</label>
+                        <input type="text" data-save="plan-body2-idea${i}" placeholder="${idea.placeholder}">
+                    </div>
+                `).join('')}
+
+                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Conclusion</h3>
+                <div class="planning-field">
+                    <label>${plan.conclusion.sentence1.label}:</label>
+                    <input type="text" data-save="plan-conclusion-1" placeholder="${plan.conclusion.sentence1.placeholder}">
+                </div>
+                <div class="planning-field">
+                    <label>${plan.conclusion.sentence2.label}:</label>
+                    <input type="text" data-save="plan-conclusion-2" placeholder="${plan.conclusion.sentence2.placeholder}">
+                </div>
+            `;
+        }
+
+        // Render Exercises section (simplified)
+        function renderExercises(content) {
+            let html = '<p style="margin-bottom: 1rem; color: var(--color-text-light);">Practice exercises with the vocabulary and structures from this topic.</p>';
+
+            content.exercises.forEach((exercise, exIdx) => {
+                html += `<div class="exercise-card">`;
+                html += `<div class="exercise-title">${exercise.title}</div>`;
+                html += `<p style="color: var(--color-text-light); font-size: 0.875rem; margin-bottom: 1rem;">${exercise.instruction}</p>`;
+
+                exercise.questions.forEach((q, qIdx) => {
+                    html += `<div class="exercise-question">`;
+                    html += `<strong>Question ${qIdx + 1}:</strong> ${q.instruction || ''}<br>`;
+
+                    if (exercise.type === 'sentence-unscramble') {
+                        html += `<div class="scrambled-words">`;
+                        q.scrambledWords.forEach(word => {
+                            html += `<span class="word-chip">${word}</span>`;
+                        });
+                        html += `</div>`;
+                        html += `<div class="answer-area">Your answer will appear here...</div>`;
+                    } else if (exercise.type === 'fill-in-the-blank') {
+                        html += `<p style="margin: 1rem 0;">${q.sentence.replace(/_____/g,
+                            `<select class="inline-select"><option value="">Select...</option></select>`)}</p>`;
+                    } else if (exercise.type === 'complete-sentence') {
+                        html += `<p style="margin: 0.5rem 0; color: var(--color-text-light); font-size: 0.875rem;">
+                            Use these words: ${q.vocabularyHints.join(', ')}</p>`;
+                        html += `<textarea class="brainstorm-area" style="min-height: 80px;"
+                            placeholder="Complete the sentence (minimum ${q.minimumWords} words)..."></textarea>`;
+                        html += `<div class="word-counter">0 words</div>`;
+                    }
+
+                    html += `<button class="btn-primary" style="margin-top: 0.5rem;">Check Answer</button>`;
+                    html += `</div>`;
+                });
+
+                html += `</div>`;
+            });
+
+            return html;
+        }
+
+        // Render Essay Writing section
+        function renderEssayWriting(content) {
+            return `
+                <div class="guidance-panel" style="margin-bottom: 1rem;">
+                    <div class="guidance-title">Writing Tips</div>
+                    <ul style="margin: 0; padding-left: 1.5rem; font-size: 0.875rem;">
+                        ${content.guidancePanel.tips.map(tip => `<li>${tip}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <textarea class="essay-editor" id="essayEditor" data-save="essay-content"
+                    placeholder="${content.editor.placeholder}"></textarea>
+                <div class="word-counter"><span id="wordCount">0</span> / ${content.editor.wordCountTarget.split('-')[0]} words
+                    (Target: ${content.editor.wordCountTarget})</div>
+            `;
+        }
+
+        // Render Essay Checking section
+        function renderEssayChecking(content) {
+            let html = '';
+
+            content.checkingSteps.forEach(step => {
+                html += `<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Step ${step.step}: ${step.title}</h3>`;
+
+                step.items.forEach((item, idx) => {
+                    html += `
+                        <div class="checklist-item">
+                            <input type="checkbox" id="check-${step.step}-${idx}" data-save="check-${step.step}-${idx}">
+                            <label class="checklist-label" for="check-${step.step}-${idx}">
+                                ${item.label}
+                                ${item.tips && item.tips.length > 0 ? `
+                                    <ul class="tips-list">
+                                        ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
+                                    </ul>
+                                ` : ''}
+                            </label>
+                        </div>
+                    `;
+                });
+
+                if (step.step < content.checkingSteps.length) {
+                    html += '<div style="margin: 2rem 0;"></div>';
+                }
+            });
+
+            return html;
+        }
+
+        // Render Model Answer section
+        function renderModelAnswer(content) {
+            const essay = content.essay;
+            const analysis = content.analysis;
+
+            let html = `
+                <div class="strength-indicator">
+                    <div class="strength-item">
+                        <div class="strength-label">Word Count</div>
+                        <div class="strength-value">${essay.wordCount}</div>
+                    </div>
+                    <div class="strength-item">
+                        <div class="strength-label">Band Score</div>
+                        <div class="strength-value">${analysis.bandScore.overall}</div>
+                    </div>
+                    <div class="strength-item">
+                        <div class="strength-label">Paragraphs</div>
+                        <div class="strength-value">${analysis.structure.split(' ')[0]}</div>
+                    </div>
+                </div>
+
+                <div class="preview-box" style="margin-bottom: 1.5rem;">
+                    ${essay.fullEssay.split('\n\n').map(para => `<p>${para}</p>`).join('')}
+                </div>
+
+                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Key Techniques Used</h3>
+            `;
+
+            content.annotations.slice(0, 5).forEach(annotation => {
+                html += `
+                    <div class="model-annotation">
+                        <div style="margin-bottom: 0.5rem;">
+                            <span class="annotation-highlight">${annotation.highlight}</span>
+                        </div>
+                        <strong>${annotation.technique}:</strong> ${annotation.explanation}
+                    </div>
+                `;
+            });
+
+            return html;
+        }
+
+        // Render Self-Assessment section
+        function renderSelfAssessment(content) {
+            let html = '';
+
+            content.criteria.slice(0, 2).forEach(criterion => {
+                html += `<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">${criterion.title} (${criterion.weight})</h3>`;
+
+                criterion.bandDescriptors.forEach(desc => {
+                    const bandColor = desc.band === 9 ? 'var(--color-accent)' : '#10b981';
+                    html += `
+                        <div class="band-descriptor">
+                            <div style="display: flex; align-items: flex-start;">
+                                <span class="band-number" style="background: ${bandColor};">${desc.band}</span>
+                                <div><strong>Band ${desc.band}:</strong> ${desc.descriptor}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                    <div style="margin: 1rem 0;">
+                        <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Rate yourself on ${criterion.title}:</label>
+                        <select class="select" data-save="assessment-${criterion.criterion}" style="width: 100%;">
+                            <option value="">Select band...</option>
+                            <option value="9">Band 9</option>
+                            <option value="8">Band 8</option>
+                            <option value="7">Band 7</option>
+                            <option value="6">Band 6</option>
+                            <option value="5">Band 5</option>
+                        </select>
+                    </div>
+                `;
+            });
+
+            const overall = content.overallAssessment;
+            html += `
+                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Overall Reflection</h3>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.strengths.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-strengths"
+                        placeholder="${overall.strengths.placeholder}"></textarea>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.areasForImprovement.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-improvements"
+                        placeholder="${overall.areasForImprovement.placeholder}"></textarea>
+                </div>
+
+                <div>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.actionPlan.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-action"
+                        placeholder="${overall.actionPlan.placeholder}"></textarea>
+                </div>
+            `;
+
+            return html;
+        }
+
+        // Render navigation
+        function renderNavigation() {
+            const nav = document.createElement('nav');
+            nav.className = 'nav-section';
+            nav.style.marginTop = '3rem';
+            nav.innerHTML = `
+                <button class="btn-primary" onclick="window.print()">🖨️ Print This Practice</button>
+                <button class="btn-primary" onclick="saveProgress()">💾 Save Progress</button>
+                <button class="btn-nav" onclick="resetAll()">🔄 Start Over</button>
+            `;
+            return nav;
+        }
+
+        // Toggle section visibility
+        function toggleSection(num) {
+            const content = document.getElementById(`content-${num}`);
+            const toggle = document.getElementById(`toggle-${num}`);
+
+            content.classList.toggle('active');
+            toggle.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        // Update progress counter
+        function updateProgress() {
+            const openSections = document.querySelectorAll('.collapsible-content.active').length;
+            document.getElementById('progressCount').textContent = `${openSections}/${sectionCount} sections`;
+        }
+
+        // Word counter for essay
+        function setupWordCounter() {
+            const essayEditor = document.getElementById('essayEditor');
+            const wordCountDisplay = document.getElementById('wordCount');
+
+            if (essayEditor && wordCountDisplay) {
+                essayEditor.addEventListener('input', function() {
+                    const text = this.value.trim();
+                    const words = text ? text.split(/\s+/).length : 0;
+                    wordCountDisplay.textContent = words;
+                });
+            }
+        }
+
+        // Save progress to localStorage
+        function saveProgress() {
+            const data = {};
+
+            // Save all elements with data-save attribute
+            document.querySelectorAll('[data-save]').forEach(el => {
+                const key = el.getAttribute('data-save');
+                if (el.tagName === 'TEXTAREA' || el.tagName === 'INPUT') {
+                    data[key] = el.value;
+                } else if (el.tagName === 'SELECT') {
+                    data[key] = el.value;
+                } else if (el.type === 'checkbox') {
+                    data[key] = el.checked;
+                }
+            });
+
+            // Save open sections
+            data._openSections = Array.from(document.querySelectorAll('.collapsible-content.active'))
+                .map(el => el.id);
+
+            localStorage.setItem('ieltsWritingProgress', JSON.stringify(data));
+            alert('Progress saved! ✓');
+        }
+
+        // Load progress from localStorage
+        function loadProgress() {
+            const saved = localStorage.getItem('ieltsWritingProgress');
+            if (!saved) return;
+
+            const data = JSON.parse(saved);
+
+            // Restore all saved values
+            Object.entries(data).forEach(([key, value]) => {
+                if (key === '_openSections') {
+                    // Restore open sections
+                    value.forEach(id => {
+                        const num = id.split('-')[1];
+                        toggleSection(parseInt(num));
+                    });
+                } else {
+                    const el = document.querySelector(`[data-save="${key}"]`);
+                    if (el) {
+                        if (el.type === 'checkbox') {
+                            el.checked = value;
+                        } else {
+                            el.value = value;
+                        }
+                    }
+                }
+            });
+
+            // Update word count if essay exists
+            setupWordCounter();
+            const essayEditor = document.getElementById('essayEditor');
+            if (essayEditor && essayEditor.value) {
+                const event = new Event('input');
+                essayEditor.dispatchEvent(event);
+            }
+        }
+
+        // Reset all progress
+        function resetAll() {
+            if (confirm('Are you sure you want to reset all your work?')) {
+                localStorage.removeItem('ieltsWritingProgress');
+                location.reload();
+            }
+        }
+
+        // Initialize
+        window.addEventListener('load', async () => {
+            await loadPracticeData();
+            setTimeout(() => {
+                loadProgress();
+                setupWordCounter();
+            }, 100);
+        });
+
+        // Auto-save every 30 seconds
+        setInterval(() => {
+            const essayEditor = document.getElementById('essayEditor');
+            if (essayEditor && essayEditor.value) {
+                saveProgress();
+            }
+        }, 30000);
+    </script>
+</body>
+</html>
