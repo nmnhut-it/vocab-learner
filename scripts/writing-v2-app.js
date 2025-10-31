@@ -858,7 +858,7 @@ function renderTemplatesStep(step, container) {
             </div>
         `).join('')}
 
-        <div class="exercise-card" style="background: #fffbeb; border-left-color: #fbbf24;">
+        <div style="padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--color-border);">
             <h3 style="margin-bottom: 1rem;">💡 Useful Transitions</h3>
             ${Object.entries(content.usefulTransitions).map(([category, phrases]) => `
                 <div style="margin-bottom: 1rem;">
@@ -867,6 +867,38 @@ function renderTemplatesStep(step, container) {
                     </strong>
                     <p style="margin: 0.5rem 0 0 0; color: var(--color-text-light);">
                         ${phrases.join(', ')}
+                    </p>
+                </div>
+            `).join('')}
+        </div>
+
+        <!-- Band 8 Model Answer -->
+        <div style="padding-top: 2rem; margin-top: 3rem; border-top: 2px solid var(--color-border);">
+            <h3 style="margin-bottom: 0.5rem; color: var(--color-accent);">📝 Band 8 Model Answer</h3>
+            <p style="color: var(--color-text-light); margin-bottom: 1.5rem; font-size: 0.875rem;">
+                Study this Band 8 essay to see how templates work in practice
+            </p>
+
+            <div style="padding: 1.5rem 0; border-bottom: 1px solid var(--color-border); line-height: 1.8; white-space: pre-wrap;">
+${currentTopic.modelEssay.text}
+            </div>
+
+            <div style="display: flex; gap: 2rem; padding: 1rem 0; font-size: 0.875rem; color: var(--color-text-light);">
+                <span>📊 Word Count: <strong>${currentTopic.modelEssay.wordCount} words</strong></span>
+                <span>⭐ Band Level: <strong style="color: var(--step-completed);">8.0</strong></span>
+            </div>
+
+            <h4 style="margin: 2rem 0 1rem 0;">✨ What Makes This Band 8:</h4>
+            ${currentTopic.modelEssay.highlights.map(highlight => `
+                <div style="padding: 0.75rem 0; border-bottom: 1px solid var(--color-border);">
+                    <div style="display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.5rem;">
+                        <span style="background: #fef3c7; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-weight: 500; font-size: 0.875rem;">
+                            ${highlight.type.replace(/-/g, ' ')}
+                        </span>
+                        <strong>"${highlight.text}"</strong>
+                    </div>
+                    <p style="margin: 0; color: var(--color-text-light); font-size: 0.875rem; padding-left: 1rem;">
+                        ${highlight.explanation}
                     </p>
                 </div>
             `).join('')}
