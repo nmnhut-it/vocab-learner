@@ -1,0 +1,1031 @@
+{
+  "id": "professional-sports-salaries",
+  "title": "Professional Sports Salaries",
+  "category": "Work & Employment",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people believe professional athletes earn too much money, while others think their high salaries are justified. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (athletes earn too much AND salaries are justified) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss why some believe athletes earn too much",
+            "Discuss why others believe high salaries are justified",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "professional athletes",
+            "definition": "People who earn money playing sports at elite levels",
+            "importance": "This is the main subject you must discuss"
+          },
+          {
+            "word": "earn too much",
+            "definition": "Receive excessive compensation relative to contribution",
+            "importance": "This is one perspective you must explain"
+          },
+          {
+            "word": "justified",
+            "definition": "Fair, reasonable, or deserved",
+            "importance": "This is the opposing perspective you must explain"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          },
+          {
+            "word": "your opinion",
+            "definition": "Your personal viewpoint",
+            "importance": "You must take a clear position - don't be too neutral"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss first view (athletes earn too much)",
+          "body2": "4-5 sentences: Discuss second view (salaries are justified)",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only focusing on money without discussing value or contribution",
+          "Opinion is unclear or too balanced ('both have valid points')",
+          "Forgetting to compare with other professions",
+          "Not providing specific salary examples or sports",
+          "Using emotional language instead of balanced analysis"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "compensation",
+            "pronunciation": "/ˌkɒmpenˈseɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Payment or reward for work or services",
+            "example": "Professional athletes receive substantial compensation for their performances.",
+            "synonyms": ["remuneration", "payment", "earnings"]
+          },
+          {
+            "word": "disproportionate",
+            "pronunciation": "/ˌdɪsprəˈpɔːʃənət/",
+            "partOfSpeech": "adjective",
+            "definition": "Too large or too small in comparison with something else",
+            "example": "Critics argue that sports salaries are disproportionate to societal contribution.",
+            "synonyms": ["excessive", "unbalanced", "inequitable"]
+          },
+          {
+            "word": "lucrative",
+            "pronunciation": "/ˈluːkrətɪv/",
+            "partOfSpeech": "adjective",
+            "definition": "Producing a great deal of profit or income",
+            "example": "Professional sports have become increasingly lucrative due to media rights.",
+            "synonyms": ["profitable", "remunerative", "gainful"]
+          },
+          {
+            "word": "rigorous",
+            "pronunciation": "/ˈrɪɡərəs/",
+            "partOfSpeech": "adjective",
+            "definition": "Extremely thorough and demanding",
+            "example": "Athletes undergo rigorous training regimens to reach elite levels.",
+            "synonyms": ["demanding", "strenuous", "intensive"]
+          },
+          {
+            "word": "exemplify",
+            "pronunciation": "/ɪɡˈzemplɪfaɪ/",
+            "partOfSpeech": "verb",
+            "definition": "To serve as a typical example of something",
+            "example": "Top footballers exemplify the extreme earning potential in professional sports.",
+            "synonyms": ["illustrate", "demonstrate", "represent"]
+          },
+          {
+            "word": "generate",
+            "pronunciation": "/ˈdʒenəreɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To produce or create something",
+            "example": "Star athletes generate enormous revenue through ticket sales and merchandise.",
+            "synonyms": ["produce", "create", "yield"]
+          },
+          {
+            "word": "ephemeral",
+            "pronunciation": "/ɪˈfemərəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Lasting for a very short time",
+            "example": "Athletic careers are ephemeral, typically lasting only 10-15 years.",
+            "synonyms": ["brief", "fleeting", "transient"]
+          },
+          {
+            "word": "allocation",
+            "pronunciation": "/ˌæləˈkeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The distribution of resources for a particular purpose",
+            "example": "Some question whether current salary allocation reflects true societal priorities.",
+            "synonyms": ["distribution", "assignment", "apportionment"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "market value",
+            "definition": "The worth of something based on supply and demand",
+            "example": "Athletes' salaries reflect their market value in entertainment industry."
+          },
+          {
+            "phrase": "revenue generation",
+            "definition": "The creation of income or profit",
+            "example": "Top players drive significant revenue generation for their teams."
+          },
+          {
+            "phrase": "career longevity",
+            "definition": "The duration of a professional career",
+            "example": "Limited career longevity justifies higher earnings during peak years."
+          },
+          {
+            "phrase": "endorsement deals",
+            "definition": "Agreements to promote products in exchange for payment",
+            "example": "Many athletes supplement salaries with lucrative endorsement deals."
+          },
+          {
+            "phrase": "physical sacrifice",
+            "definition": "Bodily harm or health risks endured",
+            "example": "Professional sports involve considerable physical sacrifice and injury risk."
+          },
+          {
+            "phrase": "public entertainment",
+            "definition": "Performance or spectacle for audience enjoyment",
+            "example": "Athletes provide public entertainment that millions of people value."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing opinions regarding", "While some contend"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However", "In contrast"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "Specifically"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["professional athletes receive excessive compensation", "sports are popular", "players work hard"], "correctAnswer": "professional athletes receive excessive compensation"},
+                  {"id": "thesis1_b2", "options": ["their high salaries reflect market value and contribution", "they deserve money", "sports are important"], "correctAnswer": "their high salaries reflect market value and contribution"}
+                ],
+                "correctSentence": "While some believe professional athletes receive excessive compensation, others argue that their high salaries reflect market value and contribution.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ depends on _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["whether sports salaries are justified", "athlete income", "money matters"], "correctAnswer": "whether sports salaries are justified"},
+                  {"id": "thesis2_b2", "options": ["the revenue athletes generate and their career limitations", "public opinion", "team budgets"], "correctAnswer": "the revenue athletes generate and their career limitations"}
+                ],
+                "correctSentence": "In my opinion, whether sports salaries are justified depends on the revenue athletes generate and their career limitations.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "There is ongoing debate about whether _____ or _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["sports stars earn disproportionate amounts", "athletes are overpaid", "money is excessive"], "correctAnswer": "sports stars earn disproportionate amounts"},
+                  {"id": "thesis3_b2", "options": ["their compensation matches their economic contribution", "salaries are fair", "they deserve income"], "correctAnswer": "their compensation matches their economic contribution"}
+                ],
+                "correctSentence": "There is ongoing debate about whether sports stars earn disproportionate amounts or their compensation matches their economic contribution.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "From my perspective, _____ because _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["athletic salaries are generally warranted", "athletes earn too much", "sports are popular"], "correctAnswer": "athletic salaries are generally warranted"},
+                  {"id": "thesis4_b2", "options": ["they generate substantial revenue during brief careers", "people enjoy sports", "training is difficult"], "correctAnswer": "they generate substantial revenue during brief careers"}
+                ],
+                "correctSentence": "From my perspective, athletic salaries are generally warranted because they generate substantial revenue during brief careers.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will discuss _____ before concluding that _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["both perspectives on professional sports compensation", "athlete salaries", "sports income"], "correctAnswer": "both perspectives on professional sports compensation"},
+                  {"id": "thesis5_b2", "options": ["market forces largely justify current salary levels", "athletes earn too much", "change is needed"], "correctAnswer": "market forces largely justify current salary levels"}
+                ],
+                "correctSentence": "This essay will discuss both perspectives on professional sports compensation before concluding that market forces largely justify current salary levels.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ believe _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["critics", "some people", "everyone"], "correctAnswer": "critics"},
+                  {"id": "topic1_b2", "options": ["professional athletes receive disproportionate compensation", "sports are popular", "money is important"], "correctAnswer": "professional athletes receive disproportionate compensation"}
+                ],
+                "correctSentence": "On the one hand, critics believe professional athletes receive disproportionate compensation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ argue that _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["supporters of high sports salaries", "some people", "athletes"], "correctAnswer": "supporters of high sports salaries"},
+                  {"id": "topic2_b2", "options": ["compensation reflects market realities and unique contributions", "money is deserved", "sports are valuable"], "correctAnswer": "compensation reflects market realities and unique contributions"}
+                ],
+                "correctSentence": "On the other hand, supporters of high sports salaries argue that compensation reflects market realities and unique contributions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "One major concern is that _____ when _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["salary disparities seem unjustified", "athletes earn money", "sports are popular"], "correctAnswer": "salary disparities seem unjustified"},
+                  {"id": "topic3_b2", "options": ["compared to essential professions like teaching and nursing", "looking at income", "considering sports"], "correctAnswer": "compared to essential professions like teaching and nursing"}
+                ],
+                "correctSentence": "One major concern is that salary disparities seem unjustified when compared to essential professions like teaching and nursing.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A key justification for _____ is that _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["elevated athletic earnings", "sports salaries", "high income"], "correctAnswer": "elevated athletic earnings"},
+                  {"id": "topic4_b2", "options": ["elite athletes generate enormous revenue for organizations", "they work hard", "sports are popular"], "correctAnswer": "elite athletes generate enormous revenue for organizations"}
+                ],
+                "correctSentence": "A key justification for elevated athletic earnings is that elite athletes generate enormous revenue for organizations.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "_____ contend that _____ seems excessive given _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["Those questioning sports salaries", "Many people", "Critics"], "correctAnswer": "Those questioning sports salaries"},
+                  {"id": "topic5_b2", "options": ["paying athletes millions annually", "sports income", "athlete earnings"], "correctAnswer": "paying athletes millions annually"},
+                  {"id": "topic5_b3", "options": ["the limited societal benefit of entertainment", "popular opinion", "economic conditions"], "correctAnswer": "the limited societal benefit of entertainment"}
+                ],
+                "correctSentence": "Those questioning sports salaries contend that paying athletes millions annually seems excessive given the limited societal benefit of entertainment.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "_____ emphasize that _____ represents _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["Advocates for current compensation levels", "Supporters", "Many people"], "correctAnswer": "Advocates for current compensation levels"},
+                  {"id": "topic6_b2", "options": ["athletic achievement at the highest level", "sports performance", "playing games"], "correctAnswer": "athletic achievement at the highest level"},
+                  {"id": "topic6_b3", "options": ["extraordinary talent refined through years of dedication", "hard work", "natural ability"], "correctAnswer": "extraordinary talent refined through years of dedication"}
+                ],
+                "correctSentence": "Advocates for current compensation levels emphasize that athletic achievement at the highest level represents extraordinary talent refined through years of dedication.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The primary criticism is that _____ could be _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["money allocated to sports salaries", "athlete income", "sports funding"], "correctAnswer": "money allocated to sports salaries"},
+                  {"id": "topic7_b2", "options": ["better invested in education, healthcare, or social services", "used differently", "spent on other things"], "correctAnswer": "better invested in education, healthcare, or social services"}
+                ],
+                "correctSentence": "The primary criticism is that money allocated to sports salaries could be better invested in education, healthcare, or social services.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "An important consideration is that _____ face _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["professional athletes", "sports players", "people"], "correctAnswer": "professional athletes"},
+                  {"id": "topic8_b2", "options": ["extremely short career spans with high injury risks", "difficult challenges", "competition"], "correctAnswer": "extremely short career spans with high injury risks"}
+                ],
+                "correctSentence": "An important consideration is that professional athletes face extremely short career spans with high injury risks.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ while _____ struggle financially.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["athletes earn millions for playing games", "sports are popular", "people enjoy entertainment"], "correctAnswer": "athletes earn millions for playing games"},
+                  {"id": "support1_b2", "options": ["teachers, nurses, and scientists who benefit society", "other people", "many workers"], "correctAnswer": "teachers, nurses, and scientists who benefit society"}
+                ],
+                "correctSentence": "This is because athletes earn millions for playing games while teachers, nurses, and scientists who benefit society struggle financially.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ directly determines _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["an athlete's ability to attract audiences and sponsors", "sports popularity", "team performance"], "correctAnswer": "an athlete's ability to attract audiences and sponsors"},
+                  {"id": "support2_b2", "options": ["the revenue they generate for organizations", "their success", "their fame"], "correctAnswer": "the revenue they generate for organizations"}
+                ],
+                "correctSentence": "The main reason is that an athlete's ability to attract audiences and sponsors directly determines the revenue they generate for organizations.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Such compensation disparities suggest _____ rather than _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["society values entertainment more than education", "money matters", "priorities differ"], "correctAnswer": "society values entertainment more than education"},
+                  {"id": "support3_b2", "options": ["rewarding genuine societal contribution", "paying fairly", "distributing income"], "correctAnswer": "rewarding genuine societal contribution"}
+                ],
+                "correctSentence": "Such compensation disparities suggest society values entertainment more than education rather than rewarding genuine societal contribution.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ reflects _____ that only _____ possess.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["Professional sports performance", "Athletic ability", "Playing games"], "correctAnswer": "Professional sports performance"},
+                  {"id": "support4_b2", "options": ["exceptional physical talent and mental discipline", "natural ability", "hard work"], "correctAnswer": "exceptional physical talent and mental discipline"},
+                  {"id": "support4_b3", "options": ["a tiny fraction of the population", "some people", "athletes"], "correctAnswer": "a tiny fraction of the population"}
+                ],
+                "correctSentence": "Professional sports performance reflects exceptional physical talent and mental discipline that only a tiny fraction of the population possess.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By _____, societies could _____ that _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["redirecting some sports funding to public services", "spending differently", "changing priorities"], "correctAnswer": "redirecting some sports funding to public services"},
+                  {"id": "support5_b2", "options": ["address critical needs in healthcare and education", "help people", "improve society"], "correctAnswer": "address critical needs in healthcare and education"}
+                ],
+                "correctSentence": "By redirecting some sports funding to public services, societies could address critical needs in healthcare and education.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ justifies _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["The market-driven nature of professional sports", "Sports economics", "Competition"], "correctAnswer": "The market-driven nature of professional sports"},
+                  {"id": "support6_b2", "options": ["high compensation levels", "large salaries", "income"], "correctAnswer": "high compensation levels"},
+                  {"id": "support6_b3", "options": ["supply and demand principles", "economic forces", "market conditions"], "correctAnswer": "supply and demand principles"}
+                ],
+                "correctSentence": "The market-driven nature of professional sports justifies high compensation levels through supply and demand principles.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Moreover, _____ creates _____ where _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["the focus on athletic wealth", "sports salaries", "high income"], "correctAnswer": "the focus on athletic wealth"},
+                  {"id": "support7_b2", "options": ["problematic role models for youth", "bad examples", "negative influences"], "correctAnswer": "problematic role models for youth"},
+                  {"id": "support7_b3", "options": ["material success overshadows education and character", "money matters most", "values shift"], "correctAnswer": "material success overshadows education and character"}
+                ],
+                "correctSentence": "Moreover, the focus on athletic wealth creates problematic role models for youth where material success overshadows education and character.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Additionally, _____ must compensate for _____ that _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["athletic salaries", "sports income", "player earnings"], "correctAnswer": "athletic salaries"},
+                  {"id": "support8_b2", "options": ["the ephemeral nature of sports careers", "short careers", "limited time"], "correctAnswer": "the ephemeral nature of sports careers"},
+                  {"id": "support8_b3", "options": ["typically end by age 35 with significant health impacts", "don't last long", "finish early"], "correctAnswer": "typically end by age 35 with significant health impacts"}
+                ],
+                "correctSentence": "Additionally, athletic salaries must compensate for the ephemeral nature of sports careers that typically end by age 35 with significant health impacts.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "Critics point out that _____ contributes little to _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["professional sports entertainment", "playing games", "athletic performance"], "correctAnswer": "professional sports entertainment"},
+                  {"id": "support9_b2", "options": ["solving pressing societal challenges like poverty or disease", "helping people", "improving society"], "correctAnswer": "solving pressing societal challenges like poverty or disease"}
+                ],
+                "correctSentence": "Critics point out that professional sports entertainment contributes little to solving pressing societal challenges like poverty or disease.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "In reality, _____ operate as _____ where _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["professional sports leagues", "teams", "organizations"], "correctAnswer": "professional sports leagues"},
+                  {"id": "support10_b2", "options": ["entertainment businesses", "companies", "enterprises"], "correctAnswer": "entertainment businesses"},
+                  {"id": "support10_b3", "options": ["star performers receive proportional shares of profits", "money is distributed", "income is allocated"], "correctAnswer": "star performers receive proportional shares of profits"}
+                ],
+                "correctSentence": "In reality, professional sports leagues operate as entertainment businesses where star performers receive proportional shares of profits.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ perpetuates _____ in _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["rewarding athletes so lavishly", "sports salaries", "high income"], "correctAnswer": "rewarding athletes so lavishly"},
+                  {"id": "support11_b2", "options": ["inequitable wealth distribution", "unfairness", "problems"], "correctAnswer": "inequitable wealth distribution"}
+                ],
+                "correctSentence": "As a result, rewarding athletes so lavishly perpetuates inequitable wealth distribution.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ merely reflects _____ rather than _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["athletic compensation", "sports salaries", "player income"], "correctAnswer": "athletic compensation"},
+                  {"id": "support12_b2", "options": ["the economic value athletes create", "what they earn", "market forces"], "correctAnswer": "the economic value athletes create"},
+                  {"id": "support12_b3", "options": ["arbitrary overvaluation of entertainment", "unfair payments", "excessive income"], "correctAnswer": "arbitrary overvaluation of entertainment"}
+                ],
+                "correctSentence": "Consequently, athletic compensation merely reflects the economic value athletes create rather than arbitrary overvaluation of entertainment.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ earn _____ while _____ earn _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["top footballers", "some athletes", "sports stars"], "correctAnswer": "top footballers"},
+                  {"id": "example1_b2", "options": ["hundreds of thousands weekly", "large salaries", "good money"], "correctAnswer": "hundreds of thousands weekly"},
+                  {"id": "example1_b3", "options": ["experienced teachers", "other workers", "many people"], "correctAnswer": "experienced teachers"},
+                  {"id": "example1_b4", "options": ["modest annual salaries despite educating future generations", "less money", "lower income"], "correctAnswer": "modest annual salaries despite educating future generations"}
+                ],
+                "correctSentence": "For instance, top footballers earn hundreds of thousands weekly while experienced teachers earn modest annual salaries despite educating future generations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ like _____ generate _____ through _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["elite athletes", "sports stars", "players"], "correctAnswer": "elite athletes"},
+                  {"id": "example2_b2", "options": ["Cristiano Ronaldo or LeBron James", "famous players", "top performers"], "correctAnswer": "Cristiano Ronaldo or LeBron James"},
+                  {"id": "example2_b3", "options": ["billions in revenue for their organizations", "lots of money", "substantial income"], "correctAnswer": "billions in revenue for their organizations"},
+                  {"id": "example2_b4", "options": ["ticket sales, broadcasting rights, and merchandise", "various sources", "different methods"], "correctAnswer": "ticket sales, broadcasting rights, and merchandise"}
+                ],
+                "correctSentence": "For example, elite athletes like Cristiano Ronaldo or LeBron James generate billions in revenue for their organizations through ticket sales, broadcasting rights, and merchandise.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ in _____ earns _____ annually, which exceeds _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["an average Premier League footballer", "a sports player", "an athlete"], "correctAnswer": "an average Premier League footballer"},
+                  {"id": "example3_b2", "options": ["England", "the UK", "Europe"], "correctAnswer": "England"},
+                  {"id": "example3_b3", "options": ["over £3 million", "lots of money", "high income"], "correctAnswer": "over £3 million"},
+                  {"id": "example3_b4", "options": ["the lifetime earnings of many essential workers", "other salaries", "most incomes"], "correctAnswer": "the lifetime earnings of many essential workers"}
+                ],
+                "correctSentence": "Specifically, an average Premier League footballer in England earns over £3 million annually, which exceeds the lifetime earnings of many essential workers.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research shows that _____ have _____ compared to _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["professional athletes", "sports players", "performers"], "correctAnswer": "professional athletes"},
+                  {"id": "example4_b2", "options": ["career spans averaging only 10-15 years", "short careers", "limited time"], "correctAnswer": "career spans averaging only 10-15 years"},
+                  {"id": "example4_b3", "options": ["40-year careers in most other professions", "regular jobs", "normal work"], "correctAnswer": "40-year careers in most other professions"}
+                ],
+                "correctSentence": "Research shows that professional athletes have career spans averaging only 10-15 years compared to 40-year careers in most other professions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A study by _____ found that _____ could fund _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["economic policy institutes", "researchers", "experts"], "correctAnswer": "economic policy institutes"},
+                  {"id": "example5_b2", "options": ["redistributing just 10% of sports salaries", "reducing athlete income", "changing allocation"], "correctAnswer": "redistributing just 10% of sports salaries"},
+                  {"id": "example5_b3", "options": ["significant improvements in public education systems", "better schools", "educational programs"], "correctAnswer": "significant improvements in public education systems"}
+                ],
+                "correctSentence": "A study by economic policy institutes found that redistributing just 10% of sports salaries could fund significant improvements in public education systems.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ demonstrate _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["sports leagues", "competitions", "organizations"], "correctAnswer": "sports leagues"},
+                  {"id": "example6_b2", "options": ["the NBA or English Premier League", "major competitions", "top events"], "correctAnswer": "the NBA or English Premier League"},
+                  {"id": "example6_b3", "options": ["how star players directly increase franchise valuations by hundreds of millions", "value creation", "economic impact"], "correctAnswer": "how star players directly increase franchise valuations by hundreds of millions"}
+                ],
+                "correctSentence": "In particular, sports leagues such as the NBA or English Premier League demonstrate how star players directly increase franchise valuations by hundreds of millions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, have expressed that _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["social commentators", "critics", "people"], "correctAnswer": "social commentators"},
+                  {"id": "example7_b2", "options": ["economists and educators", "various experts", "professionals"], "correctAnswer": "economists and educators"},
+                  {"id": "example7_b3", "options": ["sports salary inflation undermines societal value priorities", "income is excessive", "changes are needed"], "correctAnswer": "sports salary inflation undermines societal value priorities"}
+                ],
+                "correctSentence": "Many social commentators, including economists and educators, have expressed that sports salary inflation undermines societal value priorities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ commands _____ because _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["the tennis industry", "sports business", "competitions"], "correctAnswer": "the tennis industry"},
+                  {"id": "example8_b2", "options": ["a top player", "an athlete", "a performer"], "correctAnswer": "a top player"},
+                  {"id": "example8_b3", "options": ["massive prize money and endorsements", "high income", "large earnings"], "correctAnswer": "massive prize money and endorsements"},
+                  {"id": "example8_b4", "options": ["they attract millions of viewers to tournaments globally", "people watch them", "they are popular"], "correctAnswer": "they attract millions of viewers to tournaments globally"}
+                ],
+                "correctSentence": "Take the tennis industry as an example: a top player commands massive prize money and endorsements because they attract millions of viewers to tournaments globally.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, the average _____ retires with _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["sports medicine data", "health reports", "studies"], "correctAnswer": "sports medicine data"},
+                  {"id": "example9_b2", "options": ["professional athlete", "sports player", "performer"], "correctAnswer": "professional athlete"},
+                  {"id": "example9_b3", "options": ["chronic injuries and health complications requiring lifelong treatment", "health problems", "medical issues"], "correctAnswer": "chronic injuries and health complications requiring lifelong treatment"}
+                ],
+                "correctSentence": "According to sports medicine data, the average professional athlete retires with chronic injuries and health complications requiring lifelong treatment.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ derives from _____ rather than _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["public fascination with sports salaries", "interest in income", "salary attention"], "correctAnswer": "public fascination with sports salaries"},
+                  {"id": "example10_b2", "options": ["the visibility of athletes compared to other high earners", "fame", "popularity"], "correctAnswer": "the visibility of athletes compared to other high earners"},
+                  {"id": "example10_b3", "options": ["athletes actually earning disproportionately more than executives", "excessive compensation", "unfair pay"], "correctAnswer": "athletes actually earning disproportionately more than executives"}
+                ],
+                "correctSentence": "Evidence suggests that public fascination with sports salaries derives from the visibility of athletes compared to other high earners rather than athletes actually earning disproportionately more than executives.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ overlooks _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["focusing solely on salary amounts", "criticizing income", "questioning earnings"], "correctAnswer": "focusing solely on salary amounts"},
+                  {"id": "counter1_b2", "options": ["the massive revenue athletes generate for their employers", "economic factors", "financial contributions"], "correctAnswer": "the massive revenue athletes generate for their employers"}
+                ],
+                "correctSentence": "However, it could be argued that focusing solely on salary amounts overlooks the massive revenue athletes generate for their employers.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these justifications, _____ cannot fully address _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["market-based arguments", "economic reasoning", "financial explanations"], "correctAnswer": "market-based arguments"},
+                  {"id": "counter2_b2", "options": ["the ethical concerns about wealth inequality", "fairness questions", "moral issues"], "correctAnswer": "the ethical concerns about wealth inequality"}
+                ],
+                "correctSentence": "Despite these justifications, market-based arguments cannot fully address the ethical concerns about wealth inequality.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ does not change _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["acknowledging short career spans", "considering limitations", "noting difficulties"], "correctAnswer": "acknowledging short career spans"},
+                  {"id": "counter3_b2", "options": ["the fact that nurses work entire careers without reaching athlete wealth", "salary comparisons", "income disparities"], "correctAnswer": "the fact that nurses work entire careers without reaching athlete wealth"}
+                ],
+                "correctSentence": "Nevertheless, acknowledging short career spans does not change the fact that nurses work entire careers without reaching athlete wealth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ have merit, they fail to consider _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["criticisms about excessive compensation", "salary complaints", "income concerns"], "correctAnswer": "criticisms about excessive compensation"},
+                  {"id": "counter4_b2", "options": ["that entertainment is a legitimate industry with willing consumers", "market realities", "economic principles"], "correctAnswer": "that entertainment is a legitimate industry with willing consumers"}
+                ],
+                "correctSentence": "Although criticisms about excessive compensation have merit, they fail to consider that entertainment is a legitimate industry with willing consumers.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics acknowledge that _____ but maintain that _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["athletes possess rare talents", "players are skilled", "performers have ability"], "correctAnswer": "athletes possess rare talents"},
+                  {"id": "counter5_b2", "options": ["talent alone cannot justify such extreme wealth accumulation", "income is excessive", "earnings are too high"], "correctAnswer": "talent alone cannot justify such extreme wealth accumulation"}
+                ],
+                "correctSentence": "Critics acknowledge that athletes possess rare talents but maintain that talent alone cannot justify such extreme wealth accumulation.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["concerns about salary disparities are understandable", "people disagree", "opinions vary"], "correctAnswer": "concerns about salary disparities are understandable"},
+                  {"id": "conclusion1_b2", "options": ["market forces and career limitations justify current compensation levels", "athletes deserve income", "salaries are fair"], "correctAnswer": "market forces and career limitations justify current compensation levels"}
+                ],
+                "correctSentence": "In conclusion, while concerns about salary disparities are understandable, I believe market forces and career limitations justify current compensation levels.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ raises questions about _____, whereas _____ emphasizes _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["the criticism of athletic salaries", "negative views", "concerns"], "correctAnswer": "the criticism of athletic salaries"},
+                  {"id": "conclusion2_b2", "options": ["societal priorities and value allocation", "fairness", "distribution"], "correctAnswer": "societal priorities and value allocation"},
+                  {"id": "conclusion2_b3", "options": ["the defense", "support", "justification"], "correctAnswer": "the defense"},
+                  {"id": "conclusion2_b4", "options": ["economic realities and individual contribution", "market forces", "business principles"], "correctAnswer": "economic realities and individual contribution"}
+                ],
+                "correctSentence": "Overall, the criticism of athletic salaries raises questions about societal priorities and value allocation, whereas the defense emphasizes economic realities and individual contribution.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ ultimately reflects _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["whether sports salaries are justified", "the salary debate", "income questions"], "correctAnswer": "whether sports salaries are justified"},
+                  {"id": "conclusion3_b2", "options": ["one's perspective on market economics versus social equity", "personal opinion", "individual values"], "correctAnswer": "one's perspective on market economics versus social equity"}
+                ],
+                "correctSentence": "To summarize, whether sports salaries are justified ultimately reflects one's perspective on market economics versus social equity.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ must accept that _____ in _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["societies", "people", "communities"], "correctAnswer": "societies"},
+                  {"id": "conclusion4_b2", "options": ["compensation levels reflect consumer demand", "salaries follow markets", "income depends on value"], "correctAnswer": "compensation levels reflect consumer demand"},
+                  {"id": "conclusion4_b3", "options": ["entertainment industries where athletes perform", "sports business", "professional leagues"], "correctAnswer": "entertainment industries where athletes perform"}
+                ],
+                "correctSentence": "Ultimately, societies must accept that compensation levels reflect consumer demand in entertainment industries where athletes perform.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ represents _____ because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["current athletic compensation", "sports salaries", "player income"], "correctAnswer": "current athletic compensation"},
+                  {"id": "conclusion5_b2", "options": ["fair market valuation", "appropriate payment", "justified earnings"], "correctAnswer": "fair market valuation"},
+                  {"id": "conclusion5_b3", "options": ["athletes receive proportional shares of the value they create", "markets work efficiently", "economics determine income"], "correctAnswer": "athletes receive proportional shares of the value they create"}
+                ],
+                "correctSentence": "In my view, current athletic compensation represents fair market valuation because athletes receive proportional shares of the value they create.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [View A], others argue that [View B]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence supporting View A]. This is because [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or concern].",
+              "body2": "On the other hand, [Topic sentence supporting View B]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            },
+            "example": {
+              "introduction": "While some believe professional athletes earn excessive salaries, others argue their compensation reflects market realities. In my opinion, athletic salaries are generally justified given revenue generation and career limitations.",
+              "body1": "On the one hand, critics contend sports salaries represent problematic priorities. This is because athletes earn millions for entertainment while essential workers like teachers struggle financially. For instance, Premier League footballers average over £3 million annually while experienced educators earn modest salaries. As a result, these disparities suggest society overvalues entertainment relative to societal contribution.",
+              "body2": "On the other hand, high salaries reflect athletes' economic value. The main reason is that star performers generate enormous revenue through broadcasting rights, tickets, and merchandise. For example, athletes like Cristiano Ronaldo bring billions to their organizations. Therefore, their compensation represents a fair share of the value they create.",
+              "conclusion": "In conclusion, while salary disparities raise legitimate concerns about priorities, I believe market forces and brief career spans justify current athletic compensation levels."
+            }
+          },
+          {
+            "name": "Template 2: Opinion-First Approach",
+            "structure": {
+              "introduction": "There is ongoing debate about [Topic]. From my perspective, [Your opinion], although [acknowledge opposite view].",
+              "body1": "[Your main view - Topic sentence]. Firstly, [Reason 1]. Secondly, [Reason 2]. For example, [Supporting example].",
+              "body2": "Nevertheless, [Opposite view - Topic sentence]. [Explanation of why others hold this view]. However, [Counter-argument or limitation].",
+              "conclusion": "To summarize, despite [opposite view], [restate your position] because [final reason]."
+            }
+          },
+          {
+            "name": "Template 3: Cause-Effect Pattern",
+            "structure": {
+              "introduction": "[Restate topic]. This essay will discuss both perspectives and explain why [your position].",
+              "body1": "Critics of high sports salaries point to several concerns. The primary issue is [Main concern]. This leads to [Effect/consequence]. Additionally, [Secondary concern with example].",
+              "body2": "Conversely, supporters emphasize different factors. Chief among these is [Main justification]. This results in [Effect/consequence]. Furthermore, [Secondary justification with example].",
+              "conclusion": "In conclusion, both perspectives offer valid points. However, [your final judgment based on context or priorities]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "Critics argue that", "Those questioning sports salaries contend that", "From one perspective"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Supporters argue that", "Advocates for high salaries emphasize that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "Specifically"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "In contrast", "Although"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state view that athletes earn too much], others _____ [state view that salaries are justified]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "View that athletes earn too much",
+                "hint": "Start with 'believe that professional athletes' or 'contend that sports stars'",
+                "placeholder": "e.g., believe that professional athletes receive disproportionate compensation compared to essential workers",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "View that salaries are justified",
+                "hint": "Use 'argue that' or 'maintain that' followed by justification",
+                "placeholder": "e.g., argue that high salaries reflect market value and the revenue athletes generate",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position or say 'it depends on...'",
+                "placeholder": "e.g., athletic salaries are generally justified given their revenue generation and limited career spans",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about criticism]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the concern or consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - criticism of high salaries",
+                "hint": "Main concern about athlete compensation in one sentence",
+                "placeholder": "e.g., critics believe professional athletes receive excessive compensation compared to essential professions",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY do critics believe this? Explain the reasoning.",
+                "placeholder": "e.g., athletes earn millions for entertainment while teachers, nurses, and scientists struggle financially despite greater societal contribution",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example comparing athlete and other profession salaries",
+                "placeholder": "e.g., Premier League footballers average over £3 million annually while experienced teachers earn modest salaries throughout entire careers",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Concern/consequence",
+                "hint": "What is the negative outcome or concern from this disparity?",
+                "placeholder": "e.g., these disparities suggest society prioritizes entertainment over education and healthcare",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about justification]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - justification for high salaries",
+                "hint": "Main justification for athletic compensation. Use contrasting language.",
+                "placeholder": "e.g., supporters argue that high salaries reflect the enormous economic value athletes generate",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the mechanism or reasoning behind the justification",
+                "placeholder": "e.g., elite athletes attract millions of viewers and generate billions through broadcasting rights, ticket sales, and merchandise",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing athlete value creation",
+                "placeholder": "e.g., stars like Cristiano Ronaldo and LeBron James bring enormous revenue to their organizations and create thousands of jobs",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective with a concluding thought",
+                "placeholder": "e.g., their compensation represents a proportional share of the value they create in entertainment industries",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought or recommendation].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both the criticism and justification",
+                "placeholder": "e.g., salary disparities raise legitimate concerns about priorities, athletic compensation reflects market realities",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight",
+                "placeholder": "e.g., sports salaries are generally justified given the revenue athletes generate during brief careers with significant physical risks",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss criticism with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss justification with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses criticism with salary comparison example",
+          "Body paragraph 2 discusses justification with revenue generation example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "People hold divergent opinions regarding professional athletes' earnings. While some contend that sports stars receive disproportionate compensation, others argue their salaries reflect market realities. In my view, athletic compensation is generally justified given the revenue athletes generate and their limited career spans.\n\nOn the one hand, critics believe professional athletes earn excessive amounts compared to essential workers. This concern stems from the stark disparity between entertainment and vital professions. For instance, Premier League footballers earn average annual salaries exceeding £3 million, while experienced teachers and nurses receive modest compensation despite educating future generations and saving lives. Moreover, redirecting even a fraction of sports funding toward education or healthcare could address critical societal needs. Consequently, such salary disparities suggest entertainment is overvalued relative to genuine societal contribution.\n\nOn the other hand, supporters emphasize that athletic compensation reflects economic value creation. Elite athletes generate enormous revenue through broadcasting rights, ticket sales, and merchandise that justify their earnings. For example, stars like Cristiano Ronaldo and LeBron James attract millions of viewers globally and produce billions in revenue for their organizations. Furthermore, athletes face ephemeral careers typically ending by age 35, often with lasting health complications requiring lifelong treatment. Therefore, high salaries during peak years compensate for extremely brief earning windows and significant physical sacrifice.\n\nIn conclusion, while concerns about salary inequality are understandable given disparities with essential professions, I believe market forces and career limitations justify current athletic compensation. Ultimately, athletes receive proportional shares of the substantial value they create within entertainment industries.",
+    "wordCount": 276,
+    "structure": {
+      "introduction": "People hold divergent opinions regarding professional athletes' earnings. While some contend that sports stars receive disproportionate compensation, others argue their salaries reflect market realities. In my view, athletic compensation is generally justified given the revenue athletes generate and their limited career spans.",
+      "body1": "On the one hand, critics believe professional athletes earn excessive amounts compared to essential workers. This concern stems from the stark disparity between entertainment and vital professions. For instance, Premier League footballers earn average annual salaries exceeding £3 million, while experienced teachers and nurses receive modest compensation despite educating future generations and saving lives. Moreover, redirecting even a fraction of sports funding toward education or healthcare could address critical societal needs. Consequently, such salary disparities suggest entertainment is overvalued relative to genuine societal contribution.",
+      "body2": "On the other hand, supporters emphasize that athletic compensation reflects economic value creation. Elite athletes generate enormous revenue through broadcasting rights, ticket sales, and merchandise that justify their earnings. For example, stars like Cristiano Ronaldo and LeBron James attract millions of viewers globally and produce billions in revenue for their organizations. Furthermore, athletes face ephemeral careers typically ending by age 35, often with lasting health complications requiring lifelong treatment. Therefore, high salaries during peak years compensate for extremely brief earning windows and significant physical sacrifice.",
+      "conclusion": "In conclusion, while concerns about salary inequality are understandable given disparities with essential professions, I believe market forces and career limitations justify current athletic compensation. Ultimately, athletes receive proportional shares of the substantial value they create within entertainment industries."
+    },
+    "highlights": [
+      {
+        "text": "divergent opinions",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated way to express 'different views' - shows advanced vocabulary"
+      },
+      {
+        "text": "disproportionate",
+        "type": "academic-vocab",
+        "explanation": "Academic term meaning 'excessive relative to something else' - demonstrates vocabulary range"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic balanced structure for presenting contrasting viewpoints effectively"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific concrete example to support the argument"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point to strengthen the argument"
+      },
+      {
+        "text": "Premier League footballers earn average annual salaries exceeding £3 million, while experienced teachers and nurses receive modest compensation",
+        "type": "example",
+        "explanation": "Specific, detailed salary comparison that effectively illustrates the disparity"
+      },
+      {
+        "text": "ephemeral",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated word meaning 'brief' or 'fleeting' - shows vocabulary sophistication"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Continues building the argument with additional supporting evidence"
+      }
+    ]
+  }
+}

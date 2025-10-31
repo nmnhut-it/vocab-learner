@@ -145,12 +145,21 @@
       "unlocked": false
     },
     {
-      "id": "online-shopping",
+      "id": "online-shopping-retail",
       "title": "Online Shopping vs Traditional Retail",
-      "category": "Lifestyle",
+      "category": "Technology & Society",
       "questionType": "Discuss Both Views",
       "difficulty": "Medium",
-      "file": "data/writing-v2-online-shopping.json",
+      "file": "data/writing-v2-online-shopping-retail.json",
+      "unlocked": true
+    },
+    {
+      "id": "professional-sports-salaries",
+      "title": "Professional Sports Salaries",
+      "category": "Work & Employment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-professional-sports-salaries.json",
       "unlocked": true
     }
   ]
