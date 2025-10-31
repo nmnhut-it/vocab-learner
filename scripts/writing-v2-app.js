@@ -1,6 +1,6 @@
 /**
  * IELTS Writing Task 2 - Progressive Learning System
- * 6-step linear progression with step locking
+ * 6-step system with free exploration - students can navigate any step
  */
 
 // Constants
@@ -14,7 +14,6 @@ let currentTopic = null;
 let currentStep = 1;
 let topicProgress = {
     completedSteps: [],
-    unlockedSteps: [1], // Step 1 always unlocked
     paragraphData: {},
     essayText: '',
     exerciseResults: {}
@@ -34,7 +33,7 @@ window.addEventListener('load', async () => {
     const savedTopicId = localStorage.getItem(STORAGE_CURRENT_TOPIC);
     if (savedTopicId) {
         const topic = topics.find(t => t.id === savedTopicId);
-        if (topic && topic.unlocked) {
+        if (topic) {
             await loadTopic(savedTopicId);
         }
     }
@@ -69,10 +68,7 @@ function populateTopicSelector() {
         const option = document.createElement('option');
         option.value = topic.id;
         option.textContent = `${index + 1}. ${topic.title}`;
-        if (!topic.unlocked) {
-            option.textContent += ' 🔒';
-            option.disabled = true;
-        }
+        // All topics freely accessible
         selector.appendChild(option);
     });
 }
@@ -87,7 +83,7 @@ async function onTopicChange() {
 
 async function loadTopic(topicId) {
     const topic = topics.find(t => t.id === topicId);
-    if (!topic || !topic.unlocked) return;
+    if (!topic) return;
 
     try {
         const response = await fetch(topic.file);
@@ -122,19 +118,14 @@ function loadTopicProgress() {
         // Reset to default
         topicProgress = {
             completedSteps: [],
-            unlockedSteps: [1],
             paragraphData: {},
             essayText: '',
             exerciseResults: {}
         };
     }
 
-    // Determine current step (first incomplete or last completed + 1)
-    if (topicProgress.completedSteps.length === 6) {
-        currentStep = 6; // All completed, stay on last
-    } else {
-        currentStep = Math.max(...topicProgress.unlockedSteps);
-    }
+    // Start at Step 1, but students can navigate freely
+    currentStep = 1;
 }
 
 function saveTopicProgress() {
@@ -144,11 +135,6 @@ function saveTopicProgress() {
 function markStepComplete(stepNumber) {
     if (!topicProgress.completedSteps.includes(stepNumber)) {
         topicProgress.completedSteps.push(stepNumber);
-    }
-
-    // Unlock next step
-    if (stepNumber < 6 && !topicProgress.unlockedSteps.includes(stepNumber + 1)) {
-        topicProgress.unlockedSteps.push(stepNumber + 1);
     }
 
     // If all steps completed, unlock next topic
@@ -233,16 +219,10 @@ function getStepClass(stepNumber) {
     let classes = [];
     if (stepNumber === currentStep) classes.push('active');
     if (topicProgress.completedSteps.includes(stepNumber)) classes.push('completed');
-    if (!topicProgress.unlockedSteps.includes(stepNumber)) classes.push('locked');
     return classes.join(' ');
 }
 
 function navigateToStep(stepNumber) {
-    if (!topicProgress.unlockedSteps.includes(stepNumber)) {
-        alert('Complete previous steps to unlock this step.');
-        return;
-    }
-
     currentStep = stepNumber;
     renderInterface();
     renderStep(stepNumber);
@@ -448,35 +428,178 @@ function renderExercisesStep(step, container) {
     const content = step.content;
     const results = topicProgress.exerciseResults || {};
     const correctCount = Object.values(results).filter(r => r.correct).length;
+    const totalExercises = content.exerciseSections.reduce((sum, section) => sum + section.exercises.length, 0);
+    const requiredCorrect = Math.floor(totalExercises * 0.73); // 35/48
 
     container.innerHTML = `
         <div class="step-header">
             <h2 class="step-title">✍️ ${step.title}</h2>
-            <p class="step-description">Complete 12/15 exercises to unlock next step</p>
+            <p class="step-description">${content.instructions}</p>
             <div style="margin-top: 0.5rem; font-weight: 600; color: var(--color-accent);">
-                Progress: ${correctCount}/15 exercises correct
+                Progress: ${correctCount}/${totalExercises} exercises correct (${requiredCorrect} required)
             </div>
         </div>
 
-        <!-- Build from Clues -->
-        <h3 style="margin-bottom: 1rem;">Part A: Build from Clues (5 exercises)</h3>
-        ${content.buildFromClues.map((ex, idx) => renderBuildFromClues(ex, idx)).join('')}
+        ${content.exerciseSections.map((section, sectionIdx) => `
+            <div style="margin: 2rem 0;">
+                <h3 style="margin-bottom: 0.5rem; color: var(--color-accent);">${section.title}</h3>
+                <p style="color: var(--color-text-light); margin-bottom: 1.5rem;">${section.description}</p>
+                ${section.exercises.map((ex, exIdx) => renderSentenceTemplate(ex, sectionIdx, exIdx)).join('')}
+            </div>
+        `).join('')}
 
-        <!-- Sentence Unscramble -->
-        <h3 style="margin: 2rem 0 1rem;">Part B: Sentence Unscramble (5 exercises)</h3>
-        ${content.sentenceUnscramble.map((ex, idx) => renderSentenceUnscramble(ex, idx)).join('')}
-
-        <!-- Fill in the Blanks -->
-        <h3 style="margin: 2rem 0 1rem;">Part C: Fill in the Blanks (5 exercises)</h3>
-        ${content.fillInTheBlanks.map((ex, idx) => renderFillInBlank(ex, idx)).join('')}
+        <!-- Sentence Bank -->
+        <div style="margin: 3rem 0; padding: 2rem; background: var(--color-bg-light); border-radius: 0.5rem;">
+            <h3 style="margin-bottom: 1rem;">✓ Your Completed Sentences</h3>
+            <p style="color: var(--color-text-light); margin-bottom: 1rem; font-size: 0.875rem;">
+                Click any sentence to copy it for use in your essay (Step 6)
+            </p>
+            ${renderSentenceBank()}
+        </div>
 
         <div class="step-navigation">
             <button class="btn-step btn-step-prev" onclick="navigateToStep(2)">← Previous</button>
             <button class="btn-step btn-step-next" onclick="completeStep(3)">
-                Next: Templates → ${correctCount >= 12 ? '✓' : '(12/15 required)'}
+                Next: Templates → ${correctCount >= requiredCorrect ? '✓ Completed' : 'Continue'}
             </button>
         </div>
     `;
+}
+
+function renderSentenceTemplate(exercise, sectionIdx, exIdx) {
+    const result = topicProgress.exerciseResults[exercise.id] || { userAnswers: {} };
+    const isCorrect = result.correct;
+
+    return `
+        <div class="exercise-card" style="border-left-color: ${isCorrect ? 'var(--step-completed)' : 'var(--color-accent)'};">
+            <div class="exercise-title">${exercise.template}</div>
+
+            ${exercise.blanks.map((blank, blankIdx) => `
+                <div style="margin: 1rem 0;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">
+                        Blank ${blankIdx + 1}:
+                    </label>
+                    <select id="${exercise.id}_${blank.id}"
+                            class="select"
+                            style="width: 100%; padding: 0.75rem;"
+                            onchange="checkSentenceTemplate('${exercise.id}')">
+                        <option value="">Select...</option>
+                        ${blank.options.map(opt => `
+                            <option value="${opt}" ${result.userAnswers[blank.id] === opt ? 'selected' : ''}>
+                                ${opt}
+                            </option>
+                        `).join('')}
+                    </select>
+                </div>
+            `).join('')}
+
+            <div id="result_${exercise.id}" style="margin-top: 1rem;"></div>
+
+            ${isCorrect ? `
+                <div style="margin-top: 1rem; padding: 1rem; background: #f0fdf4; border-left: 3px solid var(--step-completed); border-radius: 0.25rem;">
+                    <strong>✓ Correct sentence:</strong> ${exercise.correctSentence}
+                    <br><small style="color: var(--color-text-light);">Usable in: <em>${exercise.usableIn}</em></small>
+                </div>
+            ` : ''}
+        </div>
+    `;
+}
+
+function checkSentenceTemplate(exerciseId) {
+    const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    let exercise = null;
+
+    // Find the exercise across all sections
+    for (const section of step.content.exerciseSections) {
+        exercise = section.exercises.find(ex => ex.id === exerciseId);
+        if (exercise) break;
+    }
+
+    if (!exercise) return;
+
+    // Collect user answers for all blanks
+    const userAnswers = {};
+    let allFilled = true;
+
+    for (const blank of exercise.blanks) {
+        const select = document.getElementById(`${exerciseId}_${blank.id}`);
+        userAnswers[blank.id] = select.value;
+        if (!select.value) allFilled = false;
+    }
+
+    if (!allFilled) return;
+
+    // Check if all answers are correct
+    const isCorrect = exercise.blanks.every(blank =>
+        userAnswers[blank.id] === blank.correctAnswer
+    );
+
+    topicProgress.exerciseResults[exerciseId] = {
+        userAnswers,
+        correct: isCorrect
+    };
+    saveTopicProgress();
+
+    const resultDiv = document.getElementById(`result_${exerciseId}`);
+    if (isCorrect) {
+        resultDiv.innerHTML = `<div style="color: var(--step-completed); font-weight: 500;">✓ Excellent! This sentence has been added to your sentence bank.</div>`;
+    } else {
+        resultDiv.innerHTML = `<div style="color: #dc2626;">Not quite. Try again or check the correct answer after attempting.</div>`;
+    }
+
+    renderInterface();
+    renderStep(3);
+}
+
+function renderSentenceBank() {
+    const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    if (!step) return '<p style="color: var(--color-text-light);">No sentences completed yet.</p>';
+
+    const results = topicProgress.exerciseResults || {};
+    let bankHTML = '';
+
+    for (const section of step.content.exerciseSections) {
+        const correctInSection = section.exercises.filter(ex => results[ex.id]?.correct);
+
+        if (correctInSection.length > 0) {
+            bankHTML += `
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="margin-bottom: 0.75rem; color: var(--color-text); font-size: 1rem;">
+                        ${section.function.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                        (${correctInSection.length}/${section.exercises.length})
+                    </h4>
+                    ${correctInSection.map(ex => `
+                        <div onclick="copySentence('${ex.correctSentence}')"
+                             style="padding: 0.75rem; margin: 0.5rem 0; background: white; border-radius: 0.25rem;
+                                    cursor: pointer; transition: all 0.2s; border-left: 3px solid var(--step-completed);"
+                             onmouseover="this.style.background='#f0fdf4'"
+                             onmouseout="this.style.background='white'">
+                            <strong>${ex.correctSentence}</strong>
+                            <br><small style="color: var(--color-text-light);">
+                                📋 Click to copy • Use in: <em>${ex.usableIn}</em>
+                            </small>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+    }
+
+    return bankHTML || '<p style="color: var(--color-text-light);">Complete exercises correctly to build your sentence bank!</p>';
+}
+
+function copySentence(sentence) {
+    // Copy to clipboard
+    navigator.clipboard.writeText(sentence).then(() => {
+        // Show brief confirmation
+        const msg = document.createElement('div');
+        msg.textContent = '✓ Copied to clipboard!';
+        msg.style.cssText = 'position: fixed; bottom: 2rem; right: 2rem; background: var(--step-completed); color: white; padding: 1rem 1.5rem; border-radius: 0.5rem; font-weight: 500; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.1);';
+        document.body.appendChild(msg);
+        setTimeout(() => msg.remove(), 2000);
+    }).catch(() => {
+        alert('Sentence: ' + sentence);
+    });
 }
 
 function renderBuildFromClues(exercise, index) {
