@@ -161,6 +161,15 @@
       "difficulty": "Medium",
       "file": "data/writing-v2-professional-sports-salaries.json",
       "unlocked": true
+    },
+    {
+      "id": "art-music-education",
+      "title": "Art and Music Education in Schools",
+      "category": "Education & Technology",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-art-music-education.json",
+      "unlocked": true
     }
   ]
 }
