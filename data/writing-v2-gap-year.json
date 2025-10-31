@@ -1,0 +1,584 @@
+{
+  "id": "gap-year",
+  "title": "Taking a Gap Year",
+  "category": "Education",
+  "difficulty": "Easy",
+  "question": {
+    "text": "Many young people take a 'gap year' between finishing school and starting university. Discuss the advantages and disadvantages.",
+    "type": "Advantages & Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH the benefits and drawbacks of taking a gap year in a balanced way.",
+          "requirements": [
+            "Discuss advantages of taking a gap year",
+            "Discuss disadvantages of taking a gap year",
+            "Provide specific examples for each side",
+            "Maintain a balanced perspective throughout"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "gap year",
+            "definition": "A year-long break between school and university",
+            "importance": "This is the main topic - the period of time being discussed"
+          },
+          {
+            "word": "young people",
+            "definition": "Teenagers or young adults finishing school",
+            "importance": "Identifies who takes gap years"
+          },
+          {
+            "word": "finishing school",
+            "definition": "Completing secondary education",
+            "importance": "The starting point of the gap year"
+          },
+          {
+            "word": "starting university",
+            "definition": "Beginning higher education",
+            "importance": "What happens after the gap year"
+          },
+          {
+            "word": "advantages and disadvantages",
+            "definition": "Positive and negative aspects",
+            "importance": "You must discuss both sides equally"
+          }
+        },
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + brief position",
+          "body1": "4-5 sentences: Discuss advantages with examples",
+          "body2": "4-5 sentences: Discuss disadvantages with examples",
+          "conclusion": "2 sentences: Summarize both sides + balanced thought"
+        },
+        "commonMistakes": [
+          "Only discussing benefits or only problems",
+          "Not giving concrete examples of gap year activities",
+          "Being too one-sided instead of balanced",
+          "Forgetting to mention what students do during gap years"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "maturity",
+            "pronunciation": "/məˈtʃʊərəti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being fully developed mentally or emotionally",
+            "example": "A gap year can enhance personal maturity through real-world experiences.",
+            "synonyms": ["development", "growth"]
+          },
+          {
+            "word": "perspective",
+            "pronunciation": "/pəˈspektɪv/",
+            "partOfSpeech": "noun",
+            "definition": "A particular way of viewing things",
+            "example": "Traveling during a gap year broadens one's perspective on life.",
+            "synonyms": ["viewpoint", "outlook"]
+          },
+          {
+            "word": "postpone",
+            "pronunciation": "/pəʊstˈpəʊn/",
+            "partOfSpeech": "verb",
+            "definition": "To delay or put off to a later time",
+            "example": "Students who postpone university may find it harder to resume studies.",
+            "synonyms": ["delay", "defer"]
+          },
+          {
+            "word": "momentum",
+            "pronunciation": "/məʊˈmentəm/",
+            "partOfSpeech": "noun",
+            "definition": "The impetus gained by movement or progress",
+            "example": "Taking a year off can cause students to lose academic momentum.",
+            "synonyms": ["impetus", "drive"]
+          },
+          {
+            "word": "exposure",
+            "pronunciation": "/ɪkˈspəʊʒər/",
+            "partOfSpeech": "noun",
+            "definition": "The experience of coming into contact with something",
+            "example": "Gap years provide valuable exposure to different cultures and workplaces.",
+            "synonyms": ["experience", "contact"]
+          },
+          {
+            "word": "clarify",
+            "pronunciation": "/ˈklærɪfaɪ/",
+            "partOfSpeech": "verb",
+            "definition": "To make something easier to understand",
+            "example": "A gap year helps students clarify their academic and career goals.",
+            "synonyms": ["clear up", "explain"]
+          },
+          {
+            "word": "finances",
+            "pronunciation": "/ˈfaɪnænsɪz/",
+            "partOfSpeech": "noun",
+            "definition": "Money resources and management",
+            "example": "Working during a gap year can improve students' finances before university.",
+            "synonyms": ["funds", "resources"]
+          },
+          {
+            "word": "transition",
+            "pronunciation": "/trænˈzɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The process of changing from one state to another",
+            "example": "A gap year can smooth the transition from school to university life.",
+            "synonyms": ["change", "shift"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "work experience",
+            "definition": "Practical knowledge gained from employment",
+            "example": "Students gain valuable work experience during their gap year."
+          },
+          {
+            "phrase": "personal development",
+            "definition": "Growth in skills, character, and understanding",
+            "example": "Travel and volunteering contribute to personal development."
+          },
+          {
+            "phrase": "career goals",
+            "definition": "Professional objectives and aspirations",
+            "example": "Gap years help young people clarify their career goals."
+          },
+          {
+            "phrase": "academic momentum",
+            "definition": "The continuity and drive in educational progress",
+            "example": "Some students struggle to regain academic momentum after a gap year."
+          },
+          {
+            "phrase": "life skills",
+            "definition": "Practical abilities needed for everyday living",
+            "example": "Independence during a gap year develops essential life skills."
+          },
+          {
+            "phrase": "financial burden",
+            "definition": "The strain of expenses and costs",
+            "example": "Gap year travel can create a financial burden for families."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["Taking a gap year has become", "Many students choose to", "The practice of taking"],
+          "advantages": ["One significant advantage is", "A key benefit is", "On the positive side"],
+          "disadvantages": ["However, a notable drawback is", "On the negative side", "A potential disadvantage is"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "A gap year",
+              "verb": "provide",
+              "keywords": ["valuable experience", "maturity"]
+            },
+            "hint": "Mention how it develops maturity through experience.",
+            "modelAnswer": "A gap year provides valuable real-world experience that enhances personal maturity.",
+            "minWords": 10
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Students",
+              "verb": "earn",
+              "keywords": ["money", "working", "university costs"]
+            },
+            "hint": "Focus on financial benefits of working during gap year.",
+            "modelAnswer": "Students can earn money by working during their gap year to cover university costs.",
+            "minWords": 12
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Taking time off",
+              "verb": "cause",
+              "keywords": ["lose", "academic momentum"]
+            },
+            "hint": "Discuss the negative effect on academic continuity.",
+            "modelAnswer": "Taking time off can cause students to lose valuable academic momentum and study habits.",
+            "minWords": 12
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Travel experiences",
+              "verb": "broaden",
+              "keywords": ["perspective", "cultural understanding"]
+            },
+            "hint": "Focus on how travel changes worldview.",
+            "modelAnswer": "Travel experiences during gap years broaden students' perspectives and cultural understanding significantly.",
+            "minWords": 10
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Young people",
+              "verb": "clarify",
+              "keywords": ["career goals", "before university"]
+            },
+            "hint": "Mention how gap years help with career decisions.",
+            "modelAnswer": "Young people can clarify their career goals and academic interests before committing to university.",
+            "minWords": 12
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["gap years", "have", "become", "increasingly", "popular", "among", "students"],
+            "correctAnswer": "Gap years have become increasingly popular among students.",
+            "hint": "Start with 'Gap years'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["students", "gain", "valuable", "work", "experience", "during", "this", "time"],
+            "correctAnswer": "Students gain valuable work experience during this time.",
+            "hint": "Subject is 'Students'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["traveling", "abroad", "broadens", "cultural", "awareness", "and", "understanding"],
+            "correctAnswer": "Traveling abroad broadens cultural awareness and understanding.",
+            "hint": "'broadens' is the main verb"
+          },
+          {
+            "id": "scramble4",
+            "words": ["some", "students", "struggle", "to", "return to", "academic", "studies"],
+            "correctAnswer": "Some students struggle to return to academic studies.",
+            "hint": "Start with 'Some students'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["a", "gap year", "helps", "young people", "develop", "independence", "and", "maturity"],
+            "correctAnswer": "A gap year helps young people develop independence and maturity.",
+            "hint": "'helps' is the main verb"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Gap years provide valuable _____ to different cultures and workplaces.",
+            "options": ["exposure", "expose", "exposing"],
+            "correctAnswer": "exposure",
+            "explanation": "Use noun 'exposure' after adjective 'valuable'."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, students may lose academic momentum during the break.",
+            "options": ["However", "Moreover", "Therefore"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to introduce a disadvantage after advantages."
+          },
+          {
+            "id": "blank3",
+            "sentence": "Traveling abroad _____ students' cultural understanding.",
+            "options": ["broaden", "broadens", "broadening"],
+            "correctAnswer": "broadens",
+            "explanation": "Gerund subject 'Traveling' is singular, needs 's' on verb."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ example, students can volunteer in developing countries.",
+            "options": ["For", "To", "In"],
+            "correctAnswer": "For",
+            "explanation": "'For example' is the correct phrase."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Working during a gap year helps students _____ their finances.",
+            "options": ["improve", "improving", "improvement"],
+            "correctAnswer": "improve",
+            "explanation": "Use base form 'improve' after 'help' + object."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Clear Advantages & Disadvantages",
+            "structure": {
+              "introduction": "Taking a gap year has become [describe trend]. While this practice offers [mention advantages], it also presents [mention disadvantages].",
+              "body1": "One significant advantage is [main benefit]. [Explanation of how/why]. For instance, [specific example]. As a result, [positive outcome].",
+              "body2": "However, a notable drawback is [main problem]. [Explanation of how/why]. For example, [specific example]. Consequently, [negative outcome].",
+              "conclusion": "In conclusion, while gap years offer [summary of advantages], they also present [summary of disadvantages]. Overall, [balanced final thought]."
+            },
+            "example": {
+              "introduction": "Taking a gap year has become increasingly popular among school leavers worldwide. While this practice offers valuable opportunities for personal growth and work experience, it also presents challenges regarding academic continuity and finances.",
+              "body1": "One significant advantage is the personal development gained through real-world experiences. Students can work, travel, or volunteer, developing independence and life skills that formal education rarely provides. For instance, many gap year students work in different industries, gaining practical knowledge that helps clarify their career goals. As a result, they often enter university with greater maturity and clearer direction than their peers.",
+              "body2": "However, a notable drawback is the potential loss of academic momentum. After a year away from formal study, students may find it difficult to adjust to the demands of university coursework. For example, research shows that some gap year students struggle with study habits and time management during their first semester. Consequently, they may experience lower grades initially compared to those who entered university directly.",
+              "conclusion": "In conclusion, while gap years offer significant benefits in terms of personal development and work experience, they also present real challenges regarding academic continuity and adjustment. Overall, the decision should be based on individual maturity levels and clear plans for the year off."
+            }
+          },
+          {
+            "name": "Template 2: Comparative Structure",
+            "structure": {
+              "introduction": "[Topic] is a choice many [group] face. This essay will examine both the benefits and drawbacks of this decision.",
+              "body1": "The advantages include [benefit 1] and [benefit 2]. [Explanation with example demonstrating both benefits]. These experiences [positive impact].",
+              "body2": "The disadvantages include [drawback 1] and [drawback 2]. [Explanation with example showing both drawbacks]. These issues [negative impact].",
+              "conclusion": "To summarize, [topic] offers [advantages] but also involves [disadvantages]. The best approach depends on [conditions or factors]."
+            }
+          },
+          {
+            "name": "Template 3: Balanced Analysis",
+            "structure": {
+              "introduction": "[Describe trend]. Understanding both positive and negative aspects is essential for making informed decisions.",
+              "body1": "On the positive side, [advantage 1]. Additionally, [advantage 2]. For instance, [example covering both]. This demonstrates [value or benefit].",
+              "body2": "On the negative side, [disadvantage 1]. Furthermore, [disadvantage 2]. For example, [example covering both]. This highlights [concern or risk].",
+              "conclusion": "Overall, [topic] presents both opportunities and challenges. Success depends on [key factors for positive outcomes]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "advantages": ["One significant advantage is", "A key benefit is", "On the positive side", "The primary advantage is"],
+          "disadvantages": ["However, a notable drawback is", "On the negative side", "A potential disadvantage is", "Conversely"],
+          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "For example", "Such as", "Particularly"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
+          "balancing": ["While", "Although", "Despite this", "On the other hand"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Taking a gap year has become _____ [describe the trend]. While this practice offers _____ [mention advantages], it also presents _____ [mention disadvantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe the trend",
+                "hint": "How common is taking gap years? Where/among whom?",
+                "placeholder": "e.g., increasingly popular among school leavers in many Western countries",
+                "minWords": 8
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Mention advantages",
+                "hint": "Brief mention of positive aspects - growth, experience, etc.",
+                "placeholder": "e.g., valuable opportunities for personal development, work experience, and cultural exposure",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Mention disadvantages",
+                "hint": "Brief mention of negative aspects - momentum, cost, etc.",
+                "placeholder": "e.g., significant challenges regarding academic momentum, financial costs, and delayed graduation",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Advantages",
+            "template": "One significant advantage is _____ [main benefit]. [Explanation] For instance, _____ [specific example]. As a result, _____ [positive outcome].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main benefit",
+                "hint": "What is the primary advantage? Personal growth, work experience, clarity?",
+                "placeholder": "e.g., the personal development and maturity gained through real-world experiences outside the classroom environment",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the benefit then give a specific example in same response",
+                "placeholder": "e.g., Students can work in different industries, travel abroad, or volunteer for causes, developing independence and practical life skills. Many gap year students work in hospitality or education, gaining valuable insights into workplace dynamics",
+                "minWords": 25
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Positive outcome",
+                "hint": "What is the final result or impact of this benefit?",
+                "placeholder": "e.g., they often enter university with greater maturity, clearer career goals, and enhanced motivation to succeed",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Disadvantages",
+            "template": "However, a notable drawback is _____ [main problem]. [Explanation] For example, _____ [specific example]. Consequently, _____ [negative outcome].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main problem",
+                "hint": "What is the primary disadvantage? Lost momentum, cost, difficulty returning?",
+                "placeholder": "e.g., the potential loss of academic momentum and study habits after a year away from formal education",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the problem then give a specific example in same response",
+                "placeholder": "e.g., After twelve months without structured learning, students may struggle to readjust to the demands of university coursework and examinations. Research indicates that some gap year students experience difficulties with time management and study discipline during their first semester",
+                "minWords": 30
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Negative outcome",
+                "hint": "What is the consequence or impact of this problem?",
+                "placeholder": "e.g., they may achieve lower grades initially and require additional support to regain their academic performance levels",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while gap years offer _____ [summarize advantages], they also present _____ [summarize disadvantages]. Overall, _____ [balanced final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize advantages",
+                "hint": "Briefly recap the main benefits discussed",
+                "placeholder": "e.g., significant benefits in terms of personal maturity, work experience, and career clarity",
+                "minWords": 11
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Summarize disadvantages",
+                "hint": "Briefly recap the main drawbacks discussed",
+                "placeholder": "e.g., real challenges regarding academic continuity, financial costs, and the difficulty of resuming studies",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank3",
+                "label": "Balanced final thought",
+                "hint": "Give a nuanced conclusion - when is it good/bad?",
+                "placeholder": "e.g., the decision should be based on individual maturity levels, clear plans for the year, and financial circumstances",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + mention both advantages and disadvantages"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss advantages with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss disadvantages with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both sides + balanced final thought"
+          }
+        },
+        "checklist": [
+          "Introduction mentions both advantages and disadvantages",
+          "Body paragraph 1 thoroughly discusses advantages with example",
+          "Body paragraph 2 thoroughly discusses disadvantages with example",
+          "Both sides are given balanced treatment",
+          "Conclusion summarizes both sides with balanced view",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Taking a gap year between finishing secondary school and commencing university has become increasingly popular among young people in many Western countries. While this practice offers valuable opportunities for personal development and work experience, it also presents significant challenges regarding academic momentum and financial considerations.\n\nOne significant advantage is the personal maturity and real-world experience gained during this time. Students can work in various industries, travel internationally, or engage in volunteer projects, developing independence and practical life skills that formal education rarely provides. For instance, many gap year students work in hospitality, education, or conservation sectors, gaining valuable insights into workplace dynamics and professional responsibilities. Additionally, this exposure often helps clarify career goals and academic interests before making the substantial commitment to university study. As a result, these students frequently enter higher education with greater motivation, clearer direction, and enhanced maturity compared to their peers who transition directly from school.\n\nHowever, a notable drawback is the potential loss of academic momentum and study habits. After twelve months without structured learning and examination pressure, students may struggle to readjust to the intellectual demands of university coursework. For example, research indicates that some gap year students experience difficulties with time management, study discipline, and examination techniques during their first semester. Furthermore, the financial costs of travel or living expenses during the gap year can create debt that compounds university expenses. Consequently, students may need to work part-time during their studies, potentially affecting their academic performance.\n\nIn conclusion, while gap years offer substantial benefits in personal growth and career clarity, they also present real challenges regarding academic continuity and finances. The decision should ultimately depend on individual maturity levels, clear plans for the year, and realistic financial assessment.",
+    "wordCount": 280,
+    "structure": {
+      "introduction": "Taking a gap year between finishing secondary school and commencing university has become increasingly popular among young people in many Western countries. While this practice offers valuable opportunities for personal development and work experience, it also presents significant challenges regarding academic momentum and financial considerations.",
+      "body1": "One significant advantage is the personal maturity and real-world experience gained during this time. Students can work in various industries, travel internationally, or engage in volunteer projects, developing independence and practical life skills that formal education rarely provides. For instance, many gap year students work in hospitality, education, or conservation sectors, gaining valuable insights into workplace dynamics and professional responsibilities. Additionally, this exposure often helps clarify career goals and academic interests before making the substantial commitment to university study. As a result, these students frequently enter higher education with greater motivation, clearer direction, and enhanced maturity compared to their peers who transition directly from school.",
+      "body2": "However, a notable drawback is the potential loss of academic momentum and study habits. After twelve months without structured learning and examination pressure, students may struggle to readjust to the intellectual demands of university coursework. For example, research indicates that some gap year students experience difficulties with time management, study discipline, and examination techniques during their first semester. Furthermore, the financial costs of travel or living expenses during the gap year can create debt that compounds university expenses. Consequently, students may need to work part-time during their studies, potentially affecting their academic performance.",
+      "conclusion": "In conclusion, while gap years offer substantial benefits in personal growth and career clarity, they also present real challenges regarding academic continuity and finances. The decision should ultimately depend on individual maturity levels, clear plans for the year, and realistic financial assessment."
+    },
+    "highlights": [
+      {
+        "text": "commencing university",
+        "type": "academic-vocab",
+        "explanation": "Formal academic verb showing range"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Additionally",
+        "type": "linking-word",
+        "explanation": "Adds supporting point"
+      },
+      {
+        "text": "However",
+        "type": "linking-word",
+        "explanation": "Signals transition to disadvantages"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds another disadvantage"
+      },
+      {
+        "text": "work in hospitality, education, or conservation sectors",
+        "type": "example",
+        "explanation": "Specific, concrete examples"
+      },
+      {
+        "text": "academic momentum",
+        "type": "topic-vocab",
+        "explanation": "Topic-specific collocation"
+      },
+      {
+        "text": "real-world experience",
+        "type": "academic-vocab",
+        "explanation": "Common academic phrase"
+      }
+    ]
+  }
+}

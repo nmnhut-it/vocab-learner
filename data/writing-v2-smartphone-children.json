@@ -1,0 +1,584 @@
+{
+  "id": "smartphone-children",
+  "title": "Children and Smartphones",
+  "category": "Technology & Family",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Many children now have their own smartphones. Discuss the advantages and disadvantages of this trend.",
+    "type": "Advantages & Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH the benefits and drawbacks of children having smartphones in a balanced way.",
+          "requirements": [
+            "Discuss advantages of children having smartphones",
+            "Discuss disadvantages of children having smartphones",
+            "Provide specific examples for each side",
+            "Maintain a balanced perspective"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "children",
+            "definition": "Young people, typically under 18",
+            "importance": "Identifies the age group affected by this trend"
+          },
+          {
+            "word": "their own",
+            "definition": "Personal ownership and access",
+            "importance": "Emphasizes individual possession rather than shared devices"
+          },
+          {
+            "word": "smartphones",
+            "definition": "Mobile devices with internet and app capabilities",
+            "importance": "The technology being discussed - more than just phones"
+          },
+          {
+            "word": "trend",
+            "definition": "A general direction or development",
+            "importance": "Shows this is an increasing phenomenon"
+          },
+          {
+            "word": "advantages and disadvantages",
+            "definition": "Positive and negative aspects",
+            "importance": "Must discuss both sides equally"
+          }
+        },
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + acknowledge complexity",
+          "body1": "4-5 sentences: Discuss advantages with examples",
+          "body2": "4-5 sentences: Discuss disadvantages with examples",
+          "conclusion": "2 sentences: Summarize both sides + balanced thought"
+        },
+        "commonMistakes": [
+          "Only discussing problems and ignoring benefits",
+          "Not considering age appropriateness",
+          "Being too extreme (completely for or against)",
+          "Forgetting to give concrete examples of impacts"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "supervision",
+            "pronunciation": "/ˌsuːpəˈvɪʒən/",
+            "partOfSpeech": "noun",
+            "definition": "Careful watching and direction",
+            "example": "Children using smartphones require appropriate parental supervision.",
+            "synonyms": ["monitoring", "oversight"]
+          },
+          {
+            "word": "connectivity",
+            "pronunciation": "/ˌkɒnekˈtɪvəti/",
+            "partOfSpeech": "noun",
+            "definition": "The state of being connected",
+            "example": "Smartphones provide children with constant connectivity to parents and friends.",
+            "synonyms": ["connection", "communication"]
+          },
+          {
+            "word": "exposure",
+            "pronunciation": "/ɪkˈspəʊʒər/",
+            "partOfSpeech": "noun",
+            "definition": "The experience of encountering something",
+            "example": "Early smartphone use increases children's exposure to inappropriate content.",
+            "synonyms": ["contact", "experience"]
+          },
+          {
+            "word": "detrimental",
+            "pronunciation": "/ˌdetrɪˈmentəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Causing harm or damage",
+            "example": "Excessive screen time can be detrimental to children's physical health.",
+            "synonyms": ["harmful", "damaging"]
+          },
+          {
+            "word": "facilitate",
+            "pronunciation": "/fəˈsɪlɪteɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To make easier or help bring about",
+            "example": "Smartphones facilitate educational opportunities through learning apps.",
+            "synonyms": ["enable", "assist"]
+          },
+          {
+            "word": "dependency",
+            "pronunciation": "/dɪˈpendənsi/",
+            "partOfSpeech": "noun",
+            "definition": "Reliance on something or someone",
+            "example": "Children can develop unhealthy dependency on digital devices.",
+            "synonyms": ["reliance", "addiction"]
+          },
+          {
+            "word": "interaction",
+            "pronunciation": "/ˌɪntərˈækʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Communication or involvement with others",
+            "example": "Excessive smartphone use may reduce face-to-face interaction among children.",
+            "synonyms": ["communication", "engagement"]
+          },
+          {
+            "word": "cognitive",
+            "pronunciation": "/ˈkɒɡnɪtɪv/",
+            "partOfSpeech": "adjective",
+            "definition": "Related to mental processes of knowing and understanding",
+            "example": "Some educational apps support children's cognitive development.",
+            "synonyms": ["mental", "intellectual"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "screen time",
+            "definition": "Time spent using devices with screens",
+            "example": "Excessive screen time can affect children's sleep patterns and health."
+          },
+          {
+            "phrase": "educational apps",
+            "definition": "Software applications designed for learning",
+            "example": "Educational apps provide children with interactive learning opportunities."
+          },
+          {
+            "phrase": "online safety",
+            "definition": "Protection from digital threats and inappropriate content",
+            "example": "Parents must educate children about online safety and privacy."
+          },
+          {
+            "phrase": "social development",
+            "definition": "Growth in ability to interact with others",
+            "example": "Excessive smartphone use may hinder children's social development."
+          },
+          {
+            "phrase": "parental controls",
+            "definition": "Settings that restrict content and usage",
+            "example": "Parental controls help manage what children can access on smartphones."
+          },
+          {
+            "phrase": "digital literacy",
+            "definition": "Ability to use and understand technology",
+            "example": "Early smartphone access can enhance children's digital literacy skills."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The proliferation of smartphones among children", "Young people's access to mobile devices", "In recent years"],
+          "advantages": ["One significant benefit is", "A key advantage is", "On the positive side"],
+          "disadvantages": ["However, a major concern is", "On the negative side", "A significant drawback is"],
+          "exemplifying": ["For instance", "For example", "Particularly", "Specifically"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Smartphones",
+              "verb": "provide",
+              "keywords": ["constant contact", "parents", "safety"]
+            },
+            "hint": "Focus on safety and communication benefits.",
+            "modelAnswer": "Smartphones provide children with constant contact to parents for safety and emergencies.",
+            "minWords": 11
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Educational apps",
+              "verb": "enhance",
+              "keywords": ["learning", "interactive"]
+            },
+            "hint": "Mention how apps support education.",
+            "modelAnswer": "Educational apps can enhance children's learning through interactive and engaging content.",
+            "minWords": 10
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Excessive screen time",
+              "verb": "damage",
+              "keywords": ["physical health", "eyesight"]
+            },
+            "hint": "Focus on health concerns from overuse.",
+            "modelAnswer": "Excessive screen time can damage children's physical health, particularly their eyesight and posture.",
+            "minWords": 11
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Children",
+              "verb": "expose",
+              "keywords": ["inappropriate content", "online risks"]
+            },
+            "hint": "Discuss dangers of unrestricted access.",
+            "modelAnswer": "Children with smartphones may be exposed to inappropriate content and various online risks.",
+            "minWords": 12
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Early access",
+              "verb": "develop",
+              "keywords": ["digital literacy", "technology skills"]
+            },
+            "hint": "Mention skill development benefits.",
+            "modelAnswer": "Early access to smartphones helps children develop essential digital literacy and technology skills.",
+            "minWords": 12
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["smartphones", "enable", "instant", "communication", "with", "family", "members"],
+            "correctAnswer": "Smartphones enable instant communication with family members.",
+            "hint": "Start with 'Smartphones'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["educational", "apps", "provide", "interactive", "learning", "opportunities", "for", "children"],
+            "correctAnswer": "Educational apps provide interactive learning opportunities for children.",
+            "hint": "Subject is 'Educational apps'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["excessive", "use", "can", "disrupt", "sleep", "patterns", "and", "routines"],
+            "correctAnswer": "Excessive use can disrupt sleep patterns and routines.",
+            "hint": "'can disrupt' is the verb phrase"
+          },
+          {
+            "id": "scramble4",
+            "words": ["children", "may", "encounter", "cyberbullying", "or", "inappropriate", "content", "online"],
+            "correctAnswer": "Children may encounter cyberbullying or inappropriate content online.",
+            "hint": "Start with 'Children'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["parental", "supervision", "is", "essential", "for", "safe", "smartphone", "usage"],
+            "correctAnswer": "Parental supervision is essential for safe smartphone usage.",
+            "hint": "Subject is 'Parental supervision'"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Smartphones _____ children with instant access to parents.",
+            "options": ["provide", "provides", "providing"],
+            "correctAnswer": "provide",
+            "explanation": "Plural subject 'Smartphones' takes base form 'provide'."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, excessive screen time can harm physical health.",
+            "options": ["However", "Moreover", "Therefore"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to introduce disadvantages after advantages."
+          },
+          {
+            "id": "blank3",
+            "sentence": "Children can _____ to inappropriate content online.",
+            "options": ["be exposed", "expose", "exposing"],
+            "correctAnswer": "be exposed",
+            "explanation": "Use passive voice 'be exposed' for receiving action."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ instance, learning apps teach mathematics through games.",
+            "options": ["For", "To", "In"],
+            "correctAnswer": "For",
+            "explanation": "'For instance' is correct for giving examples."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Parental supervision is _____ for safe smartphone usage.",
+            "options": ["essential", "essence", "essentially"],
+            "correctAnswer": "essential",
+            "explanation": "Use adjective 'essential' after 'is'."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Advantages & Disadvantages",
+            "structure": {
+              "introduction": "The proliferation of [topic] has become [describe trend]. While this development offers [advantages], it also presents [disadvantages].",
+              "body1": "One significant benefit is [main advantage]. [Explanation]. For instance, [specific example]. As a result, [positive outcome].",
+              "body2": "However, a major concern is [main disadvantage]. [Explanation]. For example, [specific example]. Consequently, [negative outcome].",
+              "conclusion": "In conclusion, while [topic] provides [summary of advantages], it also poses [summary of disadvantages]. Overall, [balanced recommendation]."
+            },
+            "example": {
+              "introduction": "The proliferation of smartphones among children has become increasingly common in modern society. While this development offers benefits in communication and education, it also presents significant concerns regarding health and online safety.",
+              "body1": "One significant benefit is the enhanced safety through constant parental connectivity. Smartphones enable children to contact parents immediately in emergencies or when needing assistance. For instance, children can quickly inform parents about schedule changes or seek help in unexpected situations. As a result, parents experience greater peace of mind knowing they can reach their children at any time.",
+              "body2": "However, a major concern is the exposure to inappropriate content and online risks. Without proper supervision, children may encounter cyberbullying, age-inappropriate material, or contact with strangers. For example, social media platforms expose young users to unrealistic beauty standards and potentially harmful social pressures. Consequently, this can negatively impact children's mental health and self-esteem during crucial developmental years.",
+              "conclusion": "In conclusion, while smartphones provide valuable communication and learning opportunities, they also pose real risks to children's wellbeing and safety. Overall, the key lies in balanced usage with appropriate parental supervision and age-suitable content restrictions."
+            }
+          },
+          {
+            "name": "Template 2: Age-Consideration Approach",
+            "structure": {
+              "introduction": "[Topic] raises important questions. The appropriateness of [topic] depends largely on [age/maturity/supervision].",
+              "body1": "The advantages include [benefit 1] and [benefit 2]. [Explanation with example]. When properly managed, [positive outcomes].",
+              "body2": "The disadvantages include [concern 1] and [concern 2]. [Explanation with example]. Without appropriate safeguards, [negative outcomes].",
+              "conclusion": "To summarize, [topic] presents both opportunities and risks. Success requires [specific recommendations for management]."
+            }
+          },
+          {
+            "name": "Template 3: Conditional Approval",
+            "structure": {
+              "introduction": "[Describe trend]. Understanding both benefits and risks is essential for informed decisions.",
+              "body1": "On the positive side, [advantages]. [Explanation]. For instance, [examples]. These benefits [value statement].",
+              "body2": "On the negative side, [disadvantages]. [Explanation]. For example, [examples]. These risks [concern statement].",
+              "conclusion": "Overall, [topic] can be beneficial provided that [conditions]. Parents must ensure [specific recommendations]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "advantages": ["One significant benefit is", "A key advantage is", "On the positive side", "The primary benefit is"],
+          "disadvantages": ["However, a major concern is", "On the negative side", "A significant drawback is", "Conversely"],
+          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Specifically"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
+          "balancing": ["While", "Although", "Despite this", "Nevertheless"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The proliferation of smartphones among children has _____ [describe the trend/situation]. While this development offers _____ [mention advantages], it also presents _____ [mention disadvantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe the trend",
+                "hint": "How common is this? How has it changed?",
+                "placeholder": "e.g., become increasingly prevalent in modern society with children as young as eight owning devices",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Mention advantages",
+                "hint": "Brief mention of positive aspects",
+                "placeholder": "e.g., clear benefits in terms of safety, communication, and access to educational resources",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Mention disadvantages",
+                "hint": "Brief mention of negative aspects",
+                "placeholder": "e.g., significant concerns regarding physical health, online safety, and social development",
+                "minWords": 9
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Advantages",
+            "template": "One significant benefit is _____ [main advantage]. [Explanation] For instance, _____ [specific example]. As a result, _____ [positive outcome].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main benefit",
+                "hint": "What is the primary advantage? Safety, education, communication?",
+                "placeholder": "e.g., the enhanced safety and constant parental connectivity that smartphones provide to children in various situations",
+                "minWords": 13
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the benefit then provide specific example in same response",
+                "placeholder": "e.g., Smartphones enable children to contact parents immediately during emergencies or when requiring assistance. Children can quickly inform parents about schedule changes, transportation issues, or seek help when feeling unsafe or uncomfortable",
+                "minWords": 28
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Positive outcome",
+                "hint": "What is the final result or impact?",
+                "placeholder": "e.g., parents experience greater peace of mind and can respond promptly to their children's needs throughout the day",
+                "minWords": 16
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Disadvantages",
+            "template": "However, a major concern is _____ [main disadvantage]. [Explanation] For example, _____ [specific example]. Consequently, _____ [negative outcome].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main disadvantage",
+                "hint": "What is the primary problem? Health, content, addiction?",
+                "placeholder": "e.g., children's exposure to inappropriate content, cyberbullying, and potentially harmful online interactions without adequate supervision",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the problem then provide specific example in same response",
+                "placeholder": "e.g., Without proper parental controls, children may encounter age-inappropriate material, experience cyberbullying, or communicate with strangers. Social media platforms expose young users to unrealistic body standards, peer pressure, and addictive scrolling behaviors",
+                "minWords": 28
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Negative outcome",
+                "hint": "What is the consequence or impact?",
+                "placeholder": "e.g., this can severely impact children's mental health, self-esteem, and social development during their crucial formative years",
+                "minWords": 15
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while smartphones provide _____ [summarize advantages], they also pose _____ [summarize disadvantages]. Overall, _____ [balanced recommendation].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize advantages",
+                "hint": "Briefly recap the main benefits",
+                "placeholder": "e.g., valuable communication channels, enhanced safety, and access to educational resources for children",
+                "minWords": 11
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Summarize disadvantages",
+                "hint": "Briefly recap the main problems",
+                "placeholder": "e.g., real risks to physical health, mental wellbeing, and protection from inappropriate content",
+                "minWords": 11
+              },
+              {
+                "id": "conclusion_blank3",
+                "label": "Balanced recommendation",
+                "hint": "Give a practical suggestion or nuanced view",
+                "placeholder": "e.g., success depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time limits",
+                "minWords": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + mention both advantages and disadvantages"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss advantages with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss disadvantages with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both sides + balanced recommendation"
+          }
+        },
+        "checklist": [
+          "Introduction mentions both advantages and disadvantages",
+          "Body paragraph 1 thoroughly discusses advantages with example",
+          "Body paragraph 2 thoroughly discusses disadvantages with example",
+          "Both sides are given balanced treatment",
+          "Conclusion summarizes with practical recommendation",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The proliferation of smartphones among children has become increasingly prevalent in modern society, with children as young as eight receiving their own devices. While this development offers clear benefits in communication and educational access, it also presents significant concerns regarding health, safety, and social development.\n\nOne significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices enable immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps facilitate interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.\n\nHowever, a major concern is children's exposure to inappropriate content and harmful online interactions without adequate supervision. Social media platforms expose young users to cyberbullying, unrealistic beauty standards, and addictive scrolling behaviors that can severely impact mental health. For example, research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression. Furthermore, unmonitored smartphone use can lead to physical health issues, including disrupted sleep patterns, poor posture, and eye strain. Consequently, these problems can negatively affect children's academic performance, physical wellbeing, and crucial social development during formative years.\n\nIn conclusion, while smartphones provide valuable communication and educational opportunities for children, they also pose real risks to physical and mental health. Success ultimately depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time management to maximize benefits while minimizing potential harm.",
+    "wordCount": 275,
+    "structure": {
+      "introduction": "The proliferation of smartphones among children has become increasingly prevalent in modern society, with children as young as eight receiving their own devices. While this development offers clear benefits in communication and educational access, it also presents significant concerns regarding health, safety, and social development.",
+      "body1": "One significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices enable immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps facilitate interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.",
+      "body2": "However, a major concern is children's exposure to inappropriate content and harmful online interactions without adequate supervision. Social media platforms expose young users to cyberbullying, unrealistic beauty standards, and addictive scrolling behaviors that can severely impact mental health. For example, research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression. Furthermore, unmonitored smartphone use can lead to physical health issues, including disrupted sleep patterns, poor posture, and eye strain. Consequently, these problems can negatively affect children's academic performance, physical wellbeing, and crucial social development during formative years.",
+      "conclusion": "In conclusion, while smartphones provide valuable communication and educational opportunities for children, they also pose real risks to physical and mental health. Success ultimately depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time management to maximize benefits while minimizing potential harm."
+    },
+    "highlights": [
+      {
+        "text": "proliferation",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated vocabulary showing range"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Additionally",
+        "type": "linking-word",
+        "explanation": "Adds supporting point"
+      },
+      {
+        "text": "However",
+        "type": "linking-word",
+        "explanation": "Signals transition to disadvantages"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds another disadvantage"
+      },
+      {
+        "text": "research shows that teenagers spending excessive time on Instagram",
+        "type": "example",
+        "explanation": "Specific, evidence-based example"
+      },
+      {
+        "text": "formative years",
+        "type": "academic-vocab",
+        "explanation": "Precise developmental terminology"
+      },
+      {
+        "text": "digital literacy",
+        "type": "topic-vocab",
+        "explanation": "Topic-specific terminology"
+      }
+    ]
+  }
+}

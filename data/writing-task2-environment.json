@@ -1,0 +1,540 @@
+{
+  "id": "environment",
+  "question": {
+    "text": "Some people think individuals should take responsibility for protecting the environment, while others believe governments should be responsible. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "category": "Environment & Society",
+    "instructions": "Write at least 250 words",
+    "timeAllocation": {
+      "total": 40,
+      "planning": 10,
+      "writing": 25,
+      "checking": 5
+    }
+  },
+  "sections": [
+    {
+      "id": "question-analysis",
+      "title": "Question Analysis",
+      "description": "Understand what the question is asking",
+      "content": {
+        "questionType": {
+          "value": "Discuss Both Views + Opinion",
+          "explanation": "You must discuss BOTH perspectives (individual vs government responsibility) equally and clearly state your own opinion."
+        },
+        "keyWords": [
+          {"word": "individuals", "importance": "high"},
+          {"word": "take responsibility", "importance": "high"},
+          {"word": "protecting the environment", "importance": "high"},
+          {"word": "governments", "importance": "high"},
+          {"word": "both views", "importance": "high"},
+          {"word": "your opinion", "importance": "high"}
+        ],
+        "taskRequirements": [
+          "Discuss why individuals should be responsible for environment",
+          "Discuss why governments should be responsible for environment",
+          "Provide specific examples for each view",
+          "State your clear personal opinion"
+        ],
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Opinion is unclear or sitting on the fence",
+          "Being too general without concrete actions",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-ideas",
+      "title": "Vocabulary & Ideas Bank",
+      "description": "Essential words and ideas for this topic",
+      "content": {
+        "topicVocabulary": [
+          {
+            "word": "sustainability",
+            "pronunciation": "/səˌsteɪnəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to maintain ecological balance by avoiding depletion of natural resources",
+            "example": "Individual lifestyle changes contribute to long-term environmental sustainability."
+          },
+          {
+            "word": "legislation",
+            "pronunciation": "/ˌledʒɪsˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Laws collectively enacted by a governing body",
+            "example": "Government legislation is essential for regulating industrial pollution."
+          },
+          {
+            "word": "conservation",
+            "pronunciation": "/ˌkɒnsəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The careful preservation and protection of natural resources",
+            "example": "Water conservation begins with individual daily habits."
+          },
+          {
+            "word": "emissions",
+            "pronunciation": "/ɪˈmɪʃənz/",
+            "partOfSpeech": "noun",
+            "definition": "The production and discharge of gases or radiation into the atmosphere",
+            "example": "Reducing carbon emissions requires both personal and governmental action."
+          },
+          {
+            "word": "accountability",
+            "pronunciation": "/əˌkaʊntəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The fact of being responsible for decisions and actions",
+            "example": "Environmental accountability must be shared across all sectors of society."
+          }
+        ],
+        "academicPhrases": {
+          "introduction": [
+            "The question of environmental responsibility has sparked debate...",
+            "There is ongoing discussion about whether...",
+            "While some advocate for individual action, others emphasize...",
+            "Environmental protection requires consideration of..."
+          ],
+          "discussing": [
+            "On the one hand,",
+            "Proponents of individual responsibility argue that...",
+            "From a personal perspective,",
+            "Those who support citizen action contend that..."
+          ],
+          "contrasting": [
+            "On the other hand,",
+            "Conversely,",
+            "However, supporters of government intervention believe...",
+            "In contrast, the case for governmental responsibility..."
+          ],
+          "examples": [
+            "A clear illustration of this is...",
+            "This can be seen in...",
+            "For example, countries like...",
+            "Research demonstrates that..."
+          ],
+          "opinion": [
+            "In my view,",
+            "I believe that...",
+            "From my perspective,",
+            "It is my conviction that..."
+          ]
+        },
+        "keyIdeas": [
+          {
+            "mainPoint": "Individual actions collectively create significant environmental impact",
+            "explanation": "Daily choices about consumption, transportation, and waste directly affect the environment",
+            "example": "If millions of people reduce plastic use and choose public transport, carbon emissions decrease substantially"
+          },
+          {
+            "mainPoint": "Governments have authority to enforce large-scale environmental policies",
+            "explanation": "Only governments can regulate industries, implement environmental laws, and invest in green infrastructure",
+            "example": "China's renewable energy investment and EU's emission standards have achieved changes impossible through individual action alone"
+          },
+          {
+            "mainPoint": "Environmental protection requires collaborative effort between citizens and government",
+            "explanation": "Neither individuals nor governments alone can solve complex environmental challenges effectively",
+            "example": "Germany's successful recycling program combines government infrastructure with strong citizen participation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas",
+      "description": "Organize your thoughts before writing",
+      "content": {
+        "instruction": "Write down ideas for both perspectives. Don't worry about perfect sentences yet.",
+        "brainstormTemplate": {
+          "advantages": {
+            "label": "Individual Responsibility Arguments",
+            "placeholder": "e.g., Personal choices matter, reduce consumption, recycle, use public transport, lifestyle changes, consumer power..."
+          },
+          "disadvantages": {
+            "label": "Government Responsibility Arguments",
+            "placeholder": "e.g., Create laws, regulate industries, invest in renewable energy, enforce standards, large-scale infrastructure, international agreements..."
+          },
+          "examples": {
+            "label": "Real-Life Examples",
+            "placeholder": "e.g., Plastic bag bans, carbon taxes, recycling programs, renewable energy subsidies, Paris Agreement, individual zero-waste movements..."
+          },
+          "yourPosition": {
+            "label": "Your Position (Choose One)",
+            "options": [
+              "Individuals should be primarily responsible",
+              "Governments should be primarily responsible",
+              "Both share equal responsibility",
+              "Governments lead, individuals follow"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "essay-planning",
+      "title": "Essay Planning (Simon's Structure)",
+      "description": "Plan your 4-paragraph essay",
+      "content": {
+        "planStructure": {
+          "introduction": {
+            "sentence1": {
+              "label": "Sentence 1: Paraphrase the question",
+              "placeholder": "The question of who bears primary accountability for environmental protection divides opinion between citizen action and state intervention..."
+            },
+            "sentence2": {
+              "label": "Sentence 2: State your position",
+              "placeholder": "While individual efforts are valuable, I believe governments must take the leading role in environmental conservation..."
+            }
+          },
+          "bodyParagraph1": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Individual responsibility for environment"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Personal daily choices collectively create significant environmental impact"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Reducing consumption, recycling, and choosing sustainable transport options"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "If millions reduce plastic use, total waste decreases substantially"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "Individual actions raise awareness and inspire others"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "Citizen responsibility creates grassroots momentum for change"
+              }
+            ]
+          },
+          "bodyParagraph2": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Government responsibility for environment"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Governments possess authority to implement large-scale environmental policies"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Can regulate industries, enforce emission standards, and invest in infrastructure"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "EU regulations reduced industrial pollution more effectively than voluntary individual actions"
+              },
+              {
+                "label": "Idea 4: Additional point",
+                "placeholder": "Only governments can negotiate international climate agreements"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "Systemic problems require governmental solutions with legal enforcement"
+              }
+            ]
+          },
+          "conclusion": {
+            "sentence1": {
+              "label": "Sentence 1: Summary of both views",
+              "placeholder": "While individual lifestyle changes contribute to environmental protection, governmental policies have greater systematic impact"
+            },
+            "sentence2": {
+              "label": "Sentence 2: Final thought/opinion",
+              "placeholder": "Therefore, governments must lead environmental efforts while encouraging citizen participation"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "interactive-exercises",
+      "title": "Practice Exercises",
+      "description": "Build your skills with interactive exercises",
+      "content": {
+        "exercises": [
+          {
+            "type": "sentence-unscramble",
+            "title": "Exercise 1: Sentence Building",
+            "instruction": "Arrange these words to form correct sentences.",
+            "questions": [
+              {
+                "scrambledWords": ["individual", "actions", "can", "significantly", "reduce", "environmental", "damage"],
+                "correctAnswer": "Individual actions can significantly reduce environmental damage."
+              },
+              {
+                "scrambledWords": ["governments", "must", "enforce", "strict", "regulations", "on", "industrial pollution"],
+                "correctAnswer": "Governments must enforce strict regulations on industrial pollution."
+              }
+            ]
+          },
+          {
+            "type": "fill-in-the-blank",
+            "title": "Exercise 2: Vocabulary in Context",
+            "instruction": "Choose the correct word for each blank.",
+            "questions": [
+              {
+                "sentence": "Environmental _____ requires both personal and governmental action.",
+                "options": ["sustainability", "sustainable", "sustaining"],
+                "correctAnswer": "sustainability"
+              },
+              {
+                "sentence": "Governments can _____ legislation to control carbon emissions.",
+                "options": ["implement", "implementation", "implementing"],
+                "correctAnswer": "implement"
+              }
+            ]
+          },
+          {
+            "type": "complete-sentence",
+            "title": "Exercise 3: Using Academic Phrases",
+            "instruction": "Complete these sentences using the vocabulary provided.",
+            "questions": [
+              {
+                "stem": "On the one hand, individuals can contribute by...",
+                "vocabularyHints": ["conservation", "sustainability", "reduce consumption"],
+                "minimumWords": 15
+              },
+              {
+                "stem": "Conversely, governments have the authority to...",
+                "vocabularyHints": ["legislation", "regulate", "enforcement"],
+                "minimumWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "essay-writing",
+      "title": "Write Your Essay",
+      "description": "Write your full essay here (40 minutes)",
+      "content": {
+        "editor": {
+          "placeholder": "Start writing your essay here. Refer to your plan in Section 4.\n\nRemember:\n• 4 paragraphs (Introduction, Body 1, Body 2, Conclusion)\n• 250-280 words\n• Use formal academic style\n• Include examples\n• Clear opinion",
+          "wordCountTarget": "250-280"
+        },
+        "guidancePanel": {
+          "title": "Writing Tips",
+          "tips": [
+            "Follow your plan from Section 4 - don't change structure midway",
+            "Use topic sentences to start each body paragraph",
+            "Include linking words (However, Furthermore, For instance)",
+            "Avoid contractions (don't → do not, can't → cannot)",
+            "Leave 5 minutes at the end to check for errors"
+          ]
+        }
+      }
+    },
+    {
+      "id": "essay-checking",
+      "title": "Check Your Essay",
+      "description": "Use this checklist to review your work",
+      "content": {
+        "checkingSteps": [
+          {
+            "step": 1,
+            "title": "Structure & Organization",
+            "items": [
+              {
+                "label": "Introduction clearly paraphrases the question (not copied)",
+                "tips": ["Use synonyms: individuals → citizens, protecting → conservation, responsibility → accountability"]
+              },
+              {
+                "label": "Body paragraph 1 has clear topic sentence about individual responsibility",
+                "tips": ["Topic sentence = first sentence stating main idea"]
+              },
+              {
+                "label": "Body paragraph 2 discusses government responsibility",
+                "tips": ["Use transition: However, On the other hand, Conversely"]
+              },
+              {
+                "label": "Conclusion summarizes both views + states opinion clearly",
+                "tips": ["Your opinion must be clear - who should be primarily responsible?"]
+              },
+              {
+                "label": "Each paragraph is 4-6 sentences long",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Task Response",
+            "items": [
+              {
+                "label": "Both views are discussed with equal detail",
+                "tips": ["Count sentences - each view should have similar length"]
+              },
+              {
+                "label": "Personal opinion is clearly stated",
+                "tips": ["Use: In my view, I believe that, From my perspective"]
+              },
+              {
+                "label": "Specific examples are provided for each view",
+                "tips": ["Real examples like specific countries or policies are strongest"]
+              },
+              {
+                "label": "All parts of the question are fully addressed",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Vocabulary & Grammar",
+            "items": [
+              {
+                "label": "No repeated words - synonyms used throughout",
+                "tips": ["environment → nature, ecosystem", "responsibility → accountability, duty", "protect → preserve, conserve"]
+              },
+              {
+                "label": "Topic vocabulary from Section 2 is used correctly",
+                "tips": []
+              },
+              {
+                "label": "Complex sentences are used (not all simple sentences)",
+                "tips": ["Use: who, which, that, although, while, because"]
+              },
+              {
+                "label": "Verb tenses are consistent and correct",
+                "tips": []
+              },
+              {
+                "label": "No spelling or punctuation errors",
+                "tips": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-answer",
+      "title": "Band 8 Model Answer",
+      "description": "Compare your essay with this high-band example",
+      "content": {
+        "essay": {
+          "wordCount": 276,
+          "fullEssay": "The question of who bears primary accountability for environmental protection divides opinion between those advocating citizen action and those emphasizing state intervention. While individual efforts are valuable, I believe governments must take the leading role in environmental conservation due to their unique capacity for systemic change.\n\nOn the one hand, personal lifestyle choices collectively create significant environmental impact. When millions of people make conscious decisions to reduce consumption, recycle waste, and choose sustainable transportation, the cumulative effect substantially decreases pollution and resource depletion. For instance, the growing popularity of reusable shopping bags and water bottles has measurably reduced plastic waste in many communities. Furthermore, individual actions raise environmental awareness and inspire others to adopt eco-friendly habits, creating grassroots momentum for broader societal change. Citizens also wield considerable power through their purchasing decisions, potentially influencing companies to adopt more sustainable practices.\n\nHowever, governments possess the authority and resources necessary to implement large-scale environmental policies that individual actions cannot achieve. Only state institutions can regulate industrial emissions, enforce environmental standards, and invest in renewable energy infrastructure at the scale required to address climate change effectively. The European Union's strict emission regulations, for example, have achieved pollution reductions far beyond what voluntary individual efforts could accomplish. Moreover, governments can negotiate international agreements like the Paris Accord, coordinating global responses to environmental challenges that transcend national borders. Systematic environmental problems fundamentally require governmental solutions backed by legal enforcement and substantial financial investment.\n\nIn conclusion, while individual conservation efforts contribute meaningfully to environmental protection, governmental policies deliver the systematic impact necessary for significant progress. Therefore, states must lead environmental initiatives while simultaneously encouraging responsible citizenship."
+        },
+        "analysis": {
+          "bandScore": {
+            "overall": "8.0",
+            "taskResponse": "8",
+            "coherenceCohesion": "8",
+            "lexicalResource": "8",
+            "grammaticalRange": "8"
+          },
+          "structure": "4 paragraphs (Intro + 2 Body + Conclusion)",
+          "strengths": [
+            "Clear position with well-reasoned opinion favoring government",
+            "Both views discussed equally with specific examples",
+            "Strong topic sentences in each paragraph",
+            "Wide range of vocabulary (accountability, cumulative, transcend)",
+            "Complex sentence structures throughout"
+          ]
+        },
+        "annotations": [
+          {
+            "highlight": "The question of who bears primary accountability for environmental protection...",
+            "technique": "Paraphrasing",
+            "explanation": "Transforms 'responsibility for protecting environment' into sophisticated language using 'accountability' and 'protection', demonstrating lexical range."
+          },
+          {
+            "highlight": "On the one hand... However, governments possess...",
+            "technique": "Balanced Structure Markers",
+            "explanation": "Clear signposting with contrasting transitions guides the examiner through your argument effectively."
+          },
+          {
+            "highlight": "The European Union's strict emission regulations...",
+            "technique": "Specific Example",
+            "explanation": "Concrete, real-world example strengthens the argument and demonstrates knowledge of current environmental policies."
+          },
+          {
+            "highlight": "Furthermore... Moreover...",
+            "technique": "Varied Cohesive Devices",
+            "explanation": "Different linking words show linguistic sophistication and maintain coherence without repetition."
+          },
+          {
+            "highlight": "accountability, cumulative, transcend, systematic",
+            "technique": "Less Common Vocabulary",
+            "explanation": "Academic vocabulary used naturally demonstrates strong lexical resource appropriate for Band 8."
+          },
+          {
+            "highlight": "environmental challenges that transcend national borders",
+            "technique": "Relative Clause",
+            "explanation": "Complex sentence using relative pronoun 'that' adds sophistication and demonstrates grammatical range."
+          }
+        ]
+      }
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment & Reflection",
+      "description": "Evaluate your performance",
+      "content": {
+        "criteria": [
+          {
+            "criterion": "task-response",
+            "title": "Task Response",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Fully addresses all parts of the task. Presents a fully developed position with relevant, extended and well supported ideas."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sufficiently addresses all parts of the task. Presents a well-developed response with relevant, extended and supported ideas."
+              },
+              {
+                "band": 7,
+                "descriptor": "Addresses all parts of the task. Presents a clear position. Main ideas are extended and supported but there may be over-generalisation."
+              }
+            ]
+          },
+          {
+            "criterion": "coherence-cohesion",
+            "title": "Coherence & Cohesion",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately."
+              },
+              {
+                "band": 7,
+                "descriptor": "Logically organises information and ideas. Uses a range of cohesive devices appropriately although there may be some under/over-use."
+              }
+            ]
+          }
+        ],
+        "overallAssessment": {
+          "strengths": {
+            "label": "What did you do well?",
+            "placeholder": "List 2-3 specific strengths. e.g., 'I provided clear opinion', 'My examples were specific', 'I used environmental vocabulary well'..."
+          },
+          "areasForImprovement": {
+            "label": "What needs improvement?",
+            "placeholder": "Be honest about challenges. e.g., 'Need more complex sentences', 'Could provide more examples', 'Time management'..."
+          },
+          "actionPlan": {
+            "label": "What will you practice next?",
+            "placeholder": "Set concrete goals. e.g., 'Practice 5 more Discuss Both Views questions', 'Learn 20 environment vocabulary words', 'Practice writing under time pressure'..."
+          }
+        }
+      }
+    }
+  ]
+}

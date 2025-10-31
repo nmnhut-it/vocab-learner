@@ -1,0 +1,584 @@
+{
+  "id": "city-life",
+  "title": "City Life vs Countryside Living",
+  "category": "Lifestyle",
+  "difficulty": "Easy",
+  "question": {
+    "text": "Some people prefer to live in the city, while others prefer living in the countryside. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH city living and countryside living equally, then state your clear opinion.",
+          "requirements": [
+            "Discuss reasons why people prefer city life",
+            "Discuss reasons why people prefer countryside",
+            "Give your clear personal opinion",
+            "Provide specific examples for each lifestyle"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "prefer",
+            "definition": "To like better or choose rather than",
+            "importance": "Shows personal choice and comparison"
+          },
+          {
+            "word": "city",
+            "definition": "Large urban area with high population density",
+            "importance": "One of the two living environments"
+          },
+          {
+            "word": "countryside",
+            "definition": "Rural areas outside cities and towns",
+            "importance": "The alternative living environment"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives",
+            "importance": "Must discuss both sides equally"
+          },
+          {
+            "word": "your opinion",
+            "definition": "Your personal viewpoint",
+            "importance": "Must take a clear position"
+          }
+        },
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss city life advantages with examples",
+          "body2": "4-5 sentences: Discuss countryside advantages with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Opinion is too neutral or unclear",
+          "Using stereotypes without specific examples",
+          "Not considering personal circumstances or preferences"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "amenities",
+            "pronunciation": "/əˈmiːnətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Useful or desirable features and facilities",
+            "example": "Cities offer extensive amenities such as restaurants, theaters, and shopping centers.",
+            "synonyms": ["facilities", "conveniences"]
+          },
+          {
+            "word": "tranquility",
+            "pronunciation": "/træŋˈkwɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being calm and peaceful",
+            "example": "Many people move to the countryside seeking tranquility and peace.",
+            "synonyms": ["peace", "serenity"]
+          },
+          {
+            "word": "proximity",
+            "pronunciation": "/prɒkˈsɪməti/",
+            "partOfSpeech": "noun",
+            "definition": "Nearness in space or time",
+            "example": "Urban living offers proximity to employment opportunities and services.",
+            "synonyms": ["closeness", "nearness"]
+          },
+          {
+            "word": "isolation",
+            "pronunciation": "/ˌaɪsəˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Being separated from others",
+            "example": "Rural areas may experience social isolation due to distance from communities.",
+            "synonyms": ["remoteness", "seclusion"]
+          },
+          {
+            "word": "congestion",
+            "pronunciation": "/kənˈdʒestʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Overcrowding or excessive crowding",
+            "example": "Traffic congestion is a major drawback of city living.",
+            "synonyms": ["crowding", "overcrowding"]
+          },
+          {
+            "word": "exposure",
+            "pronunciation": "/ɪkˈspəʊʒər/",
+            "partOfSpeech": "noun",
+            "definition": "Contact with or experience of something",
+            "example": "Cities provide greater exposure to diverse cultures and perspectives.",
+            "synonyms": ["contact", "experience"]
+          },
+          {
+            "word": "sustainable",
+            "pronunciation": "/səˈsteɪnəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Able to be maintained at a certain level",
+            "example": "Countryside living often promotes more sustainable lifestyles.",
+            "synonyms": ["maintainable", "viable"]
+          },
+          {
+            "word": "vibrant",
+            "pronunciation": "/ˈvaɪbrənt/",
+            "partOfSpeech": "adjective",
+            "definition": "Full of energy and life",
+            "example": "Urban areas typically have vibrant cultural scenes and nightlife.",
+            "synonyms": ["lively", "dynamic"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "cost of living",
+            "definition": "The amount needed for basic expenses",
+            "example": "The cost of living is typically higher in major cities."
+          },
+          {
+            "phrase": "pace of life",
+            "definition": "The speed at which life proceeds",
+            "example": "The countryside offers a slower, more relaxed pace of life."
+          },
+          {
+            "phrase": "career opportunities",
+            "definition": "Chances for professional advancement",
+            "example": "Cities provide more diverse career opportunities and networking possibilities."
+          },
+          {
+            "phrase": "natural surroundings",
+            "definition": "The outdoor environment and nature",
+            "example": "Living in the countryside means enjoying beautiful natural surroundings daily."
+          },
+          {
+            "phrase": "quality of life",
+            "definition": "The general wellbeing of individuals",
+            "example": "Quality of life depends on personal priorities and preferences."
+          },
+          {
+            "phrase": "public services",
+            "definition": "Government-provided facilities and support",
+            "example": "Cities typically have better access to public services like healthcare and education."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The choice between", "People have different preferences regarding", "There is ongoing debate about"],
+          "city_side": ["Urban dwellers appreciate", "Those who favor city life value", "City residents benefit from"],
+          "countryside_side": ["Rural residents enjoy", "Those who prefer the countryside value", "Country living offers"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "Overall", "Ultimately", "On balance"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Cities",
+              "verb": "offer",
+              "keywords": ["career opportunities", "amenities"]
+            },
+            "hint": "Mention professional and lifestyle benefits.",
+            "modelAnswer": "Cities offer abundant career opportunities and extensive amenities for modern living.",
+            "minWords": 10
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Rural areas",
+              "verb": "provide",
+              "keywords": ["tranquility", "natural surroundings"]
+            },
+            "hint": "Focus on peace and nature benefits.",
+            "modelAnswer": "Rural areas provide peaceful tranquility and beautiful natural surroundings away from urban chaos.",
+            "minWords": 11
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Urban living",
+              "verb": "suffer",
+              "keywords": ["traffic congestion", "pollution"]
+            },
+            "hint": "Mention negative aspects of cities.",
+            "modelAnswer": "Urban living often suffers from severe traffic congestion and higher pollution levels.",
+            "minWords": 10
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Countryside residents",
+              "verb": "enjoy",
+              "keywords": ["slower pace", "community"]
+            },
+            "hint": "Focus on lifestyle quality in rural areas.",
+            "modelAnswer": "Countryside residents enjoy a slower pace of life and closer-knit community relationships.",
+            "minWords": 11
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "City dwellers",
+              "verb": "access",
+              "keywords": ["cultural activities", "entertainment"]
+            },
+            "hint": "Mention cultural and social benefits.",
+            "modelAnswer": "City dwellers can easily access diverse cultural activities and entertainment options year-round.",
+            "minWords": 11
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["cities", "provide", "better", "career", "opportunities", "and", "higher", "salaries"],
+            "correctAnswer": "Cities provide better career opportunities and higher salaries.",
+            "hint": "Start with 'Cities'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["the", "countryside", "offers", "fresh", "air", "and", "natural", "beauty"],
+            "correctAnswer": "The countryside offers fresh air and natural beauty.",
+            "hint": "Subject is 'The countryside'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["urban", "areas", "suffer", "from", "noise", "pollution", "and", "overcrowding"],
+            "correctAnswer": "Urban areas suffer from noise pollution and overcrowding.",
+            "hint": "'suffer from' is the verb phrase"
+          },
+          {
+            "id": "scramble4",
+            "words": ["rural", "living", "promotes", "stronger", "community", "bonds", "and", "connections"],
+            "correctAnswer": "Rural living promotes stronger community bonds and connections.",
+            "hint": "Subject is 'Rural living'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["the", "choice", "depends", "on", "individual", "priorities", "and", "lifestyle", "preferences"],
+            "correctAnswer": "The choice depends on individual priorities and lifestyle preferences.",
+            "hint": "'depends on' is the key phrase"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Cities _____ abundant cultural amenities and entertainment options.",
+            "options": ["offer", "offers", "offering"],
+            "correctAnswer": "offer",
+            "explanation": "Plural subject 'Cities' takes base form 'offer'."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, rural areas provide peace and connection to nature.",
+            "options": ["Conversely", "Moreover", "Therefore"],
+            "correctAnswer": "Conversely",
+            "explanation": "Use 'Conversely' to contrast city and countryside benefits."
+          },
+          {
+            "id": "blank3",
+            "sentence": "The countryside offers a slower _____ of life.",
+            "options": ["pace", "pacing", "paces"],
+            "correctAnswer": "pace",
+            "explanation": "Use singular noun 'pace' in the phrase 'pace of life'."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ example, London provides world-class museums and theaters.",
+            "options": ["For", "To", "In"],
+            "correctAnswer": "For",
+            "explanation": "'For example' is correct for giving examples."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Urban living can be _____ due to high costs and stress.",
+            "options": ["challenging", "challenge", "challenged"],
+            "correctAnswer": "challenging",
+            "explanation": "Use adjective 'challenging' after 'be'."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Personal Preference Approach",
+            "structure": {
+              "introduction": "The choice between [Option A] and [Option B] is [describe nature of choice]. While some prefer [Option A] for [reasons], others favor [Option B] for [reasons]. In my opinion, [your clear preference].",
+              "body1": "Those who favor [Option A] value [main benefits]. [Explanation]. For instance, [specific example]. Therefore, [conclusion about this choice].",
+              "body2": "Conversely, those who prefer [Option B] appreciate [main benefits]. [Explanation]. For example, [specific example]. Thus, [conclusion about this choice].",
+              "conclusion": "In conclusion, while [acknowledge both sides], I believe [restate preference with reasoning]."
+            },
+            "example": {
+              "introduction": "The choice between city and countryside living is highly personal and depends on individual priorities. While some prefer urban environments for career opportunities and amenities, others favor rural settings for tranquility and nature. In my opinion, city life suits young professionals better, while countryside appeals more to families and retirees.",
+              "body1": "Those who favor city life value the abundance of career opportunities and cultural experiences. Urban areas offer diverse employment options, networking possibilities, and higher salaries. For instance, cities like New York or London provide access to international corporations, creative industries, and entrepreneurial ecosystems. Therefore, ambitious professionals often choose cities to maximize career advancement and personal growth.",
+              "body2": "Conversely, those who prefer countryside living appreciate the peace, space, and connection to nature. Rural areas offer lower living costs, cleaner air, and stronger community bonds. For example, families with children often relocate to villages where they can afford larger homes with gardens and children can play safely outdoors. Thus, the countryside becomes attractive for those prioritizing quality family time and wellbeing.",
+              "conclusion": "In conclusion, while both environments offer distinct advantages, I believe the best choice depends on life stage and priorities. Cities suit career-focused individuals, while countryside living better serves those valuing tranquility and family life."
+            }
+          },
+          {
+            "name": "Template 2: Life Stage Consideration",
+            "structure": {
+              "introduction": "Living preferences vary greatly among individuals. The ideal choice between [A] and [B] often depends on [life stage/circumstances].",
+              "body1": "[Option A] suits those who [characteristics/needs]. [Benefits explanation with example]. This makes it ideal for [specific groups].",
+              "body2": "[Option B] appeals to those who [different characteristics/needs]. [Benefits explanation with example]. This makes it preferable for [different groups].",
+              "conclusion": "Ultimately, [topic] is a personal decision based on [factors]. The right choice depends on [specific considerations]."
+            }
+          },
+          {
+            "name": "Template 3: Balanced Comparison",
+            "structure": {
+              "introduction": "People have different preferences regarding [topic]. Understanding the merits of each option helps individuals make informed decisions.",
+              "body1": "[Option A] offers [benefits]. [Explanation with examples]. These advantages [who benefits most].",
+              "body2": "[Option B] provides [benefits]. [Explanation with examples]. These advantages [who benefits most].",
+              "conclusion": "In conclusion, both [A] and [B] have their place. The optimal choice reflects [personal priorities and circumstances]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "city_perspective": ["Urban dwellers appreciate", "Those who favor city life", "City residents benefit from", "People choosing cities value"],
+          "countryside_perspective": ["Rural residents enjoy", "Those who prefer the countryside", "Country living offers", "People choosing rural areas value"],
+          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "For example", "Such as", "Particularly"],
+          "showing_result": ["Therefore", "Thus", "As a result", "Consequently"],
+          "contrasting": ["Conversely", "In contrast", "On the other hand", "However"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The choice between city and countryside living _____ [describe nature of choice]. While some prefer _____ [city living view], others favor _____ [countryside view]. In my opinion, _____ [your position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe nature of choice",
+                "hint": "What kind of decision is this? Personal, complex, important?",
+                "placeholder": "e.g., is highly personal and depends largely on individual priorities, life stage, and values",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank2",
+                "label": "City living view",
+                "hint": "Why do people choose cities? What do they value?",
+                "placeholder": "e.g., urban environments for their abundant career opportunities, cultural experiences, and modern amenities",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Countryside view",
+                "hint": "Why do people choose countryside? What do they value?",
+                "placeholder": "e.g., rural settings for their tranquility, natural beauty, and slower pace of life",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank4",
+                "label": "Your position",
+                "hint": "Be clear! Which do you prefer, or does it depend on circumstances?",
+                "placeholder": "e.g., city life better suits young professionals pursuing careers while countryside appeals more to families seeking quality of life",
+                "minWords": 16
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - City Life",
+            "template": "Those who favor city life value _____ [main benefits]. [Explanation] For instance, _____ [specific example]. Therefore, _____ [conclusion about city living].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main benefits of city life",
+                "hint": "What do city lovers appreciate most? Career, culture, convenience?",
+                "placeholder": "e.g., the abundance of career opportunities, cultural diversity, and convenient access to essential services and entertainment",
+                "minWords": 14
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain benefits then provide specific example in same response",
+                "placeholder": "e.g., Urban areas offer diverse employment options, higher salaries, and networking possibilities across various industries. Cities like London or Singapore provide access to multinational corporations, creative industries, and vibrant entrepreneurial ecosystems",
+                "minWords": 28
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Conclusion about city living",
+                "hint": "Who benefits most from city life? What does this show?",
+                "placeholder": "e.g., ambitious young professionals often choose urban environments to maximize career advancement and exposure to diverse opportunities",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Countryside",
+            "template": "Conversely, those who prefer countryside living appreciate _____ [main benefits]. [Explanation] For example, _____ [specific example]. Thus, _____ [conclusion about countryside].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main benefits of countryside",
+                "hint": "What do countryside lovers appreciate? Peace, nature, community?",
+                "placeholder": "e.g., the peace, natural surroundings, lower living costs, and stronger sense of community in rural areas",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain benefits then provide specific example in same response",
+                "placeholder": "e.g., Rural settings offer cleaner air, less noise, and opportunities for outdoor activities in nature. Families with children often relocate to villages where they can afford spacious homes with gardens and children can play safely outdoors",
+                "minWords": 32
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Conclusion about countryside",
+                "hint": "Who benefits most from countryside? What does this show?",
+                "placeholder": "e.g., the countryside becomes particularly attractive for families, retirees, and individuals prioritizing health, wellbeing, and work-life balance",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [acknowledge both sides], I believe _____ [restate your opinion with reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge both sides",
+                "hint": "Briefly mention advantages of both city and countryside",
+                "placeholder": "e.g., both urban and rural environments offer distinct advantages suited to different lifestyles and priorities",
+                "minWords": 13
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion with reasoning",
+                "hint": "Clearly restate YOUR view and explain why or when each is better",
+                "placeholder": "e.g., the optimal choice depends on life stage and personal values, with cities serving career-focused individuals and countryside suiting those valuing tranquility",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question, present both views, state opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss city life advantages with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss countryside advantages with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both views + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction presents both views and states opinion",
+          "Body paragraph 1 discusses city life with example",
+          "Body paragraph 2 discusses countryside with example",
+          "Both perspectives are given balanced treatment",
+          "Conclusion summarizes and clearly restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The choice between city and countryside living is highly personal and depends largely on individual priorities, life stage, and personal values. While some prefer urban environments for their career opportunities and cultural experiences, others favor rural settings for tranquility and natural beauty. In my opinion, city life better suits ambitious young professionals, while countryside living appeals more to families and those seeking work-life balance.\n\nThose who favor city life value the abundance of career opportunities and cultural diversity. Urban areas offer diverse employment options, higher salaries, and extensive networking possibilities across various industries. For instance, cities like London, Singapore, and New York provide access to multinational corporations, creative industries, and vibrant entrepreneurial ecosystems that simply do not exist in rural areas. Additionally, cities offer world-class cultural amenities including museums, theaters, restaurants, and entertainment venues. Therefore, ambitious professionals and culture enthusiasts often choose urban environments to maximize career advancement and exposure to diverse experiences and perspectives.\n\nConversely, those who prefer countryside living appreciate the peace, natural surroundings, and stronger community bonds that rural areas provide. The countryside offers cleaner air, less noise pollution, lower living costs, and greater opportunities for outdoor activities in nature. For example, many families with young children relocate from cities to villages where they can afford spacious homes with gardens, and where children can play safely outdoors and develop connections with the natural environment. Furthermore, rural communities often feature closer-knit social networks where neighbors know each other personally. Thus, the countryside becomes particularly attractive for families, retirees, and individuals prioritizing health, wellbeing, and meaningful community relationships.\n\nIn conclusion, while both urban and rural environments offer distinct advantages suited to different lifestyles, I believe the optimal choice depends on life stage and personal priorities. Cities serve career-focused individuals and culture enthusiasts, while countryside living better suits families and those valuing tranquility and natural surroundings.",
+    "wordCount": 294,
+    "structure": {
+      "introduction": "The choice between city and countryside living is highly personal and depends largely on individual priorities, life stage, and personal values. While some prefer urban environments for their career opportunities and cultural experiences, others favor rural settings for tranquility and natural beauty. In my opinion, city life better suits ambitious young professionals, while countryside living appeals more to families and those seeking work-life balance.",
+      "body1": "Those who favor city life value the abundance of career opportunities and cultural diversity. Urban areas offer diverse employment options, higher salaries, and extensive networking possibilities across various industries. For instance, cities like London, Singapore, and New York provide access to multinational corporations, creative industries, and vibrant entrepreneurial ecosystems that simply do not exist in rural areas. Additionally, cities offer world-class cultural amenities including museums, theaters, restaurants, and entertainment venues. Therefore, ambitious professionals and culture enthusiasts often choose urban environments to maximize career advancement and exposure to diverse experiences and perspectives.",
+      "body2": "Conversely, those who prefer countryside living appreciate the peace, natural surroundings, and stronger community bonds that rural areas provide. The countryside offers cleaner air, less noise pollution, lower living costs, and greater opportunities for outdoor activities in nature. For example, many families with young children relocate from cities to villages where they can afford spacious homes with gardens, and where children can play safely outdoors and develop connections with the natural environment. Furthermore, rural communities often feature closer-knit social networks where neighbors know each other personally. Thus, the countryside becomes particularly attractive for families, retirees, and individuals prioritizing health, wellbeing, and meaningful community relationships.",
+      "conclusion": "In conclusion, while both urban and rural environments offer distinct advantages suited to different lifestyles, I believe the optimal choice depends on life stage and personal priorities. Cities serve career-focused individuals and culture enthusiasts, while countryside living better suits families and those valuing tranquility and natural surroundings."
+    },
+    "highlights": [
+      {
+        "text": "highly personal",
+        "type": "academic-vocab",
+        "explanation": "Common collocation showing range"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Additionally",
+        "type": "linking-word",
+        "explanation": "Adds supporting point"
+      },
+      {
+        "text": "Conversely",
+        "type": "linking-word",
+        "explanation": "Signals contrast to city discussion"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional countryside benefit"
+      },
+      {
+        "text": "cities like London, Singapore, and New York",
+        "type": "example",
+        "explanation": "Specific, concrete examples"
+      },
+      {
+        "text": "entrepreneurial ecosystems",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated economic terminology"
+      },
+      {
+        "text": "closer-knit social networks",
+        "type": "academic-vocab",
+        "explanation": "Precise social terminology"
+      }
+    ]
+  }
+}

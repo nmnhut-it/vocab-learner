@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IELTS Writing Task 2 Practice Schema",
+  "description": "Complete structure for IELTS Writing Task 2 practice sessions",
+  "type": "object",
+  "required": ["id", "question", "sections"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the topic"
+    },
+    "question": {
+      "type": "object",
+      "required": ["text", "type", "category", "instructions", "timeAllocation"],
+      "properties": {
+        "text": {"type": "string"},
+        "type": {"type": "string", "enum": ["Agree/Disagree", "Discuss Both Views", "Advantages/Disadvantages", "Problem/Solution", "Two-Part Question"]},
+        "category": {"type": "string"},
+        "instructions": {"type": "string"},
+        "timeAllocation": {
+          "type": "object",
+          "properties": {
+            "total": {"type": "number"},
+            "planning": {"type": "number"},
+            "writing": {"type": "number"},
+            "checking": {"type": "number"}
+          }
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Nine practice sections",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "content"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "content": {"type": "object"}
+        }
+      }
+    }
+  }
+}

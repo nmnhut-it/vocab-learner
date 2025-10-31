@@ -1,0 +1,590 @@
+{
+  "id": "remote-work",
+  "title": "Remote Work vs Office Work",
+  "category": "Work & Employment",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think remote work is better than office work, while others believe working in an office is more beneficial. Discuss both views and give your own opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (remote work AND office work) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss advantages of remote work",
+            "Discuss advantages of office work",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "remote work",
+            "definition": "Working from home or outside a traditional office",
+            "importance": "This is one of the two main topics you must discuss"
+          },
+          {
+            "word": "office work",
+            "definition": "Working in a company's physical workplace",
+            "importance": "This is the second main topic you must discuss"
+          },
+          {
+            "word": "better",
+            "definition": "More advantageous or beneficial",
+            "importance": "Shows comparison - you must weigh both sides"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          },
+          {
+            "word": "your opinion",
+            "definition": "Your personal viewpoint",
+            "importance": "You must take a clear position - don't be too neutral"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss first view (remote work advantages)",
+          "body2": "4-5 sentences: Discuss second view (office work advantages)",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Opinion is unclear or too balanced ('both are good')",
+          "Forgetting to give concrete examples",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "flexibility",
+            "pronunciation": "/ˌfleksəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to change or adapt easily",
+            "example": "Remote work offers greater flexibility in managing work schedules.",
+            "synonyms": ["adaptability", "versatility"]
+          },
+          {
+            "word": "productivity",
+            "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+            "partOfSpeech": "noun",
+            "definition": "The effectiveness of work output",
+            "example": "Some studies show increased productivity when working remotely.",
+            "synonyms": ["efficiency", "output"]
+          },
+          {
+            "word": "collaboration",
+            "pronunciation": "/kəˌlæbəˈreɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Working together with others",
+            "example": "Office environments facilitate better collaboration among team members.",
+            "synonyms": ["cooperation", "teamwork"]
+          },
+          {
+            "word": "autonomy",
+            "pronunciation": "/ɔːˈtɒnəmi/",
+            "partOfSpeech": "noun",
+            "definition": "Independence in decision-making",
+            "example": "Remote workers enjoy greater autonomy over their daily routines.",
+            "synonyms": ["independence", "self-governance"]
+          },
+          {
+            "word": "efficiency",
+            "pronunciation": "/ɪˈfɪʃənsi/",
+            "partOfSpeech": "noun",
+            "definition": "Achieving maximum output with minimum wasted effort",
+            "example": "Working from home can improve efficiency by eliminating commute time.",
+            "synonyms": ["effectiveness", "productivity"]
+          },
+          {
+            "word": "facilitate",
+            "pronunciation": "/fəˈsɪlɪteɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To make an action or process easier",
+            "example": "Physical offices facilitate spontaneous discussions and brainstorming.",
+            "synonyms": ["enable", "assist", "promote"]
+          },
+          {
+            "word": "cohesion",
+            "pronunciation": "/kəʊˈhiːʒən/",
+            "partOfSpeech": "noun",
+            "definition": "Unity and togetherness within a group",
+            "example": "Office work strengthens team cohesion through daily interactions.",
+            "synonyms": ["unity", "solidarity"]
+          },
+          {
+            "word": "substantial",
+            "pronunciation": "/səbˈstænʃəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Of considerable importance or size",
+            "example": "Remote work provides substantial savings on transportation costs.",
+            "synonyms": ["significant", "considerable"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "work-life balance",
+            "definition": "The equilibrium between professional and personal life",
+            "example": "Remote work often improves work-life balance for employees."
+          },
+          {
+            "phrase": "commute time",
+            "definition": "Time spent traveling to and from work",
+            "example": "Eliminating commute time saves 1-2 hours daily."
+          },
+          {
+            "phrase": "face-to-face interaction",
+            "definition": "Direct in-person communication",
+            "example": "Offices enable face-to-face interaction which builds stronger relationships."
+          },
+          {
+            "phrase": "company culture",
+            "definition": "The shared values and practices of an organization",
+            "example": "Physical presence helps maintain strong company culture."
+          },
+          {
+            "phrase": "remote setting",
+            "definition": "Working environment outside traditional office",
+            "example": "Remote settings offer comfortable and personalized workspaces."
+          },
+          {
+            "phrase": "spontaneous discussion",
+            "definition": "Unplanned conversations that arise naturally",
+            "example": "Spontaneous discussions in offices often lead to creative solutions."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Remote work",
+              "verb": "provide",
+              "keywords": ["flexibility", "schedule"]
+            },
+            "hint": "Use 'offers' or 'provides'. Add 'greater' before flexibility.",
+            "modelAnswer": "Remote work provides greater flexibility in managing work schedules.",
+            "minWords": 8
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Office environments",
+              "verb": "facilitate",
+              "keywords": ["collaboration", "team members"]
+            },
+            "hint": "Remember to mention 'among' team members.",
+            "modelAnswer": "Office environments facilitate better collaboration among team members.",
+            "minWords": 7
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Employees",
+              "verb": "save",
+              "keywords": ["commute time", "hours daily"]
+            },
+            "hint": "Mention 'by eliminating' commute time. Add specific hours.",
+            "modelAnswer": "Employees can save 1-2 hours daily by eliminating commute time.",
+            "minWords": 9
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Physical presence",
+              "verb": "strengthen",
+              "keywords": ["company culture", "relationships"]
+            },
+            "hint": "Use 'strengthens' and mention 'professional' relationships.",
+            "modelAnswer": "Physical presence strengthens company culture and professional relationships.",
+            "minWords": 7
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Working from home",
+              "verb": "allow",
+              "keywords": ["autonomy", "daily routine"]
+            },
+            "hint": "Use 'allows for' or 'enables'. Add 'greater' before autonomy.",
+            "modelAnswer": "Working from home allows for greater autonomy over one's daily routine.",
+            "minWords": 10
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["has", "remote work", "become", "increasingly", "popular", "in recent years"],
+            "correctAnswer": "Remote work has become increasingly popular in recent years.",
+            "hint": "Start with 'Remote work'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["face-to-face", "collaboration", "is", "essential", "for", "creative projects"],
+            "correctAnswer": "Face-to-face collaboration is essential for creative projects.",
+            "hint": "Subject is 'Face-to-face collaboration'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["working", "from home", "eliminates", "the need", "for", "daily commuting"],
+            "correctAnswer": "Working from home eliminates the need for daily commuting.",
+            "hint": "Start with gerund 'Working'"
+          },
+          {
+            "id": "scramble4",
+            "words": ["office", "settings", "promote", "team", "cohesion", "and", "social interaction"],
+            "correctAnswer": "Office settings promote team cohesion and social interaction.",
+            "hint": "'promote' is the main verb"
+          },
+          {
+            "id": "scramble5",
+            "words": ["remote", "employees", "often", "report", "higher", "job satisfaction", "levels"],
+            "correctAnswer": "Remote employees often report higher job satisfaction levels.",
+            "hint": "Subject is 'Remote employees'"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Remote work offers _____ flexibility in managing personal schedules.",
+            "options": ["greater", "more great", "greatest"],
+            "correctAnswer": "greater",
+            "explanation": "Use comparative form 'greater' when comparing two things."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, office environments facilitate better collaboration.",
+            "options": ["Moreover", "However", "For instance"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to contrast with a previous point about remote work."
+          },
+          {
+            "id": "blank3",
+            "sentence": "Face-to-face interaction _____ team cohesion.",
+            "options": ["strengthen", "strengthens", "strengthening"],
+            "correctAnswer": "strengthens",
+            "explanation": "Subject 'interaction' is singular, needs 's' on the verb."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ eliminating commute time, employees save 1-2 hours daily.",
+            "options": ["By", "With", "For"],
+            "correctAnswer": "By",
+            "explanation": "'By' + gerund shows the method or means of doing something."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Physical offices _____ spontaneous discussions and brainstorming.",
+            "options": ["enable", "able", "ability"],
+            "correctAnswer": "enable",
+            "explanation": "Use verb 'enable' (not noun 'ability') after the subject."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [View A], others argue that [View B]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence supporting View A]. This is because [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence supporting View B]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            },
+            "example": {
+              "introduction": "While some believe remote work is superior, others argue that office environments are more beneficial. In my opinion, the ideal arrangement depends on the nature of the job.",
+              "body1": "On the one hand, remote work provides significant advantages. This is because employees enjoy greater flexibility and work-life balance. For instance, workers can adjust schedules around family needs. As a result, job satisfaction typically increases.",
+              "body2": "On the other hand, office settings offer important benefits. The main reason is that face-to-face collaboration enhances productivity. For example, creative teams benefit from spontaneous brainstorming. Therefore, complex projects often progress faster in offices.",
+              "conclusion": "In conclusion, while both arrangements have merits, I believe the best choice depends on whether the role prioritizes independent work or team collaboration."
+            }
+          },
+          {
+            "name": "Template 2: Opinion-First Approach",
+            "structure": {
+              "introduction": "There is ongoing debate about [Topic]. From my perspective, [Your opinion], although [acknowledge opposite view].",
+              "body1": "[Your main view - Topic sentence]. Firstly, [Reason 1]. Secondly, [Reason 2]. For example, [Supporting example].",
+              "body2": "Nevertheless, [Opposite view - Topic sentence]. [Explanation of why others hold this view]. However, [Counter-argument or limitation].",
+              "conclusion": "To summarize, despite [opposite view], [restate your position] because [final reason]."
+            }
+          },
+          {
+            "name": "Template 3: Cause-Effect Pattern",
+            "structure": {
+              "introduction": "[Restate topic]. This essay will discuss both perspectives and explain why [your position].",
+              "body1": "Supporters of [View A] point to several benefits. The primary advantage is [Main benefit]. This leads to [Effect/consequence]. Additionally, [Secondary benefit with example].",
+              "body2": "Conversely, advocates of [View B] emphasize different advantages. Chief among these is [Main benefit]. This results in [Effect/consequence]. Furthermore, [Secondary benefit with example].",
+              "conclusion": "In conclusion, both approaches offer distinct advantages. However, [your final judgment based on context or priorities]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of X argue that", "Advocates of X contend that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Critics argue that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about remote work], others _____ [state the opposite view about office work]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about remote work",
+                "hint": "Start with 'believe that remote work' or 'argue that working from home'",
+                "placeholder": "e.g., believe that remote work offers greater flexibility and productivity",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about office work",
+                "hint": "Use 'argue that' or 'contend that' followed by office work benefits",
+                "placeholder": "e.g., contend that office environments provide better collaboration and team cohesion",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Don't say 'both are good'. Take a position or say 'it depends on...'",
+                "placeholder": "e.g., the ideal choice depends on the nature of the job and individual preferences",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about remote work advantages]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - remote work advantages",
+                "hint": "Main benefit of remote work in one sentence",
+                "placeholder": "e.g., remote work provides significant advantages in terms of flexibility and work-life balance",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does remote work provide this benefit? Explain the mechanism.",
+                "placeholder": "e.g., employees can structure their schedules around personal commitments and work during peak productivity hours",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example - real situation, study, or personal observation",
+                "placeholder": "e.g., parents can attend school events without taking full days off, and night owls can work during evening hours",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome or impact of this benefit?",
+                "placeholder": "e.g., this leads to higher job satisfaction and reduced stress levels among remote workers",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about office work advantages]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - office work advantages",
+                "hint": "Main benefit of office work. Use contrasting language.",
+                "placeholder": "e.g., traditional office environments offer crucial advantages for collaborative work and team cohesion",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the mechanism or reasoning behind this benefit",
+                "placeholder": "e.g., face-to-face interactions enable spontaneous problem-solving discussions and facilitate immediate feedback",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing office work benefits",
+                "placeholder": "e.g., creative teams can use whiteboards for brainstorming sessions, and colleagues can quickly resolve issues through direct conversation",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective with a concluding thought",
+                "placeholder": "e.g., these advantages make office settings particularly beneficial for roles requiring frequent coordination and collaboration",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought or recommendation].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both remote and office work advantages",
+                "placeholder": "e.g., both remote work and office environments offer distinct advantages in terms of flexibility and collaboration respectively",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight or recommendation",
+                "placeholder": "e.g., the optimal working arrangement depends on the specific job requirements, with hybrid models potentially offering the best of both worlds",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss first view with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss opposing view with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses remote work advantages with example",
+          "Body paragraph 2 discusses office work advantages with example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "People have differing views about whether telecommuting or office-based work is more advantageous. While both arrangements have their merits, I believe that the ideal choice depends largely on the specific requirements of the job role.\n\nOn the one hand, working remotely offers significant benefits in terms of flexibility and work-life balance. Employees can structure their day according to their personal peak productivity hours rather than adhering to rigid office schedules. For instance, many software developers find they produce their best work during evening hours when interruptions are minimal. Furthermore, eliminating the daily commute can save substantial time and money, which workers can reinvest in personal development or family activities. This autonomy often leads to higher job satisfaction and reduced stress levels.\n\nOn the other hand, traditional office environments provide crucial advantages for collaborative work and team cohesion. Face-to-face interactions facilitate spontaneous problem-solving discussions and creative brainstorming sessions that are difficult to replicate virtually. Moreover, physical proximity to colleagues strengthens professional relationships and company culture, which remote settings often lack. For roles requiring frequent coordination, such as project management or client-facing positions, the immediacy of in-person communication can significantly enhance efficiency and team performance.\n\nIn conclusion, while remote work excels in providing flexibility and autonomy, office-based arrangements better support collaboration and organizational culture. The optimal working model ultimately depends on whether the position prioritizes independent focus or requires extensive team interaction and coordination.",
+    "wordCount": 276,
+    "structure": {
+      "introduction": "People have differing views about whether telecommuting or office-based work is more advantageous. While both arrangements have their merits, I believe that the ideal choice depends largely on the specific requirements of the job role.",
+      "body1": "On the one hand, working remotely offers significant benefits in terms of flexibility and work-life balance. Employees can structure their day according to their personal peak productivity hours rather than adhering to rigid office schedules. For instance, many software developers find they produce their best work during evening hours when interruptions are minimal. Furthermore, eliminating the daily commute can save substantial time and money, which workers can reinvest in personal development or family activities. This autonomy often leads to higher job satisfaction and reduced stress levels.",
+      "body2": "On the other hand, traditional office environments provide crucial advantages for collaborative work and team cohesion. Face-to-face interactions facilitate spontaneous problem-solving discussions and creative brainstorming sessions that are difficult to replicate virtually. Moreover, physical proximity to colleagues strengthens professional relationships and company culture, which remote settings often lack. For roles requiring frequent coordination, such as project management or client-facing positions, the immediacy of in-person communication can significantly enhance efficiency and team performance.",
+      "conclusion": "In conclusion, while remote work excels in providing flexibility and autonomy, office-based arrangements better support collaboration and organizational culture. The optimal working model ultimately depends on whether the position prioritizes independent focus or requires extensive team interaction and coordination."
+    },
+    "highlights": [
+      {
+        "text": "differing views",
+        "type": "academic-vocab",
+        "explanation": "Academic way to say 'different opinions'"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds another supporting point in second paragraph"
+      },
+      {
+        "text": "many software developers find they produce their best work during evening hours",
+        "type": "example",
+        "explanation": "Specific, concrete example that supports the argument"
+      },
+      {
+        "text": "autonomy",
+        "type": "academic-vocab",
+        "explanation": "Less common word showing range of vocabulary"
+      },
+      {
+        "text": "facilitate",
+        "type": "academic-vocab",
+        "explanation": "Academic verb meaning 'make easier'"
+      }
+    ]
+  }
+}

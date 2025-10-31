@@ -1420,16 +1420,18 @@ function updateVocabularySection() {
     }
 }
 
-// ========== TTS SAMPLE ANSWER PLAYBACK ==========
+// ========== SAMPLE ANSWER PLAYBACK (Using Pre-generated MP3s) ==========
 
 async function playSampleAnswer() {
-    if (!currentSampleText) {
-        console.warn('No sample answer text available');
+    const question = allQuestions[currentIndex];
+    if (!question) {
+        console.warn('No question available');
         return;
     }
 
-    if (!window.ttsService) {
-        console.error('TTS service not loaded');
+    // Initialize sample audio service if needed
+    if (!window.sampleAudioService) {
+        console.error('Sample audio service not loaded');
         return;
     }
 
@@ -1440,21 +1442,20 @@ async function playSampleAnswer() {
         if (listenBtn) listenBtn.style.display = 'none';
         if (stopBtn) {
             stopBtn.style.display = 'inline-block';
-            stopBtn.textContent = '⏳ Generating...';
+            stopBtn.textContent = '⏳ Loading...';
             stopBtn.disabled = true;
         }
 
         isTTSPlaying = true;
 
-        await window.ttsService.speak(currentSampleText, {
-            useCache: true,
+        // Use pre-generated MP3 file for sample answer
+        const success = await window.sampleAudioService.playSampleAnswer(question.question, {
             onStart: () => {
-                console.log('Playing sample answer');
+                console.log('Playing sample answer MP3');
                 if (stopBtn) {
                     stopBtn.textContent = '⏹️ Stop';
                     stopBtn.disabled = false;
                 }
-                ttsInitialized = true;
             },
             onEnd: () => {
                 isTTSPlaying = false;
@@ -1465,7 +1466,7 @@ async function playSampleAnswer() {
                 }
             },
             onError: (error) => {
-                console.error('TTS playback error:', error);
+                console.error('Audio playback error:', error);
                 isTTSPlaying = false;
                 if (stopBtn) stopBtn.style.display = 'none';
                 if (listenBtn) {
@@ -1474,6 +1475,10 @@ async function playSampleAnswer() {
                 }
             }
         });
+
+        if (!success) {
+            throw new Error('No audio file available for this question');
+        }
 
     } catch (error) {
         console.error('Failed to play sample audio:', error);
@@ -1487,8 +1492,8 @@ async function playSampleAnswer() {
 }
 
 function stopSampleAudio() {
-    if (window.ttsService) {
-        window.ttsService.stop();
+    if (window.sampleAudioService) {
+        window.sampleAudioService.stop();
     }
 
     isTTSPlaying = false;

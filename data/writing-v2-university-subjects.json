@@ -1,0 +1,584 @@
+{
+  "id": "university-subjects",
+  "title": "University Subject Choice",
+  "category": "Education",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think university students should study whatever they like, while others believe they should only study subjects that will be useful for future jobs. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH studying for passion and studying for employment equally, then state your clear opinion.",
+          "requirements": [
+            "Discuss arguments for studying subjects students like",
+            "Discuss arguments for studying practical/job-focused subjects",
+            "Give your clear personal opinion",
+            "Provide specific examples for each perspective"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "university students",
+            "definition": "People pursuing higher education",
+            "importance": "Identifies who is making the choice"
+          },
+          {
+            "word": "whatever they like",
+            "definition": "Subjects based on personal interest",
+            "importance": "One perspective - passion-driven education"
+          },
+          {
+            "word": "useful for future jobs",
+            "definition": "Practical subjects leading to employment",
+            "importance": "Alternative perspective - career-focused education"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives",
+            "importance": "Must discuss both sides equally"
+          },
+          {
+            "word": "your opinion",
+            "definition": "Your personal viewpoint",
+            "importance": "Must take a clear position"
+          }
+        },
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss passion-based study with examples",
+          "body2": "4-5 sentences: Discuss career-focused study with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side thoroughly",
+          "Opinion is too neutral or unclear",
+          "Not considering economic/social context",
+          "Forgetting examples of specific subjects or fields"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "fulfillment",
+            "pronunciation": "/fʊlˈfɪlmənt/",
+            "partOfSpeech": "noun",
+            "definition": "Satisfaction from fully developing one's abilities",
+            "example": "Studying subjects students love leads to greater personal fulfillment.",
+            "synonyms": ["satisfaction", "contentment"]
+          },
+          {
+            "word": "employability",
+            "pronunciation": "/ɪmˌplɔɪəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being suitable for paid work",
+            "example": "Career-focused subjects enhance students' employability after graduation.",
+            "synonyms": ["job readiness", "marketability"]
+          },
+          {
+            "word": "passion",
+            "pronunciation": "/ˈpæʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Strong enthusiasm or interest",
+            "example": "Following one's passion often leads to greater academic success.",
+            "synonyms": ["enthusiasm", "interest"]
+          },
+          {
+            "word": "pragmatic",
+            "pronunciation": "/præɡˈmætɪk/",
+            "partOfSpeech": "adjective",
+            "definition": "Dealing with things in a practical way",
+            "example": "A pragmatic approach focuses on subjects with clear career paths.",
+            "synonyms": ["practical", "realistic"]
+          },
+          {
+            "word": "innovation",
+            "pronunciation": "/ˌɪnəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The introduction of new ideas or methods",
+            "example": "Passion-driven study often produces innovation and creative breakthroughs.",
+            "synonyms": ["creativity", "invention"]
+          },
+          {
+            "word": "credentials",
+            "pronunciation": "/krɪˈdenʃəlz/",
+            "partOfSpeech": "noun",
+            "definition": "Qualifications showing suitability for something",
+            "example": "Job-focused degrees provide credentials that employers actively seek.",
+            "synonyms": ["qualifications", "certifications"]
+          },
+          {
+            "word": "well-rounded",
+            "pronunciation": "/ˌwel ˈraʊndɪd/",
+            "partOfSpeech": "adjective",
+            "definition": "Having a personality developed in all aspects",
+            "example": "Studying diverse subjects creates well-rounded graduates.",
+            "synonyms": ["balanced", "comprehensive"]
+          },
+          {
+            "word": "specialization",
+            "pronunciation": "/ˌspeʃəlaɪˈzeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Concentrating on a particular area of study",
+            "example": "Career-focused education emphasizes specialization in marketable skills.",
+            "synonyms": ["expertise", "focus"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "liberal arts",
+            "definition": "Academic subjects including humanities and sciences",
+            "example": "Liberal arts education develops critical thinking across disciplines."
+          },
+          {
+            "phrase": "vocational training",
+            "definition": "Education focused on specific trades or careers",
+            "example": "Vocational training prepares students for immediate employment."
+          },
+          {
+            "phrase": "intrinsic motivation",
+            "definition": "Drive coming from internal satisfaction",
+            "example": "Studying subjects students love enhances intrinsic motivation."
+          },
+          {
+            "phrase": "job market",
+            "definition": "The availability of employment opportunities",
+            "example": "Understanding the job market helps students choose practical degrees."
+          },
+          {
+            "phrase": "intellectual curiosity",
+            "definition": "Desire to learn and understand",
+            "example": "Passion-based study nurtures intellectual curiosity and lifelong learning."
+          },
+          {
+            "phrase": "career prospects",
+            "definition": "Likelihood of professional success",
+            "example": "Practical subjects often offer stronger career prospects and salaries."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The debate over university curricula", "There is ongoing debate about", "Opinions differ regarding"],
+          "passion_side": ["Advocates of passion-based learning argue", "Those supporting student choice contend", "Proponents of liberal education believe"],
+          "career_side": ["Supporters of career-focused education argue", "Those favoring practical subjects contend", "Advocates of vocational preparation believe"],
+          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
+          "concluding": ["In conclusion", "Overall", "On balance", "Taking both views into account"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Studying subjects students love",
+              "verb": "increase",
+              "keywords": ["motivation", "academic success"]
+            },
+            "hint": "Focus on how passion improves performance.",
+            "modelAnswer": "Studying subjects students love significantly increases their motivation and likelihood of academic success.",
+            "minWords": 12
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Career-focused degrees",
+              "verb": "provide",
+              "keywords": ["employability", "job market"]
+            },
+            "hint": "Mention practical employment benefits.",
+            "modelAnswer": "Career-focused degrees provide better employability and alignment with current job market demands.",
+            "minWords": 11
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Passion-driven study",
+              "verb": "foster",
+              "keywords": ["innovation", "creative thinking"]
+            },
+            "hint": "Discuss creativity and innovation benefits.",
+            "modelAnswer": "Passion-driven study fosters innovation and creative thinking that drives societal progress forward.",
+            "minWords": 11
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Practical subjects",
+              "verb": "offer",
+              "keywords": ["clear career paths", "financial security"]
+            },
+            "hint": "Focus on concrete career and financial benefits.",
+            "modelAnswer": "Practical subjects offer clear career paths and greater financial security after graduation.",
+            "minWords": 11
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Students",
+              "verb": "balance",
+              "keywords": ["personal interests", "market demands"]
+            },
+            "hint": "Mention finding middle ground between both approaches.",
+            "modelAnswer": "Students should ideally balance their personal interests with realistic consideration of market demands.",
+            "minWords": 12
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["following", "one's passion", "often", "leads to", "greater", "academic", "achievement"],
+            "correctAnswer": "Following one's passion often leads to greater academic achievement.",
+            "hint": "Start with gerund 'Following'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["career-oriented", "subjects", "provide", "better", "employment", "opportunities", "after", "graduation"],
+            "correctAnswer": "Career-oriented subjects provide better employment opportunities after graduation.",
+            "hint": "Subject is 'Career-oriented subjects'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["universities", "should", "encourage", "both", "passion", "and", "practicality", "in", "education"],
+            "correctAnswer": "Universities should encourage both passion and practicality in education.",
+            "hint": "'should encourage' is the verb phrase"
+          },
+          {
+            "id": "scramble4",
+            "words": ["studying", "humanities", "develops", "critical", "thinking", "and", "communication", "skills"],
+            "correctAnswer": "Studying humanities develops critical thinking and communication skills.",
+            "hint": "Start with gerund 'Studying'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["the", "job market", "values", "specialized", "skills", "in", "technical", "fields"],
+            "correctAnswer": "The job market values specialized skills in technical fields.",
+            "hint": "'values' is the main verb"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Following one's passion _____ to higher motivation and success.",
+            "options": ["lead", "leads", "leading"],
+            "correctAnswer": "leads",
+            "explanation": "Gerund subject 'Following' is singular, needs 's' on verb."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, career-focused degrees offer clearer employment paths.",
+            "options": ["However", "Moreover", "Therefore"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to contrast passion-based with practical approaches."
+          },
+          {
+            "id": "blank3",
+            "sentence": "Students should _____ personal interests with market realities.",
+            "options": ["balance", "balancing", "balanced"],
+            "correctAnswer": "balance",
+            "explanation": "Use base form 'balance' after 'should'."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ example, engineering degrees lead to well-paid careers.",
+            "options": ["For", "To", "In"],
+            "correctAnswer": "For",
+            "explanation": "'For example' is correct for giving examples."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Practical subjects enhance students' _____ in competitive markets.",
+            "options": ["employability", "employ", "employment"],
+            "correctAnswer": "employability",
+            "explanation": "Use noun 'employability' (quality of being employable)."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced View with Synthesis",
+            "structure": {
+              "introduction": "University curriculum choices remain [describe debate]. While some advocate [View A], others support [View B]. In my opinion, [balanced synthesis position].",
+              "body1": "Advocates of [View A] argue [main arguments]. [Explanation]. For instance, [specific example]. Therefore, [conclusion about this view].",
+              "body2": "Conversely, supporters of [View B] contend [main arguments]. [Explanation]. For example, [specific example]. Thus, [conclusion about this view].",
+              "conclusion": "In conclusion, while [acknowledge both sides], I believe [restate synthesis with reasoning]."
+            },
+            "example": {
+              "introduction": "University curriculum choices remain contentious between those prioritizing passion and those emphasizing practicality. While some advocate that students should pursue subjects they love, others support career-focused education. In my opinion, the ideal approach combines personal interest with consideration of employment prospects.",
+              "body1": "Advocates of passion-based learning argue that following genuine interests produces superior academic outcomes and innovation. When students study subjects they love, they demonstrate higher motivation, deeper engagement, and greater persistence through challenges. For instance, many groundbreaking scientists and artists succeeded because they pursued their passions despite limited initial career prospects. Therefore, passion-driven education can lead to both personal fulfillment and societal contributions through creative breakthroughs.",
+              "body2": "Conversely, supporters of career-focused education contend that practical subjects offer better employability and financial security. In competitive job markets, degrees in fields like engineering, computer science, or healthcare provide clearer career paths and higher salaries. For example, technology graduates often secure well-paid positions immediately after graduation, while liberal arts graduates may struggle to find relevant employment. Thus, pragmatic subject choices help students achieve economic independence and avoid unemployment or underemployment.",
+              "conclusion": "In conclusion, while both passion and practicality have merit, I believe students should ideally choose subjects at the intersection of personal interest and market demand. This balanced approach maximizes both motivation and career prospects, leading to sustainable success."
+            }
+          },
+          {
+            "name": "Template 2: Contextual Nuance",
+            "structure": {
+              "introduction": "The choice between [A] and [B] depends on [factors]. This essay will argue that [nuanced position].",
+              "body1": "[View A] offers [benefits]. [Explanation with example]. This approach suits [specific circumstances/individuals].",
+              "body2": "[View B] provides [benefits]. [Explanation with example]. This approach suits [different circumstances/individuals].",
+              "conclusion": "Ultimately, [topic] should reflect [conditions]. The best choice depends on [specific factors]."
+            }
+          },
+          {
+            "name": "Template 3: Integrated Approach",
+            "structure": {
+              "introduction": "[Describe debate]. Rather than choosing one side, universities should [integrated solution].",
+              "body1": "The benefits of [View A] include [points]. However, [limitation without View B].",
+              "body2": "The benefits of [View B] include [points]. However, [limitation without View A].",
+              "conclusion": "In conclusion, [topic] demands integration of both approaches. Education should [recommendation for combining both]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "passion_perspective": ["Advocates of passion-based learning", "Those supporting student choice", "Proponents of liberal education", "Those valuing intrinsic motivation"],
+          "career_perspective": ["Supporters of career-focused education", "Those favoring practical subjects", "Advocates of vocational training", "Those emphasizing employability"],
+          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
+          "showing_result": ["Therefore", "Thus", "Consequently", "As a result"],
+          "contrasting": ["Conversely", "However", "In contrast", "On the other hand"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "University curriculum choices remain _____ [describe debate/situation]. While some advocate _____ [passion-based view], others support _____ [career-focused view]. In my opinion, _____ [your position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe debate/situation",
+                "hint": "What is the nature of this debate? Contentious, important?",
+                "placeholder": "e.g., contentious with competing priorities between following personal interests and ensuring practical employability",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Passion-based view",
+                "hint": "What do supporters of studying what you love say?",
+                "placeholder": "e.g., that students should pursue subjects they genuinely love regardless of career prospects",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Career-focused view",
+                "hint": "What do supporters of practical education say?",
+                "placeholder": "e.g., career-focused education that prioritizes subjects with clear employment paths and financial security",
+                "minWords": 11
+              },
+              {
+                "id": "intro_blank4",
+                "label": "Your position",
+                "hint": "Be clear! Which side, or a balanced view?",
+                "placeholder": "e.g., the ideal approach combines personal interest with realistic consideration of job market demands for sustainable success",
+                "minWords": 15
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Passion-Based Study",
+            "template": "Advocates of passion-based learning argue _____ [main arguments]. [Explanation] For instance, _____ [specific example]. Therefore, _____ [conclusion about passion-based approach].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main arguments for passion",
+                "hint": "Why should students study what they love? Motivation, success?",
+                "placeholder": "e.g., that following genuine interests produces superior academic outcomes, higher motivation, and greater innovation in chosen fields",
+                "minWords": 14
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the benefits then provide specific example in same response",
+                "placeholder": "e.g., When students study subjects they love, they demonstrate deeper engagement, greater persistence through challenges, and often excel beyond expectations. Many groundbreaking scientists, artists, and entrepreneurs succeeded precisely because they pursued their passions despite limited initial career prospects",
+                "minWords": 32
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Conclusion about passion approach",
+                "hint": "What does this show about studying what you love?",
+                "placeholder": "e.g., passion-driven education often leads to both exceptional personal fulfillment and significant societal contributions through creative breakthroughs",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Career-Focused Study",
+            "template": "Conversely, supporters of career-focused education contend _____ [main arguments]. [Explanation] For example, _____ [specific example]. Thus, _____ [conclusion about career approach].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main arguments for career focus",
+                "hint": "Why should students study practical subjects? Jobs, money?",
+                "placeholder": "e.g., that practical subjects offer superior employability, financial security, and clearer career paths in competitive job markets",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain + give example",
+                "hint": "Explain the benefits then provide specific example in same response",
+                "placeholder": "e.g., Degrees in fields like engineering, computer science, nursing, or business administration provide marketable skills that employers actively seek. Technology and healthcare graduates typically secure well-paid positions immediately after graduation, while liberal arts graduates may face prolonged job searches",
+                "minWords": 34
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Conclusion about career approach",
+                "hint": "What does this show about practical subject choices?",
+                "placeholder": "e.g., pragmatic subject choices help students achieve economic independence and financial stability while avoiding unemployment or underemployment",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [acknowledge both sides], I believe _____ [restate your opinion with reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge both sides",
+                "hint": "Briefly mention merits of both passion and practicality",
+                "placeholder": "e.g., both following personal passion and prioritizing career prospects offer distinct advantages for students and society",
+                "minWords": 14
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion with reasoning",
+                "hint": "Clearly restate YOUR view and explain why",
+                "placeholder": "e.g., students should ideally choose subjects at the intersection of genuine interest and market demand, maximizing both motivation and long-term career prospects",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question, present both views, state opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss passion-based learning with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss career-focused learning with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both views + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction presents both views and states opinion",
+          "Body paragraph 1 discusses passion-based learning with example",
+          "Body paragraph 2 discusses career-focused learning with example",
+          "Both perspectives are given balanced treatment",
+          "Conclusion summarizes and clearly restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "University curriculum choices remain contentious, with competing priorities between following personal interests and ensuring practical employability. While some advocate that students should pursue subjects they genuinely love regardless of career prospects, others support career-focused education that prioritizes marketable skills. In my opinion, the ideal approach combines personal interest with realistic consideration of job market demands to achieve sustainable long-term success.\n\nAdvocates of passion-based learning argue that following genuine interests produces superior academic outcomes and drives innovation. When students study subjects they love, they demonstrate higher motivation, deeper intellectual engagement, and greater persistence through academic challenges. For instance, many groundbreaking scientists, artists, and entrepreneurs succeeded precisely because they pursued their passions despite uncertain initial career prospects, ultimately making extraordinary contributions to their fields. Furthermore, passion-driven study fosters the creativity and original thinking that society needs for solving complex problems. Therefore, encouraging students to follow their interests can lead to both exceptional personal fulfillment and significant societal benefits through innovation and creative breakthroughs.\n\nConversely, supporters of career-focused education contend that practical subjects offer superior employability and financial security in competitive markets. Degrees in fields like engineering, computer science, nursing, or business administration provide marketable credentials and specialized skills that employers actively seek. For example, technology and healthcare graduates typically secure well-paid positions immediately after graduation, while liberal arts graduates often face prolonged job searches or underemployment in unrelated fields. Moreover, in economically uncertain times, practical qualifications provide crucial financial stability and independence. Thus, pragmatic subject choices help graduates avoid unemployment and achieve economic security more reliably.\n\nIn conclusion, while both following personal passion and prioritizing career prospects offer distinct advantages, I believe students should ideally choose subjects at the intersection of genuine interest and market demand. This balanced approach maximizes both intrinsic motivation and realistic career prospects, leading to sustainable professional success and personal satisfaction.",
+    "wordCount": 297,
+    "structure": {
+      "introduction": "University curriculum choices remain contentious, with competing priorities between following personal interests and ensuring practical employability. While some advocate that students should pursue subjects they genuinely love regardless of career prospects, others support career-focused education that prioritizes marketable skills. In my opinion, the ideal approach combines personal interest with realistic consideration of job market demands to achieve sustainable long-term success.",
+      "body1": "Advocates of passion-based learning argue that following genuine interests produces superior academic outcomes and drives innovation. When students study subjects they love, they demonstrate higher motivation, deeper intellectual engagement, and greater persistence through academic challenges. For instance, many groundbreaking scientists, artists, and entrepreneurs succeeded precisely because they pursued their passions despite uncertain initial career prospects, ultimately making extraordinary contributions to their fields. Furthermore, passion-driven study fosters the creativity and original thinking that society needs for solving complex problems. Therefore, encouraging students to follow their interests can lead to both exceptional personal fulfillment and significant societal benefits through innovation and creative breakthroughs.",
+      "body2": "Conversely, supporters of career-focused education contend that practical subjects offer superior employability and financial security in competitive markets. Degrees in fields like engineering, computer science, nursing, or business administration provide marketable credentials and specialized skills that employers actively seek. For example, technology and healthcare graduates typically secure well-paid positions immediately after graduation, while liberal arts graduates often face prolonged job searches or underemployment in unrelated fields. Moreover, in economically uncertain times, practical qualifications provide crucial financial stability and independence. Thus, pragmatic subject choices help graduates avoid unemployment and achieve economic security more reliably.",
+      "conclusion": "In conclusion, while both following personal passion and prioritizing career prospects offer distinct advantages, I believe students should ideally choose subjects at the intersection of genuine interest and market demand. This balanced approach maximizes both intrinsic motivation and realistic career prospects, leading to sustainable professional success and personal satisfaction."
+    },
+    "highlights": [
+      {
+        "text": "contentious",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated vocabulary showing range"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds supporting point"
+      },
+      {
+        "text": "Conversely",
+        "type": "linking-word",
+        "explanation": "Signals contrast to passion discussion"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional career-focus benefit"
+      },
+      {
+        "text": "groundbreaking scientists, artists, and entrepreneurs",
+        "type": "example",
+        "explanation": "Specific examples of passion-driven success"
+      },
+      {
+        "text": "intersection of genuine interest and market demand",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated synthesis concept"
+      },
+      {
+        "text": "intrinsic motivation",
+        "type": "academic-vocab",
+        "explanation": "Technical psychological terminology"
+      }
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "id": "social-media",
+  "question": {
+    "text": "Social media has both positive and negative effects on society. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "category": "Technology & Society",
+    "instructions": "Write at least 250 words",
+    "timeAllocation": {
+      "total": 40,
+      "planning": 10,
+      "writing": 25,
+      "checking": 5
+    }
+  },
+  "sections": [
+    {
+      "id": "question-analysis",
+      "title": "Question Analysis",
+      "description": "Understand what the question is asking",
+      "content": {
+        "questionType": {
+          "value": "Discuss Both Views + Opinion",
+          "explanation": "You must discuss BOTH positive and negative effects equally and clearly state your own opinion."
+        },
+        "keyWords": [
+          {"word": "social media", "importance": "high"},
+          {"word": "positive effects", "importance": "high"},
+          {"word": "negative effects", "importance": "high"},
+          {"word": "society", "importance": "medium"},
+          {"word": "both views", "importance": "high"},
+          {"word": "your opinion", "importance": "high"}
+        ],
+        "taskRequirements": [
+          "Discuss positive effects of social media on society",
+          "Discuss negative effects of social media on society",
+          "Provide specific examples for each view",
+          "State your clear personal opinion"
+        ],
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Opinion is unclear or too balanced (must take a position)",
+          "Being too general without specific examples",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-ideas",
+      "title": "Vocabulary & Ideas Bank",
+      "description": "Essential words and ideas for this topic",
+      "content": {
+        "topicVocabulary": [
+          {
+            "word": "connectivity",
+            "pronunciation": "/ˌkɒnekˈtɪvəti/",
+            "partOfSpeech": "noun",
+            "definition": "The state of being connected or interconnected with others",
+            "example": "Social media has enhanced global connectivity among people worldwide."
+          },
+          {
+            "word": "misinformation",
+            "pronunciation": "/ˌmɪsɪnfəˈmeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "False or inaccurate information, especially that which is deliberately spread",
+            "example": "The rapid spread of misinformation on social platforms poses serious risks."
+          },
+          {
+            "word": "polarization",
+            "pronunciation": "/ˌpəʊləraɪˈzeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Division into two sharply contrasting groups or sets of opinions",
+            "example": "Social media algorithms can increase political polarization in society."
+          },
+          {
+            "word": "advocacy",
+            "pronunciation": "/ˈædvəkəsi/",
+            "partOfSpeech": "noun",
+            "definition": "Public support for or recommendation of a particular cause or policy",
+            "example": "Social platforms have become powerful tools for social advocacy."
+          },
+          {
+            "word": "addiction",
+            "pronunciation": "/əˈdɪkʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The condition of being dependent on a particular substance or activity",
+            "example": "Social media addiction is increasingly recognized as a mental health concern."
+          }
+        ],
+        "academicPhrases": {
+          "introduction": [
+            "The impact of social media on modern society remains highly debated...",
+            "Social networking platforms have transformed the way...",
+            "While some argue that social media benefits society, others believe...",
+            "The rise of digital social platforms has sparked controversy about..."
+          ],
+          "discussing": [
+            "On the one hand,",
+            "Supporters of social media argue that...",
+            "One positive aspect is...",
+            "From a beneficial perspective,"
+          ],
+          "contrasting": [
+            "On the other hand,",
+            "Critics contend that...",
+            "Conversely, there are significant drawbacks...",
+            "However, the negative consequences include..."
+          ],
+          "examples": [
+            "A notable example of this is...",
+            "This is exemplified by...",
+            "For instance, during recent movements...",
+            "Evidence suggests that..."
+          ],
+          "opinion": [
+            "In my view,",
+            "I believe that...",
+            "From my perspective,",
+            "Personally, I would argue that..."
+          ]
+        },
+        "keyIdeas": [
+          {
+            "mainPoint": "Social media facilitates global communication and social movements",
+            "explanation": "Platforms enable instant connection across borders and amplify voices for social change",
+            "example": "The Arab Spring and climate activism movements gained momentum through social media coordination"
+          },
+          {
+            "mainPoint": "Social media contributes to mental health issues and addiction",
+            "explanation": "Constant comparison, cyberbullying, and fear of missing out negatively impact psychological well-being",
+            "example": "Studies show increased rates of anxiety and depression among heavy social media users, particularly teenagers"
+          },
+          {
+            "mainPoint": "Platforms spread misinformation faster than traditional media",
+            "explanation": "Algorithms prioritize engagement over accuracy, allowing false information to go viral quickly",
+            "example": "During the COVID-19 pandemic, health misinformation on social media created public confusion and harm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas",
+      "description": "Organize your thoughts before writing",
+      "content": {
+        "instruction": "Write down ideas for both perspectives. Don't worry about perfect sentences yet.",
+        "brainstormTemplate": {
+          "advantages": {
+            "label": "Positive Effects of Social Media",
+            "placeholder": "e.g., Global connectivity, business opportunities, social movements, information sharing, education, staying in touch..."
+          },
+          "disadvantages": {
+            "label": "Negative Effects of Social Media",
+            "placeholder": "e.g., Misinformation, addiction, mental health issues, cyberbullying, privacy concerns, polarization, time-wasting..."
+          },
+          "examples": {
+            "label": "Real-Life Examples",
+            "placeholder": "e.g., Arab Spring, COVID misinformation, Instagram mental health studies, Facebook data scandals, Twitter activism..."
+          },
+          "yourPosition": {
+            "label": "Your Position (Choose One)",
+            "options": [
+              "Positive effects outweigh negative effects",
+              "Negative effects outweigh positive effects",
+              "Both are equally significant",
+              "Depends on how platforms are used"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "essay-planning",
+      "title": "Essay Planning (Simon's Structure)",
+      "description": "Plan your 4-paragraph essay",
+      "content": {
+        "planStructure": {
+          "introduction": {
+            "sentence1": {
+              "label": "Sentence 1: Paraphrase the question",
+              "placeholder": "The influence of social networking platforms on contemporary society has become a contentious issue..."
+            },
+            "sentence2": {
+              "label": "Sentence 2: State your position",
+              "placeholder": "While these platforms offer valuable benefits, I believe their negative consequences are increasingly problematic..."
+            }
+          },
+          "bodyParagraph1": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Positive effects of social media"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Social media enables unprecedented global connectivity"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "People can maintain relationships across distances and connect with like-minded individuals"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Social movements like environmental activism gain momentum through platform coordination"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "Provides business opportunities and marketing channels for entrepreneurs"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These platforms democratize information and amplify diverse voices"
+              }
+            ]
+          },
+          "bodyParagraph2": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Negative effects of social media"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Social media contributes significantly to mental health problems"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Constant comparison and cyberbullying create anxiety and depression"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Studies show teenagers experience increased psychological distress from social media use"
+              },
+              {
+                "label": "Idea 4: Additional problem",
+                "placeholder": "Misinformation spreads rapidly, creating societal division and confusion"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These harmful effects outweigh the connectivity benefits"
+              }
+            ]
+          },
+          "conclusion": {
+            "sentence1": {
+              "label": "Sentence 1: Summary of both views",
+              "placeholder": "While social media facilitates global connection and social movements, it also creates mental health issues and spreads misinformation"
+            },
+            "sentence2": {
+              "label": "Sentence 2: Final thought/opinion",
+              "placeholder": "Without proper regulation and digital literacy education, the negative impacts will continue to escalate"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "interactive-exercises",
+      "title": "Practice Exercises",
+      "description": "Build your skills with interactive exercises",
+      "content": {
+        "exercises": [
+          {
+            "type": "sentence-unscramble",
+            "title": "Exercise 1: Sentence Building",
+            "instruction": "Arrange these words to form correct sentences.",
+            "questions": [
+              {
+                "scrambledWords": ["social media", "has", "transformed", "global", "communication", "dramatically"],
+                "correctAnswer": "Social media has transformed global communication dramatically."
+              },
+              {
+                "scrambledWords": ["misinformation", "spreads", "rapidly", "through", "social networking", "platforms"],
+                "correctAnswer": "Misinformation spreads rapidly through social networking platforms."
+              }
+            ]
+          },
+          {
+            "type": "fill-in-the-blank",
+            "title": "Exercise 2: Vocabulary in Context",
+            "instruction": "Choose the correct word for each blank.",
+            "questions": [
+              {
+                "sentence": "Social media platforms have increased political _____ in many societies.",
+                "options": ["polarization", "polarize", "polarized"],
+                "correctAnswer": "polarization"
+              },
+              {
+                "sentence": "Digital platforms _____ powerful tools for social advocacy and activism.",
+                "options": ["provide", "provision", "providing"],
+                "correctAnswer": "provide"
+              }
+            ]
+          },
+          {
+            "type": "complete-sentence",
+            "title": "Exercise 3: Using Academic Phrases",
+            "instruction": "Complete these sentences using the vocabulary provided.",
+            "questions": [
+              {
+                "stem": "On the one hand, social media platforms...",
+                "vocabularyHints": ["connectivity", "advocacy", "information sharing"],
+                "minimumWords": 15
+              },
+              {
+                "stem": "Conversely, there are significant drawbacks such as...",
+                "vocabularyHints": ["misinformation", "addiction", "mental health"],
+                "minimumWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "essay-writing",
+      "title": "Write Your Essay",
+      "description": "Write your full essay here (40 minutes)",
+      "content": {
+        "editor": {
+          "placeholder": "Start writing your essay here. Refer to your plan in Section 4.\n\nRemember:\n• 4 paragraphs (Introduction, Body 1, Body 2, Conclusion)\n• 250-280 words\n• Use formal academic style\n• Include examples\n• Clear opinion",
+          "wordCountTarget": "250-280"
+        },
+        "guidancePanel": {
+          "title": "Writing Tips",
+          "tips": [
+            "Follow your plan from Section 4 - don't change structure midway",
+            "Use topic sentences to start each body paragraph",
+            "Include linking words (However, Furthermore, For instance)",
+            "Avoid contractions (don't → do not, can't → cannot)",
+            "Leave 5 minutes at the end to check for errors"
+          ]
+        }
+      }
+    },
+    {
+      "id": "essay-checking",
+      "title": "Check Your Essay",
+      "description": "Use this checklist to review your work",
+      "content": {
+        "checkingSteps": [
+          {
+            "step": 1,
+            "title": "Structure & Organization",
+            "items": [
+              {
+                "label": "Introduction clearly paraphrases the question (not copied)",
+                "tips": ["Use synonyms: social media → social networking platforms, effects → impact"]
+              },
+              {
+                "label": "Body paragraph 1 has clear topic sentence about positive effects",
+                "tips": ["Topic sentence = first sentence stating main benefit"]
+              },
+              {
+                "label": "Body paragraph 2 discusses negative effects",
+                "tips": ["Use transition: However, On the other hand, Conversely"]
+              },
+              {
+                "label": "Conclusion summarizes both views + states opinion clearly",
+                "tips": ["Your opinion must be clear - which side do you support?"]
+              },
+              {
+                "label": "Each paragraph is 4-6 sentences long",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Task Response",
+            "items": [
+              {
+                "label": "Both positive and negative views are discussed with equal detail",
+                "tips": ["Count sentences - each view should have similar length"]
+              },
+              {
+                "label": "Personal opinion is clearly stated",
+                "tips": ["Use: In my view, I believe that, From my perspective"]
+              },
+              {
+                "label": "Specific examples are provided for each view",
+                "tips": ["Real examples like specific platforms or studies are strongest"]
+              },
+              {
+                "label": "All parts of the question are fully addressed",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Vocabulary & Grammar",
+            "items": [
+              {
+                "label": "No repeated words - synonyms used throughout",
+                "tips": ["social media → platforms, networks, digital channels", "effects → impact, influence, consequences"]
+              },
+              {
+                "label": "Topic vocabulary from Section 2 is used correctly",
+                "tips": []
+              },
+              {
+                "label": "Complex sentences are used (not all simple sentences)",
+                "tips": ["Use: who, which, that, although, while, because"]
+              },
+              {
+                "label": "Verb tenses are consistent and correct",
+                "tips": []
+              },
+              {
+                "label": "No spelling or punctuation errors",
+                "tips": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-answer",
+      "title": "Band 8 Model Answer",
+      "description": "Compare your essay with this high-band example",
+      "content": {
+        "essay": {
+          "wordCount": 278,
+          "fullEssay": "The influence of social networking platforms on contemporary society has become a contentious issue, with advocates highlighting their benefits while critics emphasize their harmful consequences. While these platforms offer valuable connectivity, I believe their negative impacts on mental health and public discourse are increasingly problematic.\n\nOn the one hand, social media provides unprecedented opportunities for global communication and social change. These platforms enable people to maintain relationships across vast distances and connect with like-minded individuals worldwide, fostering communities that transcend geographical boundaries. Furthermore, social networking sites have become powerful tools for advocacy and awareness, amplifying voices that might otherwise go unheard. For instance, environmental movements and social justice campaigns have successfully mobilized millions of supporters through coordinated social media efforts. Additionally, these platforms create valuable business opportunities, allowing entrepreneurs and small companies to reach target audiences without expensive traditional marketing.\n\nHowever, the negative consequences of social media are substantial and growing. Mental health professionals increasingly link platform usage to rising rates of anxiety, depression, and addiction, particularly among young people who engage in constant social comparison and face cyberbullying. Moreover, the rapid spread of misinformation through social networks poses serious risks to public health and democratic processes. During the COVID-19 pandemic, for example, false health claims proliferated faster than factual information, creating widespread confusion and potentially dangerous behavior. The algorithmic amplification of divisive content has also contributed to societal polarization, creating echo chambers that reinforce existing beliefs rather than encouraging constructive dialogue.\n\nIn conclusion, while social media facilitates valuable global connections and activism, its detrimental effects on mental well-being and information integrity represent serious societal challenges that require urgent regulatory attention and digital literacy education."
+        },
+        "analysis": {
+          "bandScore": {
+            "overall": "8.0",
+            "taskResponse": "8",
+            "coherenceCohesion": "8",
+            "lexicalResource": "8",
+            "grammaticalRange": "8"
+          },
+          "structure": "4 paragraphs (Intro + 2 Body + Conclusion)",
+          "strengths": [
+            "Clear position stated with nuanced understanding",
+            "Both views discussed equally with specific examples",
+            "Strong topic sentences in each paragraph",
+            "Wide range of vocabulary (contentious, proliferated, amplification)",
+            "Complex sentence structures with varied grammar"
+          ]
+        },
+        "annotations": [
+          {
+            "highlight": "The influence of social networking platforms on contemporary society...",
+            "technique": "Paraphrasing",
+            "explanation": "Transforms 'social media effects on society' into sophisticated academic language using 'influence', 'platforms', and 'contemporary'."
+          },
+          {
+            "highlight": "On the one hand... However, the negative consequences...",
+            "technique": "Clear Signposting",
+            "explanation": "Explicit transitions guide the examiner through your balanced argument structure."
+          },
+          {
+            "highlight": "For instance, environmental movements and social justice campaigns...",
+            "technique": "Specific Example",
+            "explanation": "Concrete, current examples demonstrate real-world understanding and strengthen task response."
+          },
+          {
+            "highlight": "Furthermore... Moreover... Additionally...",
+            "technique": "Varied Cohesive Devices",
+            "explanation": "Using different linking words shows linguistic range and maintains reader interest."
+          },
+          {
+            "highlight": "contentious, proliferated, amplification, detrimental",
+            "technique": "Less Common Vocabulary",
+            "explanation": "Academic vocabulary used naturally demonstrates strong lexical resource without appearing forced."
+          },
+          {
+            "highlight": "platforms enable people to maintain relationships across vast distances and connect with like-minded individuals worldwide, fostering communities that transcend geographical boundaries",
+            "technique": "Complex Sentence with Multiple Clauses",
+            "explanation": "Sophisticated grammar combining multiple ideas with participial phrase 'fostering' shows advanced control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment & Reflection",
+      "description": "Evaluate your performance",
+      "content": {
+        "criteria": [
+          {
+            "criterion": "task-response",
+            "title": "Task Response",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Fully addresses all parts of the task. Presents a fully developed position with relevant, extended and well supported ideas."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sufficiently addresses all parts of the task. Presents a well-developed response with relevant, extended and supported ideas."
+              },
+              {
+                "band": 7,
+                "descriptor": "Addresses all parts of the task. Presents a clear position. Main ideas are extended and supported but there may be over-generalisation."
+              }
+            ]
+          },
+          {
+            "criterion": "coherence-cohesion",
+            "title": "Coherence & Cohesion",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately."
+              },
+              {
+                "band": 7,
+                "descriptor": "Logically organises information and ideas. Uses a range of cohesive devices appropriately although there may be some under/over-use."
+              }
+            ]
+          }
+        ],
+        "overallAssessment": {
+          "strengths": {
+            "label": "What did you do well?",
+            "placeholder": "List 2-3 specific strengths. e.g., 'I provided current examples', 'My opinion was clear', 'I used varied vocabulary'..."
+          },
+          "areasForImprovement": {
+            "label": "What needs improvement?",
+            "placeholder": "Be honest about challenges. e.g., 'Need more complex sentences', 'Could be more specific with examples', 'Time management'..."
+          },
+          "actionPlan": {
+            "label": "What will you practice next?",
+            "placeholder": "Set concrete goals. e.g., 'Practice 5 more Discuss Both Views questions', 'Learn 20 technology vocabulary words', 'Practice writing conclusions'..."
+          }
+        }
+      }
+    }
+  ]
+}

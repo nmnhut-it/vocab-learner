@@ -1,0 +1,598 @@
+{
+  "id": "environment",
+  "title": "Environmental Responsibility",
+  "category": "Environment",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think individuals should take responsibility for environmental protection, while others believe governments should. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH individual responsibility and government responsibility equally, then clearly state your opinion.",
+          "requirements": [
+            "Discuss why individuals should be responsible",
+            "Discuss why governments should be responsible",
+            "Give your clear personal opinion",
+            "Provide specific examples for each perspective"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "individuals",
+            "definition": "Single persons or citizens",
+            "importance": "One of the two main perspectives - personal responsibility"
+          },
+          {
+            "word": "governments",
+            "definition": "National or local authorities",
+            "importance": "The second main perspective - institutional responsibility"
+          },
+          {
+            "word": "responsibility",
+            "definition": "Being accountable or in charge",
+            "importance": "The key issue - who should act"
+          },
+          {
+            "word": "environmental protection",
+            "definition": "Safeguarding nature and ecosystems",
+            "importance": "The goal that both parties aim to achieve"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives",
+            "importance": "You must give equal weight to both sides"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss individual responsibility with examples",
+          "body2": "4-5 sentences: Discuss government responsibility with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one perspective in detail",
+          "Opinion is too vague ('both should work together')",
+          "Not giving concrete examples of actions",
+          "Being too neutral instead of taking a position"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "sustainability",
+            "pronunciation": "/səˌsteɪnəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "Meeting present needs without compromising future generations",
+            "example": "Individual lifestyle choices can significantly contribute to environmental sustainability.",
+            "synonyms": ["conservation", "preservation"]
+          },
+          {
+            "word": "implement",
+            "pronunciation": "/ˈɪmplɪment/",
+            "partOfSpeech": "verb",
+            "definition": "To put a plan or system into action",
+            "example": "Governments can implement regulations to reduce industrial pollution.",
+            "synonyms": ["execute", "enforce", "carry out"]
+          },
+          {
+            "word": "collective",
+            "pronunciation": "/kəˈlektɪv/",
+            "partOfSpeech": "adjective",
+            "definition": "Done by or involving all members of a group",
+            "example": "Environmental protection requires collective action from all sectors of society.",
+            "synonyms": ["joint", "shared", "combined"]
+          },
+          {
+            "word": "infrastructure",
+            "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+            "partOfSpeech": "noun",
+            "definition": "Basic physical systems and facilities",
+            "example": "Governments must invest in green infrastructure like renewable energy systems.",
+            "synonyms": ["facilities", "systems"]
+          },
+          {
+            "word": "accountability",
+            "pronunciation": "/əˌkaʊntəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "Being responsible and answerable for actions",
+            "example": "Individual accountability for consumption habits is essential for environmental protection.",
+            "synonyms": ["responsibility", "liability"]
+          },
+          {
+            "word": "legislation",
+            "pronunciation": "/ˌledʒɪsˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Laws enacted by a governing body",
+            "example": "Environmental legislation can mandate emission standards for industries.",
+            "synonyms": ["laws", "regulations"]
+          },
+          {
+            "word": "incentivize",
+            "pronunciation": "/ɪnˈsentɪvaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To provide motivation or encouragement",
+            "example": "Governments can incentivize green behavior through tax breaks and subsidies.",
+            "synonyms": ["encourage", "motivate", "promote"]
+          },
+          {
+            "word": "emissions",
+            "pronunciation": "/ɪˈmɪʃənz/",
+            "partOfSpeech": "noun",
+            "definition": "Gases or substances released into the atmosphere",
+            "example": "Reducing carbon emissions requires both individual and governmental efforts.",
+            "synonyms": ["discharges", "releases"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "carbon footprint",
+            "definition": "Total greenhouse gases produced by actions",
+            "example": "Individuals can reduce their carbon footprint by using public transport."
+          },
+          {
+            "phrase": "renewable energy",
+            "definition": "Energy from sources that naturally replenish",
+            "example": "Governments should invest heavily in renewable energy infrastructure."
+          },
+          {
+            "phrase": "sustainable practices",
+            "definition": "Methods that don't deplete natural resources",
+            "example": "Adopting sustainable practices like recycling is an individual responsibility."
+          },
+          {
+            "phrase": "environmental regulations",
+            "definition": "Rules governing environmental protection",
+            "example": "Strict environmental regulations can force corporations to reduce pollution."
+          },
+          {
+            "phrase": "grassroots movements",
+            "definition": "Community-level initiatives for change",
+            "example": "Grassroots movements demonstrate the power of individual collective action."
+          },
+          {
+            "phrase": "large-scale initiatives",
+            "definition": "Major projects requiring significant resources",
+            "example": "Only governments can launch large-scale initiatives like national reforestation programs."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["Environmental protection has become", "There is debate about who", "The question of responsibility for"],
+          "individual_side": ["From an individual perspective", "Citizens can contribute by", "Personal responsibility includes"],
+          "government_side": ["From a governmental perspective", "Authorities are better positioned to", "Institutional responsibility involves"],
+          "exemplifying": ["For instance", "A clear example is", "This is evident in", "Specifically"],
+          "concluding": ["In conclusion", "Overall", "On balance", "Taking both views into account"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Individuals",
+              "verb": "reduce",
+              "keywords": ["carbon footprint", "daily choices"]
+            },
+            "hint": "Mention how personal choices impact carbon emissions.",
+            "modelAnswer": "Individuals can significantly reduce their carbon footprint through conscious daily consumption choices.",
+            "minWords": 10
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Governments",
+              "verb": "implement",
+              "keywords": ["environmental regulations", "industries"]
+            },
+            "hint": "Focus on regulatory power over corporations.",
+            "modelAnswer": "Governments have the authority to implement strict environmental regulations controlling industrial emissions.",
+            "minWords": 10
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Personal actions",
+              "verb": "contribute",
+              "keywords": ["recycling", "sustainable practices"]
+            },
+            "hint": "Mention specific individual actions like recycling.",
+            "modelAnswer": "Personal actions such as recycling and adopting sustainable practices contribute meaningfully to environmental protection.",
+            "minWords": 12
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "National authorities",
+              "verb": "invest",
+              "keywords": ["renewable energy", "infrastructure"]
+            },
+            "hint": "Focus on large-scale investment capacity.",
+            "modelAnswer": "National authorities can invest in renewable energy infrastructure on a scale individuals cannot match.",
+            "minWords": 13
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Collective action",
+              "verb": "require",
+              "keywords": ["both levels", "effective protection"]
+            },
+            "hint": "Mention that both are needed for success.",
+            "modelAnswer": "Effective environmental protection requires collective action from both individual citizens and governmental institutions.",
+            "minWords": 12
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["environmental", "protection", "requires", "action", "at", "all", "levels"],
+            "correctAnswer": "Environmental protection requires action at all levels.",
+            "hint": "Start with 'Environmental protection'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["individuals", "can", "make", "sustainable", "lifestyle", "choices", "daily"],
+            "correctAnswer": "Individuals can make sustainable lifestyle choices daily.",
+            "hint": "Subject is 'Individuals'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["governments", "have", "resources", "for", "large-scale", "environmental", "programs"],
+            "correctAnswer": "Governments have resources for large-scale environmental programs.",
+            "hint": "'have' is the main verb"
+          },
+          {
+            "id": "scramble4",
+            "words": ["personal", "consumption", "habits", "significantly", "impact", "the", "environment"],
+            "correctAnswer": "Personal consumption habits significantly impact the environment.",
+            "hint": "Subject is 'Personal consumption habits'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["strict", "regulations", "can", "force", "industries", "to", "reduce", "pollution"],
+            "correctAnswer": "Strict regulations can force industries to reduce pollution.",
+            "hint": "'can force' is the verb phrase"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Individuals can _____ their carbon footprint through daily choices.",
+            "options": ["reduce", "reducing", "reduction"],
+            "correctAnswer": "reduce",
+            "explanation": "Use base form 'reduce' after 'can'."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, governments have greater resources for environmental initiatives.",
+            "options": ["However", "Therefore", "Moreover"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to contrast individual with governmental capacity."
+          },
+          {
+            "id": "blank3",
+            "sentence": "National authorities _____ implement comprehensive environmental policies.",
+            "options": ["can", "cans", "canning"],
+            "correctAnswer": "can",
+            "explanation": "Modal verb 'can' doesn't take 's' even with plural subject."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ instance, Denmark invested heavily in wind energy infrastructure.",
+            "options": ["For", "To", "In"],
+            "correctAnswer": "For",
+            "explanation": "'For instance' is the correct phrase for examples."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Personal accountability _____ essential for sustainable consumption.",
+            "options": ["is", "are", "be"],
+            "correctAnswer": "is",
+            "explanation": "Singular subject 'accountability' takes 'is'."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion with Clear Opinion",
+            "structure": {
+              "introduction": "Environmental protection has become [describe importance]. While some argue [View A], others contend [View B]. In my opinion, [your clear position].",
+              "body1": "From an individual perspective, [main argument]. This is because [explanation]. For instance, [specific example]. Therefore, [conclusion about individual role].",
+              "body2": "From a governmental perspective, [main argument]. The reason is that [explanation]. For example, [specific example]. Consequently, [conclusion about government role].",
+              "conclusion": "In conclusion, while [acknowledge both sides], I believe [restate opinion with reasoning]."
+            },
+            "example": {
+              "introduction": "Environmental protection has become one of the most pressing challenges of our time. While some argue individuals should bear primary responsibility through lifestyle changes, others contend governments must lead through policy and regulation. In my opinion, both parties share responsibility, but governmental action is more crucial for achieving large-scale impact.",
+              "body1": "From an individual perspective, citizens can make meaningful contributions through daily choices. This is because collective personal actions, such as reducing consumption and recycling, significantly decrease overall environmental impact. For instance, if millions of people chose public transport over private vehicles, carbon emissions would drop substantially. Therefore, individual accountability for sustainable living is essential.",
+              "body2": "From a governmental perspective, authorities possess the resources and power to enact transformative change. The reason is that only governments can implement comprehensive regulations, invest in renewable infrastructure, and enforce environmental standards across industries. For example, Denmark's investment in wind energy has made it a global leader in renewable power. Consequently, governmental leadership is indispensable for systemic environmental protection.",
+              "conclusion": "In conclusion, while individual actions contribute meaningfully to environmental protection, governmental intervention is more essential due to its capacity for large-scale implementation and regulation. I believe both must work in tandem, with governments providing the framework for individual action."
+            }
+          },
+          {
+            "name": "Template 2: Strong Government Position",
+            "structure": {
+              "introduction": "There is debate about [topic]. Although [acknowledge individual role], I firmly believe [government responsibility is primary].",
+              "body1": "Admittedly, individuals can [individual contributions]. However, [limitation of individual action]. Without [government support], [individual efforts are insufficient].",
+              "body2": "Governments, in contrast, [governmental capabilities]. [Explanation of scale and power]. For example, [specific example of government success]. This demonstrates [importance of governmental role].",
+              "conclusion": "In conclusion, while individuals have a role, [reaffirm government primacy] because [final compelling reason]."
+            }
+          },
+          {
+            "name": "Template 3: Shared Responsibility Approach",
+            "structure": {
+              "introduction": "[Topic] requires [describe challenge]. This essay will argue that [both must collaborate] for effective results.",
+              "body1": "Individuals contribute through [actions]. [Explanation]. Specifically, [example]. These actions [impact].",
+              "body2": "Simultaneously, governments provide [contributions]. [Explanation]. For instance, [example]. This enables [impact].",
+              "conclusion": "Overall, [topic] demands collaboration between individuals and governments. Success requires [how they should work together]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "individual_perspective": ["From an individual perspective", "Citizens can contribute by", "Personal responsibility includes", "At the individual level"],
+          "government_perspective": ["From a governmental perspective", "Authorities are positioned to", "Institutional responsibility involves", "At the policy level"],
+          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "A clear example is", "Specifically", "To illustrate"],
+          "showing_result": ["Therefore", "Consequently", "As a result", "This leads to"],
+          "contrasting": ["However", "Conversely", "In contrast", "On the other hand"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Environmental protection has become _____ [describe importance/urgency]. While some argue _____ [individual responsibility view], others contend _____ [government responsibility view]. In my opinion, _____ [your position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe importance/urgency",
+                "hint": "Why is environmental protection important now?",
+                "placeholder": "e.g., one of the most pressing challenges facing humanity in the twenty-first century",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Individual responsibility view",
+                "hint": "What do those supporting individual responsibility say?",
+                "placeholder": "e.g., that citizens should bear primary responsibility through sustainable lifestyle choices and consumption habits",
+                "minWords": 12
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Government responsibility view",
+                "hint": "What do those supporting government responsibility say?",
+                "placeholder": "e.g., that governments must take the lead through comprehensive environmental policies and strict regulations",
+                "minWords": 12
+              },
+              {
+                "id": "intro_blank4",
+                "label": "Your position",
+                "hint": "Be clear! Who should be more responsible, or both equally?",
+                "placeholder": "e.g., while both parties share responsibility, governmental action is more crucial for achieving large-scale impact",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Individual Responsibility",
+            "template": "From an individual perspective, _____ [main argument for individual role]. This is because _____ [explain why/how]. For instance, _____ [specific example]. Therefore, _____ [conclusion about individual role].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main argument for individual role",
+                "hint": "What can individuals do? Why is personal action important?",
+                "placeholder": "e.g., citizens can make meaningful contributions to environmental protection through daily lifestyle choices and consumption decisions",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain why/how",
+                "hint": "HOW do individual actions help? What's the mechanism?",
+                "placeholder": "e.g., collective personal actions such as reducing waste, recycling materials, and choosing sustainable products significantly decrease overall environmental impact",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete example of individual action making a difference",
+                "placeholder": "e.g., if millions of urban residents chose public transportation over private vehicles, carbon emissions could drop by thirty percent",
+                "minWords": 16
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Conclusion about individual role",
+                "hint": "What does this show about individual responsibility?",
+                "placeholder": "e.g., individual accountability for sustainable living patterns forms an essential foundation for environmental protection",
+                "minWords": 11
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Government Responsibility",
+            "template": "From a governmental perspective, _____ [main argument for government role]. The reason is that _____ [explain why government is better positioned]. For example, _____ [specific example]. Consequently, _____ [conclusion about government role].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main argument for government role",
+                "hint": "What can governments do that individuals cannot?",
+                "placeholder": "e.g., national authorities possess the resources and regulatory power to implement transformative environmental policies at scale",
+                "minWords": 13
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why government better positioned",
+                "hint": "WHY can governments achieve more? What advantages do they have?",
+                "placeholder": "e.g., only governments can enact comprehensive regulations, invest billions in renewable infrastructure, and enforce environmental standards across entire industries",
+                "minWords": 16
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example of successful government environmental action",
+                "placeholder": "e.g., Denmark's massive investment in wind energy infrastructure has transformed it into a global leader in renewable power generation",
+                "minWords": 17
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about government role",
+                "hint": "What does this demonstrate about governmental responsibility?",
+                "placeholder": "e.g., governmental leadership and policy enforcement remain indispensable for achieving systemic environmental protection at the national scale",
+                "minWords": 14
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [acknowledge both sides], I believe _____ [restate your opinion with final reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge both sides",
+                "hint": "Briefly mention both individual and government roles discussed",
+                "placeholder": "e.g., individual actions contribute meaningfully through daily choices and governments provide necessary large-scale infrastructure and regulations",
+                "minWords": 14
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion with reasoning",
+                "hint": "Clearly restate YOUR position and why",
+                "placeholder": "e.g., governmental intervention is ultimately more essential due to its unmatched capacity for systemic change, though both must work together effectively",
+                "minWords": 16
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question, present both views, state opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss individual responsibility with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss government responsibility with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both views + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction presents both views and states opinion",
+          "Body paragraph 1 discusses individual responsibility with example",
+          "Body paragraph 2 discusses government responsibility with example",
+          "Both perspectives are given balanced treatment",
+          "Conclusion summarizes and clearly restates opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Environmental protection has become one of the most pressing challenges facing humanity in the twenty-first century. While some argue that citizens should bear primary responsibility through sustainable lifestyle choices, others contend that governments must take the lead through comprehensive policy and regulation. In my opinion, although both parties share responsibility, governmental action is more crucial for achieving large-scale environmental impact.\n\nFrom an individual perspective, citizens can make meaningful contributions through daily consumption decisions. Collective personal actions, such as reducing waste, recycling materials, and choosing sustainable products, significantly decrease overall environmental degradation. For instance, if millions of urban residents switched from private vehicles to public transportation, carbon emissions could drop by up to thirty percent in major cities. Furthermore, individual choices regarding energy consumption, dietary habits, and product purchases directly influence market demand for sustainable alternatives. Therefore, personal accountability for environmentally conscious living patterns forms an essential foundation for broader environmental protection efforts.\n\nFrom a governmental perspective, however, national authorities possess the resources and regulatory power necessary for transformative change at scale. Only governments can implement comprehensive environmental regulations, invest billions in renewable energy infrastructure, and enforce emission standards across entire industries. For example, Denmark's strategic investment in wind energy over two decades has transformed it into a global leader in renewable power, generating over forty percent of its electricity from wind. Moreover, governmental legislation can incentivize green innovation and penalize polluting practices in ways individual actions cannot. Consequently, governmental leadership remains indispensable for achieving systemic environmental protection.\n\nIn conclusion, while individual actions contribute meaningfully through daily choices, governmental intervention is ultimately more essential due to its unmatched capacity for large-scale implementation and regulatory enforcement. I believe both must work in tandem, with governments providing the policy framework that enables and encourages individual environmental responsibility.",
+    "wordCount": 279,
+    "structure": {
+      "introduction": "Environmental protection has become one of the most pressing challenges facing humanity in the twenty-first century. While some argue that citizens should bear primary responsibility through sustainable lifestyle choices, others contend that governments must take the lead through comprehensive policy and regulation. In my opinion, although both parties share responsibility, governmental action is more crucial for achieving large-scale environmental impact.",
+      "body1": "From an individual perspective, citizens can make meaningful contributions through daily consumption decisions. Collective personal actions, such as reducing waste, recycling materials, and choosing sustainable products, significantly decrease overall environmental degradation. For instance, if millions of urban residents switched from private vehicles to public transportation, carbon emissions could drop by up to thirty percent in major cities. Furthermore, individual choices regarding energy consumption, dietary habits, and product purchases directly influence market demand for sustainable alternatives. Therefore, personal accountability for environmentally conscious living patterns forms an essential foundation for broader environmental protection efforts.",
+      "body2": "From a governmental perspective, however, national authorities possess the resources and regulatory power necessary for transformative change at scale. Only governments can implement comprehensive environmental regulations, invest billions in renewable energy infrastructure, and enforce emission standards across entire industries. For example, Denmark's strategic investment in wind energy over two decades has transformed it into a global leader in renewable power, generating over forty percent of its electricity from wind. Moreover, governmental legislation can incentivize green innovation and penalize polluting practices in ways individual actions cannot. Consequently, governmental leadership remains indispensable for achieving systemic environmental protection.",
+      "conclusion": "In conclusion, while individual actions contribute meaningfully through daily choices, governmental intervention is ultimately more essential due to its unmatched capacity for large-scale implementation and regulatory enforcement. I believe both must work in tandem, with governments providing the policy framework that enables and encourages individual environmental responsibility."
+    },
+    "highlights": [
+      {
+        "text": "pressing challenges",
+        "type": "academic-vocab",
+        "explanation": "Strong collocation showing range"
+      },
+      {
+        "text": "From an individual perspective... From a governmental perspective",
+        "type": "linking-word",
+        "explanation": "Parallel structure for balanced discussion"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds supporting point"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional point"
+      },
+      {
+        "text": "Denmark's strategic investment in wind energy",
+        "type": "example",
+        "explanation": "Specific, factual example with concrete details"
+      },
+      {
+        "text": "indispensable",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated vocabulary showing range"
+      },
+      {
+        "text": "work in tandem",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase showing precision"
+      }
+    ]
+  }
+}

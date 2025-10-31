@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IELTS Writing Task 2 Practice - Remote Work</title>
+    <title>IELTS Writing Task 2 Practice</title>
     <link rel="stylesheet" href="styles/module2-minimal.css">
     <style>
         /* Additional styles for Writing Task 2 */
@@ -415,257 +415,341 @@
             color: var(--color-accent);
         }
 
+        .loading-message {
+            text-align: center;
+            padding: 3rem;
+            color: var(--color-text-light);
+        }
+
         @media (max-width: 640px) {
             .strength-indicator {
                 flex-direction: column;
             }
         }
+
     </style>
 </head>
 <body>
     <!-- Top Bar -->
     <header class="top-bar">
         <a href="ielts-speaking-lessons.html" class="back-link">← Lessons</a>
-        <h1 class="title">IELTS Writing Task 2 Practice</h1>
+        <h1 class="title" id="pageTitle">IELTS Writing Task 2 Practice</h1>
         <div class="progress-mini">
+            <select id="topicSelector" class="select" onchange="onTopicChange()" style="margin-right: 1rem; padding: 0.5rem; min-width: 250px;">
+                <option value="">Select a topic...</option>
+            </select>
             <span id="progressCount">0/9 sections</span>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="container">
-        <!-- Question Display -->
-        <section class="question-section">
-            <div class="question-meta">
-                <span class="question-category">Remote work and digital transformation</span>
-                <span class="question-num">Opinion Essay</span>
-            </div>
-            <h2 class="question-text">Remote work has become increasingly common in recent years. Some people believe that working from home improves productivity and work-life balance, while others argue that it reduces collaboration and innovation. To what extent do you agree or disagree with the view that remote work is beneficial for both employees and companies?</h2>
-            <div class="preview-meta" style="margin-top: 1rem;">
-                <span>⏱️ Time: 40 minutes</span>
-                <span>📝 Minimum: 250 words</span>
-            </div>
-        </section>
+    <main class="container" id="mainContainer">
+        <div class="loading-message">Loading practice session...</div>
+    </main>
 
-        <!-- Section 1: Question Analysis -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(1)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">1</span>
-                    <div>
-                        <h2>Question Analysis</h2>
-                        <div class="section-description">Understand what the question is asking before you start</div>
+    <script>
+        // Configuration
+        const TOPICS_INDEX_PATH = 'data/writing-task2-topics.json';
+        const STORAGE_KEY_CURRENT_TOPIC = 'ielts_writing_current_topic';
+
+        let availableTopics = [];
+        let currentTopicId = null;
+        let practiceData = null;
+        let sectionCount = 0;
+
+        // Load topics index
+        async function loadTopicsIndex() {
+            try {
+                console.log('Loading topics from:', TOPICS_INDEX_PATH);
+                const response = await fetch(TOPICS_INDEX_PATH);
+                console.log('Topics response status:', response.status);
+                if (!response.ok) throw new Error('Failed to load topics index');
+                const data = await response.json();
+                availableTopics = data.topics;
+                console.log('Loaded', availableTopics.length, 'topics');
+                return true;
+            } catch (error) {
+                console.error('Error loading topics index:', error);
+                return false;
+            }
+        }
+
+        // Populate topic selector dropdown
+        function populateTopicSelector() {
+            console.log('Populating topic selector with', availableTopics.length, 'topics');
+            const selector = document.getElementById('topicSelector');
+
+            // Clear existing options except first
+            selector.innerHTML = '<option value="">Select a topic...</option>';
+
+            // Add topics
+            availableTopics.forEach((topic, index) => {
+                const option = document.createElement('option');
+                option.value = topic.id;
+                option.textContent = `${index + 1}. ${topic.title} (${topic.difficulty})`;
+                if (topic.id === currentTopicId) {
+                    option.selected = true;
+                }
+                selector.appendChild(option);
+            });
+
+            console.log('Topic selector populated, current topic:', currentTopicId);
+        }
+
+        // Handle topic change from dropdown
+        async function onTopicChange() {
+            const selector = document.getElementById('topicSelector');
+            const topicId = selector.value;
+
+            console.log('Topic changed to:', topicId);
+
+            if (!topicId) return;
+
+            const topic = availableTopics.find(t => t.id === topicId);
+            if (!topic) return;
+
+            currentTopicId = topicId;
+            localStorage.setItem(STORAGE_KEY_CURRENT_TOPIC, topicId);
+
+            // Show loading
+            document.getElementById('mainContainer').innerHTML = '<div class="loading-message">Loading practice session...</div>';
+
+            // Load the topic data
+            await loadPracticeData(topic.file);
+
+            // Restore progress after loading
+            setTimeout(() => {
+                loadProgress();
+                setupWordCounter();
+            }, 100);
+        }
+
+        // Load JSON data for specific topic
+        async function loadPracticeData(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error('Failed to load practice data');
+                practiceData = await response.json();
+                renderPractice();
+            } catch (error) {
+                console.error('Error loading practice data:', error);
+                document.getElementById('mainContainer').innerHTML = `
+                    <div class="loading-message">
+                        <p style="color: #dc2626;">Error loading practice data.</p>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Make sure the JSON file exists at: ${filePath}</p>
+                        <button class="btn-primary" onclick="showTopicSelector()" style="margin-top: 1rem;">Choose Another Topic</button>
                     </div>
+                `;
+            }
+        }
+
+        // Render the entire practice session
+        function renderPractice() {
+            const container = document.getElementById('mainContainer');
+            container.innerHTML = '';
+
+            // Update page title
+            document.getElementById('pageTitle').textContent = `IELTS Writing Task 2 - ${practiceData.question.category}`;
+
+            // Render question section
+            container.appendChild(renderQuestionSection());
+
+            // Render all sections
+            practiceData.sections.forEach((section, index) => {
+                const sectionEl = renderSection(section, index + 1);
+                if (sectionEl) container.appendChild(sectionEl);
+            });
+
+            // Render navigation
+            container.appendChild(renderNavigation());
+
+            // Update section count
+            sectionCount = practiceData.sections.length;
+            updateProgress();
+        }
+
+        // Render question section
+        function renderQuestionSection() {
+            const section = document.createElement('section');
+            section.className = 'question-section';
+            section.innerHTML = `
+                <div class="question-meta">
+                    <span class="question-category">${practiceData.question.category}</span>
+                    <span class="question-num">${practiceData.question.type}</span>
                 </div>
-                <span class="toggle-icon" id="toggle-1">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-1">
+                <h2 class="question-text">${practiceData.question.text}</h2>
+                <div class="preview-meta" style="margin-top: 1rem;">
+                    <span>⏱️ Time: ${practiceData.question.timeAllocation.total} minutes</span>
+                    <span>📝 ${practiceData.question.instructions}</span>
+                </div>
+            `;
+            return section;
+        }
+
+        // Render individual section based on ID
+        function renderSection(section, order) {
+            const sectionCard = document.createElement('div');
+            sectionCard.className = 'section-card';
+
+            const sectionHeader = `
+                <div class="section-header" onclick="toggleSection(${order})">
+                    <div style="display: flex; align-items: center;">
+                        <span class="section-number">${order}</span>
+                        <div>
+                            <h2>${section.title}</h2>
+                            <div class="section-description">${section.description}</div>
+                        </div>
+                    </div>
+                    <span class="toggle-icon" id="toggle-${order}">▼</span>
+                </div>
+            `;
+
+            let sectionContent = '';
+
+            // Render content based on section ID
+            switch(section.id) {
+                case 'question-analysis':
+                    sectionContent = renderQuestionAnalysis(section.content);
+                    break;
+                case 'vocabulary-ideas':
+                    sectionContent = renderVocabularyIdeas(section.content);
+                    break;
+                case 'brainstorming':
+                    sectionContent = renderBrainstorming(section.content);
+                    break;
+                case 'essay-planning':
+                    sectionContent = renderEssayPlanning(section.content);
+                    break;
+                case 'interactive-exercises':
+                    sectionContent = renderExercises(section.content);
+                    break;
+                case 'essay-writing':
+                    sectionContent = renderEssayWriting(section.content);
+                    break;
+                case 'essay-checking':
+                    sectionContent = renderEssayChecking(section.content);
+                    break;
+                case 'model-answer':
+                    sectionContent = renderModelAnswer(section.content);
+                    break;
+                case 'self-assessment':
+                    sectionContent = renderSelfAssessment(section.content);
+                    break;
+                default:
+                    sectionContent = '<p>Section content not available</p>';
+            }
+
+            sectionCard.innerHTML = sectionHeader + `<div class="collapsible-content" id="content-${order}">${sectionContent}</div>`;
+            return sectionCard;
+        }
+
+        // Render Question Analysis section
+        function renderQuestionAnalysis(content) {
+            let html = `
                 <div style="margin-bottom: 1.5rem;">
                     <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Question Type</h3>
-                    <p><strong>Opinion Essay</strong> - You need to give your opinion on whether remote work is beneficial and support it with reasons and examples</p>
+                    <p><strong>${content.questionType.value}</strong> - ${content.questionType.explanation}</p>
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
                     <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Key Words to Notice</h3>
                     <div class="key-words">
-                        <span class="keyword-tag">remote work</span>
-                        <span class="keyword-tag">productivity</span>
-                        <span class="keyword-tag">work-life balance</span>
-                        <span class="keyword-tag">collaboration</span>
-                        <span class="keyword-tag">innovation</span>
-                        <span class="keyword-tag">beneficial</span>
-                        <span class="keyword-tag">both employees and companies</span>
+                        ${content.keyWords.map(kw => `<span class="keyword-tag">${kw.word}</span>`).join('')}
                     </div>
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
                     <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Task Requirements</h3>
-                    <div class="task-requirement">✓ Present your opinion clearly on whether remote work is beneficial</div>
-                    <div class="task-requirement">✓ Discuss benefits for employees (productivity, work-life balance)</div>
-                    <div class="task-requirement">✓ Discuss benefits/drawbacks for companies (collaboration, innovation)</div>
-                    <div class="task-requirement">✓ Support with reasons and examples</div>
-                    <div class="task-requirement">✓ Write at least 250 words</div>
-                    <div class="task-requirement">✓ Use formal academic style</div>
+                    ${content.taskRequirements.map(req => `<div class="task-requirement">✓ ${req}</div>`).join('')}
                 </div>
 
                 <div>
                     <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Common Mistakes to Avoid</h3>
-                    <div class="common-mistake">✗ Only discussing employees without mentioning companies</div>
-                    <div class="common-mistake">✗ Not stating opinion clearly in introduction</div>
-                    <div class="common-mistake">✗ Focusing only on advantages without acknowledging the other side</div>
-                    <div class="common-mistake">✗ Using informal language</div>
-                    <div class="common-mistake">✗ Writing less than 250 words</div>
+                    ${content.commonMistakes.map(mistake => `<div class="common-mistake">✗ ${mistake}</div>`).join('')}
                 </div>
-            </div>
-        </div>
+            `;
+            return html;
+        }
 
-        <!-- Section 2: Vocabulary & Ideas Bank -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(2)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">2</span>
-                    <div>
-                        <h2>Vocabulary & Ideas Bank</h2>
-                        <div class="section-description">Learn topic-specific vocabulary and explore key ideas before writing</div>
+        // Render Vocabulary & Ideas section
+        function renderVocabularyIdeas(content) {
+            let html = '<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Topic Vocabulary</h3>';
+
+            content.topicVocabulary.forEach(vocab => {
+                html += `
+                    <div class="vocab-card">
+                        <div class="vocab-word-header">${vocab.word}</div>
+                        <div class="vocab-pronunciation">${vocab.pronunciation}</div>
+                        <div class="vocab-definition"><strong>${vocab.partOfSpeech}</strong> - ${vocab.definition}</div>
+                        <div class="vocab-example">"${vocab.example}"</div>
                     </div>
-                </div>
-                <span class="toggle-icon" id="toggle-2">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-2">
-                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Topic Vocabulary</h3>
+                `;
+            });
 
-                <div class="vocab-card">
-                    <div class="vocab-word-header">telecommuting</div>
-                    <div class="vocab-pronunciation">/ˌtelikəˈmjuːtɪŋ/</div>
-                    <div class="vocab-definition"><strong>noun</strong> - Working from home using technology to stay connected to the office</div>
-                    <div class="vocab-example">"Telecommuting has become the norm for many office workers since 2020."</div>
-                </div>
+            html += '<h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Academic Phrases</h3>';
 
-                <div class="vocab-card">
-                    <div class="vocab-word-header">flexibility</div>
-                    <div class="vocab-pronunciation">/ˌfleksəˈbɪləti/</div>
-                    <div class="vocab-definition"><strong>noun</strong> - The ability to change or adapt according to circumstances</div>
-                    <div class="vocab-example">"Remote work offers employees greater flexibility in managing their schedules."</div>
-                </div>
-
-                <div class="vocab-card">
-                    <div class="vocab-word-header">collaboration</div>
-                    <div class="vocab-pronunciation">/kəˌlæbəˈreɪʃən/</div>
-                    <div class="vocab-definition"><strong>noun</strong> - Working together with others to achieve a common goal</div>
-                    <div class="vocab-example">"Effective collaboration can be challenging when team members work remotely."</div>
-                </div>
-
-                <div class="vocab-card">
-                    <div class="vocab-word-header">autonomous</div>
-                    <div class="vocab-pronunciation">/ɔːˈtɒnəməs/</div>
-                    <div class="vocab-definition"><strong>adjective</strong> - Independent and self-governing; able to work without supervision</div>
-                    <div class="vocab-example">"Remote workers need to be autonomous and self-motivated."</div>
-                </div>
-
-                <div class="vocab-card">
-                    <div class="vocab-word-header">implement</div>
-                    <div class="vocab-pronunciation">/ˈɪmplɪment/</div>
-                    <div class="vocab-definition"><strong>verb</strong> - To put a plan or system into operation</div>
-                    <div class="vocab-example">"Many companies have implemented remote work policies permanently."</div>
-                </div>
-
-                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Academic Phrases</h3>
-
-                <div class="academic-phrase-category">
-                    <div class="phrase-category-title">Introducing Ideas:</div>
-                    <ul class="phrase-list">
-                        <li>It is widely acknowledged that...</li>
-                        <li>The trend towards remote work has...</li>
-                        <li>In recent years, there has been a shift towards...</li>
-                        <li>There is ongoing debate about...</li>
-                    </ul>
-                </div>
-
-                <div class="academic-phrase-category">
-                    <div class="phrase-category-title">Presenting Arguments:</div>
-                    <ul class="phrase-list">
-                        <li>One significant advantage is that...</li>
-                        <li>A primary benefit of this approach is...</li>
-                        <li>The main drawback of remote work is...</li>
-                        <li>A compelling reason for this is...</li>
-                    </ul>
-                </div>
-
-                <div class="academic-phrase-category">
-                    <div class="phrase-category-title">Giving Examples:</div>
-                    <ul class="phrase-list">
-                        <li>For instance, during the pandemic...</li>
-                        <li>A clear example of this can be seen in...</li>
-                        <li>This is evident in companies such as...</li>
-                        <li>Research has shown that...</li>
-                    </ul>
-                </div>
-
-                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Key Ideas to Use</h3>
-
-                <div class="key-idea-card">
-                    <div class="key-idea-title">💡 Remote work eliminates commuting time and costs</div>
-                    <div class="key-idea-text"><strong>Explanation:</strong> Employees save hours daily by not traveling to the office, reducing stress and expenses</div>
-                    <div class="key-idea-text"><strong>Example:</strong> A study found that the average worker saves 54 minutes per day when working remotely, adding up to over 200 hours annually</div>
-                </div>
-
-                <div class="key-idea-card">
-                    <div class="key-idea-title">💡 Remote work provides schedule flexibility</div>
-                    <div class="key-idea-text"><strong>Explanation:</strong> Workers can adapt their hours to personal needs and peak productivity times</div>
-                    <div class="key-idea-text"><strong>Example:</strong> Parents can attend school events or manage childcare more effectively when working from home</div>
-                </div>
-
-                <div class="key-idea-card">
-                    <div class="key-idea-title">💡 Face-to-face interaction fosters creativity</div>
-                    <div class="key-idea-text"><strong>Explanation:</strong> Spontaneous conversations and brainstorming sessions are more effective in person</div>
-                    <div class="key-idea-text"><strong>Example:</strong> Tech companies like Apple have called employees back to offices, arguing that innovation requires in-person collaboration</div>
-                </div>
-
-                <div class="key-idea-card">
-                    <div class="key-idea-title">💡 Remote work reduces overhead costs for companies</div>
-                    <div class="key-idea-text"><strong>Explanation:</strong> Organizations can downsize office space and reduce facility-related expenses</div>
-                    <div class="key-idea-text"><strong>Example:</strong> Twitter announced permanent remote work options and subsequently reduced its office footprint by 30%</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 3: Brainstorming -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(3)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">3</span>
-                    <div>
-                        <h2>Brainstorming</h2>
-                        <div class="section-description">Generate ideas using proven techniques (3-5 minutes)</div>
+            Object.entries(content.academicPhrases).forEach(([category, phrases]) => {
+                const title = category.charAt(0).toUpperCase() + category.slice(1);
+                html += `
+                    <div class="academic-phrase-category">
+                        <div class="phrase-category-title">${title}:</div>
+                        <ul class="phrase-list">
+                            ${phrases.map(phrase => `<li>${phrase}</li>`).join('')}
+                        </ul>
                     </div>
-                </div>
-                <span class="toggle-icon" id="toggle-3">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-3">
-                <p style="margin-bottom: 1rem; color: var(--color-text-light);">Spend 3-5 minutes brainstorming ideas. Don't worry about grammar, just write down your thoughts.</p>
+                `;
+            });
+
+            html += '<h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Key Ideas to Use</h3>';
+
+            content.keyIdeas.forEach(idea => {
+                html += `
+                    <div class="key-idea-card">
+                        <div class="key-idea-title">💡 ${idea.mainPoint}</div>
+                        <div class="key-idea-text"><strong>Explanation:</strong> ${idea.explanation}</div>
+                        <div class="key-idea-text"><strong>Example:</strong> ${idea.example}</div>
+                    </div>
+                `;
+            });
+
+            return html;
+        }
+
+        // Render Brainstorming section
+        function renderBrainstorming(content) {
+            const template = content.brainstormTemplate;
+            return `
+                <p style="margin-bottom: 1rem; color: var(--color-text-light);">${content.instruction}</p>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Benefits of Remote Work:</label>
-                    <textarea class="brainstorm-area" placeholder="Employee benefits: No commute, flexible hours, comfortable environment...&#10;Company benefits: Lower costs, wider talent pool, reduced office space..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.advantages.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-advantages" placeholder="${template.advantages.placeholder}"></textarea>
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Challenges of Remote Work:</label>
-                    <textarea class="brainstorm-area" placeholder="Communication difficulties, less collaboration, isolation, distractions at home..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.disadvantages.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-disadvantages" placeholder="${template.disadvantages.placeholder}"></textarea>
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Real-world Examples:</label>
-                    <textarea class="brainstorm-area" placeholder="Pandemic forcing companies to adapt, tech companies policies, personal experience..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.examples.label}:</label>
+                    <textarea class="brainstorm-area" data-save="brainstorm-examples" placeholder="${template.examples.placeholder}"></textarea>
                 </div>
 
                 <div>
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Your Position:</label>
-                    <select class="select" style="width: 100%;">
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${template.yourPosition.label}:</label>
+                    <select class="select" data-save="brainstorm-position" style="width: 100%;">
                         <option value="">Select your position...</option>
-                        <option value="strongly-agree">Strongly agree (very beneficial)</option>
-                        <option value="agree">Agree (mostly beneficial)</option>
-                        <option value="partial">Partially agree (some benefits)</option>
-                        <option value="disagree">Disagree (not beneficial)</option>
-                        <option value="strongly-disagree">Strongly disagree (harmful)</option>
+                        ${template.yourPosition.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
                     </select>
                 </div>
-            </div>
-        </div>
+            `;
+        }
 
-        <!-- Section 4: Essay Planning -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(4)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">4</span>
-                    <div>
-                        <h2>Essay Planning</h2>
-                        <div class="section-description">Spend 5-10 minutes planning your essay structure (Simon's method)</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-4">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-4">
+        // Render Essay Planning section
+        function renderEssayPlanning(content) {
+            const plan = content.planStructure;
+            return `
                 <div class="guidance-panel" style="margin-bottom: 1.5rem;">
                     <div class="guidance-title">Simon's 4-Paragraph Structure</div>
                     <ul style="margin: 0; padding-left: 1.5rem;">
@@ -678,466 +762,254 @@
 
                 <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Introduction</h3>
                 <div class="planning-field">
-                    <label>Sentence 1: Paraphrase the question</label>
-                    <input type="text" placeholder="Telecommuting has become increasingly prevalent...">
+                    <label>${plan.introduction.sentence1.label}</label>
+                    <input type="text" data-save="plan-intro-1" placeholder="${plan.introduction.sentence1.placeholder}">
                 </div>
                 <div class="planning-field">
-                    <label>Sentence 2: State your position</label>
-                    <input type="text" placeholder="While there are some challenges, I believe that...">
+                    <label>${plan.introduction.sentence2.label}</label>
+                    <input type="text" data-save="plan-intro-2" placeholder="${plan.introduction.sentence2.placeholder}">
                 </div>
 
                 <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Body Paragraph 1</h3>
                 <div class="planning-field">
-                    <label>Central Theme:</label>
-                    <input type="text" placeholder="e.g., Benefits of remote work for employees">
+                    <label>${plan.bodyParagraph1.theme.label}:</label>
+                    <input type="text" data-save="plan-body1-theme" placeholder="${plan.bodyParagraph1.theme.placeholder}">
                 </div>
-                <div class="planning-field">
-                    <label>1. Topic sentence:</label>
-                    <input type="text" placeholder="Remote work offers significant advantages for employees">
-                </div>
-                <div class="planning-field">
-                    <label>2. Explanation:</label>
-                    <input type="text" placeholder="Eliminates commuting time and provides schedule flexibility">
-                </div>
-                <div class="planning-field">
-                    <label>3. Example:</label>
-                    <input type="text" placeholder="Workers save 54 minutes daily on average">
-                </div>
-                <div class="planning-field">
-                    <label>4. Development:</label>
-                    <input type="text" placeholder="This time can be used for work or personal activities">
-                </div>
-                <div class="planning-field">
-                    <label>5. Concluding sentence:</label>
-                    <input type="text" placeholder="Therefore, remote work improves quality of life">
-                </div>
+                ${plan.bodyParagraph1.ideas.map((idea, i) => `
+                    <div class="planning-field">
+                        <label>${idea.label}:</label>
+                        <input type="text" data-save="plan-body1-idea${i}" placeholder="${idea.placeholder}">
+                    </div>
+                `).join('')}
 
                 <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Body Paragraph 2</h3>
                 <div class="planning-field">
-                    <label>Central Theme:</label>
-                    <input type="text" placeholder="e.g., Challenges of remote work for collaboration">
+                    <label>${plan.bodyParagraph2.theme.label}:</label>
+                    <input type="text" data-save="plan-body2-theme" placeholder="${plan.bodyParagraph2.theme.placeholder}">
                 </div>
-                <div class="planning-field">
-                    <label>1. Topic sentence:</label>
-                    <input type="text" placeholder="However, remote work poses challenges for collaboration">
-                </div>
-                <div class="planning-field">
-                    <label>2. Explanation:</label>
-                    <input type="text" placeholder="Face-to-face interaction is important for creativity">
-                </div>
-                <div class="planning-field">
-                    <label>3. Example:</label>
-                    <input type="text" placeholder="Companies like Apple require in-office work for innovation">
-                </div>
-                <div class="planning-field">
-                    <label>4. Development:</label>
-                    <input type="text" placeholder="Virtual tools cannot fully replace physical presence">
-                </div>
-                <div class="planning-field">
-                    <label>5. Concluding sentence:</label>
-                    <input type="text" placeholder="Nevertheless, these challenges can be managed with proper systems">
-                </div>
+                ${plan.bodyParagraph2.ideas.map((idea, i) => `
+                    <div class="planning-field">
+                        <label>${idea.label}:</label>
+                        <input type="text" data-save="plan-body2-idea${i}" placeholder="${idea.placeholder}">
+                    </div>
+                `).join('')}
 
                 <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Conclusion</h3>
                 <div class="planning-field">
-                    <label>Summarize main points:</label>
-                    <input type="text" placeholder="In conclusion, despite some collaboration challenges...">
+                    <label>${plan.conclusion.sentence1.label}:</label>
+                    <input type="text" data-save="plan-conclusion-1" placeholder="${plan.conclusion.sentence1.placeholder}">
                 </div>
                 <div class="planning-field">
-                    <label>Final thought (optional):</label>
-                    <input type="text" placeholder="The benefits of flexibility and time savings make remote work advantageous overall">
+                    <label>${plan.conclusion.sentence2.label}:</label>
+                    <input type="text" data-save="plan-conclusion-2" placeholder="${plan.conclusion.sentence2.placeholder}">
                 </div>
-            </div>
-        </div>
+            `;
+        }
 
-        <!-- Section 5: Practice Exercises -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(5)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">5</span>
-                    <div>
-                        <h2>Practice Exercises</h2>
-                        <div class="section-description">Complete these exercises to practice key language and structures</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-5">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-5">
-                <div class="exercise-card">
-                    <div class="exercise-title">Exercise 1: Sentence Unscramble</div>
-                    <p style="color: var(--color-text-light); font-size: 0.875rem; margin-bottom: 1rem;">Arrange the words to form correct IELTS sentences</p>
+        // Render Exercises section (simplified)
+        function renderExercises(content) {
+            let html = '<p style="margin-bottom: 1rem; color: var(--color-text-light);">Practice exercises with the vocabulary and structures from this topic.</p>';
 
-                    <div class="exercise-question">
-                        <strong>Question 1:</strong> Arrange these words correctly
-                        <div class="scrambled-words">
-                            <span class="word-chip">has</span>
-                            <span class="word-chip">telecommuting</span>
-                            <span class="word-chip">become</span>
-                            <span class="word-chip">increasingly</span>
-                            <span class="word-chip">prevalent</span>
-                            <span class="word-chip">in</span>
-                            <span class="word-chip">recent</span>
-                            <span class="word-chip">years</span>
-                        </div>
-                        <div class="answer-area">Your answer will appear here...</div>
-                        <button class="btn-primary" style="margin-top: 0.5rem;">Check Answer</button>
-                    </div>
-                </div>
+            content.exercises.forEach((exercise, exIdx) => {
+                html += `<div class="exercise-card">`;
+                html += `<div class="exercise-title">${exercise.title}</div>`;
+                html += `<p style="color: var(--color-text-light); font-size: 0.875rem; margin-bottom: 1rem;">${exercise.instruction}</p>`;
 
-                <div class="exercise-card">
-                    <div class="exercise-title">Exercise 2: Fill in the Blanks</div>
+                exercise.questions.forEach((q, qIdx) => {
+                    html += `<div class="exercise-question">`;
+                    html += `<strong>Question ${qIdx + 1}:</strong> ${q.instruction || ''}<br>`;
 
-                    <div class="exercise-question">
-                        <strong>Question 1:</strong> Choose the correct words
-                        <p style="margin: 1rem 0;">Remote work
-                            <select class="inline-select">
-                                <option value="">Select...</option>
-                                <option value="gives">gives</option>
-                                <option value="offers">offers</option>
-                                <option value="makes">makes</option>
-                            </select>
-                            employees greater
-                            <select class="inline-select">
-                                <option value="">Select...</option>
-                                <option value="flexibility">flexibility</option>
-                                <option value="flexible">flexible</option>
-                                <option value="flexibly">flexibly</option>
-                            </select>
-                            in managing their schedules.
-                        </p>
-                        <button class="btn-primary">Check Answer</button>
-                    </div>
-                </div>
+                    if (exercise.type === 'sentence-unscramble') {
+                        html += `<div class="scrambled-words">`;
+                        q.scrambledWords.forEach(word => {
+                            html += `<span class="word-chip">${word}</span>`;
+                        });
+                        html += `</div>`;
+                        html += `<div class="answer-area">Your answer will appear here...</div>`;
+                    } else if (exercise.type === 'fill-in-the-blank') {
+                        html += `<p style="margin: 1rem 0;">${q.sentence.replace(/_____/g,
+                            `<select class="inline-select"><option value="">Select...</option></select>`)}</p>`;
+                    } else if (exercise.type === 'complete-sentence') {
+                        html += `<p style="margin: 0.5rem 0; color: var(--color-text-light); font-size: 0.875rem;">
+                            Use these words: ${q.vocabularyHints.join(', ')}</p>`;
+                        html += `<textarea class="brainstorm-area" style="min-height: 80px;"
+                            placeholder="Complete the sentence (minimum ${q.minimumWords} words)..."></textarea>`;
+                        html += `<div class="word-counter">0 words</div>`;
+                    }
 
-                <div class="exercise-card">
-                    <div class="exercise-title">Exercise 3: Complete the Sentence</div>
+                    html += `<button class="btn-primary" style="margin-top: 0.5rem;">Check Answer</button>`;
+                    html += `</div>`;
+                });
 
-                    <div class="exercise-question">
-                        <strong>Prompt:</strong> One significant advantage of telecommuting is that...
-                        <p style="color: var(--color-text-light); font-size: 0.875rem; margin: 0.5rem 0;">
-                            Use these words: eliminates, commute, time, productivity, work-life balance
-                        </p>
-                        <textarea class="brainstorm-area" style="min-height: 80px;" placeholder="Complete the sentence (minimum 12 words)..."></textarea>
-                        <div class="word-counter">0 words</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                html += `</div>`;
+            });
 
-        <!-- Section 6: Write Your Essay -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(6)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">6</span>
-                    <div>
-                        <h2>Write Your Essay</h2>
-                        <div class="section-description">Write your full essay (25-30 minutes). Use your plan as a guide.</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-6">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-6">
+            return html;
+        }
+
+        // Render Essay Writing section
+        function renderEssayWriting(content) {
+            return `
                 <div class="guidance-panel" style="margin-bottom: 1rem;">
                     <div class="guidance-title">Writing Tips</div>
                     <ul style="margin: 0; padding-left: 1.5rem; font-size: 0.875rem;">
-                        <li>Keep your introduction short (40-50 words)</li>
-                        <li>Each body paragraph should be 80-100 words</li>
-                        <li>Use topic sentences to introduce each paragraph</li>
-                        <li>Provide specific examples</li>
-                        <li>Keep conclusion brief (30-40 words)</li>
+                        ${content.guidancePanel.tips.map(tip => `<li>${tip}</li>`).join('')}
                     </ul>
                 </div>
 
-                <textarea class="essay-editor" id="essayEditor" placeholder="Start writing your essay here...
+                <textarea class="essay-editor" id="essayEditor" data-save="essay-content"
+                    placeholder="${content.editor.placeholder}"></textarea>
+                <div class="word-counter"><span id="wordCount">0</span> / ${content.editor.wordCountTarget.split('-')[0]} words
+                    (Target: ${content.editor.wordCountTarget})</div>
+            `;
+        }
 
-Introduction:
+        // Render Essay Checking section
+        function renderEssayChecking(content) {
+            let html = '';
 
-Body Paragraph 1:
+            content.checkingSteps.forEach(step => {
+                html += `<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Step ${step.step}: ${step.title}</h3>`;
 
-Body Paragraph 2:
+                step.items.forEach((item, idx) => {
+                    html += `
+                        <div class="checklist-item">
+                            <input type="checkbox" id="check-${step.step}-${idx}" data-save="check-${step.step}-${idx}">
+                            <label class="checklist-label" for="check-${step.step}-${idx}">
+                                ${item.label}
+                                ${item.tips && item.tips.length > 0 ? `
+                                    <ul class="tips-list">
+                                        ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
+                                    </ul>
+                                ` : ''}
+                            </label>
+                        </div>
+                    `;
+                });
 
-Conclusion:"></textarea>
-                <div class="word-counter"><span id="wordCount">0</span> / 250 words (Target: 250-280)</div>
-            </div>
-        </div>
+                if (step.step < content.checkingSteps.length) {
+                    html += '<div style="margin: 2rem 0;"></div>';
+                }
+            });
 
-        <!-- Section 7: Check Your Essay -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(7)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">7</span>
-                    <div>
-                        <h2>Check Your Essay</h2>
-                        <div class="section-description">Review your essay using this 3-step checking process (5 minutes)</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-7">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-7">
-                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Step 1: Sentence-Level Checking</h3>
+            return html;
+        }
 
-                <div class="checklist-item">
-                    <input type="checkbox" id="check1">
-                    <label class="checklist-label" for="check1">
-                        Check each sentence for grammar errors
-                        <ul class="tips-list">
-                            <li>Read each sentence separately</li>
-                            <li>Look for subject-verb agreement</li>
-                            <li>Check verb tenses are consistent</li>
-                        </ul>
-                    </label>
-                </div>
+        // Render Model Answer section
+        function renderModelAnswer(content) {
+            const essay = content.essay;
+            const analysis = content.analysis;
 
-                <div class="checklist-item">
-                    <input type="checkbox" id="check2">
-                    <label class="checklist-label" for="check2">
-                        Verify articles (a/an/the) are used correctly
-                        <ul class="tips-list">
-                            <li>Countable singular nouns need articles</li>
-                            <li>'Remote work' doesn't need 'the'</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check3">
-                    <label class="checklist-label" for="check3">
-                        Check spelling and word forms
-                        <ul class="tips-list">
-                            <li>productivity (not productiveness)</li>
-                            <li>collaboration (not colaboration)</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Step 2: Paragraph-Level Checking</h3>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check4">
-                    <label class="checklist-label" for="check4">
-                        Each paragraph has one clear central theme
-                        <ul class="tips-list">
-                            <li>All sentences relate to the main idea</li>
-                            <li>No irrelevant information</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check5">
-                    <label class="checklist-label" for="check5">
-                        Linking words are used correctly
-                        <ul class="tips-list">
-                            <li>Don't overuse linking words</li>
-                            <li>Use variety: However, Moreover, For instance</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check6">
-                    <label class="checklist-label" for="check6">
-                        Word count is adequate (250+ words)
-                        <ul class="tips-list">
-                            <li>Aim for 260-280 words</li>
-                            <li>Don't go over 300 words</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Step 3: Essay-Level Checking</h3>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check7">
-                    <label class="checklist-label" for="check7">
-                        Introduction clearly states your position
-                        <ul class="tips-list">
-                            <li>Question is paraphrased</li>
-                            <li>Your opinion is clear</li>
-                        </ul>
-                    </label>
-                </div>
-
-                <div class="checklist-item">
-                    <input type="checkbox" id="check8">
-                    <label class="checklist-label" for="check8">
-                        All parts of the question are answered
-                        <ul class="tips-list">
-                            <li>Discussed productivity and work-life balance</li>
-                            <li>Addressed collaboration and innovation</li>
-                            <li>Covered both employees AND companies</li>
-                        </ul>
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 8: Model Answer -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(8)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">8</span>
-                    <div>
-                        <h2>Band 8-9 Model Answer</h2>
-                        <div class="section-description">Compare your essay with this high-band model answer</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-8">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-8">
+            let html = `
                 <div class="strength-indicator">
                     <div class="strength-item">
                         <div class="strength-label">Word Count</div>
-                        <div class="strength-value">277</div>
+                        <div class="strength-value">${essay.wordCount}</div>
                     </div>
                     <div class="strength-item">
                         <div class="strength-label">Band Score</div>
-                        <div class="strength-value">8.5-9</div>
+                        <div class="strength-value">${analysis.bandScore.overall}</div>
                     </div>
                     <div class="strength-item">
                         <div class="strength-label">Paragraphs</div>
-                        <div class="strength-value">4</div>
+                        <div class="strength-value">${analysis.structure.split(' ')[0]}</div>
                     </div>
                 </div>
 
                 <div class="preview-box" style="margin-bottom: 1.5rem;">
-                    <p><strong>Introduction:</strong> Telecommuting has become increasingly prevalent in modern workplaces, particularly following the global pandemic. While I acknowledge certain challenges regarding team collaboration, I firmly believe that remote work offers substantial benefits for both employees and organizations.</p>
-
-                    <p><strong>Body Paragraph 1:</strong> The primary advantage of remote work lies in its capacity to enhance employee wellbeing and productivity. By eliminating the daily commute, workers save significant time and money that can be redirected towards productive activities or personal pursuits. For instance, research indicates that the average employee saves approximately 54 minutes per day when working remotely, accumulating to over 200 hours annually. This time-saving translates into reduced stress levels and improved work-life balance, as employees can more effectively manage family responsibilities and personal commitments. Consequently, organizations benefit from higher employee satisfaction and retention rates, which ultimately reduces recruitment costs and maintains institutional knowledge.</p>
-
-                    <p><strong>Body Paragraph 2:</strong> However, critics legitimately argue that remote work can impede spontaneous collaboration and creative innovation. Face-to-face interactions facilitate organic brainstorming sessions and strengthen interpersonal relationships that are crucial for team cohesion. Major technology companies such as Apple have implemented return-to-office policies, asserting that breakthrough innovation requires in-person collaboration. Nevertheless, these challenges can be effectively addressed through deliberate implementation of virtual collaboration tools and structured communication protocols. Many organizations have successfully adopted hybrid models that combine the flexibility of remote work with periodic in-person meetings, thereby capturing benefits from both approaches.</p>
-
-                    <p><strong>Conclusion:</strong> In conclusion, although remote work presents certain collaboration challenges that require thoughtful management, its advantages in terms of employee wellbeing, productivity, and cost-efficiency make it highly beneficial for both workers and employers. The optimal solution involves flexible arrangements that balance individual needs with organizational objectives.</p>
+                    ${essay.fullEssay.split('\n\n').map(para => `<p>${para}</p>`).join('')}
                 </div>
 
                 <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Key Techniques Used</h3>
+            `;
 
-                <div class="model-annotation">
-                    <div style="margin-bottom: 0.5rem;">
-                        <span class="annotation-highlight">Telecommuting has become increasingly prevalent in modern workplaces</span>
-                    </div>
-                    <strong>Paraphrasing:</strong> Uses 'telecommuting' instead of 'remote work', 'prevalent' instead of 'common', showing vocabulary range
-                </div>
-
-                <div class="model-annotation">
-                    <div style="margin-bottom: 0.5rem;">
-                        <span class="annotation-highlight">While I acknowledge certain challenges, I firmly believe that...</span>
-                    </div>
-                    <strong>Clear position with concession:</strong> Shows balanced view while stating clear opinion
-                </div>
-
-                <div class="model-annotation">
-                    <div style="margin-bottom: 0.5rem;">
-                        <span class="annotation-highlight">For instance, research indicates that the average employee saves approximately 54 minutes per day</span>
-                    </div>
-                    <strong>Specific evidence:</strong> Provides concrete data which adds credibility
-                </div>
-
-                <div class="model-annotation">
-                    <div style="margin-bottom: 0.5rem;">
-                        <span class="annotation-highlight">Consequently, organizations benefit from higher employee satisfaction</span>
-                    </div>
-                    <strong>Extended development:</strong> Shows how employee benefits translate to company benefits, addressing the 'both' requirement
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 9: Self-Assessment -->
-        <div class="section-card">
-            <div class="section-header" onclick="toggleSection(9)">
-                <div style="display: flex; align-items: center;">
-                    <span class="section-number">9</span>
-                    <div>
-                        <h2>Self-Assessment</h2>
-                        <div class="section-description">Evaluate your essay using official IELTS band descriptors</div>
-                    </div>
-                </div>
-                <span class="toggle-icon" id="toggle-9">▼</span>
-            </div>
-            <div class="collapsible-content" id="content-9">
-                <h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">Task Response (25%)</h3>
-
-                <div class="band-descriptor">
-                    <div style="display: flex; align-items: flex-start;">
-                        <span class="band-number">9</span>
-                        <div>
-                            <strong>Band 9:</strong> Fully addresses all parts of the task; presents a fully developed position with relevant, extended and supported ideas
+            content.annotations.slice(0, 5).forEach(annotation => {
+                html += `
+                    <div class="model-annotation">
+                        <div style="margin-bottom: 0.5rem;">
+                            <span class="annotation-highlight">${annotation.highlight}</span>
                         </div>
+                        <strong>${annotation.technique}:</strong> ${annotation.explanation}
                     </div>
-                </div>
+                `;
+            });
 
-                <div class="band-descriptor">
-                    <div style="display: flex; align-items: flex-start;">
-                        <span class="band-number" style="background: #10b981;">7</span>
-                        <div>
-                            <strong>Band 7:</strong> Addresses all parts of the task; presents a clear position; main ideas are extended and supported but may lack full development
+            return html;
+        }
+
+        // Render Self-Assessment section
+        function renderSelfAssessment(content) {
+            let html = '';
+
+            content.criteria.slice(0, 2).forEach(criterion => {
+                html += `<h3 style="font-size: 1rem; font-weight: 600; margin-bottom: 1rem;">${criterion.title} (${criterion.weight})</h3>`;
+
+                criterion.bandDescriptors.forEach(desc => {
+                    const bandColor = desc.band === 9 ? 'var(--color-accent)' : '#10b981';
+                    html += `
+                        <div class="band-descriptor">
+                            <div style="display: flex; align-items: flex-start;">
+                                <span class="band-number" style="background: ${bandColor};">${desc.band}</span>
+                                <div><strong>Band ${desc.band}:</strong> ${desc.descriptor}</div>
+                            </div>
                         </div>
+                    `;
+                });
+
+                html += `
+                    <div style="margin: 1rem 0;">
+                        <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Rate yourself on ${criterion.title}:</label>
+                        <select class="select" data-save="assessment-${criterion.criterion}" style="width: 100%;">
+                            <option value="">Select band...</option>
+                            <option value="9">Band 9</option>
+                            <option value="8">Band 8</option>
+                            <option value="7">Band 7</option>
+                            <option value="6">Band 6</option>
+                            <option value="5">Band 5</option>
+                        </select>
                     </div>
-                </div>
+                `;
+            });
 
-                <div style="margin: 1rem 0;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Rate yourself on Task Response:</label>
-                    <select class="select" style="width: 100%;">
-                        <option value="">Select band...</option>
-                        <option value="9">Band 9</option>
-                        <option value="8">Band 8</option>
-                        <option value="7">Band 7</option>
-                        <option value="6">Band 6</option>
-                        <option value="5">Band 5</option>
-                    </select>
-                </div>
-
-                <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Coherence and Cohesion (25%)</h3>
-
-                <div class="band-descriptor">
-                    <div style="display: flex; align-items: flex-start;">
-                        <span class="band-number">9</span>
-                        <div>
-                            <strong>Band 9:</strong> Uses cohesion in such a way that it attracts no attention; skilful management of paragraphing
-                        </div>
-                    </div>
-                </div>
-
-                <div style="margin: 1rem 0;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">Rate yourself on Coherence and Cohesion:</label>
-                    <select class="select" style="width: 100%;">
-                        <option value="">Select band...</option>
-                        <option value="9">Band 9</option>
-                        <option value="8">Band 8</option>
-                        <option value="7">Band 7</option>
-                        <option value="6">Band 6</option>
-                        <option value="5">Band 5</option>
-                    </select>
-                </div>
-
+            const overall = content.overallAssessment;
+            html += `
                 <h3 style="font-size: 1rem; font-weight: 600; margin: 2rem 0 1rem;">Overall Reflection</h3>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">What did you do well?</label>
-                    <textarea class="brainstorm-area" placeholder="List your strengths (e.g., clear position, good examples, variety of vocabulary)..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.strengths.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-strengths"
+                        placeholder="${overall.strengths.placeholder}"></textarea>
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">What do you need to improve?</label>
-                    <textarea class="brainstorm-area" placeholder="Identify areas to work on (e.g., more complex sentences, better linking words)..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.areasForImprovement.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-improvements"
+                        placeholder="${overall.areasForImprovement.placeholder}"></textarea>
                 </div>
 
                 <div>
-                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">What will you practice next?</label>
-                    <textarea class="brainstorm-area" placeholder="Create your action plan (e.g., practice paraphrasing, learn cohesive devices)..."></textarea>
+                    <label style="font-weight: 600; display: block; margin-bottom: 0.5rem;">${overall.actionPlan.label}</label>
+                    <textarea class="brainstorm-area" data-save="reflection-action"
+                        placeholder="${overall.actionPlan.placeholder}"></textarea>
                 </div>
-            </div>
-        </div>
+            `;
 
-        <!-- Navigation -->
-        <nav class="nav-section" style="margin-top: 3rem;">
-            <button class="btn-primary" onclick="window.print()">🖨️ Print This Practice</button>
-            <button class="btn-primary" onclick="saveProgress()">💾 Save Progress</button>
-            <button class="btn-nav" onclick="resetAll()">🔄 Start Over</button>
-        </nav>
-    </main>
+            return html;
+        }
 
-    <script>
+        // Render navigation
+        function renderNavigation() {
+            const nav = document.createElement('nav');
+            nav.className = 'nav-section';
+            nav.style.marginTop = '3rem';
+            nav.innerHTML = `
+                <button class="btn-primary" onclick="window.print()">🖨️ Print This Practice</button>
+                <button class="btn-primary" onclick="saveProgress()">💾 Save Progress</button>
+                <button class="btn-nav" onclick="resetAll()">🔄 Start Over</button>
+            `;
+            return nav;
+        }
+
         // Toggle section visibility
         function toggleSection(num) {
             const content = document.getElementById(`content-${num}`);
@@ -1149,30 +1021,46 @@ Conclusion:"></textarea>
             updateProgress();
         }
 
-        // Word counter for essay
-        const essayEditor = document.getElementById('essayEditor');
-        const wordCountDisplay = document.getElementById('wordCount');
-
-        if (essayEditor) {
-            essayEditor.addEventListener('input', function() {
-                const text = this.value.trim();
-                const words = text ? text.split(/\s+/).length : 0;
-                wordCountDisplay.textContent = words;
-            });
-        }
-
         // Update progress counter
         function updateProgress() {
             const openSections = document.querySelectorAll('.collapsible-content.active').length;
-            document.getElementById('progressCount').textContent = `${openSections}/9 sections`;
+            document.getElementById('progressCount').textContent = `${openSections}/${sectionCount} sections`;
+        }
+
+        // Word counter for essay
+        function setupWordCounter() {
+            const essayEditor = document.getElementById('essayEditor');
+            const wordCountDisplay = document.getElementById('wordCount');
+
+            if (essayEditor && wordCountDisplay) {
+                essayEditor.addEventListener('input', function() {
+                    const text = this.value.trim();
+                    const words = text ? text.split(/\s+/).length : 0;
+                    wordCountDisplay.textContent = words;
+                });
+            }
         }
 
         // Save progress to localStorage
         function saveProgress() {
-            const data = {
-                essayContent: document.getElementById('essayEditor')?.value || '',
-                openSections: Array.from(document.querySelectorAll('.collapsible-content.active')).map(el => el.id)
-            };
+            const data = {};
+
+            // Save all elements with data-save attribute
+            document.querySelectorAll('[data-save]').forEach(el => {
+                const key = el.getAttribute('data-save');
+                if (el.tagName === 'TEXTAREA' || el.tagName === 'INPUT') {
+                    data[key] = el.value;
+                } else if (el.tagName === 'SELECT') {
+                    data[key] = el.value;
+                } else if (el.type === 'checkbox') {
+                    data[key] = el.checked;
+                }
+            });
+
+            // Save open sections
+            data._openSections = Array.from(document.querySelectorAll('.collapsible-content.active'))
+                .map(el => el.id);
+
             localStorage.setItem('ieltsWritingProgress', JSON.stringify(data));
             alert('Progress saved! ✓');
         }
@@ -1180,15 +1068,36 @@ Conclusion:"></textarea>
         // Load progress from localStorage
         function loadProgress() {
             const saved = localStorage.getItem('ieltsWritingProgress');
-            if (saved) {
-                const data = JSON.parse(saved);
-                if (data.essayContent && document.getElementById('essayEditor')) {
-                    document.getElementById('essayEditor').value = data.essayContent;
+            if (!saved) return;
+
+            const data = JSON.parse(saved);
+
+            // Restore all saved values
+            Object.entries(data).forEach(([key, value]) => {
+                if (key === '_openSections') {
+                    // Restore open sections
+                    value.forEach(id => {
+                        const num = id.split('-')[1];
+                        toggleSection(parseInt(num));
+                    });
+                } else {
+                    const el = document.querySelector(`[data-save="${key}"]`);
+                    if (el) {
+                        if (el.type === 'checkbox') {
+                            el.checked = value;
+                        } else {
+                            el.value = value;
+                        }
+                    }
                 }
-                data.openSections?.forEach(id => {
-                    const num = id.split('-')[1];
-                    toggleSection(parseInt(num));
-                });
+            });
+
+            // Update word count if essay exists
+            setupWordCounter();
+            const essayEditor = document.getElementById('essayEditor');
+            if (essayEditor && essayEditor.value) {
+                const event = new Event('input');
+                essayEditor.dispatchEvent(event);
             }
         }
 
@@ -1200,15 +1109,63 @@ Conclusion:"></textarea>
             }
         }
 
-        // Load saved progress on page load
-        window.addEventListener('load', loadProgress);
+        // Initialize
+        window.addEventListener('load', async () => {
+            console.log('Page loaded, initializing...');
+
+            // Load topics index
+            const topicsLoaded = await loadTopicsIndex();
+
+            if (!topicsLoaded) {
+                console.error('Failed to load topics');
+                document.getElementById('mainContainer').innerHTML = `
+                    <div class="loading-message">
+                        <p style="color: #dc2626;">Failed to load topics.</p>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Please check that data/writing-task2-topics.json exists.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Populate the dropdown
+            populateTopicSelector();
+
+            // Check if user has a saved topic
+            const savedTopicId = localStorage.getItem(STORAGE_KEY_CURRENT_TOPIC);
+            console.log('Saved topic ID:', savedTopicId);
+
+            if (savedTopicId && availableTopics.find(t => t.id === savedTopicId)) {
+                // Load the saved topic
+                console.log('Loading saved topic:', savedTopicId);
+                currentTopicId = savedTopicId;
+                const topic = availableTopics.find(t => t.id === savedTopicId);
+                populateTopicSelector(); // Update dropdown to show selected topic
+                await loadPracticeData(topic.file);
+                setTimeout(() => {
+                    loadProgress();
+                    setupWordCounter();
+                }, 100);
+            } else {
+                // Show message to select a topic
+                console.log('No saved topic, prompting user to select...');
+                document.getElementById('mainContainer').innerHTML = `
+                    <div class="loading-message">
+                        <p style="font-size: 1.25rem; margin-bottom: 1rem;">📝 Welcome to IELTS Writing Task 2 Practice</p>
+                        <p style="color: var(--color-text-light);">Please select a topic from the dropdown above to begin.</p>
+                        <p style="color: var(--color-text-light); margin-top: 0.5rem; font-size: 0.875rem;">Each topic includes 9 complete sections: analysis, vocabulary, brainstorming, planning, exercises, writing, checking, model answer, and self-assessment.</p>
+                    </div>
+                `;
+            }
+        });
 
         // Auto-save every 30 seconds
         setInterval(() => {
-            if (document.getElementById('essayEditor')?.value) {
+            const essayEditor = document.getElementById('essayEditor');
+            if (essayEditor && essayEditor.value) {
                 saveProgress();
             }
         }, 30000);
+
     </script>
 </body>
 </html>

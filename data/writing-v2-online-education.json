@@ -1,0 +1,598 @@
+{
+  "id": "online-education",
+  "title": "Online Education",
+  "category": "Education & Technology",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Online education has become more popular in recent years. Discuss the advantages and disadvantages of online learning.",
+    "type": "Advantages & Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH the positive and negative aspects of online education in a balanced way.",
+          "requirements": [
+            "Discuss advantages of online learning",
+            "Discuss disadvantages of online learning",
+            "Provide specific examples for each side",
+            "Keep a balanced approach - don't favor one side too heavily"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "online education",
+            "definition": "Learning that takes place via the internet",
+            "importance": "This is the main topic - you must focus on digital learning"
+          },
+          {
+            "word": "become more popular",
+            "definition": "Increasing in usage and acceptance",
+            "importance": "Acknowledges this is a growing trend"
+          },
+          {
+            "word": "advantages",
+            "definition": "Positive aspects or benefits",
+            "importance": "You must discuss the good points"
+          },
+          {
+            "word": "disadvantages",
+            "definition": "Negative aspects or drawbacks",
+            "importance": "You must discuss the problems or limitations"
+          },
+          {
+            "word": "online learning",
+            "definition": "Education delivered through digital platforms",
+            "importance": "Same as online education - use for paraphrasing"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your position",
+          "body1": "4-5 sentences: Discuss advantages with examples",
+          "body2": "4-5 sentences: Discuss disadvantages with examples",
+          "conclusion": "2 sentences: Summarize both sides + final thought"
+        },
+        "commonMistakes": [
+          "Only focusing on advantages or disadvantages",
+          "Not providing concrete examples",
+          "Being too one-sided instead of balanced",
+          "Copying exact words from the question"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "accessible",
+            "pronunciation": "/əkˈsesəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Easy to reach or obtain",
+            "example": "Online courses make education more accessible to people in remote areas.",
+            "synonyms": ["available", "obtainable"]
+          },
+          {
+            "word": "self-discipline",
+            "pronunciation": "/ˌself ˈdɪsəplɪn/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to control one's behavior and work without supervision",
+            "example": "Online learning requires strong self-discipline to stay motivated.",
+            "synonyms": ["self-control", "willpower"]
+          },
+          {
+            "word": "interaction",
+            "pronunciation": "/ˌɪntərˈækʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Communication or direct involvement with others",
+            "example": "Virtual classrooms often lack the personal interaction of traditional schools.",
+            "synonyms": ["engagement", "communication"]
+          },
+          {
+            "word": "flexibility",
+            "pronunciation": "/ˌfleksəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to adapt or change according to circumstances",
+            "example": "Online education offers flexibility for working professionals.",
+            "synonyms": ["adaptability", "versatility"]
+          },
+          {
+            "word": "distractions",
+            "pronunciation": "/dɪˈstrækʃənz/",
+            "partOfSpeech": "noun",
+            "definition": "Things that prevent concentration or attention",
+            "example": "Home environments often present more distractions than classrooms.",
+            "synonyms": ["interruptions", "disturbances"]
+          },
+          {
+            "word": "comprehensive",
+            "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+            "partOfSpeech": "adjective",
+            "definition": "Complete and including everything necessary",
+            "example": "Many online platforms now offer comprehensive degree programs.",
+            "synonyms": ["thorough", "complete"]
+          },
+          {
+            "word": "isolation",
+            "pronunciation": "/ˌaɪsəˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Being separated from others",
+            "example": "Students may experience social isolation when studying exclusively online.",
+            "synonyms": ["separation", "seclusion"]
+          },
+          {
+            "word": "accommodate",
+            "pronunciation": "/əˈkɒmədeɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To provide what is needed or adapt to suit",
+            "example": "Online platforms can accommodate different learning styles and paces.",
+            "synonyms": ["cater to", "adjust to"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "learning pace",
+            "definition": "The speed at which someone learns",
+            "example": "Students can progress at their own learning pace in online courses."
+          },
+          {
+            "phrase": "virtual classroom",
+            "definition": "An online space where teaching and learning occur",
+            "example": "Virtual classrooms enable students worldwide to attend the same lecture."
+          },
+          {
+            "phrase": "face-to-face instruction",
+            "definition": "Direct, in-person teaching",
+            "example": "Some subjects benefit more from face-to-face instruction than online delivery."
+          },
+          {
+            "phrase": "technical difficulties",
+            "definition": "Problems with technology or equipment",
+            "example": "Technical difficulties can disrupt online lessons and frustrate students."
+          },
+          {
+            "phrase": "digital resources",
+            "definition": "Educational materials available electronically",
+            "example": "Online learning provides access to vast digital resources and materials."
+          },
+          {
+            "phrase": "hands-on experience",
+            "definition": "Practical, direct involvement in activities",
+            "example": "Laboratory sciences require hands-on experience that online formats struggle to provide."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The rise of online education has", "Digital learning platforms have", "In recent years"],
+          "advantages": ["One key advantage is", "A significant benefit is", "The primary advantage is"],
+          "disadvantages": ["However, a major drawback is", "On the negative side", "A significant disadvantage is"],
+          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 12/15 exercises correctly",
+      "content": {
+        "buildFromClues": [
+          {
+            "id": "clue1",
+            "clues": {
+              "subject": "Online education",
+              "verb": "provide",
+              "keywords": ["accessible", "geographical barriers"]
+            },
+            "hint": "Mention how it makes education accessible regardless of location.",
+            "modelAnswer": "Online education provides accessible learning opportunities regardless of geographical barriers.",
+            "minWords": 9
+          },
+          {
+            "id": "clue2",
+            "clues": {
+              "subject": "Students",
+              "verb": "study",
+              "keywords": ["own pace", "flexibility"]
+            },
+            "hint": "Use 'at their own pace' and mention flexibility.",
+            "modelAnswer": "Students can study at their own pace with greater flexibility in scheduling.",
+            "minWords": 10
+          },
+          {
+            "id": "clue3",
+            "clues": {
+              "subject": "Online learning",
+              "verb": "require",
+              "keywords": ["self-discipline", "motivation"]
+            },
+            "hint": "Mention that it demands or requires these qualities.",
+            "modelAnswer": "Online learning requires strong self-discipline and consistent motivation from students.",
+            "minWords": 9
+          },
+          {
+            "id": "clue4",
+            "clues": {
+              "subject": "Virtual classrooms",
+              "verb": "lack",
+              "keywords": ["social interaction", "traditional schools"]
+            },
+            "hint": "Compare to what traditional schools provide.",
+            "modelAnswer": "Virtual classrooms often lack the social interaction found in traditional school environments.",
+            "minWords": 10
+          },
+          {
+            "id": "clue5",
+            "clues": {
+              "subject": "Digital platforms",
+              "verb": "offer",
+              "keywords": ["comprehensive courses", "lower cost"]
+            },
+            "hint": "Mention cost advantages and course variety.",
+            "modelAnswer": "Digital platforms offer comprehensive courses at significantly lower costs than traditional institutions.",
+            "minWords": 10
+          }
+        ],
+        "sentenceUnscramble": [
+          {
+            "id": "scramble1",
+            "words": ["online", "education", "has", "transformed", "the way", "people", "learn"],
+            "correctAnswer": "Online education has transformed the way people learn.",
+            "hint": "Start with 'Online education'"
+          },
+          {
+            "id": "scramble2",
+            "words": ["students", "can", "access", "lectures", "from", "anywhere", "in the world"],
+            "correctAnswer": "Students can access lectures from anywhere in the world.",
+            "hint": "Subject is 'Students'"
+          },
+          {
+            "id": "scramble3",
+            "words": ["technical", "difficulties", "can", "disrupt", "online", "classes", "significantly"],
+            "correctAnswer": "Technical difficulties can disrupt online classes significantly.",
+            "hint": "'can disrupt' is the verb phrase"
+          },
+          {
+            "id": "scramble4",
+            "words": ["many", "students", "struggle", "with", "staying", "motivated", "at home"],
+            "correctAnswer": "Many students struggle with staying motivated at home.",
+            "hint": "Start with 'Many students'"
+          },
+          {
+            "id": "scramble5",
+            "words": ["virtual", "learning", "eliminates", "commuting", "time", "and", "expenses"],
+            "correctAnswer": "Virtual learning eliminates commuting time and expenses.",
+            "hint": "Subject is 'Virtual learning'"
+          }
+        ],
+        "fillInTheBlanks": [
+          {
+            "id": "blank1",
+            "sentence": "Online courses make education more _____ to people worldwide.",
+            "options": ["accessible", "access", "accessing"],
+            "correctAnswer": "accessible",
+            "explanation": "Use adjective 'accessible' after 'more'."
+          },
+          {
+            "id": "blank2",
+            "sentence": "_____, students studying from home face more distractions.",
+            "options": ["However", "Moreover", "Therefore"],
+            "correctAnswer": "However",
+            "explanation": "Use 'However' to introduce a disadvantage after discussing advantages."
+          },
+          {
+            "id": "blank3",
+            "sentence": "Virtual classrooms _____ the social interaction of traditional schools.",
+            "options": ["lack", "lacks", "lacking"],
+            "correctAnswer": "lack",
+            "explanation": "Plural subject 'classrooms' takes base form 'lack'."
+          },
+          {
+            "id": "blank4",
+            "sentence": "_____ working professionals, online degrees offer schedule flexibility.",
+            "options": ["For", "To", "At"],
+            "correctAnswer": "For",
+            "explanation": "'For' indicates who benefits from something."
+          },
+          {
+            "id": "blank5",
+            "sentence": "Students must develop strong self-discipline _____ succeed in online learning.",
+            "options": ["to", "for", "in"],
+            "correctAnswer": "to",
+            "explanation": "Use 'to' + infinitive to show purpose."
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Advantages & Disadvantages",
+            "structure": {
+              "introduction": "The rise of [topic] has brought significant changes. While there are clear [advantages/benefits], there are also [disadvantages/drawbacks] to consider.",
+              "body1": "One key advantage of [topic] is [main benefit]. This means that [explanation]. For instance, [specific example]. As a result, [positive outcome].",
+              "body2": "However, a major drawback is [main disadvantage]. This is because [explanation]. For example, [specific example]. Consequently, [negative outcome].",
+              "conclusion": "In conclusion, while [topic] offers [summary of advantages], it also presents [summary of disadvantages]. Overall, [balanced final thought]."
+            },
+            "example": {
+              "introduction": "The rise of online education has brought significant changes to learning. While there are clear advantages in terms of accessibility and flexibility, there are also notable drawbacks to consider.",
+              "body1": "One key advantage of online learning is its accessibility. This means that students from remote areas can access quality education without relocating. For instance, rural students can attend prestigious university courses from home. As a result, educational opportunities have become more equitable.",
+              "body2": "However, a major drawback is the lack of face-to-face interaction. This is because virtual platforms cannot fully replicate classroom dynamics. For example, science students miss hands-on laboratory experiences. Consequently, practical skills development may suffer.",
+              "conclusion": "In conclusion, while online education offers increased accessibility and flexibility, it also presents challenges in interaction and practical learning. Overall, a blended approach combining both methods may be most effective."
+            }
+          },
+          {
+            "name": "Template 2: Problem-Solution Pattern",
+            "structure": {
+              "introduction": "[Topic] has become increasingly common. This development brings both benefits and challenges that merit examination.",
+              "body1": "The primary advantage is [benefit 1]. Additionally, [benefit 2]. For example, [supporting example demonstrating both benefits].",
+              "body2": "Nevertheless, several disadvantages exist. Firstly, [disadvantage 1]. Secondly, [disadvantage 2]. These issues can be seen in [example].",
+              "conclusion": "To summarize, despite [disadvantages], [advantages] make [topic] valuable. The key is [how to maximize benefits or minimize drawbacks]."
+            }
+          },
+          {
+            "name": "Template 3: Comparative Structure",
+            "structure": {
+              "introduction": "[Topic] represents a significant shift from traditional approaches. Understanding both its strengths and limitations is essential.",
+              "body1": "On the positive side, [advantage 1] and [advantage 2]. This leads to [positive consequence]. Particularly, [specific example showing real-world benefit].",
+              "body2": "Conversely, [topic] suffers from [disadvantage 1] and [disadvantage 2]. This results in [negative consequence]. For instance, [specific example showing real-world problem].",
+              "conclusion": "In conclusion, [topic] offers substantial benefits but also poses real challenges. Success depends on [conditions or factors]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "advantages": ["One key advantage is", "A significant benefit is", "The primary advantage is", "On the positive side"],
+          "disadvantages": ["However, a major drawback is", "On the negative side", "A significant disadvantage is", "Conversely"],
+          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the other hand"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The rise of online education has _____ [describe how online learning has changed]. While there are clear _____ [mention advantages], there are also _____ [mention disadvantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe change brought by online education",
+                "hint": "How has online education transformed or changed learning?",
+                "placeholder": "e.g., transformed the way millions of students access education worldwide",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Mention advantages",
+                "hint": "Brief mention of positive aspects - accessibility, flexibility, etc.",
+                "placeholder": "e.g., advantages in terms of accessibility and cost-effectiveness",
+                "minWords": 8
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Mention disadvantages",
+                "hint": "Brief mention of negative aspects - isolation, discipline, etc.",
+                "placeholder": "e.g., notable drawbacks regarding social interaction and self-discipline requirements",
+                "minWords": 8
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Advantages",
+            "template": "One key advantage of online learning is _____ [main benefit]. This means that _____ [explain how/why]. For instance, _____ [specific example]. As a result, _____ [positive outcome].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main benefit",
+                "hint": "What is the primary advantage? Accessibility, flexibility, cost?",
+                "placeholder": "e.g., its accessibility to students regardless of geographical location or financial constraints",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain how/why",
+                "hint": "Explain the mechanism - HOW does online learning provide this benefit?",
+                "placeholder": "e.g., students from remote areas can access quality courses without relocating or commuting daily",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete example - real situation, statistic, or scenario",
+                "placeholder": "e.g., a student in rural India can attend lectures from prestigious universities like MIT or Harvard",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Positive outcome",
+                "hint": "What is the final benefit or impact?",
+                "placeholder": "e.g., educational opportunities become more equitable and democratized across different socioeconomic backgrounds",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Disadvantages",
+            "template": "However, a major drawback is _____ [main disadvantage]. This is because _____ [explain why this is problematic]. For example, _____ [specific example]. Consequently, _____ [negative outcome].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Main disadvantage",
+                "hint": "What is the primary problem? Lack of interaction, discipline needs, technical issues?",
+                "placeholder": "e.g., the lack of face-to-face interaction and hands-on practical experiences",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why problematic",
+                "hint": "WHY is this a problem? What does it prevent or make difficult?",
+                "placeholder": "e.g., virtual platforms cannot fully replicate the dynamics of physical classrooms and laboratory settings",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing this problem in action",
+                "placeholder": "e.g., medical or engineering students cannot gain essential hands-on skills through screen-based learning alone",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Negative outcome",
+                "hint": "What is the consequence or impact of this disadvantage?",
+                "placeholder": "e.g., students may graduate with theoretical knowledge but lack the practical competencies employers require",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while online education offers _____ [summarize advantages], it also presents _____ [summarize disadvantages]. Overall, _____ [balanced final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize advantages",
+                "hint": "Briefly recap the main benefits discussed",
+                "placeholder": "e.g., significant benefits in terms of accessibility, flexibility, and cost reduction",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Summarize disadvantages",
+                "hint": "Briefly recap the main drawbacks discussed",
+                "placeholder": "e.g., real challenges in social interaction, practical skill development, and self-motivation",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank3",
+                "label": "Balanced final thought",
+                "hint": "Give a nuanced conclusion - not too extreme either way",
+                "placeholder": "e.g., a blended approach combining online and in-person instruction may offer the optimal solution for modern education",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + mention both advantages and disadvantages"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss advantages with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss disadvantages with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both sides + balanced final thought"
+          }
+        },
+        "checklist": [
+          "Introduction mentions both advantages and disadvantages",
+          "Body paragraph 1 thoroughly discusses advantages with example",
+          "Body paragraph 2 thoroughly discusses disadvantages with example",
+          "Both sides are given roughly equal treatment",
+          "Conclusion summarizes both sides with balanced view",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures used",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The rise of online education has fundamentally transformed how millions of students worldwide access learning opportunities. While digital learning platforms offer significant advantages in terms of accessibility and cost-effectiveness, they also present notable drawbacks concerning social interaction and practical skill development.\n\nOne key advantage of online education is its unprecedented accessibility. Students from remote geographical locations can now access high-quality courses from prestigious institutions without the need to relocate or endure lengthy commutes. For instance, a learner in rural Africa can participate in computer science lectures from Stanford University through platforms like Coursera. Furthermore, online courses typically cost significantly less than traditional programs, eliminating expenses for accommodation and transportation. This democratization of education enables individuals from diverse socioeconomic backgrounds to pursue academic advancement.\n\nHowever, a major drawback is the lack of face-to-face interaction and hands-on practical experience. Virtual platforms cannot fully replicate the dynamic exchanges that occur in physical classrooms, where spontaneous discussions and collaborative activities enhance learning. Moreover, disciplines requiring practical skills, such as medicine, engineering, or laboratory sciences, suffer considerably in purely online formats. Students may struggle to develop essential competencies through screen-based instruction alone. Additionally, online learning demands exceptional self-discipline and motivation, qualities that many students find challenging to maintain without the structured environment of traditional classrooms.\n\nIn conclusion, while online education offers substantial benefits in accessibility and affordability, it also poses real challenges regarding interaction quality and practical skill acquisition. A blended approach that combines online convenience with periodic in-person sessions may represent the optimal solution for modern education.",
+    "wordCount": 271,
+    "structure": {
+      "introduction": "The rise of online education has fundamentally transformed how millions of students worldwide access learning opportunities. While digital learning platforms offer significant advantages in terms of accessibility and cost-effectiveness, they also present notable drawbacks concerning social interaction and practical skill development.",
+      "body1": "One key advantage of online education is its unprecedented accessibility. Students from remote geographical locations can now access high-quality courses from prestigious institutions without the need to relocate or endure lengthy commutes. For instance, a learner in rural Africa can participate in computer science lectures from Stanford University through platforms like Coursera. Furthermore, online courses typically cost significantly less than traditional programs, eliminating expenses for accommodation and transportation. This democratization of education enables individuals from diverse socioeconomic backgrounds to pursue academic advancement.",
+      "body2": "However, a major drawback is the lack of face-to-face interaction and hands-on practical experience. Virtual platforms cannot fully replicate the dynamic exchanges that occur in physical classrooms, where spontaneous discussions and collaborative activities enhance learning. Moreover, disciplines requiring practical skills, such as medicine, engineering, or laboratory sciences, suffer considerably in purely online formats. Students may struggle to develop essential competencies through screen-based instruction alone. Additionally, online learning demands exceptional self-discipline and motivation, qualities that many students find challenging to maintain without the structured environment of traditional classrooms.",
+      "conclusion": "In conclusion, while online education offers substantial benefits in accessibility and affordability, it also poses real challenges regarding interaction quality and practical skill acquisition. A blended approach that combines online convenience with periodic in-person sessions may represent the optimal solution for modern education."
+    },
+    "highlights": [
+      {
+        "text": "unprecedented accessibility",
+        "type": "academic-vocab",
+        "explanation": "Strong collocation showing vocabulary range"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional advantage"
+      },
+      {
+        "text": "However",
+        "type": "linking-word",
+        "explanation": "Signals transition to disadvantages"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds another disadvantage"
+      },
+      {
+        "text": "a learner in rural Africa can participate in computer science lectures from Stanford University",
+        "type": "example",
+        "explanation": "Specific, concrete example supporting the argument"
+      },
+      {
+        "text": "democratization",
+        "type": "academic-vocab",
+        "explanation": "Sophisticated vocabulary showing range"
+      },
+      {
+        "text": "disciplines requiring practical skills",
+        "type": "academic-vocab",
+        "explanation": "Academic phrasing demonstrating precision"
+      }
+    ]
+  }
+}

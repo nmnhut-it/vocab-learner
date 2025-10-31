@@ -1,0 +1,971 @@
+/**
+ * IELTS Writing Task 2 - Progressive Learning System
+ * 6-step linear progression with step locking
+ */
+
+// Constants
+const TOPICS_PATH = 'data/writing-v2-topics.json';
+const STORAGE_PROGRESS = 'writing_v2_progress';
+const STORAGE_CURRENT_TOPIC = 'writing_v2_current_topic';
+
+// Global State
+let topics = [];
+let currentTopic = null;
+let currentStep = 1;
+let topicProgress = {
+    completedSteps: [],
+    unlockedSteps: [1], // Step 1 always unlocked
+    paragraphData: {},
+    essayText: '',
+    exerciseResults: {}
+};
+
+//===========================================
+// INITIALIZATION
+//===========================================
+
+window.addEventListener('load', async () => {
+    console.log('Loading IELTS Writing v2...');
+
+    await loadTopics();
+    loadTopicsUnlockState(); // Restore unlocked topics
+    populateTopicSelector();
+
+    const savedTopicId = localStorage.getItem(STORAGE_CURRENT_TOPIC);
+    if (savedTopicId) {
+        const topic = topics.find(t => t.id === savedTopicId);
+        if (topic && topic.unlocked) {
+            await loadTopic(savedTopicId);
+        }
+    }
+});
+
+//===========================================
+// TOPICS MANAGEMENT
+//===========================================
+
+async function loadTopics() {
+    try {
+        const response = await fetch(TOPICS_PATH);
+        const data = await response.json();
+        topics = data.topics;
+        console.log('Loaded', topics.length, 'topics');
+    } catch (error) {
+        console.error('Failed to load topics:', error);
+        document.getElementById('mainContainer').innerHTML = `
+            <div class="loading-message">
+                <p style="color: #dc2626;">Failed to load topics.</p>
+                <p style="font-size: 0.875rem;">Please check that ${TOPICS_PATH} exists.</p>
+            </div>
+        `;
+    }
+}
+
+function populateTopicSelector() {
+    const selector = document.getElementById('topicSelector');
+    selector.innerHTML = '<option value="">Select a topic...</option>';
+
+    topics.forEach((topic, index) => {
+        const option = document.createElement('option');
+        option.value = topic.id;
+        option.textContent = `${index + 1}. ${topic.title}`;
+        if (!topic.unlocked) {
+            option.textContent += ' 🔒';
+            option.disabled = true;
+        }
+        selector.appendChild(option);
+    });
+}
+
+async function onTopicChange() {
+    const selector = document.getElementById('topicSelector');
+    const topicId = selector.value;
+    if (!topicId) return;
+
+    await loadTopic(topicId);
+}
+
+async function loadTopic(topicId) {
+    const topic = topics.find(t => t.id === topicId);
+    if (!topic || !topic.unlocked) return;
+
+    try {
+        const response = await fetch(topic.file);
+        currentTopic = await response.json();
+
+        // Load progress for this topic
+        loadTopicProgress();
+
+        // Update selector
+        document.getElementById('topicSelector').value = topicId;
+        localStorage.setItem(STORAGE_CURRENT_TOPIC, topicId);
+
+        // Render the interface
+        renderInterface();
+        renderStep(currentStep);
+
+        console.log('Loaded topic:', currentTopic.title);
+    } catch (error) {
+        console.error('Failed to load topic file:', error);
+    }
+}
+
+//===========================================
+// PROGRESS MANAGEMENT
+//===========================================
+
+function loadTopicProgress() {
+    const savedProgress = localStorage.getItem(`${STORAGE_PROGRESS}_${currentTopic.id}`);
+    if (savedProgress) {
+        topicProgress = JSON.parse(savedProgress);
+    } else {
+        // Reset to default
+        topicProgress = {
+            completedSteps: [],
+            unlockedSteps: [1],
+            paragraphData: {},
+            essayText: '',
+            exerciseResults: {}
+        };
+    }
+
+    // Determine current step (first incomplete or last completed + 1)
+    if (topicProgress.completedSteps.length === 6) {
+        currentStep = 6; // All completed, stay on last
+    } else {
+        currentStep = Math.max(...topicProgress.unlockedSteps);
+    }
+}
+
+function saveTopicProgress() {
+    localStorage.setItem(`${STORAGE_PROGRESS}_${currentTopic.id}`, JSON.stringify(topicProgress));
+}
+
+function markStepComplete(stepNumber) {
+    if (!topicProgress.completedSteps.includes(stepNumber)) {
+        topicProgress.completedSteps.push(stepNumber);
+    }
+
+    // Unlock next step
+    if (stepNumber < 6 && !topicProgress.unlockedSteps.includes(stepNumber + 1)) {
+        topicProgress.unlockedSteps.push(stepNumber + 1);
+    }
+
+    // If all steps completed, unlock next topic
+    if (topicProgress.completedSteps.length === 6) {
+        unlockNextTopic();
+    }
+
+    saveTopicProgress();
+}
+
+function unlockNextTopic() {
+    const currentIndex = topics.findIndex(t => t.id === currentTopic.id);
+    if (currentIndex < topics.length - 1) {
+        topics[currentIndex + 1].unlocked = true;
+        // Save updated topics list
+        saveTopicsUnlockState();
+        populateTopicSelector();
+
+        alert('🎉 Congratulations! You completed this topic. Next topic unlocked!');
+    }
+}
+
+function saveTopicsUnlockState() {
+    localStorage.setItem('writing_v2_topics_unlock', JSON.stringify(topics.map(t => ({
+        id: t.id,
+        unlocked: t.unlocked
+    }))));
+}
+
+function loadTopicsUnlockState() {
+    const saved = localStorage.getItem('writing_v2_topics_unlock');
+    if (saved) {
+        const unlockStates = JSON.parse(saved);
+        topics.forEach(topic => {
+            const state = unlockStates.find(s => s.id === topic.id);
+            if (state) topic.unlocked = state.unlocked;
+        });
+    }
+}
+
+//===========================================
+// UI RENDERING
+//===========================================
+
+function renderInterface() {
+    const container = document.getElementById('mainContainer');
+
+    container.innerHTML = `
+        <!-- Question Display -->
+        <div class="question-section" style="margin-bottom: 2rem;">
+            <div class="question-meta">
+                <span class="question-category">${currentTopic.category}</span>
+                <span class="question-num">${currentTopic.question.type}</span>
+            </div>
+            <h2 class="question-text">${currentTopic.question.text}</h2>
+        </div>
+
+        <!-- Steps Navigation -->
+        <div class="steps-container">
+            <div class="steps-progress" id="stepsProgress">
+                ${currentTopic.steps.map((step, index) => `
+                    <div class="step-item ${getStepClass(step.stepNumber)}"
+                         onclick="navigateToStep(${step.stepNumber})">
+                        <div class="step-circle">
+                            ${topicProgress.completedSteps.includes(step.stepNumber) ? '✓' : step.stepNumber}
+                        </div>
+                        <div class="step-label">${step.title}</div>
+                        ${index < currentTopic.steps.length - 1 ? '<div class="step-connector"></div>' : ''}
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+
+        <!-- Step Content -->
+        <div class="step-content" id="stepContent">
+            <!-- Dynamic content will be rendered here -->
+        </div>
+    `;
+}
+
+function getStepClass(stepNumber) {
+    let classes = [];
+    if (stepNumber === currentStep) classes.push('active');
+    if (topicProgress.completedSteps.includes(stepNumber)) classes.push('completed');
+    if (!topicProgress.unlockedSteps.includes(stepNumber)) classes.push('locked');
+    return classes.join(' ');
+}
+
+function navigateToStep(stepNumber) {
+    if (!topicProgress.unlockedSteps.includes(stepNumber)) {
+        alert('Complete previous steps to unlock this step.');
+        return;
+    }
+
+    currentStep = stepNumber;
+    renderInterface();
+    renderStep(stepNumber);
+}
+
+//===========================================
+// STEP RENDERING
+//===========================================
+
+function renderStep(stepNumber) {
+    const step = currentTopic.steps.find(s => s.stepNumber === stepNumber);
+    if (!step) return;
+
+    const contentEl = document.getElementById('stepContent');
+
+    switch(step.type) {
+        case 'analysis':
+            renderAnalysisStep(step, contentEl);
+            break;
+        case 'vocabulary':
+            renderVocabularyStep(step, contentEl);
+            break;
+        case 'exercises':
+            renderExercisesStep(step, contentEl);
+            break;
+        case 'templates':
+            renderTemplatesStep(step, contentEl);
+            break;
+        case 'paragraphs':
+            renderParagraphsStep(step, contentEl);
+            break;
+        case 'essay':
+            renderEssayStep(step, contentEl);
+            break;
+    }
+}
+
+// STEP 1: TOPIC ANALYSIS
+function renderAnalysisStep(step, container) {
+    const content = step.content;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">📋 ${step.title}</h2>
+            <p class="step-description">Understand the question type and requirements</p>
+        </div>
+
+        <div class="exercise-card">
+            <h3 style="margin-bottom: 1rem;">Question Type</h3>
+            <div style="background: white; padding: 1rem; border-radius: 0.375rem; margin-bottom: 0.5rem;">
+                <strong style="color: var(--color-accent); font-size: 1.125rem;">${content.questionType.type}</strong>
+            </div>
+            <p style="color: var(--color-text-light);">${content.questionType.explanation}</p>
+
+            <h4 style="margin-top: 1.5rem; margin-bottom: 0.75rem;">Requirements:</h4>
+            <ul style="list-style-position: inside;">
+                ${content.questionType.requirements.map(req => `<li style="margin-bottom: 0.5rem;">${req}</li>`).join('')}
+            </ul>
+        </div>
+
+        <div class="exercise-card">
+            <h3 style="margin-bottom: 1rem;">Key Words to Notice</h3>
+            ${content.keyWords.map(kw => `
+                <div style="background: white; padding: 1rem; border-radius: 0.375rem; margin-bottom: 0.75rem;">
+                    <strong style="color: var(--color-accent);">${kw.word}</strong>
+                    <p style="margin: 0.25rem 0; font-size: 0.875rem; color: var(--color-text-light);">${kw.definition}</p>
+                    <p style="margin: 0; font-size: 0.875rem; font-style: italic;">💡 ${kw.importance}</p>
+                </div>
+            `).join('')}
+        </div>
+
+        <div class="exercise-card">
+            <h3 style="margin-bottom: 1rem;">Essay Structure</h3>
+            ${Object.entries(content.essayStructure).map(([key, value]) => `
+                <div style="background: white; padding: 0.75rem; border-radius: 0.375rem; margin-bottom: 0.5rem;">
+                    <strong style="text-transform: capitalize;">${key.replace(/([A-Z])/g, ' $1')}:</strong>
+                    <span style="color: var(--color-text-light);"> ${value}</span>
+                </div>
+            `).join('')}
+        </div>
+
+        <div class="exercise-card" style="background: #fee; border-left-color: #dc2626;">
+            <h3 style="margin-bottom: 1rem; color: #991b1b;">⚠️ Common Mistakes to Avoid</h3>
+            ${content.commonMistakes.map(mistake => `
+                <div style="color: #991b1b; margin-bottom: 0.5rem;">✗ ${mistake}</div>
+            `).join('')}
+        </div>
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(1)" disabled>← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(1)">Next: Vocabulary →</button>
+        </div>
+    `;
+}
+
+// STEP 2: VOCABULARY
+function renderVocabularyStep(step, container) {
+    const content = step.content;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">📚 ${step.title}</h2>
+            <p class="step-description">Learn academic and topic-specific vocabulary</p>
+        </div>
+
+        <h3 style="margin-bottom: 1rem;">Academic Vocabulary</h3>
+        ${content.academicVocabulary.map(vocab => `
+            <div class="vocab-card">
+                <div class="vocab-word">${vocab.word}</div>
+                <div class="vocab-pronunciation">${vocab.pronunciation}</div>
+                <div class="vocab-definition"><strong>${vocab.partOfSpeech}</strong> - ${vocab.definition}</div>
+                <div class="vocab-example">"${vocab.example}"</div>
+                ${vocab.synonyms ? `<div style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--color-text-light);">
+                    <strong>Synonyms:</strong> ${vocab.synonyms.join(', ')}
+                </div>` : ''}
+            </div>
+        `).join('')}
+
+        <h3 style="margin: 2rem 0 1rem;">Topic-Specific Vocabulary</h3>
+        ${content.topicVocabulary.map(vocab => `
+            <div class="vocab-card">
+                <div class="vocab-word">${vocab.phrase}</div>
+                <div class="vocab-definition">${vocab.definition}</div>
+                <div class="vocab-example">"${vocab.example}"</div>
+            </div>
+        `).join('')}
+
+        <h3 style="margin: 2rem 0 1rem;">Useful Linking Phrases</h3>
+        <div class="exercise-card">
+            ${Object.entries(content.linkingPhrases).map(([category, phrases]) => `
+                <div style="margin-bottom: 1rem;">
+                    <strong style="text-transform: capitalize; color: var(--color-accent);">
+                        ${category.replace(/_/g, ' ')}:
+                    </strong>
+                    <div style="margin-top: 0.5rem; color: var(--color-text-light);">
+                        ${phrases.join(' • ')}
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(1)">← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(2)">Next: Exercises →</button>
+        </div>
+    `;
+}
+
+// Continue in next file due to length...
+
+function completeStep(stepNumber) {
+    // Check completion criteria
+    const step = currentTopic.steps.find(s => s.stepNumber === stepNumber);
+
+    // Steps 1, 2, 4 auto-complete on "Next" click
+    if ([1, 2, 4].includes(stepNumber)) {
+        markStepComplete(stepNumber);
+        if (stepNumber < 6) {
+            navigateToStep(stepNumber + 1);
+        }
+        return;
+    }
+
+    // Step 3: Check exercises
+    if (stepNumber === 3) {
+        const correctCount = Object.values(topicProgress.exerciseResults).filter(r => r.correct).length;
+        if (correctCount >= 12) {
+            markStepComplete(stepNumber);
+            navigateToStep(4);
+        } else {
+            alert(`Complete at least 12/15 exercises correctly. Current: ${correctCount}/15`);
+        }
+        return;
+    }
+
+    // Step 5: Check paragraphs
+    if (stepNumber === 5) {
+        const allFilled = checkAllParagraphsFilled();
+        if (allFilled) {
+            markStepComplete(stepNumber);
+            navigateToStep(6);
+        } else {
+            alert('Please fill in all blanks (minimum 10 words each).');
+        }
+        return;
+    }
+
+    // Step 6: Check essay
+    if (stepNumber === 6) {
+        const wordCount = topicProgress.essayText.trim().split(/\s+/).length;
+        if (wordCount >= 250) {
+            markStepComplete(stepNumber);
+            showComparisonView();
+        } else {
+            alert(`Your essay must be at least 250 words. Current: ${wordCount} words`);
+        }
+        return;
+    }
+}
+
+// STEP 3: EXERCISES
+function renderExercisesStep(step, container) {
+    const content = step.content;
+    const results = topicProgress.exerciseResults || {};
+    const correctCount = Object.values(results).filter(r => r.correct).length;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">✍️ ${step.title}</h2>
+            <p class="step-description">Complete 12/15 exercises to unlock next step</p>
+            <div style="margin-top: 0.5rem; font-weight: 600; color: var(--color-accent);">
+                Progress: ${correctCount}/15 exercises correct
+            </div>
+        </div>
+
+        <!-- Build from Clues -->
+        <h3 style="margin-bottom: 1rem;">Part A: Build from Clues (5 exercises)</h3>
+        ${content.buildFromClues.map((ex, idx) => renderBuildFromClues(ex, idx)).join('')}
+
+        <!-- Sentence Unscramble -->
+        <h3 style="margin: 2rem 0 1rem;">Part B: Sentence Unscramble (5 exercises)</h3>
+        ${content.sentenceUnscramble.map((ex, idx) => renderSentenceUnscramble(ex, idx)).join('')}
+
+        <!-- Fill in the Blanks -->
+        <h3 style="margin: 2rem 0 1rem;">Part C: Fill in the Blanks (5 exercises)</h3>
+        ${content.fillInTheBlanks.map((ex, idx) => renderFillInBlank(ex, idx)).join('')}
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(2)">← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(3)">
+                Next: Templates → ${correctCount >= 12 ? '✓' : '(12/15 required)'}
+            </button>
+        </div>
+    `;
+}
+
+function renderBuildFromClues(exercise, index) {
+    const result = topicProgress.exerciseResults[exercise.id] || {};
+    const isCorrect = result.correct;
+
+    return `
+        <div class="exercise-card" style="border-left-color: ${isCorrect ? 'var(--step-completed)' : 'var(--color-accent)'};">
+            <div class="exercise-title">Exercise ${index + 1}</div>
+            <div style="background: white; padding: 1rem; border-radius: 0.375rem; margin-bottom: 1rem;">
+                <strong>Subject:</strong> ${exercise.clues.subject}<br>
+                <strong>Verb:</strong> ${exercise.clues.verb}<br>
+                <strong>Keywords:</strong> ${exercise.clues.keywords.join(', ')}
+            </div>
+            <textarea id="${exercise.id}" class="blank-input" placeholder="Write your sentence here..."
+                      style="min-height: 80px;" onblur="checkBuildFromClues('${exercise.id}', ${index})">${result.userAnswer || ''}</textarea>
+            <div class="word-counter">${(result.userAnswer || '').trim().split(/\s+/).filter(w => w).length} words (min ${exercise.minWords})</div>
+
+            <button class="hint-button" onclick="toggleHint('hint_${exercise.id}')">💡 Show Hint</button>
+            <div id="hint_${exercise.id}" class="hint-text">${exercise.hint}</div>
+
+            <div id="result_${exercise.id}" style="margin-top: 1rem;"></div>
+        </div>
+    `;
+}
+
+function checkBuildFromClues(exerciseId, index) {
+    const textarea = document.getElementById(exerciseId);
+    const userAnswer = textarea.value.trim();
+    const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    const exercise = step.content.buildFromClues[index];
+
+    if (!userAnswer) return;
+
+    const wordCount = userAnswer.split(/\s+/).filter(w => w).length;
+    const hasMinWords = wordCount >= exercise.minWords;
+
+    // Check if answer contains key words (simplified check)
+    const keywords = exercise.clues.keywords.join(' ').toLowerCase();
+    const hasKeywords = exercise.clues.keywords.every(kw =>
+        userAnswer.toLowerCase().includes(kw.toLowerCase())
+    );
+
+    const isCorrect = hasMinWords && hasKeywords;
+
+    topicProgress.exerciseResults[exerciseId] = {
+        userAnswer,
+        correct: isCorrect
+    };
+    saveTopicProgress();
+
+    const resultDiv = document.getElementById(`result_${exerciseId}`);
+    if (isCorrect) {
+        resultDiv.innerHTML = `<div style="color: var(--step-completed); font-weight: 500;">✓ Good! Model answer: "${exercise.modelAnswer}"</div>`;
+    } else {
+        resultDiv.innerHTML = `<div style="color: #dc2626;">Please include all keywords and meet minimum words. Model: "${exercise.modelAnswer}"</div>`;
+    }
+
+    renderInterface();
+    renderStep(3);
+}
+
+function renderSentenceUnscramble(exercise, index) {
+    const result = topicProgress.exerciseResults[exercise.id] || { userOrder: [] };
+    const isCorrect = result.correct;
+
+    return `
+        <div class="exercise-card" style="border-left-color: ${isCorrect ? 'var(--step-completed)' : 'var(--color-accent)'};">
+            <div class="exercise-title">Exercise ${index + 6}</div>
+            <p style="margin-bottom: 1rem; color: var(--color-text-light);">Click words in the correct order:</p>
+
+            <div class="word-chips" id="words_${exercise.id}">
+                ${exercise.words.map((word, i) => `
+                    <div class="word-chip" onclick="selectWord('${exercise.id}', ${i}, '${word}')" id="chip_${exercise.id}_${i}">
+                        ${word}
+                    </div>
+                `).join('')}
+            </div>
+
+            <div class="answer-area" id="answer_${exercise.id}">
+                ${result.userOrder.length ? result.userOrder.join(' ') : 'Your answer will appear here...'}
+            </div>
+
+            <button class="hint-button" onclick="toggleHint('hint_${exercise.id}')">💡 Show Hint</button>
+            <div id="hint_${exercise.id}" class="hint-text">${exercise.hint}</div>
+
+            <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+                <button class="btn-primary" onclick="checkUnscramble('${exercise.id}', ${index})">Check Answer</button>
+                <button class="btn-nav" onclick="resetUnscramble('${exercise.id}')">Reset</button>
+            </div>
+
+            <div id="result_${exercise.id}" style="margin-top: 1rem;"></div>
+        </div>
+    `;
+}
+
+function selectWord(exerciseId, wordIndex, word) {
+    const chip = document.getElementById(`chip_${exerciseId}_${wordIndex}`);
+    if (chip.classList.contains('placed')) return;
+
+    chip.classList.add('placed');
+
+    if (!topicProgress.exerciseResults[exerciseId]) {
+        topicProgress.exerciseResults[exerciseId] = { userOrder: [] };
+    }
+    topicProgress.exerciseResults[exerciseId].userOrder.push(word);
+
+    const answerArea = document.getElementById(`answer_${exerciseId}`);
+    answerArea.textContent = topicProgress.exerciseResults[exerciseId].userOrder.join(' ');
+}
+
+function resetUnscramble(exerciseId) {
+    topicProgress.exerciseResults[exerciseId] = { userOrder: [] };
+    renderInterface();
+    renderStep(3);
+}
+
+function checkUnscramble(exerciseId, index) {
+    const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    const exercise = step.content.sentenceUnscramble[index];
+    const userAnswer = topicProgress.exerciseResults[exerciseId]?.userOrder.join(' ') || '';
+
+    const isCorrect = userAnswer.toLowerCase() === exercise.correctAnswer.toLowerCase();
+
+    topicProgress.exerciseResults[exerciseId].correct = isCorrect;
+    saveTopicProgress();
+
+    const resultDiv = document.getElementById(`result_${exerciseId}`);
+    if (isCorrect) {
+        resultDiv.innerHTML = `<div style="color: var(--step-completed); font-weight: 500;">✓ Correct!</div>`;
+    } else {
+        resultDiv.innerHTML = `<div style="color: #dc2626;">Incorrect. Correct answer: "${exercise.correctAnswer}"</div>`;
+    }
+
+    renderInterface();
+    renderStep(3);
+}
+
+function renderFillInBlank(exercise, index) {
+    const result = topicProgress.exerciseResults[exercise.id] || {};
+    const isCorrect = result.correct;
+
+    return `
+        <div class="exercise-card" style="border-left-color: ${isCorrect ? 'var(--step-completed)' : 'var(--color-accent)'};">
+            <div class="exercise-title">Exercise ${index + 11}</div>
+            <p style="margin-bottom: 1rem;">${exercise.sentence.replace('_____', '<strong style="color: var(--color-accent);">_____</strong>')}</p>
+
+            <select id="${exercise.id}" class="select" style="width: 100%; margin-bottom: 1rem;" onchange="checkFillInBlank('${exercise.id}', ${index})">
+                <option value="">Select...</option>
+                ${exercise.options.map(opt => `
+                    <option value="${opt}" ${result.userAnswer === opt ? 'selected' : ''}>${opt}</option>
+                `).join('')}
+            </select>
+
+            <div id="result_${exercise.id}"></div>
+
+            ${result.userAnswer ? `
+                <div style="margin-top: 1rem; padding: 0.75rem; background: #fffbeb; border-radius: 0.375rem; font-size: 0.875rem;">
+                    <strong>Explanation:</strong> ${exercise.explanation}
+                </div>
+            ` : ''}
+        </div>
+    `;
+}
+
+function checkFillInBlank(exerciseId, index) {
+    const select = document.getElementById(exerciseId);
+    const userAnswer = select.value;
+
+    if (!userAnswer) return;
+
+    const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    const exercise = step.content.fillInTheBlanks[index];
+    const isCorrect = userAnswer === exercise.correctAnswer;
+
+    topicProgress.exerciseResults[exerciseId] = {
+        userAnswer,
+        correct: isCorrect
+    };
+    saveTopicProgress();
+
+    const resultDiv = document.getElementById(`result_${exerciseId}`);
+    if (isCorrect) {
+        resultDiv.innerHTML = `<div style="color: var(--step-completed); font-weight: 500;">✓ Correct!</div>`;
+    } else {
+        resultDiv.innerHTML = `<div style="color: #dc2626;">Incorrect. Correct answer: "${exercise.correctAnswer}"</div>`;
+    }
+
+    renderInterface();
+    renderStep(3);
+}
+
+function toggleHint(hintId) {
+    const hint = document.getElementById(hintId);
+    hint.classList.toggle('show');
+}
+
+// STEP 4: TEMPLATES
+function renderTemplatesStep(step, container) {
+    const content = step.content;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">🏗️ ${step.title}</h2>
+            <p class="step-description">Study common essay structures and templates</p>
+        </div>
+
+        ${content.templates.map((template, idx) => `
+            <div class="exercise-card" style="margin-bottom: 2rem;">
+                <h3 style="color: var(--color-accent); margin-bottom: 1rem;">${template.name}</h3>
+
+                <div style="background: white; padding: 1.5rem; border-radius: 0.375rem; margin-bottom: 1.5rem;">
+                    ${Object.entries(template.structure).map(([part, text]) => `
+                        <div style="margin-bottom: 1rem;">
+                            <strong style="text-transform: capitalize; color: var(--color-text);">
+                                ${part.replace(/([A-Z])/g, ' $1')}:
+                            </strong>
+                            <p style="margin: 0.5rem 0; color: var(--color-text-light); font-style: italic;">
+                                ${text}
+                            </p>
+                        </div>
+                    `).join('')}
+                </div>
+
+                ${template.example ? `
+                    <button class="hint-button" onclick="toggleHint('example_${idx}')">
+                        📖 View Example Essay
+                    </button>
+                    <div id="example_${idx}" class="hint-text" style="background: #f0fdf4;">
+                        ${Object.entries(template.example).map(([part, text]) => `
+                            <div style="margin-bottom: 1rem;">
+                                <strong style="color: var(--step-completed); text-transform: capitalize;">
+                                    ${part.replace(/([A-Z])/g, ' $1')}:
+                                </strong>
+                                <p style="margin: 0.5rem 0 0 0;">${text}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        `).join('')}
+
+        <div class="exercise-card" style="background: #fffbeb; border-left-color: #fbbf24;">
+            <h3 style="margin-bottom: 1rem;">💡 Useful Transitions</h3>
+            ${Object.entries(content.usefulTransitions).map(([category, phrases]) => `
+                <div style="margin-bottom: 1rem;">
+                    <strong style="text-transform: capitalize; color: var(--color-text);">
+                        ${category.replace(/_/g, ' ')}:
+                    </strong>
+                    <p style="margin: 0.5rem 0 0 0; color: var(--color-text-light);">
+                        ${phrases.join(', ')}
+                    </p>
+                </div>
+            `).join('')}
+        </div>
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(3)">← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(4)">Next: Build Paragraphs →</button>
+        </div>
+    `;
+}
+
+// STEP 5: PARAGRAPHS
+function renderParagraphsStep(step, container) {
+    const content = step.content;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">📝 ${step.title}</h2>
+            <p class="step-description">${content.instructions}</p>
+        </div>
+
+        ${content.paragraphs.map(para => renderParagraphBuilder(para)).join('')}
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(4)">← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(5)">Next: Write Essay →</button>
+        </div>
+    `;
+
+    // Restore saved data
+    content.paragraphs.forEach(para => {
+        para.blanks.forEach(blank => {
+            const input = document.getElementById(blank.id);
+            if (input && topicProgress.paragraphData[blank.id]) {
+                input.value = topicProgress.paragraphData[blank.id];
+                updateWordCounter(blank.id, blank.minWords);
+            }
+        });
+    });
+}
+
+function renderParagraphBuilder(paragraph) {
+    return `
+        <div class="paragraph-builder">
+            <div class="paragraph-name">${paragraph.name}</div>
+            <div style="background: white; padding: 1rem; border-radius: 0.375rem; margin-bottom: 1rem; font-style: italic; color: var(--color-text-light);">
+                ${paragraph.template}
+            </div>
+
+            ${paragraph.blanks.map(blank => `
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="font-weight: 500; display: block; margin-bottom: 0.5rem;">
+                        ${blank.label}:
+                    </label>
+                    <textarea id="${blank.id}" class="blank-input"
+                              placeholder="${blank.placeholder}"
+                              oninput="saveParagraphData('${blank.id}', ${blank.minWords})"
+                              style="min-height: 80px;"></textarea>
+                    <div class="word-counter" id="counter_${blank.id}">0 / ${blank.minWords} words</div>
+
+                    <button class="hint-button" onclick="toggleHint('hint_${blank.id}')">💡 Hint</button>
+                    <div id="hint_${blank.id}" class="hint-text">${blank.hint}</div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function saveParagraphData(blankId, minWords) {
+    const input = document.getElementById(blankId);
+    topicProgress.paragraphData[blankId] = input.value;
+    saveTopicProgress();
+    updateWordCounter(blankId, minWords);
+}
+
+function updateWordCounter(blankId, minWords) {
+    const input = document.getElementById(blankId);
+    const counter = document.getElementById(`counter_${blankId}`);
+    const wordCount = input.value.trim().split(/\s+/).filter(w => w).length;
+
+    counter.textContent = `${wordCount} / ${minWords} words`;
+    counter.className = 'word-counter' + (wordCount >= minWords ? ' valid' : '');
+
+    if (wordCount >= minWords) {
+        input.classList.add('filled');
+    } else {
+        input.classList.remove('filled');
+    }
+}
+
+function checkAllParagraphsFilled() {
+    const step = currentTopic.steps.find(s => s.stepNumber === 5);
+    const allBlanks = step.content.paragraphs.flatMap(p => p.blanks);
+
+    return allBlanks.every(blank => {
+        const data = topicProgress.paragraphData[blank.id];
+        if (!data) return false;
+        const wordCount = data.trim().split(/\s+/).filter(w => w).length;
+        return wordCount >= blank.minWords;
+    });
+}
+
+// STEP 6: ESSAY
+function renderEssayStep(step, container) {
+    const content = step.content;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">🎓 ${step.title}</h2>
+            <p class="step-description">${content.instructions}</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+            <div>
+                <textarea id="essayEditor" class="essay-editor"
+                          placeholder="Write your complete essay here. You can copy and edit from Step 5..."
+                          oninput="saveEssayText()">${topicProgress.essayText || ''}</textarea>
+                <div class="word-counter" id="essayWordCount" style="font-size: 1rem; margin-top: 0.5rem;">
+                    ${(topicProgress.essayText || '').trim().split(/\s+/).filter(w => w).length} / ${currentTopic.question.wordCountTarget} words
+                </div>
+            </div>
+
+            <div>
+                <div class="exercise-card">
+                    <h3 style="margin-bottom: 1rem;">Structure Guide</h3>
+                    ${Object.entries(content.structureGuide).map(([part, guide]) => `
+                        <div style="margin-bottom: 1rem; padding: 0.75rem; background: white; border-radius: 0.375rem;">
+                            <strong style="text-transform: capitalize;">${part.replace(/([A-Z])/g, ' $1')}:</strong>
+                            <div style="font-size: 0.875rem; color: var(--color-text-light); margin-top: 0.25rem;">
+                                ${guide.sentences}<br>
+                                <em>${guide.purpose}</em>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <div class="exercise-card" style="background: #f0fdf4; border-left-color: var(--step-completed);">
+                    <h3 style="margin-bottom: 1rem;">Checklist</h3>
+                    ${content.checklist.map((item, idx) => `
+                        <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <input type="checkbox" id="check_${idx}" style="margin-top: 0.25rem;">
+                            <label for="check_${idx}" style="font-size: 0.875rem;">${item}</label>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(5)">← Previous</button>
+            <button class="btn-step btn-step-next" onclick="completeStep(6)">View Comparison →</button>
+        </div>
+    `;
+}
+
+function saveEssayText() {
+    const editor = document.getElementById('essayEditor');
+    topicProgress.essayText = editor.value;
+    saveTopicProgress();
+
+    const wordCount = editor.value.trim().split(/\s+/).filter(w => w).length;
+    document.getElementById('essayWordCount').textContent =
+        `${wordCount} / ${currentTopic.question.wordCountTarget} words`;
+}
+
+function showComparisonView() {
+    const container = document.getElementById('stepContent');
+
+    const studentEssay = topicProgress.essayText;
+    const modelEssay = currentTopic.modelEssay;
+
+    const studentWordCount = studentEssay.trim().split(/\s+/).filter(w => w).length;
+
+    container.innerHTML = `
+        <div class="step-header">
+            <h2 class="step-title">🎉 Congratulations!</h2>
+            <p class="step-description">Compare your essay with the Band 8 model answer</p>
+        </div>
+
+        <div class="comparison-container">
+            <div class="comparison-column">
+                <div class="comparison-title">Your Essay (${studentWordCount} words)</div>
+                <div class="comparison-text">${studentEssay}</div>
+            </div>
+
+            <div class="comparison-column" style="background: #f0fdf4;">
+                <div class="comparison-title">Model Essay - Band 8 (${modelEssay.wordCount} words)</div>
+                <div class="comparison-text">${modelEssay.text}</div>
+            </div>
+        </div>
+
+        <div class="exercise-card" style="margin-top: 2rem;">
+            <h3 style="margin-bottom: 1rem;">💡 Key Techniques in Model Essay</h3>
+            ${modelEssay.highlights.map(h => `
+                <div style="margin-bottom: 1rem; padding: 1rem; background: white; border-radius: 0.375rem;">
+                    <strong style="color: var(--color-accent);">"${h.text}"</strong>
+                    <div style="font-size: 0.875rem; margin-top: 0.5rem;">
+                        <strong>${h.type.replace(/-/g, ' ').toUpperCase()}:</strong> ${h.explanation}
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+
+        <div class="step-navigation">
+            <button class="btn-step btn-step-prev" onclick="navigateToStep(6)">← Back to Essay</button>
+            <button class="btn-step btn-step-next" onclick="completeTopicAndGoNext()">
+                ${getNextTopicButton()}
+            </button>
+        </div>
+    `;
+}
+
+function getNextTopicButton() {
+    const currentIndex = topics.findIndex(t => t.id === currentTopic.id);
+    if (currentIndex < topics.length - 1) {
+        const nextTopic = topics[currentIndex + 1];
+        return `Next Topic: ${nextTopic.title} →`;
+    } else {
+        return 'Practice Another Topic';
+    }
+}
+
+function completeTopicAndGoNext() {
+    const currentIndex = topics.findIndex(t => t.id === currentTopic.id);
+
+    if (currentIndex < topics.length - 1) {
+        const nextTopic = topics[currentIndex + 1];
+        loadTopic(nextTopic.id);
+    } else {
+        // Return to topic selection
+        currentTopic = null;
+        document.getElementById('topicSelector').value = '';
+        document.getElementById('mainContainer').innerHTML = `
+            <div class="loading-message">
+                <p style="font-size: 1.25rem; margin-bottom: 1rem;">🎉 All topics completed!</p>
+                <p style="color: var(--color-text-light);">Great job! Select any topic to practice again.</p>
+            </div>
+        `;
+    }
+}

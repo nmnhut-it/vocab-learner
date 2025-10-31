@@ -1,0 +1,539 @@
+{
+  "id": "city-life",
+  "question": {
+    "text": "Some people prefer living in a city, while others prefer living in the countryside. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "category": "Lifestyle & Environment",
+    "instructions": "Write at least 250 words",
+    "timeAllocation": {
+      "total": 40,
+      "planning": 10,
+      "writing": 25,
+      "checking": 5
+    }
+  },
+  "sections": [
+    {
+      "id": "question-analysis",
+      "title": "Question Analysis",
+      "description": "Understand what the question is asking",
+      "content": {
+        "questionType": {
+          "value": "Discuss Both Views + Opinion",
+          "explanation": "You must discuss BOTH perspectives (city vs countryside) equally and clearly state your own opinion."
+        },
+        "keyWords": [
+          {"word": "prefer", "importance": "medium"},
+          {"word": "living in a city", "importance": "high"},
+          {"word": "living in the countryside", "importance": "high"},
+          {"word": "both views", "importance": "high"},
+          {"word": "your opinion", "importance": "high"}
+        ],
+        "taskRequirements": [
+          "Discuss advantages of city living",
+          "Discuss advantages of countryside living",
+          "Provide specific examples for each view",
+          "State your clear personal opinion"
+        ],
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Opinion is unclear or too balanced",
+          "Being too personal without general reasoning",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-ideas",
+      "title": "Vocabulary & Ideas Bank",
+      "description": "Essential words and ideas for this topic",
+      "content": {
+        "topicVocabulary": [
+          {
+            "word": "amenities",
+            "pronunciation": "/əˈmenətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Useful or desirable features or facilities of a place",
+            "example": "Cities offer numerous amenities such as restaurants, theaters, and shopping centers."
+          },
+          {
+            "word": "tranquility",
+            "pronunciation": "/træŋˈkwɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality or state of being calm and peaceful",
+            "example": "Many people move to the countryside seeking tranquility and escape from urban stress."
+          },
+          {
+            "word": "bustling",
+            "pronunciation": "/ˈbʌslɪŋ/",
+            "partOfSpeech": "adjective",
+            "definition": "Full of energetic and noisy activity",
+            "example": "The bustling city environment appeals to those who enjoy constant activity."
+          },
+          {
+            "word": "isolation",
+            "pronunciation": "/ˌaɪsəˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The state of being in a place far from others",
+            "example": "Rural isolation can be challenging for people who value social interaction."
+          },
+          {
+            "word": "opportunities",
+            "pronunciation": "/ˌɒpəˈtjuːnətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Circumstances that make it possible to do something",
+            "example": "Urban areas provide greater career opportunities and professional development."
+          }
+        ],
+        "academicPhrases": {
+          "introduction": [
+            "The choice between urban and rural living has long been debated...",
+            "People have differing preferences regarding...",
+            "While some are drawn to city life, others prefer...",
+            "The question of ideal living environment divides opinion..."
+          ],
+          "discussing": [
+            "On the one hand,",
+            "Urban dwellers argue that...",
+            "From a city perspective,",
+            "Those who prefer urban environments value..."
+          ],
+          "contrasting": [
+            "On the other hand,",
+            "Conversely,",
+            "However, countryside advocates believe...",
+            "In contrast, rural living offers..."
+          ],
+          "examples": [
+            "A clear example is...",
+            "This is exemplified by...",
+            "For instance, cities like...",
+            "Consider the case of..."
+          ],
+          "opinion": [
+            "In my view,",
+            "I believe that...",
+            "From my perspective,",
+            "Personally, I would argue that..."
+          ]
+        },
+        "keyIdeas": [
+          {
+            "mainPoint": "Cities offer superior career opportunities and cultural experiences",
+            "explanation": "Urban areas concentrate jobs, entertainment, education, and cultural institutions in accessible locations",
+            "example": "Metropolitan areas like London or New York provide diverse career paths, world-class museums, theaters, and international cuisine"
+          },
+          {
+            "mainPoint": "Countryside living provides health benefits and natural environment",
+            "explanation": "Rural areas offer cleaner air, less noise pollution, access to nature, and lower stress levels",
+            "example": "Studies show rural residents experience lower rates of respiratory illnesses and mental health problems compared to urban populations"
+          },
+          {
+            "mainPoint": "Cities provide better infrastructure and public services",
+            "explanation": "Urban areas have superior transportation, healthcare facilities, educational institutions, and connectivity",
+            "example": "City residents have immediate access to hospitals, universities, and efficient public transport networks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas",
+      "description": "Organize your thoughts before writing",
+      "content": {
+        "instruction": "Write down ideas for both perspectives. Don't worry about perfect sentences yet.",
+        "brainstormTemplate": {
+          "advantages": {
+            "label": "Advantages of City Living",
+            "placeholder": "e.g., Job opportunities, entertainment, culture, convenience, public transport, amenities, education, diversity..."
+          },
+          "disadvantages": {
+            "label": "Advantages of Countryside Living",
+            "placeholder": "e.g., Peace and quiet, nature, clean air, space, lower cost, community, slower pace, outdoor activities, safety..."
+          },
+          "examples": {
+            "label": "Real-Life Examples",
+            "placeholder": "e.g., Major cities like London/Tokyo, rural villages, health studies, lifestyle differences, cost of living comparisons..."
+          },
+          "yourPosition": {
+            "label": "Your Position (Choose One)",
+            "options": [
+              "City living is better overall",
+              "Countryside living is better overall",
+              "Both have merits - personal choice",
+              "Depends on life stage and priorities"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "essay-planning",
+      "title": "Essay Planning (Simon's Structure)",
+      "description": "Plan your 4-paragraph essay",
+      "content": {
+        "planStructure": {
+          "introduction": {
+            "sentence1": {
+              "label": "Sentence 1: Paraphrase the question",
+              "placeholder": "The choice between urban and rural living environments has long been a subject of debate..."
+            },
+            "sentence2": {
+              "label": "Sentence 2: State your position",
+              "placeholder": "While both lifestyles have distinct advantages, I believe the ideal choice depends on individual priorities and life circumstances..."
+            }
+          },
+          "bodyParagraph1": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Advantages of city living"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Cities offer superior career opportunities and professional advancement"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Urban centers concentrate diverse industries and employment options"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Metropolitan areas like London provide access to international companies and networks"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "Cities provide rich cultural experiences, entertainment, and amenities"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "Urban infrastructure and services support dynamic, convenient lifestyles"
+              }
+            ]
+          },
+          "bodyParagraph2": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Advantages of countryside living"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Rural areas offer tranquility and superior environmental quality"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Cleaner air, less noise, and access to nature promote physical and mental health"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Studies show rural residents experience lower stress and respiratory illnesses"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "Countryside living provides stronger community bonds and safer environments"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "Rural life appeals to those prioritizing wellbeing over convenience"
+              }
+            ]
+          },
+          "conclusion": {
+            "sentence1": {
+              "label": "Sentence 1: Summary of both views",
+              "placeholder": "While cities offer career opportunities and cultural amenities, countryside provides health benefits and peaceful living"
+            },
+            "sentence2": {
+              "label": "Sentence 2: Final thought/opinion",
+              "placeholder": "The optimal choice depends on whether one values professional advancement or environmental quality and tranquility"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "interactive-exercises",
+      "title": "Practice Exercises",
+      "description": "Build your skills with interactive exercises",
+      "content": {
+        "exercises": [
+          {
+            "type": "sentence-unscramble",
+            "title": "Exercise 1: Sentence Building",
+            "instruction": "Arrange these words to form correct sentences.",
+            "questions": [
+              {
+                "scrambledWords": ["cities", "offer", "numerous", "cultural", "amenities", "and", "entertainment"],
+                "correctAnswer": "Cities offer numerous cultural amenities and entertainment."
+              },
+              {
+                "scrambledWords": ["rural areas", "provide", "tranquility", "and", "cleaner", "environments"],
+                "correctAnswer": "Rural areas provide tranquility and cleaner environments."
+              }
+            ]
+          },
+          {
+            "type": "fill-in-the-blank",
+            "title": "Exercise 2: Vocabulary in Context",
+            "instruction": "Choose the correct word for each blank.",
+            "questions": [
+              {
+                "sentence": "Urban areas provide greater career _____ than rural regions.",
+                "options": ["opportunities", "opportunity", "opportunistic"],
+                "correctAnswer": "opportunities"
+              },
+              {
+                "sentence": "The countryside offers _____ that many city dwellers lack.",
+                "options": ["tranquility", "tranquil", "tranquilize"],
+                "correctAnswer": "tranquility"
+              }
+            ]
+          },
+          {
+            "type": "complete-sentence",
+            "title": "Exercise 3: Using Academic Phrases",
+            "instruction": "Complete these sentences using the vocabulary provided.",
+            "questions": [
+              {
+                "stem": "On the one hand, city living provides...",
+                "vocabularyHints": ["opportunities", "amenities", "bustling"],
+                "minimumWords": 15
+              },
+              {
+                "stem": "Conversely, countryside living offers...",
+                "vocabularyHints": ["tranquility", "isolation", "natural environment"],
+                "minimumWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "essay-writing",
+      "title": "Write Your Essay",
+      "description": "Write your full essay here (40 minutes)",
+      "content": {
+        "editor": {
+          "placeholder": "Start writing your essay here. Refer to your plan in Section 4.\n\nRemember:\n• 4 paragraphs (Introduction, Body 1, Body 2, Conclusion)\n• 250-280 words\n• Use formal academic style\n• Include examples\n• Clear opinion",
+          "wordCountTarget": "250-280"
+        },
+        "guidancePanel": {
+          "title": "Writing Tips",
+          "tips": [
+            "Follow your plan from Section 4 - don't change structure midway",
+            "Use topic sentences to start each body paragraph",
+            "Include linking words (However, Furthermore, For instance)",
+            "Avoid contractions (don't → do not, can't → cannot)",
+            "Leave 5 minutes at the end to check for errors"
+          ]
+        }
+      }
+    },
+    {
+      "id": "essay-checking",
+      "title": "Check Your Essay",
+      "description": "Use this checklist to review your work",
+      "content": {
+        "checkingSteps": [
+          {
+            "step": 1,
+            "title": "Structure & Organization",
+            "items": [
+              {
+                "label": "Introduction clearly paraphrases the question (not copied)",
+                "tips": ["Use synonyms: city → urban areas, countryside → rural regions, prefer → favor"]
+              },
+              {
+                "label": "Body paragraph 1 has clear topic sentence about city living",
+                "tips": ["Topic sentence = first sentence stating main advantage"]
+              },
+              {
+                "label": "Body paragraph 2 discusses countryside living",
+                "tips": ["Use transition: However, On the other hand, Conversely"]
+              },
+              {
+                "label": "Conclusion summarizes both views + states opinion clearly",
+                "tips": ["Your opinion must be clear - which do you support or does it depend on factors?"]
+              },
+              {
+                "label": "Each paragraph is 4-6 sentences long",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Task Response",
+            "items": [
+              {
+                "label": "Both views are discussed with equal detail",
+                "tips": ["Count sentences - each view should have similar length"]
+              },
+              {
+                "label": "Personal opinion is clearly stated",
+                "tips": ["Use: In my view, I believe that, From my perspective"]
+              },
+              {
+                "label": "Specific examples are provided for each view",
+                "tips": ["Real examples like specific cities or studies are strongest"]
+              },
+              {
+                "label": "All parts of the question are fully addressed",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Vocabulary & Grammar",
+            "items": [
+              {
+                "label": "No repeated words - synonyms used throughout",
+                "tips": ["city → urban areas, metropolitan regions", "countryside → rural areas, rural regions", "prefer → favor, choose"]
+              },
+              {
+                "label": "Topic vocabulary from Section 2 is used correctly",
+                "tips": []
+              },
+              {
+                "label": "Complex sentences are used (not all simple sentences)",
+                "tips": ["Use: who, which, that, although, while, because"]
+              },
+              {
+                "label": "Verb tenses are consistent and correct",
+                "tips": []
+              },
+              {
+                "label": "No spelling or punctuation errors",
+                "tips": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-answer",
+      "title": "Band 8 Model Answer",
+      "description": "Compare your essay with this high-band example",
+      "content": {
+        "essay": {
+          "wordCount": 277,
+          "fullEssay": "The choice between urban and rural living environments has long been a subject of debate, with advocates on both sides citing distinct advantages. While both lifestyles have merit, I believe the ideal choice depends fundamentally on individual priorities and life circumstances.\n\nOn the one hand, city living offers substantial benefits in terms of career advancement and cultural enrichment. Urban centers concentrate diverse industries and employment opportunities, providing professionals with access to competitive salaries, networking possibilities, and career progression that rural areas simply cannot match. For instance, metropolitan regions like London or Singapore host international corporations, creative industries, and specialized sectors that drive economic growth and innovation. Furthermore, cities provide rich cultural experiences through museums, theaters, restaurants, and entertainment venues that enhance quality of life. The superior infrastructure and public services, including efficient transportation networks and world-class healthcare facilities, make daily life more convenient and accessible.\n\nOn the other hand, countryside living delivers significant health and wellbeing advantages that urban environments lack. Rural areas offer cleaner air, reduced noise pollution, and abundant natural spaces that promote both physical and mental health. Research consistently demonstrates that rural residents experience lower rates of respiratory illnesses, cardiovascular problems, and stress-related conditions compared to urban populations. Additionally, countryside communities typically foster stronger social bonds and provide safer environments for raising families, with lower crime rates and more cohesive neighborhoods. The slower pace of life and connection to nature appeal strongly to those prioritizing tranquility over convenience.\n\nIn conclusion, while cities excel in providing career opportunities and cultural amenities, countryside living offers superior environmental quality and health benefits. The optimal choice ultimately depends on whether one values professional development and convenience more than environmental tranquility and wellbeing."
+        },
+        "analysis": {
+          "bandScore": {
+            "overall": "8.0",
+            "taskResponse": "8",
+            "coherenceCohesion": "8",
+            "lexicalResource": "8",
+            "grammaticalRange": "8"
+          },
+          "structure": "4 paragraphs (Intro + 2 Body + Conclusion)",
+          "strengths": [
+            "Clear position with nuanced understanding (depends on priorities)",
+            "Both views discussed equally with specific examples",
+            "Strong topic sentences in each paragraph",
+            "Wide range of vocabulary (enrichment, cohesive, tranquility)",
+            "Complex sentence structures with varied grammar"
+          ]
+        },
+        "annotations": [
+          {
+            "highlight": "The choice between urban and rural living environments...",
+            "technique": "Paraphrasing",
+            "explanation": "Transforms 'city vs countryside' into sophisticated language using 'urban and rural living environments'."
+          },
+          {
+            "highlight": "On the one hand... On the other hand...",
+            "technique": "Balanced Structure Markers",
+            "explanation": "Clear parallel transitions demonstrate systematic discussion of both perspectives."
+          },
+          {
+            "highlight": "For instance, metropolitan regions like London or Singapore...",
+            "technique": "Specific Example",
+            "explanation": "Concrete, real-world examples with specific cities strengthen task response and demonstrate knowledge."
+          },
+          {
+            "highlight": "Furthermore... Additionally...",
+            "technique": "Varied Cohesive Devices",
+            "explanation": "Different linking words maintain coherence and demonstrate linguistic flexibility."
+          },
+          {
+            "highlight": "enrichment, cohesive, tranquility, fundamentally",
+            "technique": "Less Common Vocabulary",
+            "explanation": "Academic vocabulary used naturally demonstrates strong lexical resource appropriate for Band 8."
+          },
+          {
+            "highlight": "employment opportunities, providing professionals with access to competitive salaries, networking possibilities, and career progression that rural areas simply cannot match",
+            "technique": "Complex Sentence with Multiple Elements",
+            "explanation": "Sophisticated structure combining participial phrase, list, and relative clause shows advanced grammatical control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment & Reflection",
+      "description": "Evaluate your performance",
+      "content": {
+        "criteria": [
+          {
+            "criterion": "task-response",
+            "title": "Task Response",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Fully addresses all parts of the task. Presents a fully developed position with relevant, extended and well supported ideas."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sufficiently addresses all parts of the task. Presents a well-developed response with relevant, extended and supported ideas."
+              },
+              {
+                "band": 7,
+                "descriptor": "Addresses all parts of the task. Presents a clear position. Main ideas are extended and supported but there may be over-generalisation."
+              }
+            ]
+          },
+          {
+            "criterion": "coherence-cohesion",
+            "title": "Coherence & Cohesion",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately."
+              },
+              {
+                "band": 7,
+                "descriptor": "Logically organises information and ideas. Uses a range of cohesive devices appropriately although there may be some under/over-use."
+              }
+            ]
+          }
+        ],
+        "overallAssessment": {
+          "strengths": {
+            "label": "What did you do well?",
+            "placeholder": "List 2-3 specific strengths. e.g., 'I provided balanced discussion', 'My examples were specific', 'I used lifestyle vocabulary well'..."
+          },
+          "areasForImprovement": {
+            "label": "What needs improvement?",
+            "placeholder": "Be honest about challenges. e.g., 'Need more complex sentences', 'Could provide more examples', 'Time management'..."
+          },
+          "actionPlan": {
+            "label": "What will you practice next?",
+            "placeholder": "Set concrete goals. e.g., 'Practice 5 more Discuss Both Views questions', 'Learn 20 lifestyle vocabulary words', 'Practice writing balanced arguments'..."
+          }
+        }
+      }
+    }
+  ]
+}

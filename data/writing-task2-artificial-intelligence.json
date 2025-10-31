@@ -1,0 +1,539 @@
+{
+  "id": "artificial-intelligence",
+  "question": {
+    "text": "Artificial intelligence is increasingly replacing human workers in many industries. Discuss the advantages and disadvantages of this development.",
+    "type": "Advantages & Disadvantages",
+    "category": "Technology & Employment",
+    "instructions": "Write at least 250 words",
+    "timeAllocation": {
+      "total": 40,
+      "planning": 10,
+      "writing": 25,
+      "checking": 5
+    }
+  },
+  "sections": [
+    {
+      "id": "question-analysis",
+      "title": "Question Analysis",
+      "description": "Understand what the question is asking",
+      "content": {
+        "questionType": {
+          "value": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH advantages AND disadvantages of AI replacing human workers equally."
+        },
+        "keyWords": [
+          {"word": "artificial intelligence", "importance": "high"},
+          {"word": "replacing human workers", "importance": "high"},
+          {"word": "many industries", "importance": "medium"},
+          {"word": "advantages", "importance": "high"},
+          {"word": "disadvantages", "importance": "high"}
+        ],
+        "taskRequirements": [
+          "Discuss multiple advantages of AI replacing workers",
+          "Discuss multiple disadvantages of AI replacing workers",
+          "Provide specific examples for each point",
+          "Maintain a balanced discussion of both sides"
+        ],
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Being too technical or vague",
+          "Forgetting to give concrete examples",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-ideas",
+      "title": "Vocabulary & Ideas Bank",
+      "description": "Essential words and ideas for this topic",
+      "content": {
+        "topicVocabulary": [
+          {
+            "word": "automation",
+            "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The use of technology to perform tasks without human intervention",
+            "example": "Automation through AI has transformed manufacturing efficiency in recent years."
+          },
+          {
+            "word": "displacement",
+            "pronunciation": "/dɪsˈpleɪsmənt/",
+            "partOfSpeech": "noun",
+            "definition": "The act of forcing someone or something from their usual position or role",
+            "example": "Worker displacement caused by AI poses significant social and economic challenges."
+          },
+          {
+            "word": "efficiency",
+            "pronunciation": "/ɪˈfɪʃənsi/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to accomplish tasks with minimum waste of time and resources",
+            "example": "AI systems provide superior efficiency in data processing and analysis."
+          },
+          {
+            "word": "redundancy",
+            "pronunciation": "/rɪˈdʌndənsi/",
+            "partOfSpeech": "noun",
+            "definition": "The state of no longer being needed or useful in employment",
+            "example": "Technological advancement has created mass redundancy in traditional manufacturing sectors."
+          },
+          {
+            "word": "innovation",
+            "pronunciation": "/ˌɪnəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The introduction of new methods, ideas, or products",
+            "example": "AI-driven innovation has created entirely new industries and job categories."
+          }
+        ],
+        "academicPhrases": {
+          "introduction": [
+            "The rise of artificial intelligence in the workplace has sparked considerable debate...",
+            "As AI technology advances, concerns about workforce automation have intensified...",
+            "The increasing prevalence of AI in various industries presents both...",
+            "Artificial intelligence replacing human labor represents..."
+          ],
+          "discussing": [
+            "One significant advantage is...",
+            "A primary benefit of workplace automation is...",
+            "From an economic perspective,",
+            "AI implementation provides..."
+          ],
+          "contrasting": [
+            "However, there are serious drawbacks...",
+            "On the negative side,",
+            "Despite these advantages,",
+            "Conversely, AI adoption creates..."
+          ],
+          "examples": [
+            "A clear illustration is...",
+            "This is evident in industries such as...",
+            "For example, companies like...",
+            "Studies have shown that..."
+          ],
+          "opinion": [
+            "Overall, it is clear that...",
+            "The evidence suggests that...",
+            "Taking everything into account,",
+            "On balance,"
+          ]
+        },
+        "keyIdeas": [
+          {
+            "mainPoint": "AI increases productivity and reduces operational costs dramatically",
+            "explanation": "Automated systems work continuously without breaks, make fewer errors, and require no salaries or benefits",
+            "example": "Manufacturing companies using robotic assembly lines achieve 24/7 production with consistent quality at fraction of human labor costs"
+          },
+          {
+            "mainPoint": "Widespread job displacement threatens economic stability and social wellbeing",
+            "explanation": "Millions of workers in routine jobs face unemployment as AI systems replace their roles, creating economic hardship",
+            "example": "Transportation industry workers, including truck drivers and taxi operators, face unemployment as autonomous vehicles develop"
+          },
+          {
+            "mainPoint": "AI eliminates dangerous and repetitive tasks, improving workplace safety",
+            "explanation": "Machines can perform hazardous work in extreme conditions that would endanger human workers",
+            "example": "Mining companies deploy AI-powered robots in unsafe environments, reducing workplace injuries and fatalities"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas",
+      "description": "Organize your thoughts before writing",
+      "content": {
+        "instruction": "Write down ideas for both advantages and disadvantages. Don't worry about perfect sentences yet.",
+        "brainstormTemplate": {
+          "advantages": {
+            "label": "Advantages of AI Replacing Workers",
+            "placeholder": "e.g., Increased efficiency, 24/7 operation, fewer errors, cost savings, dangerous task elimination, consistent quality, innovation..."
+          },
+          "disadvantages": {
+            "label": "Disadvantages of AI Replacing Workers",
+            "placeholder": "e.g., Job loss, unemployment, inequality, skill devaluation, social problems, economic disruption, lack of human judgment..."
+          },
+          "examples": {
+            "label": "Real-Life Examples",
+            "placeholder": "e.g., Manufacturing robots, self-driving vehicles, customer service chatbots, automated warehouses, medical diagnosis AI..."
+          },
+          "yourPosition": {
+            "label": "Your Overall View",
+            "options": [
+              "Advantages outweigh disadvantages",
+              "Disadvantages outweigh advantages",
+              "Both are equally significant",
+              "Requires careful management and retraining"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "essay-planning",
+      "title": "Essay Planning (Simon's Structure)",
+      "description": "Plan your 4-paragraph essay",
+      "content": {
+        "planStructure": {
+          "introduction": {
+            "sentence1": {
+              "label": "Sentence 1: Paraphrase the question",
+              "placeholder": "The growing prevalence of artificial intelligence in workplace automation has transformed numerous sectors..."
+            },
+            "sentence2": {
+              "label": "Sentence 2: State your position",
+              "placeholder": "While this technological advancement offers certain benefits, it also presents significant challenges for workers and society..."
+            }
+          },
+          "bodyParagraph1": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Advantages of AI replacing workers"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "AI dramatically increases productivity and reduces operational costs"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Automated systems operate continuously without breaks, errors, or salary requirements"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Manufacturing companies achieve 24/7 production with consistent quality"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "AI eliminates dangerous and repetitive tasks, improving workplace safety"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These efficiency gains drive economic growth and innovation"
+              }
+            ]
+          },
+          "bodyParagraph2": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Disadvantages of AI replacing workers"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Widespread job displacement threatens economic stability and social wellbeing"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Millions of workers in routine jobs face unemployment as AI replaces their roles"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Transportation workers like truck drivers face job loss from autonomous vehicles"
+              },
+              {
+                "label": "Idea 4: Additional problem",
+                "placeholder": "Creates income inequality as benefits concentrate among tech companies"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These social disruptions require urgent policy responses and retraining programs"
+              }
+            ]
+          },
+          "conclusion": {
+            "sentence1": {
+              "label": "Sentence 1: Summary of both sides",
+              "placeholder": "While AI replacement offers productivity gains and safety improvements, it creates serious unemployment and inequality challenges"
+            },
+            "sentence2": {
+              "label": "Sentence 2: Final thought",
+              "placeholder": "Governments must implement comprehensive retraining programs and social policies to manage this transition effectively"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "interactive-exercises",
+      "title": "Practice Exercises",
+      "description": "Build your skills with interactive exercises",
+      "content": {
+        "exercises": [
+          {
+            "type": "sentence-unscramble",
+            "title": "Exercise 1: Sentence Building",
+            "instruction": "Arrange these words to form correct sentences.",
+            "questions": [
+              {
+                "scrambledWords": ["AI", "systems", "dramatically", "increase", "workplace", "productivity", "and", "efficiency"],
+                "correctAnswer": "AI systems dramatically increase workplace productivity and efficiency."
+              },
+              {
+                "scrambledWords": ["worker", "displacement", "creates", "serious", "economic", "and", "social challenges"],
+                "correctAnswer": "Worker displacement creates serious economic and social challenges."
+              }
+            ]
+          },
+          {
+            "type": "fill-in-the-blank",
+            "title": "Exercise 2: Vocabulary in Context",
+            "instruction": "Choose the correct word for each blank.",
+            "questions": [
+              {
+                "sentence": "Workplace _____ through AI has transformed manufacturing industries.",
+                "options": ["automation", "automatic", "automatically"],
+                "correctAnswer": "automation"
+              },
+              {
+                "sentence": "AI implementation provides superior _____ in data processing tasks.",
+                "options": ["efficiency", "efficient", "efficiently"],
+                "correctAnswer": "efficiency"
+              }
+            ]
+          },
+          {
+            "type": "complete-sentence",
+            "title": "Exercise 3: Using Academic Phrases",
+            "instruction": "Complete these sentences using the vocabulary provided.",
+            "questions": [
+              {
+                "stem": "One significant advantage of AI in workplaces is...",
+                "vocabularyHints": ["efficiency", "automation", "innovation"],
+                "minimumWords": 15
+              },
+              {
+                "stem": "However, there are serious drawbacks such as...",
+                "vocabularyHints": ["displacement", "redundancy", "inequality"],
+                "minimumWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "essay-writing",
+      "title": "Write Your Essay",
+      "description": "Write your full essay here (40 minutes)",
+      "content": {
+        "editor": {
+          "placeholder": "Start writing your essay here. Refer to your plan in Section 4.\n\nRemember:\n• 4 paragraphs (Introduction, Body 1, Body 2, Conclusion)\n• 250-280 words\n• Use formal academic style\n• Include examples\n• Balance both advantages and disadvantages",
+          "wordCountTarget": "250-280"
+        },
+        "guidancePanel": {
+          "title": "Writing Tips",
+          "tips": [
+            "Follow your plan from Section 4 - don't change structure midway",
+            "Use topic sentences to start each body paragraph",
+            "Include linking words (However, Furthermore, For instance)",
+            "Avoid contractions (don't → do not, can't → cannot)",
+            "Leave 5 minutes at the end to check for errors"
+          ]
+        }
+      }
+    },
+    {
+      "id": "essay-checking",
+      "title": "Check Your Essay",
+      "description": "Use this checklist to review your work",
+      "content": {
+        "checkingSteps": [
+          {
+            "step": 1,
+            "title": "Structure & Organization",
+            "items": [
+              {
+                "label": "Introduction clearly paraphrases the question (not copied)",
+                "tips": ["Use synonyms: AI → artificial intelligence, replacing → substituting, workers → employees, human labor"]
+              },
+              {
+                "label": "Body paragraph 1 discusses advantages with clear topic sentence",
+                "tips": ["Topic sentence = first sentence stating main advantage"]
+              },
+              {
+                "label": "Body paragraph 2 discusses disadvantages equally",
+                "tips": ["Use transition: However, On the negative side, Despite these benefits"]
+              },
+              {
+                "label": "Conclusion summarizes both advantages and disadvantages",
+                "tips": ["Don't introduce new ideas in conclusion"]
+              },
+              {
+                "label": "Each paragraph is 4-6 sentences long",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Task Response",
+            "items": [
+              {
+                "label": "Both advantages and disadvantages are discussed equally",
+                "tips": ["Count sentences - both sides should have similar length"]
+              },
+              {
+                "label": "Multiple points provided for each side",
+                "tips": ["Aim for at least 2-3 points per side"]
+              },
+              {
+                "label": "Specific examples are provided",
+                "tips": ["Real examples like specific industries or technologies are strongest"]
+              },
+              {
+                "label": "All parts of the question are fully addressed",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Vocabulary & Grammar",
+            "items": [
+              {
+                "label": "No repeated words - synonyms used throughout",
+                "tips": ["AI → artificial intelligence, automated systems", "workers → employees, human labor", "replacing → substituting, displacing"]
+              },
+              {
+                "label": "Topic vocabulary from Section 2 is used correctly",
+                "tips": []
+              },
+              {
+                "label": "Complex sentences are used (not all simple sentences)",
+                "tips": ["Use: who, which, that, although, while, because"]
+              },
+              {
+                "label": "Verb tenses are consistent and correct",
+                "tips": []
+              },
+              {
+                "label": "No spelling or punctuation errors",
+                "tips": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-answer",
+      "title": "Band 8 Model Answer",
+      "description": "Compare your essay with this high-band example",
+      "content": {
+        "essay": {
+          "wordCount": 275,
+          "fullEssay": "The growing prevalence of artificial intelligence in workplace automation has transformed numerous sectors, with machines increasingly performing tasks previously requiring human workers. While this technological advancement offers certain economic benefits, it also presents significant challenges for employment and social stability.\n\nOn the positive side, AI implementation dramatically increases productivity and reduces operational costs across industries. Automated systems operate continuously without requiring breaks, holidays, or salaries, while maintaining consistent quality and making fewer errors than human workers. For instance, manufacturing companies utilizing robotic assembly lines achieve round-the-clock production with superior precision and efficiency. Furthermore, AI eliminates dangerous and repetitive tasks, significantly improving workplace safety. Mining operations, for example, now deploy autonomous machines in hazardous environments that would endanger human workers, substantially reducing injuries and fatalities. These efficiency gains also drive innovation, freeing human workers to focus on creative and strategic activities that machines cannot replicate.\n\nHowever, the disadvantages of widespread automation are substantial and alarming. Millions of workers in routine occupations face unemployment as AI systems replace their roles, creating economic hardship and social instability. Transportation workers, including truck drivers and taxi operators, confront imminent job displacement as autonomous vehicles develop rapidly. Moreover, the benefits of automation concentrate disproportionately among technology companies and their shareholders, exacerbating income inequality. Workers lacking technical skills find themselves increasingly marginalized in modern labor markets, while retraining opportunities remain inadequate. This technological disruption threatens entire communities economically dependent on industries vulnerable to automation.\n\nIn conclusion, while AI adoption delivers productivity improvements and safety benefits, its negative impacts on employment and economic equality are profound. Governments must urgently implement comprehensive retraining programs and social policies to manage this transition and protect vulnerable workers from the adverse consequences of automation."
+        },
+        "analysis": {
+          "bandScore": {
+            "overall": "8.0",
+            "taskResponse": "8",
+            "coherenceCohesion": "8",
+            "lexicalResource": "8",
+            "grammaticalRange": "8"
+          },
+          "structure": "4 paragraphs (Intro + 2 Body + Conclusion)",
+          "strengths": [
+            "Balanced discussion of both advantages and disadvantages",
+            "Clear organization with strong topic sentences",
+            "Specific, relevant examples throughout",
+            "Wide range of vocabulary (prevalence, marginalized, exacerbating)",
+            "Complex sentence structures with varied grammar"
+          ]
+        },
+        "annotations": [
+          {
+            "highlight": "The growing prevalence of artificial intelligence in workplace automation...",
+            "technique": "Paraphrasing",
+            "explanation": "Transforms 'AI replacing workers' into sophisticated academic language using 'prevalence' and 'workplace automation'."
+          },
+          {
+            "highlight": "On the positive side... However, the disadvantages...",
+            "technique": "Clear Signposting",
+            "explanation": "Explicit transitions guide the examiner through balanced discussion of both perspectives."
+          },
+          {
+            "highlight": "For instance, manufacturing companies utilizing robotic assembly lines...",
+            "technique": "Specific Example with Detail",
+            "explanation": "Concrete example with specific industry and outcomes strengthens task response and demonstrates understanding."
+          },
+          {
+            "highlight": "Furthermore... Moreover...",
+            "technique": "Varied Cohesive Devices",
+            "explanation": "Different linking words demonstrate linguistic range and maintain coherence without repetition."
+          },
+          {
+            "highlight": "prevalence, marginalized, exacerbating, imminent",
+            "technique": "Less Common Vocabulary",
+            "explanation": "Academic vocabulary used naturally demonstrates strong lexical resource appropriate for Band 8."
+          },
+          {
+            "highlight": "Millions of workers in routine occupations face unemployment as AI systems replace their roles, creating economic hardship and social instability",
+            "technique": "Complex Sentence with Participial Phrase",
+            "explanation": "Sophisticated structure combining subordinate clause with participial phrase shows advanced grammatical control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment & Reflection",
+      "description": "Evaluate your performance",
+      "content": {
+        "criteria": [
+          {
+            "criterion": "task-response",
+            "title": "Task Response",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Fully addresses all parts of the task. Presents a fully developed position with relevant, extended and well supported ideas."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sufficiently addresses all parts of the task. Presents a well-developed response with relevant, extended and supported ideas."
+              },
+              {
+                "band": 7,
+                "descriptor": "Addresses all parts of the task. Presents a clear position. Main ideas are extended and supported but there may be over-generalisation."
+              }
+            ]
+          },
+          {
+            "criterion": "coherence-cohesion",
+            "title": "Coherence & Cohesion",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately."
+              },
+              {
+                "band": 7,
+                "descriptor": "Logically organises information and ideas. Uses a range of cohesive devices appropriately although there may be some under/over-use."
+              }
+            ]
+          }
+        ],
+        "overallAssessment": {
+          "strengths": {
+            "label": "What did you do well?",
+            "placeholder": "List 2-3 specific strengths. e.g., 'I provided balanced discussion', 'My examples were relevant', 'I used technology vocabulary well'..."
+          },
+          "areasForImprovement": {
+            "label": "What needs improvement?",
+            "placeholder": "Be honest about challenges. e.g., 'Need more complex sentences', 'Could provide more examples', 'Time management'..."
+          },
+          "actionPlan": {
+            "label": "What will you practice next?",
+            "placeholder": "Set concrete goals. e.g., 'Practice 5 more Advantages/Disadvantages questions', 'Learn 20 technology vocabulary words', 'Practice writing under timed conditions'..."
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IELTS Writing Task 2 Progressive Learning Schema v2",
+  "description": "6-step linear progression from vocabulary to complete essay",
+  "type": "object",
+  "required": ["id", "title", "question", "steps"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "category": {"type": "string"},
+    "difficulty": {"type": "string", "enum": ["Easy", "Medium", "Hard"]},
+    "question": {
+      "type": "object",
+      "required": ["text", "type"],
+      "properties": {
+        "text": {"type": "string"},
+        "type": {"type": "string", "enum": ["Opinion", "Discuss Both Views", "Advantages & Disadvantages", "Problem & Solution", "Two-Part Question"]},
+        "wordCountTarget": {"type": "number", "default": 270}
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["stepNumber", "title", "type", "content"],
+        "properties": {
+          "stepNumber": {"type": "integer", "minimum": 1, "maximum": 6},
+          "title": {"type": "string"},
+          "type": {"type": "string", "enum": ["analysis", "vocabulary", "exercises", "templates", "paragraphs", "essay"]},
+          "unlockCondition": {"type": "string"},
+          "completionCriteria": {"type": "string"},
+          "content": {"type": "object"}
+        }
+      }
+    },
+    "modelEssay": {
+      "type": "object",
+      "required": ["text", "wordCount", "structure"],
+      "properties": {
+        "text": {"type": "string"},
+        "wordCount": {"type": "integer"},
+        "structure": {
+          "type": "object",
+          "properties": {
+            "introduction": {"type": "string"},
+            "body1": {"type": "string"},
+            "body2": {"type": "string"},
+            "conclusion": {"type": "string"}
+          }
+        },
+        "highlights": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {"type": "string"},
+              "type": {"type": "string", "enum": ["academic-vocab", "linking-word", "example", "opinion-phrase"]},
+              "explanation": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "id": "smartphone-children",
+  "question": {
+    "text": "Many children now have their own smartphones. Discuss the advantages and disadvantages of children having smartphones.",
+    "type": "Advantages & Disadvantages",
+    "category": "Technology & Children",
+    "instructions": "Write at least 250 words",
+    "timeAllocation": {
+      "total": 40,
+      "planning": 10,
+      "writing": 25,
+      "checking": 5
+    }
+  },
+  "sections": [
+    {
+      "id": "question-analysis",
+      "title": "Question Analysis",
+      "description": "Understand what the question is asking",
+      "content": {
+        "questionType": {
+          "value": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH advantages AND disadvantages of children having smartphones equally."
+        },
+        "keyWords": [
+          {"word": "children", "importance": "high"},
+          {"word": "smartphones", "importance": "high"},
+          {"word": "advantages", "importance": "high"},
+          {"word": "disadvantages", "importance": "high"}
+        ],
+        "taskRequirements": [
+          "Discuss multiple advantages of children having smartphones",
+          "Discuss multiple disadvantages of children having smartphones",
+          "Provide specific examples for each point",
+          "Maintain a balanced discussion of both sides"
+        ],
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Being too emotional or judgmental",
+          "Forgetting to give concrete examples",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary-ideas",
+      "title": "Vocabulary & Ideas Bank",
+      "description": "Essential words and ideas for this topic",
+      "content": {
+        "topicVocabulary": [
+          {
+            "word": "supervision",
+            "pronunciation": "/ˌsuːpəˈvɪʒən/",
+            "partOfSpeech": "noun",
+            "definition": "The action of overseeing or monitoring someone or something",
+            "example": "Smartphones enable parents to maintain supervision of their children's whereabouts."
+          },
+          {
+            "word": "exposure",
+            "pronunciation": "/ɪkˈspəʊʒər/",
+            "partOfSpeech": "noun",
+            "definition": "The state of being subjected to something, especially something harmful",
+            "example": "Early smartphone access increases children's exposure to inappropriate content."
+          },
+          {
+            "word": "distraction",
+            "pronunciation": "/dɪˈstrækʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Something that prevents concentration or diverts attention",
+            "example": "Smartphones can be a significant distraction from homework and studies."
+          },
+          {
+            "word": "educational",
+            "pronunciation": "/ˌedʒuˈkeɪʃənəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Relating to education or providing knowledge",
+            "example": "Smartphones offer access to numerous educational apps and learning resources."
+          },
+          {
+            "word": "dependency",
+            "pronunciation": "/dɪˈpendənsi/",
+            "partOfSpeech": "noun",
+            "definition": "The state of relying on or being controlled by something",
+            "example": "Excessive smartphone use can lead to technology dependency in young children."
+          }
+        ],
+        "academicPhrases": {
+          "introduction": [
+            "The prevalence of smartphones among children has sparked considerable debate...",
+            "In recent years, smartphone ownership among young people has...",
+            "The trend of giving children mobile devices has raised questions about...",
+            "As smartphones become increasingly common among children..."
+          ],
+          "discussing": [
+            "One significant advantage is...",
+            "A primary benefit for children is...",
+            "From a safety perspective,",
+            "Smartphones can provide..."
+          ],
+          "contrasting": [
+            "However, there are serious drawbacks...",
+            "On the negative side,",
+            "Despite these advantages,",
+            "Conversely, smartphone access exposes children to..."
+          ],
+          "examples": [
+            "A clear illustration is...",
+            "This is evident in...",
+            "For example, research shows...",
+            "Studies have demonstrated that..."
+          ],
+          "opinion": [
+            "Overall, it is clear that...",
+            "The evidence suggests that...",
+            "Taking everything into account,",
+            "On balance,"
+          ]
+        },
+        "keyIdeas": [
+          {
+            "mainPoint": "Smartphones enhance child safety through location tracking and emergency communication",
+            "explanation": "Parents can monitor children's locations and children can contact help immediately in dangerous situations",
+            "example": "GPS tracking apps allow parents to ensure children arrive safely at school, while emergency calls provide security"
+          },
+          {
+            "mainPoint": "Excessive screen time harms physical and mental development",
+            "explanation": "Prolonged smartphone use reduces physical activity, disrupts sleep, and can cause anxiety and attention problems",
+            "example": "Pediatric studies link heavy smartphone use to childhood obesity, sleep disorders, and reduced social skills"
+          },
+          {
+            "mainPoint": "Educational apps provide valuable learning opportunities",
+            "explanation": "Smartphones offer access to educational content, language learning, and skill development tools",
+            "example": "Apps like Khan Academy and Duolingo enable children to learn mathematics and foreign languages independently"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainstorming",
+      "title": "Brainstorming Ideas",
+      "description": "Organize your thoughts before writing",
+      "content": {
+        "instruction": "Write down ideas for both advantages and disadvantages. Don't worry about perfect sentences yet.",
+        "brainstormTemplate": {
+          "advantages": {
+            "label": "Advantages of Children Having Smartphones",
+            "placeholder": "e.g., Safety, emergency contact, educational apps, learning resources, communication with parents, technology skills..."
+          },
+          "disadvantages": {
+            "label": "Disadvantages of Children Having Smartphones",
+            "placeholder": "e.g., Screen addiction, inappropriate content, cyberbullying, reduced physical activity, sleep problems, distraction from studies, social skills..."
+          },
+          "examples": {
+            "label": "Real-Life Examples",
+            "placeholder": "e.g., GPS tracking, educational apps, online safety issues, gaming addiction, social media problems, health impacts..."
+          },
+          "yourPosition": {
+            "label": "Your Overall View",
+            "options": [
+              "Advantages outweigh disadvantages",
+              "Disadvantages outweigh advantages",
+              "Both are equally significant",
+              "Depends on age and parental controls"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "essay-planning",
+      "title": "Essay Planning (Simon's Structure)",
+      "description": "Plan your 4-paragraph essay",
+      "content": {
+        "planStructure": {
+          "introduction": {
+            "sentence1": {
+              "label": "Sentence 1: Paraphrase the question",
+              "placeholder": "The prevalence of smartphone ownership among young people has increased dramatically in recent years..."
+            },
+            "sentence2": {
+              "label": "Sentence 2: State your position",
+              "placeholder": "While these devices offer certain benefits, they also present significant risks to child development..."
+            }
+          },
+          "bodyParagraph1": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Advantages of children having smartphones"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Smartphones enhance child safety through communication and tracking"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Parents can monitor locations and children can call for help in emergencies"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "GPS apps allow parents to verify children arrive safely at destinations"
+              },
+              {
+                "label": "Idea 4: Additional benefit",
+                "placeholder": "Educational apps provide access to learning resources and skill development"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These features offer genuine practical advantages for families"
+              }
+            ]
+          },
+          "bodyParagraph2": {
+            "theme": {
+              "label": "Main Theme",
+              "placeholder": "Disadvantages of children having smartphones"
+            },
+            "ideas": [
+              {
+                "label": "Idea 1: Main point",
+                "placeholder": "Excessive screen time seriously harms physical and mental development"
+              },
+              {
+                "label": "Idea 2: Development",
+                "placeholder": "Prolonged use reduces physical activity and disrupts sleep patterns"
+              },
+              {
+                "label": "Idea 3: Example",
+                "placeholder": "Studies link heavy smartphone use to childhood obesity and attention problems"
+              },
+              {
+                "label": "Idea 4: Additional problem",
+                "placeholder": "Children face exposure to inappropriate content and cyberbullying"
+              },
+              {
+                "label": "Idea 5: Conclusion",
+                "placeholder": "These risks can have lasting impacts on wellbeing and development"
+              }
+            ]
+          },
+          "conclusion": {
+            "sentence1": {
+              "label": "Sentence 1: Summary of both sides",
+              "placeholder": "While smartphones offer safety features and educational benefits, they pose significant health and developmental risks"
+            },
+            "sentence2": {
+              "label": "Sentence 2: Final thought",
+              "placeholder": "Parents must carefully implement strict usage limits and supervision to mitigate harmful effects"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "interactive-exercises",
+      "title": "Practice Exercises",
+      "description": "Build your skills with interactive exercises",
+      "content": {
+        "exercises": [
+          {
+            "type": "sentence-unscramble",
+            "title": "Exercise 1: Sentence Building",
+            "instruction": "Arrange these words to form correct sentences.",
+            "questions": [
+              {
+                "scrambledWords": ["smartphones", "enable", "parents", "to", "monitor", "children's", "locations"],
+                "correctAnswer": "Smartphones enable parents to monitor children's locations."
+              },
+              {
+                "scrambledWords": ["excessive", "screen time", "can", "harm", "child", "development"],
+                "correctAnswer": "Excessive screen time can harm child development."
+              }
+            ]
+          },
+          {
+            "type": "fill-in-the-blank",
+            "title": "Exercise 2: Vocabulary in Context",
+            "instruction": "Choose the correct word for each blank.",
+            "questions": [
+              {
+                "sentence": "Early smartphone access increases children's _____ to inappropriate content.",
+                "options": ["exposure", "expose", "exposed"],
+                "correctAnswer": "exposure"
+              },
+              {
+                "sentence": "Smartphones can provide access to _____ apps and learning resources.",
+                "options": ["educational", "education", "educate"],
+                "correctAnswer": "educational"
+              }
+            ]
+          },
+          {
+            "type": "complete-sentence",
+            "title": "Exercise 3: Using Academic Phrases",
+            "instruction": "Complete these sentences using the vocabulary provided.",
+            "questions": [
+              {
+                "stem": "One significant advantage of children having smartphones is...",
+                "vocabularyHints": ["safety", "supervision", "educational"],
+                "minimumWords": 15
+              },
+              {
+                "stem": "However, there are serious drawbacks such as...",
+                "vocabularyHints": ["exposure", "distraction", "dependency"],
+                "minimumWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "essay-writing",
+      "title": "Write Your Essay",
+      "description": "Write your full essay here (40 minutes)",
+      "content": {
+        "editor": {
+          "placeholder": "Start writing your essay here. Refer to your plan in Section 4.\n\nRemember:\n• 4 paragraphs (Introduction, Body 1, Body 2, Conclusion)\n• 250-280 words\n• Use formal academic style\n• Include examples\n• Balance both advantages and disadvantages",
+          "wordCountTarget": "250-280"
+        },
+        "guidancePanel": {
+          "title": "Writing Tips",
+          "tips": [
+            "Follow your plan from Section 4 - don't change structure midway",
+            "Use topic sentences to start each body paragraph",
+            "Include linking words (However, Furthermore, For instance)",
+            "Avoid contractions (don't → do not, can't → cannot)",
+            "Leave 5 minutes at the end to check for errors"
+          ]
+        }
+      }
+    },
+    {
+      "id": "essay-checking",
+      "title": "Check Your Essay",
+      "description": "Use this checklist to review your work",
+      "content": {
+        "checkingSteps": [
+          {
+            "step": 1,
+            "title": "Structure & Organization",
+            "items": [
+              {
+                "label": "Introduction clearly paraphrases the question (not copied)",
+                "tips": ["Use synonyms: children → young people, smartphones → mobile devices, advantages → benefits"]
+              },
+              {
+                "label": "Body paragraph 1 discusses advantages with clear topic sentence",
+                "tips": ["Topic sentence = first sentence stating main advantage"]
+              },
+              {
+                "label": "Body paragraph 2 discusses disadvantages equally",
+                "tips": ["Use transition: However, On the negative side, Despite these benefits"]
+              },
+              {
+                "label": "Conclusion summarizes both advantages and disadvantages",
+                "tips": ["Don't introduce new ideas in conclusion"]
+              },
+              {
+                "label": "Each paragraph is 4-6 sentences long",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "title": "Task Response",
+            "items": [
+              {
+                "label": "Both advantages and disadvantages are discussed equally",
+                "tips": ["Count sentences - both sides should have similar length"]
+              },
+              {
+                "label": "Multiple points provided for each side",
+                "tips": ["Aim for at least 2-3 points per side"]
+              },
+              {
+                "label": "Specific examples are provided",
+                "tips": ["Real examples like studies or specific apps are strongest"]
+              },
+              {
+                "label": "All parts of the question are fully addressed",
+                "tips": []
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "title": "Vocabulary & Grammar",
+            "items": [
+              {
+                "label": "No repeated words - synonyms used throughout",
+                "tips": ["children → young people, youngsters", "smartphones → mobile devices, handsets", "problems → issues, concerns"]
+              },
+              {
+                "label": "Topic vocabulary from Section 2 is used correctly",
+                "tips": []
+              },
+              {
+                "label": "Complex sentences are used (not all simple sentences)",
+                "tips": ["Use: who, which, that, although, while, because"]
+              },
+              {
+                "label": "Verb tenses are consistent and correct",
+                "tips": []
+              },
+              {
+                "label": "No spelling or punctuation errors",
+                "tips": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-answer",
+      "title": "Band 8 Model Answer",
+      "description": "Compare your essay with this high-band example",
+      "content": {
+        "essay": {
+          "wordCount": 273,
+          "fullEssay": "The prevalence of smartphone ownership among young people has increased dramatically in recent years, with devices now common even among elementary school children. While these mobile devices offer certain benefits related to safety and education, they also present significant risks to physical and psychological development.\n\nOn the positive side, smartphones enhance child safety through communication capabilities and location tracking features. Parents can monitor their children's whereabouts using GPS applications, providing peace of mind and security. Furthermore, children can contact parents or emergency services immediately if they encounter dangerous situations, something that would be impossible without mobile connectivity. Additionally, smartphones provide access to valuable educational resources, including learning apps, online libraries, and instructional videos. These tools enable children to explore subjects independently and develop digital literacy skills increasingly essential in modern society.\n\nHowever, the disadvantages of early smartphone access are substantial and well-documented. Excessive screen time significantly harms physical development, reducing opportunities for outdoor play and exercise while contributing to rising childhood obesity rates. Moreover, prolonged device usage disrupts sleep patterns, which are crucial for growing children. The psychological impacts are equally concerning, with research linking heavy smartphone use to attention deficit problems, anxiety, and reduced social skills. Children also face exposure to age-inappropriate content and cyberbullying, issues that parents struggle to monitor effectively despite supervision efforts. Furthermore, smartphones create constant distractions from homework and face-to-face interactions, potentially impeding academic performance and family relationships.\n\nIn conclusion, while smartphones offer genuine advantages in terms of safety and learning access, their negative effects on child health and development are significant. Parents must implement strict usage limits, appropriate content filters, and active supervision to mitigate these risks effectively."
+        },
+        "analysis": {
+          "bandScore": {
+            "overall": "8.0",
+            "taskResponse": "8",
+            "coherenceCohesion": "8",
+            "lexicalResource": "8",
+            "grammaticalRange": "8"
+          },
+          "structure": "4 paragraphs (Intro + 2 Body + Conclusion)",
+          "strengths": [
+            "Balanced discussion of both advantages and disadvantages",
+            "Clear organization with strong topic sentences",
+            "Specific, relevant examples throughout",
+            "Wide range of vocabulary (prevalence, whereabouts, well-documented)",
+            "Complex sentence structures with varied grammar"
+          ]
+        },
+        "annotations": [
+          {
+            "highlight": "The prevalence of smartphone ownership among young people...",
+            "technique": "Paraphrasing",
+            "explanation": "Transforms 'many children have smartphones' into sophisticated academic language using 'prevalence' and 'ownership'."
+          },
+          {
+            "highlight": "On the positive side... However, the disadvantages...",
+            "technique": "Clear Signposting",
+            "explanation": "Explicit transitions guide the examiner through balanced discussion of both perspectives."
+          },
+          {
+            "highlight": "research linking heavy smartphone use to attention deficit problems, anxiety, and reduced social skills",
+            "technique": "Specific Example with Detail",
+            "explanation": "References research evidence with specific consequences, strengthening task response and credibility."
+          },
+          {
+            "highlight": "Furthermore... Additionally... Moreover...",
+            "technique": "Varied Cohesive Devices",
+            "explanation": "Different linking words demonstrate linguistic range and maintain coherence without repetition."
+          },
+          {
+            "highlight": "prevalence, whereabouts, well-documented, mitigate",
+            "technique": "Less Common Vocabulary",
+            "explanation": "Academic vocabulary used naturally demonstrates strong lexical resource appropriate for Band 8."
+          },
+          {
+            "highlight": "issues that parents struggle to monitor effectively despite supervision efforts",
+            "technique": "Relative Clause with Complex Structure",
+            "explanation": "Sophisticated grammar combining relative pronoun 'that' with concessive phrase 'despite' shows advanced control."
+          }
+        ]
+      }
+    },
+    {
+      "id": "self-assessment",
+      "title": "Self-Assessment & Reflection",
+      "description": "Evaluate your performance",
+      "content": {
+        "criteria": [
+          {
+            "criterion": "task-response",
+            "title": "Task Response",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Fully addresses all parts of the task. Presents a fully developed position with relevant, extended and well supported ideas."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sufficiently addresses all parts of the task. Presents a well-developed response with relevant, extended and supported ideas."
+              },
+              {
+                "band": 7,
+                "descriptor": "Addresses all parts of the task. Presents a clear position. Main ideas are extended and supported but there may be over-generalisation."
+              }
+            ]
+          },
+          {
+            "criterion": "coherence-cohesion",
+            "title": "Coherence & Cohesion",
+            "weight": "25%",
+            "bandDescriptors": [
+              {
+                "band": 9,
+                "descriptor": "Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing."
+              },
+              {
+                "band": 8,
+                "descriptor": "Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately."
+              },
+              {
+                "band": 7,
+                "descriptor": "Logically organises information and ideas. Uses a range of cohesive devices appropriately although there may be some under/over-use."
+              }
+            ]
+          }
+        ],
+        "overallAssessment": {
+          "strengths": {
+            "label": "What did you do well?",
+            "placeholder": "List 2-3 specific strengths. e.g., 'I provided balanced discussion', 'My examples were relevant', 'I used technology vocabulary well'..."
+          },
+          "areasForImprovement": {
+            "label": "What needs improvement?",
+            "placeholder": "Be honest about challenges. e.g., 'Need more complex sentences', 'Could provide more examples', 'Time management'..."
+          },
+          "actionPlan": {
+            "label": "What will you practice next?",
+            "placeholder": "Set concrete goals. e.g., 'Practice 5 more Advantages/Disadvantages questions', 'Learn 20 technology vocabulary words', 'Practice writing under timed conditions'..."
+          }
+        }
+      }
+    }
+  ]
+}

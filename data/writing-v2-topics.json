@@ -1,0 +1,94 @@
+{
+  "topics": [
+    {
+      "id": "remote-work",
+      "title": "Remote Work vs Office Work",
+      "category": "Work & Employment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-remote-work.json",
+      "unlocked": true
+    },
+    {
+      "id": "online-education",
+      "title": "Online Education",
+      "category": "Education & Technology",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-online-education.json",
+      "unlocked": false
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media Impact",
+      "category": "Technology & Society",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-social-media.json",
+      "unlocked": false
+    },
+    {
+      "id": "environment",
+      "title": "Environmental Responsibility",
+      "category": "Environment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-environment.json",
+      "unlocked": false
+    },
+    {
+      "id": "gap-year",
+      "title": "Gap Year Before University",
+      "category": "Education",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Easy",
+      "file": "data/writing-v2-gap-year.json",
+      "unlocked": false
+    },
+    {
+      "id": "public-transport",
+      "title": "Public Transport Investment",
+      "category": "Infrastructure",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-public-transport.json",
+      "unlocked": false
+    },
+    {
+      "id": "smartphone-children",
+      "title": "Smartphones for Children",
+      "category": "Technology & Family",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-smartphone-children.json",
+      "unlocked": false
+    },
+    {
+      "id": "city-life",
+      "title": "City vs Countryside Living",
+      "category": "Lifestyle",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Easy",
+      "file": "data/writing-v2-city-life.json",
+      "unlocked": false
+    },
+    {
+      "id": "university-subjects",
+      "title": "University Subject Choice",
+      "category": "Education",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-university-subjects.json",
+      "unlocked": false
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "AI in the Workplace",
+      "category": "Technology & Work",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-artificial-intelligence.json",
+      "unlocked": false
+    }
+  ]
+}

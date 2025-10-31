@@ -1,0 +1,84 @@
+{
+  "topics": [
+    {
+      "id": "remote-work",
+      "title": "Remote Work vs Office Work",
+      "category": "Work & Employment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-remote-work.json"
+    },
+    {
+      "id": "online-education",
+      "title": "Online Education vs Traditional Learning",
+      "category": "Education",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-online-education.json"
+    },
+    {
+      "id": "social-media-impact",
+      "title": "Social Media Impact on Society",
+      "category": "Technology & Society",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-social-media.json"
+    },
+    {
+      "id": "environmental-protection",
+      "title": "Individual vs Government Environmental Responsibility",
+      "category": "Environment",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Hard",
+      "file": "data/writing-task2-environment.json"
+    },
+    {
+      "id": "gap-year",
+      "title": "Gap Year Before University",
+      "category": "Education",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Easy",
+      "file": "data/writing-task2-gap-year.json"
+    },
+    {
+      "id": "public-transport",
+      "title": "Investing in Public Transport vs Roads",
+      "category": "Infrastructure",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-public-transport.json"
+    },
+    {
+      "id": "smartphone-children",
+      "title": "Smartphones for Children",
+      "category": "Technology & Family",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-smartphone-children.json"
+    },
+    {
+      "id": "city-life",
+      "title": "Living in Cities vs Countryside",
+      "category": "Lifestyle",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Easy",
+      "file": "data/writing-task2-city-life.json"
+    },
+    {
+      "id": "university-subjects",
+      "title": "Choosing University Subjects Freely vs Job-Oriented",
+      "category": "Education",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-task2-university-subjects.json"
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "Artificial Intelligence in the Workplace",
+      "category": "Technology & Work",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Hard",
+      "file": "data/writing-task2-artificial-intelligence.json"
+    }
+  ]
+}
