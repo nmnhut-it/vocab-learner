@@ -16,8 +16,16 @@ let topicProgress = {
     completedSteps: [],
     paragraphData: {},
     essayText: '',
-    exerciseResults: {}
+    exerciseResults: {},
+    timeSpent: {},
+    startTime: null,
+    sessionId: ''
 };
+
+// Telegram & Student Session
+let telegramSender = null;
+let studentSession = null;
+let cameraStream = null;
 
 //===========================================
 // INITIALIZATION
@@ -25,6 +33,9 @@ let topicProgress = {
 
 window.addEventListener('load', async () => {
     console.log('Loading IELTS Writing v2...');
+
+    // Initialize student session and Telegram
+    await initializeStudentSession();
 
     await loadTopics();
     loadTopicsUnlockState(); // Restore unlocked topics
@@ -132,13 +143,19 @@ function saveTopicProgress() {
     localStorage.setItem(`${STORAGE_PROGRESS}_${currentTopic.id}`, JSON.stringify(topicProgress));
 }
 
-function markStepComplete(stepNumber) {
+async function markStepComplete(stepNumber) {
     if (!topicProgress.completedSteps.includes(stepNumber)) {
         topicProgress.completedSteps.push(stepNumber);
     }
 
+    // Send essay submission notification when Step 6 completes
+    if (stepNumber === 6) {
+        await sendEssaySubmissionToTelegram();
+    }
+
     // If all steps completed, unlock next topic
     if (topicProgress.completedSteps.length === 6) {
+        await sendTopicCompletionToTelegram(currentTopic.id);
         unlockNextTopic();
     }
 
@@ -373,13 +390,13 @@ function renderVocabularyStep(step, container) {
 
 // Continue in next file due to length...
 
-function completeStep(stepNumber) {
+async function completeStep(stepNumber) {
     // Check completion criteria
     const step = currentTopic.steps.find(s => s.stepNumber === stepNumber);
 
     // Steps 1, 2, 4 auto-complete on "Next" click
     if ([1, 2, 4].includes(stepNumber)) {
-        markStepComplete(stepNumber);
+        await markStepComplete(stepNumber);
         if (stepNumber < 6) {
             navigateToStep(stepNumber + 1);
         }
@@ -390,7 +407,7 @@ function completeStep(stepNumber) {
     if (stepNumber === 3) {
         const correctCount = Object.values(topicProgress.exerciseResults).filter(r => r.correct).length;
         if (correctCount >= 12) {
-            markStepComplete(stepNumber);
+            await markStepComplete(stepNumber);
             navigateToStep(4);
         } else {
             alert(`Complete at least 12/15 exercises correctly. Current: ${correctCount}/15`);
@@ -402,7 +419,7 @@ function completeStep(stepNumber) {
     if (stepNumber === 5) {
         const allFilled = checkAllParagraphsFilled();
         if (allFilled) {
-            markStepComplete(stepNumber);
+            await markStepComplete(stepNumber);
             navigateToStep(6);
         } else {
             alert('Please fill in all blanks (minimum 10 words each).');
@@ -414,7 +431,7 @@ function completeStep(stepNumber) {
     if (stepNumber === 6) {
         const wordCount = topicProgress.essayText.trim().split(/\s+/).length;
         if (wordCount >= 250) {
-            markStepComplete(stepNumber);
+            await markStepComplete(stepNumber);
             showComparisonView();
         } else {
             alert(`Your essay must be at least 250 words. Current: ${wordCount} words`);
@@ -1089,5 +1106,255 @@ function completeTopicAndGoNext() {
                 <p style="color: var(--color-text-light);">Great job! Select any topic to practice again.</p>
             </div>
         `;
+
+        // Send milestone notification
+        await sendAllTopicsCompletedToTelegram();
     }
+}
+
+//===========================================
+// STUDENT SESSION & TELEGRAM INTEGRATION
+//===========================================
+
+async function initializeStudentSession() {
+    try {
+        studentSession = new StudentSession();
+
+        if (!studentSession.hasActiveSession()) {
+            await showStudentLoginModal();
+        } else {
+            // Show student name in top bar
+            updateTopBarWithStudentName();
+        }
+
+        // Initialize Telegram
+        if (typeof TELEGRAM_BOT_TOKEN !== 'undefined' && typeof TELEGRAM_CHAT_ID !== 'undefined') {
+            telegramSender = new TelegramSender(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID);
+        } else {
+            console.warn('Telegram credentials not found');
+        }
+    } catch (error) {
+        console.error('Failed to initialize student session:', error);
+    }
+}
+
+function showStudentLoginModal() {
+    return new Promise((resolve) => {
+        const modal = document.getElementById('studentLoginModal');
+        modal.style.display = 'flex';
+
+        // Store resolve function for later use
+        window.resolveStudentLogin = resolve;
+    });
+}
+
+async function startCamera() {
+    try {
+        const video = document.getElementById('cameraPreview');
+        const startBtn = document.getElementById('startCameraBtn');
+        const captureBtn = document.getElementById('capturePhotoBtn');
+
+        cameraStream = await navigator.mediaDevices.getUserMedia({ video: true });
+        video.srcObject = cameraStream;
+        video.style.display = 'block';
+        startBtn.style.display = 'none';
+        captureBtn.style.display = 'block';
+    } catch (error) {
+        console.error('Camera error:', error);
+        alert('Could not access camera. You can continue without a photo.');
+    }
+}
+
+function capturePhoto() {
+    const video = document.getElementById('cameraPreview');
+    const canvas = document.getElementById('photoCanvas');
+    const img = document.getElementById('capturedPhoto');
+    const captureBtn = document.getElementById('capturePhotoBtn');
+
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    canvas.getContext('2d').drawImage(video, 0, 0);
+
+    const photoDataUrl = canvas.toDataURL('image/jpeg');
+    img.src = photoDataUrl;
+    img.style.display = 'block';
+    video.style.display = 'none';
+    captureBtn.textContent = '✓ Photo Captured';
+    captureBtn.disabled = true;
+
+    // Stop camera
+    if (cameraStream) {
+        cameraStream.getTracks().forEach(track => track.stop());
+    }
+}
+
+async function startPracticeSession() {
+    const nameInput = document.getElementById('studentName');
+    const studentName = nameInput.value.trim();
+
+    if (!studentName) {
+        alert('Please enter your name');
+        return;
+    }
+
+    const photoImg = document.getElementById('capturedPhoto');
+    const photoDataUrl = photoImg.style.display === 'block' ? photoImg.src : null;
+
+    // Create session
+    studentSession.startSession(studentName, photoDataUrl);
+
+    // Hide modal
+    document.getElementById('studentLoginModal').style.display = 'none';
+
+    // Update UI
+    updateTopBarWithStudentName();
+
+    // Send session start notification
+    await sendSessionStartToTelegram();
+
+    // Resolve promise
+    if (window.resolveStudentLogin) {
+        window.resolveStudentLogin();
+    }
+}
+
+function updateTopBarWithStudentName() {
+    const session = studentSession.getSession();
+    if (session && session.name) {
+        const title = document.getElementById('pageTitle');
+        title.textContent = `IELTS Writing Task 2 - ${session.name}`;
+    }
+}
+
+async function sendSessionStartToTelegram() {
+    if (!telegramSender || !studentSession) return;
+
+    try {
+        const session = studentSession.getSession();
+        const now = new Date();
+
+        const message = `📝 <b>IELTS Writing Practice Started</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📚 Module: Writing Task 2 - Progressive Learning\n` +
+                       `🕐 Time: ${now.toLocaleString()}\n` +
+                       `🆔 Session: ${session.sessionId}`;
+
+        await telegramSender.sendTextMessage(message);
+
+        // Send photo if available
+        if (session.photoDataUrl) {
+            await telegramSender.sendPhoto(
+                dataURLtoBlob(session.photoDataUrl),
+                `Student: ${session.name}`,
+                `${session.name}_session.jpg`
+            );
+        }
+
+        console.log('Session start notification sent');
+    } catch (error) {
+        console.error('Failed to send session start notification:', error);
+    }
+}
+
+async function sendTopicCompletionToTelegram(topicId) {
+    if (!telegramSender || !studentSession) return;
+
+    try {
+        const session = studentSession.getSession();
+        const topic = topics.find(t => t.id === topicId);
+        const progress = topicProgress;
+
+        const correctCount = Object.values(progress.exerciseResults || {}).filter(r => r.correct).length;
+        const essayWordCount = (progress.essayText || '').trim().split(/\s+/).filter(w => w).length;
+
+        const message = `✅ <b>Topic Completed!</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📝 Topic: ${topic.title}\n` +
+                       `✓ Steps: ${progress.completedSteps.length}/6\n` +
+                       `📊 Exercises: ${correctCount}/48 correct\n` +
+                       `📄 Essay: ${essayWordCount} words\n` +
+                       `🆔 Session: ${session.sessionId}`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log('Topic completion notification sent');
+    } catch (error) {
+        console.error('Failed to send topic completion notification:', error);
+    }
+}
+
+async function sendEssaySubmissionToTelegram() {
+    if (!telegramSender || !studentSession || !currentTopic) return;
+
+    try {
+        const session = studentSession.getSession();
+        const essay = topicProgress.essayText || '';
+        const wordCount = essay.trim().split(/\s+/).filter(w => w).length;
+
+        // Count sentences from sentence bank used
+        const sentenceResults = Object.values(topicProgress.exerciseResults || {}).filter(r => r.correct);
+
+        const message = `📄 <b>Essay Submitted</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📝 Topic: ${currentTopic.title}\n` +
+                       `📊 Word count: ${wordCount} words\n` +
+                       `✓ Exercises completed: ${sentenceResults.length}\n` +
+                       `🆔 Session: ${session.sessionId}\n\n` +
+                       `<b>Essay:</b>\n${essay}`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log('Essay submission notification sent');
+    } catch (error) {
+        console.error('Failed to send essay submission notification:', error);
+    }
+}
+
+async function sendAllTopicsCompletedToTelegram() {
+    if (!telegramSender || !studentSession) return;
+
+    try {
+        const session = studentSession.getSession();
+
+        // Count total completed topics
+        let totalCompleted = 0;
+        let totalExercises = 0;
+
+        topics.forEach(topic => {
+            const saved = localStorage.getItem(`${STORAGE_PROGRESS}_${topic.id}`);
+            if (saved) {
+                const progress = JSON.parse(saved);
+                if (progress.completedSteps && progress.completedSteps.length === 6) {
+                    totalCompleted++;
+                }
+                if (progress.exerciseResults) {
+                    totalExercises += Object.values(progress.exerciseResults).filter(r => r.correct).length;
+                }
+            }
+        });
+
+        const message = `🎉 <b>ALL TOPICS COMPLETED!</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `✅ Total topics: ${totalCompleted}/10\n` +
+                       `📊 Total exercises: ${totalExercises}\n` +
+                       `📄 Total essays: ${totalCompleted}\n` +
+                       `🆔 Session: ${session.sessionId}\n\n` +
+                       `Congratulations on completing all Writing Task 2 topics! 🎓`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log('All topics completed notification sent');
+    } catch (error) {
+        console.error('Failed to send milestone notification:', error);
+    }
+}
+
+// Utility function to convert dataURL to Blob
+function dataURLtoBlob(dataURL) {
+    const arr = dataURL.split(',');
+    const mime = arr[0].match(/:(.*?);/)[1];
+    const bstr = atob(arr[1]);
+    let n = bstr.length;
+    const u8arr = new Uint8Array(n);
+    while (n--) {
+        u8arr[n] = bstr.charCodeAt(n);
+    }
+    return new Blob([u8arr], { type: mime });
 }
