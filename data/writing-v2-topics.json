@@ -143,6 +143,15 @@
       "difficulty": "Medium",
       "file": "data/writing-v2-elderly-care.json",
       "unlocked": false
+    },
+    {
+      "id": "online-shopping",
+      "title": "Online Shopping vs Traditional Retail",
+      "category": "Lifestyle",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-online-shopping.json",
+      "unlocked": true
     }
   ]
 }
