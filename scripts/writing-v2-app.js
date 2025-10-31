@@ -1122,7 +1122,7 @@ function getNextTopicButton() {
     }
 }
 
-function completeTopicAndGoNext() {
+async function completeTopicAndGoNext() {
     const currentIndex = topics.findIndex(t => t.id === currentTopic.id);
 
     if (currentIndex < topics.length - 1) {
