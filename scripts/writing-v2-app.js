@@ -449,9 +449,9 @@ function renderExercisesStep(step, container) {
         `).join('')}
 
         <!-- Sentence Bank -->
-        <div style="margin: 3rem 0; padding: 2rem; background: var(--color-bg-light); border-radius: 0.5rem;">
+        <div style="margin: 3rem 0; padding-top: 2rem; border-top: 2px solid var(--color-border);">
             <h3 style="margin-bottom: 1rem;">✓ Your Completed Sentences</h3>
-            <p style="color: var(--color-text-light); margin-bottom: 1rem; font-size: 0.875rem;">
+            <p style="color: var(--color-text-light); margin-bottom: 1.5rem; font-size: 0.875rem;">
                 Click any sentence to copy it for use in your essay (Step 6)
             </p>
             ${renderSentenceBank()}
@@ -570,10 +570,9 @@ function renderSentenceBank() {
                     </h4>
                     ${correctInSection.map(ex => `
                         <div onclick="copySentence('${ex.correctSentence}')"
-                             style="padding: 0.75rem; margin: 0.5rem 0; background: white; border-radius: 0.25rem;
-                                    cursor: pointer; transition: all 0.2s; border-left: 3px solid var(--step-completed);"
-                             onmouseover="this.style.background='#f0fdf4'"
-                             onmouseout="this.style.background='white'">
+                             style="padding: 0.75rem 0; margin: 0.5rem 0; cursor: pointer; border-bottom: 1px solid var(--color-border);"
+                             onmouseover="this.style.color='var(--color-accent)'"
+                             onmouseout="this.style.color=''">
                             <strong>${ex.correctSentence}</strong>
                             <br><small style="color: var(--color-text-light);">
                                 📋 Click to copy • Use in: <em>${ex.usableIn}</em>
