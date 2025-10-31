@@ -89,6 +89,15 @@
       "difficulty": "Hard",
       "file": "data/writing-v2-artificial-intelligence.json",
       "unlocked": false
+    },
+    {
+      "id": "fast-food-health",
+      "title": "Fast Food & Health",
+      "category": "Health & Lifestyle",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-fast-food-health.json",
+      "unlocked": false
     }
   ]
 }

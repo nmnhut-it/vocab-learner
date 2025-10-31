@@ -1,0 +1,1027 @@
+{
+  "id": "fast-food-health",
+  "title": "Fast Food & Health",
+  "category": "Health & Lifestyle",
+  "difficulty": "Medium",
+  "question": {
+    "text": "The consumption of fast food has increased dramatically in recent years. What are the advantages and disadvantages of this trend?",
+    "type": "Advantages & Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages & Disadvantages",
+          "explanation": "You must discuss BOTH advantages and disadvantages of increased fast food consumption, then give your clear opinion about whether the advantages outweigh the disadvantages or vice versa.",
+          "requirements": [
+            "Discuss advantages of fast food consumption",
+            "Discuss disadvantages of fast food consumption",
+            "Give your clear personal opinion on which side is stronger",
+            "Provide specific examples for both advantages and disadvantages"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "consumption",
+            "definition": "The act of eating or using something",
+            "importance": "This is about how much fast food people eat, not just availability"
+          },
+          {
+            "word": "fast food",
+            "definition": "Ready-made meals prepared quickly in restaurants like McDonald's",
+            "importance": "This is the main topic - be specific about what fast food means"
+          },
+          {
+            "word": "increased dramatically",
+            "definition": "Grown significantly or rapidly",
+            "importance": "Shows this is a recent and significant trend"
+          },
+          {
+            "word": "advantages",
+            "definition": "Positive aspects or benefits",
+            "importance": "You MUST discuss the good sides of fast food consumption"
+          },
+          {
+            "word": "disadvantages",
+            "definition": "Negative aspects or drawbacks",
+            "importance": "You MUST discuss the bad sides of fast food consumption"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion on whether advantages outweigh disadvantages",
+          "body1": "4-5 sentences: Discuss advantages (convenience, affordability, time-saving)",
+          "body2": "4-5 sentences: Discuss disadvantages (health problems, nutrition issues)",
+          "conclusion": "2 sentences: Summarize both sides + restate opinion clearly"
+        },
+        "commonMistakes": [
+          "Only discussing disadvantages (health) and ignoring advantages",
+          "Being too neutral - you must take a clear position",
+          "Forgetting to give concrete examples and statistics",
+          "Copying words directly from the question",
+          "Writing only about fast food restaurants instead of consumption patterns"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "convenience",
+            "pronunciation": "/kənˈviːniəns/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being easy to use or suitable for one's purposes",
+            "example": "Fast food offers convenience for people with busy schedules.",
+            "synonyms": ["ease", "accessibility", "simplicity"]
+          },
+          {
+            "word": "prevalence",
+            "pronunciation": "/ˈprevələns/",
+            "partOfSpeech": "noun",
+            "definition": "The fact of being widespread or common",
+            "example": "The prevalence of fast food restaurants has grown in urban areas.",
+            "synonyms": ["widespread occurrence", "commonness", "frequency"]
+          },
+          {
+            "word": "detrimental",
+            "pronunciation": "/ˌdetrɪˈmentl/",
+            "partOfSpeech": "adjective",
+            "definition": "Causing harm or damage",
+            "example": "Excessive fast food consumption can be detrimental to health.",
+            "synonyms": ["harmful", "damaging", "adverse"]
+          },
+          {
+            "word": "affordable",
+            "pronunciation": "/əˈfɔːrdəbl/",
+            "partOfSpeech": "adjective",
+            "definition": "Inexpensive; within one's financial means",
+            "example": "Fast food is affordable for low-income families.",
+            "synonyms": ["reasonably priced", "economical", "budget-friendly"]
+          },
+          {
+            "word": "nutritional",
+            "pronunciation": "/njuːˈtrɪʃənl/",
+            "partOfSpeech": "adjective",
+            "definition": "Relating to the process of providing food necessary for health",
+            "example": "Fast food typically has poor nutritional value.",
+            "synonyms": ["dietary", "nourishing"]
+          },
+          {
+            "word": "contribute",
+            "pronunciation": "/kənˈtrɪbjuːt/",
+            "partOfSpeech": "verb",
+            "definition": "To help cause or bring about",
+            "example": "Fast food consumption contributes to rising obesity rates.",
+            "synonyms": ["lead to", "result in", "cause"]
+          },
+          {
+            "word": "accessible",
+            "pronunciation": "/əkˈsesəbl/",
+            "partOfSpeech": "adjective",
+            "definition": "Easy to obtain or use",
+            "example": "Fast food chains are highly accessible in most cities.",
+            "synonyms": ["available", "obtainable", "convenient"]
+          },
+          {
+            "word": "substantial",
+            "pronunciation": "/səbˈstænʃəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Of considerable importance or size",
+            "example": "Fast food consumption poses substantial health risks.",
+            "synonyms": ["significant", "considerable", "major"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "dietary habits",
+            "definition": "Regular patterns of eating behavior",
+            "example": "Fast food has dramatically changed people's dietary habits."
+          },
+          {
+            "phrase": "time-constrained individuals",
+            "definition": "People with limited time due to busy schedules",
+            "example": "Fast food is particularly appealing to time-constrained individuals."
+          },
+          {
+            "phrase": "caloric intake",
+            "definition": "The amount of energy consumed through food",
+            "example": "Excessive fast food increases daily caloric intake significantly."
+          },
+          {
+            "phrase": "chronic diseases",
+            "definition": "Long-term health conditions like diabetes and heart disease",
+            "example": "Regular fast food consumption increases the risk of chronic diseases."
+          },
+          {
+            "phrase": "processed ingredients",
+            "definition": "Food components that have been chemically altered",
+            "example": "Fast food contains high levels of processed ingredients."
+          },
+          {
+            "phrase": "portion sizes",
+            "definition": "The amount of food served in one meal",
+            "example": "Fast food restaurants often serve excessive portion sizes."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["In recent years", "It is undeniable that", "The rise of", "There is growing concern about"],
+          "contrasting": ["On the one hand", "On the other hand", "However", "Nevertheless", "In contrast"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
+          "exemplifying": ["For instance", "For example", "Particularly", "Specifically", "Such as"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "On balance", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state the trend and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While _____ offers _____, the disadvantages _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["fast food consumption", "cooking at home", "healthy eating"], "correctAnswer": "fast food consumption"},
+                  {"id": "thesis1_b2", "options": ["certain advantages in terms of convenience and affordability", "better nutrition", "more expensive options"], "correctAnswer": "certain advantages in terms of convenience and affordability"},
+                  {"id": "thesis1_b3", "options": ["related to health problems clearly outweigh the benefits", "are not important", "might exist"], "correctAnswer": "related to health problems clearly outweigh the benefits"}
+                ],
+                "correctSentence": "While fast food consumption offers certain advantages in terms of convenience and affordability, the disadvantages related to health problems clearly outweigh the benefits.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, the _____ of increased fast food consumption _____ because _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["disadvantages", "advantages", "benefits"], "correctAnswer": "disadvantages"},
+                  {"id": "thesis2_b2", "options": ["far outweigh the advantages", "are not significant", "are beneficial"], "correctAnswer": "far outweigh the advantages"},
+                  {"id": "thesis2_b3", "options": ["health consequences are severe and long-lasting", "it tastes good", "people enjoy it"], "correctAnswer": "health consequences are severe and long-lasting"}
+                ],
+                "correctSentence": "In my opinion, the disadvantages of increased fast food consumption far outweigh the advantages because health consequences are severe and long-lasting.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "Although _____ provides _____, I believe _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["the growing popularity of fast food", "home cooking", "organic food"], "correctAnswer": "the growing popularity of fast food"},
+                  {"id": "thesis3_b2", "options": ["undeniable convenience for busy lifestyles", "better nutrition", "higher prices"], "correctAnswer": "undeniable convenience for busy lifestyles"},
+                  {"id": "thesis3_b3", "options": ["its negative health impacts are more significant", "everyone should eat it", "it is always good"], "correctAnswer": "its negative health impacts are more significant"}
+                ],
+                "correctSentence": "Although the growing popularity of fast food provides undeniable convenience for busy lifestyles, I believe its negative health impacts are more significant.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "This essay will discuss _____ before concluding that _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["both the benefits and drawbacks of this trend", "only the advantages", "only the disadvantages"], "correctAnswer": "both the benefits and drawbacks of this trend"},
+                  {"id": "thesis4_b2", "options": ["the negative health effects are more concerning", "fast food is perfect", "everyone should eat more fast food"], "correctAnswer": "the negative health effects are more concerning"}
+                ],
+                "correctSentence": "This essay will discuss both the benefits and drawbacks of this trend before concluding that the negative health effects are more concerning.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "From my perspective, _____ despite _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["the drawbacks of fast food consumption significantly outweigh the advantages", "fast food is always good", "cooking is better"], "correctAnswer": "the drawbacks of fast food consumption significantly outweigh the advantages"},
+                  {"id": "thesis5_b2", "options": ["the convenience and affordability it offers to modern consumers", "being delicious", "being popular"], "correctAnswer": "the convenience and affordability it offers to modern consumers"}
+                ],
+                "correctSentence": "From my perspective, the drawbacks of fast food consumption significantly outweigh the advantages despite the convenience and affordability it offers to modern consumers.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ offers _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["the rise in fast food consumption", "home cooking", "organic food"], "correctAnswer": "the rise in fast food consumption"},
+                  {"id": "topic1_b2", "options": ["several practical advantages for modern consumers", "no benefits", "health improvements"], "correctAnswer": "several practical advantages for modern consumers"}
+                ],
+                "correctSentence": "On the one hand, the rise in fast food consumption offers several practical advantages for modern consumers.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ presents _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["increased fast food consumption", "healthy eating", "organic food"], "correctAnswer": "increased fast food consumption"},
+                  {"id": "topic2_b2", "options": ["substantial health risks that cannot be ignored", "no problems", "many benefits"], "correctAnswer": "substantial health risks that cannot be ignored"}
+                ],
+                "correctSentence": "On the other hand, increased fast food consumption presents substantial health risks that cannot be ignored.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "One significant advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["fast food", "home cooking", "expensive restaurants"], "correctAnswer": "fast food"},
+                  {"id": "topic3_b2", "options": ["its convenience for time-constrained individuals", "perfect nutrition", "higher cost"], "correctAnswer": "its convenience for time-constrained individuals"}
+                ],
+                "correctSentence": "One significant advantage of fast food is its convenience for time-constrained individuals.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A major drawback of _____ is _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["regular fast food consumption", "healthy eating", "cooking at home"], "correctAnswer": "regular fast food consumption"},
+                  {"id": "topic4_b2", "options": ["its detrimental impact on public health", "better taste", "lower prices"], "correctAnswer": "its detrimental impact on public health"}
+                ],
+                "correctSentence": "A major drawback of regular fast food consumption is its detrimental impact on public health.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "_____ argue that fast food provides _____ for _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["Proponents", "Critics", "Doctors"], "correctAnswer": "Proponents"},
+                  {"id": "topic5_b2", "options": ["an affordable meal option", "perfect health", "weight loss"], "correctAnswer": "an affordable meal option"},
+                  {"id": "topic5_b3", "options": ["low-income families and budget-conscious consumers", "wealthy people", "athletes"], "correctAnswer": "low-income families and budget-conscious consumers"}
+                ],
+                "correctSentence": "Proponents argue that fast food provides an affordable meal option for low-income families and budget-conscious consumers.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "_____ contend that _____ contributes to _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["Health experts", "Restaurant owners", "Teenagers"], "correctAnswer": "Health experts"},
+                  {"id": "topic6_b2", "options": ["excessive fast food consumption", "healthy eating", "exercise"], "correctAnswer": "excessive fast food consumption"},
+                  {"id": "topic6_b3", "options": ["rising obesity and chronic disease rates", "better health", "weight loss"], "correctAnswer": "rising obesity and chronic disease rates"}
+                ],
+                "correctSentence": "Health experts contend that excessive fast food consumption contributes to rising obesity and chronic disease rates.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The primary benefit of _____ is _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["readily available fast food", "home cooking", "organic meals"], "correctAnswer": "readily available fast food"},
+                  {"id": "topic7_b2", "options": ["the time it saves for working professionals", "perfect nutrition", "weight gain"], "correctAnswer": "the time it saves for working professionals"}
+                ],
+                "correctSentence": "The primary benefit of readily available fast food is the time it saves for working professionals.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Perhaps the most concerning aspect of _____ is _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["this dietary trend", "healthy eating", "exercise"], "correctAnswer": "this dietary trend"},
+                  {"id": "topic8_b2", "options": ["its long-term health consequences", "better taste", "lower cost"], "correctAnswer": "its long-term health consequences"}
+                ],
+                "correctSentence": "Perhaps the most concerning aspect of this dietary trend is its long-term health consequences.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ enables people to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["fast food availability", "home cooking", "expensive dining"], "correctAnswer": "fast food availability"},
+                  {"id": "support1_b2", "options": ["obtain meals quickly without spending time cooking", "gain weight rapidly", "lose money"], "correctAnswer": "obtain meals quickly without spending time cooking"}
+                ],
+                "correctSentence": "This is because fast food availability enables people to obtain meals quickly without spending time cooking.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["frequent consumption of fast food", "healthy eating", "regular exercise"], "correctAnswer": "frequent consumption of fast food"},
+                  {"id": "support2_b2", "options": ["excessive intake of calories, salt, and unhealthy fats", "perfect health", "weight loss"], "correctAnswer": "excessive intake of calories, salt, and unhealthy fats"}
+                ],
+                "correctSentence": "The main reason is that frequent consumption of fast food leads to excessive intake of calories, salt, and unhealthy fats.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ allows _____ to _____ without _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Fast food", "Home cooking", "Organic food"], "correctAnswer": "Fast food"},
+                  {"id": "support3_b2", "options": ["busy professionals", "retired people", "children"], "correctAnswer": "busy professionals"},
+                  {"id": "support3_b3", "options": ["maintain their work schedules", "stay healthy", "exercise daily"], "correctAnswer": "maintain their work schedules"},
+                  {"id": "support3_b4", "options": ["sacrificing time for meal preparation", "eating food", "spending money"], "correctAnswer": "sacrificing time for meal preparation"}
+                ],
+                "correctSentence": "Fast food allows busy professionals to maintain their work schedules without sacrificing time for meal preparation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ contributes to _____, which is _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["Poor nutritional quality in fast food", "Healthy eating", "Exercise"], "correctAnswer": "Poor nutritional quality in fast food"},
+                  {"id": "support4_b2", "options": ["various health complications", "better fitness", "weight loss"], "correctAnswer": "various health complications"},
+                  {"id": "support4_b3", "options": ["particularly concerning for children and adolescents", "beneficial for everyone", "not important"], "correctAnswer": "particularly concerning for children and adolescents"}
+                ],
+                "correctSentence": "Poor nutritional quality in fast food contributes to various health complications, which is particularly concerning for children and adolescents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By choosing _____, consumers can _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["inexpensive fast food options", "expensive organic food", "home cooking only"], "correctAnswer": "inexpensive fast food options"},
+                  {"id": "support5_b2", "options": ["reduce their food expenses significantly", "gain weight", "lose health"], "correctAnswer": "reduce their food expenses significantly"}
+                ],
+                "correctSentence": "By choosing inexpensive fast food options, consumers can reduce their food expenses significantly.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ increases the risk of _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["Regular fast food consumption", "Healthy eating", "Daily exercise"], "correctAnswer": "Regular fast food consumption"},
+                  {"id": "support6_b2", "options": ["developing chronic diseases", "living longer", "becoming wealthy"], "correctAnswer": "developing chronic diseases"},
+                  {"id": "support6_b3", "options": ["prolonged exposure to processed ingredients", "eating vegetables", "drinking water"], "correctAnswer": "prolonged exposure to processed ingredients"}
+                ],
+                "correctSentence": "Regular fast food consumption increases the risk of developing chronic diseases through prolonged exposure to processed ingredients.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "_____ proves particularly beneficial for _____ who _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["The accessibility of fast food", "Home cooking", "Organic food"], "correctAnswer": "The accessibility of fast food"},
+                  {"id": "support7_b2", "options": ["students and young professionals", "retired people", "athletes"], "correctAnswer": "students and young professionals"},
+                  {"id": "support7_b3", "options": ["have limited time and cooking skills", "have personal chefs", "prefer gourmet meals"], "correctAnswer": "have limited time and cooking skills"}
+                ],
+                "correctSentence": "The accessibility of fast food proves particularly beneficial for students and young professionals who have limited time and cooking skills.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "_____ promotes _____ that _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["Heavy reliance on fast food", "Healthy eating", "Regular exercise"], "correctAnswer": "Heavy reliance on fast food"},
+                  {"id": "support8_b2", "options": ["poor dietary habits", "better health", "weight loss"], "correctAnswer": "poor dietary habits"},
+                  {"id": "support8_b3", "options": ["persist into adulthood and become difficult to change", "improve wellbeing", "increase energy"], "correctAnswer": "persist into adulthood and become difficult to change"}
+                ],
+                "correctSentence": "Heavy reliance on fast food promotes poor dietary habits that persist into adulthood and become difficult to change.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "_____ provides _____ with _____ over _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["The widespread availability of fast food", "Home cooking", "Organic farming"], "correctAnswer": "The widespread availability of fast food"},
+                  {"id": "support9_b2", "options": ["consumers", "restaurants", "governments"], "correctAnswer": "consumers"},
+                  {"id": "support9_b3", "options": ["greater flexibility", "less choice", "worse health"], "correctAnswer": "greater flexibility"},
+                  {"id": "support9_b4", "options": ["traditional meal planning", "their wellbeing", "their budget"], "correctAnswer": "traditional meal planning"}
+                ],
+                "correctSentence": "The widespread availability of fast food provides consumers with greater flexibility over traditional meal planning.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "When consuming fast food regularly, _____ tend to _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["individuals", "restaurants", "governments"], "correctAnswer": "individuals"},
+                  {"id": "support10_b2", "options": ["exceed recommended daily caloric intake", "become healthier", "lose weight"], "correctAnswer": "exceed recommended daily caloric intake"}
+                ],
+                "correctSentence": "When consuming fast food regularly, individuals tend to exceed recommended daily caloric intake.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ benefit from _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["time-pressed consumers", "health experts", "nutritionists"], "correctAnswer": "time-pressed consumers"},
+                  {"id": "support11_b2", "options": ["the speed and convenience of fast food", "perfect nutrition", "weight loss"], "correctAnswer": "the speed and convenience of fast food"}
+                ],
+                "correctSentence": "As a result, time-pressed consumers benefit from the speed and convenience of fast food.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ experience _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["frequent fast food consumers", "healthy eaters", "athletes"], "correctAnswer": "frequent fast food consumers"},
+                  {"id": "support12_b2", "options": ["higher rates of obesity and cardiovascular disease", "perfect health", "increased energy"], "correctAnswer": "higher rates of obesity and cardiovascular disease"}
+                ],
+                "correctSentence": "Consequently, frequent fast food consumers experience higher rates of obesity and cardiovascular disease.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ can purchase _____ for under _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["families on tight budgets", "wealthy individuals", "professional chefs"], "correctAnswer": "families on tight budgets"},
+                  {"id": "example1_b2", "options": ["a complete meal", "organic vegetables", "gourmet food"], "correctAnswer": "a complete meal"},
+                  {"id": "example1_b3", "options": ["$10 at most fast food chains", "$100", "$5"], "correctAnswer": "$10 at most fast food chains"}
+                ],
+                "correctSentence": "For instance, families on tight budgets can purchase a complete meal for under $10 at most fast food chains.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, studies show that _____ increases the risk of _____ by _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["regular fast food consumption", "healthy eating", "exercise"], "correctAnswer": "regular fast food consumption"},
+                  {"id": "example2_b2", "options": ["developing type 2 diabetes", "living longer", "losing weight"], "correctAnswer": "developing type 2 diabetes"},
+                  {"id": "example2_b3", "options": ["nearly 50%", "0%", "1%"], "correctAnswer": "nearly 50%"}
+                ],
+                "correctSentence": "For example, studies show that regular fast food consumption increases the risk of developing type 2 diabetes by nearly 50%.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ can obtain _____ within _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["working parents", "retired people", "professional athletes"], "correctAnswer": "working parents"},
+                  {"id": "example3_b2", "options": ["ready-to-eat meals", "organic ingredients", "cooking classes"], "correctAnswer": "ready-to-eat meals"},
+                  {"id": "example3_b3", "options": ["5-10 minutes", "several hours", "one day"], "correctAnswer": "5-10 minutes"}
+                ],
+                "correctSentence": "Specifically, working parents can obtain ready-to-eat meals within 5-10 minutes.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research indicates that _____ contain _____ than _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["typical fast food meals", "home-cooked meals", "organic meals"], "correctAnswer": "typical fast food meals"},
+                  {"id": "example4_b2", "options": ["2-3 times more calories and sodium", "fewer calories", "no salt"], "correctAnswer": "2-3 times more calories and sodium"},
+                  {"id": "example4_b3", "options": ["recommended daily amounts", "is necessary", "people need"], "correctAnswer": "recommended daily amounts"}
+                ],
+                "correctSentence": "Research indicates that typical fast food meals contain 2-3 times more calories and sodium than recommended daily amounts.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "According to _____, _____ report that _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["consumer surveys", "restaurant owners", "food critics"], "correctAnswer": "consumer surveys"},
+                  {"id": "example5_b2", "options": ["60% of working adults", "wealthy people", "professional chefs"], "correctAnswer": "60% of working adults"},
+                  {"id": "example5_b3", "options": ["they rely on fast food at least twice per week", "they never eat fast food", "they prefer organic food"], "correctAnswer": "they rely on fast food at least twice per week"}
+                ],
+                "correctSentence": "According to consumer surveys, 60% of working adults report that they rely on fast food at least twice per week.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ in countries like _____ have seen _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["obesity rates", "healthy eating rates", "exercise rates"], "correctAnswer": "obesity rates"},
+                  {"id": "example6_b2", "options": ["the United States and United Kingdom", "Japan and Korea", "Scandinavian countries"], "correctAnswer": "the United States and United Kingdom"},
+                  {"id": "example6_b3", "options": ["dramatic increases correlating with fast food prevalence", "significant declines", "no changes"], "correctAnswer": "dramatic increases correlating with fast food prevalence"}
+                ],
+                "correctSentence": "In particular, obesity rates in countries like the United States and United Kingdom have seen dramatic increases correlating with fast food prevalence.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, offer _____ that _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["fast food chains", "organic restaurants", "gourmet restaurants"], "correctAnswer": "fast food chains"},
+                  {"id": "example7_b2", "options": ["McDonald's and Burger King", "Michelin-starred restaurants", "farm-to-table cafes"], "correctAnswer": "McDonald's and Burger King"},
+                  {"id": "example7_b3", "options": ["value meals", "organic options", "gourmet dishes"], "correctAnswer": "value meals"},
+                  {"id": "example7_b4", "options": ["cost less than grocery shopping for similar portions", "are very expensive", "require reservations"], "correctAnswer": "cost less than grocery shopping for similar portions"}
+                ],
+                "correctSentence": "Many fast food chains, including McDonald's and Burger King, offer value meals that cost less than grocery shopping for similar portions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: this condition _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["childhood obesity", "healthy weight", "athletic performance"], "correctAnswer": "childhood obesity"},
+                  {"id": "example8_b2", "options": ["has tripled in the past 30 years alongside rising fast food consumption", "has disappeared", "has improved"], "correctAnswer": "has tripled in the past 30 years alongside rising fast food consumption"}
+                ],
+                "correctSentence": "Take childhood obesity as an example: this condition has tripled in the past 30 years alongside rising fast food consumption.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "A study by _____ found that _____ who _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["Harvard University", "a restaurant chain", "a food blogger"], "correctAnswer": "Harvard University"},
+                  {"id": "example9_b2", "options": ["individuals who consume fast food more than twice weekly have significantly higher body mass indexes", "healthy eaters live longer", "expensive food is better"], "correctAnswer": "individuals who consume fast food more than twice weekly have significantly higher body mass indexes"}
+                ],
+                "correctSentence": "A study by Harvard University found that individuals who consume fast food more than twice weekly have significantly higher body mass indexes.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ is more _____ when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["fast food", "home cooking", "organic food"], "correctAnswer": "fast food"},
+                  {"id": "example10_b2", "options": ["economical and time-efficient", "expensive and slow", "nutritious and healthy"], "correctAnswer": "economical and time-efficient"},
+                  {"id": "example10_b3", "options": ["compared to dining at traditional restaurants", "compared to home cooking", "compared to not eating"], "correctAnswer": "compared to dining at traditional restaurants"}
+                ],
+                "correctSentence": "Evidence suggests that fast food is more economical and time-efficient when compared to dining at traditional restaurants.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["some fast food options", "all fast food", "organic food"], "correctAnswer": "some fast food options"},
+                  {"id": "counter1_b2", "options": ["now include healthier alternatives like salads", "cure diseases", "guarantee weight loss"], "correctAnswer": "now include healthier alternatives like salads"}
+                ],
+                "correctSentence": "However, it could be argued that some fast food options now include healthier alternatives like salads.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these advantages, _____ can _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["regular reliance on fast food", "healthy eating", "exercise"], "correctAnswer": "regular reliance on fast food"},
+                  {"id": "counter2_b2", "options": ["lead to long-term financial costs through healthcare expenses", "save money forever", "make people wealthy"], "correctAnswer": "lead to long-term financial costs through healthcare expenses"}
+                ],
+                "correctSentence": "Despite these advantages, regular reliance on fast food can lead to long-term financial costs through healthcare expenses.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ requires _____ that _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["moderate fast food consumption", "excessive eating", "avoiding all food"], "correctAnswer": "moderate fast food consumption"},
+                  {"id": "counter3_b2", "options": ["careful selection and portion control", "no effort", "unlimited money"], "correctAnswer": "careful selection and portion control"},
+                  {"id": "counter3_b3", "options": ["most consumers fail to practice", "everyone does naturally", "is impossible"], "correctAnswer": "most consumers fail to practice"}
+                ],
+                "correctSentence": "Nevertheless, moderate fast food consumption requires careful selection and portion control that most consumers fail to practice.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ offers _____, it _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["fast food", "home cooking", "organic food"], "correctAnswer": "fast food"},
+                  {"id": "counter4_b2", "options": ["immediate cost savings", "perfect health", "weight loss"], "correctAnswer": "immediate cost savings"},
+                  {"id": "counter4_b3", "options": ["typically costs more in the long run when health impacts are considered", "is always cheaper", "guarantees savings"], "correctAnswer": "typically costs more in the long run when health impacts are considered"}
+                ],
+                "correctSentence": "Although fast food offers immediate cost savings, it typically costs more in the long run when health impacts are considered.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ if _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["the convenience of fast food becomes less significant", "everyone should eat it", "all restaurants should close"], "correctAnswer": "the convenience of fast food becomes less significant"},
+                  {"id": "counter5_b2", "options": ["individuals plan meals and practice basic meal preparation", "people never cook", "nobody has time"], "correctAnswer": "individuals plan meals and practice basic meal preparation"}
+                ],
+                "correctSentence": "Critics point out that the convenience of fast food becomes less significant if individuals plan meals and practice basic meal preparation.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["fast food provides convenience and affordability", "everyone should eat it", "it has no benefits"], "correctAnswer": "fast food provides convenience and affordability"},
+                  {"id": "conclusion1_b2", "options": ["the health disadvantages significantly outweigh these benefits", "everyone should eat more", "it is perfect"], "correctAnswer": "the health disadvantages significantly outweigh these benefits"}
+                ],
+                "correctSentence": "In conclusion, while fast food provides convenience and affordability, I believe the health disadvantages significantly outweigh these benefits.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ offers _____, whereas _____ presents _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["fast food consumption", "healthy eating", "exercise"], "correctAnswer": "fast food consumption"},
+                  {"id": "conclusion2_b2", "options": ["practical advantages for busy lifestyles", "perfect nutrition", "weight loss"], "correctAnswer": "practical advantages for busy lifestyles"},
+                  {"id": "conclusion2_b3", "options": ["its widespread use", "cooking at home", "organic food"], "correctAnswer": "its widespread use"},
+                  {"id": "conclusion2_b4", "options": ["serious public health concerns", "no problems", "only benefits"], "correctAnswer": "serious public health concerns"}
+                ],
+                "correctSentence": "Overall, fast food consumption offers practical advantages for busy lifestyles, whereas its widespread use presents serious public health concerns.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, the negative effects of _____ on _____ outweigh _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["increased fast food consumption", "healthy eating", "exercise"], "correctAnswer": "increased fast food consumption"},
+                  {"id": "conclusion3_b2", "options": ["public health", "restaurant profits", "convenience"], "correctAnswer": "public health"},
+                  {"id": "conclusion3_b3", "options": ["its convenience and cost benefits", "all other factors", "everything"], "correctAnswer": "its convenience and cost benefits"}
+                ],
+                "correctSentence": "To summarize, the negative effects of increased fast food consumption on public health outweigh its convenience and cost benefits.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ should _____ despite _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["consumers", "restaurants", "governments"], "correctAnswer": "consumers"},
+                  {"id": "conclusion4_b2", "options": ["prioritize health over convenience when making dietary choices", "eat more fast food", "ignore nutrition"], "correctAnswer": "prioritize health over convenience when making dietary choices"},
+                  {"id": "conclusion4_b3", "options": ["the appealing convenience that fast food offers", "nothing", "all factors"], "correctAnswer": "the appealing convenience that fast food offers"}
+                ],
+                "correctSentence": "Ultimately, consumers should prioritize health over convenience when making dietary choices despite the appealing convenience that fast food offers.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "On balance, _____ because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["the disadvantages of this trend are more significant", "everyone should eat fast food", "fast food is perfect"], "correctAnswer": "the disadvantages of this trend are more significant"},
+                  {"id": "conclusion5_b2", "options": ["long-term health consequences cannot be reversed by short-term convenience", "it tastes good", "it is popular"], "correctAnswer": "long-term health consequences cannot be reversed by short-term convenience"}
+                ],
+                "correctSentence": "On balance, the disadvantages of this trend are more significant because long-term health consequences cannot be reversed by short-term convenience.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "The consumption of [Topic] has increased dramatically. While this trend offers [advantages], I believe the [disadvantages] are more significant.",
+              "body1": "On the one hand, [Topic] provides [Main advantage]. This is because [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic] presents [Main disadvantage]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this concern].",
+              "conclusion": "In conclusion, while [Brief summary of advantages], I believe [Restate that disadvantages outweigh advantages]."
+            },
+            "example": {
+              "introduction": "The consumption of fast food has increased dramatically. While this trend offers convenience and affordability, I believe the health disadvantages are more significant.",
+              "body1": "On the one hand, fast food provides practical benefits for modern consumers. This is because it saves significant time for busy professionals and families. For instance, working parents can obtain meals within minutes rather than spending hours cooking. As a result, people can better manage their work and personal commitments.",
+              "body2": "On the other hand, fast food presents substantial health risks. The main reason is that these meals contain excessive calories, sodium, and unhealthy fats. For example, studies show regular consumption increases diabetes risk by 50%. Therefore, the long-term health consequences are deeply concerning.",
+              "conclusion": "In conclusion, while fast food offers convenience and cost savings, I believe the serious health disadvantages significantly outweigh these benefits."
+            }
+          },
+          {
+            "name": "Template 2: Strong Opinion Approach",
+            "structure": {
+              "introduction": "Although [acknowledge advantages briefly], I firmly believe the disadvantages of [Topic] far outweigh any benefits because [main reason].",
+              "body1": "Admittedly, [Topic] does provide [Main advantage + brief explanation with example]. However, [transition to acknowledge limitation].",
+              "body2": "The primary concern with [Topic] is [Main disadvantage]. [Detailed explanation]. [Specific example/statistic]. [Consequence]. This makes [Topic] particularly problematic for [affected group].",
+              "conclusion": "To summarize, despite [brief mention of advantages], the [disadvantages], particularly [most important concern], make this trend deeply concerning."
+            }
+          },
+          {
+            "name": "Template 3: Comparative Analysis",
+            "structure": {
+              "introduction": "[Restate trend]. This essay will examine both the benefits and drawbacks before concluding that [your position].",
+              "body1": "The advantages of [Topic] are primarily [Category 1: convenience/economy]. Firstly, [Point 1]. Secondly, [Point 2]. For example, [Supporting example showing both points].",
+              "body2": "However, the disadvantages relate to [Category 2: health/society]. Chief among these is [Main concern]. This results in [Effect/consequence]. Furthermore, [Secondary concern with example]. These issues are particularly evident in [specific context/location].",
+              "conclusion": "In conclusion, although [advantages], the [disadvantages] are more concerning because [final reason prioritizing long-term over short-term]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_advantages": ["On the one hand", "Admittedly", "It is true that", "The advantages include", "Proponents argue that"],
+          "presenting_disadvantages": ["On the other hand", "However", "More seriously", "The primary concern is", "Health experts warn that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides this"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Specifically", "Studies show that"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "Although", "While"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The consumption of fast food has increased dramatically in recent years. While this trend _____ [state the advantages briefly], I believe _____ [clearly state YOUR position that disadvantages outweigh advantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "State advantages briefly",
+                "hint": "Mention 1-2 advantages: convenience, affordability, time-saving",
+                "placeholder": "e.g., offers convenience and affordability for time-constrained consumers and budget-conscious families",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Your position (disadvantages outweigh)",
+                "hint": "Be clear! Say the disadvantages/health problems are more significant",
+                "placeholder": "e.g., the serious health disadvantages, particularly obesity and chronic diseases, far outweigh these practical benefits",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about advantages]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - fast food advantages",
+                "hint": "Main benefit: convenience, affordability, or time-saving",
+                "placeholder": "e.g., increased fast food consumption provides significant practical advantages for modern consumers in terms of convenience and cost",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does fast food provide this benefit? Explain how it works.",
+                "placeholder": "e.g., busy professionals and families can obtain ready-to-eat meals within minutes without spending time on meal preparation or cooking",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete example - price, time saved, specific situation",
+                "placeholder": "e.g., working parents can purchase a complete family meal for under $20 and have it ready in less than 10 minutes",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome or impact of this advantage?",
+                "placeholder": "e.g., this allows people to better manage their work schedules and family commitments without sacrificing mealtime convenience",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about disadvantages]. The main reason is _____ [explain why this is problematic]. For example, _____ [specific example or statistic]. Therefore, _____ [conclusion about why this is concerning].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - health disadvantages",
+                "hint": "Main health problem: obesity, diseases, poor nutrition",
+                "placeholder": "e.g., increased fast food consumption presents substantial health risks that have serious long-term consequences for individuals and society",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why problematic",
+                "hint": "Explain the mechanism - what's in fast food that causes harm",
+                "placeholder": "e.g., fast food meals typically contain excessive calories, saturated fats, and sodium while lacking essential nutrients and fiber",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example or statistic",
+                "hint": "Use statistics, studies, or specific health conditions",
+                "placeholder": "e.g., research shows that consuming fast food more than twice weekly increases the risk of developing type 2 diabetes by nearly 50 percent",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about why concerning",
+                "hint": "Emphasize severity or long-term impact",
+                "placeholder": "e.g., these health consequences create enormous healthcare costs and significantly reduce quality of life for millions of people worldwide",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly acknowledge advantages], I believe _____ [strongly restate that disadvantages outweigh advantages and why].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge advantages briefly",
+                "hint": "One sentence mentioning the practical benefits",
+                "placeholder": "e.g., fast food offers undeniable convenience and affordability for busy modern consumers",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate disadvantages outweigh",
+                "hint": "Be emphatic! Health problems are more important than convenience",
+                "placeholder": "e.g., the serious and long-lasting health consequences, including obesity, diabetes, and cardiovascular disease, make this trend deeply problematic and far outweigh any short-term practical benefits",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion (disadvantages outweigh)"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss advantages with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss disadvantages with reasons and examples (make this stronger)"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + strongly restate disadvantages outweigh"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your opinion that disadvantages outweigh advantages",
+          "Body paragraph 1 discusses practical advantages with example",
+          "Body paragraph 2 discusses health disadvantages with statistics/evidence",
+          "Body paragraph 2 is stronger and more detailed than body paragraph 1",
+          "Conclusion emphasizes that disadvantages are more significant",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The prevalence of fast food consumption has risen dramatically in recent decades. While this trend offers certain practical advantages, I believe the detrimental health consequences significantly outweigh these benefits.\n\nOn the one hand, increased fast food consumption provides notable convenience and affordability for modern consumers. Busy professionals and families can obtain ready-to-eat meals within minutes, eliminating the time required for shopping, cooking, and cleaning. Furthermore, fast food is considerably more affordable than dining at traditional restaurants, with complete meals available for under $10 at most chains. This accessibility proves particularly beneficial for low-income families and time-constrained individuals who struggle to balance work and personal commitments.\n\nOn the other hand, the health disadvantages of regular fast food consumption are substantial and concerning. These meals typically contain excessive calories, saturated fats, and sodium while lacking essential nutrients and dietary fiber. Research indicates that individuals who consume fast food more than twice weekly face a 50% increased risk of developing type 2 diabetes compared to those who rarely eat it. Moreover, the strong correlation between fast food prevalence and rising obesity rates cannot be ignored. In countries like the United States and United Kingdom, obesity rates have tripled over the past 30 years, coinciding directly with the expansion of fast food chains. These chronic health conditions not only diminish quality of life but also create enormous healthcare costs for individuals and society.\n\nIn conclusion, while fast food undeniably offers convenience and affordability, the severe long-term health consequences, including obesity, diabetes, and cardiovascular disease, make this dietary trend deeply problematic and far more significant than any short-term practical benefits.",
+    "wordCount": 276,
+    "structure": {
+      "introduction": "The prevalence of fast food consumption has risen dramatically in recent decades. While this trend offers certain practical advantages, I believe the detrimental health consequences significantly outweigh these benefits.",
+      "body1": "On the one hand, increased fast food consumption provides notable convenience and affordability for modern consumers. Busy professionals and families can obtain ready-to-eat meals within minutes, eliminating the time required for shopping, cooking, and cleaning. Furthermore, fast food is considerably more affordable than dining at traditional restaurants, with complete meals available for under $10 at most chains. This accessibility proves particularly beneficial for low-income families and time-constrained individuals who struggle to balance work and personal commitments.",
+      "body2": "On the other hand, the health disadvantages of regular fast food consumption are substantial and concerning. These meals typically contain excessive calories, saturated fats, and sodium while lacking essential nutrients and dietary fiber. Research indicates that individuals who consume fast food more than twice weekly face a 50% increased risk of developing type 2 diabetes compared to those who rarely eat it. Moreover, the strong correlation between fast food prevalence and rising obesity rates cannot be ignored. In countries like the United States and United Kingdom, obesity rates have tripled over the past 30 years, coinciding directly with the expansion of fast food chains. These chronic health conditions not only diminish quality of life but also create enormous healthcare costs for individuals and society.",
+      "conclusion": "In conclusion, while fast food undeniably offers convenience and affordability, the severe long-term health consequences, including obesity, diabetes, and cardiovascular disease, make this dietary trend deeply problematic and far more significant than any short-term practical benefits."
+    },
+    "highlights": [
+      {
+        "text": "prevalence",
+        "type": "academic-vocab",
+        "explanation": "Academic word meaning 'widespread occurrence' - shows vocabulary range"
+      },
+      {
+        "text": "detrimental",
+        "type": "academic-vocab",
+        "explanation": "Academic adjective meaning 'harmful' - more sophisticated than 'bad'"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing advantages and disadvantages"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point about affordability"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds another crucial point about obesity correlation"
+      },
+      {
+        "text": "individuals who consume fast food more than twice weekly face a 50% increased risk",
+        "type": "example",
+        "explanation": "Specific statistic that strongly supports the health argument"
+      },
+      {
+        "text": "obesity rates have tripled over the past 30 years",
+        "type": "example",
+        "explanation": "Specific evidence showing the serious impact of fast food"
+      },
+      {
+        "text": "substantially",
+        "type": "academic-vocab",
+        "explanation": "Academic adverb showing the significant degree of the problem"
+      }
+    ]
+  }
+}
