@@ -113,13 +113,37 @@ document.addEventListener('DOMContentLoaded', function () {
         lines.forEach(line => {
             if (!line.trim()) return;
 
+            // Remove line numbering (e.g., "1. ", "2. ", etc.)
             const content = line.replace(/^\d+\.\s*/, '');
-            const parts = content.split(':');
-            if (parts.length < 2) return;
 
-            const english = parts[0].trim();
-            const rest = parts[1].trim();
+            // Handle bold formatting with ** markers
+            // Pattern: **word**: rest  OR  word: rest
+            let english = '';
+            let rest = '';
 
+            // Check if the line has bold formatting
+            if (content.includes('**')) {
+                // Extract the bold term between ** markers
+                const boldMatch = content.match(/\*\*([^*]+)\*\*\s*:\s*(.*)/);
+                if (boldMatch) {
+                    english = boldMatch[1].trim();
+                    rest = boldMatch[2].trim();
+                } else {
+                    // Fallback to regular splitting if bold pattern doesn't match
+                    const parts = content.split(':');
+                    if (parts.length < 2) return;
+                    english = parts[0].replace(/\*\*/g, '').trim();
+                    rest = parts[1].trim();
+                }
+            } else {
+                // Regular format without bold markers
+                const parts = content.split(':');
+                if (parts.length < 2) return;
+                english = parts[0].trim();
+                rest = parts[1].trim();
+            }
+
+            // Extract type and pronunciation from the rest
             const typeMatch = rest.match(/\([a-z]+\)/);
             const pronunciationMatch = rest.match(/\/[^/]+\//);
 
