@@ -8,3 +8,4 @@ models/**/*.bin
 !models/**/*.json
 !models/**/spm_char.model
 !models/**/README.md
+node_modules

@@ -6,8 +6,9 @@
   "scripts": {
     "download-model": "node scripts/downloadModel.js"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "puppeteer": "^24.31.0"
+  },
   "keywords": [
     "vocabulary",
     "learning",

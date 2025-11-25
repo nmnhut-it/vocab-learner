@@ -440,11 +440,109 @@ async function completeStep(stepNumber) {
     }
 }
 
+// Convert alternative exercise formats to exerciseSections format
+function normalizeExerciseContent(content) {
+    if (content.exerciseSections) {
+        return content; // Already in correct format
+    }
+
+    // Convert buildFromClues, sentenceUnscramble, fillInTheBlanks to exerciseSections
+    const sections = [];
+
+    if (content.buildFromClues && content.buildFromClues.length > 0) {
+        sections.push({
+            function: "build-from-clues",
+            title: "Build Sentences from Clues",
+            description: "Create sentences using the given subject, verb, and keywords",
+            exercises: content.buildFromClues.map(clue => ({
+                id: clue.id,
+                type: "clue-based",
+                template: `Subject: ${clue.clues.subject} | Verb: ${clue.clues.verb} | Keywords: ${clue.clues.keywords.join(', ')}`,
+                hint: clue.hint,
+                modelAnswer: clue.modelAnswer,
+                minWords: clue.minWords,
+                blanks: [{
+                    id: `${clue.id}_answer`,
+                    options: [],
+                    correctAnswer: clue.modelAnswer
+                }],
+                correctSentence: clue.modelAnswer,
+                usableIn: "body-paragraph"
+            }))
+        });
+    }
+
+    if (content.sentenceUnscramble && content.sentenceUnscramble.length > 0) {
+        sections.push({
+            function: "sentence-unscramble",
+            title: "Unscramble Sentences",
+            description: "Arrange the words to form correct sentences",
+            exercises: content.sentenceUnscramble.map(scramble => ({
+                id: scramble.id,
+                type: "unscramble",
+                template: `Words: ${scramble.words.join(' | ')}`,
+                hint: scramble.hint,
+                words: scramble.words,
+                blanks: [{
+                    id: `${scramble.id}_answer`,
+                    options: [],
+                    correctAnswer: scramble.correctAnswer
+                }],
+                correctSentence: scramble.correctAnswer,
+                usableIn: "body-paragraph"
+            }))
+        });
+    }
+
+    if (content.fillInTheBlanks && content.fillInTheBlanks.length > 0) {
+        sections.push({
+            function: "fill-blanks",
+            title: "Fill in the Blanks",
+            description: "Choose the correct word to complete each sentence",
+            exercises: content.fillInTheBlanks.map(blank => ({
+                id: blank.id,
+                type: "template",
+                template: blank.sentence,
+                blanks: [{
+                    id: `${blank.id}_blank`,
+                    options: blank.options,
+                    correctAnswer: blank.correctAnswer
+                }],
+                correctSentence: blank.sentence.replace('_____', blank.correctAnswer),
+                explanation: blank.explanation,
+                usableIn: "body-paragraph"
+            }))
+        });
+    }
+
+    return {
+        ...content,
+        instructions: content.instructions || "Complete the exercises below to practice building sentences for your essay.",
+        exerciseSections: sections
+    };
+}
+
 // STEP 3: EXERCISES
 function renderExercisesStep(step, container) {
-    const content = step.content;
+    const content = normalizeExerciseContent(step.content);
     const results = topicProgress.exerciseResults || {};
     const correctCount = Object.values(results).filter(r => r.correct).length;
+
+    // Handle case where exerciseSections might still be empty
+    if (!content.exerciseSections || content.exerciseSections.length === 0) {
+        container.innerHTML = `
+            <div class="step-header">
+                <h2 class="step-title">✍️ ${step.title}</h2>
+                <p class="step-description">No exercises available for this topic yet.</p>
+            </div>
+            <div class="step-navigation">
+                <button class="btn-step btn-step-prev" onclick="navigateToStep(2)">← Previous</button>
+                <button class="btn-step btn-step-next" onclick="completeStep(3)">Next: Templates →</button>
+            </div>
+        `;
+        return;
+    }
+
     const totalExercises = content.exerciseSections.reduce((sum, section) => sum + section.exercises.length, 0);
     const requiredCorrect = Math.floor(totalExercises * 0.73); // 35/48
 
@@ -524,10 +622,11 @@ function renderSentenceTemplate(exercise, sectionIdx, exIdx) {
 
 function checkSentenceTemplate(exerciseId) {
     const step = currentTopic.steps.find(s => s.stepNumber === 3);
+    const content = normalizeExerciseContent(step.content);
     let exercise = null;
 
     // Find the exercise across all sections
-    for (const section of step.content.exerciseSections) {
+    for (const section of content.exerciseSections) {
         exercise = section.exercises.find(ex => ex.id === exerciseId);
         if (exercise) break;
     }
@@ -572,10 +671,15 @@ function renderSentenceBank() {
     const step = currentTopic.steps.find(s => s.stepNumber === 3);
     if (!step) return '<p style="color: var(--color-text-light);">No sentences completed yet.</p>';
 
+    const content = normalizeExerciseContent(step.content);
+    if (!content.exerciseSections || content.exerciseSections.length === 0) {
+        return '<p style="color: var(--color-text-light);">No sentences completed yet.</p>';
+    }
+
     const results = topicProgress.exerciseResults || {};
     let bankHTML = '';
 
-    for (const section of step.content.exerciseSections) {
+    for (const section of content.exerciseSections) {
         const correctInSection = section.exercises.filter(ex => results[ex.id]?.correct);
 
         if (correctInSection.length > 0) {

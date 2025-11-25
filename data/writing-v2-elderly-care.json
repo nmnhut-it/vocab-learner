@@ -1,1 +1,562 @@
-
+{
+  "id": "elderly-care",
+  "title": "Caring for Aging Parents",
+  "category": "Family & Society",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people believe that elderly parents should live with their adult children, while others think it is better for them to live in nursing homes. Discuss both views and give your own opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (living with children AND nursing homes) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss advantages of elderly living with adult children",
+            "Discuss advantages of nursing homes",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "elderly parents",
+            "definition": "Aging mothers and fathers who need care",
+            "importance": "The main subject - focus on their wellbeing and care needs"
+          },
+          {
+            "word": "adult children",
+            "definition": "Grown-up sons and daughters",
+            "importance": "One option is family-based care at home"
+          },
+          {
+            "word": "nursing homes",
+            "definition": "Professional care facilities for elderly people",
+            "importance": "The alternative option - professional institutional care"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          },
+          {
+            "word": "your opinion",
+            "definition": "Your personal viewpoint",
+            "importance": "Must take a clear position"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss living with adult children with examples",
+          "body2": "4-5 sentences: Discuss nursing homes with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Being too neutral without a clear opinion",
+          "Forgetting cultural perspectives on elderly care",
+          "Not providing specific examples for each view"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "filial responsibility",
+            "pronunciation": "/ˈfɪliəl rɪˌspɒnsəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The duty of children to care for their parents",
+            "example": "In many cultures, filial responsibility is considered a moral obligation.",
+            "synonyms": ["family duty", "parental obligation"]
+          },
+          {
+            "word": "elderly care",
+            "pronunciation": "/ˈeldəli keə/",
+            "partOfSpeech": "noun",
+            "definition": "Services and support for aging individuals",
+            "example": "Elderly care has become a major concern in aging societies.",
+            "synonyms": ["senior care", "geriatric care"]
+          },
+          {
+            "word": "companionship",
+            "pronunciation": "/kəmˈpænjənʃɪp/",
+            "partOfSpeech": "noun",
+            "definition": "The state of having a companion or friend",
+            "example": "Living with family provides elderly parents with daily companionship.",
+            "synonyms": ["fellowship", "company"]
+          },
+          {
+            "word": "professional care",
+            "pronunciation": "/prəˈfeʃənəl keə/",
+            "partOfSpeech": "noun",
+            "definition": "Healthcare provided by trained specialists",
+            "example": "Nursing homes offer round-the-clock professional care.",
+            "synonyms": ["specialized care", "medical care"]
+          },
+          {
+            "word": "autonomy",
+            "pronunciation": "/ɔːˈtɒnəmi/",
+            "partOfSpeech": "noun",
+            "definition": "Independence and self-governance",
+            "example": "Some elderly prefer nursing homes to maintain their autonomy.",
+            "synonyms": ["independence", "self-determination"]
+          },
+          {
+            "word": "burden",
+            "pronunciation": "/ˈbɜːdən/",
+            "partOfSpeech": "noun",
+            "definition": "A heavy load or responsibility",
+            "example": "Caring for elderly parents can become a burden for working adults.",
+            "synonyms": ["responsibility", "strain"]
+          },
+          {
+            "word": "intergenerational",
+            "pronunciation": "/ˌɪntəˌdʒenəˈreɪʃənəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Relating to different generations",
+            "example": "Intergenerational living benefits both the elderly and grandchildren.",
+            "synonyms": ["multigenerational", "cross-generational"]
+          },
+          {
+            "word": "deteriorate",
+            "pronunciation": "/dɪˈtɪəriəreɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To become progressively worse",
+            "example": "Health may deteriorate without proper medical attention.",
+            "synonyms": ["decline", "worsen"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "aging population",
+            "definition": "Society with increasing proportion of elderly people",
+            "example": "Many countries face challenges from an aging population."
+          },
+          {
+            "phrase": "emotional support",
+            "definition": "Comfort and understanding from loved ones",
+            "example": "Family provides irreplaceable emotional support to elderly parents."
+          },
+          {
+            "phrase": "quality of life",
+            "definition": "Standard of health, comfort and happiness",
+            "example": "The goal is to improve the quality of life for the elderly."
+          },
+          {
+            "phrase": "round-the-clock care",
+            "definition": "24-hour continuous care and attention",
+            "example": "Nursing homes provide round-the-clock care for residents."
+          },
+          {
+            "phrase": "family bonds",
+            "definition": "Emotional connections between family members",
+            "example": "Living together strengthens family bonds across generations."
+          },
+          {
+            "phrase": "specialized facilities",
+            "definition": "Buildings equipped for specific purposes",
+            "example": "Nursing homes have specialized facilities for elderly needs."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["elderly parents should live with their children", "nursing homes are outdated", "family care is expensive"], "correctAnswer": "elderly parents should live with their children"},
+                  {"id": "thesis1_b2", "options": ["professional nursing homes provide better care", "families should always stay together", "elderly should live alone"], "correctAnswer": "professional nursing homes provide better care"}
+                ],
+                "correctSentence": "While some believe elderly parents should live with their children, others argue that professional nursing homes provide better care.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ depends on _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["the best living arrangement", "nursing home quality", "family size"], "correctAnswer": "the best living arrangement"},
+                  {"id": "thesis2_b2", "options": ["the elderly person's health needs and family circumstances", "government policy", "housing prices"], "correctAnswer": "the elderly person's health needs and family circumstances"}
+                ],
+                "correctSentence": "In my opinion, the best living arrangement depends on the elderly person's health needs and family circumstances.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ offers _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["living with adult children", "nursing home care", "living alone"], "correctAnswer": "living with adult children"},
+                  {"id": "topic1_b2", "options": ["emotional comfort and family companionship", "medical equipment", "more privacy"], "correctAnswer": "emotional comfort and family companionship"}
+                ],
+                "correctSentence": "On the one hand, living with adult children offers emotional comfort and family companionship.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ provides _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["nursing homes", "family care", "hospitals"], "correctAnswer": "nursing homes"},
+                  {"id": "topic2_b2", "options": ["professional medical care and specialized facilities", "family bonding", "cheaper costs"], "correctAnswer": "professional medical care and specialized facilities"}
+                ],
+                "correctSentence": "On the other hand, nursing homes provide professional medical care and specialized facilities.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ enables elderly parents to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["living with family", "nursing care", "hospital stays"], "correctAnswer": "living with family"},
+                  {"id": "support1_b2", "options": ["maintain close bonds and feel emotionally supported", "access medical equipment", "have more privacy"], "correctAnswer": "maintain close bonds and feel emotionally supported"}
+                ],
+                "correctSentence": "This is because living with family enables elderly parents to maintain close bonds and feel emotionally supported.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["professional nursing care", "family visits", "home cooking"], "correctAnswer": "professional nursing care"},
+                  {"id": "support2_b2", "options": ["better health monitoring and immediate medical attention", "stronger family bonds", "lower costs"], "correctAnswer": "better health monitoring and immediate medical attention"}
+                ],
+                "correctSentence": "The main reason is that professional nursing care leads to better health monitoring and immediate medical attention.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ can _____ while _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["grandchildren", "nurses", "doctors"], "correctAnswer": "grandchildren"},
+                  {"id": "example1_b2", "options": ["bring joy and purpose to elderly lives", "provide medical care", "manage finances"], "correctAnswer": "bring joy and purpose to elderly lives"},
+                  {"id": "example1_b3", "options": ["learning valuable life lessons from their grandparents", "studying medicine", "working remotely"], "correctAnswer": "learning valuable life lessons from their grandparents"}
+                ],
+                "correctSentence": "For instance, grandchildren can bring joy and purpose to elderly lives while learning valuable life lessons from their grandparents.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ often have _____ that _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["nursing homes", "families", "hospitals"], "correctAnswer": "nursing homes"},
+                  {"id": "example2_b2", "options": ["trained nurses and medical equipment", "large kitchens", "entertainment systems"], "correctAnswer": "trained nurses and medical equipment"},
+                  {"id": "example2_b3", "options": ["can respond to health emergencies immediately", "cost a lot of money", "require maintenance"], "correctAnswer": "can respond to health emergencies immediately"}
+                ],
+                "correctSentence": "For example, nursing homes often have trained nurses and medical equipment that can respond to health emergencies immediately.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["both options have distinct advantages", "family care is perfect", "nursing homes are unnecessary"], "correctAnswer": "both options have distinct advantages"},
+                  {"id": "conclusion1_b2", "options": ["the choice depends on individual health needs and family capacity", "everyone should choose family care", "nursing homes are always better"], "correctAnswer": "the choice depends on individual health needs and family capacity"}
+                ],
+                "correctSentence": "In conclusion, while both options have distinct advantages, I believe the choice depends on individual health needs and family capacity.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [elderly should live with family], others argue that [nursing homes are better]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence about family care]. This is because [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence about nursing homes]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of family care argue that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Advocates of nursing homes contend that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about family care], others _____ [state the opposite view about nursing homes]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about family care",
+                "hint": "Start with 'believe that elderly parents' or 'argue that aging parents'",
+                "placeholder": "e.g., believe that elderly parents should live with their adult children for emotional support",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about nursing homes",
+                "hint": "Use 'argue that' or 'contend that' followed by nursing home benefits",
+                "placeholder": "e.g., contend that nursing homes provide better professional care and medical facilities",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position or say 'it depends on...'",
+                "placeholder": "e.g., the best choice depends on the elderly person's health condition and family circumstances",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about family care advantages]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - family care advantages",
+                "hint": "Main benefit of living with family in one sentence",
+                "placeholder": "e.g., living with adult children provides elderly parents with emotional comfort and daily companionship",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does family care provide this benefit?",
+                "placeholder": "e.g., family members can provide love, attention and a sense of belonging that strangers cannot offer",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example",
+                "placeholder": "e.g., grandparents can interact daily with grandchildren, sharing stories and creating meaningful family memories",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome of this benefit?",
+                "placeholder": "e.g., this emotional support often leads to better mental health and increased life satisfaction for the elderly",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about nursing home advantages]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - nursing home advantages",
+                "hint": "Main benefit of nursing homes",
+                "placeholder": "e.g., nursing homes offer professional medical care and specialized facilities that families cannot provide",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the mechanism or reasoning behind this benefit",
+                "placeholder": "e.g., trained nurses can monitor health conditions continuously and respond immediately to medical emergencies",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing nursing home benefits",
+                "placeholder": "e.g., elderly with conditions like dementia or mobility issues receive specialized care and proper medical equipment",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective",
+                "placeholder": "e.g., these advantages make nursing homes particularly suitable for elderly with serious health conditions",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both family care and nursing home advantages",
+                "placeholder": "e.g., both family care and nursing homes offer distinct benefits in terms of emotional support and professional care",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight",
+                "placeholder": "e.g., the optimal choice depends on the elderly person's specific health needs and the family's ability to provide adequate care",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss family care with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss nursing homes with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses family care advantages with example",
+          "Body paragraph 2 discusses nursing home advantages with example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The question of where elderly parents should spend their later years has become increasingly important in aging societies. While some believe that the elderly should live with their adult children, others argue that nursing homes provide better care. In my opinion, the ideal arrangement depends on the specific health needs and family circumstances of each individual.\n\nOn the one hand, living with adult children offers significant emotional and social benefits. Family environments provide daily companionship, love, and a sense of belonging that institutional settings often lack. For instance, elderly parents living with their families can interact with grandchildren regularly, which brings joy and purpose to their lives while strengthening intergenerational bonds. Furthermore, familiar surroundings and family routines can reduce anxiety and depression commonly experienced by seniors. As a result, many elderly individuals report higher life satisfaction when living with loved ones.\n\nOn the other hand, nursing homes offer professional medical care that families may be unable to provide. These facilities employ trained healthcare professionals who can monitor health conditions continuously and respond to emergencies immediately. For example, elderly individuals suffering from dementia, mobility issues, or chronic illnesses often require specialized equipment and round-the-clock supervision that most families cannot offer. Moreover, nursing homes provide social activities and peer interaction with other residents, which can combat loneliness.\n\nIn conclusion, while both living arrangements have distinct advantages, I believe the optimal choice depends on the elderly person's health condition and the family's capacity to provide adequate care. For those with serious medical needs, nursing homes may be more appropriate, while healthier seniors might thrive better in family environments.",
+    "wordCount": 268,
+    "structure": {
+      "introduction": "The question of where elderly parents should spend their later years has become increasingly important in aging societies. While some believe that the elderly should live with their adult children, others argue that nursing homes provide better care. In my opinion, the ideal arrangement depends on the specific health needs and family circumstances of each individual.",
+      "body1": "On the one hand, living with adult children offers significant emotional and social benefits. Family environments provide daily companionship, love, and a sense of belonging that institutional settings often lack. For instance, elderly parents living with their families can interact with grandchildren regularly, which brings joy and purpose to their lives while strengthening intergenerational bonds. Furthermore, familiar surroundings and family routines can reduce anxiety and depression commonly experienced by seniors. As a result, many elderly individuals report higher life satisfaction when living with loved ones.",
+      "body2": "On the other hand, nursing homes offer professional medical care that families may be unable to provide. These facilities employ trained healthcare professionals who can monitor health conditions continuously and respond to emergencies immediately. For example, elderly individuals suffering from dementia, mobility issues, or chronic illnesses often require specialized equipment and round-the-clock supervision that most families cannot offer. Moreover, nursing homes provide social activities and peer interaction with other residents, which can combat loneliness.",
+      "conclusion": "In conclusion, while both living arrangements have distinct advantages, I believe the optimal choice depends on the elderly person's health condition and the family's capacity to provide adequate care. For those with serious medical needs, nursing homes may be more appropriate, while healthier seniors might thrive better in family environments."
+    },
+    "highlights": [
+      {
+        "text": "aging societies",
+        "type": "academic-vocab",
+        "explanation": "Academic term for societies with increasing elderly population"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "intergenerational bonds",
+        "type": "academic-vocab",
+        "explanation": "Academic term for relationships between generations"
+      }
+    ]
+  }
+}
