@@ -1,0 +1,588 @@
+{
+  "id": "museums-local-foreign",
+  "title": "Museums: Local vs Foreign Art",
+  "category": "Culture & Arts",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Museums and art galleries should concentrate on local works rather than showing the cultures or artworks from other countries. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must clearly state whether you agree or disagree (or partially agree) with the statement that museums should focus on local works only.",
+          "requirements": [
+            "State your position clearly (agree/disagree/partially agree)",
+            "Provide 2-3 strong arguments supporting your position",
+            "Include specific examples (museums, artworks, countries)",
+            "Address the counter-argument briefly if space permits"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "museums and art galleries",
+            "definition": "Institutions that preserve and display cultural artifacts and artworks",
+            "importance": "The main subject - focus on their role and purpose"
+          },
+          {
+            "word": "concentrate on",
+            "definition": "Focus primarily or exclusively on something",
+            "importance": "Implies prioritizing local works over foreign ones"
+          },
+          {
+            "word": "local works",
+            "definition": "Artworks and cultural artifacts from the museum's own country or region",
+            "importance": "One side of the argument - preserving national heritage"
+          },
+          {
+            "word": "cultures or artworks from other countries",
+            "definition": "Foreign cultural exhibits and international art collections",
+            "importance": "The alternative - showing global diversity"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much do you agree or disagree",
+            "importance": "Signals you can take a nuanced position (completely, partially, or not at all)"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + clearly state your position (agree/disagree/partially)",
+          "body1": "4-5 sentences: First main argument with explanation and example",
+          "body2": "4-5 sentences: Second main argument with explanation and example",
+          "conclusion": "2 sentences: Summarize main points + restate position"
+        },
+        "commonMistakes": [
+          "Not stating a clear position in the introduction",
+          "Discussing both sides equally (this is not 'discuss both views')",
+          "Forgetting to mention specific museums or examples",
+          "Being too extreme without acknowledging any counter-points"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "cultural heritage",
+            "pronunciation": "/ˈkʌltʃərəl ˈherɪtɪdʒ/",
+            "partOfSpeech": "noun",
+            "definition": "The traditions, monuments, and artifacts passed down from previous generations",
+            "example": "Museums play a vital role in preserving cultural heritage for future generations.",
+            "synonyms": ["national legacy", "cultural legacy"]
+          },
+          {
+            "word": "artistic diversity",
+            "pronunciation": "/ɑːˈtɪstɪk daɪˈvɜːsəti/",
+            "partOfSpeech": "noun",
+            "definition": "Variety in artistic styles, cultures, and expressions",
+            "example": "Artistic diversity enriches visitors' understanding of global creativity.",
+            "synonyms": ["cultural variety", "artistic variety"]
+          },
+          {
+            "word": "national identity",
+            "pronunciation": "/ˈnæʃənəl aɪˈdentəti/",
+            "partOfSpeech": "noun",
+            "definition": "The sense of belonging to a particular nation with shared culture and values",
+            "example": "Local artworks strengthen national identity and cultural pride.",
+            "synonyms": ["cultural identity", "national character"]
+          },
+          {
+            "word": "cross-cultural understanding",
+            "pronunciation": "/krɒs ˈkʌltʃərəl ˌʌndəˈstændɪŋ/",
+            "partOfSpeech": "noun",
+            "definition": "Comprehension and appreciation of different cultures",
+            "example": "International exhibitions promote cross-cultural understanding and tolerance.",
+            "synonyms": ["intercultural awareness", "cultural exchange"]
+          },
+          {
+            "word": "exhibition curation",
+            "pronunciation": "/ˌeksɪˈbɪʃən kjʊəˈreɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The selection and organization of items for public display",
+            "example": "Effective exhibition curation balances local and international collections.",
+            "synonyms": ["collection management", "exhibit organization"]
+          },
+          {
+            "word": "artistic exchange",
+            "pronunciation": "/ɑːˈtɪstɪk ɪksˈtʃeɪndʒ/",
+            "partOfSpeech": "noun",
+            "definition": "The sharing of artistic works and ideas between cultures",
+            "example": "Artistic exchange between nations fosters creativity and innovation.",
+            "synonyms": ["cultural exchange", "artistic collaboration"]
+          },
+          {
+            "word": "preserve",
+            "pronunciation": "/prɪˈzɜːv/",
+            "partOfSpeech": "verb",
+            "definition": "To maintain and protect something from loss or damage",
+            "example": "National museums must preserve indigenous artworks for posterity.",
+            "synonyms": ["conserve", "protect", "safeguard"]
+          },
+          {
+            "word": "contemporary",
+            "pronunciation": "/kənˈtempərəri/",
+            "partOfSpeech": "adjective",
+            "definition": "Belonging to the present time; modern",
+            "example": "Contemporary museums showcase both historical and modern artworks.",
+            "synonyms": ["modern", "current", "present-day"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "cultural preservation",
+            "definition": "The protection and maintenance of cultural artifacts and traditions",
+            "example": "Museums contribute significantly to cultural preservation efforts."
+          },
+          {
+            "phrase": "global perspective",
+            "definition": "A worldwide or international viewpoint",
+            "example": "Foreign artworks provide visitors with a valuable global perspective."
+          },
+          {
+            "phrase": "indigenous art",
+            "definition": "Artworks created by native or original inhabitants of a region",
+            "example": "Indigenous art deserves prominent display in national museums."
+          },
+          {
+            "phrase": "cultural diplomacy",
+            "definition": "The exchange of ideas and culture to strengthen international relations",
+            "example": "International exhibitions serve as effective cultural diplomacy tools."
+          },
+          {
+            "phrase": "artistic masterpieces",
+            "definition": "Outstanding works of art of exceptional quality",
+            "example": "The Louvre houses artistic masterpieces from numerous civilizations."
+          },
+          {
+            "phrase": "cultural appropriation",
+            "definition": "The controversial acquisition of artifacts from other cultures",
+            "example": "The British Museum faces criticism over cultural appropriation of foreign treasures."
+          }
+        ],
+        "linkingPhrases": {
+          "stating_opinion": ["I completely disagree with", "I firmly believe that", "In my view", "From my perspective"],
+          "presenting_arguments": ["Firstly", "To begin with", "First and foremost", "The primary reason"],
+          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition", "Secondly"],
+          "giving_examples": ["For instance", "For example", "A clear example is", "Take the case of"],
+          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that clearly state your position",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "I _____ disagree with the view that museums should _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["completely", "partially", "somewhat"], "correctAnswer": "completely"},
+                  {"id": "thesis1_b2", "options": ["focus exclusively on local works", "avoid foreign artworks", "ignore international culture"], "correctAnswer": "focus exclusively on local works"}
+                ],
+                "correctSentence": "I completely disagree with the view that museums should focus exclusively on local works.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "While _____ is important, _____ offers _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["preserving local heritage", "having foreign art", "museum funding"], "correctAnswer": "preserving local heritage"},
+                  {"id": "thesis2_b2", "options": ["displaying international artworks", "ticket sales", "building renovation"], "correctAnswer": "displaying international artworks"},
+                  {"id": "thesis2_b3", "options": ["invaluable educational and cultural benefits", "more tourists", "better architecture"], "correctAnswer": "invaluable educational and cultural benefits"}
+                ],
+                "correctSentence": "While preserving local heritage is important, displaying international artworks offers invaluable educational and cultural benefits.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "First and foremost, _____ enables visitors to _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["exposure to diverse cultures", "local art only", "museum tickets"], "correctAnswer": "exposure to diverse cultures"},
+                  {"id": "topic1_b2", "options": ["develop cross-cultural understanding and global awareness", "save money", "see familiar works"], "correctAnswer": "develop cross-cultural understanding and global awareness"}
+                ],
+                "correctSentence": "First and foremost, exposure to diverse cultures enables visitors to develop cross-cultural understanding and global awareness.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "Moreover, _____ serves as _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["international artistic exchange", "ticket pricing", "museum architecture"], "correctAnswer": "international artistic exchange"},
+                  {"id": "topic2_b2", "options": ["a powerful tool for cultural diplomacy and mutual respect", "a revenue source", "decoration"], "correctAnswer": "a powerful tool for cultural diplomacy and mutual respect"}
+                ],
+                "correctSentence": "Moreover, international artistic exchange serves as a powerful tool for cultural diplomacy and mutual respect.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ allows people to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["viewing foreign artworks", "buying souvenirs", "taking photos"], "correctAnswer": "viewing foreign artworks"},
+                  {"id": "support1_b2", "options": ["appreciate different perspectives and artistic traditions", "spend more time", "find the exit"], "correctAnswer": "appreciate different perspectives and artistic traditions"}
+                ],
+                "correctSentence": "This is because viewing foreign artworks allows people to appreciate different perspectives and artistic traditions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ fosters _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["cultural exchange", "museum construction", "tourism revenue"], "correctAnswer": "cultural exchange"},
+                  {"id": "support2_b2", "options": ["mutual understanding and reduces cultural prejudice", "economic growth", "urban development"], "correctAnswer": "mutual understanding and reduces cultural prejudice"}
+                ],
+                "correctSentence": "The main reason is that cultural exchange fosters mutual understanding and reduces cultural prejudice.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ houses _____ which _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["the Louvre Museum", "a small gallery", "the gift shop"], "correctAnswer": "the Louvre Museum"},
+                  {"id": "example1_b2", "options": ["artworks from Egyptian, Greek, and Islamic civilizations", "only French paintings", "modern sculptures"], "correctAnswer": "artworks from Egyptian, Greek, and Islamic civilizations"},
+                  {"id": "example1_b3", "options": ["educates millions about world history and artistic diversity", "attracts wealthy tourists", "sells many tickets"], "correctAnswer": "educates millions about world history and artistic diversity"}
+                ],
+                "correctSentence": "For instance, the Louvre Museum houses artworks from Egyptian, Greek, and Islamic civilizations which educates millions about world history and artistic diversity.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "A clear example is _____ which _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["the British Museum controversy over returning cultural artifacts", "ticket prices", "museum architecture"], "correctAnswer": "the British Museum controversy over returning cultural artifacts"},
+                  {"id": "example2_b2", "options": ["demonstrates the ongoing dialogue about shared cultural heritage", "increases costs", "changes design"], "correctAnswer": "demonstrates the ongoing dialogue about shared cultural heritage"}
+                ],
+                "correctSentence": "A clear example is the British Museum controversy over returning cultural artifacts which demonstrates the ongoing dialogue about shared cultural heritage.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, I firmly believe that _____ should _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["museums and art galleries", "local artists", "government funding"], "correctAnswer": "museums and art galleries"},
+                  {"id": "conclusion1_b2", "options": ["maintain balanced collections featuring both local and international works", "only show local art", "charge higher fees"], "correctAnswer": "maintain balanced collections featuring both local and international works"}
+                ],
+                "correctSentence": "In conclusion, I firmly believe that museums and art galleries should maintain balanced collections featuring both local and international works.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Disagree Position",
+            "structure": {
+              "introduction": "I [completely/largely] disagree with the view that museums should focus exclusively on local works. While [acknowledge local importance briefly], [state your main position about international art].",
+              "body1": "First and foremost, [Topic sentence about first benefit of international art]. This is because [Reason/explanation]. For instance, [Specific museum example]. As a result, [Consequence or benefit].",
+              "body2": "Moreover, [Topic sentence about second benefit of international art]. The main reason is [Reason/explanation]. For example, [Specific example about cultural exchange]. Therefore, [Conclusion about this benefit].",
+              "conclusion": "In conclusion, [Brief summary of main arguments], and therefore [Restate your disagreement with the statement]."
+            }
+          },
+          {
+            "name": "Template 2: Partial Agreement",
+            "structure": {
+              "introduction": "I partially agree that museums should prioritize local works, but [state your nuanced position about balance].",
+              "body1": "[Topic sentence agreeing with local focus]. This is important because [Reason about preserving heritage]. For example, [Specific example of local art preservation]. [Further explanation].",
+              "body2": "However, [Topic sentence about need for international works]. [Reason about global education]. For instance, [Museum example showing international collection]. [Benefits of this approach].",
+              "conclusion": "In conclusion, while [acknowledge local importance], [state balanced position about combining local and international]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "stating_position": ["I completely disagree", "I firmly believe", "In my view", "From my perspective"],
+          "first_argument": ["First and foremost", "To begin with", "Firstly", "The primary reason"],
+          "second_argument": ["Moreover", "Furthermore", "Additionally", "Secondly"],
+          "giving_examples": ["For instance", "For example", "A clear example is", "Take the case of"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "I _____ [state your position: agree/disagree/partially agree and why]. While _____ [acknowledge the other side briefly], _____ [clearly state your main argument].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "State your position clearly",
+                "hint": "Start with 'completely disagree that museums should' or 'partially agree that'",
+                "placeholder": "e.g., completely disagree with the view that museums should concentrate exclusively on local works",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Acknowledge the other side",
+                "hint": "Briefly recognize the importance of local heritage",
+                "placeholder": "e.g., preserving local cultural heritage is undoubtedly important for maintaining national identity",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "State your main argument",
+                "hint": "Explain why international art is valuable",
+                "placeholder": "e.g., displaying international artworks provides essential educational value and promotes cross-cultural understanding among visitors",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "First and foremost, _____ [topic sentence about first benefit]. This is because _____ [explain the reason]. For instance, _____ [give a specific museum example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - first benefit of international art",
+                "hint": "Main benefit of showing foreign artworks",
+                "placeholder": "e.g., exposure to diverse cultures enables visitors to develop cross-cultural understanding and global awareness",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does international art provide this benefit?",
+                "placeholder": "e.g., viewing artworks from different civilizations allows people to appreciate various artistic traditions and historical perspectives",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific museum example",
+                "hint": "Give a concrete example of a famous museum",
+                "placeholder": "e.g., the Louvre Museum in Paris displays Egyptian, Greek, and Islamic artworks alongside French masterpieces",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome of this educational benefit?",
+                "placeholder": "e.g., millions of visitors gain valuable insights into world history and artistic diversity beyond their own culture",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "Moreover, _____ [topic sentence about second benefit]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - second benefit",
+                "hint": "Another benefit of international exhibitions",
+                "placeholder": "e.g., international artistic exchange serves as a powerful tool for cultural diplomacy and fostering mutual respect",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the mechanism behind cultural diplomacy",
+                "placeholder": "e.g., displaying foreign artworks demonstrates openness and creates dialogue between nations about shared cultural heritage",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Give example of cultural exchange or controversy",
+                "placeholder": "e.g., the British Museum controversy over returning artifacts has sparked important discussions about cultural preservation and ownership",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective about cultural exchange",
+                "placeholder": "e.g., such exchanges promote tolerance and reduce cultural prejudice in an increasingly interconnected world",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [briefly summarize your main points], and therefore _____ [restate your position clearly].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize main points",
+                "hint": "One sentence mentioning both educational value and cultural diplomacy",
+                "placeholder": "e.g., international artworks provide invaluable educational benefits and serve as essential tools for promoting global understanding",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate position clearly",
+                "hint": "Clearly restate whether you agree or disagree",
+                "placeholder": "e.g., I firmly believe museums should maintain balanced collections featuring both local heritage and international masterpieces",
+                "minWords": 12
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "State your position clearly (agree/disagree/partially)"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "First main argument with museum example"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Second main argument with specific example"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize arguments + restate position"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position (agree/disagree/partial)",
+          "Body paragraph 1 presents first argument with museum example",
+          "Body paragraph 2 presents second argument with specific example",
+          "Conclusion summarizes arguments and restates position",
+          "Essay is 250-280 words",
+          "Specific museums mentioned (Louvre, British Museum, etc.)",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "I completely disagree with the view that museums and art galleries should concentrate exclusively on local works rather than displaying international artworks. While preserving local cultural heritage is undoubtedly important for maintaining national identity, showcasing diverse cultures provides invaluable educational benefits and promotes cross-cultural understanding in our increasingly interconnected world.\n\nFirst and foremost, exposure to international artworks enables visitors to develop global awareness and appreciate artistic diversity. By viewing masterpieces from different civilizations, people can understand various historical perspectives, artistic techniques, and cultural values beyond their own traditions. For instance, the Louvre Museum in Paris houses not only French artworks but also extensive collections from Egyptian, Greek, Islamic, and Asian civilizations. As a result, millions of visitors annually gain comprehensive insights into world history and artistic evolution across continents, which would be impossible if museums focused solely on local works.\n\nMoreover, international artistic exchange serves as a powerful tool for cultural diplomacy and fostering mutual respect between nations. Displaying foreign artworks demonstrates cultural openness and creates meaningful dialogue about shared human creativity and heritage. For example, the ongoing controversy surrounding the British Museum's collection of artifacts from Greece, Egypt, and other nations has sparked important global discussions about cultural preservation, repatriation, and ethical collection practices. Therefore, these international exhibitions promote tolerance, reduce cultural prejudice, and encourage collaborative efforts in art conservation.\n\nIn conclusion, while local art preservation remains essential, I firmly believe that museums should maintain balanced collections featuring both local heritage and international masterpieces to maximize educational value and promote global cultural understanding.",
+    "wordCount": 272,
+    "structure": {
+      "introduction": "I completely disagree with the view that museums and art galleries should concentrate exclusively on local works rather than displaying international artworks. While preserving local cultural heritage is undoubtedly important for maintaining national identity, showcasing diverse cultures provides invaluable educational benefits and promotes cross-cultural understanding in our increasingly interconnected world.",
+      "body1": "First and foremost, exposure to international artworks enables visitors to develop global awareness and appreciate artistic diversity. By viewing masterpieces from different civilizations, people can understand various historical perspectives, artistic techniques, and cultural values beyond their own traditions. For instance, the Louvre Museum in Paris houses not only French artworks but also extensive collections from Egyptian, Greek, Islamic, and Asian civilizations. As a result, millions of visitors annually gain comprehensive insights into world history and artistic evolution across continents, which would be impossible if museums focused solely on local works.",
+      "body2": "Moreover, international artistic exchange serves as a powerful tool for cultural diplomacy and fostering mutual respect between nations. Displaying foreign artworks demonstrates cultural openness and creates meaningful dialogue about shared human creativity and heritage. For example, the ongoing controversy surrounding the British Museum's collection of artifacts from Greece, Egypt, and other nations has sparked important global discussions about cultural preservation, repatriation, and ethical collection practices. Therefore, these international exhibitions promote tolerance, reduce cultural prejudice, and encourage collaborative efforts in art conservation.",
+      "conclusion": "In conclusion, while local art preservation remains essential, I firmly believe that museums should maintain balanced collections featuring both local heritage and international masterpieces to maximize educational value and promote global cultural understanding."
+    },
+    "highlights": [
+      {
+        "text": "cultural heritage",
+        "type": "academic-vocab",
+        "explanation": "Key term for traditions and artifacts passed down through generations"
+      },
+      {
+        "text": "cross-cultural understanding",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for appreciating different cultures"
+      },
+      {
+        "text": "First and foremost",
+        "type": "linking-word",
+        "explanation": "Strong phrase to introduce the first main argument"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "artistic diversity",
+        "type": "academic-vocab",
+        "explanation": "Variety in artistic styles and cultural expressions"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds the second main argument"
+      },
+      {
+        "text": "cultural diplomacy",
+        "type": "academic-vocab",
+        "explanation": "Using culture to strengthen international relations"
+      },
+      {
+        "text": "national identity",
+        "type": "academic-vocab",
+        "explanation": "Sense of belonging to a particular nation"
+      }
+    ]
+  }
+}

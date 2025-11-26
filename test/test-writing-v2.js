@@ -17,8 +17,14 @@ const BASE_URL = `http://localhost:${PORT}`;
 
 // Simple static file server
 function createServer() {
+    const rootDir = path.join(__dirname, '..');
+
     return http.createServer((req, res) => {
-        let filePath = path.join(__dirname, '..', req.url === '/' ? 'ielts-writing-v2.html' : req.url);
+        // Parse URL and remove query strings
+        let urlPath = req.url.split('?')[0];
+        if (urlPath === '/') urlPath = '/ielts-writing-v2.html';
+
+        let filePath = path.join(rootDir, urlPath);
 
         const ext = path.extname(filePath);
         const contentTypes = {
@@ -32,8 +38,9 @@ function createServer() {
 
         fs.readFile(filePath, (err, content) => {
             if (err) {
+                console.log(`  [server] 404: ${filePath}`);
                 res.writeHead(404);
-                res.end(`File not found: ${filePath}`);
+                res.end(`File not found: ${urlPath}`);
                 return;
             }
             res.writeHead(200, { 'Content-Type': contentTypes[ext] || 'text/plain' });
@@ -80,6 +87,19 @@ async function runTests() {
 
         // Test 1: Load main page
         console.log('\n--- Test 1: Load main page ---');
+
+        // Set up fake session in localStorage before page load
+        await page.evaluateOnNewDocument(() => {
+            // Create fake session so login modal doesn't appear
+            const fakeSession = {
+                name: 'Test Student',
+                photoDataUrl: null,
+                sessionStartTime: Date.now(),
+                sessionId: 'test-session-123'
+            };
+            localStorage.setItem('module2_student_session', JSON.stringify(fakeSession));
+        });
+
         const response = await page.goto(`${BASE_URL}/ielts-writing-v2.html`, { waitUntil: 'networkidle0' });
         console.log(`  Page status: ${response.status()}`);
 
@@ -87,11 +107,55 @@ async function runTests() {
         const selectExists = await page.evaluate(() => !!document.getElementById('topicSelector'));
         console.log(`  Topic selector exists: ${selectExists}`);
 
+        // Check current options count
+        const initialOptions = await page.evaluate(() => {
+            const sel = document.getElementById('topicSelector');
+            return sel ? sel.options.length : 0;
+        });
+        console.log(`  Initial options count: ${initialOptions}`);
+
+        // Check if topics array exists
+        const topicsCheck = await page.evaluate(() => {
+            return {
+                topicsExists: typeof topics !== 'undefined',
+                topicsLength: typeof topics !== 'undefined' ? topics.length : 'N/A',
+                loadTopicsExists: typeof loadTopics === 'function'
+            };
+        });
+        console.log(`  Topics var exists: ${topicsCheck.topicsExists}, length: ${topicsCheck.topicsLength}`);
+        console.log(`  loadTopics function exists: ${topicsCheck.loadTopicsExists}`);
+
+        // Try to manually load topics and capture errors
+        console.log('  Manually calling loadTopics...');
+        const loadResult = await page.evaluate(async () => {
+            try {
+                const response = await fetch('data/writing-v2-topics.json');
+                const text = await response.text();
+                return { status: response.status, ok: response.ok, textLength: text.length, first100: text.substring(0, 100) };
+            } catch (e) {
+                return { error: e.message };
+            }
+        });
+        console.log(`  Fetch result:`, JSON.stringify(loadResult));
+
         // Wait for topics to load with longer timeout
-        await page.waitForFunction(() => {
-            const select = document.getElementById('topicSelector');
-            return select && select.options.length > 1;
-        }, { timeout: 30000 });
+        try {
+            await page.waitForFunction(() => {
+                const select = document.getElementById('topicSelector');
+                return select && select.options.length > 1;
+            }, { timeout: 15000 });
+        } catch (e) {
+            // Get more debug info
+            const debugInfo = await page.evaluate(() => {
+                return {
+                    topicsLength: typeof topics !== 'undefined' ? topics.length : 'undefined',
+                    optionsCount: document.getElementById('topicSelector')?.options.length || 0,
+                    bodyContent: document.body.innerHTML.substring(0, 500)
+                };
+            });
+            console.log(`  Debug: topics=${debugInfo.topicsLength}, options=${debugInfo.optionsCount}`);
+            throw e;
+        }
 
         const topicCount = await page.evaluate(() => {
             return document.getElementById('topicSelector').options.length - 1; // minus "Select a topic..."
@@ -107,8 +171,10 @@ async function runTests() {
                 .map(opt => opt.value);
         });
 
-        // Test 2: Load each topic and navigate to step 3
-        console.log('\n--- Test 2: Load topics and test Step 3 (Exercises) ---');
+        // Test 2: Load topics and navigate through ALL steps
+        console.log('\n--- Test 2: Load topics and navigate through all steps ---');
+
+        const stepNames = ['Analysis', 'Vocabulary', 'Exercises', 'Templates', 'Paragraphs', 'Essay'];
 
         for (const topicId of topicIds) {
             consoleErrors.length = 0; // Clear errors for each topic
@@ -116,36 +182,49 @@ async function runTests() {
             try {
                 // Select topic
                 await page.select('#topicSelector', topicId);
-                await new Promise(r => setTimeout(r, 500));
+                await new Promise(r => setTimeout(r, 300));
 
-                // Navigate to step 3
-                await page.evaluate(() => {
-                    if (typeof navigateToStep === 'function') {
-                        navigateToStep(3);
+                const topicTitle = await page.evaluate(() => currentTopic?.title || 'Unknown');
+                let topicPassed = true;
+                let stepErrors = [];
+
+                // Navigate through all 6 steps
+                for (let step = 1; step <= 6; step++) {
+                    consoleErrors.length = 0;
+
+                    await page.evaluate((s) => {
+                        if (typeof navigateToStep === 'function') {
+                            navigateToStep(s);
+                        }
+                    }, step);
+                    await new Promise(r => setTimeout(r, 300));
+
+                    // Check for JS errors after navigation
+                    if (consoleErrors.length > 0) {
+                        topicPassed = false;
+                        stepErrors.push(`Step ${step} (${stepNames[step-1]}): ${consoleErrors.join(', ')}`);
                     }
-                });
-                await new Promise(r => setTimeout(r, 500));
 
-                // Check for errors
-                if (consoleErrors.length > 0) {
-                    console.log(`✗ Topic "${topicId}" - JS errors:`);
-                    consoleErrors.forEach(err => console.log(`    ${err}`));
-                    results.failed++;
-                    results.errors.push({ topic: topicId, errors: [...consoleErrors] });
-                } else {
-                    // Verify step 3 content rendered
+                    // Verify content rendered
                     const hasContent = await page.evaluate(() => {
                         const container = document.getElementById('mainContainer');
                         return container && container.innerHTML.includes('step-header');
                     });
 
-                    if (hasContent) {
-                        console.log(`✓ Topic "${topicId}" - Step 3 loaded successfully`);
-                        results.passed++;
-                    } else {
-                        console.log(`✗ Topic "${topicId}" - Step 3 content not rendered`);
-                        results.failed++;
+                    if (!hasContent) {
+                        topicPassed = false;
+                        stepErrors.push(`Step ${step} (${stepNames[step-1]}): No content rendered`);
                     }
+                }
+
+                if (topicPassed) {
+                    console.log(`✓ Topic "${topicId}" - All 6 steps OK (Analysis→Vocab→Exercises→Templates→Paragraphs→Essay)`);
+                    results.passed++;
+                } else {
+                    console.log(`✗ Topic "${topicId}" - Errors:`);
+                    stepErrors.forEach(err => console.log(`    ${err}`));
+                    results.failed++;
+                    results.errors.push({ topic: topicId, errors: stepErrors });
                 }
             } catch (err) {
                 console.log(`✗ Topic "${topicId}" - Error: ${err.message}`);

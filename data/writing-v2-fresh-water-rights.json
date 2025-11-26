@@ -1,0 +1,572 @@
+{
+  "id": "fresh-water-rights",
+  "title": "Fresh Water Usage Rights",
+  "category": "Environment & Resources",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think they have the right to use as much fresh water as they want, while others believe governments should tightly control the use of fresh water as it is a limited resource. Discuss both views and give your own opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (unlimited water use rights AND government control) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss arguments for unlimited personal water use rights",
+            "Discuss arguments for government-controlled water usage",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "right to use",
+            "definition": "Claim to freedom in consumption",
+            "importance": "First perspective - individual liberty argument"
+          },
+          {
+            "word": "as much as they want",
+            "definition": "Unlimited or unrestricted usage",
+            "importance": "Signals the extreme position of no limits"
+          },
+          {
+            "word": "fresh water",
+            "definition": "Drinkable, non-saline water from rivers, lakes, groundwater",
+            "importance": "The central resource being debated"
+          },
+          {
+            "word": "tightly control",
+            "definition": "Strict regulation and monitoring",
+            "importance": "Second perspective - government intervention"
+          },
+          {
+            "word": "limited resource",
+            "definition": "Finite supply that can be depleted",
+            "importance": "Key reason for controlling water usage"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss individual rights perspective with examples",
+          "body2": "4-5 sentences: Discuss government control perspective with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing environmental side without individual rights",
+          "Being too neutral without a clear opinion",
+          "Ignoring the scarcity aspect of water resources",
+          "Not providing concrete examples like California drought or water metering"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "water scarcity",
+            "pronunciation": "/ˈwɔːtə ˈskeəsəti/",
+            "partOfSpeech": "noun",
+            "definition": "Lack of sufficient available water resources",
+            "example": "Water scarcity affects millions of people in arid regions worldwide.",
+            "synonyms": ["water shortage", "water crisis"]
+          },
+          {
+            "word": "natural resource",
+            "pronunciation": "/ˈnætʃrəl rɪˈsɔːs/",
+            "partOfSpeech": "noun",
+            "definition": "Materials from nature used by humans",
+            "example": "Fresh water is a vital natural resource that must be protected.",
+            "synonyms": ["environmental resource", "natural asset"]
+          },
+          {
+            "word": "conservation",
+            "pronunciation": "/ˌkɒnsəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Careful use and protection of resources",
+            "example": "Water conservation measures can significantly reduce household consumption.",
+            "synonyms": ["preservation", "protection"]
+          },
+          {
+            "word": "water rationing",
+            "pronunciation": "/ˈwɔːtə ˈræʃənɪŋ/",
+            "partOfSpeech": "noun",
+            "definition": "Controlled distribution of limited water supplies",
+            "example": "During severe droughts, governments may implement water rationing.",
+            "synonyms": ["water restrictions", "water allocation"]
+          },
+          {
+            "word": "individual rights",
+            "pronunciation": "/ˌɪndɪˈvɪdʒuəl raɪts/",
+            "partOfSpeech": "noun",
+            "definition": "Personal freedoms and entitlements",
+            "example": "Some argue that individual rights include using resources without restrictions.",
+            "synonyms": ["personal freedoms", "civil liberties"]
+          },
+          {
+            "word": "sustainable usage",
+            "pronunciation": "/səˈsteɪnəbəl ˈjuːsɪdʒ/",
+            "partOfSpeech": "noun",
+            "definition": "Using resources in ways that can continue long-term",
+            "example": "Sustainable usage ensures water availability for future generations.",
+            "synonyms": ["responsible consumption", "eco-friendly use"]
+          },
+          {
+            "word": "depleted",
+            "pronunciation": "/dɪˈpliːtɪd/",
+            "partOfSpeech": "adjective",
+            "definition": "Reduced in quantity or exhausted",
+            "example": "Many groundwater sources have been severely depleted by overuse.",
+            "synonyms": ["exhausted", "drained"]
+          },
+          {
+            "word": "regulate",
+            "pronunciation": "/ˈreɡjuleɪt/",
+            "partOfSpeech": "verb",
+            "definition": "Control or maintain through rules",
+            "example": "Governments can regulate water consumption through pricing mechanisms.",
+            "synonyms": ["control", "manage"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "water metering",
+            "definition": "Measuring individual water consumption for billing",
+            "example": "Water metering encourages households to reduce wasteful usage."
+          },
+          {
+            "phrase": "agricultural water use",
+            "definition": "Water consumption for farming and irrigation",
+            "example": "Agricultural water use accounts for over 70% of global fresh water consumption."
+          },
+          {
+            "phrase": "groundwater depletion",
+            "definition": "Reduction of underground water reserves",
+            "example": "Groundwater depletion threatens long-term water security in many regions."
+          },
+          {
+            "phrase": "drought conditions",
+            "definition": "Extended periods of abnormally low rainfall",
+            "example": "California experienced severe drought conditions requiring mandatory water restrictions."
+          },
+          {
+            "phrase": "usage restrictions",
+            "definition": "Rules limiting consumption",
+            "example": "Usage restrictions may include bans on lawn watering during droughts."
+          },
+          {
+            "phrase": "future generations",
+            "definition": "People who will live in coming years",
+            "example": "We must preserve water resources for future generations."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["Water usage has become controversial", "People have differing views about", "While some believe"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["people have unlimited water rights", "water should be free", "water is not important"], "correctAnswer": "people have unlimited water rights"},
+                  {"id": "thesis1_b2", "options": ["governments must strictly regulate water consumption", "water should be expensive", "water is unlimited"], "correctAnswer": "governments must strictly regulate water consumption"}
+                ],
+                "correctSentence": "While some believe people have unlimited water rights, others argue that governments must strictly regulate water consumption.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ is necessary because _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["government regulation of water usage", "unlimited water consumption", "ignoring water scarcity"], "correctAnswer": "government regulation of water usage"},
+                  {"id": "thesis2_b2", "options": ["fresh water is a finite resource essential for survival", "water is cheap", "people do not care"], "correctAnswer": "fresh water is a finite resource essential for survival"}
+                ],
+                "correctSentence": "In my opinion, government regulation of water usage is necessary because fresh water is a finite resource essential for survival.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ believe that _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["advocates of unlimited water use", "environmental groups", "scientists"], "correctAnswer": "advocates of unlimited water use"},
+                  {"id": "topic1_b2", "options": ["individuals should have the freedom to use water as needed", "water should be controlled", "water is harmful"], "correctAnswer": "individuals should have the freedom to use water as needed"}
+                ],
+                "correctSentence": "On the one hand, advocates of unlimited water use believe that individuals should have the freedom to use water as needed.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ argue that _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["supporters of government control", "business owners", "farmers only"], "correctAnswer": "supporters of government control"},
+                  {"id": "topic2_b2", "options": ["strict water regulation protects this vital limited resource", "water is unlimited", "regulation is unnecessary"], "correctAnswer": "strict water regulation protects this vital limited resource"}
+                ],
+                "correctSentence": "On the other hand, supporters of government control argue that strict water regulation protects this vital limited resource.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This perspective is based on _____ and _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["individual rights principles", "water waste", "high costs"], "correctAnswer": "individual rights principles"},
+                  {"id": "support1_b2", "options": ["the belief that personal property includes resource usage", "water scarcity", "government control"], "correctAnswer": "the belief that personal property includes resource usage"}
+                ],
+                "correctSentence": "This perspective is based on individual rights principles and the belief that personal property includes resource usage.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["unrestricted water consumption", "water metering", "rainfall"], "correctAnswer": "unrestricted water consumption"},
+                  {"id": "support2_b2", "options": ["rapid depletion of finite water reserves", "better conservation", "unlimited water"], "correctAnswer": "rapid depletion of finite water reserves"}
+                ],
+                "correctSentence": "The main reason is that unrestricted water consumption leads to rapid depletion of finite water reserves.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ argue that _____ without _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["property owners", "scientists", "governments"], "correctAnswer": "property owners"},
+                  {"id": "example1_b2", "options": ["they should be able to water lawns and fill pools", "water should be banned", "agriculture should stop"], "correctAnswer": "they should be able to water lawns and fill pools"},
+                  {"id": "example1_b3", "options": ["government interference in personal choices", "paying bills", "using water"], "correctAnswer": "government interference in personal choices"}
+                ],
+                "correctSentence": "For instance, property owners argue that they should be able to water lawns and fill pools without government interference in personal choices.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ implemented _____ that _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["California during severe droughts", "wealthy countries", "small villages"], "correctAnswer": "California during severe droughts"},
+                  {"id": "example2_b2", "options": ["mandatory water restrictions and usage limits", "free water programs", "water exports"], "correctAnswer": "mandatory water restrictions and usage limits"},
+                  {"id": "example2_b3", "options": ["successfully reduced consumption and preserved reserves", "increased water waste", "eliminated all regulations"], "correctAnswer": "successfully reduced consumption and preserved reserves"}
+                ],
+                "correctSentence": "For example, California during severe droughts implemented mandatory water restrictions and usage limits that successfully reduced consumption and preserved reserves.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["individual freedom is important", "water is unlimited", "regulations are unnecessary"], "correctAnswer": "individual freedom is important"},
+                  {"id": "conclusion1_b2", "options": ["government control is essential to ensure sustainable water usage for all", "people should use unlimited water", "water scarcity is not real"], "correctAnswer": "government control is essential to ensure sustainable water usage for all"}
+                ],
+                "correctSentence": "In conclusion, while individual freedom is important, I believe government control is essential to ensure sustainable water usage for all.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [people have unlimited water rights], others argue that [governments must control usage]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence about individual rights]. This perspective is based on [Reason/explanation]. For instance, [Specific example]. As a result, [Consequence or position].",
+              "body2": "On the other hand, [Topic sentence about government control]. The main reason is [Reason/explanation]. For example, [Specific example]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Proponents of unlimited use argue that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Advocates of regulation contend that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about unlimited water rights], others _____ [state the opposite view about government control]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about unlimited water rights",
+                "hint": "Start with 'believe that individuals' or 'argue that people'",
+                "placeholder": "e.g., believe that individuals have the right to use as much fresh water as they need",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about government control",
+                "hint": "Use 'argue that' or 'contend that' followed by regulation benefits",
+                "placeholder": "e.g., contend that governments must strictly regulate water consumption to preserve this limited resource",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position on water regulation",
+                "placeholder": "e.g., government regulation is essential to ensure sustainable water usage for current and future generations",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about unlimited water use perspective]. This perspective is based on _____ [explain the reasoning]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or their position].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - unlimited use perspective",
+                "hint": "Main argument for personal freedom in water usage",
+                "placeholder": "e.g., advocates of unlimited water use believe individuals should have freedom to consume resources they pay for",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reasoning",
+                "hint": "WHY do they support unlimited use? What principle?",
+                "placeholder": "e.g., the principle of individual rights and property ownership which grants people control over resources on their land",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example of this argument",
+                "placeholder": "e.g., homeowners argue they should be able to water lawns, fill swimming pools, and use water freely without restrictions",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/position",
+                "hint": "What do they conclude from this?",
+                "placeholder": "e.g., they view government restrictions on water usage as unwarranted interference in personal freedom and property rights",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about government control]. The main reason is _____ [explain why regulation is needed]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - government control benefits",
+                "hint": "Main argument for water regulation",
+                "placeholder": "e.g., supporters of regulation argue that governments must control water consumption because it is a finite vital resource",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why regulation needed",
+                "hint": "Explain the mechanism or reasoning behind regulation",
+                "placeholder": "e.g., unrestricted water consumption leads to rapid depletion of groundwater and surface water supplies threatening future availability",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing benefits of regulation",
+                "placeholder": "e.g., California implemented mandatory water restrictions during severe droughts which successfully reduced consumption by twenty-five percent and preserved reserves",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective",
+                "placeholder": "e.g., government regulation through water metering and usage limits ensures sustainable consumption and protects water security for everyone",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both individual rights and regulation",
+                "placeholder": "e.g., individual freedom is important in democratic societies, water scarcity makes government regulation necessary",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight",
+                "placeholder": "e.g., strict government control of water usage is essential to ensure this vital resource remains available for current and future generations",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss unlimited use perspective with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss government regulation with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses individual rights perspective with example",
+          "Body paragraph 2 discusses government regulation with concrete examples",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The question of how fresh water should be managed has become increasingly urgent as water scarcity affects many regions worldwide. While some believe that individuals have the right to use as much water as they want, others argue that governments must tightly control water consumption. In my opinion, strict government regulation is essential because fresh water is a finite resource vital for human survival and environmental sustainability.\n\nOn the one hand, advocates of unlimited water use believe that individuals should have the freedom to consume water without government interference. This perspective is based on individual rights principles and the belief that property ownership includes the right to use resources on one's land. For instance, homeowners argue they should be able to water lawns, fill swimming pools, and maintain gardens freely, especially if they pay for the water consumed. Furthermore, some contend that market forces through pricing can naturally regulate consumption without requiring government restrictions. As a result, they view mandatory water rationing and usage limits as unwarranted interference in personal freedom.\n\nOn the other hand, supporters of government control argue that strict water regulation is necessary to protect this limited natural resource. The main reason is that unrestricted consumption leads to rapid groundwater depletion and threatens long-term water security. For example, California implemented mandatory water restrictions during severe droughts between 2012 and 2017, which successfully reduced urban water consumption by 25% and prevented reservoir depletion. Moreover, agricultural water use, which accounts for 70% of global fresh water consumption, requires careful regulation to prevent wasteful irrigation practices. Therefore, government oversight through water metering, usage limits, and conservation incentives ensures sustainable usage for current and future generations.\n\nIn conclusion, while individual freedom is valued in democratic societies, I believe that government control of fresh water usage is essential given the reality of water scarcity. Without strict regulation and conservation measures, this vital resource will be depleted, threatening human survival and ecosystem health.",
+    "wordCount": 301,
+    "structure": {
+      "introduction": "The question of how fresh water should be managed has become increasingly urgent as water scarcity affects many regions worldwide. While some believe that individuals have the right to use as much water as they want, others argue that governments must tightly control water consumption. In my opinion, strict government regulation is essential because fresh water is a finite resource vital for human survival and environmental sustainability.",
+      "body1": "On the one hand, advocates of unlimited water use believe that individuals should have the freedom to consume water without government interference. This perspective is based on individual rights principles and the belief that property ownership includes the right to use resources on one's land. For instance, homeowners argue they should be able to water lawns, fill swimming pools, and maintain gardens freely, especially if they pay for the water consumed. Furthermore, some contend that market forces through pricing can naturally regulate consumption without requiring government restrictions. As a result, they view mandatory water rationing and usage limits as unwarranted interference in personal freedom.",
+      "body2": "On the other hand, supporters of government control argue that strict water regulation is necessary to protect this limited natural resource. The main reason is that unrestricted consumption leads to rapid groundwater depletion and threatens long-term water security. For example, California implemented mandatory water restrictions during severe droughts between 2012 and 2017, which successfully reduced urban water consumption by 25% and prevented reservoir depletion. Moreover, agricultural water use, which accounts for 70% of global fresh water consumption, requires careful regulation to prevent wasteful irrigation practices. Therefore, government oversight through water metering, usage limits, and conservation incentives ensures sustainable usage for current and future generations.",
+      "conclusion": "In conclusion, while individual freedom is valued in democratic societies, I believe that government control of fresh water usage is essential given the reality of water scarcity. Without strict regulation and conservation measures, this vital resource will be depleted, threatening human survival and ecosystem health."
+    },
+    "highlights": [
+      {
+        "text": "water scarcity",
+        "type": "academic-vocab",
+        "explanation": "Academic term for insufficient water resources"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "sustainable usage",
+        "type": "academic-vocab",
+        "explanation": "Using resources in ways that can continue long-term"
+      },
+      {
+        "text": "natural resource",
+        "type": "academic-vocab",
+        "explanation": "Materials from nature used by humans"
+      },
+      {
+        "text": "conservation",
+        "type": "academic-vocab",
+        "explanation": "Careful use and protection of resources"
+      }
+    ]
+  }
+}

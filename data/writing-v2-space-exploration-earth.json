@@ -1,0 +1,570 @@
+{
+  "id": "space-exploration-earth",
+  "title": "Space Exploration vs Earth Problems",
+  "category": "Science & Government",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people want governments to spend money looking for life on other planets. Others, however, think this is a waste of public money when there are so many problems on Earth. Discuss both views and give your own opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (space exploration funding AND Earth problems funding) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss arguments for space exploration funding",
+            "Discuss arguments for prioritizing Earth problems",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "governments",
+            "definition": "Public authorities that make spending decisions",
+            "importance": "The subject - focus on public money allocation"
+          },
+          {
+            "word": "looking for life on other planets",
+            "definition": "Space exploration and research programs",
+            "importance": "One perspective - investing in space science"
+          },
+          {
+            "word": "waste of public money",
+            "definition": "Inefficient use of taxpayer funds",
+            "importance": "The opposing perspective - criticizes space spending"
+          },
+          {
+            "word": "problems on Earth",
+            "definition": "Current issues like poverty, climate change, healthcare",
+            "importance": "Alternative priority for government spending"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss space exploration benefits with examples",
+          "body2": "4-5 sentences: Discuss Earth problems priority with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Being too neutral without a clear opinion",
+          "Not mentioning specific examples (NASA, Mars missions, etc.)",
+          "Ignoring the opportunity cost argument"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "space exploration",
+            "pronunciation": "/speɪs ˌekspləˈreɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Investigation and discovery of outer space through missions and research",
+            "example": "Space exploration has led to numerous technological innovations.",
+            "synonyms": ["space research", "cosmic exploration"]
+          },
+          {
+            "word": "resource allocation",
+            "pronunciation": "/rɪˈsɔːs ˌæləˈkeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "The distribution of available resources among competing uses",
+            "example": "Governments must make difficult decisions about resource allocation.",
+            "synonyms": ["budget distribution", "fund allocation"]
+          },
+          {
+            "word": "scientific advancement",
+            "pronunciation": "/ˌsaɪənˈtɪfɪk ədˈvɑːnsmənt/",
+            "partOfSpeech": "noun",
+            "definition": "Progress in scientific knowledge and capabilities",
+            "example": "Space programs drive scientific advancement in multiple fields.",
+            "synonyms": ["scientific progress", "research development"]
+          },
+          {
+            "word": "opportunity cost",
+            "pronunciation": "/ˌɒpəˈtjuːnəti kɒst/",
+            "partOfSpeech": "noun",
+            "definition": "The loss of potential benefit from other choices when one option is selected",
+            "example": "The opportunity cost of space exploration is funding for social programs.",
+            "synonyms": ["alternative cost", "trade-off"]
+          },
+          {
+            "word": "humanitarian issues",
+            "pronunciation": "/hjuːˌmænɪˈteəriən ˈɪʃuːz/",
+            "partOfSpeech": "noun",
+            "definition": "Concerns related to human welfare and suffering",
+            "example": "Many argue that humanitarian issues should take priority over space research.",
+            "synonyms": ["social concerns", "welfare issues"]
+          },
+          {
+            "word": "technological spinoffs",
+            "pronunciation": "/ˌteknəˈlɒdʒɪkəl ˈspɪnɒfs/",
+            "partOfSpeech": "noun",
+            "definition": "Technologies developed for one purpose that find applications elsewhere",
+            "example": "GPS and satellite communications are technological spinoffs from space programs.",
+            "synonyms": ["byproduct technologies", "secondary innovations"]
+          },
+          {
+            "word": "prioritize",
+            "pronunciation": "/praɪˈɒrɪtaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To organize or deal with something in order of importance",
+            "example": "Governments should prioritize immediate human needs over distant space goals.",
+            "synonyms": ["rank", "emphasize"]
+          },
+          {
+            "word": "taxpayer",
+            "pronunciation": "/ˈtækspeɪə/",
+            "partOfSpeech": "noun",
+            "definition": "A person or organization that pays taxes",
+            "example": "Many taxpayers question spending billions on Mars missions.",
+            "synonyms": ["citizen", "contributor"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "public funding",
+            "definition": "Money from government budgets derived from taxes",
+            "example": "Public funding for space programs remains controversial."
+          },
+          {
+            "phrase": "NASA budget",
+            "definition": "Government allocation to the space agency",
+            "example": "The NASA budget accounts for less than one percent of federal spending."
+          },
+          {
+            "phrase": "Mars missions",
+            "definition": "Space exploration programs targeting the planet Mars",
+            "example": "Mars missions cost billions while millions lack clean water on Earth."
+          },
+          {
+            "phrase": "climate change funding",
+            "definition": "Investment in addressing global warming",
+            "example": "Some argue climate change funding deserves higher priority than space exploration."
+          },
+          {
+            "phrase": "poverty reduction",
+            "definition": "Efforts and programs to decrease economic hardship",
+            "example": "Poverty reduction programs could benefit from redirected space budgets."
+          },
+          {
+            "phrase": "long-term benefits",
+            "definition": "Advantages that materialize over extended periods",
+            "example": "Space exploration offers long-term benefits through technological innovation."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["governments should fund space exploration", "space research is unnecessary", "all funding should go to social programs"], "correctAnswer": "governments should fund space exploration"},
+                  {"id": "thesis1_b2", "options": ["this money should address urgent problems on Earth", "space exploration is cheap", "NASA should be abolished"], "correctAnswer": "this money should address urgent problems on Earth"}
+                ],
+                "correctSentence": "While some believe governments should fund space exploration, others argue that this money should address urgent problems on Earth.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ can _____ if _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["space exploration funding", "military spending", "education budgets"], "correctAnswer": "space exploration funding"},
+                  {"id": "thesis2_b2", "options": ["be justified", "be eliminated", "be doubled"], "correctAnswer": "be justified"},
+                  {"id": "thesis2_b3", "options": ["it delivers tangible benefits to humanity", "it costs nothing", "everyone agrees"], "correctAnswer": "it delivers tangible benefits to humanity"}
+                ],
+                "correctSentence": "In my opinion, space exploration funding can be justified if it delivers tangible benefits to humanity.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ drives _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["space exploration", "social welfare", "military research"], "correctAnswer": "space exploration"},
+                  {"id": "topic1_b2", "options": ["scientific advancement and technological innovation", "poverty", "unemployment"], "correctAnswer": "scientific advancement and technological innovation"}
+                ],
+                "correctSentence": "On the one hand, space exploration drives scientific advancement and technological innovation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ represents _____ when _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["space spending", "healthcare funding", "education investment"], "correctAnswer": "space spending"},
+                  {"id": "topic2_b2", "options": ["a significant opportunity cost", "good value", "necessary investment"], "correctAnswer": "a significant opportunity cost"},
+                  {"id": "topic2_b3", "options": ["urgent humanitarian issues require attention", "space is interesting", "technology advances"], "correctAnswer": "urgent humanitarian issues require attention"}
+                ],
+                "correctSentence": "On the other hand, space spending represents a significant opportunity cost when urgent humanitarian issues require attention.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ leads to _____ that _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["space research", "entertainment", "tourism"], "correctAnswer": "space research"},
+                  {"id": "support1_b2", "options": ["technological spinoffs", "higher taxes", "job losses"], "correctAnswer": "technological spinoffs"},
+                  {"id": "support1_b3", "options": ["benefit everyday life on Earth", "waste resources", "harm the environment"], "correctAnswer": "benefit everyday life on Earth"}
+                ],
+                "correctSentence": "This is because space research leads to technological spinoffs that benefit everyday life on Earth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ could _____ instead of _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["billions spent on Mars missions", "small investments", "private donations"], "correctAnswer": "billions spent on Mars missions"},
+                  {"id": "support2_b2", "options": ["fund healthcare, education, and poverty reduction", "buy luxury items", "support entertainment"], "correctAnswer": "fund healthcare, education, and poverty reduction"},
+                  {"id": "support2_b3", "options": ["searching for distant life forms", "helping citizens", "advancing science"], "correctAnswer": "searching for distant life forms"}
+                ],
+                "correctSentence": "The main reason is that billions spent on Mars missions could fund healthcare, education, and poverty reduction instead of searching for distant life forms.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ developed for _____ now _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["GPS technology and satellite communications", "video games", "social media"], "correctAnswer": "GPS technology and satellite communications"},
+                  {"id": "example1_b2", "options": ["space programs", "military purposes", "entertainment"], "correctAnswer": "space programs"},
+                  {"id": "example1_b3", "options": ["power essential services worldwide", "waste energy", "cause problems"], "correctAnswer": "power essential services worldwide"}
+                ],
+                "correctSentence": "For instance, GPS technology and satellite communications developed for space programs now power essential services worldwide.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ while _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["NASA's annual budget exceeds 20 billion dollars", "space exploration is cheap", "few people care about space"], "correctAnswer": "NASA's annual budget exceeds 20 billion dollars"},
+                  {"id": "example2_b2", "options": ["millions worldwide lack access to clean water and basic healthcare", "everyone is wealthy", "space travel is common"], "correctAnswer": "millions worldwide lack access to clean water and basic healthcare"}
+                ],
+                "correctSentence": "For example, NASA's annual budget exceeds 20 billion dollars while millions worldwide lack access to clean water and basic healthcare.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["both perspectives have merit", "space exploration is worthless", "Earth problems don't matter"], "correctAnswer": "both perspectives have merit"},
+                  {"id": "conclusion1_b2", "options": ["balanced investment in both space research and Earth solutions serves humanity best", "all space funding should stop", "only space exploration matters"], "correctAnswer": "balanced investment in both space research and Earth solutions serves humanity best"}
+                ],
+                "correctSentence": "In conclusion, while both perspectives have merit, I believe balanced investment in both space research and Earth solutions serves humanity best.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [governments should fund space exploration], others argue that [this money should address Earth problems]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence about space exploration benefits]. This is because [Reason/explanation]. For instance, [Specific example like GPS, satellites]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence about Earth priorities]. The main reason is [Reason/explanation about opportunity cost]. For example, [Specific example like poverty, climate change]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of space exploration argue that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Critics contend that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about space exploration], others _____ [state the opposite view about Earth problems]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about space exploration",
+                "hint": "Start with 'believe that governments should' or 'argue that space research'",
+                "placeholder": "e.g., believe that governments should invest in space exploration to advance scientific knowledge and technology",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about Earth problems",
+                "hint": "Use 'argue that' or 'contend that' followed by Earth priorities",
+                "placeholder": "e.g., contend that public funds should prioritize urgent issues like poverty, healthcare, and climate change",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position or say 'balanced approach'",
+                "placeholder": "e.g., a balanced approach that funds both space research and Earth solutions delivers the greatest benefit",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about space exploration benefits]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - space exploration benefits",
+                "hint": "Main benefit of space exploration in one sentence",
+                "placeholder": "e.g., space exploration drives scientific advancement and produces technological innovations that benefit society",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does space exploration provide this benefit?",
+                "placeholder": "e.g., space programs require solving complex engineering challenges, leading to technological spinoffs with practical applications",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example like GPS, satellites, medical devices",
+                "placeholder": "e.g., technologies like GPS navigation, satellite communications, and medical imaging devices originated from space research programs",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome of these innovations?",
+                "placeholder": "e.g., these technological spinoffs now enhance daily life and generate significant economic value worldwide",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about Earth problem priority]. The main reason is _____ [explain why]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - Earth problem priority",
+                "hint": "Main argument for prioritizing Earth problems",
+                "placeholder": "e.g., space exploration represents a significant opportunity cost when urgent humanitarian crises demand immediate attention",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why",
+                "hint": "Explain the opportunity cost or urgency of Earth problems",
+                "placeholder": "e.g., billions allocated to Mars missions could instead fund healthcare systems, poverty reduction, and climate change mitigation",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing Earth problems vs space costs",
+                "placeholder": "e.g., NASA's annual budget exceeds twenty billion dollars while millions worldwide lack clean water and basic medical care",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective",
+                "placeholder": "e.g., this suggests that government resources should address pressing human needs before funding distant space goals",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both space exploration and Earth priorities",
+                "placeholder": "e.g., both space exploration and addressing Earth problems offer important benefits to humanity",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight",
+                "placeholder": "e.g., governments should maintain balanced investment in both areas, as space research benefits can ultimately help solve Earth's challenges",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss space exploration benefits with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss Earth problem priorities with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses space exploration advantages with example",
+          "Body paragraph 2 discusses Earth priorities with example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The allocation of government resources for space exploration remains a contentious issue. While some advocate for funding programs that search for extraterrestrial life, others argue that such spending is unjustifiable when pressing problems persist on Earth. In my opinion, space exploration funding can be justified if it delivers tangible benefits that ultimately serve humanity's long-term interests.\n\nOn the one hand, space exploration drives scientific advancement and technological innovation with far-reaching applications. Space programs require solving complex engineering challenges, which consistently produces technological spinoffs that benefit society in unexpected ways. For instance, GPS navigation systems, satellite communications, advanced medical imaging devices, and water purification technologies all originated from space research programs. Moreover, weather satellites developed for space observation now provide critical data for climate research and disaster prediction. As a result, these innovations demonstrate how space investment generates practical returns that enhance daily life and address Earth-based challenges.\n\nOn the other hand, space exploration represents a significant opportunity cost when urgent humanitarian issues demand immediate attention. The billions allocated to Mars missions and searches for extraterrestrial life could instead fund healthcare systems, poverty reduction programs, and climate change mitigation efforts. For example, NASA's annual budget exceeds twenty billion dollars, while millions worldwide lack access to clean water, basic healthcare, and adequate nutrition. Furthermore, addressing climate change and environmental degradation requires substantial investment that competes with space funding. Therefore, critics argue that governments should prioritize solving terrestrial crises before pursuing distant cosmic goals.\n\nIn conclusion, while both perspectives have merit, I believe balanced investment in space research and Earth solutions serves humanity best. Space exploration should continue, but not at the expense of neglecting immediate human needs.",
+    "wordCount": 274,
+    "structure": {
+      "introduction": "The allocation of government resources for space exploration remains a contentious issue. While some advocate for funding programs that search for extraterrestrial life, others argue that such spending is unjustifiable when pressing problems persist on Earth. In my opinion, space exploration funding can be justified if it delivers tangible benefits that ultimately serve humanity's long-term interests.",
+      "body1": "On the one hand, space exploration drives scientific advancement and technological innovation with far-reaching applications. Space programs require solving complex engineering challenges, which consistently produces technological spinoffs that benefit society in unexpected ways. For instance, GPS navigation systems, satellite communications, advanced medical imaging devices, and water purification technologies all originated from space research programs. Moreover, weather satellites developed for space observation now provide critical data for climate research and disaster prediction. As a result, these innovations demonstrate how space investment generates practical returns that enhance daily life and address Earth-based challenges.",
+      "body2": "On the other hand, space exploration represents a significant opportunity cost when urgent humanitarian issues demand immediate attention. The billions allocated to Mars missions and searches for extraterrestrial life could instead fund healthcare systems, poverty reduction programs, and climate change mitigation efforts. For example, NASA's annual budget exceeds twenty billion dollars, while millions worldwide lack access to clean water, basic healthcare, and adequate nutrition. Furthermore, addressing climate change and environmental degradation requires substantial investment that competes with space funding. Therefore, critics argue that governments should prioritize solving terrestrial crises before pursuing distant cosmic goals.",
+      "conclusion": "In conclusion, while both perspectives have merit, I believe balanced investment in space research and Earth solutions serves humanity best. Space exploration should continue, but not at the expense of neglecting immediate human needs."
+    },
+    "highlights": [
+      {
+        "text": "resource allocation",
+        "type": "academic-vocab",
+        "explanation": "Academic term for distributing available funds among competing uses"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "technological spinoffs",
+        "type": "academic-vocab",
+        "explanation": "Technologies developed for one purpose that find other applications"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "opportunity cost",
+        "type": "academic-vocab",
+        "explanation": "Economic term for the loss of potential benefit when choosing one option over another"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      }
+    ]
+  }
+}

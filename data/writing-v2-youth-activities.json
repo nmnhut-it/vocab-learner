@@ -1,0 +1,1006 @@
+{
+  "id": "youth-activities",
+  "title": "Government Spending on Youth Activities",
+  "category": "Government & Youth",
+  "difficulty": "Medium",
+  "question": {
+    "text": "More government money should be spent on free-time activities for young people. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must clearly state your position on whether governments should spend more on youth activities, then support it with reasons and examples.",
+          "requirements": [
+            "State your clear position in the introduction",
+            "Provide 2-3 strong reasons supporting your view",
+            "Give specific examples for each reason",
+            "Address potential counter-arguments briefly"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "government money",
+            "definition": "Public funds from taxes",
+            "importance": "Focus on how public resources should be allocated"
+          },
+          {
+            "word": "should be spent",
+            "definition": "Indicates a recommendation or necessity",
+            "importance": "You need to take a position on this spending priority"
+          },
+          {
+            "word": "free-time activities",
+            "definition": "Recreational activities, sports, arts, clubs during leisure time",
+            "importance": "The specific area of spending - not education or healthcare"
+          },
+          {
+            "word": "young people",
+            "definition": "Teenagers and young adults, typically ages 13-25",
+            "importance": "The target demographic for this investment"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much do you agree or disagree",
+            "importance": "You can fully agree, fully disagree, or partially agree"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your position clearly",
+          "body1": "4-5 sentences: First main reason with explanation and example",
+          "body2": "4-5 sentences: Second main reason with explanation and example",
+          "conclusion": "2-3 sentences: Summarize position + final thought"
+        },
+        "commonMistakes": [
+          "Not taking a clear position (being too neutral)",
+          "Confusing free-time activities with formal education",
+          "Forgetting to address the government spending aspect",
+          "Not providing specific examples of youth activities"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "recreational facilities",
+            "pronunciation": "/ˌrekriˈeɪʃənəl fəˈsɪlətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Buildings and spaces designed for leisure activities",
+            "example": "Investment in recreational facilities provides youth with healthy outlets.",
+            "synonyms": ["leisure centers", "sports facilities"]
+          },
+          {
+            "word": "extracurricular activities",
+            "pronunciation": "/ˌekstrəkəˈrɪkjələr ækˈtɪvətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Activities outside of regular academic curriculum",
+            "example": "Extracurricular activities help develop skills beyond academic learning.",
+            "synonyms": ["after-school programs", "enrichment activities"]
+          },
+          {
+            "word": "youth development",
+            "pronunciation": "/juːθ dɪˈveləpmənt/",
+            "partOfSpeech": "noun",
+            "definition": "Process of helping young people develop their potential",
+            "example": "Youth development programs focus on building character and skills.",
+            "synonyms": ["adolescent growth", "young person advancement"]
+          },
+          {
+            "word": "public funding",
+            "pronunciation": "/ˈpʌblɪk ˈfʌndɪŋ/",
+            "partOfSpeech": "noun",
+            "definition": "Financial support from government resources",
+            "example": "Public funding ensures equal access to recreational opportunities.",
+            "synonyms": ["government investment", "state financing"]
+          },
+          {
+            "word": "delinquency prevention",
+            "pronunciation": "/dɪˈlɪŋkwənsi prɪˈvenʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Measures to reduce youth crime and antisocial behavior",
+            "example": "Sports programs serve as effective delinquency prevention strategies.",
+            "synonyms": ["crime prevention", "behavioral intervention"]
+          },
+          {
+            "word": "community centers",
+            "pronunciation": "/kəˈmjuːnəti ˈsentərz/",
+            "partOfSpeech": "noun",
+            "definition": "Public spaces for community activities and services",
+            "example": "Community centers provide safe spaces for youth activities.",
+            "synonyms": ["youth centers", "recreation centers"]
+          },
+          {
+            "word": "allocate",
+            "pronunciation": "/ˈæləkeɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To distribute resources for a specific purpose",
+            "example": "Governments must allocate budgets wisely across different sectors.",
+            "synonyms": ["distribute", "assign"]
+          },
+          {
+            "word": "holistic",
+            "pronunciation": "/həʊˈlɪstɪk/",
+            "partOfSpeech": "adjective",
+            "definition": "Considering the whole person, not just one aspect",
+            "example": "Holistic youth development includes physical, mental, and social aspects.",
+            "synonyms": ["comprehensive", "complete"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "sports programs",
+            "definition": "Organized athletic activities and training",
+            "example": "Government-funded sports programs promote physical fitness among youth."
+          },
+          {
+            "phrase": "arts funding",
+            "definition": "Financial support for artistic and cultural activities",
+            "example": "Arts funding enables young people to explore creative talents."
+          },
+          {
+            "phrase": "youth clubs",
+            "definition": "Organizations providing activities and social opportunities for young people",
+            "example": "Youth clubs offer safe environments for socializing and skill development."
+          },
+          {
+            "phrase": "after-school programs",
+            "definition": "Supervised activities for students after regular school hours",
+            "example": "After-school programs keep young people engaged in constructive activities."
+          },
+          {
+            "phrase": "social cohesion",
+            "definition": "The bonds that bring society together",
+            "example": "Youth activities strengthen social cohesion by bringing diverse groups together."
+          },
+          {
+            "phrase": "idle time",
+            "definition": "Unstructured time with nothing to do",
+            "example": "Providing activities reduces idle time that could lead to problematic behavior."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["I strongly believe that", "In my opinion", "It is evident that", "From my perspective"],
+          "giving_reasons": ["Firstly", "Secondly", "The primary reason is", "Another key factor is"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "A clear example is"],
+          "contrasting": ["However", "Nevertheless", "Although", "While some argue that"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/45 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state your position clearly",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "I strongly believe that _____ should _____ because _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["governments", "private companies", "families"], "correctAnswer": "governments"},
+                  {"id": "thesis1_b2", "options": ["invest more in youth recreational activities", "reduce spending on entertainment", "focus only on education"], "correctAnswer": "invest more in youth recreational activities"},
+                  {"id": "thesis1_b3", "options": ["this promotes holistic development and prevents social problems", "it is expensive", "young people need more homework"], "correctAnswer": "this promotes holistic development and prevents social problems"}
+                ],
+                "correctSentence": "I strongly believe that governments should invest more in youth recreational activities because this promotes holistic development and prevents social problems.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ is _____ for _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["increased public funding for youth activities", "reducing sports budgets", "eliminating recreation programs"], "correctAnswer": "increased public funding for youth activities"},
+                  {"id": "thesis2_b2", "options": ["a crucial investment", "unnecessary spending", "too expensive"], "correctAnswer": "a crucial investment"},
+                  {"id": "thesis2_b3", "options": ["building healthier and more engaged communities", "wasting taxpayer money", "entertaining children"], "correctAnswer": "building healthier and more engaged communities"}
+                ],
+                "correctSentence": "In my opinion, increased public funding for youth activities is a crucial investment for building healthier and more engaged communities.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "While _____, I believe _____ because _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["some argue that this spending is not essential", "everyone agrees", "nobody cares"], "correctAnswer": "some argue that this spending is not essential"},
+                  {"id": "thesis3_b2", "options": ["investing in youth activities yields long-term benefits", "we should cut all programs", "sports are unimportant"], "correctAnswer": "investing in youth activities yields long-term benefits"},
+                  {"id": "thesis3_b3", "options": ["it reduces crime and improves public health", "young people watch too much TV", "it is trendy"], "correctAnswer": "it reduces crime and improves public health"}
+                ],
+                "correctSentence": "While some argue that this spending is not essential, I believe investing in youth activities yields long-term benefits because it reduces crime and improves public health.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "I firmly agree that _____ represents _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["allocating government resources to youth recreation", "cutting youth budgets", "privatizing sports facilities"], "correctAnswer": "allocating government resources to youth recreation"},
+                  {"id": "thesis4_b2", "options": ["a worthwhile use of public funds", "wasteful spending", "an unnecessary luxury"], "correctAnswer": "a worthwhile use of public funds"}
+                ],
+                "correctSentence": "I firmly agree that allocating government resources to youth recreation represents a worthwhile use of public funds.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "From my perspective, _____ is essential because _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["government support for youth recreational programs", "reducing community funding", "eliminating sports budgets"], "correctAnswer": "government support for youth recreational programs"},
+                  {"id": "thesis5_b2", "options": ["it addresses both individual wellbeing and broader social issues", "young people should entertain themselves", "it makes politicians popular"], "correctAnswer": "it addresses both individual wellbeing and broader social issues"}
+                ],
+                "correctSentence": "From my perspective, government support for youth recreational programs is essential because it addresses both individual wellbeing and broader social issues.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Firstly, _____ plays a crucial role in _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["investment in youth activities", "reducing taxes", "building highways"], "correctAnswer": "investment in youth activities"},
+                  {"id": "topic1_b2", "options": ["preventing juvenile delinquency and antisocial behavior", "increasing school fees", "restricting freedoms"], "correctAnswer": "preventing juvenile delinquency and antisocial behavior"}
+                ],
+                "correctSentence": "Firstly, investment in youth activities plays a crucial role in preventing juvenile delinquency and antisocial behavior.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "The primary reason for _____ is that _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["supporting this spending", "cutting budgets", "ignoring youth needs"], "correctAnswer": "supporting this spending"},
+                  {"id": "topic2_b2", "options": ["structured activities keep young people engaged in positive pursuits", "young people are lazy", "governments have unlimited money"], "correctAnswer": "structured activities keep young people engaged in positive pursuits"}
+                ],
+                "correctSentence": "The primary reason for supporting this spending is that structured activities keep young people engaged in positive pursuits.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Secondly, _____ significantly contributes to _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["public funding for recreational facilities", "private entertainment", "academic testing"], "correctAnswer": "public funding for recreational facilities"},
+                  {"id": "topic3_b2", "options": ["improving physical and mental health among young people", "increasing obesity rates", "reducing social interaction"], "correctAnswer": "improving physical and mental health among young people"}
+                ],
+                "correctSentence": "Secondly, public funding for recreational facilities significantly contributes to improving physical and mental health among young people.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "Another key benefit is that _____ helps _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["government-sponsored youth programs", "expensive private clubs", "school detention"], "correctAnswer": "government-sponsored youth programs"},
+                  {"id": "topic4_b2", "options": ["develop essential life skills and social connections", "waste time", "avoid responsibilities"], "correctAnswer": "develop essential life skills and social connections"}
+                ],
+                "correctSentence": "Another key benefit is that government-sponsored youth programs help develop essential life skills and social connections.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Moreover, _____ ensures that _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["state investment in youth activities", "private ownership of facilities", "reducing community spaces"], "correctAnswer": "state investment in youth activities"},
+                  {"id": "topic5_b2", "options": ["all young people have equal access regardless of family income", "only wealthy families benefit", "programs remain expensive"], "correctAnswer": "all young people have equal access regardless of family income"}
+                ],
+                "correctSentence": "Moreover, state investment in youth activities ensures that all young people have equal access regardless of family income.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "One significant advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["publicly funded recreational programs", "eliminating youth services", "privatizing all facilities"], "correctAnswer": "publicly funded recreational programs"},
+                  {"id": "topic6_b2", "options": ["the reduction in idle time that often leads to problematic behavior", "increased television watching", "higher crime rates"], "correctAnswer": "the reduction in idle time that often leads to problematic behavior"}
+                ],
+                "correctSentence": "One significant advantage of publicly funded recreational programs is the reduction in idle time that often leads to problematic behavior.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Furthermore, _____ promotes _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["investing in community centers and sports facilities", "closing youth clubs", "restricting activities"], "correctAnswer": "investing in community centers and sports facilities"},
+                  {"id": "topic7_b2", "options": ["social cohesion by bringing diverse groups together", "social isolation", "community division"], "correctAnswer": "social cohesion by bringing diverse groups together"}
+                ],
+                "correctSentence": "Furthermore, investing in community centers and sports facilities promotes social cohesion by bringing diverse groups together.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Most importantly, _____ creates _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["government support for youth activities", "cutting recreation budgets", "ignoring youth needs"], "correctAnswer": "government support for youth activities"},
+                  {"id": "topic8_b2", "options": ["long-term benefits that outweigh the initial investment costs", "immediate financial losses", "short-term political gains"], "correctAnswer": "long-term benefits that outweigh the initial investment costs"}
+                ],
+                "correctSentence": "Most importantly, government support for youth activities creates long-term benefits that outweigh the initial investment costs.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ provides young people with _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["participating in organized activities", "staying at home", "watching television"], "correctAnswer": "participating in organized activities"},
+                  {"id": "support1_b2", "options": ["constructive outlets for their energy and creativity", "more screen time", "isolation from peers"], "correctAnswer": "constructive outlets for their energy and creativity"}
+                ],
+                "correctSentence": "This is because participating in organized activities provides young people with constructive outlets for their energy and creativity.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["access to sports and arts programs", "expensive private lessons", "limited opportunities"], "correctAnswer": "access to sports and arts programs"},
+                  {"id": "support2_b2", "options": ["better physical fitness and reduced health problems in later life", "increased laziness", "more medical expenses"], "correctAnswer": "better physical fitness and reduced health problems in later life"}
+                ],
+                "correctSentence": "The main reason is that access to sports and arts programs leads to better physical fitness and reduced health problems in later life.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "When young people _____, they are less likely to _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["engage in supervised recreational activities", "have unlimited free time", "stay indoors all day"], "correctAnswer": "engage in supervised recreational activities"},
+                  {"id": "support3_b2", "options": ["become involved in crime or substance abuse", "develop healthy habits", "make friends"], "correctAnswer": "become involved in crime or substance abuse"}
+                ],
+                "correctSentence": "When young people engage in supervised recreational activities, they are less likely to become involved in crime or substance abuse.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Consequently, _____ helps to _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["government investment in these programs", "reducing funding", "eliminating activities"], "correctAnswer": "government investment in these programs"},
+                  {"id": "support4_b2", "options": ["build stronger communities with lower crime rates", "increase social problems", "waste public resources"], "correctAnswer": "build stronger communities with lower crime rates"}
+                ],
+                "correctSentence": "Consequently, government investment in these programs helps to build stronger communities with lower crime rates.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Research shows that _____ significantly _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["regular physical activity and social engagement", "sedentary lifestyles", "excessive screen time"], "correctAnswer": "regular physical activity and social engagement"},
+                  {"id": "support5_b2", "options": ["reduces anxiety, depression, and behavioral problems among teenagers", "increases mental health issues", "has no effect"], "correctAnswer": "reduces anxiety, depression, and behavioral problems among teenagers"}
+                ],
+                "correctSentence": "Research shows that regular physical activity and social engagement significantly reduces anxiety, depression, and behavioral problems among teenagers.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Without _____, many young people from _____ would _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["public funding", "wealthy families", "private support"], "correctAnswer": "public funding"},
+                  {"id": "support6_b2", "options": ["low-income families", "privileged backgrounds", "urban areas"], "correctAnswer": "low-income families"},
+                  {"id": "support6_b3", "options": ["be unable to access these valuable opportunities", "have unlimited choices", "prefer staying home"], "correctAnswer": "be unable to access these valuable opportunities"}
+                ],
+                "correctSentence": "Without public funding, many young people from low-income families would be unable to access these valuable opportunities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "By providing _____, governments enable young people to _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["free or subsidized recreational facilities", "expensive memberships", "restricted access"], "correctAnswer": "free or subsidized recreational facilities"},
+                  {"id": "support7_b2", "options": ["discover talents and develop skills they might not otherwise explore", "waste time", "avoid responsibilities"], "correctAnswer": "discover talents and develop skills they might not otherwise explore"}
+                ],
+                "correctSentence": "By providing free or subsidized recreational facilities, governments enable young people to discover talents and develop skills they might not otherwise explore.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "This investment is justified because _____ creates _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["early intervention through youth programs", "ignoring problems", "delaying support"], "correctAnswer": "early intervention through youth programs"},
+                  {"id": "support8_b2", "options": ["cost savings by preventing future social and health problems", "additional expenses", "no measurable impact"], "correctAnswer": "cost savings by preventing future social and health problems"}
+                ],
+                "correctSentence": "This investment is justified because early intervention through youth programs creates cost savings by preventing future social and health problems.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "Moreover, _____ develops _____ that _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["participation in team sports and group activities", "individual isolation", "competitive pressure"], "correctAnswer": "participation in team sports and group activities"},
+                  {"id": "support9_b2", "options": ["teamwork, leadership, and communication skills", "selfish attitudes", "aggressive behavior"], "correctAnswer": "teamwork, leadership, and communication skills"},
+                  {"id": "support9_b3", "options": ["are essential for future employment and social integration", "have no practical value", "only benefit athletes"], "correctAnswer": "are essential for future employment and social integration"}
+                ],
+                "correctSentence": "Moreover, participation in team sports and group activities develops teamwork, leadership, and communication skills that are essential for future employment and social integration.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "The evidence suggests that _____ results in _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["providing youth with structured leisure activities", "unlimited freedom", "no supervision"], "correctAnswer": "providing youth with structured leisure activities"},
+                  {"id": "support10_b2", "options": ["measurable improvements in academic performance and social behavior", "declining school results", "increased discipline problems"], "correctAnswer": "measurable improvements in academic performance and social behavior"}
+                ],
+                "correctSentence": "The evidence suggests that providing youth with structured leisure activities results in measurable improvements in academic performance and social behavior.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "It is clear that _____ contributes to _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["accessible community centers and youth clubs", "exclusive private facilities", "limited resources"], "correctAnswer": "accessible community centers and youth clubs"},
+                  {"id": "support11_b2", "options": ["creating safer neighborhoods by reducing youth boredom and frustration", "increasing crime", "community decline"], "correctAnswer": "creating safer neighborhoods by reducing youth boredom and frustration"}
+                ],
+                "correctSentence": "It is clear that accessible community centers and youth clubs contributes to creating safer neighborhoods by reducing youth boredom and frustration.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Additionally, _____ fosters _____ among _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["participation in diverse recreational programs", "segregated activities", "limited options"], "correctAnswer": "participation in diverse recreational programs"},
+                  {"id": "support12_b2", "options": ["mutual understanding and tolerance", "prejudice and division", "social barriers"], "correctAnswer": "mutual understanding and tolerance"},
+                  {"id": "support12_b3", "options": ["young people from different backgrounds", "similar groups only", "isolated individuals"], "correctAnswer": "young people from different backgrounds"}
+                ],
+                "correctSentence": "Additionally, participation in diverse recreational programs fosters mutual understanding and tolerance among young people from different backgrounds.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ in _____ has shown that _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["a government-funded youth sports program", "private gym memberships", "school detention"], "correctAnswer": "a government-funded youth sports program"},
+                  {"id": "example1_b2", "options": ["many cities", "wealthy suburbs only", "few locations"], "correctAnswer": "many cities"},
+                  {"id": "example1_b3", "options": ["youth crime rates decreased by up to 30% in participating areas", "problems increased", "nothing changed"], "correctAnswer": "youth crime rates decreased by up to 30% in participating areas"}
+                ],
+                "correctSentence": "For instance, a government-funded youth sports program in many cities has shown that youth crime rates decreased by up to 30% in participating areas.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ offer _____ that help young people _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["community centers", "expensive clubs", "private businesses"], "correctAnswer": "community centers"},
+                  {"id": "example2_b2", "options": ["free basketball courts, music studios, and art workshops", "costly memberships", "limited access"], "correctAnswer": "free basketball courts, music studios, and art workshops"},
+                  {"id": "example2_b3", "options": ["develop diverse interests and talents", "waste time", "avoid social interaction"], "correctAnswer": "develop diverse interests and talents"}
+                ],
+                "correctSentence": "For example, community centers offer free basketball courts, music studios, and art workshops that help young people develop diverse interests and talents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "A clear example is _____, where _____ resulted in _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["the UK youth club initiative", "private entertainment venues", "shopping mall programs"], "correctAnswer": "the UK youth club initiative"},
+                  {"id": "example3_b2", "options": ["increased government funding for after-school programs", "budget cuts", "privatization"], "correctAnswer": "increased government funding for after-school programs"},
+                  {"id": "example3_b3", "options": ["significant improvements in youth engagement and reduced antisocial behavior", "program failures", "unchanged outcomes"], "correctAnswer": "significant improvements in youth engagement and reduced antisocial behavior"}
+                ],
+                "correctSentence": "A clear example is the UK youth club initiative, where increased government funding for after-school programs resulted in significant improvements in youth engagement and reduced antisocial behavior.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Studies from _____ demonstrate that young people who _____ are _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["multiple countries", "one small town", "wealthy areas only"], "correctAnswer": "multiple countries"},
+                  {"id": "example4_b2", "options": ["regularly participate in organized sports or arts activities", "watch television constantly", "avoid physical activity"], "correctAnswer": "regularly participate in organized sports or arts activities"},
+                  {"id": "example4_b3", "options": ["more likely to achieve better academic results and career success", "less successful", "unchanged in outcomes"], "correctAnswer": "more likely to achieve better academic results and career success"}
+                ],
+                "correctSentence": "Studies from multiple countries demonstrate that young people who regularly participate in organized sports or arts activities are more likely to achieve better academic results and career success.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "In particular, _____ such as _____ provide _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["subsidized programs", "expensive courses", "elite training"], "correctAnswer": "subsidized programs"},
+                  {"id": "example5_b2", "options": ["swimming lessons, drama clubs, and coding workshops", "luxury experiences", "exclusive events"], "correctAnswer": "swimming lessons, drama clubs, and coding workshops"},
+                  {"id": "example5_b3", "options": ["affordable opportunities for skill development regardless of family income", "benefits only to the wealthy", "limited value"], "correctAnswer": "affordable opportunities for skill development regardless of family income"}
+                ],
+                "correctSentence": "In particular, subsidized programs such as swimming lessons, drama clubs, and coding workshops provide affordable opportunities for skill development regardless of family income.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Research indicates that _____ who access _____ experience _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["teenagers", "adults", "senior citizens"], "correctAnswer": "teenagers"},
+                  {"id": "example6_b2", "options": ["government-funded recreational facilities", "private gyms", "expensive resorts"], "correctAnswer": "government-funded recreational facilities"},
+                  {"id": "example6_b3", "options": ["reduced stress levels and improved mental wellbeing", "increased anxiety", "no benefits"], "correctAnswer": "reduced stress levels and improved mental wellbeing"}
+                ],
+                "correctSentence": "Research indicates that teenagers who access government-funded recreational facilities experience reduced stress levels and improved mental wellbeing.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Particularly in _____, _____ have proven effective at _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["disadvantaged neighborhoods", "wealthy suburbs", "rural mansions"], "correctAnswer": "disadvantaged neighborhoods"},
+                  {"id": "example7_b2", "options": ["publicly funded youth centers", "expensive clubs", "private businesses"], "correctAnswer": "publicly funded youth centers"},
+                  {"id": "example7_b3", "options": ["reducing gang involvement and providing positive role models", "increasing crime", "creating problems"], "correctAnswer": "reducing gang involvement and providing positive role models"}
+                ],
+                "correctSentence": "Particularly in disadvantaged neighborhoods, publicly funded youth centers have proven effective at reducing gang involvement and providing positive role models.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example; _____ has led to _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["Scandinavian countries", "isolated regions", "developing nations"], "correctAnswer": "Scandinavian countries"},
+                  {"id": "example8_b2", "options": ["substantial investment in youth recreational infrastructure", "cutting youth budgets", "privatizing facilities"], "correctAnswer": "substantial investment in youth recreational infrastructure"},
+                  {"id": "example8_b3", "options": ["some of the highest youth wellbeing indicators globally", "increased social problems", "poor outcomes"], "correctAnswer": "some of the highest youth wellbeing indicators globally"}
+                ],
+                "correctSentence": "Take Scandinavian countries as an example; substantial investment in youth recreational infrastructure has led to some of the highest youth wellbeing indicators globally.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "Specifically, _____ programs enable _____ to _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["free or low-cost sports and arts", "expensive private lessons", "exclusive elite training"], "correctAnswer": "free or low-cost sports and arts"},
+                  {"id": "example9_b2", "options": ["children from all socioeconomic backgrounds", "only wealthy families", "privileged groups"], "correctAnswer": "children from all socioeconomic backgrounds"},
+                  {"id": "example9_b3", "options": ["participate equally and build friendships across social divides", "remain segregated", "face discrimination"], "correctAnswer": "participate equally and build friendships across social divides"}
+                ],
+                "correctSentence": "Specifically, free or low-cost sports and arts programs enable children from all socioeconomic backgrounds to participate equally and build friendships across social divides.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence from _____ shows that every dollar spent on _____ saves approximately _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["public health research", "political campaigns", "advertising studies"], "correctAnswer": "public health research"},
+                  {"id": "example10_b2", "options": ["youth delinquency prevention programs", "luxury facilities", "entertainment venues"], "correctAnswer": "youth delinquency prevention programs"},
+                  {"id": "example10_b3", "options": ["five dollars in future criminal justice and healthcare costs", "nothing", "government revenue"], "correctAnswer": "five dollars in future criminal justice and healthcare costs"}
+                ],
+                "correctSentence": "Evidence from public health research shows that every dollar spent on youth delinquency prevention programs saves approximately five dollars in future criminal justice and healthcare costs.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-Arguments",
+            "description": "Address opposing views briefly to strengthen your position",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "While some argue that _____, this overlooks _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["government money should prioritize essential services like healthcare", "youth activities are most important", "nothing else matters"], "correctAnswer": "government money should prioritize essential services like healthcare"},
+                  {"id": "counter1_b2", "options": ["the fact that youth programs prevent health problems and reduce future costs", "entertainment value", "short-term thinking"], "correctAnswer": "the fact that youth programs prevent health problems and reduce future costs"}
+                ],
+                "correctSentence": "While some argue that government money should prioritize essential services like healthcare, this overlooks the fact that youth programs prevent health problems and reduce future costs.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Although critics claim that _____, evidence shows _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["recreational spending is not a government responsibility", "all spending is good", "budgets are unlimited"], "correctAnswer": "recreational spending is not a government responsibility"},
+                  {"id": "counter2_b2", "options": ["this investment yields significant social and economic benefits", "only costs money", "no measurable impact"], "correctAnswer": "this investment yields significant social and economic benefits"}
+                ],
+                "correctSentence": "Although critics claim that recreational spending is not a government responsibility, evidence shows this investment yields significant social and economic benefits.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Despite concerns about _____, the reality is that _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["budget constraints and competing priorities", "unlimited resources", "easy decisions"], "correctAnswer": "budget constraints and competing priorities"},
+                  {"id": "counter3_b2", "options": ["investing in youth prevention programs is more cost-effective than addressing problems later", "cutting programs saves money", "spending has no return"], "correctAnswer": "investing in youth prevention programs is more cost-effective than addressing problems later"}
+                ],
+                "correctSentence": "Despite concerns about budget constraints and competing priorities, the reality is that investing in youth prevention programs is more cost-effective than addressing problems later.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Some may contend that _____, however _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["families should be responsible for their children's recreation", "government should control everything", "youth need no activities"], "correctAnswer": "families should be responsible for their children's recreation"},
+                  {"id": "counter4_b2", "options": ["not all families have the resources or time to provide these opportunities", "all families are wealthy", "children don't need support"], "correctAnswer": "not all families have the resources or time to provide these opportunities"}
+                ],
+                "correctSentence": "Some may contend that families should be responsible for their children's recreation, however not all families have the resources or time to provide these opportunities.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "It could be argued that _____, but _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["private sector organizations can provide these services", "government should do everything", "youth don't need activities"], "correctAnswer": "private sector organizations can provide these services"},
+                  {"id": "counter5_b2", "options": ["commercial providers often exclude low-income youth who need support most", "private companies serve everyone equally", "cost is not a barrier"], "correctAnswer": "commercial providers often exclude low-income youth who need support most"}
+                ],
+                "correctSentence": "It could be argued that private sector organizations can provide these services, but commercial providers often exclude low-income youth who need support most.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, I firmly believe that _____ represents _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["increased government spending on youth activities", "cutting recreation budgets", "eliminating programs"], "correctAnswer": "increased government spending on youth activities"},
+                  {"id": "conclusion1_b2", "options": ["a sound investment in society's future wellbeing", "wasteful spending", "an unnecessary luxury"], "correctAnswer": "a sound investment in society's future wellbeing"}
+                ],
+                "correctSentence": "In conclusion, I firmly believe that increased government spending on youth activities represents a sound investment in society's future wellbeing.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "To summarize, _____ is essential for _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["public investment in recreational opportunities for young people", "reducing government spending", "privatizing all services"], "correctAnswer": "public investment in recreational opportunities for young people"},
+                  {"id": "conclusion2_b2", "options": ["building healthier, safer, and more cohesive communities", "generating profits", "political popularity"], "correctAnswer": "building healthier, safer, and more cohesive communities"}
+                ],
+                "correctSentence": "To summarize, public investment in recreational opportunities for young people is essential for building healthier, safer, and more cohesive communities.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "Overall, the benefits of _____ clearly outweigh _____, making it _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["allocating resources to youth programs", "cutting all budgets", "ignoring youth needs"], "correctAnswer": "allocating resources to youth programs"},
+                  {"id": "conclusion3_b2", "options": ["the costs", "the advantages", "government income"], "correctAnswer": "the costs"},
+                  {"id": "conclusion3_b3", "options": ["a priority that governments should embrace", "unnecessary spending", "a waste of money"], "correctAnswer": "a priority that governments should embrace"}
+                ],
+                "correctSentence": "Overall, the benefits of allocating resources to youth programs clearly outweigh the costs, making it a priority that governments should embrace.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ by _____ will _____ for future generations.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["supporting youth development", "reducing services", "eliminating programs"], "correctAnswer": "supporting youth development"},
+                  {"id": "conclusion4_b2", "options": ["investing in recreational facilities and programs", "cutting budgets", "privatizing everything"], "correctAnswer": "investing in recreational facilities and programs"},
+                  {"id": "conclusion4_b3", "options": ["create lasting positive impacts", "waste resources", "have no effect"], "correctAnswer": "create lasting positive impacts"}
+                ],
+                "correctSentence": "Ultimately, supporting youth development by investing in recreational facilities and programs will create lasting positive impacts for future generations.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In summary, _____ should be viewed as _____ rather than _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["government funding for youth activities", "budget cuts", "tax increases"], "correctAnswer": "government funding for youth activities"},
+                  {"id": "conclusion5_b2", "options": ["an investment in prevention and prosperity", "unnecessary spending", "entertainment costs"], "correctAnswer": "an investment in prevention and prosperity"},
+                  {"id": "conclusion5_b3", "options": ["a discretionary expense", "essential spending", "a priority"], "correctAnswer": "a discretionary expense"}
+                ],
+                "correctSentence": "In summary, government funding for youth activities should be viewed as an investment in prevention and prosperity rather than a discretionary expense.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Strong Agreement",
+            "structure": {
+              "introduction": "In today's society, [context about youth]. I strongly believe that governments should allocate more resources to youth recreational activities because [brief reason].",
+              "body1": "Firstly, [Topic sentence about crime prevention]. This is because [Explanation]. For instance, [Specific example]. Consequently, [Result or impact].",
+              "body2": "Secondly, [Topic sentence about health/development]. The main reason is [Explanation]. For example, [Specific example]. Therefore, [Conclusion about benefit].",
+              "conclusion": "In conclusion, increased government investment in youth activities represents [restate position]. Given [key benefit], this spending should be considered [final thought]."
+            }
+          },
+          {
+            "name": "Template 2: Agreement with Counter-Argument",
+            "structure": {
+              "introduction": "[Paraphrase question]. While some argue that [counter view], I believe that [your position] because [main reasons].",
+              "body1": "The primary benefit of [youth activities funding] is [main point]. When young people [action], they [result]. For instance, [specific example]. This demonstrates [analysis].",
+              "body2": "Furthermore, [second main benefit]. Research shows that [evidence/example]. While critics claim that [counter-argument], this overlooks [refutation]. Therefore, [conclusion].",
+              "conclusion": "To summarize, despite concerns about [acknowledge counter], the evidence clearly shows [restate position]. Ultimately, [final reinforcement]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "stating_opinion": ["I strongly believe that", "In my opinion", "From my perspective", "I firmly agree that"],
+          "giving_reasons": ["Firstly", "Secondly", "The primary reason is", "Another key factor is", "Most importantly"],
+          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition", "What is more"],
+          "giving_examples": ["For instance", "For example", "A clear example is", "Particularly", "Specifically"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "contrasting": ["While some argue that", "Although", "Despite", "However", "Nevertheless"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The allocation of public funds for youth leisure activities has become _____ [provide context about the issue]. I strongly believe that _____ [state your clear position on government spending]. This investment is crucial because _____ [give your main reason].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Context about the issue",
+                "hint": "Set the scene - why is this topic important now?",
+                "placeholder": "e.g., an increasingly important policy debate in many developed nations facing youth challenges",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Your clear position",
+                "hint": "State whether you agree or disagree strongly",
+                "placeholder": "e.g., governments should significantly increase spending on recreational facilities and programs for young people",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Main reason",
+                "hint": "Why is this investment important?",
+                "placeholder": "e.g., it promotes both individual development and broader community wellbeing while preventing costly social problems",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "Firstly, _____ [topic sentence about first main benefit]. This is because _____ [explain the reason or mechanism]. For instance, _____ [give a specific example]. Consequently, _____ [state the result or impact].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - first main benefit",
+                "hint": "What is the first major advantage? Consider crime prevention or social benefits",
+                "placeholder": "e.g., investment in youth recreational programs plays a vital role in reducing juvenile delinquency and antisocial behavior",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does this benefit occur? What is the mechanism?",
+                "placeholder": "e.g., structured activities provide young people with constructive outlets and reduce the idle time that often leads to problematic behavior",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete evidence or a real example",
+                "placeholder": "e.g., cities that implemented free sports programs and youth centers reported up to 30% reduction in youth crime rates",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Result or impact",
+                "hint": "What is the final outcome or broader implication?",
+                "placeholder": "e.g., this creates safer communities while saving governments significant costs in law enforcement and criminal justice",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "Secondly, _____ [topic sentence about second main benefit]. The main reason is _____ [explain why this matters]. For example, _____ [specific example or evidence]. Moreover, _____ [additional point or counter-argument address].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - second main benefit",
+                "hint": "What is another major advantage? Consider health, skills, or equality",
+                "placeholder": "e.g., public funding for recreational facilities significantly improves both physical and mental health outcomes for young people",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why this matters",
+                "hint": "What is the mechanism or reasoning?",
+                "placeholder": "e.g., regular participation in sports and arts activities reduces obesity, anxiety, and depression while building essential life skills",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example or evidence",
+                "hint": "Provide concrete evidence",
+                "placeholder": "e.g., research from Scandinavian countries shows that youth with access to subsidized recreational programs achieve better academic results and career outcomes",
+                "minWords": 18
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Additional point or counter-argument",
+                "hint": "Add another benefit or address a potential criticism",
+                "placeholder": "e.g., while some argue this spending is not essential, it prevents far more costly health and social problems in the future",
+                "minWords": 15
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [restate your position strongly]. Given that _____ [summarize key benefits], this type of spending should be viewed as _____ [final perspective or call to action].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Restate position",
+                "hint": "Clearly restate your agreement/disagreement",
+                "placeholder": "e.g., I firmly believe that increased government investment in youth recreational activities represents a crucial priority for modern societies",
+                "minWords": 15
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Summarize key benefits",
+                "hint": "Briefly mention the main benefits discussed",
+                "placeholder": "e.g., these programs reduce crime, improve health outcomes, develop essential skills, and promote social equality across communities",
+                "minWords": 15
+              },
+              {
+                "id": "conclusion_blank3",
+                "label": "Final perspective",
+                "hint": "End with a strong final thought",
+                "placeholder": "e.g., an investment in prevention and youth development rather than a discretionary expense that can be cut",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your clear position"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss first benefit (e.g., crime prevention) with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss second benefit (e.g., health/development) with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2-3 sentences",
+            "purpose": "Summarize position + final thought"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position on government spending",
+          "Body paragraph 1 discusses major benefit with specific example",
+          "Body paragraph 2 discusses second benefit with evidence",
+          "Counter-argument briefly addressed",
+          "Conclusion strongly restates your position",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The allocation of government resources to youth recreational activities has become an increasingly debated policy issue in many countries. I strongly believe that public authorities should invest more heavily in free-time programs and facilities for young people, as this spending yields significant social and economic benefits that far outweigh the costs.\n\nFirstly, investment in youth activities plays a crucial role in delinquency prevention and crime reduction. When young people have access to structured recreational programs such as sports leagues, arts workshops, and community centers, they have constructive outlets for their energy and fewer opportunities for boredom-driven antisocial behavior. For instance, cities that have implemented comprehensive youth programs have documented crime reductions of up to 30% in participating neighborhoods. This not only creates safer communities but also generates substantial cost savings in law enforcement, criminal justice, and social services that would otherwise be needed to address youth crime.\n\nSecondly, public funding for recreational facilities significantly contributes to youth development and public health. Regular participation in physical activities and extracurricular programs improves fitness levels, reduces obesity rates, and addresses mental health issues like anxiety and depression that increasingly affect young people. Research from Scandinavian countries, which invest heavily in youth infrastructure, demonstrates that young people with access to these programs achieve better academic outcomes and develop essential skills including teamwork, leadership, and resilience. Moreover, publicly funded programs ensure equal access regardless of family income, promoting social cohesion by bringing together young people from diverse backgrounds.\n\nIn conclusion, increased government spending on youth recreational activities represents a sound investment in society's future rather than discretionary spending. Given the measurable benefits in crime prevention, health improvement, and skill development, this allocation of public funds should be considered a priority that yields long-term returns for individuals and communities alike.",
+    "wordCount": 283,
+    "structure": {
+      "introduction": "The allocation of government resources to youth recreational activities has become an increasingly debated policy issue in many countries. I strongly believe that public authorities should invest more heavily in free-time programs and facilities for young people, as this spending yields significant social and economic benefits that far outweigh the costs.",
+      "body1": "Firstly, investment in youth activities plays a crucial role in delinquency prevention and crime reduction. When young people have access to structured recreational programs such as sports leagues, arts workshops, and community centers, they have constructive outlets for their energy and fewer opportunities for boredom-driven antisocial behavior. For instance, cities that have implemented comprehensive youth programs have documented crime reductions of up to 30% in participating neighborhoods. This not only creates safer communities but also generates substantial cost savings in law enforcement, criminal justice, and social services that would otherwise be needed to address youth crime.",
+      "body2": "Secondly, public funding for recreational facilities significantly contributes to youth development and public health. Regular participation in physical activities and extracurricular programs improves fitness levels, reduces obesity rates, and addresses mental health issues like anxiety and depression that increasingly affect young people. Research from Scandinavian countries, which invest heavily in youth infrastructure, demonstrates that young people with access to these programs achieve better academic outcomes and develop essential skills including teamwork, leadership, and resilience. Moreover, publicly funded programs ensure equal access regardless of family income, promoting social cohesion by bringing together young people from diverse backgrounds.",
+      "conclusion": "In conclusion, increased government spending on youth recreational activities represents a sound investment in society's future rather than discretionary spending. Given the measurable benefits in crime prevention, health improvement, and skill development, this allocation of public funds should be considered a priority that yields long-term returns for individuals and communities alike."
+    },
+    "highlights": [
+      {
+        "text": "delinquency prevention",
+        "type": "academic-vocab",
+        "explanation": "Academic term for measures to reduce youth crime"
+      },
+      {
+        "text": "Firstly... Secondly",
+        "type": "linking-word",
+        "explanation": "Clear organizational structure for presenting multiple reasons"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific supporting example"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "social cohesion",
+        "type": "academic-vocab",
+        "explanation": "Academic term for community bonds and unity"
+      },
+      {
+        "text": "public funding",
+        "type": "academic-vocab",
+        "explanation": "Formal term for government financial support"
+      }
+    ]
+  }
+}

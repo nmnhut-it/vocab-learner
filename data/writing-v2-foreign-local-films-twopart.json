@@ -1,0 +1,1072 @@
+{
+  "id": "foreign-local-films-twopart",
+  "title": "Foreign vs Local Films",
+  "category": "Media & Culture",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Many people prefer to watch foreign films rather than locally produced films. Why could this be? Should governments give more financial support to local film industries?",
+    "type": "Two-Part Question",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Two-Part Question",
+          "explanation": "You must answer BOTH parts: (1) WHY people prefer foreign films, and (2) whether governments should provide more financial support to local film industries. Give your clear opinion on the second part.",
+          "requirements": [
+            "Explain reasons why people prefer foreign films",
+            "Give your opinion on government financial support",
+            "Provide arguments for or against government subsidies",
+            "Provide specific examples for each point",
+            "Address BOTH parts of the question clearly"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "foreign films",
+            "definition": "Movies produced in other countries",
+            "importance": "The main subject - understand why these are preferred"
+          },
+          {
+            "word": "locally produced",
+            "definition": "Films made in your own country",
+            "importance": "The alternative being compared to foreign films"
+          },
+          {
+            "word": "why",
+            "definition": "The causes or reasons behind the preference",
+            "importance": "First part of the question - you MUST explain reasons"
+          },
+          {
+            "word": "governments",
+            "definition": "National authorities with power to allocate funding",
+            "importance": "The potential source of financial support"
+          },
+          {
+            "word": "financial support",
+            "definition": "Money, subsidies, or funding provided by government",
+            "importance": "The specific type of help being discussed"
+          },
+          {
+            "word": "should",
+            "definition": "Asking for your opinion or recommendation",
+            "importance": "You must take a clear position on government support"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + address both parts briefly",
+          "body1": "4-5 sentences: Explain WHY people prefer foreign films (reasons/causes)",
+          "body2": "5-6 sentences: Your opinion on government support with arguments",
+          "conclusion": "2 sentences: Summarize reasons + restate your opinion on government support"
+        },
+        "commonMistakes": [
+          "Only answering one part of the question",
+          "Not giving clear opinion on government support",
+          "Forgetting to explain WHY people prefer foreign films",
+          "Discussing film quality without specific examples",
+          "Not addressing the financial support aspect adequately"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "cinematic quality",
+            "pronunciation": "/ˌsɪnəˈmætɪk ˈkwɒləti/",
+            "partOfSpeech": "noun phrase",
+            "definition": "The technical and artistic excellence of a film",
+            "example": "Hollywood films are known for their superior cinematic quality and production values.",
+            "synonyms": ["film quality", "production excellence"]
+          },
+          {
+            "word": "subsidies",
+            "pronunciation": "/ˈsʌbsədiz/",
+            "partOfSpeech": "noun",
+            "definition": "Financial assistance provided by government",
+            "example": "French cinema has thrived thanks to generous government subsidies.",
+            "synonyms": ["grants", "funding", "financial aid"]
+          },
+          {
+            "word": "cultural representation",
+            "pronunciation": "/ˈkʌltʃərəl ˌreprɪzenˈteɪʃən/",
+            "partOfSpeech": "noun phrase",
+            "definition": "The portrayal of cultural values and identity",
+            "example": "Local films provide important cultural representation for national audiences.",
+            "synonyms": ["cultural portrayal", "cultural identity"]
+          },
+          {
+            "word": "production values",
+            "pronunciation": "/prəˈdʌkʃən ˈvæljuːz/",
+            "partOfSpeech": "noun phrase",
+            "definition": "The technical quality and budget invested in making a film",
+            "example": "International blockbusters typically have higher production values than local films.",
+            "synonyms": ["production quality", "technical standards"]
+          },
+          {
+            "word": "box office",
+            "pronunciation": "/bɒks ˈɒfɪs/",
+            "partOfSpeech": "noun",
+            "definition": "Commercial success measured by ticket sales revenue",
+            "example": "Foreign films often dominate the box office in smaller markets.",
+            "synonyms": ["ticket sales", "revenue"]
+          },
+          {
+            "word": "cultural heritage",
+            "pronunciation": "/ˈkʌltʃərəl ˈherɪtɪdʒ/",
+            "partOfSpeech": "noun phrase",
+            "definition": "Traditional values, stories, and artistic expressions of a culture",
+            "example": "Government support helps preserve cultural heritage through local filmmaking.",
+            "synonyms": ["cultural legacy", "national identity"]
+          },
+          {
+            "word": "dominate",
+            "pronunciation": "/ˈdɒmɪneɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To have controlling influence over",
+            "example": "Hollywood productions dominate cinema screens worldwide.",
+            "synonyms": ["control", "prevail over"]
+          },
+          {
+            "word": "allocate",
+            "pronunciation": "/ˈæləkeɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To distribute resources for a specific purpose",
+            "example": "Governments must decide whether to allocate funds to local film industries.",
+            "synonyms": ["assign", "distribute", "designate"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "domestic cinema",
+            "definition": "Films produced within one's own country",
+            "example": "Many countries struggle to maintain viable domestic cinema industries."
+          },
+          {
+            "phrase": "international blockbusters",
+            "definition": "Major commercially successful films distributed globally",
+            "example": "International blockbusters from Hollywood attract larger audiences than local productions."
+          },
+          {
+            "phrase": "film festival",
+            "definition": "Events showcasing films, often with prizes and recognition",
+            "example": "International film festivals like Cannes help promote both foreign and local cinema."
+          },
+          {
+            "phrase": "streaming platforms",
+            "definition": "Online services like Netflix that distribute films digitally",
+            "example": "Streaming platforms have changed how audiences access both foreign and local films."
+          },
+          {
+            "phrase": "tax incentives",
+            "definition": "Government tax breaks to encourage film production",
+            "example": "Many countries offer tax incentives to support their local film industries."
+          },
+          {
+            "phrase": "cultural diversity",
+            "definition": "Variety of cultural expressions and perspectives",
+            "example": "Supporting local films helps maintain cultural diversity in global cinema."
+          },
+          {
+            "phrase": "commercial viability",
+            "definition": "The ability to generate profit and sustain operations",
+            "example": "Without subsidies, many local film industries lack commercial viability."
+          },
+          {
+            "phrase": "special effects",
+            "definition": "Visual and technical illusions used to enhance films",
+            "example": "Foreign films often have more impressive special effects due to larger budgets."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There are several reasons why", "This preference can be explained by", "The main reason for this is"],
+          "contrasting": ["However", "Conversely", "On the contrary", "In contrast"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Particularly", "Specifically"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In my view"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that address both parts and state your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "This preference stems from _____, and I believe governments _____ local film industries.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["superior production values and marketing in foreign films", "poor local taste", "random chance"], "correctAnswer": "superior production values and marketing in foreign films"},
+                  {"id": "thesis1_b2", "options": ["should provide financial support to", "should not interfere with", "must immediately fund"], "correctAnswer": "should provide financial support to"}
+                ],
+                "correctSentence": "This preference stems from superior production values and marketing in foreign films, and I believe governments should provide financial support to local film industries.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The main reasons include _____, and therefore _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["higher budgets and global marketing of foreign productions", "local incompetence", "bad timing"], "correctAnswer": "higher budgets and global marketing of foreign productions"},
+                  {"id": "thesis2_b2", "options": ["government intervention is justified to preserve cultural heritage", "nothing can be done", "local films should be banned"], "correctAnswer": "government intervention is justified to preserve cultural heritage"}
+                ],
+                "correctSentence": "The main reasons include higher budgets and global marketing of foreign productions, and therefore government intervention is justified to preserve cultural heritage.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This essay will examine _____ before arguing that _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["why foreign films dominate audience preferences and whether subsidies are warranted", "only the problems", "historical changes"], "correctAnswer": "why foreign films dominate audience preferences and whether subsidies are warranted"},
+                  {"id": "thesis3_b2", "options": ["governments should support domestic cinema financially", "nothing can change", "foreign films should be banned"], "correctAnswer": "governments should support domestic cinema financially"}
+                ],
+                "correctSentence": "This essay will examine why foreign films dominate audience preferences and whether subsidies are warranted before arguing that governments should support domestic cinema financially.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "While _____, I contend that _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["foreign films offer superior entertainment value", "local films are worthless", "audiences have no taste"], "correctAnswer": "foreign films offer superior entertainment value"},
+                  {"id": "thesis4_b2", "options": ["government subsidies are essential to maintain cultural diversity in cinema", "market forces should decide everything", "local films should disappear"], "correctAnswer": "government subsidies are essential to maintain cultural diversity in cinema"}
+                ],
+                "correctSentence": "While foreign films offer superior entertainment value, I contend that government subsidies are essential to maintain cultural diversity in cinema.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "Several factors explain this trend, and _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["governments have a responsibility to protect local cultural industries through financial support", "nothing should be done", "foreign films should be restricted"], "correctAnswer": "governments have a responsibility to protect local cultural industries through financial support"}
+                ],
+                "correctSentence": "Several factors explain this trend, and governments have a responsibility to protect local cultural industries through financial support.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "The primary reason for _____ is _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["this preference", "poor taste", "bad luck"], "correctAnswer": "this preference"},
+                  {"id": "topic1_b2", "options": ["the superior cinematic quality and production values of foreign films", "local laziness", "government policy"], "correctAnswer": "the superior cinematic quality and production values of foreign films"}
+                ],
+                "correctSentence": "The primary reason for this preference is the superior cinematic quality and production values of foreign films.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "This trend can be attributed to _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["the massive budgets and global marketing reach of international productions", "random factors", "cultural decline"], "correctAnswer": "the massive budgets and global marketing reach of international productions"}
+                ],
+                "correctSentence": "This trend can be attributed to the massive budgets and global marketing reach of international productions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Several factors contribute to _____, with _____ being paramount.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["the dominance of foreign films", "audience confusion", "market changes"], "correctAnswer": "the dominance of foreign films"},
+                  {"id": "topic3_b2", "options": ["Hollywood's superior special effects and star power", "advertising only", "ticket prices"], "correctAnswer": "Hollywood's superior special effects and star power"}
+                ],
+                "correctSentence": "Several factors contribute to the dominance of foreign films, with Hollywood's superior special effects and star power being paramount.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "In my opinion, governments _____ because _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["should provide financial support to local cinema", "should ban foreign films", "should do nothing"], "correctAnswer": "should provide financial support to local cinema"},
+                  {"id": "topic4_b2", "options": ["preserving cultural heritage and diversity is a national responsibility", "it generates profit", "foreign films are bad"], "correctAnswer": "preserving cultural heritage and diversity is a national responsibility"}
+                ],
+                "correctSentence": "In my opinion, governments should provide financial support to local cinema because preserving cultural heritage and diversity is a national responsibility.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "I believe _____ are justified for _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["government subsidies", "high taxes", "import restrictions"], "correctAnswer": "government subsidies"},
+                  {"id": "topic5_b2", "options": ["domestic film industries", "foreign studios", "movie theaters"], "correctAnswer": "domestic film industries"}
+                ],
+                "correctSentence": "I believe government subsidies are justified for domestic film industries.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Financial support from _____ is essential to _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["governments", "audiences", "critics"], "correctAnswer": "governments"},
+                  {"id": "topic6_b2", "options": ["maintain viable local film industries", "increase foreign imports", "raise ticket prices"], "correctAnswer": "maintain viable local film industries"}
+                ],
+                "correctSentence": "Financial support from governments is essential to maintain viable local film industries.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Without _____, local film industries _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["government intervention", "foreign competition", "audience interest"], "correctAnswer": "government intervention"},
+                  {"id": "topic7_b2", "options": ["cannot compete with well-funded international productions", "will dominate markets", "need no help"], "correctAnswer": "cannot compete with well-funded international productions"}
+                ],
+                "correctSentence": "Without government intervention, local film industries cannot compete with well-funded international productions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Public funding helps _____ by _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["domestic filmmakers", "foreign studios", "distributors"], "correctAnswer": "domestic filmmakers"},
+                  {"id": "topic8_b2", "options": ["leveling the playing field against international competition", "guaranteeing profits", "eliminating creativity"], "correctAnswer": "leveling the playing field against international competition"}
+                ],
+                "correctSentence": "Public funding helps domestic filmmakers by leveling the playing field against international competition.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "International studios invest _____ which enables them to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["hundreds of millions in production budgets", "minimal resources", "no money"], "correctAnswer": "hundreds of millions in production budgets"},
+                  {"id": "support1_b2", "options": ["create spectacular visual effects and hire world-famous actors", "make simple films", "lose money"], "correctAnswer": "create spectacular visual effects and hire world-famous actors"}
+                ],
+                "correctSentence": "International studios invest hundreds of millions in production budgets which enables them to create spectacular visual effects and hire world-famous actors.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "This is because _____ have access to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["major foreign studios", "small producers", "local theaters"], "correctAnswer": "major foreign studios"},
+                  {"id": "support2_b2", "options": ["vast financial resources and global distribution networks", "limited budgets", "no advantages"], "correctAnswer": "vast financial resources and global distribution networks"}
+                ],
+                "correctSentence": "This is because major foreign studios have access to vast financial resources and global distribution networks.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Additionally, _____ benefit from _____ that _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["foreign films", "local productions", "documentaries"], "correctAnswer": "foreign films"},
+                  {"id": "support3_b2", "options": ["extensive marketing campaigns", "no promotion", "limited reach"], "correctAnswer": "extensive marketing campaigns"},
+                  {"id": "support3_b3", "options": ["create widespread anticipation and awareness before release", "have no impact", "cost nothing"], "correctAnswer": "create widespread anticipation and awareness before release"}
+                ],
+                "correctSentence": "Additionally, foreign films benefit from extensive marketing campaigns that create widespread anticipation and awareness before release.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "By _____, governments can _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["providing subsidies and tax incentives", "doing nothing", "banning imports"], "correctAnswer": "providing subsidies and tax incentives"},
+                  {"id": "support4_b2", "options": ["enable local filmmakers to produce competitive quality content", "waste taxpayer money", "eliminate culture"], "correctAnswer": "enable local filmmakers to produce competitive quality content"}
+                ],
+                "correctSentence": "By providing subsidies and tax incentives, governments can enable local filmmakers to produce competitive quality content.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Government support ensures that _____ which is crucial for _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["local stories and cultural perspectives are represented on screen", "foreign films dominate", "profits increase"], "correctAnswer": "local stories and cultural perspectives are represented on screen"},
+                  {"id": "support5_b2", "options": ["maintaining national identity and cultural diversity", "commercial success only", "international sales"], "correctAnswer": "maintaining national identity and cultural diversity"}
+                ],
+                "correctSentence": "Government support ensures that local stories and cultural perspectives are represented on screen which is crucial for maintaining national identity and cultural diversity.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Without subsidies, _____ would struggle to _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["domestic producers", "foreign studios", "movie theaters"], "correctAnswer": "domestic producers"},
+                  {"id": "support6_b2", "options": ["compete with the massive budgets of international blockbusters", "make any profit", "attract any audience"], "correctAnswer": "compete with the massive budgets of international blockbusters"}
+                ],
+                "correctSentence": "Without subsidies, domestic producers would struggle to compete with the massive budgets of international blockbusters.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Local cinema plays _____ in _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["a vital role", "no part", "a minor role"], "correctAnswer": "a vital role"},
+                  {"id": "support7_b2", "options": ["preserving and promoting cultural heritage for future generations", "entertainment only", "making profits"], "correctAnswer": "preserving and promoting cultural heritage for future generations"}
+                ],
+                "correctSentence": "Local cinema plays a vital role in preserving and promoting cultural heritage for future generations.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Moreover, _____ creates _____ and _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["supporting domestic film industries", "importing foreign films", "censoring content"], "correctAnswer": "supporting domestic film industries"},
+                  {"id": "support8_b2", "options": ["employment opportunities", "no jobs", "problems"], "correctAnswer": "employment opportunities"},
+                  {"id": "support8_b3", "options": ["contributes to the creative economy", "wastes resources", "damages culture"], "correctAnswer": "contributes to the creative economy"}
+                ],
+                "correctSentence": "Moreover, supporting domestic film industries creates employment opportunities and contributes to the creative economy.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "The dominance of _____ means that _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["foreign films", "local productions", "streaming services"], "correctAnswer": "foreign films"},
+                  {"id": "support9_b2", "options": ["audiences have limited exposure to their own cultural narratives", "everyone is satisfied", "nothing changes"], "correctAnswer": "audiences have limited exposure to their own cultural narratives"}
+                ],
+                "correctSentence": "The dominance of foreign films means that audiences have limited exposure to their own cultural narratives.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "Successful models like _____ demonstrate that _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["French cinema subsidies", "unregulated markets", "import bans"], "correctAnswer": "French cinema subsidies"},
+                  {"id": "support10_b2", "options": ["government support can help local industries thrive alongside foreign competition", "intervention always fails", "markets need no regulation"], "correctAnswer": "government support can help local industries thrive alongside foreign competition"}
+                ],
+                "correctSentence": "Successful models like French cinema subsidies demonstrate that government support can help local industries thrive alongside foreign competition.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ increasingly _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["local audiences", "foreign studios", "critics"], "correctAnswer": "local audiences"},
+                  {"id": "support11_b2", "options": ["view foreign productions as the standard for quality entertainment", "reject all films", "support local cinema"], "correctAnswer": "view foreign productions as the standard for quality entertainment"}
+                ],
+                "correctSentence": "As a result, local audiences increasingly view foreign productions as the standard for quality entertainment.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ helps _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["public funding", "free markets", "foreign investment"], "correctAnswer": "public funding"},
+                  {"id": "support12_b2", "options": ["ensure cultural stories are not lost to commercial globalization", "maximize profits", "reduce quality"], "correctAnswer": "ensure cultural stories are not lost to commercial globalization"}
+                ],
+                "correctSentence": "Consequently, public funding helps ensure cultural stories are not lost to commercial globalization.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ regularly spend _____ on _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["Hollywood studios", "small producers", "distributors"], "correctAnswer": "Hollywood studios"},
+                  {"id": "example1_b2", "options": ["over two hundred million dollars", "minimal amounts", "nothing"], "correctAnswer": "over two hundred million dollars"},
+                  {"id": "example1_b3", "options": ["single blockbuster productions with cutting-edge technology", "simple documentaries", "marketing only"], "correctAnswer": "single blockbuster productions with cutting-edge technology"}
+                ],
+                "correctSentence": "For instance, Hollywood studios regularly spend over two hundred million dollars on single blockbuster productions with cutting-edge technology.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ such as _____ attract _____ that local films rarely achieve.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["international franchises", "small projects", "amateur films"], "correctAnswer": "international franchises"},
+                  {"id": "example2_b2", "options": ["Marvel or Avatar", "local documentaries", "art films"], "correctAnswer": "Marvel or Avatar"},
+                  {"id": "example2_b3", "options": ["massive global audiences and box office revenues", "small viewership", "critical rejection"], "correctAnswer": "massive global audiences and box office revenues"}
+                ],
+                "correctSentence": "For example, international franchises such as Marvel or Avatar attract massive global audiences and box office revenues that local films rarely achieve.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ has _____ to support _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["France", "the United States", "China"], "correctAnswer": "France"},
+                  {"id": "example3_b2", "options": ["successfully implemented generous subsidies", "banned foreign films", "done nothing"], "correctAnswer": "successfully implemented generous subsidies"},
+                  {"id": "example3_b3", "options": ["its thriving domestic cinema industry", "Hollywood only", "imported content"], "correctAnswer": "its thriving domestic cinema industry"}
+                ],
+                "correctSentence": "Specifically, France has successfully implemented generous subsidies to support its thriving domestic cinema industry.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "According to industry data, _____ dominate _____ in most countries.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["foreign films", "local productions", "documentaries"], "correctAnswer": "foreign films"},
+                  {"id": "example4_b2", "options": ["box office revenues and screen time", "festivals only", "critical awards"], "correctAnswer": "box office revenues and screen time"}
+                ],
+                "correctSentence": "According to industry data, foreign films dominate box office revenues and screen time in most countries.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Studies show that _____ on platforms like _____ often overshadow _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["international productions", "amateur content", "local news"], "correctAnswer": "international productions"},
+                  {"id": "example5_b2", "options": ["Netflix and Amazon Prime", "social media", "radio"], "correctAnswer": "Netflix and Amazon Prime"},
+                  {"id": "example5_b3", "options": ["locally produced content in viewer preferences", "all other media", "television"], "correctAnswer": "locally produced content in viewer preferences"}
+                ],
+                "correctSentence": "Studies show that international productions on platforms like Netflix and Amazon Prime often overshadow locally produced content in viewer preferences.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ demonstrate _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["successful film industries", "failed experiments", "banned content"], "correctAnswer": "successful film industries"},
+                  {"id": "example6_b2", "options": ["South Korean cinema", "small markets", "amateur productions"], "correctAnswer": "South Korean cinema"},
+                  {"id": "example6_b3", "options": ["how government support can create globally competitive local productions", "that funding is wasteful", "market forces alone work"], "correctAnswer": "how government support can create globally competitive local productions"}
+                ],
+                "correctSentence": "In particular, successful film industries such as South Korean cinema demonstrate how government support can create globally competitive local productions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, report that _____ are essential.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["film industry experts", "casual viewers", "theater owners"], "correctAnswer": "film industry experts"},
+                  {"id": "example7_b2", "options": ["those at international film festivals", "social media influencers", "amateur critics"], "correctAnswer": "those at international film festivals"},
+                  {"id": "example7_b3", "options": ["public subsidies and tax incentives", "free market forces", "import restrictions"], "correctAnswer": "public subsidies and tax incentives"}
+                ],
+                "correctSentence": "Many film industry experts, including those at international film festivals, report that public subsidies and tax incentives are essential.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ enabled it to _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["the French film industry", "Hollywood", "amateur filmmaking"], "correctAnswer": "the French film industry"},
+                  {"id": "example8_b2", "options": ["substantial government funding", "market forces alone", "foreign investment"], "correctAnswer": "substantial government funding"},
+                  {"id": "example8_b3", "options": ["maintain its cultural identity while remaining commercially viable", "dominate global markets", "eliminate competition"], "correctAnswer": "maintain its cultural identity while remaining commercially viable"}
+                ],
+                "correctSentence": "Take the French film industry as an example: substantial government funding enabled it to maintain its cultural identity while remaining commercially viable.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "Evidence from _____ shows that _____ without government support.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["smaller film markets", "major studios", "streaming services"], "correctAnswer": "smaller film markets"},
+                  {"id": "example9_b2", "options": ["local industries struggle to survive", "everything thrives naturally", "foreign films disappear"], "correctAnswer": "local industries struggle to survive"}
+                ],
+                "correctSentence": "Evidence from smaller film markets shows that local industries struggle to survive without government support.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Consider _____ which _____ due to _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["streaming platforms", "local theaters", "film critics"], "correctAnswer": "streaming platforms"},
+                  {"id": "example10_b2", "options": ["predominantly feature foreign content", "show only local films", "reject all content"], "correctAnswer": "predominantly feature foreign content"},
+                  {"id": "example10_b3", "options": ["the higher production values and global appeal", "lower quality", "random selection"], "correctAnswer": "the higher production values and global appeal"}
+                ],
+                "correctSentence": "Consider streaming platforms which predominantly feature foreign content due to the higher production values and global appeal.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, critics argue that _____ represents _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["government funding", "free markets", "audience choice"], "correctAnswer": "government funding"},
+                  {"id": "counter1_b2", "options": ["an inefficient use of public resources", "perfect policy", "guaranteed success"], "correctAnswer": "an inefficient use of public resources"}
+                ],
+                "correctSentence": "However, critics argue that government funding represents an inefficient use of public resources.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite this concern, _____ outweighs _____ because _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["preserving cultural heritage", "saving money", "market efficiency"], "correctAnswer": "preserving cultural heritage"},
+                  {"id": "counter2_b2", "options": ["the financial cost", "audience preferences", "commercial success"], "correctAnswer": "the financial cost"},
+                  {"id": "counter2_b3", "options": ["national identity and cultural diversity cannot be measured purely in economic terms", "money is everything", "markets are perfect"], "correctAnswer": "national identity and cultural diversity cannot be measured purely in economic terms"}
+                ],
+                "correctSentence": "Despite this concern, preserving cultural heritage outweighs the financial cost because national identity and cultural diversity cannot be measured purely in economic terms.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Some may claim that _____ should determine success, but _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["market forces alone", "government control", "censorship"], "correctAnswer": "market forces alone"},
+                  {"id": "counter3_b2", "options": ["cultural industries require protection from complete commercialization", "this always works perfectly", "competition solves everything"], "correctAnswer": "cultural industries require protection from complete commercialization"}
+                ],
+                "correctSentence": "Some may claim that market forces alone should determine success, but cultural industries require protection from complete commercialization.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____, the reality is that _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["subsidies involve taxpayer money", "funding is free", "markets are perfect"], "correctAnswer": "subsidies involve taxpayer money"},
+                  {"id": "counter4_b2", "options": ["without support, local cultural expression would disappear entirely", "local films always succeed", "foreign films will be banned"], "correctAnswer": "without support, local cultural expression would disappear entirely"}
+                ],
+                "correctSentence": "Although subsidies involve taxpayer money, the reality is that without support, local cultural expression would disappear entirely.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "While it is true that _____, _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["audiences choose foreign films freely", "people are forced to watch", "local films are banned"], "correctAnswer": "audiences choose foreign films freely"},
+                  {"id": "counter5_b2", "options": ["this choice is influenced by unequal competition and marketing budgets", "choice is completely free", "quality is irrelevant"], "correctAnswer": "this choice is influenced by unequal competition and marketing budgets"}
+                ],
+                "correctSentence": "While it is true that audiences choose foreign films freely, this choice is influenced by unequal competition and marketing budgets.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["people prefer foreign films due to superior production values and marketing", "local films are worthless", "audiences have no taste"], "correctAnswer": "people prefer foreign films due to superior production values and marketing"},
+                  {"id": "conclusion1_b2", "options": ["governments should provide financial support to preserve local cultural industries", "market forces should decide everything", "subsidies are wasteful"], "correctAnswer": "governments should provide financial support to preserve local cultural industries"}
+                ],
+                "correctSentence": "In conclusion, while people prefer foreign films due to superior production values and marketing, I believe governments should provide financial support to preserve local cultural industries.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ explains the preference for _____, and therefore _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["the superior cinematic quality and extensive marketing of international productions", "poor local quality", "bad timing"], "correctAnswer": "the superior cinematic quality and extensive marketing of international productions"},
+                  {"id": "conclusion2_b2", "options": ["foreign films", "documentaries", "news"], "correctAnswer": "foreign films"},
+                  {"id": "conclusion2_b3", "options": ["government subsidies are essential to maintain cultural diversity", "nothing can be done", "local industries should close"], "correctAnswer": "government subsidies are essential to maintain cultural diversity"}
+                ],
+                "correctSentence": "Overall, the superior cinematic quality and extensive marketing of international productions explains the preference for foreign films, and therefore government subsidies are essential to maintain cultural diversity.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, foreign films dominate because of _____, and _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["massive budgets and global distribution advantages", "local incompetence", "pure luck"], "correctAnswer": "massive budgets and global distribution advantages"},
+                  {"id": "conclusion3_b2", "options": ["governments must intervene to protect cultural heritage through financial support", "market forces should be left alone", "foreign films should be banned"], "correctAnswer": "governments must intervene to protect cultural heritage through financial support"}
+                ],
+                "correctSentence": "To summarize, foreign films dominate because of massive budgets and global distribution advantages, and governments must intervene to protect cultural heritage through financial support.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, the reasons for _____ are clear, and _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["preferring foreign films", "rejecting local culture", "market failure"], "correctAnswer": "preferring foreign films"},
+                  {"id": "conclusion4_b2", "options": ["public funding is justified to ensure local stories continue to be told", "subsidies waste money", "nothing should change"], "correctAnswer": "public funding is justified to ensure local stories continue to be told"}
+                ],
+                "correctSentence": "Ultimately, the reasons for preferring foreign films are clear, and public funding is justified to ensure local stories continue to be told.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["government support for local cinema is necessary", "market forces are sufficient", "foreign films should be restricted"], "correctAnswer": "government support for local cinema is necessary"},
+                  {"id": "conclusion5_b2", "options": ["cultural diversity and national identity are worth protecting from commercial globalization", "profit is all that matters", "audiences always choose correctly"], "correctAnswer": "cultural diversity and national identity are worth protecting from commercial globalization"}
+                ],
+                "correctSentence": "In my view, government support for local cinema is necessary because cultural diversity and national identity are worth protecting from commercial globalization.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Two-Part Structure",
+            "structure": {
+              "introduction": "Many people [paraphrase the preference for foreign films]. This preference stems from [briefly mention reasons], and I believe governments [state your opinion on financial support].",
+              "body1": "The primary reason people prefer foreign films is [Reason 1]. Additionally, [Reason 2]. For instance, [example]. As a result, [consequence].",
+              "body2": "In my opinion, governments should [state position on support]. Firstly, [Argument 1 with explanation]. Secondly, [Argument 2 with explanation]. Although [acknowledge counter-argument], [explain why your position is justified].",
+              "conclusion": "In conclusion, foreign films are preferred due to [summarize reasons], and [restate opinion on government support] because [final justification]."
+            },
+            "example": {
+              "introduction": "Many people prefer watching foreign films rather than locally produced ones. This preference stems from superior production values and global marketing reach, and I believe governments should provide financial support to local film industries.",
+              "body1": "The primary reason people prefer foreign films is the exceptional cinematic quality and production values that international studios can afford. Hollywood productions, for instance, invest hundreds of millions of dollars in single films, creating spectacular visual effects and hiring globally recognized actors. Additionally, foreign films benefit from extensive marketing campaigns that create anticipation worldwide. As a result, local productions often appear less impressive by comparison, struggling to attract audiences despite potentially compelling stories.",
+              "body2": "In my opinion, governments should provide subsidies to domestic film industries. Firstly, local cinema plays a vital role in preserving and promoting cultural heritage that would otherwise be overshadowed by commercial globalization. Secondly, successful models like French cinema subsidies demonstrate that government support enables local industries to thrive while maintaining cultural authenticity. Although critics argue this represents inefficient use of public funds, cultural diversity and national identity cannot be measured purely in economic terms and warrant protection.",
+              "conclusion": "In conclusion, foreign films are preferred due to massive budgets and superior marketing that local industries cannot match, and governments should provide financial support because preserving cultural heritage and diversity justifies this investment in national identity."
+            }
+          },
+          {
+            "name": "Template 2: Market Forces vs Cultural Protection",
+            "structure": {
+              "introduction": "[Paraphrase trend]. This essay will examine [mention both parts], and I will argue that [government support is/is not justified].",
+              "body1": "Several factors explain this preference. [Reason 1 with explanation]. Furthermore, [Reason 2 with explanation]. [Example].",
+              "body2": "Regarding government intervention, [state position clearly]. [Argument 1 with explanation and example]. Moreover, [Argument 2 with explanation]. While [concede one counter-point], [explain why your position still holds].",
+              "conclusion": "To summarize, foreign films dominate due to [reasons], and [restate whether government support is warranted] to [final supporting point]."
+            }
+          },
+          {
+            "name": "Template 3: Balanced Analysis",
+            "structure": {
+              "introduction": "[Restate the preference]. The causes include [brief reasons], and [state your position on government support].",
+              "body1": "This trend can be attributed to several factors. Chief among these is [Reason 1]. Additionally, [Reason 2]. For example, [specific example illustrating the reasons].",
+              "body2": "In my view, [state opinion on government support]. On one hand, [supporting argument 1]. On the other hand, [supporting argument 2]. Despite [acknowledge opposing view], [justify your position with final reasoning].",
+              "conclusion": "In conclusion, the preference for foreign films reflects [summarize causes], and [restate your clear position on government support] because [final justification]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "explaining_reasons": ["The primary reason for", "This preference can be attributed to", "Several factors contribute to", "The main explanation is"],
+          "stating_opinion": ["In my opinion", "I believe", "In my view", "I contend that"],
+          "presenting_arguments": ["Firstly", "Secondly", "One key reason", "Additionally"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Specifically", "Take...as an example"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "conceding": ["Although", "Despite this", "While it is true that", "Admittedly"],
+          "balancing": ["Nevertheless", "However", "On balance", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Many people prefer _____ [paraphrase the preference]. This preference stems from _____ [briefly mention reasons], and I believe _____ [state your opinion on government support].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Paraphrase the preference",
+                "hint": "Paraphrase 'prefer to watch foreign films rather than locally produced films'",
+                "placeholder": "e.g., watching international films over domestically produced cinema",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Briefly mention reasons",
+                "hint": "One sentence mentioning WHY - budget, quality, marketing, etc.",
+                "placeholder": "e.g., the superior production values and extensive global marketing of international studios",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your opinion on government support",
+                "hint": "Be clear! Should governments provide financial support or not?",
+                "placeholder": "e.g., governments should provide financial support to local film industries to preserve cultural heritage",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Reasons for Preference",
+            "template": "The primary reason for _____ [state main reason]. This is because _____ [explain why]. Additionally, _____ [give second reason]. For instance, _____ [provide specific example]. As a result, _____ [state the consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "State main reason",
+                "hint": "What is THE main reason people prefer foreign films?",
+                "placeholder": "e.g., this preference is the exceptional cinematic quality and high production values of foreign films",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain why",
+                "hint": "WHY does this make people prefer foreign films? Elaborate",
+                "placeholder": "e.g., international studios invest hundreds of millions creating spectacular visual effects and hiring world-famous actors that local producers cannot afford",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Second reason",
+                "hint": "What is another important factor? Marketing, distribution, star power?",
+                "placeholder": "e.g., foreign films benefit from extensive global marketing campaigns that create widespread anticipation before release",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Specific example",
+                "hint": "Give concrete examples - specific films, studios, statistics, platforms",
+                "placeholder": "e.g., Hollywood blockbusters like Marvel films or Avatar attract massive global audiences that local productions rarely achieve",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank5",
+                "label": "Consequence",
+                "hint": "What is the result of these factors?",
+                "placeholder": "e.g., local productions often appear less impressive and struggle to compete for audience attention and box office revenue",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Opinion on Government Support",
+            "template": "In my opinion, governments _____ [state your position clearly]. Firstly, _____ [give first argument]. Secondly, _____ [give second argument]. Although _____ [acknowledge counter-argument], _____ [explain why your position is justified].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "State your position",
+                "hint": "Should governments provide support? Be completely clear!",
+                "placeholder": "e.g., should provide financial subsidies and tax incentives to support local film industries",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "First argument",
+                "hint": "Give your strongest reason for your position with explanation",
+                "placeholder": "e.g., local cinema plays a vital role in preserving and promoting cultural heritage that would otherwise disappear",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Second argument",
+                "hint": "Give another strong argument with details or examples",
+                "placeholder": "e.g., successful models like French cinema subsidies demonstrate that government support enables local industries to thrive while maintaining cultural authenticity",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Acknowledge counter-argument",
+                "hint": "What would critics say? Be fair to the opposing view",
+                "placeholder": "e.g., critics argue that government funding represents an inefficient use of public resources in competitive markets",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank5",
+                "label": "Justify your position",
+                "hint": "Explain WHY your position is still correct despite the counter-argument",
+                "placeholder": "e.g., cultural diversity and national identity cannot be measured purely in economic terms and warrant protection from commercial globalization",
+                "minWords": 15
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, people prefer foreign films due to _____ [summarize reasons], and _____ [restate opinion on government support] because _____ [final justification].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize reasons",
+                "hint": "Brief summary of WHY people prefer foreign films (from body paragraph 1)",
+                "placeholder": "e.g., their superior production values, massive budgets, and extensive global marketing that local industries cannot match",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion on government support",
+                "hint": "Clearly restate YOUR position on whether governments should provide support",
+                "placeholder": "e.g., governments should provide financial support to domestic film industries",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank3",
+                "label": "Final justification",
+                "hint": "Why is your position important? What's at stake?",
+                "placeholder": "e.g., preserving cultural heritage and diversity is essential for maintaining national identity in an increasingly globalized entertainment landscape",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + address both parts briefly"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Explain WHY people prefer foreign films with reasons and examples"
+          },
+          "body2": {
+            "sentences": "5-6 sentences",
+            "purpose": "Give your opinion on government support with arguments"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize reasons + restate opinion on government support"
+          }
+        },
+        "checklist": [
+          "Introduction clearly paraphrases the question and addresses both parts",
+          "Body paragraph 1 explains WHY people prefer foreign films with specific reasons",
+          "Body paragraph 1 includes concrete examples or evidence",
+          "Body paragraph 2 clearly states your opinion on government support",
+          "Body paragraph 2 provides strong arguments for your position",
+          "Body paragraph 2 acknowledges and refutes counter-arguments",
+          "Conclusion summarizes the reasons and restates your opinion",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Academic vocabulary used appropriately",
+          "Clear topic sentences for each body paragraph",
+          "Effective use of linking words and transitions"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Many people prefer watching foreign films rather than locally produced ones. This preference stems primarily from the superior cinematic quality and extensive marketing reach of international studios, and I believe governments should provide financial support to local film industries to preserve cultural heritage.\n\nThe primary reason for this preference is the exceptional production values that major foreign studios can afford. International producers, particularly Hollywood, regularly invest hundreds of millions of dollars in single films, enabling spectacular visual effects, cutting-edge technology, and globally recognized actors that local industries cannot match. Additionally, foreign films benefit from massive marketing campaigns that create worldwide anticipation and awareness before release. For instance, international blockbusters like Marvel franchises or Avatar attract enormous global audiences and generate box office revenues that locally produced films rarely achieve. Consequently, domestic productions often appear less impressive by comparison and struggle to compete for audience attention, despite potentially offering compelling cultural narratives.\n\nIn my opinion, governments should provide subsidies and tax incentives to support domestic film industries. Firstly, local cinema plays a vital role in preserving and promoting cultural heritage that would otherwise be overshadowed by commercial globalization. Secondly, successful models like French cinema subsidies and South Korean government support demonstrate that public funding enables local industries to thrive while maintaining cultural authenticity and even achieving international recognition. Although critics argue that government funding represents an inefficient use of taxpayer resources, cultural diversity and national identity cannot be measured purely in economic terms and warrant protection from complete commercialization.\n\nIn conclusion, foreign films dominate audience preferences due to massive production budgets and global marketing advantages that local industries cannot match, and governments should provide financial support to domestic cinema because preserving cultural heritage and diversity is essential for maintaining national identity in an increasingly globalized entertainment landscape.",
+    "wordCount": 281,
+    "structure": {
+      "introduction": "Many people prefer watching foreign films rather than locally produced ones. This preference stems primarily from the superior cinematic quality and extensive marketing reach of international studios, and I believe governments should provide financial support to local film industries to preserve cultural heritage.",
+      "body1": "The primary reason for this preference is the exceptional production values that major foreign studios can afford. International producers, particularly Hollywood, regularly invest hundreds of millions of dollars in single films, enabling spectacular visual effects, cutting-edge technology, and globally recognized actors that local industries cannot match. Additionally, foreign films benefit from massive marketing campaigns that create worldwide anticipation and awareness before release. For instance, international blockbusters like Marvel franchises or Avatar attract enormous global audiences and generate box office revenues that locally produced films rarely achieve. Consequently, domestic productions often appear less impressive by comparison and struggle to compete for audience attention, despite potentially offering compelling cultural narratives.",
+      "body2": "In my opinion, governments should provide subsidies and tax incentives to support domestic film industries. Firstly, local cinema plays a vital role in preserving and promoting cultural heritage that would otherwise be overshadowed by commercial globalization. Secondly, successful models like French cinema subsidies and South Korean government support demonstrate that public funding enables local industries to thrive while maintaining cultural authenticity and even achieving international recognition. Although critics argue that government funding represents an inefficient use of taxpayer resources, cultural diversity and national identity cannot be measured purely in economic terms and warrant protection from complete commercialization.",
+      "conclusion": "In conclusion, foreign films dominate audience preferences due to massive production budgets and global marketing advantages that local industries cannot match, and governments should provide financial support to domestic cinema because preserving cultural heritage and diversity is essential for maintaining national identity in an increasingly globalized entertainment landscape."
+    },
+    "highlights": [
+      {
+        "text": "stems primarily from",
+        "type": "linking-word",
+        "explanation": "Academic way to introduce causes or reasons"
+      },
+      {
+        "text": "cinematic quality",
+        "type": "academic-vocab",
+        "explanation": "Professional term for film production excellence"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Consequently",
+        "type": "linking-word",
+        "explanation": "Shows the result or effect"
+      },
+      {
+        "text": "subsidies and tax incentives",
+        "type": "topic-vocab",
+        "explanation": "Specific types of government financial support"
+      },
+      {
+        "text": "cultural heritage",
+        "type": "academic-vocab",
+        "explanation": "Academic term for traditional cultural values and identity"
+      },
+      {
+        "text": "Although",
+        "type": "linking-word",
+        "explanation": "Introduces counter-argument acknowledgment"
+      },
+      {
+        "text": "Hollywood regularly invest hundreds of millions of dollars in single films",
+        "type": "example",
+        "explanation": "Specific, concrete example with numbers"
+      },
+      {
+        "text": "French cinema subsidies and South Korean government support",
+        "type": "example",
+        "explanation": "Real-world examples of successful government intervention"
+      },
+      {
+        "text": "Marvel franchises or Avatar",
+        "type": "example",
+        "explanation": "Specific film examples that demonstrate the point"
+      },
+      {
+        "text": "commercial globalization",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for worldwide commercial influence"
+      }
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "id": "executive-salaries",
+  "title": "Executive Salaries",
+  "category": "Work & Economics",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Directors of large organizations earn much higher salaries than ordinary employees do. Some people believe it is necessary, but others think that it is unfair. Discuss both these views and give your own opinions.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (why high executive salaries are necessary AND why they are unfair) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss why high executive salaries are justified and necessary",
+            "Discuss why high executive salaries are unfair",
+            "Give your clear personal opinion",
+            "Provide specific examples for each view"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "directors",
+            "definition": "Top executives and leaders of organizations",
+            "importance": "The main subject - refers to CEOs, board members, and senior management"
+          },
+          {
+            "word": "large organizations",
+            "definition": "Big companies or corporations with many employees",
+            "importance": "Context for the salary gap - these are major employers"
+          },
+          {
+            "word": "much higher salaries",
+            "definition": "Significantly greater pay than average workers",
+            "importance": "The core issue - the large wage gap between executives and employees"
+          },
+          {
+            "word": "necessary",
+            "definition": "Essential and required for valid reasons",
+            "importance": "One perspective - executives need high pay"
+          },
+          {
+            "word": "unfair",
+            "definition": "Not just or equitable",
+            "importance": "The opposing perspective - the pay gap is unjust"
+          },
+          {
+            "word": "both these views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss why high executive salaries are necessary with examples",
+          "body2": "4-5 sentences: Discuss why high executive salaries are unfair with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one side in detail",
+          "Being too neutral without a clear opinion",
+          "Not providing specific salary examples or ratios",
+          "Ignoring the economic and social implications of income inequality"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "income inequality",
+            "pronunciation": "/ˈɪnkʌm ˌɪnɪˈkwɒləti/",
+            "partOfSpeech": "noun",
+            "definition": "The unequal distribution of income across a population",
+            "example": "Large salary gaps between executives and workers contribute to income inequality.",
+            "synonyms": ["wage disparity", "earnings gap"]
+          },
+          {
+            "word": "executive compensation",
+            "pronunciation": "/ɪɡˈzekjʊtɪv ˌkɒmpenˈseɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Total pay package for top company leaders including salary and bonuses",
+            "example": "Executive compensation often includes stock options and performance bonuses.",
+            "synonyms": ["executive pay", "management remuneration"]
+          },
+          {
+            "word": "wage gap",
+            "pronunciation": "/weɪdʒ ɡæp/",
+            "partOfSpeech": "noun",
+            "definition": "The difference in earnings between different groups",
+            "example": "The wage gap between CEOs and average workers has widened significantly.",
+            "synonyms": ["pay disparity", "salary difference"]
+          },
+          {
+            "word": "talent retention",
+            "pronunciation": "/ˈtælənt rɪˈtenʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Keeping skilled employees from leaving an organization",
+            "example": "High salaries are often justified as necessary for talent retention.",
+            "synonyms": ["employee retention", "retaining skilled workers"]
+          },
+          {
+            "word": "corporate responsibility",
+            "pronunciation": "/ˈkɔːpərət rɪˌspɒnsəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "A company's duty to act ethically toward all stakeholders",
+            "example": "Corporate responsibility includes fair compensation for all employees.",
+            "synonyms": ["social responsibility", "ethical business practices"]
+          },
+          {
+            "word": "merit-based pay",
+            "pronunciation": "/ˈmerɪt beɪst peɪ/",
+            "partOfSpeech": "noun",
+            "definition": "Compensation determined by individual performance and value",
+            "example": "Supporters argue executive salaries are merit-based pay reflecting their contribution.",
+            "synonyms": ["performance-based pay", "results-based compensation"]
+          },
+          {
+            "word": "accountability",
+            "pronunciation": "/əˌkaʊntəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "Responsibility for decisions and their consequences",
+            "example": "Executives bear greater accountability for company performance.",
+            "synonyms": ["responsibility", "answerability"]
+          },
+          {
+            "word": "morale",
+            "pronunciation": "/məˈrɑːl/",
+            "partOfSpeech": "noun",
+            "definition": "The confidence and enthusiasm of workers",
+            "example": "Large pay gaps can negatively impact employee morale.",
+            "synonyms": ["motivation", "spirit"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "CEO-to-worker pay ratio",
+            "definition": "The multiple of CEO salary compared to average employee salary",
+            "example": "Some companies have CEO-to-worker pay ratios exceeding 300 to 1."
+          },
+          {
+            "phrase": "performance bonuses",
+            "definition": "Additional pay based on achieving specific goals",
+            "example": "Executives often receive substantial performance bonuses on top of base salary."
+          },
+          {
+            "phrase": "shareholder expectations",
+            "definition": "What investors demand from company leadership",
+            "example": "High executive pay is sometimes justified by meeting shareholder expectations."
+          },
+          {
+            "phrase": "strategic decision-making",
+            "definition": "High-level planning that affects entire organization",
+            "example": "Executives are compensated highly for their strategic decision-making responsibilities."
+          },
+          {
+            "phrase": "market forces",
+            "definition": "Economic factors that determine prices and wages",
+            "example": "Proponents argue market forces naturally determine executive compensation levels."
+          },
+          {
+            "phrase": "living wage",
+            "definition": "Minimum income needed for basic standard of living",
+            "example": "Critics note that many workers struggle to earn a living wage while executives prosper."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is ongoing debate about", "People have differing views about", "The issue of executive pay divides opinion"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["high executive salaries reflect their responsibilities and skills", "all employees should earn the same", "directors work harder than everyone"], "correctAnswer": "high executive salaries reflect their responsibilities and skills"},
+                  {"id": "thesis1_b2", "options": ["such large wage gaps are unjust and harmful to society", "executives should earn less", "workers are overpaid"], "correctAnswer": "such large wage gaps are unjust and harmful to society"}
+                ],
+                "correctSentence": "While some believe high executive salaries reflect their responsibilities and skills, others argue that such large wage gaps are unjust and harmful to society.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, while _____, _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["executives deserve higher compensation than ordinary workers", "everyone should earn the same", "only directors matter"], "correctAnswer": "executives deserve higher compensation than ordinary workers"},
+                  {"id": "thesis2_b2", "options": ["the current wage gap has become excessive and requires regulation", "workers should earn more than executives", "companies should close immediately"], "correctAnswer": "the current wage gap has become excessive and requires regulation"}
+                ],
+                "correctSentence": "In my opinion, while executives deserve higher compensation than ordinary workers, the current wage gap has become excessive and requires regulation.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ can be justified because _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["high executive compensation", "low worker wages", "equal pay for all"], "correctAnswer": "high executive compensation"},
+                  {"id": "topic1_b2", "options": ["directors bear greater responsibility and possess rare skills", "they work longer hours", "they deserve luxury lifestyles"], "correctAnswer": "directors bear greater responsibility and possess rare skills"}
+                ],
+                "correctSentence": "On the one hand, high executive compensation can be justified because directors bear greater responsibility and possess rare skills.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, excessive executive salaries _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["create unfair income inequality that damages employee morale", "are always fair", "help ordinary workers"], "correctAnswer": "create unfair income inequality that damages employee morale"}
+                ],
+                "correctSentence": "On the other hand, excessive executive salaries create unfair income inequality that damages employee morale.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ directly _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["executive decisions", "worker complaints", "office decorations"], "correctAnswer": "executive decisions"},
+                  {"id": "support1_b2", "options": ["impact the success or failure of the entire organization", "affect their personal wealth", "change office hours"], "correctAnswer": "impact the success or failure of the entire organization"}
+                ],
+                "correctSentence": "This is because executive decisions directly impact the success or failure of the entire organization.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["extreme pay disparity", "fair wages", "worker satisfaction"], "correctAnswer": "extreme pay disparity"},
+                  {"id": "support2_b2", "options": ["resentment and lower productivity among ordinary workers", "better company performance", "higher profits"], "correctAnswer": "resentment and lower productivity among ordinary workers"}
+                ],
+                "correctSentence": "The main reason is that extreme pay disparity leads to resentment and lower productivity among ordinary workers.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ in _____ can _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["a CEO's strategic decision", "an employee's lunch break", "office gossip"], "correctAnswer": "a CEO's strategic decision"},
+                  {"id": "example1_b2", "options": ["a multinational corporation", "a small shop", "a school"], "correctAnswer": "a multinational corporation"},
+                  {"id": "example1_b3", "options": ["affect thousands of jobs and billions in revenue", "change the coffee brand", "rearrange desks"], "correctAnswer": "affect thousands of jobs and billions in revenue"}
+                ],
+                "correctSentence": "For instance, a CEO's strategic decision in a multinational corporation can affect thousands of jobs and billions in revenue.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ while _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["some CEOs earn 300 times more than their average employee", "all workers are happy", "everyone earns equally"], "correctAnswer": "some CEOs earn 300 times more than their average employee"},
+                  {"id": "example2_b2", "options": ["many workers struggle to afford basic necessities", "executives work harder", "profits increase"], "correctAnswer": "many workers struggle to afford basic necessities"}
+                ],
+                "correctSentence": "For example, some CEOs earn 300 times more than their average employee while many workers struggle to afford basic necessities.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["executive roles merit higher compensation", "all salaries should be equal", "workers are unnecessary"], "correctAnswer": "executive roles merit higher compensation"},
+                  {"id": "conclusion1_b2", "options": ["current pay gaps have become socially harmful and need reasonable limits", "executives should earn less than workers", "the system is perfect"], "correctAnswer": "current pay gaps have become socially harmful and need reasonable limits"}
+                ],
+                "correctSentence": "In conclusion, while executive roles merit higher compensation, I believe current pay gaps have become socially harmful and need reasonable limits.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "While some believe [high executive salaries are justified], others argue that [they create unfair inequality]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence about why high salaries are necessary]. This is because [Reason/explanation]. For instance, [Specific example with numbers/ratios]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence about unfairness]. The main reason is [Reason/explanation]. For example, [Specific example showing wage gap impact]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of high executive pay argue that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Critics contend that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some _____ [state the first view about high salaries being necessary], others _____ [state the opposite view about unfairness]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "First view about high salaries being necessary",
+                "hint": "Start with 'believe that high executive salaries' or 'argue that directors deserve'",
+                "placeholder": "e.g., believe that high executive salaries are justified given their responsibilities and rare skills",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Opposite view about unfairness",
+                "hint": "Use 'argue that' or 'contend that' followed by inequality concerns",
+                "placeholder": "e.g., contend that such large wage gaps create unfair income inequality in society",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Your position",
+                "hint": "Be clear! Take a position on whether current gaps are acceptable",
+                "placeholder": "e.g., while executives merit higher pay, the current wage gap has become excessive and socially harmful",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about why high salaries are necessary]. This is because _____ [explain the reason]. For instance, _____ [give a specific example with numbers or ratios]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - why high salaries are necessary",
+                "hint": "Main justification for executive compensation in one sentence",
+                "placeholder": "e.g., high executive compensation is justified because directors bear enormous responsibility for organizational success",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY do executives deserve high pay? What makes their role special?",
+                "placeholder": "e.g., their strategic decisions directly impact thousands of employees and billions in company revenue",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example with numbers, ratios, or specific situations",
+                "placeholder": "e.g., a CEO's choice to expand internationally or restructure operations can determine whether the company thrives or fails",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome of this justification?",
+                "placeholder": "e.g., competitive salaries are necessary to attract and retain the talented leaders who drive organizational growth",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about unfairness]. The main reason is _____ [explain why it's unfair]. For example, _____ [specific example showing the wage gap impact]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - unfairness of high salaries",
+                "hint": "Main criticism of excessive executive pay",
+                "placeholder": "e.g., excessive executive salaries create unjust income inequality that harms both workers and society",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why it's unfair",
+                "hint": "Explain the mechanism or reasoning behind the unfairness",
+                "placeholder": "e.g., extreme pay disparities damage employee morale and suggest that ordinary workers are undervalued despite their contributions",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example with CEO-to-worker ratios or real-world impacts",
+                "placeholder": "e.g., some CEOs earn 300 times more than average employees while many workers struggle to afford basic living expenses",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective on unfairness",
+                "placeholder": "e.g., such disparities undermine social cohesion and reflect poorly on corporate responsibility",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both the necessity argument and unfairness criticism",
+                "placeholder": "e.g., executive roles merit higher compensation due to their responsibilities, extreme wage gaps undermine fairness",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add a final insight or recommendation",
+                "placeholder": "e.g., current pay ratios have become socially harmful and require reasonable limits to ensure both competitive compensation and social justice",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss why high executive salaries are necessary with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss why high executive salaries are unfair with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses necessity of high salaries with example",
+          "Body paragraph 2 discusses unfairness of wage gaps with example",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas",
+          "Specific examples included (CEO-to-worker ratios, performance bonuses, etc.)"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The substantial salary gap between corporate directors and ordinary employees has become a contentious issue in modern economies. While some people argue that high executive compensation is justified and necessary, others believe it represents unfair income inequality. In my opinion, although executives deserve higher pay than average workers, the current wage gap has become excessive and requires reasonable regulation.\n\nOn the one hand, high executive salaries can be justified by the immense responsibility and specialized skills required for these positions. Corporate directors make strategic decisions that directly impact thousands of employees and billions of dollars in company revenue. For instance, a CEO's choice to expand into new markets, restructure operations, or invest in technology can determine whether an organization thrives or fails over the long term. Furthermore, the talent pool for effective executives is relatively small, and companies must offer competitive compensation packages including performance bonuses and stock options to attract and retain qualified leaders. As a result, market forces naturally drive executive compensation to levels that reflect their scarcity and value to shareholders.\n\nOn the other hand, excessive executive pay creates unjust income inequality that damages both employee morale and social cohesion. Many corporations now have CEO-to-worker pay ratios exceeding 300 to 1, meaning executives earn in one day what ordinary employees earn in an entire year. For example, while top executives receive multi-million dollar compensation packages, many frontline workers struggle to afford basic necessities despite working full-time. This disparity undermines the principle of corporate responsibility and suggests that ordinary employees are undervalued despite their essential contributions to company success. Moreover, extreme wage gaps can reduce productivity as workers become demotivated and resentful.\n\nIn conclusion, while executive roles merit higher compensation due to their responsibilities and impact, I believe current pay disparities have become socially harmful. Implementing reasonable limits on executive-to-worker pay ratios would help balance competitive compensation with social justice and fairness.",
+    "wordCount": 287,
+    "structure": {
+      "introduction": "The substantial salary gap between corporate directors and ordinary employees has become a contentious issue in modern economies. While some people argue that high executive compensation is justified and necessary, others believe it represents unfair income inequality. In my opinion, although executives deserve higher pay than average workers, the current wage gap has become excessive and requires reasonable regulation.",
+      "body1": "On the one hand, high executive salaries can be justified by the immense responsibility and specialized skills required for these positions. Corporate directors make strategic decisions that directly impact thousands of employees and billions of dollars in company revenue. For instance, a CEO's choice to expand into new markets, restructure operations, or invest in technology can determine whether an organization thrives or fails over the long term. Furthermore, the talent pool for effective executives is relatively small, and companies must offer competitive compensation packages including performance bonuses and stock options to attract and retain qualified leaders. As a result, market forces naturally drive executive compensation to levels that reflect their scarcity and value to shareholders.",
+      "body2": "On the other hand, excessive executive pay creates unjust income inequality that damages both employee morale and social cohesion. Many corporations now have CEO-to-worker pay ratios exceeding 300 to 1, meaning executives earn in one day what ordinary employees earn in an entire year. For example, while top executives receive multi-million dollar compensation packages, many frontline workers struggle to afford basic necessities despite working full-time. This disparity undermines the principle of corporate responsibility and suggests that ordinary employees are undervalued despite their essential contributions to company success. Moreover, extreme wage gaps can reduce productivity as workers become demotivated and resentful.",
+      "conclusion": "In conclusion, while executive roles merit higher compensation due to their responsibilities and impact, I believe current pay disparities have become socially harmful. Implementing reasonable limits on executive-to-worker pay ratios would help balance competitive compensation with social justice and fairness."
+    },
+    "highlights": [
+      {
+        "text": "income inequality",
+        "type": "academic-vocab",
+        "explanation": "Key term for unequal distribution of wealth"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "CEO-to-worker pay ratios",
+        "type": "topic-vocab",
+        "explanation": "Specific metric showing wage gap"
+      },
+      {
+        "text": "corporate responsibility",
+        "type": "academic-vocab",
+        "explanation": "Company's ethical duty to all stakeholders"
+      },
+      {
+        "text": "performance bonuses",
+        "type": "topic-vocab",
+        "explanation": "Additional compensation based on results"
+      }
+    ]
+  }
+}

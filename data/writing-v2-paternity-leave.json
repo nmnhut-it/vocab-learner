@@ -1,0 +1,1060 @@
+{
+  "id": "paternity-leave",
+  "title": "Paternity Leave",
+  "category": "Family & Work",
+  "difficulty": "Medium",
+  "question": {
+    "text": "All fathers should be entitled to take time off from work when their children are born. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must clearly state whether you agree or disagree that all fathers should be entitled to paternity leave. You can partly agree (agree with conditions) but your position must be clear.",
+          "requirements": [
+            "State your position clearly (agree, disagree, or partly agree)",
+            "Explain why you hold this position with reasons",
+            "Provide specific examples to support your view",
+            "Consider potential drawbacks or limitations"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "all fathers",
+            "definition": "Every male parent without exception",
+            "importance": "The word 'all' suggests universal entitlement - consider if there should be any exceptions"
+          },
+          {
+            "word": "entitled",
+            "definition": "Having a legal right or claim to something",
+            "importance": "This suggests a guaranteed right, not optional benefit - stronger than 'should have option'"
+          },
+          {
+            "word": "take time off from work",
+            "definition": "Temporary absence from employment",
+            "importance": "Consider duration, pay, and impact on workplace"
+          },
+          {
+            "word": "when their children are born",
+            "definition": "During the period around childbirth",
+            "importance": "Specific timing - focuses on early bonding period"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much or how far",
+            "importance": "Allows you to strongly agree, partly agree, or disagree with conditions"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + clearly state your position",
+          "body1": "4-5 sentences: Main argument supporting your position with reasons",
+          "body2": "4-5 sentences: Second argument OR acknowledge counter-argument",
+          "conclusion": "2 sentences: Summarize position + final thought"
+        },
+        "commonMistakes": [
+          "Position is unclear or changes throughout the essay",
+          "Forgetting to address the 'all fathers' aspect (universality)",
+          "Only discussing benefits without considering economic or practical impacts",
+          "Not providing specific examples from different countries or contexts"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "parental leave",
+            "pronunciation": "/pəˈrentəl liːv/",
+            "partOfSpeech": "noun",
+            "definition": "Time off from work granted to parents for childcare",
+            "example": "Many countries have implemented generous parental leave policies to support families.",
+            "synonyms": ["family leave", "childcare leave"]
+          },
+          {
+            "word": "paternal bonding",
+            "pronunciation": "/pəˈtɜːnəl ˈbɒndɪŋ/",
+            "partOfSpeech": "noun",
+            "definition": "The emotional connection between father and child",
+            "example": "Early paternal bonding is crucial for child development and family relationships.",
+            "synonyms": ["father-child attachment", "paternal connection"]
+          },
+          {
+            "word": "gender equality",
+            "pronunciation": "/ˈdʒendə ɪˈkwɒləti/",
+            "partOfSpeech": "noun",
+            "definition": "Equal rights, responsibilities, and opportunities for all genders",
+            "example": "Paternity leave policies promote gender equality by sharing childcare responsibilities.",
+            "synonyms": ["gender parity", "equal rights"]
+          },
+          {
+            "word": "work-life balance",
+            "pronunciation": "/wɜːk laɪf ˈbæləns/",
+            "partOfSpeech": "noun",
+            "definition": "The equilibrium between professional and personal life",
+            "example": "Paternity leave improves work-life balance for new fathers.",
+            "synonyms": ["life balance", "work-life integration"]
+          },
+          {
+            "word": "workplace policies",
+            "pronunciation": "/ˈwɜːkpleɪs ˈpɒləsiz/",
+            "partOfSpeech": "noun",
+            "definition": "Rules and regulations governing employment practices",
+            "example": "Progressive workplace policies include generous parental leave provisions.",
+            "synonyms": ["employment policies", "corporate policies"]
+          },
+          {
+            "word": "entitlement",
+            "pronunciation": "/ɪnˈtaɪtəlmənt/",
+            "partOfSpeech": "noun",
+            "definition": "A guaranteed right to receive something",
+            "example": "Statutory entitlement to paternity leave varies significantly across countries.",
+            "synonyms": ["right", "benefit", "privilege"]
+          },
+          {
+            "word": "productivity",
+            "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+            "partOfSpeech": "noun",
+            "definition": "The effectiveness of productive effort",
+            "example": "Studies show that paternity leave can increase long-term employee productivity.",
+            "synonyms": ["efficiency", "output", "performance"]
+          },
+          {
+            "word": "burden",
+            "pronunciation": "/ˈbɜːdən/",
+            "partOfSpeech": "noun",
+            "definition": "A heavy load or responsibility",
+            "example": "Extended paternity leave can create a financial burden for small businesses.",
+            "synonyms": ["strain", "pressure", "hardship"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "child development",
+            "definition": "The physical, cognitive, and emotional growth of children",
+            "example": "Research confirms that father involvement positively impacts child development."
+          },
+          {
+            "phrase": "early bonding period",
+            "definition": "The initial weeks after birth when parent-child attachment forms",
+            "example": "The early bonding period is critical for establishing strong family relationships."
+          },
+          {
+            "phrase": "corporate culture",
+            "definition": "The attitudes and behaviors within a business organization",
+            "example": "Corporate culture in Japan has historically discouraged fathers from taking paternity leave."
+          },
+          {
+            "phrase": "shared responsibility",
+            "definition": "Equal participation in duties and obligations",
+            "example": "Paternity leave promotes shared responsibility for childcare between parents."
+          },
+          {
+            "phrase": "economic impact",
+            "definition": "The effect on financial systems and business operations",
+            "example": "Employers must consider the economic impact of implementing paternity leave policies."
+          },
+          {
+            "phrase": "employee retention",
+            "definition": "The ability to keep workers in their positions",
+            "example": "Offering paternity leave improves employee retention and company loyalty."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["It is widely recognized that", "There is a compelling argument that", "The debate centers on"],
+          "agreeing": ["I strongly agree that", "This policy is essential because", "Indeed"],
+          "disagreeing": ["However, I believe this approach is", "This proposal has limitations", "Nevertheless"],
+          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "exemplifying": ["For instance", "For example", "A clear example is", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that clearly state your position",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "I _____ agree that _____ because _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["strongly", "partially", "do not"], "correctAnswer": "strongly"},
+                  {"id": "thesis1_b2", "options": ["all fathers should have paternity leave entitlement", "only some fathers need time off", "mothers should stay home"], "correctAnswer": "all fathers should have paternity leave entitlement"},
+                  {"id": "thesis1_b3", "options": ["it promotes gender equality and benefits child development", "fathers need rest", "everyone deserves holidays"], "correctAnswer": "it promotes gender equality and benefits child development"}
+                ],
+                "correctSentence": "I strongly agree that all fathers should have paternity leave entitlement because it promotes gender equality and benefits child development.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "While _____, I believe _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["paternity leave has merit", "businesses face costs", "mothers need support"], "correctAnswer": "paternity leave has merit"},
+                  {"id": "thesis2_b2", "options": ["mandatory entitlement for all fathers is essential for family wellbeing", "only wealthy countries can afford it", "it should be optional"], "correctAnswer": "mandatory entitlement for all fathers is essential for family wellbeing"}
+                ],
+                "correctSentence": "While paternity leave has merit, I believe mandatory entitlement for all fathers is essential for family wellbeing.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "It is widely recognized that _____; therefore, _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["fathers play a crucial role in early child development", "businesses need workers", "holidays are important"], "correctAnswer": "fathers play a crucial role in early child development"},
+                  {"id": "thesis3_b2", "options": ["I strongly support universal paternity leave entitlement", "only mothers should take leave", "it should be unpaid"], "correctAnswer": "I strongly support universal paternity leave entitlement"}
+                ],
+                "correctSentence": "It is widely recognized that fathers play a crucial role in early child development; therefore, I strongly support universal paternity leave entitlement.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "From my perspective, _____ would _____ because _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["guaranteed paternity leave", "optional time off", "unpaid leave"], "correctAnswer": "guaranteed paternity leave"},
+                  {"id": "thesis4_b2", "options": ["significantly benefit families and society", "cost too much", "reduce productivity"], "correctAnswer": "significantly benefit families and society"},
+                  {"id": "thesis4_b3", "options": ["it enables fathers to bond with newborns and support partners", "men need vacation", "employers prefer it"], "correctAnswer": "it enables fathers to bond with newborns and support partners"}
+                ],
+                "correctSentence": "From my perspective, guaranteed paternity leave would significantly benefit families and society because it enables fathers to bond with newborns and support partners.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will argue that _____ despite _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["universal paternity leave is essential", "only large companies can afford it", "mothers should handle childcare alone"], "correctAnswer": "universal paternity leave is essential"},
+                  {"id": "thesis5_b2", "options": ["potential short-term costs to employers", "being completely free", "having no drawbacks"], "correctAnswer": "potential short-term costs to employers"}
+                ],
+                "correctSentence": "This essay will argue that universal paternity leave is essential despite potential short-term costs to employers.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "The primary benefit of _____ is that _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["mandatory paternity leave", "optional time off", "unpaid leave"], "correctAnswer": "mandatory paternity leave"},
+                  {"id": "topic1_b2", "options": ["it promotes gender equality in childcare responsibilities", "men get rest", "businesses save money"], "correctAnswer": "it promotes gender equality in childcare responsibilities"}
+                ],
+                "correctSentence": "The primary benefit of mandatory paternity leave is that it promotes gender equality in childcare responsibilities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "One significant advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["paternity leave entitlement", "maternal leave only", "unpaid absence"], "correctAnswer": "paternity leave entitlement"},
+                  {"id": "topic2_b2", "options": ["the positive impact on child development and family bonding", "reduced work hours", "vacation benefits"], "correctAnswer": "the positive impact on child development and family bonding"}
+                ],
+                "correctSentence": "One significant advantage of paternity leave entitlement is the positive impact on child development and family bonding.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "_____ argue that _____ is essential for _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["Advocates of gender equality", "Business owners", "Traditional employers"], "correctAnswer": "Advocates of gender equality"},
+                  {"id": "topic3_b2", "options": ["universal paternity leave", "maternal leave only", "unpaid time off"], "correctAnswer": "universal paternity leave"},
+                  {"id": "topic3_b3", "options": ["creating balanced family dynamics and shared parenting", "reducing costs", "increasing profits"], "correctAnswer": "creating balanced family dynamics and shared parenting"}
+                ],
+                "correctSentence": "Advocates of gender equality argue that universal paternity leave is essential for creating balanced family dynamics and shared parenting.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "However, _____ presents _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["implementing mandatory paternity leave", "offering benefits", "supporting families"], "correctAnswer": "implementing mandatory paternity leave"},
+                  {"id": "topic4_b2", "options": ["certain challenges for small businesses and employers", "no difficulties", "only benefits"], "correctAnswer": "certain challenges for small businesses and employers"}
+                ],
+                "correctSentence": "However, implementing mandatory paternity leave presents certain challenges for small businesses and employers.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "A key concern about _____ is that _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["universal paternity leave requirements", "voluntary programs", "unpaid leave"], "correctAnswer": "universal paternity leave requirements"},
+                  {"id": "topic5_b2", "options": ["they may create financial strain on smaller enterprises", "everyone loves them", "they cost nothing"], "correctAnswer": "they may create financial strain on smaller enterprises"}
+                ],
+                "correctSentence": "A key concern about universal paternity leave requirements is that they may create financial strain on smaller enterprises.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "_____ can _____ through _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["Fathers", "Employers", "Governments"], "correctAnswer": "Fathers"},
+                  {"id": "topic6_b2", "options": ["strengthen family bonds and support their partners", "earn money", "avoid work"], "correctAnswer": "strengthen family bonds and support their partners"},
+                  {"id": "topic6_b3", "options": ["taking active roles in early childcare", "staying at work", "delegating responsibilities"], "correctAnswer": "taking active roles in early childcare"}
+                ],
+                "correctSentence": "Fathers can strengthen family bonds and support their partners through taking active roles in early childcare.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Despite the benefits, _____ may _____ for _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["mandatory leave policies", "optional programs", "unpaid time off"], "correctAnswer": "mandatory leave policies"},
+                  {"id": "topic7_b2", "options": ["prove costly", "be free", "have no impact"], "correctAnswer": "prove costly"},
+                  {"id": "topic7_b3", "options": ["companies with limited resources", "large corporations", "government agencies"], "correctAnswer": "companies with limited resources"}
+                ],
+                "correctSentence": "Despite the benefits, mandatory leave policies may prove costly for companies with limited resources.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "The main advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["paternity leave policies", "unpaid absence", "maternal leave only"], "correctAnswer": "paternity leave policies"},
+                  {"id": "topic8_b2", "options": ["the establishment of stronger father-child relationships from birth", "reduced workload", "cost savings"], "correctAnswer": "the establishment of stronger father-child relationships from birth"}
+                ],
+                "correctSentence": "The main advantage of paternity leave policies is the establishment of stronger father-child relationships from birth.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ enables fathers to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["guaranteed time off", "unpaid leave", "overtime work"], "correctAnswer": "guaranteed time off"},
+                  {"id": "support1_b2", "options": ["actively participate in early childcare and bond with newborns", "avoid responsibilities", "earn extra income"], "correctAnswer": "actively participate in early childcare and bond with newborns"}
+                ],
+                "correctSentence": "This is because guaranteed time off enables fathers to actively participate in early childcare and bond with newborns.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["paternal involvement in early childcare", "working longer hours", "avoiding family duties"], "correctAnswer": "paternal involvement in early childcare"},
+                  {"id": "support2_b2", "options": ["improved child developmental outcomes and stronger family units", "reduced productivity", "higher costs"], "correctAnswer": "improved child developmental outcomes and stronger family units"}
+                ],
+                "correctSentence": "The main reason is that paternal involvement in early childcare leads to improved child developmental outcomes and stronger family units.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ enables fathers to _____ without _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Paternity leave", "Unpaid absence", "Vacation days"], "correctAnswer": "Paternity leave"},
+                  {"id": "support3_b2", "options": ["support their partners during the critical postpartum period", "lose income", "work remotely"], "correctAnswer": "support their partners during the critical postpartum period"},
+                  {"id": "support3_b3", "options": ["facing job insecurity or financial penalties", "taking vacation", "asking permission"], "correctAnswer": "facing job insecurity or financial penalties"}
+                ],
+                "correctSentence": "Paternity leave enables fathers to support their partners during the critical postpartum period without facing job insecurity or financial penalties.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ equips fathers with _____, which is crucial for _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["Early paternal involvement", "Working overtime", "Avoiding childcare"], "correctAnswer": "Early paternal involvement"},
+                  {"id": "support4_b2", "options": ["practical childcare skills and emotional connection", "extra income", "career advancement"], "correctAnswer": "practical childcare skills and emotional connection"},
+                  {"id": "support4_b3", "options": ["long-term engaged fatherhood", "workplace success", "financial stability"], "correctAnswer": "long-term engaged fatherhood"}
+                ],
+                "correctSentence": "Early paternal involvement equips fathers with practical childcare skills and emotional connection, which is crucial for long-term engaged fatherhood.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By _____, fathers can _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["taking paternity leave", "working from home", "avoiding childcare"], "correctAnswer": "taking paternity leave"},
+                  {"id": "support5_b2", "options": ["establish strong bonds during the critical early bonding period", "advance their careers", "earn overtime"], "correctAnswer": "establish strong bonds during the critical early bonding period"}
+                ],
+                "correctSentence": "By taking paternity leave, fathers can establish strong bonds during the critical early bonding period.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ strengthens _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["Paternity leave", "Overtime work", "Remote work"], "correctAnswer": "Paternity leave"},
+                  {"id": "support6_b2", "options": ["gender equality in the workplace", "company profits", "work schedules"], "correctAnswer": "gender equality in the workplace"},
+                  {"id": "support6_b3", "options": ["normalizing shared parental responsibilities", "reducing benefits", "increasing hours"], "correctAnswer": "normalizing shared parental responsibilities"}
+                ],
+                "correctSentence": "Paternity leave strengthens gender equality in the workplace through normalizing shared parental responsibilities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Universal entitlement contributes to _____ by _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["better work-life balance", "increased profits", "longer hours"], "correctAnswer": "better work-life balance"},
+                  {"id": "support7_b2", "options": ["allowing fathers to fulfill both professional and family obligations", "reducing employee benefits", "eliminating holidays"], "correctAnswer": "allowing fathers to fulfill both professional and family obligations"}
+                ],
+                "correctSentence": "Universal entitlement contributes to better work-life balance by allowing fathers to fulfill both professional and family obligations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "However, _____ creates _____ that _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["mandatory paternity leave", "optional programs", "unpaid time off"], "correctAnswer": "mandatory paternity leave"},
+                  {"id": "support8_b2", "options": ["financial challenges", "extra benefits", "more profits"], "correctAnswer": "financial challenges"},
+                  {"id": "support8_b3", "options": ["may particularly affect small businesses with limited resources", "help large corporations", "improve efficiency"], "correctAnswer": "may particularly affect small businesses with limited resources"}
+                ],
+                "correctSentence": "However, mandatory paternity leave creates financial challenges that may particularly affect small businesses with limited resources.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "_____ may impose _____ on _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["Extended leave requirements", "Optional programs", "Unpaid leave"], "correctAnswer": "Extended leave requirements"},
+                  {"id": "support9_b2", "options": ["operational disruptions", "no burden", "extra benefits"], "correctAnswer": "operational disruptions"},
+                  {"id": "support9_b3", "options": ["companies with small workforces", "large corporations", "government offices"], "correctAnswer": "companies with small workforces"}
+                ],
+                "correctSentence": "Extended leave requirements may impose operational disruptions on companies with small workforces.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "In practice, _____ can _____ more effectively.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["government-funded leave programs", "unpaid leave", "voluntary absence"], "correctAnswer": "government-funded leave programs"},
+                  {"id": "support10_b2", "options": ["support both families and businesses", "reduce benefits", "increase costs"], "correctAnswer": "support both families and businesses"}
+                ],
+                "correctSentence": "In practice, government-funded leave programs can support both families and businesses more effectively.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ experience _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["families with involved fathers", "single-parent households", "childless couples"], "correctAnswer": "families with involved fathers"},
+                  {"id": "support11_b2", "options": ["stronger relationships and better child outcomes", "financial hardship", "workplace problems"], "correctAnswer": "stronger relationships and better child outcomes"}
+                ],
+                "correctSentence": "As a result, families with involved fathers experience stronger relationships and better child outcomes.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ tends to be _____ when _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["employee loyalty", "staff turnover", "workplace conflict"], "correctAnswer": "employee loyalty"},
+                  {"id": "support12_b2", "options": ["higher", "lower", "unchanged"], "correctAnswer": "higher"},
+                  {"id": "support12_b3", "options": ["companies offer comprehensive parental leave benefits", "benefits are denied", "policies are unclear"], "correctAnswer": "companies offer comprehensive parental leave benefits"}
+                ],
+                "correctSentence": "Consequently, employee loyalty tends to be higher when companies offer comprehensive parental leave benefits.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ can _____ while _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["fathers on paternity leave", "working fathers", "absent fathers"], "correctAnswer": "fathers on paternity leave"},
+                  {"id": "example1_b2", "options": ["provide essential support to recovering partners", "focus on career", "avoid responsibilities"], "correctAnswer": "provide essential support to recovering partners"},
+                  {"id": "example1_b3", "options": ["establishing crucial early bonds with their newborns", "advancing professionally", "earning overtime"], "correctAnswer": "establishing crucial early bonds with their newborns"}
+                ],
+                "correctSentence": "For instance, fathers on paternity leave can provide essential support to recovering partners while establishing crucial early bonds with their newborns.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ offer _____ that _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["Scandinavian countries", "developing nations", "isolated regions"], "correctAnswer": "Scandinavian countries"},
+                  {"id": "example2_b2", "options": ["generous paternity leave policies", "minimal benefits", "no parental support"], "correctAnswer": "generous paternity leave policies"},
+                  {"id": "example2_b3", "options": ["have resulted in more engaged fathers and gender-equal societies", "reduced economic growth", "increased unemployment"], "correctAnswer": "have resulted in more engaged fathers and gender-equal societies"}
+                ],
+                "correctSentence": "For example, Scandinavian countries offer generous paternity leave policies that have resulted in more engaged fathers and gender-equal societies.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ who take _____ tend to _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["fathers", "employers", "colleagues"], "correctAnswer": "fathers"},
+                  {"id": "example3_b2", "options": ["paternity leave", "vacation days", "unpaid absence"], "correctAnswer": "paternity leave"},
+                  {"id": "example3_b3", "options": ["remain more involved in childcare throughout their children's lives", "become less engaged", "focus only on work"], "correctAnswer": "remain more involved in childcare throughout their children's lives"}
+                ],
+                "correctSentence": "Specifically, fathers who take paternity leave tend to remain more involved in childcare throughout their children's lives.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research shows that _____ improve when _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["child development outcomes", "company profits", "workplace efficiency"], "correctAnswer": "child development outcomes"},
+                  {"id": "example4_b2", "options": ["fathers are actively involved from birth", "fathers work longer hours", "mothers handle everything alone"], "correctAnswer": "fathers are actively involved from birth"}
+                ],
+                "correctSentence": "Research shows that child development outcomes improve when fathers are actively involved from birth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Studies indicate that _____ report _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["fathers who took paternity leave", "workers who avoided leave", "employers who denied leave"], "correctAnswer": "fathers who took paternity leave"},
+                  {"id": "example5_b2", "options": ["greater satisfaction with work-life balance and stronger family bonds", "career setbacks", "financial difficulties"], "correctAnswer": "greater satisfaction with work-life balance and stronger family bonds"}
+                ],
+                "correctSentence": "Studies indicate that fathers who took paternity leave report greater satisfaction with work-life balance and stronger family bonds.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ demonstrate _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["countries", "businesses", "individuals"], "correctAnswer": "countries"},
+                  {"id": "example6_b2", "options": ["Sweden and Norway", "Japan and South Korea", "United States and China"], "correctAnswer": "Sweden and Norway"},
+                  {"id": "example6_b3", "options": ["that generous paternity leave policies support both families and economic growth", "declining birth rates", "workplace problems"], "correctAnswer": "that generous paternity leave policies support both families and economic growth"}
+                ],
+                "correctSentence": "In particular, countries such as Sweden and Norway demonstrate that generous paternity leave policies support both families and economic growth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, have found that _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["progressive companies", "traditional businesses", "small startups"], "correctAnswer": "progressive companies"},
+                  {"id": "example7_b2", "options": ["tech firms and multinational corporations", "local shops", "family businesses"], "correctAnswer": "tech firms and multinational corporations"},
+                  {"id": "example7_b3", "options": ["offering paternity leave improves employee retention and satisfaction", "benefits reduce profits", "leave policies hurt business"], "correctAnswer": "offering paternity leave improves employee retention and satisfaction"}
+                ],
+                "correctSentence": "Many progressive companies, including tech firms and multinational corporations, have found that offering paternity leave improves employee retention and satisfaction.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ face challenges when _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["Japan", "Sweden", "Iceland"], "correctAnswer": "Japan"},
+                  {"id": "example8_b2", "options": ["new fathers", "employers", "government officials"], "correctAnswer": "new fathers"},
+                  {"id": "example8_b3", "options": ["corporate culture discourages them from using entitled leave", "leave is too generous", "policies are too flexible"], "correctAnswer": "corporate culture discourages them from using entitled leave"}
+                ],
+                "correctSentence": "Take Japan as an example: new fathers face challenges when corporate culture discourages them from using entitled leave.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, children with _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["developmental researchers", "business analysts", "financial experts"], "correctAnswer": "developmental researchers"},
+                  {"id": "example9_b2", "options": ["involved fathers from birth show better social and cognitive development", "absent fathers develop normally", "single parents struggle more"], "correctAnswer": "involved fathers from birth show better social and cognitive development"}
+                ],
+                "correctSentence": "According to developmental researchers, children with involved fathers from birth show better social and cognitive development.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ is more effective when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["paternity leave policy", "unpaid absence", "overtime work"], "correctAnswer": "paternity leave policy"},
+                  {"id": "example10_b2", "options": ["supported by government funding to reduce business burden", "entirely employer-funded", "completely unpaid"], "correctAnswer": "supported by government funding to reduce business burden"}
+                ],
+                "correctSentence": "Evidence suggests that paternity leave policy is more effective when supported by government funding to reduce business burden.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["mandatory paternity leave", "optional programs", "unlimited leave"], "correctAnswer": "mandatory paternity leave"},
+                  {"id": "counter1_b2", "options": ["create financial strain for small businesses", "benefit everyone equally", "cost nothing"], "correctAnswer": "create financial strain for small businesses"}
+                ],
+                "correctSentence": "However, it could be argued that mandatory paternity leave may create financial strain for small businesses.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these advantages, _____ can present challenges such as _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["universal paternity leave", "unpaid time off", "vacation days"], "correctAnswer": "universal paternity leave"},
+                  {"id": "counter2_b2", "options": ["operational difficulties for companies with limited staff", "no drawbacks", "only benefits"], "correctAnswer": "operational difficulties for companies with limited staff"}
+                ],
+                "correctSentence": "Despite these advantages, universal paternity leave can present challenges such as operational difficulties for companies with limited staff.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ can be addressed through _____ which _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["employer concerns", "family needs", "employee demands"], "correctAnswer": "employer concerns"},
+                  {"id": "counter3_b2", "options": ["government subsidies and tax incentives", "eliminating leave", "reducing benefits"], "correctAnswer": "government subsidies and tax incentives"},
+                  {"id": "counter3_b3", "options": ["offset costs while supporting families", "increase expenses", "reduce support"], "correctAnswer": "offset costs while supporting families"}
+                ],
+                "correctSentence": "Nevertheless, employer concerns can be addressed through government subsidies and tax incentives which offset costs while supporting families.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ presents challenges, _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["implementing paternity leave", "denying benefits", "avoiding change"], "correctAnswer": "implementing paternity leave"},
+                  {"id": "counter4_b2", "options": ["the long-term benefits for society outweigh short-term costs", "businesses always lose money", "families suffer"], "correctAnswer": "the long-term benefits for society outweigh short-term costs"}
+                ],
+                "correctSentence": "Although implementing paternity leave presents challenges, the long-term benefits for society outweigh short-term costs.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ may _____ if _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["paternity leave programs", "unpaid absence", "overtime work"], "correctAnswer": "paternity leave programs"},
+                  {"id": "counter5_b2", "options": ["fail to achieve goals", "succeed completely", "cost nothing"], "correctAnswer": "fail to achieve goals"},
+                  {"id": "counter5_b3", "options": ["corporate culture stigmatizes men who take leave", "everyone supports them", "they are mandatory"], "correctAnswer": "corporate culture stigmatizes men who take leave"}
+                ],
+                "correctSentence": "Critics point out that paternity leave programs may fail to achieve goals if corporate culture stigmatizes men who take leave.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["implementing paternity leave presents some challenges", "leave is unnecessary", "fathers should work constantly"], "correctAnswer": "implementing paternity leave presents some challenges"},
+                  {"id": "conclusion1_b2", "options": ["universal entitlement is essential for gender equality and child wellbeing", "only wealthy countries should offer it", "it should remain optional"], "correctAnswer": "universal entitlement is essential for gender equality and child wellbeing"}
+                ],
+                "correctSentence": "In conclusion, while implementing paternity leave presents some challenges, I believe universal entitlement is essential for gender equality and child wellbeing.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ would _____, whereas _____ perpetuates _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["mandatory paternity leave", "optional leave", "no leave"], "correctAnswer": "mandatory paternity leave"},
+                  {"id": "conclusion2_b2", "options": ["promote stronger families and equal parenting", "harm businesses", "reduce productivity"], "correctAnswer": "promote stronger families and equal parenting"},
+                  {"id": "conclusion2_b3", "options": ["denying this right", "offering benefits", "supporting families"], "correctAnswer": "denying this right"},
+                  {"id": "conclusion2_b4", "options": ["gender inequality and traditional stereotypes", "economic growth", "workplace harmony"], "correctAnswer": "gender inequality and traditional stereotypes"}
+                ],
+                "correctSentence": "Overall, mandatory paternity leave would promote stronger families and equal parenting, whereas denying this right perpetuates gender inequality and traditional stereotypes.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ should be _____ rather than _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["paternity leave entitlement", "unpaid absence", "voluntary leave"], "correctAnswer": "paternity leave entitlement"},
+                  {"id": "conclusion3_b2", "options": ["guaranteed for all fathers as a fundamental right", "optional and rare", "denied entirely"], "correctAnswer": "guaranteed for all fathers as a fundamental right"},
+                  {"id": "conclusion3_b3", "options": ["left to employer discretion", "mandatory everywhere", "eliminated completely"], "correctAnswer": "left to employer discretion"}
+                ],
+                "correctSentence": "To summarize, paternity leave entitlement should be guaranteed for all fathers as a fundamental right rather than left to employer discretion.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ depends on _____ when _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["creating equitable societies", "maximizing profits", "reducing costs"], "correctAnswer": "creating equitable societies"},
+                  {"id": "conclusion4_b2", "options": ["recognizing fathers' rights to early bonding", "denying parental leave", "prioritizing business interests"], "correctAnswer": "recognizing fathers' rights to early bonding"},
+                  {"id": "conclusion4_b3", "options": ["establishing family-friendly workplace policies", "eliminating benefits", "reducing support"], "correctAnswer": "establishing family-friendly workplace policies"}
+                ],
+                "correctSentence": "Ultimately, creating equitable societies depends on recognizing fathers' rights to early bonding when establishing family-friendly workplace policies.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ represents an essential step toward _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["universal paternity leave", "optional programs", "unpaid time off"], "correctAnswer": "universal paternity leave"},
+                  {"id": "conclusion5_b2", "options": ["gender equality and stronger families in modern society", "reducing business costs", "maintaining traditional roles"], "correctAnswer": "gender equality and stronger families in modern society"}
+                ],
+                "correctSentence": "In my view, universal paternity leave represents an essential step toward gender equality and stronger families in modern society.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Strong Agreement",
+            "structure": {
+              "introduction": "It is widely recognized that [restate topic about paternity leave]. I strongly agree with this proposal because [main reason].",
+              "body1": "The primary benefit of [universal paternity leave] is [main advantage]. This is because [explanation]. For instance, [specific example]. As a result, [positive outcome].",
+              "body2": "Furthermore, [second advantage]. [Explanation of why]. For example, [supporting example]. Therefore, [conclusion about benefit].",
+              "conclusion": "In conclusion, [restate position]. [Final thought about societal benefits or implementation]."
+            },
+            "example": {
+              "introduction": "It is widely recognized that fathers play a crucial role in early child development. I strongly agree that all fathers should be entitled to paternity leave because it promotes both gender equality and child wellbeing.",
+              "body1": "The primary benefit of universal paternity leave is that it enables fathers to establish strong bonds with their newborns during the critical early period. This is because active paternal involvement from birth significantly impacts child development and family dynamics. For instance, research shows that children with engaged fathers demonstrate better social skills and emotional regulation. As a result, early paternity leave contributes to healthier, more balanced family relationships.",
+              "body2": "Furthermore, mandatory paternity leave promotes gender equality by normalizing shared parental responsibilities. When fathers routinely take leave, it reduces workplace discrimination against mothers and challenges traditional gender roles. For example, Scandinavian countries with generous paternity leave policies have achieved more equal division of childcare and higher female workforce participation. Therefore, universal entitlement benefits both families and society by creating more equitable workplaces.",
+              "conclusion": "In conclusion, paternity leave entitlement for all fathers is essential for supporting child development and advancing gender equality. Governments should implement policies that guarantee this right while providing support to employers through subsidies or tax incentives."
+            }
+          },
+          {
+            "name": "Template 2: Partial Agreement",
+            "structure": {
+              "introduction": "[Restate topic]. While [acknowledge benefit], I believe [state reservation or condition].",
+              "body1": "Admittedly, [positive aspect of paternity leave]. [Reason supporting leave]. For instance, [example of benefit]. This demonstrates [positive outcome].",
+              "body2": "Nevertheless, [practical consideration or limitation]. [Explain challenge]. For example, [specific situation]. Consequently, [how to address this concern].",
+              "conclusion": "To summarize, [acknowledge value] but [restate nuanced position]. A balanced approach would involve [alternative or modification]."
+            },
+            "example": {
+              "introduction": "There is growing advocacy for universal paternity leave entitlement. While I strongly support fathers' right to take leave, I believe implementation must consider the varying capacities of different businesses.",
+              "body1": "Admittedly, paternity leave provides substantial benefits for families and society. Fathers who take leave develop stronger bonds with their children and provide crucial support to their partners during the postpartum period. For instance, studies show that early paternal involvement correlates with better child development outcomes and more equitable household dynamics. This demonstrates that paternity leave produces long-term positive effects beyond the immediate family.",
+              "body2": "Nevertheless, mandatory leave requirements may create genuine hardship for small businesses with limited resources. Companies with only a few employees can face significant operational challenges when key staff take extended leave. For example, a small family-owned business might struggle to cover essential functions without the financial capacity to hire temporary replacements. Consequently, government support through subsidies or tax incentives should accompany paternity leave mandates to ensure both family wellbeing and business viability.",
+              "conclusion": "To summarize, paternity leave entitlement is highly beneficial but implementation must be realistic. A balanced approach would involve guaranteed leave rights supported by government programs that help smaller employers manage the transition."
+            }
+          },
+          {
+            "name": "Template 3: Strong Agreement with Counter-argument Addressed",
+            "structure": {
+              "introduction": "[Restate proposal]. I strongly agree with this position because [main reason], despite [acknowledge opposing concern].",
+              "body1": "[Main argument for paternity leave]. [Explanation]. For instance, [example showing benefits]. This illustrates [why leave is essential].",
+              "body2": "Some argue that [counter-argument about costs or disruption]. However, [refutation]. For example, [evidence showing concerns can be addressed]. Therefore, [conclusion showing benefits outweigh concerns].",
+              "conclusion": "In conclusion, [restate agreement]. [Final thought about how to implement effectively while addressing concerns]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "agreeing": ["I strongly agree that", "This policy is essential because", "Indeed", "It is undeniable that"],
+          "partial_agreement": ["While this has merit", "Admittedly", "I broadly support", "Although there are benefits"],
+          "disagreeing": ["However, I believe", "Nevertheless", "This proposal overlooks", "A key concern is"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "A clear example is", "Specifically"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "It is widely recognized that _____ [restate the topic about fathers and paternity leave]. I _____ [clearly state YOUR position: strongly agree/partly agree/disagree] because _____ [give main reason for your position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Restate topic about paternity leave",
+                "hint": "Paraphrase 'all fathers should be entitled to take time off when children are born'",
+                "placeholder": "e.g., fathers play a crucial role in early child development and should have guaranteed leave when their children are born",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Your position",
+                "hint": "Be clear! Say 'strongly agree', 'partly agree', or 'disagree'",
+                "placeholder": "e.g., strongly agree with universal paternity leave entitlement",
+                "minWords": 3
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Main reason for position",
+                "hint": "WHY do you hold this position? Give your main reason.",
+                "placeholder": "e.g., it promotes gender equality in childcare and benefits both child development and family dynamics",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "The primary benefit of _____ [topic sentence about paternity leave] is that _____. [explain the main advantage]. This is because _____ [explain WHY/mechanism]. For instance, _____ [give a specific example]. As a result, _____ [state the positive outcome or consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence about paternity leave",
+                "hint": "What is the main advantage? Start with 'universal paternity leave' or similar",
+                "placeholder": "e.g., mandatory paternity leave entitlement",
+                "minWords": 3
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Main advantage",
+                "hint": "Complete 'is that...' - what specific benefit does paternity leave provide?",
+                "placeholder": "e.g., it enables fathers to establish strong bonds with newborns during the critical early bonding period",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Explain WHY",
+                "hint": "Why is this advantage important? What's the mechanism?",
+                "placeholder": "e.g., early paternal involvement significantly impacts child emotional development and establishes patterns of engaged fatherhood",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Specific example",
+                "hint": "Give concrete example - countries, research, or specific situations",
+                "placeholder": "e.g., research shows that children with involved fathers from birth demonstrate better social skills and emotional regulation throughout childhood",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank5",
+                "label": "Positive outcome",
+                "hint": "What is the final benefit or result of this?",
+                "placeholder": "e.g., families develop stronger relationships and children experience better developmental outcomes",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "_____ [Transition: Furthermore/However], _____ [topic sentence for second point]. _____ [Explanation]. For example, _____ [specific example]. _____ [Conclusion about this point].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Transition word",
+                "hint": "If supporting: Furthermore/Moreover. If counter-argument: However/Nevertheless",
+                "placeholder": "e.g., Furthermore",
+                "minWords": 1
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Topic sentence for second point",
+                "hint": "Your second main argument. Could be another benefit OR a limitation addressed",
+                "placeholder": "e.g., universal paternity leave promotes gender equality by normalizing shared parental responsibilities in both families and workplaces",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Explanation",
+                "hint": "Explain this second point in detail",
+                "placeholder": "e.g., When fathers routinely take leave, it challenges traditional gender roles and reduces workplace discrimination against mothers who might otherwise be seen as the only caregivers",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Specific example",
+                "hint": "Concrete example supporting this second point",
+                "placeholder": "e.g., Scandinavian countries with generous paternity leave policies have achieved more equal division of childcare responsibilities and higher female workforce participation rates",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank5",
+                "label": "Conclusion about this point",
+                "hint": "Wrap up this paragraph with a concluding thought",
+                "placeholder": "e.g., Therefore, guaranteed paternity leave benefits society by creating more equitable workplaces and families",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [summarize your position]. _____ [final thought, recommendation, or nuanced perspective].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize position",
+                "hint": "Briefly restate your position and main reasons",
+                "placeholder": "e.g., while implementing universal paternity leave may present some operational challenges, the benefits for gender equality and child development are substantial",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Final thought/recommendation",
+                "hint": "End with a recommendation, solution, or broader perspective",
+                "placeholder": "e.g., Governments should guarantee this entitlement for all fathers while providing subsidies or tax incentives to support businesses during the transition",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + clearly state your position"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Main argument with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Second argument OR counter-argument addressed with examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize position + final recommendation"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position (agree/partly agree/disagree)",
+          "Body paragraph 1 presents main argument with explanation and example",
+          "Body paragraph 2 presents second point or addresses limitations",
+          "You addressed the 'all fathers' universality aspect",
+          "Conclusion summarizes position and offers final insight",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "It is widely recognized that fathers play a crucial role in early child development and family dynamics. I strongly agree that all fathers should be entitled to paternity leave because it promotes both gender equality and positive child outcomes, while strengthening family bonds during a critical period.\n\nThe primary benefit of universal paternity leave is that it enables fathers to establish strong emotional connections with their newborns during the early bonding period. This is essential because active paternal involvement from birth significantly impacts child emotional and cognitive development while establishing patterns of engaged fatherhood that continue throughout childhood. For instance, research demonstrates that children with involved fathers from birth exhibit better social skills, emotional regulation, and academic performance. Moreover, fathers who take paternity leave provide crucial support to their partners during the physically and emotionally demanding postpartum period. As a result, families develop stronger relationships and mothers experience reduced stress and better mental health.\n\nFurthermore, mandatory paternity leave promotes gender equality by normalizing shared parental responsibilities in both homes and workplaces. When fathers routinely take leave, it challenges traditional gender stereotypes and reduces workplace discrimination against mothers who might otherwise be viewed as the primary or sole caregivers. For example, Scandinavian countries with generous paternity leave policies have achieved significantly more equal distribution of household duties and higher female workforce participation rates than nations without such policies. While some employers may express concerns about operational disruptions, evidence from these progressive nations shows that supportive workplace policies ultimately improve employee loyalty and productivity. Therefore, guaranteed paternity leave benefits society by creating more equitable families and workplaces.\n\nIn conclusion, universal paternity leave entitlement is essential for promoting gender equality and supporting optimal child development. Governments should implement comprehensive policies guaranteeing this right while providing financial support to businesses through subsidies or tax incentives to facilitate smooth implementation.",
+    "wordCount": 278,
+    "structure": {
+      "introduction": "It is widely recognized that fathers play a crucial role in early child development and family dynamics. I strongly agree that all fathers should be entitled to paternity leave because it promotes both gender equality and positive child outcomes, while strengthening family bonds during a critical period.",
+      "body1": "The primary benefit of universal paternity leave is that it enables fathers to establish strong emotional connections with their newborns during the early bonding period. This is essential because active paternal involvement from birth significantly impacts child emotional and cognitive development while establishing patterns of engaged fatherhood that continue throughout childhood. For instance, research demonstrates that children with involved fathers from birth exhibit better social skills, emotional regulation, and academic performance. Moreover, fathers who take paternity leave provide crucial support to their partners during the physically and emotionally demanding postpartum period. As a result, families develop stronger relationships and mothers experience reduced stress and better mental health.",
+      "body2": "Furthermore, mandatory paternity leave promotes gender equality by normalizing shared parental responsibilities in both homes and workplaces. When fathers routinely take leave, it challenges traditional gender stereotypes and reduces workplace discrimination against mothers who might otherwise be viewed as the primary or sole caregivers. For example, Scandinavian countries with generous paternity leave policies have achieved significantly more equal distribution of household duties and higher female workforce participation rates than nations without such policies. While some employers may express concerns about operational disruptions, evidence from these progressive nations shows that supportive workplace policies ultimately improve employee loyalty and productivity. Therefore, guaranteed paternity leave benefits society by creating more equitable families and workplaces.",
+      "conclusion": "In conclusion, universal paternity leave entitlement is essential for promoting gender equality and supporting optimal child development. Governments should implement comprehensive policies guaranteeing this right while providing financial support to businesses through subsidies or tax incentives to facilitate smooth implementation."
+    },
+    "highlights": [
+      {
+        "text": "widely recognized",
+        "type": "academic-vocab",
+        "explanation": "Academic way to introduce a commonly accepted viewpoint"
+      },
+      {
+        "text": "I strongly agree",
+        "type": "thesis",
+        "explanation": "Clear position statement for Agree/Disagree essay"
+      },
+      {
+        "text": "paternal involvement",
+        "type": "academic-vocab",
+        "explanation": "Demonstrates range of academic vocabulary"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds second main supporting point"
+      },
+      {
+        "text": "Scandinavian countries with generous paternity leave policies",
+        "type": "example",
+        "explanation": "Specific, concrete example that supports the argument"
+      },
+      {
+        "text": "While some employers may express concerns",
+        "type": "counter-argument",
+        "explanation": "Acknowledges opposing viewpoint before refuting"
+      },
+      {
+        "text": "Therefore",
+        "type": "linking-word",
+        "explanation": "Shows logical conclusion"
+      },
+      {
+        "text": "gender equality",
+        "type": "topic-vocab",
+        "explanation": "Key topic vocabulary used effectively"
+      },
+      {
+        "text": "early bonding period",
+        "type": "topic-vocab",
+        "explanation": "Specific terminology relevant to paternity leave topic"
+      }
+    ]
+  }
+}

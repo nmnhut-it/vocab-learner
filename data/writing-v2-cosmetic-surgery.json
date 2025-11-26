@@ -1,0 +1,571 @@
+{
+  "id": "cosmetic-surgery",
+  "title": "Cosmetic Surgery",
+  "category": "Health & Society",
+  "difficulty": "Medium",
+  "question": {
+    "text": "An increasing number of people are choosing to have cosmetic surgery in order to improve their appearance. Why do people have operations to change the way they look? Do you think this is a positive or negative development?",
+    "type": "Two-Part Question",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Two-Part Question",
+          "explanation": "You must answer BOTH parts of the question: (1) reasons why people choose cosmetic surgery AND (2) whether this is positive or negative development.",
+          "requirements": [
+            "Explain reasons why people undergo cosmetic surgery",
+            "Clearly state whether this is positive or negative",
+            "Support each part with specific examples",
+            "Answer both parts equally with balanced development"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "increasing number",
+            "definition": "Growing quantity of people",
+            "importance": "Shows this is a rising trend that needs explanation"
+          },
+          {
+            "word": "cosmetic surgery",
+            "definition": "Medical procedures to alter appearance",
+            "importance": "The main topic - focus on non-medical aesthetic procedures"
+          },
+          {
+            "word": "improve their appearance",
+            "definition": "Make themselves look better",
+            "importance": "Key motivation - people seek physical enhancement"
+          },
+          {
+            "word": "why",
+            "definition": "What are the reasons/causes",
+            "importance": "First question - must explain motivations and causes"
+          },
+          {
+            "word": "positive or negative development",
+            "definition": "Whether this trend is beneficial or harmful",
+            "importance": "Second question - must take a clear position"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your position on positive/negative",
+          "body1": "4-5 sentences: Explain reasons why people choose cosmetic surgery with examples",
+          "body2": "4-5 sentences: Argue whether positive or negative with reasons and examples",
+          "conclusion": "2 sentences: Summarize reasons + restate your position"
+        },
+        "commonMistakes": [
+          "Only answering one part of the question",
+          "Not taking a clear position on positive or negative",
+          "Discussing medical/reconstructive surgery instead of cosmetic",
+          "Being too neutral without clear reasoning for your position"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "body image",
+            "pronunciation": "/ˈbɒdi ˈɪmɪdʒ/",
+            "partOfSpeech": "noun",
+            "definition": "The perception of one's physical appearance",
+            "example": "Social media can negatively impact body image, especially among young people.",
+            "synonyms": ["self-perception", "physical self-image"]
+          },
+          {
+            "word": "self-esteem",
+            "pronunciation": "/ˌself ɪˈstiːm/",
+            "partOfSpeech": "noun",
+            "definition": "Confidence in one's worth or abilities",
+            "example": "Many people believe cosmetic surgery can boost their self-esteem.",
+            "synonyms": ["self-confidence", "self-worth"]
+          },
+          {
+            "word": "beauty standards",
+            "pronunciation": "/ˈbjuːti ˈstændədz/",
+            "partOfSpeech": "noun",
+            "definition": "Socially accepted ideals of physical attractiveness",
+            "example": "Modern beauty standards are heavily influenced by celebrity culture.",
+            "synonyms": ["aesthetic ideals", "appearance norms"]
+          },
+          {
+            "word": "psychological well-being",
+            "pronunciation": "/ˌsaɪkəˈlɒdʒɪkəl ˌwelˈbiːɪŋ/",
+            "partOfSpeech": "noun",
+            "definition": "Mental and emotional health state",
+            "example": "The impact of cosmetic surgery on psychological well-being remains debated.",
+            "synonyms": ["mental health", "emotional wellness"]
+          },
+          {
+            "word": "enhance",
+            "pronunciation": "/ɪnˈhɑːns/",
+            "partOfSpeech": "verb",
+            "definition": "To improve or increase quality",
+            "example": "Cosmetic procedures aim to enhance physical features.",
+            "synonyms": ["improve", "augment", "boost"]
+          },
+          {
+            "word": "insecurity",
+            "pronunciation": "/ˌɪnsɪˈkjʊərəti/",
+            "partOfSpeech": "noun",
+            "definition": "Lack of confidence or anxiety about oneself",
+            "example": "Physical insecurity often drives people toward cosmetic surgery.",
+            "synonyms": ["self-doubt", "anxiety"]
+          },
+          {
+            "word": "superficial",
+            "pronunciation": "/ˌsuːpəˈfɪʃəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Concerned only with surface appearance",
+            "example": "Critics argue that cosmetic surgery promotes superficial values.",
+            "synonyms": ["shallow", "surface-level"]
+          },
+          {
+            "word": "normalize",
+            "pronunciation": "/ˈnɔːməlaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To make something standard or acceptable",
+            "example": "Celebrity endorsements have helped normalize cosmetic procedures.",
+            "synonyms": ["standardize", "make acceptable"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "social media influence",
+            "definition": "Impact of online platforms on attitudes and behavior",
+            "example": "Social media influence has increased pressure to achieve unrealistic beauty ideals."
+          },
+          {
+            "phrase": "medical risks",
+            "definition": "Potential health dangers from procedures",
+            "example": "Cosmetic surgery carries medical risks including infection and complications."
+          },
+          {
+            "phrase": "celebrity culture",
+            "definition": "Societal obsession with famous personalities",
+            "example": "Celebrity culture promotes specific physical features as ideal."
+          },
+          {
+            "phrase": "unrealistic expectations",
+            "definition": "Goals or standards that cannot realistically be achieved",
+            "example": "Instagram filters create unrealistic expectations about appearance."
+          },
+          {
+            "phrase": "reconstructive surgery",
+            "definition": "Medical procedures to repair physical damage or defects",
+            "example": "Unlike cosmetic surgery, reconstructive surgery addresses medical needs."
+          },
+          {
+            "phrase": "societal pressure",
+            "definition": "Expectations imposed by society or culture",
+            "example": "Societal pressure to look young drives demand for anti-aging procedures."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There are several reasons why", "People undergo cosmetic surgery for various reasons", "This trend can be attributed to"],
+          "contrasting": ["However", "On the contrary", "Despite this", "Nevertheless"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In my view"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that address both parts of the question",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "This trend is driven by _____ and I believe it is primarily a _____ development.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["social media influence and beauty standards", "medical necessity", "government policy"], "correctAnswer": "social media influence and beauty standards"},
+                  {"id": "thesis1_b2", "options": ["negative", "positive", "neutral"], "correctAnswer": "negative"}
+                ],
+                "correctSentence": "This trend is driven by social media influence and beauty standards and I believe it is primarily a negative development.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "While _____ motivate people to undergo surgery, I consider this a _____ trend overall.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["various psychological and social factors", "medical emergencies", "financial incentives"], "correctAnswer": "various psychological and social factors"},
+                  {"id": "thesis2_b2", "options": ["concerning", "beneficial", "minor"], "correctAnswer": "concerning"}
+                ],
+                "correctSentence": "While various psychological and social factors motivate people to undergo surgery, I consider this a concerning trend overall.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "There are _____ why people choose cosmetic surgery, primarily _____ and _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["several reasons", "no reasons", "medical requirements"], "correctAnswer": "several reasons"},
+                  {"id": "topic1_b2", "options": ["social pressure", "hospital requirements", "legal obligations"], "correctAnswer": "social pressure"},
+                  {"id": "topic1_b3", "options": ["desire to boost self-esteem", "government mandates", "insurance coverage"], "correctAnswer": "desire to boost self-esteem"}
+                ],
+                "correctSentence": "There are several reasons why people choose cosmetic surgery, primarily social pressure and desire to boost self-esteem.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "In my view, this is a _____ development because _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["negative", "positive", "minor"], "correctAnswer": "negative"},
+                  {"id": "topic2_b2", "options": ["it promotes superficial values and carries health risks", "it helps everyone", "it costs money"], "correctAnswer": "it promotes superficial values and carries health risks"}
+                ],
+                "correctSentence": "In my view, this is a negative development because it promotes superficial values and carries health risks.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "The main driver is _____, which creates _____ to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["social media influence", "medical advice", "government policy"], "correctAnswer": "social media influence"},
+                  {"id": "support1_b2", "options": ["pressure", "opportunities", "requirements"], "correctAnswer": "pressure"},
+                  {"id": "support1_b3", "options": ["conform to unrealistic beauty standards", "seek medical help", "follow regulations"], "correctAnswer": "conform to unrealistic beauty standards"}
+                ],
+                "correctSentence": "The main driver is social media influence, which creates pressure to conform to unrealistic beauty standards.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "This is problematic because _____ can lead to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["cosmetic procedures", "healthy eating", "regular exercise"], "correctAnswer": "cosmetic procedures"},
+                  {"id": "support2_b2", "options": ["serious medical complications and psychological issues", "improved health", "better sleep"], "correctAnswer": "serious medical complications and psychological issues"}
+                ],
+                "correctSentence": "This is problematic because cosmetic procedures can lead to serious medical complications and psychological issues.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ on platforms like _____ make users feel _____ about _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["Instagram filters and edited photos", "health articles", "news stories"], "correctAnswer": "Instagram filters and edited photos"},
+                  {"id": "example1_b2", "options": ["Instagram and TikTok", "medical websites", "government portals"], "correctAnswer": "Instagram and TikTok"},
+                  {"id": "example1_b3", "options": ["insecure", "healthy", "informed"], "correctAnswer": "insecure"},
+                  {"id": "example1_b4", "options": ["their natural appearance", "their diet", "their education"], "correctAnswer": "their natural appearance"}
+                ],
+                "correctSentence": "For instance, Instagram filters and edited photos on platforms like Instagram and TikTok make users feel insecure about their natural appearance.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ have resulted in _____ among _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["botched cosmetic procedures", "healthy diets", "exercise programs"], "correctAnswer": "botched cosmetic procedures"},
+                  {"id": "example2_b2", "options": ["infections, scarring and even deaths", "improved fitness", "better nutrition"], "correctAnswer": "infections, scarring and even deaths"},
+                  {"id": "example2_b3", "options": ["patients seeking quick fixes", "athletes", "students"], "correctAnswer": "patients seeking quick fixes"}
+                ],
+                "correctSentence": "For example, botched cosmetic procedures have resulted in infections, scarring and even deaths among patients seeking quick fixes.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, this is a _____ development because _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["societal pressure and self-esteem concerns drive cosmetic surgery", "surgery is always necessary", "everyone needs surgery"], "correctAnswer": "societal pressure and self-esteem concerns drive cosmetic surgery"},
+                  {"id": "conclusion1_b2", "options": ["negative", "positive", "neutral"], "correctAnswer": "negative"},
+                  {"id": "conclusion1_b3", "options": ["it promotes unhealthy values and carries significant risks", "it helps everyone", "it is inexpensive"], "correctAnswer": "it promotes unhealthy values and carries significant risks"}
+                ],
+                "correctSentence": "In conclusion, while societal pressure and self-esteem concerns drive cosmetic surgery, this is a negative development because it promotes unhealthy values and carries significant risks.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Two-Part Question",
+            "structure": {
+              "introduction": "Paraphrase the trend of increasing cosmetic surgery. State that there are reasons for this trend AND give your position (positive or negative).",
+              "body1": "[Topic sentence about reasons]. First, [Reason 1 with explanation]. For instance, [Example of social media/beauty standards]. Additionally, [Reason 2]. For example, [Example of celebrity culture/self-esteem].",
+              "body2": "[State your position: positive or negative]. The main concern is [Primary reason with explanation]. For instance, [Example of medical risks or psychological issues]. Furthermore, [Additional reason]. Therefore, [Conclusion about your position].",
+              "conclusion": "In conclusion, [Brief summary of reasons]. Overall, I believe this is a [restate positive/negative] development [with brief final reasoning]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "introducing_reasons": ["There are several reasons why", "People undergo cosmetic surgery for various reasons", "This trend can be attributed to"],
+          "listing_reasons": ["First", "Firstly", "The primary reason", "Another factor"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The number of people seeking cosmetic surgery _____ [describe the trend]. This trend _____ [explain what drives it], and I believe it is _____ [state your position: positive or negative development].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe the trend",
+                "hint": "Paraphrase 'has increased significantly' or 'is rising rapidly'",
+                "placeholder": "e.g., has risen dramatically in recent years as people pursue idealized physical appearance",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Explain what drives it",
+                "hint": "Preview the reasons briefly",
+                "placeholder": "e.g., is driven by social media influence, beauty standards and desire to boost self-esteem",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "State position (positive or negative)",
+                "hint": "Be clear: is this positive or negative? Why?",
+                "placeholder": "e.g., primarily a negative development due to health risks and promotion of superficial values",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Reasons",
+            "template": "There are several reasons why _____ [topic sentence about reasons]. The primary factor is _____ [explain first reason]. For instance, _____ [specific example]. Additionally, _____ [second reason with explanation and example].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence about reasons",
+                "hint": "What motivates people to get cosmetic surgery?",
+                "placeholder": "e.g., people choose to undergo cosmetic procedures to alter their appearance",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "First reason with explanation",
+                "hint": "Explain social media influence or beauty standards",
+                "placeholder": "e.g., social media influence, which constantly exposes users to filtered images and unrealistic beauty standards",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete example of social media/celebrity culture impact",
+                "placeholder": "e.g., Instagram filters and celebrity culture on platforms like TikTok make many feel inadequate about their natural features",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Second reason with explanation and example",
+                "hint": "Explain self-esteem or psychological factors",
+                "placeholder": "e.g., many believe cosmetic surgery will boost their self-esteem and confidence, particularly those facing body image issues or workplace discrimination based on appearance",
+                "minWords": 20
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Positive or Negative",
+            "template": "In my view, this is a _____ [clearly state positive or negative] development. The main concern is _____ [explain primary reason for your position]. For example, _____ [specific example supporting your position]. Furthermore, _____ [additional reason with explanation].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "State position clearly",
+                "hint": "Negative or positive? Give brief reason",
+                "placeholder": "e.g., largely negative development because it promotes superficial values and carries significant health risks",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Primary reason for position",
+                "hint": "Explain medical risks, psychological issues, or societal impact",
+                "placeholder": "e.g., that cosmetic procedures involve serious medical risks including infections, complications and even death from anesthesia or surgical errors",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete example of risks or negative impacts",
+                "placeholder": "e.g., numerous cases have been reported of botched procedures resulting in permanent scarring, nerve damage and psychological trauma for patients",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Additional reason",
+                "hint": "Add another concern about superficial values or mental health",
+                "placeholder": "e.g., the normalization of cosmetic surgery reinforces unhealthy beauty ideals and may worsen body image issues rather than addressing underlying psychological well-being",
+                "minWords": 20
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [summarize the reasons people choose cosmetic surgery]. Overall, I believe this is _____ [restate your position with final reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize reasons",
+                "hint": "Briefly recap why people undergo cosmetic surgery",
+                "placeholder": "e.g., social media pressure, celebrity culture and desire for improved self-esteem drive the rising trend of cosmetic surgery",
+                "minWords": 15
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate position with final reasoning",
+                "hint": "Clearly restate whether positive or negative and why",
+                "placeholder": "e.g., a concerning negative development because the medical risks and promotion of superficial values outweigh any potential psychological benefits",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + answer both parts (reasons + positive/negative)"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Explain reasons why people choose cosmetic surgery with examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Argue whether positive or negative with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize reasons + restate your position"
+          }
+        },
+        "checklist": [
+          "Introduction addresses BOTH parts: reasons and positive/negative",
+          "Body paragraph 1 explains multiple reasons with examples",
+          "Body paragraph 2 clearly argues positive OR negative with evidence",
+          "Conclusion summarizes both parts of the answer",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words connect ideas smoothly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The number of people seeking cosmetic surgery has risen dramatically in recent years as individuals pursue idealized physical appearances. This trend is driven primarily by social media influence, unrealistic beauty standards and the desire to boost self-esteem. However, I believe this is largely a negative development due to significant health risks and the promotion of superficial values.\n\nThere are several reasons why people choose to undergo cosmetic procedures. The primary factor is social media influence, which constantly exposes users to filtered images and digitally enhanced photographs that create unrealistic beauty standards. For instance, Instagram filters and celebrity culture on platforms like TikTok make many individuals feel inadequate about their natural features, driving them toward surgical solutions. Additionally, many people believe that improving their appearance through cosmetic surgery will boost their self-esteem and confidence, particularly those experiencing body image issues or facing workplace discrimination based on physical appearance. Celebrity endorsements have also normalized these procedures, making them seem like acceptable quick fixes for insecurity.\n\nIn my view, this is a concerning negative development for several reasons. The main concern is that cosmetic procedures carry serious medical risks, including infections, complications and even death from anesthesia or surgical errors. For example, numerous cases have been reported of botched procedures resulting in permanent scarring, nerve damage and severe psychological trauma for patients seeking aesthetic enhancement. Furthermore, the normalization of cosmetic surgery reinforces unhealthy beauty ideals and promotes superficial values over genuine psychological well-being. Rather than addressing underlying self-esteem issues through therapy or self-acceptance, cosmetic surgery often creates dependency and unrealistic expectations about happiness.\n\nIn conclusion, while social media pressure, celebrity culture and desire for improved self-esteem drive the rising trend of cosmetic surgery, I believe this is a negative development because the medical risks and promotion of superficial values significantly outweigh any potential psychological benefits.",
+    "wordCount": 290,
+    "structure": {
+      "introduction": "The number of people seeking cosmetic surgery has risen dramatically in recent years as individuals pursue idealized physical appearances. This trend is driven primarily by social media influence, unrealistic beauty standards and the desire to boost self-esteem. However, I believe this is largely a negative development due to significant health risks and the promotion of superficial values.",
+      "body1": "There are several reasons why people choose to undergo cosmetic procedures. The primary factor is social media influence, which constantly exposes users to filtered images and digitally enhanced photographs that create unrealistic beauty standards. For instance, Instagram filters and celebrity culture on platforms like TikTok make many individuals feel inadequate about their natural features, driving them toward surgical solutions. Additionally, many people believe that improving their appearance through cosmetic surgery will boost their self-esteem and confidence, particularly those experiencing body image issues or facing workplace discrimination based on physical appearance. Celebrity endorsements have also normalized these procedures, making them seem like acceptable quick fixes for insecurity.",
+      "body2": "In my view, this is a concerning negative development for several reasons. The main concern is that cosmetic procedures carry serious medical risks, including infections, complications and even death from anesthesia or surgical errors. For example, numerous cases have been reported of botched procedures resulting in permanent scarring, nerve damage and severe psychological trauma for patients seeking aesthetic enhancement. Furthermore, the normalization of cosmetic surgery reinforces unhealthy beauty ideals and promotes superficial values over genuine psychological well-being. Rather than addressing underlying self-esteem issues through therapy or self-acceptance, cosmetic surgery often creates dependency and unrealistic expectations about happiness.",
+      "conclusion": "In conclusion, while social media pressure, celebrity culture and desire for improved self-esteem drive the rising trend of cosmetic surgery, I believe this is a negative development because the medical risks and promotion of superficial values significantly outweigh any potential psychological benefits."
+    },
+    "highlights": [
+      {
+        "text": "social media influence",
+        "type": "topic-vocab",
+        "explanation": "Key factor driving cosmetic surgery trend"
+      },
+      {
+        "text": "unrealistic beauty standards",
+        "type": "topic-vocab",
+        "explanation": "Important concept for discussing societal pressure"
+      },
+      {
+        "text": "self-esteem",
+        "type": "academic-vocab",
+        "explanation": "Academic term for confidence and self-worth"
+      },
+      {
+        "text": "For instance... Additionally",
+        "type": "linking-word",
+        "explanation": "Transitions for adding examples and information"
+      },
+      {
+        "text": "psychological well-being",
+        "type": "academic-vocab",
+        "explanation": "Academic term for mental and emotional health"
+      },
+      {
+        "text": "medical risks",
+        "type": "topic-vocab",
+        "explanation": "Critical concern about cosmetic procedures"
+      }
+    ]
+  }
+}

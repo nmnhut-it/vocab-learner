@@ -1,0 +1,584 @@
+{
+  "id": "extraterrestrial-life",
+  "title": "Contacting Extraterrestrial Life",
+  "category": "Science & Space",
+  "difficulty": "Hard",
+  "question": {
+    "text": "Some scientists believe that intelligent life forms may exist on other planets and some want to send messages to contact them. Others think it is a bad idea because these life forms may be too dangerous. Discuss both views and give your opinion.",
+    "type": "Discuss Both Views",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Discuss Both Views",
+          "explanation": "You must discuss BOTH perspectives equally (reasons for contacting AND reasons against) and clearly state your own opinion.",
+          "requirements": [
+            "Discuss arguments for contacting extraterrestrial life",
+            "Discuss arguments against contacting alien civilizations",
+            "Give your clear personal opinion",
+            "Provide specific scientific examples and references"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "intelligent life forms",
+            "definition": "Advanced beings capable of complex thought and communication",
+            "importance": "The subject of potential contact - focus on their capabilities"
+          },
+          {
+            "word": "other planets",
+            "definition": "Celestial bodies beyond Earth",
+            "importance": "The location where these life forms might exist"
+          },
+          {
+            "word": "send messages",
+            "definition": "Transmit communications into space",
+            "importance": "The action being debated - active attempts at contact"
+          },
+          {
+            "word": "dangerous",
+            "definition": "Potentially harmful or threatening",
+            "importance": "The key concern of opponents - existential risk"
+          },
+          {
+            "word": "both views",
+            "definition": "Two different perspectives or opinions",
+            "importance": "Signals you MUST discuss both sides equally"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion",
+          "body1": "4-5 sentences: Discuss arguments for contact with examples",
+          "body2": "4-5 sentences: Discuss arguments against contact with examples",
+          "conclusion": "2 sentences: Summarize both views + restate opinion"
+        },
+        "commonMistakes": [
+          "Only discussing one perspective in detail",
+          "Being too neutral without taking a clear position",
+          "Not referencing actual scientific programs or warnings",
+          "Forgetting to address the existential risk dimension"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "extraterrestrial intelligence",
+            "pronunciation": "/ˌekstrətəˈrestriəl ɪnˈtelɪdʒəns/",
+            "partOfSpeech": "noun",
+            "definition": "Intelligent life forms originating from beyond Earth",
+            "example": "Scientists have been searching for signs of extraterrestrial intelligence for decades.",
+            "synonyms": ["alien intelligence", "non-terrestrial life"]
+          },
+          {
+            "word": "interstellar communication",
+            "pronunciation": "/ˌɪntəˈstelə kəˌmjuːnɪˈkeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Transmission of messages between star systems",
+            "example": "Interstellar communication requires powerful radio telescopes and years of signal travel time.",
+            "synonyms": ["cosmic communication", "space messaging"]
+          },
+          {
+            "word": "existential risk",
+            "pronunciation": "/ˌegzɪˈstenʃəl rɪsk/",
+            "partOfSpeech": "noun",
+            "definition": "A threat that could destroy humanity or civilization",
+            "example": "Stephen Hawking warned that contacting aliens poses an existential risk to humanity.",
+            "synonyms": ["civilizational threat", "species-level danger"]
+          },
+          {
+            "word": "cosmic significance",
+            "pronunciation": "/ˈkɒzmɪk sɪgˈnɪfɪkəns/",
+            "partOfSpeech": "noun",
+            "definition": "Importance on a universal scale",
+            "example": "Discovering alien life would have tremendous cosmic significance for humanity.",
+            "synonyms": ["universal importance", "astronomical importance"]
+          },
+          {
+            "word": "benevolent",
+            "pronunciation": "/bəˈnevələnt/",
+            "partOfSpeech": "adjective",
+            "definition": "Well-meaning and kindly",
+            "example": "We cannot assume that advanced civilizations would be benevolent toward humanity.",
+            "synonyms": ["friendly", "well-intentioned"]
+          },
+          {
+            "word": "hostile",
+            "pronunciation": "/ˈhɒstaɪl/",
+            "partOfSpeech": "adjective",
+            "definition": "Unfriendly and aggressive",
+            "example": "A hostile alien civilization could view Earth as a resource to exploit.",
+            "synonyms": ["aggressive", "unfriendly"]
+          },
+          {
+            "word": "unprecedented",
+            "pronunciation": "/ʌnˈpresɪdentɪd/",
+            "partOfSpeech": "adjective",
+            "definition": "Never done or known before",
+            "example": "Contact with extraterrestrial intelligence would be an unprecedented event in human history.",
+            "synonyms": ["unparalleled", "extraordinary"]
+          },
+          {
+            "word": "imprudent",
+            "pronunciation": "/ɪmˈpruːdənt/",
+            "partOfSpeech": "adjective",
+            "definition": "Not showing care for the consequences",
+            "example": "Broadcasting our location to unknown civilizations may be imprudent.",
+            "synonyms": ["reckless", "unwise"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "SETI programs",
+            "definition": "Search for Extraterrestrial Intelligence scientific projects",
+            "example": "SETI programs use radio telescopes to listen for alien signals from space."
+          },
+          {
+            "phrase": "Drake equation",
+            "definition": "Formula estimating the number of communicative civilizations in the galaxy",
+            "example": "The Drake equation suggests there could be thousands of intelligent civilizations in our galaxy."
+          },
+          {
+            "phrase": "Voyager golden records",
+            "definition": "Phonograph records sent into space with messages from humanity",
+            "example": "The Voyager golden records contain images and sounds representing Earth and human culture."
+          },
+          {
+            "phrase": "technological superiority",
+            "definition": "Having more advanced technology than others",
+            "example": "Any civilization capable of reaching Earth would possess overwhelming technological superiority."
+          },
+          {
+            "phrase": "scientific curiosity",
+            "definition": "Desire to learn and discover new knowledge",
+            "example": "Scientific curiosity drives humanity's desire to search for life beyond Earth."
+          },
+          {
+            "phrase": "resource competition",
+            "definition": "Conflict over limited materials or territory",
+            "example": "Resource competition between civilizations could lead to conflict rather than cooperation."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The debate over contacting aliens", "Scientists are divided about whether", "There is ongoing controversy about"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "As demonstrated by", "Particularly"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["we should actively contact extraterrestrial civilizations", "aliens do not exist", "space exploration is expensive"], "correctAnswer": "we should actively contact extraterrestrial civilizations"},
+                  {"id": "thesis1_b2", "options": ["such contact could pose existential risks to humanity", "aliens are friendly", "technology is insufficient"], "correctAnswer": "such contact could pose existential risks to humanity"}
+                ],
+                "correctSentence": "While some believe we should actively contact extraterrestrial civilizations, others argue that such contact could pose existential risks to humanity.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ outweigh _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["the potential dangers of interstellar communication", "the costs of space programs", "scientific discoveries"], "correctAnswer": "the potential dangers of interstellar communication"},
+                  {"id": "thesis2_b2", "options": ["the uncertain benefits of contact", "government funding", "telescope maintenance"], "correctAnswer": "the uncertain benefits of contact"}
+                ],
+                "correctSentence": "In my opinion, the potential dangers of interstellar communication outweigh the uncertain benefits of contact.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ could bring _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["contacting extraterrestrial intelligence", "building telescopes", "studying physics"], "correctAnswer": "contacting extraterrestrial intelligence"},
+                  {"id": "topic1_b2", "options": ["unprecedented scientific knowledge and technological advancement", "higher taxes", "more satellites"], "correctAnswer": "unprecedented scientific knowledge and technological advancement"}
+                ],
+                "correctSentence": "On the one hand, contacting extraterrestrial intelligence could bring unprecedented scientific knowledge and technological advancement.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ presents _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["actively broadcasting our location", "space research", "telescope operation"], "correctAnswer": "actively broadcasting our location"},
+                  {"id": "topic2_b2", "options": ["serious existential risks that humanity cannot adequately assess", "equipment challenges", "funding problems"], "correctAnswer": "serious existential risks that humanity cannot adequately assess"}
+                ],
+                "correctSentence": "On the other hand, actively broadcasting our location presents serious existential risks that humanity cannot adequately assess.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ could help humanity _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["communication with advanced civilizations", "telescope improvements", "satellite launches"], "correctAnswer": "communication with advanced civilizations"},
+                  {"id": "support1_b2", "options": ["solve critical challenges like climate change or disease", "build better rockets", "explore Mars"], "correctAnswer": "solve critical challenges like climate change or disease"}
+                ],
+                "correctSentence": "This is because communication with advanced civilizations could help humanity solve critical challenges like climate change or disease.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main concern is that _____ might _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["technologically superior alien civilizations", "space telescopes", "radio signals"], "correctAnswer": "technologically superior alien civilizations"},
+                  {"id": "support2_b2", "options": ["view humanity as a threat or resource to exploit", "require maintenance", "cost money"], "correctAnswer": "view humanity as a threat or resource to exploit"}
+                ],
+                "correctSentence": "The main concern is that technologically superior alien civilizations might view humanity as a threat or resource to exploit.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ demonstrates _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["the Drake equation", "space shuttle programs", "Mars rovers"], "correctAnswer": "the Drake equation"},
+                  {"id": "example1_b2", "options": ["that intelligent life is statistically probable in our galaxy", "rocket technology", "planetary geology"], "correctAnswer": "that intelligent life is statistically probable in our galaxy"},
+                  {"id": "example1_b3", "options": ["making contact a realistic scientific goal worth pursuing", "expensive equipment necessary", "challenging missions"], "correctAnswer": "making contact a realistic scientific goal worth pursuing"}
+                ],
+                "correctSentence": "For instance, the Drake equation demonstrates that intelligent life is statistically probable in our galaxy, making contact a realistic scientific goal worth pursuing.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ warned that _____ because _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["Stephen Hawking", "NASA administrators", "telescope operators"], "correctAnswer": "Stephen Hawking"},
+                  {"id": "example2_b2", "options": ["contacting advanced aliens could be catastrophic for humanity", "telescopes need funding", "space is vast"], "correctAnswer": "contacting advanced aliens could be catastrophic for humanity"},
+                  {"id": "example2_b3", "options": ["their arrival might resemble European colonization of the Americas", "equipment is expensive", "signals travel slowly"], "correctAnswer": "their arrival might resemble European colonization of the Americas"}
+                ],
+                "correctSentence": "For example, Stephen Hawking warned that contacting advanced aliens could be catastrophic for humanity because their arrival might resemble European colonization of the Americas.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["both perspectives have merit", "aliens are interesting", "space is fascinating"], "correctAnswer": "both perspectives have merit"},
+                  {"id": "conclusion1_b2", "options": ["we should prioritize caution over curiosity when humanity's survival is at stake", "we should build more telescopes", "space research should continue"], "correctAnswer": "we should prioritize caution over curiosity when humanity's survival is at stake"}
+                ],
+                "correctSentence": "In conclusion, while both perspectives have merit, I believe we should prioritize caution over curiosity when humanity's survival is at stake.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Balanced Discussion",
+            "structure": {
+              "introduction": "The question of whether [we should contact aliens] has divided the scientific community. While some believe [active contact could benefit humanity], others argue that [it poses existential risks]. In my opinion, [Your clear position].",
+              "body1": "On the one hand, [Topic sentence about benefits of contact]. This is because [Reason/explanation]. For instance, [Specific example using SETI, Drake equation, or Voyager records]. As a result, [Consequence or benefit].",
+              "body2": "On the other hand, [Topic sentence about dangers of contact]. The main concern is [Reason/explanation]. For example, [Specific example referencing Hawking's warnings or historical colonization]. Therefore, [Conclusion about this view].",
+              "conclusion": "In conclusion, while [Brief summary of both views], I believe [Restate your position with final thought about humanity's future]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_first_view": ["On the one hand", "Proponents of contact argue that", "Supporters believe that"],
+          "presenting_second_view": ["On the other hand", "Conversely", "Critics warn that", "Opponents contend that"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "As demonstrated by", "Particularly"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The question of _____ [introduce the topic of contacting aliens]. While some _____ [state arguments for contact], others _____ [state arguments against contact]. In my opinion, _____ [clearly state YOUR position].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Introduce the topic",
+                "hint": "Start with 'whether humanity should' or 'whether scientists should'",
+                "placeholder": "e.g., whether humanity should actively attempt to contact extraterrestrial civilizations has become increasingly controversial",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Arguments for contact",
+                "hint": "Use 'believe that' or 'argue that' followed by benefits",
+                "placeholder": "e.g., believe that such contact could bring unprecedented scientific knowledge and technological advancement to humanity",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Arguments against contact",
+                "hint": "Use 'warn that' or 'contend that' followed by dangers",
+                "placeholder": "e.g., warn that revealing our location to unknown civilizations could pose serious existential risks",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank4",
+                "label": "Your position",
+                "hint": "Be clear! State which side you support or say 'it depends'",
+                "placeholder": "e.g., the potential dangers of interstellar communication far outweigh the uncertain benefits of alien contact",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about benefits of contact]. This is because _____ [explain the reason]. For instance, _____ [give specific example with SETI, Drake equation, or Voyager]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - benefits of contact",
+                "hint": "Main benefit or reason supporting alien contact",
+                "placeholder": "e.g., attempting to contact extraterrestrial intelligence represents a natural extension of human scientific curiosity and exploration",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY would contact be beneficial?",
+                "placeholder": "e.g., communication with advanced civilizations could provide solutions to humanity's greatest challenges including climate change and disease",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Reference SETI programs, Drake equation, or Voyager golden records",
+                "placeholder": "e.g., SETI programs have demonstrated that searching for intelligent signals is scientifically feasible using modern radio telescopes",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final positive outcome?",
+                "placeholder": "e.g., discovering we are not alone could have tremendous cosmic significance and unite humanity around shared goals",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about dangers of contact]. The main concern is _____ [explain why it is dangerous]. For example, _____ [specific example with Hawking's warnings or historical parallels]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - dangers of contact",
+                "hint": "Main danger or risk of contacting aliens",
+                "placeholder": "e.g., actively broadcasting our location to unknown civilizations presents existential risks that humanity cannot adequately assess",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why dangerous",
+                "hint": "Explain the mechanism or reasoning behind the danger",
+                "placeholder": "e.g., any civilization capable of receiving our signals and traveling to Earth would possess overwhelming technological superiority",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Reference Stephen Hawking's warnings or historical colonization parallels",
+                "placeholder": "e.g., Stephen Hawking warned that alien contact could mirror European colonization of the Americas with catastrophic consequences",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up the dangers perspective",
+                "placeholder": "e.g., the irreversible nature of such contact means we should exercise extreme caution before revealing our presence",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize both views], I believe _____ [restate your opinion with a final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize both views",
+                "hint": "One sentence mentioning both potential benefits and risks",
+                "placeholder": "e.g., both the scientific promise of discovery and the existential dangers of contact represent valid considerations",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion + final thought",
+                "hint": "Clearly restate YOUR position and add final insight about humanity's future",
+                "placeholder": "e.g., we should prioritize listening for alien signals rather than broadcasting our location until we better understand potential risks",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your opinion"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss benefits of contact with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss dangers of contact with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate opinion"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states both views and your opinion",
+          "Body paragraph 1 discusses contact benefits with scientific examples",
+          "Body paragraph 2 discusses contact dangers with specific warnings",
+          "Conclusion summarizes both views and restates opinion",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The question of whether humanity should actively attempt to contact extraterrestrial civilizations has become increasingly controversial in the scientific community. While some scientists believe that reaching out to alien life could bring unprecedented knowledge and advancement, others warn that revealing our location to unknown civilizations could pose serious existential risks. In my opinion, the potential dangers of interstellar communication far outweigh the uncertain benefits of such contact.\n\nOn the one hand, attempting to contact extraterrestrial intelligence represents a natural extension of human scientific curiosity and the desire to understand our place in the cosmos. Communication with advanced civilizations could potentially provide solutions to humanity's greatest challenges, such as climate change, energy production, or disease treatment. For instance, the Drake equation suggests that intelligent life is statistically probable within our galaxy, and SETI programs have demonstrated that searching for signals using radio telescopes is scientifically feasible. Moreover, the Voyager golden records, which carry messages from Earth into interstellar space, exemplify humanity's hope for peaceful cosmic exchange. As a result, discovering we are not alone could have tremendous cosmic significance and potentially unite humanity around shared goals.\n\nOn the other hand, actively broadcasting our location to unknown civilizations presents existential risks that humanity cannot adequately assess or defend against. Any alien civilization capable of receiving our signals and traveling to Earth would necessarily possess overwhelming technological superiority, making us vulnerable to exploitation or destruction. For example, renowned physicist Stephen Hawking famously warned that alien contact could be catastrophic for humanity, comparing it to the arrival of Christopher Columbus in the Americas, which proved disastrous for indigenous populations. Furthermore, we have no basis for assuming that advanced civilizations would be benevolent rather than hostile or indifferent to human welfare. Therefore, the irreversible nature of revealing our presence makes such actions imprudent until we better understand potential consequences.\n\nIn conclusion, while both the scientific promise of discovery and the existential dangers of contact represent valid considerations, I believe humanity should prioritize caution over curiosity when our species' survival is at stake. A more prudent approach would be to continue listening for alien signals passively rather than actively broadcasting our location into the cosmos.",
+    "wordCount": 352,
+    "structure": {
+      "introduction": "The question of whether humanity should actively attempt to contact extraterrestrial civilizations has become increasingly controversial in the scientific community. While some scientists believe that reaching out to alien life could bring unprecedented knowledge and advancement, others warn that revealing our location to unknown civilizations could pose serious existential risks. In my opinion, the potential dangers of interstellar communication far outweigh the uncertain benefits of such contact.",
+      "body1": "On the one hand, attempting to contact extraterrestrial intelligence represents a natural extension of human scientific curiosity and the desire to understand our place in the cosmos. Communication with advanced civilizations could potentially provide solutions to humanity's greatest challenges, such as climate change, energy production, or disease treatment. For instance, the Drake equation suggests that intelligent life is statistically probable within our galaxy, and SETI programs have demonstrated that searching for signals using radio telescopes is scientifically feasible. Moreover, the Voyager golden records, which carry messages from Earth into interstellar space, exemplify humanity's hope for peaceful cosmic exchange. As a result, discovering we are not alone could have tremendous cosmic significance and potentially unite humanity around shared goals.",
+      "body2": "On the other hand, actively broadcasting our location to unknown civilizations presents existential risks that humanity cannot adequately assess or defend against. Any alien civilization capable of receiving our signals and traveling to Earth would necessarily possess overwhelming technological superiority, making us vulnerable to exploitation or destruction. For example, renowned physicist Stephen Hawking famously warned that alien contact could be catastrophic for humanity, comparing it to the arrival of Christopher Columbus in the Americas, which proved disastrous for indigenous populations. Furthermore, we have no basis for assuming that advanced civilizations would be benevolent rather than hostile or indifferent to human welfare. Therefore, the irreversible nature of revealing our presence makes such actions imprudent until we better understand potential consequences.",
+      "conclusion": "In conclusion, while both the scientific promise of discovery and the existential dangers of contact represent valid considerations, I believe humanity should prioritize caution over curiosity when our species' survival is at stake. A more prudent approach would be to continue listening for alien signals passively rather than actively broadcasting our location into the cosmos."
+    },
+    "highlights": [
+      {
+        "text": "extraterrestrial civilizations",
+        "type": "academic-vocab",
+        "explanation": "Academic term for intelligent life beyond Earth"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing two contrasting views"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "existential risks",
+        "type": "academic-vocab",
+        "explanation": "Academic term for threats to human survival or civilization"
+      },
+      {
+        "text": "cosmic significance",
+        "type": "academic-vocab",
+        "explanation": "Importance on a universal scale"
+      },
+      {
+        "text": "Drake equation",
+        "type": "specific-example",
+        "explanation": "Real scientific formula for estimating alien civilizations"
+      },
+      {
+        "text": "Stephen Hawking",
+        "type": "specific-example",
+        "explanation": "Real scientist who warned about alien contact dangers"
+      }
+    ]
+  }
+}

@@ -170,6 +170,456 @@
       "difficulty": "Medium",
       "file": "data/writing-v2-art-music-education.json",
       "unlocked": true
+    },
+    {
+      "id": "private-healthcare",
+      "title": "Private vs Public Healthcare",
+      "category": "Health & Society",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-private-healthcare.json",
+      "unlocked": false
+    },
+    {
+      "id": "children-free-time",
+      "title": "Children's Free Time Activities",
+      "category": "Family & Children",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-children-free-time.json",
+      "unlocked": false
+    },
+    {
+      "id": "local-foreign-films",
+      "title": "Local vs Foreign Films",
+      "category": "Media & Culture",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-local-foreign-films.json",
+      "unlocked": false
+    },
+    {
+      "id": "wildlife-protection",
+      "title": "Wildlife Protection Priorities",
+      "category": "Environment & Wildlife",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-wildlife-protection.json",
+      "unlocked": false
+    },
+    {
+      "id": "prison-alternatives",
+      "title": "Prison vs Community Service",
+      "category": "Crime & Justice",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-prison-alternatives.json",
+      "unlocked": false
+    },
+    {
+      "id": "celebrity-role-models",
+      "title": "Celebrities as Role Models",
+      "category": "Society & Youth",
+      "questionType": "Positive/Negative Development",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-celebrity-role-models.json",
+      "unlocked": false
+    },
+    {
+      "id": "parenting-courses",
+      "title": "Parenting Education Courses",
+      "category": "Family & Education",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-parenting-courses.json",
+      "unlocked": false
+    },
+    {
+      "id": "government-artist-support",
+      "title": "Government Support for Artists",
+      "category": "Arts & Government",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-government-artist-support.json",
+      "unlocked": false
+    },
+    {
+      "id": "news-relevance",
+      "title": "News Media Relevance",
+      "category": "Media & Society",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-news-relevance.json",
+      "unlocked": false
+    },
+    {
+      "id": "vehicle-free-days",
+      "title": "Vehicle-Free Days in Cities",
+      "category": "Environment & Transport",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-vehicle-free-days.json",
+      "unlocked": false
+    },
+    {
+      "id": "delayed-parenthood",
+      "title": "Having Children Later in Life",
+      "category": "Family & Society",
+      "questionType": "Two-Part Question",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-delayed-parenthood.json",
+      "unlocked": false
+    },
+    {
+      "id": "charity-local-international",
+      "title": "Charity: Local vs International Aid",
+      "category": "Society & Ethics",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-charity-local-international.json",
+      "unlocked": false
+    },
+    {
+      "id": "peer-pressure",
+      "title": "Peer Pressure Among Youth",
+      "category": "Youth & Society",
+      "questionType": "Advantages & Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-peer-pressure.json",
+      "unlocked": false
+    },
+    {
+      "id": "work-motivation-money",
+      "title": "Money as Work Motivation",
+      "category": "Work & Economics",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-work-motivation-money.json",
+      "unlocked": false
+    },
+    {
+      "id": "income-equality-happiness",
+      "title": "Income Equality and Social Happiness",
+      "category": "Society & Economics",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-income-equality-happiness.json",
+      "unlocked": false
+    },
+    {
+      "id": "natural-resource-consumption",
+      "title": "Natural Resource Consumption",
+      "category": "Environment & Resources",
+      "questionType": "Causes/Solutions",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-natural-resource-consumption.json",
+      "unlocked": false
+    },
+    {
+      "id": "success-and-luck",
+      "title": "Success and Luck",
+      "category": "Success & Life",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-success-and-luck.json",
+      "unlocked": false
+    },
+    {
+      "id": "internet-most-important",
+      "title": "Internet as Most Important Invention",
+      "category": "Technology & History",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-internet-most-important.json",
+      "unlocked": false
+    },
+    {
+      "id": "traditional-education",
+      "title": "Traditional Education vs Technology",
+      "category": "Education & Technology",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-traditional-education.json",
+      "unlocked": false
+    },
+    {
+      "id": "communication-technology",
+      "title": "Communication Technology & Social Relationships",
+      "category": "Technology & Society",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-communication-technology.json",
+      "unlocked": false
+    },
+    {
+      "id": "international-cooperation",
+      "title": "International Cooperation Benefits",
+      "category": "Environment & Business",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-international-cooperation.json",
+      "unlocked": false
+    },
+    {
+      "id": "youth-activities",
+      "title": "Government Spending on Youth Activities",
+      "category": "Government & Youth",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-youth-activities.json",
+      "unlocked": false
+    },
+    {
+      "id": "foreign-local-films-twopart",
+      "title": "Foreign vs Local Films",
+      "category": "Media & Culture",
+      "questionType": "Two-Part Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-foreign-local-films-twopart.json",
+      "unlocked": false
+    },
+    {
+      "id": "extraterrestrial-life",
+      "title": "Contacting Extraterrestrial Life",
+      "category": "Science & Space",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Hard",
+      "file": "data/writing-v2-extraterrestrial-life.json",
+      "unlocked": false
+    },
+    {
+      "id": "government-funding-education",
+      "title": "Government Funding for Health & Education",
+      "category": "Government & Society",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-government-funding-education.json",
+      "unlocked": false
+    },
+    {
+      "id": "private-government-research",
+      "title": "Private vs Government Scientific Research",
+      "category": "Science & Business",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-private-government-research.json",
+      "unlocked": false
+    },
+    {
+      "id": "academic-grouping",
+      "title": "Academic Ability Grouping in Schools",
+      "category": "Education",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-academic-grouping.json",
+      "unlocked": false
+    },
+    {
+      "id": "urban-migration",
+      "title": "Urban Migration for Traffic Solutions",
+      "category": "Urban Planning & Transport",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-urban-migration.json",
+      "unlocked": false
+    },
+    {
+      "id": "arts-science",
+      "title": "Arts vs Science & Technology",
+      "category": "Arts & Society",
+      "questionType": "Direct Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-arts-science.json",
+      "unlocked": false
+    },
+    {
+      "id": "living-alone-extended-family",
+      "title": "Living Alone vs Extended Family",
+      "category": "Family & Society",
+      "questionType": "Positive/Negative Development",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-living-alone-extended-family.json",
+      "unlocked": false
+    },
+    {
+      "id": "free-public-transport",
+      "title": "Free 24/7 Public Transport",
+      "category": "Transport & Government",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-free-public-transport.json",
+      "unlocked": false
+    },
+    {
+      "id": "museums-local-foreign",
+      "title": "Museums: Local vs Foreign Art",
+      "category": "Culture & Arts",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-museums-local-foreign.json",
+      "unlocked": false
+    },
+    {
+      "id": "food-self-sufficiency",
+      "title": "Food Self-Sufficiency",
+      "category": "Economics & Agriculture",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-food-self-sufficiency.json",
+      "unlocked": false
+    },
+    {
+      "id": "paternity-leave",
+      "title": "Paternity Leave",
+      "category": "Family & Work",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-paternity-leave.json",
+      "unlocked": false
+    },
+    {
+      "id": "tech-face-communication",
+      "title": "Technology & Face-to-Face Communication",
+      "category": "Technology & Society",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-tech-face-communication.json",
+      "unlocked": false
+    },
+    {
+      "id": "space-exploration-earth",
+      "title": "Space Exploration vs Earth Problems",
+      "category": "Science & Government",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-space-exploration-earth.json",
+      "unlocked": false
+    },
+    {
+      "id": "museums-local-visitors",
+      "title": "Museums & Local Visitors",
+      "category": "Tourism & Culture",
+      "questionType": "Two-Part Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-museums-local-visitors.json",
+      "unlocked": false
+    },
+    {
+      "id": "sports-big-business",
+      "title": "Sports as Big Business",
+      "category": "Sports & Business",
+      "questionType": "Positive/Negative Development",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-sports-big-business.json",
+      "unlocked": false
+    },
+    {
+      "id": "western-traditional-clothing",
+      "title": "Western vs Traditional Clothing",
+      "category": "Culture & Globalization",
+      "questionType": "Two-Part Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-western-traditional-clothing.json",
+      "unlocked": false
+    },
+    {
+      "id": "negative-news-media",
+      "title": "Negative News in Media",
+      "category": "Media & Society",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-negative-news-media.json",
+      "unlocked": false
+    },
+    {
+      "id": "cosmetic-surgery",
+      "title": "Cosmetic Surgery",
+      "category": "Health & Society",
+      "questionType": "Two-Part Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-cosmetic-surgery.json",
+      "unlocked": false
+    },
+    {
+      "id": "celebrity-privacy",
+      "title": "Celebrity Privacy",
+      "category": "Media & Privacy",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-celebrity-privacy.json",
+      "unlocked": false
+    },
+    {
+      "id": "annual-driver-testing",
+      "title": "Annual Driver Testing",
+      "category": "Transport & Safety",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-annual-driver-testing.json",
+      "unlocked": false
+    },
+    {
+      "id": "fresh-water-rights",
+      "title": "Fresh Water Usage Rights",
+      "category": "Environment & Resources",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-fresh-water-rights.json",
+      "unlocked": false
+    },
+    {
+      "id": "celebrities-fame-achievement",
+      "title": "Celebrities: Fame vs Achievement",
+      "category": "Society & Youth",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-celebrities-fame-achievement.json",
+      "unlocked": false
+    },
+    {
+      "id": "work-social-life",
+      "title": "Work and Social Life",
+      "category": "Work & Social Life",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-work-social-life.json",
+      "unlocked": false
+    },
+    {
+      "id": "live-performances-home",
+      "title": "Live Performances at Home",
+      "category": "Entertainment & Technology",
+      "questionType": "Advantages/Disadvantages",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-live-performances-home.json",
+      "unlocked": false
+    },
+    {
+      "id": "adult-illiteracy",
+      "title": "Adult Illiteracy",
+      "category": "Education & Society",
+      "questionType": "Two-Part Question",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-adult-illiteracy.json",
+      "unlocked": false
+    },
+    {
+      "id": "working-hours-success",
+      "title": "Working Hours & Economic Success",
+      "category": "Work & Economics",
+      "questionType": "Agree/Disagree",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-working-hours-success.json",
+      "unlocked": false
+    },
+    {
+      "id": "executive-salaries",
+      "title": "Executive Salaries",
+      "category": "Work & Economics",
+      "questionType": "Discuss Both Views",
+      "difficulty": "Medium",
+      "file": "data/writing-v2-executive-salaries.json",
+      "unlocked": false
     }
   ]
 }

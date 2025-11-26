@@ -1,0 +1,1026 @@
+{
+  "id": "working-hours-success",
+  "title": "Working Hours & Economic Success",
+  "category": "Work & Economics",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Countries with long average working hours are economically more successful than those countries which do not work long hours. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must state how strongly you agree or disagree with the statement that longer working hours lead to greater economic success. You can strongly agree, strongly disagree, partially agree, or take a balanced position.",
+          "requirements": [
+            "State your position clearly in the introduction",
+            "Support your position with logical arguments",
+            "Provide specific examples and evidence (Japan, Scandinavia, Germany)",
+            "Consider the opposing view briefly to demonstrate balance"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "long average working hours",
+            "definition": "Extended time spent working compared to international standards",
+            "importance": "This is the independent variable - what the question claims causes success"
+          },
+          {
+            "word": "economically more successful",
+            "definition": "Having higher GDP, productivity, or economic growth",
+            "importance": "This is the dependent variable - the outcome being examined"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much or to what degree",
+            "importance": "You can agree completely, partially, or disagree - show nuance"
+          },
+          {
+            "word": "countries",
+            "definition": "Nations at the macro-economic level",
+            "importance": "Focus on national economies, not individual workers"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your position clearly",
+          "body1": "4-5 sentences: Present your main argument (either efficiency matters more OR hours matter)",
+          "body2": "4-5 sentences: Present counterargument or additional supporting points",
+          "conclusion": "2 sentences: Summarize your position + final thought"
+        },
+        "commonMistakes": [
+          "Being too neutral without a clear position",
+          "Confusing productivity with working hours",
+          "Not providing specific country examples",
+          "Copying words directly from the question without paraphrasing"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "productivity",
+            "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+            "partOfSpeech": "noun",
+            "definition": "The effectiveness of productive effort measured in terms of output per unit of input",
+            "example": "High productivity often matters more than long working hours for economic success.",
+            "synonyms": ["efficiency", "output", "effectiveness"]
+          },
+          {
+            "word": "work ethic",
+            "pronunciation": "/wɜːk ˈeθɪk/",
+            "partOfSpeech": "noun",
+            "definition": "The principle that hard work is intrinsically valuable and worthy",
+            "example": "A strong work ethic does not necessarily require extremely long hours.",
+            "synonyms": ["diligence", "industriousness", "dedication"]
+          },
+          {
+            "word": "economic output",
+            "pronunciation": "/ˌiːkəˈnɒmɪk ˈaʊtpʊt/",
+            "partOfSpeech": "noun",
+            "definition": "The total value of goods and services produced by an economy",
+            "example": "Economic output depends on multiple factors beyond working hours.",
+            "synonyms": ["GDP", "production", "economic performance"]
+          },
+          {
+            "word": "work-life balance",
+            "pronunciation": "/wɜːk laɪf ˈbæləns/",
+            "partOfSpeech": "noun",
+            "definition": "The equilibrium between professional work and personal life",
+            "example": "Countries prioritizing work-life balance often maintain strong economic performance.",
+            "synonyms": ["life balance", "work equilibrium"]
+          },
+          {
+            "word": "efficiency",
+            "pronunciation": "/ɪˈfɪʃənsi/",
+            "partOfSpeech": "noun",
+            "definition": "Achieving maximum productivity with minimum wasted effort or expense",
+            "example": "Efficiency improvements can boost economic success without extending working hours.",
+            "synonyms": ["effectiveness", "productivity", "optimization"]
+          },
+          {
+            "word": "burnout",
+            "pronunciation": "/ˈbɜːnaʊt/",
+            "partOfSpeech": "noun",
+            "definition": "Physical or mental collapse caused by overwork or stress",
+            "example": "Excessive working hours can lead to burnout, reducing overall productivity.",
+            "synonyms": ["exhaustion", "fatigue", "depletion"]
+          },
+          {
+            "word": "sustainable",
+            "pronunciation": "/səˈsteɪnəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Able to be maintained at a certain rate or level over time",
+            "example": "Sustainable economic growth requires balanced working practices.",
+            "synonyms": ["maintainable", "viable", "long-term"]
+          },
+          {
+            "word": "correlation",
+            "pronunciation": "/ˌkɒrəˈleɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "A mutual relationship between two or more things",
+            "example": "There is no clear correlation between working hours and economic prosperity.",
+            "synonyms": ["relationship", "connection", "link"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "hourly productivity",
+            "definition": "The amount of output produced per hour worked",
+            "example": "Hourly productivity is often higher in countries with shorter working weeks."
+          },
+          {
+            "phrase": "labor market efficiency",
+            "definition": "How effectively a labor market matches workers with jobs",
+            "example": "Labor market efficiency contributes more to economic success than raw working hours."
+          },
+          {
+            "phrase": "quality of output",
+            "definition": "The standard or value of goods and services produced",
+            "example": "Quality of output often declines when workers are overworked."
+          },
+          {
+            "phrase": "diminishing returns",
+            "definition": "The decrease in marginal output as additional input is added",
+            "example": "Beyond a certain point, extra working hours produce diminishing returns."
+          },
+          {
+            "phrase": "technological advancement",
+            "definition": "Progress in technology and innovation",
+            "example": "Technological advancement drives economic growth more effectively than extended work schedules."
+          },
+          {
+            "phrase": "worker wellbeing",
+            "definition": "The physical, mental, and social health of employees",
+            "example": "Worker wellbeing directly impacts productivity and economic performance."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["It is often claimed that", "Some argue that", "There is a belief that"],
+          "stating_opinion": ["From my perspective", "I firmly disagree with", "In my view"],
+          "contrasting": ["However", "Nevertheless", "Conversely", "Despite this"],
+          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "exemplifying": ["For instance", "For example", "Consider the case of", "Take Japan as an example"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state your position on whether long working hours determine economic success",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While _____ may seem important, I believe _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["long working hours", "short vacations", "high salaries"], "correctAnswer": "long working hours"},
+                  {"id": "thesis1_b2", "options": ["productivity and efficiency are far more crucial for economic success", "hours are everything", "nothing matters"], "correctAnswer": "productivity and efficiency are far more crucial for economic success"}
+                ],
+                "correctSentence": "While long working hours may seem important, I believe productivity and efficiency are far more crucial for economic success.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "From my perspective, _____ rather than _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["economic prosperity depends on productivity per hour", "success requires long hours", "nothing is important"], "correctAnswer": "economic prosperity depends on productivity per hour"},
+                  {"id": "thesis2_b2", "options": ["the total number of hours worked", "worker efficiency", "technological innovation"], "correctAnswer": "the total number of hours worked"}
+                ],
+                "correctSentence": "From my perspective, economic prosperity depends on productivity per hour rather than the total number of hours worked.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "I strongly _____ the notion that _____ guarantees economic success.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["disagree with", "agree with", "ignore"], "correctAnswer": "disagree with"},
+                  {"id": "thesis3_b2", "options": ["working longer hours", "high productivity", "innovation"], "correctAnswer": "working longer hours"}
+                ],
+                "correctSentence": "I strongly disagree with the notion that working longer hours guarantees economic success.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "In my view, _____ are _____ than _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["efficiency and innovation", "long working days", "overtime hours"], "correctAnswer": "efficiency and innovation"},
+                  {"id": "thesis4_b2", "options": ["far more important", "less significant", "equally valuable"], "correctAnswer": "far more important"},
+                  {"id": "thesis4_b3", "options": ["extended working hours", "short breaks", "high salaries"], "correctAnswer": "extended working hours"}
+                ],
+                "correctSentence": "In my view, efficiency and innovation are far more important than extended working hours.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "Although _____ can contribute, _____ ultimately determines _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["a dedicated workforce", "long hours", "overtime"], "correctAnswer": "a dedicated workforce"},
+                  {"id": "thesis5_b2", "options": ["productivity and technological innovation", "total hours worked", "vacation time"], "correctAnswer": "productivity and technological innovation"},
+                  {"id": "thesis5_b3", "options": ["national economic performance", "worker satisfaction", "company profits"], "correctAnswer": "national economic performance"}
+                ],
+                "correctSentence": "Although a dedicated workforce can contribute, productivity and technological innovation ultimately determines national economic performance.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "The primary reason why _____ matters more than _____ is that _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["productivity", "working hours", "vacation time"], "correctAnswer": "productivity"},
+                  {"id": "topic1_b2", "options": ["total hours worked", "efficiency", "innovation"], "correctAnswer": "total hours worked"},
+                  {"id": "topic1_b3", "options": ["it measures output quality rather than time input", "it is easier to calculate", "everyone prefers it"], "correctAnswer": "it measures output quality rather than time input"}
+                ],
+                "correctSentence": "The primary reason why productivity matters more than total hours worked is that it measures output quality rather than time input.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "One compelling argument is that _____ enables nations to _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["high efficiency", "long working days", "overtime culture"], "correctAnswer": "high efficiency"},
+                  {"id": "topic2_b2", "options": ["achieve greater economic output with fewer resources", "work longer hours", "reduce salaries"], "correctAnswer": "achieve greater economic output with fewer resources"}
+                ],
+                "correctSentence": "One compelling argument is that high efficiency enables nations to achieve greater economic output with fewer resources.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Economic success predominantly stems from _____ rather than _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["innovation and smart work practices", "long hours", "overtime"], "correctAnswer": "innovation and smart work practices"},
+                  {"id": "topic3_b2", "options": ["the sheer quantity of hours worked", "high productivity", "technological advancement"], "correctAnswer": "the sheer quantity of hours worked"}
+                ],
+                "correctSentence": "Economic success predominantly stems from innovation and smart work practices rather than the sheer quantity of hours worked.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "It is evident that _____ requires _____ not _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["sustainable economic growth", "short-term profits", "worker exploitation"], "correctAnswer": "sustainable economic growth"},
+                  {"id": "topic4_b2", "options": ["efficient work systems", "long working hours", "minimal wages"], "correctAnswer": "efficient work systems"},
+                  {"id": "topic4_b3", "options": ["exhausted workers", "innovative practices", "modern technology"], "correctAnswer": "exhausted workers"}
+                ],
+                "correctSentence": "It is evident that sustainable economic growth requires efficient work systems not exhausted workers.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "While _____ may generate temporary gains, _____ ensures _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["extended working hours", "high productivity", "innovation"], "correctAnswer": "extended working hours"},
+                  {"id": "topic5_b2", "options": ["investing in productivity and worker wellbeing", "reducing hours", "increasing salaries"], "correctAnswer": "investing in productivity and worker wellbeing"},
+                  {"id": "topic5_b3", "options": ["long-term economic prosperity", "worker burnout", "reduced output"], "correctAnswer": "long-term economic prosperity"}
+                ],
+                "correctSentence": "While extended working hours may generate temporary gains, investing in productivity and worker wellbeing ensures long-term economic prosperity.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Admittedly, _____ can _____, but _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["longer working hours", "high efficiency", "innovation"], "correctAnswer": "longer working hours"},
+                  {"id": "topic6_b2", "options": ["increase total output in the short term", "guarantee success", "solve all problems"], "correctAnswer": "increase total output in the short term"},
+                  {"id": "topic6_b3", "options": ["this approach is unsustainable and leads to diminishing returns", "it always works", "nothing else matters"], "correctAnswer": "this approach is unsustainable and leads to diminishing returns"}
+                ],
+                "correctSentence": "Admittedly, longer working hours can increase total output in the short term, but this approach is unsustainable and leads to diminishing returns.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The most significant factor in _____ is _____ rather than _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["determining economic success", "worker happiness", "company profits"], "correctAnswer": "determining economic success"},
+                  {"id": "topic7_b2", "options": ["productivity per hour worked", "total hours", "overtime"], "correctAnswer": "productivity per hour worked"},
+                  {"id": "topic7_b3", "options": ["the length of the working week", "worker satisfaction", "technological innovation"], "correctAnswer": "the length of the working week"}
+                ],
+                "correctSentence": "The most significant factor in determining economic success is productivity per hour worked rather than the length of the working week.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Evidence consistently demonstrates that _____ rather than _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["efficiency and innovation drive economic growth", "long hours guarantee success", "overtime is essential"], "correctAnswer": "efficiency and innovation drive economic growth"},
+                  {"id": "topic8_b2", "options": ["simply extending work hours", "improving productivity", "investing in technology"], "correctAnswer": "simply extending work hours"}
+                ],
+                "correctSentence": "Evidence consistently demonstrates that efficiency and innovation drive economic growth rather than simply extending work hours.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ allows economies to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["high productivity", "long hours", "overtime"], "correctAnswer": "high productivity"},
+                  {"id": "support1_b2", "options": ["generate more value with less time investment", "work people harder", "reduce costs"], "correctAnswer": "generate more value with less time investment"}
+                ],
+                "correctSentence": "This is because high productivity allows economies to generate more value with less time investment.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ can be _____ while _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["efficiency", "working hours", "overtime"], "correctAnswer": "efficiency"},
+                  {"id": "support2_b2", "options": ["continuously improved through innovation", "easily extended", "quickly reduced"], "correctAnswer": "continuously improved through innovation"},
+                  {"id": "support2_b3", "options": ["working hours have natural limits", "productivity declines", "workers complain"], "correctAnswer": "working hours have natural limits"}
+                ],
+                "correctSentence": "The main reason is that efficiency can be continuously improved through innovation while working hours have natural limits.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ enables countries to _____ without _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Focusing on productivity", "Extending hours", "Reducing wages"], "correctAnswer": "Focusing on productivity"},
+                  {"id": "support3_b2", "options": ["maximize economic output", "exploit workers", "reduce quality"], "correctAnswer": "maximize economic output"},
+                  {"id": "support3_b3", "options": ["sacrificing worker wellbeing", "increasing efficiency", "improving technology"], "correctAnswer": "sacrificing worker wellbeing"}
+                ],
+                "correctSentence": "Focusing on productivity enables countries to maximize economic output without sacrificing worker wellbeing.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "By _____, nations can _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["investing in technology and education", "extending working hours", "reducing breaks"], "correctAnswer": "investing in technology and education"},
+                  {"id": "support4_b2", "options": ["significantly boost productivity without increasing work time", "make workers tired", "reduce costs"], "correctAnswer": "significantly boost productivity without increasing work time"}
+                ],
+                "correctSentence": "By investing in technology and education, nations can significantly boost productivity without increasing work time.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "_____ provides _____, which is essential for _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["Work-life balance", "Overtime", "Long hours"], "correctAnswer": "Work-life balance"},
+                  {"id": "support5_b2", "options": ["the mental energy needed for creative problem-solving", "more working time", "reduced productivity"], "correctAnswer": "the mental energy needed for creative problem-solving"},
+                  {"id": "support5_b3", "options": ["sustained innovation and economic growth", "short-term gains", "worker burnout"], "correctAnswer": "sustained innovation and economic growth"}
+                ],
+                "correctSentence": "Work-life balance provides the mental energy needed for creative problem-solving, which is essential for sustained innovation and economic growth.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Unlike _____, _____ produces _____ over time.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["extended working hours", "high productivity", "innovation"], "correctAnswer": "extended working hours"},
+                  {"id": "support6_b2", "options": ["efficiency improvements", "worker fatigue", "reduced output"], "correctAnswer": "efficiency improvements"},
+                  {"id": "support6_b3", "options": ["compounding benefits", "diminishing returns", "worker complaints"], "correctAnswer": "compounding benefits"}
+                ],
+                "correctSentence": "Unlike extended working hours, efficiency improvements produces compounding benefits over time.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Through _____, countries can _____ even with _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["smart automation and process optimization", "longer shifts", "reduced breaks"], "correctAnswer": "smart automation and process optimization"},
+                  {"id": "support7_b2", "options": ["achieve superior economic results", "work people harder", "reduce wages"], "correctAnswer": "achieve superior economic results"},
+                  {"id": "support7_b3", "options": ["shorter average working weeks", "tired workers", "reduced quality"], "correctAnswer": "shorter average working weeks"}
+                ],
+                "correctSentence": "Through smart automation and process optimization, countries can achieve superior economic results even with shorter average working weeks.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "_____ fosters _____, which directly contributes to _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["Adequate rest and recovery time", "Constant overtime", "Extended shifts"], "correctAnswer": "Adequate rest and recovery time"},
+                  {"id": "support8_b2", "options": ["higher creativity and innovation rates", "worker exhaustion", "reduced output"], "correctAnswer": "higher creativity and innovation rates"},
+                  {"id": "support8_b3", "options": ["competitive economic advantage", "short-term gains", "worker burnout"], "correctAnswer": "competitive economic advantage"}
+                ],
+                "correctSentence": "Adequate rest and recovery time fosters higher creativity and innovation rates, which directly contributes to competitive economic advantage.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "When nations _____, they are _____ to _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["prioritize efficiency over hours", "extend working time", "reduce breaks"], "correctAnswer": "prioritize efficiency over hours"},
+                  {"id": "support9_b2", "options": ["far more likely", "less likely", "unable"], "correctAnswer": "far more likely"},
+                  {"id": "support9_b3", "options": ["achieve sustainable economic prosperity", "exhaust their workforce", "reduce output"], "correctAnswer": "achieve sustainable economic prosperity"}
+                ],
+                "correctSentence": "When nations prioritize efficiency over hours, they are far more likely to achieve sustainable economic prosperity.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "While _____ may boost output temporarily, _____ ensures _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["overworking employees", "high productivity", "innovation"], "correctAnswer": "overworking employees"},
+                  {"id": "support10_b2", "options": ["maintaining healthy and motivated workers", "extending hours", "reducing costs"], "correctAnswer": "maintaining healthy and motivated workers"},
+                  {"id": "support10_b3", "options": ["consistent long-term performance", "worker burnout", "reduced quality"], "correctAnswer": "consistent long-term performance"}
+                ],
+                "correctSentence": "While overworking employees may boost output temporarily, maintaining healthy and motivated workers ensures consistent long-term performance.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ proves to be _____ than _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["improving productivity", "extending hours", "reducing wages"], "correctAnswer": "improving productivity"},
+                  {"id": "support11_b2", "options": ["far more effective", "less efficient", "completely ineffective"], "correctAnswer": "far more effective"},
+                  {"id": "support11_b3", "options": ["simply increasing working time", "investing in technology", "educating workers"], "correctAnswer": "simply increasing working time"}
+                ],
+                "correctSentence": "As a result, improving productivity proves to be far more effective than simply increasing working time.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ becomes the decisive factor in _____.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["efficiency and innovation", "total working hours", "overtime culture"], "correctAnswer": "efficiency and innovation"},
+                  {"id": "support12_b2", "options": ["whether nations achieve lasting economic success", "short-term profits", "worker satisfaction"], "correctAnswer": "whether nations achieve lasting economic success"}
+                ],
+                "correctSentence": "Consequently, efficiency and innovation becomes the decisive factor in whether nations achieve lasting economic success.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ demonstrates that _____ despite _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["Germany", "Japan", "China"], "correctAnswer": "Germany"},
+                  {"id": "example1_b2", "options": ["high productivity can drive economic success", "long hours guarantee success", "overtime is essential"], "correctAnswer": "high productivity can drive economic success"},
+                  {"id": "example1_b3", "options": ["having shorter working weeks than many competitors", "working the longest hours", "having no regulations"], "correctAnswer": "having shorter working weeks than many competitors"}
+                ],
+                "correctSentence": "For instance, Germany demonstrates that high productivity can drive economic success despite having shorter working weeks than many competitors.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "Consider _____, where _____ has led to _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["Japan", "Norway", "the United States"], "correctAnswer": "Japan"},
+                  {"id": "example2_b2", "options": ["the culture of excessive overtime known as karoshi", "high efficiency", "short working hours"], "correctAnswer": "the culture of excessive overtime known as karoshi"},
+                  {"id": "example2_b3", "options": ["worker burnout and declining productivity", "economic miracles", "worker happiness"], "correctAnswer": "worker burnout and declining productivity"}
+                ],
+                "correctSentence": "Consider Japan, where the culture of excessive overtime known as karoshi has led to worker burnout and declining productivity.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Studies show that _____ consistently achieve _____ while _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["Scandinavian countries", "countries with long hours", "developing nations"], "correctAnswer": "Scandinavian countries"},
+                  {"id": "example3_b2", "options": ["high GDP per capita", "low productivity", "poor economic results"], "correctAnswer": "high GDP per capita"},
+                  {"id": "example3_b3", "options": ["maintaining some of the shortest working hours globally", "working the longest hours", "having no work regulations"], "correctAnswer": "maintaining some of the shortest working hours globally"}
+                ],
+                "correctSentence": "Studies show that Scandinavian countries consistently achieve high GDP per capita while maintaining some of the shortest working hours globally.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "For example, _____ ranks among _____ despite _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["Norway", "South Korea", "Mexico"], "correctAnswer": "Norway"},
+                  {"id": "example4_b2", "options": ["the world's most productive economies", "the poorest countries", "the least developed nations"], "correctAnswer": "the world's most productive economies"},
+                  {"id": "example4_b3", "options": ["workers averaging only 34 hours per week", "having the longest working hours", "working minimal time"], "correctAnswer": "workers averaging only 34 hours per week"}
+                ],
+                "correctSentence": "For example, Norway ranks among the world's most productive economies despite workers averaging only 34 hours per week.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Research by _____ found that _____ beyond _____ hours per week.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["OECD economists", "local researchers", "unknown sources"], "correctAnswer": "OECD economists"},
+                  {"id": "example5_b2", "options": ["productivity per hour significantly declines", "productivity increases", "nothing changes"], "correctAnswer": "productivity per hour significantly declines"},
+                  {"id": "example5_b3", "options": ["48-50", "20-30", "60-70"], "correctAnswer": "48-50"}
+                ],
+                "correctSentence": "Research by OECD economists found that productivity per hour significantly declines beyond 48-50 hours per week.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Take _____ as an example: despite _____, it _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["South Korea", "Sweden", "Finland"], "correctAnswer": "South Korea"},
+                  {"id": "example6_b2", "options": ["having some of the longest working hours in the OECD", "short working weeks", "high productivity"], "correctAnswer": "having some of the longest working hours in the OECD"},
+                  {"id": "example6_b3", "options": ["struggles with lower productivity rates than shorter-hour Nordic countries", "leads in productivity", "has perfect economic success"], "correctAnswer": "struggles with lower productivity rates than shorter-hour Nordic countries"}
+                ],
+                "correctSentence": "Take South Korea as an example: despite having some of the longest working hours in the OECD, it struggles with lower productivity rates than shorter-hour Nordic countries.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "In particular, _____ achieved _____ by _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["Denmark", "Greece", "Mexico"], "correctAnswer": "Denmark"},
+                  {"id": "example7_b2", "options": ["one of the highest productivity levels in Europe", "low economic output", "poor results"], "correctAnswer": "one of the highest productivity levels in Europe"},
+                  {"id": "example7_b3", "options": ["prioritizing efficiency and work-life balance over long hours", "extending working time", "reducing worker benefits"], "correctAnswer": "prioritizing efficiency and work-life balance over long hours"}
+                ],
+                "correctSentence": "In particular, Denmark achieved one of the highest productivity levels in Europe by prioritizing efficiency and work-life balance over long hours.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Specifically, _____ has _____ while _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["the Netherlands", "Japan", "China"], "correctAnswer": "the Netherlands"},
+                  {"id": "example8_b2", "options": ["maintained strong economic performance", "failed economically", "struggled with growth"], "correctAnswer": "maintained strong economic performance"},
+                  {"id": "example8_b3", "options": ["Dutch workers enjoy an average 29-hour work week", "working the longest hours", "having no regulations"], "correctAnswer": "Dutch workers enjoy an average 29-hour work week"}
+                ],
+                "correctSentence": "Specifically, the Netherlands has maintained strong economic performance while Dutch workers enjoy an average 29-hour work week.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, countries that _____ tend to _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["World Bank data", "random sources", "unverified reports"], "correctAnswer": "World Bank data"},
+                  {"id": "example9_b2", "options": ["invest heavily in education and technology", "only extend working hours", "reduce worker benefits"], "correctAnswer": "invest heavily in education and technology"},
+                  {"id": "example9_b3", "options": ["achieve higher GDP growth rates than those focusing on work hours alone", "fail economically", "have poor results"], "correctAnswer": "achieve higher GDP growth rates than those focusing on work hours alone"}
+                ],
+                "correctSentence": "According to World Bank data, countries that invest heavily in education and technology tend to achieve higher GDP growth rates than those focusing on work hours alone.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence from _____ shows that _____ when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["France's 35-hour work week policy", "overtime cultures", "extended shifts"], "correctAnswer": "France's 35-hour work week policy"},
+                  {"id": "example10_b2", "options": ["productivity per hour increased", "productivity declined", "workers became lazy"], "correctAnswer": "productivity per hour increased"},
+                  {"id": "example10_b3", "options": ["working time was reduced", "hours were extended", "wages were cut"], "correctAnswer": "working time was reduced"}
+                ],
+                "correctSentence": "Evidence from France's 35-hour work week policy shows that productivity per hour increased when working time was reduced.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["extended working hours", "high productivity", "innovation"], "correctAnswer": "extended working hours"},
+                  {"id": "counter1_b2", "options": ["increase total output in developing economies", "guarantee success", "solve all problems"], "correctAnswer": "increase total output in developing economies"}
+                ],
+                "correctSentence": "However, it could be argued that extended working hours may increase total output in developing economies.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these advantages, _____ often results in _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["working excessive hours", "high efficiency", "innovation"], "correctAnswer": "working excessive hours"},
+                  {"id": "counter2_b2", "options": ["diminishing returns and health problems", "better productivity", "economic miracles"], "correctAnswer": "diminishing returns and health problems"}
+                ],
+                "correctSentence": "Despite these advantages, working excessive hours often results in diminishing returns and health problems.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ cannot compensate for _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["simply working longer", "high productivity", "innovation"], "correctAnswer": "simply working longer"},
+                  {"id": "counter3_b2", "options": ["fundamental inefficiencies in economic systems", "worker dedication", "good management"], "correctAnswer": "fundamental inefficiencies in economic systems"}
+                ],
+                "correctSentence": "Nevertheless, simply working longer cannot compensate for fundamental inefficiencies in economic systems.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ can produce _____, it also creates _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["a culture of overwork", "efficiency", "innovation"], "correctAnswer": "a culture of overwork"},
+                  {"id": "counter4_b2", "options": ["short-term economic gains", "sustainable growth", "worker happiness"], "correctAnswer": "short-term economic gains"},
+                  {"id": "counter4_b3", "options": ["serious long-term social and health costs", "better productivity", "economic prosperity"], "correctAnswer": "serious long-term social and health costs"}
+                ],
+                "correctSentence": "Although a culture of overwork can produce short-term economic gains, it also creates serious long-term social and health costs.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ can _____ if _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["reducing working hours too drastically", "improving efficiency", "investing in technology"], "correctAnswer": "reducing working hours too drastically"},
+                  {"id": "counter5_b2", "options": ["harm economic output", "improve productivity", "increase growth"], "correctAnswer": "harm economic output"},
+                  {"id": "counter5_b3", "options": ["not accompanied by productivity improvements", "done carefully", "implemented gradually"], "correctAnswer": "not accompanied by productivity improvements"}
+                ],
+                "correctSentence": "Critics point out that reducing working hours too drastically can harm economic output if not accompanied by productivity improvements.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["working hours play some role", "hours are everything", "nothing matters"], "correctAnswer": "working hours play some role"},
+                  {"id": "conclusion1_b2", "options": ["productivity and efficiency are far more crucial for economic success", "only hours matter", "success is random"], "correctAnswer": "productivity and efficiency are far more crucial for economic success"}
+                ],
+                "correctSentence": "In conclusion, while working hours play some role, I believe productivity and efficiency are far more crucial for economic success.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ rather than _____ determines _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["how efficiently people work", "how long people work", "how much people earn"], "correctAnswer": "how efficiently people work"},
+                  {"id": "conclusion2_b2", "options": ["how many hours they work", "their productivity levels", "their innovation"], "correctAnswer": "how many hours they work"},
+                  {"id": "conclusion2_b3", "options": ["true economic prosperity", "short-term gains", "worker satisfaction"], "correctAnswer": "true economic prosperity"}
+                ],
+                "correctSentence": "Overall, how efficiently people work rather than how many hours they work determines true economic prosperity.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ is _____ than _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["investing in productivity and innovation", "extending working hours", "reducing wages"], "correctAnswer": "investing in productivity and innovation"},
+                  {"id": "conclusion3_b2", "options": ["a far more sustainable path to economic success", "less effective", "completely ineffective"], "correctAnswer": "a far more sustainable path to economic success"},
+                  {"id": "conclusion3_b3", "options": ["simply demanding longer hours from workers", "improving efficiency", "educating the workforce"], "correctAnswer": "simply demanding longer hours from workers"}
+                ],
+                "correctSentence": "To summarize, investing in productivity and innovation is a far more sustainable path to economic success than simply demanding longer hours from workers.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ should focus on _____ rather than _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["nations seeking economic prosperity", "all governments", "business leaders"], "correctAnswer": "nations seeking economic prosperity"},
+                  {"id": "conclusion4_b2", "options": ["enhancing productivity and worker wellbeing", "extending hours", "reducing costs"], "correctAnswer": "enhancing productivity and worker wellbeing"},
+                  {"id": "conclusion4_b3", "options": ["maximizing working hours", "improving efficiency", "investing in education"], "correctAnswer": "maximizing working hours"}
+                ],
+                "correctSentence": "Ultimately, nations seeking economic prosperity should focus on enhancing productivity and worker wellbeing rather than maximizing working hours.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ represents the most effective path because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["prioritizing efficiency over hours", "extending working time", "reducing regulations"], "correctAnswer": "prioritizing efficiency over hours"},
+                  {"id": "conclusion5_b2", "options": ["it creates sustainable growth while maintaining quality of life", "it's easier", "everyone prefers it"], "correctAnswer": "it creates sustainable growth while maintaining quality of life"}
+                ],
+                "correctSentence": "In my view, prioritizing efficiency over hours represents the most effective path because it creates sustainable growth while maintaining quality of life.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Strong Disagreement",
+            "structure": {
+              "introduction": "While [acknowledge the claim], I strongly disagree that [restate claim]. In my opinion, [Your clear position].",
+              "body1": "[Topic sentence - your main argument]. This is because [Reason/explanation]. For instance, [Specific example from Germany or Scandinavia]. As a result, [Consequence or benefit].",
+              "body2": "Admittedly, [Acknowledge opposing view]. However, [Counter this view]. For example, [Specific example from Japan's karoshi]. Therefore, [Conclusion supporting your view].",
+              "conclusion": "In conclusion, I firmly believe [Restate your position]. [Final thought about sustainable economic growth]."
+            },
+            "example": {
+              "introduction": "While some argue that extended working hours drive prosperity, I strongly disagree that this is the primary factor. In my opinion, productivity and efficiency matter far more than sheer hours worked.",
+              "body1": "High productivity enables nations to generate greater economic value in less time. This is because efficient systems and skilled workers produce superior output per hour. For instance, Germany maintains one of Europe's strongest economies despite having shorter working weeks than many competitors. As a result, German workers enjoy both economic success and quality of life.",
+              "body2": "Admittedly, longer hours can temporarily boost output. However, this approach is fundamentally unsustainable and counterproductive. For example, Japan's culture of excessive overtime, known as karoshi, has led to widespread burnout and declining productivity rates. Therefore, quality of work matters more than quantity of hours.",
+              "conclusion": "In conclusion, I firmly believe that economic success stems from productivity rather than working time. Nations should invest in efficiency and innovation rather than exhausting their workforce."
+            }
+          },
+          {
+            "name": "Template 2: Partial Agreement",
+            "structure": {
+              "introduction": "[Restate topic]. While [partial agreement], I believe [Your main position].",
+              "body1": "[Your primary argument - efficiency matters more]. Firstly, [Reason 1 with example]. Secondly, [Reason 2 with example]. Consequently, [Overall impact].",
+              "body2": "Nevertheless, [Acknowledge when hours might matter]. [Explanation]. However, [Limitation of this view]. [Example showing the limitation].",
+              "conclusion": "To summarize, although [concede minor point], [restate main position]. [Final recommendation]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "stating_disagreement": ["I strongly disagree with", "I firmly oppose", "This claim is fundamentally flawed", "Evidence contradicts"],
+          "acknowledging_opposition": ["Admittedly", "It is true that", "While some argue that", "Granted"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Consider the case of", "Take Germany as an example"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "While some believe _____ [state the claim about long hours and success], I strongly disagree because _____ [state YOUR position clearly].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "State the claim about long hours",
+                "hint": "Paraphrase the question - mention working hours and economic success",
+                "placeholder": "e.g., that extended working hours are the key to national economic prosperity and competitiveness",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "State YOUR position",
+                "hint": "Be clear! Say productivity/efficiency matters more, or take another clear stance",
+                "placeholder": "e.g., productivity per hour and technological innovation are far more crucial determinants of economic success",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "The primary reason for my position is that _____ [main argument about productivity]. This is because _____ [explain the mechanism]. For instance, _____ [give Germany or Scandinavia example]. As a result, _____ [state the benefit or outcome].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Main argument about productivity",
+                "hint": "Why does efficiency matter more than hours?",
+                "placeholder": "e.g., high productivity enables countries to generate superior economic output without exhausting their workforce",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the mechanism",
+                "hint": "HOW does productivity achieve better results?",
+                "placeholder": "e.g., efficient workers using advanced technology can produce more value in fewer hours than inefficient workers toiling longer",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Give specific example",
+                "hint": "Use Germany, Scandinavia, Netherlands, or another efficient economy",
+                "placeholder": "e.g., Germany maintains one of Europe's strongest economies while German workers enjoy shorter working weeks than many Asian competitors",
+                "minWords": 15
+              },
+              {
+                "id": "body1_blank4",
+                "label": "State benefit or outcome",
+                "hint": "What is the positive result of this approach?",
+                "placeholder": "e.g., these nations achieve both economic prosperity and high quality of life for their citizens",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "Admittedly, _____ [acknowledge opposing view about long hours]. However, _____ [counter this view]. For example, _____ [give Japan karoshi or South Korea example]. Therefore, _____ [conclude why your position is stronger].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Acknowledge opposing view",
+                "hint": "Be fair - when might long hours help?",
+                "placeholder": "e.g., extended working hours can temporarily increase total economic output in developing economies with limited capital",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Counter this view",
+                "hint": "Explain why this approach has serious problems or limitations",
+                "placeholder": "e.g., this strategy is fundamentally unsustainable and leads to worker burnout, health crises, and declining productivity over time",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Give negative example",
+                "hint": "Use Japan's karoshi, South Korea's long hours, or similar",
+                "placeholder": "e.g., Japan's culture of excessive overtime, known as karoshi, has resulted in widespread health problems and actually reduced per-hour productivity",
+                "minWords": 18
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclude why your position is stronger",
+                "hint": "Wrap up - why efficiency beats hours",
+                "placeholder": "e.g., sustainable economic success requires smart work systems and healthy workers rather than simply maximizing time spent at work",
+                "minWords": 15
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [acknowledge nuance], I firmly believe _____ [restate your position with final thought].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge nuance",
+                "hint": "Show you considered both sides briefly",
+                "placeholder": "e.g., working hours play some role in economic output, particularly in labor-intensive developing economies",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate position with final thought",
+                "hint": "Strong restatement + recommendation or prediction",
+                "placeholder": "e.g., that productivity, efficiency, and innovation are far more crucial for sustained economic success, and nations should prioritize these factors over simply extending working hours",
+                "minWords": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your position clearly"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Present main argument about productivity with examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Acknowledge opposing view then counter it with examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate position with final recommendation"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position (agree/disagree/partially)",
+          "Body paragraph 1 explains why productivity matters more (with Germany/Scandinavia examples)",
+          "Body paragraph 2 acknowledges but refutes the opposing view (with Japan karoshi example)",
+          "Conclusion restates position and offers final insight",
+          "Essay is 250-280 words",
+          "Used vocabulary: productivity, work ethic, economic output, work-life balance, efficiency, burnout",
+          "Included country examples: Japan, Scandinavia, Germany",
+          "No grammar or spelling errors",
+          "Academic vocabulary used appropriately",
+          "Clear position maintained throughout"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "It is often argued that nations with longer average working hours achieve greater economic success than those with shorter work weeks. I strongly disagree with this assertion, as productivity and efficiency are far more crucial determinants of economic prosperity than the sheer quantity of hours worked.\n\nThe primary reason for my position is that high productivity enables countries to generate superior economic output without exhausting their workforce. Efficient workers utilizing advanced technology and streamlined processes can produce significantly more value per hour than inefficient workers laboring for extended periods. For instance, Germany maintains one of Europe's strongest economies and highest GDP per capita figures, yet German workers enjoy considerably shorter working weeks than their counterparts in many Asian nations. Similarly, Scandinavian countries consistently rank among the world's most productive economies while maintaining some of the shortest average working hours globally. These examples demonstrate that work-life balance and efficiency can coexist with robust economic performance.\n\nAdmittedly, extended working hours may temporarily increase total economic output, particularly in developing economies with limited capital and technology. However, this approach proves fundamentally unsustainable and ultimately counterproductive. Japan's culture of excessive overtime, infamously known as karoshi, has resulted in widespread worker burnout, serious health crises, and ironically, declining per-hour productivity rates. Research by OECD economists confirms that productivity significantly deteriorates beyond 48-50 hours per week, demonstrating clear diminishing returns from overwork.\n\nIn conclusion, while working hours contribute to economic output, I firmly believe that productivity, efficiency, and innovation matter far more for sustained economic success. Nations should invest in education, technology, and worker wellbeing rather than simply demanding longer hours from their workforce.",
+    "wordCount": 274,
+    "structure": {
+      "introduction": "It is often argued that nations with longer average working hours achieve greater economic success than those with shorter work weeks. I strongly disagree with this assertion, as productivity and efficiency are far more crucial determinants of economic prosperity than the sheer quantity of hours worked.",
+      "body1": "The primary reason for my position is that high productivity enables countries to generate superior economic output without exhausting their workforce. Efficient workers utilizing advanced technology and streamlined processes can produce significantly more value per hour than inefficient workers laboring for extended periods. For instance, Germany maintains one of Europe's strongest economies and highest GDP per capita figures, yet German workers enjoy considerably shorter working weeks than their counterparts in many Asian nations. Similarly, Scandinavian countries consistently rank among the world's most productive economies while maintaining some of the shortest average working hours globally. These examples demonstrate that work-life balance and efficiency can coexist with robust economic performance.",
+      "body2": "Admittedly, extended working hours may temporarily increase total economic output, particularly in developing economies with limited capital and technology. However, this approach proves fundamentally unsustainable and ultimately counterproductive. Japan's culture of excessive overtime, infamously known as karoshi, has resulted in widespread worker burnout, serious health crises, and ironically, declining per-hour productivity rates. Research by OECD economists confirms that productivity significantly deteriorates beyond 48-50 hours per week, demonstrating clear diminishing returns from overwork.",
+      "conclusion": "In conclusion, while working hours contribute to economic output, I firmly believe that productivity, efficiency, and innovation matter far more for sustained economic success. Nations should invest in education, technology, and worker wellbeing rather than simply demanding longer hours from their workforce."
+    },
+    "highlights": [
+      {
+        "text": "productivity and efficiency",
+        "type": "academic-vocab",
+        "explanation": "Key economic vocabulary showing the core argument"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "Similarly",
+        "type": "linking-word",
+        "explanation": "Adds parallel supporting example"
+      },
+      {
+        "text": "Admittedly",
+        "type": "linking-word",
+        "explanation": "Acknowledges opposing view fairly"
+      },
+      {
+        "text": "However",
+        "type": "linking-word",
+        "explanation": "Signals counter-argument"
+      },
+      {
+        "text": "Germany maintains one of Europe's strongest economies...yet German workers enjoy considerably shorter working weeks",
+        "type": "example",
+        "explanation": "Specific, concrete example contrasting hours with success"
+      },
+      {
+        "text": "karoshi",
+        "type": "example",
+        "explanation": "Specific Japanese term showing depth of research"
+      },
+      {
+        "text": "OECD economists",
+        "type": "example",
+        "explanation": "Authoritative source strengthening the argument"
+      },
+      {
+        "text": "work-life balance",
+        "type": "academic-vocab",
+        "explanation": "Required vocabulary term used naturally"
+      },
+      {
+        "text": "burnout",
+        "type": "academic-vocab",
+        "explanation": "Required vocabulary term demonstrating consequences"
+      }
+    ]
+  }
+}

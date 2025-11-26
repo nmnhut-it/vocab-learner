@@ -1,0 +1,605 @@
+{
+  "id": "adult-illiteracy",
+  "title": "Adult Illiteracy",
+  "category": "Education & Society",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Despite better access to education, many adults today still cannot read or write. In what ways are they disadvantaged? What can governments do to help them?",
+    "type": "Two-Part Question",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Two-Part Question",
+          "explanation": "This question has TWO distinct parts that both require full answers: (1) disadvantages of adult illiteracy, and (2) government solutions.",
+          "requirements": [
+            "Answer BOTH parts equally - disadvantages AND government solutions",
+            "Provide multiple disadvantages with specific examples",
+            "Suggest practical government solutions with explanations",
+            "Use separate body paragraphs for each part"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "despite better access",
+            "definition": "Even though education is more available now",
+            "importance": "Shows the problem persists despite improvements"
+          },
+          {
+            "word": "adults today",
+            "definition": "Grown people in current times",
+            "importance": "Focus on adult learners, not children"
+          },
+          {
+            "word": "cannot read or write",
+            "definition": "Lack basic literacy skills",
+            "importance": "The core problem being discussed"
+          },
+          {
+            "word": "disadvantaged",
+            "definition": "Put at an unfair disadvantage or suffering hardship",
+            "importance": "First part asks HOW illiteracy harms adults"
+          },
+          {
+            "word": "what can governments do",
+            "definition": "Asking for government-level solutions",
+            "importance": "Second part asks for policy and program solutions"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + outline your answer to both parts",
+          "body1": "4-5 sentences: Discuss disadvantages of adult illiteracy with specific examples",
+          "body2": "4-5 sentences: Explain government solutions with practical measures",
+          "conclusion": "2 sentences: Summarize both parts of your answer"
+        },
+        "commonMistakes": [
+          "Only answering one part of the question thoroughly",
+          "Discussing causes instead of disadvantages",
+          "Suggesting individual solutions instead of government actions",
+          "Not providing specific examples of disadvantages"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "functional literacy",
+            "pronunciation": "/ˈfʌŋkʃənəl ˈlɪtərəsi/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to read and write well enough for everyday tasks",
+            "example": "Many jobs today require functional literacy beyond basic reading skills.",
+            "synonyms": ["practical literacy", "basic literacy"]
+          },
+          {
+            "word": "educational access",
+            "pronunciation": "/ˌedjʊˈkeɪʃənəl ˈækses/",
+            "partOfSpeech": "noun",
+            "definition": "The availability and opportunity to receive education",
+            "example": "Despite improved educational access, some adults missed early learning opportunities.",
+            "synonyms": ["education availability", "learning opportunities"]
+          },
+          {
+            "word": "employment opportunities",
+            "pronunciation": "/ɪmˈplɔɪmənt ˌɒpəˈtjuːnətiz/",
+            "partOfSpeech": "noun",
+            "definition": "Available job positions and career possibilities",
+            "example": "Illiteracy severely limits employment opportunities in modern economies.",
+            "synonyms": ["job prospects", "career options"]
+          },
+          {
+            "word": "social exclusion",
+            "pronunciation": "/ˈsəʊʃəl ɪkˈskluːʒən/",
+            "partOfSpeech": "noun",
+            "definition": "Being shut out from participating fully in society",
+            "example": "Adult illiteracy often leads to social exclusion and isolation.",
+            "synonyms": ["marginalization", "isolation"]
+          },
+          {
+            "word": "digital literacy",
+            "pronunciation": "/ˈdɪdʒɪtəl ˈlɪtərəsi/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to use computers and digital technology effectively",
+            "example": "Modern adult education programs must include digital literacy training.",
+            "synonyms": ["technological competence", "computer skills"]
+          },
+          {
+            "word": "marginalized",
+            "pronunciation": "/ˈmɑːdʒɪnəlaɪzd/",
+            "partOfSpeech": "adjective",
+            "definition": "Treated as insignificant or pushed to the edges of society",
+            "example": "Illiterate adults often feel marginalized in education-focused societies.",
+            "synonyms": ["excluded", "disadvantaged"]
+          },
+          {
+            "word": "subsidize",
+            "pronunciation": "/ˈsʌbsɪdaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To support financially, typically by government",
+            "example": "Governments should subsidize adult education programs to make them affordable.",
+            "synonyms": ["fund", "finance", "support"]
+          },
+          {
+            "word": "vulnerable",
+            "pronunciation": "/ˈvʌlnərəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Exposed to harm or exploitation",
+            "example": "Illiterate adults are vulnerable to scams and fraud.",
+            "synonyms": ["at-risk", "exposed", "susceptible"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "adult education programs",
+            "definition": "Learning courses designed specifically for grown-up students",
+            "example": "Governments should expand free adult education programs in community centers."
+          },
+          {
+            "phrase": "job applications",
+            "definition": "Forms and processes for applying to employment positions",
+            "example": "Illiterate adults struggle to complete job applications independently."
+          },
+          {
+            "phrase": "healthcare forms",
+            "definition": "Medical documents requiring reading and writing",
+            "example": "Understanding healthcare forms is essential for accessing medical services."
+          },
+          {
+            "phrase": "banking services",
+            "definition": "Financial services provided by banks",
+            "example": "Basic literacy is necessary to use banking services and manage finances."
+          },
+          {
+            "phrase": "economic participation",
+            "definition": "Involvement in economic activities and workforce",
+            "example": "Illiteracy prevents full economic participation in modern societies."
+          },
+          {
+            "phrase": "flexible learning",
+            "definition": "Education that adapts to students' schedules and needs",
+            "example": "Adult learners benefit from flexible learning options like evening classes."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["Adult illiteracy creates several challenges", "This issue affects individuals in multiple ways", "The lack of literacy skills"],
+          "contrasting": ["However", "On the contrary", "Despite this", "Nevertheless"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Another disadvantage"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "In particular"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that outline both parts of your answer",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "This essay will examine _____ and _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["the disadvantages faced by illiterate adults", "the causes of illiteracy", "education systems"], "correctAnswer": "the disadvantages faced by illiterate adults"},
+                  {"id": "thesis1_b2", "options": ["propose government measures to address this problem", "discuss literacy rates", "analyze schools"], "correctAnswer": "propose government measures to address this problem"}
+                ],
+                "correctSentence": "This essay will examine the disadvantages faced by illiterate adults and propose government measures to address this problem.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "Illiterate adults face _____, and governments can _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["significant barriers in employment and daily life", "difficulty learning", "complex challenges"], "correctAnswer": "significant barriers in employment and daily life"},
+                  {"id": "thesis2_b2", "options": ["help through targeted education programs and policy initiatives", "provide schools", "create rules"], "correctAnswer": "help through targeted education programs and policy initiatives"}
+                ],
+                "correctSentence": "Illiterate adults face significant barriers in employment and daily life, and governments can help through targeted education programs and policy initiatives.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Adults who cannot read or write face _____ in _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["severe disadvantages", "minor issues", "simple problems"], "correctAnswer": "severe disadvantages"},
+                  {"id": "topic1_b2", "options": ["employment, healthcare, and financial management", "schools only", "basic tasks"], "correctAnswer": "employment, healthcare, and financial management"}
+                ],
+                "correctSentence": "Adults who cannot read or write face severe disadvantages in employment, healthcare, and financial management.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "Governments can implement _____ to _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["several practical measures", "difficult policies", "expensive programs"], "correctAnswer": "several practical measures"},
+                  {"id": "topic2_b2", "options": ["help illiterate adults develop essential literacy skills", "build more schools", "test students"], "correctAnswer": "help illiterate adults develop essential literacy skills"}
+                ],
+                "correctSentence": "Governments can implement several practical measures to help illiterate adults develop essential literacy skills.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ requires _____ that illiterate individuals lack.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["most modern employment", "basic conversation", "physical work"], "correctAnswer": "most modern employment"},
+                  {"id": "support1_b2", "options": ["the ability to read instructions, fill forms, and use computers", "speaking skills", "strength"], "correctAnswer": "the ability to read instructions, fill forms, and use computers"}
+                ],
+                "correctSentence": "This is because most modern employment requires the ability to read instructions, fill forms, and use computers that illiterate individuals lack.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ would _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["free adult education programs", "expensive courses", "mandatory classes"], "correctAnswer": "free adult education programs"},
+                  {"id": "support2_b2", "options": ["remove financial barriers and make learning accessible to all adults", "require large budgets", "force participation"], "correctAnswer": "remove financial barriers and make learning accessible to all adults"}
+                ],
+                "correctSentence": "The main reason is that free adult education programs would remove financial barriers and make learning accessible to all adults.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ cannot _____, which _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["illiterate adults", "children", "workers"], "correctAnswer": "illiterate adults"},
+                  {"id": "example1_b2", "options": ["complete job applications or understand employment contracts", "speak English", "drive cars"], "correctAnswer": "complete job applications or understand employment contracts"},
+                  {"id": "example1_b3", "options": ["severely limits their career opportunities and earning potential", "causes minor inconvenience", "requires help"], "correctAnswer": "severely limits their career opportunities and earning potential"}
+                ],
+                "correctSentence": "For instance, illiterate adults cannot complete job applications or understand employment contracts, which severely limits their career opportunities and earning potential.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ could offer _____ that _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["governments", "companies", "individuals"], "correctAnswer": "governments"},
+                  {"id": "example2_b2", "options": ["evening and weekend literacy classes at community centers", "expensive private tutoring", "online-only courses"], "correctAnswer": "evening and weekend literacy classes at community centers"},
+                  {"id": "example2_b3", "options": ["accommodate working adults with family responsibilities", "require daytime attendance", "cost money"], "correctAnswer": "accommodate working adults with family responsibilities"}
+                ],
+                "correctSentence": "For example, governments could offer evening and weekend literacy classes at community centers that accommodate working adults with family responsibilities.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Additionally, _____ struggle to _____, making them _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["those without literacy skills", "educated people", "young adults"], "correctAnswer": "those without literacy skills"},
+                  {"id": "example3_b2", "options": ["understand healthcare forms, banking documents, or legal contracts", "communicate verbally", "travel"], "correctAnswer": "understand healthcare forms, banking documents, or legal contracts"},
+                  {"id": "example3_b3", "options": ["vulnerable to exploitation and unable to advocate for their rights", "slightly disadvantaged", "dependent on others"], "correctAnswer": "vulnerable to exploitation and unable to advocate for their rights"}
+                ],
+                "correctSentence": "Additionally, those without literacy skills struggle to understand healthcare forms, banking documents, or legal contracts, making them vulnerable to exploitation and unable to advocate for their rights.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Another effective measure would be to _____ that _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["provide financial incentives and childcare support for adult learners", "punish illiterate adults", "create strict requirements"], "correctAnswer": "provide financial incentives and childcare support for adult learners"},
+                  {"id": "example4_b2", "options": ["help overcome practical barriers preventing participation in education programs", "make programs expensive", "limit access"], "correctAnswer": "help overcome practical barriers preventing participation in education programs"}
+                ],
+                "correctSentence": "Another effective measure would be to provide financial incentives and childcare support for adult learners that help overcome practical barriers preventing participation in education programs.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize both parts of your answer",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, _____, but _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["adult illiteracy creates substantial barriers in employment and daily life", "illiteracy is common", "reading is difficult"], "correctAnswer": "adult illiteracy creates substantial barriers in employment and daily life"},
+                  {"id": "conclusion1_b2", "options": ["government-funded education programs and support services can effectively address this challenge", "nothing can be done", "it is too expensive"], "correctAnswer": "government-funded education programs and support services can effectively address this challenge"}
+                ],
+                "correctSentence": "In conclusion, adult illiteracy creates substantial barriers in employment and daily life, but government-funded education programs and support services can effectively address this challenge.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Two-Part Question Structure",
+            "structure": {
+              "introduction": "Despite improved access to education, adult illiteracy remains a significant problem. This essay will examine [the disadvantages illiterate adults face] and [government solutions to help them].",
+              "body1": "[Topic sentence about disadvantages]. Firstly, [Disadvantage 1 with explanation]. For instance, [Specific example]. Additionally, [Disadvantage 2 with explanation]. For example, [Another example].",
+              "body2": "[Topic sentence about government solutions]. One effective measure is [Solution 1 with explanation]. For example, [How it works]. Furthermore, [Solution 2 with explanation]. This would [Expected outcome].",
+              "conclusion": "In conclusion, [Summary of disadvantages from Part 1], but [Summary of government solutions from Part 2]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "part_one_disadvantages": ["Firstly", "To begin with", "One major disadvantage", "Additionally", "Furthermore", "Moreover"],
+          "part_two_solutions": ["To address this issue", "One effective measure", "Governments could", "Another solution", "Furthermore", "In addition"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Similarly"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "In particular"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This means that"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "Although"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Despite improved access to education, _____ [state the problem]. This essay will examine _____ [Part 1: disadvantages] and _____ [Part 2: government solutions].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "State the problem",
+                "hint": "Describe the issue of adult illiteracy briefly",
+                "placeholder": "e.g., many adults today still lack basic reading and writing skills",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Part 1: What disadvantages",
+                "hint": "Briefly mention what disadvantages you will discuss",
+                "placeholder": "e.g., the significant disadvantages that illiterate adults face in employment and daily life",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Part 2: Government solutions",
+                "hint": "Briefly mention what solutions you will propose",
+                "placeholder": "e.g., practical measures that governments can implement to help these individuals develop literacy skills",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 (Disadvantages)",
+            "template": "Adults who cannot read or write face _____ [topic sentence]. Firstly, _____ [disadvantage 1 with explanation]. For instance, _____ [specific example]. Additionally, _____ [disadvantage 2 with explanation]. As a result, _____ [consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence about disadvantages",
+                "hint": "Main areas where illiterate adults are disadvantaged",
+                "placeholder": "e.g., severe barriers in employment opportunities, healthcare access, and financial management",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Disadvantage 1 with explanation",
+                "hint": "First major disadvantage - explain employment challenges",
+                "placeholder": "e.g., most modern jobs require functional literacy to read instructions, complete forms, and use digital systems",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example for employment",
+                "hint": "Concrete example showing employment disadvantage",
+                "placeholder": "e.g., illiterate adults cannot fill out job applications or understand employment contracts independently",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Disadvantage 2 with explanation",
+                "hint": "Second disadvantage - daily life challenges",
+                "placeholder": "e.g., they struggle to understand healthcare forms, banking documents, and legal contracts",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank5",
+                "label": "Consequence of these disadvantages",
+                "hint": "Overall impact on illiterate adults",
+                "placeholder": "e.g., these individuals face social exclusion and become vulnerable to exploitation",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 (Government Solutions)",
+            "template": "Governments can implement _____ [topic sentence about solutions]. One effective measure is _____ [solution 1 with explanation]. For example, _____ [how solution 1 works]. Furthermore, _____ [solution 2 with explanation]. This would _____ [expected outcome].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence about government solutions",
+                "hint": "What can governments do",
+                "placeholder": "e.g., several practical measures to help illiterate adults develop essential literacy skills",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Solution 1 with explanation",
+                "hint": "First government solution - free programs",
+                "placeholder": "e.g., providing free adult education programs at convenient locations like community centers and libraries",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "How solution 1 works",
+                "hint": "Practical details of the education programs",
+                "placeholder": "e.g., governments could offer flexible evening and weekend classes that accommodate working adults with family responsibilities",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Solution 2 with explanation",
+                "hint": "Second solution - support services",
+                "placeholder": "e.g., governments should provide financial incentives and childcare support to remove barriers preventing participation",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank5",
+                "label": "Expected outcome",
+                "hint": "What these solutions would achieve",
+                "placeholder": "e.g., help more illiterate adults access education and improve their employment prospects and quality of life",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [summarize Part 1: disadvantages], but _____ [summarize Part 2: government solutions can help].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize disadvantages",
+                "hint": "Brief summary of the disadvantages discussed",
+                "placeholder": "e.g., adult illiteracy creates substantial barriers in employment opportunities, healthcare access, and financial management",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Summarize government solutions",
+                "hint": "Brief summary of solutions and optimistic outlook",
+                "placeholder": "e.g., government-funded adult education programs with flexible schedules and support services can effectively address this challenge and help illiterate adults participate fully in society",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "State the problem + outline both parts you will address"
+          },
+          "body1": {
+            "sentences": "5-6 sentences",
+            "purpose": "Discuss disadvantages with specific examples"
+          },
+          "body2": {
+            "sentences": "5-6 sentences",
+            "purpose": "Explain government solutions with practical measures"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize both parts of your answer"
+          }
+        },
+        "checklist": [
+          "Introduction outlines both parts of the question",
+          "Body paragraph 1 discusses multiple disadvantages with examples",
+          "Body paragraph 2 proposes practical government solutions",
+          "Conclusion summarizes both disadvantages and solutions",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Specific examples included (job applications, healthcare forms, banking)",
+          "Both parts answered equally and thoroughly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Despite improved access to education in recent decades, many adults today still lack basic reading and writing skills. This essay will examine the significant disadvantages that illiterate adults face in modern society and propose practical measures that governments can implement to address this persistent problem.\n\nAdults who cannot read or write encounter severe barriers in employment opportunities, healthcare access, and financial management. Firstly, most modern jobs require functional literacy to read instructions, complete application forms, and use digital systems. For instance, illiterate adults cannot fill out job applications independently or understand employment contracts, which severely limits their career prospects and earning potential. Additionally, they struggle to comprehend healthcare forms, banking documents, and legal contracts, making them vulnerable to exploitation and preventing them from advocating for their rights. As a result, these individuals often experience social exclusion and remain trapped in low-paying manual labor with little opportunity for advancement.\n\nGovernments can implement several effective measures to help illiterate adults develop essential literacy skills. One crucial solution is providing free adult education programs at accessible locations such as community centers and public libraries. For example, governments could offer flexible evening and weekend classes that accommodate working adults with family responsibilities, removing scheduling barriers that prevent participation. Furthermore, authorities should provide financial incentives, transportation support, and childcare services to address practical obstacles that discourage adults from attending literacy programs. These supportive measures would enable more illiterate individuals to access education and subsequently improve their employment opportunities, health outcomes, and overall quality of life.\n\nIn conclusion, adult illiteracy creates substantial disadvantages in employment, healthcare, and financial independence, but comprehensive government-funded education programs with flexible scheduling and practical support services can effectively empower illiterate adults to develop literacy skills and participate fully in society.",
+    "wordCount": 279,
+    "structure": {
+      "introduction": "Despite improved access to education in recent decades, many adults today still lack basic reading and writing skills. This essay will examine the significant disadvantages that illiterate adults face in modern society and propose practical measures that governments can implement to address this persistent problem.",
+      "body1": "Adults who cannot read or write encounter severe barriers in employment opportunities, healthcare access, and financial management. Firstly, most modern jobs require functional literacy to read instructions, complete application forms, and use digital systems. For instance, illiterate adults cannot fill out job applications independently or understand employment contracts, which severely limits their career prospects and earning potential. Additionally, they struggle to comprehend healthcare forms, banking documents, and legal contracts, making them vulnerable to exploitation and preventing them from advocating for their rights. As a result, these individuals often experience social exclusion and remain trapped in low-paying manual labor with little opportunity for advancement.",
+      "body2": "Governments can implement several effective measures to help illiterate adults develop essential literacy skills. One crucial solution is providing free adult education programs at accessible locations such as community centers and public libraries. For example, governments could offer flexible evening and weekend classes that accommodate working adults with family responsibilities, removing scheduling barriers that prevent participation. Furthermore, authorities should provide financial incentives, transportation support, and childcare services to address practical obstacles that discourage adults from attending literacy programs. These supportive measures would enable more illiterate individuals to access education and subsequently improve their employment opportunities, health outcomes, and overall quality of life.",
+      "conclusion": "In conclusion, adult illiteracy creates substantial disadvantages in employment, healthcare, and financial independence, but comprehensive government-funded education programs with flexible scheduling and practical support services can effectively empower illiterate adults to develop literacy skills and participate fully in society."
+    },
+    "highlights": [
+      {
+        "text": "functional literacy",
+        "type": "academic-vocab",
+        "explanation": "Academic term for practical reading and writing skills needed for daily tasks"
+      },
+      {
+        "text": "social exclusion",
+        "type": "academic-vocab",
+        "explanation": "Being shut out from full participation in society"
+      },
+      {
+        "text": "For instance... Additionally... Furthermore",
+        "type": "linking-word",
+        "explanation": "Linking words that add examples and additional points"
+      },
+      {
+        "text": "employment opportunities",
+        "type": "academic-vocab",
+        "explanation": "Job prospects and career possibilities"
+      },
+      {
+        "text": "vulnerable to exploitation",
+        "type": "academic-vocab",
+        "explanation": "At risk of being taken advantage of"
+      },
+      {
+        "text": "adult education programs",
+        "type": "topic-vocab",
+        "explanation": "Learning courses designed for adult students"
+      }
+    ]
+  }
+}

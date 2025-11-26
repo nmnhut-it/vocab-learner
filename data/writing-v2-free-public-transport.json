@@ -1,0 +1,600 @@
+{
+  "id": "free-public-transport",
+  "title": "Free 24/7 Public Transport",
+  "category": "Transport & Government",
+  "difficulty": "Medium",
+  "question": {
+    "text": "The best way for a government to solve the problem of traffic congestion is to provide free public transport 24 hours a day, 7 days a week. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must take a clear position on whether free 24/7 public transport is the BEST solution to traffic congestion. Use phrases like 'I completely agree', 'I partly agree', or 'I disagree'.",
+          "requirements": [
+            "State your position clearly in the introduction",
+            "Provide 2-3 reasons supporting your position",
+            "Give specific examples for each reason",
+            "Address counterarguments if taking a partial position",
+            "Restate your position in the conclusion"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "best way",
+            "definition": "The most effective or optimal method",
+            "importance": "Strong claim - you must evaluate if this is truly the BEST or just ONE possible solution"
+          },
+          {
+            "word": "traffic congestion",
+            "definition": "Heavy traffic causing delays and gridlock",
+            "importance": "The problem that needs solving - focus on reducing road traffic"
+          },
+          {
+            "word": "free public transport",
+            "definition": "Zero-fare transit systems funded by government",
+            "importance": "The proposed solution - consider costs, effectiveness, and feasibility"
+          },
+          {
+            "word": "24 hours a day, 7 days a week",
+            "definition": "Round-the-clock, continuous service",
+            "importance": "Emphasizes the scale and cost of the proposal"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much or to what degree",
+            "importance": "Allows nuanced positions: fully agree, partly agree, or disagree"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + clearly state your position",
+          "body1": "4-5 sentences: First main reason supporting your position with examples",
+          "body2": "4-5 sentences: Second main reason supporting your position with examples",
+          "conclusion": "2 sentences: Summarize reasons + restate position"
+        },
+        "commonMistakes": [
+          "Being too neutral or unclear about your position",
+          "Discussing only benefits without addressing whether it is the BEST solution",
+          "Ignoring the fiscal costs and practical challenges",
+          "Not mentioning alternative solutions to traffic congestion",
+          "Forgetting to address the '24/7' aspect of the proposal"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "traffic congestion",
+            "pronunciation": "/ˈtræfɪk kənˈdʒestʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Overcrowding of roads leading to slower traffic speeds",
+            "example": "Traffic congestion costs cities billions in lost productivity annually.",
+            "synonyms": ["gridlock", "traffic jams", "road congestion"]
+          },
+          {
+            "word": "public transit",
+            "pronunciation": "/ˈpʌblɪk ˈtrænzɪt/",
+            "partOfSpeech": "noun",
+            "definition": "Shared transportation services available to the general public",
+            "example": "Public transit includes buses, trains, and subway systems.",
+            "synonyms": ["public transport", "mass transit", "public transportation"]
+          },
+          {
+            "word": "fiscal burden",
+            "pronunciation": "/ˈfɪskəl ˈbɜːdən/",
+            "partOfSpeech": "noun",
+            "definition": "Financial cost or strain on government budgets",
+            "example": "Free public transport would impose a significant fiscal burden on taxpayers.",
+            "synonyms": ["financial strain", "economic cost", "budgetary pressure"]
+          },
+          {
+            "word": "ridership",
+            "pronunciation": "/ˈraɪdərʃɪp/",
+            "partOfSpeech": "noun",
+            "definition": "The number of passengers using public transportation",
+            "example": "Luxembourg saw increased ridership after introducing free public transport.",
+            "synonyms": ["passenger numbers", "transit usage", "user base"]
+          },
+          {
+            "word": "infrastructure capacity",
+            "pronunciation": "/ˈɪnfrəstrʌktʃər kəˈpæsəti/",
+            "partOfSpeech": "noun",
+            "definition": "The maximum number of users transportation systems can accommodate",
+            "example": "Many cities lack sufficient infrastructure capacity to handle increased transit demand.",
+            "synonyms": ["system capacity", "service capacity", "operational limits"]
+          },
+          {
+            "word": "sustainable mobility",
+            "pronunciation": "/səˈsteɪnəbəl məʊˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "Transportation methods that minimize environmental impact",
+            "example": "Governments are investing in sustainable mobility to reduce carbon emissions.",
+            "synonyms": ["green transportation", "eco-friendly transit", "sustainable transport"]
+          },
+          {
+            "word": "incentivize",
+            "pronunciation": "/ɪnˈsentɪvaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To motivate or encourage specific behavior through rewards",
+            "example": "Free fares incentivize commuters to abandon private vehicles.",
+            "synonyms": ["encourage", "motivate", "stimulate"]
+          },
+          {
+            "word": "viable",
+            "pronunciation": "/ˈvaɪəbəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Capable of working successfully; feasible",
+            "example": "Free 24/7 transit may not be financially viable for most cities.",
+            "synonyms": ["feasible", "practical", "workable"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "rush hour",
+            "definition": "Peak travel times when traffic is heaviest",
+            "example": "Traffic congestion is most severe during morning and evening rush hours."
+          },
+          {
+            "phrase": "modal shift",
+            "definition": "Change from one form of transportation to another",
+            "example": "Free public transport aims to create a modal shift from cars to buses."
+          },
+          {
+            "phrase": "fare-free transit",
+            "definition": "Public transportation that requires no payment from passengers",
+            "example": "Tallinn implemented fare-free transit for residents in 2013."
+          },
+          {
+            "phrase": "taxpayer funding",
+            "definition": "Financial support provided through public tax revenue",
+            "example": "Free public transport relies entirely on taxpayer funding."
+          },
+          {
+            "phrase": "carbon emissions",
+            "definition": "Release of carbon dioxide into the atmosphere",
+            "example": "Reducing private car usage can significantly lower carbon emissions."
+          },
+          {
+            "phrase": "congestion pricing",
+            "definition": "Charging fees to drive in busy areas during peak times",
+            "example": "London uses congestion pricing as an alternative to free public transport."
+          }
+        ],
+        "linkingPhrases": {
+          "stating_opinion": ["In my opinion", "I believe that", "From my perspective", "I partly agree that"],
+          "giving_reasons": ["The primary reason is", "This is mainly because", "The main factor is", "One key advantage is"],
+          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition", "Another point is"],
+          "giving_examples": ["For instance", "For example", "A notable case is", "Luxembourg demonstrates", "Tallinn illustrates"],
+          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this", "Conversely"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "In summary", "Therefore"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that clearly state your position",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "I _____ that free 24/7 public transport is _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["partly agree", "completely agree", "somewhat agree"], "correctAnswer": "partly agree"},
+                  {"id": "thesis1_b2", "options": ["one effective solution but not the only answer", "the perfect solution", "completely ineffective"], "correctAnswer": "one effective solution but not the only answer"}
+                ],
+                "correctSentence": "I partly agree that free 24/7 public transport is one effective solution but not the only answer.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "While _____ offers _____, it may not be _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["this approach", "congestion pricing", "road construction"], "correctAnswer": "this approach"},
+                  {"id": "thesis2_b2", "options": ["certain benefits in reducing traffic", "unlimited capacity", "zero environmental impact"], "correctAnswer": "certain benefits in reducing traffic"},
+                  {"id": "thesis2_b3", "options": ["financially viable for all cities", "necessary", "complicated"], "correctAnswer": "financially viable for all cities"}
+                ],
+                "correctSentence": "While this approach offers certain benefits in reducing traffic, it may not be financially viable for all cities.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "One major advantage is that _____ can _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["fare-free public transit", "expensive tickets", "private cars"], "correctAnswer": "fare-free public transit"},
+                  {"id": "topic1_b2", "options": ["incentivize commuters to abandon private vehicles", "increase government debt", "reduce bus quality"], "correctAnswer": "incentivize commuters to abandon private vehicles"}
+                ],
+                "correctSentence": "One major advantage is that fare-free public transit can incentivize commuters to abandon private vehicles.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "However, _____ imposes _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["implementing free 24/7 service", "building new roads", "charging higher fares"], "correctAnswer": "implementing free 24/7 service"},
+                  {"id": "topic2_b2", "options": ["a substantial fiscal burden on government budgets", "no financial costs", "minor expenses"], "correctAnswer": "a substantial fiscal burden on government budgets"}
+                ],
+                "correctSentence": "However, implementing free 24/7 service imposes a substantial fiscal burden on government budgets.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ makes public transit _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["eliminating fares", "increasing prices", "reducing routes"], "correctAnswer": "eliminating fares"},
+                  {"id": "support1_b2", "options": ["more accessible and attractive compared to driving", "more expensive than cars", "less convenient"], "correctAnswer": "more accessible and attractive compared to driving"}
+                ],
+                "correctSentence": "This is because eliminating fares makes public transit more accessible and attractive compared to driving.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ requires _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["operating buses and trains around the clock", "closing stations early", "reducing service frequency"], "correctAnswer": "operating buses and trains around the clock"},
+                  {"id": "support2_b2", "options": ["substantial taxpayer funding and operational resources", "minimal investment", "volunteer staff"], "correctAnswer": "substantial taxpayer funding and operational resources"}
+                ],
+                "correctSentence": "The main reason is that operating buses and trains around the clock requires substantial taxpayer funding and operational resources.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ introduced _____ and saw _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["Luxembourg", "Singapore", "Tokyo"], "correctAnswer": "Luxembourg"},
+                  {"id": "example1_b2", "options": ["free nationwide public transport in 2020", "congestion pricing", "road tolls"], "correctAnswer": "free nationwide public transport in 2020"},
+                  {"id": "example1_b3", "options": ["increased ridership and reduced traffic congestion", "decreased usage", "higher pollution"], "correctAnswer": "increased ridership and reduced traffic congestion"}
+                ],
+                "correctSentence": "For instance, Luxembourg introduced free nationwide public transport in 2020 and saw increased ridership and reduced traffic congestion.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ during _____ can _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["providing round-the-clock service", "reducing service hours", "increasing ticket prices"], "correctAnswer": "providing round-the-clock service"},
+                  {"id": "example2_b2", "options": ["off-peak hours when demand is minimal", "rush hours only", "weekdays only"], "correctAnswer": "off-peak hours when demand is minimal"},
+                  {"id": "example2_b3", "options": ["strain infrastructure capacity and prove economically wasteful", "maximize efficiency", "reduce costs"], "correctAnswer": "strain infrastructure capacity and prove economically wasteful"}
+                ],
+                "correctSentence": "For example, providing round-the-clock service during off-peak hours when demand is minimal can strain infrastructure capacity and prove economically wasteful.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["free public transport can help reduce congestion", "this solution is perfect", "traffic is impossible to solve"], "correctAnswer": "free public transport can help reduce congestion"},
+                  {"id": "conclusion1_b2", "options": ["it should be combined with other measures for optimal results", "it is the only solution needed", "it will never work"], "correctAnswer": "it should be combined with other measures for optimal results"}
+                ],
+                "correctSentence": "In conclusion, while free public transport can help reduce congestion, I believe it should be combined with other measures for optimal results.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Partial Agreement",
+            "structure": {
+              "introduction": "Traffic congestion has become a pressing concern in modern cities. While I partly agree that [free 24/7 public transport can help], I believe [it is not the only or best solution on its own].",
+              "body1": "One major advantage of this approach is [reason 1 why it helps]. This is because [explanation]. For instance, [specific example like Luxembourg]. As a result, [positive outcome].",
+              "body2": "However, this solution faces significant challenges. The primary concern is [reason 1 against or limitation]. For example, [specific example or evidence]. Moreover, [additional limitation or alternative solution]. Therefore, [conclusion about limitations].",
+              "conclusion": "In conclusion, while [summarize the benefits], I believe [restate position that it needs to be combined with other measures]."
+            }
+          },
+          {
+            "name": "Template 2: Strong Agreement",
+            "structure": {
+              "introduction": "Urban traffic congestion has reached crisis levels globally. I strongly agree that [free 24/7 public transport is an effective solution] because [it addresses root causes].",
+              "body1": "First and foremost, [main reason supporting position]. This is because [explanation]. For instance, [example]. Consequently, [positive result].",
+              "body2": "Furthermore, [second major reason]. The main reason is [explanation]. For example, [example]. This demonstrates [conclusion].",
+              "conclusion": "In conclusion, [summarize two main reasons] clearly show that [restate strong agreement with the proposition]."
+            }
+          },
+          {
+            "name": "Template 3: Disagreement",
+            "structure": {
+              "introduction": "While traffic congestion is a serious problem, I disagree that [free 24/7 public transport is the best solution] because [there are more effective alternatives].",
+              "body1": "The primary issue is [main problem with the proposal]. This is because [explanation]. For instance, [example showing limitation]. As a result, [negative consequence].",
+              "body2": "Moreover, [second problem or better alternative]. For example, [example of alternative like congestion pricing]. This approach [explain why alternative is better].",
+              "conclusion": "In conclusion, [summarize limitations] suggest that [restate disagreement and mention better alternatives]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "stating_opinion": ["I partly agree that", "I strongly believe that", "From my perspective", "In my view"],
+          "giving_reasons": ["The primary reason is", "One major advantage is", "The main issue is", "First and foremost"],
+          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition", "Another point to consider"],
+          "giving_examples": ["For instance", "For example", "Luxembourg demonstrates", "Tallinn illustrates", "A notable case is"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this", "Conversely"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Traffic congestion has become _____ [describe the problem]. While I _____ [state your position: partly agree/strongly agree/disagree], I believe _____ [clarify your position with reasoning].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe the problem",
+                "hint": "Paraphrase the issue of traffic congestion in cities",
+                "placeholder": "e.g., a pressing concern in modern cities, causing delays and environmental pollution",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "State your position",
+                "hint": "Use 'partly agree that', 'strongly agree that', or 'disagree that' + restate proposition",
+                "placeholder": "e.g., partly agree that providing free 24/7 public transport can help reduce traffic congestion",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Clarify your position",
+                "hint": "Explain the nuance of your position",
+                "placeholder": "e.g., this approach alone may not be sufficient and should be combined with other measures",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "One major advantage of this policy is that _____ [topic sentence about benefits]. This is because _____ [explain the reason]. For instance, _____ [give a specific example with real places like Luxembourg or Tallinn]. As a result, _____ [state the positive outcome].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence about benefits",
+                "hint": "Main benefit of free public transport for reducing congestion",
+                "placeholder": "e.g., fare-free transit can incentivize commuters to abandon private vehicles and use public transport",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does removing fares help reduce traffic?",
+                "placeholder": "e.g., eliminating ticket costs makes buses and trains more financially attractive compared to expensive fuel and parking",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Use Luxembourg, Tallinn, or another city with free transport",
+                "placeholder": "e.g., Luxembourg introduced free nationwide public transport in 2020 and observed a 13% increase in ridership",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Positive outcome",
+                "hint": "What is the final benefit?",
+                "placeholder": "e.g., this modal shift reduces the number of cars on roads, alleviating congestion and lowering carbon emissions",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "However, _____ [topic sentence about limitations or second supporting point]. The main reason is _____ [explain why this is a problem or advantage]. For example, _____ [specific example or evidence]. Therefore, _____ [conclusion about this aspect].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence",
+                "hint": "State a limitation, challenge, or second benefit",
+                "placeholder": "e.g., implementing free 24/7 public transport imposes a substantial fiscal burden on government budgets",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain the reason",
+                "hint": "Explain the mechanism or reasoning",
+                "placeholder": "e.g., operating buses and trains around the clock requires significant taxpayer funding for staff, maintenance, and infrastructure",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Give concrete evidence or example",
+                "placeholder": "e.g., many cities already struggle with transit funding, and 24/7 service during low-demand hours wastes resources",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this aspect",
+                "hint": "Wrap up this paragraph's point",
+                "placeholder": "e.g., alternative measures like congestion pricing or improved infrastructure capacity may prove more cost-effective",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly summarize the benefits], I believe _____ [restate your position with final thought about alternatives or combined approach].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize benefits",
+                "hint": "One sentence mentioning the main advantage of free public transport",
+                "placeholder": "e.g., free 24/7 public transport can incentivize modal shift and reduce traffic congestion",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate position with final thought",
+                "hint": "Clearly restate YOUR position and mention other solutions",
+                "placeholder": "e.g., it should be part of a comprehensive strategy including congestion pricing, better infrastructure, and sustainable urban planning",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your clear position"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss main benefit with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss limitations or second point with examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize + restate position"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position (agree/partly agree/disagree)",
+          "Body paragraph 1 explains main benefit with specific example",
+          "Body paragraph 2 discusses limitations or alternative solutions",
+          "Conclusion restates position clearly",
+          "Essay is 250-280 words",
+          "Academic vocabulary used appropriately",
+          "Specific examples mentioned (Luxembourg, Tallinn, congestion pricing, etc.)",
+          "Linking words used to connect ideas"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Traffic congestion has become one of the most pressing urban challenges of the 21st century, causing economic losses and environmental degradation. While I partly agree that providing free 24-hour public transport can help alleviate this problem, I believe this solution alone is insufficient and must be combined with other traffic management strategies to be truly effective.\n\nOne major advantage of fare-free public transit is its potential to incentivize modal shift away from private vehicles. Eliminating ticket costs removes a significant financial barrier, making buses and trains more attractive compared to the expenses of fuel, parking, and vehicle maintenance. For instance, Luxembourg introduced free nationwide public transport in 2020 and observed a notable increase in ridership, particularly among commuters who previously drove to work. Similarly, Tallinn, Estonia, implemented fare-free transit for residents in 2013, which successfully reduced car usage during peak hours. As a result, these cities experienced decreased traffic congestion and lower carbon emissions from road transport.\n\nHowever, implementing free 24/7 public transit imposes a substantial fiscal burden on government budgets. Operating buses and trains around the clock requires significant taxpayer funding for personnel, maintenance, and infrastructure upgrades. Many cities already struggle with limited infrastructure capacity during rush hours, and extending service continuously may strain resources without proportional benefits during low-demand periods. Furthermore, alternative solutions such as congestion pricing, as successfully implemented in London and Singapore, or investments in cycling infrastructure and remote work policies, may prove more cost-effective and sustainable.\n\nIn conclusion, while free round-the-clock public transport can contribute to reducing traffic congestion, I believe it should form part of a comprehensive strategy rather than being viewed as the singular best solution. A combination of measures including congestion pricing, infrastructure improvements, and sustainable urban planning would address the problem more effectively.",
+    "wordCount": 289,
+    "structure": {
+      "introduction": "Traffic congestion has become one of the most pressing urban challenges of the 21st century, causing economic losses and environmental degradation. While I partly agree that providing free 24-hour public transport can help alleviate this problem, I believe this solution alone is insufficient and must be combined with other traffic management strategies to be truly effective.",
+      "body1": "One major advantage of fare-free public transit is its potential to incentivize modal shift away from private vehicles. Eliminating ticket costs removes a significant financial barrier, making buses and trains more attractive compared to the expenses of fuel, parking, and vehicle maintenance. For instance, Luxembourg introduced free nationwide public transport in 2020 and observed a notable increase in ridership, particularly among commuters who previously drove to work. Similarly, Tallinn, Estonia, implemented fare-free transit for residents in 2013, which successfully reduced car usage during peak hours. As a result, these cities experienced decreased traffic congestion and lower carbon emissions from road transport.",
+      "body2": "However, implementing free 24/7 public transit imposes a substantial fiscal burden on government budgets. Operating buses and trains around the clock requires significant taxpayer funding for personnel, maintenance, and infrastructure upgrades. Many cities already struggle with limited infrastructure capacity during rush hours, and extending service continuously may strain resources without proportional benefits during low-demand periods. Furthermore, alternative solutions such as congestion pricing, as successfully implemented in London and Singapore, or investments in cycling infrastructure and remote work policies, may prove more cost-effective and sustainable.",
+      "conclusion": "In conclusion, while free round-the-clock public transport can contribute to reducing traffic congestion, I believe it should form part of a comprehensive strategy rather than being viewed as the singular best solution. A combination of measures including congestion pricing, infrastructure improvements, and sustainable urban planning would address the problem more effectively."
+    },
+    "highlights": [
+      {
+        "text": "traffic congestion",
+        "type": "topic-vocab",
+        "explanation": "Key term from the question - the problem being addressed"
+      },
+      {
+        "text": "modal shift",
+        "type": "academic-vocab",
+        "explanation": "Academic term for changing from one mode of transport to another"
+      },
+      {
+        "text": "fiscal burden",
+        "type": "academic-vocab",
+        "explanation": "Academic term for financial cost or strain"
+      },
+      {
+        "text": "For instance... Similarly",
+        "type": "linking-word",
+        "explanation": "Introduces specific examples from Luxembourg and Tallinn"
+      },
+      {
+        "text": "However",
+        "type": "linking-word",
+        "explanation": "Signals contrast between benefits and limitations"
+      },
+      {
+        "text": "infrastructure capacity",
+        "type": "topic-vocab",
+        "explanation": "Technical term for system capacity and operational limits"
+      },
+      {
+        "text": "congestion pricing",
+        "type": "topic-vocab",
+        "explanation": "Alternative solution mentioned as comparison"
+      },
+      {
+        "text": "sustainable urban planning",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for long-term city development strategies"
+      }
+    ]
+  }
+}

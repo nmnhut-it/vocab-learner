@@ -1,0 +1,671 @@
+{
+  "id": "private-government-research",
+  "title": "Private vs Government Scientific Research",
+  "category": "Science & Business",
+  "difficulty": "Medium",
+  "question": {
+    "text": "In today's world, private companies, rather than the government, pay for and conduct most scientific research. Do you think the advantages outweigh the disadvantages?",
+    "type": "Advantages/Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages/Disadvantages",
+          "explanation": "You must discuss BOTH advantages AND disadvantages of private companies conducting research, then clearly state whether advantages outweigh disadvantages.",
+          "requirements": [
+            "Discuss advantages of private scientific research",
+            "Discuss disadvantages of private scientific research",
+            "Give clear opinion on whether advantages outweigh disadvantages",
+            "Provide specific examples from real companies or sectors"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "private companies",
+            "definition": "Businesses owned by individuals or shareholders, not government",
+            "importance": "The main actor in this discussion - focus on their motives and methods"
+          },
+          {
+            "word": "rather than the government",
+            "definition": "Instead of public/state-funded institutions",
+            "importance": "Sets up the comparison with traditional government research"
+          },
+          {
+            "word": "scientific research",
+            "definition": "Systematic investigation to establish facts and principles",
+            "importance": "The subject matter - consider different research types"
+          },
+          {
+            "word": "advantages outweigh disadvantages",
+            "definition": "Benefits are more significant than drawbacks",
+            "importance": "Signals you must evaluate and compare both sides"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your clear position",
+          "body1": "4-5 sentences: Discuss advantages with specific examples",
+          "body2": "4-5 sentences: Discuss disadvantages with specific examples",
+          "conclusion": "2 sentences: Summarize both sides + restate whether advantages outweigh disadvantages"
+        },
+        "commonMistakes": [
+          "Only discussing advantages without covering disadvantages thoroughly",
+          "Not taking a clear position on whether advantages outweigh disadvantages",
+          "Forgetting to mention specific examples like pharmaceutical or tech companies",
+          "Ignoring the public interest vs profit motive tension"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "R&D investment",
+            "pronunciation": "/ɑːr ənd diː ɪnˈvestmənt/",
+            "partOfSpeech": "noun",
+            "definition": "Money spent on research and development activities",
+            "example": "Tech companies allocate billions in R&D investment to stay competitive.",
+            "synonyms": ["research funding", "development spending"]
+          },
+          {
+            "word": "intellectual property",
+            "pronunciation": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
+            "partOfSpeech": "noun",
+            "definition": "Legal rights to inventions, discoveries, or creative works",
+            "example": "Private firms protect their discoveries through intellectual property patents.",
+            "synonyms": ["IP", "proprietary rights"]
+          },
+          {
+            "word": "peer review",
+            "pronunciation": "/pɪə rɪˈvjuː/",
+            "partOfSpeech": "noun",
+            "definition": "Evaluation of research by experts in the same field",
+            "example": "Government research typically undergoes rigorous peer review before publication.",
+            "synonyms": ["academic scrutiny", "expert evaluation"]
+          },
+          {
+            "word": "commercial viability",
+            "pronunciation": "/kəˈmɜːʃəl ˌvaɪəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "Ability of a product or service to generate profit",
+            "example": "Private research focuses on commercial viability rather than pure science.",
+            "synonyms": ["profitability", "marketability"]
+          },
+          {
+            "word": "fundamental research",
+            "pronunciation": "/ˌfʌndəˈmentəl rɪˈsɜːtʃ/",
+            "partOfSpeech": "noun",
+            "definition": "Basic scientific investigation without immediate practical application",
+            "example": "Fundamental research in physics often receives less private funding.",
+            "synonyms": ["basic research", "pure science"]
+          },
+          {
+            "word": "innovation",
+            "pronunciation": "/ˌɪnəˈveɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Introduction of new ideas, methods, or products",
+            "example": "Private companies drive innovation through competitive market pressures.",
+            "synonyms": ["advancement", "breakthrough"]
+          },
+          {
+            "word": "transparency",
+            "pronunciation": "/trænsˈpærənsi/",
+            "partOfSpeech": "noun",
+            "definition": "Openness and accountability in operations",
+            "example": "Government research offers greater transparency than proprietary corporate studies.",
+            "synonyms": ["openness", "accountability"]
+          },
+          {
+            "word": "proprietary",
+            "pronunciation": "/prəˈpraɪətəri/",
+            "partOfSpeech": "adjective",
+            "definition": "Owned by a private company and protected by patents",
+            "example": "Proprietary research results are often kept secret for competitive advantage.",
+            "synonyms": ["exclusive", "patented"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "knowledge sharing",
+            "definition": "Open exchange of information and findings",
+            "example": "Government research promotes knowledge sharing across the scientific community."
+          },
+          {
+            "phrase": "profit-driven research",
+            "definition": "Investigation aimed at generating financial returns",
+            "example": "Profit-driven research may neglect areas without commercial potential."
+          },
+          {
+            "phrase": "public good",
+            "definition": "Benefits shared by all members of society",
+            "example": "Basic scientific research contributes to the public good rather than private profit."
+          },
+          {
+            "phrase": "market forces",
+            "definition": "Economic factors influencing business decisions",
+            "example": "Market forces drive private companies to prioritize profitable research areas."
+          },
+          {
+            "phrase": "breakthrough discoveries",
+            "definition": "Major advances that significantly change understanding",
+            "example": "Both private and government labs have produced breakthrough discoveries."
+          },
+          {
+            "phrase": "funding availability",
+            "definition": "Access to financial resources for research",
+            "example": "Private sector offers better funding availability for applied research projects."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["The shift towards private research presents", "This trend has both positive and negative aspects", "While this development brings"],
+          "contrasting": ["On the one hand", "On the other hand", "However", "Conversely"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "A clear example is", "Particularly"],
+          "concluding": ["In conclusion", "On balance", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both sides and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "This trend brings _____, but also _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["faster innovation and efficiency", "more money", "better equipment"], "correctAnswer": "faster innovation and efficiency"},
+                  {"id": "thesis1_b2", "options": ["raises concerns about profit prioritization over public benefit", "costs more", "requires training"], "correctAnswer": "raises concerns about profit prioritization over public benefit"}
+                ],
+                "correctSentence": "This trend brings faster innovation and efficiency, but also raises concerns about profit prioritization over public benefit.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ despite _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["the advantages outweigh the disadvantages", "both sides are equal", "research should stop"], "correctAnswer": "the advantages outweigh the disadvantages"},
+                  {"id": "thesis2_b2", "options": ["some legitimate concerns about accessibility and public interest", "high costs", "technical challenges"], "correctAnswer": "some legitimate concerns about accessibility and public interest"}
+                ],
+                "correctSentence": "In my opinion, the advantages outweigh the disadvantages despite some legitimate concerns about accessibility and public interest.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "The primary advantage is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["private sector involvement", "government control", "international cooperation"], "correctAnswer": "private sector involvement"},
+                  {"id": "topic1_b2", "options": ["accelerated innovation and more efficient resource allocation", "slower progress", "higher taxes"], "correctAnswer": "accelerated innovation and more efficient resource allocation"}
+                ],
+                "correctSentence": "The primary advantage is that private sector involvement leads to accelerated innovation and more efficient resource allocation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "However, _____ creates _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["profit-driven research", "government funding", "academic collaboration"], "correctAnswer": "profit-driven research"},
+                  {"id": "topic2_b2", "options": ["significant concerns about equity and public interest", "more jobs", "better universities"], "correctAnswer": "significant concerns about equity and public interest"}
+                ],
+                "correctSentence": "However, profit-driven research creates significant concerns about equity and public interest.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments-advantages",
+            "title": "Supporting Arguments - Advantages",
+            "description": "Explain WHY private research brings advantages",
+            "exercises": [
+              {
+                "id": "support_adv1",
+                "type": "template",
+                "template": "This is because _____ incentivizes companies to _____.",
+                "blanks": [
+                  {"id": "support_adv1_b1", "options": ["market competition", "government regulation", "public opinion"], "correctAnswer": "market competition"},
+                  {"id": "support_adv1_b2", "options": ["develop products quickly and efficiently to gain competitive advantage", "work slowly", "share all findings"], "correctAnswer": "develop products quickly and efficiently to gain competitive advantage"}
+                ],
+                "correctSentence": "This is because market competition incentivizes companies to develop products quickly and efficiently to gain competitive advantage.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support_adv2",
+                "type": "template",
+                "template": "Private companies can _____ without _____.",
+                "blanks": [
+                  {"id": "support_adv2_b1", "options": ["invest substantial resources in promising research areas", "hire scientists", "publish papers"], "correctAnswer": "invest substantial resources in promising research areas"},
+                  {"id": "support_adv2_b2", "options": ["bureaucratic delays typical of government-funded projects", "paying salaries", "conducting experiments"], "correctAnswer": "bureaucratic delays typical of government-funded projects"}
+                ],
+                "correctSentence": "Private companies can invest substantial resources in promising research areas without bureaucratic delays typical of government-funded projects.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support_adv3",
+                "type": "template",
+                "template": "Moreover, _____ attracts _____ who _____.",
+                "blanks": [
+                  {"id": "support_adv3_b1", "options": ["higher private sector salaries", "government benefits", "academic titles"], "correctAnswer": "higher private sector salaries"},
+                  {"id": "support_adv3_b2", "options": ["top scientific talent", "average workers", "administrators"], "correctAnswer": "top scientific talent"},
+                  {"id": "support_adv3_b3", "options": ["drive breakthrough discoveries and technological advancement", "work standard hours", "attend conferences"], "correctAnswer": "drive breakthrough discoveries and technological advancement"}
+                ],
+                "correctSentence": "Moreover, higher private sector salaries attract top scientific talent who drive breakthrough discoveries and technological advancement.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments-disadvantages",
+            "title": "Supporting Arguments - Disadvantages",
+            "description": "Explain WHY private research has disadvantages",
+            "exercises": [
+              {
+                "id": "support_dis1",
+                "type": "template",
+                "template": "The main concern is that _____ may _____.",
+                "blanks": [
+                  {"id": "support_dis1_b1", "options": ["profit-oriented companies", "government agencies", "universities"], "correctAnswer": "profit-oriented companies"},
+                  {"id": "support_dis1_b2", "options": ["neglect fundamental research that lacks immediate commercial viability", "hire more staff", "publish more often"], "correctAnswer": "neglect fundamental research that lacks immediate commercial viability"}
+                ],
+                "correctSentence": "The main concern is that profit-oriented companies may neglect fundamental research that lacks immediate commercial viability.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support_dis2",
+                "type": "template",
+                "template": "Furthermore, _____ can limit _____ because _____.",
+                "blanks": [
+                  {"id": "support_dis2_b1", "options": ["proprietary research", "public funding", "academic journals"], "correctAnswer": "proprietary research"},
+                  {"id": "support_dis2_b2", "options": ["knowledge sharing across the scientific community", "company profits", "research speed"], "correctAnswer": "knowledge sharing across the scientific community"},
+                  {"id": "support_dis2_b3", "options": ["companies protect intellectual property to maintain competitive advantages", "scientists are busy", "equipment is expensive"], "correctAnswer": "companies protect intellectual property to maintain competitive advantages"}
+                ],
+                "correctSentence": "Furthermore, proprietary research can limit knowledge sharing across the scientific community because companies protect intellectual property to maintain competitive advantages.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support_dis3",
+                "type": "template",
+                "template": "Additionally, _____ prioritize _____ over _____.",
+                "blanks": [
+                  {"id": "support_dis3_b1", "options": ["private firms", "government labs", "universities"], "correctAnswer": "private firms"},
+                  {"id": "support_dis3_b2", "options": ["profitable research areas", "all scientific fields", "academic publications"], "correctAnswer": "profitable research areas"},
+                  {"id": "support_dis3_b3", "options": ["public health needs or environmental concerns", "company growth", "hiring staff"], "correctAnswer": "public health needs or environmental concerns"}
+                ],
+                "correctSentence": "Additionally, private firms prioritize profitable research areas over public health needs or environmental concerns.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ have _____ by _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["pharmaceutical companies", "government agencies", "universities"], "correctAnswer": "pharmaceutical companies"},
+                  {"id": "example1_b2", "options": ["developed life-saving vaccines and treatments rapidly", "published papers", "trained students"], "correctAnswer": "developed life-saving vaccines and treatments rapidly"},
+                  {"id": "example1_b3", "options": ["investing billions in R&D to create commercially viable products", "receiving government grants", "teaching courses"], "correctAnswer": "investing billions in R&D to create commercially viable products"}
+                ],
+                "correctSentence": "For instance, pharmaceutical companies have developed life-saving vaccines and treatments rapidly by investing billions in R&D to create commercially viable products.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "Similarly, _____ like _____ continually _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["tech giants", "government departments", "public schools"], "correctAnswer": "tech giants"},
+                  {"id": "example2_b2", "options": ["Google and Apple", "NASA and USDA", "local councils"], "correctAnswer": "Google and Apple"},
+                  {"id": "example2_b3", "options": ["push boundaries in artificial intelligence and consumer technology", "write reports", "conduct surveys"], "correctAnswer": "push boundaries in artificial intelligence and consumer technology"}
+                ],
+                "correctSentence": "Similarly, tech giants like Google and Apple continually push boundaries in artificial intelligence and consumer technology.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "For example, _____ demonstrates how _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["the high cost of proprietary cancer drugs", "free government research", "university collaboration"], "correctAnswer": "the high cost of proprietary cancer drugs"},
+                  {"id": "example3_b2", "options": ["private research can create accessibility barriers for patients who need treatment", "research benefits everyone", "scientists work together"], "correctAnswer": "private research can create accessibility barriers for patients who need treatment"}
+                ],
+                "correctSentence": "For example, the high cost of proprietary cancer drugs demonstrates how private research can create accessibility barriers for patients who need treatment.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "The contrast between _____ and _____ illustrates _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["NASA's open space research", "private laboratories", "corporate profits"], "correctAnswer": "NASA's open space research"},
+                  {"id": "example4_b2", "options": ["SpaceX's proprietary technology", "government bureaucracy", "university teaching"], "correctAnswer": "SpaceX's proprietary technology"},
+                  {"id": "example4_b3", "options": ["the tension between knowledge sharing and competitive advantage", "research costs", "technological progress"], "correctAnswer": "the tension between knowledge sharing and competitive advantage"}
+                ],
+                "correctSentence": "The contrast between NASA's open space research and SpaceX's proprietary technology illustrates the tension between knowledge sharing and competitive advantage.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["private research raises concerns about equity and public interest", "research is expensive", "companies make profits"], "correctAnswer": "private research raises concerns about equity and public interest"},
+                  {"id": "conclusion1_b2", "options": ["the efficiency and innovation benefits outweigh these disadvantages", "both sides are equal", "we should stop all research"], "correctAnswer": "the efficiency and innovation benefits outweigh these disadvantages"}
+                ],
+                "correctSentence": "In conclusion, while private research raises concerns about equity and public interest, the efficiency and innovation benefits outweigh these disadvantages.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "On balance, _____ provided that _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["the advantages of private scientific research outweigh the drawbacks", "government should control everything", "research should be banned"], "correctAnswer": "the advantages of private scientific research outweigh the drawbacks"},
+                  {"id": "conclusion2_b2", "options": ["proper regulations ensure research serves public interest alongside profit motives", "companies pay more taxes", "universities close down"], "correctAnswer": "proper regulations ensure research serves public interest alongside profit motives"}
+                ],
+                "correctSentence": "On balance, the advantages of private scientific research outweigh the drawbacks provided that proper regulations ensure research serves public interest alongside profit motives.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Advantages Outweigh Disadvantages",
+            "structure": {
+              "introduction": "The increasing role of private companies in scientific research represents a significant shift from traditional government-led investigation. While this trend [mention main advantage], it also [mention main disadvantage]. In my opinion, the advantages outweigh the disadvantages [optional: add condition or caveat].",
+              "body1": "The primary advantage is [topic sentence about main benefit]. This is because [explain reasoning]. For instance, [specific example with companies/sectors]. Moreover, [additional supporting point]. As a result, [state positive outcome].",
+              "body2": "However, profit-driven research creates [topic sentence about main drawback]. The main concern is that [explain the problem]. For example, [specific example showing the disadvantage]. Furthermore, [additional negative aspect]. Therefore, [conclude this perspective].",
+              "conclusion": "In conclusion, while [acknowledge disadvantages briefly], I believe the advantages of [restate main benefits] outweigh these concerns. [Optional: suggest balance or regulation]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_advantages": ["The primary advantage is", "A major benefit of this trend is", "One significant advantage is"],
+          "presenting_disadvantages": ["However", "On the negative side", "Despite these benefits", "The main drawback is"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Beyond this"],
+          "giving_examples": ["For instance", "For example", "A clear example is", "Particularly", "Take for instance"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "balancing": ["On balance", "Overall", "While acknowledging", "Despite", "Although"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "The increasing dominance of _____ [describe the trend]. While this development _____ [mention advantages], it also _____ [mention disadvantages]. In my opinion, _____ [clearly state YOUR position on whether advantages outweigh disadvantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Describe the trend",
+                "hint": "Paraphrase 'private companies conducting most scientific research'",
+                "placeholder": "e.g., private sector in scientific research represents a significant shift from traditional government-led investigation",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Mention advantages",
+                "hint": "Briefly state main benefits of private research",
+                "placeholder": "e.g., brings faster innovation and more efficient resource allocation to research and development",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Mention disadvantages",
+                "hint": "Briefly state main concerns about private research",
+                "placeholder": "e.g., raises concerns about profit prioritization over public interest and accessibility of research outcomes",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank4",
+                "label": "Your position",
+                "hint": "Clear statement: do advantages outweigh disadvantages or vice versa?",
+                "placeholder": "e.g., the advantages of innovation and efficiency outweigh the disadvantages despite legitimate concerns about equity",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Advantages",
+            "template": "The primary advantage is that _____ [topic sentence about main benefit]. This is because _____ [explain WHY this is beneficial]. For instance, _____ [specific example with companies or sectors]. Moreover, _____ [additional supporting point]. As a result, _____ [state the positive outcome or impact].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - main advantage",
+                "hint": "Main benefit of private sector research (innovation, speed, efficiency, funding)",
+                "placeholder": "e.g., private sector involvement leads to accelerated innovation and more efficient allocation of research resources",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain WHY beneficial",
+                "hint": "Reasoning behind this advantage",
+                "placeholder": "e.g., market competition incentivizes companies to develop products quickly without bureaucratic delays typical of government projects",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Use pharmaceutical companies, tech giants, or SpaceX",
+                "placeholder": "e.g., pharmaceutical companies like Pfizer and Moderna developed COVID vaccines in record time by investing billions in R&D",
+                "minWords": 14
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Additional supporting point",
+                "hint": "Another advantage (talent attraction, better funding, focus)",
+                "placeholder": "e.g., higher private sector salaries attract top scientific talent who drive breakthrough discoveries in cutting-edge fields",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank5",
+                "label": "Positive outcome",
+                "hint": "What is the final beneficial result?",
+                "placeholder": "e.g., this efficiency and innovation benefit society through faster availability of life-improving technologies and treatments",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Disadvantages",
+            "template": "However, _____ [topic sentence about main disadvantage]. The main concern is that _____ [explain the problem]. For example, _____ [specific example showing disadvantage]. Furthermore, _____ [additional negative aspect]. Therefore, _____ [conclude about this drawback].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - main disadvantage",
+                "hint": "Main problem with private research (profit focus, accessibility, lack of basic research)",
+                "placeholder": "e.g., profit-driven research creates significant concerns about equity, accessibility, and neglect of fundamental science",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain the problem",
+                "hint": "WHY is this a problem? What happens?",
+                "placeholder": "e.g., profit-oriented companies may neglect fundamental research that lacks immediate commercial viability but benefits society long-term",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Drug prices, proprietary tech, NASA vs SpaceX, basic research neglect",
+                "placeholder": "e.g., the high cost of proprietary cancer drugs demonstrates how private research creates accessibility barriers for patients needing treatment",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Additional negative aspect",
+                "hint": "Another disadvantage (knowledge sharing limits, short-term focus, public good neglect)",
+                "placeholder": "e.g., proprietary research limits knowledge sharing across the scientific community as companies protect intellectual property for competitive advantage",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank5",
+                "label": "Conclude about drawback",
+                "hint": "What is the negative impact or concern?",
+                "placeholder": "e.g., these issues raise legitimate concerns about whether private research adequately serves broader public interest and societal needs",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [acknowledge disadvantages], I believe _____ [restate your opinion with reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge disadvantages",
+                "hint": "Briefly mention the concerns from body paragraph 2",
+                "placeholder": "e.g., private research raises concerns about profit prioritization, accessibility issues, and potential neglect of fundamental science",
+                "minWords": 12
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate opinion with reasoning",
+                "hint": "Clear final position on whether advantages outweigh disadvantages and why",
+                "placeholder": "e.g., the advantages of accelerated innovation, efficiency, and breakthrough discoveries outweigh these disadvantages, provided proper regulations ensure research serves public interest alongside profit motives",
+                "minWords": 18
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "3 sentences",
+            "purpose": "Paraphrase question, mention both advantages and disadvantages briefly, state your clear position"
+          },
+          "body1": {
+            "sentences": "5 sentences",
+            "purpose": "Discuss advantages with reasons and specific examples (pharmaceutical companies, tech giants)"
+          },
+          "body2": {
+            "sentences": "5 sentences",
+            "purpose": "Discuss disadvantages with reasons and specific examples (drug costs, knowledge sharing limits)"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Acknowledge disadvantages, restate opinion on whether advantages outweigh disadvantages"
+          }
+        },
+        "checklist": [
+          "Introduction paraphrases question and states clear position on advantages vs disadvantages",
+          "Body paragraph 1 discusses advantages with specific examples (pharmaceutical/tech companies)",
+          "Body paragraph 2 discusses disadvantages with specific examples (accessibility, basic research)",
+          "Conclusion clearly restates whether advantages outweigh disadvantages",
+          "Essay is 250-280 words",
+          "Academic vocabulary used: R&D investment, intellectual property, commercial viability, fundamental research, knowledge sharing",
+          "Linking words used to connect ideas clearly"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "The increasing dominance of private companies in scientific research represents a significant shift from traditional government-led investigation. While this development brings faster innovation and more efficient resource allocation, it also raises concerns about profit prioritization over public interest and accessibility of research findings. In my opinion, the advantages of innovation and efficiency outweigh the disadvantages, despite some legitimate concerns about equity and fundamental research.\n\nThe primary advantage is that private sector involvement accelerates innovation and improves research efficiency. Market competition incentivizes companies to develop breakthrough products quickly without the bureaucratic delays typical of government-funded projects. For instance, pharmaceutical companies like Pfizer and Moderna invested billions in R&D investment and developed COVID-19 vaccines in record time, demonstrating the power of private sector efficiency. Moreover, higher salaries in private research attract top scientific talent who drive cutting-edge discoveries in fields like artificial intelligence and biotechnology. As a result, society benefits from faster availability of life-improving technologies and treatments that might have taken years longer through traditional government channels.\n\nHowever, profit-driven research creates significant concerns about equity, accessibility, and neglect of fundamental research. The main problem is that companies naturally prioritize research areas with strong commercial viability while potentially neglecting basic science that lacks immediate profit potential. For example, the high cost of proprietary cancer drugs demonstrates how private research can create accessibility barriers for patients who desperately need treatment. Furthermore, companies protect intellectual property to maintain competitive advantages, which limits knowledge sharing across the scientific community and may slow overall scientific progress. Therefore, there are legitimate concerns about whether private research adequately serves broader public interest rather than shareholder profits.\n\nIn conclusion, while private research raises concerns about profit prioritization, accessibility, and fundamental science neglect, I believe the advantages of accelerated innovation, efficiency, and breakthrough discoveries outweigh these disadvantages. However, proper government regulations should ensure that private research serves public interest alongside profit motives.",
+    "wordCount": 295,
+    "structure": {
+      "introduction": "The increasing dominance of private companies in scientific research represents a significant shift from traditional government-led investigation. While this development brings faster innovation and more efficient resource allocation, it also raises concerns about profit prioritization over public interest and accessibility of research findings. In my opinion, the advantages of innovation and efficiency outweigh the disadvantages, despite some legitimate concerns about equity and fundamental research.",
+      "body1": "The primary advantage is that private sector involvement accelerates innovation and improves research efficiency. Market competition incentivizes companies to develop breakthrough products quickly without the bureaucratic delays typical of government-funded projects. For instance, pharmaceutical companies like Pfizer and Moderna invested billions in R&D investment and developed COVID-19 vaccines in record time, demonstrating the power of private sector efficiency. Moreover, higher salaries in private research attract top scientific talent who drive cutting-edge discoveries in fields like artificial intelligence and biotechnology. As a result, society benefits from faster availability of life-improving technologies and treatments that might have taken years longer through traditional government channels.",
+      "body2": "However, profit-driven research creates significant concerns about equity, accessibility, and neglect of fundamental research. The main problem is that companies naturally prioritize research areas with strong commercial viability while potentially neglecting basic science that lacks immediate profit potential. For example, the high cost of proprietary cancer drugs demonstrates how private research can create accessibility barriers for patients who desperately need treatment. Furthermore, companies protect intellectual property to maintain competitive advantages, which limits knowledge sharing across the scientific community and may slow overall scientific progress. Therefore, there are legitimate concerns about whether private research adequately serves broader public interest rather than shareholder profits.",
+      "conclusion": "In conclusion, while private research raises concerns about profit prioritization, accessibility, and fundamental science neglect, I believe the advantages of accelerated innovation, efficiency, and breakthrough discoveries outweigh these disadvantages. However, proper government regulations should ensure that private research serves public interest alongside profit motives."
+    },
+    "highlights": [
+      {
+        "text": "R&D investment",
+        "type": "academic-vocab",
+        "explanation": "Research and development spending - key term in business and science discussions"
+      },
+      {
+        "text": "commercial viability",
+        "type": "academic-vocab",
+        "explanation": "Ability to generate profit - important concept for private research discussion"
+      },
+      {
+        "text": "intellectual property",
+        "type": "academic-vocab",
+        "explanation": "Legal rights to inventions and discoveries - central to private research concerns"
+      },
+      {
+        "text": "For instance... Moreover... As a result",
+        "type": "linking-word",
+        "explanation": "Clear progression: example, additional point, conclusion"
+      },
+      {
+        "text": "However... Furthermore... Therefore",
+        "type": "linking-word",
+        "explanation": "Contrast structure showing disadvantages systematically"
+      },
+      {
+        "text": "fundamental research",
+        "type": "academic-vocab",
+        "explanation": "Basic science without immediate practical application - key concern about private research"
+      }
+    ]
+  }
+}

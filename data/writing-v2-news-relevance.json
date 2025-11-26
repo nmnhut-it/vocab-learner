@@ -1,0 +1,1011 @@
+{
+  "id": "news-relevance",
+  "title": "News Media Relevance",
+  "category": "Media & Society",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think the news has no connection to people's lives, so then it is a waste of time to read the news in the newspaper and watch television news programs. To what extent do you agree or disagree?",
+    "type": "Agree/Disagree",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Agree/Disagree",
+          "explanation": "You must state how much you agree or disagree with the statement that news is irrelevant and a waste of time.",
+          "requirements": [
+            "State your position clearly (strongly agree/disagree or partially agree)",
+            "Provide reasons supporting your position",
+            "Give specific examples related to news and daily life",
+            "Address the opposing view if taking a balanced position"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "no connection",
+            "definition": "Not relevant or related to",
+            "importance": "This is the claim you must agree or disagree with"
+          },
+          {
+            "word": "people's lives",
+            "definition": "Daily experiences and concerns of ordinary citizens",
+            "importance": "Consider how news impacts daily life"
+          },
+          {
+            "word": "waste of time",
+            "definition": "Not worth spending time on",
+            "importance": "You must argue whether news consumption is valuable or not"
+          },
+          {
+            "word": "to what extent",
+            "definition": "How much or to what degree",
+            "importance": "You can fully agree, fully disagree, or partially agree"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your position clearly",
+          "body1": "4-5 sentences: Main reason supporting your position with examples",
+          "body2": "4-5 sentences: Additional reason or opposing view (if balanced)",
+          "conclusion": "2 sentences: Summarize position and provide final thought"
+        },
+        "commonMistakes": [
+          "Being unclear about your position (fence-sitting)",
+          "Only discussing news types without connecting to relevance",
+          "Forgetting to explain HOW news connects to people's lives",
+          "Not addressing the 'waste of time' part of the question"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "informed",
+            "pronunciation": "/ɪnˈfɔːmd/",
+            "partOfSpeech": "adjective",
+            "definition": "Having knowledge about current events and situations",
+            "example": "Citizens need to be informed about political decisions that affect their lives.",
+            "synonyms": ["knowledgeable", "aware", "educated"]
+          },
+          {
+            "word": "relevance",
+            "pronunciation": "/ˈreləvəns/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being connected to the matter at hand",
+            "example": "Local news has direct relevance to community members.",
+            "synonyms": ["pertinence", "significance", "applicability"]
+          },
+          {
+            "word": "awareness",
+            "pronunciation": "/əˈweənəs/",
+            "partOfSpeech": "noun",
+            "definition": "Knowledge or understanding of a situation or fact",
+            "example": "News media increases public awareness of social issues.",
+            "synonyms": ["consciousness", "cognizance", "perception"]
+          },
+          {
+            "word": "essential",
+            "pronunciation": "/ɪˈsenʃəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Absolutely necessary or extremely important",
+            "example": "Access to news is essential for democratic participation.",
+            "synonyms": ["vital", "crucial", "indispensable"]
+          },
+          {
+            "word": "empowerment",
+            "pronunciation": "/ɪmˈpaʊəmənt/",
+            "partOfSpeech": "noun",
+            "definition": "The process of becoming stronger and more confident",
+            "example": "News consumption leads to citizen empowerment through knowledge.",
+            "synonyms": ["enablement", "authorization", "liberation"]
+          },
+          {
+            "word": "trivial",
+            "pronunciation": "/ˈtrɪviəl/",
+            "partOfSpeech": "adjective",
+            "definition": "Of little value or importance",
+            "example": "Some argue that celebrity news is trivial and disconnected from real issues.",
+            "synonyms": ["insignificant", "minor", "unimportant"]
+          },
+          {
+            "word": "sensationalized",
+            "pronunciation": "/senˈseɪʃənəlaɪzd/",
+            "partOfSpeech": "adjective",
+            "definition": "Presented in a way to cause excitement or shock",
+            "example": "Sensationalized reporting can distort the importance of events.",
+            "synonyms": ["exaggerated", "dramatized", "hyped"]
+          },
+          {
+            "word": "implications",
+            "pronunciation": "/ˌɪmplɪˈkeɪʃənz/",
+            "partOfSpeech": "noun",
+            "definition": "Possible effects or results of an action or decision",
+            "example": "Understanding the implications of policy changes requires following the news.",
+            "synonyms": ["consequences", "ramifications", "effects"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "current affairs",
+            "definition": "Important events happening now in politics, society, or economics",
+            "example": "Following current affairs helps citizens participate in democracy."
+          },
+          {
+            "phrase": "media literacy",
+            "definition": "The ability to critically evaluate news and media content",
+            "example": "Media literacy enables people to distinguish reliable news from misinformation."
+          },
+          {
+            "phrase": "civic engagement",
+            "definition": "Active participation in community and political life",
+            "example": "News consumption supports civic engagement by informing voters."
+          },
+          {
+            "phrase": "global perspective",
+            "definition": "Understanding of worldwide events and their interconnections",
+            "example": "International news provides a global perspective on shared challenges."
+          },
+          {
+            "phrase": "informed decisions",
+            "definition": "Choices made based on knowledge and understanding",
+            "example": "Citizens can make informed decisions when they follow news regularly."
+          },
+          {
+            "phrase": "public discourse",
+            "definition": "Discussion and debate about issues affecting society",
+            "example": "News media shapes public discourse on important social issues."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["Some argue that", "It is often claimed that", "There is a view that"],
+          "stating_opinion": ["I strongly disagree with", "I completely agree that", "I partly agree that"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "contrasting": ["However", "On the contrary", "Nevertheless", "Conversely"],
+          "exemplifying": ["For instance", "For example", "Particularly", "Such as"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state your position clearly",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "I strongly disagree with the view that _____ because _____.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["news has no relevance to daily life", "news is always interesting", "everyone watches news"], "correctAnswer": "news has no relevance to daily life"},
+                  {"id": "thesis1_b2", "options": ["it plays a crucial role in informing citizens", "news is entertaining", "newspapers are cheap"], "correctAnswer": "it plays a crucial role in informing citizens"}
+                ],
+                "correctSentence": "I strongly disagree with the view that news has no relevance to daily life because it plays a crucial role in informing citizens.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "While _____, I believe that _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["some news content may seem irrelevant", "all news is important", "nobody reads news"], "correctAnswer": "some news content may seem irrelevant"},
+                  {"id": "thesis2_b2", "options": ["staying informed is essential for responsible citizenship", "news is always entertaining", "newspapers should be free"], "correctAnswer": "staying informed is essential for responsible citizenship"}
+                ],
+                "correctSentence": "While some news content may seem irrelevant, I believe that staying informed is essential for responsible citizenship.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "I completely disagree that _____ is _____ because _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["consuming news", "reading books", "watching movies"], "correctAnswer": "consuming news"},
+                  {"id": "thesis3_b2", "options": ["a waste of time", "very expensive", "difficult to do"], "correctAnswer": "a waste of time"},
+                  {"id": "thesis3_b3", "options": ["it empowers people to make informed decisions", "it is fun", "everyone does it"], "correctAnswer": "it empowers people to make informed decisions"}
+                ],
+                "correctSentence": "I completely disagree that consuming news is a waste of time because it empowers people to make informed decisions.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "In my view, _____ directly impacts _____ in numerous ways.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["news media", "social media", "entertainment"], "correctAnswer": "news media"},
+                  {"id": "thesis4_b2", "options": ["people's daily lives", "television ratings", "newspaper profits"], "correctAnswer": "people's daily lives"}
+                ],
+                "correctSentence": "In my view, news media directly impacts people's daily lives in numerous ways.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "I only partly agree because while _____, _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["some news lacks direct personal relevance", "all news is useless", "nobody cares about news"], "correctAnswer": "some news lacks direct personal relevance"},
+                  {"id": "thesis5_b2", "options": ["understanding broader issues remains valuable for society", "news is entertaining", "newspapers are old-fashioned"], "correctAnswer": "understanding broader issues remains valuable for society"}
+                ],
+                "correctSentence": "I only partly agree because while some news lacks direct personal relevance, understanding broader issues remains valuable for society.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Firstly, _____ is essential for _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["staying informed about current events", "watching television", "reading books"], "correctAnswer": "staying informed about current events"},
+                  {"id": "topic1_b2", "options": ["democratic participation and civic responsibility", "entertainment purposes", "passing time"], "correctAnswer": "democratic participation and civic responsibility"}
+                ],
+                "correctSentence": "Firstly, staying informed about current events is essential for democratic participation and civic responsibility.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "One key reason is that _____ directly affects _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["news about policy changes", "celebrity gossip", "sports scores"], "correctAnswer": "news about policy changes"},
+                  {"id": "topic2_b2", "options": ["people's financial and personal decisions", "television ratings", "newspaper sales"], "correctAnswer": "people's financial and personal decisions"}
+                ],
+                "correctSentence": "One key reason is that news about policy changes directly affects people's financial and personal decisions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "News consumption _____ by _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["empowers citizens", "wastes time", "costs money"], "correctAnswer": "empowers citizens"},
+                  {"id": "topic3_b2", "options": ["providing knowledge about issues affecting their communities", "showing advertisements", "printing on paper"], "correctAnswer": "providing knowledge about issues affecting their communities"}
+                ],
+                "correctSentence": "News consumption empowers citizens by providing knowledge about issues affecting their communities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "Moreover, _____ helps people _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["following the news", "avoiding information", "watching entertainment"], "correctAnswer": "following the news"},
+                  {"id": "topic4_b2", "options": ["understand global interconnections and international developments", "pass time", "avoid work"], "correctAnswer": "understand global interconnections and international developments"}
+                ],
+                "correctSentence": "Moreover, following the news helps people understand global interconnections and international developments.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "However, it must be acknowledged that _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["not all news content has equal value or relevance", "all news is useless", "nobody reads newspapers"], "correctAnswer": "not all news content has equal value or relevance"}
+                ],
+                "correctSentence": "However, it must be acknowledged that not all news content has equal value or relevance.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Some news coverage focuses on _____ rather than _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["sensationalized stories or celebrity gossip", "important issues", "local events"], "correctAnswer": "sensationalized stories or celebrity gossip"},
+                  {"id": "topic6_b2", "options": ["substantive issues affecting ordinary people", "entertainment", "advertisements"], "correctAnswer": "substantive issues affecting ordinary people"}
+                ],
+                "correctSentence": "Some news coverage focuses on sensationalized stories or celebrity gossip rather than substantive issues affecting ordinary people.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The primary benefit of _____ is _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["news awareness", "avoiding news", "entertainment"], "correctAnswer": "news awareness"},
+                  {"id": "topic7_b2", "options": ["enabling informed participation in society", "passing time", "saving money"], "correctAnswer": "enabling informed participation in society"}
+                ],
+                "correctSentence": "The primary benefit of news awareness is enabling informed participation in society.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "A significant advantage of _____ is that _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["consuming news regularly", "avoiding news", "watching movies"], "correctAnswer": "consuming news regularly"},
+                  {"id": "topic8_b2", "options": ["it develops critical thinking and media literacy skills", "it is entertaining", "it requires no effort"], "correctAnswer": "it develops critical thinking and media literacy skills"}
+                ],
+                "correctSentence": "A significant advantage of consuming news regularly is that it develops critical thinking and media literacy skills.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ enables citizens to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["understanding current affairs", "watching television", "reading magazines"], "correctAnswer": "understanding current affairs"},
+                  {"id": "support1_b2", "options": ["vote wisely and hold leaders accountable", "be entertained", "pass time"], "correctAnswer": "vote wisely and hold leaders accountable"}
+                ],
+                "correctSentence": "This is because understanding current affairs enables citizens to vote wisely and hold leaders accountable.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ provides _____ that _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["news media", "entertainment", "advertising"], "correctAnswer": "news media"},
+                  {"id": "support2_b2", "options": ["essential information", "fun stories", "cheap content"], "correctAnswer": "essential information"},
+                  {"id": "support2_b3", "options": ["affects personal and financial decisions", "makes people laugh", "sells products"], "correctAnswer": "affects personal and financial decisions"}
+                ],
+                "correctSentence": "The main reason is that news media provides essential information that affects personal and financial decisions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ allows people to _____ before _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Staying informed", "Avoiding news", "Watching entertainment"], "correctAnswer": "Staying informed"},
+                  {"id": "support3_b2", "options": ["understand policy implications", "be entertained", "relax"], "correctAnswer": "understand policy implications"},
+                  {"id": "support3_b3", "options": ["changes affect their daily lives", "voting happens", "newspapers close"], "correctAnswer": "changes affect their daily lives"}
+                ],
+                "correctSentence": "Staying informed allows people to understand policy implications before changes affect their daily lives.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ fosters _____, which is crucial for _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["News consumption", "Entertainment", "Social media"], "correctAnswer": "News consumption"},
+                  {"id": "support4_b2", "options": ["public awareness of social issues", "fun conversations", "advertising revenue"], "correctAnswer": "public awareness of social issues"},
+                  {"id": "support4_b3", "options": ["collective action and social progress", "entertainment", "newspaper profits"], "correctAnswer": "collective action and social progress"}
+                ],
+                "correctSentence": "News consumption fosters public awareness of social issues, which is crucial for collective action and social progress.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By _____, citizens can _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["following economic news", "avoiding information", "watching sports"], "correctAnswer": "following economic news"},
+                  {"id": "support5_b2", "options": ["make informed financial decisions about investments and purchases", "be entertained", "save money"], "correctAnswer": "make informed financial decisions about investments and purchases"}
+                ],
+                "correctSentence": "By following economic news, citizens can make informed financial decisions about investments and purchases.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ strengthens _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["Regular news engagement", "Entertainment consumption", "Social media use"], "correctAnswer": "Regular news engagement"},
+                  {"id": "support6_b2", "options": ["democratic processes", "television ratings", "newspaper profits"], "correctAnswer": "democratic processes"},
+                  {"id": "support6_b3", "options": ["informed civic participation and debate", "entertainment value", "advertising revenue"], "correctAnswer": "informed civic participation and debate"}
+                ],
+                "correctSentence": "Regular news engagement strengthens democratic processes through informed civic participation and debate.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "News awareness contributes to _____ by _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["social cohesion", "entertainment", "advertising"], "correctAnswer": "social cohesion"},
+                  {"id": "support7_b2", "options": ["creating shared understanding of community challenges", "providing fun content", "selling products"], "correctAnswer": "creating shared understanding of community challenges"}
+                ],
+                "correctSentence": "News awareness contributes to social cohesion by creating shared understanding of community challenges.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "_____ provides context that helps people _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["Quality journalism", "Celebrity gossip", "Entertainment news"], "correctAnswer": "Quality journalism"},
+                  {"id": "support8_b2", "options": ["understand complex issues and their implications", "be entertained", "pass time"], "correctAnswer": "understand complex issues and their implications"}
+                ],
+                "correctSentence": "Quality journalism provides context that helps people understand complex issues and their implications.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "_____ gives people _____ over _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["Being informed", "Avoiding news", "Entertainment"], "correctAnswer": "Being informed"},
+                  {"id": "support9_b2", "options": ["greater control", "less knowledge", "no power"], "correctAnswer": "greater control"},
+                  {"id": "support9_b3", "options": ["decisions affecting their families and communities", "television programs", "newspaper subscriptions"], "correctAnswer": "decisions affecting their families and communities"}
+                ],
+                "correctSentence": "Being informed gives people greater control over decisions affecting their families and communities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "When people follow _____, they can _____ more effectively.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["local news", "celebrity stories", "entertainment programs"], "correctAnswer": "local news"},
+                  {"id": "support10_b2", "options": ["engage with community issues and local governance", "be entertained", "gossip"], "correctAnswer": "engage with community issues and local governance"}
+                ],
+                "correctSentence": "When people follow local news, they can engage with community issues and local governance more effectively.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ become _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["informed citizens", "television viewers", "newspaper readers"], "correctAnswer": "informed citizens"},
+                  {"id": "support11_b2", "options": ["more active and engaged members of society", "entertained", "passive"], "correctAnswer": "more active and engaged members of society"}
+                ],
+                "correctSentence": "As a result, informed citizens become more active and engaged members of society.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ tends to be _____ among news consumers.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["civic engagement", "entertainment", "ignorance"], "correctAnswer": "civic engagement"},
+                  {"id": "support12_b2", "options": ["higher and more meaningful", "lower and passive", "nonexistent"], "correctAnswer": "higher and more meaningful"}
+                ],
+                "correctSentence": "Consequently, civic engagement tends to be higher and more meaningful among news consumers.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ need to know about _____ to _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["voters", "celebrities", "athletes"], "correctAnswer": "voters"},
+                  {"id": "example1_b2", "options": ["candidates' policies and track records", "entertainment gossip", "sports results"], "correctAnswer": "candidates' policies and track records"},
+                  {"id": "example1_b3", "options": ["make informed choices in elections", "be entertained", "pass time"], "correctAnswer": "make informed choices in elections"}
+                ],
+                "correctSentence": "For instance, voters need to know about candidates' policies and track records to make informed choices in elections.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, news about _____ directly impacts _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["tax changes or healthcare policies", "celebrity weddings", "sports championships"], "correctAnswer": "tax changes or healthcare policies"},
+                  {"id": "example2_b2", "options": ["household budgets and family planning decisions", "entertainment value", "gossip conversations"], "correctAnswer": "household budgets and family planning decisions"}
+                ],
+                "correctSentence": "For example, news about tax changes or healthcare policies directly impacts household budgets and family planning decisions.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, during _____, people relied on _____ to _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["the COVID-19 pandemic", "holiday seasons", "sports events"], "correctAnswer": "the COVID-19 pandemic"},
+                  {"id": "example3_b2", "options": ["news updates", "entertainment", "social media"], "correctAnswer": "news updates"},
+                  {"id": "example3_b3", "options": ["understand safety measures and policy changes", "be entertained", "pass time"], "correctAnswer": "understand safety measures and policy changes"}
+                ],
+                "correctSentence": "Specifically, during the COVID-19 pandemic, people relied on news updates to understand safety measures and policy changes.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research shows that _____ are more likely to _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["people who follow news regularly", "entertainment consumers", "social media users"], "correctAnswer": "people who follow news regularly"},
+                  {"id": "example4_b2", "options": ["participate in voting and community activities", "watch television", "avoid politics"], "correctAnswer": "participate in voting and community activities"}
+                ],
+                "correctSentence": "Research shows that people who follow news regularly are more likely to participate in voting and community activities.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Studies indicate that _____ leads to _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["regular news consumption", "avoiding information", "entertainment viewing"], "correctAnswer": "regular news consumption"},
+                  {"id": "example5_b2", "options": ["higher levels of civic knowledge and engagement", "lower intelligence", "more confusion"], "correctAnswer": "higher levels of civic knowledge and engagement"}
+                ],
+                "correctSentence": "Studies indicate that regular news consumption leads to higher levels of civic knowledge and engagement.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ demonstrate the relevance of _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["issues", "celebrities", "sports"], "correctAnswer": "issues"},
+                  {"id": "example6_b2", "options": ["climate change and economic policy", "entertainment gossip", "fashion trends"], "correctAnswer": "climate change and economic policy"},
+                  {"id": "example6_b3", "options": ["news to everyday life", "entertainment", "social media"], "correctAnswer": "news to everyday life"}
+                ],
+                "correctSentence": "In particular, issues such as climate change and economic policy demonstrate the relevance of news to everyday life.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Consider how _____ affected _____ when _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["news reporting", "entertainment", "advertising"], "correctAnswer": "news reporting"},
+                  {"id": "example7_b2", "options": ["public behavior and safety", "television ratings", "social media likes"], "correctAnswer": "public behavior and safety"},
+                  {"id": "example7_b3", "options": ["informing people about natural disasters or health crises", "providing entertainment", "showing advertisements"], "correctAnswer": "informing people about natural disasters or health crises"}
+                ],
+                "correctSentence": "Consider how news reporting affected public behavior and safety when informing people about natural disasters or health crises.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: news about _____ enabled citizens to _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["the 2008 financial crisis", "celebrity scandals", "sports victories"], "correctAnswer": "the 2008 financial crisis"},
+                  {"id": "example8_b2", "options": ["banking failures and economic policies", "entertainment news", "fashion trends"], "correctAnswer": "banking failures and economic policies"},
+                  {"id": "example8_b3", "options": ["protect their savings and understand their rights", "be entertained", "gossip"], "correctAnswer": "protect their savings and understand their rights"}
+                ],
+                "correctSentence": "Take the 2008 financial crisis as an example: news about banking failures and economic policies enabled citizens to protect their savings and understand their rights.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, people who _____ are _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["surveys", "entertainment critics", "celebrities"], "correctAnswer": "surveys"},
+                  {"id": "example9_b2", "options": ["consume diverse news sources", "avoid information", "only watch entertainment"], "correctAnswer": "consume diverse news sources"},
+                  {"id": "example9_b3", "options": ["better equipped to identify misinformation", "more confused", "less informed"], "correctAnswer": "better equipped to identify misinformation"}
+                ],
+                "correctSentence": "According to surveys, people who consume diverse news sources are better equipped to identify misinformation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ helps people _____ when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["following local news", "watching entertainment", "avoiding information"], "correctAnswer": "following local news"},
+                  {"id": "example10_b2", "options": ["understand community needs", "be entertained", "gossip"], "correctAnswer": "understand community needs"},
+                  {"id": "example10_b3", "options": ["decisions are made about schools, infrastructure, or public services", "celebrities get married", "sports games happen"], "correctAnswer": "decisions are made about schools, infrastructure, or public services"}
+                ],
+                "correctSentence": "Evidence suggests that following local news helps people understand community needs when decisions are made about schools, infrastructure, or public services.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["excessive news consumption", "all news", "important journalism"], "correctAnswer": "excessive news consumption"},
+                  {"id": "counter1_b2", "options": ["lead to information overload and anxiety", "improve knowledge", "increase engagement"], "correctAnswer": "lead to information overload and anxiety"}
+                ],
+                "correctSentence": "However, it could be argued that excessive news consumption may lead to information overload and anxiety.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these benefits, _____ can _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["some news coverage", "all journalism", "quality reporting"], "correctAnswer": "some news coverage"},
+                  {"id": "counter2_b2", "options": ["focus on sensationalism rather than substance", "always inform accurately", "improve society"], "correctAnswer": "focus on sensationalism rather than substance"}
+                ],
+                "correctSentence": "Despite these benefits, some news coverage can focus on sensationalism rather than substance.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, not all news is _____ because _____.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["equally valuable or relevant", "entertaining", "free"], "correctAnswer": "equally valuable or relevant"},
+                  {"id": "counter3_b2", "options": ["much media focuses on trivial or sensationalized content", "it is always important", "everyone likes it"], "correctAnswer": "much media focuses on trivial or sensationalized content"}
+                ],
+                "correctSentence": "Nevertheless, not all news is equally valuable or relevant because much media focuses on trivial or sensationalized content.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ is important, _____ that _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["staying informed", "avoiding news", "entertainment"], "correctAnswer": "staying informed"},
+                  {"id": "counter4_b2", "options": ["it requires media literacy skills", "it is easy", "everyone can do it"], "correctAnswer": "it requires media literacy skills"},
+                  {"id": "counter4_b3", "options": ["to distinguish reliable sources from misinformation", "to be entertained", "to pass time"], "correctAnswer": "to distinguish reliable sources from misinformation"}
+                ],
+                "correctSentence": "Although staying informed is important, it requires media literacy skills to distinguish reliable sources from misinformation.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ can _____ rather than _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["certain news outlets", "all journalism", "quality reporting"], "correctAnswer": "certain news outlets"},
+                  {"id": "counter5_b2", "options": ["create division and fear", "inform accurately", "promote unity"], "correctAnswer": "create division and fear"},
+                  {"id": "counter5_b3", "options": ["foster informed debate", "entertain people", "sell newspapers"], "correctAnswer": "foster informed debate"}
+                ],
+                "correctSentence": "Critics point out that certain news outlets can create division and fear rather than foster informed debate.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I firmly believe that _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["not all news has equal value", "all news is useless", "nobody reads news"], "correctAnswer": "not all news has equal value"},
+                  {"id": "conclusion1_b2", "options": ["staying informed remains essential for responsible citizenship", "news is a waste of time", "everyone should avoid news"], "correctAnswer": "staying informed remains essential for responsible citizenship"}
+                ],
+                "correctSentence": "In conclusion, while not all news has equal value, I firmly believe that staying informed remains essential for responsible citizenship.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ far outweigh _____ when it comes to _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["the benefits of news consumption", "the drawbacks", "entertainment value"], "correctAnswer": "the benefits of news consumption"},
+                  {"id": "conclusion2_b2", "options": ["any potential drawbacks", "the advantages", "the costs"], "correctAnswer": "any potential drawbacks"},
+                  {"id": "conclusion2_b3", "options": ["civic engagement and informed decision-making", "entertainment", "passing time"], "correctAnswer": "civic engagement and informed decision-making"}
+                ],
+                "correctSentence": "Overall, the benefits of news consumption far outweigh any potential drawbacks when it comes to civic engagement and informed decision-making.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ plays a vital role in _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["news media", "entertainment", "social media"], "correctAnswer": "news media"},
+                  {"id": "conclusion3_b2", "options": ["enabling citizens to participate meaningfully in democratic society", "providing entertainment", "selling products"], "correctAnswer": "enabling citizens to participate meaningfully in democratic society"}
+                ],
+                "correctSentence": "To summarize, news media plays a vital role in enabling citizens to participate meaningfully in democratic society.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ should recognize that _____ is _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["people", "celebrities", "politicians"], "correctAnswer": "people"},
+                  {"id": "conclusion4_b2", "options": ["staying informed through news", "entertainment", "social media"], "correctAnswer": "staying informed through news"},
+                  {"id": "conclusion4_b3", "options": ["not a waste of time but an investment in informed citizenship", "boring and useless", "only for entertainment"], "correctAnswer": "not a waste of time but an investment in informed citizenship"}
+                ],
+                "correctSentence": "Ultimately, people should recognize that staying informed through news is not a waste of time but an investment in informed citizenship.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In my view, _____ represents _____ because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["news consumption", "entertainment", "social media"], "correctAnswer": "news consumption"},
+                  {"id": "conclusion5_b2", "options": ["a civic responsibility rather than a waste of time", "useless activity", "pure entertainment"], "correctAnswer": "a civic responsibility rather than a waste of time"},
+                  {"id": "conclusion5_b3", "options": ["it empowers people to make informed decisions affecting their lives", "it is fun", "everyone does it"], "correctAnswer": "it empowers people to make informed decisions affecting their lives"}
+                ],
+                "correctSentence": "In my view, news consumption represents a civic responsibility rather than a waste of time because it empowers people to make informed decisions affecting their lives.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Strong Disagreement",
+            "structure": {
+              "introduction": "I strongly disagree with the view that [news is irrelevant]. In my opinion, [state why news is important].",
+              "body1": "[Main reason news is relevant - Topic sentence]. This is because [Explanation]. For instance, [Specific example]. As a result, [Consequence].",
+              "body2": "Furthermore, [Additional reason]. [Explanation of second benefit]. For example, [Supporting example]. Therefore, [Conclusion about importance].",
+              "conclusion": "In conclusion, [restate disagreement]. [Final thought on why news matters for society]."
+            },
+            "example": {
+              "introduction": "I strongly disagree with the view that news has no connection to people's lives. In my opinion, staying informed through news media is essential for responsible citizenship and informed decision-making.",
+              "body1": "Firstly, news directly impacts people's daily lives through policy and economic information. Citizens need to understand how government decisions affect their finances, healthcare, and employment opportunities. For instance, news about tax changes or unemployment benefits enables families to plan their budgets accordingly. As a result, informed citizens can make better financial and personal decisions.",
+              "body2": "Furthermore, news consumption empowers democratic participation. Knowledge of current affairs enables voters to evaluate candidates and hold elected officials accountable. For example, during elections, voters rely on news coverage to understand policy positions and candidate qualifications. Therefore, an informed electorate is crucial for healthy democracy.",
+              "conclusion": "In conclusion, I firmly believe that news remains highly relevant to people's lives. Rather than being a waste of time, consuming news is an investment in informed citizenship and personal empowerment."
+            }
+          },
+          {
+            "name": "Template 2: Partial Agreement",
+            "structure": {
+              "introduction": "While I acknowledge that [some news lacks relevance], I believe that [quality news remains important]. This essay will discuss [both perspectives].",
+              "body1": "On the one hand, [concede point about irrelevant news]. [Explanation]. For example, [Example of low-value news]. [Why this supports the criticism].",
+              "body2": "On the other hand, [argue for news importance]. [Main reason]. For instance, [Example of valuable news]. [Impact on citizens]. Moreover, [Additional benefit of staying informed].",
+              "conclusion": "To summarize, while [acknowledge concern], [state position that valuable news outweighs trivial content]."
+            }
+          },
+          {
+            "name": "Template 3: Complete Disagreement with Counter-argument",
+            "structure": {
+              "introduction": "I completely disagree that [news is a waste of time]. From my perspective, [news plays a vital role].",
+              "body1": "[Primary argument for news relevance]. [Reason 1 with explanation]. [Reason 2 with explanation]. For example, [Comprehensive example covering both reasons].",
+              "body2": "Although some argue that [counter-argument], this overlooks [your rebuttal]. [Explanation of why news remains valuable despite concerns]. [Example supporting your view].",
+              "conclusion": "In conclusion, despite [acknowledge concern], [firmly restate position that news is essential]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "stating_opinion": ["I strongly disagree with", "I completely disagree that", "I firmly believe that", "In my view"],
+          "acknowledging_opposition": ["While some argue that", "Although it is claimed that", "Despite the view that", "It could be argued that"],
+          "adding_reasons": ["Furthermore", "Moreover", "Additionally", "In addition", "Secondly"],
+          "giving_examples": ["For instance", "For example", "Particularly", "Consider", "Take... as an example"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "contrasting": ["However", "Nevertheless", "On the contrary", "Conversely", "On the other hand"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "I strongly disagree with the view that _____ [state the claim about news being irrelevant]. In my opinion, _____ [clearly state YOUR position on why news matters].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "State the claim about news",
+                "hint": "Paraphrase 'news has no connection to people's lives and is a waste of time'",
+                "placeholder": "e.g., news media has no relevance to ordinary citizens and consuming it serves no practical purpose",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Your position on news importance",
+                "hint": "State clearly why news IS important. Use strong language showing disagreement.",
+                "placeholder": "e.g., staying informed through news is essential for democratic participation and making informed personal decisions",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "Firstly, _____ [topic sentence about why news is relevant]. This is because _____ [explain the reason/mechanism]. For instance, _____ [give a specific example]. As a result, _____ [state the consequence or benefit].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - news relevance",
+                "hint": "Main reason why news IS relevant to people's lives",
+                "placeholder": "e.g., news provides essential information that directly affects people's financial and personal decisions",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY or HOW does news provide this benefit? Explain the mechanism.",
+                "placeholder": "e.g., government policies, economic changes, and health information reported in news directly impact household budgets and daily planning",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example - real situation showing news relevance",
+                "placeholder": "e.g., during the COVID-19 pandemic, news updates about restrictions and health measures were crucial for protecting families and understanding policy changes",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Consequence/benefit",
+                "hint": "What is the final outcome? How does this show news is NOT a waste of time?",
+                "placeholder": "e.g., citizens who stay informed can make better decisions that protect their interests and improve their quality of life",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "Moreover, _____ [topic sentence about additional benefit of news]. _____ [explain why this matters]. For example, _____ [specific example]. Therefore, _____ [conclusion about this perspective].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - additional benefit",
+                "hint": "Second main reason why news matters. Could be about democracy, civic engagement, etc.",
+                "placeholder": "e.g., news consumption empowers democratic participation and enables citizens to hold leaders accountable",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why this matters",
+                "hint": "Explain the mechanism or reasoning behind this second benefit",
+                "placeholder": "e.g., understanding candidates' policies and government actions requires following news coverage, which allows voters to make informed electoral choices and engage in meaningful civic discourse",
+                "minWords": 15
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing how news enables civic participation",
+                "placeholder": "e.g., voters who follow news about candidates' positions and track records are better equipped to evaluate their options during elections",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Conclusion about this view",
+                "hint": "Wrap up this perspective - emphasize why this makes news valuable, not a waste",
+                "placeholder": "e.g., an informed electorate is fundamental to healthy democracy, making news consumption a civic responsibility rather than wasted time",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [restate your disagreement with the claim]. _____ [final thought on why news matters for individuals and society].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Restate disagreement",
+                "hint": "Clearly restate that you disagree news is irrelevant/waste of time",
+                "placeholder": "e.g., I firmly maintain that news has significant relevance to people's lives and is far from being a waste of time",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Final thought on news importance",
+                "hint": "End with a strong statement about why news matters - think bigger picture",
+                "placeholder": "e.g., staying informed through quality news sources empowers citizens to make better decisions and participate effectively in democratic society, making it an investment rather than a waste",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + state your position clearly (agree/disagree)"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss first main reason with explanation and example"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss second reason or address counter-argument"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Restate position + final thought"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states your position (agree/disagree)",
+          "Body paragraph 1 explains why news IS relevant with example",
+          "Body paragraph 2 provides additional reason or addresses opposition",
+          "Conclusion restates position and provides final insight",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas",
+          "Clear position throughout (not fence-sitting)"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Some people contend that news media lacks relevance to ordinary citizens' lives and therefore represents a waste of time. I strongly disagree with this view, as staying informed through news is essential for both personal decision-making and democratic participation.\n\nFirstly, news provides crucial information that directly impacts people's daily lives and financial well-being. Government policies, economic developments, and health advisories reported through news outlets affect household budgets, employment prospects, and family planning decisions. For instance, during the COVID-19 pandemic, people relied heavily on news updates to understand lockdown measures, health guidelines, and financial support programs. Similarly, news about tax policy changes or interest rate adjustments enables citizens to make informed decisions about major purchases, investments, and savings strategies. Without access to this information, individuals would struggle to navigate the complex systems that govern their lives.\n\nMoreover, news consumption empowers civic engagement and strengthens democratic processes. An informed citizenry is fundamental to healthy democracy, as voters need knowledge of current affairs to evaluate candidates and hold elected officials accountable. For example, understanding politicians' voting records, policy positions, and responses to community concerns requires following news coverage throughout election cycles. Furthermore, awareness of social issues through news reporting enables citizens to participate meaningfully in public discourse and advocate for positive change in their communities.\n\nIn conclusion, I firmly maintain that news has profound relevance to people's lives rather than being a waste of time. Far from being unnecessary, consuming quality news represents an investment in informed citizenship and personal empowerment that benefits both individuals and society.",
+    "wordCount": 272,
+    "structure": {
+      "introduction": "Some people contend that news media lacks relevance to ordinary citizens' lives and therefore represents a waste of time. I strongly disagree with this view, as staying informed through news is essential for both personal decision-making and democratic participation.",
+      "body1": "Firstly, news provides crucial information that directly impacts people's daily lives and financial well-being. Government policies, economic developments, and health advisories reported through news outlets affect household budgets, employment prospects, and family planning decisions. For instance, during the COVID-19 pandemic, people relied heavily on news updates to understand lockdown measures, health guidelines, and financial support programs. Similarly, news about tax policy changes or interest rate adjustments enables citizens to make informed decisions about major purchases, investments, and savings strategies. Without access to this information, individuals would struggle to navigate the complex systems that govern their lives.",
+      "body2": "Moreover, news consumption empowers civic engagement and strengthens democratic processes. An informed citizenry is fundamental to healthy democracy, as voters need knowledge of current affairs to evaluate candidates and hold elected officials accountable. For example, understanding politicians' voting records, policy positions, and responses to community concerns requires following news coverage throughout election cycles. Furthermore, awareness of social issues through news reporting enables citizens to participate meaningfully in public discourse and advocate for positive change in their communities.",
+      "conclusion": "In conclusion, I firmly maintain that news has profound relevance to people's lives rather than being a waste of time. Far from being unnecessary, consuming quality news represents an investment in informed citizenship and personal empowerment that benefits both individuals and society."
+    },
+    "highlights": [
+      {
+        "text": "I strongly disagree with",
+        "type": "opinion-statement",
+        "explanation": "Clear position statement for Agree/Disagree essay"
+      },
+      {
+        "text": "Firstly... Moreover",
+        "type": "linking-word",
+        "explanation": "Clear progression markers for organizing arguments"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces specific example"
+      },
+      {
+        "text": "during the COVID-19 pandemic",
+        "type": "example",
+        "explanation": "Specific, relevant, real-world example"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "empowers",
+        "type": "academic-vocab",
+        "explanation": "Strong academic verb showing range of vocabulary"
+      },
+      {
+        "text": "informed citizenry",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase related to democracy and civic life"
+      },
+      {
+        "text": "I firmly maintain that",
+        "type": "opinion-statement",
+        "explanation": "Strong concluding opinion statement"
+      }
+    ]
+  }
+}

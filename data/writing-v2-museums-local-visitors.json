@@ -1,0 +1,983 @@
+{
+  "id": "museums-local-visitors",
+  "title": "Museums & Local Visitors",
+  "category": "Tourism & Culture",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Museums and historical sites are mainly visited by tourists, not local people. Why is this the case? What can be done to encourage local people to visit these sites?",
+    "type": "Two-Part Question",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Two-Part Question",
+          "explanation": "You must answer BOTH parts: (1) WHY locals don't visit museums and historical sites, and (2) WHAT can be done to encourage them. Provide specific solutions.",
+          "requirements": [
+            "Explain reasons why local people avoid museums and historical sites",
+            "Suggest practical solutions to encourage local visits",
+            "Provide specific examples for each reason",
+            "Provide specific examples for each solution",
+            "Ensure both parts are addressed equally"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "museums and historical sites",
+            "definition": "Cultural institutions and heritage locations",
+            "importance": "The main subject - focus on both types of cultural venues"
+          },
+          {
+            "word": "tourists",
+            "definition": "People visiting from other places",
+            "importance": "Contrast with local people - they visit these places frequently"
+          },
+          {
+            "word": "local people",
+            "definition": "Residents who live in the area",
+            "importance": "The target group who don't visit enough - focus on why and solutions"
+          },
+          {
+            "word": "why",
+            "definition": "The reasons or causes",
+            "importance": "First part of the question - you MUST explain causes"
+          },
+          {
+            "word": "what can be done",
+            "definition": "Solutions or measures to take",
+            "importance": "Second part - you MUST suggest practical solutions"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + briefly state both parts of your answer",
+          "body1": "4-5 sentences: Explain WHY local people don't visit (reasons/causes)",
+          "body2": "4-5 sentences: Suggest WHAT can be done to encourage visits (solutions)",
+          "conclusion": "2 sentences: Summarize reasons + restate solutions"
+        },
+        "commonMistakes": [
+          "Only answering one part of the question",
+          "Being too vague about solutions (must be specific and practical)",
+          "Forgetting to explain WHY locals don't visit before giving solutions",
+          "Not providing concrete examples for reasons and solutions",
+          "Discussing tourists instead of focusing on local people"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "cultural tourism",
+            "pronunciation": "/ˈkʌltʃərəl ˈtʊərɪzəm/",
+            "partOfSpeech": "noun",
+            "definition": "Travel to experience the culture, heritage, and arts of a place",
+            "example": "Museums benefit greatly from cultural tourism revenue.",
+            "synonyms": ["heritage tourism", "cultural travel"]
+          },
+          {
+            "word": "local engagement",
+            "pronunciation": "/ˈləʊkəl ɪnˈgeɪdʒmənt/",
+            "partOfSpeech": "noun",
+            "definition": "Participation and involvement of local residents",
+            "example": "Museums need to improve local engagement through community programs.",
+            "synonyms": ["community participation", "local involvement"]
+          },
+          {
+            "word": "heritage appreciation",
+            "pronunciation": "/ˈherɪtɪdʒ əˌpriːʃiˈeɪʃən/",
+            "partOfSpeech": "noun",
+            "definition": "Recognition and valuing of cultural and historical legacy",
+            "example": "Heritage appreciation often develops through educational programs.",
+            "synonyms": ["cultural appreciation", "historical awareness"]
+          },
+          {
+            "word": "community outreach",
+            "pronunciation": "/kəˈmjuːnəti ˈaʊtriːtʃ/",
+            "partOfSpeech": "noun",
+            "definition": "Efforts to engage with and serve the local community",
+            "example": "Museums should invest in community outreach to attract local visitors.",
+            "synonyms": ["public engagement", "community programs"]
+          },
+          {
+            "word": "admission fees",
+            "pronunciation": "/ədˈmɪʃən fiːz/",
+            "partOfSpeech": "noun",
+            "definition": "Charges for entering a venue or facility",
+            "example": "High admission fees often discourage local people from visiting museums regularly.",
+            "synonyms": ["entry charges", "entrance fees"]
+          },
+          {
+            "word": "incentive",
+            "pronunciation": "/ɪnˈsentɪv/",
+            "partOfSpeech": "noun",
+            "definition": "Something that motivates or encourages action",
+            "example": "Free entry days provide an incentive for locals to visit museums.",
+            "synonyms": ["motivation", "encouragement"]
+          },
+          {
+            "word": "familiarity",
+            "pronunciation": "/fəˌmɪliˈærəti/",
+            "partOfSpeech": "noun",
+            "definition": "Close knowledge or acquaintance with something",
+            "example": "Excessive familiarity with local heritage can reduce interest in visiting.",
+            "synonyms": ["acquaintance", "knowledge"]
+          },
+          {
+            "word": "accessibility",
+            "pronunciation": "/əkˌsesəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being easy to reach or use",
+            "example": "Improving accessibility through extended hours can attract more local visitors.",
+            "synonyms": ["availability", "convenience"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "educational programs",
+            "definition": "Structured learning activities and courses",
+            "example": "Museums can offer educational programs specifically designed for local schools."
+          },
+          {
+            "phrase": "free entry days",
+            "definition": "Designated days when admission is free",
+            "example": "Free entry days on weekends encourage families to visit cultural sites."
+          },
+          {
+            "phrase": "school partnerships",
+            "definition": "Collaborative arrangements with educational institutions",
+            "example": "School partnerships can integrate museum visits into the curriculum."
+          },
+          {
+            "phrase": "local discounts",
+            "definition": "Reduced prices for area residents",
+            "example": "Offering local discounts makes museums more affordable for regular visits."
+          },
+          {
+            "phrase": "cultural institutions",
+            "definition": "Organizations dedicated to preserving and sharing culture",
+            "example": "Cultural institutions must adapt to serve both tourists and local communities."
+          },
+          {
+            "phrase": "temporary exhibitions",
+            "definition": "Short-term displays that change regularly",
+            "example": "Rotating temporary exhibitions encourage locals to return frequently."
+          },
+          {
+            "phrase": "heritage sites",
+            "definition": "Locations of historical or cultural importance",
+            "example": "Many heritage sites struggle to attract local visitors despite tourist popularity."
+          },
+          {
+            "phrase": "promotional campaigns",
+            "definition": "Organized efforts to advertise or publicize something",
+            "example": "Targeted promotional campaigns can raise awareness among local residents."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There are several reasons for", "This phenomenon can be explained by", "The main cause is"],
+          "contrasting": ["However", "Conversely", "On the contrary", "In contrast"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
+          "exemplifying": ["For instance", "For example", "Particularly", "Specifically"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "To address this"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that address both parts of the question",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "This occurs due to _____, and _____ could help increase local engagement.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["several factors including familiarity and cost", "government policy", "tourist behavior"], "correctAnswer": "several factors including familiarity and cost"},
+                  {"id": "thesis1_b2", "options": ["targeted solutions such as free entry days and community programs", "closing museums", "raising prices"], "correctAnswer": "targeted solutions such as free entry days and community programs"}
+                ],
+                "correctSentence": "This occurs due to several factors including familiarity and cost, and targeted solutions such as free entry days and community programs could help increase local engagement.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The main reasons include _____, but _____ can address this issue.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["lack of novelty and financial barriers", "bad weather", "poor construction"], "correctAnswer": "lack of novelty and financial barriers"},
+                  {"id": "thesis2_b2", "options": ["implementing local discounts and educational partnerships", "demolishing museums", "banning tourists"], "correctAnswer": "implementing local discounts and educational partnerships"}
+                ],
+                "correctSentence": "The main reasons include lack of novelty and financial barriers, but implementing local discounts and educational partnerships can address this issue.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This essay will examine _____ before suggesting _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["why locals avoid these cultural venues", "tourist preferences", "building designs"], "correctAnswer": "why locals avoid these cultural venues"},
+                  {"id": "thesis3_b2", "options": ["practical measures to boost local attendance", "higher prices", "fewer exhibitions"], "correctAnswer": "practical measures to boost local attendance"}
+                ],
+                "correctSentence": "This essay will examine why locals avoid these cultural venues before suggesting practical measures to boost local attendance.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "While _____ explains this pattern, _____ could reverse it.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["overfamiliarity and expense", "good marketing", "modern architecture"], "correctAnswer": "overfamiliarity and expense"},
+                  {"id": "thesis4_b2", "options": ["strategic initiatives involving reduced costs and rotating exhibitions", "closing permanently", "tourist restrictions"], "correctAnswer": "strategic initiatives involving reduced costs and rotating exhibitions"}
+                ],
+                "correctSentence": "While overfamiliarity and expense explains this pattern, strategic initiatives involving reduced costs and rotating exhibitions could reverse it.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "Several factors contribute to _____, and _____ are necessary to change this trend.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["low local participation at cultural sites", "high tourist numbers", "building maintenance"], "correctAnswer": "low local participation at cultural sites"},
+                  {"id": "thesis5_b2", "options": ["affordable pricing and community-focused programs", "stricter regulations", "reduced opening hours"], "correctAnswer": "affordable pricing and community-focused programs"}
+                ],
+                "correctSentence": "Several factors contribute to low local participation at cultural sites, and affordable pricing and community-focused programs are necessary to change this trend.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "The primary reason for _____ is _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["low local attendance", "tourist visits", "museum construction"], "correctAnswer": "low local attendance"},
+                  {"id": "topic1_b2", "options": ["overfamiliarity with local heritage", "poor weather", "government policy"], "correctAnswer": "overfamiliarity with local heritage"}
+                ],
+                "correctSentence": "The primary reason for low local attendance is overfamiliarity with local heritage.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "This phenomenon can be attributed to _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["the lack of novelty for residents and high admission costs", "tourist behavior", "poor architecture"], "correctAnswer": "the lack of novelty for residents and high admission costs"}
+                ],
+                "correctSentence": "This phenomenon can be attributed to the lack of novelty for residents and high admission costs.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Several factors contribute to _____, with _____ being paramount.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["local disengagement", "tourist satisfaction", "museum profits"], "correctAnswer": "local disengagement"},
+                  {"id": "topic3_b2", "options": ["financial barriers and perceived irrelevance", "good weather", "modern technology"], "correctAnswer": "financial barriers and perceived irrelevance"}
+                ],
+                "correctSentence": "Several factors contribute to local disengagement, with financial barriers and perceived irrelevance being paramount.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "To address this issue, _____ should _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["museums and historical sites", "tourists", "governments alone"], "correctAnswer": "museums and historical sites"},
+                  {"id": "topic4_b2", "options": ["implement targeted strategies to attract local residents", "increase prices", "reduce opening hours"], "correctAnswer": "implement targeted strategies to attract local residents"}
+                ],
+                "correctSentence": "To address this issue, museums and historical sites should implement targeted strategies to attract local residents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "One effective solution is _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["offering free entry days and local discounts", "raising admission fees", "closing to tourists"], "correctAnswer": "offering free entry days and local discounts"}
+                ],
+                "correctSentence": "One effective solution is offering free entry days and local discounts.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Several measures can _____, including _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["boost local participation", "reduce costs", "limit tourists"], "correctAnswer": "boost local participation"},
+                  {"id": "topic6_b2", "options": ["educational partnerships and rotating exhibitions", "higher prices", "shorter hours"], "correctAnswer": "educational partnerships and rotating exhibitions"}
+                ],
+                "correctSentence": "Several measures can boost local participation, including educational partnerships and rotating exhibitions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Cultural institutions could _____ by _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["increase local engagement", "earn more money", "attract more tourists"], "correctAnswer": "increase local engagement"},
+                  {"id": "topic7_b2", "options": ["developing community outreach programs and special events", "raising fees", "reducing accessibility"], "correctAnswer": "developing community outreach programs and special events"}
+                ],
+                "correctSentence": "Cultural institutions could increase local engagement by developing community outreach programs and special events.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "A practical approach involves _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["creating partnerships with local schools and offering family-friendly programs", "excluding tourists", "demolishing old exhibits"], "correctAnswer": "creating partnerships with local schools and offering family-friendly programs"}
+                ],
+                "correctSentence": "A practical approach involves creating partnerships with local schools and offering family-friendly programs.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "Local residents often feel _____ because _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["they already know about their local heritage", "museums are too far", "exhibitions are in foreign languages"], "correctAnswer": "they already know about their local heritage"},
+                  {"id": "support1_b2", "options": ["they have seen these sites throughout their lives", "they prefer modern entertainment", "they dislike history"], "correctAnswer": "they have seen these sites throughout their lives"}
+                ],
+                "correctSentence": "Local residents often feel they already know about their local heritage because they have seen these sites throughout their lives.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "Unlike tourists who _____, locals _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["find everything novel and exciting", "stay in hotels", "take photographs"], "correctAnswer": "find everything novel and exciting"},
+                  {"id": "support2_b2", "options": ["perceive little novelty in familiar historical sites", "prefer shopping", "avoid museums"], "correctAnswer": "perceive little novelty in familiar historical sites"}
+                ],
+                "correctSentence": "Unlike tourists who find everything novel and exciting, locals perceive little novelty in familiar historical sites.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Additionally, _____ creates _____ for regular visits.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["the cost of admission fees", "tourist behavior", "modern technology"], "correctAnswer": "the cost of admission fees"},
+                  {"id": "support3_b2", "options": ["a financial barrier that discourages locals", "more opportunities", "better experiences"], "correctAnswer": "a financial barrier that discourages locals"}
+                ],
+                "correctSentence": "Additionally, the cost of admission fees creates a financial barrier that discourages locals from making regular visits.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "By offering _____, museums can _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["free entry on specific days or reduced rates for residents", "expensive tours", "fewer exhibits"], "correctAnswer": "free entry on specific days or reduced rates for residents"},
+                  {"id": "support4_b2", "options": ["remove financial obstacles and encourage frequent visits", "increase revenue", "attract more tourists"], "correctAnswer": "remove financial obstacles and encourage frequent visits"}
+                ],
+                "correctSentence": "By offering free entry on specific days or reduced rates for residents, museums can remove financial obstacles and encourage frequent visits.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Educational partnerships enable _____ to _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["schools to integrate museum visits into their curriculum", "tourists to learn more", "staff to work less"], "correctAnswer": "schools to integrate museum visits into their curriculum"},
+                  {"id": "support5_b2", "options": ["fostering early heritage appreciation among young residents", "reduce costs", "increase prices"], "correctAnswer": "fostering early heritage appreciation among young residents"}
+                ],
+                "correctSentence": "Educational partnerships enable schools to integrate museum visits into their curriculum, fostering early heritage appreciation among young residents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Furthermore, _____ can _____ by _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["rotating temporary exhibitions", "permanent displays", "tourist guides"], "correctAnswer": "rotating temporary exhibitions"},
+                  {"id": "support6_b2", "options": ["combat familiarity", "increase costs", "reduce space"], "correctAnswer": "combat familiarity"},
+                  {"id": "support6_b3", "options": ["providing fresh content that encourages repeat visits", "attracting more tourists", "charging higher fees"], "correctAnswer": "providing fresh content that encourages repeat visits"}
+                ],
+                "correctSentence": "Furthermore, rotating temporary exhibitions can combat familiarity by providing fresh content that encourages repeat visits.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "This is because _____ makes _____ seem less valuable.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["constant exposure to local heritage", "tourist presence", "modern architecture"], "correctAnswer": "constant exposure to local heritage"},
+                  {"id": "support7_b2", "options": ["visiting familiar museums and sites", "traveling abroad", "shopping online"], "correctAnswer": "visiting familiar museums and sites"}
+                ],
+                "correctSentence": "This is because constant exposure to local heritage makes visiting familiar museums and sites seem less valuable.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Many residents _____ rather than _____ they already know.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["prefer to explore new destinations", "stay at home", "work overtime"], "correctAnswer": "prefer to explore new destinations"},
+                  {"id": "support8_b2", "options": ["revisit local cultural sites", "travel abroad", "spend money"], "correctAnswer": "revisit local cultural sites"}
+                ],
+                "correctSentence": "Many residents prefer to explore new destinations rather than revisit local cultural sites they already know.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "Community outreach programs can _____ by _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["strengthen local connections", "increase revenue", "reduce costs"], "correctAnswer": "strengthen local connections"},
+                  {"id": "support9_b2", "options": ["hosting special events and workshops tailored to residents' interests", "charging higher fees", "limiting access"], "correctAnswer": "hosting special events and workshops tailored to residents' interests"}
+                ],
+                "correctSentence": "Community outreach programs can strengthen local connections by hosting special events and workshops tailored to residents' interests.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "Consequently, _____ tends to be _____ among local populations.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["museum attendance", "tourist satisfaction", "ticket revenue"], "correctAnswer": "museum attendance"},
+                  {"id": "support10_b2", "options": ["significantly lower", "much higher", "exactly equal"], "correctAnswer": "significantly lower"}
+                ],
+                "correctSentence": "Consequently, museum attendance tends to be significantly lower among local populations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "Through _____, cultural institutions can _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["targeted promotional campaigns emphasizing local relevance", "tourist advertising", "price increases"], "correctAnswer": "targeted promotional campaigns emphasizing local relevance"},
+                  {"id": "support11_b2", "options": ["raise awareness and change perceptions among residents", "attract foreign visitors", "reduce operating costs"], "correctAnswer": "raise awareness and change perceptions among residents"}
+                ],
+                "correctSentence": "Through targeted promotional campaigns emphasizing local relevance, cultural institutions can raise awareness and change perceptions among residents.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "As a result, _____ becomes _____ for most local families.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["regular museum attendance", "international travel", "online shopping"], "correctAnswer": "regular museum attendance"},
+                  {"id": "support12_b2", "options": ["financially prohibitive", "more affordable", "completely free"], "correctAnswer": "financially prohibitive"}
+                ],
+                "correctSentence": "As a result, regular museum attendance becomes financially prohibitive for most local families.",
+                "usableIn": "body-paragraph-1"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ may _____ while _____ eagerly _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["residents of London", "foreign tourists", "museum directors"], "correctAnswer": "residents of London"},
+                  {"id": "example1_b2", "options": ["never visit the British Museum despite living nearby", "visit frequently", "work there"], "correctAnswer": "never visit the British Museum despite living nearby"},
+                  {"id": "example1_b3", "options": ["international visitors", "local students", "staff members"], "correctAnswer": "international visitors"},
+                  {"id": "example1_b4", "options": ["include it in their itineraries", "avoid it", "criticize it"], "correctAnswer": "include it in their itineraries"}
+                ],
+                "correctSentence": "For instance, residents of London may never visit the British Museum despite living nearby, while international visitors eagerly include it in their itineraries.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ implemented _____ which resulted in _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["many European museums", "Asian governments", "private companies"], "correctAnswer": "many European museums"},
+                  {"id": "example2_b2", "options": ["free admission for local residents on certain weekdays", "higher ticket prices", "restricted access"], "correctAnswer": "free admission for local residents on certain weekdays"},
+                  {"id": "example2_b3", "options": ["a significant increase in local attendance", "lower revenue", "tourist complaints"], "correctAnswer": "a significant increase in local attendance"}
+                ],
+                "correctSentence": "For example, many European museums implemented free admission for local residents on certain weekdays, which resulted in a significant increase in local attendance.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ such as _____ attract _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["special programs", "tourist brochures", "parking lots"], "correctAnswer": "special programs"},
+                  {"id": "example3_b2", "options": ["lecture series and hands-on workshops", "expensive tours", "commercial advertising"], "correctAnswer": "lecture series and hands-on workshops"},
+                  {"id": "example3_b3", "options": ["residents interested in deeper engagement with local culture", "only tourists", "foreign investors"], "correctAnswer": "residents interested in deeper engagement with local culture"}
+                ],
+                "correctSentence": "Specifically, special programs such as lecture series and hands-on workshops attract residents interested in deeper engagement with local culture.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Studies show that _____ when _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["local visitor numbers increase substantially", "revenue decreases", "tourists complain"], "correctAnswer": "local visitor numbers increase substantially"},
+                  {"id": "example4_b2", "options": ["museums offer annual membership passes at reduced rates", "prices are raised", "hours are shortened"], "correctAnswer": "museums offer annual membership passes at reduced rates"}
+                ],
+                "correctSentence": "Studies show that local visitor numbers increase substantially when museums offer annual membership passes at reduced rates.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Research indicates that _____ among residents who _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["heritage appreciation improves significantly", "costs increase", "interest declines"], "correctAnswer": "heritage appreciation improves significantly"},
+                  {"id": "example5_b2", "options": ["participate in school-museum partnership programs during childhood", "pay higher fees", "avoid museums"], "correctAnswer": "participate in school-museum partnership programs during childhood"}
+                ],
+                "correctSentence": "Research indicates that heritage appreciation improves significantly among residents who participate in school-museum partnership programs during childhood.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ has proven _____ in cities like _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["offering family-friendly weekend activities", "raising admission prices", "closing on weekends"], "correctAnswer": "offering family-friendly weekend activities"},
+                  {"id": "example6_b2", "options": ["highly effective at engaging local families", "financially unsuccessful", "controversial"], "correctAnswer": "highly effective at engaging local families"},
+                  {"id": "example6_b3", "options": ["Amsterdam and Copenhagen", "remote villages", "developing nations"], "correctAnswer": "Amsterdam and Copenhagen"}
+                ],
+                "correctSentence": "In particular, offering family-friendly weekend activities has proven highly effective at engaging local families in cities like Amsterdam and Copenhagen.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, report that _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["local residents", "tourists", "museum directors"], "correctAnswer": "local residents"},
+                  {"id": "example7_b2", "options": ["those living near major museums", "international visitors", "government officials"], "correctAnswer": "those living near major museums"},
+                  {"id": "example7_b3", "options": ["they feel no urgency to visit since the sites are always accessible", "they visit frequently", "they work there"], "correctAnswer": "they feel no urgency to visit since the sites are always accessible"}
+                ],
+                "correctSentence": "Many local residents, including those living near major museums, report that they feel no urgency to visit since the sites are always accessible.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ often means _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["historical landmarks in capital cities", "modern shopping malls", "international airports"], "correctAnswer": "historical landmarks in capital cities"},
+                  {"id": "example8_b2", "options": ["the constant visibility of these sites to locals", "tourist overcrowding", "expensive maintenance"], "correctAnswer": "the constant visibility of these sites to locals"},
+                  {"id": "example8_b3", "options": ["residents take them for granted and rarely visit", "everyone visits frequently", "tourists avoid them"], "correctAnswer": "residents take them for granted and rarely visit"}
+                ],
+                "correctSentence": "Take historical landmarks in capital cities as an example: the constant visibility of these sites to locals often means residents take them for granted and rarely visit.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, museums that _____ experience _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["visitor surveys", "tourist complaints", "government regulations"], "correctAnswer": "visitor surveys"},
+                  {"id": "example9_b2", "options": ["regularly update exhibits and host community events", "maintain static displays", "increase prices"], "correctAnswer": "regularly update exhibits and host community events"},
+                  {"id": "example9_b3", "options": ["higher rates of repeat visits from local populations", "declining attendance", "tourist dissatisfaction"], "correctAnswer": "higher rates of repeat visits from local populations"}
+                ],
+                "correctSentence": "According to visitor surveys, museums that regularly update exhibits and host community events experience higher rates of repeat visits from local populations.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ such as _____ successfully _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["initiatives", "buildings", "websites"], "correctAnswer": "initiatives"},
+                  {"id": "example10_b2", "options": ["resident appreciation nights and local artist showcases", "online catalogs", "parking expansions"], "correctAnswer": "resident appreciation nights and local artist showcases"},
+                  {"id": "example10_b3", "options": ["strengthen community ties and boost local engagement", "increase costs", "attract criticism"], "correctAnswer": "strengthen community ties and boost local engagement"}
+                ],
+                "correctSentence": "Evidence suggests that initiatives such as resident appreciation nights and local artist showcases successfully strengthen community ties and boost local engagement.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, _____ explains why locals avoid museums, but _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["familiarity and cost", "bad weather", "poor construction"], "correctAnswer": "familiarity and cost"},
+                  {"id": "conclusion1_b2", "options": ["strategic measures including free entry and educational programs can reverse this trend", "nothing can be done", "tourists should be banned"], "correctAnswer": "strategic measures including free entry and educational programs can reverse this trend"}
+                ],
+                "correctSentence": "In conclusion, familiarity and cost explains why locals avoid museums, but strategic measures including free entry and educational programs can reverse this trend.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, while _____ discourages local visits, _____ can successfully address this issue.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["the lack of novelty and financial barriers", "tourist behavior", "modern technology"], "correctAnswer": "the lack of novelty and financial barriers"},
+                  {"id": "conclusion2_b2", "options": ["implementing discounts, partnerships, and rotating exhibitions", "raising prices", "reducing access"], "correctAnswer": "implementing discounts, partnerships, and rotating exhibitions"}
+                ],
+                "correctSentence": "Overall, while the lack of novelty and financial barriers discourages local visits, implementing discounts, partnerships, and rotating exhibitions can successfully address this issue.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ causes _____, but _____ offers effective solutions.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["overfamiliarity combined with admission costs", "tourist overcrowding", "poor management"], "correctAnswer": "overfamiliarity combined with admission costs"},
+                  {"id": "conclusion3_b2", "options": ["low local engagement with cultural sites", "high revenue", "tourist satisfaction"], "correctAnswer": "low local engagement with cultural sites"},
+                  {"id": "conclusion3_b3", "options": ["targeted community outreach and affordable access", "closing museums", "increasing prices"], "correctAnswer": "targeted community outreach and affordable access"}
+                ],
+                "correctSentence": "To summarize, overfamiliarity combined with admission costs causes low local engagement with cultural sites, but targeted community outreach and affordable access offers effective solutions.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ stems from _____, and _____ are essential to encourage local participation.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["this pattern of tourist-dominated attendance", "government policy", "building design"], "correctAnswer": "this pattern of tourist-dominated attendance"},
+                  {"id": "conclusion4_b2", "options": ["residents' perceived familiarity and economic constraints", "poor marketing", "bad locations"], "correctAnswer": "residents' perceived familiarity and economic constraints"},
+                  {"id": "conclusion4_b3", "options": ["practical initiatives like school partnerships and free days", "higher fees", "tourist restrictions"], "correctAnswer": "practical initiatives like school partnerships and free days"}
+                ],
+                "correctSentence": "Ultimately, this pattern of tourist-dominated attendance stems from residents' perceived familiarity and economic constraints, and practical initiatives like school partnerships and free days are essential to encourage local participation.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In summary, _____ results from _____, and museums must _____ to reverse this trend.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["low local attendance", "high tourist numbers", "good revenue"], "correctAnswer": "low local attendance"},
+                  {"id": "conclusion5_b2", "options": ["lack of perceived value and financial obstacles", "excessive marketing", "modern architecture"], "correctAnswer": "lack of perceived value and financial obstacles"},
+                  {"id": "conclusion5_b3", "options": ["implement affordable pricing and engaging community programs", "increase fees", "limit access"], "correctAnswer": "implement affordable pricing and engaging community programs"}
+                ],
+                "correctSentence": "In summary, low local attendance results from lack of perceived value and financial obstacles, and museums must implement affordable pricing and engaging community programs to reverse this trend.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Two-Part Structure",
+            "structure": {
+              "introduction": "Museums and historical sites are [paraphrase trend]. This occurs due to [brief mention of reasons], and [mention solutions needed].",
+              "body1": "The primary reason for low local attendance is [Reason 1]. Additionally, [Reason 2]. For instance, [example]. As a result, [consequence].",
+              "body2": "To address this issue, several measures can be implemented. Firstly, [Solution 1 with explanation]. Secondly, [Solution 2 with explanation]. For example, [specific example of solution in action].",
+              "conclusion": "In conclusion, locals avoid these sites due to [summarize reasons], but [restate solutions] can successfully reverse this trend."
+            },
+            "example": {
+              "introduction": "Museums and historical sites are predominantly visited by tourists rather than local residents. This occurs due to overfamiliarity and financial barriers, and targeted strategies can help increase local engagement.",
+              "body1": "The primary reason for low local attendance is that residents feel overly familiar with their local heritage. Unlike tourists who experience novelty, locals have been exposed to these sites throughout their lives, reducing perceived value. For instance, Londoners rarely visit the British Museum despite living nearby, while international visitors eagerly include it in their itineraries. As a result, locals prioritize exploring new destinations rather than revisiting familiar cultural sites.",
+              "body2": "To address this issue, several measures can be implemented. Firstly, museums should offer free entry days or local resident discounts to remove financial barriers. Secondly, rotating temporary exhibitions can combat familiarity by providing fresh content that encourages repeat visits. For example, many European museums have successfully increased local attendance by implementing free admission for residents on certain weekdays.",
+              "conclusion": "In conclusion, locals avoid these sites due to familiarity and cost, but strategic measures including affordable access and engaging content can successfully reverse this trend."
+            }
+          },
+          {
+            "name": "Template 2: Problem-Solution Approach",
+            "structure": {
+              "introduction": "[Paraphrase trend]. This essay will examine [mention both parts of question].",
+              "body1": "Several factors explain this pattern. [Reason 1 with explanation]. Furthermore, [Reason 2 with explanation]. [Example illustrating the problem].",
+              "body2": "Addressing this requires multiple approaches. [Solution 1 with explanation and example]. Moreover, [Solution 2 with explanation]. [Specific example showing effectiveness].",
+              "conclusion": "To summarize, [restate reasons] causes low local participation, but [restate solutions] offer practical ways to increase engagement."
+            }
+          },
+          {
+            "name": "Template 3: Comprehensive Analysis",
+            "structure": {
+              "introduction": "[Restate trend]. The reasons include [brief causes], and [brief mention of solutions] are necessary.",
+              "body1": "This phenomenon can be attributed to several factors. Chief among these is [Reason 1]. Additionally, [Reason 2]. For example, [specific example illustrating both reasons].",
+              "body2": "To encourage local visits, cultural institutions should [Solution 1]. Furthermore, [Solution 2]. Specifically, [concrete example of successful implementation], demonstrating the effectiveness of these approaches.",
+              "conclusion": "In conclusion, while [summarize reasons] explains this trend, [restate solutions] can effectively boost local engagement with cultural heritage."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "explaining_reasons": ["The primary reason for", "This phenomenon can be attributed to", "Several factors contribute to", "One major cause is"],
+          "presenting_solutions": ["To address this issue", "One effective solution is", "Museums should", "A practical approach involves"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
+          "giving_examples": ["For instance", "For example", "Specifically", "In particular"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
+          "contrasting": ["Unlike", "Conversely", "In contrast", "However"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "Museums and historical sites are _____ [paraphrase the observation]. This occurs due to _____ [briefly mention reasons], and _____ [mention what can be done].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Paraphrase the observation",
+                "hint": "Paraphrase 'mainly visited by tourists, not local people' using synonyms",
+                "placeholder": "e.g., predominantly visited by international tourists rather than local residents who live nearby",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Briefly mention reasons",
+                "hint": "One sentence mentioning WHY locals don't visit - familiarity, cost, etc.",
+                "placeholder": "e.g., several factors including overfamiliarity with local heritage and high admission fees",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "Mention solutions",
+                "hint": "Briefly state what can be done to encourage local visits",
+                "placeholder": "e.g., targeted strategies such as free entry days and educational partnerships can increase local engagement",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1 - Reasons",
+            "template": "The primary reason for _____ [state main reason]. This is because _____ [explain why]. Additionally, _____ [give second reason]. For instance, _____ [provide specific example]. Consequently, _____ [state the consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "State main reason",
+                "hint": "What is THE main reason locals don't visit museums?",
+                "placeholder": "e.g., low local attendance is that residents feel overly familiar with their local cultural heritage",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain why",
+                "hint": "WHY does this reason cause low attendance? Elaborate",
+                "placeholder": "e.g., locals have been exposed to these sites throughout their lives, making them seem less novel or exciting than tourist destinations",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Second reason",
+                "hint": "What is another important factor? Think about cost, accessibility, relevance",
+                "placeholder": "e.g., admission fees create financial barriers that discourage regular visits by local families on limited budgets",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Specific example",
+                "hint": "Give concrete examples - specific cities, museums, or resident behaviors",
+                "placeholder": "e.g., many Londoners never visit the British Museum despite living nearby, while tourists eagerly pay to enter",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank5",
+                "label": "Consequence",
+                "hint": "What is the result of these reasons?",
+                "placeholder": "e.g., local residents prioritize exploring new destinations rather than revisiting familiar cultural sites in their area",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2 - Solutions",
+            "template": "To address this issue, _____ [state main solution]. Specifically, _____ [explain how this solution works]. Moreover, _____ [give second solution]. For example, _____ [provide specific example of solution in action].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "State main solution",
+                "hint": "What is the most effective solution to encourage local visits?",
+                "placeholder": "e.g., museums should offer free entry days or provide significant discounts for local residents",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain how solution works",
+                "hint": "Explain HOW this solution would increase local attendance",
+                "placeholder": "e.g., removing financial barriers makes regular visits affordable for families and encourages residents to explore their cultural heritage",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Second solution",
+                "hint": "What is another practical measure? Think about partnerships, exhibitions, programs",
+                "placeholder": "e.g., cultural institutions should develop partnerships with local schools to integrate museum visits into educational curricula",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Example of solution",
+                "hint": "Give concrete example of where/how these solutions have worked",
+                "placeholder": "e.g., many European museums successfully increased local attendance by implementing free admission for residents on specific weekdays",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, _____ [summarize reasons], but _____ [restate solutions and their potential impact].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Summarize reasons",
+                "hint": "Brief summary of WHY locals don't visit (from body paragraph 1)",
+                "placeholder": "e.g., local people avoid museums and historical sites due to overfamiliarity and the cost of admission fees",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate solutions",
+                "hint": "Restate the main solutions and emphasize they can work",
+                "placeholder": "e.g., implementing free entry days, local discounts, and school partnerships can successfully reverse this trend and increase community engagement",
+                "minWords": 15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + briefly answer both parts"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Explain WHY locals don't visit with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Suggest WHAT can be done with specific solutions and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Summarize reasons + restate solutions"
+          }
+        },
+        "checklist": [
+          "Introduction clearly paraphrases the question and addresses both parts",
+          "Body paragraph 1 explains WHY locals don't visit with specific reasons",
+          "Body paragraph 1 includes concrete examples or evidence",
+          "Body paragraph 2 suggests practical SOLUTIONS to encourage local visits",
+          "Body paragraph 2 includes specific examples of solutions in action",
+          "Conclusion summarizes the reasons and restates solutions",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Academic vocabulary used appropriately",
+          "Clear topic sentences for each body paragraph",
+          "Effective use of linking words and transitions"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "Museums and historical sites attract predominantly international tourists rather than local residents. This phenomenon occurs due to several factors, including overfamiliarity with local heritage and financial barriers, and targeted strategies involving affordable access and community engagement can effectively address this issue.\n\nThe primary reason for low local attendance is that residents feel overly familiar with their cultural heritage. Unlike tourists who experience novelty and excitement when visiting new destinations, locals have been exposed to these sites throughout their lives, reducing their perceived value and appeal. Additionally, admission fees create significant financial obstacles that discourage regular visits by local families operating on limited budgets. For instance, many Londoners never visit the British Museum despite living nearby, while international visitors eagerly pay entrance fees and consider it a highlight of their trip. Consequently, local residents often prioritize exploring new destinations elsewhere rather than revisiting familiar cultural institutions in their own communities.\n\nTo address this issue, museums and historical sites should implement several practical measures. Firstly, offering free entry days specifically for local residents or providing substantial discounts can remove financial barriers and encourage regular visits. Secondly, developing partnerships with local schools to integrate museum visits into educational curricula fosters early heritage appreciation among young residents. Moreover, rotating temporary exhibitions combat familiarity by providing fresh content that gives locals compelling reasons for repeat visits. For example, many European museums have successfully increased local attendance by implementing free admission for residents on certain weekdays, demonstrating the effectiveness of targeted pricing strategies.\n\nIn conclusion, local people avoid museums and historical sites primarily due to overfamiliarity and admission costs, but implementing free entry days, educational partnerships, and rotating exhibitions can successfully reverse this trend and strengthen community engagement with cultural heritage.",
+    "wordCount": 277,
+    "structure": {
+      "introduction": "Museums and historical sites attract predominantly international tourists rather than local residents. This phenomenon occurs due to several factors, including overfamiliarity with local heritage and financial barriers, and targeted strategies involving affordable access and community engagement can effectively address this issue.",
+      "body1": "The primary reason for low local attendance is that residents feel overly familiar with their cultural heritage. Unlike tourists who experience novelty and excitement when visiting new destinations, locals have been exposed to these sites throughout their lives, reducing their perceived value and appeal. Additionally, admission fees create significant financial obstacles that discourage regular visits by local families operating on limited budgets. For instance, many Londoners never visit the British Museum despite living nearby, while international visitors eagerly pay entrance fees and consider it a highlight of their trip. Consequently, local residents often prioritize exploring new destinations elsewhere rather than revisiting familiar cultural institutions in their own communities.",
+      "body2": "To address this issue, museums and historical sites should implement several practical measures. Firstly, offering free entry days specifically for local residents or providing substantial discounts can remove financial barriers and encourage regular visits. Secondly, developing partnerships with local schools to integrate museum visits into educational curricula fosters early heritage appreciation among young residents. Moreover, rotating temporary exhibitions combat familiarity by providing fresh content that gives locals compelling reasons for repeat visits. For example, many European museums have successfully increased local attendance by implementing free admission for residents on certain weekdays, demonstrating the effectiveness of targeted pricing strategies.",
+      "conclusion": "In conclusion, local people avoid museums and historical sites primarily due to overfamiliarity and admission costs, but implementing free entry days, educational partnerships, and rotating exhibitions can successfully reverse this trend and strengthen community engagement with cultural heritage."
+    },
+    "highlights": [
+      {
+        "text": "This phenomenon occurs due to",
+        "type": "linking-word",
+        "explanation": "Academic phrase to introduce causes or reasons"
+      },
+      {
+        "text": "cultural tourism",
+        "type": "academic-vocab",
+        "explanation": "Key topic vocabulary for museum and heritage tourism"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Consequently",
+        "type": "linking-word",
+        "explanation": "Shows the result or effect"
+      },
+      {
+        "text": "heritage appreciation",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for valuing cultural and historical legacy"
+      },
+      {
+        "text": "community engagement",
+        "type": "academic-vocab",
+        "explanation": "Key phrase for local participation and involvement"
+      },
+      {
+        "text": "many Londoners never visit the British Museum despite living nearby, while international visitors eagerly pay entrance fees",
+        "type": "example",
+        "explanation": "Specific, concrete example with named location showing contrast"
+      },
+      {
+        "text": "many European museums have successfully increased local attendance by implementing free admission for residents on certain weekdays",
+        "type": "example",
+        "explanation": "Evidence-based example showing solution effectiveness"
+      },
+      {
+        "text": "local engagement",
+        "type": "academic-vocab",
+        "explanation": "Academic term for community participation"
+      },
+      {
+        "text": "educational partnerships",
+        "type": "academic-vocab",
+        "explanation": "Collaborative term showing institutional cooperation"
+      }
+    ]
+  }
+}

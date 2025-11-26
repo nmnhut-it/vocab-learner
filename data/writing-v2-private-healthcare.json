@@ -1,0 +1,1030 @@
+{
+  "id": "private-healthcare",
+  "title": "Private vs Public Healthcare",
+  "category": "Health & Society",
+  "difficulty": "Medium",
+  "question": {
+    "text": "Some people think keeping health is a basic need of humans, thus medical care should not be run by profit-making companies. Do the disadvantages of private health care outweigh the advantages?",
+    "type": "Advantages/Disadvantages",
+    "wordCountTarget": 270
+  },
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Topic Analysis",
+      "type": "analysis",
+      "unlockCondition": "Always unlocked",
+      "completionCriteria": "View all content",
+      "content": {
+        "questionType": {
+          "type": "Advantages/Disadvantages",
+          "explanation": "You must discuss BOTH advantages AND disadvantages of private healthcare, then clearly state whether disadvantages outweigh advantages.",
+          "requirements": [
+            "Discuss advantages of private healthcare",
+            "Discuss disadvantages of private healthcare",
+            "Give your clear opinion on whether disadvantages outweigh advantages",
+            "Provide specific examples for both sides"
+          ]
+        },
+        "keyWords": [
+          {
+            "word": "basic need",
+            "definition": "Essential requirement for human survival and wellbeing",
+            "importance": "This establishes healthcare as a fundamental human right"
+          },
+          {
+            "word": "profit-making companies",
+            "definition": "Private businesses that operate to generate financial returns",
+            "importance": "This is the central concern - should healthcare be commercialized?"
+          },
+          {
+            "word": "private health care",
+            "definition": "Medical services provided by private sector organizations",
+            "importance": "This is the main topic you must analyze"
+          },
+          {
+            "word": "disadvantages outweigh advantages",
+            "definition": "Negative aspects are more significant than positive aspects",
+            "importance": "You must take a clear position on this comparison"
+          }
+        ],
+        "essayStructure": {
+          "introduction": "2-3 sentences: Paraphrase question + state your opinion on whether disadvantages outweigh advantages",
+          "body1": "4-5 sentences: Discuss advantages of private healthcare",
+          "body2": "4-5 sentences: Discuss disadvantages of private healthcare",
+          "conclusion": "2 sentences: Summarize both sides + restate whether disadvantages outweigh advantages"
+        },
+        "commonMistakes": [
+          "Discussing public healthcare instead of focusing on private healthcare",
+          "Opinion is unclear about whether disadvantages outweigh advantages",
+          "Forgetting to give concrete examples of advantages and disadvantages",
+          "Copying words directly from the question"
+        ]
+      }
+    },
+    {
+      "stepNumber": 2,
+      "title": "Vocabulary Builder",
+      "type": "vocabulary",
+      "unlockCondition": "Complete Step 1",
+      "completionCriteria": "View all vocabulary",
+      "content": {
+        "academicVocabulary": [
+          {
+            "word": "accessibility",
+            "pronunciation": "/ækˌsesəˈbɪləti/",
+            "partOfSpeech": "noun",
+            "definition": "The quality of being available or easy to obtain",
+            "example": "Private healthcare can improve accessibility for those who can afford it.",
+            "synonyms": ["availability", "obtainability"]
+          },
+          {
+            "word": "disparity",
+            "pronunciation": "/dɪˈspærəti/",
+            "partOfSpeech": "noun",
+            "definition": "A great difference or inequality",
+            "example": "Private healthcare systems can create disparities between rich and poor.",
+            "synonyms": ["inequality", "imbalance"]
+          },
+          {
+            "word": "prioritize",
+            "pronunciation": "/praɪˈɒrɪtaɪz/",
+            "partOfSpeech": "verb",
+            "definition": "To designate or treat as most important",
+            "example": "Critics argue that private hospitals prioritize profits over patient welfare.",
+            "synonyms": ["emphasize", "focus on"]
+          },
+          {
+            "word": "alleviate",
+            "pronunciation": "/əˈliːvieɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To make suffering or a problem less severe",
+            "example": "Private healthcare can alleviate the burden on public health systems.",
+            "synonyms": ["reduce", "ease", "relieve"]
+          },
+          {
+            "word": "efficiency",
+            "pronunciation": "/ɪˈfɪʃənsi/",
+            "partOfSpeech": "noun",
+            "definition": "The ability to accomplish something with minimum waste of time and effort",
+            "example": "Private hospitals often demonstrate greater efficiency in service delivery.",
+            "synonyms": ["effectiveness", "productivity"]
+          },
+          {
+            "word": "exacerbate",
+            "pronunciation": "/ɪɡˈzæsəbeɪt/",
+            "partOfSpeech": "verb",
+            "definition": "To make a problem or situation worse",
+            "example": "Private healthcare can exacerbate social inequality in medical access.",
+            "synonyms": ["worsen", "aggravate", "intensify"]
+          },
+          {
+            "word": "fundamental",
+            "pronunciation": "/ˌfʌndəˈmentl/",
+            "partOfSpeech": "adjective",
+            "definition": "Forming a necessary base or core",
+            "example": "Many believe healthcare is a fundamental human right.",
+            "synonyms": ["basic", "essential", "core"]
+          },
+          {
+            "word": "comprehensive",
+            "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+            "partOfSpeech": "adjective",
+            "definition": "Complete and including everything necessary",
+            "example": "Private facilities often provide comprehensive medical services.",
+            "synonyms": ["thorough", "extensive", "complete"]
+          }
+        ],
+        "topicVocabulary": [
+          {
+            "phrase": "waiting times",
+            "definition": "The period patients must wait to receive medical treatment",
+            "example": "Private healthcare typically offers shorter waiting times than public systems."
+          },
+          {
+            "phrase": "healthcare inequality",
+            "definition": "Unequal access to medical services based on socioeconomic factors",
+            "example": "Private healthcare can contribute to healthcare inequality in society."
+          },
+          {
+            "phrase": "quality of care",
+            "definition": "The standard of medical treatment provided to patients",
+            "example": "Private hospitals often maintain high quality of care through competitive standards."
+          },
+          {
+            "phrase": "profit-driven model",
+            "definition": "A business approach focused on generating financial returns",
+            "example": "A profit-driven model may conflict with the principle of universal healthcare access."
+          },
+          {
+            "phrase": "universal healthcare",
+            "definition": "A system where all citizens have access to medical services",
+            "example": "Critics argue that private healthcare undermines universal healthcare principles."
+          },
+          {
+            "phrase": "socioeconomic status",
+            "definition": "An individual's social and economic position in society",
+            "example": "Private healthcare access often depends on socioeconomic status rather than medical need."
+          }
+        ],
+        "linkingPhrases": {
+          "introducing": ["There is considerable debate about", "Healthcare provision raises questions about", "While some argue"],
+          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However", "Nevertheless"],
+          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Beyond this"],
+          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "In cases such as"],
+          "concluding": ["In conclusion", "To summarize", "Overall", "On balance", "Taking everything into consideration"]
+        }
+      }
+    },
+    {
+      "stepNumber": 3,
+      "title": "Sentence Builder",
+      "type": "exercises",
+      "unlockCondition": "Complete Step 2",
+      "completionCriteria": "Complete 35/48 exercises correctly",
+      "content": {
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words. These sentences are organized by function - save the ones you complete correctly to use in Step 6!",
+        "exerciseSections": [
+          {
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both sides and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While private healthcare offers _____, I believe its disadvantages, particularly _____, outweigh these benefits.",
+                "blanks": [
+                  {"id": "thesis1_b1", "options": ["certain advantages in efficiency and service quality", "free medical care", "government funding"], "correctAnswer": "certain advantages in efficiency and service quality"},
+                  {"id": "thesis1_b2", "options": ["increased healthcare inequality", "better facilities", "modern technology"], "correctAnswer": "increased healthcare inequality"}
+                ],
+                "correctSentence": "While private healthcare offers certain advantages in efficiency and service quality, I believe its disadvantages, particularly increased healthcare inequality, outweigh these benefits.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, the _____ of private healthcare do not outweigh the _____ because _____.",
+                "blanks": [
+                  {"id": "thesis2_b1", "options": ["disadvantages", "advantages", "costs"], "correctAnswer": "disadvantages"},
+                  {"id": "thesis2_b2", "options": ["advantages", "problems", "expenses"], "correctAnswer": "advantages"},
+                  {"id": "thesis2_b3", "options": ["both systems can coexist to serve different needs", "private healthcare is always better", "everyone can afford it"], "correctAnswer": "both systems can coexist to serve different needs"}
+                ],
+                "correctSentence": "In my opinion, the disadvantages of private healthcare do not outweigh the advantages because both systems can coexist to serve different needs.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "There is ongoing debate about whether _____ should be _____.",
+                "blanks": [
+                  {"id": "thesis3_b1", "options": ["healthcare provision", "hospital buildings", "medical equipment"], "correctAnswer": "healthcare provision"},
+                  {"id": "thesis3_b2", "options": ["commercialized or remain a public service", "expensive or cheap", "available or unavailable"], "correctAnswer": "commercialized or remain a public service"}
+                ],
+                "correctSentence": "There is ongoing debate about whether healthcare provision should be commercialized or remain a public service.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "From my perspective, _____ because _____.",
+                "blanks": [
+                  {"id": "thesis4_b1", "options": ["the disadvantages of private healthcare outweigh the advantages", "private healthcare is perfect", "everyone should use private hospitals"], "correctAnswer": "the disadvantages of private healthcare outweigh the advantages"},
+                  {"id": "thesis4_b2", "options": ["healthcare should be accessible to all regardless of financial means", "rich people deserve better treatment", "profit is most important"], "correctAnswer": "healthcare should be accessible to all regardless of financial means"}
+                ],
+                "correctSentence": "From my perspective, the disadvantages of private healthcare outweigh the advantages because healthcare should be accessible to all regardless of financial means.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will examine _____ before concluding that _____.",
+                "blanks": [
+                  {"id": "thesis5_b1", "options": ["both the benefits and drawbacks of privatized medical services", "only the advantages", "hospital costs"], "correctAnswer": "both the benefits and drawbacks of privatized medical services"},
+                  {"id": "thesis5_b2", "options": ["the advantages narrowly outweigh the disadvantages", "private healthcare should be banned", "everyone should pay for healthcare"], "correctAnswer": "the advantages narrowly outweigh the disadvantages"}
+                ],
+                "correctSentence": "This essay will examine both the benefits and drawbacks of privatized medical services before concluding that the advantages narrowly outweigh the disadvantages.",
+                "usableIn": "introduction"
+              }
+            ]
+          },
+          {
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the one hand, _____ provides _____.",
+                "blanks": [
+                  {"id": "topic1_b1", "options": ["private healthcare", "government funding", "free medicine"], "correctAnswer": "private healthcare"},
+                  {"id": "topic1_b2", "options": ["several notable benefits for patients who can afford it", "free treatment", "government support"], "correctAnswer": "several notable benefits for patients who can afford it"}
+                ],
+                "correctSentence": "On the one hand, private healthcare provides several notable benefits for patients who can afford it.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the other hand, _____ creates _____.",
+                "blanks": [
+                  {"id": "topic2_b1", "options": ["the privatization of healthcare", "public hospitals", "free treatment"], "correctAnswer": "the privatization of healthcare"},
+                  {"id": "topic2_b2", "options": ["significant problems for society", "better outcomes", "cheaper services"], "correctAnswer": "significant problems for society"}
+                ],
+                "correctSentence": "On the other hand, the privatization of healthcare creates significant problems for society.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "One significant advantage of _____ is _____.",
+                "blanks": [
+                  {"id": "topic3_b1", "options": ["private medical facilities", "government hospitals", "free medicine"], "correctAnswer": "private medical facilities"},
+                  {"id": "topic3_b2", "options": ["the reduced waiting times they offer", "their high costs", "limited access"], "correctAnswer": "the reduced waiting times they offer"}
+                ],
+                "correctSentence": "One significant advantage of private medical facilities is the reduced waiting times they offer.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A major drawback of _____ is that _____.",
+                "blanks": [
+                  {"id": "topic4_b1", "options": ["profit-driven healthcare systems", "free healthcare", "public hospitals"], "correctAnswer": "profit-driven healthcare systems"},
+                  {"id": "topic4_b2", "options": ["they prioritize revenue over patient welfare", "they provide excellent service", "everyone benefits equally"], "correctAnswer": "they prioritize revenue over patient welfare"}
+                ],
+                "correctSentence": "A major drawback of profit-driven healthcare systems is that they prioritize revenue over patient welfare.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "_____ argue that _____ is essential for _____.",
+                "blanks": [
+                  {"id": "topic5_b1", "options": ["Supporters of private healthcare", "Government officials", "Protesters"], "correctAnswer": "Supporters of private healthcare"},
+                  {"id": "topic5_b2", "options": ["competition between providers", "eliminating all hospitals", "free services"], "correctAnswer": "competition between providers"},
+                  {"id": "topic5_b3", "options": ["improving service quality and innovation", "reducing healthcare access", "increasing prices"], "correctAnswer": "improving service quality and innovation"}
+                ],
+                "correctSentence": "Supporters of private healthcare argue that competition between providers is essential for improving service quality and innovation.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "_____ contend that _____ undermines _____.",
+                "blanks": [
+                  {"id": "topic6_b1", "options": ["Critics of privatization", "Hospital owners", "Rich patients"], "correctAnswer": "Critics of privatization"},
+                  {"id": "topic6_b2", "options": ["commercializing medical treatment", "improving healthcare", "building hospitals"], "correctAnswer": "commercializing medical treatment"},
+                  {"id": "topic6_b3", "options": ["the principle of universal healthcare access", "hospital profits", "doctor salaries"], "correctAnswer": "the principle of universal healthcare access"}
+                ],
+                "correctSentence": "Critics of privatization contend that commercializing medical treatment undermines the principle of universal healthcare access.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The primary benefit of _____ is _____.",
+                "blanks": [
+                  {"id": "topic7_b1", "options": ["privately-funded hospitals", "government clinics", "free medicine"], "correctAnswer": "privately-funded hospitals"},
+                  {"id": "topic7_b2", "options": ["their investment in advanced medical technology", "their low prices", "government support"], "correctAnswer": "their investment in advanced medical technology"}
+                ],
+                "correctSentence": "The primary benefit of privately-funded hospitals is their investment in advanced medical technology.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "A serious concern regarding _____ is _____.",
+                "blanks": [
+                  {"id": "topic8_b1", "options": ["for-profit medical care", "public healthcare", "free treatment"], "correctAnswer": "for-profit medical care"},
+                  {"id": "topic8_b2", "options": ["the widening gap between wealthy and disadvantaged patients", "excellent service quality", "affordable prices"], "correctAnswer": "the widening gap between wealthy and disadvantaged patients"}
+                ],
+                "correctSentence": "A serious concern regarding for-profit medical care is the widening gap between wealthy and disadvantaged patients.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ allows private facilities to _____.",
+                "blanks": [
+                  {"id": "support1_b1", "options": ["financial investment from the private sector", "government funding", "free services"], "correctAnswer": "financial investment from the private sector"},
+                  {"id": "support1_b2", "options": ["maintain state-of-the-art equipment and attract top medical professionals", "charge lower prices", "provide free treatment"], "correctAnswer": "maintain state-of-the-art equipment and attract top medical professionals"}
+                ],
+                "correctSentence": "This is because financial investment from the private sector allows private facilities to maintain state-of-the-art equipment and attract top medical professionals.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {"id": "support2_b1", "options": ["treating healthcare as a commodity", "universal healthcare", "affordable medicine"], "correctAnswer": "treating healthcare as a commodity"},
+                  {"id": "support2_b2", "options": ["unequal access based on financial means rather than medical need", "better outcomes for everyone", "reduced costs"], "correctAnswer": "unequal access based on financial means rather than medical need"}
+                ],
+                "correctSentence": "The main reason is that treating healthcare as a commodity leads to unequal access based on financial means rather than medical need.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "_____ enables patients to _____ without _____.",
+                "blanks": [
+                  {"id": "support3_b1", "options": ["Private healthcare", "Public hospitals", "Free treatment"], "correctAnswer": "Private healthcare"},
+                  {"id": "support3_b2", "options": ["receive immediate treatment", "wait forever", "pay money"], "correctAnswer": "receive immediate treatment"},
+                  {"id": "support3_b3", "options": ["enduring lengthy waiting periods common in public systems", "receiving good care", "seeing qualified doctors"], "correctAnswer": "enduring lengthy waiting periods common in public systems"}
+                ],
+                "correctSentence": "Private healthcare enables patients to receive immediate treatment without enduring lengthy waiting periods common in public systems.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "_____ creates _____, which is detrimental to _____.",
+                "blanks": [
+                  {"id": "support4_b1", "options": ["A profit-oriented approach", "Universal healthcare", "Free medicine"], "correctAnswer": "A profit-oriented approach"},
+                  {"id": "support4_b2", "options": ["a two-tier system where quality depends on ability to pay", "equal access for all", "better outcomes"], "correctAnswer": "a two-tier system where quality depends on ability to pay"},
+                  {"id": "support4_b3", "options": ["social cohesion and fairness", "hospital profits", "wealthy patients"], "correctAnswer": "social cohesion and fairness"}
+                ],
+                "correctSentence": "A profit-oriented approach creates a two-tier system where quality depends on ability to pay, which is detrimental to social cohesion and fairness.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "By _____, private hospitals can _____.",
+                "blanks": [
+                  {"id": "support5_b1", "options": ["operating independently of government bureaucracy", "receiving government funding", "offering free services"], "correctAnswer": "operating independently of government bureaucracy"},
+                  {"id": "support5_b2", "options": ["respond more quickly to patient needs and medical innovations", "charge higher prices", "exclude poor patients"], "correctAnswer": "respond more quickly to patient needs and medical innovations"}
+                ],
+                "correctSentence": "By operating independently of government bureaucracy, private hospitals can respond more quickly to patient needs and medical innovations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "_____ exacerbates _____ through _____.",
+                "blanks": [
+                  {"id": "support6_b1", "options": ["Privatized medicine", "Public healthcare", "Free treatment"], "correctAnswer": "Privatized medicine"},
+                  {"id": "support6_b2", "options": ["social inequality", "hospital efficiency", "medical innovation"], "correctAnswer": "social inequality"},
+                  {"id": "support6_b3", "options": ["denying quality treatment to those who cannot afford premium services", "providing excellent care", "reducing waiting times"], "correctAnswer": "denying quality treatment to those who cannot afford premium services"}
+                ],
+                "correctSentence": "Privatized medicine exacerbates social inequality through denying quality treatment to those who cannot afford premium services.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Private facilities contribute to _____ by _____.",
+                "blanks": [
+                  {"id": "support7_b1", "options": ["improved patient experiences", "healthcare inequality", "government debt"], "correctAnswer": "improved patient experiences"},
+                  {"id": "support7_b2", "options": ["offering personalized care and comfortable environments", "charging excessive fees", "refusing poor patients"], "correctAnswer": "offering personalized care and comfortable environments"}
+                ],
+                "correctSentence": "Private facilities contribute to improved patient experiences by offering personalized care and comfortable environments.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Profit-driven healthcare promotes _____ that _____.",
+                "blanks": [
+                  {"id": "support8_b1", "options": ["unnecessary medical procedures", "preventive care", "affordable treatment"], "correctAnswer": "unnecessary medical procedures"},
+                  {"id": "support8_b2", "options": ["inflate costs without improving health outcomes", "benefit all patients", "reduce expenses"], "correctAnswer": "inflate costs without improving health outcomes"}
+                ],
+                "correctSentence": "Profit-driven healthcare promotes unnecessary medical procedures that inflate costs without improving health outcomes.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support9",
+                "type": "template",
+                "template": "_____ provides patients with _____ over _____.",
+                "blanks": [
+                  {"id": "support9_b1", "options": ["Choosing private providers", "Using public hospitals", "Getting free care"], "correctAnswer": "Choosing private providers"},
+                  {"id": "support9_b2", "options": ["greater control", "less freedom", "no choice"], "correctAnswer": "greater control"},
+                  {"id": "support9_b3", "options": ["their treatment options and scheduling", "their medical conditions", "government policy"], "correctAnswer": "their treatment options and scheduling"}
+                ],
+                "correctSentence": "Choosing private providers provides patients with greater control over their treatment options and scheduling.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support10",
+                "type": "template",
+                "template": "In a commercialized system, _____ often _____ at the expense of _____.",
+                "blanks": [
+                  {"id": "support10_b1", "options": ["healthcare providers", "government agencies", "patients"], "correctAnswer": "healthcare providers"},
+                  {"id": "support10_b2", "options": ["prioritize profitable treatments", "focus on prevention", "offer free services"], "correctAnswer": "prioritize profitable treatments"},
+                  {"id": "support10_b3", "options": ["essential but less lucrative care", "expensive procedures", "wealthy patients"], "correctAnswer": "essential but less lucrative care"}
+                ],
+                "correctSentence": "In a commercialized system, healthcare providers often prioritize profitable treatments at the expense of essential but less lucrative care.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support11",
+                "type": "template",
+                "template": "As a result, _____ benefit from _____.",
+                "blanks": [
+                  {"id": "support11_b1", "options": ["affluent patients", "poor communities", "government hospitals"], "correctAnswer": "affluent patients"},
+                  {"id": "support11_b2", "options": ["expedited access to specialized treatments", "free healthcare", "public funding"], "correctAnswer": "expedited access to specialized treatments"}
+                ],
+                "correctSentence": "As a result, affluent patients benefit from expedited access to specialized treatments.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support12",
+                "type": "template",
+                "template": "Consequently, _____ tends to be _____ in privatized systems.",
+                "blanks": [
+                  {"id": "support12_b1", "options": ["healthcare inequality", "medical quality", "patient satisfaction"], "correctAnswer": "healthcare inequality"},
+                  {"id": "support12_b2", "options": ["more pronounced and problematic", "reduced and manageable", "completely eliminated"], "correctAnswer": "more pronounced and problematic"}
+                ],
+                "correctSentence": "Consequently, healthcare inequality tends to be more pronounced and problematic in privatized systems.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ can _____ while _____.",
+                "blanks": [
+                  {"id": "example1_b1", "options": ["patients with comprehensive insurance", "uninsured individuals", "government programs"], "correctAnswer": "patients with comprehensive insurance"},
+                  {"id": "example1_b2", "options": ["access cutting-edge treatments immediately", "wait indefinitely", "receive no care"], "correctAnswer": "access cutting-edge treatments immediately"},
+                  {"id": "example1_b3", "options": ["public system patients wait months for the same procedures", "everyone receives equal treatment", "costs decrease for all"], "correctAnswer": "public system patients wait months for the same procedures"}
+                ],
+                "correctSentence": "For instance, patients with comprehensive insurance can access cutting-edge treatments immediately while public system patients wait months for the same procedures.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ often struggle to _____ because _____.",
+                "blanks": [
+                  {"id": "example2_b1", "options": ["low-income families", "wealthy individuals", "hospital owners"], "correctAnswer": "low-income families"},
+                  {"id": "example2_b2", "options": ["afford necessary medical procedures", "choose between hospitals", "access free care"], "correctAnswer": "afford necessary medical procedures"},
+                  {"id": "example2_b3", "options": ["private facilities charge fees beyond their financial reach", "they have too many options", "treatment is too good"], "correctAnswer": "private facilities charge fees beyond their financial reach"}
+                ],
+                "correctSentence": "For example, low-income families often struggle to afford necessary medical procedures because private facilities charge fees beyond their financial reach.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ in countries like _____ demonstrate that _____.",
+                "blanks": [
+                  {"id": "example3_b1", "options": ["private hospitals", "government clinics", "free services"], "correctAnswer": "private hospitals"},
+                  {"id": "example3_b2", "options": ["Singapore and Switzerland", "Cuba and North Korea", "poor nations"], "correctAnswer": "Singapore and Switzerland"},
+                  {"id": "example3_b3", "options": ["privatization can coexist with strong regulation to ensure quality", "everyone suffers equally", "healthcare should be free"], "correctAnswer": "privatization can coexist with strong regulation to ensure quality"}
+                ],
+                "correctSentence": "Specifically, private hospitals in countries like Singapore and Switzerland demonstrate that privatization can coexist with strong regulation to ensure quality.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Research shows that _____ increase when _____.",
+                "blanks": [
+                  {"id": "example4_b1", "options": ["health disparities", "treatment quality", "hospital profits"], "correctAnswer": "health disparities"},
+                  {"id": "example4_b2", "options": ["healthcare becomes predominantly privatized", "everyone has equal access", "services are free"], "correctAnswer": "healthcare becomes predominantly privatized"}
+                ],
+                "correctSentence": "Research shows that health disparities increase when healthcare becomes predominantly privatized.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A study in _____ found that _____ reported _____.",
+                "blanks": [
+                  {"id": "example5_b1", "options": ["the United States", "a remote village", "my neighborhood"], "correctAnswer": "the United States"},
+                  {"id": "example5_b2", "options": ["private hospital patients", "government officials", "hospital buildings"], "correctAnswer": "private hospital patients"},
+                  {"id": "example5_b3", "options": ["30% higher satisfaction rates with service quality", "complete dissatisfaction", "no difference"], "correctAnswer": "30% higher satisfaction rates with service quality"}
+                ],
+                "correctSentence": "A study in the United States found that private hospital patients reported 30% higher satisfaction rates with service quality.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "In particular, _____ such as _____ become inaccessible to _____.",
+                "blanks": [
+                  {"id": "example6_b1", "options": ["expensive treatments", "basic services", "hospital lobbies"], "correctAnswer": "expensive treatments"},
+                  {"id": "example6_b2", "options": ["cancer therapy and organ transplants", "routine checkups", "waiting rooms"], "correctAnswer": "cancer therapy and organ transplants"},
+                  {"id": "example6_b3", "options": ["economically disadvantaged populations", "wealthy individuals", "hospital staff"], "correctAnswer": "economically disadvantaged populations"}
+                ],
+                "correctSentence": "In particular, expensive treatments such as cancer therapy and organ transplants become inaccessible to economically disadvantaged populations.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Many _____, including _____, have implemented that _____.",
+                "blanks": [
+                  {"id": "example7_b1", "options": ["developed nations", "poor countries", "small villages"], "correctAnswer": "developed nations"},
+                  {"id": "example7_b2", "options": ["Australia and Germany", "war-torn regions", "isolated islands"], "correctAnswer": "Australia and Germany"},
+                  {"id": "example7_b3", "options": ["mixed healthcare systems combining public and private provision", "fully privatized medicine", "completely free healthcare"], "correctAnswer": "mixed healthcare systems combining public and private provision"}
+                ],
+                "correctSentence": "Many developed nations, including Australia and Germany, have implemented that mixed healthcare systems combining public and private provision.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Take _____ as an example: _____ has resulted in _____.",
+                "blanks": [
+                  {"id": "example8_b1", "options": ["the United States healthcare system", "European universal healthcare", "free clinics"], "correctAnswer": "the United States healthcare system"},
+                  {"id": "example8_b2", "options": ["heavy privatization", "universal coverage", "government control"], "correctAnswer": "heavy privatization"},
+                  {"id": "example8_b3", "options": ["millions of citizens lacking adequate health insurance", "perfect healthcare for all", "reduced inequality"], "correctAnswer": "millions of citizens lacking adequate health insurance"}
+                ],
+                "correctSentence": "Take the United States healthcare system as an example: heavy privatization has resulted in millions of citizens lacking adequate health insurance.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example9",
+                "type": "template",
+                "template": "According to _____, facilities that operate privately _____.",
+                "blanks": [
+                  {"id": "example9_b1", "options": ["healthcare economists", "random people", "hospital janitors"], "correctAnswer": "healthcare economists"},
+                  {"id": "example9_b2", "options": ["invest more heavily in medical research and technology", "provide worse care", "charge nothing"], "correctAnswer": "invest more heavily in medical research and technology"}
+                ],
+                "correctSentence": "According to healthcare economists, facilities that operate privately invest more heavily in medical research and technology.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example10",
+                "type": "template",
+                "template": "Evidence suggests that _____ worsens when _____.",
+                "blanks": [
+                  {"id": "example10_b1", "options": ["health outcome inequality", "medical technology", "hospital design"], "correctAnswer": "health outcome inequality"},
+                  {"id": "example10_b2", "options": ["profit becomes the primary motivation for healthcare delivery", "everyone receives free treatment", "governments regulate strictly"], "correctAnswer": "profit becomes the primary motivation for healthcare delivery"}
+                ],
+                "correctSentence": "Evidence suggests that health outcome inequality worsens when profit becomes the primary motivation for healthcare delivery.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "counter-arguments",
+            "title": "Counter-arguments & Concessions",
+            "description": "Acknowledge the other side's valid points",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "However, it could be argued that _____ may lead to _____.",
+                "blanks": [
+                  {"id": "counter1_b1", "options": ["eliminating private healthcare entirely", "supporting private hospitals", "building more facilities"], "correctAnswer": "eliminating private healthcare entirely"},
+                  {"id": "counter1_b2", "options": ["overburdening public systems and reducing overall capacity", "better outcomes", "universal happiness"], "correctAnswer": "overburdening public systems and reducing overall capacity"}
+                ],
+                "correctSentence": "However, it could be argued that eliminating private healthcare entirely may lead to overburdening public systems and reducing overall capacity.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Despite these advantages, _____ can present challenges such as _____.",
+                "blanks": [
+                  {"id": "counter2_b1", "options": ["private healthcare", "public hospitals", "free treatment"], "correctAnswer": "private healthcare"},
+                  {"id": "counter2_b2", "options": ["prohibitively high costs that exclude vulnerable populations", "excellent service", "reduced waiting times"], "correctAnswer": "prohibitively high costs that exclude vulnerable populations"}
+                ],
+                "correctSentence": "Despite these advantages, private healthcare can present challenges such as prohibitively high costs that exclude vulnerable populations.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Nevertheless, _____ requires _____ that many countries lack.",
+                "blanks": [
+                  {"id": "counter3_b1", "options": ["successful private healthcare", "free medicine", "universal coverage"], "correctAnswer": "successful private healthcare"},
+                  {"id": "counter3_b2", "options": ["strong regulatory frameworks to prevent exploitation", "unlimited funding", "perfect hospitals"], "correctAnswer": "strong regulatory frameworks to prevent exploitation"}
+                ],
+                "correctSentence": "Nevertheless, successful private healthcare requires strong regulatory frameworks to prevent exploitation that many countries lack.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Although _____ offers benefits, it also involves _____ that _____.",
+                "blanks": [
+                  {"id": "counter4_b1", "options": ["privatization", "universal healthcare", "free clinics"], "correctAnswer": "privatization"},
+                  {"id": "counter4_b2", "options": ["ethical concerns", "perfect solutions", "no problems"], "correctAnswer": "ethical concerns"},
+                  {"id": "counter4_b3", "options": ["conflict with viewing healthcare as a human right", "benefit everyone", "reduce costs"], "correctAnswer": "conflict with viewing healthcare as a human right"}
+                ],
+                "correctSentence": "Although privatization offers benefits, it also involves ethical concerns that conflict with viewing healthcare as a human right.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics point out that _____ can _____ if not balanced with _____.",
+                "blanks": [
+                  {"id": "counter5_b1", "options": ["private medical services", "public hospitals", "free treatment"], "correctAnswer": "private medical services"},
+                  {"id": "counter5_b2", "options": ["worsen health disparities", "improve outcomes", "reduce costs"], "correctAnswer": "worsen health disparities"},
+                  {"id": "counter5_b3", "options": ["robust public healthcare provision", "higher profits", "more advertising"], "correctAnswer": "robust public healthcare provision"}
+                ],
+                "correctSentence": "Critics point out that private medical services can worsen health disparities if not balanced with robust public healthcare provision.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
+          },
+          {
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {"id": "conclusion1_b1", "options": ["private healthcare offers certain benefits in efficiency", "everything is perfect", "no system works"], "correctAnswer": "private healthcare offers certain benefits in efficiency"},
+                  {"id": "conclusion1_b2", "options": ["the disadvantages regarding equity outweigh these advantages", "private healthcare should dominate completely", "all hospitals should close"], "correctAnswer": "the disadvantages regarding equity outweigh these advantages"}
+                ],
+                "correctSentence": "In conclusion, while private healthcare offers certain benefits in efficiency, I believe the disadvantages regarding equity outweigh these advantages.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ provides _____, whereas _____ ensures _____.",
+                "blanks": [
+                  {"id": "conclusion2_b1", "options": ["private healthcare", "free medicine", "government funding"], "correctAnswer": "private healthcare"},
+                  {"id": "conclusion2_b2", "options": ["superior service for those who can afford it", "equal access", "free treatment"], "correctAnswer": "superior service for those who can afford it"},
+                  {"id": "conclusion2_b3", "options": ["public healthcare", "privatization", "profit-seeking"], "correctAnswer": "public healthcare"},
+                  {"id": "conclusion2_b4", "options": ["universal access regardless of income", "higher profits", "better facilities"], "correctAnswer": "universal access regardless of income"}
+                ],
+                "correctSentence": "Overall, private healthcare provides superior service for those who can afford it, whereas public healthcare ensures universal access regardless of income.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ depends largely on _____.",
+                "blanks": [
+                  {"id": "conclusion3_b1", "options": ["the balance between private and public healthcare", "hospital colors", "doctor salaries"], "correctAnswer": "the balance between private and public healthcare"},
+                  {"id": "conclusion3_b2", "options": ["whether a society prioritizes efficiency or equity", "building location", "advertising budget"], "correctAnswer": "whether a society prioritizes efficiency or equity"}
+                ],
+                "correctSentence": "To summarize, the balance between private and public healthcare depends largely on whether a society prioritizes efficiency or equity.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Ultimately, _____ should ensure that _____ while _____.",
+                "blanks": [
+                  {"id": "conclusion4_b1", "options": ["healthcare systems", "hospital owners", "insurance companies"], "correctAnswer": "healthcare systems"},
+                  {"id": "conclusion4_b2", "options": ["basic treatment remains accessible to all", "profits maximize", "costs increase"], "correctAnswer": "basic treatment remains accessible to all"},
+                  {"id": "conclusion4_b3", "options": ["allowing private options for those seeking additional services", "eliminating public hospitals", "forcing everyone into private care"], "correctAnswer": "allowing private options for those seeking additional services"}
+                ],
+                "correctSentence": "Ultimately, healthcare systems should ensure that basic treatment remains accessible to all while allowing private options for those seeking additional services.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "On balance, _____ represents a better approach because _____.",
+                "blanks": [
+                  {"id": "conclusion5_b1", "options": ["a mixed healthcare model", "fully privatized medicine", "eliminating all hospitals"], "correctAnswer": "a mixed healthcare model"},
+                  {"id": "conclusion5_b2", "options": ["it balances efficiency with equity and accessibility", "it maximizes profits", "it costs nothing"], "correctAnswer": "it balances efficiency with equity and accessibility"}
+                ],
+                "correctSentence": "On balance, a mixed healthcare model represents a better approach because it balances efficiency with equity and accessibility.",
+                "usableIn": "conclusion"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 4,
+      "title": "Common Structures & Templates",
+      "type": "templates",
+      "unlockCondition": "Complete Step 3",
+      "completionCriteria": "View all templates",
+      "content": {
+        "templates": [
+          {
+            "name": "Template 1: Advantages-First Structure",
+            "structure": {
+              "introduction": "There is considerable debate about whether [Topic]. While [acknowledge advantages], I believe [state whether disadvantages outweigh advantages].",
+              "body1": "On the one hand, [Topic sentence about advantages]. Firstly, [First advantage with explanation]. For instance, [Example]. Additionally, [Second advantage with explanation].",
+              "body2": "On the other hand, [Topic sentence about disadvantages]. The primary concern is [Main disadvantage with explanation]. For example, [Example]. Furthermore, [Second disadvantage with explanation]. Therefore, [Conclude why disadvantages are more significant].",
+              "conclusion": "In conclusion, while [acknowledge advantages briefly], [restate position] because [final reasoning]."
+            },
+            "example": {
+              "introduction": "There is considerable debate about whether healthcare should be privatized. While private healthcare offers efficiency benefits, I believe the disadvantages of inequality outweigh these advantages.",
+              "body1": "On the one hand, private healthcare provides notable benefits. Firstly, competition drives quality improvements and reduces waiting times. For instance, private hospitals often feature advanced technology. Additionally, patients enjoy greater choice in providers.",
+              "body2": "On the other hand, privatization creates serious problems. The primary concern is that it establishes two-tier systems based on wealth rather than medical need. For example, in the United States, millions lack adequate insurance. Furthermore, profit motives can lead to unnecessary procedures. Therefore, these equity issues outweigh efficiency gains.",
+              "conclusion": "In conclusion, while private healthcare improves efficiency, the disadvantages regarding equal access outweigh these benefits because health is a fundamental human right."
+            }
+          },
+          {
+            "name": "Template 2: Disadvantages-First Structure",
+            "structure": {
+              "introduction": "[Restate topic question]. From my perspective, [clear position on whether disadvantages outweigh advantages], although [briefly acknowledge the other side].",
+              "body1": "The main disadvantages of [Topic] are significant. Firstly, [Disadvantage 1 with explanation and example]. Secondly, [Disadvantage 2 with explanation and example]. These issues are particularly problematic because [Why they matter].",
+              "body2": "Nevertheless, [Topic] does offer certain advantages. [Advantage 1 with explanation]. Furthermore, [Advantage 2 with explanation]. However, [Explain why these advantages are insufficient to outweigh the disadvantages].",
+              "conclusion": "To summarize, despite [mention advantages], [restate position] because [core reason]."
+            }
+          },
+          {
+            "name": "Template 3: Balanced Discussion with Clear Position",
+            "structure": {
+              "introduction": "[Paraphrase question]. This essay will examine both sides before arguing that [state your position clearly].",
+              "body1": "Advocates of [Topic] point to several benefits. The primary advantage is [Main benefit with explanation and example]. Additionally, [Secondary benefit with explanation and example]. These factors make [Topic] appealing to [relevant group].",
+              "body2": "However, critics emphasize significant drawbacks. Chief among these is [Main disadvantage with explanation and example]. Moreover, [Secondary disadvantage with explanation and example]. As a result, [Explain consequences of these disadvantages].",
+              "conclusion": "In conclusion, both sides present valid points. However, on balance, [restate clear position] because [final judgment with reasoning]."
+            }
+          }
+        ],
+        "usefulTransitions": {
+          "presenting_advantages": ["On the one hand", "Private healthcare offers", "A key benefit is", "Supporters argue that"],
+          "presenting_disadvantages": ["On the other hand", "However, a major drawback is", "Critics contend that", "A serious concern is"],
+          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Beyond this"],
+          "giving_examples": ["For instance", "For example", "Particularly", "In cases such as", "Take as an example"],
+          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
+          "contrasting": ["However", "Nevertheless", "Despite this", "Although", "While"]
+        }
+      }
+    },
+    {
+      "stepNumber": 5,
+      "title": "Build Paragraphs",
+      "type": "paragraphs",
+      "unlockCondition": "Complete Step 4",
+      "completionCriteria": "Complete all 4 paragraphs (10+ words per blank)",
+      "content": {
+        "instructions": "Fill in each blank to build your essay paragraph by paragraph. Aim for 10-15 words per blank. Click 'Show Hint' if you need help.",
+        "paragraphs": [
+          {
+            "name": "Introduction",
+            "template": "There is considerable debate about whether _____ [paraphrase the question about privatizing healthcare]. While _____ [acknowledge one side], I believe _____ [clearly state whether disadvantages outweigh advantages].",
+            "blanks": [
+              {
+                "id": "intro_blank1",
+                "label": "Paraphrase the question",
+                "hint": "Rewrite the question using different words - mention healthcare as a basic need and privatization",
+                "placeholder": "e.g., medical services should be operated by profit-oriented companies or remain a public service given health is fundamental",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank2",
+                "label": "Acknowledge one side",
+                "hint": "Briefly mention either advantages or disadvantages - whichever is NOT your main position",
+                "placeholder": "e.g., private healthcare offers certain benefits in terms of efficiency and service quality",
+                "minWords": 10
+              },
+              {
+                "id": "intro_blank3",
+                "label": "State your clear position",
+                "hint": "Be VERY clear: do disadvantages outweigh advantages, or vice versa? Don't be vague!",
+                "placeholder": "e.g., the disadvantages, particularly increased healthcare inequality, outweigh these advantages",
+                "minWords": 10
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 1",
+            "template": "On the one hand, _____ [topic sentence about private healthcare advantages]. This is because _____ [explain the reason]. For instance, _____ [give a specific example]. Additionally, _____ [mention a second advantage or consequence].",
+            "blanks": [
+              {
+                "id": "body1_blank1",
+                "label": "Topic sentence - advantages",
+                "hint": "Main benefit(s) of private healthcare in one clear sentence",
+                "placeholder": "e.g., private healthcare provides notable advantages in terms of efficiency and patient choice",
+                "minWords": 10
+              },
+              {
+                "id": "body1_blank2",
+                "label": "Explain the reason",
+                "hint": "WHY does private healthcare provide these benefits? Explain the mechanism.",
+                "placeholder": "e.g., competition between private providers drives investment in advanced technology and motivates higher service standards",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank3",
+                "label": "Specific example",
+                "hint": "Give a concrete example - country, study, specific situation showing the advantage",
+                "placeholder": "e.g., private hospitals in Singapore offer state-of-the-art treatments with minimal waiting times compared to public facilities",
+                "minWords": 12
+              },
+              {
+                "id": "body1_blank4",
+                "label": "Second advantage or consequence",
+                "hint": "Add another benefit or explain the result of the first advantage",
+                "placeholder": "e.g., this enables patients who can afford it to receive immediate care and personalized treatment options",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Body Paragraph 2",
+            "template": "On the other hand, _____ [topic sentence about private healthcare disadvantages]. The main reason is _____ [explain why this is problematic]. For example, _____ [specific example]. Furthermore, _____ [additional disadvantage or consequence].",
+            "blanks": [
+              {
+                "id": "body2_blank1",
+                "label": "Topic sentence - disadvantages",
+                "hint": "Main problem(s) with private healthcare. Use contrasting language.",
+                "placeholder": "e.g., privatizing healthcare creates significant problems for society, particularly regarding equity and access",
+                "minWords": 10
+              },
+              {
+                "id": "body2_blank2",
+                "label": "Explain why problematic",
+                "hint": "Explain the mechanism - WHY does this create problems?",
+                "placeholder": "e.g., treating healthcare as a commodity means access depends on financial means rather than medical need",
+                "minWords": 12
+              },
+              {
+                "id": "body2_blank3",
+                "label": "Specific example",
+                "hint": "Concrete example showing the disadvantage - real situation, country, or data",
+                "placeholder": "e.g., in the United States, millions of citizens cannot afford adequate health insurance despite being a wealthy nation",
+                "minWords": 14
+              },
+              {
+                "id": "body2_blank4",
+                "label": "Additional disadvantage",
+                "hint": "Add another problem or explain the broader consequences",
+                "placeholder": "e.g., profit-driven systems often prioritize lucrative treatments over essential preventive care that benefits population health",
+                "minWords": 12
+              }
+            ]
+          },
+          {
+            "name": "Conclusion",
+            "template": "In conclusion, while _____ [briefly acknowledge the weaker side], I believe _____ [clearly restate whether disadvantages outweigh advantages and provide final reasoning].",
+            "blanks": [
+              {
+                "id": "conclusion_blank1",
+                "label": "Acknowledge weaker side",
+                "hint": "One sentence briefly mentioning the side you didn't emphasize",
+                "placeholder": "e.g., private healthcare offers benefits in efficiency and reducing public system burden",
+                "minWords": 10
+              },
+              {
+                "id": "conclusion_blank2",
+                "label": "Restate position with reasoning",
+                "hint": "CLEARLY restate whether disadvantages outweigh advantages and WHY",
+                "placeholder": "e.g., the disadvantages regarding healthcare inequality and compromised universal access outweigh these advantages because health is a fundamental human right that should not depend on wealth",
+                "minWords": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stepNumber": 6,
+      "title": "Build Complete Essay",
+      "type": "essay",
+      "unlockCondition": "Complete Step 5",
+      "completionCriteria": "Write 250+ words",
+      "content": {
+        "instructions": "Now combine your paragraphs into a complete essay. You can copy from Step 5 and edit, or write fresh. Aim for 250-280 words total.",
+        "structureGuide": {
+          "introduction": {
+            "sentences": "2-3 sentences",
+            "purpose": "Paraphrase question + clearly state whether disadvantages outweigh advantages"
+          },
+          "body1": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss advantages of private healthcare with reasons and examples"
+          },
+          "body2": {
+            "sentences": "4-5 sentences",
+            "purpose": "Discuss disadvantages with reasons and examples"
+          },
+          "conclusion": {
+            "sentences": "2 sentences",
+            "purpose": "Acknowledge both sides + clearly restate whether disadvantages outweigh advantages"
+          }
+        },
+        "checklist": [
+          "Introduction clearly states whether disadvantages outweigh advantages",
+          "Body paragraph 1 discusses private healthcare advantages with examples",
+          "Body paragraph 2 discusses private healthcare disadvantages with examples",
+          "Conclusion restates position on whether disadvantages outweigh advantages",
+          "Essay is 250-280 words",
+          "No grammar or spelling errors",
+          "Variety of sentence structures (simple, compound, complex)",
+          "Academic vocabulary used appropriately",
+          "Linking words used to connect ideas",
+          "Position is clear and consistent throughout"
+        ]
+      }
+    }
+  ],
+  "modelEssay": {
+    "text": "There is considerable debate about whether medical care should be operated by profit-making companies given that maintaining health is a fundamental human need. While private healthcare offers certain advantages in efficiency and service quality, I believe the disadvantages, particularly healthcare inequality and compromised universal access, outweigh these benefits.\n\nOn the one hand, privatizing healthcare provides notable advantages. Competition between private providers drives investment in cutting-edge medical technology and motivates higher service standards. For instance, private hospitals in countries like Singapore and Switzerland offer state-of-the-art treatments with significantly reduced waiting times compared to public facilities. Moreover, patients who can afford private care benefit from greater choice in providers and personalized treatment plans. This flexibility allows affluent individuals to receive immediate attention for non-emergency procedures that might require months of waiting in public systems.\n\nOn the other hand, profit-driven healthcare creates serious social problems. The primary concern is that commercializing medical services establishes a two-tier system where access depends on financial means rather than medical necessity. For example, in the United States, despite being a wealthy nation, millions of citizens lack adequate health insurance and face bankruptcy from medical bills. Furthermore, profit motives can lead providers to prioritize lucrative treatments over essential preventive care, ultimately compromising population health outcomes. This fundamental inequity contradicts the principle that healthcare should be a universal right.\n\nIn conclusion, while private healthcare offers efficiency benefits and reduces strain on public systems, the disadvantages regarding equity and accessibility outweigh these advantages. Healthcare is too fundamental a human need to be governed primarily by profit considerations rather than medical necessity and universal access.",
+    "wordCount": 278,
+    "structure": {
+      "introduction": "There is considerable debate about whether medical care should be operated by profit-making companies given that maintaining health is a fundamental human need. While private healthcare offers certain advantages in efficiency and service quality, I believe the disadvantages, particularly healthcare inequality and compromised universal access, outweigh these benefits.",
+      "body1": "On the one hand, privatizing healthcare provides notable advantages. Competition between private providers drives investment in cutting-edge medical technology and motivates higher service standards. For instance, private hospitals in countries like Singapore and Switzerland offer state-of-the-art treatments with significantly reduced waiting times compared to public facilities. Moreover, patients who can afford private care benefit from greater choice in providers and personalized treatment plans. This flexibility allows affluent individuals to receive immediate attention for non-emergency procedures that might require months of waiting in public systems.",
+      "body2": "On the other hand, profit-driven healthcare creates serious social problems. The primary concern is that commercializing medical services establishes a two-tier system where access depends on financial means rather than medical necessity. For example, in the United States, despite being a wealthy nation, millions of citizens lack adequate health insurance and face bankruptcy from medical bills. Furthermore, profit motives can lead providers to prioritize lucrative treatments over essential preventive care, ultimately compromising population health outcomes. This fundamental inequity contradicts the principle that healthcare should be a universal right.",
+      "conclusion": "In conclusion, while private healthcare offers efficiency benefits and reduces strain on public systems, the disadvantages regarding equity and accessibility outweigh these advantages. Healthcare is too fundamental a human need to be governed primarily by profit considerations rather than medical necessity and universal access."
+    },
+    "highlights": [
+      {
+        "text": "considerable debate",
+        "type": "academic-vocab",
+        "explanation": "Academic way to introduce a controversial topic"
+      },
+      {
+        "text": "On the one hand... On the other hand",
+        "type": "linking-word",
+        "explanation": "Classic structure for discussing advantages and disadvantages"
+      },
+      {
+        "text": "For instance",
+        "type": "linking-word",
+        "explanation": "Introduces a specific example"
+      },
+      {
+        "text": "Moreover",
+        "type": "linking-word",
+        "explanation": "Adds additional supporting point"
+      },
+      {
+        "text": "Furthermore",
+        "type": "linking-word",
+        "explanation": "Adds another disadvantage in second paragraph"
+      },
+      {
+        "text": "private hospitals in countries like Singapore and Switzerland offer state-of-the-art treatments",
+        "type": "example",
+        "explanation": "Specific, concrete example that supports the argument about advantages"
+      },
+      {
+        "text": "in the United States, despite being a wealthy nation, millions of citizens lack adequate health insurance",
+        "type": "example",
+        "explanation": "Specific example demonstrating the inequality problem"
+      },
+      {
+        "text": "commercializing",
+        "type": "academic-vocab",
+        "explanation": "Academic term for treating something as a commercial product"
+      },
+      {
+        "text": "fundamental",
+        "type": "academic-vocab",
+        "explanation": "Less common word showing range of vocabulary"
+      },
+      {
+        "text": "contradicts the principle",
+        "type": "academic-vocab",
+        "explanation": "Academic phrase for expressing conflict with values"
+      }
+    ]
+  }
+}
