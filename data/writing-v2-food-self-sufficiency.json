@@ -74,106 +74,158 @@
             "word": "food security",
             "pronunciation": "/fuːd sɪˈkjʊərəti/",
             "partOfSpeech": "noun",
-            "definition": "Having reliable access to sufficient affordable and nutritious food",
+            "definition": "Having reliable access to sufficient affordable and nutritious food.",
             "example": "Food security is a critical concern for governments worldwide.",
-            "synonyms": ["food stability", "nutritional security"]
+            "synonyms": [
+              "food stability",
+              "nutritional security"
+            ]
           },
           {
             "word": "agricultural self-sufficiency",
             "pronunciation": "/ˌæɡrɪˈkʌltʃərəl ˌselfsəˈfɪʃənsi/",
             "partOfSpeech": "noun",
-            "definition": "A country's ability to produce all its own food needs",
+            "definition": "A country's ability to produce all its own food needs.",
             "example": "Agricultural self-sufficiency remains a goal for many nations.",
-            "synonyms": ["food independence", "agricultural autonomy"]
+            "synonyms": [
+              "food independence",
+              "agricultural autonomy"
+            ]
           },
           {
             "word": "import dependency",
             "pronunciation": "/ˈɪmpɔːt dɪˈpendənsi/",
             "partOfSpeech": "noun",
-            "definition": "Reliance on foreign countries for essential goods",
+            "definition": "Reliance on foreign countries for essential goods.",
             "example": "High import dependency makes countries vulnerable to supply disruptions.",
-            "synonyms": ["trade reliance", "foreign dependence"]
+            "synonyms": [
+              "trade reliance",
+              "foreign dependence"
+            ]
           },
           {
             "word": "domestic production",
             "pronunciation": "/dəˈmestɪk prəˈdʌkʃən/",
             "partOfSpeech": "noun",
-            "definition": "Goods manufactured or grown within a country",
+            "definition": "Goods manufactured or grown within a country.",
             "example": "The government invested heavily in domestic production of rice.",
-            "synonyms": ["local production", "national production"]
+            "synonyms": [
+              "local production",
+              "national production"
+            ]
           },
           {
             "word": "trade agreements",
             "pronunciation": "/treɪd əˈɡriːmənts/",
             "partOfSpeech": "noun",
-            "definition": "Treaties between countries governing commercial exchange",
+            "definition": "Treaties between countries governing commercial exchange.",
             "example": "Modern trade agreements facilitate the flow of agricultural products.",
-            "synonyms": ["trade deals", "commercial treaties"]
+            "synonyms": [
+              "trade deals",
+              "commercial treaties"
+            ]
           },
           {
             "word": "supply chain",
             "pronunciation": "/səˈplaɪ tʃeɪn/",
             "partOfSpeech": "noun",
-            "definition": "The network between producers and consumers",
+            "definition": "The network between producers and consumers.",
             "example": "Global supply chains were disrupted during the pandemic.",
-            "synonyms": ["distribution network", "logistics chain"]
+            "synonyms": [
+              "distribution network",
+              "logistics chain"
+            ]
           },
           {
             "word": "vulnerable",
             "pronunciation": "/ˈvʌlnərəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Exposed to potential harm or attack",
+            "definition": "Exposed to potential harm or attack.",
             "example": "Countries heavily reliant on imports are vulnerable to price shocks.",
-            "synonyms": ["susceptible", "exposed"]
+            "synonyms": [
+              "susceptible",
+              "exposed"
+            ]
           },
           {
             "word": "comparative advantage",
             "pronunciation": "/kəmˈpærətɪv ədˈvɑːntɪdʒ/",
             "partOfSpeech": "noun",
-            "definition": "The ability to produce goods more efficiently than others",
+            "definition": "The ability to produce goods more efficiently than others.",
             "example": "Countries should focus on products where they have comparative advantage.",
-            "synonyms": ["economic efficiency", "competitive edge"]
+            "synonyms": [
+              "economic efficiency",
+              "competitive edge"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "food imports",
-            "definition": "Food products purchased from other countries",
+            "definition": "Food products purchased from other countries.",
             "example": "Japan relies heavily on food imports to feed its population."
           },
           {
             "phrase": "climate conditions",
-            "definition": "Weather and environmental factors affecting agriculture",
+            "definition": "Weather and environmental factors affecting agriculture.",
             "example": "Certain climate conditions make growing tropical fruits impossible in cold regions."
           },
           {
             "phrase": "agricultural land",
-            "definition": "Land used for farming and food production",
+            "definition": "Land used for farming and food production.",
             "example": "Limited agricultural land restricts a country's ability to be self-sufficient."
           },
           {
             "phrase": "global trade",
-            "definition": "International exchange of goods and services",
+            "definition": "International exchange of goods and services.",
             "example": "Global trade allows countries to access diverse food products."
           },
           {
             "phrase": "food prices",
-            "definition": "The cost of food products",
+            "definition": "The cost of food products.",
             "example": "Food prices rise when countries restrict imports."
           },
           {
             "phrase": "economic efficiency",
-            "definition": "Using resources in the most productive way",
+            "definition": "Using resources in the most productive way.",
             "example": "Economic efficiency suggests countries should import some foods."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In my opinion", "I strongly believe", "It is my view that"],
-          "supporting": ["Firstly", "To begin with", "The primary reason is"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "A clear example is", "Take the case of"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "introducing": [
+            "In my opinion",
+            "I strongly believe",
+            "It is my view that"
+          ],
+          "supporting": [
+            "Firstly",
+            "To begin with",
+            "The primary reason is"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Take the case of"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -196,8 +248,24 @@
                 "type": "template",
                 "template": "I believe that _____ is _____ for most countries.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["complete food self-sufficiency", "importing all food", "global trade"], "correctAnswer": "complete food self-sufficiency"},
-                  {"id": "thesis1_b2", "options": ["unrealistic and economically inefficient", "easy to achieve", "not important"], "correctAnswer": "unrealistic and economically inefficient"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "complete food self-sufficiency",
+                      "importing all food",
+                      "global trade"
+                    ],
+                    "correctAnswer": "complete food self-sufficiency"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "unrealistic and economically inefficient",
+                      "easy to achieve",
+                      "not important"
+                    ],
+                    "correctAnswer": "unrealistic and economically inefficient"
+                  }
                 ],
                 "correctSentence": "I believe that complete food self-sufficiency is unrealistic and economically inefficient for most countries.",
                 "usableIn": "introduction"
@@ -207,8 +275,24 @@
                 "type": "template",
                 "template": "While _____ is important, _____ makes more economic sense.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["food security", "importing everything", "ignoring agriculture"], "correctAnswer": "food security"},
-                  {"id": "thesis2_b2", "options": ["strategic trade and partial self-sufficiency", "total import dependency", "closing borders"], "correctAnswer": "strategic trade and partial self-sufficiency"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "food security",
+                      "importing everything",
+                      "ignoring agriculture"
+                    ],
+                    "correctAnswer": "food security"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "strategic trade and partial self-sufficiency",
+                      "total import dependency",
+                      "closing borders"
+                    ],
+                    "correctAnswer": "strategic trade and partial self-sufficiency"
+                  }
                 ],
                 "correctSentence": "While food security is important, strategic trade and partial self-sufficiency makes more economic sense.",
                 "usableIn": "introduction"
@@ -225,8 +309,24 @@
                 "type": "template",
                 "template": "Firstly, _____ makes complete self-sufficiency _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["geographical and climate limitations", "government policy", "trade agreements"], "correctAnswer": "geographical and climate limitations"},
-                  {"id": "topic1_b2", "options": ["impossible for many nations", "easy to achieve", "unnecessary"], "correctAnswer": "impossible for many nations"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "geographical and climate limitations",
+                      "government policy",
+                      "trade agreements"
+                    ],
+                    "correctAnswer": "geographical and climate limitations"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "impossible for many nations",
+                      "easy to achieve",
+                      "unnecessary"
+                    ],
+                    "correctAnswer": "impossible for many nations"
+                  }
                 ],
                 "correctSentence": "Firstly, geographical and climate limitations makes complete self-sufficiency impossible for many nations.",
                 "usableIn": "body-paragraph-1"
@@ -236,8 +336,24 @@
                 "type": "template",
                 "template": "Moreover, _____ demonstrates the benefits of _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["global trade", "isolation", "protectionism"], "correctAnswer": "global trade"},
-                  {"id": "topic2_b2", "options": ["international food exchange and specialization", "closing borders", "avoiding imports"], "correctAnswer": "international food exchange and specialization"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "global trade",
+                      "isolation",
+                      "protectionism"
+                    ],
+                    "correctAnswer": "global trade"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "international food exchange and specialization",
+                      "closing borders",
+                      "avoiding imports"
+                    ],
+                    "correctAnswer": "international food exchange and specialization"
+                  }
                 ],
                 "correctSentence": "Moreover, global trade demonstrates the benefits of international food exchange and specialization.",
                 "usableIn": "body-paragraph-2"
@@ -254,8 +370,24 @@
                 "type": "template",
                 "template": "This is because _____ prevents countries from _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["unsuitable climate and limited arable land", "trade policy", "government support"], "correctAnswer": "unsuitable climate and limited arable land"},
-                  {"id": "support1_b2", "options": ["growing certain essential crops domestically", "importing food", "trading internationally"], "correctAnswer": "growing certain essential crops domestically"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "unsuitable climate and limited arable land",
+                      "trade policy",
+                      "government support"
+                    ],
+                    "correctAnswer": "unsuitable climate and limited arable land"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "growing certain essential crops domestically",
+                      "importing food",
+                      "trading internationally"
+                    ],
+                    "correctAnswer": "growing certain essential crops domestically"
+                  }
                 ],
                 "correctSentence": "This is because unsuitable climate and limited arable land prevents countries from growing certain essential crops domestically.",
                 "usableIn": "body-paragraph-1"
@@ -265,8 +397,24 @@
                 "type": "template",
                 "template": "The reason is that _____ allows countries to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["international trade", "food isolation", "import bans"], "correctAnswer": "international trade"},
-                  {"id": "support2_b2", "options": ["focus on products they produce efficiently while importing others", "produce everything inefficiently", "avoid specialization"], "correctAnswer": "focus on products they produce efficiently while importing others"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "international trade",
+                      "food isolation",
+                      "import bans"
+                    ],
+                    "correctAnswer": "international trade"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "focus on products they produce efficiently while importing others",
+                      "produce everything inefficiently",
+                      "avoid specialization"
+                    ],
+                    "correctAnswer": "focus on products they produce efficiently while importing others"
+                  }
                 ],
                 "correctSentence": "The reason is that international trade allows countries to focus on products they produce efficiently while importing others.",
                 "usableIn": "body-paragraph-2"
@@ -283,9 +431,33 @@
                 "type": "template",
                 "template": "For instance, _____ imports _____ because _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Japan", "Brazil", "Russia"], "correctAnswer": "Japan"},
-                  {"id": "example1_b2", "options": ["over 60% of its food", "no food", "only luxury items"], "correctAnswer": "over 60% of its food"},
-                  {"id": "example1_b3", "options": ["it lacks sufficient agricultural land and suitable climate", "it has poor farmers", "it wants expensive food"], "correctAnswer": "it lacks sufficient agricultural land and suitable climate"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Japan",
+                      "Brazil",
+                      "Russia"
+                    ],
+                    "correctAnswer": "Japan"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "over 60% of its food",
+                      "no food",
+                      "only luxury items"
+                    ],
+                    "correctAnswer": "over 60% of its food"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "it lacks sufficient agricultural land and suitable climate",
+                      "it has poor farmers",
+                      "it wants expensive food"
+                    ],
+                    "correctAnswer": "it lacks sufficient agricultural land and suitable climate"
+                  }
                 ],
                 "correctSentence": "For instance, Japan imports over 60% of its food because it lacks sufficient agricultural land and suitable climate.",
                 "usableIn": "body-paragraph-1"
@@ -295,9 +467,33 @@
                 "type": "template",
                 "template": "For example, _____ exports _____ while importing _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["New Zealand", "Singapore", "Saudi Arabia"], "correctAnswer": "New Zealand"},
-                  {"id": "example2_b2", "options": ["dairy products and lamb", "electronics", "oil"], "correctAnswer": "dairy products and lamb"},
-                  {"id": "example2_b3", "options": ["tropical fruits and grains it cannot grow efficiently", "everything", "nothing"], "correctAnswer": "tropical fruits and grains it cannot grow efficiently"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "New Zealand",
+                      "Singapore",
+                      "Saudi Arabia"
+                    ],
+                    "correctAnswer": "New Zealand"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "dairy products and lamb",
+                      "electronics",
+                      "oil"
+                    ],
+                    "correctAnswer": "dairy products and lamb"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "tropical fruits and grains it cannot grow efficiently",
+                      "everything",
+                      "nothing"
+                    ],
+                    "correctAnswer": "tropical fruits and grains it cannot grow efficiently"
+                  }
                 ],
                 "correctSentence": "For example, New Zealand exports dairy products and lamb while importing tropical fruits and grains it cannot grow efficiently.",
                 "usableIn": "body-paragraph-2"
@@ -314,8 +510,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["some food security measures are necessary", "all trade is bad", "imports should be unlimited"], "correctAnswer": "some food security measures are necessary"},
-                  {"id": "conclusion1_b2", "options": ["complete self-sufficiency is impractical and countries benefit from strategic food trade", "countries should produce everything", "food quality does not matter"], "correctAnswer": "complete self-sufficiency is impractical and countries benefit from strategic food trade"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "some food security measures are necessary",
+                      "all trade is bad",
+                      "imports should be unlimited"
+                    ],
+                    "correctAnswer": "some food security measures are necessary"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "complete self-sufficiency is impractical and countries benefit from strategic food trade",
+                      "countries should produce everything",
+                      "food quality does not matter"
+                    ],
+                    "correctAnswer": "complete self-sufficiency is impractical and countries benefit from strategic food trade"
+                  }
                 ],
                 "correctSentence": "In conclusion, while some food security measures are necessary, I believe complete self-sufficiency is impractical and countries benefit from strategic food trade.",
                 "usableIn": "conclusion"
@@ -353,12 +565,40 @@
           }
         ],
         "usefulTransitions": {
-          "stating_position": ["I believe that", "In my opinion", "It is my view that"],
-          "first_argument": ["Firstly", "To begin with", "The primary reason is"],
-          "second_argument": ["Moreover", "Furthermore", "Additionally", "Secondly"],
-          "giving_examples": ["For instance", "For example", "Take the case of", "A clear example is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "Although"]
+          "stating_position": [
+            "I believe that",
+            "In my opinion",
+            "It is my view that"
+          ],
+          "first_argument": [
+            "Firstly",
+            "To begin with",
+            "The primary reason is"
+          ],
+          "second_argument": [
+            "Moreover",
+            "Furthermore",
+            "Additionally",
+            "Secondly"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Take the case of",
+            "A clear example is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Although"
+          ]
         }
       }
     },

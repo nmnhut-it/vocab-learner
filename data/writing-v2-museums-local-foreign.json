@@ -79,106 +79,163 @@
             "word": "cultural heritage",
             "pronunciation": "/ˈkʌltʃərəl ˈherɪtɪdʒ/",
             "partOfSpeech": "noun",
-            "definition": "The traditions, monuments, and artifacts passed down from previous generations",
+            "definition": "The traditions, monuments, and artifacts passed down from previous generations.",
             "example": "Museums play a vital role in preserving cultural heritage for future generations.",
-            "synonyms": ["national legacy", "cultural legacy"]
+            "synonyms": [
+              "national legacy",
+              "cultural legacy"
+            ]
           },
           {
             "word": "artistic diversity",
             "pronunciation": "/ɑːˈtɪstɪk daɪˈvɜːsəti/",
             "partOfSpeech": "noun",
-            "definition": "Variety in artistic styles, cultures, and expressions",
+            "definition": "Variety in artistic styles, cultures, and expressions.",
             "example": "Artistic diversity enriches visitors' understanding of global creativity.",
-            "synonyms": ["cultural variety", "artistic variety"]
+            "synonyms": [
+              "cultural variety",
+              "artistic variety"
+            ]
           },
           {
             "word": "national identity",
             "pronunciation": "/ˈnæʃənəl aɪˈdentəti/",
             "partOfSpeech": "noun",
-            "definition": "The sense of belonging to a particular nation with shared culture and values",
+            "definition": "The sense of belonging to a particular nation with shared culture and values.",
             "example": "Local artworks strengthen national identity and cultural pride.",
-            "synonyms": ["cultural identity", "national character"]
+            "synonyms": [
+              "cultural identity",
+              "national character"
+            ]
           },
           {
             "word": "cross-cultural understanding",
             "pronunciation": "/krɒs ˈkʌltʃərəl ˌʌndəˈstændɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Comprehension and appreciation of different cultures",
+            "definition": "Comprehension and appreciation of different cultures.",
             "example": "International exhibitions promote cross-cultural understanding and tolerance.",
-            "synonyms": ["intercultural awareness", "cultural exchange"]
+            "synonyms": [
+              "intercultural awareness",
+              "cultural exchange"
+            ]
           },
           {
             "word": "exhibition curation",
             "pronunciation": "/ˌeksɪˈbɪʃən kjʊəˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The selection and organization of items for public display",
+            "definition": "The selection and organization of items for public display.",
             "example": "Effective exhibition curation balances local and international collections.",
-            "synonyms": ["collection management", "exhibit organization"]
+            "synonyms": [
+              "collection management",
+              "exhibit organization"
+            ]
           },
           {
             "word": "artistic exchange",
             "pronunciation": "/ɑːˈtɪstɪk ɪksˈtʃeɪndʒ/",
             "partOfSpeech": "noun",
-            "definition": "The sharing of artistic works and ideas between cultures",
+            "definition": "The sharing of artistic works and ideas between cultures.",
             "example": "Artistic exchange between nations fosters creativity and innovation.",
-            "synonyms": ["cultural exchange", "artistic collaboration"]
+            "synonyms": [
+              "cultural exchange",
+              "artistic collaboration"
+            ]
           },
           {
             "word": "preserve",
             "pronunciation": "/prɪˈzɜːv/",
             "partOfSpeech": "verb",
-            "definition": "To maintain and protect something from loss or damage",
+            "definition": "To maintain and protect something from loss or damage.",
             "example": "National museums must preserve indigenous artworks for posterity.",
-            "synonyms": ["conserve", "protect", "safeguard"]
+            "synonyms": [
+              "conserve",
+              "protect",
+              "safeguard"
+            ]
           },
           {
             "word": "contemporary",
             "pronunciation": "/kənˈtempərəri/",
             "partOfSpeech": "adjective",
-            "definition": "Belonging to the present time; modern",
+            "definition": "Belonging to the present time; modern.",
             "example": "Contemporary museums showcase both historical and modern artworks.",
-            "synonyms": ["modern", "current", "present-day"]
+            "synonyms": [
+              "modern",
+              "current",
+              "present-day"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "cultural preservation",
-            "definition": "The protection and maintenance of cultural artifacts and traditions",
+            "definition": "The protection and maintenance of cultural artifacts and traditions.",
             "example": "Museums contribute significantly to cultural preservation efforts."
           },
           {
             "phrase": "global perspective",
-            "definition": "A worldwide or international viewpoint",
+            "definition": "A worldwide or international viewpoint.",
             "example": "Foreign artworks provide visitors with a valuable global perspective."
           },
           {
             "phrase": "indigenous art",
-            "definition": "Artworks created by native or original inhabitants of a region",
+            "definition": "Artworks created by native or original inhabitants of a region.",
             "example": "Indigenous art deserves prominent display in national museums."
           },
           {
             "phrase": "cultural diplomacy",
-            "definition": "The exchange of ideas and culture to strengthen international relations",
+            "definition": "The exchange of ideas and culture to strengthen international relations.",
             "example": "International exhibitions serve as effective cultural diplomacy tools."
           },
           {
             "phrase": "artistic masterpieces",
-            "definition": "Outstanding works of art of exceptional quality",
+            "definition": "Outstanding works of art of exceptional quality.",
             "example": "The Louvre houses artistic masterpieces from numerous civilizations."
           },
           {
             "phrase": "cultural appropriation",
-            "definition": "The controversial acquisition of artifacts from other cultures",
+            "definition": "The controversial acquisition of artifacts from other cultures.",
             "example": "The British Museum faces criticism over cultural appropriation of foreign treasures."
           }
         ],
         "linkingPhrases": {
-          "stating_opinion": ["I completely disagree with", "I firmly believe that", "In my view", "From my perspective"],
-          "presenting_arguments": ["Firstly", "To begin with", "First and foremost", "The primary reason"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition", "Secondly"],
-          "giving_examples": ["For instance", "For example", "A clear example is", "Take the case of"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "stating_opinion": [
+            "I completely disagree with",
+            "I firmly believe that",
+            "In my view",
+            "From my perspective"
+          ],
+          "presenting_arguments": [
+            "Firstly",
+            "To begin with",
+            "First and foremost",
+            "The primary reason"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Secondly"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Take the case of"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Despite this"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -201,8 +258,24 @@
                 "type": "template",
                 "template": "I _____ disagree with the view that museums should _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["completely", "partially", "somewhat"], "correctAnswer": "completely"},
-                  {"id": "thesis1_b2", "options": ["focus exclusively on local works", "avoid foreign artworks", "ignore international culture"], "correctAnswer": "focus exclusively on local works"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "completely",
+                      "partially",
+                      "somewhat"
+                    ],
+                    "correctAnswer": "completely"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "focus exclusively on local works",
+                      "avoid foreign artworks",
+                      "ignore international culture"
+                    ],
+                    "correctAnswer": "focus exclusively on local works"
+                  }
                 ],
                 "correctSentence": "I completely disagree with the view that museums should focus exclusively on local works.",
                 "usableIn": "introduction"
@@ -212,9 +285,33 @@
                 "type": "template",
                 "template": "While _____ is important, _____ offers _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["preserving local heritage", "having foreign art", "museum funding"], "correctAnswer": "preserving local heritage"},
-                  {"id": "thesis2_b2", "options": ["displaying international artworks", "ticket sales", "building renovation"], "correctAnswer": "displaying international artworks"},
-                  {"id": "thesis2_b3", "options": ["invaluable educational and cultural benefits", "more tourists", "better architecture"], "correctAnswer": "invaluable educational and cultural benefits"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "preserving local heritage",
+                      "having foreign art",
+                      "museum funding"
+                    ],
+                    "correctAnswer": "preserving local heritage"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "displaying international artworks",
+                      "ticket sales",
+                      "building renovation"
+                    ],
+                    "correctAnswer": "displaying international artworks"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "invaluable educational and cultural benefits",
+                      "more tourists",
+                      "better architecture"
+                    ],
+                    "correctAnswer": "invaluable educational and cultural benefits"
+                  }
                 ],
                 "correctSentence": "While preserving local heritage is important, displaying international artworks offers invaluable educational and cultural benefits.",
                 "usableIn": "introduction"
@@ -231,8 +328,24 @@
                 "type": "template",
                 "template": "First and foremost, _____ enables visitors to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["exposure to diverse cultures", "local art only", "museum tickets"], "correctAnswer": "exposure to diverse cultures"},
-                  {"id": "topic1_b2", "options": ["develop cross-cultural understanding and global awareness", "save money", "see familiar works"], "correctAnswer": "develop cross-cultural understanding and global awareness"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "exposure to diverse cultures",
+                      "local art only",
+                      "museum tickets"
+                    ],
+                    "correctAnswer": "exposure to diverse cultures"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "develop cross-cultural understanding and global awareness",
+                      "save money",
+                      "see familiar works"
+                    ],
+                    "correctAnswer": "develop cross-cultural understanding and global awareness"
+                  }
                 ],
                 "correctSentence": "First and foremost, exposure to diverse cultures enables visitors to develop cross-cultural understanding and global awareness.",
                 "usableIn": "body-paragraph-1"
@@ -242,8 +355,24 @@
                 "type": "template",
                 "template": "Moreover, _____ serves as _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["international artistic exchange", "ticket pricing", "museum architecture"], "correctAnswer": "international artistic exchange"},
-                  {"id": "topic2_b2", "options": ["a powerful tool for cultural diplomacy and mutual respect", "a revenue source", "decoration"], "correctAnswer": "a powerful tool for cultural diplomacy and mutual respect"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "international artistic exchange",
+                      "ticket pricing",
+                      "museum architecture"
+                    ],
+                    "correctAnswer": "international artistic exchange"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "a powerful tool for cultural diplomacy and mutual respect",
+                      "a revenue source",
+                      "decoration"
+                    ],
+                    "correctAnswer": "a powerful tool for cultural diplomacy and mutual respect"
+                  }
                 ],
                 "correctSentence": "Moreover, international artistic exchange serves as a powerful tool for cultural diplomacy and mutual respect.",
                 "usableIn": "body-paragraph-2"
@@ -260,8 +389,24 @@
                 "type": "template",
                 "template": "This is because _____ allows people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["viewing foreign artworks", "buying souvenirs", "taking photos"], "correctAnswer": "viewing foreign artworks"},
-                  {"id": "support1_b2", "options": ["appreciate different perspectives and artistic traditions", "spend more time", "find the exit"], "correctAnswer": "appreciate different perspectives and artistic traditions"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "viewing foreign artworks",
+                      "buying souvenirs",
+                      "taking photos"
+                    ],
+                    "correctAnswer": "viewing foreign artworks"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "appreciate different perspectives and artistic traditions",
+                      "spend more time",
+                      "find the exit"
+                    ],
+                    "correctAnswer": "appreciate different perspectives and artistic traditions"
+                  }
                 ],
                 "correctSentence": "This is because viewing foreign artworks allows people to appreciate different perspectives and artistic traditions.",
                 "usableIn": "body-paragraph-1"
@@ -271,8 +416,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ fosters _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["cultural exchange", "museum construction", "tourism revenue"], "correctAnswer": "cultural exchange"},
-                  {"id": "support2_b2", "options": ["mutual understanding and reduces cultural prejudice", "economic growth", "urban development"], "correctAnswer": "mutual understanding and reduces cultural prejudice"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "cultural exchange",
+                      "museum construction",
+                      "tourism revenue"
+                    ],
+                    "correctAnswer": "cultural exchange"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "mutual understanding and reduces cultural prejudice",
+                      "economic growth",
+                      "urban development"
+                    ],
+                    "correctAnswer": "mutual understanding and reduces cultural prejudice"
+                  }
                 ],
                 "correctSentence": "The main reason is that cultural exchange fosters mutual understanding and reduces cultural prejudice.",
                 "usableIn": "body-paragraph-2"
@@ -289,9 +450,33 @@
                 "type": "template",
                 "template": "For instance, _____ houses _____ which _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the Louvre Museum", "a small gallery", "the gift shop"], "correctAnswer": "the Louvre Museum"},
-                  {"id": "example1_b2", "options": ["artworks from Egyptian, Greek, and Islamic civilizations", "only French paintings", "modern sculptures"], "correctAnswer": "artworks from Egyptian, Greek, and Islamic civilizations"},
-                  {"id": "example1_b3", "options": ["educates millions about world history and artistic diversity", "attracts wealthy tourists", "sells many tickets"], "correctAnswer": "educates millions about world history and artistic diversity"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the Louvre Museum",
+                      "a small gallery",
+                      "the gift shop"
+                    ],
+                    "correctAnswer": "the Louvre Museum"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "artworks from Egyptian, Greek, and Islamic civilizations",
+                      "only French paintings",
+                      "modern sculptures"
+                    ],
+                    "correctAnswer": "artworks from Egyptian, Greek, and Islamic civilizations"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "educates millions about world history and artistic diversity",
+                      "attracts wealthy tourists",
+                      "sells many tickets"
+                    ],
+                    "correctAnswer": "educates millions about world history and artistic diversity"
+                  }
                 ],
                 "correctSentence": "For instance, the Louvre Museum houses artworks from Egyptian, Greek, and Islamic civilizations which educates millions about world history and artistic diversity.",
                 "usableIn": "body-paragraph-1"
@@ -301,8 +486,24 @@
                 "type": "template",
                 "template": "A clear example is _____ which _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["the British Museum controversy over returning cultural artifacts", "ticket prices", "museum architecture"], "correctAnswer": "the British Museum controversy over returning cultural artifacts"},
-                  {"id": "example2_b2", "options": ["demonstrates the ongoing dialogue about shared cultural heritage", "increases costs", "changes design"], "correctAnswer": "demonstrates the ongoing dialogue about shared cultural heritage"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "the British Museum controversy over returning cultural artifacts",
+                      "ticket prices",
+                      "museum architecture"
+                    ],
+                    "correctAnswer": "the British Museum controversy over returning cultural artifacts"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "demonstrates the ongoing dialogue about shared cultural heritage",
+                      "increases costs",
+                      "changes design"
+                    ],
+                    "correctAnswer": "demonstrates the ongoing dialogue about shared cultural heritage"
+                  }
                 ],
                 "correctSentence": "A clear example is the British Museum controversy over returning cultural artifacts which demonstrates the ongoing dialogue about shared cultural heritage.",
                 "usableIn": "body-paragraph-2"
@@ -319,8 +520,24 @@
                 "type": "template",
                 "template": "In conclusion, I firmly believe that _____ should _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["museums and art galleries", "local artists", "government funding"], "correctAnswer": "museums and art galleries"},
-                  {"id": "conclusion1_b2", "options": ["maintain balanced collections featuring both local and international works", "only show local art", "charge higher fees"], "correctAnswer": "maintain balanced collections featuring both local and international works"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "museums and art galleries",
+                      "local artists",
+                      "government funding"
+                    ],
+                    "correctAnswer": "museums and art galleries"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "maintain balanced collections featuring both local and international works",
+                      "only show local art",
+                      "charge higher fees"
+                    ],
+                    "correctAnswer": "maintain balanced collections featuring both local and international works"
+                  }
                 ],
                 "correctSentence": "In conclusion, I firmly believe that museums and art galleries should maintain balanced collections featuring both local and international works.",
                 "usableIn": "conclusion"
@@ -358,12 +575,42 @@
           }
         ],
         "usefulTransitions": {
-          "stating_position": ["I completely disagree", "I firmly believe", "In my view", "From my perspective"],
-          "first_argument": ["First and foremost", "To begin with", "Firstly", "The primary reason"],
-          "second_argument": ["Moreover", "Furthermore", "Additionally", "Secondly"],
-          "giving_examples": ["For instance", "For example", "A clear example is", "Take the case of"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "stating_position": [
+            "I completely disagree",
+            "I firmly believe",
+            "In my view",
+            "From my perspective"
+          ],
+          "first_argument": [
+            "First and foremost",
+            "To begin with",
+            "Firstly",
+            "The primary reason"
+          ],
+          "second_argument": [
+            "Moreover",
+            "Furthermore",
+            "Additionally",
+            "Secondly"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Take the case of"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },

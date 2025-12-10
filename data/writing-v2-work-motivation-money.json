@@ -79,105 +79,166 @@
             "word": "motivation",
             "pronunciation": "/ˌməʊtɪˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The reason or drive for doing something",
+            "definition": "The reason or drive for doing something.",
             "example": "Financial incentives are a powerful source of motivation for many employees.",
-            "synonyms": ["incentive", "drive", "stimulus"]
+            "synonyms": [
+              "incentive",
+              "drive",
+              "stimulus"
+            ]
           },
           {
             "word": "compensation",
             "pronunciation": "/ˌkɒmpənˈseɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Payment or reward for work or services",
+            "definition": "Payment or reward for work or services.",
             "example": "Adequate compensation is essential for attracting qualified professionals.",
-            "synonyms": ["remuneration", "payment", "salary"]
+            "synonyms": [
+              "remuneration",
+              "payment",
+              "salary"
+            ]
           },
           {
             "word": "intrinsic",
             "pronunciation": "/ɪnˈtrɪnsɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Belonging naturally, internal or inherent",
+            "definition": "Belonging naturally, internal or inherent.",
             "example": "Intrinsic motivation comes from personal satisfaction rather than external rewards.",
-            "synonyms": ["inherent", "internal", "innate"]
+            "synonyms": [
+              "inherent",
+              "internal",
+              "innate"
+            ]
           },
           {
             "word": "extrinsic",
             "pronunciation": "/ekˈstrɪnsɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Coming from outside, external",
+            "definition": "Coming from outside, external.",
             "example": "Salary and bonuses are extrinsic factors that influence job performance.",
-            "synonyms": ["external", "outside", "exterior"]
+            "synonyms": [
+              "external",
+              "outside",
+              "exterior"
+            ]
           },
           {
             "word": "fulfillment",
             "pronunciation": "/fʊlˈfɪlmənt/",
             "partOfSpeech": "noun",
-            "definition": "Satisfaction or happiness from achieving something",
+            "definition": "Satisfaction or happiness from achieving something.",
             "example": "Many professionals seek career fulfillment beyond monetary rewards.",
-            "synonyms": ["satisfaction", "contentment", "achievement"]
+            "synonyms": [
+              "satisfaction",
+              "contentment",
+              "achievement"
+            ]
           },
           {
             "word": "incentive",
             "pronunciation": "/ɪnˈsentɪv/",
             "partOfSpeech": "noun",
-            "definition": "Something that encourages a person to do something",
+            "definition": "Something that encourages a person to do something.",
             "example": "Performance-based bonuses serve as powerful incentives for sales teams.",
-            "synonyms": ["motivation", "inducement", "stimulus"]
+            "synonyms": [
+              "motivation",
+              "inducement",
+              "stimulus"
+            ]
           },
           {
             "word": "dedication",
             "pronunciation": "/ˌdedɪˈkeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Commitment and devotion to a task or purpose",
+            "definition": "Commitment and devotion to a task or purpose.",
             "example": "True dedication to one's work comes from passion rather than salary alone.",
-            "synonyms": ["commitment", "devotion", "loyalty"]
+            "synonyms": [
+              "commitment",
+              "devotion",
+              "loyalty"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance, size, or worth",
+            "definition": "Of considerable importance, size, or worth.",
             "example": "While money matters, it is not the sole substantial factor in workplace motivation.",
-            "synonyms": ["significant", "considerable", "important"]
+            "synonyms": [
+              "significant",
+              "considerable",
+              "important"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "financial incentives",
-            "definition": "Monetary rewards to encourage performance",
+            "definition": "Monetary rewards to encourage performance.",
             "example": "Financial incentives can boost short-term productivity but may not sustain long-term commitment."
           },
           {
             "phrase": "job satisfaction",
-            "definition": "Contentment and fulfillment from one's work",
+            "definition": "Contentment and fulfillment from one's work.",
             "example": "Job satisfaction often depends on factors beyond salary, such as work environment and recognition."
           },
           {
             "phrase": "career advancement",
-            "definition": "Progress and promotion in one's profession",
+            "definition": "Progress and promotion in one's profession.",
             "example": "Opportunities for career advancement motivate ambitious employees to excel."
           },
           {
             "phrase": "work environment",
-            "definition": "The physical and social conditions in which people work",
+            "definition": "The physical and social conditions in which people work.",
             "example": "A positive work environment can be more motivating than higher pay in a toxic workplace."
           },
           {
             "phrase": "personal growth",
-            "definition": "Development of skills and capabilities",
+            "definition": "Development of skills and capabilities.",
             "example": "Many young professionals prioritize personal growth over immediate financial gains."
           },
           {
             "phrase": "monetary reward",
-            "definition": "Financial payment or compensation",
+            "definition": "Financial payment or compensation.",
             "example": "Monetary rewards address basic needs but cannot guarantee employee engagement."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In my view", "From my perspective", "I strongly believe that", "In my opinion"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Conversely", "While this is true"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "To illustrate"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In summary"]
+          "introducing": [
+            "In my view",
+            "From my perspective",
+            "I strongly believe that",
+            "In my opinion"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Conversely",
+            "While this is true"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "To illustrate"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In summary"
+          ]
         }
       }
     },
@@ -200,8 +261,24 @@
                 "type": "template",
                 "template": "While _____ is important, I believe that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["financial compensation", "having a job", "working hours"], "correctAnswer": "financial compensation"},
-                  {"id": "thesis1_b2", "options": ["other factors are equally crucial for workplace motivation", "money solves everything", "salary doesn't matter"], "correctAnswer": "other factors are equally crucial for workplace motivation"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "financial compensation",
+                      "having a job",
+                      "working hours"
+                    ],
+                    "correctAnswer": "financial compensation"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "other factors are equally crucial for workplace motivation",
+                      "money solves everything",
+                      "salary doesn't matter"
+                    ],
+                    "correctAnswer": "other factors are equally crucial for workplace motivation"
+                  }
                 ],
                 "correctSentence": "While financial compensation is important, I believe that other factors are equally crucial for workplace motivation.",
                 "usableIn": "introduction"
@@ -211,8 +288,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["money is not the only motivating factor", "everyone needs money", "salary is everything"], "correctAnswer": "money is not the only motivating factor"},
-                  {"id": "thesis2_b2", "options": ["intrinsic rewards often drive sustained performance", "people like working", "jobs are necessary"], "correctAnswer": "intrinsic rewards often drive sustained performance"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "money is not the only motivating factor",
+                      "everyone needs money",
+                      "salary is everything"
+                    ],
+                    "correctAnswer": "money is not the only motivating factor"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "intrinsic rewards often drive sustained performance",
+                      "people like working",
+                      "jobs are necessary"
+                    ],
+                    "correctAnswer": "intrinsic rewards often drive sustained performance"
+                  }
                 ],
                 "correctSentence": "In my opinion, money is not the only motivating factor because intrinsic rewards often drive sustained performance.",
                 "usableIn": "introduction"
@@ -222,8 +315,24 @@
                 "type": "template",
                 "template": "I strongly disagree that _____ is the most important motivator because _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["monetary compensation", "working", "having colleagues"], "correctAnswer": "monetary compensation"},
-                  {"id": "thesis3_b2", "options": ["numerous other factors contribute to employee dedication", "people don't need money", "work is easy"], "correctAnswer": "numerous other factors contribute to employee dedication"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "monetary compensation",
+                      "working",
+                      "having colleagues"
+                    ],
+                    "correctAnswer": "monetary compensation"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "numerous other factors contribute to employee dedication",
+                      "people don't need money",
+                      "work is easy"
+                    ],
+                    "correctAnswer": "numerous other factors contribute to employee dedication"
+                  }
                 ],
                 "correctSentence": "I strongly disagree that monetary compensation is the most important motivator because numerous other factors contribute to employee dedication.",
                 "usableIn": "introduction"
@@ -233,8 +342,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ plays a role but _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["salary certainly", "work certainly", "time certainly"], "correctAnswer": "salary certainly"},
-                  {"id": "thesis4_b2", "options": ["cannot be considered the sole or primary driver", "is the only thing that matters", "is completely unimportant"], "correctAnswer": "cannot be considered the sole or primary driver"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "salary certainly",
+                      "work certainly",
+                      "time certainly"
+                    ],
+                    "correctAnswer": "salary certainly"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "cannot be considered the sole or primary driver",
+                      "is the only thing that matters",
+                      "is completely unimportant"
+                    ],
+                    "correctAnswer": "cannot be considered the sole or primary driver"
+                  }
                 ],
                 "correctSentence": "From my perspective, salary certainly plays a role but cannot be considered the sole or primary driver.",
                 "usableIn": "introduction"
@@ -244,8 +369,24 @@
                 "type": "template",
                 "template": "This essay will argue that _____ rather than _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["multiple factors motivate workplace performance", "money is everything", "people don't like work"], "correctAnswer": "multiple factors motivate workplace performance"},
-                  {"id": "thesis5_b2", "options": ["money being the dominant consideration", "everything being equal", "all jobs being the same"], "correctAnswer": "money being the dominant consideration"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "multiple factors motivate workplace performance",
+                      "money is everything",
+                      "people don't like work"
+                    ],
+                    "correctAnswer": "multiple factors motivate workplace performance"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "money being the dominant consideration",
+                      "everything being equal",
+                      "all jobs being the same"
+                    ],
+                    "correctAnswer": "money being the dominant consideration"
+                  }
                 ],
                 "correctSentence": "This essay will argue that multiple factors motivate workplace performance rather than money being the dominant consideration.",
                 "usableIn": "introduction"
@@ -262,8 +403,24 @@
                 "type": "template",
                 "template": "Firstly, _____ often provides _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["meaningful work", "having a desk", "using computers"], "correctAnswer": "meaningful work"},
-                  {"id": "topic1_b2", "options": ["greater motivation than financial rewards alone", "a salary", "work hours"], "correctAnswer": "greater motivation than financial rewards alone"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "meaningful work",
+                      "having a desk",
+                      "using computers"
+                    ],
+                    "correctAnswer": "meaningful work"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "greater motivation than financial rewards alone",
+                      "a salary",
+                      "work hours"
+                    ],
+                    "correctAnswer": "greater motivation than financial rewards alone"
+                  }
                 ],
                 "correctSentence": "Firstly, meaningful work often provides greater motivation than financial rewards alone.",
                 "usableIn": "body-paragraph-1"
@@ -273,8 +430,24 @@
                 "type": "template",
                 "template": "Secondly, _____ significantly influences _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["recognition and career advancement", "office furniture", "lunch breaks"], "correctAnswer": "recognition and career advancement"},
-                  {"id": "topic2_b2", "options": ["employee dedication and performance", "computer speed", "parking availability"], "correctAnswer": "employee dedication and performance"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "recognition and career advancement",
+                      "office furniture",
+                      "lunch breaks"
+                    ],
+                    "correctAnswer": "recognition and career advancement"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "employee dedication and performance",
+                      "computer speed",
+                      "parking availability"
+                    ],
+                    "correctAnswer": "employee dedication and performance"
+                  }
                 ],
                 "correctSentence": "Secondly, recognition and career advancement significantly influences employee dedication and performance.",
                 "usableIn": "body-paragraph-2"
@@ -284,8 +457,24 @@
                 "type": "template",
                 "template": "One primary reason is that _____ drives _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["intrinsic satisfaction", "office location", "building design"], "correctAnswer": "intrinsic satisfaction"},
-                  {"id": "topic3_b2", "options": ["long-term commitment more effectively than money", "people to work nearby", "employee parking"], "correctAnswer": "long-term commitment more effectively than money"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "intrinsic satisfaction",
+                      "office location",
+                      "building design"
+                    ],
+                    "correctAnswer": "intrinsic satisfaction"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "long-term commitment more effectively than money",
+                      "people to work nearby",
+                      "employee parking"
+                    ],
+                    "correctAnswer": "long-term commitment more effectively than money"
+                  }
                 ],
                 "correctSentence": "One primary reason is that intrinsic satisfaction drives long-term commitment more effectively than money.",
                 "usableIn": "body-paragraph-1"
@@ -295,8 +484,24 @@
                 "type": "template",
                 "template": "A key factor is that _____ contributes to _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["professional development opportunities", "office supplies", "company logos"], "correctAnswer": "professional development opportunities"},
-                  {"id": "topic4_b2", "options": ["sustained employee motivation", "higher rent costs", "larger offices"], "correctAnswer": "sustained employee motivation"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "professional development opportunities",
+                      "office supplies",
+                      "company logos"
+                    ],
+                    "correctAnswer": "professional development opportunities"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "sustained employee motivation",
+                      "higher rent costs",
+                      "larger offices"
+                    ],
+                    "correctAnswer": "sustained employee motivation"
+                  }
                 ],
                 "correctSentence": "A key factor is that professional development opportunities contributes to sustained employee motivation.",
                 "usableIn": "body-paragraph-2"
@@ -306,9 +511,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ matters more than _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Many employees", "Some buildings", "Office managers"], "correctAnswer": "Many employees"},
-                  {"id": "topic5_b2", "options": ["personal fulfillment from their work", "having lunch", "using email"], "correctAnswer": "personal fulfillment from their work"},
-                  {"id": "topic5_b3", "options": ["salary alone", "everything else", "working remotely"], "correctAnswer": "salary alone"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Many employees",
+                      "Some buildings",
+                      "Office managers"
+                    ],
+                    "correctAnswer": "Many employees"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "personal fulfillment from their work",
+                      "having lunch",
+                      "using email"
+                    ],
+                    "correctAnswer": "personal fulfillment from their work"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "salary alone",
+                      "everything else",
+                      "working remotely"
+                    ],
+                    "correctAnswer": "salary alone"
+                  }
                 ],
                 "correctSentence": "Many employees argue that personal fulfillment from their work matters more than salary alone.",
                 "usableIn": "body-paragraph-1"
@@ -318,9 +547,33 @@
                 "type": "template",
                 "template": "_____ demonstrate that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Numerous studies", "Office buildings", "Computer programs"], "correctAnswer": "Numerous studies"},
-                  {"id": "topic6_b2", "options": ["workplace appreciation and acknowledgment", "having windows", "using phones"], "correctAnswer": "workplace appreciation and acknowledgment"},
-                  {"id": "topic6_b3", "options": ["employee engagement beyond monetary factors", "office decoration", "parking spaces"], "correctAnswer": "employee engagement beyond monetary factors"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Numerous studies",
+                      "Office buildings",
+                      "Computer programs"
+                    ],
+                    "correctAnswer": "Numerous studies"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "workplace appreciation and acknowledgment",
+                      "having windows",
+                      "using phones"
+                    ],
+                    "correctAnswer": "workplace appreciation and acknowledgment"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "employee engagement beyond monetary factors",
+                      "office decoration",
+                      "parking spaces"
+                    ],
+                    "correctAnswer": "employee engagement beyond monetary factors"
+                  }
                 ],
                 "correctSentence": "Numerous studies demonstrate that workplace appreciation and acknowledgment enhances employee engagement beyond monetary factors.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +583,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["purpose-driven work", "office space", "technology"], "correctAnswer": "purpose-driven work"},
-                  {"id": "topic7_b2", "options": ["that it creates lasting motivation", "having air conditioning", "faster internet"], "correctAnswer": "that it creates lasting motivation"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "purpose-driven work",
+                      "office space",
+                      "technology"
+                    ],
+                    "correctAnswer": "purpose-driven work"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "that it creates lasting motivation",
+                      "having air conditioning",
+                      "faster internet"
+                    ],
+                    "correctAnswer": "that it creates lasting motivation"
+                  }
                 ],
                 "correctSentence": "The primary advantage of purpose-driven work is that it creates lasting motivation.",
                 "usableIn": "body-paragraph-1"
@@ -341,8 +610,24 @@
                 "type": "template",
                 "template": "A significant limitation of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["focusing solely on financial rewards", "having meetings", "using computers"], "correctAnswer": "focusing solely on financial rewards"},
-                  {"id": "topic8_b2", "options": ["that it ignores deeper human needs", "requiring electricity", "needing internet"], "correctAnswer": "that it ignores deeper human needs"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "focusing solely on financial rewards",
+                      "having meetings",
+                      "using computers"
+                    ],
+                    "correctAnswer": "focusing solely on financial rewards"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "that it ignores deeper human needs",
+                      "requiring electricity",
+                      "needing internet"
+                    ],
+                    "correctAnswer": "that it ignores deeper human needs"
+                  }
                 ],
                 "correctSentence": "A significant limitation of focusing solely on financial rewards is that it ignores deeper human needs.",
                 "usableIn": "body-paragraph-1"
@@ -359,8 +644,24 @@
                 "type": "template",
                 "template": "This is because _____ enables employees to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["finding purpose in their work", "having desks", "using computers"], "correctAnswer": "finding purpose in their work"},
-                  {"id": "support1_b2", "options": ["maintain enthusiasm beyond financial considerations", "sit comfortably", "type emails"], "correctAnswer": "maintain enthusiasm beyond financial considerations"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "finding purpose in their work",
+                      "having desks",
+                      "using computers"
+                    ],
+                    "correctAnswer": "finding purpose in their work"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "maintain enthusiasm beyond financial considerations",
+                      "sit comfortably",
+                      "type emails"
+                    ],
+                    "correctAnswer": "maintain enthusiasm beyond financial considerations"
+                  }
                 ],
                 "correctSentence": "This is because finding purpose in their work enables employees to maintain enthusiasm beyond financial considerations.",
                 "usableIn": "body-paragraph-1"
@@ -370,8 +671,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["professional recognition", "office decoration", "coffee breaks"], "correctAnswer": "professional recognition"},
-                  {"id": "support2_b2", "options": ["greater job satisfaction and loyalty", "nicer offices", "longer lunches"], "correctAnswer": "greater job satisfaction and loyalty"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "professional recognition",
+                      "office decoration",
+                      "coffee breaks"
+                    ],
+                    "correctAnswer": "professional recognition"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "greater job satisfaction and loyalty",
+                      "nicer offices",
+                      "longer lunches"
+                    ],
+                    "correctAnswer": "greater job satisfaction and loyalty"
+                  }
                 ],
                 "correctSentence": "The main reason is that professional recognition leads to greater job satisfaction and loyalty.",
                 "usableIn": "body-paragraph-2"
@@ -381,9 +698,33 @@
                 "type": "template",
                 "template": "_____ allows workers to _____ even when _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Passion for their profession", "Office work", "Using email"], "correctAnswer": "Passion for their profession"},
-                  {"id": "support3_b2", "options": ["remain dedicated and productive", "attend meetings", "use computers"], "correctAnswer": "remain dedicated and productive"},
-                  {"id": "support3_b3", "options": ["salaries are not the highest available", "offices are closed", "internet is slow"], "correctAnswer": "salaries are not the highest available"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Passion for their profession",
+                      "Office work",
+                      "Using email"
+                    ],
+                    "correctAnswer": "Passion for their profession"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "remain dedicated and productive",
+                      "attend meetings",
+                      "use computers"
+                    ],
+                    "correctAnswer": "remain dedicated and productive"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "salaries are not the highest available",
+                      "offices are closed",
+                      "internet is slow"
+                    ],
+                    "correctAnswer": "salaries are not the highest available"
+                  }
                 ],
                 "correctSentence": "Passion for their profession allows workers to remain dedicated and productive even when salaries are not the highest available.",
                 "usableIn": "body-paragraph-1"
@@ -393,9 +734,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Being valued and appreciated", "Having furniture", "Using technology"], "correctAnswer": "Being valued and appreciated"},
-                  {"id": "support4_b2", "options": ["employee morale and commitment", "office cleanliness", "computer skills"], "correctAnswer": "employee morale and commitment"},
-                  {"id": "support4_b3", "options": ["sustained performance and innovation", "having meetings", "sending emails"], "correctAnswer": "sustained performance and innovation"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Being valued and appreciated",
+                      "Having furniture",
+                      "Using technology"
+                    ],
+                    "correctAnswer": "Being valued and appreciated"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "employee morale and commitment",
+                      "office cleanliness",
+                      "computer skills"
+                    ],
+                    "correctAnswer": "employee morale and commitment"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "sustained performance and innovation",
+                      "having meetings",
+                      "sending emails"
+                    ],
+                    "correctAnswer": "sustained performance and innovation"
+                  }
                 ],
                 "correctSentence": "Being valued and appreciated fosters employee morale and commitment, which is crucial for sustained performance and innovation.",
                 "usableIn": "body-paragraph-2"
@@ -405,8 +770,24 @@
                 "type": "template",
                 "template": "When _____, employees are more likely to _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["work aligns with personal values", "offices have windows", "meetings are scheduled"], "correctAnswer": "work aligns with personal values"},
-                  {"id": "support5_b2", "options": ["go beyond minimum requirements", "arrive on time", "use computers"], "correctAnswer": "go beyond minimum requirements"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "work aligns with personal values",
+                      "offices have windows",
+                      "meetings are scheduled"
+                    ],
+                    "correctAnswer": "work aligns with personal values"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "go beyond minimum requirements",
+                      "arrive on time",
+                      "use computers"
+                    ],
+                    "correctAnswer": "go beyond minimum requirements"
+                  }
                 ],
                 "correctSentence": "When work aligns with personal values, employees are more likely to go beyond minimum requirements.",
                 "usableIn": "body-paragraph-1"
@@ -416,9 +797,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Opportunities for growth", "Office buildings", "Email systems"], "correctAnswer": "Opportunities for growth"},
-                  {"id": "support6_b2", "options": ["employee engagement", "building security", "internet speed"], "correctAnswer": "employee engagement"},
-                  {"id": "support6_b3", "options": ["developing skills and advancing careers", "having meetings", "typing practice"], "correctAnswer": "developing skills and advancing careers"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Opportunities for growth",
+                      "Office buildings",
+                      "Email systems"
+                    ],
+                    "correctAnswer": "Opportunities for growth"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "employee engagement",
+                      "building security",
+                      "internet speed"
+                    ],
+                    "correctAnswer": "employee engagement"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "developing skills and advancing careers",
+                      "having meetings",
+                      "typing practice"
+                    ],
+                    "correctAnswer": "developing skills and advancing careers"
+                  }
                 ],
                 "correctSentence": "Opportunities for growth strengthens employee engagement through developing skills and advancing careers.",
                 "usableIn": "body-paragraph-2"
@@ -428,8 +833,24 @@
                 "type": "template",
                 "template": "Intrinsic motivation contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["long-term workplace success", "office management", "computer maintenance"], "correctAnswer": "long-term workplace success"},
-                  {"id": "support7_b2", "options": ["sustaining effort during challenging periods", "organizing files", "scheduling meetings"], "correctAnswer": "sustaining effort during challenging periods"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "long-term workplace success",
+                      "office management",
+                      "computer maintenance"
+                    ],
+                    "correctAnswer": "long-term workplace success"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "sustaining effort during challenging periods",
+                      "organizing files",
+                      "scheduling meetings"
+                    ],
+                    "correctAnswer": "sustaining effort during challenging periods"
+                  }
                 ],
                 "correctSentence": "Intrinsic motivation contributes to long-term workplace success by sustaining effort during challenging periods.",
                 "usableIn": "body-paragraph-1"
@@ -439,8 +860,24 @@
                 "type": "template",
                 "template": "A positive work culture promotes _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["dedication and excellence", "office parties", "lunch catering"], "correctAnswer": "dedication and excellence"},
-                  {"id": "support8_b2", "options": ["transcends monetary compensation", "provides free food", "decorates offices"], "correctAnswer": "transcends monetary compensation"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "dedication and excellence",
+                      "office parties",
+                      "lunch catering"
+                    ],
+                    "correctAnswer": "dedication and excellence"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "transcends monetary compensation",
+                      "provides free food",
+                      "decorates offices"
+                    ],
+                    "correctAnswer": "transcends monetary compensation"
+                  }
                 ],
                 "correctSentence": "A positive work culture promotes dedication and excellence that transcends monetary compensation.",
                 "usableIn": "body-paragraph-2"
@@ -450,9 +887,33 @@
                 "type": "template",
                 "template": "_____ provides employees with _____ beyond _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Meaningful contribution to society", "Having an office", "Using technology"], "correctAnswer": "Meaningful contribution to society"},
-                  {"id": "support9_b2", "options": ["a sense of purpose", "a desk space", "computer access"], "correctAnswer": "a sense of purpose"},
-                  {"id": "support9_b3", "options": ["their paychecks", "office hours", "company rules"], "correctAnswer": "their paychecks"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Meaningful contribution to society",
+                      "Having an office",
+                      "Using technology"
+                    ],
+                    "correctAnswer": "Meaningful contribution to society"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "a sense of purpose",
+                      "a desk space",
+                      "computer access"
+                    ],
+                    "correctAnswer": "a sense of purpose"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "their paychecks",
+                      "office hours",
+                      "company rules"
+                    ],
+                    "correctAnswer": "their paychecks"
+                  }
                 ],
                 "correctSentence": "Meaningful contribution to society provides employees with a sense of purpose beyond their paychecks.",
                 "usableIn": "body-paragraph-1"
@@ -462,8 +923,24 @@
                 "type": "template",
                 "template": "In environments where _____, workers can _____ more effectively.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["achievements are recognized", "offices are clean", "buildings are tall"], "correctAnswer": "achievements are recognized"},
-                  {"id": "support10_b2", "options": ["develop loyalty and dedication", "park their cars", "eat their lunch"], "correctAnswer": "develop loyalty and dedication"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "achievements are recognized",
+                      "offices are clean",
+                      "buildings are tall"
+                    ],
+                    "correctAnswer": "achievements are recognized"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "develop loyalty and dedication",
+                      "park their cars",
+                      "eat their lunch"
+                    ],
+                    "correctAnswer": "develop loyalty and dedication"
+                  }
                 ],
                 "correctSentence": "In environments where achievements are recognized, workers can develop loyalty and dedication more effectively.",
                 "usableIn": "body-paragraph-2"
@@ -473,8 +950,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["employees with meaningful work", "office buildings", "computer systems"], "correctAnswer": "employees with meaningful work"},
-                  {"id": "support11_b2", "options": ["higher fulfillment and commitment", "better parking", "faster internet"], "correctAnswer": "higher fulfillment and commitment"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "employees with meaningful work",
+                      "office buildings",
+                      "computer systems"
+                    ],
+                    "correctAnswer": "employees with meaningful work"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "higher fulfillment and commitment",
+                      "better parking",
+                      "faster internet"
+                    ],
+                    "correctAnswer": "higher fulfillment and commitment"
+                  }
                 ],
                 "correctSentence": "As a result, employees with meaningful work experience higher fulfillment and commitment.",
                 "usableIn": "body-paragraph-1"
@@ -484,9 +977,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ when _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["workplace performance", "office cleanliness", "lunch quality"], "correctAnswer": "workplace performance"},
-                  {"id": "support12_b2", "options": ["more sustainable and innovative", "slower and boring", "expensive and difficult"], "correctAnswer": "more sustainable and innovative"},
-                  {"id": "support12_b3", "options": ["multiple motivational factors are present", "offices are large", "meetings are frequent"], "correctAnswer": "multiple motivational factors are present"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "workplace performance",
+                      "office cleanliness",
+                      "lunch quality"
+                    ],
+                    "correctAnswer": "workplace performance"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "more sustainable and innovative",
+                      "slower and boring",
+                      "expensive and difficult"
+                    ],
+                    "correctAnswer": "more sustainable and innovative"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "multiple motivational factors are present",
+                      "offices are large",
+                      "meetings are frequent"
+                    ],
+                    "correctAnswer": "multiple motivational factors are present"
+                  }
                 ],
                 "correctSentence": "Consequently, workplace performance tends to be more sustainable and innovative when multiple motivational factors are present.",
                 "usableIn": "body-paragraph-2"
@@ -503,9 +1020,33 @@
                 "type": "template",
                 "template": "For instance, _____ often _____ despite _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["teachers and social workers", "office managers", "building owners"], "correctAnswer": "teachers and social workers"},
-                  {"id": "example1_b2", "options": ["remain highly committed to their professions", "work in offices", "use computers"], "correctAnswer": "remain highly committed to their professions"},
-                  {"id": "example1_b3", "options": ["relatively modest salaries", "having meetings", "working hours"], "correctAnswer": "relatively modest salaries"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "teachers and social workers",
+                      "office managers",
+                      "building owners"
+                    ],
+                    "correctAnswer": "teachers and social workers"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "remain highly committed to their professions",
+                      "work in offices",
+                      "use computers"
+                    ],
+                    "correctAnswer": "remain highly committed to their professions"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "relatively modest salaries",
+                      "having meetings",
+                      "working hours"
+                    ],
+                    "correctAnswer": "relatively modest salaries"
+                  }
                 ],
                 "correctSentence": "For instance, teachers and social workers often remain highly committed to their professions despite relatively modest salaries.",
                 "usableIn": "body-paragraph-1"
@@ -515,9 +1056,33 @@
                 "type": "template",
                 "template": "For example, _____ who receive _____ tend to _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["employees", "buildings", "computers"], "correctAnswer": "employees"},
-                  {"id": "example2_b2", "options": ["regular recognition and promotion opportunities", "office supplies", "lunch vouchers"], "correctAnswer": "regular recognition and promotion opportunities"},
-                  {"id": "example2_b3", "options": ["demonstrate greater loyalty than those motivated by salary alone", "attend more meetings", "use more technology"], "correctAnswer": "demonstrate greater loyalty than those motivated by salary alone"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "employees",
+                      "buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "employees"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "regular recognition and promotion opportunities",
+                      "office supplies",
+                      "lunch vouchers"
+                    ],
+                    "correctAnswer": "regular recognition and promotion opportunities"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "demonstrate greater loyalty than those motivated by salary alone",
+                      "attend more meetings",
+                      "use more technology"
+                    ],
+                    "correctAnswer": "demonstrate greater loyalty than those motivated by salary alone"
+                  }
                 ],
                 "correctSentence": "For example, employees who receive regular recognition and promotion opportunities tend to demonstrate greater loyalty than those motivated by salary alone.",
                 "usableIn": "body-paragraph-2"
@@ -527,9 +1092,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in fields such as _____ are driven by _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["professionals", "offices", "buildings"], "correctAnswer": "professionals"},
-                  {"id": "example3_b2", "options": ["healthcare and environmental protection", "office management", "building maintenance"], "correctAnswer": "healthcare and environmental protection"},
-                  {"id": "example3_b3", "options": ["passion for making a difference", "desire for parking", "need for computers"], "correctAnswer": "passion for making a difference"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "professionals",
+                      "offices",
+                      "buildings"
+                    ],
+                    "correctAnswer": "professionals"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "healthcare and environmental protection",
+                      "office management",
+                      "building maintenance"
+                    ],
+                    "correctAnswer": "healthcare and environmental protection"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "passion for making a difference",
+                      "desire for parking",
+                      "need for computers"
+                    ],
+                    "correctAnswer": "passion for making a difference"
+                  }
                 ],
                 "correctSentence": "Specifically, professionals in fields such as healthcare and environmental protection are driven by passion for making a difference.",
                 "usableIn": "body-paragraph-1"
@@ -539,8 +1128,24 @@
                 "type": "template",
                 "template": "Research shows that _____ when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["employee retention rates improve significantly", "office rents increase", "computer prices drop"], "correctAnswer": "employee retention rates improve significantly"},
-                  {"id": "example4_b2", "options": ["companies invest in career development programs", "buildings are renovated", "new furniture is purchased"], "correctAnswer": "companies invest in career development programs"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "employee retention rates improve significantly",
+                      "office rents increase",
+                      "computer prices drop"
+                    ],
+                    "correctAnswer": "employee retention rates improve significantly"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "companies invest in career development programs",
+                      "buildings are renovated",
+                      "new furniture is purchased"
+                    ],
+                    "correctAnswer": "companies invest in career development programs"
+                  }
                 ],
                 "correctSentence": "Research shows that employee retention rates improve significantly when companies invest in career development programs.",
                 "usableIn": "body-paragraph-2"
@@ -550,9 +1155,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ valued _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Harvard Business Review", "a local office", "my colleague"], "correctAnswer": "Harvard Business Review"},
-                  {"id": "example5_b2", "options": ["over 70% of employees", "most buildings", "some computers"], "correctAnswer": "over 70% of employees"},
-                  {"id": "example5_b3", "options": ["work-life balance over higher salaries", "office location", "parking spaces"], "correctAnswer": "work-life balance over higher salaries"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Harvard Business Review",
+                      "a local office",
+                      "my colleague"
+                    ],
+                    "correctAnswer": "Harvard Business Review"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "over 70% of employees",
+                      "most buildings",
+                      "some computers"
+                    ],
+                    "correctAnswer": "over 70% of employees"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "work-life balance over higher salaries",
+                      "office location",
+                      "parking spaces"
+                    ],
+                    "correctAnswer": "work-life balance over higher salaries"
+                  }
                 ],
                 "correctSentence": "A study by Harvard Business Review found that over 70% of employees valued work-life balance over higher salaries.",
                 "usableIn": "body-paragraph-1"
@@ -562,9 +1191,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ demonstrate that _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["companies", "buildings", "computers"], "correctAnswer": "companies"},
-                  {"id": "example6_b2", "options": ["Google and Microsoft", "local stores", "small offices"], "correctAnswer": "Google and Microsoft"},
-                  {"id": "example6_b3", "options": ["investing in employee development yields better results than salary increases alone", "offices need cleaning", "technology needs updating"], "correctAnswer": "investing in employee development yields better results than salary increases alone"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "companies",
+                      "buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "companies"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "Google and Microsoft",
+                      "local stores",
+                      "small offices"
+                    ],
+                    "correctAnswer": "Google and Microsoft"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "investing in employee development yields better results than salary increases alone",
+                      "offices need cleaning",
+                      "technology needs updating"
+                    ],
+                    "correctAnswer": "investing in employee development yields better results than salary increases alone"
+                  }
                 ],
                 "correctSentence": "In particular, companies such as Google and Microsoft demonstrate that investing in employee development yields better results than salary increases alone.",
                 "usableIn": "body-paragraph-2"
@@ -574,9 +1227,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have shown that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["successful organizations", "office buildings", "computer systems"], "correctAnswer": "successful organizations"},
-                  {"id": "example7_b2", "options": ["nonprofit sector leaders", "building managers", "IT departments"], "correctAnswer": "nonprofit sector leaders"},
-                  {"id": "example7_b3", "options": ["mission-driven work attracts dedicated employees regardless of pay", "offices need maintenance", "computers need updates"], "correctAnswer": "mission-driven work attracts dedicated employees regardless of pay"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "successful organizations",
+                      "office buildings",
+                      "computer systems"
+                    ],
+                    "correctAnswer": "successful organizations"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "nonprofit sector leaders",
+                      "building managers",
+                      "IT departments"
+                    ],
+                    "correctAnswer": "nonprofit sector leaders"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "mission-driven work attracts dedicated employees regardless of pay",
+                      "offices need maintenance",
+                      "computers need updates"
+                    ],
+                    "correctAnswer": "mission-driven work attracts dedicated employees regardless of pay"
+                  }
                 ],
                 "correctSentence": "Many successful organizations, including nonprofit sector leaders, have shown that mission-driven work attracts dedicated employees regardless of pay.",
                 "usableIn": "body-paragraph-1"
@@ -586,9 +1263,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ often prioritize _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["startup companies", "office buildings", "parking lots"], "correctAnswer": "startup companies"},
-                  {"id": "example8_b2", "options": ["their employees", "their furniture", "their computers"], "correctAnswer": "their employees"},
-                  {"id": "example8_b3", "options": ["equity and growth opportunities over immediate high salaries", "office design", "lunch options"], "correctAnswer": "equity and growth opportunities over immediate high salaries"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "startup companies",
+                      "office buildings",
+                      "parking lots"
+                    ],
+                    "correctAnswer": "startup companies"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "their employees",
+                      "their furniture",
+                      "their computers"
+                    ],
+                    "correctAnswer": "their employees"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "equity and growth opportunities over immediate high salaries",
+                      "office design",
+                      "lunch options"
+                    ],
+                    "correctAnswer": "equity and growth opportunities over immediate high salaries"
+                  }
                 ],
                 "correctSentence": "Take startup companies as an example: their employees often prioritize equity and growth opportunities over immediate high salaries.",
                 "usableIn": "body-paragraph-2"
@@ -598,8 +1299,24 @@
                 "type": "template",
                 "template": "According to _____, people who _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["workplace surveys", "office managers", "building owners"], "correctAnswer": "workplace surveys"},
-                  {"id": "example9_b2", "options": ["find meaning in their work report higher satisfaction levels than those focused solely on income", "work in offices earn more", "use computers work faster"], "correctAnswer": "find meaning in their work report higher satisfaction levels than those focused solely on income"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "workplace surveys",
+                      "office managers",
+                      "building owners"
+                    ],
+                    "correctAnswer": "workplace surveys"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "find meaning in their work report higher satisfaction levels than those focused solely on income",
+                      "work in offices earn more",
+                      "use computers work faster"
+                    ],
+                    "correctAnswer": "find meaning in their work report higher satisfaction levels than those focused solely on income"
+                  }
                 ],
                 "correctSentence": "According to workplace surveys, people who find meaning in their work report higher satisfaction levels than those focused solely on income.",
                 "usableIn": "body-paragraph-1"
@@ -609,8 +1326,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is more effective at _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["providing mentorship and learning opportunities", "having meetings", "using computers"], "correctAnswer": "providing mentorship and learning opportunities"},
-                  {"id": "example10_b2", "options": ["retaining talented employees than offering bonuses alone", "organizing offices", "sending emails"], "correctAnswer": "retaining talented employees than offering bonuses alone"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "providing mentorship and learning opportunities",
+                      "having meetings",
+                      "using computers"
+                    ],
+                    "correctAnswer": "providing mentorship and learning opportunities"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "retaining talented employees than offering bonuses alone",
+                      "organizing offices",
+                      "sending emails"
+                    ],
+                    "correctAnswer": "retaining talented employees than offering bonuses alone"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that providing mentorship and learning opportunities is more effective at retaining talented employees than offering bonuses alone.",
                 "usableIn": "body-paragraph-2"
@@ -627,8 +1360,24 @@
                 "type": "template",
                 "template": "However, it must be acknowledged that _____ remains _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["financial security", "office work", "using computers"], "correctAnswer": "financial security"},
-                  {"id": "counter1_b2", "options": ["a fundamental need for all workers", "somewhat important", "occasionally useful"], "correctAnswer": "a fundamental need for all workers"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "financial security",
+                      "office work",
+                      "using computers"
+                    ],
+                    "correctAnswer": "financial security"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "a fundamental need for all workers",
+                      "somewhat important",
+                      "occasionally useful"
+                    ],
+                    "correctAnswer": "a fundamental need for all workers"
+                  }
                 ],
                 "correctSentence": "However, it must be acknowledged that financial security remains a fundamental need for all workers.",
                 "usableIn": "body-paragraph-1"
@@ -638,8 +1387,24 @@
                 "type": "template",
                 "template": "Despite these factors, _____ still plays _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["adequate compensation", "office location", "building design"], "correctAnswer": "adequate compensation"},
-                  {"id": "counter2_b2", "options": ["an essential role in meeting basic needs", "a minor role", "no role"], "correctAnswer": "an essential role in meeting basic needs"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "adequate compensation",
+                      "office location",
+                      "building design"
+                    ],
+                    "correctAnswer": "adequate compensation"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "an essential role in meeting basic needs",
+                      "a minor role",
+                      "no role"
+                    ],
+                    "correctAnswer": "an essential role in meeting basic needs"
+                  }
                 ],
                 "correctSentence": "Despite these factors, adequate compensation still plays an essential role in meeting basic needs.",
                 "usableIn": "body-paragraph-2"
@@ -649,8 +1414,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ cannot be entirely dismissed because _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["the importance of salary", "office furniture", "computer speed"], "correctAnswer": "the importance of salary"},
-                  {"id": "counter3_b2", "options": ["it addresses essential living expenses", "offices need it", "everyone wants it"], "correctAnswer": "it addresses essential living expenses"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "the importance of salary",
+                      "office furniture",
+                      "computer speed"
+                    ],
+                    "correctAnswer": "the importance of salary"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "it addresses essential living expenses",
+                      "offices need it",
+                      "everyone wants it"
+                    ],
+                    "correctAnswer": "it addresses essential living expenses"
+                  }
                 ],
                 "correctSentence": "Nevertheless, the importance of salary cannot be entirely dismissed because it addresses essential living expenses.",
                 "usableIn": "body-paragraph-1"
@@ -660,9 +1441,33 @@
                 "type": "template",
                 "template": "Although _____ is significant, it _____ when _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["monetary compensation", "office work", "technology"], "correctAnswer": "monetary compensation"},
-                  {"id": "counter4_b2", "options": ["becomes less motivating", "increases rapidly", "stays constant"], "correctAnswer": "becomes less motivating"},
-                  {"id": "counter4_b3", "options": ["basic financial needs are already met", "offices are comfortable", "computers are fast"], "correctAnswer": "basic financial needs are already met"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "monetary compensation",
+                      "office work",
+                      "technology"
+                    ],
+                    "correctAnswer": "monetary compensation"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "becomes less motivating",
+                      "increases rapidly",
+                      "stays constant"
+                    ],
+                    "correctAnswer": "becomes less motivating"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "basic financial needs are already met",
+                      "offices are comfortable",
+                      "computers are fast"
+                    ],
+                    "correctAnswer": "basic financial needs are already met"
+                  }
                 ],
                 "correctSentence": "Although monetary compensation is significant, it becomes less motivating when basic financial needs are already met.",
                 "usableIn": "body-paragraph-2"
@@ -672,8 +1477,24 @@
                 "type": "template",
                 "template": "Critics argue that _____ can _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["focusing only on intrinsic rewards", "working in offices", "using technology"], "correctAnswer": "focusing only on intrinsic rewards"},
-                  {"id": "counter5_b2", "options": ["be unrealistic for those facing financial hardship", "improve productivity", "reduce costs"], "correctAnswer": "be unrealistic for those facing financial hardship"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "focusing only on intrinsic rewards",
+                      "working in offices",
+                      "using technology"
+                    ],
+                    "correctAnswer": "focusing only on intrinsic rewards"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "be unrealistic for those facing financial hardship",
+                      "improve productivity",
+                      "reduce costs"
+                    ],
+                    "correctAnswer": "be unrealistic for those facing financial hardship"
+                  }
                 ],
                 "correctSentence": "Critics argue that focusing only on intrinsic rewards can be unrealistic for those facing financial hardship.",
                 "usableIn": "body-paragraph-1"
@@ -690,8 +1511,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["money is certainly necessary", "offices are useful", "work is important"], "correctAnswer": "money is certainly necessary"},
-                  {"id": "conclusion1_b2", "options": ["it is not the sole or most important motivating factor", "everyone needs money", "salaries should increase"], "correctAnswer": "it is not the sole or most important motivating factor"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "money is certainly necessary",
+                      "offices are useful",
+                      "work is important"
+                    ],
+                    "correctAnswer": "money is certainly necessary"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "it is not the sole or most important motivating factor",
+                      "everyone needs money",
+                      "salaries should increase"
+                    ],
+                    "correctAnswer": "it is not the sole or most important motivating factor"
+                  }
                 ],
                 "correctSentence": "In conclusion, while money is certainly necessary, I believe it is not the sole or most important motivating factor.",
                 "usableIn": "conclusion"
@@ -701,9 +1538,33 @@
                 "type": "template",
                 "template": "Overall, _____ drives _____ more effectively than _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["meaningful work and recognition", "office work", "technology"], "correctAnswer": "meaningful work and recognition"},
-                  {"id": "conclusion2_b2", "options": ["sustained motivation", "faster work", "more meetings"], "correctAnswer": "sustained motivation"},
-                  {"id": "conclusion2_b3", "options": ["financial rewards alone", "everything else", "office buildings"], "correctAnswer": "financial rewards alone"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "meaningful work and recognition",
+                      "office work",
+                      "technology"
+                    ],
+                    "correctAnswer": "meaningful work and recognition"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "sustained motivation",
+                      "faster work",
+                      "more meetings"
+                    ],
+                    "correctAnswer": "sustained motivation"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "financial rewards alone",
+                      "everything else",
+                      "office buildings"
+                    ],
+                    "correctAnswer": "financial rewards alone"
+                  }
                 ],
                 "correctSentence": "Overall, meaningful work and recognition drives sustained motivation more effectively than financial rewards alone.",
                 "usableIn": "conclusion"
@@ -713,8 +1574,24 @@
                 "type": "template",
                 "template": "To summarize, _____ requires _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["true workplace motivation", "office work", "computer skills"], "correctAnswer": "true workplace motivation"},
-                  {"id": "conclusion3_b2", "options": ["a combination of financial security and intrinsic fulfillment", "only money", "just good management"], "correctAnswer": "a combination of financial security and intrinsic fulfillment"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "true workplace motivation",
+                      "office work",
+                      "computer skills"
+                    ],
+                    "correctAnswer": "true workplace motivation"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "a combination of financial security and intrinsic fulfillment",
+                      "only money",
+                      "just good management"
+                    ],
+                    "correctAnswer": "a combination of financial security and intrinsic fulfillment"
+                  }
                 ],
                 "correctSentence": "To summarize, true workplace motivation requires a combination of financial security and intrinsic fulfillment.",
                 "usableIn": "conclusion"
@@ -724,9 +1601,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should recognize that _____ when _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["employers and organizations", "office managers", "computer technicians"], "correctAnswer": "employers and organizations"},
-                  {"id": "conclusion4_b2", "options": ["multiple factors contribute to employee dedication", "money matters most", "offices are essential"], "correctAnswer": "multiple factors contribute to employee dedication"},
-                  {"id": "conclusion4_b3", "options": ["designing comprehensive motivation strategies", "calculating salaries", "buying equipment"], "correctAnswer": "designing comprehensive motivation strategies"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "employers and organizations",
+                      "office managers",
+                      "computer technicians"
+                    ],
+                    "correctAnswer": "employers and organizations"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "multiple factors contribute to employee dedication",
+                      "money matters most",
+                      "offices are essential"
+                    ],
+                    "correctAnswer": "multiple factors contribute to employee dedication"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "designing comprehensive motivation strategies",
+                      "calculating salaries",
+                      "buying equipment"
+                    ],
+                    "correctAnswer": "designing comprehensive motivation strategies"
+                  }
                 ],
                 "correctSentence": "Ultimately, employers and organizations should recognize that multiple factors contribute to employee dedication when designing comprehensive motivation strategies.",
                 "usableIn": "conclusion"
@@ -736,8 +1637,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents a more holistic approach because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["balancing financial and non-financial motivators", "increasing salaries", "reducing work hours"], "correctAnswer": "balancing financial and non-financial motivators"},
-                  {"id": "conclusion5_b2", "options": ["it addresses both practical needs and deeper human aspirations", "everyone likes money", "it's easier to implement"], "correctAnswer": "it addresses both practical needs and deeper human aspirations"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "balancing financial and non-financial motivators",
+                      "increasing salaries",
+                      "reducing work hours"
+                    ],
+                    "correctAnswer": "balancing financial and non-financial motivators"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it addresses both practical needs and deeper human aspirations",
+                      "everyone likes money",
+                      "it's easier to implement"
+                    ],
+                    "correctAnswer": "it addresses both practical needs and deeper human aspirations"
+                  }
                 ],
                 "correctSentence": "In my view, balancing financial and non-financial motivators represents a more holistic approach because it addresses both practical needs and deeper human aspirations.",
                 "usableIn": "conclusion"
@@ -790,12 +1707,45 @@
           }
         ],
         "usefulTransitions": {
-          "stating_position": ["In my opinion", "From my perspective", "I strongly believe that", "I disagree that"],
-          "adding_reasons": ["Firstly", "Secondly", "Furthermore", "Moreover", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "To illustrate"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "Although", "While"],
-          "acknowledging": ["It must be acknowledged that", "Admittedly", "While it is true that"]
+          "stating_position": [
+            "In my opinion",
+            "From my perspective",
+            "I strongly believe that",
+            "I disagree that"
+          ],
+          "adding_reasons": [
+            "Firstly",
+            "Secondly",
+            "Furthermore",
+            "Moreover",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "To illustrate"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Although",
+            "While"
+          ],
+          "acknowledging": [
+            "It must be acknowledged that",
+            "Admittedly",
+            "While it is true that"
+          ]
         }
       }
     },

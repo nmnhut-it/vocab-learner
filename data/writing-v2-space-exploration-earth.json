@@ -79,105 +79,153 @@
             "word": "space exploration",
             "pronunciation": "/speɪs ˌekspləˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Investigation and discovery of outer space through missions and research",
+            "definition": "Investigation and discovery of outer space through missions and research.",
             "example": "Space exploration has led to numerous technological innovations.",
-            "synonyms": ["space research", "cosmic exploration"]
+            "synonyms": [
+              "space research",
+              "cosmic exploration"
+            ]
           },
           {
             "word": "resource allocation",
             "pronunciation": "/rɪˈsɔːs ˌæləˈkeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The distribution of available resources among competing uses",
+            "definition": "The distribution of available resources among competing uses.",
             "example": "Governments must make difficult decisions about resource allocation.",
-            "synonyms": ["budget distribution", "fund allocation"]
+            "synonyms": [
+              "budget distribution",
+              "fund allocation"
+            ]
           },
           {
             "word": "scientific advancement",
             "pronunciation": "/ˌsaɪənˈtɪfɪk ədˈvɑːnsmənt/",
             "partOfSpeech": "noun",
-            "definition": "Progress in scientific knowledge and capabilities",
+            "definition": "Progress in scientific knowledge and capabilities.",
             "example": "Space programs drive scientific advancement in multiple fields.",
-            "synonyms": ["scientific progress", "research development"]
+            "synonyms": [
+              "scientific progress",
+              "research development"
+            ]
           },
           {
             "word": "opportunity cost",
             "pronunciation": "/ˌɒpəˈtjuːnəti kɒst/",
             "partOfSpeech": "noun",
-            "definition": "The loss of potential benefit from other choices when one option is selected",
+            "definition": "The loss of potential benefit from other choices when one option is selected.",
             "example": "The opportunity cost of space exploration is funding for social programs.",
-            "synonyms": ["alternative cost", "trade-off"]
+            "synonyms": [
+              "alternative cost",
+              "trade-off"
+            ]
           },
           {
             "word": "humanitarian issues",
             "pronunciation": "/hjuːˌmænɪˈteəriən ˈɪʃuːz/",
             "partOfSpeech": "noun",
-            "definition": "Concerns related to human welfare and suffering",
+            "definition": "Concerns related to human welfare and suffering.",
             "example": "Many argue that humanitarian issues should take priority over space research.",
-            "synonyms": ["social concerns", "welfare issues"]
+            "synonyms": [
+              "social concerns",
+              "welfare issues"
+            ]
           },
           {
             "word": "technological spinoffs",
             "pronunciation": "/ˌteknəˈlɒdʒɪkəl ˈspɪnɒfs/",
             "partOfSpeech": "noun",
-            "definition": "Technologies developed for one purpose that find applications elsewhere",
+            "definition": "Technologies developed for one purpose that find applications elsewhere.",
             "example": "GPS and satellite communications are technological spinoffs from space programs.",
-            "synonyms": ["byproduct technologies", "secondary innovations"]
+            "synonyms": [
+              "byproduct technologies",
+              "secondary innovations"
+            ]
           },
           {
             "word": "prioritize",
             "pronunciation": "/praɪˈɒrɪtaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To organize or deal with something in order of importance",
+            "definition": "To organize or deal with something in order of importance.",
             "example": "Governments should prioritize immediate human needs over distant space goals.",
-            "synonyms": ["rank", "emphasize"]
+            "synonyms": [
+              "rank",
+              "emphasize"
+            ]
           },
           {
             "word": "taxpayer",
             "pronunciation": "/ˈtækspeɪə/",
             "partOfSpeech": "noun",
-            "definition": "A person or organization that pays taxes",
+            "definition": "A person or organization that pays taxes.",
             "example": "Many taxpayers question spending billions on Mars missions.",
-            "synonyms": ["citizen", "contributor"]
+            "synonyms": [
+              "citizen",
+              "contributor"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "public funding",
-            "definition": "Money from government budgets derived from taxes",
+            "definition": "Money from government budgets derived from taxes.",
             "example": "Public funding for space programs remains controversial."
           },
           {
             "phrase": "NASA budget",
-            "definition": "Government allocation to the space agency",
+            "definition": "Government allocation to the space agency.",
             "example": "The NASA budget accounts for less than one percent of federal spending."
           },
           {
             "phrase": "Mars missions",
-            "definition": "Space exploration programs targeting the planet Mars",
+            "definition": "Space exploration programs targeting the planet Mars.",
             "example": "Mars missions cost billions while millions lack clean water on Earth."
           },
           {
             "phrase": "climate change funding",
-            "definition": "Investment in addressing global warming",
+            "definition": "Investment in addressing global warming.",
             "example": "Some argue climate change funding deserves higher priority than space exploration."
           },
           {
             "phrase": "poverty reduction",
-            "definition": "Efforts and programs to decrease economic hardship",
+            "definition": "Efforts and programs to decrease economic hardship.",
             "example": "Poverty reduction programs could benefit from redirected space budgets."
           },
           {
             "phrase": "long-term benefits",
-            "definition": "Advantages that materialize over extended periods",
+            "definition": "Advantages that materialize over extended periods.",
             "example": "Space exploration offers long-term benefits through technological innovation."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +248,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["governments should fund space exploration", "space research is unnecessary", "all funding should go to social programs"], "correctAnswer": "governments should fund space exploration"},
-                  {"id": "thesis1_b2", "options": ["this money should address urgent problems on Earth", "space exploration is cheap", "NASA should be abolished"], "correctAnswer": "this money should address urgent problems on Earth"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "governments should fund space exploration",
+                      "space research is unnecessary",
+                      "all funding should go to social programs"
+                    ],
+                    "correctAnswer": "governments should fund space exploration"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "this money should address urgent problems on Earth",
+                      "space exploration is cheap",
+                      "NASA should be abolished"
+                    ],
+                    "correctAnswer": "this money should address urgent problems on Earth"
+                  }
                 ],
                 "correctSentence": "While some believe governments should fund space exploration, others argue that this money should address urgent problems on Earth.",
                 "usableIn": "introduction"
@@ -211,9 +275,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ can _____ if _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["space exploration funding", "military spending", "education budgets"], "correctAnswer": "space exploration funding"},
-                  {"id": "thesis2_b2", "options": ["be justified", "be eliminated", "be doubled"], "correctAnswer": "be justified"},
-                  {"id": "thesis2_b3", "options": ["it delivers tangible benefits to humanity", "it costs nothing", "everyone agrees"], "correctAnswer": "it delivers tangible benefits to humanity"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "space exploration funding",
+                      "military spending",
+                      "education budgets"
+                    ],
+                    "correctAnswer": "space exploration funding"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "be justified",
+                      "be eliminated",
+                      "be doubled"
+                    ],
+                    "correctAnswer": "be justified"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "it delivers tangible benefits to humanity",
+                      "it costs nothing",
+                      "everyone agrees"
+                    ],
+                    "correctAnswer": "it delivers tangible benefits to humanity"
+                  }
                 ],
                 "correctSentence": "In my opinion, space exploration funding can be justified if it delivers tangible benefits to humanity.",
                 "usableIn": "introduction"
@@ -230,8 +318,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ drives _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["space exploration", "social welfare", "military research"], "correctAnswer": "space exploration"},
-                  {"id": "topic1_b2", "options": ["scientific advancement and technological innovation", "poverty", "unemployment"], "correctAnswer": "scientific advancement and technological innovation"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "space exploration",
+                      "social welfare",
+                      "military research"
+                    ],
+                    "correctAnswer": "space exploration"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "scientific advancement and technological innovation",
+                      "poverty",
+                      "unemployment"
+                    ],
+                    "correctAnswer": "scientific advancement and technological innovation"
+                  }
                 ],
                 "correctSentence": "On the one hand, space exploration drives scientific advancement and technological innovation.",
                 "usableIn": "body-paragraph-1"
@@ -241,9 +345,33 @@
                 "type": "template",
                 "template": "On the other hand, _____ represents _____ when _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["space spending", "healthcare funding", "education investment"], "correctAnswer": "space spending"},
-                  {"id": "topic2_b2", "options": ["a significant opportunity cost", "good value", "necessary investment"], "correctAnswer": "a significant opportunity cost"},
-                  {"id": "topic2_b3", "options": ["urgent humanitarian issues require attention", "space is interesting", "technology advances"], "correctAnswer": "urgent humanitarian issues require attention"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "space spending",
+                      "healthcare funding",
+                      "education investment"
+                    ],
+                    "correctAnswer": "space spending"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "a significant opportunity cost",
+                      "good value",
+                      "necessary investment"
+                    ],
+                    "correctAnswer": "a significant opportunity cost"
+                  },
+                  {
+                    "id": "topic2_b3",
+                    "options": [
+                      "urgent humanitarian issues require attention",
+                      "space is interesting",
+                      "technology advances"
+                    ],
+                    "correctAnswer": "urgent humanitarian issues require attention"
+                  }
                 ],
                 "correctSentence": "On the other hand, space spending represents a significant opportunity cost when urgent humanitarian issues require attention.",
                 "usableIn": "body-paragraph-2"
@@ -260,9 +388,33 @@
                 "type": "template",
                 "template": "This is because _____ leads to _____ that _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["space research", "entertainment", "tourism"], "correctAnswer": "space research"},
-                  {"id": "support1_b2", "options": ["technological spinoffs", "higher taxes", "job losses"], "correctAnswer": "technological spinoffs"},
-                  {"id": "support1_b3", "options": ["benefit everyday life on Earth", "waste resources", "harm the environment"], "correctAnswer": "benefit everyday life on Earth"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "space research",
+                      "entertainment",
+                      "tourism"
+                    ],
+                    "correctAnswer": "space research"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "technological spinoffs",
+                      "higher taxes",
+                      "job losses"
+                    ],
+                    "correctAnswer": "technological spinoffs"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "benefit everyday life on Earth",
+                      "waste resources",
+                      "harm the environment"
+                    ],
+                    "correctAnswer": "benefit everyday life on Earth"
+                  }
                 ],
                 "correctSentence": "This is because space research leads to technological spinoffs that benefit everyday life on Earth.",
                 "usableIn": "body-paragraph-1"
@@ -272,9 +424,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ could _____ instead of _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["billions spent on Mars missions", "small investments", "private donations"], "correctAnswer": "billions spent on Mars missions"},
-                  {"id": "support2_b2", "options": ["fund healthcare, education, and poverty reduction", "buy luxury items", "support entertainment"], "correctAnswer": "fund healthcare, education, and poverty reduction"},
-                  {"id": "support2_b3", "options": ["searching for distant life forms", "helping citizens", "advancing science"], "correctAnswer": "searching for distant life forms"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "billions spent on Mars missions",
+                      "small investments",
+                      "private donations"
+                    ],
+                    "correctAnswer": "billions spent on Mars missions"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "fund healthcare, education, and poverty reduction",
+                      "buy luxury items",
+                      "support entertainment"
+                    ],
+                    "correctAnswer": "fund healthcare, education, and poverty reduction"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "searching for distant life forms",
+                      "helping citizens",
+                      "advancing science"
+                    ],
+                    "correctAnswer": "searching for distant life forms"
+                  }
                 ],
                 "correctSentence": "The main reason is that billions spent on Mars missions could fund healthcare, education, and poverty reduction instead of searching for distant life forms.",
                 "usableIn": "body-paragraph-2"
@@ -291,9 +467,33 @@
                 "type": "template",
                 "template": "For instance, _____ developed for _____ now _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["GPS technology and satellite communications", "video games", "social media"], "correctAnswer": "GPS technology and satellite communications"},
-                  {"id": "example1_b2", "options": ["space programs", "military purposes", "entertainment"], "correctAnswer": "space programs"},
-                  {"id": "example1_b3", "options": ["power essential services worldwide", "waste energy", "cause problems"], "correctAnswer": "power essential services worldwide"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "GPS technology and satellite communications",
+                      "video games",
+                      "social media"
+                    ],
+                    "correctAnswer": "GPS technology and satellite communications"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "space programs",
+                      "military purposes",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "space programs"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "power essential services worldwide",
+                      "waste energy",
+                      "cause problems"
+                    ],
+                    "correctAnswer": "power essential services worldwide"
+                  }
                 ],
                 "correctSentence": "For instance, GPS technology and satellite communications developed for space programs now power essential services worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -303,8 +503,24 @@
                 "type": "template",
                 "template": "For example, _____ while _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["NASA's annual budget exceeds 20 billion dollars", "space exploration is cheap", "few people care about space"], "correctAnswer": "NASA's annual budget exceeds 20 billion dollars"},
-                  {"id": "example2_b2", "options": ["millions worldwide lack access to clean water and basic healthcare", "everyone is wealthy", "space travel is common"], "correctAnswer": "millions worldwide lack access to clean water and basic healthcare"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "NASA's annual budget exceeds 20 billion dollars",
+                      "space exploration is cheap",
+                      "few people care about space"
+                    ],
+                    "correctAnswer": "NASA's annual budget exceeds 20 billion dollars"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "millions worldwide lack access to clean water and basic healthcare",
+                      "everyone is wealthy",
+                      "space travel is common"
+                    ],
+                    "correctAnswer": "millions worldwide lack access to clean water and basic healthcare"
+                  }
                 ],
                 "correctSentence": "For example, NASA's annual budget exceeds 20 billion dollars while millions worldwide lack access to clean water and basic healthcare.",
                 "usableIn": "body-paragraph-2"
@@ -321,8 +537,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both perspectives have merit", "space exploration is worthless", "Earth problems don't matter"], "correctAnswer": "both perspectives have merit"},
-                  {"id": "conclusion1_b2", "options": ["balanced investment in both space research and Earth solutions serves humanity best", "all space funding should stop", "only space exploration matters"], "correctAnswer": "balanced investment in both space research and Earth solutions serves humanity best"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both perspectives have merit",
+                      "space exploration is worthless",
+                      "Earth problems don't matter"
+                    ],
+                    "correctAnswer": "both perspectives have merit"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "balanced investment in both space research and Earth solutions serves humanity best",
+                      "all space funding should stop",
+                      "only space exploration matters"
+                    ],
+                    "correctAnswer": "balanced investment in both space research and Earth solutions serves humanity best"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both perspectives have merit, I believe balanced investment in both space research and Earth solutions serves humanity best.",
                 "usableIn": "conclusion"
@@ -351,12 +583,40 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of space exploration argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Critics contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of space exploration argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Critics contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

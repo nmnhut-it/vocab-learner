@@ -80,107 +80,171 @@
             "word": "inequality",
             "pronunciation": "/ˌɪnɪˈkwɒləti/",
             "partOfSpeech": "noun",
-            "definition": "Lack of equality or fairness in status, rights, or opportunities",
+            "definition": "Lack of equality or fairness in status, rights, or opportunities.",
             "example": "Income inequality has widened significantly in recent decades.",
-            "synonyms": ["disparity", "imbalance", "inequity"]
+            "synonyms": [
+              "disparity",
+              "imbalance",
+              "inequity"
+            ]
           },
           {
             "word": "prosperity",
             "pronunciation": "/prɒˈsperəti/",
             "partOfSpeech": "noun",
-            "definition": "The state of being successful and having wealth",
+            "definition": "The state of being successful and having wealth.",
             "example": "Economic prosperity does not automatically translate to happiness.",
-            "synonyms": ["wealth", "affluence", "success"]
+            "synonyms": [
+              "wealth",
+              "affluence",
+              "success"
+            ]
           },
           {
             "word": "redistribution",
             "pronunciation": "/ˌriːdɪstrɪˈbjuːʃən/",
             "partOfSpeech": "noun",
-            "definition": "The distribution of something in a different way",
+            "definition": "The distribution of something in a different way.",
             "example": "Wealth redistribution through taxation can reduce income gaps.",
-            "synonyms": ["reallocation", "sharing", "division"]
+            "synonyms": [
+              "reallocation",
+              "sharing",
+              "division"
+            ]
           },
           {
             "word": "wellbeing",
             "pronunciation": "/ˌwelˈbiːɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "The state of being comfortable, healthy, and happy",
+            "definition": "The state of being comfortable, healthy, and happy.",
             "example": "Social wellbeing involves more than just financial security.",
-            "synonyms": ["welfare", "health", "happiness"]
+            "synonyms": [
+              "welfare",
+              "health",
+              "happiness"
+            ]
           },
           {
             "word": "disparity",
             "pronunciation": "/dɪˈspærəti/",
             "partOfSpeech": "noun",
-            "definition": "A great difference between things",
+            "definition": "A great difference between things.",
             "example": "The disparity between rich and poor creates social tensions.",
-            "synonyms": ["inequality", "gap", "imbalance"]
+            "synonyms": [
+              "inequality",
+              "gap",
+              "imbalance"
+            ]
           },
           {
             "word": "cohesion",
             "pronunciation": "/kəʊˈhiːʒən/",
             "partOfSpeech": "noun",
-            "definition": "Unity and togetherness within a group",
+            "definition": "Unity and togetherness within a group.",
             "example": "Income equality promotes social cohesion and reduces resentment.",
-            "synonyms": ["unity", "solidarity", "togetherness"]
+            "synonyms": [
+              "unity",
+              "solidarity",
+              "togetherness"
+            ]
           },
           {
             "word": "incentive",
             "pronunciation": "/ɪnˈsentɪv/",
             "partOfSpeech": "noun",
-            "definition": "Something that motivates or encourages action",
+            "definition": "Something that motivates or encourages action.",
             "example": "Large income differences provide incentives for hard work and innovation.",
-            "synonyms": ["motivation", "stimulus", "encouragement"]
+            "synonyms": [
+              "motivation",
+              "stimulus",
+              "encouragement"
+            ]
           },
           {
             "word": "contentment",
             "pronunciation": "/kənˈtentmənt/",
             "partOfSpeech": "noun",
-            "definition": "A state of peaceful happiness and satisfaction",
+            "definition": "A state of peaceful happiness and satisfaction.",
             "example": "Material equality may contribute to greater contentment in society.",
-            "synonyms": ["satisfaction", "happiness", "fulfillment"]
+            "synonyms": [
+              "satisfaction",
+              "happiness",
+              "fulfillment"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "wealth gap",
-            "definition": "The difference in wealth between rich and poor",
+            "definition": "The difference in wealth between rich and poor.",
             "example": "Reducing the wealth gap could decrease social tensions."
           },
           {
             "phrase": "social mobility",
-            "definition": "The ability to move between economic classes",
+            "definition": "The ability to move between economic classes.",
             "example": "High inequality often restricts social mobility for the poor."
           },
           {
             "phrase": "standard of living",
-            "definition": "The level of wealth, comfort, and material goods available",
+            "definition": "The level of wealth, comfort, and material goods available.",
             "example": "Income equality can improve the standard of living for lower earners."
           },
           {
             "phrase": "quality of life",
-            "definition": "The general wellbeing of individuals and societies",
+            "definition": "The general wellbeing of individuals and societies.",
             "example": "Quality of life depends on factors beyond just income levels."
           },
           {
             "phrase": "economic incentives",
-            "definition": "Financial motivations to behave in certain ways",
+            "definition": "Financial motivations to behave in certain ways.",
             "example": "Some argue that income differences provide economic incentives for achievement."
           },
           {
             "phrase": "social harmony",
-            "definition": "Peaceful and cooperative relations in society",
+            "definition": "Peaceful and cooperative relations in society.",
             "example": "Greater income equality tends to promote social harmony."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is often argued that", "There is a belief that", "Some people contend that"],
-          "agreeing": ["I completely agree that", "I strongly believe that", "Indeed", "Undoubtedly"],
-          "disagreeing": ["However, I disagree with this view", "I believe this is misguided because", "This perspective overlooks"],
-          "partial_agreement": ["While I agree to some extent", "I partially agree because", "This is true, but"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Particularly", "To illustrate"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "It is often argued that",
+            "There is a belief that",
+            "Some people contend that"
+          ],
+          "agreeing": [
+            "I completely agree that",
+            "I strongly believe that",
+            "Indeed",
+            "Undoubtedly"
+          ],
+          "disagreeing": [
+            "However, I disagree with this view",
+            "I believe this is misguided because",
+            "This perspective overlooks"
+          ],
+          "partial_agreement": [
+            "While I agree to some extent",
+            "I partially agree because",
+            "This is true, but"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "To illustrate"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -203,9 +267,33 @@
                 "type": "template",
                 "template": "I strongly believe that _____ is _____ to create _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["reducing income inequality", "increasing taxes", "eliminating poverty"], "correctAnswer": "reducing income inequality"},
-                  {"id": "thesis1_b2", "options": ["essential", "unnecessary", "harmful"], "correctAnswer": "essential"},
-                  {"id": "thesis1_b3", "options": ["a happier and more cohesive society", "more billionaires", "economic problems"], "correctAnswer": "a happier and more cohesive society"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "reducing income inequality",
+                      "increasing taxes",
+                      "eliminating poverty"
+                    ],
+                    "correctAnswer": "reducing income inequality"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "essential",
+                      "unnecessary",
+                      "harmful"
+                    ],
+                    "correctAnswer": "essential"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "a happier and more cohesive society",
+                      "more billionaires",
+                      "economic problems"
+                    ],
+                    "correctAnswer": "a happier and more cohesive society"
+                  }
                 ],
                 "correctSentence": "I strongly believe that reducing income inequality is essential to create a happier and more cohesive society.",
                 "usableIn": "introduction"
@@ -215,8 +303,24 @@
                 "type": "template",
                 "template": "While _____ may contribute to happiness, I believe _____ are equally important.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["narrowing the wealth gap", "increasing taxes", "government spending"], "correctAnswer": "narrowing the wealth gap"},
-                  {"id": "thesis2_b2", "options": ["other factors such as healthcare, education, and community", "higher salaries", "luxury goods"], "correctAnswer": "other factors such as healthcare, education, and community"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "narrowing the wealth gap",
+                      "increasing taxes",
+                      "government spending"
+                    ],
+                    "correctAnswer": "narrowing the wealth gap"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "other factors such as healthcare, education, and community",
+                      "higher salaries",
+                      "luxury goods"
+                    ],
+                    "correctAnswer": "other factors such as healthcare, education, and community"
+                  }
                 ],
                 "correctSentence": "While narrowing the wealth gap may contribute to happiness, I believe other factors such as healthcare, education, and community are equally important.",
                 "usableIn": "introduction"
@@ -226,9 +330,33 @@
                 "type": "template",
                 "template": "I disagree with the view that _____ is the best way to _____ because _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["income equalization", "raising taxes", "eliminating wealth"], "correctAnswer": "income equalization"},
-                  {"id": "thesis3_b2", "options": ["increase societal happiness", "make money", "reduce poverty"], "correctAnswer": "increase societal happiness"},
-                  {"id": "thesis3_b3", "options": ["happiness depends on multiple interconnected factors", "it costs too much", "it is impossible"], "correctAnswer": "happiness depends on multiple interconnected factors"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "income equalization",
+                      "raising taxes",
+                      "eliminating wealth"
+                    ],
+                    "correctAnswer": "income equalization"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "increase societal happiness",
+                      "make money",
+                      "reduce poverty"
+                    ],
+                    "correctAnswer": "increase societal happiness"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": [
+                      "happiness depends on multiple interconnected factors",
+                      "it costs too much",
+                      "it is impossible"
+                    ],
+                    "correctAnswer": "happiness depends on multiple interconnected factors"
+                  }
                 ],
                 "correctSentence": "I disagree with the view that income equalization is the best way to increase societal happiness because happiness depends on multiple interconnected factors.",
                 "usableIn": "introduction"
@@ -238,9 +366,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ plays a crucial role in _____, but it is not _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["reducing income disparity", "government policy", "taxation"], "correctAnswer": "reducing income disparity"},
-                  {"id": "thesis4_b2", "options": ["promoting social wellbeing", "creating wealth", "eliminating poverty"], "correctAnswer": "promoting social wellbeing"},
-                  {"id": "thesis4_b3", "options": ["the only or most important factor", "necessary", "effective"], "correctAnswer": "the only or most important factor"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "reducing income disparity",
+                      "government policy",
+                      "taxation"
+                    ],
+                    "correctAnswer": "reducing income disparity"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "promoting social wellbeing",
+                      "creating wealth",
+                      "eliminating poverty"
+                    ],
+                    "correctAnswer": "promoting social wellbeing"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "the only or most important factor",
+                      "necessary",
+                      "effective"
+                    ],
+                    "correctAnswer": "the only or most important factor"
+                  }
                 ],
                 "correctSentence": "In my opinion, reducing income disparity plays a crucial role in promoting social wellbeing, but it is not the only or most important factor.",
                 "usableIn": "introduction"
@@ -250,9 +402,33 @@
                 "type": "template",
                 "template": "I completely agree that _____ enhances _____ by _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["minimizing wealth gaps", "raising taxes", "redistributing money"], "correctAnswer": "minimizing wealth gaps"},
-                  {"id": "thesis5_b2", "options": ["social happiness and stability", "government revenue", "economic growth"], "correctAnswer": "social happiness and stability"},
-                  {"id": "thesis5_b3", "options": ["reducing resentment and increasing social cohesion", "creating jobs", "improving technology"], "correctAnswer": "reducing resentment and increasing social cohesion"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "minimizing wealth gaps",
+                      "raising taxes",
+                      "redistributing money"
+                    ],
+                    "correctAnswer": "minimizing wealth gaps"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "social happiness and stability",
+                      "government revenue",
+                      "economic growth"
+                    ],
+                    "correctAnswer": "social happiness and stability"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "reducing resentment and increasing social cohesion",
+                      "creating jobs",
+                      "improving technology"
+                    ],
+                    "correctAnswer": "reducing resentment and increasing social cohesion"
+                  }
                 ],
                 "correctSentence": "I completely agree that minimizing wealth gaps enhances social happiness and stability by reducing resentment and increasing social cohesion.",
                 "usableIn": "introduction"
@@ -269,9 +445,33 @@
                 "type": "template",
                 "template": "Firstly, _____ promotes _____ which is fundamental to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["income equality", "wealth accumulation", "economic growth"], "correctAnswer": "income equality"},
-                  {"id": "topic1_b2", "options": ["social cohesion and trust", "competition", "individualism"], "correctAnswer": "social cohesion and trust"},
-                  {"id": "topic1_b3", "options": ["collective wellbeing and happiness", "economic success", "technological advancement"], "correctAnswer": "collective wellbeing and happiness"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "income equality",
+                      "wealth accumulation",
+                      "economic growth"
+                    ],
+                    "correctAnswer": "income equality"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "social cohesion and trust",
+                      "competition",
+                      "individualism"
+                    ],
+                    "correctAnswer": "social cohesion and trust"
+                  },
+                  {
+                    "id": "topic1_b3",
+                    "options": [
+                      "collective wellbeing and happiness",
+                      "economic success",
+                      "technological advancement"
+                    ],
+                    "correctAnswer": "collective wellbeing and happiness"
+                  }
                 ],
                 "correctSentence": "Firstly, income equality promotes social cohesion and trust which is fundamental to collective wellbeing and happiness.",
                 "usableIn": "body-paragraph-1"
@@ -281,8 +481,24 @@
                 "type": "template",
                 "template": "One major advantage of _____ is that it _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["reducing wealth disparity", "increasing taxes", "limiting incomes"], "correctAnswer": "reducing wealth disparity"},
-                  {"id": "topic2_b2", "options": ["improves access to essential services for all citizens", "reduces motivation", "eliminates competition"], "correctAnswer": "improves access to essential services for all citizens"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "reducing wealth disparity",
+                      "increasing taxes",
+                      "limiting incomes"
+                    ],
+                    "correctAnswer": "reducing wealth disparity"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "improves access to essential services for all citizens",
+                      "reduces motivation",
+                      "eliminates competition"
+                    ],
+                    "correctAnswer": "improves access to essential services for all citizens"
+                  }
                 ],
                 "correctSentence": "One major advantage of reducing wealth disparity is that it improves access to essential services for all citizens.",
                 "usableIn": "body-paragraph-1"
@@ -292,9 +508,33 @@
                 "type": "template",
                 "template": "However, _____ alone cannot _____ because _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["income redistribution", "government spending", "taxation"], "correctAnswer": "income redistribution"},
-                  {"id": "topic3_b2", "options": ["guarantee societal happiness", "create wealth", "solve all problems"], "correctAnswer": "guarantee societal happiness"},
-                  {"id": "topic3_b3", "options": ["happiness also depends on health, relationships, and purpose", "it is too expensive", "people will not accept it"], "correctAnswer": "happiness also depends on health, relationships, and purpose"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "income redistribution",
+                      "government spending",
+                      "taxation"
+                    ],
+                    "correctAnswer": "income redistribution"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "guarantee societal happiness",
+                      "create wealth",
+                      "solve all problems"
+                    ],
+                    "correctAnswer": "guarantee societal happiness"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "happiness also depends on health, relationships, and purpose",
+                      "it is too expensive",
+                      "people will not accept it"
+                    ],
+                    "correctAnswer": "happiness also depends on health, relationships, and purpose"
+                  }
                 ],
                 "correctSentence": "However, income redistribution alone cannot guarantee societal happiness because happiness also depends on health, relationships, and purpose.",
                 "usableIn": "body-paragraph-2"
@@ -304,9 +544,33 @@
                 "type": "template",
                 "template": "It is important to recognize that _____ contributes to _____, but _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["narrowing the income gap", "raising minimum wages", "taxing the rich"], "correctAnswer": "narrowing the income gap"},
-                  {"id": "topic4_b2", "options": ["social harmony", "economic problems", "unemployment"], "correctAnswer": "social harmony"},
-                  {"id": "topic4_b3", "options": ["it is not the sole determinant of happiness", "it is too difficult", "it causes inflation"], "correctAnswer": "it is not the sole determinant of happiness"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "narrowing the income gap",
+                      "raising minimum wages",
+                      "taxing the rich"
+                    ],
+                    "correctAnswer": "narrowing the income gap"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "social harmony",
+                      "economic problems",
+                      "unemployment"
+                    ],
+                    "correctAnswer": "social harmony"
+                  },
+                  {
+                    "id": "topic4_b3",
+                    "options": [
+                      "it is not the sole determinant of happiness",
+                      "it is too difficult",
+                      "it causes inflation"
+                    ],
+                    "correctAnswer": "it is not the sole determinant of happiness"
+                  }
                 ],
                 "correctSentence": "It is important to recognize that narrowing the income gap contributes to social harmony, but it is not the sole determinant of happiness.",
                 "usableIn": "body-paragraph-2"
@@ -316,8 +580,24 @@
                 "type": "template",
                 "template": "A key reason why _____ enhances happiness is that _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["economic equality", "wealth concentration", "income gaps"], "correctAnswer": "economic equality"},
-                  {"id": "topic5_b2", "options": ["it reduces feelings of resentment and social division", "it makes everyone rich", "it eliminates work"], "correctAnswer": "it reduces feelings of resentment and social division"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "economic equality",
+                      "wealth concentration",
+                      "income gaps"
+                    ],
+                    "correctAnswer": "economic equality"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "it reduces feelings of resentment and social division",
+                      "it makes everyone rich",
+                      "it eliminates work"
+                    ],
+                    "correctAnswer": "it reduces feelings of resentment and social division"
+                  }
                 ],
                 "correctSentence": "A key reason why economic equality enhances happiness is that it reduces feelings of resentment and social division.",
                 "usableIn": "body-paragraph-1"
@@ -327,9 +607,33 @@
                 "type": "template",
                 "template": "Conversely, _____ argue that _____ is more important than _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["critics of this view", "some economists", "everyone"], "correctAnswer": "critics of this view"},
-                  {"id": "topic6_b2", "options": ["absolute living standards", "equal distribution", "government control"], "correctAnswer": "absolute living standards"},
-                  {"id": "topic6_b3", "options": ["relative income equality", "taxation", "redistribution"], "correctAnswer": "relative income equality"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "critics of this view",
+                      "some economists",
+                      "everyone"
+                    ],
+                    "correctAnswer": "critics of this view"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "absolute living standards",
+                      "equal distribution",
+                      "government control"
+                    ],
+                    "correctAnswer": "absolute living standards"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "relative income equality",
+                      "taxation",
+                      "redistribution"
+                    ],
+                    "correctAnswer": "relative income equality"
+                  }
                 ],
                 "correctSentence": "Conversely, critics of this view argue that absolute living standards are more important than relative income equality.",
                 "usableIn": "body-paragraph-2"
@@ -339,8 +643,24 @@
                 "type": "template",
                 "template": "The primary benefit of _____ is that it ensures _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["a more equal society", "unlimited wealth", "government control"], "correctAnswer": "a more equal society"},
-                  {"id": "topic7_b2", "options": ["everyone has access to basic needs and opportunities", "no one becomes wealthy", "the government controls everything"], "correctAnswer": "everyone has access to basic needs and opportunities"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "a more equal society",
+                      "unlimited wealth",
+                      "government control"
+                    ],
+                    "correctAnswer": "a more equal society"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "everyone has access to basic needs and opportunities",
+                      "no one becomes wealthy",
+                      "the government controls everything"
+                    ],
+                    "correctAnswer": "everyone has access to basic needs and opportunities"
+                  }
                 ],
                 "correctSentence": "The primary benefit of a more equal society is that it ensures everyone has access to basic needs and opportunities.",
                 "usableIn": "body-paragraph-1"
@@ -350,8 +670,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ should not be ignored when considering _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["other determinants of happiness", "income levels only", "government policies"], "correctAnswer": "other determinants of happiness"},
-                  {"id": "topic8_b2", "options": ["what truly makes society happy", "economic policies", "taxation rates"], "correctAnswer": "what truly makes society happy"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "other determinants of happiness",
+                      "income levels only",
+                      "government policies"
+                    ],
+                    "correctAnswer": "other determinants of happiness"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "what truly makes society happy",
+                      "economic policies",
+                      "taxation rates"
+                    ],
+                    "correctAnswer": "what truly makes society happy"
+                  }
                 ],
                 "correctSentence": "Nevertheless, other determinants of happiness should not be ignored when considering what truly makes society happy.",
                 "usableIn": "body-paragraph-2"
@@ -368,9 +704,33 @@
                 "type": "template",
                 "template": "This is because _____ creates _____ which leads to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["greater income equality", "wealth concentration", "high taxes"], "correctAnswer": "greater income equality"},
-                  {"id": "support1_b2", "options": ["a sense of fairness and social justice", "laziness", "economic stagnation"], "correctAnswer": "a sense of fairness and social justice"},
-                  {"id": "support1_b3", "options": ["increased trust and cooperation among citizens", "economic collapse", "lower productivity"], "correctAnswer": "increased trust and cooperation among citizens"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "greater income equality",
+                      "wealth concentration",
+                      "high taxes"
+                    ],
+                    "correctAnswer": "greater income equality"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "a sense of fairness and social justice",
+                      "laziness",
+                      "economic stagnation"
+                    ],
+                    "correctAnswer": "a sense of fairness and social justice"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "increased trust and cooperation among citizens",
+                      "economic collapse",
+                      "lower productivity"
+                    ],
+                    "correctAnswer": "increased trust and cooperation among citizens"
+                  }
                 ],
                 "correctSentence": "This is because greater income equality creates a sense of fairness and social justice which leads to increased trust and cooperation among citizens.",
                 "usableIn": "body-paragraph-1"
@@ -380,9 +740,33 @@
                 "type": "template",
                 "template": "When _____, people experience _____ rather than _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["wealth is distributed more evenly", "only the rich benefit", "income is concentrated"], "correctAnswer": "wealth is distributed more evenly"},
-                  {"id": "support2_b2", "options": ["contentment and security", "envy and frustration", "anger"], "correctAnswer": "contentment and security"},
-                  {"id": "support2_b3", "options": ["envy and frustration", "happiness", "satisfaction"], "correctAnswer": "envy and frustration"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "wealth is distributed more evenly",
+                      "only the rich benefit",
+                      "income is concentrated"
+                    ],
+                    "correctAnswer": "wealth is distributed more evenly"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "contentment and security",
+                      "envy and frustration",
+                      "anger"
+                    ],
+                    "correctAnswer": "contentment and security"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "envy and frustration",
+                      "happiness",
+                      "satisfaction"
+                    ],
+                    "correctAnswer": "envy and frustration"
+                  }
                 ],
                 "correctSentence": "When wealth is distributed more evenly, people experience contentment and security rather than envy and frustration.",
                 "usableIn": "body-paragraph-1"
@@ -392,9 +776,33 @@
                 "type": "template",
                 "template": "By _____, societies can _____ which directly _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["narrowing income gaps", "raising taxes only", "limiting salaries"], "correctAnswer": "narrowing income gaps"},
-                  {"id": "support3_b2", "options": ["reduce poverty and improve living standards", "eliminate wealth", "create equality of outcome"], "correctAnswer": "reduce poverty and improve living standards"},
-                  {"id": "support3_b3", "options": ["improves quality of life for lower-income groups", "harms the economy", "reduces innovation"], "correctAnswer": "improves quality of life for lower-income groups"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "narrowing income gaps",
+                      "raising taxes only",
+                      "limiting salaries"
+                    ],
+                    "correctAnswer": "narrowing income gaps"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "reduce poverty and improve living standards",
+                      "eliminate wealth",
+                      "create equality of outcome"
+                    ],
+                    "correctAnswer": "reduce poverty and improve living standards"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "improves quality of life for lower-income groups",
+                      "harms the economy",
+                      "reduces innovation"
+                    ],
+                    "correctAnswer": "improves quality of life for lower-income groups"
+                  }
                 ],
                 "correctSentence": "By narrowing income gaps, societies can reduce poverty and improve living standards which directly improves quality of life for lower-income groups.",
                 "usableIn": "body-paragraph-1"
@@ -404,10 +812,42 @@
                 "type": "template",
                 "template": "_____ enables _____ to access _____ without _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Reducing wealth disparity", "Increasing taxes", "Government control"], "correctAnswer": "Reducing wealth disparity"},
-                  {"id": "support4_b2", "options": ["lower-income families", "only the wealthy", "government officials"], "correctAnswer": "lower-income families"},
-                  {"id": "support4_b3", "options": ["quality education and healthcare", "luxury goods", "expensive vacations"], "correctAnswer": "quality education and healthcare"},
-                  {"id": "support4_b4", "options": ["facing financial hardship", "working hard", "paying taxes"], "correctAnswer": "facing financial hardship"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Reducing wealth disparity",
+                      "Increasing taxes",
+                      "Government control"
+                    ],
+                    "correctAnswer": "Reducing wealth disparity"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "lower-income families",
+                      "only the wealthy",
+                      "government officials"
+                    ],
+                    "correctAnswer": "lower-income families"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "quality education and healthcare",
+                      "luxury goods",
+                      "expensive vacations"
+                    ],
+                    "correctAnswer": "quality education and healthcare"
+                  },
+                  {
+                    "id": "support4_b4",
+                    "options": [
+                      "facing financial hardship",
+                      "working hard",
+                      "paying taxes"
+                    ],
+                    "correctAnswer": "facing financial hardship"
+                  }
                 ],
                 "correctSentence": "Reducing wealth disparity enables lower-income families to access quality education and healthcare without facing financial hardship.",
                 "usableIn": "body-paragraph-1"
@@ -417,9 +857,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ reduces _____, thereby _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["income equality", "high salaries", "wealth creation"], "correctAnswer": "income equality"},
-                  {"id": "support5_b2", "options": ["social tensions and crime rates", "economic growth", "motivation"], "correctAnswer": "social tensions and crime rates"},
-                  {"id": "support5_b3", "options": ["creating safer and more harmonious communities", "harming the economy", "reducing innovation"], "correctAnswer": "creating safer and more harmonious communities"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "income equality",
+                      "high salaries",
+                      "wealth creation"
+                    ],
+                    "correctAnswer": "income equality"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "social tensions and crime rates",
+                      "economic growth",
+                      "motivation"
+                    ],
+                    "correctAnswer": "social tensions and crime rates"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "creating safer and more harmonious communities",
+                      "harming the economy",
+                      "reducing innovation"
+                    ],
+                    "correctAnswer": "creating safer and more harmonious communities"
+                  }
                 ],
                 "correctSentence": "The main reason is that income equality reduces social tensions and crime rates, thereby creating safer and more harmonious communities.",
                 "usableIn": "body-paragraph-1"
@@ -429,9 +893,33 @@
                 "type": "template",
                 "template": "However, happiness also stems from _____ which _____ directly related to _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["meaningful relationships and personal purpose", "money only", "material wealth"], "correctAnswer": "meaningful relationships and personal purpose"},
-                  {"id": "support6_b2", "options": ["are not", "are always", "must be"], "correctAnswer": "are not"},
-                  {"id": "support6_b3", "options": ["income levels", "wealth inequality", "government policy"], "correctAnswer": "income levels"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "meaningful relationships and personal purpose",
+                      "money only",
+                      "material wealth"
+                    ],
+                    "correctAnswer": "meaningful relationships and personal purpose"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "are not",
+                      "are always",
+                      "must be"
+                    ],
+                    "correctAnswer": "are not"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "income levels",
+                      "wealth inequality",
+                      "government policy"
+                    ],
+                    "correctAnswer": "income levels"
+                  }
                 ],
                 "correctSentence": "However, happiness also stems from meaningful relationships and personal purpose which are not directly related to income levels.",
                 "usableIn": "body-paragraph-2"
@@ -441,9 +929,33 @@
                 "type": "template",
                 "template": "Furthermore, _____ may _____ if taken to extremes by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["income redistribution", "economic growth", "social harmony"], "correctAnswer": "income redistribution"},
-                  {"id": "support7_b2", "options": ["reduce economic incentives and innovation", "increase happiness", "improve wellbeing"], "correctAnswer": "reduce economic incentives and innovation"},
-                  {"id": "support7_b3", "options": ["discouraging hard work and entrepreneurship", "creating opportunities", "promoting equality"], "correctAnswer": "discouraging hard work and entrepreneurship"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "income redistribution",
+                      "economic growth",
+                      "social harmony"
+                    ],
+                    "correctAnswer": "income redistribution"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "reduce economic incentives and innovation",
+                      "increase happiness",
+                      "improve wellbeing"
+                    ],
+                    "correctAnswer": "reduce economic incentives and innovation"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": [
+                      "discouraging hard work and entrepreneurship",
+                      "creating opportunities",
+                      "promoting equality"
+                    ],
+                    "correctAnswer": "discouraging hard work and entrepreneurship"
+                  }
                 ],
                 "correctSentence": "Furthermore, income redistribution may reduce economic incentives and innovation if taken to extremes by discouraging hard work and entrepreneurship.",
                 "usableIn": "body-paragraph-2"
@@ -453,9 +965,33 @@
                 "type": "template",
                 "template": "Research indicates that _____ matters more than _____ for _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["absolute living standards", "relative income position", "government spending"], "correctAnswer": "absolute living standards"},
-                  {"id": "support8_b2", "options": ["relative income position", "absolute wealth", "total equality"], "correctAnswer": "relative income position"},
-                  {"id": "support8_b3", "options": ["basic happiness and life satisfaction", "social status", "prestige"], "correctAnswer": "basic happiness and life satisfaction"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "absolute living standards",
+                      "relative income position",
+                      "government spending"
+                    ],
+                    "correctAnswer": "absolute living standards"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "relative income position",
+                      "absolute wealth",
+                      "total equality"
+                    ],
+                    "correctAnswer": "relative income position"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "basic happiness and life satisfaction",
+                      "social status",
+                      "prestige"
+                    ],
+                    "correctAnswer": "basic happiness and life satisfaction"
+                  }
                 ],
                 "correctSentence": "Research indicates that absolute living standards matter more than relative income position for basic happiness and life satisfaction.",
                 "usableIn": "body-paragraph-2"
@@ -465,9 +1001,33 @@
                 "type": "template",
                 "template": "_____ fosters _____ because people feel _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["A more equal society", "Wealth concentration", "High inequality"], "correctAnswer": "A more equal society"},
-                  {"id": "support9_b2", "options": ["community solidarity and mutual support", "competition and rivalry", "envy and resentment"], "correctAnswer": "community solidarity and mutual support"},
-                  {"id": "support9_b3", "options": ["they are all valued and have similar opportunities", "superior to others", "left behind"], "correctAnswer": "they are all valued and have similar opportunities"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "A more equal society",
+                      "Wealth concentration",
+                      "High inequality"
+                    ],
+                    "correctAnswer": "A more equal society"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "community solidarity and mutual support",
+                      "competition and rivalry",
+                      "envy and resentment"
+                    ],
+                    "correctAnswer": "community solidarity and mutual support"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "they are all valued and have similar opportunities",
+                      "superior to others",
+                      "left behind"
+                    ],
+                    "correctAnswer": "they are all valued and have similar opportunities"
+                  }
                 ],
                 "correctSentence": "A more equal society fosters community solidarity and mutual support because people feel they are all valued and have similar opportunities.",
                 "usableIn": "body-paragraph-1"
@@ -477,9 +1037,33 @@
                 "type": "template",
                 "template": "While _____ is important, _____ also requires _____ to be truly effective.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["reducing inequality", "raising taxes", "government control"], "correctAnswer": "reducing inequality"},
-                  {"id": "support10_b2", "options": ["maximizing social happiness", "economic policy", "wealth redistribution"], "correctAnswer": "maximizing social happiness"},
-                  {"id": "support10_b3", "options": ["investment in education, healthcare, and social infrastructure", "more taxes", "government intervention"], "correctAnswer": "investment in education, healthcare, and social infrastructure"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "reducing inequality",
+                      "raising taxes",
+                      "government control"
+                    ],
+                    "correctAnswer": "reducing inequality"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "maximizing social happiness",
+                      "economic policy",
+                      "wealth redistribution"
+                    ],
+                    "correctAnswer": "maximizing social happiness"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "investment in education, healthcare, and social infrastructure",
+                      "more taxes",
+                      "government intervention"
+                    ],
+                    "correctAnswer": "investment in education, healthcare, and social infrastructure"
+                  }
                 ],
                 "correctSentence": "While reducing inequality is important, maximizing social happiness also requires investment in education, healthcare, and social infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -489,9 +1073,33 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____ which contributes to _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["citizens in more equal societies", "only wealthy people", "government officials"], "correctAnswer": "citizens in more equal societies"},
-                  {"id": "support11_b2", "options": ["lower stress and greater life satisfaction", "envy", "frustration"], "correctAnswer": "lower stress and greater life satisfaction"},
-                  {"id": "support11_b3", "options": ["overall societal wellbeing", "economic decline", "social problems"], "correctAnswer": "overall societal wellbeing"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "citizens in more equal societies",
+                      "only wealthy people",
+                      "government officials"
+                    ],
+                    "correctAnswer": "citizens in more equal societies"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "lower stress and greater life satisfaction",
+                      "envy",
+                      "frustration"
+                    ],
+                    "correctAnswer": "lower stress and greater life satisfaction"
+                  },
+                  {
+                    "id": "support11_b3",
+                    "options": [
+                      "overall societal wellbeing",
+                      "economic decline",
+                      "social problems"
+                    ],
+                    "correctAnswer": "overall societal wellbeing"
+                  }
                 ],
                 "correctSentence": "As a result, citizens in more equal societies experience lower stress and greater life satisfaction which contributes to overall societal wellbeing.",
                 "usableIn": "body-paragraph-1"
@@ -501,9 +1109,33 @@
                 "type": "template",
                 "template": "Consequently, _____ should be viewed as _____ rather than _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["income equality", "taxation", "government spending"], "correctAnswer": "income equality"},
-                  {"id": "support12_b2", "options": ["one important factor among many", "the only solution", "completely irrelevant"], "correctAnswer": "one important factor among many"},
-                  {"id": "support12_b3", "options": ["the sole pathway to happiness", "a minor issue", "unimportant"], "correctAnswer": "the sole pathway to happiness"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "income equality",
+                      "taxation",
+                      "government spending"
+                    ],
+                    "correctAnswer": "income equality"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "one important factor among many",
+                      "the only solution",
+                      "completely irrelevant"
+                    ],
+                    "correctAnswer": "one important factor among many"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "the sole pathway to happiness",
+                      "a minor issue",
+                      "unimportant"
+                    ],
+                    "correctAnswer": "the sole pathway to happiness"
+                  }
                 ],
                 "correctSentence": "Consequently, income equality should be viewed as one important factor among many rather than the sole pathway to happiness.",
                 "usableIn": "body-paragraph-2"
@@ -520,9 +1152,33 @@
                 "type": "template",
                 "template": "For instance, _____ consistently rank _____ in happiness surveys despite _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Scandinavian countries with lower income inequality", "wealthy nations with high inequality", "developing nations"], "correctAnswer": "Scandinavian countries with lower income inequality"},
-                  {"id": "example1_b2", "options": ["among the highest", "very low", "in the middle"], "correctAnswer": "among the highest"},
-                  {"id": "example1_b3", "options": ["not having the highest GDP per capita", "being the richest", "having no taxes"], "correctAnswer": "not having the highest GDP per capita"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Scandinavian countries with lower income inequality",
+                      "wealthy nations with high inequality",
+                      "developing nations"
+                    ],
+                    "correctAnswer": "Scandinavian countries with lower income inequality"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "among the highest",
+                      "very low",
+                      "in the middle"
+                    ],
+                    "correctAnswer": "among the highest"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "not having the highest GDP per capita",
+                      "being the richest",
+                      "having no taxes"
+                    ],
+                    "correctAnswer": "not having the highest GDP per capita"
+                  }
                 ],
                 "correctSentence": "For instance, Scandinavian countries with lower income inequality consistently rank among the highest in happiness surveys despite not having the highest GDP per capita.",
                 "usableIn": "body-paragraph-1"
@@ -532,9 +1188,33 @@
                 "type": "template",
                 "template": "For example, _____ show that _____ when _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["studies from the World Happiness Report", "random surveys", "informal polls"], "correctAnswer": "studies from the World Happiness Report"},
-                  {"id": "example2_b2", "options": ["societies with smaller wealth gaps report higher wellbeing", "wealthy people are always happy", "money guarantees happiness"], "correctAnswer": "societies with smaller wealth gaps report higher wellbeing"},
-                  {"id": "example2_b3", "options": ["basic needs are met for all citizens", "only the rich are happy", "taxes are eliminated"], "correctAnswer": "basic needs are met for all citizens"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "studies from the World Happiness Report",
+                      "random surveys",
+                      "informal polls"
+                    ],
+                    "correctAnswer": "studies from the World Happiness Report"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "societies with smaller wealth gaps report higher wellbeing",
+                      "wealthy people are always happy",
+                      "money guarantees happiness"
+                    ],
+                    "correctAnswer": "societies with smaller wealth gaps report higher wellbeing"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "basic needs are met for all citizens",
+                      "only the rich are happy",
+                      "taxes are eliminated"
+                    ],
+                    "correctAnswer": "basic needs are met for all citizens"
+                  }
                 ],
                 "correctSentence": "For example, studies from the World Happiness Report show that societies with smaller wealth gaps report higher wellbeing when basic needs are met for all citizens.",
                 "usableIn": "body-paragraph-1"
@@ -544,9 +1224,33 @@
                 "type": "template",
                 "template": "Specifically, in _____, where _____, people experience _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["countries like Denmark and Norway", "nations with extreme inequality", "developing countries"], "correctAnswer": "countries like Denmark and Norway"},
-                  {"id": "example3_b2", "options": ["progressive taxation reduces wealth disparities", "only the rich succeed", "inequality is extreme"], "correctAnswer": "progressive taxation reduces wealth disparities"},
-                  {"id": "example3_b3", "options": ["high levels of trust, safety, and life satisfaction", "social unrest", "poverty"], "correctAnswer": "high levels of trust, safety, and life satisfaction"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "countries like Denmark and Norway",
+                      "nations with extreme inequality",
+                      "developing countries"
+                    ],
+                    "correctAnswer": "countries like Denmark and Norway"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "progressive taxation reduces wealth disparities",
+                      "only the rich succeed",
+                      "inequality is extreme"
+                    ],
+                    "correctAnswer": "progressive taxation reduces wealth disparities"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "high levels of trust, safety, and life satisfaction",
+                      "social unrest",
+                      "poverty"
+                    ],
+                    "correctAnswer": "high levels of trust, safety, and life satisfaction"
+                  }
                 ],
                 "correctSentence": "Specifically, in countries like Denmark and Norway, where progressive taxation reduces wealth disparities, people experience high levels of trust, safety, and life satisfaction.",
                 "usableIn": "body-paragraph-1"
@@ -556,9 +1260,33 @@
                 "type": "template",
                 "template": "Research by _____ demonstrates that _____ correlates with _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["economists Richard Wilkinson and Kate Pickett", "unknown researchers", "business leaders"], "correctAnswer": "economists Richard Wilkinson and Kate Pickett"},
-                  {"id": "example4_b2", "options": ["higher income inequality", "absolute wealth", "government spending"], "correctAnswer": "higher income inequality"},
-                  {"id": "example4_b3", "options": ["increased social problems and lower wellbeing", "greater happiness", "economic success"], "correctAnswer": "increased social problems and lower wellbeing"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "economists Richard Wilkinson and Kate Pickett",
+                      "unknown researchers",
+                      "business leaders"
+                    ],
+                    "correctAnswer": "economists Richard Wilkinson and Kate Pickett"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "higher income inequality",
+                      "absolute wealth",
+                      "government spending"
+                    ],
+                    "correctAnswer": "higher income inequality"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "increased social problems and lower wellbeing",
+                      "greater happiness",
+                      "economic success"
+                    ],
+                    "correctAnswer": "increased social problems and lower wellbeing"
+                  }
                 ],
                 "correctSentence": "Research by economists Richard Wilkinson and Kate Pickett demonstrates that higher income inequality correlates with increased social problems and lower wellbeing.",
                 "usableIn": "body-paragraph-1"
@@ -568,9 +1296,33 @@
                 "type": "template",
                 "template": "A study conducted in _____ found that _____ contributed more to happiness than _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["multiple countries", "one small village", "a single city"], "correctAnswer": "multiple countries"},
-                  {"id": "example5_b2", "options": ["access to healthcare and education", "relative income position", "luxury purchases"], "correctAnswer": "access to healthcare and education"},
-                  {"id": "example5_b3", "options": ["income equality alone", "absolute wealth", "material possessions"], "correctAnswer": "income equality alone"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "multiple countries",
+                      "one small village",
+                      "a single city"
+                    ],
+                    "correctAnswer": "multiple countries"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "access to healthcare and education",
+                      "relative income position",
+                      "luxury purchases"
+                    ],
+                    "correctAnswer": "access to healthcare and education"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "income equality alone",
+                      "absolute wealth",
+                      "material possessions"
+                    ],
+                    "correctAnswer": "income equality alone"
+                  }
                 ],
                 "correctSentence": "A study conducted in multiple countries found that access to healthcare and education contributed more to happiness than income equality alone.",
                 "usableIn": "body-paragraph-2"
@@ -580,9 +1332,33 @@
                 "type": "template",
                 "template": "In particular, _____ experienced _____ after implementing _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["Nordic societies", "unequal societies", "developing nations"], "correctAnswer": "Nordic societies"},
-                  {"id": "example6_b2", "options": ["improved social cohesion and reduced crime", "economic collapse", "social unrest"], "correctAnswer": "improved social cohesion and reduced crime"},
-                  {"id": "example6_b3", "options": ["comprehensive welfare systems that reduce inequality", "minimal taxation", "free-market policies"], "correctAnswer": "comprehensive welfare systems that reduce inequality"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "Nordic societies",
+                      "unequal societies",
+                      "developing nations"
+                    ],
+                    "correctAnswer": "Nordic societies"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "improved social cohesion and reduced crime",
+                      "economic collapse",
+                      "social unrest"
+                    ],
+                    "correctAnswer": "improved social cohesion and reduced crime"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "comprehensive welfare systems that reduce inequality",
+                      "minimal taxation",
+                      "free-market policies"
+                    ],
+                    "correctAnswer": "comprehensive welfare systems that reduce inequality"
+                  }
                 ],
                 "correctSentence": "In particular, Nordic societies experienced improved social cohesion and reduced crime after implementing comprehensive welfare systems that reduce inequality.",
                 "usableIn": "body-paragraph-1"
@@ -592,10 +1368,42 @@
                 "type": "template",
                 "template": "Consider _____ where despite _____, happiness levels remain _____ due to _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["countries like Costa Rica", "wealthy nations", "poor countries"], "correctAnswer": "countries like Costa Rica"},
-                  {"id": "example7_b2", "options": ["moderate income levels", "extreme wealth", "total equality"], "correctAnswer": "moderate income levels"},
-                  {"id": "example7_b3", "options": ["high", "very low", "unchanged"], "correctAnswer": "high"},
-                  {"id": "example7_b4", "options": ["strong communities and social connections", "high inequality", "wealth concentration"], "correctAnswer": "strong communities and social connections"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "countries like Costa Rica",
+                      "wealthy nations",
+                      "poor countries"
+                    ],
+                    "correctAnswer": "countries like Costa Rica"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "moderate income levels",
+                      "extreme wealth",
+                      "total equality"
+                    ],
+                    "correctAnswer": "moderate income levels"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "high",
+                      "very low",
+                      "unchanged"
+                    ],
+                    "correctAnswer": "high"
+                  },
+                  {
+                    "id": "example7_b4",
+                    "options": [
+                      "strong communities and social connections",
+                      "high inequality",
+                      "wealth concentration"
+                    ],
+                    "correctAnswer": "strong communities and social connections"
+                  }
                 ],
                 "correctSentence": "Consider countries like Costa Rica where despite moderate income levels, happiness levels remain high due to strong communities and social connections.",
                 "usableIn": "body-paragraph-2"
@@ -605,9 +1413,33 @@
                 "type": "template",
                 "template": "Conversely, in _____ such as _____, high inequality has led to _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["nations", "cities", "villages"], "correctAnswer": "nations"},
-                  {"id": "example8_b2", "options": ["the United States and Brazil", "Norway and Denmark", "small countries"], "correctAnswer": "the United States and Brazil"},
-                  {"id": "example8_b3", "options": ["social unrest and lower reported happiness", "universal happiness", "economic prosperity only"], "correctAnswer": "social unrest and lower reported happiness"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "nations",
+                      "cities",
+                      "villages"
+                    ],
+                    "correctAnswer": "nations"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "the United States and Brazil",
+                      "Norway and Denmark",
+                      "small countries"
+                    ],
+                    "correctAnswer": "the United States and Brazil"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "social unrest and lower reported happiness",
+                      "universal happiness",
+                      "economic prosperity only"
+                    ],
+                    "correctAnswer": "social unrest and lower reported happiness"
+                  }
                 ],
                 "correctSentence": "Conversely, in nations such as the United States and Brazil, high inequality has led to social unrest and lower reported happiness.",
                 "usableIn": "body-paragraph-1"
@@ -617,10 +1449,42 @@
                 "type": "template",
                 "template": "According to _____, people in _____ report _____ even when _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["happiness research", "business studies", "economic theory"], "correctAnswer": "happiness research"},
-                  {"id": "example9_b2", "options": ["more equal societies", "very unequal nations", "wealthy countries only"], "correctAnswer": "more equal societies"},
-                  {"id": "example9_b3", "options": ["greater life satisfaction", "lower happiness", "no difference"], "correctAnswer": "greater life satisfaction"},
-                  {"id": "example9_b4", "options": ["absolute wealth is lower than in unequal societies", "they are the richest", "they pay no taxes"], "correctAnswer": "absolute wealth is lower than in unequal societies"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "happiness research",
+                      "business studies",
+                      "economic theory"
+                    ],
+                    "correctAnswer": "happiness research"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "more equal societies",
+                      "very unequal nations",
+                      "wealthy countries only"
+                    ],
+                    "correctAnswer": "more equal societies"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "greater life satisfaction",
+                      "lower happiness",
+                      "no difference"
+                    ],
+                    "correctAnswer": "greater life satisfaction"
+                  },
+                  {
+                    "id": "example9_b4",
+                    "options": [
+                      "absolute wealth is lower than in unequal societies",
+                      "they are the richest",
+                      "they pay no taxes"
+                    ],
+                    "correctAnswer": "absolute wealth is lower than in unequal societies"
+                  }
                 ],
                 "correctSentence": "According to happiness research, people in more equal societies report greater life satisfaction even when absolute wealth is lower than in unequal societies.",
                 "usableIn": "body-paragraph-1"
@@ -630,9 +1494,33 @@
                 "type": "template",
                 "template": "Evidence from _____ suggests that _____ when _____ are also prioritized.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["comprehensive wellbeing studies", "limited surveys", "anecdotal reports"], "correctAnswer": "comprehensive wellbeing studies"},
-                  {"id": "example10_b2", "options": ["happiness is maximized", "inequality increases", "wealth concentrates"], "correctAnswer": "happiness is maximized"},
-                  {"id": "example10_b3", "options": ["factors like health, education, and community", "only income", "material wealth"], "correctAnswer": "factors like health, education, and community"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "comprehensive wellbeing studies",
+                      "limited surveys",
+                      "anecdotal reports"
+                    ],
+                    "correctAnswer": "comprehensive wellbeing studies"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "happiness is maximized",
+                      "inequality increases",
+                      "wealth concentrates"
+                    ],
+                    "correctAnswer": "happiness is maximized"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "factors like health, education, and community",
+                      "only income",
+                      "material wealth"
+                    ],
+                    "correctAnswer": "factors like health, education, and community"
+                  }
                 ],
                 "correctSentence": "Evidence from comprehensive wellbeing studies suggests that happiness is maximized when factors like health, education, and community are also prioritized.",
                 "usableIn": "body-paragraph-2"
@@ -649,9 +1537,33 @@
                 "type": "template",
                 "template": "However, critics argue that _____ may _____ by _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive income redistribution", "slight inequality", "moderate differences"], "correctAnswer": "excessive income redistribution"},
-                  {"id": "counter1_b2", "options": ["reduce economic incentives", "increase happiness", "improve society"], "correctAnswer": "reduce economic incentives"},
-                  {"id": "counter1_b3", "options": ["discouraging entrepreneurship and innovation", "creating opportunities", "promoting growth"], "correctAnswer": "discouraging entrepreneurship and innovation"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive income redistribution",
+                      "slight inequality",
+                      "moderate differences"
+                    ],
+                    "correctAnswer": "excessive income redistribution"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "reduce economic incentives",
+                      "increase happiness",
+                      "improve society"
+                    ],
+                    "correctAnswer": "reduce economic incentives"
+                  },
+                  {
+                    "id": "counter1_b3",
+                    "options": [
+                      "discouraging entrepreneurship and innovation",
+                      "creating opportunities",
+                      "promoting growth"
+                    ],
+                    "correctAnswer": "discouraging entrepreneurship and innovation"
+                  }
                 ],
                 "correctSentence": "However, critics argue that excessive income redistribution may reduce economic incentives by discouraging entrepreneurship and innovation.",
                 "usableIn": "body-paragraph-2"
@@ -661,9 +1573,33 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ alone cannot address _____ such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["income equality", "wealth", "money"], "correctAnswer": "income equality"},
-                  {"id": "counter2_b2", "options": ["other sources of unhappiness", "economic problems", "social issues"], "correctAnswer": "other sources of unhappiness"},
-                  {"id": "counter2_b3", "options": ["poor health, loneliness, or lack of purpose", "poverty only", "unemployment only"], "correctAnswer": "poor health, loneliness, or lack of purpose"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "income equality",
+                      "wealth",
+                      "money"
+                    ],
+                    "correctAnswer": "income equality"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "other sources of unhappiness",
+                      "economic problems",
+                      "social issues"
+                    ],
+                    "correctAnswer": "other sources of unhappiness"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": [
+                      "poor health, loneliness, or lack of purpose",
+                      "poverty only",
+                      "unemployment only"
+                    ],
+                    "correctAnswer": "poor health, loneliness, or lack of purpose"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, income equality alone cannot address other sources of unhappiness such as poor health, loneliness, or lack of purpose.",
                 "usableIn": "body-paragraph-2"
@@ -673,9 +1609,33 @@
                 "type": "template",
                 "template": "It could be argued that _____ is more important than _____ for _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["raising absolute living standards", "perfect equality", "income redistribution"], "correctAnswer": "raising absolute living standards"},
-                  {"id": "counter3_b2", "options": ["relative income equality", "absolute wealth", "total equality"], "correctAnswer": "relative income equality"},
-                  {"id": "counter3_b3", "options": ["improving overall wellbeing", "social status", "government revenue"], "correctAnswer": "improving overall wellbeing"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "raising absolute living standards",
+                      "perfect equality",
+                      "income redistribution"
+                    ],
+                    "correctAnswer": "raising absolute living standards"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "relative income equality",
+                      "absolute wealth",
+                      "total equality"
+                    ],
+                    "correctAnswer": "relative income equality"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "improving overall wellbeing",
+                      "social status",
+                      "government revenue"
+                    ],
+                    "correctAnswer": "improving overall wellbeing"
+                  }
                 ],
                 "correctSentence": "It could be argued that raising absolute living standards is more important than relative income equality for improving overall wellbeing.",
                 "usableIn": "body-paragraph-2"
@@ -685,9 +1645,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ to avoid _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["pursuing greater equality", "economic policy", "taxation"], "correctAnswer": "pursuing greater equality"},
-                  {"id": "counter4_b2", "options": ["careful balance", "extreme measures", "total control"], "correctAnswer": "careful balance"},
-                  {"id": "counter4_b3", "options": ["undermining economic dynamism and growth", "creating prosperity", "improving society"], "correctAnswer": "undermining economic dynamism and growth"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "pursuing greater equality",
+                      "economic policy",
+                      "taxation"
+                    ],
+                    "correctAnswer": "pursuing greater equality"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "careful balance",
+                      "extreme measures",
+                      "total control"
+                    ],
+                    "correctAnswer": "careful balance"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "undermining economic dynamism and growth",
+                      "creating prosperity",
+                      "improving society"
+                    ],
+                    "correctAnswer": "undermining economic dynamism and growth"
+                  }
                 ],
                 "correctSentence": "Nevertheless, pursuing greater equality requires careful balance to avoid undermining economic dynamism and growth.",
                 "usableIn": "body-paragraph-2"
@@ -697,8 +1681,24 @@
                 "type": "template",
                 "template": "While _____ has merit, it overlooks the fact that _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["this argument", "economic theory", "government policy"], "correctAnswer": "this argument"},
-                  {"id": "counter5_b2", "options": ["happiness also depends on non-economic factors like relationships and health", "money is everything", "wealth creates happiness automatically"], "correctAnswer": "happiness also depends on non-economic factors like relationships and health"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "this argument",
+                      "economic theory",
+                      "government policy"
+                    ],
+                    "correctAnswer": "this argument"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "happiness also depends on non-economic factors like relationships and health",
+                      "money is everything",
+                      "wealth creates happiness automatically"
+                    ],
+                    "correctAnswer": "happiness also depends on non-economic factors like relationships and health"
+                  }
                 ],
                 "correctSentence": "While this argument has merit, it overlooks the fact that happiness also depends on non-economic factors like relationships and health.",
                 "usableIn": "body-paragraph-2"
@@ -715,9 +1715,33 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["reducing income inequality contributes to happiness", "money is important", "equality helps"], "correctAnswer": "reducing income inequality contributes to happiness"},
-                  {"id": "conclusion1_b2", "options": ["it is not the only pathway to societal wellbeing", "it solves everything", "nothing else matters"], "correctAnswer": "it is not the only pathway to societal wellbeing"},
-                  {"id": "conclusion1_b3", "options": ["multiple factors including health and community also play crucial roles", "money is everything", "inequality is good"], "correctAnswer": "multiple factors including health and community also play crucial roles"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "reducing income inequality contributes to happiness",
+                      "money is important",
+                      "equality helps"
+                    ],
+                    "correctAnswer": "reducing income inequality contributes to happiness"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "it is not the only pathway to societal wellbeing",
+                      "it solves everything",
+                      "nothing else matters"
+                    ],
+                    "correctAnswer": "it is not the only pathway to societal wellbeing"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": [
+                      "multiple factors including health and community also play crucial roles",
+                      "money is everything",
+                      "inequality is good"
+                    ],
+                    "correctAnswer": "multiple factors including health and community also play crucial roles"
+                  }
                 ],
                 "correctSentence": "In conclusion, while reducing income inequality contributes to happiness, I believe it is not the only pathway to societal wellbeing because multiple factors including health and community also play crucial roles.",
                 "usableIn": "conclusion"
@@ -727,9 +1751,33 @@
                 "type": "template",
                 "template": "Overall, _____ is essential for _____, but _____ are equally important.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["narrowing wealth gaps", "taxation", "government control"], "correctAnswer": "narrowing wealth gaps"},
-                  {"id": "conclusion2_b2", "options": ["creating social cohesion and reducing resentment", "economic growth", "wealth creation"], "correctAnswer": "creating social cohesion and reducing resentment"},
-                  {"id": "conclusion2_b3", "options": ["investments in education, healthcare, and community", "higher taxes", "more regulations"], "correctAnswer": "investments in education, healthcare, and community"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "narrowing wealth gaps",
+                      "taxation",
+                      "government control"
+                    ],
+                    "correctAnswer": "narrowing wealth gaps"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "creating social cohesion and reducing resentment",
+                      "economic growth",
+                      "wealth creation"
+                    ],
+                    "correctAnswer": "creating social cohesion and reducing resentment"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "investments in education, healthcare, and community",
+                      "higher taxes",
+                      "more regulations"
+                    ],
+                    "correctAnswer": "investments in education, healthcare, and community"
+                  }
                 ],
                 "correctSentence": "Overall, narrowing wealth gaps is essential for creating social cohesion and reducing resentment, but investments in education, healthcare, and community are equally important.",
                 "usableIn": "conclusion"
@@ -739,9 +1787,33 @@
                 "type": "template",
                 "template": "To summarize, I strongly agree that _____ enhances _____, making it _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["income equality", "wealth concentration", "high inequality"], "correctAnswer": "income equality"},
-                  {"id": "conclusion3_b2", "options": ["social happiness and stability", "economic growth only", "government power"], "correctAnswer": "social happiness and stability"},
-                  {"id": "conclusion3_b3", "options": ["a critical component of a happier society", "unnecessary", "harmful"], "correctAnswer": "a critical component of a happier society"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "income equality",
+                      "wealth concentration",
+                      "high inequality"
+                    ],
+                    "correctAnswer": "income equality"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "social happiness and stability",
+                      "economic growth only",
+                      "government power"
+                    ],
+                    "correctAnswer": "social happiness and stability"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "a critical component of a happier society",
+                      "unnecessary",
+                      "harmful"
+                    ],
+                    "correctAnswer": "a critical component of a happier society"
+                  }
                 ],
                 "correctSentence": "To summarize, I strongly agree that income equality enhances social happiness and stability, making it a critical component of a happier society.",
                 "usableIn": "conclusion"
@@ -751,9 +1823,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should be pursued _____, while also _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["greater economic equality", "total equality", "extreme redistribution"], "correctAnswer": "greater economic equality"},
-                  {"id": "conclusion4_b2", "options": ["as an important goal", "as the only goal", "without consideration"], "correctAnswer": "as an important goal"},
-                  {"id": "conclusion4_b3", "options": ["addressing other determinants of wellbeing", "ignoring other factors", "focusing only on money"], "correctAnswer": "addressing other determinants of wellbeing"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "greater economic equality",
+                      "total equality",
+                      "extreme redistribution"
+                    ],
+                    "correctAnswer": "greater economic equality"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "as an important goal",
+                      "as the only goal",
+                      "without consideration"
+                    ],
+                    "correctAnswer": "as an important goal"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "addressing other determinants of wellbeing",
+                      "ignoring other factors",
+                      "focusing only on money"
+                    ],
+                    "correctAnswer": "addressing other determinants of wellbeing"
+                  }
                 ],
                 "correctSentence": "Ultimately, greater economic equality should be pursued as an important goal, while also addressing other determinants of wellbeing.",
                 "usableIn": "conclusion"
@@ -763,10 +1859,42 @@
                 "type": "template",
                 "template": "In my view, _____ represents _____ approach to _____ than _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["combining income equality with other social investments", "focusing only on redistribution", "ignoring inequality"], "correctAnswer": "combining income equality with other social investments"},
-                  {"id": "conclusion5_b2", "options": ["a more comprehensive", "a simpler", "a worse"], "correctAnswer": "a more comprehensive"},
-                  {"id": "conclusion5_b3", "options": ["maximizing societal happiness", "creating wealth", "reducing taxes"], "correctAnswer": "maximizing societal happiness"},
-                  {"id": "conclusion5_b4", "options": ["income redistribution alone", "doing nothing", "free markets only"], "correctAnswer": "income redistribution alone"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "combining income equality with other social investments",
+                      "focusing only on redistribution",
+                      "ignoring inequality"
+                    ],
+                    "correctAnswer": "combining income equality with other social investments"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "a more comprehensive",
+                      "a simpler",
+                      "a worse"
+                    ],
+                    "correctAnswer": "a more comprehensive"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "maximizing societal happiness",
+                      "creating wealth",
+                      "reducing taxes"
+                    ],
+                    "correctAnswer": "maximizing societal happiness"
+                  },
+                  {
+                    "id": "conclusion5_b4",
+                    "options": [
+                      "income redistribution alone",
+                      "doing nothing",
+                      "free markets only"
+                    ],
+                    "correctAnswer": "income redistribution alone"
+                  }
                 ],
                 "correctSentence": "In my view, combining income equality with other social investments represents a more comprehensive approach to maximizing societal happiness than income redistribution alone.",
                 "usableIn": "conclusion"
@@ -813,13 +1941,52 @@
           }
         ],
         "usefulTransitions": {
-          "agreeing": ["I completely agree that", "Indeed", "It is undeniable that", "Undoubtedly"],
-          "partial_agreement": ["While this is partly true", "To some extent", "I agree that... however", "This has merit, but"],
-          "disagreeing": ["However, I disagree", "This view overlooks", "On the contrary", "Nevertheless"],
-          "presenting_arguments": ["Firstly", "Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "To illustrate"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "Conversely"]
+          "agreeing": [
+            "I completely agree that",
+            "Indeed",
+            "It is undeniable that",
+            "Undoubtedly"
+          ],
+          "partial_agreement": [
+            "While this is partly true",
+            "To some extent",
+            "I agree that... however",
+            "This has merit, but"
+          ],
+          "disagreeing": [
+            "However, I disagree",
+            "This view overlooks",
+            "On the contrary",
+            "Nevertheless"
+          ],
+          "presenting_arguments": [
+            "Firstly",
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "To illustrate"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "Hence"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "Conversely"
+          ]
         }
       }
     },

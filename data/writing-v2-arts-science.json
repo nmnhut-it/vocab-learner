@@ -79,105 +79,156 @@
             "word": "emotional expression",
             "pronunciation": "/ɪˈməʊʃənəl ɪkˈspreʃən/",
             "partOfSpeech": "noun",
-            "definition": "The communication of feelings and emotions through creative means",
+            "definition": "The communication of feelings and emotions through creative means.",
             "example": "Music provides emotional expression that scientific data cannot capture.",
-            "synonyms": ["emotional communication", "feeling articulation"]
+            "synonyms": [
+              "emotional communication",
+              "feeling articulation"
+            ]
           },
           {
             "word": "human condition",
             "pronunciation": "/ˈhjuːmən kənˈdɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The characteristics and key events of human life including mortality, love, conflict",
+            "definition": "The characteristics and key events of human life including mortality, love, conflict.",
             "example": "Literature explores the human condition through complex characters and narratives.",
-            "synonyms": ["human experience", "human existence"]
+            "synonyms": [
+              "human experience",
+              "human existence"
+            ]
           },
           {
             "word": "subjective experience",
             "pronunciation": "/səbˈdʒektɪv ɪkˈspɪəriəns/",
             "partOfSpeech": "noun",
-            "definition": "Personal perceptions and feelings that vary between individuals",
+            "definition": "Personal perceptions and feelings that vary between individuals.",
             "example": "Arts capture subjective experience in ways that objective science cannot.",
-            "synonyms": ["personal perception", "individual interpretation"]
+            "synonyms": [
+              "personal perception",
+              "individual interpretation"
+            ]
           },
           {
             "word": "aesthetic value",
             "pronunciation": "/iːsˈθetɪk ˈvæljuː/",
             "partOfSpeech": "noun",
-            "definition": "The quality of beauty and artistic appreciation",
+            "definition": "The quality of beauty and artistic appreciation.",
             "example": "Paintings offer aesthetic value that goes beyond measurable properties.",
-            "synonyms": ["artistic merit", "beauty appreciation"]
+            "synonyms": [
+              "artistic merit",
+              "beauty appreciation"
+            ]
           },
           {
             "word": "cultural identity",
             "pronunciation": "/ˈkʌltʃərəl aɪˈdentəti/",
             "partOfSpeech": "noun",
-            "definition": "The sense of belonging to a particular culture or group",
+            "definition": "The sense of belonging to a particular culture or group.",
             "example": "Traditional music preserves cultural identity across generations.",
-            "synonyms": ["cultural heritage", "ethnic identity"]
+            "synonyms": [
+              "cultural heritage",
+              "ethnic identity"
+            ]
           },
           {
             "word": "creativity",
             "pronunciation": "/ˌkriːeɪˈtɪvəti/",
             "partOfSpeech": "noun",
-            "definition": "The ability to produce original and imaginative ideas or works",
+            "definition": "The ability to produce original and imaginative ideas or works.",
             "example": "Artistic creativity reveals possibilities that scientific logic cannot envision.",
-            "synonyms": ["imagination", "originality"]
+            "synonyms": [
+              "imagination",
+              "originality"
+            ]
           },
           {
             "word": "convey",
             "pronunciation": "/kənˈveɪ/",
             "partOfSpeech": "verb",
-            "definition": "To communicate or express something",
+            "definition": "To communicate or express something.",
             "example": "Poetry can convey complex emotions that data cannot express.",
-            "synonyms": ["communicate", "express", "transmit"]
+            "synonyms": [
+              "communicate",
+              "express",
+              "transmit"
+            ]
           },
           {
             "word": "empirical",
             "pronunciation": "/ɪmˈpɪrɪkəl/",
             "partOfSpeech": "adjective",
-            "definition": "Based on observation and measurement rather than theory",
+            "definition": "Based on observation and measurement rather than theory.",
             "example": "While science uses empirical methods, arts explore non-quantifiable truths.",
-            "synonyms": ["observable", "measurable", "factual"]
+            "synonyms": [
+              "observable",
+              "measurable",
+              "factual"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "emotional depth",
-            "definition": "The richness and complexity of feelings",
+            "definition": "The richness and complexity of feelings.",
             "example": "Classical music reveals emotional depth that scientific analysis cannot measure."
           },
           {
             "phrase": "moral dilemmas",
-            "definition": "Difficult ethical questions without clear answers",
+            "definition": "Difficult ethical questions without clear answers.",
             "example": "Literature explores moral dilemmas through character development and plot."
           },
           {
             "phrase": "social commentary",
-            "definition": "Artistic expression that critiques or reflects on society",
+            "definition": "Artistic expression that critiques or reflects on society.",
             "example": "Visual art provides powerful social commentary on inequality and injustice."
           },
           {
             "phrase": "universal themes",
-            "definition": "Topics and experiences common to all humanity",
+            "definition": "Topics and experiences common to all humanity.",
             "example": "Great literature addresses universal themes like love, loss and identity."
           },
           {
             "phrase": "therapeutic benefits",
-            "definition": "Healing or wellness effects",
+            "definition": "Healing or wellness effects.",
             "example": "Music therapy demonstrates therapeutic benefits for mental health that medicine alone cannot provide."
           },
           {
             "phrase": "abstract concepts",
-            "definition": "Ideas that are not concrete or tangible",
+            "definition": "Ideas that are not concrete or tangible.",
             "example": "Arts express abstract concepts like hope and freedom in tangible forms."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["Arts reveal", "One crucial aspect is", "Primarily", "Most importantly"],
-          "contrasting": ["Unlike science", "While technology can", "In contrast to scientific methods", "Science cannot"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "A clear example is", "This is evident in"],
-          "concluding": ["In conclusion", "To summarize", "Ultimately", "In essence"]
+          "introducing": [
+            "Arts reveal",
+            "One crucial aspect is",
+            "Primarily",
+            "Most importantly"
+          ],
+          "contrasting": [
+            "Unlike science",
+            "While technology can",
+            "In contrast to scientific methods",
+            "Science cannot"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "This is evident in"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Ultimately",
+            "In essence"
+          ]
         }
       }
     },
@@ -200,8 +251,24 @@
                 "type": "template",
                 "template": "Arts can reveal _____ that _____ cannot quantify or measure.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["emotional depth and subjective human experiences", "scientific facts", "technological data"], "correctAnswer": "emotional depth and subjective human experiences"},
-                  {"id": "thesis1_b2", "options": ["science and technology", "governments", "businesses"], "correctAnswer": "science and technology"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "emotional depth and subjective human experiences",
+                      "scientific facts",
+                      "technological data"
+                    ],
+                    "correctAnswer": "emotional depth and subjective human experiences"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "science and technology",
+                      "governments",
+                      "businesses"
+                    ],
+                    "correctAnswer": "science and technology"
+                  }
                 ],
                 "correctSentence": "Arts can reveal emotional depth and subjective human experiences that science and technology cannot quantify or measure.",
                 "usableIn": "introduction"
@@ -211,9 +278,33 @@
                 "type": "template",
                 "template": "While _____ provides factual knowledge, _____ offers insights into _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["science", "music", "painting"], "correctAnswer": "science"},
-                  {"id": "thesis2_b2", "options": ["art", "technology", "mathematics"], "correctAnswer": "art"},
-                  {"id": "thesis2_b3", "options": ["the emotional and moral dimensions of human life", "chemical formulas", "computer programming"], "correctAnswer": "the emotional and moral dimensions of human life"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "science",
+                      "music",
+                      "painting"
+                    ],
+                    "correctAnswer": "science"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "art",
+                      "technology",
+                      "mathematics"
+                    ],
+                    "correctAnswer": "art"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "the emotional and moral dimensions of human life",
+                      "chemical formulas",
+                      "computer programming"
+                    ],
+                    "correctAnswer": "the emotional and moral dimensions of human life"
+                  }
                 ],
                 "correctSentence": "While science provides factual knowledge, art offers insights into the emotional and moral dimensions of human life.",
                 "usableIn": "introduction"
@@ -230,9 +321,33 @@
                 "type": "template",
                 "template": "Primarily, _____ can express _____ in ways that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["arts", "computers", "laboratories"], "correctAnswer": "arts"},
-                  {"id": "topic1_b2", "options": ["complex emotions and inner feelings", "mathematical equations", "statistical data"], "correctAnswer": "complex emotions and inner feelings"},
-                  {"id": "topic1_b3", "options": ["scientific instruments cannot measure", "everyone understands", "machines can replicate"], "correctAnswer": "scientific instruments cannot measure"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "arts",
+                      "computers",
+                      "laboratories"
+                    ],
+                    "correctAnswer": "arts"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "complex emotions and inner feelings",
+                      "mathematical equations",
+                      "statistical data"
+                    ],
+                    "correctAnswer": "complex emotions and inner feelings"
+                  },
+                  {
+                    "id": "topic1_b3",
+                    "options": [
+                      "scientific instruments cannot measure",
+                      "everyone understands",
+                      "machines can replicate"
+                    ],
+                    "correctAnswer": "scientific instruments cannot measure"
+                  }
                 ],
                 "correctSentence": "Primarily, arts can express complex emotions and inner feelings in ways that scientific instruments cannot measure.",
                 "usableIn": "body-paragraph-1"
@@ -242,9 +357,33 @@
                 "type": "template",
                 "template": "Furthermore, _____ explores _____ that science _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["art", "technology", "engineering"], "correctAnswer": "art"},
-                  {"id": "topic2_b2", "options": ["moral questions and subjective human experiences", "chemical reactions", "computer algorithms"], "correctAnswer": "moral questions and subjective human experiences"},
-                  {"id": "topic2_b3", "options": ["cannot address through empirical methods", "can easily solve", "has already explained"], "correctAnswer": "cannot address through empirical methods"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "art",
+                      "technology",
+                      "engineering"
+                    ],
+                    "correctAnswer": "art"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "moral questions and subjective human experiences",
+                      "chemical reactions",
+                      "computer algorithms"
+                    ],
+                    "correctAnswer": "moral questions and subjective human experiences"
+                  },
+                  {
+                    "id": "topic2_b3",
+                    "options": [
+                      "cannot address through empirical methods",
+                      "can easily solve",
+                      "has already explained"
+                    ],
+                    "correctAnswer": "cannot address through empirical methods"
+                  }
                 ],
                 "correctSentence": "Furthermore, art explores moral questions and subjective human experiences that science cannot address through empirical methods.",
                 "usableIn": "body-paragraph-2"
@@ -261,9 +400,33 @@
                 "type": "template",
                 "template": "This is because _____ operates beyond _____ and focuses on _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["artistic expression", "scientific research", "technological development"], "correctAnswer": "artistic expression"},
-                  {"id": "support1_b2", "options": ["objective measurement and quantifiable data", "human emotions", "cultural traditions"], "correctAnswer": "objective measurement and quantifiable data"},
-                  {"id": "support1_b3", "options": ["personal interpretation and emotional resonance", "laboratory experiments", "mathematical proofs"], "correctAnswer": "personal interpretation and emotional resonance"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "artistic expression",
+                      "scientific research",
+                      "technological development"
+                    ],
+                    "correctAnswer": "artistic expression"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "objective measurement and quantifiable data",
+                      "human emotions",
+                      "cultural traditions"
+                    ],
+                    "correctAnswer": "objective measurement and quantifiable data"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "personal interpretation and emotional resonance",
+                      "laboratory experiments",
+                      "mathematical proofs"
+                    ],
+                    "correctAnswer": "personal interpretation and emotional resonance"
+                  }
                 ],
                 "correctSentence": "This is because artistic expression operates beyond objective measurement and quantifiable data and focuses on personal interpretation and emotional resonance.",
                 "usableIn": "body-paragraph-1"
@@ -273,9 +436,33 @@
                 "type": "template",
                 "template": "Unlike _____ which seeks _____, arts embrace _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["science", "music", "literature"], "correctAnswer": "science"},
-                  {"id": "support2_b2", "options": ["universal objective truths", "emotional connections", "creative freedom"], "correctAnswer": "universal objective truths"},
-                  {"id": "support2_b3", "options": ["ambiguity and multiple interpretations of human experience", "single correct answers", "mathematical precision"], "correctAnswer": "ambiguity and multiple interpretations of human experience"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "science",
+                      "music",
+                      "literature"
+                    ],
+                    "correctAnswer": "science"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "universal objective truths",
+                      "emotional connections",
+                      "creative freedom"
+                    ],
+                    "correctAnswer": "universal objective truths"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "ambiguity and multiple interpretations of human experience",
+                      "single correct answers",
+                      "mathematical precision"
+                    ],
+                    "correctAnswer": "ambiguity and multiple interpretations of human experience"
+                  }
                 ],
                 "correctSentence": "Unlike science which seeks universal objective truths, arts embrace ambiguity and multiple interpretations of human experience.",
                 "usableIn": "body-paragraph-2"
@@ -292,10 +479,42 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ through _____, which _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["a symphony", "a computer", "a laboratory"], "correctAnswer": "a symphony"},
-                  {"id": "example1_b2", "options": ["convey profound sadness or overwhelming joy", "calculate equations", "measure temperatures"], "correctAnswer": "convey profound sadness or overwhelming joy"},
-                  {"id": "example1_b3", "options": ["melody and harmony", "binary code", "test tubes"], "correctAnswer": "melody and harmony"},
-                  {"id": "example1_b4", "options": ["no scientific instrument can quantify or replicate", "computers can analyze", "machines can reproduce"], "correctAnswer": "no scientific instrument can quantify or replicate"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "a symphony",
+                      "a computer",
+                      "a laboratory"
+                    ],
+                    "correctAnswer": "a symphony"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "convey profound sadness or overwhelming joy",
+                      "calculate equations",
+                      "measure temperatures"
+                    ],
+                    "correctAnswer": "convey profound sadness or overwhelming joy"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "melody and harmony",
+                      "binary code",
+                      "test tubes"
+                    ],
+                    "correctAnswer": "melody and harmony"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "no scientific instrument can quantify or replicate",
+                      "computers can analyze",
+                      "machines can reproduce"
+                    ],
+                    "correctAnswer": "no scientific instrument can quantify or replicate"
+                  }
                 ],
                 "correctSentence": "For instance, a symphony can convey profound sadness or overwhelming joy through melody and harmony, which no scientific instrument can quantify or replicate.",
                 "usableIn": "body-paragraph-1"
@@ -305,10 +524,42 @@
                 "type": "template",
                 "template": "For example, _____ explores _____ by _____, helping readers _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["literature", "physics", "chemistry"], "correctAnswer": "literature"},
-                  {"id": "example2_b2", "options": ["moral dilemmas and ethical complexities", "mathematical formulas", "chemical compounds"], "correctAnswer": "moral dilemmas and ethical complexities"},
-                  {"id": "example2_b3", "options": ["presenting characters facing difficult choices", "conducting experiments", "analyzing data"], "correctAnswer": "presenting characters facing difficult choices"},
-                  {"id": "example2_b4", "options": ["reflect on their own values and beliefs", "memorize facts", "calculate results"], "correctAnswer": "reflect on their own values and beliefs"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "literature",
+                      "physics",
+                      "chemistry"
+                    ],
+                    "correctAnswer": "literature"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "moral dilemmas and ethical complexities",
+                      "mathematical formulas",
+                      "chemical compounds"
+                    ],
+                    "correctAnswer": "moral dilemmas and ethical complexities"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "presenting characters facing difficult choices",
+                      "conducting experiments",
+                      "analyzing data"
+                    ],
+                    "correctAnswer": "presenting characters facing difficult choices"
+                  },
+                  {
+                    "id": "example2_b4",
+                    "options": [
+                      "reflect on their own values and beliefs",
+                      "memorize facts",
+                      "calculate results"
+                    ],
+                    "correctAnswer": "reflect on their own values and beliefs"
+                  }
                 ],
                 "correctSentence": "For example, literature explores moral dilemmas and ethical complexities by presenting characters facing difficult choices, helping readers reflect on their own values and beliefs.",
                 "usableIn": "body-paragraph-2"
@@ -318,9 +569,33 @@
                 "type": "template",
                 "template": "A clear example is _____, which _____ and _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["visual art addressing social injustice", "a scientific formula", "a computer program"], "correctAnswer": "visual art addressing social injustice"},
-                  {"id": "example3_b2", "options": ["evokes empathy and moral outrage", "measures variables", "processes information"], "correctAnswer": "evokes empathy and moral outrage"},
-                  {"id": "example3_b3", "options": ["inspires viewers to question societal norms", "follows logical steps", "produces numerical results"], "correctAnswer": "inspires viewers to question societal norms"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "visual art addressing social injustice",
+                      "a scientific formula",
+                      "a computer program"
+                    ],
+                    "correctAnswer": "visual art addressing social injustice"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "evokes empathy and moral outrage",
+                      "measures variables",
+                      "processes information"
+                    ],
+                    "correctAnswer": "evokes empathy and moral outrage"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "inspires viewers to question societal norms",
+                      "follows logical steps",
+                      "produces numerical results"
+                    ],
+                    "correctAnswer": "inspires viewers to question societal norms"
+                  }
                 ],
                 "correctSentence": "A clear example is visual art addressing social injustice, which evokes empathy and moral outrage and inspires viewers to question societal norms.",
                 "usableIn": "body-paragraph-2"
@@ -337,8 +612,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, arts provide irreplaceable insights into _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["science and technology advance human knowledge in measurable ways", "arts are enjoyable", "music is beautiful"], "correctAnswer": "science and technology advance human knowledge in measurable ways"},
-                  {"id": "conclusion1_b2", "options": ["emotional truths and subjective aspects of human existence", "scientific facts", "mathematical theories"], "correctAnswer": "emotional truths and subjective aspects of human existence"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "science and technology advance human knowledge in measurable ways",
+                      "arts are enjoyable",
+                      "music is beautiful"
+                    ],
+                    "correctAnswer": "science and technology advance human knowledge in measurable ways"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "emotional truths and subjective aspects of human existence",
+                      "scientific facts",
+                      "mathematical theories"
+                    ],
+                    "correctAnswer": "emotional truths and subjective aspects of human existence"
+                  }
                 ],
                 "correctSentence": "In conclusion, while science and technology advance human knowledge in measurable ways, arts provide irreplaceable insights into emotional truths and subjective aspects of human existence.",
                 "usableIn": "conclusion"
@@ -367,12 +658,42 @@
           }
         ],
         "usefulTransitions": {
-          "introducing_points": ["Primarily", "Most importantly", "One crucial aspect is", "Arts reveal"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "contrasting": ["Unlike science", "While technology can", "In contrast to", "Science cannot"],
-          "exemplifying": ["For instance", "For example", "A clear example is", "This is evident in"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This enables"],
-          "concluding": ["In conclusion", "To summarize", "Ultimately", "In essence"]
+          "introducing_points": [
+            "Primarily",
+            "Most importantly",
+            "One crucial aspect is",
+            "Arts reveal"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "contrasting": [
+            "Unlike science",
+            "While technology can",
+            "In contrast to",
+            "Science cannot"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "This is evident in"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This enables"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Ultimately",
+            "In essence"
+          ]
         }
       }
     },

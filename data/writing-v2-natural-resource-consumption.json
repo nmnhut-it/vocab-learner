@@ -80,105 +80,164 @@
             "word": "depletion",
             "pronunciation": "/dɪˈpliːʃən/",
             "partOfSpeech": "noun",
-            "definition": "The reduction or exhaustion of a resource",
+            "definition": "The reduction or exhaustion of a resource.",
             "example": "The depletion of fossil fuels poses serious environmental challenges.",
-            "synonyms": ["exhaustion", "reduction", "consumption"]
+            "synonyms": [
+              "exhaustion",
+              "reduction",
+              "consumption"
+            ]
           },
           {
             "word": "sustainability",
             "pronunciation": "/səˌsteɪnəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The ability to maintain resources for future generations",
+            "definition": "The ability to maintain resources for future generations.",
             "example": "Environmental sustainability requires careful management of natural resources.",
-            "synonyms": ["durability", "longevity", "viability"]
+            "synonyms": [
+              "durability",
+              "longevity",
+              "viability"
+            ]
           },
           {
             "word": "exponential",
             "pronunciation": "/ˌekspəˈnenʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Increasing at a rapidly accelerating rate",
+            "definition": "Increasing at a rapidly accelerating rate.",
             "example": "Population growth has led to exponential increases in resource consumption.",
-            "synonyms": ["rapid", "accelerating", "dramatic"]
+            "synonyms": [
+              "rapid",
+              "accelerating",
+              "dramatic"
+            ]
           },
           {
             "word": "implement",
             "pronunciation": "/ˈɪmplɪment/",
             "partOfSpeech": "verb",
-            "definition": "To put a plan or decision into effect",
+            "definition": "To put a plan or decision into effect.",
             "example": "Governments must implement stricter regulations on resource extraction.",
-            "synonyms": ["execute", "enforce", "apply"]
+            "synonyms": [
+              "execute",
+              "enforce",
+              "apply"
+            ]
           },
           {
             "word": "conservation",
             "pronunciation": "/ˌkɒnsəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The protection and preservation of natural resources",
+            "definition": "The protection and preservation of natural resources.",
             "example": "Forest conservation is essential for maintaining biodiversity.",
-            "synonyms": ["preservation", "protection", "management"]
+            "synonyms": [
+              "preservation",
+              "protection",
+              "management"
+            ]
           },
           {
             "word": "mitigate",
             "pronunciation": "/ˈmɪtɪɡeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make less severe or reduce the impact",
+            "definition": "To make less severe or reduce the impact.",
             "example": "Renewable energy can mitigate the depletion of fossil fuels.",
-            "synonyms": ["reduce", "alleviate", "diminish"]
+            "synonyms": [
+              "reduce",
+              "alleviate",
+              "diminish"
+            ]
           },
           {
             "word": "rampant",
             "pronunciation": "/ˈræmpənt/",
             "partOfSpeech": "adjective",
-            "definition": "Widespread and difficult to control",
+            "definition": "Widespread and difficult to control.",
             "example": "Rampant industrialization has accelerated resource depletion.",
-            "synonyms": ["uncontrolled", "widespread", "unchecked"]
+            "synonyms": [
+              "uncontrolled",
+              "widespread",
+              "unchecked"
+            ]
           },
           {
             "word": "incentivize",
             "pronunciation": "/ɪnˈsentɪvaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To motivate or encourage through rewards",
+            "definition": "To motivate or encourage through rewards.",
             "example": "Tax breaks can incentivize businesses to adopt sustainable practices.",
-            "synonyms": ["encourage", "motivate", "stimulate"]
+            "synonyms": [
+              "encourage",
+              "motivate",
+              "stimulate"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "renewable energy",
-            "definition": "Energy from sources that naturally replenish (solar, wind, hydro)",
+            "definition": "Energy from sources that naturally replenish (solar, wind, hydro).",
             "example": "Transitioning to renewable energy reduces dependence on fossil fuels."
           },
           {
             "phrase": "carbon footprint",
-            "definition": "The total greenhouse gas emissions caused by activities",
+            "definition": "The total greenhouse gas emissions caused by activities.",
             "example": "Reducing our carbon footprint is crucial for environmental sustainability."
           },
           {
             "phrase": "ecological balance",
-            "definition": "The equilibrium between living organisms and their environment",
+            "definition": "The equilibrium between living organisms and their environment.",
             "example": "Deforestation disrupts the ecological balance of entire ecosystems."
           },
           {
             "phrase": "resource extraction",
-            "definition": "The process of removing natural resources from the earth",
+            "definition": "The process of removing natural resources from the earth.",
             "example": "Unregulated resource extraction leads to environmental degradation."
           },
           {
             "phrase": "circular economy",
-            "definition": "An economic system aimed at eliminating waste through reuse and recycling",
+            "definition": "An economic system aimed at eliminating waste through reuse and recycling.",
             "example": "A circular economy model can significantly reduce raw material consumption."
           },
           {
             "phrase": "population pressure",
-            "definition": "Strain on resources caused by growing population",
+            "definition": "Strain on resources caused by growing population.",
             "example": "Population pressure intensifies competition for limited water resources."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The primary cause is", "This issue stems from", "Several factors contribute to", "The main driver of"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Another significant factor"],
-          "exemplifying": ["For instance", "For example", "Specifically", "Particularly", "To illustrate"],
-          "concluding": ["In conclusion", "To address this issue", "In summary", "Ultimately"]
+          "introducing": [
+            "The primary cause is",
+            "This issue stems from",
+            "Several factors contribute to",
+            "The main driver of"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Another significant factor"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Specifically",
+            "Particularly",
+            "To illustrate"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To address this issue",
+            "In summary",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,8 +260,24 @@
                 "type": "template",
                 "template": "This alarming trend can be attributed to _____, and _____ must be taken to address it.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["several interconnected factors", "many people", "global warming"], "correctAnswer": "several interconnected factors"},
-                  {"id": "thesis1_b2", "options": ["comprehensive measures", "some actions", "money"], "correctAnswer": "comprehensive measures"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "several interconnected factors",
+                      "many people",
+                      "global warming"
+                    ],
+                    "correctAnswer": "several interconnected factors"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "comprehensive measures",
+                      "some actions",
+                      "money"
+                    ],
+                    "correctAnswer": "comprehensive measures"
+                  }
                 ],
                 "correctSentence": "This alarming trend can be attributed to several interconnected factors, and comprehensive measures must be taken to address it.",
                 "usableIn": "introduction"
@@ -212,9 +287,33 @@
                 "type": "template",
                 "template": "The primary causes include _____ and _____, which require _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["population growth", "bad people", "technology"], "correctAnswer": "population growth"},
-                  {"id": "thesis2_b2", "options": ["unsustainable consumption patterns", "laziness", "internet"], "correctAnswer": "unsustainable consumption patterns"},
-                  {"id": "thesis2_b3", "options": ["coordinated global action", "waiting", "money"], "correctAnswer": "coordinated global action"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "population growth",
+                      "bad people",
+                      "technology"
+                    ],
+                    "correctAnswer": "population growth"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "unsustainable consumption patterns",
+                      "laziness",
+                      "internet"
+                    ],
+                    "correctAnswer": "unsustainable consumption patterns"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "coordinated global action",
+                      "waiting",
+                      "money"
+                    ],
+                    "correctAnswer": "coordinated global action"
+                  }
                 ],
                 "correctSentence": "The primary causes include population growth and unsustainable consumption patterns, which require coordinated global action.",
                 "usableIn": "introduction"
@@ -224,8 +323,24 @@
                 "type": "template",
                 "template": "While _____ drives this consumption, _____ can help mitigate the problem.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["rapid industrialization and population expansion", "people being greedy", "modern life"], "correctAnswer": "rapid industrialization and population expansion"},
-                  {"id": "thesis3_b2", "options": ["implementing sustainable practices and renewable alternatives", "hoping for change", "new laws"], "correctAnswer": "implementing sustainable practices and renewable alternatives"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "rapid industrialization and population expansion",
+                      "people being greedy",
+                      "modern life"
+                    ],
+                    "correctAnswer": "rapid industrialization and population expansion"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "implementing sustainable practices and renewable alternatives",
+                      "hoping for change",
+                      "new laws"
+                    ],
+                    "correctAnswer": "implementing sustainable practices and renewable alternatives"
+                  }
                 ],
                 "correctSentence": "While rapid industrialization and population expansion drives this consumption, implementing sustainable practices and renewable alternatives can help mitigate the problem.",
                 "usableIn": "introduction"
@@ -235,8 +350,24 @@
                 "type": "template",
                 "template": "This essay will examine _____ before proposing _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["the root causes of accelerating resource depletion", "some problems", "environmental issues"], "correctAnswer": "the root causes of accelerating resource depletion"},
-                  {"id": "thesis4_b2", "options": ["viable solutions to ensure sustainability", "ideas", "changes"], "correctAnswer": "viable solutions to ensure sustainability"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "the root causes of accelerating resource depletion",
+                      "some problems",
+                      "environmental issues"
+                    ],
+                    "correctAnswer": "the root causes of accelerating resource depletion"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "viable solutions to ensure sustainability",
+                      "ideas",
+                      "changes"
+                    ],
+                    "correctAnswer": "viable solutions to ensure sustainability"
+                  }
                 ],
                 "correctSentence": "This essay will examine the root causes of accelerating resource depletion before proposing viable solutions to ensure sustainability.",
                 "usableIn": "introduction"
@@ -246,9 +377,33 @@
                 "type": "template",
                 "template": "The escalating exploitation of _____ results from _____, necessitating _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["Earth's finite resources", "nature", "everything"], "correctAnswer": "Earth's finite resources"},
-                  {"id": "thesis5_b2", "options": ["economic pressures and lifestyle changes", "bad decisions", "modern society"], "correctAnswer": "economic pressures and lifestyle changes"},
-                  {"id": "thesis5_b3", "options": ["urgent policy interventions and behavioral shifts", "some help", "government action"], "correctAnswer": "urgent policy interventions and behavioral shifts"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "Earth's finite resources",
+                      "nature",
+                      "everything"
+                    ],
+                    "correctAnswer": "Earth's finite resources"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "economic pressures and lifestyle changes",
+                      "bad decisions",
+                      "modern society"
+                    ],
+                    "correctAnswer": "economic pressures and lifestyle changes"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "urgent policy interventions and behavioral shifts",
+                      "some help",
+                      "government action"
+                    ],
+                    "correctAnswer": "urgent policy interventions and behavioral shifts"
+                  }
                 ],
                 "correctSentence": "The escalating exploitation of Earth's finite resources results from economic pressures and lifestyle changes, necessitating urgent policy interventions and behavioral shifts.",
                 "usableIn": "introduction"
@@ -265,8 +420,24 @@
                 "type": "template",
                 "template": "Several factors contribute to _____ of _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["the accelerating depletion", "the problem", "issues"], "correctAnswer": "the accelerating depletion"},
-                  {"id": "topic1_b2", "options": ["natural resources worldwide", "stuff", "things"], "correctAnswer": "natural resources worldwide"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "the accelerating depletion",
+                      "the problem",
+                      "issues"
+                    ],
+                    "correctAnswer": "the accelerating depletion"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "natural resources worldwide",
+                      "stuff",
+                      "things"
+                    ],
+                    "correctAnswer": "natural resources worldwide"
+                  }
                 ],
                 "correctSentence": "Several factors contribute to the accelerating depletion of natural resources worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -276,8 +447,24 @@
                 "type": "template",
                 "template": "To address this crisis, _____ must implement _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["governments and international organizations", "people", "everyone"], "correctAnswer": "governments and international organizations"},
-                  {"id": "topic2_b2", "options": ["comprehensive strategies targeting both production and consumption", "new rules", "changes"], "correctAnswer": "comprehensive strategies targeting both production and consumption"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "governments and international organizations",
+                      "people",
+                      "everyone"
+                    ],
+                    "correctAnswer": "governments and international organizations"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "comprehensive strategies targeting both production and consumption",
+                      "new rules",
+                      "changes"
+                    ],
+                    "correctAnswer": "comprehensive strategies targeting both production and consumption"
+                  }
                 ],
                 "correctSentence": "To address this crisis, governments and international organizations must implement comprehensive strategies targeting both production and consumption.",
                 "usableIn": "body-paragraph-2"
@@ -287,8 +474,24 @@
                 "type": "template",
                 "template": "The primary driver of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["unsustainable resource consumption", "problems", "issues"], "correctAnswer": "unsustainable resource consumption"},
-                  {"id": "topic3_b2", "options": ["exponential population growth coupled with rising living standards", "too many people", "modern life"], "correctAnswer": "exponential population growth coupled with rising living standards"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "unsustainable resource consumption",
+                      "problems",
+                      "issues"
+                    ],
+                    "correctAnswer": "unsustainable resource consumption"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "exponential population growth coupled with rising living standards",
+                      "too many people",
+                      "modern life"
+                    ],
+                    "correctAnswer": "exponential population growth coupled with rising living standards"
+                  }
                 ],
                 "correctSentence": "The primary driver of unsustainable resource consumption is exponential population growth coupled with rising living standards.",
                 "usableIn": "body-paragraph-1"
@@ -298,7 +501,15 @@
                 "type": "template",
                 "template": "One effective solution involves _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["transitioning to renewable energy sources and circular economy models", "making changes", "new technology"], "correctAnswer": "transitioning to renewable energy sources and circular economy models"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "transitioning to renewable energy sources and circular economy models",
+                      "making changes",
+                      "new technology"
+                    ],
+                    "correctAnswer": "transitioning to renewable energy sources and circular economy models"
+                  }
                 ],
                 "correctSentence": "One effective solution involves transitioning to renewable energy sources and circular economy models.",
                 "usableIn": "body-paragraph-2"
@@ -308,9 +519,33 @@
                 "type": "template",
                 "template": "_____ has led to _____ in _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Rampant industrialization", "Progress", "Development"], "correctAnswer": "Rampant industrialization"},
-                  {"id": "topic5_b2", "options": ["unprecedented increases", "changes", "growth"], "correctAnswer": "unprecedented increases"},
-                  {"id": "topic5_b3", "options": ["fossil fuel consumption and deforestation", "resource use", "problems"], "correctAnswer": "fossil fuel consumption and deforestation"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Rampant industrialization",
+                      "Progress",
+                      "Development"
+                    ],
+                    "correctAnswer": "Rampant industrialization"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "unprecedented increases",
+                      "changes",
+                      "growth"
+                    ],
+                    "correctAnswer": "unprecedented increases"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "fossil fuel consumption and deforestation",
+                      "resource use",
+                      "problems"
+                    ],
+                    "correctAnswer": "fossil fuel consumption and deforestation"
+                  }
                 ],
                 "correctSentence": "Rampant industrialization has led to unprecedented increases in fossil fuel consumption and deforestation.",
                 "usableIn": "body-paragraph-1"
@@ -320,7 +555,15 @@
                 "type": "template",
                 "template": "Governments can mitigate this problem by _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["enforcing strict regulations on resource extraction and incentivizing sustainable practices", "making laws", "taking action"], "correctAnswer": "enforcing strict regulations on resource extraction and incentivizing sustainable practices"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "enforcing strict regulations on resource extraction and incentivizing sustainable practices",
+                      "making laws",
+                      "taking action"
+                    ],
+                    "correctAnswer": "enforcing strict regulations on resource extraction and incentivizing sustainable practices"
+                  }
                 ],
                 "correctSentence": "Governments can mitigate this problem by enforcing strict regulations on resource extraction and incentivizing sustainable practices.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +573,24 @@
                 "type": "template",
                 "template": "Another significant cause is _____ driven by _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["overconsumption in developed nations", "waste", "pollution"], "correctAnswer": "overconsumption in developed nations"},
-                  {"id": "topic7_b2", "options": ["consumer culture and planned obsolescence", "advertising", "capitalism"], "correctAnswer": "consumer culture and planned obsolescence"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "overconsumption in developed nations",
+                      "waste",
+                      "pollution"
+                    ],
+                    "correctAnswer": "overconsumption in developed nations"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "consumer culture and planned obsolescence",
+                      "advertising",
+                      "capitalism"
+                    ],
+                    "correctAnswer": "consumer culture and planned obsolescence"
+                  }
                 ],
                 "correctSentence": "Another significant cause is overconsumption in developed nations driven by consumer culture and planned obsolescence.",
                 "usableIn": "body-paragraph-1"
@@ -341,7 +600,15 @@
                 "type": "template",
                 "template": "A crucial step toward sustainability is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["promoting public awareness and education about conservation", "teaching people", "spreading information"], "correctAnswer": "promoting public awareness and education about conservation"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "promoting public awareness and education about conservation",
+                      "teaching people",
+                      "spreading information"
+                    ],
+                    "correctAnswer": "promoting public awareness and education about conservation"
+                  }
                 ],
                 "correctSentence": "A crucial step toward sustainability is promoting public awareness and education about conservation.",
                 "usableIn": "body-paragraph-2"
@@ -358,9 +625,33 @@
                 "type": "template",
                 "template": "As _____ expands, _____ intensifies pressure on _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["the global population", "society", "everything"], "correctAnswer": "the global population"},
-                  {"id": "support1_b2", "options": ["demand for food, water, and energy", "consumption", "usage"], "correctAnswer": "demand for food, water, and energy"},
-                  {"id": "support1_b3", "options": ["finite natural resources", "the environment", "nature"], "correctAnswer": "finite natural resources"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "the global population",
+                      "society",
+                      "everything"
+                    ],
+                    "correctAnswer": "the global population"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "demand for food, water, and energy",
+                      "consumption",
+                      "usage"
+                    ],
+                    "correctAnswer": "demand for food, water, and energy"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "finite natural resources",
+                      "the environment",
+                      "nature"
+                    ],
+                    "correctAnswer": "finite natural resources"
+                  }
                 ],
                 "correctSentence": "As the global population expands, demand for food, water, and energy intensifies pressure on finite natural resources.",
                 "usableIn": "body-paragraph-1"
@@ -370,9 +661,33 @@
                 "type": "template",
                 "template": "_____ can significantly reduce _____ by _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["Implementing renewable energy technologies", "New ideas", "Changes"], "correctAnswer": "Implementing renewable energy technologies"},
-                  {"id": "support2_b2", "options": ["dependence on fossil fuels", "pollution", "problems"], "correctAnswer": "dependence on fossil fuels"},
-                  {"id": "support2_b3", "options": ["providing sustainable alternatives for electricity generation", "using solar panels", "making changes"], "correctAnswer": "providing sustainable alternatives for electricity generation"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "Implementing renewable energy technologies",
+                      "New ideas",
+                      "Changes"
+                    ],
+                    "correctAnswer": "Implementing renewable energy technologies"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "dependence on fossil fuels",
+                      "pollution",
+                      "problems"
+                    ],
+                    "correctAnswer": "dependence on fossil fuels"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "providing sustainable alternatives for electricity generation",
+                      "using solar panels",
+                      "making changes"
+                    ],
+                    "correctAnswer": "providing sustainable alternatives for electricity generation"
+                  }
                 ],
                 "correctSentence": "Implementing renewable energy technologies can significantly reduce dependence on fossil fuels by providing sustainable alternatives for electricity generation.",
                 "usableIn": "body-paragraph-2"
@@ -382,9 +697,33 @@
                 "type": "template",
                 "template": "_____ fuels _____, which accelerates _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Economic growth in emerging markets", "Development", "Progress"], "correctAnswer": "Economic growth in emerging markets"},
-                  {"id": "support3_b2", "options": ["industrial expansion and urbanization", "construction", "change"], "correctAnswer": "industrial expansion and urbanization"},
-                  {"id": "support3_b3", "options": ["the extraction of minerals and timber", "resource use", "consumption"], "correctAnswer": "the extraction of minerals and timber"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Economic growth in emerging markets",
+                      "Development",
+                      "Progress"
+                    ],
+                    "correctAnswer": "Economic growth in emerging markets"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "industrial expansion and urbanization",
+                      "construction",
+                      "change"
+                    ],
+                    "correctAnswer": "industrial expansion and urbanization"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "the extraction of minerals and timber",
+                      "resource use",
+                      "consumption"
+                    ],
+                    "correctAnswer": "the extraction of minerals and timber"
+                  }
                 ],
                 "correctSentence": "Economic growth in emerging markets fuels industrial expansion and urbanization, which accelerates the extraction of minerals and timber.",
                 "usableIn": "body-paragraph-1"
@@ -394,9 +733,33 @@
                 "type": "template",
                 "template": "By _____, governments can _____ while _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["imposing taxes on resource-intensive products", "making rules", "taking action"], "correctAnswer": "imposing taxes on resource-intensive products"},
-                  {"id": "support4_b2", "options": ["discourage wasteful consumption", "help the environment", "make changes"], "correctAnswer": "discourage wasteful consumption"},
-                  {"id": "support4_b3", "options": ["generating revenue for conservation programs", "earning money", "improving things"], "correctAnswer": "generating revenue for conservation programs"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "imposing taxes on resource-intensive products",
+                      "making rules",
+                      "taking action"
+                    ],
+                    "correctAnswer": "imposing taxes on resource-intensive products"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "discourage wasteful consumption",
+                      "help the environment",
+                      "make changes"
+                    ],
+                    "correctAnswer": "discourage wasteful consumption"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "generating revenue for conservation programs",
+                      "earning money",
+                      "improving things"
+                    ],
+                    "correctAnswer": "generating revenue for conservation programs"
+                  }
                 ],
                 "correctSentence": "By imposing taxes on resource-intensive products, governments can discourage wasteful consumption while generating revenue for conservation programs.",
                 "usableIn": "body-paragraph-2"
@@ -406,9 +769,33 @@
                 "type": "template",
                 "template": "The pursuit of _____ encourages _____ that prioritize _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["short-term profits", "money", "wealth"], "correctAnswer": "short-term profits"},
-                  {"id": "support5_b2", "options": ["business practices", "companies", "industries"], "correctAnswer": "business practices"},
-                  {"id": "support5_b3", "options": ["immediate gains over long-term sustainability", "profits over environment", "economics"], "correctAnswer": "immediate gains over long-term sustainability"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "short-term profits",
+                      "money",
+                      "wealth"
+                    ],
+                    "correctAnswer": "short-term profits"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "business practices",
+                      "companies",
+                      "industries"
+                    ],
+                    "correctAnswer": "business practices"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "immediate gains over long-term sustainability",
+                      "profits over environment",
+                      "economics"
+                    ],
+                    "correctAnswer": "immediate gains over long-term sustainability"
+                  }
                 ],
                 "correctSentence": "The pursuit of short-term profits encourages business practices that prioritize immediate gains over long-term sustainability.",
                 "usableIn": "body-paragraph-1"
@@ -418,9 +805,33 @@
                 "type": "template",
                 "template": "_____ promotes _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Adopting circular economy principles", "Recycling", "New methods"], "correctAnswer": "Adopting circular economy principles"},
-                  {"id": "support6_b2", "options": ["resource efficiency", "sustainability", "conservation"], "correctAnswer": "resource efficiency"},
-                  {"id": "support6_b3", "options": ["reusing materials and minimizing waste", "recycling more", "reducing usage"], "correctAnswer": "reusing materials and minimizing waste"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Adopting circular economy principles",
+                      "Recycling",
+                      "New methods"
+                    ],
+                    "correctAnswer": "Adopting circular economy principles"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "resource efficiency",
+                      "sustainability",
+                      "conservation"
+                    ],
+                    "correctAnswer": "resource efficiency"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "reusing materials and minimizing waste",
+                      "recycling more",
+                      "reducing usage"
+                    ],
+                    "correctAnswer": "reusing materials and minimizing waste"
+                  }
                 ],
                 "correctSentence": "Adopting circular economy principles promotes resource efficiency through reusing materials and minimizing waste.",
                 "usableIn": "body-paragraph-2"
@@ -430,8 +841,24 @@
                 "type": "template",
                 "template": "Consumer culture emphasizes _____, leading to _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["constant acquisition of new products", "buying things", "shopping"], "correctAnswer": "constant acquisition of new products"},
-                  {"id": "support7_b2", "options": ["excessive waste and resource depletion", "pollution", "problems"], "correctAnswer": "excessive waste and resource depletion"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "constant acquisition of new products",
+                      "buying things",
+                      "shopping"
+                    ],
+                    "correctAnswer": "constant acquisition of new products"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "excessive waste and resource depletion",
+                      "pollution",
+                      "problems"
+                    ],
+                    "correctAnswer": "excessive waste and resource depletion"
+                  }
                 ],
                 "correctSentence": "Consumer culture emphasizes constant acquisition of new products, leading to excessive waste and resource depletion.",
                 "usableIn": "body-paragraph-1"
@@ -441,9 +868,33 @@
                 "type": "template",
                 "template": "_____ can shift _____ toward _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["Educational campaigns", "Teaching", "Information"], "correctAnswer": "Educational campaigns"},
-                  {"id": "support8_b2", "options": ["public behavior and attitudes", "people's minds", "society"], "correctAnswer": "public behavior and attitudes"},
-                  {"id": "support8_b3", "options": ["more sustainable consumption patterns", "better habits", "conservation"], "correctAnswer": "more sustainable consumption patterns"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "Educational campaigns",
+                      "Teaching",
+                      "Information"
+                    ],
+                    "correctAnswer": "Educational campaigns"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "public behavior and attitudes",
+                      "people's minds",
+                      "society"
+                    ],
+                    "correctAnswer": "public behavior and attitudes"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "more sustainable consumption patterns",
+                      "better habits",
+                      "conservation"
+                    ],
+                    "correctAnswer": "more sustainable consumption patterns"
+                  }
                 ],
                 "correctSentence": "Educational campaigns can shift public behavior and attitudes toward more sustainable consumption patterns.",
                 "usableIn": "body-paragraph-2"
@@ -453,9 +904,33 @@
                 "type": "template",
                 "template": "Weak _____ allows _____ to exploit _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["environmental regulations", "laws", "rules"], "correctAnswer": "environmental regulations"},
-                  {"id": "support9_b2", "options": ["corporations and industries", "companies", "businesses"], "correctAnswer": "corporations and industries"},
-                  {"id": "support9_b3", "options": ["resources without accountability", "nature", "everything"], "correctAnswer": "resources without accountability"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "environmental regulations",
+                      "laws",
+                      "rules"
+                    ],
+                    "correctAnswer": "environmental regulations"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "corporations and industries",
+                      "companies",
+                      "businesses"
+                    ],
+                    "correctAnswer": "corporations and industries"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "resources without accountability",
+                      "nature",
+                      "everything"
+                    ],
+                    "correctAnswer": "resources without accountability"
+                  }
                 ],
                 "correctSentence": "Weak environmental regulations allows corporations and industries to exploit resources without accountability.",
                 "usableIn": "body-paragraph-1"
@@ -465,9 +940,33 @@
                 "type": "template",
                 "template": "Investing in _____ reduces _____ and creates _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["green technologies", "new things", "innovation"], "correctAnswer": "green technologies"},
-                  {"id": "support10_b2", "options": ["environmental impact", "pollution", "problems"], "correctAnswer": "environmental impact"},
-                  {"id": "support10_b3", "options": ["economic opportunities in sustainable sectors", "jobs", "benefits"], "correctAnswer": "economic opportunities in sustainable sectors"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "green technologies",
+                      "new things",
+                      "innovation"
+                    ],
+                    "correctAnswer": "green technologies"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "environmental impact",
+                      "pollution",
+                      "problems"
+                    ],
+                    "correctAnswer": "environmental impact"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "economic opportunities in sustainable sectors",
+                      "jobs",
+                      "benefits"
+                    ],
+                    "correctAnswer": "economic opportunities in sustainable sectors"
+                  }
                 ],
                 "correctSentence": "Investing in green technologies reduces environmental impact and creates economic opportunities in sustainable sectors.",
                 "usableIn": "body-paragraph-2"
@@ -477,9 +976,33 @@
                 "type": "template",
                 "template": "As _____ improve, _____ increases, driving _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["living standards", "life", "conditions"], "correctAnswer": "living standards"},
-                  {"id": "support11_b2", "options": ["per capita resource consumption", "usage", "demand"], "correctAnswer": "per capita resource consumption"},
-                  {"id": "support11_b3", "options": ["greater strain on global supplies", "more problems", "depletion"], "correctAnswer": "greater strain on global supplies"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "living standards",
+                      "life",
+                      "conditions"
+                    ],
+                    "correctAnswer": "living standards"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "per capita resource consumption",
+                      "usage",
+                      "demand"
+                    ],
+                    "correctAnswer": "per capita resource consumption"
+                  },
+                  {
+                    "id": "support11_b3",
+                    "options": [
+                      "greater strain on global supplies",
+                      "more problems",
+                      "depletion"
+                    ],
+                    "correctAnswer": "greater strain on global supplies"
+                  }
                 ],
                 "correctSentence": "As living standards improve, per capita resource consumption increases, driving greater strain on global supplies.",
                 "usableIn": "body-paragraph-1"
@@ -489,8 +1012,24 @@
                 "type": "template",
                 "template": "International cooperation enables _____ to _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["countries", "nations", "governments"], "correctAnswer": "countries"},
-                  {"id": "support12_b2", "options": ["share technologies and coordinate conservation efforts", "work together", "solve problems"], "correctAnswer": "share technologies and coordinate conservation efforts"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "countries",
+                      "nations",
+                      "governments"
+                    ],
+                    "correctAnswer": "countries"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "share technologies and coordinate conservation efforts",
+                      "work together",
+                      "solve problems"
+                    ],
+                    "correctAnswer": "share technologies and coordinate conservation efforts"
+                  }
                 ],
                 "correctSentence": "International cooperation enables countries to share technologies and coordinate conservation efforts.",
                 "usableIn": "body-paragraph-2"
@@ -507,8 +1046,24 @@
                 "type": "template",
                 "template": "For instance, _____ has resulted in _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["China's rapid industrialization over the past three decades", "economic growth", "development"], "correctAnswer": "China's rapid industrialization over the past three decades"},
-                  {"id": "example1_b2", "options": ["massive increases in coal consumption and air pollution", "more problems", "environmental damage"], "correctAnswer": "massive increases in coal consumption and air pollution"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "China's rapid industrialization over the past three decades",
+                      "economic growth",
+                      "development"
+                    ],
+                    "correctAnswer": "China's rapid industrialization over the past three decades"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "massive increases in coal consumption and air pollution",
+                      "more problems",
+                      "environmental damage"
+                    ],
+                    "correctAnswer": "massive increases in coal consumption and air pollution"
+                  }
                 ],
                 "correctSentence": "For instance, China's rapid industrialization over the past three decades has resulted in massive increases in coal consumption and air pollution.",
                 "usableIn": "body-paragraph-1"
@@ -518,9 +1073,33 @@
                 "type": "template",
                 "template": "For example, _____ successfully reduced _____ by _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Germany", "a country", "Europe"], "correctAnswer": "Germany"},
-                  {"id": "example2_b2", "options": ["carbon emissions", "pollution", "consumption"], "correctAnswer": "carbon emissions"},
-                  {"id": "example2_b3", "options": ["investing heavily in solar and wind energy infrastructure", "using renewables", "making changes"], "correctAnswer": "investing heavily in solar and wind energy infrastructure"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Germany",
+                      "a country",
+                      "Europe"
+                    ],
+                    "correctAnswer": "Germany"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "carbon emissions",
+                      "pollution",
+                      "consumption"
+                    ],
+                    "correctAnswer": "carbon emissions"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "investing heavily in solar and wind energy infrastructure",
+                      "using renewables",
+                      "making changes"
+                    ],
+                    "correctAnswer": "investing heavily in solar and wind energy infrastructure"
+                  }
                 ],
                 "correctSentence": "For example, Germany successfully reduced carbon emissions by investing heavily in solar and wind energy infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -530,9 +1109,33 @@
                 "type": "template",
                 "template": "Specifically, _____ consumes _____ despite representing _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the United States", "one country", "America"], "correctAnswer": "the United States"},
-                  {"id": "example3_b2", "options": ["approximately 20% of global oil production", "lots of resources", "much energy"], "correctAnswer": "approximately 20% of global oil production"},
-                  {"id": "example3_b3", "options": ["only 4% of the world's population", "a small percentage", "few people"], "correctAnswer": "only 4% of the world's population"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the United States",
+                      "one country",
+                      "America"
+                    ],
+                    "correctAnswer": "the United States"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "approximately 20% of global oil production",
+                      "lots of resources",
+                      "much energy"
+                    ],
+                    "correctAnswer": "approximately 20% of global oil production"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "only 4% of the world's population",
+                      "a small percentage",
+                      "few people"
+                    ],
+                    "correctAnswer": "only 4% of the world's population"
+                  }
                 ],
                 "correctSentence": "Specifically, the United States consumes approximately 20% of global oil production despite representing only 4% of the world's population.",
                 "usableIn": "body-paragraph-1"
@@ -542,9 +1145,33 @@
                 "type": "template",
                 "template": "Research indicates that _____ could reduce _____ by _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["widespread adoption of electric vehicles", "new technology", "changes"], "correctAnswer": "widespread adoption of electric vehicles"},
-                  {"id": "example4_b2", "options": ["oil demand", "consumption", "usage"], "correctAnswer": "oil demand"},
-                  {"id": "example4_b3", "options": ["up to 30% by 2040", "significantly", "a lot"], "correctAnswer": "up to 30% by 2040"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "widespread adoption of electric vehicles",
+                      "new technology",
+                      "changes"
+                    ],
+                    "correctAnswer": "widespread adoption of electric vehicles"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "oil demand",
+                      "consumption",
+                      "usage"
+                    ],
+                    "correctAnswer": "oil demand"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "up to 30% by 2040",
+                      "significantly",
+                      "a lot"
+                    ],
+                    "correctAnswer": "up to 30% by 2040"
+                  }
                 ],
                 "correctSentence": "Research indicates that widespread adoption of electric vehicles could reduce oil demand by up to 30% by 2040.",
                 "usableIn": "body-paragraph-2"
@@ -554,9 +1181,33 @@
                 "type": "template",
                 "template": "In _____, deforestation rates have _____ due to _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["the Amazon rainforest", "forests", "nature"], "correctAnswer": "the Amazon rainforest"},
-                  {"id": "example5_b2", "options": ["increased dramatically", "grown", "changed"], "correctAnswer": "increased dramatically"},
-                  {"id": "example5_b3", "options": ["agricultural expansion and illegal logging", "cutting trees", "human activity"], "correctAnswer": "agricultural expansion and illegal logging"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "the Amazon rainforest",
+                      "forests",
+                      "nature"
+                    ],
+                    "correctAnswer": "the Amazon rainforest"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "increased dramatically",
+                      "grown",
+                      "changed"
+                    ],
+                    "correctAnswer": "increased dramatically"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "agricultural expansion and illegal logging",
+                      "cutting trees",
+                      "human activity"
+                    ],
+                    "correctAnswer": "agricultural expansion and illegal logging"
+                  }
                 ],
                 "correctSentence": "In the Amazon rainforest, deforestation rates have increased dramatically due to agricultural expansion and illegal logging.",
                 "usableIn": "body-paragraph-1"
@@ -566,9 +1217,33 @@
                 "type": "template",
                 "template": "Countries like _____ have implemented _____ that _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["Denmark and Sweden", "some nations", "Europe"], "correctAnswer": "Denmark and Sweden"},
-                  {"id": "example6_b2", "options": ["carbon taxes and green subsidies", "environmental policies", "new laws"], "correctAnswer": "carbon taxes and green subsidies"},
-                  {"id": "example6_b3", "options": ["successfully incentivize sustainable business practices", "help the environment", "reduce pollution"], "correctAnswer": "successfully incentivize sustainable business practices"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "Denmark and Sweden",
+                      "some nations",
+                      "Europe"
+                    ],
+                    "correctAnswer": "Denmark and Sweden"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "carbon taxes and green subsidies",
+                      "environmental policies",
+                      "new laws"
+                    ],
+                    "correctAnswer": "carbon taxes and green subsidies"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "successfully incentivize sustainable business practices",
+                      "help the environment",
+                      "reduce pollution"
+                    ],
+                    "correctAnswer": "successfully incentivize sustainable business practices"
+                  }
                 ],
                 "correctSentence": "Countries like Denmark and Sweden have implemented carbon taxes and green subsidies that successfully incentivize sustainable business practices.",
                 "usableIn": "body-paragraph-2"
@@ -578,9 +1253,33 @@
                 "type": "template",
                 "template": "According to _____, global freshwater consumption has _____ since _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["the United Nations", "studies", "research"], "correctAnswer": "the United Nations"},
-                  {"id": "example7_b2", "options": ["tripled", "increased", "grown"], "correctAnswer": "tripled"},
-                  {"id": "example7_b3", "options": ["1950", "recent years", "the past"], "correctAnswer": "1950"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "the United Nations",
+                      "studies",
+                      "research"
+                    ],
+                    "correctAnswer": "the United Nations"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "tripled",
+                      "increased",
+                      "grown"
+                    ],
+                    "correctAnswer": "tripled"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "1950",
+                      "recent years",
+                      "the past"
+                    ],
+                    "correctAnswer": "1950"
+                  }
                 ],
                 "correctSentence": "According to the United Nations, global freshwater consumption has tripled since 1950.",
                 "usableIn": "body-paragraph-1"
@@ -590,9 +1289,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: their _____ program has _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["Singapore's water management", "one initiative", "a project"], "correctAnswer": "Singapore's water management"},
-                  {"id": "example8_b2", "options": ["water recycling and conservation", "environmental", "sustainability"], "correctAnswer": "water recycling and conservation"},
-                  {"id": "example8_b3", "options": ["achieved near self-sufficiency despite limited natural water sources", "been successful", "helped"], "correctAnswer": "achieved near self-sufficiency despite limited natural water sources"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "Singapore's water management",
+                      "one initiative",
+                      "a project"
+                    ],
+                    "correctAnswer": "Singapore's water management"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "water recycling and conservation",
+                      "environmental",
+                      "sustainability"
+                    ],
+                    "correctAnswer": "water recycling and conservation"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "achieved near self-sufficiency despite limited natural water sources",
+                      "been successful",
+                      "helped"
+                    ],
+                    "correctAnswer": "achieved near self-sufficiency despite limited natural water sources"
+                  }
                 ],
                 "correctSentence": "Take Singapore's water management as an example: their water recycling and conservation program has achieved near self-sufficiency despite limited natural water sources.",
                 "usableIn": "body-paragraph-2"
@@ -602,9 +1325,33 @@
                 "type": "template",
                 "template": "Evidence from _____ shows that _____ increases _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["developing nations", "research", "studies"], "correctAnswer": "developing nations"},
-                  {"id": "example9_b2", "options": ["urbanization", "growth", "development"], "correctAnswer": "urbanization"},
-                  {"id": "example9_b3", "options": ["per capita energy consumption by 50-70%", "resource use significantly", "demand"], "correctAnswer": "per capita energy consumption by 50-70%"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "developing nations",
+                      "research",
+                      "studies"
+                    ],
+                    "correctAnswer": "developing nations"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "urbanization",
+                      "growth",
+                      "development"
+                    ],
+                    "correctAnswer": "urbanization"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "per capita energy consumption by 50-70%",
+                      "resource use significantly",
+                      "demand"
+                    ],
+                    "correctAnswer": "per capita energy consumption by 50-70%"
+                  }
                 ],
                 "correctSentence": "Evidence from developing nations shows that urbanization increases per capita energy consumption by 50-70%.",
                 "usableIn": "body-paragraph-1"
@@ -614,9 +1361,33 @@
                 "type": "template",
                 "template": "Studies demonstrate that _____ can _____ while _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["smart grid technologies", "new systems", "innovation"], "correctAnswer": "smart grid technologies"},
-                  {"id": "example10_b2", "options": ["reduce electricity waste by 15-20%", "save energy", "help"], "correctAnswer": "reduce electricity waste by 15-20%"},
-                  {"id": "example10_b3", "options": ["improving service reliability", "maintaining quality", "helping consumers"], "correctAnswer": "improving service reliability"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "smart grid technologies",
+                      "new systems",
+                      "innovation"
+                    ],
+                    "correctAnswer": "smart grid technologies"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "reduce electricity waste by 15-20%",
+                      "save energy",
+                      "help"
+                    ],
+                    "correctAnswer": "reduce electricity waste by 15-20%"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "improving service reliability",
+                      "maintaining quality",
+                      "helping consumers"
+                    ],
+                    "correctAnswer": "improving service reliability"
+                  }
                 ],
                 "correctSentence": "Studies demonstrate that smart grid technologies can reduce electricity waste by 15-20% while improving service reliability.",
                 "usableIn": "body-paragraph-2"
@@ -633,8 +1404,24 @@
                 "type": "template",
                 "template": "However, _____ faces challenges such as _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["transitioning to renewable energy", "change", "progress"], "correctAnswer": "transitioning to renewable energy"},
-                  {"id": "counter1_b2", "options": ["high initial costs and infrastructure requirements", "difficulties", "problems"], "correctAnswer": "high initial costs and infrastructure requirements"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "transitioning to renewable energy",
+                      "change",
+                      "progress"
+                    ],
+                    "correctAnswer": "transitioning to renewable energy"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "high initial costs and infrastructure requirements",
+                      "difficulties",
+                      "problems"
+                    ],
+                    "correctAnswer": "high initial costs and infrastructure requirements"
+                  }
                 ],
                 "correctSentence": "However, transitioning to renewable energy faces challenges such as high initial costs and infrastructure requirements.",
                 "usableIn": "body-paragraph-2"
@@ -644,8 +1431,24 @@
                 "type": "template",
                 "template": "While _____ is important, it requires _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["individual behavioral change", "personal action", "people changing"], "correctAnswer": "individual behavioral change"},
-                  {"id": "counter2_b2", "options": ["widespread cultural shifts that take generations to achieve", "time", "effort"], "correctAnswer": "widespread cultural shifts that take generations to achieve"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "individual behavioral change",
+                      "personal action",
+                      "people changing"
+                    ],
+                    "correctAnswer": "individual behavioral change"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "widespread cultural shifts that take generations to achieve",
+                      "time",
+                      "effort"
+                    ],
+                    "correctAnswer": "widespread cultural shifts that take generations to achieve"
+                  }
                 ],
                 "correctSentence": "While individual behavioral change is important, it requires widespread cultural shifts that take generations to achieve.",
                 "usableIn": "body-paragraph-2"
@@ -655,8 +1458,24 @@
                 "type": "template",
                 "template": "Critics argue that _____ may _____ in developing economies.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["strict environmental regulations", "new rules", "policies"], "correctAnswer": "strict environmental regulations"},
-                  {"id": "counter3_b2", "options": ["hinder economic growth and development", "cause problems", "slow progress"], "correctAnswer": "hinder economic growth and development"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "strict environmental regulations",
+                      "new rules",
+                      "policies"
+                    ],
+                    "correctAnswer": "strict environmental regulations"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "hinder economic growth and development",
+                      "cause problems",
+                      "slow progress"
+                    ],
+                    "correctAnswer": "hinder economic growth and development"
+                  }
                 ],
                 "correctSentence": "Critics argue that strict environmental regulations may hinder economic growth and development in developing economies.",
                 "usableIn": "body-paragraph-2"
@@ -666,9 +1485,33 @@
                 "type": "template",
                 "template": "Despite these solutions, _____ remains _____ without _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["meaningful progress", "change", "improvement"], "correctAnswer": "meaningful progress"},
-                  {"id": "counter4_b2", "options": ["difficult to achieve", "hard", "challenging"], "correctAnswer": "difficult to achieve"},
-                  {"id": "counter4_b3", "options": ["strong political will and international cooperation", "government support", "collaboration"], "correctAnswer": "strong political will and international cooperation"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "meaningful progress",
+                      "change",
+                      "improvement"
+                    ],
+                    "correctAnswer": "meaningful progress"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "difficult to achieve",
+                      "hard",
+                      "challenging"
+                    ],
+                    "correctAnswer": "difficult to achieve"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "strong political will and international cooperation",
+                      "government support",
+                      "collaboration"
+                    ],
+                    "correctAnswer": "strong political will and international cooperation"
+                  }
                 ],
                 "correctSentence": "Despite these solutions, meaningful progress remains difficult to achieve without strong political will and international cooperation.",
                 "usableIn": "body-paragraph-2"
@@ -678,8 +1521,24 @@
                 "type": "template",
                 "template": "Although _____ offers promise, _____ must be addressed first.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["technological innovation", "new technology", "progress"], "correctAnswer": "technological innovation"},
-                  {"id": "counter5_b2", "options": ["issues of scalability and accessibility", "problems", "challenges"], "correctAnswer": "issues of scalability and accessibility"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "technological innovation",
+                      "new technology",
+                      "progress"
+                    ],
+                    "correctAnswer": "technological innovation"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "issues of scalability and accessibility",
+                      "problems",
+                      "challenges"
+                    ],
+                    "correctAnswer": "issues of scalability and accessibility"
+                  }
                 ],
                 "correctSentence": "Although technological innovation offers promise, issues of scalability and accessibility must be addressed first.",
                 "usableIn": "body-paragraph-2"
@@ -696,8 +1555,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____ drive resource depletion, _____ can ensure sustainability.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["population growth and industrialization", "many factors", "various causes"], "correctAnswer": "population growth and industrialization"},
-                  {"id": "conclusion1_b2", "options": ["renewable energy adoption and stricter regulations", "solutions", "actions"], "correctAnswer": "renewable energy adoption and stricter regulations"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "population growth and industrialization",
+                      "many factors",
+                      "various causes"
+                    ],
+                    "correctAnswer": "population growth and industrialization"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "renewable energy adoption and stricter regulations",
+                      "solutions",
+                      "actions"
+                    ],
+                    "correctAnswer": "renewable energy adoption and stricter regulations"
+                  }
                 ],
                 "correctSentence": "In conclusion, while population growth and industrialization drive resource depletion, renewable energy adoption and stricter regulations can ensure sustainability.",
                 "usableIn": "conclusion"
@@ -707,9 +1582,33 @@
                 "type": "template",
                 "template": "To summarize, _____ stems from _____, requiring _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["the resource crisis", "this problem", "the issue"], "correctAnswer": "the resource crisis"},
-                  {"id": "conclusion2_b2", "options": ["multiple interconnected causes", "various factors", "many reasons"], "correctAnswer": "multiple interconnected causes"},
-                  {"id": "conclusion2_b3", "options": ["comprehensive solutions targeting both supply and demand", "action", "changes"], "correctAnswer": "comprehensive solutions targeting both supply and demand"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "the resource crisis",
+                      "this problem",
+                      "the issue"
+                    ],
+                    "correctAnswer": "the resource crisis"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "multiple interconnected causes",
+                      "various factors",
+                      "many reasons"
+                    ],
+                    "correctAnswer": "multiple interconnected causes"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "comprehensive solutions targeting both supply and demand",
+                      "action",
+                      "changes"
+                    ],
+                    "correctAnswer": "comprehensive solutions targeting both supply and demand"
+                  }
                 ],
                 "correctSentence": "To summarize, the resource crisis stems from multiple interconnected causes, requiring comprehensive solutions targeting both supply and demand.",
                 "usableIn": "conclusion"
@@ -719,9 +1618,33 @@
                 "type": "template",
                 "template": "Overall, addressing _____ demands _____ combined with _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["unsustainable resource consumption", "this problem", "the crisis"], "correctAnswer": "unsustainable resource consumption"},
-                  {"id": "conclusion3_b2", "options": ["policy interventions", "government action", "rules"], "correctAnswer": "policy interventions"},
-                  {"id": "conclusion3_b3", "options": ["shifts in consumer behavior and corporate responsibility", "personal changes", "new attitudes"], "correctAnswer": "shifts in consumer behavior and corporate responsibility"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "unsustainable resource consumption",
+                      "this problem",
+                      "the crisis"
+                    ],
+                    "correctAnswer": "unsustainable resource consumption"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "policy interventions",
+                      "government action",
+                      "rules"
+                    ],
+                    "correctAnswer": "policy interventions"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "shifts in consumer behavior and corporate responsibility",
+                      "personal changes",
+                      "new attitudes"
+                    ],
+                    "correctAnswer": "shifts in consumer behavior and corporate responsibility"
+                  }
                 ],
                 "correctSentence": "Overall, addressing unsustainable resource consumption demands policy interventions combined with shifts in consumer behavior and corporate responsibility.",
                 "usableIn": "conclusion"
@@ -731,8 +1654,24 @@
                 "type": "template",
                 "template": "Ultimately, _____ will determine whether _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["coordinated global action", "our efforts", "what we do"], "correctAnswer": "coordinated global action"},
-                  {"id": "conclusion4_b2", "options": ["future generations inherit a sustainable planet", "we succeed", "problems are solved"], "correctAnswer": "future generations inherit a sustainable planet"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "coordinated global action",
+                      "our efforts",
+                      "what we do"
+                    ],
+                    "correctAnswer": "coordinated global action"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "future generations inherit a sustainable planet",
+                      "we succeed",
+                      "problems are solved"
+                    ],
+                    "correctAnswer": "future generations inherit a sustainable planet"
+                  }
                 ],
                 "correctSentence": "Ultimately, coordinated global action will determine whether future generations inherit a sustainable planet.",
                 "usableIn": "conclusion"
@@ -742,8 +1681,24 @@
                 "type": "template",
                 "template": "In summary, only through _____ can we _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["implementing sustainable practices and technological innovation", "taking action", "making changes"], "correctAnswer": "implementing sustainable practices and technological innovation"},
-                  {"id": "conclusion5_b2", "options": ["reverse the current trajectory of resource depletion", "solve this problem", "fix things"], "correctAnswer": "reverse the current trajectory of resource depletion"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "implementing sustainable practices and technological innovation",
+                      "taking action",
+                      "making changes"
+                    ],
+                    "correctAnswer": "implementing sustainable practices and technological innovation"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "reverse the current trajectory of resource depletion",
+                      "solve this problem",
+                      "fix things"
+                    ],
+                    "correctAnswer": "reverse the current trajectory of resource depletion"
+                  }
                 ],
                 "correctSentence": "In summary, only through implementing sustainable practices and technological innovation can we reverse the current trajectory of resource depletion.",
                 "usableIn": "conclusion"
@@ -796,12 +1751,46 @@
           }
         ],
         "usefulTransitions": {
-          "introducing_causes": ["The primary cause is", "This stems from", "Several factors contribute to", "The main driver of"],
-          "introducing_solutions": ["To address this", "An effective solution involves", "This can be mitigated by", "Governments should"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition", "Another significant factor"],
-          "giving_examples": ["For instance", "For example", "Specifically", "Particularly", "Take... as an example"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "Although", "While"]
+          "introducing_causes": [
+            "The primary cause is",
+            "This stems from",
+            "Several factors contribute to",
+            "The main driver of"
+          ],
+          "introducing_solutions": [
+            "To address this",
+            "An effective solution involves",
+            "This can be mitigated by",
+            "Governments should"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Another significant factor"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Specifically",
+            "Particularly",
+            "Take... as an example"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Although",
+            "While"
+          ]
         }
       }
     },

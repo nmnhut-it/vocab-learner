@@ -79,105 +79,151 @@
             "word": "fulfillment",
             "pronunciation": "/fʊlˈfɪlmənt/",
             "partOfSpeech": "noun",
-            "definition": "Satisfaction from fully developing one's abilities",
+            "definition": "Satisfaction from fully developing one's abilities.",
             "example": "Studying subjects students love leads to greater personal fulfillment.",
-            "synonyms": ["satisfaction", "contentment"]
+            "synonyms": [
+              "satisfaction",
+              "contentment"
+            ]
           },
           {
             "word": "employability",
             "pronunciation": "/ɪmˌplɔɪəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being suitable for paid work",
+            "definition": "The quality of being suitable for paid work.",
             "example": "Career-focused subjects enhance students' employability after graduation.",
-            "synonyms": ["job readiness", "marketability"]
+            "synonyms": [
+              "job readiness",
+              "marketability"
+            ]
           },
           {
             "word": "passion",
             "pronunciation": "/ˈpæʃən/",
             "partOfSpeech": "noun",
-            "definition": "Strong enthusiasm or interest",
+            "definition": "Strong enthusiasm or interest.",
             "example": "Following one's passion often leads to greater academic success.",
-            "synonyms": ["enthusiasm", "interest"]
+            "synonyms": [
+              "enthusiasm",
+              "interest"
+            ]
           },
           {
             "word": "pragmatic",
             "pronunciation": "/præɡˈmætɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Dealing with things in a practical way",
+            "definition": "Dealing with things in a practical way.",
             "example": "A pragmatic approach focuses on subjects with clear career paths.",
-            "synonyms": ["practical", "realistic"]
+            "synonyms": [
+              "practical",
+              "realistic"
+            ]
           },
           {
             "word": "innovation",
             "pronunciation": "/ˌɪnəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The introduction of new ideas or methods",
+            "definition": "The introduction of new ideas or methods.",
             "example": "Passion-driven study often produces innovation and creative breakthroughs.",
-            "synonyms": ["creativity", "invention"]
+            "synonyms": [
+              "creativity",
+              "invention"
+            ]
           },
           {
             "word": "credentials",
             "pronunciation": "/krɪˈdenʃəlz/",
             "partOfSpeech": "noun",
-            "definition": "Qualifications showing suitability for something",
+            "definition": "Qualifications showing suitability for something.",
             "example": "Job-focused degrees provide credentials that employers actively seek.",
-            "synonyms": ["qualifications", "certifications"]
+            "synonyms": [
+              "qualifications",
+              "certifications"
+            ]
           },
           {
             "word": "well-rounded",
             "pronunciation": "/ˌwel ˈraʊndɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Having a personality developed in all aspects",
+            "definition": "Having a personality developed in all aspects.",
             "example": "Studying diverse subjects creates well-rounded graduates.",
-            "synonyms": ["balanced", "comprehensive"]
+            "synonyms": [
+              "balanced",
+              "comprehensive"
+            ]
           },
           {
             "word": "specialization",
             "pronunciation": "/ˌspeʃəlaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Concentrating on a particular area of study",
+            "definition": "Concentrating on a particular area of study.",
             "example": "Career-focused education emphasizes specialization in marketable skills.",
-            "synonyms": ["expertise", "focus"]
+            "synonyms": [
+              "expertise",
+              "focus"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "liberal arts",
-            "definition": "Academic subjects including humanities and sciences",
+            "definition": "Academic subjects including humanities and sciences.",
             "example": "Liberal arts education develops critical thinking across disciplines."
           },
           {
             "phrase": "vocational training",
-            "definition": "Education focused on specific trades or careers",
+            "definition": "Education focused on specific trades or careers.",
             "example": "Vocational training prepares students for immediate employment."
           },
           {
             "phrase": "intrinsic motivation",
-            "definition": "Drive coming from internal satisfaction",
+            "definition": "Drive coming from internal satisfaction.",
             "example": "Studying subjects students love enhances intrinsic motivation."
           },
           {
             "phrase": "job market",
-            "definition": "The availability of employment opportunities",
+            "definition": "The availability of employment opportunities.",
             "example": "Understanding the job market helps students choose practical degrees."
           },
           {
             "phrase": "intellectual curiosity",
-            "definition": "Desire to learn and understand",
+            "definition": "Desire to learn and understand.",
             "example": "Passion-based study nurtures intellectual curiosity and lifelong learning."
           },
           {
             "phrase": "career prospects",
-            "definition": "Likelihood of professional success",
+            "definition": "Likelihood of professional success.",
             "example": "Practical subjects often offer stronger career prospects and salaries."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The debate over university curricula", "There is ongoing debate about", "Opinions differ regarding"],
-          "passion_side": ["Advocates of passion-based learning argue", "Those supporting student choice contend", "Proponents of liberal education believe"],
-          "career_side": ["Supporters of career-focused education argue", "Those favoring practical subjects contend", "Advocates of vocational preparation believe"],
-          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking both views into account"]
+          "introducing": [
+            "The debate over university curricula",
+            "There is ongoing debate about",
+            "Opinions differ regarding"
+          ],
+          "passion_side": [
+            "Advocates of passion-based learning argue",
+            "Those supporting student choice contend",
+            "Proponents of liberal education believe"
+          ],
+          "career_side": [
+            "Supporters of career-focused education argue",
+            "Those favoring practical subjects contend",
+            "Advocates of vocational preparation believe"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking both views into account"
+          ]
         }
       }
     },
@@ -194,7 +240,10 @@
             "clues": {
               "subject": "Studying subjects students love",
               "verb": "increase",
-              "keywords": ["motivation", "academic success"]
+              "keywords": [
+                "motivation",
+                "academic success"
+              ]
             },
             "hint": "Focus on how passion improves performance.",
             "modelAnswer": "Studying subjects students love significantly increases their motivation and likelihood of academic success.",
@@ -205,7 +254,10 @@
             "clues": {
               "subject": "Career-focused degrees",
               "verb": "provide",
-              "keywords": ["employability", "job market"]
+              "keywords": [
+                "employability",
+                "job market"
+              ]
             },
             "hint": "Mention practical employment benefits.",
             "modelAnswer": "Career-focused degrees provide better employability and alignment with current job market demands.",
@@ -216,7 +268,10 @@
             "clues": {
               "subject": "Passion-driven study",
               "verb": "foster",
-              "keywords": ["innovation", "creative thinking"]
+              "keywords": [
+                "innovation",
+                "creative thinking"
+              ]
             },
             "hint": "Discuss creativity and innovation benefits.",
             "modelAnswer": "Passion-driven study fosters innovation and creative thinking that drives societal progress forward.",
@@ -227,7 +282,10 @@
             "clues": {
               "subject": "Practical subjects",
               "verb": "offer",
-              "keywords": ["clear career paths", "financial security"]
+              "keywords": [
+                "clear career paths",
+                "financial security"
+              ]
             },
             "hint": "Focus on concrete career and financial benefits.",
             "modelAnswer": "Practical subjects offer clear career paths and greater financial security after graduation.",
@@ -238,7 +296,10 @@
             "clues": {
               "subject": "Students",
               "verb": "balance",
-              "keywords": ["personal interests", "market demands"]
+              "keywords": [
+                "personal interests",
+                "market demands"
+              ]
             },
             "hint": "Mention finding middle ground between both approaches.",
             "modelAnswer": "Students should ideally balance their personal interests with realistic consideration of market demands.",
@@ -248,31 +309,76 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["following", "one's passion", "often", "leads to", "greater", "academic", "achievement"],
+            "words": [
+              "following",
+              "one's passion",
+              "often",
+              "leads to",
+              "greater",
+              "academic",
+              "achievement"
+            ],
             "correctAnswer": "Following one's passion often leads to greater academic achievement.",
             "hint": "Start with gerund 'Following'"
           },
           {
             "id": "scramble2",
-            "words": ["career-oriented", "subjects", "provide", "better", "employment", "opportunities", "after", "graduation"],
+            "words": [
+              "career-oriented",
+              "subjects",
+              "provide",
+              "better",
+              "employment",
+              "opportunities",
+              "after",
+              "graduation"
+            ],
             "correctAnswer": "Career-oriented subjects provide better employment opportunities after graduation.",
             "hint": "Subject is 'Career-oriented subjects'"
           },
           {
             "id": "scramble3",
-            "words": ["universities", "should", "encourage", "both", "passion", "and", "practicality", "in", "education"],
+            "words": [
+              "universities",
+              "should",
+              "encourage",
+              "both",
+              "passion",
+              "and",
+              "practicality",
+              "in",
+              "education"
+            ],
             "correctAnswer": "Universities should encourage both passion and practicality in education.",
             "hint": "'should encourage' is the verb phrase"
           },
           {
             "id": "scramble4",
-            "words": ["studying", "humanities", "develops", "critical", "thinking", "and", "communication", "skills"],
+            "words": [
+              "studying",
+              "humanities",
+              "develops",
+              "critical",
+              "thinking",
+              "and",
+              "communication",
+              "skills"
+            ],
             "correctAnswer": "Studying humanities develops critical thinking and communication skills.",
             "hint": "Start with gerund 'Studying'"
           },
           {
             "id": "scramble5",
-            "words": ["the", "job market", "values", "specialized", "skills", "in", "technical", "fields"],
+            "words": [
+              "the",
+              "job market",
+              "values",
+              "specialized",
+              "skills",
+              "in",
+              "technical",
+              "fields"
+            ],
             "correctAnswer": "The job market values specialized skills in technical fields.",
             "hint": "'values' is the main verb"
           }
@@ -281,35 +387,55 @@
           {
             "id": "blank1",
             "sentence": "Following one's passion _____ to higher motivation and success.",
-            "options": ["lead", "leads", "leading"],
+            "options": [
+              "lead",
+              "leads",
+              "leading"
+            ],
             "correctAnswer": "leads",
             "explanation": "Gerund subject 'Following' is singular, needs 's' on verb."
           },
           {
             "id": "blank2",
             "sentence": "_____, career-focused degrees offer clearer employment paths.",
-            "options": ["However", "Moreover", "Therefore"],
+            "options": [
+              "However",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to contrast passion-based with practical approaches."
           },
           {
             "id": "blank3",
             "sentence": "Students should _____ personal interests with market realities.",
-            "options": ["balance", "balancing", "balanced"],
+            "options": [
+              "balance",
+              "balancing",
+              "balanced"
+            ],
             "correctAnswer": "balance",
             "explanation": "Use base form 'balance' after 'should'."
           },
           {
             "id": "blank4",
             "sentence": "_____ example, engineering degrees lead to well-paid careers.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For example' is correct for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Practical subjects enhance students' _____ in competitive markets.",
-            "options": ["employability", "employ", "employment"],
+            "options": [
+              "employability",
+              "employ",
+              "employment"
+            ],
             "correctAnswer": "employability",
             "explanation": "Use noun 'employability' (quality of being employable)."
           }
@@ -359,12 +485,42 @@
           }
         ],
         "usefulTransitions": {
-          "passion_perspective": ["Advocates of passion-based learning", "Those supporting student choice", "Proponents of liberal education", "Those valuing intrinsic motivation"],
-          "career_perspective": ["Supporters of career-focused education", "Those favoring practical subjects", "Advocates of vocational training", "Those emphasizing employability"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
-          "showing_result": ["Therefore", "Thus", "Consequently", "As a result"],
-          "contrasting": ["Conversely", "However", "In contrast", "On the other hand"]
+          "passion_perspective": [
+            "Advocates of passion-based learning",
+            "Those supporting student choice",
+            "Proponents of liberal education",
+            "Those valuing intrinsic motivation"
+          ],
+          "career_perspective": [
+            "Supporters of career-focused education",
+            "Those favoring practical subjects",
+            "Advocates of vocational training",
+            "Those emphasizing employability"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "showing_result": [
+            "Therefore",
+            "Thus",
+            "Consequently",
+            "As a result"
+          ],
+          "contrasting": [
+            "Conversely",
+            "However",
+            "In contrast",
+            "On the other hand"
+          ]
         }
       }
     },

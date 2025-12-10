@@ -84,105 +84,153 @@
             "word": "income inequality",
             "pronunciation": "/ˈɪnkʌm ˌɪnɪˈkwɒləti/",
             "partOfSpeech": "noun",
-            "definition": "The unequal distribution of income across a population",
+            "definition": "The unequal distribution of income across a population.",
             "example": "Large salary gaps between executives and workers contribute to income inequality.",
-            "synonyms": ["wage disparity", "earnings gap"]
+            "synonyms": [
+              "wage disparity",
+              "earnings gap"
+            ]
           },
           {
             "word": "executive compensation",
             "pronunciation": "/ɪɡˈzekjʊtɪv ˌkɒmpenˈseɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Total pay package for top company leaders including salary and bonuses",
+            "definition": "Total pay package for top company leaders including salary and bonuses.",
             "example": "Executive compensation often includes stock options and performance bonuses.",
-            "synonyms": ["executive pay", "management remuneration"]
+            "synonyms": [
+              "executive pay",
+              "management remuneration"
+            ]
           },
           {
             "word": "wage gap",
             "pronunciation": "/weɪdʒ ɡæp/",
             "partOfSpeech": "noun",
-            "definition": "The difference in earnings between different groups",
+            "definition": "The difference in earnings between different groups.",
             "example": "The wage gap between CEOs and average workers has widened significantly.",
-            "synonyms": ["pay disparity", "salary difference"]
+            "synonyms": [
+              "pay disparity",
+              "salary difference"
+            ]
           },
           {
             "word": "talent retention",
             "pronunciation": "/ˈtælənt rɪˈtenʃən/",
             "partOfSpeech": "noun",
-            "definition": "Keeping skilled employees from leaving an organization",
+            "definition": "Keeping skilled employees from leaving an organization.",
             "example": "High salaries are often justified as necessary for talent retention.",
-            "synonyms": ["employee retention", "retaining skilled workers"]
+            "synonyms": [
+              "employee retention",
+              "retaining skilled workers"
+            ]
           },
           {
             "word": "corporate responsibility",
             "pronunciation": "/ˈkɔːpərət rɪˌspɒnsəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "A company's duty to act ethically toward all stakeholders",
+            "definition": "A company's duty to act ethically toward all stakeholders.",
             "example": "Corporate responsibility includes fair compensation for all employees.",
-            "synonyms": ["social responsibility", "ethical business practices"]
+            "synonyms": [
+              "social responsibility",
+              "ethical business practices"
+            ]
           },
           {
             "word": "merit-based pay",
             "pronunciation": "/ˈmerɪt beɪst peɪ/",
             "partOfSpeech": "noun",
-            "definition": "Compensation determined by individual performance and value",
+            "definition": "Compensation determined by individual performance and value.",
             "example": "Supporters argue executive salaries are merit-based pay reflecting their contribution.",
-            "synonyms": ["performance-based pay", "results-based compensation"]
+            "synonyms": [
+              "performance-based pay",
+              "results-based compensation"
+            ]
           },
           {
             "word": "accountability",
             "pronunciation": "/əˌkaʊntəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Responsibility for decisions and their consequences",
+            "definition": "Responsibility for decisions and their consequences.",
             "example": "Executives bear greater accountability for company performance.",
-            "synonyms": ["responsibility", "answerability"]
+            "synonyms": [
+              "responsibility",
+              "answerability"
+            ]
           },
           {
             "word": "morale",
             "pronunciation": "/məˈrɑːl/",
             "partOfSpeech": "noun",
-            "definition": "The confidence and enthusiasm of workers",
+            "definition": "The confidence and enthusiasm of workers.",
             "example": "Large pay gaps can negatively impact employee morale.",
-            "synonyms": ["motivation", "spirit"]
+            "synonyms": [
+              "motivation",
+              "spirit"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "CEO-to-worker pay ratio",
-            "definition": "The multiple of CEO salary compared to average employee salary",
+            "definition": "The multiple of CEO salary compared to average employee salary.",
             "example": "Some companies have CEO-to-worker pay ratios exceeding 300 to 1."
           },
           {
             "phrase": "performance bonuses",
-            "definition": "Additional pay based on achieving specific goals",
+            "definition": "Additional pay based on achieving specific goals.",
             "example": "Executives often receive substantial performance bonuses on top of base salary."
           },
           {
             "phrase": "shareholder expectations",
-            "definition": "What investors demand from company leadership",
+            "definition": "What investors demand from company leadership.",
             "example": "High executive pay is sometimes justified by meeting shareholder expectations."
           },
           {
             "phrase": "strategic decision-making",
-            "definition": "High-level planning that affects entire organization",
+            "definition": "High-level planning that affects entire organization.",
             "example": "Executives are compensated highly for their strategic decision-making responsibilities."
           },
           {
             "phrase": "market forces",
-            "definition": "Economic factors that determine prices and wages",
+            "definition": "Economic factors that determine prices and wages.",
             "example": "Proponents argue market forces naturally determine executive compensation levels."
           },
           {
             "phrase": "living wage",
-            "definition": "Minimum income needed for basic standard of living",
+            "definition": "Minimum income needed for basic standard of living.",
             "example": "Critics note that many workers struggle to earn a living wage while executives prosper."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "The issue of executive pay divides opinion"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "The issue of executive pay divides opinion"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -205,8 +253,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["high executive salaries reflect their responsibilities and skills", "all employees should earn the same", "directors work harder than everyone"], "correctAnswer": "high executive salaries reflect their responsibilities and skills"},
-                  {"id": "thesis1_b2", "options": ["such large wage gaps are unjust and harmful to society", "executives should earn less", "workers are overpaid"], "correctAnswer": "such large wage gaps are unjust and harmful to society"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "high executive salaries reflect their responsibilities and skills",
+                      "all employees should earn the same",
+                      "directors work harder than everyone"
+                    ],
+                    "correctAnswer": "high executive salaries reflect their responsibilities and skills"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "such large wage gaps are unjust and harmful to society",
+                      "executives should earn less",
+                      "workers are overpaid"
+                    ],
+                    "correctAnswer": "such large wage gaps are unjust and harmful to society"
+                  }
                 ],
                 "correctSentence": "While some believe high executive salaries reflect their responsibilities and skills, others argue that such large wage gaps are unjust and harmful to society.",
                 "usableIn": "introduction"
@@ -216,8 +280,24 @@
                 "type": "template",
                 "template": "In my opinion, while _____, _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["executives deserve higher compensation than ordinary workers", "everyone should earn the same", "only directors matter"], "correctAnswer": "executives deserve higher compensation than ordinary workers"},
-                  {"id": "thesis2_b2", "options": ["the current wage gap has become excessive and requires regulation", "workers should earn more than executives", "companies should close immediately"], "correctAnswer": "the current wage gap has become excessive and requires regulation"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "executives deserve higher compensation than ordinary workers",
+                      "everyone should earn the same",
+                      "only directors matter"
+                    ],
+                    "correctAnswer": "executives deserve higher compensation than ordinary workers"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the current wage gap has become excessive and requires regulation",
+                      "workers should earn more than executives",
+                      "companies should close immediately"
+                    ],
+                    "correctAnswer": "the current wage gap has become excessive and requires regulation"
+                  }
                 ],
                 "correctSentence": "In my opinion, while executives deserve higher compensation than ordinary workers, the current wage gap has become excessive and requires regulation.",
                 "usableIn": "introduction"
@@ -234,8 +314,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ can be justified because _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["high executive compensation", "low worker wages", "equal pay for all"], "correctAnswer": "high executive compensation"},
-                  {"id": "topic1_b2", "options": ["directors bear greater responsibility and possess rare skills", "they work longer hours", "they deserve luxury lifestyles"], "correctAnswer": "directors bear greater responsibility and possess rare skills"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "high executive compensation",
+                      "low worker wages",
+                      "equal pay for all"
+                    ],
+                    "correctAnswer": "high executive compensation"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "directors bear greater responsibility and possess rare skills",
+                      "they work longer hours",
+                      "they deserve luxury lifestyles"
+                    ],
+                    "correctAnswer": "directors bear greater responsibility and possess rare skills"
+                  }
                 ],
                 "correctSentence": "On the one hand, high executive compensation can be justified because directors bear greater responsibility and possess rare skills.",
                 "usableIn": "body-paragraph-1"
@@ -245,7 +341,15 @@
                 "type": "template",
                 "template": "On the other hand, excessive executive salaries _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["create unfair income inequality that damages employee morale", "are always fair", "help ordinary workers"], "correctAnswer": "create unfair income inequality that damages employee morale"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "create unfair income inequality that damages employee morale",
+                      "are always fair",
+                      "help ordinary workers"
+                    ],
+                    "correctAnswer": "create unfair income inequality that damages employee morale"
+                  }
                 ],
                 "correctSentence": "On the other hand, excessive executive salaries create unfair income inequality that damages employee morale.",
                 "usableIn": "body-paragraph-2"
@@ -262,8 +366,24 @@
                 "type": "template",
                 "template": "This is because _____ directly _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["executive decisions", "worker complaints", "office decorations"], "correctAnswer": "executive decisions"},
-                  {"id": "support1_b2", "options": ["impact the success or failure of the entire organization", "affect their personal wealth", "change office hours"], "correctAnswer": "impact the success or failure of the entire organization"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "executive decisions",
+                      "worker complaints",
+                      "office decorations"
+                    ],
+                    "correctAnswer": "executive decisions"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "impact the success or failure of the entire organization",
+                      "affect their personal wealth",
+                      "change office hours"
+                    ],
+                    "correctAnswer": "impact the success or failure of the entire organization"
+                  }
                 ],
                 "correctSentence": "This is because executive decisions directly impact the success or failure of the entire organization.",
                 "usableIn": "body-paragraph-1"
@@ -273,8 +393,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["extreme pay disparity", "fair wages", "worker satisfaction"], "correctAnswer": "extreme pay disparity"},
-                  {"id": "support2_b2", "options": ["resentment and lower productivity among ordinary workers", "better company performance", "higher profits"], "correctAnswer": "resentment and lower productivity among ordinary workers"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "extreme pay disparity",
+                      "fair wages",
+                      "worker satisfaction"
+                    ],
+                    "correctAnswer": "extreme pay disparity"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "resentment and lower productivity among ordinary workers",
+                      "better company performance",
+                      "higher profits"
+                    ],
+                    "correctAnswer": "resentment and lower productivity among ordinary workers"
+                  }
                 ],
                 "correctSentence": "The main reason is that extreme pay disparity leads to resentment and lower productivity among ordinary workers.",
                 "usableIn": "body-paragraph-2"
@@ -291,9 +427,33 @@
                 "type": "template",
                 "template": "For instance, _____ in _____ can _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["a CEO's strategic decision", "an employee's lunch break", "office gossip"], "correctAnswer": "a CEO's strategic decision"},
-                  {"id": "example1_b2", "options": ["a multinational corporation", "a small shop", "a school"], "correctAnswer": "a multinational corporation"},
-                  {"id": "example1_b3", "options": ["affect thousands of jobs and billions in revenue", "change the coffee brand", "rearrange desks"], "correctAnswer": "affect thousands of jobs and billions in revenue"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "a CEO's strategic decision",
+                      "an employee's lunch break",
+                      "office gossip"
+                    ],
+                    "correctAnswer": "a CEO's strategic decision"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "a multinational corporation",
+                      "a small shop",
+                      "a school"
+                    ],
+                    "correctAnswer": "a multinational corporation"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "affect thousands of jobs and billions in revenue",
+                      "change the coffee brand",
+                      "rearrange desks"
+                    ],
+                    "correctAnswer": "affect thousands of jobs and billions in revenue"
+                  }
                 ],
                 "correctSentence": "For instance, a CEO's strategic decision in a multinational corporation can affect thousands of jobs and billions in revenue.",
                 "usableIn": "body-paragraph-1"
@@ -303,8 +463,24 @@
                 "type": "template",
                 "template": "For example, _____ while _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["some CEOs earn 300 times more than their average employee", "all workers are happy", "everyone earns equally"], "correctAnswer": "some CEOs earn 300 times more than their average employee"},
-                  {"id": "example2_b2", "options": ["many workers struggle to afford basic necessities", "executives work harder", "profits increase"], "correctAnswer": "many workers struggle to afford basic necessities"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "some CEOs earn 300 times more than their average employee",
+                      "all workers are happy",
+                      "everyone earns equally"
+                    ],
+                    "correctAnswer": "some CEOs earn 300 times more than their average employee"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "many workers struggle to afford basic necessities",
+                      "executives work harder",
+                      "profits increase"
+                    ],
+                    "correctAnswer": "many workers struggle to afford basic necessities"
+                  }
                 ],
                 "correctSentence": "For example, some CEOs earn 300 times more than their average employee while many workers struggle to afford basic necessities.",
                 "usableIn": "body-paragraph-2"
@@ -321,8 +497,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["executive roles merit higher compensation", "all salaries should be equal", "workers are unnecessary"], "correctAnswer": "executive roles merit higher compensation"},
-                  {"id": "conclusion1_b2", "options": ["current pay gaps have become socially harmful and need reasonable limits", "executives should earn less than workers", "the system is perfect"], "correctAnswer": "current pay gaps have become socially harmful and need reasonable limits"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "executive roles merit higher compensation",
+                      "all salaries should be equal",
+                      "workers are unnecessary"
+                    ],
+                    "correctAnswer": "executive roles merit higher compensation"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "current pay gaps have become socially harmful and need reasonable limits",
+                      "executives should earn less than workers",
+                      "the system is perfect"
+                    ],
+                    "correctAnswer": "current pay gaps have become socially harmful and need reasonable limits"
+                  }
                 ],
                 "correctSentence": "In conclusion, while executive roles merit higher compensation, I believe current pay gaps have become socially harmful and need reasonable limits.",
                 "usableIn": "conclusion"
@@ -351,12 +543,40 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of high executive pay argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Critics contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of high executive pay argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Critics contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

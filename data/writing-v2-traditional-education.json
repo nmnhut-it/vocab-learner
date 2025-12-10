@@ -80,105 +80,165 @@
             "word": "pedagogical",
             "pronunciation": "/ˌpedəˈɡɒdʒɪkəl/",
             "partOfSpeech": "adjective",
-            "definition": "Relating to teaching methods and educational practices",
+            "definition": "Relating to teaching methods and educational practices.",
             "example": "Traditional classrooms offer pedagogical advantages that online platforms cannot fully replicate.",
-            "synonyms": ["educational", "instructional", "teaching-related"]
+            "synonyms": [
+              "educational",
+              "instructional",
+              "teaching-related"
+            ]
           },
           {
             "word": "interactive",
             "pronunciation": "/ˌɪntərˈæktɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Involving two-way communication and active participation",
+            "definition": "Involving two-way communication and active participation.",
             "example": "Interactive classroom discussions develop critical thinking skills more effectively than passive video lectures.",
-            "synonyms": ["engaging", "participatory", "collaborative"]
+            "synonyms": [
+              "engaging",
+              "participatory",
+              "collaborative"
+            ]
           },
           {
             "word": "paradigm shift",
             "pronunciation": "/ˈpærədaɪm ʃɪft/",
             "partOfSpeech": "noun",
-            "definition": "A fundamental change in approach or underlying assumptions",
+            "definition": "A fundamental change in approach or underlying assumptions.",
             "example": "The integration of technology represents a paradigm shift in educational delivery.",
-            "synonyms": ["fundamental change", "transformation"]
+            "synonyms": [
+              "fundamental change",
+              "transformation"
+            ]
           },
           {
             "word": "complement",
             "pronunciation": "/ˈkɒmplɪment/",
             "partOfSpeech": "verb",
-            "definition": "To add to something in a way that enhances or improves it",
+            "definition": "To add to something in a way that enhances or improves it.",
             "example": "Educational technology should complement traditional teaching rather than replace it entirely.",
-            "synonyms": ["enhance", "supplement", "augment"]
+            "synonyms": [
+              "enhance",
+              "supplement",
+              "augment"
+            ]
           },
           {
             "word": "collaborative",
             "pronunciation": "/kəˈlæbərətɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Involving cooperation between people working together",
+            "definition": "Involving cooperation between people working together.",
             "example": "Collaborative learning in physical classrooms develops essential social skills.",
-            "synonyms": ["cooperative", "joint", "team-based"]
+            "synonyms": [
+              "cooperative",
+              "joint",
+              "team-based"
+            ]
           },
           {
             "word": "diminish",
             "pronunciation": "/dɪˈmɪnɪʃ/",
             "partOfSpeech": "verb",
-            "definition": "To make or become less",
+            "definition": "To make or become less.",
             "example": "The role of teachers may evolve but is unlikely to diminish completely.",
-            "synonyms": ["reduce", "decrease", "lessen"]
+            "synonyms": [
+              "reduce",
+              "decrease",
+              "lessen"
+            ]
           },
           {
             "word": "indispensable",
             "pronunciation": "/ˌɪndɪˈspensəbl/",
             "partOfSpeech": "adjective",
-            "definition": "Absolutely necessary and impossible to do without",
+            "definition": "Absolutely necessary and impossible to do without.",
             "example": "Face-to-face interaction remains indispensable for developing interpersonal skills.",
-            "synonyms": ["essential", "crucial", "vital"]
+            "synonyms": [
+              "essential",
+              "crucial",
+              "vital"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
+            "definition": "To make an action or process easier.",
             "example": "Technology can facilitate personalized learning experiences for diverse student needs.",
-            "synonyms": ["enable", "assist", "support"]
+            "synonyms": [
+              "enable",
+              "assist",
+              "support"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "blended learning",
-            "definition": "Educational approach combining online digital media with traditional classroom methods",
+            "definition": "Educational approach combining online digital media with traditional classroom methods.",
             "example": "Blended learning models integrate the best aspects of both traditional and digital education."
           },
           {
             "phrase": "online education platforms",
-            "definition": "Digital systems that deliver educational content remotely via the internet",
+            "definition": "Digital systems that deliver educational content remotely via the internet.",
             "example": "Online education platforms like Coursera and Khan Academy have expanded access to learning resources."
           },
           {
             "phrase": "interpersonal skills",
-            "definition": "Abilities used to communicate and interact effectively with others",
+            "definition": "Abilities used to communicate and interact effectively with others.",
             "example": "Physical classrooms are essential for developing interpersonal skills through direct social interaction."
           },
           {
             "phrase": "personalized learning",
-            "definition": "Tailoring education to individual student needs, pace, and interests",
+            "definition": "Tailoring education to individual student needs, pace, and interests.",
             "example": "AI-powered systems enable personalized learning paths for each student."
           },
           {
             "phrase": "human element",
-            "definition": "The personal, emotional, and social aspects of human interaction",
+            "definition": "The personal, emotional, and social aspects of human interaction.",
             "example": "The human element in teaching provides emotional support that algorithms cannot replicate."
           },
           {
             "phrase": "digital divide",
-            "definition": "Gap between those with access to technology and those without",
+            "definition": "Gap between those with access to technology and those without.",
             "example": "The digital divide prevents complete replacement of traditional education with online alternatives."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The notion that", "It is often argued that", "While some claim", "There is a growing belief that"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Beyond this"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "Take the case of"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+          "introducing": [
+            "The notion that",
+            "It is often argued that",
+            "While some claim",
+            "There is a growing belief that"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Beyond this"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "Take the case of"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In my view"
+          ]
         }
       }
     },
@@ -201,8 +261,24 @@
                 "type": "template",
                 "template": "While _____ have transformed education, I _____ that traditional classrooms will be completely replaced by 2050.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["technological advances", "textbooks", "school buildings"], "correctAnswer": "technological advances"},
-                  {"id": "thesis1_b2", "options": ["disagree", "am unsure", "maybe think"], "correctAnswer": "disagree"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "technological advances",
+                      "textbooks",
+                      "school buildings"
+                    ],
+                    "correctAnswer": "technological advances"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "disagree",
+                      "am unsure",
+                      "maybe think"
+                    ],
+                    "correctAnswer": "disagree"
+                  }
                 ],
                 "correctSentence": "While technological advances have transformed education, I disagree that traditional classrooms will be completely replaced by 2050.",
                 "usableIn": "introduction"
@@ -212,9 +288,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ will continue to play _____ role in education because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["physical classrooms", "computers", "textbooks"], "correctAnswer": "physical classrooms"},
-                  {"id": "thesis2_b2", "options": ["an essential", "a minimal", "no"], "correctAnswer": "an essential"},
-                  {"id": "thesis2_b3", "options": ["human interaction is irreplaceable in learning", "technology is expensive", "buildings exist"], "correctAnswer": "human interaction is irreplaceable in learning"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "physical classrooms",
+                      "computers",
+                      "textbooks"
+                    ],
+                    "correctAnswer": "physical classrooms"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "an essential",
+                      "a minimal",
+                      "no"
+                    ],
+                    "correctAnswer": "an essential"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "human interaction is irreplaceable in learning",
+                      "technology is expensive",
+                      "buildings exist"
+                    ],
+                    "correctAnswer": "human interaction is irreplaceable in learning"
+                  }
                 ],
                 "correctSentence": "In my opinion, physical classrooms will continue to play an essential role in education because human interaction is irreplaceable in learning.",
                 "usableIn": "introduction"
@@ -224,9 +324,33 @@
                 "type": "template",
                 "template": "I strongly _____ with the view that _____ because _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["disagree", "am confused", "hesitate"], "correctAnswer": "disagree"},
-                  {"id": "thesis3_b2", "options": ["teachers will become obsolete", "schools will improve", "education will continue"], "correctAnswer": "teachers will become obsolete"},
-                  {"id": "thesis3_b3", "options": ["educators provide crucial guidance that technology cannot replicate", "everyone likes teachers", "schools are old"], "correctAnswer": "educators provide crucial guidance that technology cannot replicate"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "disagree",
+                      "am confused",
+                      "hesitate"
+                    ],
+                    "correctAnswer": "disagree"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "teachers will become obsolete",
+                      "schools will improve",
+                      "education will continue"
+                    ],
+                    "correctAnswer": "teachers will become obsolete"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": [
+                      "educators provide crucial guidance that technology cannot replicate",
+                      "everyone likes teachers",
+                      "schools are old"
+                    ],
+                    "correctAnswer": "educators provide crucial guidance that technology cannot replicate"
+                  }
                 ],
                 "correctSentence": "I strongly disagree with the view that teachers will become obsolete because educators provide crucial guidance that technology cannot replicate.",
                 "usableIn": "introduction"
@@ -236,8 +360,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ rather than _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["technology will complement traditional education", "everything will change completely", "nothing will happen"], "correctAnswer": "technology will complement traditional education"},
-                  {"id": "thesis4_b2", "options": ["replace it entirely", "improve slightly", "cost more money"], "correctAnswer": "replace it entirely"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "technology will complement traditional education",
+                      "everything will change completely",
+                      "nothing will happen"
+                    ],
+                    "correctAnswer": "technology will complement traditional education"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "replace it entirely",
+                      "improve slightly",
+                      "cost more money"
+                    ],
+                    "correctAnswer": "replace it entirely"
+                  }
                 ],
                 "correctSentence": "From my perspective, technology will complement traditional education rather than replace it entirely.",
                 "usableIn": "introduction"
@@ -247,9 +387,33 @@
                 "type": "template",
                 "template": "While _____ is inevitable, I believe _____ will remain _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["technological integration in education", "building new schools", "buying textbooks"], "correctAnswer": "technological integration in education"},
-                  {"id": "thesis5_b2", "options": ["the teacher-student relationship in physical settings", "expensive equipment", "old methods"], "correctAnswer": "the teacher-student relationship in physical settings"},
-                  {"id": "thesis5_b3", "options": ["fundamental to effective learning", "somewhat useful", "completely unnecessary"], "correctAnswer": "fundamental to effective learning"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "technological integration in education",
+                      "building new schools",
+                      "buying textbooks"
+                    ],
+                    "correctAnswer": "technological integration in education"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the teacher-student relationship in physical settings",
+                      "expensive equipment",
+                      "old methods"
+                    ],
+                    "correctAnswer": "the teacher-student relationship in physical settings"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "fundamental to effective learning",
+                      "somewhat useful",
+                      "completely unnecessary"
+                    ],
+                    "correctAnswer": "fundamental to effective learning"
+                  }
                 ],
                 "correctSentence": "While technological integration in education is inevitable, I believe the teacher-student relationship in physical settings will remain fundamental to effective learning.",
                 "usableIn": "introduction"
@@ -266,8 +430,24 @@
                 "type": "template",
                 "template": "The primary reason _____ is that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["traditional classrooms cannot be fully replaced", "technology is perfect", "education will disappear"], "correctAnswer": "traditional classrooms cannot be fully replaced"},
-                  {"id": "topic1_b2", "options": ["face-to-face interaction is essential for developing social and emotional skills", "schools are expensive", "computers break down"], "correctAnswer": "face-to-face interaction is essential for developing social and emotional skills"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "traditional classrooms cannot be fully replaced",
+                      "technology is perfect",
+                      "education will disappear"
+                    ],
+                    "correctAnswer": "traditional classrooms cannot be fully replaced"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "face-to-face interaction is essential for developing social and emotional skills",
+                      "schools are expensive",
+                      "computers break down"
+                    ],
+                    "correctAnswer": "face-to-face interaction is essential for developing social and emotional skills"
+                  }
                 ],
                 "correctSentence": "The primary reason traditional classrooms cannot be fully replaced is that face-to-face interaction is essential for developing social and emotional skills.",
                 "usableIn": "body-paragraph-1"
@@ -277,8 +457,24 @@
                 "type": "template",
                 "template": "Another crucial factor is that _____ provide _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["human teachers", "textbooks", "buildings"], "correctAnswer": "human teachers"},
-                  {"id": "topic2_b2", "options": ["personalized guidance and emotional support that AI cannot replicate", "expensive services", "old information"], "correctAnswer": "personalized guidance and emotional support that AI cannot replicate"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "human teachers",
+                      "textbooks",
+                      "buildings"
+                    ],
+                    "correctAnswer": "human teachers"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "personalized guidance and emotional support that AI cannot replicate",
+                      "expensive services",
+                      "old information"
+                    ],
+                    "correctAnswer": "personalized guidance and emotional support that AI cannot replicate"
+                  }
                 ],
                 "correctSentence": "Another crucial factor is that human teachers provide personalized guidance and emotional support that AI cannot replicate.",
                 "usableIn": "body-paragraph-2"
@@ -288,8 +484,24 @@
                 "type": "template",
                 "template": "_____ demonstrates why _____ remains indispensable.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["The collaborative nature of classroom learning", "Computer technology", "School furniture"], "correctAnswer": "The collaborative nature of classroom learning"},
-                  {"id": "topic3_b2", "options": ["physical educational environments", "expensive equipment", "old teaching methods"], "correctAnswer": "physical educational environments"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "The collaborative nature of classroom learning",
+                      "Computer technology",
+                      "School furniture"
+                    ],
+                    "correctAnswer": "The collaborative nature of classroom learning"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "physical educational environments",
+                      "expensive equipment",
+                      "old teaching methods"
+                    ],
+                    "correctAnswer": "physical educational environments"
+                  }
                 ],
                 "correctSentence": "The collaborative nature of classroom learning demonstrates why physical educational environments remains indispensable.",
                 "usableIn": "body-paragraph-1"
@@ -299,8 +511,24 @@
                 "type": "template",
                 "template": "Furthermore, _____ cannot adequately _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["online platforms", "traditional schools", "teachers"], "correctAnswer": "online platforms"},
-                  {"id": "topic4_b2", "options": ["replicate the spontaneous discussions and peer learning of physical classrooms", "provide any education", "use computers"], "correctAnswer": "replicate the spontaneous discussions and peer learning of physical classrooms"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "online platforms",
+                      "traditional schools",
+                      "teachers"
+                    ],
+                    "correctAnswer": "online platforms"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "replicate the spontaneous discussions and peer learning of physical classrooms",
+                      "provide any education",
+                      "use computers"
+                    ],
+                    "correctAnswer": "replicate the spontaneous discussions and peer learning of physical classrooms"
+                  }
                 ],
                 "correctSentence": "Furthermore, online platforms cannot adequately replicate the spontaneous discussions and peer learning of physical classrooms.",
                 "usableIn": "body-paragraph-2"
@@ -310,8 +538,24 @@
                 "type": "template",
                 "template": "Physical classrooms are particularly important for _____ because _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["young learners", "university professors", "school administrators"], "correctAnswer": "young learners"},
-                  {"id": "topic5_b2", "options": ["they require structured environments and direct teacher supervision", "they own computers", "buildings are nearby"], "correctAnswer": "they require structured environments and direct teacher supervision"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "young learners",
+                      "university professors",
+                      "school administrators"
+                    ],
+                    "correctAnswer": "young learners"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "they require structured environments and direct teacher supervision",
+                      "they own computers",
+                      "buildings are nearby"
+                    ],
+                    "correctAnswer": "they require structured environments and direct teacher supervision"
+                  }
                 ],
                 "correctSentence": "Physical classrooms are particularly important for young learners because they require structured environments and direct teacher supervision.",
                 "usableIn": "body-paragraph-1"
@@ -321,8 +565,24 @@
                 "type": "template",
                 "template": "The _____ inherent in traditional education _____ through technology alone.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["human element", "expensive costs", "old methods"], "correctAnswer": "human element"},
-                  {"id": "topic6_b2", "options": ["cannot be fully reproduced", "is completely unnecessary", "costs too much"], "correctAnswer": "cannot be fully reproduced"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "human element",
+                      "expensive costs",
+                      "old methods"
+                    ],
+                    "correctAnswer": "human element"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "cannot be fully reproduced",
+                      "is completely unnecessary",
+                      "costs too much"
+                    ],
+                    "correctAnswer": "cannot be fully reproduced"
+                  }
                 ],
                 "correctSentence": "The human element inherent in traditional education cannot be fully reproduced through technology alone.",
                 "usableIn": "body-paragraph-2"
@@ -332,9 +592,33 @@
                 "type": "template",
                 "template": "_____ in classroom settings foster _____ that _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["Direct interactions", "Computer screens", "Expensive equipment"], "correctAnswer": "Direct interactions"},
-                  {"id": "topic7_b2", "options": ["interpersonal skills", "technical problems", "high costs"], "correctAnswer": "interpersonal skills"},
-                  {"id": "topic7_b3", "options": ["are essential for professional and personal success", "matter very little", "cost money"], "correctAnswer": "are essential for professional and personal success"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "Direct interactions",
+                      "Computer screens",
+                      "Expensive equipment"
+                    ],
+                    "correctAnswer": "Direct interactions"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "interpersonal skills",
+                      "technical problems",
+                      "high costs"
+                    ],
+                    "correctAnswer": "interpersonal skills"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "are essential for professional and personal success",
+                      "matter very little",
+                      "cost money"
+                    ],
+                    "correctAnswer": "are essential for professional and personal success"
+                  }
                 ],
                 "correctSentence": "Direct interactions in classroom settings foster interpersonal skills that are essential for professional and personal success.",
                 "usableIn": "body-paragraph-1"
@@ -344,8 +628,24 @@
                 "type": "template",
                 "template": "It is unrealistic to expect _____ when _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["complete replacement of traditional education by 2050", "schools to improve", "technology to exist"], "correctAnswer": "complete replacement of traditional education by 2050"},
-                  {"id": "topic8_b2", "options": ["many regions still lack reliable internet access and technological infrastructure", "some schools are old", "teachers exist"], "correctAnswer": "many regions still lack reliable internet access and technological infrastructure"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "complete replacement of traditional education by 2050",
+                      "schools to improve",
+                      "technology to exist"
+                    ],
+                    "correctAnswer": "complete replacement of traditional education by 2050"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "many regions still lack reliable internet access and technological infrastructure",
+                      "some schools are old",
+                      "teachers exist"
+                    ],
+                    "correctAnswer": "many regions still lack reliable internet access and technological infrastructure"
+                  }
                 ],
                 "correctSentence": "It is unrealistic to expect complete replacement of traditional education by 2050 when many regions still lack reliable internet access and technological infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -362,8 +662,24 @@
                 "type": "template",
                 "template": "This is because _____ enables students to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["classroom interaction", "using computers", "buying textbooks"], "correctAnswer": "classroom interaction"},
-                  {"id": "support1_b2", "options": ["develop communication skills, teamwork abilities, and emotional intelligence", "stare at screens", "memorize facts"], "correctAnswer": "develop communication skills, teamwork abilities, and emotional intelligence"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "classroom interaction",
+                      "using computers",
+                      "buying textbooks"
+                    ],
+                    "correctAnswer": "classroom interaction"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "develop communication skills, teamwork abilities, and emotional intelligence",
+                      "stare at screens",
+                      "memorize facts"
+                    ],
+                    "correctAnswer": "develop communication skills, teamwork abilities, and emotional intelligence"
+                  }
                 ],
                 "correctSentence": "This is because classroom interaction enables students to develop communication skills, teamwork abilities, and emotional intelligence.",
                 "usableIn": "body-paragraph-1"
@@ -373,8 +689,24 @@
                 "type": "template",
                 "template": "The reason is that _____ requires _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["effective learning", "expensive technology", "large buildings"], "correctAnswer": "effective learning"},
-                  {"id": "support2_b2", "options": ["immediate feedback and adaptive teaching that human educators provide naturally", "only computers", "no interaction"], "correctAnswer": "immediate feedback and adaptive teaching that human educators provide naturally"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "effective learning",
+                      "expensive technology",
+                      "large buildings"
+                    ],
+                    "correctAnswer": "effective learning"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "immediate feedback and adaptive teaching that human educators provide naturally",
+                      "only computers",
+                      "no interaction"
+                    ],
+                    "correctAnswer": "immediate feedback and adaptive teaching that human educators provide naturally"
+                  }
                 ],
                 "correctSentence": "The reason is that effective learning requires immediate feedback and adaptive teaching that human educators provide naturally.",
                 "usableIn": "body-paragraph-2"
@@ -384,9 +716,33 @@
                 "type": "template",
                 "template": "_____ allows teachers to _____ in ways that _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Physical presence", "Computer software", "Video lectures"], "correctAnswer": "Physical presence"},
-                  {"id": "support3_b2", "options": ["observe student behavior and adjust instruction accordingly", "save money", "avoid work"], "correctAnswer": "observe student behavior and adjust instruction accordingly"},
-                  {"id": "support3_b3", "options": ["online systems cannot match", "are expensive", "take little time"], "correctAnswer": "online systems cannot match"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Physical presence",
+                      "Computer software",
+                      "Video lectures"
+                    ],
+                    "correctAnswer": "Physical presence"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "observe student behavior and adjust instruction accordingly",
+                      "save money",
+                      "avoid work"
+                    ],
+                    "correctAnswer": "observe student behavior and adjust instruction accordingly"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "online systems cannot match",
+                      "are expensive",
+                      "take little time"
+                    ],
+                    "correctAnswer": "online systems cannot match"
+                  }
                 ],
                 "correctSentence": "Physical presence allows teachers to observe student behavior and adjust instruction accordingly in ways that online systems cannot match.",
                 "usableIn": "body-paragraph-1"
@@ -396,9 +752,33 @@
                 "type": "template",
                 "template": "_____ creates _____, which is vital for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["The classroom environment", "Expensive equipment", "Old furniture"], "correctAnswer": "The classroom environment"},
-                  {"id": "support4_b2", "options": ["a structured learning space with minimal distractions", "technical problems", "high costs"], "correctAnswer": "a structured learning space with minimal distractions"},
-                  {"id": "support4_b3", "options": ["maintaining student focus and discipline", "wasting time", "spending money"], "correctAnswer": "maintaining student focus and discipline"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "The classroom environment",
+                      "Expensive equipment",
+                      "Old furniture"
+                    ],
+                    "correctAnswer": "The classroom environment"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "a structured learning space with minimal distractions",
+                      "technical problems",
+                      "high costs"
+                    ],
+                    "correctAnswer": "a structured learning space with minimal distractions"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "maintaining student focus and discipline",
+                      "wasting time",
+                      "spending money"
+                    ],
+                    "correctAnswer": "maintaining student focus and discipline"
+                  }
                 ],
                 "correctSentence": "The classroom environment creates a structured learning space with minimal distractions, which is vital for maintaining student focus and discipline.",
                 "usableIn": "body-paragraph-1"
@@ -408,8 +788,24 @@
                 "type": "template",
                 "template": "By _____, teachers can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["reading students' facial expressions and body language", "typing emails", "watching videos"], "correctAnswer": "reading students' facial expressions and body language"},
-                  {"id": "support5_b2", "options": ["identify confusion or understanding instantly and adapt their teaching approach", "work less", "earn more"], "correctAnswer": "identify confusion or understanding instantly and adapt their teaching approach"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "reading students' facial expressions and body language",
+                      "typing emails",
+                      "watching videos"
+                    ],
+                    "correctAnswer": "reading students' facial expressions and body language"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "identify confusion or understanding instantly and adapt their teaching approach",
+                      "work less",
+                      "earn more"
+                    ],
+                    "correctAnswer": "identify confusion or understanding instantly and adapt their teaching approach"
+                  }
                 ],
                 "correctSentence": "By reading students' facial expressions and body language, teachers can identify confusion or understanding instantly and adapt their teaching approach.",
                 "usableIn": "body-paragraph-2"
@@ -419,9 +815,33 @@
                 "type": "template",
                 "template": "_____ facilitates _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Traditional education", "Online learning", "Expensive technology"], "correctAnswer": "Traditional education"},
-                  {"id": "support6_b2", "options": ["peer-to-peer learning", "isolation", "high costs"], "correctAnswer": "peer-to-peer learning"},
-                  {"id": "support6_b3", "options": ["group projects and collaborative problem-solving activities", "individual screen time", "expensive software"], "correctAnswer": "group projects and collaborative problem-solving activities"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Traditional education",
+                      "Online learning",
+                      "Expensive technology"
+                    ],
+                    "correctAnswer": "Traditional education"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "peer-to-peer learning",
+                      "isolation",
+                      "high costs"
+                    ],
+                    "correctAnswer": "peer-to-peer learning"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "group projects and collaborative problem-solving activities",
+                      "individual screen time",
+                      "expensive software"
+                    ],
+                    "correctAnswer": "group projects and collaborative problem-solving activities"
+                  }
                 ],
                 "correctSentence": "Traditional education facilitates peer-to-peer learning through group projects and collaborative problem-solving activities.",
                 "usableIn": "body-paragraph-1"
@@ -431,8 +851,24 @@
                 "type": "template",
                 "template": "Teachers provide _____ that _____ simply cannot offer.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["mentorship and inspiration", "computer programs", "video content"], "correctAnswer": "mentorship and inspiration"},
-                  {"id": "support7_b2", "options": ["algorithms and automated systems", "human teachers", "traditional methods"], "correctAnswer": "algorithms and automated systems"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "mentorship and inspiration",
+                      "computer programs",
+                      "video content"
+                    ],
+                    "correctAnswer": "mentorship and inspiration"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "algorithms and automated systems",
+                      "human teachers",
+                      "traditional methods"
+                    ],
+                    "correctAnswer": "algorithms and automated systems"
+                  }
                 ],
                 "correctSentence": "Teachers provide mentorship and inspiration that algorithms and automated systems simply cannot offer.",
                 "usableIn": "body-paragraph-2"
@@ -442,8 +878,24 @@
                 "type": "template",
                 "template": "Online learning often lacks _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["the accountability and motivation", "expensive equipment", "technical features"], "correctAnswer": "the accountability and motivation"},
-                  {"id": "support8_b2", "options": ["physical classroom attendance naturally provides", "cost a lot", "are unnecessary"], "correctAnswer": "physical classroom attendance naturally provides"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "the accountability and motivation",
+                      "expensive equipment",
+                      "technical features"
+                    ],
+                    "correctAnswer": "the accountability and motivation"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "physical classroom attendance naturally provides",
+                      "cost a lot",
+                      "are unnecessary"
+                    ],
+                    "correctAnswer": "physical classroom attendance naturally provides"
+                  }
                 ],
                 "correctSentence": "Online learning often lacks the accountability and motivation that physical classroom attendance naturally provides.",
                 "usableIn": "body-paragraph-2"
@@ -453,9 +905,33 @@
                 "type": "template",
                 "template": "_____ enables students to _____ that prepare them for _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Participating in classroom discussions", "Watching lecture videos", "Using expensive software"], "correctAnswer": "Participating in classroom discussions"},
-                  {"id": "support9_b2", "options": ["practice public speaking and debate skills", "work in isolation", "avoid interaction"], "correctAnswer": "practice public speaking and debate skills"},
-                  {"id": "support9_b3", "options": ["professional careers requiring strong communication abilities", "solitary work", "technical tasks only"], "correctAnswer": "professional careers requiring strong communication abilities"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Participating in classroom discussions",
+                      "Watching lecture videos",
+                      "Using expensive software"
+                    ],
+                    "correctAnswer": "Participating in classroom discussions"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "practice public speaking and debate skills",
+                      "work in isolation",
+                      "avoid interaction"
+                    ],
+                    "correctAnswer": "practice public speaking and debate skills"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "professional careers requiring strong communication abilities",
+                      "solitary work",
+                      "technical tasks only"
+                    ],
+                    "correctAnswer": "professional careers requiring strong communication abilities"
+                  }
                 ],
                 "correctSentence": "Participating in classroom discussions enables students to practice public speaking and debate skills that prepare them for professional careers requiring strong communication abilities.",
                 "usableIn": "body-paragraph-1"
@@ -465,9 +941,33 @@
                 "type": "template",
                 "template": "In traditional settings, _____ often _____ at critical moments when _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["experienced educators", "computer programs", "textbooks"], "correctAnswer": "experienced educators"},
-                  {"id": "support10_b2", "options": ["provide encouragement and guidance", "malfunction", "cost money"], "correctAnswer": "provide encouragement and guidance"},
-                  {"id": "support10_b3", "options": ["students face learning challenges or personal difficulties", "everything is easy", "no issues exist"], "correctAnswer": "students face learning challenges or personal difficulties"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "experienced educators",
+                      "computer programs",
+                      "textbooks"
+                    ],
+                    "correctAnswer": "experienced educators"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "provide encouragement and guidance",
+                      "malfunction",
+                      "cost money"
+                    ],
+                    "correctAnswer": "provide encouragement and guidance"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "students face learning challenges or personal difficulties",
+                      "everything is easy",
+                      "no issues exist"
+                    ],
+                    "correctAnswer": "students face learning challenges or personal difficulties"
+                  }
                 ],
                 "correctSentence": "In traditional settings, experienced educators often provide encouragement and guidance at critical moments when students face learning challenges or personal difficulties.",
                 "usableIn": "body-paragraph-2"
@@ -477,9 +977,33 @@
                 "type": "template",
                 "template": "As a result, _____ develops _____ that _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["classroom-based learning", "online education", "expensive technology"], "correctAnswer": "classroom-based learning"},
-                  {"id": "support11_b2", "options": ["well-rounded individuals with both academic knowledge and social competence", "isolated learners", "technical skills only"], "correctAnswer": "well-rounded individuals with both academic knowledge and social competence"},
-                  {"id": "support11_b3", "options": ["society needs for a functioning workforce", "nobody requires", "cost too much"], "correctAnswer": "society needs for a functioning workforce"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "classroom-based learning",
+                      "online education",
+                      "expensive technology"
+                    ],
+                    "correctAnswer": "classroom-based learning"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "well-rounded individuals with both academic knowledge and social competence",
+                      "isolated learners",
+                      "technical skills only"
+                    ],
+                    "correctAnswer": "well-rounded individuals with both academic knowledge and social competence"
+                  },
+                  {
+                    "id": "support11_b3",
+                    "options": [
+                      "society needs for a functioning workforce",
+                      "nobody requires",
+                      "cost too much"
+                    ],
+                    "correctAnswer": "society needs for a functioning workforce"
+                  }
                 ],
                 "correctSentence": "As a result, classroom-based learning develops well-rounded individuals with both academic knowledge and social competence that society needs for a functioning workforce.",
                 "usableIn": "body-paragraph-1"
@@ -489,9 +1013,33 @@
                 "type": "template",
                 "template": "Consequently, _____ serves as _____ rather than _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["educational technology", "traditional teaching", "school buildings"], "correctAnswer": "educational technology"},
-                  {"id": "support12_b2", "options": ["a valuable supplementary tool", "the only solution", "an expensive burden"], "correctAnswer": "a valuable supplementary tool"},
-                  {"id": "support12_b3", "options": ["a complete replacement for traditional instruction", "a minor addition", "a waste of money"], "correctAnswer": "a complete replacement for traditional instruction"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "educational technology",
+                      "traditional teaching",
+                      "school buildings"
+                    ],
+                    "correctAnswer": "educational technology"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "a valuable supplementary tool",
+                      "the only solution",
+                      "an expensive burden"
+                    ],
+                    "correctAnswer": "a valuable supplementary tool"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "a complete replacement for traditional instruction",
+                      "a minor addition",
+                      "a waste of money"
+                    ],
+                    "correctAnswer": "a complete replacement for traditional instruction"
+                  }
                 ],
                 "correctSentence": "Consequently, educational technology serves as a valuable supplementary tool rather than a complete replacement for traditional instruction.",
                 "usableIn": "body-paragraph-2"
@@ -508,9 +1056,33 @@
                 "type": "template",
                 "template": "For instance, _____ demonstrated that _____ when _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the COVID-19 pandemic", "a random study", "school holidays"], "correctAnswer": "the COVID-19 pandemic"},
-                  {"id": "example1_b2", "options": ["many students struggled with motivation and engagement", "online learning was perfect", "nothing changed"], "correctAnswer": "many students struggled with motivation and engagement"},
-                  {"id": "example1_b3", "options": ["forced to learn entirely online without classroom structure", "given more freedom", "schools closed briefly"], "correctAnswer": "forced to learn entirely online without classroom structure"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the COVID-19 pandemic",
+                      "a random study",
+                      "school holidays"
+                    ],
+                    "correctAnswer": "the COVID-19 pandemic"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "many students struggled with motivation and engagement",
+                      "online learning was perfect",
+                      "nothing changed"
+                    ],
+                    "correctAnswer": "many students struggled with motivation and engagement"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "forced to learn entirely online without classroom structure",
+                      "given more freedom",
+                      "schools closed briefly"
+                    ],
+                    "correctAnswer": "forced to learn entirely online without classroom structure"
+                  }
                 ],
                 "correctSentence": "For instance, the COVID-19 pandemic demonstrated that many students struggled with motivation and engagement when forced to learn entirely online without classroom structure.",
                 "usableIn": "body-paragraph-1"
@@ -520,8 +1092,24 @@
                 "type": "template",
                 "template": "For example, platforms like _____ while _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Khan Academy and Coursera provide excellent supplementary resources", "traditional schools completely fail", "technology solves everything"], "correctAnswer": "Khan Academy and Coursera provide excellent supplementary resources"},
-                  {"id": "example2_b2", "options": ["they cannot replace the interactive guidance of experienced teachers", "being perfect solutions", "costing nothing"], "correctAnswer": "they cannot replace the interactive guidance of experienced teachers"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Khan Academy and Coursera provide excellent supplementary resources",
+                      "traditional schools completely fail",
+                      "technology solves everything"
+                    ],
+                    "correctAnswer": "Khan Academy and Coursera provide excellent supplementary resources"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "they cannot replace the interactive guidance of experienced teachers",
+                      "being perfect solutions",
+                      "costing nothing"
+                    ],
+                    "correctAnswer": "they cannot replace the interactive guidance of experienced teachers"
+                  }
                 ],
                 "correctSentence": "For example, platforms like Khan Academy and Coursera provide excellent supplementary resources while they cannot replace the interactive guidance of experienced teachers.",
                 "usableIn": "body-paragraph-2"
@@ -531,9 +1119,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in countries like _____ show that _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["studies", "buildings", "computers"], "correctAnswer": "studies"},
-                  {"id": "example3_b2", "options": ["Finland and Singapore", "poor nations", "small towns"], "correctAnswer": "Finland and Singapore"},
-                  {"id": "example3_b3", "options": ["successful education systems combine technology with strong teacher-student relationships", "technology alone is sufficient", "traditional methods are outdated"], "correctAnswer": "successful education systems combine technology with strong teacher-student relationships"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "studies",
+                      "buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "studies"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "Finland and Singapore",
+                      "poor nations",
+                      "small towns"
+                    ],
+                    "correctAnswer": "Finland and Singapore"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "successful education systems combine technology with strong teacher-student relationships",
+                      "technology alone is sufficient",
+                      "traditional methods are outdated"
+                    ],
+                    "correctAnswer": "successful education systems combine technology with strong teacher-student relationships"
+                  }
                 ],
                 "correctSentence": "Specifically, studies in countries like Finland and Singapore show that successful education systems combine technology with strong teacher-student relationships.",
                 "usableIn": "body-paragraph-2"
@@ -543,8 +1155,24 @@
                 "type": "template",
                 "template": "Research indicates that _____ perform better when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["young children", "university students", "administrators"], "correctAnswer": "young children"},
-                  {"id": "example4_b2", "options": ["learning in structured classroom environments with teacher supervision", "using only computers", "studying completely alone"], "correctAnswer": "learning in structured classroom environments with teacher supervision"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "young children",
+                      "university students",
+                      "administrators"
+                    ],
+                    "correctAnswer": "young children"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "learning in structured classroom environments with teacher supervision",
+                      "using only computers",
+                      "studying completely alone"
+                    ],
+                    "correctAnswer": "learning in structured classroom environments with teacher supervision"
+                  }
                 ],
                 "correctSentence": "Research indicates that young children perform better when learning in structured classroom environments with teacher supervision.",
                 "usableIn": "body-paragraph-1"
@@ -554,9 +1182,33 @@
                 "type": "template",
                 "template": "According to _____, students who _____ develop _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["educational psychologists", "random people", "technology companies"], "correctAnswer": "educational psychologists"},
-                  {"id": "example5_b2", "options": ["participate in face-to-face classroom discussions", "only watch videos", "avoid all interaction"], "correctAnswer": "participate in face-to-face classroom discussions"},
-                  {"id": "example5_b3", "options": ["stronger critical thinking and communication skills", "technical skills only", "no special abilities"], "correctAnswer": "stronger critical thinking and communication skills"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "educational psychologists",
+                      "random people",
+                      "technology companies"
+                    ],
+                    "correctAnswer": "educational psychologists"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "participate in face-to-face classroom discussions",
+                      "only watch videos",
+                      "avoid all interaction"
+                    ],
+                    "correctAnswer": "participate in face-to-face classroom discussions"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "stronger critical thinking and communication skills",
+                      "technical skills only",
+                      "no special abilities"
+                    ],
+                    "correctAnswer": "stronger critical thinking and communication skills"
+                  }
                 ],
                 "correctSentence": "According to educational psychologists, students who participate in face-to-face classroom discussions develop stronger critical thinking and communication skills.",
                 "usableIn": "body-paragraph-1"
@@ -566,9 +1218,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ still lack _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["many regions", "wealthy countries", "all schools"], "correctAnswer": "many regions"},
-                  {"id": "example6_b2", "options": ["rural areas and developing nations", "major cities", "university towns"], "correctAnswer": "rural areas and developing nations"},
-                  {"id": "example6_b3", "options": ["reliable internet infrastructure necessary for online education", "any schools", "interest in learning"], "correctAnswer": "reliable internet infrastructure necessary for online education"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "many regions",
+                      "wealthy countries",
+                      "all schools"
+                    ],
+                    "correctAnswer": "many regions"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "rural areas and developing nations",
+                      "major cities",
+                      "university towns"
+                    ],
+                    "correctAnswer": "rural areas and developing nations"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "reliable internet infrastructure necessary for online education",
+                      "any schools",
+                      "interest in learning"
+                    ],
+                    "correctAnswer": "reliable internet infrastructure necessary for online education"
+                  }
                 ],
                 "correctSentence": "In particular, many regions such as rural areas and developing nations still lack reliable internet infrastructure necessary for online education.",
                 "usableIn": "body-paragraph-2"
@@ -578,9 +1254,33 @@
                 "type": "template",
                 "template": "Several _____, including _____, have found that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["educational studies", "random opinions", "advertising campaigns"], "correctAnswer": "educational studies"},
-                  {"id": "example7_b2", "options": ["research from MIT and Stanford", "unverified claims", "commercial websites"], "correctAnswer": "research from MIT and Stanford"},
-                  {"id": "example7_b3", "options": ["blended learning approaches produce better outcomes than purely online instruction", "technology solves all problems", "traditional education is worthless"], "correctAnswer": "blended learning approaches produce better outcomes than purely online instruction"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "educational studies",
+                      "random opinions",
+                      "advertising campaigns"
+                    ],
+                    "correctAnswer": "educational studies"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "research from MIT and Stanford",
+                      "unverified claims",
+                      "commercial websites"
+                    ],
+                    "correctAnswer": "research from MIT and Stanford"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "blended learning approaches produce better outcomes than purely online instruction",
+                      "technology solves all problems",
+                      "traditional education is worthless"
+                    ],
+                    "correctAnswer": "blended learning approaches produce better outcomes than purely online instruction"
+                  }
                 ],
                 "correctSentence": "Several educational studies, including research from MIT and Stanford, have found that blended learning approaches produce better outcomes than purely online instruction.",
                 "usableIn": "body-paragraph-2"
@@ -590,9 +1290,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ has shown that _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the flipped classroom model", "expensive software", "old textbooks"], "correctAnswer": "the flipped classroom model"},
-                  {"id": "example8_b2", "options": ["practical implementation", "theoretical discussion", "advertising"], "correctAnswer": "practical implementation"},
-                  {"id": "example8_b3", "options": ["technology works best when integrated with face-to-face instruction", "classrooms are unnecessary", "online learning is perfect"], "correctAnswer": "technology works best when integrated with face-to-face instruction"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the flipped classroom model",
+                      "expensive software",
+                      "old textbooks"
+                    ],
+                    "correctAnswer": "the flipped classroom model"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "practical implementation",
+                      "theoretical discussion",
+                      "advertising"
+                    ],
+                    "correctAnswer": "practical implementation"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "technology works best when integrated with face-to-face instruction",
+                      "classrooms are unnecessary",
+                      "online learning is perfect"
+                    ],
+                    "correctAnswer": "technology works best when integrated with face-to-face instruction"
+                  }
                 ],
                 "correctSentence": "Take the flipped classroom model as an example: practical implementation has shown that technology works best when integrated with face-to-face instruction.",
                 "usableIn": "body-paragraph-2"
@@ -602,9 +1326,33 @@
                 "type": "template",
                 "template": "During _____, surveys revealed that _____ reported _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["the transition to remote learning", "normal school days", "summer vacation"], "correctAnswer": "the transition to remote learning"},
-                  {"id": "example9_b2", "options": ["the majority of students and parents", "a small minority", "nobody"], "correctAnswer": "the majority of students and parents"},
-                  {"id": "example9_b3", "options": ["missing the social interaction and structure of traditional classrooms", "preferring complete isolation", "no differences"], "correctAnswer": "missing the social interaction and structure of traditional classrooms"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "the transition to remote learning",
+                      "normal school days",
+                      "summer vacation"
+                    ],
+                    "correctAnswer": "the transition to remote learning"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "the majority of students and parents",
+                      "a small minority",
+                      "nobody"
+                    ],
+                    "correctAnswer": "the majority of students and parents"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "missing the social interaction and structure of traditional classrooms",
+                      "preferring complete isolation",
+                      "no differences"
+                    ],
+                    "correctAnswer": "missing the social interaction and structure of traditional classrooms"
+                  }
                 ],
                 "correctSentence": "During the transition to remote learning, surveys revealed that the majority of students and parents reported missing the social interaction and structure of traditional classrooms.",
                 "usableIn": "body-paragraph-1"
@@ -614,9 +1362,33 @@
                 "type": "template",
                 "template": "Evidence from _____ suggests that _____ when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["successful online universities", "failed experiments", "random sources"], "correctAnswer": "successful online universities"},
-                  {"id": "example10_b2", "options": ["completion rates remain significantly lower", "everything works perfectly", "no problems exist"], "correctAnswer": "completion rates remain significantly lower"},
-                  {"id": "example10_b3", "options": ["compared to traditional campus-based programs", "measured against nothing", "in ideal conditions"], "correctAnswer": "compared to traditional campus-based programs"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "successful online universities",
+                      "failed experiments",
+                      "random sources"
+                    ],
+                    "correctAnswer": "successful online universities"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "completion rates remain significantly lower",
+                      "everything works perfectly",
+                      "no problems exist"
+                    ],
+                    "correctAnswer": "completion rates remain significantly lower"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "compared to traditional campus-based programs",
+                      "measured against nothing",
+                      "in ideal conditions"
+                    ],
+                    "correctAnswer": "compared to traditional campus-based programs"
+                  }
                 ],
                 "correctSentence": "Evidence from successful online universities suggests that completion rates remain significantly lower when compared to traditional campus-based programs.",
                 "usableIn": "body-paragraph-2"
@@ -633,8 +1405,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ offers _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["online education", "traditional schooling", "expensive equipment"], "correctAnswer": "online education"},
-                  {"id": "counter1_b2", "options": ["greater flexibility and accessibility for learners with diverse needs", "no real benefits", "only problems"], "correctAnswer": "greater flexibility and accessibility for learners with diverse needs"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "online education",
+                      "traditional schooling",
+                      "expensive equipment"
+                    ],
+                    "correctAnswer": "online education"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "greater flexibility and accessibility for learners with diverse needs",
+                      "no real benefits",
+                      "only problems"
+                    ],
+                    "correctAnswer": "greater flexibility and accessibility for learners with diverse needs"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that online education offers greater flexibility and accessibility for learners with diverse needs.",
                 "usableIn": "body-paragraph-2"
@@ -644,8 +1432,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ cannot _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["technological solutions", "traditional methods", "teachers"], "correctAnswer": "technological solutions"},
-                  {"id": "counter2_b2", "options": ["fully replicate the holistic development that physical schools provide", "do anything useful", "save money"], "correctAnswer": "fully replicate the holistic development that physical schools provide"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "technological solutions",
+                      "traditional methods",
+                      "teachers"
+                    ],
+                    "correctAnswer": "technological solutions"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "fully replicate the holistic development that physical schools provide",
+                      "do anything useful",
+                      "save money"
+                    ],
+                    "correctAnswer": "fully replicate the holistic development that physical schools provide"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, technological solutions cannot fully replicate the holistic development that physical schools provide.",
                 "usableIn": "body-paragraph-2"
@@ -655,8 +1459,24 @@
                 "type": "template",
                 "template": "Nevertheless, while _____, this does not mean _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["technology enhances certain aspects of education", "everything is perfect", "nothing works"], "correctAnswer": "technology enhances certain aspects of education"},
-                  {"id": "counter3_b2", "options": ["traditional classrooms will become obsolete", "schools will improve slightly", "costs will decrease"], "correctAnswer": "traditional classrooms will become obsolete"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "technology enhances certain aspects of education",
+                      "everything is perfect",
+                      "nothing works"
+                    ],
+                    "correctAnswer": "technology enhances certain aspects of education"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "traditional classrooms will become obsolete",
+                      "schools will improve slightly",
+                      "costs will decrease"
+                    ],
+                    "correctAnswer": "traditional classrooms will become obsolete"
+                  }
                 ],
                 "correctSentence": "Nevertheless, while technology enhances certain aspects of education, this does not mean traditional classrooms will become obsolete.",
                 "usableIn": "body-paragraph-2"
@@ -666,9 +1486,33 @@
                 "type": "template",
                 "template": "Although _____ provides benefits, it _____ that _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["digital learning", "traditional education", "expensive technology"], "correctAnswer": "digital learning"},
-                  {"id": "counter4_b2", "options": ["remains true", "is false", "seems unclear"], "correctAnswer": "remains true"},
-                  {"id": "counter4_b3", "options": ["human interaction is fundamental to education", "computers solve everything", "money matters most"], "correctAnswer": "human interaction is fundamental to education"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "digital learning",
+                      "traditional education",
+                      "expensive technology"
+                    ],
+                    "correctAnswer": "digital learning"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "remains true",
+                      "is false",
+                      "seems unclear"
+                    ],
+                    "correctAnswer": "remains true"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "human interaction is fundamental to education",
+                      "computers solve everything",
+                      "money matters most"
+                    ],
+                    "correctAnswer": "human interaction is fundamental to education"
+                  }
                 ],
                 "correctSentence": "Although digital learning provides benefits, it remains true that human interaction is fundamental to education.",
                 "usableIn": "body-paragraph-2"
@@ -678,9 +1522,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____, but this overlooks _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["AI tutoring systems", "traditional teachers", "school buildings"], "correctAnswer": "AI tutoring systems"},
-                  {"id": "counter5_b2", "options": ["personalize content delivery", "replace everything", "cost nothing"], "correctAnswer": "personalize content delivery"},
-                  {"id": "counter5_b3", "options": ["the emotional and social dimensions of learning", "minor details", "financial considerations"], "correctAnswer": "the emotional and social dimensions of learning"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "AI tutoring systems",
+                      "traditional teachers",
+                      "school buildings"
+                    ],
+                    "correctAnswer": "AI tutoring systems"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "personalize content delivery",
+                      "replace everything",
+                      "cost nothing"
+                    ],
+                    "correctAnswer": "personalize content delivery"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "the emotional and social dimensions of learning",
+                      "minor details",
+                      "financial considerations"
+                    ],
+                    "correctAnswer": "the emotional and social dimensions of learning"
+                  }
                 ],
                 "correctSentence": "Critics point out that AI tutoring systems can personalize content delivery, but this overlooks the emotional and social dimensions of learning.",
                 "usableIn": "body-paragraph-2"
@@ -697,8 +1565,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I firmly believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["technology will continue to transform education", "nothing will change", "everything is uncertain"], "correctAnswer": "technology will continue to transform education"},
-                  {"id": "conclusion1_b2", "options": ["traditional classrooms will remain essential for holistic student development", "physical schools will disappear completely", "the future is unclear"], "correctAnswer": "traditional classrooms will remain essential for holistic student development"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "technology will continue to transform education",
+                      "nothing will change",
+                      "everything is uncertain"
+                    ],
+                    "correctAnswer": "technology will continue to transform education"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "traditional classrooms will remain essential for holistic student development",
+                      "physical schools will disappear completely",
+                      "the future is unclear"
+                    ],
+                    "correctAnswer": "traditional classrooms will remain essential for holistic student development"
+                  }
                 ],
                 "correctSentence": "In conclusion, while technology will continue to transform education, I firmly believe traditional classrooms will remain essential for holistic student development.",
                 "usableIn": "conclusion"
@@ -708,9 +1592,33 @@
                 "type": "template",
                 "template": "Overall, _____ represents _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["educational technology", "traditional teaching", "school buildings"], "correctAnswer": "educational technology"},
-                  {"id": "conclusion2_b2", "options": ["a complementary tool", "the only solution", "a waste of resources"], "correctAnswer": "a complementary tool"},
-                  {"id": "conclusion2_b3", "options": ["a complete replacement for human educators and physical classrooms", "a minor improvement", "an expensive burden"], "correctAnswer": "a complete replacement for human educators and physical classrooms"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "educational technology",
+                      "traditional teaching",
+                      "school buildings"
+                    ],
+                    "correctAnswer": "educational technology"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "a complementary tool",
+                      "the only solution",
+                      "a waste of resources"
+                    ],
+                    "correctAnswer": "a complementary tool"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "a complete replacement for human educators and physical classrooms",
+                      "a minor improvement",
+                      "an expensive burden"
+                    ],
+                    "correctAnswer": "a complete replacement for human educators and physical classrooms"
+                  }
                 ],
                 "correctSentence": "Overall, educational technology represents a complementary tool rather than a complete replacement for human educators and physical classrooms.",
                 "usableIn": "conclusion"
@@ -720,9 +1628,33 @@
                 "type": "template",
                 "template": "To summarize, the prediction that _____ is _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["traditional education will disappear by 2050", "technology will improve", "schools will change"], "correctAnswer": "traditional education will disappear by 2050"},
-                  {"id": "conclusion3_b2", "options": ["unrealistic", "certain", "possible"], "correctAnswer": "unrealistic"},
-                  {"id": "conclusion3_b3", "options": ["face-to-face learning addresses human needs that technology cannot fulfill", "computers are expensive", "predictions are difficult"], "correctAnswer": "face-to-face learning addresses human needs that technology cannot fulfill"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "traditional education will disappear by 2050",
+                      "technology will improve",
+                      "schools will change"
+                    ],
+                    "correctAnswer": "traditional education will disappear by 2050"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "unrealistic",
+                      "certain",
+                      "possible"
+                    ],
+                    "correctAnswer": "unrealistic"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "face-to-face learning addresses human needs that technology cannot fulfill",
+                      "computers are expensive",
+                      "predictions are difficult"
+                    ],
+                    "correctAnswer": "face-to-face learning addresses human needs that technology cannot fulfill"
+                  }
                 ],
                 "correctSentence": "To summarize, the prediction that traditional education will disappear by 2050 is unrealistic because face-to-face learning addresses human needs that technology cannot fulfill.",
                 "usableIn": "conclusion"
@@ -732,9 +1664,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ will likely _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["the educational landscape", "computer technology", "school buildings"], "correctAnswer": "the educational landscape"},
-                  {"id": "conclusion4_b2", "options": ["evolve toward blended learning models", "remain completely unchanged", "become fully automated"], "correctAnswer": "evolve toward blended learning models"},
-                  {"id": "conclusion4_b3", "options": ["witnessing the complete elimination of traditional classrooms", "staying exactly the same", "becoming very expensive"], "correctAnswer": "witnessing the complete elimination of traditional classrooms"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "the educational landscape",
+                      "computer technology",
+                      "school buildings"
+                    ],
+                    "correctAnswer": "the educational landscape"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "evolve toward blended learning models",
+                      "remain completely unchanged",
+                      "become fully automated"
+                    ],
+                    "correctAnswer": "evolve toward blended learning models"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "witnessing the complete elimination of traditional classrooms",
+                      "staying exactly the same",
+                      "becoming very expensive"
+                    ],
+                    "correctAnswer": "witnessing the complete elimination of traditional classrooms"
+                  }
                 ],
                 "correctSentence": "Ultimately, the educational landscape will likely evolve toward blended learning models rather than witnessing the complete elimination of traditional classrooms.",
                 "usableIn": "conclusion"
@@ -744,8 +1700,24 @@
                 "type": "template",
                 "template": "On balance, _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["traditional and technological approaches must coexist", "everything will change completely", "nothing matters"], "correctAnswer": "traditional and technological approaches must coexist"},
-                  {"id": "conclusion5_b2", "options": ["each addresses different but equally important aspects of comprehensive education", "only one can survive", "tradition is always better"], "correctAnswer": "each addresses different but equally important aspects of comprehensive education"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "traditional and technological approaches must coexist",
+                      "everything will change completely",
+                      "nothing matters"
+                    ],
+                    "correctAnswer": "traditional and technological approaches must coexist"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "each addresses different but equally important aspects of comprehensive education",
+                      "only one can survive",
+                      "tradition is always better"
+                    ],
+                    "correctAnswer": "each addresses different but equally important aspects of comprehensive education"
+                  }
                 ],
                 "correctSentence": "On balance, traditional and technological approaches must coexist because each addresses different but equally important aspects of comprehensive education.",
                 "usableIn": "conclusion"
@@ -798,12 +1770,48 @@
           }
         ],
         "usefulTransitions": {
-          "stating_position": ["I disagree that", "I believe that", "In my opinion", "From my perspective", "I firmly maintain that"],
-          "presenting_reasons": ["The primary reason is", "Another crucial factor is", "Furthermore", "Additionally", "Moreover"],
-          "giving_examples": ["For instance", "For example", "Take the case of", "Research shows that", "Studies indicate that"],
-          "acknowledging_counter": ["However", "Although", "While", "Despite this", "Nevertheless"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This demonstrates that"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "On balance"]
+          "stating_position": [
+            "I disagree that",
+            "I believe that",
+            "In my opinion",
+            "From my perspective",
+            "I firmly maintain that"
+          ],
+          "presenting_reasons": [
+            "The primary reason is",
+            "Another crucial factor is",
+            "Furthermore",
+            "Additionally",
+            "Moreover"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Take the case of",
+            "Research shows that",
+            "Studies indicate that"
+          ],
+          "acknowledging_counter": [
+            "However",
+            "Although",
+            "While",
+            "Despite this",
+            "Nevertheless"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This demonstrates that"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "On balance"
+          ]
         }
       }
     },

@@ -79,105 +79,154 @@
             "word": "sustainability",
             "pronunciation": "/səˌsteɪnəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Meeting present needs without compromising future generations",
+            "definition": "Meeting present needs without compromising future generations.",
             "example": "Individual lifestyle choices can significantly contribute to environmental sustainability.",
-            "synonyms": ["conservation", "preservation"]
+            "synonyms": [
+              "conservation",
+              "preservation"
+            ]
           },
           {
             "word": "implement",
             "pronunciation": "/ˈɪmplɪment/",
             "partOfSpeech": "verb",
-            "definition": "To put a plan or system into action",
+            "definition": "To put a plan or system into action.",
             "example": "Governments can implement regulations to reduce industrial pollution.",
-            "synonyms": ["execute", "enforce", "carry out"]
+            "synonyms": [
+              "execute",
+              "enforce",
+              "carry out"
+            ]
           },
           {
             "word": "collective",
             "pronunciation": "/kəˈlektɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Done by or involving all members of a group",
+            "definition": "Done by or involving all members of a group.",
             "example": "Environmental protection requires collective action from all sectors of society.",
-            "synonyms": ["joint", "shared", "combined"]
+            "synonyms": [
+              "joint",
+              "shared",
+              "combined"
+            ]
           },
           {
             "word": "infrastructure",
             "pronunciation": "/ˈɪnfrəstrʌktʃər/",
             "partOfSpeech": "noun",
-            "definition": "Basic physical systems and facilities",
+            "definition": "Basic physical systems and facilities.",
             "example": "Governments must invest in green infrastructure like renewable energy systems.",
-            "synonyms": ["facilities", "systems"]
+            "synonyms": [
+              "facilities",
+              "systems"
+            ]
           },
           {
             "word": "accountability",
             "pronunciation": "/əˌkaʊntəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Being responsible and answerable for actions",
+            "definition": "Being responsible and answerable for actions.",
             "example": "Individual accountability for consumption habits is essential for environmental protection.",
-            "synonyms": ["responsibility", "liability"]
+            "synonyms": [
+              "responsibility",
+              "liability"
+            ]
           },
           {
             "word": "legislation",
             "pronunciation": "/ˌledʒɪsˈleɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Laws enacted by a governing body",
+            "definition": "Laws enacted by a governing body.",
             "example": "Environmental legislation can mandate emission standards for industries.",
-            "synonyms": ["laws", "regulations"]
+            "synonyms": [
+              "laws",
+              "regulations"
+            ]
           },
           {
             "word": "incentivize",
             "pronunciation": "/ɪnˈsentɪvaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To provide motivation or encouragement",
+            "definition": "To provide motivation or encouragement.",
             "example": "Governments can incentivize green behavior through tax breaks and subsidies.",
-            "synonyms": ["encourage", "motivate", "promote"]
+            "synonyms": [
+              "encourage",
+              "motivate",
+              "promote"
+            ]
           },
           {
             "word": "emissions",
             "pronunciation": "/ɪˈmɪʃənz/",
             "partOfSpeech": "noun",
-            "definition": "Gases or substances released into the atmosphere",
+            "definition": "Gases or substances released into the atmosphere.",
             "example": "Reducing carbon emissions requires both individual and governmental efforts.",
-            "synonyms": ["discharges", "releases"]
+            "synonyms": [
+              "discharges",
+              "releases"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "carbon footprint",
-            "definition": "Total greenhouse gases produced by actions",
+            "definition": "Total greenhouse gases produced by actions.",
             "example": "Individuals can reduce their carbon footprint by using public transport."
           },
           {
             "phrase": "renewable energy",
-            "definition": "Energy from sources that naturally replenish",
+            "definition": "Energy from sources that naturally replenish.",
             "example": "Governments should invest heavily in renewable energy infrastructure."
           },
           {
             "phrase": "sustainable practices",
-            "definition": "Methods that don't deplete natural resources",
+            "definition": "Methods that don't deplete natural resources.",
             "example": "Adopting sustainable practices like recycling is an individual responsibility."
           },
           {
             "phrase": "environmental regulations",
-            "definition": "Rules governing environmental protection",
+            "definition": "Rules governing environmental protection.",
             "example": "Strict environmental regulations can force corporations to reduce pollution."
           },
           {
             "phrase": "grassroots movements",
-            "definition": "Community-level initiatives for change",
+            "definition": "Community-level initiatives for change.",
             "example": "Grassroots movements demonstrate the power of individual collective action."
           },
           {
             "phrase": "large-scale initiatives",
-            "definition": "Major projects requiring significant resources",
+            "definition": "Major projects requiring significant resources.",
             "example": "Only governments can launch large-scale initiatives like national reforestation programs."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["Environmental protection has become", "There is debate about who", "The question of responsibility for"],
-          "individual_side": ["From an individual perspective", "Citizens can contribute by", "Personal responsibility includes"],
-          "government_side": ["From a governmental perspective", "Authorities are better positioned to", "Institutional responsibility involves"],
-          "exemplifying": ["For instance", "A clear example is", "This is evident in", "Specifically"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking both views into account"]
+          "introducing": [
+            "Environmental protection has become",
+            "There is debate about who",
+            "The question of responsibility for"
+          ],
+          "individual_side": [
+            "From an individual perspective",
+            "Citizens can contribute by",
+            "Personal responsibility includes"
+          ],
+          "government_side": [
+            "From a governmental perspective",
+            "Authorities are better positioned to",
+            "Institutional responsibility involves"
+          ],
+          "exemplifying": [
+            "For instance",
+            "A clear example is",
+            "This is evident in",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking both views into account"
+          ]
         }
       }
     },
@@ -194,7 +243,10 @@
             "clues": {
               "subject": "Individuals",
               "verb": "reduce",
-              "keywords": ["carbon footprint", "daily choices"]
+              "keywords": [
+                "carbon footprint",
+                "daily choices"
+              ]
             },
             "hint": "Mention how personal choices impact carbon emissions.",
             "modelAnswer": "Individuals can significantly reduce their carbon footprint through conscious daily consumption choices.",
@@ -205,7 +257,10 @@
             "clues": {
               "subject": "Governments",
               "verb": "implement",
-              "keywords": ["environmental regulations", "industries"]
+              "keywords": [
+                "environmental regulations",
+                "industries"
+              ]
             },
             "hint": "Focus on regulatory power over corporations.",
             "modelAnswer": "Governments have the authority to implement strict environmental regulations controlling industrial emissions.",
@@ -216,7 +271,10 @@
             "clues": {
               "subject": "Personal actions",
               "verb": "contribute",
-              "keywords": ["recycling", "sustainable practices"]
+              "keywords": [
+                "recycling",
+                "sustainable practices"
+              ]
             },
             "hint": "Mention specific individual actions like recycling.",
             "modelAnswer": "Personal actions such as recycling and adopting sustainable practices contribute meaningfully to environmental protection.",
@@ -227,7 +285,10 @@
             "clues": {
               "subject": "National authorities",
               "verb": "invest",
-              "keywords": ["renewable energy", "infrastructure"]
+              "keywords": [
+                "renewable energy",
+                "infrastructure"
+              ]
             },
             "hint": "Focus on large-scale investment capacity.",
             "modelAnswer": "National authorities can invest in renewable energy infrastructure on a scale individuals cannot match.",
@@ -238,7 +299,10 @@
             "clues": {
               "subject": "Collective action",
               "verb": "require",
-              "keywords": ["both levels", "effective protection"]
+              "keywords": [
+                "both levels",
+                "effective protection"
+              ]
             },
             "hint": "Mention that both are needed for success.",
             "modelAnswer": "Effective environmental protection requires collective action from both individual citizens and governmental institutions.",
@@ -248,31 +312,72 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["environmental", "protection", "requires", "action", "at", "all", "levels"],
+            "words": [
+              "environmental",
+              "protection",
+              "requires",
+              "action",
+              "at",
+              "all",
+              "levels"
+            ],
             "correctAnswer": "Environmental protection requires action at all levels.",
             "hint": "Start with 'Environmental protection'"
           },
           {
             "id": "scramble2",
-            "words": ["individuals", "can", "make", "sustainable", "lifestyle", "choices", "daily"],
+            "words": [
+              "individuals",
+              "can",
+              "make",
+              "sustainable",
+              "lifestyle",
+              "choices",
+              "daily"
+            ],
             "correctAnswer": "Individuals can make sustainable lifestyle choices daily.",
             "hint": "Subject is 'Individuals'"
           },
           {
             "id": "scramble3",
-            "words": ["governments", "have", "resources", "for", "large-scale", "environmental", "programs"],
+            "words": [
+              "governments",
+              "have",
+              "resources",
+              "for",
+              "large-scale",
+              "environmental",
+              "programs"
+            ],
             "correctAnswer": "Governments have resources for large-scale environmental programs.",
             "hint": "'have' is the main verb"
           },
           {
             "id": "scramble4",
-            "words": ["personal", "consumption", "habits", "significantly", "impact", "the", "environment"],
+            "words": [
+              "personal",
+              "consumption",
+              "habits",
+              "significantly",
+              "impact",
+              "the",
+              "environment"
+            ],
             "correctAnswer": "Personal consumption habits significantly impact the environment.",
             "hint": "Subject is 'Personal consumption habits'"
           },
           {
             "id": "scramble5",
-            "words": ["strict", "regulations", "can", "force", "industries", "to", "reduce", "pollution"],
+            "words": [
+              "strict",
+              "regulations",
+              "can",
+              "force",
+              "industries",
+              "to",
+              "reduce",
+              "pollution"
+            ],
             "correctAnswer": "Strict regulations can force industries to reduce pollution.",
             "hint": "'can force' is the verb phrase"
           }
@@ -281,35 +386,55 @@
           {
             "id": "blank1",
             "sentence": "Individuals can _____ their carbon footprint through daily choices.",
-            "options": ["reduce", "reducing", "reduction"],
+            "options": [
+              "reduce",
+              "reducing",
+              "reduction"
+            ],
             "correctAnswer": "reduce",
             "explanation": "Use base form 'reduce' after 'can'."
           },
           {
             "id": "blank2",
             "sentence": "_____, governments have greater resources for environmental initiatives.",
-            "options": ["However", "Therefore", "Moreover"],
+            "options": [
+              "However",
+              "Therefore",
+              "Moreover"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to contrast individual with governmental capacity."
           },
           {
             "id": "blank3",
             "sentence": "National authorities _____ implement comprehensive environmental policies.",
-            "options": ["can", "cans", "canning"],
+            "options": [
+              "can",
+              "cans",
+              "canning"
+            ],
             "correctAnswer": "can",
             "explanation": "Modal verb 'can' doesn't take 's' even with plural subject."
           },
           {
             "id": "blank4",
             "sentence": "_____ instance, Denmark invested heavily in wind energy infrastructure.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For instance' is the correct phrase for examples."
           },
           {
             "id": "blank5",
             "sentence": "Personal accountability _____ essential for sustainable consumption.",
-            "options": ["is", "are", "be"],
+            "options": [
+              "is",
+              "are",
+              "be"
+            ],
             "correctAnswer": "is",
             "explanation": "Singular subject 'accountability' takes 'is'."
           }
@@ -359,12 +484,42 @@
           }
         ],
         "usefulTransitions": {
-          "individual_perspective": ["From an individual perspective", "Citizens can contribute by", "Personal responsibility includes", "At the individual level"],
-          "government_perspective": ["From a governmental perspective", "Authorities are positioned to", "Institutional responsibility involves", "At the policy level"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "A clear example is", "Specifically", "To illustrate"],
-          "showing_result": ["Therefore", "Consequently", "As a result", "This leads to"],
-          "contrasting": ["However", "Conversely", "In contrast", "On the other hand"]
+          "individual_perspective": [
+            "From an individual perspective",
+            "Citizens can contribute by",
+            "Personal responsibility includes",
+            "At the individual level"
+          ],
+          "government_perspective": [
+            "From a governmental perspective",
+            "Authorities are positioned to",
+            "Institutional responsibility involves",
+            "At the policy level"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "A clear example is",
+            "Specifically",
+            "To illustrate"
+          ],
+          "showing_result": [
+            "Therefore",
+            "Consequently",
+            "As a result",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "In contrast",
+            "On the other hand"
+          ]
         }
       }
     },

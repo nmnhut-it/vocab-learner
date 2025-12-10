@@ -80,105 +80,161 @@
             "word": "allocate",
             "pronunciation": "/ˈæləkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To distribute resources for a particular purpose",
+            "definition": "To distribute resources for a particular purpose.",
             "example": "Governments must decide how to allocate limited budgets effectively.",
-            "synonyms": ["distribute", "assign", "designate"]
+            "synonyms": [
+              "distribute",
+              "assign",
+              "designate"
+            ]
           },
           {
             "word": "innovation",
             "pronunciation": "/ˌɪnəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Introduction of new ideas, methods, or inventions",
+            "definition": "Introduction of new ideas, methods, or inventions.",
             "example": "Space programs have driven technological innovation in various fields.",
-            "synonyms": ["advancement", "breakthrough", "development"]
+            "synonyms": [
+              "advancement",
+              "breakthrough",
+              "development"
+            ]
           },
           {
             "word": "priority",
             "pronunciation": "/praɪˈɒrəti/",
             "partOfSpeech": "noun",
-            "definition": "Something regarded as more important than others",
+            "definition": "Something regarded as more important than others.",
             "example": "Many argue that poverty reduction should be the top priority for government spending.",
-            "synonyms": ["precedence", "importance", "primacy"]
+            "synonyms": [
+              "precedence",
+              "importance",
+              "primacy"
+            ]
           },
           {
             "word": "resources",
             "pronunciation": "/rɪˈzɔːsɪz/",
             "partOfSpeech": "noun",
-            "definition": "Available assets including money, materials, and personnel",
+            "definition": "Available assets including money, materials, and personnel.",
             "example": "Public resources are finite and must be used strategically.",
-            "synonyms": ["funds", "assets", "capital"]
+            "synonyms": [
+              "funds",
+              "assets",
+              "capital"
+            ]
           },
           {
             "word": "justification",
             "pronunciation": "/ˌdʒʌstɪfɪˈkeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Valid reason or explanation for an action",
+            "definition": "Valid reason or explanation for an action.",
             "example": "Proponents provide scientific justification for space exploration funding.",
-            "synonyms": ["rationale", "reasoning", "grounds"]
+            "synonyms": [
+              "rationale",
+              "reasoning",
+              "grounds"
+            ]
           },
           {
             "word": "advancement",
             "pronunciation": "/ədˈvɑːnsmənt/",
             "partOfSpeech": "noun",
-            "definition": "Progress or development in a particular field",
+            "definition": "Progress or development in a particular field.",
             "example": "Space research contributes to scientific advancement globally.",
-            "synonyms": ["progress", "development", "improvement"]
+            "synonyms": [
+              "progress",
+              "development",
+              "improvement"
+            ]
           },
           {
             "word": "pressing",
             "pronunciation": "/ˈpresɪŋ/",
             "partOfSpeech": "adjective",
-            "definition": "Requiring immediate attention; urgent",
+            "definition": "Requiring immediate attention; urgent.",
             "example": "Climate change is a pressing issue that demands immediate action.",
-            "synonyms": ["urgent", "critical", "crucial"]
+            "synonyms": [
+              "urgent",
+              "critical",
+              "crucial"
+            ]
           },
           {
             "word": "expenditure",
             "pronunciation": "/ɪkˈspendɪtʃə/",
             "partOfSpeech": "noun",
-            "definition": "The action of spending funds",
+            "definition": "The action of spending funds.",
             "example": "Space exploration expenditure represents a small fraction of national budgets.",
-            "synonyms": ["spending", "outlay", "costs"]
+            "synonyms": [
+              "spending",
+              "outlay",
+              "costs"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "space program",
-            "definition": "Organized activities for space research and exploration",
+            "definition": "Organized activities for space research and exploration.",
             "example": "National space programs have produced numerous technological spinoffs."
           },
           {
             "phrase": "domestic issues",
-            "definition": "Problems within a country's borders",
+            "definition": "Problems within a country's borders.",
             "example": "Critics argue that domestic issues deserve greater funding than space missions."
           },
           {
             "phrase": "scientific advancement",
-            "definition": "Progress in scientific knowledge and capabilities",
+            "definition": "Progress in scientific knowledge and capabilities.",
             "example": "Space exploration accelerates scientific advancement in multiple disciplines."
           },
           {
             "phrase": "limited budget",
-            "definition": "Restricted amount of available funding",
+            "definition": "Restricted amount of available funding.",
             "example": "Governments operate with limited budgets that require careful prioritization."
           },
           {
             "phrase": "immediate needs",
-            "definition": "Urgent requirements that need prompt attention",
+            "definition": "Urgent requirements that need prompt attention.",
             "example": "Immediate needs like healthcare often compete with long-term space goals."
           },
           {
             "phrase": "technological spinoffs",
-            "definition": "Secondary benefits or products derived from research",
+            "definition": "Secondary benefits or products derived from research.",
             "example": "Space research has generated technological spinoffs in medicine and communications."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,8 +257,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["governments should prioritize space exploration programs", "space is interesting to study", "rockets are expensive"], "correctAnswer": "governments should prioritize space exploration programs"},
-                  {"id": "thesis1_b2", "options": ["these funds would be better spent addressing terrestrial problems", "space programs are wasteful", "everyone wants better healthcare"], "correctAnswer": "these funds would be better spent addressing terrestrial problems"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "governments should prioritize space exploration programs",
+                      "space is interesting to study",
+                      "rockets are expensive"
+                    ],
+                    "correctAnswer": "governments should prioritize space exploration programs"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "these funds would be better spent addressing terrestrial problems",
+                      "space programs are wasteful",
+                      "everyone wants better healthcare"
+                    ],
+                    "correctAnswer": "these funds would be better spent addressing terrestrial problems"
+                  }
                 ],
                 "correctSentence": "While some believe governments should prioritize space exploration programs, others argue that these funds would be better spent addressing terrestrial problems.",
                 "usableIn": "introduction"
@@ -212,8 +284,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the allocation of government resources", "space exploration", "scientific research"], "correctAnswer": "the allocation of government resources"},
-                  {"id": "thesis2_b2", "options": ["balancing long-term scientific goals with immediate societal needs", "how much money is available", "what politicians decide"], "correctAnswer": "balancing long-term scientific goals with immediate societal needs"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the allocation of government resources",
+                      "space exploration",
+                      "scientific research"
+                    ],
+                    "correctAnswer": "the allocation of government resources"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "balancing long-term scientific goals with immediate societal needs",
+                      "how much money is available",
+                      "what politicians decide"
+                    ],
+                    "correctAnswer": "balancing long-term scientific goals with immediate societal needs"
+                  }
                 ],
                 "correctSentence": "In my opinion, the allocation of government resources depends on balancing long-term scientific goals with immediate societal needs.",
                 "usableIn": "introduction"
@@ -223,8 +311,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["investing in space exploration advances human knowledge", "space missions should continue", "astronomy is useful"], "correctAnswer": "investing in space exploration advances human knowledge"},
-                  {"id": "thesis3_b2", "options": ["these resources should address urgent problems on Earth", "we should stop all space programs", "money should be saved"], "correctAnswer": "these resources should address urgent problems on Earth"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "investing in space exploration advances human knowledge",
+                      "space missions should continue",
+                      "astronomy is useful"
+                    ],
+                    "correctAnswer": "investing in space exploration advances human knowledge"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "these resources should address urgent problems on Earth",
+                      "we should stop all space programs",
+                      "money should be saved"
+                    ],
+                    "correctAnswer": "these resources should address urgent problems on Earth"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether investing in space exploration advances human knowledge or these resources should address urgent problems on Earth.",
                 "usableIn": "introduction"
@@ -234,8 +338,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["both approaches have valid justifications", "space exploration is more important", "Earth problems should be ignored"], "correctAnswer": "both approaches have valid justifications"},
-                  {"id": "thesis4_b2", "options": ["space research generates long-term benefits while immediate needs require attention", "people have different opinions", "governments decide budgets"], "correctAnswer": "space research generates long-term benefits while immediate needs require attention"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "both approaches have valid justifications",
+                      "space exploration is more important",
+                      "Earth problems should be ignored"
+                    ],
+                    "correctAnswer": "both approaches have valid justifications"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "space research generates long-term benefits while immediate needs require attention",
+                      "people have different opinions",
+                      "governments decide budgets"
+                    ],
+                    "correctAnswer": "space research generates long-term benefits while immediate needs require attention"
+                  }
                 ],
                 "correctSentence": "From my perspective, both approaches have valid justifications because space research generates long-term benefits while immediate needs require attention.",
                 "usableIn": "introduction"
@@ -245,8 +365,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives on government spending priorities", "space exploration only", "Earth problems only"], "correctAnswer": "both perspectives on government spending priorities"},
-                  {"id": "thesis5_b2", "options": ["a balanced approach allocating funds to both areas is most effective", "space exploration should receive all funding", "all space programs should be cancelled"], "correctAnswer": "a balanced approach allocating funds to both areas is most effective"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives on government spending priorities",
+                      "space exploration only",
+                      "Earth problems only"
+                    ],
+                    "correctAnswer": "both perspectives on government spending priorities"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "a balanced approach allocating funds to both areas is most effective",
+                      "space exploration should receive all funding",
+                      "all space programs should be cancelled"
+                    ],
+                    "correctAnswer": "a balanced approach allocating funds to both areas is most effective"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives on government spending priorities before concluding that a balanced approach allocating funds to both areas is most effective.",
                 "usableIn": "introduction"
@@ -263,8 +399,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["space exploration", "astronomy", "rocket technology"], "correctAnswer": "space exploration"},
-                  {"id": "topic1_b2", "options": ["substantial benefits for scientific progress and technological development", "interesting discoveries", "employment opportunities"], "correctAnswer": "substantial benefits for scientific progress and technological development"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "space exploration",
+                      "astronomy",
+                      "rocket technology"
+                    ],
+                    "correctAnswer": "space exploration"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "substantial benefits for scientific progress and technological development",
+                      "interesting discoveries",
+                      "employment opportunities"
+                    ],
+                    "correctAnswer": "substantial benefits for scientific progress and technological development"
+                  }
                 ],
                 "correctSentence": "On the one hand, space exploration offers substantial benefits for scientific progress and technological development.",
                 "usableIn": "body-paragraph-1"
@@ -274,8 +426,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["addressing domestic problems", "building hospitals", "reducing taxes"], "correctAnswer": "addressing domestic problems"},
-                  {"id": "topic2_b2", "options": ["immediate and tangible improvements to citizens' quality of life", "better conditions", "helpful solutions"], "correctAnswer": "immediate and tangible improvements to citizens' quality of life"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "addressing domestic problems",
+                      "building hospitals",
+                      "reducing taxes"
+                    ],
+                    "correctAnswer": "addressing domestic problems"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "immediate and tangible improvements to citizens' quality of life",
+                      "better conditions",
+                      "helpful solutions"
+                    ],
+                    "correctAnswer": "immediate and tangible improvements to citizens' quality of life"
+                  }
                 ],
                 "correctSentence": "On the other hand, addressing domestic problems provides immediate and tangible improvements to citizens' quality of life.",
                 "usableIn": "body-paragraph-2"
@@ -285,8 +453,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["investing in space programs", "buying telescopes", "training astronauts"], "correctAnswer": "investing in space programs"},
-                  {"id": "topic3_b2", "options": ["the technological innovations that benefit society broadly", "learning about planets", "creating jobs"], "correctAnswer": "the technological innovations that benefit society broadly"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "investing in space programs",
+                      "buying telescopes",
+                      "training astronauts"
+                    ],
+                    "correctAnswer": "investing in space programs"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the technological innovations that benefit society broadly",
+                      "learning about planets",
+                      "creating jobs"
+                    ],
+                    "correctAnswer": "the technological innovations that benefit society broadly"
+                  }
                 ],
                 "correctSentence": "One significant advantage of investing in space programs is the technological innovations that benefit society broadly.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +480,24 @@
                 "type": "template",
                 "template": "A key benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["prioritizing terrestrial issues", "spending money on Earth", "ignoring space"], "correctAnswer": "prioritizing terrestrial issues"},
-                  {"id": "topic4_b2", "options": ["it addresses pressing needs affecting millions of people", "people will be happier", "governments save money"], "correctAnswer": "it addresses pressing needs affecting millions of people"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "prioritizing terrestrial issues",
+                      "spending money on Earth",
+                      "ignoring space"
+                    ],
+                    "correctAnswer": "prioritizing terrestrial issues"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "it addresses pressing needs affecting millions of people",
+                      "people will be happier",
+                      "governments save money"
+                    ],
+                    "correctAnswer": "it addresses pressing needs affecting millions of people"
+                  }
                 ],
                 "correctSentence": "A key benefit of prioritizing terrestrial issues is that it addresses pressing needs affecting millions of people.",
                 "usableIn": "body-paragraph-2"
@@ -307,9 +507,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of space exploration", "Some people", "Scientists"], "correctAnswer": "Supporters of space exploration"},
-                  {"id": "topic5_b2", "options": ["continued investment in space research", "building rockets", "studying astronomy"], "correctAnswer": "continued investment in space research"},
-                  {"id": "topic5_b3", "options": ["advancing human knowledge and ensuring long-term survival", "creating jobs", "having fun"], "correctAnswer": "advancing human knowledge and ensuring long-term survival"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of space exploration",
+                      "Some people",
+                      "Scientists"
+                    ],
+                    "correctAnswer": "Supporters of space exploration"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "continued investment in space research",
+                      "building rockets",
+                      "studying astronomy"
+                    ],
+                    "correctAnswer": "continued investment in space research"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "advancing human knowledge and ensuring long-term survival",
+                      "creating jobs",
+                      "having fun"
+                    ],
+                    "correctAnswer": "advancing human knowledge and ensuring long-term survival"
+                  }
                 ],
                 "correctSentence": "Supporters of space exploration argue that continued investment in space research is essential for advancing human knowledge and ensuring long-term survival.",
                 "usableIn": "body-paragraph-1"
@@ -319,9 +543,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Advocates of domestic spending", "Many citizens", "Politicians"], "correctAnswer": "Advocates of domestic spending"},
-                  {"id": "topic6_b2", "options": ["allocating resources to healthcare and education", "building schools", "reducing poverty"], "correctAnswer": "allocating resources to healthcare and education"},
-                  {"id": "topic6_b3", "options": ["social welfare and economic stability more effectively", "government popularity", "public satisfaction"], "correctAnswer": "social welfare and economic stability more effectively"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Advocates of domestic spending",
+                      "Many citizens",
+                      "Politicians"
+                    ],
+                    "correctAnswer": "Advocates of domestic spending"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "allocating resources to healthcare and education",
+                      "building schools",
+                      "reducing poverty"
+                    ],
+                    "correctAnswer": "allocating resources to healthcare and education"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "social welfare and economic stability more effectively",
+                      "government popularity",
+                      "public satisfaction"
+                    ],
+                    "correctAnswer": "social welfare and economic stability more effectively"
+                  }
                 ],
                 "correctSentence": "Advocates of domestic spending contend that allocating resources to healthcare and education enhances social welfare and economic stability more effectively.",
                 "usableIn": "body-paragraph-2"
@@ -331,8 +579,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["space research funding", "buying telescopes", "launching satellites"], "correctAnswer": "space research funding"},
-                  {"id": "topic7_b2", "options": ["the potential for groundbreaking discoveries that transform human civilization", "learning new things", "creating employment"], "correctAnswer": "the potential for groundbreaking discoveries that transform human civilization"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "space research funding",
+                      "buying telescopes",
+                      "launching satellites"
+                    ],
+                    "correctAnswer": "space research funding"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "the potential for groundbreaking discoveries that transform human civilization",
+                      "learning new things",
+                      "creating employment"
+                    ],
+                    "correctAnswer": "the potential for groundbreaking discoveries that transform human civilization"
+                  }
                 ],
                 "correctSentence": "The primary advantage of space research funding is the potential for groundbreaking discoveries that transform human civilization.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +606,24 @@
                 "type": "template",
                 "template": "A major concern about _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["space exploration expenditure", "space programs", "rocket launches"], "correctAnswer": "space exploration expenditure"},
-                  {"id": "topic8_b2", "options": ["that billions of dollars could address poverty and disease more directly", "that it costs money", "that people disagree"], "correctAnswer": "that billions of dollars could address poverty and disease more directly"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "space exploration expenditure",
+                      "space programs",
+                      "rocket launches"
+                    ],
+                    "correctAnswer": "space exploration expenditure"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "that billions of dollars could address poverty and disease more directly",
+                      "that it costs money",
+                      "that people disagree"
+                    ],
+                    "correctAnswer": "that billions of dollars could address poverty and disease more directly"
+                  }
                 ],
                 "correctSentence": "A major concern about space exploration expenditure is that billions of dollars could address poverty and disease more directly.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +640,24 @@
                 "type": "template",
                 "template": "This is because _____ enables scientists to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["space research", "rocket technology", "astronomy"], "correctAnswer": "space research"},
-                  {"id": "support1_b2", "options": ["develop technologies that eventually benefit everyday life on Earth", "look at stars", "create jobs"], "correctAnswer": "develop technologies that eventually benefit everyday life on Earth"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "space research",
+                      "rocket technology",
+                      "astronomy"
+                    ],
+                    "correctAnswer": "space research"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "develop technologies that eventually benefit everyday life on Earth",
+                      "look at stars",
+                      "create jobs"
+                    ],
+                    "correctAnswer": "develop technologies that eventually benefit everyday life on Earth"
+                  }
                 ],
                 "correctSentence": "This is because space research enables scientists to develop technologies that eventually benefit everyday life on Earth.",
                 "usableIn": "body-paragraph-1"
@@ -371,8 +667,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["investing in domestic infrastructure", "building hospitals", "reducing taxes"], "correctAnswer": "investing in domestic infrastructure"},
-                  {"id": "support2_b2", "options": ["direct improvements in healthcare access and educational outcomes", "better conditions", "happier citizens"], "correctAnswer": "direct improvements in healthcare access and educational outcomes"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "investing in domestic infrastructure",
+                      "building hospitals",
+                      "reducing taxes"
+                    ],
+                    "correctAnswer": "investing in domestic infrastructure"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "direct improvements in healthcare access and educational outcomes",
+                      "better conditions",
+                      "happier citizens"
+                    ],
+                    "correctAnswer": "direct improvements in healthcare access and educational outcomes"
+                  }
                 ],
                 "correctSentence": "The main reason is that investing in domestic infrastructure leads to direct improvements in healthcare access and educational outcomes.",
                 "usableIn": "body-paragraph-2"
@@ -382,9 +694,33 @@
                 "type": "template",
                 "template": "_____ allows governments to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Space exploration funding", "Space research", "Astronomy"], "correctAnswer": "Space exploration funding"},
-                  {"id": "support3_b2", "options": ["pursue long-term scientific advancement", "study space", "build rockets"], "correctAnswer": "pursue long-term scientific advancement"},
-                  {"id": "support3_b3", "options": ["compromising national prestige and innovation leadership", "spending too much", "making mistakes"], "correctAnswer": "compromising national prestige and innovation leadership"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Space exploration funding",
+                      "Space research",
+                      "Astronomy"
+                    ],
+                    "correctAnswer": "Space exploration funding"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "pursue long-term scientific advancement",
+                      "study space",
+                      "build rockets"
+                    ],
+                    "correctAnswer": "pursue long-term scientific advancement"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "compromising national prestige and innovation leadership",
+                      "spending too much",
+                      "making mistakes"
+                    ],
+                    "correctAnswer": "compromising national prestige and innovation leadership"
+                  }
                 ],
                 "correctSentence": "Space exploration funding allows governments to pursue long-term scientific advancement without compromising national prestige and innovation leadership.",
                 "usableIn": "body-paragraph-1"
@@ -394,9 +730,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Prioritizing social programs", "Spending on healthcare", "Building schools"], "correctAnswer": "Prioritizing social programs"},
-                  {"id": "support4_b2", "options": ["equitable access to essential services", "better conditions", "public happiness"], "correctAnswer": "equitable access to essential services"},
-                  {"id": "support4_b3", "options": ["reducing inequality and improving social cohesion", "government popularity", "economic growth"], "correctAnswer": "reducing inequality and improving social cohesion"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Prioritizing social programs",
+                      "Spending on healthcare",
+                      "Building schools"
+                    ],
+                    "correctAnswer": "Prioritizing social programs"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "equitable access to essential services",
+                      "better conditions",
+                      "public happiness"
+                    ],
+                    "correctAnswer": "equitable access to essential services"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "reducing inequality and improving social cohesion",
+                      "government popularity",
+                      "economic growth"
+                    ],
+                    "correctAnswer": "reducing inequality and improving social cohesion"
+                  }
                 ],
                 "correctSentence": "Prioritizing social programs fosters equitable access to essential services, which is crucial for reducing inequality and improving social cohesion.",
                 "usableIn": "body-paragraph-2"
@@ -406,8 +766,24 @@
                 "type": "template",
                 "template": "By _____, space agencies can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["conducting research beyond Earth's atmosphere", "launching rockets", "studying planets"], "correctAnswer": "conducting research beyond Earth's atmosphere"},
-                  {"id": "support5_b2", "options": ["unlock discoveries impossible to achieve through terrestrial research alone", "learn interesting facts", "create employment"], "correctAnswer": "unlock discoveries impossible to achieve through terrestrial research alone"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "conducting research beyond Earth's atmosphere",
+                      "launching rockets",
+                      "studying planets"
+                    ],
+                    "correctAnswer": "conducting research beyond Earth's atmosphere"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "unlock discoveries impossible to achieve through terrestrial research alone",
+                      "learn interesting facts",
+                      "create employment"
+                    ],
+                    "correctAnswer": "unlock discoveries impossible to achieve through terrestrial research alone"
+                  }
                 ],
                 "correctSentence": "By conducting research beyond Earth's atmosphere, space agencies can unlock discoveries impossible to achieve through terrestrial research alone.",
                 "usableIn": "body-paragraph-1"
@@ -417,9 +793,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Funding education and healthcare", "Government spending", "Social investment"], "correctAnswer": "Funding education and healthcare"},
-                  {"id": "support6_b2", "options": ["economic productivity and social stability", "public support", "citizen satisfaction"], "correctAnswer": "economic productivity and social stability"},
-                  {"id": "support6_b3", "options": ["creating a healthier and more educated workforce", "building facilities", "providing services"], "correctAnswer": "creating a healthier and more educated workforce"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Funding education and healthcare",
+                      "Government spending",
+                      "Social investment"
+                    ],
+                    "correctAnswer": "Funding education and healthcare"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "economic productivity and social stability",
+                      "public support",
+                      "citizen satisfaction"
+                    ],
+                    "correctAnswer": "economic productivity and social stability"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "creating a healthier and more educated workforce",
+                      "building facilities",
+                      "providing services"
+                    ],
+                    "correctAnswer": "creating a healthier and more educated workforce"
+                  }
                 ],
                 "correctSentence": "Funding education and healthcare strengthens economic productivity and social stability through creating a healthier and more educated workforce.",
                 "usableIn": "body-paragraph-2"
@@ -429,8 +829,24 @@
                 "type": "template",
                 "template": "Space exploration contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["technological innovation across multiple industries", "scientific knowledge", "employment creation"], "correctAnswer": "technological innovation across multiple industries"},
-                  {"id": "support7_b2", "options": ["driving advances in materials science, computing, and telecommunications", "discovering new things", "funding research"], "correctAnswer": "driving advances in materials science, computing, and telecommunications"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "technological innovation across multiple industries",
+                      "scientific knowledge",
+                      "employment creation"
+                    ],
+                    "correctAnswer": "technological innovation across multiple industries"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "driving advances in materials science, computing, and telecommunications",
+                      "discovering new things",
+                      "funding research"
+                    ],
+                    "correctAnswer": "driving advances in materials science, computing, and telecommunications"
+                  }
                 ],
                 "correctSentence": "Space exploration contributes to technological innovation across multiple industries by driving advances in materials science, computing, and telecommunications.",
                 "usableIn": "body-paragraph-1"
@@ -440,8 +856,24 @@
                 "type": "template",
                 "template": "Terrestrial programs promote _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["immediate quality of life improvements", "better conditions", "public satisfaction"], "correctAnswer": "immediate quality of life improvements"},
-                  {"id": "support8_b2", "options": ["address urgent needs of current populations rather than distant possibilities", "help people now", "are more practical"], "correctAnswer": "address urgent needs of current populations rather than distant possibilities"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "immediate quality of life improvements",
+                      "better conditions",
+                      "public satisfaction"
+                    ],
+                    "correctAnswer": "immediate quality of life improvements"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "address urgent needs of current populations rather than distant possibilities",
+                      "help people now",
+                      "are more practical"
+                    ],
+                    "correctAnswer": "address urgent needs of current populations rather than distant possibilities"
+                  }
                 ],
                 "correctSentence": "Terrestrial programs promote immediate quality of life improvements that address urgent needs of current populations rather than distant possibilities.",
                 "usableIn": "body-paragraph-2"
@@ -451,9 +883,33 @@
                 "type": "template",
                 "template": "_____ provides humanity with _____ over _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Investing in space programs", "Space research", "Rocket development"], "correctAnswer": "Investing in space programs"},
-                  {"id": "support9_b2", "options": ["strategic advantages", "new knowledge", "employment"], "correctAnswer": "strategic advantages"},
-                  {"id": "support9_b3", "options": ["potential existential threats like asteroids and resource depletion", "other countries", "future problems"], "correctAnswer": "potential existential threats like asteroids and resource depletion"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Investing in space programs",
+                      "Space research",
+                      "Rocket development"
+                    ],
+                    "correctAnswer": "Investing in space programs"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "strategic advantages",
+                      "new knowledge",
+                      "employment"
+                    ],
+                    "correctAnswer": "strategic advantages"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "potential existential threats like asteroids and resource depletion",
+                      "other countries",
+                      "future problems"
+                    ],
+                    "correctAnswer": "potential existential threats like asteroids and resource depletion"
+                  }
                 ],
                 "correctSentence": "Investing in space programs provides humanity with strategic advantages over potential existential threats like asteroids and resource depletion.",
                 "usableIn": "body-paragraph-1"
@@ -463,8 +919,24 @@
                 "type": "template",
                 "template": "In addressing _____, governments can _____ more readily.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["pressing domestic challenges", "Earth problems", "social issues"], "correctAnswer": "pressing domestic challenges"},
-                  {"id": "support10_b2", "options": ["measure tangible outcomes and demonstrate accountability to citizens", "see results", "gain public support"], "correctAnswer": "measure tangible outcomes and demonstrate accountability to citizens"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "pressing domestic challenges",
+                      "Earth problems",
+                      "social issues"
+                    ],
+                    "correctAnswer": "pressing domestic challenges"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "measure tangible outcomes and demonstrate accountability to citizens",
+                      "see results",
+                      "gain public support"
+                    ],
+                    "correctAnswer": "measure tangible outcomes and demonstrate accountability to citizens"
+                  }
                 ],
                 "correctSentence": "In addressing pressing domestic challenges, governments can measure tangible outcomes and demonstrate accountability to citizens more readily.",
                 "usableIn": "body-paragraph-2"
@@ -474,8 +946,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["nations with active space programs", "countries", "space agencies"], "correctAnswer": "nations with active space programs"},
-                  {"id": "support11_b2", "options": ["enhanced technological capabilities and international prestige", "better conditions", "economic growth"], "correctAnswer": "enhanced technological capabilities and international prestige"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "nations with active space programs",
+                      "countries",
+                      "space agencies"
+                    ],
+                    "correctAnswer": "nations with active space programs"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "enhanced technological capabilities and international prestige",
+                      "better conditions",
+                      "economic growth"
+                    ],
+                    "correctAnswer": "enhanced technological capabilities and international prestige"
+                  }
                 ],
                 "correctSentence": "As a result, nations with active space programs experience enhanced technological capabilities and international prestige.",
                 "usableIn": "body-paragraph-1"
@@ -485,9 +973,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ in societies prioritizing ___.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["social welfare", "public health", "education"], "correctAnswer": "social welfare"},
-                  {"id": "support12_b2", "options": ["more robust and equitable", "better", "stronger"], "correctAnswer": "more robust and equitable"},
-                  {"id": "support12_b3", "options": ["domestic investment over space exploration", "Earth problems", "social programs"], "correctAnswer": "domestic investment over space exploration"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "social welfare",
+                      "public health",
+                      "education"
+                    ],
+                    "correctAnswer": "social welfare"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "more robust and equitable",
+                      "better",
+                      "stronger"
+                    ],
+                    "correctAnswer": "more robust and equitable"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "domestic investment over space exploration",
+                      "Earth problems",
+                      "social programs"
+                    ],
+                    "correctAnswer": "domestic investment over space exploration"
+                  }
                 ],
                 "correctSentence": "Consequently, social welfare tends to be more robust and equitable in societies prioritizing domestic investment over space exploration.",
                 "usableIn": "body-paragraph-2"
@@ -504,9 +1016,33 @@
                 "type": "template",
                 "template": "For instance, _____ developed from _____ now benefit _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["technologies like GPS and satellite communications", "space inventions", "rocket technology"], "correctAnswer": "technologies like GPS and satellite communications"},
-                  {"id": "example1_b2", "options": ["space exploration research", "space programs", "astronomy"], "correctAnswer": "space exploration research"},
-                  {"id": "example1_b3", "options": ["billions of people in navigation, weather forecasting, and emergency services", "many people", "everyone"], "correctAnswer": "billions of people in navigation, weather forecasting, and emergency services"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "technologies like GPS and satellite communications",
+                      "space inventions",
+                      "rocket technology"
+                    ],
+                    "correctAnswer": "technologies like GPS and satellite communications"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "space exploration research",
+                      "space programs",
+                      "astronomy"
+                    ],
+                    "correctAnswer": "space exploration research"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "billions of people in navigation, weather forecasting, and emergency services",
+                      "many people",
+                      "everyone"
+                    ],
+                    "correctAnswer": "billions of people in navigation, weather forecasting, and emergency services"
+                  }
                 ],
                 "correctSentence": "For instance, technologies like GPS and satellite communications developed from space exploration research now benefit billions of people in navigation, weather forecasting, and emergency services.",
                 "usableIn": "body-paragraph-1"
@@ -516,9 +1052,33 @@
                 "type": "template",
                 "template": "For example, _____ in developing nations often suffer from _____ that _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["millions of children", "many people", "some citizens"], "correctAnswer": "millions of children"},
-                  {"id": "example2_b2", "options": ["inadequate healthcare and educational infrastructure", "poor conditions", "limited resources"], "correctAnswer": "inadequate healthcare and educational infrastructure"},
-                  {"id": "example2_b3", "options": ["could be improved with redirected space program funding", "need attention", "require solutions"], "correctAnswer": "could be improved with redirected space program funding"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "millions of children",
+                      "many people",
+                      "some citizens"
+                    ],
+                    "correctAnswer": "millions of children"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "inadequate healthcare and educational infrastructure",
+                      "poor conditions",
+                      "limited resources"
+                    ],
+                    "correctAnswer": "inadequate healthcare and educational infrastructure"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "could be improved with redirected space program funding",
+                      "need attention",
+                      "require solutions"
+                    ],
+                    "correctAnswer": "could be improved with redirected space program funding"
+                  }
                 ],
                 "correctSentence": "For example, millions of children in developing nations often suffer from inadequate healthcare and educational infrastructure that could be improved with redirected space program funding.",
                 "usableIn": "body-paragraph-2"
@@ -528,9 +1088,33 @@
                 "type": "template",
                 "template": "Specifically, _____ has invested _____ in space exploration, yielding _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["NASA", "the government", "America"], "correctAnswer": "NASA"},
-                  {"id": "example3_b2", "options": ["billions of dollars over decades", "a lot of money", "significant resources"], "correctAnswer": "billions of dollars over decades"},
-                  {"id": "example3_b3", "options": ["over 2000 spinoff technologies including medical devices and water purification systems", "many inventions", "useful products"], "correctAnswer": "over 2000 spinoff technologies including medical devices and water purification systems"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "NASA",
+                      "the government",
+                      "America"
+                    ],
+                    "correctAnswer": "NASA"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "billions of dollars over decades",
+                      "a lot of money",
+                      "significant resources"
+                    ],
+                    "correctAnswer": "billions of dollars over decades"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "over 2000 spinoff technologies including medical devices and water purification systems",
+                      "many inventions",
+                      "useful products"
+                    ],
+                    "correctAnswer": "over 2000 spinoff technologies including medical devices and water purification systems"
+                  }
                 ],
                 "correctSentence": "Specifically, NASA has invested billions of dollars over decades in space exploration, yielding over 2000 spinoff technologies including medical devices and water purification systems.",
                 "usableIn": "body-paragraph-1"
@@ -540,8 +1124,24 @@
                 "type": "template",
                 "template": "Research shows that _____ increase when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["economic productivity and social mobility", "outcomes", "results"], "correctAnswer": "economic productivity and social mobility"},
-                  {"id": "example4_b2", "options": ["governments prioritize education and healthcare infrastructure investments", "countries spend on domestic programs", "nations focus on Earth"], "correctAnswer": "governments prioritize education and healthcare infrastructure investments"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "economic productivity and social mobility",
+                      "outcomes",
+                      "results"
+                    ],
+                    "correctAnswer": "economic productivity and social mobility"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "governments prioritize education and healthcare infrastructure investments",
+                      "countries spend on domestic programs",
+                      "nations focus on Earth"
+                    ],
+                    "correctAnswer": "governments prioritize education and healthcare infrastructure investments"
+                  }
                 ],
                 "correctSentence": "Research shows that economic productivity and social mobility increase when governments prioritize education and healthcare infrastructure investments.",
                 "usableIn": "body-paragraph-2"
@@ -551,9 +1151,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ generated _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["the Space Foundation", "scientists", "researchers"], "correctAnswer": "the Space Foundation"},
-                  {"id": "example5_b2", "options": ["every dollar invested in space exploration", "space programs", "space research"], "correctAnswer": "every dollar invested in space exploration"},
-                  {"id": "example5_b3", "options": ["seven to fourteen dollars in economic returns through innovation", "economic benefits", "positive outcomes"], "correctAnswer": "seven to fourteen dollars in economic returns through innovation"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "the Space Foundation",
+                      "scientists",
+                      "researchers"
+                    ],
+                    "correctAnswer": "the Space Foundation"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "every dollar invested in space exploration",
+                      "space programs",
+                      "space research"
+                    ],
+                    "correctAnswer": "every dollar invested in space exploration"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "seven to fourteen dollars in economic returns through innovation",
+                      "economic benefits",
+                      "positive outcomes"
+                    ],
+                    "correctAnswer": "seven to fourteen dollars in economic returns through innovation"
+                  }
                 ],
                 "correctSentence": "A study by the Space Foundation found that every dollar invested in space exploration generated seven to fourteen dollars in economic returns through innovation.",
                 "usableIn": "body-paragraph-1"
@@ -563,10 +1187,42 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ face _____ that urgently require _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["countries", "nations", "regions"], "correctAnswer": "countries"},
-                  {"id": "example6_b2", "options": ["India and Brazil", "developing nations", "poor countries"], "correctAnswer": "India and Brazil"},
-                  {"id": "example6_b3", "options": ["pressing challenges in poverty reduction and infrastructure", "serious problems", "difficult situations"], "correctAnswer": "pressing challenges in poverty reduction and infrastructure"},
-                  {"id": "example6_b4", "options": ["substantial government investment rather than space program funding", "attention and resources", "immediate solutions"], "correctAnswer": "substantial government investment rather than space program funding"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "countries",
+                      "nations",
+                      "regions"
+                    ],
+                    "correctAnswer": "countries"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "India and Brazil",
+                      "developing nations",
+                      "poor countries"
+                    ],
+                    "correctAnswer": "India and Brazil"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "pressing challenges in poverty reduction and infrastructure",
+                      "serious problems",
+                      "difficult situations"
+                    ],
+                    "correctAnswer": "pressing challenges in poverty reduction and infrastructure"
+                  },
+                  {
+                    "id": "example6_b4",
+                    "options": [
+                      "substantial government investment rather than space program funding",
+                      "attention and resources",
+                      "immediate solutions"
+                    ],
+                    "correctAnswer": "substantial government investment rather than space program funding"
+                  }
                 ],
                 "correctSentence": "In particular, countries such as India and Brazil face pressing challenges in poverty reduction and infrastructure that urgently require substantial government investment rather than space program funding.",
                 "usableIn": "body-paragraph-2"
@@ -576,9 +1232,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have reported that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["technological breakthroughs", "inventions", "discoveries"], "correctAnswer": "technological breakthroughs"},
-                  {"id": "example7_b2", "options": ["memory foam, cordless tools, and water filters", "useful products", "space technologies"], "correctAnswer": "memory foam, cordless tools, and water filters"},
-                  {"id": "example7_b3", "options": ["originated from space program research and now improve daily life globally", "came from space research", "benefit people"], "correctAnswer": "originated from space program research and now improve daily life globally"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "technological breakthroughs",
+                      "inventions",
+                      "discoveries"
+                    ],
+                    "correctAnswer": "technological breakthroughs"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "memory foam, cordless tools, and water filters",
+                      "useful products",
+                      "space technologies"
+                    ],
+                    "correctAnswer": "memory foam, cordless tools, and water filters"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "originated from space program research and now improve daily life globally",
+                      "came from space research",
+                      "benefit people"
+                    ],
+                    "correctAnswer": "originated from space program research and now improve daily life globally"
+                  }
                 ],
                 "correctSentence": "Many technological breakthroughs, including memory foam, cordless tools, and water filters, have reported that originated from space program research and now improve daily life globally.",
                 "usableIn": "body-paragraph-1"
@@ -588,9 +1268,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ demonstrates how _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["Finland's education system", "a country", "one nation"], "correctAnswer": "Finland's education system"},
-                  {"id": "example8_b2", "options": ["their consistent prioritization of educational funding", "their approach", "their policies"], "correctAnswer": "their consistent prioritization of educational funding"},
-                  {"id": "example8_b3", "options": ["domestic investment yields measurable improvements in social outcomes and international competitiveness", "spending on education works", "prioritizing Earth helps"], "correctAnswer": "domestic investment yields measurable improvements in social outcomes and international competitiveness"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "Finland's education system",
+                      "a country",
+                      "one nation"
+                    ],
+                    "correctAnswer": "Finland's education system"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "their consistent prioritization of educational funding",
+                      "their approach",
+                      "their policies"
+                    ],
+                    "correctAnswer": "their consistent prioritization of educational funding"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "domestic investment yields measurable improvements in social outcomes and international competitiveness",
+                      "spending on education works",
+                      "prioritizing Earth helps"
+                    ],
+                    "correctAnswer": "domestic investment yields measurable improvements in social outcomes and international competitiveness"
+                  }
                 ],
                 "correctSentence": "Take Finland's education system as an example: their consistent prioritization of educational funding demonstrates how domestic investment yields measurable improvements in social outcomes and international competitiveness.",
                 "usableIn": "body-paragraph-2"
@@ -600,9 +1304,33 @@
                 "type": "template",
                 "template": "According to _____, discoveries about _____ from space research _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["leading astronomers", "scientists", "experts"], "correctAnswer": "leading astronomers"},
-                  {"id": "example9_b2", "options": ["Earth's climate systems and planetary protection", "space", "the universe"], "correctAnswer": "Earth's climate systems and planetary protection"},
-                  {"id": "example9_b3", "options": ["provide essential data for addressing environmental challenges on our planet", "help us understand things", "are useful"], "correctAnswer": "provide essential data for addressing environmental challenges on our planet"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "leading astronomers",
+                      "scientists",
+                      "experts"
+                    ],
+                    "correctAnswer": "leading astronomers"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "Earth's climate systems and planetary protection",
+                      "space",
+                      "the universe"
+                    ],
+                    "correctAnswer": "Earth's climate systems and planetary protection"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "provide essential data for addressing environmental challenges on our planet",
+                      "help us understand things",
+                      "are useful"
+                    ],
+                    "correctAnswer": "provide essential data for addressing environmental challenges on our planet"
+                  }
                 ],
                 "correctSentence": "According to leading astronomers, discoveries about Earth's climate systems and planetary protection from space research provide essential data for addressing environmental challenges on our planet.",
                 "usableIn": "body-paragraph-1"
@@ -612,8 +1340,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is more effective when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["poverty reduction and healthcare improvement", "helping people", "social progress"], "correctAnswer": "poverty reduction and healthcare improvement"},
-                  {"id": "example10_b2", "options": ["governments allocate resources directly to these challenges rather than space ventures", "countries focus on domestic needs", "funding prioritizes Earth"], "correctAnswer": "governments allocate resources directly to these challenges rather than space ventures"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "poverty reduction and healthcare improvement",
+                      "helping people",
+                      "social progress"
+                    ],
+                    "correctAnswer": "poverty reduction and healthcare improvement"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "governments allocate resources directly to these challenges rather than space ventures",
+                      "countries focus on domestic needs",
+                      "funding prioritizes Earth"
+                    ],
+                    "correctAnswer": "governments allocate resources directly to these challenges rather than space ventures"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that poverty reduction and healthcare improvement is more effective when governments allocate resources directly to these challenges rather than space ventures.",
                 "usableIn": "body-paragraph-2"
@@ -630,8 +1374,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may lead to _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive focus on space exploration", "space programs", "rocket development"], "correctAnswer": "excessive focus on space exploration"},
-                  {"id": "counter1_b2", "options": ["neglect of urgent terrestrial problems requiring immediate attention", "wasted resources", "poor outcomes"], "correctAnswer": "neglect of urgent terrestrial problems requiring immediate attention"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive focus on space exploration",
+                      "space programs",
+                      "rocket development"
+                    ],
+                    "correctAnswer": "excessive focus on space exploration"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "neglect of urgent terrestrial problems requiring immediate attention",
+                      "wasted resources",
+                      "poor outcomes"
+                    ],
+                    "correctAnswer": "neglect of urgent terrestrial problems requiring immediate attention"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that excessive focus on space exploration may lead to neglect of urgent terrestrial problems requiring immediate attention.",
                 "usableIn": "body-paragraph-1"
@@ -641,8 +1401,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["focusing solely on domestic issues", "prioritizing Earth problems", "investing in social programs"], "correctAnswer": "focusing solely on domestic issues"},
-                  {"id": "counter2_b2", "options": ["sacrificing long-term scientific advancement and technological leadership", "missing opportunities", "limiting progress"], "correctAnswer": "sacrificing long-term scientific advancement and technological leadership"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "focusing solely on domestic issues",
+                      "prioritizing Earth problems",
+                      "investing in social programs"
+                    ],
+                    "correctAnswer": "focusing solely on domestic issues"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "sacrificing long-term scientific advancement and technological leadership",
+                      "missing opportunities",
+                      "limiting progress"
+                    ],
+                    "correctAnswer": "sacrificing long-term scientific advancement and technological leadership"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, focusing solely on domestic issues can present challenges such as sacrificing long-term scientific advancement and technological leadership.",
                 "usableIn": "body-paragraph-2"
@@ -652,8 +1428,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that not all nations possess.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["successful space exploration", "space research", "rocket programs"], "correctAnswer": "successful space exploration"},
-                  {"id": "counter3_b2", "options": ["substantial financial resources and technological infrastructure", "a lot of money", "advanced capabilities"], "correctAnswer": "substantial financial resources and technological infrastructure"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "successful space exploration",
+                      "space research",
+                      "rocket programs"
+                    ],
+                    "correctAnswer": "successful space exploration"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "substantial financial resources and technological infrastructure",
+                      "a lot of money",
+                      "advanced capabilities"
+                    ],
+                    "correctAnswer": "substantial financial resources and technological infrastructure"
+                  }
                 ],
                 "correctSentence": "Nevertheless, successful space exploration requires substantial financial resources and technological infrastructure that not all nations possess.",
                 "usableIn": "body-paragraph-1"
@@ -663,9 +1455,33 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it also involves _____ that _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["terrestrial investment", "domestic spending", "social programs"], "correctAnswer": "terrestrial investment"},
-                  {"id": "counter4_b2", "options": ["opportunity costs", "drawbacks", "limitations"], "correctAnswer": "opportunity costs"},
-                  {"id": "counter4_b3", "options": ["may limit humanity's ability to address future existential challenges", "could cause problems", "might be negative"], "correctAnswer": "may limit humanity's ability to address future existential challenges"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "terrestrial investment",
+                      "domestic spending",
+                      "social programs"
+                    ],
+                    "correctAnswer": "terrestrial investment"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "opportunity costs",
+                      "drawbacks",
+                      "limitations"
+                    ],
+                    "correctAnswer": "opportunity costs"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "may limit humanity's ability to address future existential challenges",
+                      "could cause problems",
+                      "might be negative"
+                    ],
+                    "correctAnswer": "may limit humanity's ability to address future existential challenges"
+                  }
                 ],
                 "correctSentence": "Although terrestrial investment offers benefits, it also involves opportunity costs that may limit humanity's ability to address future existential challenges.",
                 "usableIn": "body-paragraph-2"
@@ -675,9 +1491,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____ if not balanced with _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["space exploration budgets", "space programs", "research funding"], "correctAnswer": "space exploration budgets"},
-                  {"id": "counter5_b2", "options": ["appear wasteful and disconnected from citizens' immediate needs", "seem problematic", "be controversial"], "correctAnswer": "appear wasteful and disconnected from citizens' immediate needs"},
-                  {"id": "counter5_b3", "options": ["adequate investment in social welfare programs", "domestic spending", "Earth priorities"], "correctAnswer": "adequate investment in social welfare programs"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "space exploration budgets",
+                      "space programs",
+                      "research funding"
+                    ],
+                    "correctAnswer": "space exploration budgets"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "appear wasteful and disconnected from citizens' immediate needs",
+                      "seem problematic",
+                      "be controversial"
+                    ],
+                    "correctAnswer": "appear wasteful and disconnected from citizens' immediate needs"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "adequate investment in social welfare programs",
+                      "domestic spending",
+                      "Earth priorities"
+                    ],
+                    "correctAnswer": "adequate investment in social welfare programs"
+                  }
                 ],
                 "correctSentence": "Critics point out that space exploration budgets can appear wasteful and disconnected from citizens' immediate needs if not balanced with adequate investment in social welfare programs.",
                 "usableIn": "body-paragraph-1"
@@ -694,8 +1534,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both space exploration and terrestrial programs offer valuable benefits", "space is interesting", "Earth problems are important"], "correctAnswer": "both space exploration and terrestrial programs offer valuable benefits"},
-                  {"id": "conclusion1_b2", "options": ["governments should maintain balanced funding that addresses both priorities strategically", "space should receive all funding", "all money should go to Earth"], "correctAnswer": "governments should maintain balanced funding that addresses both priorities strategically"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both space exploration and terrestrial programs offer valuable benefits",
+                      "space is interesting",
+                      "Earth problems are important"
+                    ],
+                    "correctAnswer": "both space exploration and terrestrial programs offer valuable benefits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "governments should maintain balanced funding that addresses both priorities strategically",
+                      "space should receive all funding",
+                      "all money should go to Earth"
+                    ],
+                    "correctAnswer": "governments should maintain balanced funding that addresses both priorities strategically"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both space exploration and terrestrial programs offer valuable benefits, I believe governments should maintain balanced funding that addresses both priorities strategically.",
                 "usableIn": "conclusion"
@@ -705,10 +1561,42 @@
                 "type": "template",
                 "template": "Overall, _____ offers _____, whereas _____ provides _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["space exploration", "space research", "rocket programs"], "correctAnswer": "space exploration"},
-                  {"id": "conclusion2_b2", "options": ["long-term technological advancement and scientific discovery", "future benefits", "knowledge"], "correctAnswer": "long-term technological advancement and scientific discovery"},
-                  {"id": "conclusion2_b3", "options": ["domestic investment", "terrestrial spending", "social programs"], "correctAnswer": "domestic investment"},
-                  {"id": "conclusion2_b4", "options": ["immediate improvements to citizens' quality of life", "direct benefits", "tangible results"], "correctAnswer": "immediate improvements to citizens' quality of life"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "space exploration",
+                      "space research",
+                      "rocket programs"
+                    ],
+                    "correctAnswer": "space exploration"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "long-term technological advancement and scientific discovery",
+                      "future benefits",
+                      "knowledge"
+                    ],
+                    "correctAnswer": "long-term technological advancement and scientific discovery"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "domestic investment",
+                      "terrestrial spending",
+                      "social programs"
+                    ],
+                    "correctAnswer": "domestic investment"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "immediate improvements to citizens' quality of life",
+                      "direct benefits",
+                      "tangible results"
+                    ],
+                    "correctAnswer": "immediate improvements to citizens' quality of life"
+                  }
                 ],
                 "correctSentence": "Overall, space exploration offers long-term technological advancement and scientific discovery, whereas domestic investment provides immediate improvements to citizens' quality of life.",
                 "usableIn": "conclusion"
@@ -718,8 +1606,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends largely on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the optimal allocation of government resources", "funding decisions", "spending priorities"], "correctAnswer": "the optimal allocation of government resources"},
-                  {"id": "conclusion3_b2", "options": ["balancing immediate societal needs with long-term scientific and technological goals", "government decisions", "available budgets"], "correctAnswer": "balancing immediate societal needs with long-term scientific and technological goals"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the optimal allocation of government resources",
+                      "funding decisions",
+                      "spending priorities"
+                    ],
+                    "correctAnswer": "the optimal allocation of government resources"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "balancing immediate societal needs with long-term scientific and technological goals",
+                      "government decisions",
+                      "available budgets"
+                    ],
+                    "correctAnswer": "balancing immediate societal needs with long-term scientific and technological goals"
+                  }
                 ],
                 "correctSentence": "To summarize, the optimal allocation of government resources depends largely on balancing immediate societal needs with long-term scientific and technological goals.",
                 "usableIn": "conclusion"
@@ -729,9 +1633,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should consider _____ when deciding _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["policymakers and citizens", "governments", "nations"], "correctAnswer": "policymakers and citizens"},
-                  {"id": "conclusion4_b2", "options": ["both the tangible benefits of domestic programs and the transformative potential of space research", "all factors", "different options"], "correctAnswer": "both the tangible benefits of domestic programs and the transformative potential of space research"},
-                  {"id": "conclusion4_b3", "options": ["how to allocate limited public resources most effectively", "spending priorities", "budget allocations"], "correctAnswer": "how to allocate limited public resources most effectively"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "policymakers and citizens",
+                      "governments",
+                      "nations"
+                    ],
+                    "correctAnswer": "policymakers and citizens"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "both the tangible benefits of domestic programs and the transformative potential of space research",
+                      "all factors",
+                      "different options"
+                    ],
+                    "correctAnswer": "both the tangible benefits of domestic programs and the transformative potential of space research"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "how to allocate limited public resources most effectively",
+                      "spending priorities",
+                      "budget allocations"
+                    ],
+                    "correctAnswer": "how to allocate limited public resources most effectively"
+                  }
                 ],
                 "correctSentence": "Ultimately, policymakers and citizens should consider both the tangible benefits of domestic programs and the transformative potential of space research when deciding how to allocate limited public resources most effectively.",
                 "usableIn": "conclusion"
@@ -741,8 +1669,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most effective solution because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["a proportionate investment strategy", "balanced funding", "mixed approach"], "correctAnswer": "a proportionate investment strategy"},
-                  {"id": "conclusion5_b2", "options": ["it ensures progress on immediate needs while maintaining scientific advancement capacity", "it works best", "everyone benefits"], "correctAnswer": "it ensures progress on immediate needs while maintaining scientific advancement capacity"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "a proportionate investment strategy",
+                      "balanced funding",
+                      "mixed approach"
+                    ],
+                    "correctAnswer": "a proportionate investment strategy"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it ensures progress on immediate needs while maintaining scientific advancement capacity",
+                      "it works best",
+                      "everyone benefits"
+                    ],
+                    "correctAnswer": "it ensures progress on immediate needs while maintaining scientific advancement capacity"
+                  }
                 ],
                 "correctSentence": "In my view, a proportionate investment strategy represents the most effective solution because it ensures progress on immediate needs while maintaining scientific advancement capacity.",
                 "usableIn": "conclusion"
@@ -795,12 +1739,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of space exploration argue that", "Proponents contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Critics argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of space exploration argue that",
+            "Proponents contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Critics argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

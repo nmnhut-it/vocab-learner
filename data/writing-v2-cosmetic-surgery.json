@@ -79,105 +79,154 @@
             "word": "body image",
             "pronunciation": "/ˈbɒdi ˈɪmɪdʒ/",
             "partOfSpeech": "noun",
-            "definition": "The perception of one's physical appearance",
+            "definition": "The perception of one's physical appearance.",
             "example": "Social media can negatively impact body image, especially among young people.",
-            "synonyms": ["self-perception", "physical self-image"]
+            "synonyms": [
+              "self-perception",
+              "physical self-image"
+            ]
           },
           {
             "word": "self-esteem",
             "pronunciation": "/ˌself ɪˈstiːm/",
             "partOfSpeech": "noun",
-            "definition": "Confidence in one's worth or abilities",
+            "definition": "Confidence in one's worth or abilities.",
             "example": "Many people believe cosmetic surgery can boost their self-esteem.",
-            "synonyms": ["self-confidence", "self-worth"]
+            "synonyms": [
+              "self-confidence",
+              "self-worth"
+            ]
           },
           {
             "word": "beauty standards",
             "pronunciation": "/ˈbjuːti ˈstændədz/",
             "partOfSpeech": "noun",
-            "definition": "Socially accepted ideals of physical attractiveness",
+            "definition": "Socially accepted ideals of physical attractiveness.",
             "example": "Modern beauty standards are heavily influenced by celebrity culture.",
-            "synonyms": ["aesthetic ideals", "appearance norms"]
+            "synonyms": [
+              "aesthetic ideals",
+              "appearance norms"
+            ]
           },
           {
             "word": "psychological well-being",
             "pronunciation": "/ˌsaɪkəˈlɒdʒɪkəl ˌwelˈbiːɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Mental and emotional health state",
+            "definition": "Mental and emotional health state.",
             "example": "The impact of cosmetic surgery on psychological well-being remains debated.",
-            "synonyms": ["mental health", "emotional wellness"]
+            "synonyms": [
+              "mental health",
+              "emotional wellness"
+            ]
           },
           {
             "word": "enhance",
             "pronunciation": "/ɪnˈhɑːns/",
             "partOfSpeech": "verb",
-            "definition": "To improve or increase quality",
+            "definition": "To improve or increase quality.",
             "example": "Cosmetic procedures aim to enhance physical features.",
-            "synonyms": ["improve", "augment", "boost"]
+            "synonyms": [
+              "improve",
+              "augment",
+              "boost"
+            ]
           },
           {
             "word": "insecurity",
             "pronunciation": "/ˌɪnsɪˈkjʊərəti/",
             "partOfSpeech": "noun",
-            "definition": "Lack of confidence or anxiety about oneself",
+            "definition": "Lack of confidence or anxiety about oneself.",
             "example": "Physical insecurity often drives people toward cosmetic surgery.",
-            "synonyms": ["self-doubt", "anxiety"]
+            "synonyms": [
+              "self-doubt",
+              "anxiety"
+            ]
           },
           {
             "word": "superficial",
             "pronunciation": "/ˌsuːpəˈfɪʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Concerned only with surface appearance",
+            "definition": "Concerned only with surface appearance.",
             "example": "Critics argue that cosmetic surgery promotes superficial values.",
-            "synonyms": ["shallow", "surface-level"]
+            "synonyms": [
+              "shallow",
+              "surface-level"
+            ]
           },
           {
             "word": "normalize",
             "pronunciation": "/ˈnɔːməlaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To make something standard or acceptable",
+            "definition": "To make something standard or acceptable.",
             "example": "Celebrity endorsements have helped normalize cosmetic procedures.",
-            "synonyms": ["standardize", "make acceptable"]
+            "synonyms": [
+              "standardize",
+              "make acceptable"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "social media influence",
-            "definition": "Impact of online platforms on attitudes and behavior",
+            "definition": "Impact of online platforms on attitudes and behavior.",
             "example": "Social media influence has increased pressure to achieve unrealistic beauty ideals."
           },
           {
             "phrase": "medical risks",
-            "definition": "Potential health dangers from procedures",
+            "definition": "Potential health dangers from procedures.",
             "example": "Cosmetic surgery carries medical risks including infection and complications."
           },
           {
             "phrase": "celebrity culture",
-            "definition": "Societal obsession with famous personalities",
+            "definition": "Societal obsession with famous personalities.",
             "example": "Celebrity culture promotes specific physical features as ideal."
           },
           {
             "phrase": "unrealistic expectations",
-            "definition": "Goals or standards that cannot realistically be achieved",
+            "definition": "Goals or standards that cannot realistically be achieved.",
             "example": "Instagram filters create unrealistic expectations about appearance."
           },
           {
             "phrase": "reconstructive surgery",
-            "definition": "Medical procedures to repair physical damage or defects",
+            "definition": "Medical procedures to repair physical damage or defects.",
             "example": "Unlike cosmetic surgery, reconstructive surgery addresses medical needs."
           },
           {
             "phrase": "societal pressure",
-            "definition": "Expectations imposed by society or culture",
+            "definition": "Expectations imposed by society or culture.",
             "example": "Societal pressure to look young drives demand for anti-aging procedures."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There are several reasons why", "People undergo cosmetic surgery for various reasons", "This trend can be attributed to"],
-          "contrasting": ["However", "On the contrary", "Despite this", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In my view"]
+          "introducing": [
+            "There are several reasons why",
+            "People undergo cosmetic surgery for various reasons",
+            "This trend can be attributed to"
+          ],
+          "contrasting": [
+            "However",
+            "On the contrary",
+            "Despite this",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In my view"
+          ]
         }
       }
     },
@@ -200,8 +249,24 @@
                 "type": "template",
                 "template": "This trend is driven by _____ and I believe it is primarily a _____ development.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["social media influence and beauty standards", "medical necessity", "government policy"], "correctAnswer": "social media influence and beauty standards"},
-                  {"id": "thesis1_b2", "options": ["negative", "positive", "neutral"], "correctAnswer": "negative"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "social media influence and beauty standards",
+                      "medical necessity",
+                      "government policy"
+                    ],
+                    "correctAnswer": "social media influence and beauty standards"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "negative",
+                      "positive",
+                      "neutral"
+                    ],
+                    "correctAnswer": "negative"
+                  }
                 ],
                 "correctSentence": "This trend is driven by social media influence and beauty standards and I believe it is primarily a negative development.",
                 "usableIn": "introduction"
@@ -211,8 +276,24 @@
                 "type": "template",
                 "template": "While _____ motivate people to undergo surgery, I consider this a _____ trend overall.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["various psychological and social factors", "medical emergencies", "financial incentives"], "correctAnswer": "various psychological and social factors"},
-                  {"id": "thesis2_b2", "options": ["concerning", "beneficial", "minor"], "correctAnswer": "concerning"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "various psychological and social factors",
+                      "medical emergencies",
+                      "financial incentives"
+                    ],
+                    "correctAnswer": "various psychological and social factors"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "concerning",
+                      "beneficial",
+                      "minor"
+                    ],
+                    "correctAnswer": "concerning"
+                  }
                 ],
                 "correctSentence": "While various psychological and social factors motivate people to undergo surgery, I consider this a concerning trend overall.",
                 "usableIn": "introduction"
@@ -229,9 +310,33 @@
                 "type": "template",
                 "template": "There are _____ why people choose cosmetic surgery, primarily _____ and _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["several reasons", "no reasons", "medical requirements"], "correctAnswer": "several reasons"},
-                  {"id": "topic1_b2", "options": ["social pressure", "hospital requirements", "legal obligations"], "correctAnswer": "social pressure"},
-                  {"id": "topic1_b3", "options": ["desire to boost self-esteem", "government mandates", "insurance coverage"], "correctAnswer": "desire to boost self-esteem"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "several reasons",
+                      "no reasons",
+                      "medical requirements"
+                    ],
+                    "correctAnswer": "several reasons"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "social pressure",
+                      "hospital requirements",
+                      "legal obligations"
+                    ],
+                    "correctAnswer": "social pressure"
+                  },
+                  {
+                    "id": "topic1_b3",
+                    "options": [
+                      "desire to boost self-esteem",
+                      "government mandates",
+                      "insurance coverage"
+                    ],
+                    "correctAnswer": "desire to boost self-esteem"
+                  }
                 ],
                 "correctSentence": "There are several reasons why people choose cosmetic surgery, primarily social pressure and desire to boost self-esteem.",
                 "usableIn": "body-paragraph-1"
@@ -241,8 +346,24 @@
                 "type": "template",
                 "template": "In my view, this is a _____ development because _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["negative", "positive", "minor"], "correctAnswer": "negative"},
-                  {"id": "topic2_b2", "options": ["it promotes superficial values and carries health risks", "it helps everyone", "it costs money"], "correctAnswer": "it promotes superficial values and carries health risks"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "negative",
+                      "positive",
+                      "minor"
+                    ],
+                    "correctAnswer": "negative"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "it promotes superficial values and carries health risks",
+                      "it helps everyone",
+                      "it costs money"
+                    ],
+                    "correctAnswer": "it promotes superficial values and carries health risks"
+                  }
                 ],
                 "correctSentence": "In my view, this is a negative development because it promotes superficial values and carries health risks.",
                 "usableIn": "body-paragraph-2"
@@ -259,9 +380,33 @@
                 "type": "template",
                 "template": "The main driver is _____, which creates _____ to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["social media influence", "medical advice", "government policy"], "correctAnswer": "social media influence"},
-                  {"id": "support1_b2", "options": ["pressure", "opportunities", "requirements"], "correctAnswer": "pressure"},
-                  {"id": "support1_b3", "options": ["conform to unrealistic beauty standards", "seek medical help", "follow regulations"], "correctAnswer": "conform to unrealistic beauty standards"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "social media influence",
+                      "medical advice",
+                      "government policy"
+                    ],
+                    "correctAnswer": "social media influence"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "pressure",
+                      "opportunities",
+                      "requirements"
+                    ],
+                    "correctAnswer": "pressure"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "conform to unrealistic beauty standards",
+                      "seek medical help",
+                      "follow regulations"
+                    ],
+                    "correctAnswer": "conform to unrealistic beauty standards"
+                  }
                 ],
                 "correctSentence": "The main driver is social media influence, which creates pressure to conform to unrealistic beauty standards.",
                 "usableIn": "body-paragraph-1"
@@ -271,8 +416,24 @@
                 "type": "template",
                 "template": "This is problematic because _____ can lead to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["cosmetic procedures", "healthy eating", "regular exercise"], "correctAnswer": "cosmetic procedures"},
-                  {"id": "support2_b2", "options": ["serious medical complications and psychological issues", "improved health", "better sleep"], "correctAnswer": "serious medical complications and psychological issues"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "cosmetic procedures",
+                      "healthy eating",
+                      "regular exercise"
+                    ],
+                    "correctAnswer": "cosmetic procedures"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "serious medical complications and psychological issues",
+                      "improved health",
+                      "better sleep"
+                    ],
+                    "correctAnswer": "serious medical complications and psychological issues"
+                  }
                 ],
                 "correctSentence": "This is problematic because cosmetic procedures can lead to serious medical complications and psychological issues.",
                 "usableIn": "body-paragraph-2"
@@ -289,10 +450,42 @@
                 "type": "template",
                 "template": "For instance, _____ on platforms like _____ make users feel _____ about _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Instagram filters and edited photos", "health articles", "news stories"], "correctAnswer": "Instagram filters and edited photos"},
-                  {"id": "example1_b2", "options": ["Instagram and TikTok", "medical websites", "government portals"], "correctAnswer": "Instagram and TikTok"},
-                  {"id": "example1_b3", "options": ["insecure", "healthy", "informed"], "correctAnswer": "insecure"},
-                  {"id": "example1_b4", "options": ["their natural appearance", "their diet", "their education"], "correctAnswer": "their natural appearance"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Instagram filters and edited photos",
+                      "health articles",
+                      "news stories"
+                    ],
+                    "correctAnswer": "Instagram filters and edited photos"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "Instagram and TikTok",
+                      "medical websites",
+                      "government portals"
+                    ],
+                    "correctAnswer": "Instagram and TikTok"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "insecure",
+                      "healthy",
+                      "informed"
+                    ],
+                    "correctAnswer": "insecure"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "their natural appearance",
+                      "their diet",
+                      "their education"
+                    ],
+                    "correctAnswer": "their natural appearance"
+                  }
                 ],
                 "correctSentence": "For instance, Instagram filters and edited photos on platforms like Instagram and TikTok make users feel insecure about their natural appearance.",
                 "usableIn": "body-paragraph-1"
@@ -302,9 +495,33 @@
                 "type": "template",
                 "template": "For example, _____ have resulted in _____ among _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["botched cosmetic procedures", "healthy diets", "exercise programs"], "correctAnswer": "botched cosmetic procedures"},
-                  {"id": "example2_b2", "options": ["infections, scarring and even deaths", "improved fitness", "better nutrition"], "correctAnswer": "infections, scarring and even deaths"},
-                  {"id": "example2_b3", "options": ["patients seeking quick fixes", "athletes", "students"], "correctAnswer": "patients seeking quick fixes"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "botched cosmetic procedures",
+                      "healthy diets",
+                      "exercise programs"
+                    ],
+                    "correctAnswer": "botched cosmetic procedures"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "infections, scarring and even deaths",
+                      "improved fitness",
+                      "better nutrition"
+                    ],
+                    "correctAnswer": "infections, scarring and even deaths"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "patients seeking quick fixes",
+                      "athletes",
+                      "students"
+                    ],
+                    "correctAnswer": "patients seeking quick fixes"
+                  }
                 ],
                 "correctSentence": "For example, botched cosmetic procedures have resulted in infections, scarring and even deaths among patients seeking quick fixes.",
                 "usableIn": "body-paragraph-2"
@@ -321,9 +538,33 @@
                 "type": "template",
                 "template": "In conclusion, while _____, this is a _____ development because _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["societal pressure and self-esteem concerns drive cosmetic surgery", "surgery is always necessary", "everyone needs surgery"], "correctAnswer": "societal pressure and self-esteem concerns drive cosmetic surgery"},
-                  {"id": "conclusion1_b2", "options": ["negative", "positive", "neutral"], "correctAnswer": "negative"},
-                  {"id": "conclusion1_b3", "options": ["it promotes unhealthy values and carries significant risks", "it helps everyone", "it is inexpensive"], "correctAnswer": "it promotes unhealthy values and carries significant risks"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "societal pressure and self-esteem concerns drive cosmetic surgery",
+                      "surgery is always necessary",
+                      "everyone needs surgery"
+                    ],
+                    "correctAnswer": "societal pressure and self-esteem concerns drive cosmetic surgery"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "negative",
+                      "positive",
+                      "neutral"
+                    ],
+                    "correctAnswer": "negative"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": [
+                      "it promotes unhealthy values and carries significant risks",
+                      "it helps everyone",
+                      "it is inexpensive"
+                    ],
+                    "correctAnswer": "it promotes unhealthy values and carries significant risks"
+                  }
                 ],
                 "correctSentence": "In conclusion, while societal pressure and self-esteem concerns drive cosmetic surgery, this is a negative development because it promotes unhealthy values and carries significant risks.",
                 "usableIn": "conclusion"
@@ -352,12 +593,41 @@
           }
         ],
         "usefulTransitions": {
-          "introducing_reasons": ["There are several reasons why", "People undergo cosmetic surgery for various reasons", "This trend can be attributed to"],
-          "listing_reasons": ["First", "Firstly", "The primary reason", "Another factor"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "introducing_reasons": [
+            "There are several reasons why",
+            "People undergo cosmetic surgery for various reasons",
+            "This trend can be attributed to"
+          ],
+          "listing_reasons": [
+            "First",
+            "Firstly",
+            "The primary reason",
+            "Another factor"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

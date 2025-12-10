@@ -79,105 +79,154 @@
             "word": "connectivity",
             "pronunciation": "/ˌkɒnekˈtɪvəti/",
             "partOfSpeech": "noun",
-            "definition": "The state of being connected with others",
+            "definition": "The state of being connected with others.",
             "example": "Social media enhances global connectivity among diverse communities.",
-            "synonyms": ["connection", "linkage"]
+            "synonyms": [
+              "connection",
+              "linkage"
+            ]
           },
           {
             "word": "dissemination",
             "pronunciation": "/dɪˌsemɪˈneɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The act of spreading information widely",
+            "definition": "The act of spreading information widely.",
             "example": "Social platforms enable rapid dissemination of news and ideas.",
-            "synonyms": ["distribution", "spreading"]
+            "synonyms": [
+              "distribution",
+              "spreading"
+            ]
           },
           {
             "word": "polarization",
             "pronunciation": "/ˌpəʊləraɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Division into sharply contrasting groups",
+            "definition": "Division into sharply contrasting groups.",
             "example": "Social media can increase political polarization in society.",
-            "synonyms": ["division", "fragmentation"]
+            "synonyms": [
+              "division",
+              "fragmentation"
+            ]
           },
           {
             "word": "misinformation",
             "pronunciation": "/ˌmɪsɪnfəˈmeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "False or inaccurate information",
+            "definition": "False or inaccurate information.",
             "example": "The spread of misinformation on social platforms poses serious risks.",
-            "synonyms": ["disinformation", "false information"]
+            "synonyms": [
+              "disinformation",
+              "false information"
+            ]
           },
           {
             "word": "amplify",
             "pronunciation": "/ˈæmplɪfaɪ/",
             "partOfSpeech": "verb",
-            "definition": "To increase or make stronger",
+            "definition": "To increase or make stronger.",
             "example": "Social media can amplify marginalized voices in society.",
-            "synonyms": ["magnify", "enhance", "strengthen"]
+            "synonyms": [
+              "magnify",
+              "enhance",
+              "strengthen"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
+            "definition": "To make an action or process easier.",
             "example": "These platforms facilitate social movements and collective action.",
-            "synonyms": ["enable", "assist", "promote"]
+            "synonyms": [
+              "enable",
+              "assist",
+              "promote"
+            ]
           },
           {
             "word": "detrimental",
             "pronunciation": "/ˌdetrɪˈmentəl/",
             "partOfSpeech": "adjective",
-            "definition": "Harmful or damaging",
+            "definition": "Harmful or damaging.",
             "example": "Excessive social media use can be detrimental to mental health.",
-            "synonyms": ["harmful", "damaging", "adverse"]
+            "synonyms": [
+              "harmful",
+              "damaging",
+              "adverse"
+            ]
           },
           {
             "word": "unprecedented",
             "pronunciation": "/ʌnˈpresɪdentɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Never done or known before",
+            "definition": "Never done or known before.",
             "example": "Social media provides unprecedented access to global information.",
-            "synonyms": ["unparalleled", "extraordinary"]
+            "synonyms": [
+              "unparalleled",
+              "extraordinary"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "echo chamber",
-            "definition": "Environment where people only encounter views they already agree with",
+            "definition": "Environment where people only encounter views they already agree with.",
             "example": "Social media algorithms can create echo chambers that reinforce existing beliefs."
           },
           {
             "phrase": "viral content",
-            "definition": "Information that spreads rapidly online",
+            "definition": "Information that spreads rapidly online.",
             "example": "Viral content can raise awareness about important social issues quickly."
           },
           {
             "phrase": "digital activism",
-            "definition": "Using online platforms to promote social or political change",
+            "definition": "Using online platforms to promote social or political change.",
             "example": "Digital activism has mobilized millions for movements like climate action."
           },
           {
             "phrase": "mental wellbeing",
-            "definition": "Psychological health and emotional state",
+            "definition": "Psychological health and emotional state.",
             "example": "Constant social comparison can negatively affect mental wellbeing."
           },
           {
             "phrase": "public discourse",
-            "definition": "Open discussion of issues in society",
+            "definition": "Open discussion of issues in society.",
             "example": "Social media has democratized public discourse by giving everyone a voice."
           },
           {
             "phrase": "cyberbullying",
-            "definition": "Harassment or intimidation conducted online",
+            "definition": "Harassment or intimidation conducted online.",
             "example": "Cyberbullying on social platforms has become a serious concern for young people."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The impact of social media on", "Social platforms have", "In the digital age"],
-          "positive_side": ["On the positive side", "Advocates argue that", "One beneficial aspect is"],
-          "negative_side": ["On the negative side", "Critics contend that", "However, a concerning aspect is"],
-          "exemplifying": ["For instance", "A notable example is", "This is evident in", "Particularly"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking everything into account"]
+          "introducing": [
+            "The impact of social media on",
+            "Social platforms have",
+            "In the digital age"
+          ],
+          "positive_side": [
+            "On the positive side",
+            "Advocates argue that",
+            "One beneficial aspect is"
+          ],
+          "negative_side": [
+            "On the negative side",
+            "Critics contend that",
+            "However, a concerning aspect is"
+          ],
+          "exemplifying": [
+            "For instance",
+            "A notable example is",
+            "This is evident in",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking everything into account"
+          ]
         }
       }
     },
@@ -194,7 +243,10 @@
             "clues": {
               "subject": "Social media",
               "verb": "enable",
-              "keywords": ["global connectivity", "diverse communities"]
+              "keywords": [
+                "global connectivity",
+                "diverse communities"
+              ]
             },
             "hint": "Mention how it enables connection across distances.",
             "modelAnswer": "Social media enables unprecedented global connectivity among diverse communities and cultures.",
@@ -205,7 +257,10 @@
             "clues": {
               "subject": "Digital platforms",
               "verb": "facilitate",
-              "keywords": ["social movements", "collective action"]
+              "keywords": [
+                "social movements",
+                "collective action"
+              ]
             },
             "hint": "Focus on how they help organize movements.",
             "modelAnswer": "Digital platforms facilitate social movements by enabling rapid coordination and collective action.",
@@ -216,7 +271,10 @@
             "clues": {
               "subject": "Social media",
               "verb": "contribute",
-              "keywords": ["misinformation", "spread rapidly"]
+              "keywords": [
+                "misinformation",
+                "spread rapidly"
+              ]
             },
             "hint": "Discuss the negative aspect of false information spreading.",
             "modelAnswer": "Social media contributes to the spread of misinformation which can rapidly reach millions.",
@@ -227,7 +285,10 @@
             "clues": {
               "subject": "Constant exposure",
               "verb": "affect",
-              "keywords": ["mental wellbeing", "young people"]
+              "keywords": [
+                "mental wellbeing",
+                "young people"
+              ]
             },
             "hint": "Focus on negative psychological impacts.",
             "modelAnswer": "Constant exposure to social media can negatively affect the mental wellbeing of young people.",
@@ -238,7 +299,10 @@
             "clues": {
               "subject": "These platforms",
               "verb": "amplify",
-              "keywords": ["marginalized voices", "social issues"]
+              "keywords": [
+                "marginalized voices",
+                "social issues"
+              ]
             },
             "hint": "Discuss how they give voice to underrepresented groups.",
             "modelAnswer": "These platforms amplify marginalized voices and bring attention to important social issues.",
@@ -248,31 +312,72 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["social media", "has", "transformed", "how", "people", "communicate", "globally"],
+            "words": [
+              "social media",
+              "has",
+              "transformed",
+              "how",
+              "people",
+              "communicate",
+              "globally"
+            ],
             "correctAnswer": "Social media has transformed how people communicate globally.",
             "hint": "Start with 'Social media'"
           },
           {
             "id": "scramble2",
-            "words": ["online platforms", "enable", "rapid", "dissemination", "of", "information", "worldwide"],
+            "words": [
+              "online platforms",
+              "enable",
+              "rapid",
+              "dissemination",
+              "of",
+              "information",
+              "worldwide"
+            ],
             "correctAnswer": "Online platforms enable rapid dissemination of information worldwide.",
             "hint": "Subject is 'Online platforms'"
           },
           {
             "id": "scramble3",
-            "words": ["misinformation", "spreads", "quickly", "through", "social", "media", "networks"],
+            "words": [
+              "misinformation",
+              "spreads",
+              "quickly",
+              "through",
+              "social",
+              "media",
+              "networks"
+            ],
             "correctAnswer": "Misinformation spreads quickly through social media networks.",
             "hint": "'spreads' is the main verb"
           },
           {
             "id": "scramble4",
-            "words": ["digital activism", "has", "mobilized", "millions", "for", "important", "causes"],
+            "words": [
+              "digital activism",
+              "has",
+              "mobilized",
+              "millions",
+              "for",
+              "important",
+              "causes"
+            ],
             "correctAnswer": "Digital activism has mobilized millions for important causes.",
             "hint": "Start with 'Digital activism'"
           },
           {
             "id": "scramble5",
-            "words": ["excessive", "use", "can", "lead to", "social", "isolation", "and", "anxiety"],
+            "words": [
+              "excessive",
+              "use",
+              "can",
+              "lead to",
+              "social",
+              "isolation",
+              "and",
+              "anxiety"
+            ],
             "correctAnswer": "Excessive use can lead to social isolation and anxiety.",
             "hint": "'can lead to' is the verb phrase"
           }
@@ -281,35 +386,55 @@
           {
             "id": "blank1",
             "sentence": "Social media _____ unprecedented connectivity among global communities.",
-            "options": ["provide", "provides", "providing"],
+            "options": [
+              "provide",
+              "provides",
+              "providing"
+            ],
             "correctAnswer": "provides",
             "explanation": "Singular subject 'Social media' needs 's' on the verb."
           },
           {
             "id": "blank2",
             "sentence": "_____, these platforms can spread misinformation rapidly.",
-            "options": ["Moreover", "However", "Therefore"],
+            "options": [
+              "Moreover",
+              "However",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to contrast positive aspects with negative ones."
           },
           {
             "id": "blank3",
             "sentence": "Digital activism has _____ millions for social movements.",
-            "options": ["mobilized", "mobile", "mobility"],
+            "options": [
+              "mobilized",
+              "mobile",
+              "mobility"
+            ],
             "correctAnswer": "mobilized",
             "explanation": "Use past participle 'mobilized' with 'has'."
           },
           {
             "id": "blank4",
             "sentence": "_____ instance, the Arab Spring utilized social media effectively.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For instance' is the correct phrase for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Excessive use can be _____ to mental health.",
-            "options": ["detrimental", "detriment", "detrimentally"],
+            "options": [
+              "detrimental",
+              "detriment",
+              "detrimentally"
+            ],
             "correctAnswer": "detrimental",
             "explanation": "Use adjective 'detrimental' after 'be'."
           }
@@ -359,12 +484,42 @@
           }
         ],
         "usefulTransitions": {
-          "positive_aspects": ["On the positive side", "Advocates argue that", "One beneficial aspect is", "Supporters contend that"],
-          "negative_aspects": ["On the negative side", "Critics point out that", "However, a concerning issue is", "Detractors argue that"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "A notable example is", "This is evident in", "Particularly"],
-          "showing_result": ["Consequently", "As a result", "Therefore", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Conversely", "Despite this"]
+          "positive_aspects": [
+            "On the positive side",
+            "Advocates argue that",
+            "One beneficial aspect is",
+            "Supporters contend that"
+          ],
+          "negative_aspects": [
+            "On the negative side",
+            "Critics point out that",
+            "However, a concerning issue is",
+            "Detractors argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "A notable example is",
+            "This is evident in",
+            "Particularly"
+          ],
+          "showing_result": [
+            "Consequently",
+            "As a result",
+            "Therefore",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Conversely",
+            "Despite this"
+          ]
         }
       }
     },

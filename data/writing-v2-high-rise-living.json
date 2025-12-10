@@ -80,105 +80,159 @@
             "word": "accommodate",
             "pronunciation": "/əˈkɒmədeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To provide space or housing for people",
+            "definition": "To provide space or housing for people.",
             "example": "High-rise buildings can accommodate more residents on limited urban land.",
-            "synonyms": ["house", "shelter", "hold"]
+            "synonyms": [
+              "house",
+              "shelter",
+              "hold"
+            ]
           },
           {
             "word": "density",
             "pronunciation": "/ˈdensəti/",
             "partOfSpeech": "noun",
-            "definition": "The degree of compactness or concentration of population",
+            "definition": "The degree of compactness or concentration of population.",
             "example": "High-rise development increases population density in city centers.",
-            "synonyms": ["concentration", "crowding", "compactness"]
+            "synonyms": [
+              "concentration",
+              "crowding",
+              "compactness"
+            ]
           },
           {
             "word": "vertical",
             "pronunciation": "/ˈvɜːtɪkəl/",
             "partOfSpeech": "adjective",
-            "definition": "Going upward rather than outward; building up instead of spreading out",
+            "definition": "Going upward rather than outward; building up instead of spreading out.",
             "example": "Vertical expansion addresses urban sprawl by building upward.",
-            "synonyms": ["upward", "perpendicular"]
+            "synonyms": [
+              "upward",
+              "perpendicular"
+            ]
           },
           {
             "word": "infrastructure",
             "pronunciation": "/ˈɪnfrəstrʌktʃə/",
             "partOfSpeech": "noun",
-            "definition": "Basic facilities and systems (roads, utilities, services) needed for functioning",
+            "definition": "Basic facilities and systems (roads, utilities, services) needed for functioning.",
             "example": "High-rise developments require robust infrastructure to support concentrated populations.",
-            "synonyms": ["facilities", "services", "systems"]
+            "synonyms": [
+              "facilities",
+              "services",
+              "systems"
+            ]
           },
           {
             "word": "isolate",
             "pronunciation": "/ˈaɪsəleɪt/",
             "partOfSpeech": "verb",
-            "definition": "To separate or disconnect from others",
+            "definition": "To separate or disconnect from others.",
             "example": "Tower blocks can isolate residents from community interaction at ground level.",
-            "synonyms": ["separate", "disconnect", "cut off"]
+            "synonyms": [
+              "separate",
+              "disconnect",
+              "cut off"
+            ]
           },
           {
             "word": "congestion",
             "pronunciation": "/kənˈdʒestʃən/",
             "partOfSpeech": "noun",
-            "definition": "Overcrowding or excessive concentration in one area",
+            "definition": "Overcrowding or excessive concentration in one area.",
             "example": "High-rise buildings can create severe congestion in elevators and common areas.",
-            "synonyms": ["overcrowding", "gridlock", "bottleneck"]
+            "synonyms": [
+              "overcrowding",
+              "gridlock",
+              "bottleneck"
+            ]
           },
           {
             "word": "sprawl",
             "pronunciation": "/sprɔːl/",
             "partOfSpeech": "noun/verb",
-            "definition": "Uncontrolled expansion of urban areas into surrounding countryside",
+            "definition": "Uncontrolled expansion of urban areas into surrounding countryside.",
             "example": "Building vertically reduces urban sprawl and preserves green spaces.",
-            "synonyms": ["expansion", "spread"]
+            "synonyms": [
+              "expansion",
+              "spread"
+            ]
           },
           {
             "word": "amenity",
             "pronunciation": "/əˈmiːnəti/",
             "partOfSpeech": "noun",
-            "definition": "A useful or desirable feature or facility",
+            "definition": "A useful or desirable feature or facility.",
             "example": "Modern high-rises often include amenities like gyms and rooftop gardens.",
-            "synonyms": ["facility", "convenience", "service"]
+            "synonyms": [
+              "facility",
+              "convenience",
+              "service"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "land scarcity",
-            "definition": "Limited availability of usable land for development",
+            "definition": "Limited availability of usable land for development.",
             "example": "In cities facing land scarcity, high-rise construction becomes essential."
           },
           {
             "phrase": "community cohesion",
-            "definition": "The sense of connection and solidarity among neighbors",
+            "definition": "The sense of connection and solidarity among neighbors.",
             "example": "Low-rise housing typically fosters stronger community cohesion than tower blocks."
           },
           {
             "phrase": "footprint",
-            "definition": "The area of ground covered by a building",
+            "definition": "The area of ground covered by a building.",
             "example": "High-rise buildings have a smaller footprint, preserving more land for parks."
           },
           {
             "phrase": "affordable housing",
-            "definition": "Residential units priced within reach of average-income families",
+            "definition": "Residential units priced within reach of average-income families.",
             "example": "High-rise development can increase the supply of affordable housing units."
           },
           {
             "phrase": "green space",
-            "definition": "Parks, gardens, and natural areas within urban environments",
+            "definition": "Parks, gardens, and natural areas within urban environments.",
             "example": "Vertical construction preserves valuable green space in crowded cities."
           },
           {
             "phrase": "social isolation",
-            "definition": "Lack of contact and connection with other people",
+            "definition": "Lack of contact and connection with other people.",
             "example": "Residents of large tower blocks sometimes experience social isolation."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In densely populated urban areas", "As cities expand", "With limited land availability"],
-          "contrasting": ["However", "Conversely", "On the other hand", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Particularly", "Such as"],
-          "concluding": ["In conclusion", "Overall", "On balance", "To summarize"]
+          "introducing": [
+            "In densely populated urban areas",
+            "As cities expand",
+            "With limited land availability"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "On the other hand",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "To summarize"
+          ]
         }
       }
     },
@@ -201,9 +255,33 @@
                 "type": "template",
                 "template": "While _____ offers _____, it also presents _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["high-rise construction", "modern architecture", "building permits"], "correctAnswer": "high-rise construction"},
-                  {"id": "thesis1_b2", "options": ["practical solutions to urban land scarcity", "nice views", "tall structures"], "correctAnswer": "practical solutions to urban land scarcity"},
-                  {"id": "thesis1_b3", "options": ["significant challenges regarding community and quality of life", "some difficulties", "minor problems"], "correctAnswer": "significant challenges regarding community and quality of life"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "high-rise construction",
+                      "modern architecture",
+                      "building permits"
+                    ],
+                    "correctAnswer": "high-rise construction"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "practical solutions to urban land scarcity",
+                      "nice views",
+                      "tall structures"
+                    ],
+                    "correctAnswer": "practical solutions to urban land scarcity"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "significant challenges regarding community and quality of life",
+                      "some difficulties",
+                      "minor problems"
+                    ],
+                    "correctAnswer": "significant challenges regarding community and quality of life"
+                  }
                 ],
                 "correctSentence": "While high-rise construction offers practical solutions to urban land scarcity, it also presents significant challenges regarding community and quality of life.",
                 "usableIn": "introduction"
@@ -213,8 +291,24 @@
                 "type": "template",
                 "template": "In my opinion, the advantages of _____ outweigh the disadvantages in _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["vertical residential development", "tall buildings", "modern construction"], "correctAnswer": "vertical residential development"},
-                  {"id": "thesis2_b2", "options": ["densely populated cities where land is limited", "all situations", "most places"], "correctAnswer": "densely populated cities where land is limited"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "vertical residential development",
+                      "tall buildings",
+                      "modern construction"
+                    ],
+                    "correctAnswer": "vertical residential development"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "densely populated cities where land is limited",
+                      "all situations",
+                      "most places"
+                    ],
+                    "correctAnswer": "densely populated cities where land is limited"
+                  }
                 ],
                 "correctSentence": "In my opinion, the advantages of vertical residential development outweigh the disadvantages in densely populated cities where land is limited.",
                 "usableIn": "introduction"
@@ -224,9 +318,33 @@
                 "type": "template",
                 "template": "This shift toward _____ has sparked debate about whether _____ justify _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["high-density tower blocks", "new buildings", "urban construction"], "correctAnswer": "high-density tower blocks"},
-                  {"id": "thesis3_b2", "options": ["the spatial and environmental benefits", "nice features", "modern designs"], "correctAnswer": "the spatial and environmental benefits"},
-                  {"id": "thesis3_b3", "options": ["the potential social and psychological costs", "construction expenses", "building time"], "correctAnswer": "the potential social and psychological costs"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "high-density tower blocks",
+                      "new buildings",
+                      "urban construction"
+                    ],
+                    "correctAnswer": "high-density tower blocks"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "the spatial and environmental benefits",
+                      "nice features",
+                      "modern designs"
+                    ],
+                    "correctAnswer": "the spatial and environmental benefits"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": [
+                      "the potential social and psychological costs",
+                      "construction expenses",
+                      "building time"
+                    ],
+                    "correctAnswer": "the potential social and psychological costs"
+                  }
                 ],
                 "correctSentence": "This shift toward high-density tower blocks has sparked debate about whether the spatial and environmental benefits justify the potential social and psychological costs.",
                 "usableIn": "introduction"
@@ -236,9 +354,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ represents _____, despite _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["building upward rather than outward", "constructing tall buildings", "vertical development"], "correctAnswer": "building upward rather than outward"},
-                  {"id": "thesis4_b2", "options": ["a necessary response to urbanization pressures", "modern progress", "architectural advancement"], "correctAnswer": "a necessary response to urbanization pressures"},
-                  {"id": "thesis4_b3", "options": ["legitimate concerns about resident wellbeing", "some complaints", "construction costs"], "correctAnswer": "legitimate concerns about resident wellbeing"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "building upward rather than outward",
+                      "constructing tall buildings",
+                      "vertical development"
+                    ],
+                    "correctAnswer": "building upward rather than outward"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "a necessary response to urbanization pressures",
+                      "modern progress",
+                      "architectural advancement"
+                    ],
+                    "correctAnswer": "a necessary response to urbanization pressures"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "legitimate concerns about resident wellbeing",
+                      "some complaints",
+                      "construction costs"
+                    ],
+                    "correctAnswer": "legitimate concerns about resident wellbeing"
+                  }
                 ],
                 "correctSentence": "From my perspective, building upward rather than outward represents a necessary response to urbanization pressures, despite legitimate concerns about resident wellbeing.",
                 "usableIn": "introduction"
@@ -248,8 +390,24 @@
                 "type": "template",
                 "template": "This essay will examine _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both the merits and drawbacks of vertical housing", "tall buildings", "construction methods"], "correctAnswer": "both the merits and drawbacks of vertical housing"},
-                  {"id": "thesis5_b2", "options": ["high-rise development is beneficial when properly planned", "skyscrapers are good", "height doesn't matter"], "correctAnswer": "high-rise development is beneficial when properly planned"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both the merits and drawbacks of vertical housing",
+                      "tall buildings",
+                      "construction methods"
+                    ],
+                    "correctAnswer": "both the merits and drawbacks of vertical housing"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "high-rise development is beneficial when properly planned",
+                      "skyscrapers are good",
+                      "height doesn't matter"
+                    ],
+                    "correctAnswer": "high-rise development is beneficial when properly planned"
+                  }
                 ],
                 "correctSentence": "This essay will examine both the merits and drawbacks of vertical housing before concluding that high-rise development is beneficial when properly planned.",
                 "usableIn": "introduction"
@@ -266,8 +424,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is their ability to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["high-rise apartment complexes", "tall structures", "modern buildings"], "correctAnswer": "high-rise apartment complexes"},
-                  {"id": "topic1_b2", "options": ["accommodate large populations on limited urban land", "provide views", "reach the sky"], "correctAnswer": "accommodate large populations on limited urban land"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "high-rise apartment complexes",
+                      "tall structures",
+                      "modern buildings"
+                    ],
+                    "correctAnswer": "high-rise apartment complexes"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "accommodate large populations on limited urban land",
+                      "provide views",
+                      "reach the sky"
+                    ],
+                    "correctAnswer": "accommodate large populations on limited urban land"
+                  }
                 ],
                 "correctSentence": "The primary advantage of high-rise apartment complexes is their ability to accommodate large populations on limited urban land.",
                 "usableIn": "body-paragraph-1"
@@ -277,8 +451,24 @@
                 "type": "template",
                 "template": "One significant benefit of _____ lies in _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["vertical construction", "building height", "tall towers"], "correctAnswer": "vertical construction"},
-                  {"id": "topic2_b2", "options": ["its capacity to preserve green spaces and reduce urban sprawl", "modern appearance", "construction speed"], "correctAnswer": "its capacity to preserve green spaces and reduce urban sprawl"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "vertical construction",
+                      "building height",
+                      "tall towers"
+                    ],
+                    "correctAnswer": "vertical construction"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "its capacity to preserve green spaces and reduce urban sprawl",
+                      "modern appearance",
+                      "construction speed"
+                    ],
+                    "correctAnswer": "its capacity to preserve green spaces and reduce urban sprawl"
+                  }
                 ],
                 "correctSentence": "One significant benefit of vertical construction lies in its capacity to preserve green spaces and reduce urban sprawl.",
                 "usableIn": "body-paragraph-1"
@@ -288,10 +478,42 @@
                 "type": "template",
                 "template": "_____ contend that _____ maximizes _____ in cities facing _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Proponents of high-density housing", "Some people", "Builders"], "correctAnswer": "Proponents of high-density housing"},
-                  {"id": "topic3_b2", "options": ["vertical development", "tall buildings", "construction"], "correctAnswer": "vertical development"},
-                  {"id": "topic3_b3", "options": ["efficient land use", "building height", "construction speed"], "correctAnswer": "efficient land use"},
-                  {"id": "topic3_b4", "options": ["severe space constraints", "growth", "development"], "correctAnswer": "severe space constraints"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Proponents of high-density housing",
+                      "Some people",
+                      "Builders"
+                    ],
+                    "correctAnswer": "Proponents of high-density housing"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "vertical development",
+                      "tall buildings",
+                      "construction"
+                    ],
+                    "correctAnswer": "vertical development"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "efficient land use",
+                      "building height",
+                      "construction speed"
+                    ],
+                    "correctAnswer": "efficient land use"
+                  },
+                  {
+                    "id": "topic3_b4",
+                    "options": [
+                      "severe space constraints",
+                      "growth",
+                      "development"
+                    ],
+                    "correctAnswer": "severe space constraints"
+                  }
                 ],
                 "correctSentence": "Proponents of high-density housing contend that vertical development maximizes efficient land use in cities facing severe space constraints.",
                 "usableIn": "body-paragraph-1"
@@ -301,8 +523,24 @@
                 "type": "template",
                 "template": "High-rise buildings facilitate _____ by _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["more sustainable urban growth", "tall construction", "modern living"], "correctAnswer": "more sustainable urban growth"},
-                  {"id": "topic4_b2", "options": ["concentrating development and protecting surrounding natural areas", "reaching heights", "using elevators"], "correctAnswer": "concentrating development and protecting surrounding natural areas"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "more sustainable urban growth",
+                      "tall construction",
+                      "modern living"
+                    ],
+                    "correctAnswer": "more sustainable urban growth"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "concentrating development and protecting surrounding natural areas",
+                      "reaching heights",
+                      "using elevators"
+                    ],
+                    "correctAnswer": "concentrating development and protecting surrounding natural areas"
+                  }
                 ],
                 "correctSentence": "High-rise buildings facilitate more sustainable urban growth by concentrating development and protecting surrounding natural areas.",
                 "usableIn": "body-paragraph-1"
@@ -312,8 +550,24 @@
                 "type": "template",
                 "template": "However, _____ poses _____ that cannot be ignored.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["living in tower blocks", "tall buildings", "vertical housing"], "correctAnswer": "living in tower blocks"},
-                  {"id": "topic5_b2", "options": ["serious social and psychological challenges", "some problems", "minor issues"], "correctAnswer": "serious social and psychological challenges"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "living in tower blocks",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "living in tower blocks"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "serious social and psychological challenges",
+                      "some problems",
+                      "minor issues"
+                    ],
+                    "correctAnswer": "serious social and psychological challenges"
+                  }
                 ],
                 "correctSentence": "However, living in tower blocks poses serious social and psychological challenges that cannot be ignored.",
                 "usableIn": "body-paragraph-2"
@@ -323,8 +577,24 @@
                 "type": "template",
                 "template": "A major disadvantage of _____ concerns _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["high-density vertical living", "tall structures", "modern apartments"], "correctAnswer": "high-density vertical living"},
-                  {"id": "topic6_b2", "options": ["the erosion of community cohesion and neighborly interaction", "building costs", "construction time"], "correctAnswer": "the erosion of community cohesion and neighborly interaction"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "high-density vertical living",
+                      "tall structures",
+                      "modern apartments"
+                    ],
+                    "correctAnswer": "high-density vertical living"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "the erosion of community cohesion and neighborly interaction",
+                      "building costs",
+                      "construction time"
+                    ],
+                    "correctAnswer": "the erosion of community cohesion and neighborly interaction"
+                  }
                 ],
                 "correctSentence": "A major disadvantage of high-density vertical living concerns the erosion of community cohesion and neighborly interaction.",
                 "usableIn": "body-paragraph-2"
@@ -334,10 +604,42 @@
                 "type": "template",
                 "template": "_____ argue that _____ creates _____ by _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["Critics of high-rise development", "Some residents", "People"], "correctAnswer": "Critics of high-rise development"},
-                  {"id": "topic7_b2", "options": ["tower block living", "tall buildings", "vertical housing"], "correctAnswer": "tower block living"},
-                  {"id": "topic7_b3", "options": ["social isolation", "noise problems", "high costs"], "correctAnswer": "social isolation"},
-                  {"id": "topic7_b4", "options": ["physically separating residents from ground-level community life", "having many floors", "using elevators"], "correctAnswer": "physically separating residents from ground-level community life"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "Critics of high-rise development",
+                      "Some residents",
+                      "People"
+                    ],
+                    "correctAnswer": "Critics of high-rise development"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "tower block living",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "tower block living"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "social isolation",
+                      "noise problems",
+                      "high costs"
+                    ],
+                    "correctAnswer": "social isolation"
+                  },
+                  {
+                    "id": "topic7_b4",
+                    "options": [
+                      "physically separating residents from ground-level community life",
+                      "having many floors",
+                      "using elevators"
+                    ],
+                    "correctAnswer": "physically separating residents from ground-level community life"
+                  }
                 ],
                 "correctSentence": "Critics of high-rise development argue that tower block living creates social isolation by physically separating residents from ground-level community life.",
                 "usableIn": "body-paragraph-2"
@@ -347,8 +649,24 @@
                 "type": "template",
                 "template": "Another significant drawback involves _____ and _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["overcrowding in shared facilities", "building height", "construction materials"], "correctAnswer": "overcrowding in shared facilities"},
-                  {"id": "topic8_b2", "options": ["reduced access to private outdoor space", "elevator costs", "maintenance fees"], "correctAnswer": "reduced access to private outdoor space"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "overcrowding in shared facilities",
+                      "building height",
+                      "construction materials"
+                    ],
+                    "correctAnswer": "overcrowding in shared facilities"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "reduced access to private outdoor space",
+                      "elevator costs",
+                      "maintenance fees"
+                    ],
+                    "correctAnswer": "reduced access to private outdoor space"
+                  }
                 ],
                 "correctSentence": "Another significant drawback involves overcrowding in shared facilities and reduced access to private outdoor space.",
                 "usableIn": "body-paragraph-2"
@@ -365,9 +683,33 @@
                 "type": "template",
                 "template": "This is because _____ allows cities to _____ without _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["building upward", "tall construction", "vertical growth"], "correctAnswer": "building upward"},
-                  {"id": "support1_b2", "options": ["house growing populations efficiently", "create skylines", "use elevators"], "correctAnswer": "house growing populations efficiently"},
-                  {"id": "support1_b3", "options": ["consuming precious agricultural land or natural habitats", "spending too much", "taking too long"], "correctAnswer": "consuming precious agricultural land or natural habitats"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "building upward",
+                      "tall construction",
+                      "vertical growth"
+                    ],
+                    "correctAnswer": "building upward"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "house growing populations efficiently",
+                      "create skylines",
+                      "use elevators"
+                    ],
+                    "correctAnswer": "house growing populations efficiently"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "consuming precious agricultural land or natural habitats",
+                      "spending too much",
+                      "taking too long"
+                    ],
+                    "correctAnswer": "consuming precious agricultural land or natural habitats"
+                  }
                 ],
                 "correctSentence": "This is because building upward allows cities to house growing populations efficiently without consuming precious agricultural land or natural habitats.",
                 "usableIn": "body-paragraph-1"
@@ -377,9 +719,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ concentrates _____, making _____ more viable.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["high-density development", "tall buildings", "vertical construction"], "correctAnswer": "high-density development"},
-                  {"id": "support2_b2", "options": ["residential populations in smaller areas", "people upward", "apartments together"], "correctAnswer": "residential populations in smaller areas"},
-                  {"id": "support2_b3", "options": ["public transportation and shared infrastructure", "building maintenance", "elevator service"], "correctAnswer": "public transportation and shared infrastructure"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "high-density development",
+                      "tall buildings",
+                      "vertical construction"
+                    ],
+                    "correctAnswer": "high-density development"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "residential populations in smaller areas",
+                      "people upward",
+                      "apartments together"
+                    ],
+                    "correctAnswer": "residential populations in smaller areas"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "public transportation and shared infrastructure",
+                      "building maintenance",
+                      "elevator service"
+                    ],
+                    "correctAnswer": "public transportation and shared infrastructure"
+                  }
                 ],
                 "correctSentence": "The main reason is that high-density development concentrates residential populations in smaller areas, making public transportation and shared infrastructure more viable.",
                 "usableIn": "body-paragraph-1"
@@ -389,9 +755,33 @@
                 "type": "template",
                 "template": "_____ minimizes _____, which is essential for _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Vertical expansion", "Building height", "Tower construction"], "correctAnswer": "Vertical expansion"},
-                  {"id": "support3_b2", "options": ["the geographic footprint of urban areas", "construction costs", "building time"], "correctAnswer": "the geographic footprint of urban areas"},
-                  {"id": "support3_b3", "options": ["preserving ecosystems and agricultural zones", "saving money", "faster completion"], "correctAnswer": "preserving ecosystems and agricultural zones"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Vertical expansion",
+                      "Building height",
+                      "Tower construction"
+                    ],
+                    "correctAnswer": "Vertical expansion"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "the geographic footprint of urban areas",
+                      "construction costs",
+                      "building time"
+                    ],
+                    "correctAnswer": "the geographic footprint of urban areas"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "preserving ecosystems and agricultural zones",
+                      "saving money",
+                      "faster completion"
+                    ],
+                    "correctAnswer": "preserving ecosystems and agricultural zones"
+                  }
                 ],
                 "correctSentence": "Vertical expansion minimizes the geographic footprint of urban areas, which is essential for preserving ecosystems and agricultural zones.",
                 "usableIn": "body-paragraph-1"
@@ -401,9 +791,33 @@
                 "type": "template",
                 "template": "By _____, high-rise complexes _____ that would otherwise _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["maximizing dwelling units per square meter", "building upward", "using elevators"], "correctAnswer": "maximizing dwelling units per square meter"},
-                  {"id": "support4_b2", "options": ["create more affordable housing options", "reach great heights", "accommodate residents"], "correctAnswer": "create more affordable housing options"},
-                  {"id": "support4_b3", "options": ["require expensive low-density suburban sprawl", "cost more money", "take more time"], "correctAnswer": "require expensive low-density suburban sprawl"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "maximizing dwelling units per square meter",
+                      "building upward",
+                      "using elevators"
+                    ],
+                    "correctAnswer": "maximizing dwelling units per square meter"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "create more affordable housing options",
+                      "reach great heights",
+                      "accommodate residents"
+                    ],
+                    "correctAnswer": "create more affordable housing options"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "require expensive low-density suburban sprawl",
+                      "cost more money",
+                      "take more time"
+                    ],
+                    "correctAnswer": "require expensive low-density suburban sprawl"
+                  }
                 ],
                 "correctSentence": "By maximizing dwelling units per square meter, high-rise complexes create more affordable housing options that would otherwise require expensive low-density suburban sprawl.",
                 "usableIn": "body-paragraph-1"
@@ -413,9 +827,33 @@
                 "type": "template",
                 "template": "_____ contributes to _____ by reducing _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["Compact urban development", "Tall buildings", "Vertical housing"], "correctAnswer": "Compact urban development"},
-                  {"id": "support5_b2", "options": ["environmental sustainability", "building height", "construction speed"], "correctAnswer": "environmental sustainability"},
-                  {"id": "support5_b3", "options": ["commute distances and preserving green corridors", "building costs", "maintenance needs"], "correctAnswer": "commute distances and preserving green corridors"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "Compact urban development",
+                      "Tall buildings",
+                      "Vertical housing"
+                    ],
+                    "correctAnswer": "Compact urban development"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "environmental sustainability",
+                      "building height",
+                      "construction speed"
+                    ],
+                    "correctAnswer": "environmental sustainability"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "commute distances and preserving green corridors",
+                      "building costs",
+                      "maintenance needs"
+                    ],
+                    "correctAnswer": "commute distances and preserving green corridors"
+                  }
                 ],
                 "correctSentence": "Compact urban development contributes to environmental sustainability by reducing commute distances and preserving green corridors.",
                 "usableIn": "body-paragraph-1"
@@ -425,9 +863,33 @@
                 "type": "template",
                 "template": "Furthermore, _____ enables _____ to access _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["concentrated residential density", "tall buildings", "vertical living"], "correctAnswer": "concentrated residential density"},
-                  {"id": "support6_b2", "options": ["urban dwellers", "residents", "people"], "correctAnswer": "urban dwellers"},
-                  {"id": "support6_b3", "options": ["employment centers and amenities without lengthy commutes", "elevators easily", "upper floors"], "correctAnswer": "employment centers and amenities without lengthy commutes"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "concentrated residential density",
+                      "tall buildings",
+                      "vertical living"
+                    ],
+                    "correctAnswer": "concentrated residential density"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "urban dwellers",
+                      "residents",
+                      "people"
+                    ],
+                    "correctAnswer": "urban dwellers"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "employment centers and amenities without lengthy commutes",
+                      "elevators easily",
+                      "upper floors"
+                    ],
+                    "correctAnswer": "employment centers and amenities without lengthy commutes"
+                  }
                 ],
                 "correctSentence": "Furthermore, concentrated residential density enables urban dwellers to access employment centers and amenities without lengthy commutes.",
                 "usableIn": "body-paragraph-1"
@@ -437,9 +899,33 @@
                 "type": "template",
                 "template": "This is primarily because _____ reduces _____, which is vital for _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["the physical distance between residents", "building height", "apartment size"], "correctAnswer": "the physical distance between residents"},
-                  {"id": "support7_b2", "options": ["spontaneous neighborly interaction", "construction costs", "elevator usage"], "correctAnswer": "spontaneous neighborly interaction"},
-                  {"id": "support7_b3", "options": ["building social bonds and mutual support networks", "saving money", "efficient operation"], "correctAnswer": "building social bonds and mutual support networks"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "the physical distance between residents",
+                      "building height",
+                      "apartment size"
+                    ],
+                    "correctAnswer": "the physical distance between residents"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "spontaneous neighborly interaction",
+                      "construction costs",
+                      "elevator usage"
+                    ],
+                    "correctAnswer": "spontaneous neighborly interaction"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": [
+                      "building social bonds and mutual support networks",
+                      "saving money",
+                      "efficient operation"
+                    ],
+                    "correctAnswer": "building social bonds and mutual support networks"
+                  }
                 ],
                 "correctSentence": "This is primarily because the physical distance between residents reduces spontaneous neighborly interaction, which is vital for building social bonds and mutual support networks.",
                 "usableIn": "body-paragraph-2"
@@ -449,9 +935,33 @@
                 "type": "template",
                 "template": "The fundamental issue is that _____ lack _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["high-rise residents", "tall buildings", "tower apartments"], "correctAnswer": "high-rise residents"},
-                  {"id": "support8_b2", "options": ["direct access to private gardens or outdoor areas", "large windows", "parking spaces"], "correctAnswer": "direct access to private gardens or outdoor areas"},
-                  {"id": "support8_b3", "options": ["low-rise housing naturally provides", "cost extra money", "require maintenance"], "correctAnswer": "low-rise housing naturally provides"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "high-rise residents",
+                      "tall buildings",
+                      "tower apartments"
+                    ],
+                    "correctAnswer": "high-rise residents"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "direct access to private gardens or outdoor areas",
+                      "large windows",
+                      "parking spaces"
+                    ],
+                    "correctAnswer": "direct access to private gardens or outdoor areas"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "low-rise housing naturally provides",
+                      "cost extra money",
+                      "require maintenance"
+                    ],
+                    "correctAnswer": "low-rise housing naturally provides"
+                  }
                 ],
                 "correctSentence": "The fundamental issue is that high-rise residents lack direct access to private gardens or outdoor areas that low-rise housing naturally provides.",
                 "usableIn": "body-paragraph-2"
@@ -461,9 +971,33 @@
                 "type": "template",
                 "template": "_____ diminishes _____ by creating _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Tower block architecture", "Building height", "Vertical design"], "correctAnswer": "Tower block architecture"},
-                  {"id": "support9_b2", "options": ["quality of life", "views", "space"], "correctAnswer": "quality of life"},
-                  {"id": "support9_b3", "options": ["impersonal environments with hundreds of anonymous neighbors", "tall structures", "many floors"], "correctAnswer": "impersonal environments with hundreds of anonymous neighbors"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Tower block architecture",
+                      "Building height",
+                      "Vertical design"
+                    ],
+                    "correctAnswer": "Tower block architecture"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "quality of life",
+                      "views",
+                      "space"
+                    ],
+                    "correctAnswer": "quality of life"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "impersonal environments with hundreds of anonymous neighbors",
+                      "tall structures",
+                      "many floors"
+                    ],
+                    "correctAnswer": "impersonal environments with hundreds of anonymous neighbors"
+                  }
                 ],
                 "correctSentence": "Tower block architecture diminishes quality of life by creating impersonal environments with hundreds of anonymous neighbors.",
                 "usableIn": "body-paragraph-2"
@@ -473,9 +1007,33 @@
                 "type": "template",
                 "template": "Moreover, _____ can lead to _____ when _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["concentrated high-density living", "tall buildings", "vertical housing"], "correctAnswer": "concentrated high-density living"},
-                  {"id": "support10_b2", "options": ["significant infrastructure strain", "high costs", "maintenance problems"], "correctAnswer": "significant infrastructure strain"},
-                  {"id": "support10_b3", "options": ["too many residents compete for limited elevators, parking, and facilities", "buildings are too tall", "apartments are small"], "correctAnswer": "too many residents compete for limited elevators, parking, and facilities"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "concentrated high-density living",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "concentrated high-density living"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "significant infrastructure strain",
+                      "high costs",
+                      "maintenance problems"
+                    ],
+                    "correctAnswer": "significant infrastructure strain"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "too many residents compete for limited elevators, parking, and facilities",
+                      "buildings are too tall",
+                      "apartments are small"
+                    ],
+                    "correctAnswer": "too many residents compete for limited elevators, parking, and facilities"
+                  }
                 ],
                 "correctSentence": "Moreover, concentrated high-density living can lead to significant infrastructure strain when too many residents compete for limited elevators, parking, and facilities.",
                 "usableIn": "body-paragraph-2"
@@ -485,8 +1043,24 @@
                 "type": "template",
                 "template": "Consequently, _____ experience _____ that traditional housing does not present.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["tower block inhabitants", "tall building residents", "people"], "correctAnswer": "tower block inhabitants"},
-                  {"id": "support11_b2", "options": ["feelings of disconnection and anonymity", "nice views", "modern amenities"], "correctAnswer": "feelings of disconnection and anonymity"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "tower block inhabitants",
+                      "tall building residents",
+                      "people"
+                    ],
+                    "correctAnswer": "tower block inhabitants"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "feelings of disconnection and anonymity",
+                      "nice views",
+                      "modern amenities"
+                    ],
+                    "correctAnswer": "feelings of disconnection and anonymity"
+                  }
                 ],
                 "correctSentence": "Consequently, tower block inhabitants experience feelings of disconnection and anonymity that traditional housing does not present.",
                 "usableIn": "body-paragraph-2"
@@ -496,9 +1070,33 @@
                 "type": "template",
                 "template": "Additionally, _____ compromises _____, which negatively impacts _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["limited outdoor access", "building height", "apartment size"], "correctAnswer": "limited outdoor access"},
-                  {"id": "support12_b2", "options": ["children's development and wellbeing", "construction speed", "maintenance costs"], "correctAnswer": "children's development and wellbeing"},
-                  {"id": "support12_b3", "options": ["families with young children particularly", "all residents", "building managers"], "correctAnswer": "families with young children particularly"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "limited outdoor access",
+                      "building height",
+                      "apartment size"
+                    ],
+                    "correctAnswer": "limited outdoor access"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "children's development and wellbeing",
+                      "construction speed",
+                      "maintenance costs"
+                    ],
+                    "correctAnswer": "children's development and wellbeing"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "families with young children particularly",
+                      "all residents",
+                      "building managers"
+                    ],
+                    "correctAnswer": "families with young children particularly"
+                  }
                 ],
                 "correctSentence": "Additionally, limited outdoor access compromises children's development and wellbeing, which negatively impacts families with young children particularly.",
                 "usableIn": "body-paragraph-2"
@@ -515,10 +1113,42 @@
                 "type": "template",
                 "template": "For instance, _____ like _____ accommodates _____ on merely _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["dense Asian metropolises", "some cities", "urban areas"], "correctAnswer": "dense Asian metropolises"},
-                  {"id": "example1_b2", "options": ["Hong Kong and Singapore", "New York and London", "Paris and Berlin"], "correctAnswer": "Hong Kong and Singapore"},
-                  {"id": "example1_b3", "options": ["millions of residents", "many people", "populations"], "correctAnswer": "millions of residents"},
-                  {"id": "example1_b4", "options": ["limited land through vertical construction", "available space", "city territory"], "correctAnswer": "limited land through vertical construction"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "dense Asian metropolises",
+                      "some cities",
+                      "urban areas"
+                    ],
+                    "correctAnswer": "dense Asian metropolises"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "Hong Kong and Singapore",
+                      "New York and London",
+                      "Paris and Berlin"
+                    ],
+                    "correctAnswer": "Hong Kong and Singapore"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "millions of residents",
+                      "many people",
+                      "populations"
+                    ],
+                    "correctAnswer": "millions of residents"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "limited land through vertical construction",
+                      "available space",
+                      "city territory"
+                    ],
+                    "correctAnswer": "limited land through vertical construction"
+                  }
                 ],
                 "correctSentence": "For instance, dense Asian metropolises like Hong Kong and Singapore accommodates millions of residents on merely limited land through vertical construction.",
                 "usableIn": "body-paragraph-1"
@@ -528,9 +1158,33 @@
                 "type": "template",
                 "template": "For example, _____ has preserved _____ by building _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["New York City", "Some cities", "Urban areas"], "correctAnswer": "New York City"},
-                  {"id": "example2_b2", "options": ["Central Park and surrounding green corridors", "some parks", "open spaces"], "correctAnswer": "Central Park and surrounding green corridors"},
-                  {"id": "example2_b3", "options": ["high-density residential towers throughout Manhattan", "tall buildings", "vertical structures"], "correctAnswer": "high-density residential towers throughout Manhattan"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "New York City",
+                      "Some cities",
+                      "Urban areas"
+                    ],
+                    "correctAnswer": "New York City"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "Central Park and surrounding green corridors",
+                      "some parks",
+                      "open spaces"
+                    ],
+                    "correctAnswer": "Central Park and surrounding green corridors"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "high-density residential towers throughout Manhattan",
+                      "tall buildings",
+                      "vertical structures"
+                    ],
+                    "correctAnswer": "high-density residential towers throughout Manhattan"
+                  }
                 ],
                 "correctSentence": "For example, New York City has preserved Central Park and surrounding green corridors by building high-density residential towers throughout Manhattan.",
                 "usableIn": "body-paragraph-1"
@@ -540,9 +1194,33 @@
                 "type": "template",
                 "template": "Specifically, a single _____ tower can house _____ that would otherwise require _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["30-story apartment", "tall building", "residential structure"], "correctAnswer": "30-story apartment"},
-                  {"id": "example3_b2", "options": ["500-1000 families", "many people", "residents"], "correctAnswer": "500-1000 families"},
-                  {"id": "example3_b3", "options": ["several square kilometers of suburban development", "much more space", "additional land"], "correctAnswer": "several square kilometers of suburban development"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "30-story apartment",
+                      "tall building",
+                      "residential structure"
+                    ],
+                    "correctAnswer": "30-story apartment"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "500-1000 families",
+                      "many people",
+                      "residents"
+                    ],
+                    "correctAnswer": "500-1000 families"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "several square kilometers of suburban development",
+                      "much more space",
+                      "additional land"
+                    ],
+                    "correctAnswer": "several square kilometers of suburban development"
+                  }
                 ],
                 "correctSentence": "Specifically, a single 30-story apartment tower can house 500-1000 families that would otherwise require several square kilometers of suburban development.",
                 "usableIn": "body-paragraph-1"
@@ -552,10 +1230,42 @@
                 "type": "template",
                 "template": "Research from _____ demonstrates that _____ reduces _____ by approximately _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["urban planning studies", "some reports", "various sources"], "correctAnswer": "urban planning studies"},
-                  {"id": "example4_b2", "options": ["compact high-density development", "tall buildings", "vertical housing"], "correctAnswer": "compact high-density development"},
-                  {"id": "example4_b3", "options": ["average commute times and transportation emissions", "costs", "problems"], "correctAnswer": "average commute times and transportation emissions"},
-                  {"id": "example4_b4", "options": ["30-40% compared to sprawling suburbs", "some amount", "a little"], "correctAnswer": "30-40% compared to sprawling suburbs"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "urban planning studies",
+                      "some reports",
+                      "various sources"
+                    ],
+                    "correctAnswer": "urban planning studies"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "compact high-density development",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "compact high-density development"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "average commute times and transportation emissions",
+                      "costs",
+                      "problems"
+                    ],
+                    "correctAnswer": "average commute times and transportation emissions"
+                  },
+                  {
+                    "id": "example4_b4",
+                    "options": [
+                      "30-40% compared to sprawling suburbs",
+                      "some amount",
+                      "a little"
+                    ],
+                    "correctAnswer": "30-40% compared to sprawling suburbs"
+                  }
                 ],
                 "correctSentence": "Research from urban planning studies demonstrates that compact high-density development reduces average commute times and transportation emissions by approximately 30-40% compared to sprawling suburbs.",
                 "usableIn": "body-paragraph-1"
@@ -565,9 +1275,33 @@
                 "type": "template",
                 "template": "In particular, cities such as _____ have successfully integrated _____ while maintaining _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Tokyo and Seoul", "Some places", "Urban centers"], "correctAnswer": "Tokyo and Seoul"},
-                  {"id": "example5_b2", "options": ["high-rise residential zones with efficient public transit", "tall buildings", "vertical housing"], "correctAnswer": "high-rise residential zones with efficient public transit"},
-                  {"id": "example5_b3", "options": ["livability and accessible green spaces", "quality", "standards"], "correctAnswer": "livability and accessible green spaces"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Tokyo and Seoul",
+                      "Some places",
+                      "Urban centers"
+                    ],
+                    "correctAnswer": "Tokyo and Seoul"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "high-rise residential zones with efficient public transit",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "high-rise residential zones with efficient public transit"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "livability and accessible green spaces",
+                      "quality",
+                      "standards"
+                    ],
+                    "correctAnswer": "livability and accessible green spaces"
+                  }
                 ],
                 "correctSentence": "In particular, cities such as Tokyo and Seoul have successfully integrated high-rise residential zones with efficient public transit while maintaining livability and accessible green spaces.",
                 "usableIn": "body-paragraph-1"
@@ -577,10 +1311,42 @@
                 "type": "template",
                 "template": "Conversely, _____ in _____ have documented _____ among residents of _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["social psychology studies", "some research", "reports"], "correctAnswer": "social psychology studies"},
-                  {"id": "example6_b2", "options": ["British council estates", "some areas", "certain places"], "correctAnswer": "British council estates"},
-                  {"id": "example6_b3", "options": ["elevated rates of loneliness and social isolation", "problems", "difficulties"], "correctAnswer": "elevated rates of loneliness and social isolation"},
-                  {"id": "example6_b4", "options": ["large impersonal tower blocks", "tall buildings", "high-rises"], "correctAnswer": "large impersonal tower blocks"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "social psychology studies",
+                      "some research",
+                      "reports"
+                    ],
+                    "correctAnswer": "social psychology studies"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "British council estates",
+                      "some areas",
+                      "certain places"
+                    ],
+                    "correctAnswer": "British council estates"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "elevated rates of loneliness and social isolation",
+                      "problems",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "elevated rates of loneliness and social isolation"
+                  },
+                  {
+                    "id": "example6_b4",
+                    "options": [
+                      "large impersonal tower blocks",
+                      "tall buildings",
+                      "high-rises"
+                    ],
+                    "correctAnswer": "large impersonal tower blocks"
+                  }
                 ],
                 "correctSentence": "Conversely, social psychology studies in British council estates have documented elevated rates of loneliness and social isolation among residents of large impersonal tower blocks.",
                 "usableIn": "body-paragraph-2"
@@ -590,10 +1356,42 @@
                 "type": "template",
                 "template": "According to _____, children raised in _____ show _____ compared to _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["child development research", "some studies", "experts"], "correctAnswer": "child development research"},
-                  {"id": "example7_b2", "options": ["high-rise apartments without ground access", "tall buildings", "vertical housing"], "correctAnswer": "high-rise apartments without ground access"},
-                  {"id": "example7_b3", "options": ["reduced outdoor play and physical activity levels", "some differences", "variations"], "correctAnswer": "reduced outdoor play and physical activity levels"},
-                  {"id": "example7_b4", "options": ["those in low-rise housing with gardens", "other children", "peers"], "correctAnswer": "those in low-rise housing with gardens"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "child development research",
+                      "some studies",
+                      "experts"
+                    ],
+                    "correctAnswer": "child development research"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "high-rise apartments without ground access",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "high-rise apartments without ground access"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "reduced outdoor play and physical activity levels",
+                      "some differences",
+                      "variations"
+                    ],
+                    "correctAnswer": "reduced outdoor play and physical activity levels"
+                  },
+                  {
+                    "id": "example7_b4",
+                    "options": [
+                      "those in low-rise housing with gardens",
+                      "other children",
+                      "peers"
+                    ],
+                    "correctAnswer": "those in low-rise housing with gardens"
+                  }
                 ],
                 "correctSentence": "According to child development research, children raised in high-rise apartments without ground access show reduced outdoor play and physical activity levels compared to those in low-rise housing with gardens.",
                 "usableIn": "body-paragraph-2"
@@ -603,8 +1401,24 @@
                 "type": "template",
                 "template": "Take _____ as an example: despite modern design, residents report _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["Chicago's Cabrini-Green housing project", "some buildings", "certain developments"], "correctAnswer": "Chicago's Cabrini-Green housing project"},
-                  {"id": "example8_b2", "options": ["feeling disconnected from neighbors and lacking community identity", "some complaints", "various issues"], "correctAnswer": "feeling disconnected from neighbors and lacking community identity"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "Chicago's Cabrini-Green housing project",
+                      "some buildings",
+                      "certain developments"
+                    ],
+                    "correctAnswer": "Chicago's Cabrini-Green housing project"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "feeling disconnected from neighbors and lacking community identity",
+                      "some complaints",
+                      "various issues"
+                    ],
+                    "correctAnswer": "feeling disconnected from neighbors and lacking community identity"
+                  }
                 ],
                 "correctSentence": "Take Chicago's Cabrini-Green housing project as an example: despite modern design, residents report feeling disconnected from neighbors and lacking community identity.",
                 "usableIn": "body-paragraph-2"
@@ -614,10 +1428,42 @@
                 "type": "template",
                 "template": "Evidence from _____ shows that _____ in tower blocks experience _____ during _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["emergency management data", "various sources", "reports"], "correctAnswer": "emergency management data"},
-                  {"id": "example9_b2", "options": ["residents", "people", "inhabitants"], "correctAnswer": "residents"},
-                  {"id": "example9_b3", "options": ["significant delays and safety risks", "some problems", "difficulties"], "correctAnswer": "significant delays and safety risks"},
-                  {"id": "example9_b4", "options": ["evacuations or power outages", "emergencies", "incidents"], "correctAnswer": "evacuations or power outages"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "emergency management data",
+                      "various sources",
+                      "reports"
+                    ],
+                    "correctAnswer": "emergency management data"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "residents",
+                      "people",
+                      "inhabitants"
+                    ],
+                    "correctAnswer": "residents"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "significant delays and safety risks",
+                      "some problems",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "significant delays and safety risks"
+                  },
+                  {
+                    "id": "example9_b4",
+                    "options": [
+                      "evacuations or power outages",
+                      "emergencies",
+                      "incidents"
+                    ],
+                    "correctAnswer": "evacuations or power outages"
+                  }
                 ],
                 "correctSentence": "Evidence from emergency management data shows that residents in tower blocks experience significant delays and safety risks during evacuations or power outages.",
                 "usableIn": "body-paragraph-2"
@@ -627,10 +1473,42 @@
                 "type": "template",
                 "template": "A survey conducted in _____ found that _____ of high-rise residents reported _____ compared to _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["Australian urban centers", "some cities", "various places"], "correctAnswer": "Australian urban centers"},
-                  {"id": "example10_b2", "options": ["over 60%", "many", "some"], "correctAnswer": "over 60%"},
-                  {"id": "example10_b3", "options": ["rarely interacting with neighbors", "some dissatisfaction", "various complaints"], "correctAnswer": "rarely interacting with neighbors"},
-                  {"id": "example10_b4", "options": ["30% in suburban low-rise areas", "fewer people elsewhere", "others"], "correctAnswer": "30% in suburban low-rise areas"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "Australian urban centers",
+                      "some cities",
+                      "various places"
+                    ],
+                    "correctAnswer": "Australian urban centers"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "over 60%",
+                      "many",
+                      "some"
+                    ],
+                    "correctAnswer": "over 60%"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "rarely interacting with neighbors",
+                      "some dissatisfaction",
+                      "various complaints"
+                    ],
+                    "correctAnswer": "rarely interacting with neighbors"
+                  },
+                  {
+                    "id": "example10_b4",
+                    "options": [
+                      "30% in suburban low-rise areas",
+                      "fewer people elsewhere",
+                      "others"
+                    ],
+                    "correctAnswer": "30% in suburban low-rise areas"
+                  }
                 ],
                 "correctSentence": "A survey conducted in Australian urban centers found that over 60% of high-rise residents reported rarely interacting with neighbors compared to 30% in suburban low-rise areas.",
                 "usableIn": "body-paragraph-2"
@@ -647,8 +1525,24 @@
                 "type": "template",
                 "template": "However, these spatial advantages must be weighed against _____ that particularly affects _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["the social costs of high-density living", "construction expenses", "building height"], "correctAnswer": "the social costs of high-density living"},
-                  {"id": "counter1_b2", "options": ["families with children and elderly residents", "some people", "certain groups"], "correctAnswer": "families with children and elderly residents"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "the social costs of high-density living",
+                      "construction expenses",
+                      "building height"
+                    ],
+                    "correctAnswer": "the social costs of high-density living"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "families with children and elderly residents",
+                      "some people",
+                      "certain groups"
+                    ],
+                    "correctAnswer": "families with children and elderly residents"
+                  }
                 ],
                 "correctSentence": "However, these spatial advantages must be weighed against the social costs of high-density living that particularly affects families with children and elderly residents.",
                 "usableIn": "body-paragraph-1"
@@ -658,9 +1552,33 @@
                 "type": "template",
                 "template": "Despite these efficiencies, _____ can _____ if _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["vertical housing", "tall buildings", "high-rises"], "correctAnswer": "vertical housing"},
-                  {"id": "counter2_b2", "options": ["compromise residents' psychological wellbeing", "cost too much", "create problems"], "correctAnswer": "compromise residents' psychological wellbeing"},
-                  {"id": "counter2_b3", "options": ["adequate communal spaces and design considerations are neglected", "poorly built", "too expensive"], "correctAnswer": "adequate communal spaces and design considerations are neglected"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "vertical housing",
+                      "tall buildings",
+                      "high-rises"
+                    ],
+                    "correctAnswer": "vertical housing"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "compromise residents' psychological wellbeing",
+                      "cost too much",
+                      "create problems"
+                    ],
+                    "correctAnswer": "compromise residents' psychological wellbeing"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": [
+                      "adequate communal spaces and design considerations are neglected",
+                      "poorly built",
+                      "too expensive"
+                    ],
+                    "correctAnswer": "adequate communal spaces and design considerations are neglected"
+                  }
                 ],
                 "correctSentence": "Despite these efficiencies, vertical housing can compromise residents' psychological wellbeing if adequate communal spaces and design considerations are neglected.",
                 "usableIn": "body-paragraph-1"
@@ -670,8 +1588,24 @@
                 "type": "template",
                 "template": "Nevertheless, these concerns can be mitigated through _____ and _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["thoughtful architectural design incorporating community spaces", "better elevators", "lower costs"], "correctAnswer": "thoughtful architectural design incorporating community spaces"},
-                  {"id": "counter3_b2", "options": ["accessible rooftop gardens or ground-level amenities", "taller buildings", "modern materials"], "correctAnswer": "accessible rooftop gardens or ground-level amenities"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "thoughtful architectural design incorporating community spaces",
+                      "better elevators",
+                      "lower costs"
+                    ],
+                    "correctAnswer": "thoughtful architectural design incorporating community spaces"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "accessible rooftop gardens or ground-level amenities",
+                      "taller buildings",
+                      "modern materials"
+                    ],
+                    "correctAnswer": "accessible rooftop gardens or ground-level amenities"
+                  }
                 ],
                 "correctSentence": "Nevertheless, these concerns can be mitigated through thoughtful architectural design incorporating community spaces and accessible rooftop gardens or ground-level amenities.",
                 "usableIn": "body-paragraph-2"
@@ -681,9 +1615,33 @@
                 "type": "template",
                 "template": "Although _____ presents challenges, _____ when developers prioritize _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["high-density tower living", "tall construction", "vertical housing"], "correctAnswer": "high-density tower living"},
-                  {"id": "counter4_b2", "options": ["quality of life can be maintained", "problems disappear", "issues resolve"], "correctAnswer": "quality of life can be maintained"},
-                  {"id": "counter4_b3", "options": ["resident wellbeing through green spaces and social infrastructure", "profit margins", "construction speed"], "correctAnswer": "resident wellbeing through green spaces and social infrastructure"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "high-density tower living",
+                      "tall construction",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "high-density tower living"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "quality of life can be maintained",
+                      "problems disappear",
+                      "issues resolve"
+                    ],
+                    "correctAnswer": "quality of life can be maintained"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "resident wellbeing through green spaces and social infrastructure",
+                      "profit margins",
+                      "construction speed"
+                    ],
+                    "correctAnswer": "resident wellbeing through green spaces and social infrastructure"
+                  }
                 ],
                 "correctSentence": "Although high-density tower living presents challenges, quality of life can be maintained when developers prioritize resident wellbeing through green spaces and social infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -693,9 +1651,33 @@
                 "type": "template",
                 "template": "While _____ is valid, it should not _____ given that _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["the concern about social isolation", "criticism of height", "worry about costs"], "correctAnswer": "the concern about social isolation"},
-                  {"id": "counter5_b2", "options": ["negate the environmental necessity of compact development", "stop construction", "prevent progress"], "correctAnswer": "negate the environmental necessity of compact development"},
-                  {"id": "counter5_b3", "options": ["urban populations continue growing in land-scarce areas", "buildings are needed", "cities expand"], "correctAnswer": "urban populations continue growing in land-scarce areas"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "the concern about social isolation",
+                      "criticism of height",
+                      "worry about costs"
+                    ],
+                    "correctAnswer": "the concern about social isolation"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "negate the environmental necessity of compact development",
+                      "stop construction",
+                      "prevent progress"
+                    ],
+                    "correctAnswer": "negate the environmental necessity of compact development"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "urban populations continue growing in land-scarce areas",
+                      "buildings are needed",
+                      "cities expand"
+                    ],
+                    "correctAnswer": "urban populations continue growing in land-scarce areas"
+                  }
                 ],
                 "correctSentence": "While the concern about social isolation is valid, it should not negate the environmental necessity of compact development given that urban populations continue growing in land-scarce areas.",
                 "usableIn": "body-paragraph-2"
@@ -712,10 +1694,42 @@
                 "type": "template",
                 "template": "In conclusion, while _____ presents _____, I believe _____ in contexts where _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["high-rise construction", "tall buildings", "vertical housing"], "correctAnswer": "high-rise construction"},
-                  {"id": "conclusion1_b2", "options": ["legitimate social and psychological concerns", "some problems", "challenges"], "correctAnswer": "legitimate social and psychological concerns"},
-                  {"id": "conclusion1_b3", "options": ["the spatial and environmental advantages outweigh the disadvantages", "benefits exist", "it is acceptable"], "correctAnswer": "the spatial and environmental advantages outweigh the disadvantages"},
-                  {"id": "conclusion1_b4", "options": ["land scarcity necessitates vertical development", "space is limited", "cities need housing"], "correctAnswer": "land scarcity necessitates vertical development"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "high-rise construction",
+                      "tall buildings",
+                      "vertical housing"
+                    ],
+                    "correctAnswer": "high-rise construction"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "legitimate social and psychological concerns",
+                      "some problems",
+                      "challenges"
+                    ],
+                    "correctAnswer": "legitimate social and psychological concerns"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": [
+                      "the spatial and environmental advantages outweigh the disadvantages",
+                      "benefits exist",
+                      "it is acceptable"
+                    ],
+                    "correctAnswer": "the spatial and environmental advantages outweigh the disadvantages"
+                  },
+                  {
+                    "id": "conclusion1_b4",
+                    "options": [
+                      "land scarcity necessitates vertical development",
+                      "space is limited",
+                      "cities need housing"
+                    ],
+                    "correctAnswer": "land scarcity necessitates vertical development"
+                  }
                 ],
                 "correctSentence": "In conclusion, while high-rise construction presents legitimate social and psychological concerns, I believe the spatial and environmental advantages outweigh the disadvantages in contexts where land scarcity necessitates vertical development.",
                 "usableIn": "conclusion"
@@ -725,10 +1739,42 @@
                 "type": "template",
                 "template": "Overall, _____ offers _____, whereas _____ poses _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["vertical residential development", "tall building construction", "high-rise housing"], "correctAnswer": "vertical residential development"},
-                  {"id": "conclusion2_b2", "options": ["essential solutions for sustainable urban growth and land preservation", "space efficiency", "modern living"], "correctAnswer": "essential solutions for sustainable urban growth and land preservation"},
-                  {"id": "conclusion2_b3", "options": ["tower block living", "vertical housing", "high-rises"], "correctAnswer": "tower block living"},
-                  {"id": "conclusion2_b4", "options": ["risks to community cohesion and resident wellbeing", "some concerns", "potential problems"], "correctAnswer": "risks to community cohesion and resident wellbeing"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "vertical residential development",
+                      "tall building construction",
+                      "high-rise housing"
+                    ],
+                    "correctAnswer": "vertical residential development"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "essential solutions for sustainable urban growth and land preservation",
+                      "space efficiency",
+                      "modern living"
+                    ],
+                    "correctAnswer": "essential solutions for sustainable urban growth and land preservation"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "tower block living",
+                      "vertical housing",
+                      "high-rises"
+                    ],
+                    "correctAnswer": "tower block living"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "risks to community cohesion and resident wellbeing",
+                      "some concerns",
+                      "potential problems"
+                    ],
+                    "correctAnswer": "risks to community cohesion and resident wellbeing"
+                  }
                 ],
                 "correctSentence": "Overall, vertical residential development offers essential solutions for sustainable urban growth and land preservation, whereas tower block living poses risks to community cohesion and resident wellbeing.",
                 "usableIn": "conclusion"
@@ -738,8 +1784,24 @@
                 "type": "template",
                 "template": "To summarize, the success of _____ depends critically on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["high-rise housing policies", "tall building programs", "vertical development"], "correctAnswer": "high-rise housing policies"},
-                  {"id": "conclusion3_b2", "options": ["incorporating community-focused design elements and accessible outdoor spaces", "good construction", "proper planning"], "correctAnswer": "incorporating community-focused design elements and accessible outdoor spaces"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "high-rise housing policies",
+                      "tall building programs",
+                      "vertical development"
+                    ],
+                    "correctAnswer": "high-rise housing policies"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "incorporating community-focused design elements and accessible outdoor spaces",
+                      "good construction",
+                      "proper planning"
+                    ],
+                    "correctAnswer": "incorporating community-focused design elements and accessible outdoor spaces"
+                  }
                 ],
                 "correctSentence": "To summarize, the success of high-rise housing policies depends critically on incorporating community-focused design elements and accessible outdoor spaces.",
                 "usableIn": "conclusion"
@@ -749,9 +1811,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should balance _____ with _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["urban planners", "city officials", "architects"], "correctAnswer": "urban planners"},
-                  {"id": "conclusion4_b2", "options": ["the necessity of efficient land use", "building height", "construction costs"], "correctAnswer": "the necessity of efficient land use"},
-                  {"id": "conclusion4_b3", "options": ["maintaining livable, human-scale community environments", "aesthetic concerns", "budget constraints"], "correctAnswer": "maintaining livable, human-scale community environments"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "urban planners",
+                      "city officials",
+                      "architects"
+                    ],
+                    "correctAnswer": "urban planners"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "the necessity of efficient land use",
+                      "building height",
+                      "construction costs"
+                    ],
+                    "correctAnswer": "the necessity of efficient land use"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "maintaining livable, human-scale community environments",
+                      "aesthetic concerns",
+                      "budget constraints"
+                    ],
+                    "correctAnswer": "maintaining livable, human-scale community environments"
+                  }
                 ],
                 "correctSentence": "Ultimately, urban planners should balance the necessity of efficient land use with maintaining livable, human-scale community environments.",
                 "usableIn": "conclusion"
@@ -761,9 +1847,33 @@
                 "type": "template",
                 "template": "In my view, _____ represents _____ provided that _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["strategic high-rise development in dense urban cores", "building tall structures", "vertical construction"], "correctAnswer": "strategic high-rise development in dense urban cores"},
-                  {"id": "conclusion5_b2", "options": ["the most sustainable approach to housing growth", "good practice", "modern solutions"], "correctAnswer": "the most sustainable approach to housing growth"},
-                  {"id": "conclusion5_b3", "options": ["designs prioritize social infrastructure and green amenities", "buildings are safe", "costs are reasonable"], "correctAnswer": "designs prioritize social infrastructure and green amenities"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "strategic high-rise development in dense urban cores",
+                      "building tall structures",
+                      "vertical construction"
+                    ],
+                    "correctAnswer": "strategic high-rise development in dense urban cores"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the most sustainable approach to housing growth",
+                      "good practice",
+                      "modern solutions"
+                    ],
+                    "correctAnswer": "the most sustainable approach to housing growth"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "designs prioritize social infrastructure and green amenities",
+                      "buildings are safe",
+                      "costs are reasonable"
+                    ],
+                    "correctAnswer": "designs prioritize social infrastructure and green amenities"
+                  }
                 ],
                 "correctSentence": "In my view, strategic high-rise development in dense urban cores represents the most sustainable approach to housing growth provided that designs prioritize social infrastructure and green amenities.",
                 "usableIn": "conclusion"
@@ -773,9 +1883,33 @@
                 "type": "template",
                 "template": "On balance, _____ justify _____, particularly when _____.",
                 "blanks": [
-                  {"id": "conclusion6_b1", "options": ["the environmental and spatial benefits", "tall buildings", "construction advantages"], "correctAnswer": "the environmental and spatial benefits"},
-                  {"id": "conclusion6_b2", "options": ["continued investment in vertical housing", "building upward", "high-rise development"], "correctAnswer": "continued investment in vertical housing"},
-                  {"id": "conclusion6_b3", "options": ["thoughtful design addresses social and community needs", "done properly", "well planned"], "correctAnswer": "thoughtful design addresses social and community needs"}
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "the environmental and spatial benefits",
+                      "tall buildings",
+                      "construction advantages"
+                    ],
+                    "correctAnswer": "the environmental and spatial benefits"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "continued investment in vertical housing",
+                      "building upward",
+                      "high-rise development"
+                    ],
+                    "correctAnswer": "continued investment in vertical housing"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": [
+                      "thoughtful design addresses social and community needs",
+                      "done properly",
+                      "well planned"
+                    ],
+                    "correctAnswer": "thoughtful design addresses social and community needs"
+                  }
                 ],
                 "correctSentence": "On balance, the environmental and spatial benefits justify continued investment in vertical housing, particularly when thoughtful design addresses social and community needs.",
                 "usableIn": "conclusion"
@@ -785,9 +1919,33 @@
                 "type": "template",
                 "template": "Therefore, while _____ require attention, they should not _____ in cities where _____.",
                 "blanks": [
-                  {"id": "conclusion7_b1", "options": ["quality of life concerns", "social problems", "various issues"], "correctAnswer": "quality of life concerns"},
-                  {"id": "conclusion7_b2", "options": ["prevent necessary vertical expansion", "stop construction", "halt development"], "correctAnswer": "prevent necessary vertical expansion"},
-                  {"id": "conclusion7_b3", "options": ["horizontal sprawl would devastate surrounding ecosystems", "space is limited", "land is expensive"], "correctAnswer": "horizontal sprawl would devastate surrounding ecosystems"}
+                  {
+                    "id": "conclusion7_b1",
+                    "options": [
+                      "quality of life concerns",
+                      "social problems",
+                      "various issues"
+                    ],
+                    "correctAnswer": "quality of life concerns"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": [
+                      "prevent necessary vertical expansion",
+                      "stop construction",
+                      "halt development"
+                    ],
+                    "correctAnswer": "prevent necessary vertical expansion"
+                  },
+                  {
+                    "id": "conclusion7_b3",
+                    "options": [
+                      "horizontal sprawl would devastate surrounding ecosystems",
+                      "space is limited",
+                      "land is expensive"
+                    ],
+                    "correctAnswer": "horizontal sprawl would devastate surrounding ecosystems"
+                  }
                 ],
                 "correctSentence": "Therefore, while quality of life concerns require attention, they should not prevent necessary vertical expansion in cities where horizontal sprawl would devastate surrounding ecosystems.",
                 "usableIn": "conclusion"
@@ -797,10 +1955,42 @@
                 "type": "template",
                 "template": "In summary, _____ constitutes _____, despite _____ that demand _____.",
                 "blanks": [
-                  {"id": "conclusion8_b1", "options": ["the shift toward high-rise residential construction", "building tall structures", "vertical development"], "correctAnswer": "the shift toward high-rise residential construction"},
-                  {"id": "conclusion8_b2", "options": ["a pragmatic response to urbanization", "modern progress", "necessary change"], "correctAnswer": "a pragmatic response to urbanization"},
-                  {"id": "conclusion8_b3", "options": ["social challenges", "some problems", "various concerns"], "correctAnswer": "social challenges"},
-                  {"id": "conclusion8_b4", "options": ["careful planning and design innovation", "attention", "solutions"], "correctAnswer": "careful planning and design innovation"}
+                  {
+                    "id": "conclusion8_b1",
+                    "options": [
+                      "the shift toward high-rise residential construction",
+                      "building tall structures",
+                      "vertical development"
+                    ],
+                    "correctAnswer": "the shift toward high-rise residential construction"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": [
+                      "a pragmatic response to urbanization",
+                      "modern progress",
+                      "necessary change"
+                    ],
+                    "correctAnswer": "a pragmatic response to urbanization"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": [
+                      "social challenges",
+                      "some problems",
+                      "various concerns"
+                    ],
+                    "correctAnswer": "social challenges"
+                  },
+                  {
+                    "id": "conclusion8_b4",
+                    "options": [
+                      "careful planning and design innovation",
+                      "attention",
+                      "solutions"
+                    ],
+                    "correctAnswer": "careful planning and design innovation"
+                  }
                 ],
                 "correctSentence": "In summary, the shift toward high-rise residential construction constitutes a pragmatic response to urbanization, despite social challenges that demand careful planning and design innovation.",
                 "usableIn": "conclusion"
@@ -853,12 +2043,43 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_advantages": ["The primary advantage", "One significant benefit", "High-rise buildings facilitate", "Vertical construction enables"],
-          "presenting_disadvantages": ["However", "Conversely", "A major disadvantage", "Tower block living poses"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "Specifically", "Take X as an example"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "Conversely", "On the other hand"]
+          "presenting_advantages": [
+            "The primary advantage",
+            "One significant benefit",
+            "High-rise buildings facilitate",
+            "Vertical construction enables"
+          ],
+          "presenting_disadvantages": [
+            "However",
+            "Conversely",
+            "A major disadvantage",
+            "Tower block living poses"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Specifically",
+            "Take X as an example"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Conversely",
+            "On the other hand"
+          ]
         }
       }
     },

@@ -79,105 +79,154 @@
             "word": "flexibility",
             "pronunciation": "/ˌfleksəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The ability to change or adapt easily",
+            "definition": "The ability to change or adapt easily.",
             "example": "Remote work offers greater flexibility in managing work schedules.",
-            "synonyms": ["adaptability", "versatility"]
+            "synonyms": [
+              "adaptability",
+              "versatility"
+            ]
           },
           {
             "word": "productivity",
             "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
             "partOfSpeech": "noun",
-            "definition": "The effectiveness of work output",
+            "definition": "The effectiveness of work output.",
             "example": "Some studies show increased productivity when working remotely.",
-            "synonyms": ["efficiency", "output"]
+            "synonyms": [
+              "efficiency",
+              "output"
+            ]
           },
           {
             "word": "collaboration",
             "pronunciation": "/kəˌlæbəˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Working together with others",
+            "definition": "Working together with others.",
             "example": "Office environments facilitate better collaboration among team members.",
-            "synonyms": ["cooperation", "teamwork"]
+            "synonyms": [
+              "cooperation",
+              "teamwork"
+            ]
           },
           {
             "word": "autonomy",
             "pronunciation": "/ɔːˈtɒnəmi/",
             "partOfSpeech": "noun",
-            "definition": "Independence in decision-making",
+            "definition": "Independence in decision-making.",
             "example": "Remote workers enjoy greater autonomy over their daily routines.",
-            "synonyms": ["independence", "self-governance"]
+            "synonyms": [
+              "independence",
+              "self-governance"
+            ]
           },
           {
             "word": "efficiency",
             "pronunciation": "/ɪˈfɪʃənsi/",
             "partOfSpeech": "noun",
-            "definition": "Achieving maximum output with minimum wasted effort",
+            "definition": "Achieving maximum output with minimum wasted effort.",
             "example": "Working from home can improve efficiency by eliminating commute time.",
-            "synonyms": ["effectiveness", "productivity"]
+            "synonyms": [
+              "effectiveness",
+              "productivity"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
+            "definition": "To make an action or process easier.",
             "example": "Physical offices facilitate spontaneous discussions and brainstorming.",
-            "synonyms": ["enable", "assist", "promote"]
+            "synonyms": [
+              "enable",
+              "assist",
+              "promote"
+            ]
           },
           {
             "word": "cohesion",
             "pronunciation": "/kəʊˈhiːʒən/",
             "partOfSpeech": "noun",
-            "definition": "Unity and togetherness within a group",
+            "definition": "Unity and togetherness within a group.",
             "example": "Office work strengthens team cohesion through daily interactions.",
-            "synonyms": ["unity", "solidarity"]
+            "synonyms": [
+              "unity",
+              "solidarity"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance or size",
+            "definition": "Of considerable importance or size.",
             "example": "Remote work provides substantial savings on transportation costs.",
-            "synonyms": ["significant", "considerable"]
+            "synonyms": [
+              "significant",
+              "considerable"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "work-life balance",
-            "definition": "The equilibrium between professional and personal life",
+            "definition": "The equilibrium between professional and personal life.",
             "example": "Remote work often improves work-life balance for employees."
           },
           {
             "phrase": "commute time",
-            "definition": "Time spent traveling to and from work",
+            "definition": "Time spent traveling to and from work.",
             "example": "Eliminating commute time saves 1-2 hours daily."
           },
           {
             "phrase": "face-to-face interaction",
-            "definition": "Direct in-person communication",
+            "definition": "Direct in-person communication.",
             "example": "Offices enable face-to-face interaction which builds stronger relationships."
           },
           {
             "phrase": "company culture",
-            "definition": "The shared values and practices of an organization",
+            "definition": "The shared values and practices of an organization.",
             "example": "Physical presence helps maintain strong company culture."
           },
           {
             "phrase": "remote setting",
-            "definition": "Working environment outside traditional office",
+            "definition": "Working environment outside traditional office.",
             "example": "Remote settings offer comfortable and personalized workspaces."
           },
           {
             "phrase": "spontaneous discussion",
-            "definition": "Unplanned conversations that arise naturally",
+            "definition": "Unplanned conversations that arise naturally.",
             "example": "Spontaneous discussions in offices often lead to creative solutions."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +249,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["remote work offers greater flexibility", "office work is outdated", "working from home saves money"], "correctAnswer": "remote work offers greater flexibility"},
-                  {"id": "thesis1_b2", "options": ["office environments facilitate better collaboration", "offices are expensive to maintain", "remote work is isolating"], "correctAnswer": "office environments facilitate better collaboration"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "remote work offers greater flexibility",
+                      "office work is outdated",
+                      "working from home saves money"
+                    ],
+                    "correctAnswer": "remote work offers greater flexibility"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "office environments facilitate better collaboration",
+                      "offices are expensive to maintain",
+                      "remote work is isolating"
+                    ],
+                    "correctAnswer": "office environments facilitate better collaboration"
+                  }
                 ],
                 "correctSentence": "While some believe remote work offers greater flexibility, others argue that office environments facilitate better collaboration.",
                 "usableIn": "introduction"
@@ -211,8 +276,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the ideal work arrangement", "remote work", "productivity levels"], "correctAnswer": "the ideal work arrangement"},
-                  {"id": "thesis2_b2", "options": ["the nature of the job and personal preferences", "company policy", "available technology"], "correctAnswer": "the nature of the job and personal preferences"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the ideal work arrangement",
+                      "remote work",
+                      "productivity levels"
+                    ],
+                    "correctAnswer": "the ideal work arrangement"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the nature of the job and personal preferences",
+                      "company policy",
+                      "available technology"
+                    ],
+                    "correctAnswer": "the nature of the job and personal preferences"
+                  }
                 ],
                 "correctSentence": "In my opinion, the ideal work arrangement depends on the nature of the job and personal preferences.",
                 "usableIn": "introduction"
@@ -222,8 +303,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["working remotely is more beneficial", "offices should be eliminated", "technology has improved"], "correctAnswer": "working remotely is more beneficial"},
-                  {"id": "thesis3_b2", "options": ["office-based work provides greater advantages", "remote work should be banned", "companies should decide"], "correctAnswer": "office-based work provides greater advantages"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "working remotely is more beneficial",
+                      "offices should be eliminated",
+                      "technology has improved"
+                    ],
+                    "correctAnswer": "working remotely is more beneficial"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "office-based work provides greater advantages",
+                      "remote work should be banned",
+                      "companies should decide"
+                    ],
+                    "correctAnswer": "office-based work provides greater advantages"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether working remotely is more beneficial or office-based work provides greater advantages.",
                 "usableIn": "introduction"
@@ -233,8 +330,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["both arrangements have merit", "remote work is superior", "offices are unnecessary"], "correctAnswer": "both arrangements have merit"},
-                  {"id": "thesis4_b2", "options": ["different jobs require different work environments", "technology is advancing", "people have different preferences"], "correctAnswer": "different jobs require different work environments"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "both arrangements have merit",
+                      "remote work is superior",
+                      "offices are unnecessary"
+                    ],
+                    "correctAnswer": "both arrangements have merit"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "different jobs require different work environments",
+                      "technology is advancing",
+                      "people have different preferences"
+                    ],
+                    "correctAnswer": "different jobs require different work environments"
+                  }
                 ],
                 "correctSentence": "From my perspective, both arrangements have merit because different jobs require different work environments.",
                 "usableIn": "introduction"
@@ -244,8 +357,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives", "remote work only", "office advantages"], "correctAnswer": "both perspectives"},
-                  {"id": "thesis5_b2", "options": ["a hybrid approach is most effective", "remote work is better", "offices should close"], "correctAnswer": "a hybrid approach is most effective"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives",
+                      "remote work only",
+                      "office advantages"
+                    ],
+                    "correctAnswer": "both perspectives"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "a hybrid approach is most effective",
+                      "remote work is better",
+                      "offices should close"
+                    ],
+                    "correctAnswer": "a hybrid approach is most effective"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives before concluding that a hybrid approach is most effective.",
                 "usableIn": "introduction"
@@ -262,8 +391,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["remote work", "technology", "flexibility"], "correctAnswer": "remote work"},
-                  {"id": "topic1_b2", "options": ["significant advantages for employees", "internet connection", "better pay"], "correctAnswer": "significant advantages for employees"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "remote work",
+                      "technology",
+                      "flexibility"
+                    ],
+                    "correctAnswer": "remote work"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "significant advantages for employees",
+                      "internet connection",
+                      "better pay"
+                    ],
+                    "correctAnswer": "significant advantages for employees"
+                  }
                 ],
                 "correctSentence": "On the one hand, remote work offers significant advantages for employees.",
                 "usableIn": "body-paragraph-1"
@@ -273,8 +418,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["office environments", "working from home", "technology"], "correctAnswer": "office environments"},
-                  {"id": "topic2_b2", "options": ["crucial benefits for team collaboration", "free coffee", "commuting options"], "correctAnswer": "crucial benefits for team collaboration"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "office environments",
+                      "working from home",
+                      "technology"
+                    ],
+                    "correctAnswer": "office environments"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "crucial benefits for team collaboration",
+                      "free coffee",
+                      "commuting options"
+                    ],
+                    "correctAnswer": "crucial benefits for team collaboration"
+                  }
                 ],
                 "correctSentence": "On the other hand, office environments provide crucial benefits for team collaboration.",
                 "usableIn": "body-paragraph-2"
@@ -284,8 +445,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["working from home", "commuting", "office buildings"], "correctAnswer": "working from home"},
-                  {"id": "topic3_b2", "options": ["the flexibility it provides", "internet speed", "desk space"], "correctAnswer": "the flexibility it provides"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "working from home",
+                      "commuting",
+                      "office buildings"
+                    ],
+                    "correctAnswer": "working from home"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the flexibility it provides",
+                      "internet speed",
+                      "desk space"
+                    ],
+                    "correctAnswer": "the flexibility it provides"
+                  }
                 ],
                 "correctSentence": "One significant advantage of working from home is the flexibility it provides.",
                 "usableIn": "body-paragraph-1"
@@ -295,8 +472,24 @@
                 "type": "template",
                 "template": "A key benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["office-based work", "remote meetings", "video calls"], "correctAnswer": "office-based work"},
-                  {"id": "topic4_b2", "options": ["it facilitates face-to-face interaction", "buildings have elevators", "parking is available"], "correctAnswer": "it facilitates face-to-face interaction"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "office-based work",
+                      "remote meetings",
+                      "video calls"
+                    ],
+                    "correctAnswer": "office-based work"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "it facilitates face-to-face interaction",
+                      "buildings have elevators",
+                      "parking is available"
+                    ],
+                    "correctAnswer": "it facilitates face-to-face interaction"
+                  }
                 ],
                 "correctSentence": "A key benefit of office-based work is that it facilitates face-to-face interaction.",
                 "usableIn": "body-paragraph-2"
@@ -306,9 +499,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of remote work", "Some people", "Employers"], "correctAnswer": "Supporters of remote work"},
-                  {"id": "topic5_b2", "options": ["eliminating commute time", "having internet", "using computers"], "correctAnswer": "eliminating commute time"},
-                  {"id": "topic5_b3", "options": ["achieving work-life balance", "earning money", "using email"], "correctAnswer": "achieving work-life balance"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of remote work",
+                      "Some people",
+                      "Employers"
+                    ],
+                    "correctAnswer": "Supporters of remote work"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "eliminating commute time",
+                      "having internet",
+                      "using computers"
+                    ],
+                    "correctAnswer": "eliminating commute time"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "achieving work-life balance",
+                      "earning money",
+                      "using email"
+                    ],
+                    "correctAnswer": "achieving work-life balance"
+                  }
                 ],
                 "correctSentence": "Supporters of remote work argue that eliminating commute time is essential for achieving work-life balance.",
                 "usableIn": "body-paragraph-1"
@@ -318,9 +535,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Advocates of office work", "Everyone", "Managers"], "correctAnswer": "Advocates of office work"},
-                  {"id": "topic6_b2", "options": ["physical presence in the workplace", "having meetings", "using phones"], "correctAnswer": "physical presence in the workplace"},
-                  {"id": "topic6_b3", "options": ["team cohesion and company culture", "office decoration", "building security"], "correctAnswer": "team cohesion and company culture"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Advocates of office work",
+                      "Everyone",
+                      "Managers"
+                    ],
+                    "correctAnswer": "Advocates of office work"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "physical presence in the workplace",
+                      "having meetings",
+                      "using phones"
+                    ],
+                    "correctAnswer": "physical presence in the workplace"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "team cohesion and company culture",
+                      "office decoration",
+                      "building security"
+                    ],
+                    "correctAnswer": "team cohesion and company culture"
+                  }
                 ],
                 "correctSentence": "Advocates of office work contend that physical presence in the workplace enhances team cohesion and company culture.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +571,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["remote employment", "buildings", "technology"], "correctAnswer": "remote employment"},
-                  {"id": "topic7_b2", "options": ["greater autonomy over one's schedule", "faster internet", "more salary"], "correctAnswer": "greater autonomy over one's schedule"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "remote employment",
+                      "buildings",
+                      "technology"
+                    ],
+                    "correctAnswer": "remote employment"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "greater autonomy over one's schedule",
+                      "faster internet",
+                      "more salary"
+                    ],
+                    "correctAnswer": "greater autonomy over one's schedule"
+                  }
                 ],
                 "correctSentence": "The primary advantage of remote employment is greater autonomy over one's schedule.",
                 "usableIn": "body-paragraph-1"
@@ -341,8 +598,24 @@
                 "type": "template",
                 "template": "A major drawback of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["working from home", "office work", "meetings"], "correctAnswer": "working from home"},
-                  {"id": "topic8_b2", "options": ["the potential for isolation and reduced social interaction", "slow internet", "uncomfortable chairs"], "correctAnswer": "the potential for isolation and reduced social interaction"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "working from home",
+                      "office work",
+                      "meetings"
+                    ],
+                    "correctAnswer": "working from home"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the potential for isolation and reduced social interaction",
+                      "slow internet",
+                      "uncomfortable chairs"
+                    ],
+                    "correctAnswer": "the potential for isolation and reduced social interaction"
+                  }
                 ],
                 "correctSentence": "A major drawback of working from home is the potential for isolation and reduced social interaction.",
                 "usableIn": "body-paragraph-2"
@@ -359,8 +632,24 @@
                 "type": "template",
                 "template": "This is because _____ enables employees to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["remote work", "office space", "technology"], "correctAnswer": "remote work"},
-                  {"id": "support1_b2", "options": ["adjust their schedules around personal commitments", "use computers", "send emails"], "correctAnswer": "adjust their schedules around personal commitments"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "remote work",
+                      "office space",
+                      "technology"
+                    ],
+                    "correctAnswer": "remote work"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "adjust their schedules around personal commitments",
+                      "use computers",
+                      "send emails"
+                    ],
+                    "correctAnswer": "adjust their schedules around personal commitments"
+                  }
                 ],
                 "correctSentence": "This is because remote work enables employees to adjust their schedules around personal commitments.",
                 "usableIn": "body-paragraph-1"
@@ -370,8 +659,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["face-to-face collaboration", "remote meetings", "email communication"], "correctAnswer": "face-to-face collaboration"},
-                  {"id": "support2_b2", "options": ["more effective communication and problem-solving", "faster typing", "better coffee breaks"], "correctAnswer": "more effective communication and problem-solving"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "face-to-face collaboration",
+                      "remote meetings",
+                      "email communication"
+                    ],
+                    "correctAnswer": "face-to-face collaboration"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "more effective communication and problem-solving",
+                      "faster typing",
+                      "better coffee breaks"
+                    ],
+                    "correctAnswer": "more effective communication and problem-solving"
+                  }
                 ],
                 "correctSentence": "The main reason is that face-to-face collaboration leads to more effective communication and problem-solving.",
                 "usableIn": "body-paragraph-2"
@@ -381,9 +686,33 @@
                 "type": "template",
                 "template": "_____ allows workers to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Working remotely", "Office work", "Using email"], "correctAnswer": "Working remotely"},
-                  {"id": "support3_b2", "options": ["maintain productivity", "use computers", "attend meetings"], "correctAnswer": "maintain productivity"},
-                  {"id": "support3_b3", "options": ["spending hours commuting", "working hard", "using technology"], "correctAnswer": "spending hours commuting"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Working remotely",
+                      "Office work",
+                      "Using email"
+                    ],
+                    "correctAnswer": "Working remotely"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "maintain productivity",
+                      "use computers",
+                      "attend meetings"
+                    ],
+                    "correctAnswer": "maintain productivity"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "spending hours commuting",
+                      "working hard",
+                      "using technology"
+                    ],
+                    "correctAnswer": "spending hours commuting"
+                  }
                 ],
                 "correctSentence": "Working remotely allows workers to maintain productivity without spending hours commuting.",
                 "usableIn": "body-paragraph-1"
@@ -393,9 +722,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Physical office presence", "Remote work", "Technology"], "correctAnswer": "Physical office presence"},
-                  {"id": "support4_b2", "options": ["spontaneous brainstorming and creative exchanges", "email usage", "computer skills"], "correctAnswer": "spontaneous brainstorming and creative exchanges"},
-                  {"id": "support4_b3", "options": ["innovation and team bonding", "internet connection", "salary payment"], "correctAnswer": "innovation and team bonding"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Physical office presence",
+                      "Remote work",
+                      "Technology"
+                    ],
+                    "correctAnswer": "Physical office presence"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "spontaneous brainstorming and creative exchanges",
+                      "email usage",
+                      "computer skills"
+                    ],
+                    "correctAnswer": "spontaneous brainstorming and creative exchanges"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "innovation and team bonding",
+                      "internet connection",
+                      "salary payment"
+                    ],
+                    "correctAnswer": "innovation and team bonding"
+                  }
                 ],
                 "correctSentence": "Physical office presence fosters spontaneous brainstorming and creative exchanges, which is crucial for innovation and team bonding.",
                 "usableIn": "body-paragraph-2"
@@ -405,8 +758,24 @@
                 "type": "template",
                 "template": "By _____, remote workers can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["eliminating daily commute time", "using computers", "attending meetings"], "correctAnswer": "eliminating daily commute time"},
-                  {"id": "support5_b2", "options": ["save 1-2 hours per day", "work faster", "earn more"], "correctAnswer": "save 1-2 hours per day"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "eliminating daily commute time",
+                      "using computers",
+                      "attending meetings"
+                    ],
+                    "correctAnswer": "eliminating daily commute time"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "save 1-2 hours per day",
+                      "work faster",
+                      "earn more"
+                    ],
+                    "correctAnswer": "save 1-2 hours per day"
+                  }
                 ],
                 "correctSentence": "By eliminating daily commute time, remote workers can save 1-2 hours per day.",
                 "usableIn": "body-paragraph-1"
@@ -416,9 +785,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Office-based collaboration", "Remote work", "Email"], "correctAnswer": "Office-based collaboration"},
-                  {"id": "support6_b2", "options": ["professional relationships", "computer skills", "internet speed"], "correctAnswer": "professional relationships"},
-                  {"id": "support6_b3", "options": ["regular in-person interactions", "typing practice", "coffee breaks"], "correctAnswer": "regular in-person interactions"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Office-based collaboration",
+                      "Remote work",
+                      "Email"
+                    ],
+                    "correctAnswer": "Office-based collaboration"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "professional relationships",
+                      "computer skills",
+                      "internet speed"
+                    ],
+                    "correctAnswer": "professional relationships"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "regular in-person interactions",
+                      "typing practice",
+                      "coffee breaks"
+                    ],
+                    "correctAnswer": "regular in-person interactions"
+                  }
                 ],
                 "correctSentence": "Office-based collaboration strengthens professional relationships through regular in-person interactions.",
                 "usableIn": "body-paragraph-2"
@@ -428,8 +821,24 @@
                 "type": "template",
                 "template": "Remote work contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["increased job satisfaction", "better technology", "higher salaries"], "correctAnswer": "increased job satisfaction"},
-                  {"id": "support7_b2", "options": ["reducing stress associated with commuting", "providing computers", "offering free lunch"], "correctAnswer": "reducing stress associated with commuting"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "increased job satisfaction",
+                      "better technology",
+                      "higher salaries"
+                    ],
+                    "correctAnswer": "increased job satisfaction"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "reducing stress associated with commuting",
+                      "providing computers",
+                      "offering free lunch"
+                    ],
+                    "correctAnswer": "reducing stress associated with commuting"
+                  }
                 ],
                 "correctSentence": "Remote work contributes to increased job satisfaction by reducing stress associated with commuting.",
                 "usableIn": "body-paragraph-1"
@@ -439,8 +848,24 @@
                 "type": "template",
                 "template": "Office environments promote _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["team cohesion", "computer use", "lunch breaks"], "correctAnswer": "team cohesion"},
-                  {"id": "support8_b2", "options": ["enhances overall organizational performance", "requires office space", "costs money"], "correctAnswer": "enhances overall organizational performance"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "team cohesion",
+                      "computer use",
+                      "lunch breaks"
+                    ],
+                    "correctAnswer": "team cohesion"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "enhances overall organizational performance",
+                      "requires office space",
+                      "costs money"
+                    ],
+                    "correctAnswer": "enhances overall organizational performance"
+                  }
                 ],
                 "correctSentence": "Office environments promote team cohesion that enhances overall organizational performance.",
                 "usableIn": "body-paragraph-2"
@@ -450,9 +875,33 @@
                 "type": "template",
                 "template": "_____ provides employees with _____ over _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Working from home", "Office work", "Technology"], "correctAnswer": "Working from home"},
-                  {"id": "support9_b2", "options": ["greater control", "less freedom", "no authority"], "correctAnswer": "greater control"},
-                  {"id": "support9_b3", "options": ["their daily routines and work environment", "their salary", "company policy"], "correctAnswer": "their daily routines and work environment"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Working from home",
+                      "Office work",
+                      "Technology"
+                    ],
+                    "correctAnswer": "Working from home"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "greater control",
+                      "less freedom",
+                      "no authority"
+                    ],
+                    "correctAnswer": "greater control"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "their daily routines and work environment",
+                      "their salary",
+                      "company policy"
+                    ],
+                    "correctAnswer": "their daily routines and work environment"
+                  }
                 ],
                 "correctSentence": "Working from home provides employees with greater control over their daily routines and work environment.",
                 "usableIn": "body-paragraph-1"
@@ -462,8 +911,24 @@
                 "type": "template",
                 "template": "In an office setting, _____ can _____ more readily.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["team members", "computers", "buildings"], "correctAnswer": "team members"},
-                  {"id": "support10_b2", "options": ["exchange ideas and resolve issues", "type emails", "drink coffee"], "correctAnswer": "exchange ideas and resolve issues"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "team members",
+                      "computers",
+                      "buildings"
+                    ],
+                    "correctAnswer": "team members"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "exchange ideas and resolve issues",
+                      "type emails",
+                      "drink coffee"
+                    ],
+                    "correctAnswer": "exchange ideas and resolve issues"
+                  }
                 ],
                 "correctSentence": "In an office setting, team members can exchange ideas and resolve issues more readily.",
                 "usableIn": "body-paragraph-2"
@@ -473,8 +938,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["remote employees", "office buildings", "computers"], "correctAnswer": "remote employees"},
-                  {"id": "support11_b2", "options": ["improved work-life balance", "slower internet", "more expenses"], "correctAnswer": "improved work-life balance"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "remote employees",
+                      "office buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "remote employees"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "improved work-life balance",
+                      "slower internet",
+                      "more expenses"
+                    ],
+                    "correctAnswer": "improved work-life balance"
+                  }
                 ],
                 "correctSentence": "As a result, remote employees experience improved work-life balance.",
                 "usableIn": "body-paragraph-1"
@@ -484,8 +965,24 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ in office environments.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["team collaboration", "internet speed", "lunch quality"], "correctAnswer": "team collaboration"},
-                  {"id": "support12_b2", "options": ["more efficient and dynamic", "slower and boring", "expensive and difficult"], "correctAnswer": "more efficient and dynamic"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "team collaboration",
+                      "internet speed",
+                      "lunch quality"
+                    ],
+                    "correctAnswer": "team collaboration"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "more efficient and dynamic",
+                      "slower and boring",
+                      "expensive and difficult"
+                    ],
+                    "correctAnswer": "more efficient and dynamic"
+                  }
                 ],
                 "correctSentence": "Consequently, team collaboration tends to be more efficient and dynamic in office environments.",
                 "usableIn": "body-paragraph-2"
@@ -502,9 +999,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["remote workers", "office buildings", "computers"], "correctAnswer": "remote workers"},
-                  {"id": "example1_b2", "options": ["attend to family needs", "send emails", "use phones"], "correctAnswer": "attend to family needs"},
-                  {"id": "example1_b3", "options": ["maintaining their productivity", "drinking coffee", "taking breaks"], "correctAnswer": "maintaining their productivity"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "remote workers",
+                      "office buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "remote workers"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "attend to family needs",
+                      "send emails",
+                      "use phones"
+                    ],
+                    "correctAnswer": "attend to family needs"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "maintaining their productivity",
+                      "drinking coffee",
+                      "taking breaks"
+                    ],
+                    "correctAnswer": "maintaining their productivity"
+                  }
                 ],
                 "correctSentence": "For instance, remote workers can attend to family needs while maintaining their productivity.",
                 "usableIn": "body-paragraph-1"
@@ -514,9 +1035,33 @@
                 "type": "template",
                 "template": "For example, _____ often require _____ that are best conducted _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["creative projects", "emails", "phone calls"], "correctAnswer": "creative projects"},
-                  {"id": "example2_b2", "options": ["intensive brainstorming sessions", "typing practice", "lunch breaks"], "correctAnswer": "intensive brainstorming sessions"},
-                  {"id": "example2_b3", "options": ["face-to-face", "by email", "online"], "correctAnswer": "face-to-face"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "creative projects",
+                      "emails",
+                      "phone calls"
+                    ],
+                    "correctAnswer": "creative projects"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "intensive brainstorming sessions",
+                      "typing practice",
+                      "lunch breaks"
+                    ],
+                    "correctAnswer": "intensive brainstorming sessions"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "face-to-face",
+                      "by email",
+                      "online"
+                    ],
+                    "correctAnswer": "face-to-face"
+                  }
                 ],
                 "correctSentence": "For example, creative projects often require intensive brainstorming sessions that are best conducted face-to-face.",
                 "usableIn": "body-paragraph-2"
@@ -526,9 +1071,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in major cities waste _____ each day on _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["office commuters", "remote workers", "computers"], "correctAnswer": "office commuters"},
-                  {"id": "example3_b2", "options": ["2-3 hours", "5 minutes", "no time"], "correctAnswer": "2-3 hours"},
-                  {"id": "example3_b3", "options": ["traffic congestion and transportation", "working productively", "earning money"], "correctAnswer": "traffic congestion and transportation"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "office commuters",
+                      "remote workers",
+                      "computers"
+                    ],
+                    "correctAnswer": "office commuters"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "2-3 hours",
+                      "5 minutes",
+                      "no time"
+                    ],
+                    "correctAnswer": "2-3 hours"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "traffic congestion and transportation",
+                      "working productively",
+                      "earning money"
+                    ],
+                    "correctAnswer": "traffic congestion and transportation"
+                  }
                 ],
                 "correctSentence": "Specifically, office commuters in major cities waste 2-3 hours each day on traffic congestion and transportation.",
                 "usableIn": "body-paragraph-1"
@@ -538,8 +1107,24 @@
                 "type": "template",
                 "template": "Research shows that _____ increase when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["productivity levels", "office rents", "computer prices"], "correctAnswer": "productivity levels"},
-                  {"id": "example4_b2", "options": ["teams collaborate in person regularly", "people work longer hours", "companies buy new furniture"], "correctAnswer": "teams collaborate in person regularly"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "productivity levels",
+                      "office rents",
+                      "computer prices"
+                    ],
+                    "correctAnswer": "productivity levels"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "teams collaborate in person regularly",
+                      "people work longer hours",
+                      "companies buy new furniture"
+                    ],
+                    "correctAnswer": "teams collaborate in person regularly"
+                  }
                 ],
                 "correctSentence": "Research shows that productivity levels increase when teams collaborate in person regularly.",
                 "usableIn": "body-paragraph-2"
@@ -549,9 +1134,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ reported _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Stanford University", "a local company", "my friend"], "correctAnswer": "Stanford University"},
-                  {"id": "example5_b2", "options": ["remote employees", "office buildings", "computers"], "correctAnswer": "remote employees"},
-                  {"id": "example5_b3", "options": ["13% higher productivity", "lower salaries", "more problems"], "correctAnswer": "13% higher productivity"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Stanford University",
+                      "a local company",
+                      "my friend"
+                    ],
+                    "correctAnswer": "Stanford University"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "remote employees",
+                      "office buildings",
+                      "computers"
+                    ],
+                    "correctAnswer": "remote employees"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "13% higher productivity",
+                      "lower salaries",
+                      "more problems"
+                    ],
+                    "correctAnswer": "13% higher productivity"
+                  }
                 ],
                 "correctSentence": "A study by Stanford University found that remote employees reported 13% higher productivity.",
                 "usableIn": "body-paragraph-1"
@@ -561,9 +1170,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ benefit significantly from _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["industries", "computers", "buildings"], "correctAnswer": "industries"},
-                  {"id": "example6_b2", "options": ["advertising and design", "farming and construction", "data entry"], "correctAnswer": "advertising and design"},
-                  {"id": "example6_b3", "options": ["collaborative office environments", "remote work only", "individual isolation"], "correctAnswer": "collaborative office environments"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "industries",
+                      "computers",
+                      "buildings"
+                    ],
+                    "correctAnswer": "industries"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "advertising and design",
+                      "farming and construction",
+                      "data entry"
+                    ],
+                    "correctAnswer": "advertising and design"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "collaborative office environments",
+                      "remote work only",
+                      "individual isolation"
+                    ],
+                    "correctAnswer": "collaborative office environments"
+                  }
                 ],
                 "correctSentence": "In particular, industries such as advertising and design benefit significantly from collaborative office environments.",
                 "usableIn": "body-paragraph-2"
@@ -573,9 +1206,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have reported that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["tech companies", "restaurants", "hospitals"], "correctAnswer": "tech companies"},
-                  {"id": "example7_b2", "options": ["Twitter and Shopify", "local stores", "small businesses"], "correctAnswer": "Twitter and Shopify"},
-                  {"id": "example7_b3", "options": ["remote work improves employee retention", "offices are essential", "everyone should commute"], "correctAnswer": "remote work improves employee retention"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "tech companies",
+                      "restaurants",
+                      "hospitals"
+                    ],
+                    "correctAnswer": "tech companies"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "Twitter and Shopify",
+                      "local stores",
+                      "small businesses"
+                    ],
+                    "correctAnswer": "Twitter and Shopify"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "remote work improves employee retention",
+                      "offices are essential",
+                      "everyone should commute"
+                    ],
+                    "correctAnswer": "remote work improves employee retention"
+                  }
                 ],
                 "correctSentence": "Many tech companies, including Twitter and Shopify, have reported that remote work improves employee retention.",
                 "usableIn": "body-paragraph-1"
@@ -585,9 +1242,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ relies heavily on _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the consulting industry", "farming", "retail shopping"], "correctAnswer": "the consulting industry"},
-                  {"id": "example8_b2", "options": ["their success", "their profits", "their offices"], "correctAnswer": "their success"},
-                  {"id": "example8_b3", "options": ["face-to-face client meetings and teamwork", "remote work only", "email communication"], "correctAnswer": "face-to-face client meetings and teamwork"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the consulting industry",
+                      "farming",
+                      "retail shopping"
+                    ],
+                    "correctAnswer": "the consulting industry"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "their success",
+                      "their profits",
+                      "their offices"
+                    ],
+                    "correctAnswer": "their success"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "face-to-face client meetings and teamwork",
+                      "remote work only",
+                      "email communication"
+                    ],
+                    "correctAnswer": "face-to-face client meetings and teamwork"
+                  }
                 ],
                 "correctSentence": "Take the consulting industry as an example: their success relies heavily on face-to-face client meetings and teamwork.",
                 "usableIn": "body-paragraph-2"
@@ -597,8 +1278,24 @@
                 "type": "template",
                 "template": "According to _____, employees who work remotely _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["recent surveys", "old books", "random people"], "correctAnswer": "recent surveys"},
-                  {"id": "example9_b2", "options": ["experience less stress and burnout", "earn less money", "work fewer hours"], "correctAnswer": "experience less stress and burnout"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "recent surveys",
+                      "old books",
+                      "random people"
+                    ],
+                    "correctAnswer": "recent surveys"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "experience less stress and burnout",
+                      "earn less money",
+                      "work fewer hours"
+                    ],
+                    "correctAnswer": "experience less stress and burnout"
+                  }
                 ],
                 "correctSentence": "According to recent surveys, employees who work remotely experience less stress and burnout.",
                 "usableIn": "body-paragraph-1"
@@ -608,8 +1305,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is more effective when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["complex problem-solving", "email writing", "data entry"], "correctAnswer": "complex problem-solving"},
-                  {"id": "example10_b2", "options": ["teams can interact in person", "everyone works alone", "people send emails"], "correctAnswer": "teams can interact in person"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "complex problem-solving",
+                      "email writing",
+                      "data entry"
+                    ],
+                    "correctAnswer": "complex problem-solving"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "teams can interact in person",
+                      "everyone works alone",
+                      "people send emails"
+                    ],
+                    "correctAnswer": "teams can interact in person"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that complex problem-solving is more effective when teams can interact in person.",
                 "usableIn": "body-paragraph-2"
@@ -626,8 +1339,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may lead to _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive remote work", "office work", "meetings"], "correctAnswer": "excessive remote work"},
-                  {"id": "counter1_b2", "options": ["social isolation and disconnection", "better productivity", "higher salaries"], "correctAnswer": "social isolation and disconnection"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive remote work",
+                      "office work",
+                      "meetings"
+                    ],
+                    "correctAnswer": "excessive remote work"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "social isolation and disconnection",
+                      "better productivity",
+                      "higher salaries"
+                    ],
+                    "correctAnswer": "social isolation and disconnection"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that excessive remote work may lead to social isolation and disconnection.",
                 "usableIn": "body-paragraph-2"
@@ -637,8 +1366,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["working from home", "office work", "commuting"], "correctAnswer": "working from home"},
-                  {"id": "counter2_b2", "options": ["difficulty separating work and personal life", "better focus", "more exercise"], "correctAnswer": "difficulty separating work and personal life"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "working from home",
+                      "office work",
+                      "commuting"
+                    ],
+                    "correctAnswer": "working from home"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "difficulty separating work and personal life",
+                      "better focus",
+                      "more exercise"
+                    ],
+                    "correctAnswer": "difficulty separating work and personal life"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, working from home can present challenges such as difficulty separating work and personal life.",
                 "usableIn": "body-paragraph-1"
@@ -648,8 +1393,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that not all employees possess.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["successful remote work", "office work", "typing"], "correctAnswer": "successful remote work"},
-                  {"id": "counter3_b2", "options": ["strong self-discipline and time management", "a computer", "an email address"], "correctAnswer": "strong self-discipline and time management"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "successful remote work",
+                      "office work",
+                      "typing"
+                    ],
+                    "correctAnswer": "successful remote work"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "strong self-discipline and time management",
+                      "a computer",
+                      "an email address"
+                    ],
+                    "correctAnswer": "strong self-discipline and time management"
+                  }
                 ],
                 "correctSentence": "Nevertheless, successful remote work requires strong self-discipline and time management that not all employees possess.",
                 "usableIn": "body-paragraph-1"
@@ -659,9 +1420,33 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it also involves _____ that _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["office-based work", "remote work", "technology"], "correctAnswer": "office-based work"},
-                  {"id": "counter4_b2", "options": ["significant time and costs", "better productivity", "free lunch"], "correctAnswer": "significant time and costs"},
-                  {"id": "counter4_b3", "options": ["reduce employees' personal time", "increase salaries", "improve health"], "correctAnswer": "reduce employees' personal time"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "office-based work",
+                      "remote work",
+                      "technology"
+                    ],
+                    "correctAnswer": "office-based work"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "significant time and costs",
+                      "better productivity",
+                      "free lunch"
+                    ],
+                    "correctAnswer": "significant time and costs"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "reduce employees' personal time",
+                      "increase salaries",
+                      "improve health"
+                    ],
+                    "correctAnswer": "reduce employees' personal time"
+                  }
                 ],
                 "correctSentence": "Although office-based work offers benefits, it also involves significant time and costs that reduce employees' personal time.",
                 "usableIn": "body-paragraph-2"
@@ -671,8 +1456,24 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____ if not managed properly.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["remote arrangements", "office spaces", "computers"], "correctAnswer": "remote arrangements"},
-                  {"id": "counter5_b2", "options": ["weaken team cohesion", "improve communication", "increase profits"], "correctAnswer": "weaken team cohesion"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "remote arrangements",
+                      "office spaces",
+                      "computers"
+                    ],
+                    "correctAnswer": "remote arrangements"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "weaken team cohesion",
+                      "improve communication",
+                      "increase profits"
+                    ],
+                    "correctAnswer": "weaken team cohesion"
+                  }
                 ],
                 "correctSentence": "Critics point out that remote arrangements can weaken team cohesion if not managed properly.",
                 "usableIn": "body-paragraph-2"
@@ -689,8 +1490,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both arrangements have distinct advantages", "remote work is perfect", "offices are useless"], "correctAnswer": "both arrangements have distinct advantages"},
-                  {"id": "conclusion1_b2", "options": ["the ideal approach depends on individual circumstances", "everyone should work remotely", "offices should close"], "correctAnswer": "the ideal approach depends on individual circumstances"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both arrangements have distinct advantages",
+                      "remote work is perfect",
+                      "offices are useless"
+                    ],
+                    "correctAnswer": "both arrangements have distinct advantages"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the ideal approach depends on individual circumstances",
+                      "everyone should work remotely",
+                      "offices should close"
+                    ],
+                    "correctAnswer": "the ideal approach depends on individual circumstances"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both arrangements have distinct advantages, I believe the ideal approach depends on individual circumstances.",
                 "usableIn": "conclusion"
@@ -700,10 +1517,42 @@
                 "type": "template",
                 "template": "Overall, _____ offers _____, whereas _____ provides _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["remote work", "technology", "internet"], "correctAnswer": "remote work"},
-                  {"id": "conclusion2_b2", "options": ["flexibility and autonomy", "computers", "desks"], "correctAnswer": "flexibility and autonomy"},
-                  {"id": "conclusion2_b3", "options": ["office work", "typing", "lunch"], "correctAnswer": "office work"},
-                  {"id": "conclusion2_b4", "options": ["collaboration and social connection", "expenses", "commuting"], "correctAnswer": "collaboration and social connection"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "remote work",
+                      "technology",
+                      "internet"
+                    ],
+                    "correctAnswer": "remote work"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "flexibility and autonomy",
+                      "computers",
+                      "desks"
+                    ],
+                    "correctAnswer": "flexibility and autonomy"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "office work",
+                      "typing",
+                      "lunch"
+                    ],
+                    "correctAnswer": "office work"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "collaboration and social connection",
+                      "expenses",
+                      "commuting"
+                    ],
+                    "correctAnswer": "collaboration and social connection"
+                  }
                 ],
                 "correctSentence": "Overall, remote work offers flexibility and autonomy, whereas office work provides collaboration and social connection.",
                 "usableIn": "conclusion"
@@ -713,8 +1562,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends largely on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the choice between these work arrangements", "company profit", "internet speed"], "correctAnswer": "the choice between these work arrangements"},
-                  {"id": "conclusion3_b2", "options": ["the nature of the job and employee preferences", "office location", "salary levels"], "correctAnswer": "the nature of the job and employee preferences"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the choice between these work arrangements",
+                      "company profit",
+                      "internet speed"
+                    ],
+                    "correctAnswer": "the choice between these work arrangements"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "the nature of the job and employee preferences",
+                      "office location",
+                      "salary levels"
+                    ],
+                    "correctAnswer": "the nature of the job and employee preferences"
+                  }
                 ],
                 "correctSentence": "To summarize, the choice between these work arrangements depends largely on the nature of the job and employee preferences.",
                 "usableIn": "conclusion"
@@ -724,9 +1589,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should consider _____ when deciding _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["both employers and employees", "only managers", "computers"], "correctAnswer": "both employers and employees"},
-                  {"id": "conclusion4_b2", "options": ["the specific requirements of each role", "office furniture", "lunch menus"], "correctAnswer": "the specific requirements of each role"},
-                  {"id": "conclusion4_b3", "options": ["between remote and office work", "salary amounts", "vacation days"], "correctAnswer": "between remote and office work"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "both employers and employees",
+                      "only managers",
+                      "computers"
+                    ],
+                    "correctAnswer": "both employers and employees"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "the specific requirements of each role",
+                      "office furniture",
+                      "lunch menus"
+                    ],
+                    "correctAnswer": "the specific requirements of each role"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "between remote and office work",
+                      "salary amounts",
+                      "vacation days"
+                    ],
+                    "correctAnswer": "between remote and office work"
+                  }
                 ],
                 "correctSentence": "Ultimately, both employers and employees should consider the specific requirements of each role when deciding between remote and office work.",
                 "usableIn": "conclusion"
@@ -736,8 +1625,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most effective solution because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["a hybrid work model", "full-time remote work", "mandatory office attendance"], "correctAnswer": "a hybrid work model"},
-                  {"id": "conclusion5_b2", "options": ["it combines the benefits of both approaches", "it's cheaper", "everyone likes it"], "correctAnswer": "it combines the benefits of both approaches"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "a hybrid work model",
+                      "full-time remote work",
+                      "mandatory office attendance"
+                    ],
+                    "correctAnswer": "a hybrid work model"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it combines the benefits of both approaches",
+                      "it's cheaper",
+                      "everyone likes it"
+                    ],
+                    "correctAnswer": "it combines the benefits of both approaches"
+                  }
                 ],
                 "correctSentence": "In my view, a hybrid work model represents the most effective solution because it combines the benefits of both approaches.",
                 "usableIn": "conclusion"
@@ -790,12 +1695,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of X argue that", "Advocates of X contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Critics argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of X argue that",
+            "Advocates of X contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Critics argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

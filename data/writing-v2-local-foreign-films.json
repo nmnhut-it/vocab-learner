@@ -79,105 +79,159 @@
             "word": "cultural identity",
             "pronunciation": "/ˈkʌltʃərəl aɪˈdentəti/",
             "partOfSpeech": "noun phrase",
-            "definition": "The distinctive characteristics and values of a culture",
+            "definition": "The distinctive characteristics and values of a culture.",
             "example": "Local films help preserve and promote a nation's cultural identity.",
-            "synonyms": ["cultural heritage", "national character"]
+            "synonyms": [
+              "cultural heritage",
+              "national character"
+            ]
           },
           {
             "word": "domestic",
             "pronunciation": "/dəˈmestɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Relating to one's own country rather than foreign countries",
+            "definition": "Relating to one's own country rather than foreign countries.",
             "example": "Domestic film production creates jobs for local talent.",
-            "synonyms": ["local", "national", "indigenous"]
+            "synonyms": [
+              "local",
+              "national",
+              "indigenous"
+            ]
           },
           {
             "word": "preserve",
             "pronunciation": "/prɪˈzɜːv/",
             "partOfSpeech": "verb",
-            "definition": "To maintain or keep something in its original state",
+            "definition": "To maintain or keep something in its original state.",
             "example": "Local films preserve traditional stories and cultural values.",
-            "synonyms": ["maintain", "safeguard", "protect"]
+            "synonyms": [
+              "maintain",
+              "safeguard",
+              "protect"
+            ]
           },
           {
             "word": "diversity",
             "pronunciation": "/daɪˈvɜːsəti/",
             "partOfSpeech": "noun",
-            "definition": "The inclusion of different types or varieties",
+            "definition": "The inclusion of different types or varieties.",
             "example": "Importing foreign films increases cultural diversity and understanding.",
-            "synonyms": ["variety", "multiplicity"]
+            "synonyms": [
+              "variety",
+              "multiplicity"
+            ]
           },
           {
             "word": "exposure",
             "pronunciation": "/ɪkˈspəʊʒə/",
             "partOfSpeech": "noun",
-            "definition": "Contact with or experience of something",
+            "definition": "Contact with or experience of something.",
             "example": "Foreign content provides exposure to different perspectives and lifestyles.",
-            "synonyms": ["contact", "experience", "familiarity"]
+            "synonyms": [
+              "contact",
+              "experience",
+              "familiarity"
+            ]
           },
           {
             "word": "authentic",
             "pronunciation": "/ɔːˈθentɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Genuine and representative of a culture or place",
+            "definition": "Genuine and representative of a culture or place.",
             "example": "Domestic films offer authentic portrayals of local life and traditions.",
-            "synonyms": ["genuine", "real", "true"]
+            "synonyms": [
+              "genuine",
+              "real",
+              "true"
+            ]
           },
           {
             "word": "subsidize",
             "pronunciation": "/ˈsʌbsɪdaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To support financially with government funds",
+            "definition": "To support financially with government funds.",
             "example": "Many governments subsidize their film industries to protect cultural values.",
-            "synonyms": ["fund", "support", "finance"]
+            "synonyms": [
+              "fund",
+              "support",
+              "finance"
+            ]
           },
           {
             "word": "revenue",
             "pronunciation": "/ˈrevənjuː/",
             "partOfSpeech": "noun",
-            "definition": "Income generated from business activities",
+            "definition": "Income generated from business activities.",
             "example": "The film industry generates substantial revenue for the national economy.",
-            "synonyms": ["income", "earnings", "profit"]
+            "synonyms": [
+              "income",
+              "earnings",
+              "profit"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "cultural heritage",
-            "definition": "The traditions and values passed down through generations",
+            "definition": "The traditions and values passed down through generations.",
             "example": "Local films play a vital role in preserving cultural heritage."
           },
           {
             "phrase": "film industry",
-            "definition": "The business sector involved in producing movies",
+            "definition": "The business sector involved in producing movies.",
             "example": "Developing a strong film industry creates employment opportunities."
           },
           {
             "phrase": "global perspective",
-            "definition": "Understanding and awareness of international viewpoints",
+            "definition": "Understanding and awareness of international viewpoints.",
             "example": "Foreign films provide audiences with a broader global perspective."
           },
           {
             "phrase": "cultural exchange",
-            "definition": "The sharing of ideas and traditions between cultures",
+            "definition": "The sharing of ideas and traditions between cultures.",
             "example": "Importing foreign content facilitates valuable cultural exchange."
           },
           {
             "phrase": "local talent",
-            "definition": "Skilled professionals from within the country",
+            "definition": "Skilled professionals from within the country.",
             "example": "Domestic production nurtures and showcases local talent."
           },
           {
             "phrase": "entertainment value",
-            "definition": "The quality of providing enjoyment and interest",
+            "definition": "The quality of providing enjoyment and interest.",
             "example": "High-budget foreign films often offer superior entertainment value."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is debate about whether", "People have differing views regarding", "While some argue"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is debate about whether",
+            "People have differing views regarding",
+            "While some argue"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +254,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["local film production preserves cultural identity", "all films should be local", "foreign films are bad"], "correctAnswer": "local film production preserves cultural identity"},
-                  {"id": "thesis1_b2", "options": ["importing foreign content provides cultural diversity", "foreign films are always better", "local films waste money"], "correctAnswer": "importing foreign content provides cultural diversity"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "local film production preserves cultural identity",
+                      "all films should be local",
+                      "foreign films are bad"
+                    ],
+                    "correctAnswer": "local film production preserves cultural identity"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "importing foreign content provides cultural diversity",
+                      "foreign films are always better",
+                      "local films waste money"
+                    ],
+                    "correctAnswer": "importing foreign content provides cultural diversity"
+                  }
                 ],
                 "correctSentence": "While some believe local film production preserves cultural identity, others argue that importing foreign content provides cultural diversity.",
                 "usableIn": "introduction"
@@ -211,8 +281,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ should _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["countries", "governments", "people"], "correctAnswer": "countries"},
-                  {"id": "thesis2_b2", "options": ["balance both domestic production and imported content", "only produce local films", "ban foreign media"], "correctAnswer": "balance both domestic production and imported content"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "countries",
+                      "governments",
+                      "people"
+                    ],
+                    "correctAnswer": "countries"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "balance both domestic production and imported content",
+                      "only produce local films",
+                      "ban foreign media"
+                    ],
+                    "correctAnswer": "balance both domestic production and imported content"
+                  }
                 ],
                 "correctSentence": "In my opinion, countries should balance both domestic production and imported content.",
                 "usableIn": "introduction"
@@ -222,8 +308,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["nations should prioritize local film development", "countries should ban imports", "films matter at all"], "correctAnswer": "nations should prioritize local film development"},
-                  {"id": "thesis3_b2", "options": ["embrace international content for greater diversity", "only show foreign films", "eliminate television"], "correctAnswer": "embrace international content for greater diversity"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "nations should prioritize local film development",
+                      "countries should ban imports",
+                      "films matter at all"
+                    ],
+                    "correctAnswer": "nations should prioritize local film development"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "embrace international content for greater diversity",
+                      "only show foreign films",
+                      "eliminate television"
+                    ],
+                    "correctAnswer": "embrace international content for greater diversity"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether nations should prioritize local film development or embrace international content for greater diversity.",
                 "usableIn": "introduction"
@@ -233,8 +335,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["both approaches have merit", "only local films matter", "foreign content is superior"], "correctAnswer": "both approaches have merit"},
-                  {"id": "thesis4_b2", "options": ["they serve different cultural and educational purposes", "everyone likes different things", "governments need to choose"], "correctAnswer": "they serve different cultural and educational purposes"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "both approaches have merit",
+                      "only local films matter",
+                      "foreign content is superior"
+                    ],
+                    "correctAnswer": "both approaches have merit"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "they serve different cultural and educational purposes",
+                      "everyone likes different things",
+                      "governments need to choose"
+                    ],
+                    "correctAnswer": "they serve different cultural and educational purposes"
+                  }
                 ],
                 "correctSentence": "From my perspective, both approaches have merit because they serve different cultural and educational purposes.",
                 "usableIn": "introduction"
@@ -244,8 +362,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives", "local films only", "foreign content only"], "correctAnswer": "both perspectives"},
-                  {"id": "thesis5_b2", "options": ["a balanced approach benefits audiences most", "local production is best", "imports should be banned"], "correctAnswer": "a balanced approach benefits audiences most"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives",
+                      "local films only",
+                      "foreign content only"
+                    ],
+                    "correctAnswer": "both perspectives"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "a balanced approach benefits audiences most",
+                      "local production is best",
+                      "imports should be banned"
+                    ],
+                    "correctAnswer": "a balanced approach benefits audiences most"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives before concluding that a balanced approach benefits audiences most.",
                 "usableIn": "introduction"
@@ -262,8 +396,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ plays a crucial role in _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["developing domestic films", "watching television", "entertainment"], "correctAnswer": "developing domestic films"},
-                  {"id": "topic1_b2", "options": ["preserving cultural identity and heritage", "making money", "creating jobs"], "correctAnswer": "preserving cultural identity and heritage"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "developing domestic films",
+                      "watching television",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "developing domestic films"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "preserving cultural identity and heritage",
+                      "making money",
+                      "creating jobs"
+                    ],
+                    "correctAnswer": "preserving cultural identity and heritage"
+                  }
                 ],
                 "correctSentence": "On the one hand, developing domestic films plays a crucial role in preserving cultural identity and heritage.",
                 "usableIn": "body-paragraph-1"
@@ -273,8 +423,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["importing foreign content", "local production", "television"], "correctAnswer": "importing foreign content"},
-                  {"id": "topic2_b2", "options": ["significant benefits for cultural understanding", "cheaper entertainment", "better technology"], "correctAnswer": "significant benefits for cultural understanding"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "importing foreign content",
+                      "local production",
+                      "television"
+                    ],
+                    "correctAnswer": "importing foreign content"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "significant benefits for cultural understanding",
+                      "cheaper entertainment",
+                      "better technology"
+                    ],
+                    "correctAnswer": "significant benefits for cultural understanding"
+                  }
                 ],
                 "correctSentence": "On the other hand, importing foreign content offers significant benefits for cultural understanding.",
                 "usableIn": "body-paragraph-2"
@@ -284,8 +450,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["producing local films", "watching movies", "entertainment"], "correctAnswer": "producing local films"},
-                  {"id": "topic3_b2", "options": ["the authentic representation of national culture", "lower costs", "easier production"], "correctAnswer": "the authentic representation of national culture"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "producing local films",
+                      "watching movies",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "producing local films"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the authentic representation of national culture",
+                      "lower costs",
+                      "easier production"
+                    ],
+                    "correctAnswer": "the authentic representation of national culture"
+                  }
                 ],
                 "correctSentence": "One significant advantage of producing local films is the authentic representation of national culture.",
                 "usableIn": "body-paragraph-1"
@@ -295,8 +477,24 @@
                 "type": "template",
                 "template": "A key benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["foreign films and programs", "local content", "television"], "correctAnswer": "foreign films and programs"},
-                  {"id": "topic4_b2", "options": ["they expose audiences to diverse perspectives", "they are entertaining", "they cost less"], "correctAnswer": "they expose audiences to diverse perspectives"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "foreign films and programs",
+                      "local content",
+                      "television"
+                    ],
+                    "correctAnswer": "foreign films and programs"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "they expose audiences to diverse perspectives",
+                      "they are entertaining",
+                      "they cost less"
+                    ],
+                    "correctAnswer": "they expose audiences to diverse perspectives"
+                  }
                 ],
                 "correctSentence": "A key benefit of foreign films and programs is that they expose audiences to diverse perspectives.",
                 "usableIn": "body-paragraph-2"
@@ -306,9 +504,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of domestic production", "Some people", "Everyone"], "correctAnswer": "Supporters of domestic production"},
-                  {"id": "topic5_b2", "options": ["investing in local film industries", "watching movies", "having entertainment"], "correctAnswer": "investing in local film industries"},
-                  {"id": "topic5_b3", "options": ["maintaining cultural sovereignty", "making money", "creating jobs"], "correctAnswer": "maintaining cultural sovereignty"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of domestic production",
+                      "Some people",
+                      "Everyone"
+                    ],
+                    "correctAnswer": "Supporters of domestic production"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "investing in local film industries",
+                      "watching movies",
+                      "having entertainment"
+                    ],
+                    "correctAnswer": "investing in local film industries"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "maintaining cultural sovereignty",
+                      "making money",
+                      "creating jobs"
+                    ],
+                    "correctAnswer": "maintaining cultural sovereignty"
+                  }
                 ],
                 "correctSentence": "Supporters of domestic production argue that investing in local film industries is essential for maintaining cultural sovereignty.",
                 "usableIn": "body-paragraph-1"
@@ -318,9 +540,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Advocates of international content", "Film producers", "Audiences"], "correctAnswer": "Advocates of international content"},
-                  {"id": "topic6_b2", "options": ["access to foreign media", "local production", "television quality"], "correctAnswer": "access to foreign media"},
-                  {"id": "topic6_b3", "options": ["cross-cultural awareness and global citizenship", "entertainment value", "viewing options"], "correctAnswer": "cross-cultural awareness and global citizenship"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Advocates of international content",
+                      "Film producers",
+                      "Audiences"
+                    ],
+                    "correctAnswer": "Advocates of international content"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "access to foreign media",
+                      "local production",
+                      "television quality"
+                    ],
+                    "correctAnswer": "access to foreign media"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "cross-cultural awareness and global citizenship",
+                      "entertainment value",
+                      "viewing options"
+                    ],
+                    "correctAnswer": "cross-cultural awareness and global citizenship"
+                  }
                 ],
                 "correctSentence": "Advocates of international content contend that access to foreign media enhances cross-cultural awareness and global citizenship.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +576,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["local film development", "entertainment", "television"], "correctAnswer": "local film development"},
-                  {"id": "topic7_b2", "options": ["the economic benefits for the domestic industry", "cheaper production", "easier access"], "correctAnswer": "the economic benefits for the domestic industry"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "local film development",
+                      "entertainment",
+                      "television"
+                    ],
+                    "correctAnswer": "local film development"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "the economic benefits for the domestic industry",
+                      "cheaper production",
+                      "easier access"
+                    ],
+                    "correctAnswer": "the economic benefits for the domestic industry"
+                  }
                 ],
                 "correctSentence": "The primary advantage of local film development is the economic benefits for the domestic industry.",
                 "usableIn": "body-paragraph-1"
@@ -341,8 +603,24 @@
                 "type": "template",
                 "template": "A major benefit of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["international content", "local production", "television"], "correctAnswer": "international content"},
-                  {"id": "topic8_b2", "options": ["the exposure to high-quality productions and storytelling", "lower prices", "easier viewing"], "correctAnswer": "the exposure to high-quality productions and storytelling"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "international content",
+                      "local production",
+                      "television"
+                    ],
+                    "correctAnswer": "international content"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the exposure to high-quality productions and storytelling",
+                      "lower prices",
+                      "easier viewing"
+                    ],
+                    "correctAnswer": "the exposure to high-quality productions and storytelling"
+                  }
                 ],
                 "correctSentence": "A major benefit of international content is the exposure to high-quality productions and storytelling.",
                 "usableIn": "body-paragraph-2"
@@ -359,8 +637,24 @@
                 "type": "template",
                 "template": "This is because _____ helps to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["domestic content", "entertainment", "television"], "correctAnswer": "domestic content"},
-                  {"id": "support1_b2", "options": ["reflect and reinforce local values and traditions", "make money", "create jobs"], "correctAnswer": "reflect and reinforce local values and traditions"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "domestic content",
+                      "entertainment",
+                      "television"
+                    ],
+                    "correctAnswer": "domestic content"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "reflect and reinforce local values and traditions",
+                      "make money",
+                      "create jobs"
+                    ],
+                    "correctAnswer": "reflect and reinforce local values and traditions"
+                  }
                 ],
                 "correctSentence": "This is because domestic content helps to reflect and reinforce local values and traditions.",
                 "usableIn": "body-paragraph-1"
@@ -370,8 +664,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["exposure to foreign cultures", "watching movies", "television"], "correctAnswer": "exposure to foreign cultures"},
-                  {"id": "support2_b2", "options": ["greater tolerance and understanding of different societies", "better entertainment", "cheaper viewing"], "correctAnswer": "greater tolerance and understanding of different societies"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "exposure to foreign cultures",
+                      "watching movies",
+                      "television"
+                    ],
+                    "correctAnswer": "exposure to foreign cultures"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "greater tolerance and understanding of different societies",
+                      "better entertainment",
+                      "cheaper viewing"
+                    ],
+                    "correctAnswer": "greater tolerance and understanding of different societies"
+                  }
                 ],
                 "correctSentence": "The main reason is that exposure to foreign cultures leads to greater tolerance and understanding of different societies.",
                 "usableIn": "body-paragraph-2"
@@ -381,9 +691,33 @@
                 "type": "template",
                 "template": "_____ allows nations to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Producing local films", "Watching television", "Entertainment"], "correctAnswer": "Producing local films"},
-                  {"id": "support3_b2", "options": ["tell their own stories", "make money", "create content"], "correctAnswer": "tell their own stories"},
-                  {"id": "support3_b3", "options": ["relying on foreign interpretations", "spending much", "government help"], "correctAnswer": "relying on foreign interpretations"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Producing local films",
+                      "Watching television",
+                      "Entertainment"
+                    ],
+                    "correctAnswer": "Producing local films"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "tell their own stories",
+                      "make money",
+                      "create content"
+                    ],
+                    "correctAnswer": "tell their own stories"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "relying on foreign interpretations",
+                      "spending much",
+                      "government help"
+                    ],
+                    "correctAnswer": "relying on foreign interpretations"
+                  }
                 ],
                 "correctSentence": "Producing local films allows nations to tell their own stories without relying on foreign interpretations.",
                 "usableIn": "body-paragraph-1"
@@ -393,9 +727,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["International media exchange", "Local production", "Television"], "correctAnswer": "International media exchange"},
-                  {"id": "support4_b2", "options": ["cultural dialogue and mutual understanding", "entertainment", "viewing options"], "correctAnswer": "cultural dialogue and mutual understanding"},
-                  {"id": "support4_b3", "options": ["peaceful international relations", "better content", "cheaper prices"], "correctAnswer": "peaceful international relations"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "International media exchange",
+                      "Local production",
+                      "Television"
+                    ],
+                    "correctAnswer": "International media exchange"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "cultural dialogue and mutual understanding",
+                      "entertainment",
+                      "viewing options"
+                    ],
+                    "correctAnswer": "cultural dialogue and mutual understanding"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "peaceful international relations",
+                      "better content",
+                      "cheaper prices"
+                    ],
+                    "correctAnswer": "peaceful international relations"
+                  }
                 ],
                 "correctSentence": "International media exchange fosters cultural dialogue and mutual understanding, which is crucial for peaceful international relations.",
                 "usableIn": "body-paragraph-2"
@@ -405,8 +763,24 @@
                 "type": "template",
                 "template": "By _____, countries can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["developing their film industries", "watching movies", "importing content"], "correctAnswer": "developing their film industries"},
-                  {"id": "support5_b2", "options": ["create employment for local actors and filmmakers", "save money", "improve technology"], "correctAnswer": "create employment for local actors and filmmakers"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "developing their film industries",
+                      "watching movies",
+                      "importing content"
+                    ],
+                    "correctAnswer": "developing their film industries"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "create employment for local actors and filmmakers",
+                      "save money",
+                      "improve technology"
+                    ],
+                    "correctAnswer": "create employment for local actors and filmmakers"
+                  }
                 ],
                 "correctSentence": "By developing their film industries, countries can create employment for local actors and filmmakers.",
                 "usableIn": "body-paragraph-1"
@@ -416,9 +790,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Access to diverse content", "Local production", "Television"], "correctAnswer": "Access to diverse content"},
-                  {"id": "support6_b2", "options": ["cultural literacy", "entertainment value", "viewing habits"], "correctAnswer": "cultural literacy"},
-                  {"id": "support6_b3", "options": ["exposure to different storytelling styles", "better technology", "cheaper prices"], "correctAnswer": "exposure to different storytelling styles"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Access to diverse content",
+                      "Local production",
+                      "Television"
+                    ],
+                    "correctAnswer": "Access to diverse content"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "cultural literacy",
+                      "entertainment value",
+                      "viewing habits"
+                    ],
+                    "correctAnswer": "cultural literacy"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "exposure to different storytelling styles",
+                      "better technology",
+                      "cheaper prices"
+                    ],
+                    "correctAnswer": "exposure to different storytelling styles"
+                  }
                 ],
                 "correctSentence": "Access to diverse content strengthens cultural literacy through exposure to different storytelling styles.",
                 "usableIn": "body-paragraph-2"
@@ -428,8 +826,24 @@
                 "type": "template",
                 "template": "Domestic production contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["national pride and identity", "entertainment", "viewing options"], "correctAnswer": "national pride and identity"},
-                  {"id": "support7_b2", "options": ["showcasing local talent and achievements", "making money", "creating content"], "correctAnswer": "showcasing local talent and achievements"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "national pride and identity",
+                      "entertainment",
+                      "viewing options"
+                    ],
+                    "correctAnswer": "national pride and identity"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "showcasing local talent and achievements",
+                      "making money",
+                      "creating content"
+                    ],
+                    "correctAnswer": "showcasing local talent and achievements"
+                  }
                 ],
                 "correctSentence": "Domestic production contributes to national pride and identity by showcasing local talent and achievements.",
                 "usableIn": "body-paragraph-1"
@@ -439,8 +853,24 @@
                 "type": "template",
                 "template": "Foreign content provides _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["alternative viewpoints", "entertainment", "viewing options"], "correctAnswer": "alternative viewpoints"},
-                  {"id": "support8_b2", "options": ["challenge audiences to think critically", "cost less money", "are easier to watch"], "correctAnswer": "challenge audiences to think critically"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "alternative viewpoints",
+                      "entertainment",
+                      "viewing options"
+                    ],
+                    "correctAnswer": "alternative viewpoints"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "challenge audiences to think critically",
+                      "cost less money",
+                      "are easier to watch"
+                    ],
+                    "correctAnswer": "challenge audiences to think critically"
+                  }
                 ],
                 "correctSentence": "Foreign content provides alternative viewpoints that challenge audiences to think critically.",
                 "usableIn": "body-paragraph-2"
@@ -450,9 +880,33 @@
                 "type": "template",
                 "template": "_____ provides citizens with _____ of _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Local filmmaking", "Entertainment", "Television"], "correctAnswer": "Local filmmaking"},
-                  {"id": "support9_b2", "options": ["authentic portrayals", "many types", "different options"], "correctAnswer": "authentic portrayals"},
-                  {"id": "support9_b3", "options": ["their own society and history", "foreign cultures", "entertainment"], "correctAnswer": "their own society and history"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Local filmmaking",
+                      "Entertainment",
+                      "Television"
+                    ],
+                    "correctAnswer": "Local filmmaking"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "authentic portrayals",
+                      "many types",
+                      "different options"
+                    ],
+                    "correctAnswer": "authentic portrayals"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "their own society and history",
+                      "foreign cultures",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "their own society and history"
+                  }
                 ],
                 "correctSentence": "Local filmmaking provides citizens with authentic portrayals of their own society and history.",
                 "usableIn": "body-paragraph-1"
@@ -462,8 +916,24 @@
                 "type": "template",
                 "template": "Through _____, audiences can _____ more readily.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["international films", "local content", "television"], "correctAnswer": "international films"},
-                  {"id": "support10_b2", "options": ["learn about global issues and perspectives", "be entertained", "watch content"], "correctAnswer": "learn about global issues and perspectives"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "international films",
+                      "local content",
+                      "television"
+                    ],
+                    "correctAnswer": "international films"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "learn about global issues and perspectives",
+                      "be entertained",
+                      "watch content"
+                    ],
+                    "correctAnswer": "learn about global issues and perspectives"
+                  }
                 ],
                 "correctSentence": "Through international films, audiences can learn about global issues and perspectives more readily.",
                 "usableIn": "body-paragraph-2"
@@ -473,8 +943,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["local film industries", "audiences", "governments"], "correctAnswer": "local film industries"},
-                  {"id": "support11_b2", "options": ["economic growth and job creation", "better content", "more viewers"], "correctAnswer": "economic growth and job creation"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "local film industries",
+                      "audiences",
+                      "governments"
+                    ],
+                    "correctAnswer": "local film industries"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "economic growth and job creation",
+                      "better content",
+                      "more viewers"
+                    ],
+                    "correctAnswer": "economic growth and job creation"
+                  }
                 ],
                 "correctSentence": "As a result, local film industries experience economic growth and job creation.",
                 "usableIn": "body-paragraph-1"
@@ -484,9 +970,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ when _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["cultural understanding", "entertainment", "viewing"], "correctAnswer": "cultural understanding"},
-                  {"id": "support12_b2", "options": ["broader and more nuanced", "better and cheaper", "easier and faster"], "correctAnswer": "broader and more nuanced"},
-                  {"id": "support12_b3", "options": ["audiences access diverse international content", "people watch television", "content is available"], "correctAnswer": "audiences access diverse international content"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "cultural understanding",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "cultural understanding"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "broader and more nuanced",
+                      "better and cheaper",
+                      "easier and faster"
+                    ],
+                    "correctAnswer": "broader and more nuanced"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "audiences access diverse international content",
+                      "people watch television",
+                      "content is available"
+                    ],
+                    "correctAnswer": "audiences access diverse international content"
+                  }
                 ],
                 "correctSentence": "Consequently, cultural understanding tends to be broader and more nuanced when audiences access diverse international content.",
                 "usableIn": "body-paragraph-2"
@@ -503,9 +1013,33 @@
                 "type": "template",
                 "template": "For instance, _____ successfully _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Indian Bollywood films", "all movies", "entertainment"], "correctAnswer": "Indian Bollywood films"},
-                  {"id": "example1_b2", "options": ["celebrate Indian culture and traditions", "make money", "entertain people"], "correctAnswer": "celebrate Indian culture and traditions"},
-                  {"id": "example1_b3", "options": ["reaching global audiences", "being popular", "making profit"], "correctAnswer": "reaching global audiences"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Indian Bollywood films",
+                      "all movies",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "Indian Bollywood films"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "celebrate Indian culture and traditions",
+                      "make money",
+                      "entertain people"
+                    ],
+                    "correctAnswer": "celebrate Indian culture and traditions"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "reaching global audiences",
+                      "being popular",
+                      "making profit"
+                    ],
+                    "correctAnswer": "reaching global audiences"
+                  }
                 ],
                 "correctSentence": "For instance, Indian Bollywood films successfully celebrate Indian culture and traditions while reaching global audiences.",
                 "usableIn": "body-paragraph-1"
@@ -515,9 +1049,33 @@
                 "type": "template",
                 "template": "For example, _____ from _____ have helped audiences _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["documentaries and dramas", "movies", "programs"], "correctAnswer": "documentaries and dramas"},
-                  {"id": "example2_b2", "options": ["various countries", "Hollywood", "Asia"], "correctAnswer": "various countries"},
-                  {"id": "example2_b3", "options": ["understand complex global issues", "be entertained", "watch television"], "correctAnswer": "understand complex global issues"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "documentaries and dramas",
+                      "movies",
+                      "programs"
+                    ],
+                    "correctAnswer": "documentaries and dramas"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "various countries",
+                      "Hollywood",
+                      "Asia"
+                    ],
+                    "correctAnswer": "various countries"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "understand complex global issues",
+                      "be entertained",
+                      "watch television"
+                    ],
+                    "correctAnswer": "understand complex global issues"
+                  }
                 ],
                 "correctSentence": "For example, documentaries and dramas from various countries have helped audiences understand complex global issues.",
                 "usableIn": "body-paragraph-2"
@@ -527,9 +1085,33 @@
                 "type": "template",
                 "template": "Specifically, _____ has invested heavily in _____ to _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["South Korea", "America", "Europe"], "correctAnswer": "South Korea"},
-                  {"id": "example3_b2", "options": ["its domestic film and television industry", "entertainment", "production"], "correctAnswer": "its domestic film and television industry"},
-                  {"id": "example3_b3", "options": ["promote Korean culture worldwide", "make money", "create jobs"], "correctAnswer": "promote Korean culture worldwide"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "South Korea",
+                      "America",
+                      "Europe"
+                    ],
+                    "correctAnswer": "South Korea"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "its domestic film and television industry",
+                      "entertainment",
+                      "production"
+                    ],
+                    "correctAnswer": "its domestic film and television industry"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "promote Korean culture worldwide",
+                      "make money",
+                      "create jobs"
+                    ],
+                    "correctAnswer": "promote Korean culture worldwide"
+                  }
                 ],
                 "correctSentence": "Specifically, South Korea has invested heavily in its domestic film and television industry to promote Korean culture worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -539,8 +1121,24 @@
                 "type": "template",
                 "template": "Research shows that _____ increases when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["cultural awareness", "entertainment", "viewing"], "correctAnswer": "cultural awareness"},
-                  {"id": "example4_b2", "options": ["people regularly watch foreign films", "audiences see movies", "content is diverse"], "correctAnswer": "people regularly watch foreign films"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "cultural awareness",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "cultural awareness"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "people regularly watch foreign films",
+                      "audiences see movies",
+                      "content is diverse"
+                    ],
+                    "correctAnswer": "people regularly watch foreign films"
+                  }
                 ],
                 "correctSentence": "Research shows that cultural awareness increases when people regularly watch foreign films.",
                 "usableIn": "body-paragraph-2"
@@ -550,9 +1148,33 @@
                 "type": "template",
                 "template": "Countries like _____ have demonstrated that _____ can _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Nigeria and France", "America", "Asia"], "correctAnswer": "Nigeria and France"},
-                  {"id": "example5_b2", "options": ["strong local film industries", "entertainment", "production"], "correctAnswer": "strong local film industries"},
-                  {"id": "example5_b3", "options": ["become significant economic drivers", "make money", "create jobs"], "correctAnswer": "become significant economic drivers"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Nigeria and France",
+                      "America",
+                      "Asia"
+                    ],
+                    "correctAnswer": "Nigeria and France"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "strong local film industries",
+                      "entertainment",
+                      "production"
+                    ],
+                    "correctAnswer": "strong local film industries"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "become significant economic drivers",
+                      "make money",
+                      "create jobs"
+                    ],
+                    "correctAnswer": "become significant economic drivers"
+                  }
                 ],
                 "correctSentence": "Countries like Nigeria and France have demonstrated that strong local film industries can become significant economic drivers.",
                 "usableIn": "body-paragraph-1"
@@ -562,9 +1184,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ have _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["international streaming platforms", "television", "entertainment"], "correctAnswer": "international streaming platforms"},
-                  {"id": "example6_b2", "options": ["Netflix and Amazon Prime", "local channels", "cable TV"], "correctAnswer": "Netflix and Amazon Prime"},
-                  {"id": "example6_b3", "options": ["made foreign content more accessible than ever", "improved viewing", "created options"], "correctAnswer": "made foreign content more accessible than ever"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "international streaming platforms",
+                      "television",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "international streaming platforms"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "Netflix and Amazon Prime",
+                      "local channels",
+                      "cable TV"
+                    ],
+                    "correctAnswer": "Netflix and Amazon Prime"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "made foreign content more accessible than ever",
+                      "improved viewing",
+                      "created options"
+                    ],
+                    "correctAnswer": "made foreign content more accessible than ever"
+                  }
                 ],
                 "correctSentence": "In particular, international streaming platforms such as Netflix and Amazon Prime have made foreign content more accessible than ever.",
                 "usableIn": "body-paragraph-2"
@@ -574,9 +1220,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, protect their film industries through _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["European nations", "countries", "governments"], "correctAnswer": "European nations"},
-                  {"id": "example7_b2", "options": ["France and Germany", "small countries", "developing nations"], "correctAnswer": "France and Germany"},
-                  {"id": "example7_b3", "options": ["government subsidies and content quotas", "regulations", "laws"], "correctAnswer": "government subsidies and content quotas"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "European nations",
+                      "countries",
+                      "governments"
+                    ],
+                    "correctAnswer": "European nations"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "France and Germany",
+                      "small countries",
+                      "developing nations"
+                    ],
+                    "correctAnswer": "France and Germany"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "government subsidies and content quotas",
+                      "regulations",
+                      "laws"
+                    ],
+                    "correctAnswer": "government subsidies and content quotas"
+                  }
                 ],
                 "correctSentence": "Many European nations, including France and Germany, protect their film industries through government subsidies and content quotas.",
                 "usableIn": "body-paragraph-1"
@@ -586,9 +1256,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ has helped _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the success of Korean dramas", "entertainment", "television"], "correctAnswer": "the success of Korean dramas"},
-                  {"id": "example8_b2", "options": ["their global popularity", "good content", "high quality"], "correctAnswer": "their global popularity"},
-                  {"id": "example8_b3", "options": ["spread Korean language learning worldwide", "increase viewers", "make money"], "correctAnswer": "spread Korean language learning worldwide"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the success of Korean dramas",
+                      "entertainment",
+                      "television"
+                    ],
+                    "correctAnswer": "the success of Korean dramas"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "their global popularity",
+                      "good content",
+                      "high quality"
+                    ],
+                    "correctAnswer": "their global popularity"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "spread Korean language learning worldwide",
+                      "increase viewers",
+                      "make money"
+                    ],
+                    "correctAnswer": "spread Korean language learning worldwide"
+                  }
                 ],
                 "correctSentence": "Take the success of Korean dramas as an example: their global popularity has helped spread Korean language learning worldwide.",
                 "usableIn": "body-paragraph-2"
@@ -598,9 +1292,33 @@
                 "type": "template",
                 "template": "According to _____, local films that portray _____ contribute to _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["cultural studies", "research", "experts"], "correctAnswer": "cultural studies"},
-                  {"id": "example9_b2", "options": ["authentic national experiences", "entertainment", "stories"], "correctAnswer": "authentic national experiences"},
-                  {"id": "example9_b3", "options": ["stronger national identity", "better content", "more viewers"], "correctAnswer": "stronger national identity"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "cultural studies",
+                      "research",
+                      "experts"
+                    ],
+                    "correctAnswer": "cultural studies"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "authentic national experiences",
+                      "entertainment",
+                      "stories"
+                    ],
+                    "correctAnswer": "authentic national experiences"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "stronger national identity",
+                      "better content",
+                      "more viewers"
+                    ],
+                    "correctAnswer": "stronger national identity"
+                  }
                 ],
                 "correctSentence": "According to cultural studies, local films that portray authentic national experiences contribute to stronger national identity.",
                 "usableIn": "body-paragraph-1"
@@ -610,8 +1328,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is enhanced when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["intercultural competence", "entertainment", "viewing"], "correctAnswer": "intercultural competence"},
-                  {"id": "example10_b2", "options": ["people engage with diverse media from multiple cultures", "audiences watch movies", "content is available"], "correctAnswer": "people engage with diverse media from multiple cultures"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "intercultural competence",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "intercultural competence"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "people engage with diverse media from multiple cultures",
+                      "audiences watch movies",
+                      "content is available"
+                    ],
+                    "correctAnswer": "people engage with diverse media from multiple cultures"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that intercultural competence is enhanced when people engage with diverse media from multiple cultures.",
                 "usableIn": "body-paragraph-2"
@@ -628,8 +1362,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may lead to _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive focus on local content", "entertainment", "production"], "correctAnswer": "excessive focus on local content"},
-                  {"id": "counter1_b2", "options": ["cultural isolation and limited perspectives", "better content", "more jobs"], "correctAnswer": "cultural isolation and limited perspectives"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive focus on local content",
+                      "entertainment",
+                      "production"
+                    ],
+                    "correctAnswer": "excessive focus on local content"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "cultural isolation and limited perspectives",
+                      "better content",
+                      "more jobs"
+                    ],
+                    "correctAnswer": "cultural isolation and limited perspectives"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that excessive focus on local content may lead to cultural isolation and limited perspectives.",
                 "usableIn": "body-paragraph-2"
@@ -639,8 +1389,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["developing local film industries", "watching movies", "entertainment"], "correctAnswer": "developing local film industries"},
-                  {"id": "counter2_b2", "options": ["high costs and competition with established foreign studios", "low quality", "limited viewers"], "correctAnswer": "high costs and competition with established foreign studios"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "developing local film industries",
+                      "watching movies",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "developing local film industries"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "high costs and competition with established foreign studios",
+                      "low quality",
+                      "limited viewers"
+                    ],
+                    "correctAnswer": "high costs and competition with established foreign studios"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, developing local film industries can present challenges such as high costs and competition with established foreign studios.",
                 "usableIn": "body-paragraph-1"
@@ -650,8 +1416,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that not all nations possess.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["building a competitive film industry", "making movies", "entertainment"], "correctAnswer": "building a competitive film industry"},
-                  {"id": "counter3_b2", "options": ["substantial financial resources and technical expertise", "money", "people"], "correctAnswer": "substantial financial resources and technical expertise"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "building a competitive film industry",
+                      "making movies",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "building a competitive film industry"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "substantial financial resources and technical expertise",
+                      "money",
+                      "people"
+                    ],
+                    "correctAnswer": "substantial financial resources and technical expertise"
+                  }
                 ],
                 "correctSentence": "Nevertheless, building a competitive film industry requires substantial financial resources and technical expertise that not all nations possess.",
                 "usableIn": "body-paragraph-1"
@@ -661,8 +1443,24 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it may also result in _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["heavy reliance on foreign content", "entertainment", "viewing"], "correctAnswer": "heavy reliance on foreign content"},
-                  {"id": "counter4_b2", "options": ["erosion of local cultural values and traditions", "better quality", "more options"], "correctAnswer": "erosion of local cultural values and traditions"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "heavy reliance on foreign content",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "heavy reliance on foreign content"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "erosion of local cultural values and traditions",
+                      "better quality",
+                      "more options"
+                    ],
+                    "correctAnswer": "erosion of local cultural values and traditions"
+                  }
                 ],
                 "correctSentence": "Although heavy reliance on foreign content offers benefits, it may also result in erosion of local cultural values and traditions.",
                 "usableIn": "body-paragraph-2"
@@ -672,8 +1470,24 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____ if not balanced properly.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["importing only foreign media", "entertainment", "viewing"], "correctAnswer": "importing only foreign media"},
-                  {"id": "counter5_b2", "options": ["undermine domestic creative industries", "improve quality", "increase options"], "correctAnswer": "undermine domestic creative industries"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "importing only foreign media",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "importing only foreign media"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "undermine domestic creative industries",
+                      "improve quality",
+                      "increase options"
+                    ],
+                    "correctAnswer": "undermine domestic creative industries"
+                  }
                 ],
                 "correctSentence": "Critics point out that importing only foreign media can undermine domestic creative industries if not balanced properly.",
                 "usableIn": "body-paragraph-2"
@@ -690,8 +1504,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both local and foreign content have distinct merits", "all films are good", "entertainment matters"], "correctAnswer": "both local and foreign content have distinct merits"},
-                  {"id": "conclusion1_b2", "options": ["a balanced approach serves audiences best", "only local films matter", "foreign content is superior"], "correctAnswer": "a balanced approach serves audiences best"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both local and foreign content have distinct merits",
+                      "all films are good",
+                      "entertainment matters"
+                    ],
+                    "correctAnswer": "both local and foreign content have distinct merits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "a balanced approach serves audiences best",
+                      "only local films matter",
+                      "foreign content is superior"
+                    ],
+                    "correctAnswer": "a balanced approach serves audiences best"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both local and foreign content have distinct merits, I believe a balanced approach serves audiences best.",
                 "usableIn": "conclusion"
@@ -701,10 +1531,42 @@
                 "type": "template",
                 "template": "Overall, _____ protects _____, whereas _____ promotes _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["domestic production", "entertainment", "viewing"], "correctAnswer": "domestic production"},
-                  {"id": "conclusion2_b2", "options": ["cultural identity", "jobs", "money"], "correctAnswer": "cultural identity"},
-                  {"id": "conclusion2_b3", "options": ["foreign content", "television", "movies"], "correctAnswer": "foreign content"},
-                  {"id": "conclusion2_b4", "options": ["global understanding", "better quality", "more options"], "correctAnswer": "global understanding"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "domestic production",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "domestic production"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "cultural identity",
+                      "jobs",
+                      "money"
+                    ],
+                    "correctAnswer": "cultural identity"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "foreign content",
+                      "television",
+                      "movies"
+                    ],
+                    "correctAnswer": "foreign content"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "global understanding",
+                      "better quality",
+                      "more options"
+                    ],
+                    "correctAnswer": "global understanding"
+                  }
                 ],
                 "correctSentence": "Overall, domestic production protects cultural identity, whereas foreign content promotes global understanding.",
                 "usableIn": "conclusion"
@@ -714,8 +1576,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends largely on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the ideal media strategy", "entertainment", "viewing"], "correctAnswer": "the ideal media strategy"},
-                  {"id": "conclusion3_b2", "options": ["balancing cultural preservation with global engagement", "government policy", "audience preferences"], "correctAnswer": "balancing cultural preservation with global engagement"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the ideal media strategy",
+                      "entertainment",
+                      "viewing"
+                    ],
+                    "correctAnswer": "the ideal media strategy"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "balancing cultural preservation with global engagement",
+                      "government policy",
+                      "audience preferences"
+                    ],
+                    "correctAnswer": "balancing cultural preservation with global engagement"
+                  }
                 ],
                 "correctSentence": "To summarize, the ideal media strategy depends largely on balancing cultural preservation with global engagement.",
                 "usableIn": "conclusion"
@@ -725,9 +1603,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should aim to _____ while _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["countries", "governments", "audiences"], "correctAnswer": "countries"},
-                  {"id": "conclusion4_b2", "options": ["develop strong local industries", "make money", "create content"], "correctAnswer": "develop strong local industries"},
-                  {"id": "conclusion4_b3", "options": ["remaining open to international content", "banning imports", "controlling media"], "correctAnswer": "remaining open to international content"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "countries",
+                      "governments",
+                      "audiences"
+                    ],
+                    "correctAnswer": "countries"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "develop strong local industries",
+                      "make money",
+                      "create content"
+                    ],
+                    "correctAnswer": "develop strong local industries"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "remaining open to international content",
+                      "banning imports",
+                      "controlling media"
+                    ],
+                    "correctAnswer": "remaining open to international content"
+                  }
                 ],
                 "correctSentence": "Ultimately, countries should aim to develop strong local industries while remaining open to international content.",
                 "usableIn": "conclusion"
@@ -737,8 +1639,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most effective approach because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["supporting both domestic and foreign content", "only local films", "importing everything"], "correctAnswer": "supporting both domestic and foreign content"},
-                  {"id": "conclusion5_b2", "options": ["it combines cultural preservation with global awareness", "it's cheaper", "everyone benefits"], "correctAnswer": "it combines cultural preservation with global awareness"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "supporting both domestic and foreign content",
+                      "only local films",
+                      "importing everything"
+                    ],
+                    "correctAnswer": "supporting both domestic and foreign content"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it combines cultural preservation with global awareness",
+                      "it's cheaper",
+                      "everyone benefits"
+                    ],
+                    "correctAnswer": "it combines cultural preservation with global awareness"
+                  }
                 ],
                 "correctSentence": "In my view, supporting both domestic and foreign content represents the most effective approach because it combines cultural preservation with global awareness.",
                 "usableIn": "conclusion"
@@ -791,12 +1709,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of local production argue that", "Advocates of domestic content contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Proponents of foreign content argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of local production argue that",
+            "Advocates of domestic content contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Proponents of foreign content argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

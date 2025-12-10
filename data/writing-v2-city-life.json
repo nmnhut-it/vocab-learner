@@ -79,105 +79,151 @@
             "word": "amenities",
             "pronunciation": "/əˈmiːnətiz/",
             "partOfSpeech": "noun",
-            "definition": "Useful or desirable features and facilities",
+            "definition": "Useful or desirable features and facilities.",
             "example": "Cities offer extensive amenities such as restaurants, theaters, and shopping centers.",
-            "synonyms": ["facilities", "conveniences"]
+            "synonyms": [
+              "facilities",
+              "conveniences"
+            ]
           },
           {
             "word": "tranquility",
             "pronunciation": "/træŋˈkwɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being calm and peaceful",
+            "definition": "The quality of being calm and peaceful.",
             "example": "Many people move to the countryside seeking tranquility and peace.",
-            "synonyms": ["peace", "serenity"]
+            "synonyms": [
+              "peace",
+              "serenity"
+            ]
           },
           {
             "word": "proximity",
             "pronunciation": "/prɒkˈsɪməti/",
             "partOfSpeech": "noun",
-            "definition": "Nearness in space or time",
+            "definition": "Nearness in space or time.",
             "example": "Urban living offers proximity to employment opportunities and services.",
-            "synonyms": ["closeness", "nearness"]
+            "synonyms": [
+              "closeness",
+              "nearness"
+            ]
           },
           {
             "word": "isolation",
             "pronunciation": "/ˌaɪsəˈleɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Being separated from others",
+            "definition": "Being separated from others.",
             "example": "Rural areas may experience social isolation due to distance from communities.",
-            "synonyms": ["remoteness", "seclusion"]
+            "synonyms": [
+              "remoteness",
+              "seclusion"
+            ]
           },
           {
             "word": "congestion",
             "pronunciation": "/kənˈdʒestʃən/",
             "partOfSpeech": "noun",
-            "definition": "Overcrowding or excessive crowding",
+            "definition": "Overcrowding or excessive crowding.",
             "example": "Traffic congestion is a major drawback of city living.",
-            "synonyms": ["crowding", "overcrowding"]
+            "synonyms": [
+              "crowding",
+              "overcrowding"
+            ]
           },
           {
             "word": "exposure",
             "pronunciation": "/ɪkˈspəʊʒər/",
             "partOfSpeech": "noun",
-            "definition": "Contact with or experience of something",
+            "definition": "Contact with or experience of something.",
             "example": "Cities provide greater exposure to diverse cultures and perspectives.",
-            "synonyms": ["contact", "experience"]
+            "synonyms": [
+              "contact",
+              "experience"
+            ]
           },
           {
             "word": "sustainable",
             "pronunciation": "/səˈsteɪnəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Able to be maintained at a certain level",
+            "definition": "Able to be maintained at a certain level.",
             "example": "Countryside living often promotes more sustainable lifestyles.",
-            "synonyms": ["maintainable", "viable"]
+            "synonyms": [
+              "maintainable",
+              "viable"
+            ]
           },
           {
             "word": "vibrant",
             "pronunciation": "/ˈvaɪbrənt/",
             "partOfSpeech": "adjective",
-            "definition": "Full of energy and life",
+            "definition": "Full of energy and life.",
             "example": "Urban areas typically have vibrant cultural scenes and nightlife.",
-            "synonyms": ["lively", "dynamic"]
+            "synonyms": [
+              "lively",
+              "dynamic"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "cost of living",
-            "definition": "The amount needed for basic expenses",
+            "definition": "The amount needed for basic expenses.",
             "example": "The cost of living is typically higher in major cities."
           },
           {
             "phrase": "pace of life",
-            "definition": "The speed at which life proceeds",
+            "definition": "The speed at which life proceeds.",
             "example": "The countryside offers a slower, more relaxed pace of life."
           },
           {
             "phrase": "career opportunities",
-            "definition": "Chances for professional advancement",
+            "definition": "Chances for professional advancement.",
             "example": "Cities provide more diverse career opportunities and networking possibilities."
           },
           {
             "phrase": "natural surroundings",
-            "definition": "The outdoor environment and nature",
+            "definition": "The outdoor environment and nature.",
             "example": "Living in the countryside means enjoying beautiful natural surroundings daily."
           },
           {
             "phrase": "quality of life",
-            "definition": "The general wellbeing of individuals",
+            "definition": "The general wellbeing of individuals.",
             "example": "Quality of life depends on personal priorities and preferences."
           },
           {
             "phrase": "public services",
-            "definition": "Government-provided facilities and support",
+            "definition": "Government-provided facilities and support.",
             "example": "Cities typically have better access to public services like healthcare and education."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The choice between", "People have different preferences regarding", "There is ongoing debate about"],
-          "city_side": ["Urban dwellers appreciate", "Those who favor city life value", "City residents benefit from"],
-          "countryside_side": ["Rural residents enjoy", "Those who prefer the countryside value", "Country living offers"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "Overall", "Ultimately", "On balance"]
+          "introducing": [
+            "The choice between",
+            "People have different preferences regarding",
+            "There is ongoing debate about"
+          ],
+          "city_side": [
+            "Urban dwellers appreciate",
+            "Those who favor city life value",
+            "City residents benefit from"
+          ],
+          "countryside_side": [
+            "Rural residents enjoy",
+            "Those who prefer the countryside value",
+            "Country living offers"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "Ultimately",
+            "On balance"
+          ]
         }
       }
     },
@@ -194,7 +240,10 @@
             "clues": {
               "subject": "Cities",
               "verb": "offer",
-              "keywords": ["career opportunities", "amenities"]
+              "keywords": [
+                "career opportunities",
+                "amenities"
+              ]
             },
             "hint": "Mention professional and lifestyle benefits.",
             "modelAnswer": "Cities offer abundant career opportunities and extensive amenities for modern living.",
@@ -205,7 +254,10 @@
             "clues": {
               "subject": "Rural areas",
               "verb": "provide",
-              "keywords": ["tranquility", "natural surroundings"]
+              "keywords": [
+                "tranquility",
+                "natural surroundings"
+              ]
             },
             "hint": "Focus on peace and nature benefits.",
             "modelAnswer": "Rural areas provide peaceful tranquility and beautiful natural surroundings away from urban chaos.",
@@ -216,7 +268,10 @@
             "clues": {
               "subject": "Urban living",
               "verb": "suffer",
-              "keywords": ["traffic congestion", "pollution"]
+              "keywords": [
+                "traffic congestion",
+                "pollution"
+              ]
             },
             "hint": "Mention negative aspects of cities.",
             "modelAnswer": "Urban living often suffers from severe traffic congestion and higher pollution levels.",
@@ -227,7 +282,10 @@
             "clues": {
               "subject": "Countryside residents",
               "verb": "enjoy",
-              "keywords": ["slower pace", "community"]
+              "keywords": [
+                "slower pace",
+                "community"
+              ]
             },
             "hint": "Focus on lifestyle quality in rural areas.",
             "modelAnswer": "Countryside residents enjoy a slower pace of life and closer-knit community relationships.",
@@ -238,7 +296,10 @@
             "clues": {
               "subject": "City dwellers",
               "verb": "access",
-              "keywords": ["cultural activities", "entertainment"]
+              "keywords": [
+                "cultural activities",
+                "entertainment"
+              ]
             },
             "hint": "Mention cultural and social benefits.",
             "modelAnswer": "City dwellers can easily access diverse cultural activities and entertainment options year-round.",
@@ -248,31 +309,77 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["cities", "provide", "better", "career", "opportunities", "and", "higher", "salaries"],
+            "words": [
+              "cities",
+              "provide",
+              "better",
+              "career",
+              "opportunities",
+              "and",
+              "higher",
+              "salaries"
+            ],
             "correctAnswer": "Cities provide better career opportunities and higher salaries.",
             "hint": "Start with 'Cities'"
           },
           {
             "id": "scramble2",
-            "words": ["the", "countryside", "offers", "fresh", "air", "and", "natural", "beauty"],
+            "words": [
+              "the",
+              "countryside",
+              "offers",
+              "fresh",
+              "air",
+              "and",
+              "natural",
+              "beauty"
+            ],
             "correctAnswer": "The countryside offers fresh air and natural beauty.",
             "hint": "Subject is 'The countryside'"
           },
           {
             "id": "scramble3",
-            "words": ["urban", "areas", "suffer", "from", "noise", "pollution", "and", "overcrowding"],
+            "words": [
+              "urban",
+              "areas",
+              "suffer",
+              "from",
+              "noise",
+              "pollution",
+              "and",
+              "overcrowding"
+            ],
             "correctAnswer": "Urban areas suffer from noise pollution and overcrowding.",
             "hint": "'suffer from' is the verb phrase"
           },
           {
             "id": "scramble4",
-            "words": ["rural", "living", "promotes", "stronger", "community", "bonds", "and", "connections"],
+            "words": [
+              "rural",
+              "living",
+              "promotes",
+              "stronger",
+              "community",
+              "bonds",
+              "and",
+              "connections"
+            ],
             "correctAnswer": "Rural living promotes stronger community bonds and connections.",
             "hint": "Subject is 'Rural living'"
           },
           {
             "id": "scramble5",
-            "words": ["the", "choice", "depends", "on", "individual", "priorities", "and", "lifestyle", "preferences"],
+            "words": [
+              "the",
+              "choice",
+              "depends",
+              "on",
+              "individual",
+              "priorities",
+              "and",
+              "lifestyle",
+              "preferences"
+            ],
             "correctAnswer": "The choice depends on individual priorities and lifestyle preferences.",
             "hint": "'depends on' is the key phrase"
           }
@@ -281,35 +388,55 @@
           {
             "id": "blank1",
             "sentence": "Cities _____ abundant cultural amenities and entertainment options.",
-            "options": ["offer", "offers", "offering"],
+            "options": [
+              "offer",
+              "offers",
+              "offering"
+            ],
             "correctAnswer": "offer",
             "explanation": "Plural subject 'Cities' takes base form 'offer'."
           },
           {
             "id": "blank2",
             "sentence": "_____, rural areas provide peace and connection to nature.",
-            "options": ["Conversely", "Moreover", "Therefore"],
+            "options": [
+              "Conversely",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "Conversely",
             "explanation": "Use 'Conversely' to contrast city and countryside benefits."
           },
           {
             "id": "blank3",
             "sentence": "The countryside offers a slower _____ of life.",
-            "options": ["pace", "pacing", "paces"],
+            "options": [
+              "pace",
+              "pacing",
+              "paces"
+            ],
             "correctAnswer": "pace",
             "explanation": "Use singular noun 'pace' in the phrase 'pace of life'."
           },
           {
             "id": "blank4",
             "sentence": "_____ example, London provides world-class museums and theaters.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For example' is correct for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Urban living can be _____ due to high costs and stress.",
-            "options": ["challenging", "challenge", "challenged"],
+            "options": [
+              "challenging",
+              "challenge",
+              "challenged"
+            ],
             "correctAnswer": "challenging",
             "explanation": "Use adjective 'challenging' after 'be'."
           }
@@ -359,12 +486,42 @@
           }
         ],
         "usefulTransitions": {
-          "city_perspective": ["Urban dwellers appreciate", "Those who favor city life", "City residents benefit from", "People choosing cities value"],
-          "countryside_perspective": ["Rural residents enjoy", "Those who prefer the countryside", "Country living offers", "People choosing rural areas value"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "Such as", "Particularly"],
-          "showing_result": ["Therefore", "Thus", "As a result", "Consequently"],
-          "contrasting": ["Conversely", "In contrast", "On the other hand", "However"]
+          "city_perspective": [
+            "Urban dwellers appreciate",
+            "Those who favor city life",
+            "City residents benefit from",
+            "People choosing cities value"
+          ],
+          "countryside_perspective": [
+            "Rural residents enjoy",
+            "Those who prefer the countryside",
+            "Country living offers",
+            "People choosing rural areas value"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "showing_result": [
+            "Therefore",
+            "Thus",
+            "As a result",
+            "Consequently"
+          ],
+          "contrasting": [
+            "Conversely",
+            "In contrast",
+            "On the other hand",
+            "However"
+          ]
         }
       }
     },

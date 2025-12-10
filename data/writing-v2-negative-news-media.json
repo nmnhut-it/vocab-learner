@@ -79,106 +79,165 @@
             "word": "sensationalism",
             "pronunciation": "/senˈseɪʃənəlɪzəm/",
             "partOfSpeech": "noun",
-            "definition": "Presenting news in an exaggerated way to provoke strong reactions",
+            "definition": "Presenting news in an exaggerated way to provoke strong reactions.",
             "example": "Media sensationalism often prioritizes shocking stories over important but less dramatic news.",
-            "synonyms": ["exaggeration", "dramatization", "hype"]
+            "synonyms": [
+              "exaggeration",
+              "dramatization",
+              "hype"
+            ]
           },
           {
             "word": "media bias",
             "pronunciation": "/ˈmiːdiə ˈbaɪəs/",
             "partOfSpeech": "noun",
-            "definition": "Prejudice or favoritism in news reporting",
+            "definition": "Prejudice or favoritism in news reporting.",
             "example": "Media bias toward negative stories creates a distorted view of reality.",
-            "synonyms": ["partiality", "prejudice", "favoritism"]
+            "synonyms": [
+              "partiality",
+              "prejudice",
+              "favoritism"
+            ]
           },
           {
             "word": "public perception",
             "pronunciation": "/ˈpʌblɪk pəˈsepʃən/",
             "partOfSpeech": "noun",
-            "definition": "How the general population views or understands something",
+            "definition": "How the general population views or understands something.",
             "example": "Constant negative news shapes public perception that society is deteriorating.",
-            "synonyms": ["public opinion", "collective view", "general impression"]
+            "synonyms": [
+              "public opinion",
+              "collective view",
+              "general impression"
+            ]
           },
           {
             "word": "mental health",
             "pronunciation": "/ˈmentəl helθ/",
             "partOfSpeech": "noun",
-            "definition": "Psychological and emotional well-being",
+            "definition": "Psychological and emotional well-being.",
             "example": "Excessive exposure to negative news can adversely affect mental health.",
-            "synonyms": ["psychological well-being", "emotional health", "mental wellness"]
+            "synonyms": [
+              "psychological well-being",
+              "emotional health",
+              "mental wellness"
+            ]
           },
           {
             "word": "informed citizenry",
             "pronunciation": "/ɪnˈfɔːmd ˈsɪtɪzənri/",
             "partOfSpeech": "noun",
-            "definition": "A population that is knowledgeable about important issues",
+            "definition": "A population that is knowledgeable about important issues.",
             "example": "An informed citizenry requires balanced news coverage, not just crisis reporting.",
-            "synonyms": ["educated public", "aware population", "knowledgeable citizens"]
+            "synonyms": [
+              "educated public",
+              "aware population",
+              "knowledgeable citizens"
+            ]
           },
           {
             "word": "distort",
             "pronunciation": "/dɪˈstɔːt/",
             "partOfSpeech": "verb",
-            "definition": "To misrepresent or give a false account of reality",
+            "definition": "To misrepresent or give a false account of reality.",
             "example": "Focusing exclusively on problems distorts the true state of society.",
-            "synonyms": ["misrepresent", "twist", "skew"]
+            "synonyms": [
+              "misrepresent",
+              "twist",
+              "skew"
+            ]
           },
           {
             "word": "amplify",
             "pronunciation": "/ˈæmplɪfaɪ/",
             "partOfSpeech": "verb",
-            "definition": "To increase or make stronger",
+            "definition": "To increase or make stronger.",
             "example": "Constant negative coverage amplifies public anxiety and fear.",
-            "synonyms": ["magnify", "intensify", "heighten"]
+            "synonyms": [
+              "magnify",
+              "intensify",
+              "heighten"
+            ]
           },
           {
             "word": "cultivate",
             "pronunciation": "/ˈkʌltɪveɪt/",
             "partOfSpeech": "verb",
-            "definition": "To develop or encourage growth of something",
+            "definition": "To develop or encourage growth of something.",
             "example": "Fear-based reporting cultivates a climate of anxiety in society.",
-            "synonyms": ["foster", "nurture", "promote"]
+            "synonyms": [
+              "foster",
+              "nurture",
+              "promote"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "news consumption",
-            "definition": "The way people access and engage with news media",
+            "definition": "The way people access and engage with news media.",
             "example": "Excessive news consumption of negative stories can lead to increased stress levels."
           },
           {
             "phrase": "fear-based reporting",
-            "definition": "Journalism that emphasizes threats and dangers",
+            "definition": "Journalism that emphasizes threats and dangers.",
             "example": "Fear-based reporting may attract viewers but undermines public trust and well-being."
           },
           {
             "phrase": "solutions journalism",
-            "definition": "Reporting that focuses on responses to problems, not just the problems",
+            "definition": "Reporting that focuses on responses to problems, not just the problems.",
             "example": "Solutions journalism offers a more balanced approach by highlighting effective responses to challenges."
           },
           {
             "phrase": "psychological impact",
-            "definition": "Effects on mental and emotional state",
+            "definition": "Effects on mental and emotional state.",
             "example": "The psychological impact of relentless negative news includes anxiety and helplessness."
           },
           {
             "phrase": "balanced coverage",
-            "definition": "News reporting that presents multiple perspectives fairly",
+            "definition": "News reporting that presents multiple perspectives fairly.",
             "example": "Balanced coverage would include both challenges and progress in society."
           },
           {
             "phrase": "editorial decisions",
-            "definition": "Choices made by news organizations about what to report",
+            "definition": "Choices made by news organizations about what to report.",
             "example": "Editorial decisions that favor sensational stories contribute to negativity bias."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is widely recognized that", "There is growing concern that", "Many argue that"],
-          "agreeing": ["I strongly agree that", "This viewpoint is justified because", "Indeed"],
-          "disagreeing": ["However, I believe this claim is", "This perspective overlooks", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "It is widely recognized that",
+            "There is growing concern that",
+            "Many argue that"
+          ],
+          "agreeing": [
+            "I strongly agree that",
+            "This viewpoint is justified because",
+            "Indeed"
+          ],
+          "disagreeing": [
+            "However, I believe this claim is",
+            "This perspective overlooks",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,9 +260,33 @@
                 "type": "template",
                 "template": "I _____ agree that _____ because _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["strongly", "partially", "do not"], "correctAnswer": "strongly"},
-                  {"id": "thesis1_b2", "options": ["negative news focus is harmful to society", "all news is problematic", "media should be banned"], "correctAnswer": "negative news focus is harmful to society"},
-                  {"id": "thesis1_b3", "options": ["it distorts public perception and damages mental health", "people watch television", "news is popular"], "correctAnswer": "it distorts public perception and damages mental health"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "strongly",
+                      "partially",
+                      "do not"
+                    ],
+                    "correctAnswer": "strongly"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "negative news focus is harmful to society",
+                      "all news is problematic",
+                      "media should be banned"
+                    ],
+                    "correctAnswer": "negative news focus is harmful to society"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "it distorts public perception and damages mental health",
+                      "people watch television",
+                      "news is popular"
+                    ],
+                    "correctAnswer": "it distorts public perception and damages mental health"
+                  }
                 ],
                 "correctSentence": "I strongly agree that negative news focus is harmful to society because it distorts public perception and damages mental health.",
                 "usableIn": "introduction"
@@ -213,8 +296,24 @@
                 "type": "template",
                 "template": "While _____, I believe _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["awareness of problems has value", "all news is bad", "media is unnecessary"], "correctAnswer": "awareness of problems has value"},
-                  {"id": "thesis2_b2", "options": ["the excessive focus on negativity is indeed harmful", "everything is perfect", "we should ban news"], "correctAnswer": "the excessive focus on negativity is indeed harmful"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "awareness of problems has value",
+                      "all news is bad",
+                      "media is unnecessary"
+                    ],
+                    "correctAnswer": "awareness of problems has value"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the excessive focus on negativity is indeed harmful",
+                      "everything is perfect",
+                      "we should ban news"
+                    ],
+                    "correctAnswer": "the excessive focus on negativity is indeed harmful"
+                  }
                 ],
                 "correctSentence": "While awareness of problems has value, I believe the excessive focus on negativity is indeed harmful.",
                 "usableIn": "introduction"
@@ -224,8 +323,24 @@
                 "type": "template",
                 "template": "It is widely recognized that _____; however, _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["media negativity affects public mood", "television is entertaining", "everyone watches news"], "correctAnswer": "media negativity affects public mood"},
-                  {"id": "thesis3_b2", "options": ["I partly disagree that this is entirely harmful", "all news is perfect", "we should ignore problems"], "correctAnswer": "I partly disagree that this is entirely harmful"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "media negativity affects public mood",
+                      "television is entertaining",
+                      "everyone watches news"
+                    ],
+                    "correctAnswer": "media negativity affects public mood"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "I partly disagree that this is entirely harmful",
+                      "all news is perfect",
+                      "we should ignore problems"
+                    ],
+                    "correctAnswer": "I partly disagree that this is entirely harmful"
+                  }
                 ],
                 "correctSentence": "It is widely recognized that media negativity affects public mood; however, I partly disagree that this is entirely harmful.",
                 "usableIn": "introduction"
@@ -235,9 +350,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ creates _____ that _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["constant negative news coverage", "television programs", "entertainment media"], "correctAnswer": "constant negative news coverage"},
-                  {"id": "thesis4_b2", "options": ["a distorted worldview", "better understanding", "more happiness"], "correctAnswer": "a distorted worldview"},
-                  {"id": "thesis4_b3", "options": ["undermines both individual well-being and social cohesion", "helps everyone", "entertains people"], "correctAnswer": "undermines both individual well-being and social cohesion"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "constant negative news coverage",
+                      "television programs",
+                      "entertainment media"
+                    ],
+                    "correctAnswer": "constant negative news coverage"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "a distorted worldview",
+                      "better understanding",
+                      "more happiness"
+                    ],
+                    "correctAnswer": "a distorted worldview"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "undermines both individual well-being and social cohesion",
+                      "helps everyone",
+                      "entertains people"
+                    ],
+                    "correctAnswer": "undermines both individual well-being and social cohesion"
+                  }
                 ],
                 "correctSentence": "From my perspective, constant negative news coverage creates a distorted worldview that undermines both individual well-being and social cohesion.",
                 "usableIn": "introduction"
@@ -247,8 +386,24 @@
                 "type": "template",
                 "template": "This essay will argue that _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["negative news bias is genuinely harmful", "all media is perfect", "news is unnecessary"], "correctAnswer": "negative news bias is genuinely harmful"},
-                  {"id": "thesis5_b2", "options": ["the importance of reporting serious issues", "everyone enjoying drama", "media being free"], "correctAnswer": "the importance of reporting serious issues"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "negative news bias is genuinely harmful",
+                      "all media is perfect",
+                      "news is unnecessary"
+                    ],
+                    "correctAnswer": "negative news bias is genuinely harmful"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the importance of reporting serious issues",
+                      "everyone enjoying drama",
+                      "media being free"
+                    ],
+                    "correctAnswer": "the importance of reporting serious issues"
+                  }
                 ],
                 "correctSentence": "This essay will argue that negative news bias is genuinely harmful despite the importance of reporting serious issues.",
                 "usableIn": "introduction"
@@ -265,8 +420,24 @@
                 "type": "template",
                 "template": "The primary harm of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["negative news saturation", "television watching", "social media"], "correctAnswer": "negative news saturation"},
-                  {"id": "topic1_b2", "options": ["it severely impacts individual mental health", "everyone enjoys drama", "ratings improve"], "correctAnswer": "it severely impacts individual mental health"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "negative news saturation",
+                      "television watching",
+                      "social media"
+                    ],
+                    "correctAnswer": "negative news saturation"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "it severely impacts individual mental health",
+                      "everyone enjoys drama",
+                      "ratings improve"
+                    ],
+                    "correctAnswer": "it severely impacts individual mental health"
+                  }
                 ],
                 "correctSentence": "The primary harm of negative news saturation is that it severely impacts individual mental health.",
                 "usableIn": "body-paragraph-1"
@@ -276,8 +447,24 @@
                 "type": "template",
                 "template": "One significant consequence of _____ is _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["fear-based reporting", "entertainment news", "sports coverage"], "correctAnswer": "fear-based reporting"},
-                  {"id": "topic2_b2", "options": ["the distortion of public perception about reality", "increased viewership", "better ratings"], "correctAnswer": "the distortion of public perception about reality"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "fear-based reporting",
+                      "entertainment news",
+                      "sports coverage"
+                    ],
+                    "correctAnswer": "fear-based reporting"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "the distortion of public perception about reality",
+                      "increased viewership",
+                      "better ratings"
+                    ],
+                    "correctAnswer": "the distortion of public perception about reality"
+                  }
                 ],
                 "correctSentence": "One significant consequence of fear-based reporting is the distortion of public perception about reality.",
                 "usableIn": "body-paragraph-1"
@@ -287,9 +474,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ contributes to _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Mental health experts", "Television producers", "Entertainment critics"], "correctAnswer": "Mental health experts"},
-                  {"id": "topic3_b2", "options": ["constant exposure to negative news", "watching comedy shows", "reading magazines"], "correctAnswer": "constant exposure to negative news"},
-                  {"id": "topic3_b3", "options": ["increased anxiety and depression in populations", "better mood", "more happiness"], "correctAnswer": "increased anxiety and depression in populations"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Mental health experts",
+                      "Television producers",
+                      "Entertainment critics"
+                    ],
+                    "correctAnswer": "Mental health experts"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "constant exposure to negative news",
+                      "watching comedy shows",
+                      "reading magazines"
+                    ],
+                    "correctAnswer": "constant exposure to negative news"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "increased anxiety and depression in populations",
+                      "better mood",
+                      "more happiness"
+                    ],
+                    "correctAnswer": "increased anxiety and depression in populations"
+                  }
                 ],
                 "correctSentence": "Mental health experts argue that constant exposure to negative news contributes to increased anxiety and depression in populations.",
                 "usableIn": "body-paragraph-1"
@@ -299,8 +510,24 @@
                 "type": "template",
                 "template": "However, _____ serves _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["reporting on problems and crises", "entertainment media", "social media posts"], "correctAnswer": "reporting on problems and crises"},
-                  {"id": "topic4_b2", "options": ["an important democratic function in society", "no useful purpose", "only commercial interests"], "correctAnswer": "an important democratic function in society"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "reporting on problems and crises",
+                      "entertainment media",
+                      "social media posts"
+                    ],
+                    "correctAnswer": "reporting on problems and crises"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "an important democratic function in society",
+                      "no useful purpose",
+                      "only commercial interests"
+                    ],
+                    "correctAnswer": "an important democratic function in society"
+                  }
                 ],
                 "correctSentence": "However, reporting on problems and crises serves an important democratic function in society.",
                 "usableIn": "body-paragraph-2"
@@ -310,8 +537,24 @@
                 "type": "template",
                 "template": "A key concern about _____ is that _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["media sensationalism", "balanced reporting", "positive news"], "correctAnswer": "media sensationalism"},
-                  {"id": "topic5_b2", "options": ["it cultivates unnecessary fear and pessimism", "everyone enjoys it", "ratings increase"], "correctAnswer": "it cultivates unnecessary fear and pessimism"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "media sensationalism",
+                      "balanced reporting",
+                      "positive news"
+                    ],
+                    "correctAnswer": "media sensationalism"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "it cultivates unnecessary fear and pessimism",
+                      "everyone enjoys it",
+                      "ratings increase"
+                    ],
+                    "correctAnswer": "it cultivates unnecessary fear and pessimism"
+                  }
                 ],
                 "correctSentence": "A key concern about media sensationalism is that it cultivates unnecessary fear and pessimism.",
                 "usableIn": "body-paragraph-2"
@@ -321,9 +564,33 @@
                 "type": "template",
                 "template": "_____ can _____ through _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["News organizations", "Entertainment companies", "Social media"], "correctAnswer": "News organizations"},
-                  {"id": "topic6_b2", "options": ["better serve the public", "maximize profits only", "ignore problems"], "correctAnswer": "better serve the public"},
-                  {"id": "topic6_b3", "options": ["balanced coverage including positive developments", "more sensational stories", "celebrity gossip"], "correctAnswer": "balanced coverage including positive developments"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "News organizations",
+                      "Entertainment companies",
+                      "Social media"
+                    ],
+                    "correctAnswer": "News organizations"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "better serve the public",
+                      "maximize profits only",
+                      "ignore problems"
+                    ],
+                    "correctAnswer": "better serve the public"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "balanced coverage including positive developments",
+                      "more sensational stories",
+                      "celebrity gossip"
+                    ],
+                    "correctAnswer": "balanced coverage including positive developments"
+                  }
                 ],
                 "correctSentence": "News organizations can better serve the public through balanced coverage including positive developments.",
                 "usableIn": "body-paragraph-2"
@@ -333,9 +600,33 @@
                 "type": "template",
                 "template": "Despite _____, _____ creates _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["the need for problem awareness", "entertainment value", "commercial success"], "correctAnswer": "the need for problem awareness"},
-                  {"id": "topic7_b2", "options": ["the current negative bias", "positive reporting", "balanced news"], "correctAnswer": "the current negative bias"},
-                  {"id": "topic7_b3", "options": ["disproportionate fear and social mistrust", "better understanding", "more optimism"], "correctAnswer": "disproportionate fear and social mistrust"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "the need for problem awareness",
+                      "entertainment value",
+                      "commercial success"
+                    ],
+                    "correctAnswer": "the need for problem awareness"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "the current negative bias",
+                      "positive reporting",
+                      "balanced news"
+                    ],
+                    "correctAnswer": "the current negative bias"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "disproportionate fear and social mistrust",
+                      "better understanding",
+                      "more optimism"
+                    ],
+                    "correctAnswer": "disproportionate fear and social mistrust"
+                  }
                 ],
                 "correctSentence": "Despite the need for problem awareness, the current negative bias creates disproportionate fear and social mistrust.",
                 "usableIn": "body-paragraph-2"
@@ -345,8 +636,24 @@
                 "type": "template",
                 "template": "The main issue with _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["predominantly negative news coverage", "entertainment programs", "social media"], "correctAnswer": "predominantly negative news coverage"},
-                  {"id": "topic8_b2", "options": ["the cumulative psychological toll on news consumers", "increased viewership", "better ratings"], "correctAnswer": "the cumulative psychological toll on news consumers"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "predominantly negative news coverage",
+                      "entertainment programs",
+                      "social media"
+                    ],
+                    "correctAnswer": "predominantly negative news coverage"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the cumulative psychological toll on news consumers",
+                      "increased viewership",
+                      "better ratings"
+                    ],
+                    "correctAnswer": "the cumulative psychological toll on news consumers"
+                  }
                 ],
                 "correctSentence": "The main issue with predominantly negative news coverage is the cumulative psychological toll on news consumers.",
                 "usableIn": "body-paragraph-1"
@@ -363,8 +670,24 @@
                 "type": "template",
                 "template": "This is because _____ triggers _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["constant exposure to crises and disasters", "entertainment content", "positive stories"], "correctAnswer": "constant exposure to crises and disasters"},
-                  {"id": "support1_b2", "options": ["stress responses and heightens anxiety levels", "happiness and joy", "indifference"], "correctAnswer": "stress responses and heightens anxiety levels"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "constant exposure to crises and disasters",
+                      "entertainment content",
+                      "positive stories"
+                    ],
+                    "correctAnswer": "constant exposure to crises and disasters"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "stress responses and heightens anxiety levels",
+                      "happiness and joy",
+                      "indifference"
+                    ],
+                    "correctAnswer": "stress responses and heightens anxiety levels"
+                  }
                 ],
                 "correctSentence": "This is because constant exposure to crises and disasters triggers stress responses and heightens anxiety levels.",
                 "usableIn": "body-paragraph-1"
@@ -374,8 +697,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["negative media bias", "positive reporting", "entertainment news"], "correctAnswer": "negative media bias"},
-                  {"id": "support2_b2", "options": ["a skewed understanding of societal conditions", "accurate perceptions", "better knowledge"], "correctAnswer": "a skewed understanding of societal conditions"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "negative media bias",
+                      "positive reporting",
+                      "entertainment news"
+                    ],
+                    "correctAnswer": "negative media bias"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "a skewed understanding of societal conditions",
+                      "accurate perceptions",
+                      "better knowledge"
+                    ],
+                    "correctAnswer": "a skewed understanding of societal conditions"
+                  }
                 ],
                 "correctSentence": "The main reason is that negative media bias leads to a skewed understanding of societal conditions.",
                 "usableIn": "body-paragraph-1"
@@ -385,9 +724,33 @@
                 "type": "template",
                 "template": "_____ amplifies _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Sensationalist reporting", "Balanced journalism", "Positive news"], "correctAnswer": "Sensationalist reporting"},
-                  {"id": "support3_b2", "options": ["public fear and concern", "understanding", "knowledge"], "correctAnswer": "public fear and concern"},
-                  {"id": "support3_b3", "options": ["providing context or balanced perspective", "any consequences", "editorial oversight"], "correctAnswer": "providing context or balanced perspective"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Sensationalist reporting",
+                      "Balanced journalism",
+                      "Positive news"
+                    ],
+                    "correctAnswer": "Sensationalist reporting"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "public fear and concern",
+                      "understanding",
+                      "knowledge"
+                    ],
+                    "correctAnswer": "public fear and concern"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "providing context or balanced perspective",
+                      "any consequences",
+                      "editorial oversight"
+                    ],
+                    "correctAnswer": "providing context or balanced perspective"
+                  }
                 ],
                 "correctSentence": "Sensationalist reporting amplifies public fear and concern without providing context or balanced perspective.",
                 "usableIn": "body-paragraph-1"
@@ -397,9 +760,33 @@
                 "type": "template",
                 "template": "_____ creates _____, which is detrimental to _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Predominantly negative coverage", "Balanced reporting", "Entertainment media"], "correctAnswer": "Predominantly negative coverage"},
-                  {"id": "support4_b2", "options": ["a climate of fear and pessimism", "accurate understanding", "public confidence"], "correctAnswer": "a climate of fear and pessimism"},
-                  {"id": "support4_b3", "options": ["both individual well-being and social trust", "media profits", "entertainment value"], "correctAnswer": "both individual well-being and social trust"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Predominantly negative coverage",
+                      "Balanced reporting",
+                      "Entertainment media"
+                    ],
+                    "correctAnswer": "Predominantly negative coverage"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "a climate of fear and pessimism",
+                      "accurate understanding",
+                      "public confidence"
+                    ],
+                    "correctAnswer": "a climate of fear and pessimism"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "both individual well-being and social trust",
+                      "media profits",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "both individual well-being and social trust"
+                  }
                 ],
                 "correctSentence": "Predominantly negative coverage creates a climate of fear and pessimism, which is detrimental to both individual well-being and social trust.",
                 "usableIn": "body-paragraph-1"
@@ -409,8 +796,24 @@
                 "type": "template",
                 "template": "By _____, media outlets _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["focusing exclusively on problems", "providing balanced coverage", "reporting positive developments"], "correctAnswer": "focusing exclusively on problems"},
-                  {"id": "support5_b2", "options": ["distort the reality of gradual societal progress", "inform the public accurately", "serve their audiences well"], "correctAnswer": "distort the reality of gradual societal progress"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "focusing exclusively on problems",
+                      "providing balanced coverage",
+                      "reporting positive developments"
+                    ],
+                    "correctAnswer": "focusing exclusively on problems"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "distort the reality of gradual societal progress",
+                      "inform the public accurately",
+                      "serve their audiences well"
+                    ],
+                    "correctAnswer": "distort the reality of gradual societal progress"
+                  }
                 ],
                 "correctSentence": "By focusing exclusively on problems, media outlets distort the reality of gradual societal progress.",
                 "usableIn": "body-paragraph-1"
@@ -420,9 +823,33 @@
                 "type": "template",
                 "template": "_____ undermines _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Fear-based journalism", "Objective reporting", "Positive news"], "correctAnswer": "Fear-based journalism"},
-                  {"id": "support6_b2", "options": ["public mental health", "media credibility", "commercial success"], "correctAnswer": "public mental health"},
-                  {"id": "support6_b3", "options": ["creating chronic stress and feelings of helplessness", "providing information", "educating viewers"], "correctAnswer": "creating chronic stress and feelings of helplessness"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Fear-based journalism",
+                      "Objective reporting",
+                      "Positive news"
+                    ],
+                    "correctAnswer": "Fear-based journalism"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "public mental health",
+                      "media credibility",
+                      "commercial success"
+                    ],
+                    "correctAnswer": "public mental health"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "creating chronic stress and feelings of helplessness",
+                      "providing information",
+                      "educating viewers"
+                    ],
+                    "correctAnswer": "creating chronic stress and feelings of helplessness"
+                  }
                 ],
                 "correctSentence": "Fear-based journalism undermines public mental health through creating chronic stress and feelings of helplessness.",
                 "usableIn": "body-paragraph-1"
@@ -432,8 +859,24 @@
                 "type": "template",
                 "template": "Negative news contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["social fragmentation", "community building", "public happiness"], "correctAnswer": "social fragmentation"},
-                  {"id": "support7_b2", "options": ["fostering mistrust and undermining collective optimism", "bringing people together", "promoting cooperation"], "correctAnswer": "fostering mistrust and undermining collective optimism"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "social fragmentation",
+                      "community building",
+                      "public happiness"
+                    ],
+                    "correctAnswer": "social fragmentation"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "fostering mistrust and undermining collective optimism",
+                      "bringing people together",
+                      "promoting cooperation"
+                    ],
+                    "correctAnswer": "fostering mistrust and undermining collective optimism"
+                  }
                 ],
                 "correctSentence": "Negative news contributes to social fragmentation by fostering mistrust and undermining collective optimism.",
                 "usableIn": "body-paragraph-1"
@@ -443,9 +886,33 @@
                 "type": "template",
                 "template": "However, _____ enables _____ to _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["investigative reporting on problems", "entertainment coverage", "celebrity news"], "correctAnswer": "investigative reporting on problems"},
-                  {"id": "support8_b2", "options": ["citizens", "media companies", "politicians"], "correctAnswer": "citizens"},
-                  {"id": "support8_b3", "options": ["hold institutions accountable and demand change", "feel anxious constantly", "ignore important issues"], "correctAnswer": "hold institutions accountable and demand change"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "investigative reporting on problems",
+                      "entertainment coverage",
+                      "celebrity news"
+                    ],
+                    "correctAnswer": "investigative reporting on problems"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "citizens",
+                      "media companies",
+                      "politicians"
+                    ],
+                    "correctAnswer": "citizens"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "hold institutions accountable and demand change",
+                      "feel anxious constantly",
+                      "ignore important issues"
+                    ],
+                    "correctAnswer": "hold institutions accountable and demand change"
+                  }
                 ],
                 "correctSentence": "However, investigative reporting on problems enables citizens to hold institutions accountable and demand change.",
                 "usableIn": "body-paragraph-2"
@@ -455,9 +922,33 @@
                 "type": "template",
                 "template": "_____ would _____ without sacrificing _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Solutions-oriented journalism", "Sensationalist coverage", "Entertainment media"], "correctAnswer": "Solutions-oriented journalism"},
-                  {"id": "support9_b2", "options": ["provide more balanced perspective", "increase fear", "maximize ratings"], "correctAnswer": "provide more balanced perspective"},
-                  {"id": "support9_b3", "options": ["the essential function of reporting important issues", "all criticism", "commercial viability"], "correctAnswer": "the essential function of reporting important issues"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Solutions-oriented journalism",
+                      "Sensationalist coverage",
+                      "Entertainment media"
+                    ],
+                    "correctAnswer": "Solutions-oriented journalism"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "provide more balanced perspective",
+                      "increase fear",
+                      "maximize ratings"
+                    ],
+                    "correctAnswer": "provide more balanced perspective"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "the essential function of reporting important issues",
+                      "all criticism",
+                      "commercial viability"
+                    ],
+                    "correctAnswer": "the essential function of reporting important issues"
+                  }
                 ],
                 "correctSentence": "Solutions-oriented journalism would provide more balanced perspective without sacrificing the essential function of reporting important issues.",
                 "usableIn": "body-paragraph-2"
@@ -467,9 +958,33 @@
                 "type": "template",
                 "template": "In practice, _____ can _____ while still _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["balanced news coverage", "fear-based reporting", "entertainment media"], "correctAnswer": "balanced news coverage"},
-                  {"id": "support10_b2", "options": ["include positive developments", "maximize anxiety", "ignore problems"], "correctAnswer": "include positive developments"},
-                  {"id": "support10_b3", "options": ["addressing serious challenges facing society", "entertaining audiences", "increasing profits"], "correctAnswer": "addressing serious challenges facing society"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "balanced news coverage",
+                      "fear-based reporting",
+                      "entertainment media"
+                    ],
+                    "correctAnswer": "balanced news coverage"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "include positive developments",
+                      "maximize anxiety",
+                      "ignore problems"
+                    ],
+                    "correctAnswer": "include positive developments"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "addressing serious challenges facing society",
+                      "entertaining audiences",
+                      "increasing profits"
+                    ],
+                    "correctAnswer": "addressing serious challenges facing society"
+                  }
                 ],
                 "correctSentence": "In practice, balanced news coverage can include positive developments while still addressing serious challenges facing society.",
                 "usableIn": "body-paragraph-2"
@@ -479,8 +994,24 @@
                 "type": "template",
                 "template": "As a result, _____ develop _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["regular news consumers", "casual viewers", "media producers"], "correctAnswer": "regular news consumers"},
-                  {"id": "support11_b2", "options": ["heightened anxiety and pessimistic worldviews", "accurate understanding", "better knowledge"], "correctAnswer": "heightened anxiety and pessimistic worldviews"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "regular news consumers",
+                      "casual viewers",
+                      "media producers"
+                    ],
+                    "correctAnswer": "regular news consumers"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "heightened anxiety and pessimistic worldviews",
+                      "accurate understanding",
+                      "better knowledge"
+                    ],
+                    "correctAnswer": "heightened anxiety and pessimistic worldviews"
+                  }
                 ],
                 "correctSentence": "As a result, regular news consumers develop heightened anxiety and pessimistic worldviews.",
                 "usableIn": "body-paragraph-1"
@@ -490,9 +1021,33 @@
                 "type": "template",
                 "template": "Consequently, _____ becomes _____ when _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["public discourse", "media profit", "entertainment value"], "correctAnswer": "public discourse"},
-                  {"id": "support12_b2", "options": ["more constructive", "more fearful", "less important"], "correctAnswer": "more constructive"},
-                  {"id": "support12_b3", "options": ["news includes both challenges and solutions", "only problems are reported", "entertainment dominates"], "correctAnswer": "news includes both challenges and solutions"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "public discourse",
+                      "media profit",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "public discourse"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "more constructive",
+                      "more fearful",
+                      "less important"
+                    ],
+                    "correctAnswer": "more constructive"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "news includes both challenges and solutions",
+                      "only problems are reported",
+                      "entertainment dominates"
+                    ],
+                    "correctAnswer": "news includes both challenges and solutions"
+                  }
                 ],
                 "correctSentence": "Consequently, public discourse becomes more constructive when news includes both challenges and solutions.",
                 "usableIn": "body-paragraph-2"
@@ -509,9 +1064,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ after _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["individuals who consume news heavily", "casual media users", "non-news consumers"], "correctAnswer": "individuals who consume news heavily"},
-                  {"id": "example1_b2", "options": ["experience increased stress and anxiety", "feel more relaxed", "become happier"], "correctAnswer": "experience increased stress and anxiety"},
-                  {"id": "example1_b3", "options": ["repeated exposure to crime reports and disaster coverage", "watching entertainment", "reading positive stories"], "correctAnswer": "repeated exposure to crime reports and disaster coverage"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "individuals who consume news heavily",
+                      "casual media users",
+                      "non-news consumers"
+                    ],
+                    "correctAnswer": "individuals who consume news heavily"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "experience increased stress and anxiety",
+                      "feel more relaxed",
+                      "become happier"
+                    ],
+                    "correctAnswer": "experience increased stress and anxiety"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "repeated exposure to crime reports and disaster coverage",
+                      "watching entertainment",
+                      "reading positive stories"
+                    ],
+                    "correctAnswer": "repeated exposure to crime reports and disaster coverage"
+                  }
                 ],
                 "correctSentence": "For instance, individuals who consume news heavily can experience increased stress and anxiety after repeated exposure to crime reports and disaster coverage.",
                 "usableIn": "body-paragraph-1"
@@ -521,9 +1100,33 @@
                 "type": "template",
                 "template": "For example, _____ often emphasize _____ while _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["news broadcasts", "entertainment shows", "comedy programs"], "correctAnswer": "news broadcasts"},
-                  {"id": "example2_b2", "options": ["violent crimes and terrorism threats", "community achievements", "scientific progress"], "correctAnswer": "violent crimes and terrorism threats"},
-                  {"id": "example2_b3", "options": ["neglecting to report declining crime rates or medical breakthroughs", "providing balanced coverage", "focusing on solutions"], "correctAnswer": "neglecting to report declining crime rates or medical breakthroughs"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "news broadcasts",
+                      "entertainment shows",
+                      "comedy programs"
+                    ],
+                    "correctAnswer": "news broadcasts"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "violent crimes and terrorism threats",
+                      "community achievements",
+                      "scientific progress"
+                    ],
+                    "correctAnswer": "violent crimes and terrorism threats"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "neglecting to report declining crime rates or medical breakthroughs",
+                      "providing balanced coverage",
+                      "focusing on solutions"
+                    ],
+                    "correctAnswer": "neglecting to report declining crime rates or medical breakthroughs"
+                  }
                 ],
                 "correctSentence": "For example, news broadcasts often emphasize violent crimes and terrorism threats while neglecting to report declining crime rates or medical breakthroughs.",
                 "usableIn": "body-paragraph-1"
@@ -533,9 +1136,33 @@
                 "type": "template",
                 "template": "Specifically, _____ who consume _____ may believe _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["viewers", "producers", "journalists"], "correctAnswer": "viewers"},
-                  {"id": "example3_b2", "options": ["predominantly negative news", "balanced reporting", "positive stories only"], "correctAnswer": "predominantly negative news"},
-                  {"id": "example3_b3", "options": ["the world is more dangerous than statistical evidence suggests", "everything is perfect", "problems do not exist"], "correctAnswer": "the world is more dangerous than statistical evidence suggests"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "viewers",
+                      "producers",
+                      "journalists"
+                    ],
+                    "correctAnswer": "viewers"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "predominantly negative news",
+                      "balanced reporting",
+                      "positive stories only"
+                    ],
+                    "correctAnswer": "predominantly negative news"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "the world is more dangerous than statistical evidence suggests",
+                      "everything is perfect",
+                      "problems do not exist"
+                    ],
+                    "correctAnswer": "the world is more dangerous than statistical evidence suggests"
+                  }
                 ],
                 "correctSentence": "Specifically, viewers who consume predominantly negative news may believe the world is more dangerous than statistical evidence suggests.",
                 "usableIn": "body-paragraph-1"
@@ -545,8 +1172,24 @@
                 "type": "template",
                 "template": "Research shows that _____ increases when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["public anxiety", "public happiness", "media profit"], "correctAnswer": "public anxiety"},
-                  {"id": "example4_b2", "options": ["media coverage disproportionately focuses on threats and crises", "positive news is reported", "balanced coverage is provided"], "correctAnswer": "media coverage disproportionately focuses on threats and crises"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "public anxiety",
+                      "public happiness",
+                      "media profit"
+                    ],
+                    "correctAnswer": "public anxiety"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "media coverage disproportionately focuses on threats and crises",
+                      "positive news is reported",
+                      "balanced coverage is provided"
+                    ],
+                    "correctAnswer": "media coverage disproportionately focuses on threats and crises"
+                  }
                 ],
                 "correctSentence": "Research shows that public anxiety increases when media coverage disproportionately focuses on threats and crises.",
                 "usableIn": "body-paragraph-1"
@@ -556,9 +1199,33 @@
                 "type": "template",
                 "template": "Studies by _____ found that _____ reported _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["psychologists", "entertainment critics", "marketing experts"], "correctAnswer": "psychologists"},
-                  {"id": "example5_b2", "options": ["people who limit negative news consumption", "heavy news consumers", "non-news viewers"], "correctAnswer": "people who limit negative news consumption"},
-                  {"id": "example5_b3", "options": ["lower stress levels and more optimistic outlooks", "higher anxiety", "more fear"], "correctAnswer": "lower stress levels and more optimistic outlooks"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "psychologists",
+                      "entertainment critics",
+                      "marketing experts"
+                    ],
+                    "correctAnswer": "psychologists"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "people who limit negative news consumption",
+                      "heavy news consumers",
+                      "non-news viewers"
+                    ],
+                    "correctAnswer": "people who limit negative news consumption"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "lower stress levels and more optimistic outlooks",
+                      "higher anxiety",
+                      "more fear"
+                    ],
+                    "correctAnswer": "lower stress levels and more optimistic outlooks"
+                  }
                 ],
                 "correctSentence": "Studies by psychologists found that people who limit negative news consumption reported lower stress levels and more optimistic outlooks.",
                 "usableIn": "body-paragraph-1"
@@ -568,9 +1235,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ receive _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["positive developments", "disasters", "entertainment events"], "correctAnswer": "positive developments"},
-                  {"id": "example6_b2", "options": ["medical advances and environmental improvements", "crimes and accidents", "celebrity gossip"], "correctAnswer": "medical advances and environmental improvements"},
-                  {"id": "example6_b3", "options": ["minimal coverage compared to sensational negative stories", "extensive reporting", "appropriate attention"], "correctAnswer": "minimal coverage compared to sensational negative stories"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "positive developments",
+                      "disasters",
+                      "entertainment events"
+                    ],
+                    "correctAnswer": "positive developments"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "medical advances and environmental improvements",
+                      "crimes and accidents",
+                      "celebrity gossip"
+                    ],
+                    "correctAnswer": "medical advances and environmental improvements"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "minimal coverage compared to sensational negative stories",
+                      "extensive reporting",
+                      "appropriate attention"
+                    ],
+                    "correctAnswer": "minimal coverage compared to sensational negative stories"
+                  }
                 ],
                 "correctSentence": "In particular, positive developments such as medical advances and environmental improvements receive minimal coverage compared to sensational negative stories.",
                 "usableIn": "body-paragraph-1"
@@ -580,9 +1271,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have documented that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["mental health professionals", "media executives", "entertainment producers"], "correctAnswer": "mental health professionals"},
-                  {"id": "example7_b2", "options": ["therapists and counselors", "television hosts", "celebrities"], "correctAnswer": "therapists and counselors"},
-                  {"id": "example7_b3", "options": ["excessive negative news consumption correlates with depression and anxiety", "news improves mood", "media has no impact"], "correctAnswer": "excessive negative news consumption correlates with depression and anxiety"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "mental health professionals",
+                      "media executives",
+                      "entertainment producers"
+                    ],
+                    "correctAnswer": "mental health professionals"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "therapists and counselors",
+                      "television hosts",
+                      "celebrities"
+                    ],
+                    "correctAnswer": "therapists and counselors"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "excessive negative news consumption correlates with depression and anxiety",
+                      "news improves mood",
+                      "media has no impact"
+                    ],
+                    "correctAnswer": "excessive negative news consumption correlates with depression and anxiety"
+                  }
                 ],
                 "correctSentence": "Many mental health professionals, including therapists and counselors, have documented that excessive negative news consumption correlates with depression and anxiety.",
                 "usableIn": "body-paragraph-1"
@@ -592,9 +1307,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ despite _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["crime reporting", "weather forecasts", "sports coverage"], "correctAnswer": "crime reporting"},
-                  {"id": "example8_b2", "options": ["violent crime coverage dominates headlines", "positive stories lead", "balanced reporting occurs"], "correctAnswer": "violent crime coverage dominates headlines"},
-                  {"id": "example8_b3", "options": ["crime rates declining in most developed nations", "increasing crime", "unchanged statistics"], "correctAnswer": "crime rates declining in most developed nations"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "crime reporting",
+                      "weather forecasts",
+                      "sports coverage"
+                    ],
+                    "correctAnswer": "crime reporting"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "violent crime coverage dominates headlines",
+                      "positive stories lead",
+                      "balanced reporting occurs"
+                    ],
+                    "correctAnswer": "violent crime coverage dominates headlines"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "crime rates declining in most developed nations",
+                      "increasing crime",
+                      "unchanged statistics"
+                    ],
+                    "correctAnswer": "crime rates declining in most developed nations"
+                  }
                 ],
                 "correctSentence": "Take crime reporting as an example: violent crime coverage dominates headlines despite crime rates declining in most developed nations.",
                 "usableIn": "body-paragraph-1"
@@ -604,8 +1343,24 @@
                 "type": "template",
                 "template": "According to _____, citizens who _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["media researchers", "entertainment producers", "advertising executives"], "correctAnswer": "media researchers"},
-                  {"id": "example9_b2", "options": ["receive balanced news coverage demonstrate greater civic engagement", "only consume negative news become apathetic", "avoid all news are better informed"], "correctAnswer": "receive balanced news coverage demonstrate greater civic engagement"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "media researchers",
+                      "entertainment producers",
+                      "advertising executives"
+                    ],
+                    "correctAnswer": "media researchers"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "receive balanced news coverage demonstrate greater civic engagement",
+                      "only consume negative news become apathetic",
+                      "avoid all news are better informed"
+                    ],
+                    "correctAnswer": "receive balanced news coverage demonstrate greater civic engagement"
+                  }
                 ],
                 "correctSentence": "According to media researchers, citizens who receive balanced news coverage demonstrate greater civic engagement.",
                 "usableIn": "body-paragraph-2"
@@ -615,8 +1370,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ functions better when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["democratic society", "media profit", "entertainment value"], "correctAnswer": "democratic society"},
-                  {"id": "example10_b2", "options": ["journalism includes solutions alongside problems", "only crises are reported", "fear dominates coverage"], "correctAnswer": "journalism includes solutions alongside problems"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "democratic society",
+                      "media profit",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "democratic society"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "journalism includes solutions alongside problems",
+                      "only crises are reported",
+                      "fear dominates coverage"
+                    ],
+                    "correctAnswer": "journalism includes solutions alongside problems"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that democratic society functions better when journalism includes solutions alongside problems.",
                 "usableIn": "body-paragraph-2"
@@ -633,8 +1404,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ serves _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["reporting serious problems", "entertainment coverage", "celebrity news"], "correctAnswer": "reporting serious problems"},
-                  {"id": "counter1_b2", "options": ["the vital function of informing citizens", "no real purpose", "only commercial interests"], "correctAnswer": "the vital function of informing citizens"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "reporting serious problems",
+                      "entertainment coverage",
+                      "celebrity news"
+                    ],
+                    "correctAnswer": "reporting serious problems"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "the vital function of informing citizens",
+                      "no real purpose",
+                      "only commercial interests"
+                    ],
+                    "correctAnswer": "the vital function of informing citizens"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that reporting serious problems serves the vital function of informing citizens.",
                 "usableIn": "body-paragraph-2"
@@ -644,8 +1431,24 @@
                 "type": "template",
                 "template": "Despite these harms, _____ remains important for _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["investigative journalism about problems", "entertainment media", "positive news only"], "correctAnswer": "investigative journalism about problems"},
-                  {"id": "counter2_b2", "options": ["maintaining democratic accountability", "media profits", "viewer entertainment"], "correctAnswer": "maintaining democratic accountability"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "investigative journalism about problems",
+                      "entertainment media",
+                      "positive news only"
+                    ],
+                    "correctAnswer": "investigative journalism about problems"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "maintaining democratic accountability",
+                      "media profits",
+                      "viewer entertainment"
+                    ],
+                    "correctAnswer": "maintaining democratic accountability"
+                  }
                 ],
                 "correctSentence": "Despite these harms, investigative journalism about problems remains important for maintaining democratic accountability.",
                 "usableIn": "body-paragraph-2"
@@ -655,9 +1458,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ would be _____ if _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["society", "media companies", "entertainment"], "correctAnswer": "society"},
-                  {"id": "counter3_b2", "options": ["poorly served", "better off", "unchanged"], "correctAnswer": "poorly served"},
-                  {"id": "counter3_b3", "options": ["media ignored serious problems entirely", "only negative news was reported", "fear was maximized"], "correctAnswer": "media ignored serious problems entirely"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "society",
+                      "media companies",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "society"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "poorly served",
+                      "better off",
+                      "unchanged"
+                    ],
+                    "correctAnswer": "poorly served"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "media ignored serious problems entirely",
+                      "only negative news was reported",
+                      "fear was maximized"
+                    ],
+                    "correctAnswer": "media ignored serious problems entirely"
+                  }
                 ],
                 "correctSentence": "Nevertheless, society would be poorly served if media ignored serious problems entirely.",
                 "usableIn": "body-paragraph-2"
@@ -667,8 +1494,24 @@
                 "type": "template",
                 "template": "Although _____ causes harm, it also _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["negative news coverage", "positive reporting", "entertainment media"], "correctAnswer": "negative news coverage"},
-                  {"id": "counter4_b2", "options": ["alerts the public to genuine threats requiring attention", "serves no purpose", "only harms society"], "correctAnswer": "alerts the public to genuine threats requiring attention"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "negative news coverage",
+                      "positive reporting",
+                      "entertainment media"
+                    ],
+                    "correctAnswer": "negative news coverage"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "alerts the public to genuine threats requiring attention",
+                      "serves no purpose",
+                      "only harms society"
+                    ],
+                    "correctAnswer": "alerts the public to genuine threats requiring attention"
+                  }
                 ],
                 "correctSentence": "Although negative news coverage causes harm, it also alerts the public to genuine threats requiring attention.",
                 "usableIn": "body-paragraph-2"
@@ -678,9 +1521,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ would _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["informed citizenry", "media profits", "entertainment value"], "correctAnswer": "informed citizenry"},
-                  {"id": "counter5_b2", "options": ["suffer", "improve", "be unchanged"], "correctAnswer": "suffer"},
-                  {"id": "counter5_b3", "options": ["news avoided all coverage of serious challenges", "only positive stories were reported", "fear was eliminated"], "correctAnswer": "news avoided all coverage of serious challenges"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "informed citizenry",
+                      "media profits",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "informed citizenry"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "suffer",
+                      "improve",
+                      "be unchanged"
+                    ],
+                    "correctAnswer": "suffer"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "news avoided all coverage of serious challenges",
+                      "only positive stories were reported",
+                      "fear was eliminated"
+                    ],
+                    "correctAnswer": "news avoided all coverage of serious challenges"
+                  }
                 ],
                 "correctSentence": "Critics point out that informed citizenry would suffer if news avoided all coverage of serious challenges.",
                 "usableIn": "body-paragraph-2"
@@ -697,8 +1564,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["problem reporting has democratic value", "all news is harmful", "media should be banned"], "correctAnswer": "problem reporting has democratic value"},
-                  {"id": "conclusion1_b2", "options": ["the current negative bias is indeed harmful to society", "everything is perfect", "news has no impact"], "correctAnswer": "the current negative bias is indeed harmful to society"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "problem reporting has democratic value",
+                      "all news is harmful",
+                      "media should be banned"
+                    ],
+                    "correctAnswer": "problem reporting has democratic value"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the current negative bias is indeed harmful to society",
+                      "everything is perfect",
+                      "news has no impact"
+                    ],
+                    "correctAnswer": "the current negative bias is indeed harmful to society"
+                  }
                 ],
                 "correctSentence": "In conclusion, while problem reporting has democratic value, I believe the current negative bias is indeed harmful to society.",
                 "usableIn": "conclusion"
@@ -708,10 +1591,42 @@
                 "type": "template",
                 "template": "Overall, _____ would _____, whereas _____ creates _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["balanced news coverage", "negative reporting only", "entertainment media"], "correctAnswer": "balanced news coverage"},
-                  {"id": "conclusion2_b2", "options": ["better serve public well-being", "increase anxiety", "maximize fear"], "correctAnswer": "better serve public well-being"},
-                  {"id": "conclusion2_b3", "options": ["the current negativity bias", "positive news", "objective reporting"], "correctAnswer": "the current negativity bias"},
-                  {"id": "conclusion2_b4", "options": ["unnecessary anxiety and distorted perceptions", "accurate understanding", "better knowledge"], "correctAnswer": "unnecessary anxiety and distorted perceptions"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "balanced news coverage",
+                      "negative reporting only",
+                      "entertainment media"
+                    ],
+                    "correctAnswer": "balanced news coverage"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "better serve public well-being",
+                      "increase anxiety",
+                      "maximize fear"
+                    ],
+                    "correctAnswer": "better serve public well-being"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "the current negativity bias",
+                      "positive news",
+                      "objective reporting"
+                    ],
+                    "correctAnswer": "the current negativity bias"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "unnecessary anxiety and distorted perceptions",
+                      "accurate understanding",
+                      "better knowledge"
+                    ],
+                    "correctAnswer": "unnecessary anxiety and distorted perceptions"
+                  }
                 ],
                 "correctSentence": "Overall, balanced news coverage would better serve public well-being, whereas the current negativity bias creates unnecessary anxiety and distorted perceptions.",
                 "usableIn": "conclusion"
@@ -721,9 +1636,33 @@
                 "type": "template",
                 "template": "To summarize, _____ should _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["news organizations", "entertainment companies", "social media"], "correctAnswer": "news organizations"},
-                  {"id": "conclusion3_b2", "options": ["provide balanced coverage including solutions", "maximize fear and anxiety", "ignore all problems"], "correctAnswer": "provide balanced coverage including solutions"},
-                  {"id": "conclusion3_b3", "options": ["disproportionately emphasizing crises", "reporting positive news only", "eliminating problem coverage"], "correctAnswer": "disproportionately emphasizing crises"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "news organizations",
+                      "entertainment companies",
+                      "social media"
+                    ],
+                    "correctAnswer": "news organizations"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "provide balanced coverage including solutions",
+                      "maximize fear and anxiety",
+                      "ignore all problems"
+                    ],
+                    "correctAnswer": "provide balanced coverage including solutions"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "disproportionately emphasizing crises",
+                      "reporting positive news only",
+                      "eliminating problem coverage"
+                    ],
+                    "correctAnswer": "disproportionately emphasizing crises"
+                  }
                 ],
                 "correctSentence": "To summarize, news organizations should provide balanced coverage including solutions rather than disproportionately emphasizing crises.",
                 "usableIn": "conclusion"
@@ -733,9 +1672,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ depends on _____ achieving _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["a healthy informed society", "media profit", "entertainment value"], "correctAnswer": "a healthy informed society"},
-                  {"id": "conclusion4_b2", "options": ["journalism", "advertising", "entertainment"], "correctAnswer": "journalism"},
-                  {"id": "conclusion4_b3", "options": ["better balance between problem awareness and constructive reporting", "maximum fear", "highest ratings"], "correctAnswer": "better balance between problem awareness and constructive reporting"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "a healthy informed society",
+                      "media profit",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "a healthy informed society"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "journalism",
+                      "advertising",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "journalism"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "better balance between problem awareness and constructive reporting",
+                      "maximum fear",
+                      "highest ratings"
+                    ],
+                    "correctAnswer": "better balance between problem awareness and constructive reporting"
+                  }
                 ],
                 "correctSentence": "Ultimately, a healthy informed society depends on journalism achieving better balance between problem awareness and constructive reporting.",
                 "usableIn": "conclusion"
@@ -745,8 +1708,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the optimal approach because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["solutions-oriented journalism", "fear-based reporting", "entertainment media"], "correctAnswer": "solutions-oriented journalism"},
-                  {"id": "conclusion5_b2", "options": ["it addresses problems while maintaining public mental health", "it maximizes ratings", "it ignores all issues"], "correctAnswer": "it addresses problems while maintaining public mental health"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "solutions-oriented journalism",
+                      "fear-based reporting",
+                      "entertainment media"
+                    ],
+                    "correctAnswer": "solutions-oriented journalism"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it addresses problems while maintaining public mental health",
+                      "it maximizes ratings",
+                      "it ignores all issues"
+                    ],
+                    "correctAnswer": "it addresses problems while maintaining public mental health"
+                  }
                 ],
                 "correctSentence": "In my view, solutions-oriented journalism represents the optimal approach because it addresses problems while maintaining public mental health.",
                 "usableIn": "conclusion"
@@ -805,13 +1784,48 @@
           }
         ],
         "usefulTransitions": {
-          "agreeing": ["I strongly agree that", "This concern is valid because", "Indeed", "It is undeniable that"],
-          "partial_agreement": ["While this has some merit", "Admittedly", "To some extent", "Although there are negative effects"],
-          "disagreeing": ["However, I believe this overstates", "Nevertheless", "This perspective overlooks", "This claim underestimates"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "agreeing": [
+            "I strongly agree that",
+            "This concern is valid because",
+            "Indeed",
+            "It is undeniable that"
+          ],
+          "partial_agreement": [
+            "While this has some merit",
+            "Admittedly",
+            "To some extent",
+            "Although there are negative effects"
+          ],
+          "disagreeing": [
+            "However, I believe this overstates",
+            "Nevertheless",
+            "This perspective overlooks",
+            "This claim underestimates"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

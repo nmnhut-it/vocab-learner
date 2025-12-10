@@ -80,105 +80,156 @@
             "word": "congestion",
             "pronunciation": "/kənˈdʒestʃən/",
             "partOfSpeech": "noun",
-            "definition": "Overcrowding, especially of traffic in urban areas",
+            "definition": "Overcrowding, especially of traffic in urban areas.",
             "example": "Vehicle-free days can significantly reduce traffic congestion in city centers.",
-            "synonyms": ["overcrowding", "gridlock"]
+            "synonyms": [
+              "overcrowding",
+              "gridlock"
+            ]
           },
           {
             "word": "emissions",
             "pronunciation": "/ɪˈmɪʃənz/",
             "partOfSpeech": "noun",
-            "definition": "Gases or substances released into the atmosphere",
+            "definition": "Gases or substances released into the atmosphere.",
             "example": "Reducing vehicle emissions improves urban air quality substantially.",
-            "synonyms": ["discharge", "pollution"]
+            "synonyms": [
+              "discharge",
+              "pollution"
+            ]
           },
           {
             "word": "implementation",
             "pronunciation": "/ˌɪmplɪmenˈteɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of putting a policy or plan into effect",
+            "definition": "The process of putting a policy or plan into effect.",
             "example": "Implementation of vehicle-free days requires careful planning and public support.",
-            "synonyms": ["execution", "enforcement"]
+            "synonyms": [
+              "execution",
+              "enforcement"
+            ]
           },
           {
             "word": "inconvenience",
             "pronunciation": "/ˌɪnkənˈviːniəns/",
             "partOfSpeech": "noun",
-            "definition": "Trouble or difficulty that causes discomfort",
+            "definition": "Trouble or difficulty that causes discomfort.",
             "example": "Some residents view the policy as an inconvenience to their daily routines.",
-            "synonyms": ["disruption", "hardship"]
+            "synonyms": [
+              "disruption",
+              "hardship"
+            ]
           },
           {
             "word": "mitigate",
             "pronunciation": "/ˈmɪtɪgeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make something less severe or serious",
+            "definition": "To make something less severe or serious.",
             "example": "Vehicle-free initiatives help mitigate the environmental impact of urban transportation.",
-            "synonyms": ["reduce", "alleviate", "lessen"]
+            "synonyms": [
+              "reduce",
+              "alleviate",
+              "lessen"
+            ]
           },
           {
             "word": "accessible",
             "pronunciation": "/əkˈsesəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Able to be reached or used easily",
+            "definition": "Able to be reached or used easily.",
             "example": "Public transportation must be accessible and affordable for the policy to succeed.",
-            "synonyms": ["available", "reachable"]
+            "synonyms": [
+              "available",
+              "reachable"
+            ]
           },
           {
             "word": "pedestrian",
             "pronunciation": "/pəˈdestriən/",
             "partOfSpeech": "noun",
-            "definition": "A person walking rather than traveling in a vehicle",
+            "definition": "A person walking rather than traveling in a vehicle.",
             "example": "Vehicle-free days create safer environments for pedestrians and cyclists.",
-            "synonyms": ["walker", "foot traveler"]
+            "synonyms": [
+              "walker",
+              "foot traveler"
+            ]
           },
           {
             "word": "sustainable",
             "pronunciation": "/səˈsteɪnəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Able to be maintained at a certain level without depleting resources",
+            "definition": "Able to be maintained at a certain level without depleting resources.",
             "example": "Promoting sustainable transport options benefits cities long-term.",
-            "synonyms": ["eco-friendly", "environmentally sound"]
+            "synonyms": [
+              "eco-friendly",
+              "environmentally sound"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "air quality",
-            "definition": "The condition of air in terms of pollution levels",
+            "definition": "The condition of air in terms of pollution levels.",
             "example": "Vehicle-free days lead to noticeable improvements in air quality."
           },
           {
             "phrase": "carbon footprint",
-            "definition": "The total greenhouse gas emissions caused by activities",
+            "definition": "The total greenhouse gas emissions caused by activities.",
             "example": "Such initiatives help reduce the city's overall carbon footprint."
           },
           {
             "phrase": "public transit infrastructure",
-            "definition": "Systems and facilities for public transportation",
+            "definition": "Systems and facilities for public transportation.",
             "example": "Effective vehicle-free policies require robust public transit infrastructure."
           },
           {
             "phrase": "commuter disruption",
-            "definition": "Interference with people's regular travel to work",
+            "definition": "Interference with people's regular travel to work.",
             "example": "Critics argue the policy causes unnecessary commuter disruption."
           },
           {
             "phrase": "environmental benefits",
-            "definition": "Positive effects on the natural environment",
+            "definition": "Positive effects on the natural environment.",
             "example": "The environmental benefits of reduced emissions are substantial."
           },
           {
             "phrase": "mobility restrictions",
-            "definition": "Limitations on movement and transportation options",
+            "definition": "Limitations on movement and transportation options.",
             "example": "Mobility restrictions can particularly affect elderly or disabled residents."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["This policy involves", "Vehicle-free initiatives", "Some cities have implemented", "There is debate about"],
-          "showing_advantages": ["One significant benefit", "A major advantage", "This leads to", "The primary benefit"],
-          "showing_disadvantages": ["However, a key drawback", "On the negative side", "A significant concern", "The main disadvantage"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "In cities like"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Ultimately"]
+          "introducing": [
+            "This policy involves",
+            "Vehicle-free initiatives",
+            "Some cities have implemented",
+            "There is debate about"
+          ],
+          "showing_advantages": [
+            "One significant benefit",
+            "A major advantage",
+            "This leads to",
+            "The primary benefit"
+          ],
+          "showing_disadvantages": [
+            "However, a key drawback",
+            "On the negative side",
+            "A significant concern",
+            "The main disadvantage"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "In cities like"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,8 +252,24 @@
                 "type": "template",
                 "template": "While _____ present certain challenges, I believe _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["vehicle-free days", "public transportation", "city policies"], "correctAnswer": "vehicle-free days"},
-                  {"id": "thesis1_b2", "options": ["the environmental and health benefits far outweigh the disadvantages", "they should be cancelled", "everyone likes them"], "correctAnswer": "the environmental and health benefits far outweigh the disadvantages"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "vehicle-free days",
+                      "public transportation",
+                      "city policies"
+                    ],
+                    "correctAnswer": "vehicle-free days"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "the environmental and health benefits far outweigh the disadvantages",
+                      "they should be cancelled",
+                      "everyone likes them"
+                    ],
+                    "correctAnswer": "the environmental and health benefits far outweigh the disadvantages"
+                  }
                 ],
                 "correctSentence": "While vehicle-free days present certain challenges, I believe the environmental and health benefits far outweigh the disadvantages.",
                 "usableIn": "introduction"
@@ -212,9 +279,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ are _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["vehicle-free initiatives", "public buses", "city centers"], "correctAnswer": "vehicle-free initiatives"},
-                  {"id": "thesis2_b2", "options": ["highly beneficial for urban areas", "unnecessary policies", "expensive measures"], "correctAnswer": "highly beneficial for urban areas"},
-                  {"id": "thesis2_b3", "options": ["causing some temporary inconvenience", "being popular", "having no problems"], "correctAnswer": "causing some temporary inconvenience"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "vehicle-free initiatives",
+                      "public buses",
+                      "city centers"
+                    ],
+                    "correctAnswer": "vehicle-free initiatives"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "highly beneficial for urban areas",
+                      "unnecessary policies",
+                      "expensive measures"
+                    ],
+                    "correctAnswer": "highly beneficial for urban areas"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "causing some temporary inconvenience",
+                      "being popular",
+                      "having no problems"
+                    ],
+                    "correctAnswer": "causing some temporary inconvenience"
+                  }
                 ],
                 "correctSentence": "In my opinion, vehicle-free initiatives are highly beneficial for urban areas despite causing some temporary inconvenience.",
                 "usableIn": "introduction"
@@ -224,8 +315,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ but I contend that _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["the benefits of banning private vehicles justify the inconvenience", "cars should exist", "buses are better"], "correctAnswer": "the benefits of banning private vehicles justify the inconvenience"},
-                  {"id": "thesis3_b2", "options": ["they represent a positive step toward sustainable urban living", "nothing will change", "problems remain"], "correctAnswer": "they represent a positive step toward sustainable urban living"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "the benefits of banning private vehicles justify the inconvenience",
+                      "cars should exist",
+                      "buses are better"
+                    ],
+                    "correctAnswer": "the benefits of banning private vehicles justify the inconvenience"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "they represent a positive step toward sustainable urban living",
+                      "nothing will change",
+                      "problems remain"
+                    ],
+                    "correctAnswer": "they represent a positive step toward sustainable urban living"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether the benefits of banning private vehicles justify the inconvenience but I contend that they represent a positive step toward sustainable urban living.",
                 "usableIn": "introduction"
@@ -235,8 +342,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["the advantages of this policy clearly outweigh the drawbacks", "cars are bad", "buses are good"], "correctAnswer": "the advantages of this policy clearly outweigh the drawbacks"},
-                  {"id": "thesis4_b2", "options": ["environmental and health improvements benefit the entire community", "people complain less", "it costs less"], "correctAnswer": "environmental and health improvements benefit the entire community"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "the advantages of this policy clearly outweigh the drawbacks",
+                      "cars are bad",
+                      "buses are good"
+                    ],
+                    "correctAnswer": "the advantages of this policy clearly outweigh the drawbacks"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "environmental and health improvements benefit the entire community",
+                      "people complain less",
+                      "it costs less"
+                    ],
+                    "correctAnswer": "environmental and health improvements benefit the entire community"
+                  }
                 ],
                 "correctSentence": "From my perspective, the advantages of this policy clearly outweigh the drawbacks because environmental and health improvements benefit the entire community.",
                 "usableIn": "introduction"
@@ -246,8 +369,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both the benefits and drawbacks of vehicle-free days", "only advantages", "only problems"], "correctAnswer": "both the benefits and drawbacks of vehicle-free days"},
-                  {"id": "thesis5_b2", "options": ["the advantages are more significant for long-term urban sustainability", "nothing matters", "everyone wins"], "correctAnswer": "the advantages are more significant for long-term urban sustainability"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both the benefits and drawbacks of vehicle-free days",
+                      "only advantages",
+                      "only problems"
+                    ],
+                    "correctAnswer": "both the benefits and drawbacks of vehicle-free days"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the advantages are more significant for long-term urban sustainability",
+                      "nothing matters",
+                      "everyone wins"
+                    ],
+                    "correctAnswer": "the advantages are more significant for long-term urban sustainability"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both the benefits and drawbacks of vehicle-free days before concluding that the advantages are more significant for long-term urban sustainability.",
                 "usableIn": "introduction"
@@ -264,8 +403,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["vehicle-free days", "public buses", "city centers"], "correctAnswer": "vehicle-free days"},
-                  {"id": "topic1_b2", "options": ["the significant improvement in air quality", "cheaper transportation", "more parking"], "correctAnswer": "the significant improvement in air quality"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "vehicle-free days",
+                      "public buses",
+                      "city centers"
+                    ],
+                    "correctAnswer": "vehicle-free days"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "the significant improvement in air quality",
+                      "cheaper transportation",
+                      "more parking"
+                    ],
+                    "correctAnswer": "the significant improvement in air quality"
+                  }
                 ],
                 "correctSentence": "The primary advantage of vehicle-free days is the significant improvement in air quality.",
                 "usableIn": "body-paragraph-1"
@@ -275,8 +430,24 @@
                 "type": "template",
                 "template": "One major benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["restricting private vehicles", "public transportation", "city planning"], "correctAnswer": "restricting private vehicles"},
-                  {"id": "topic2_b2", "options": ["it reduces traffic congestion and pollution levels dramatically", "it saves money", "it looks good"], "correctAnswer": "it reduces traffic congestion and pollution levels dramatically"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "restricting private vehicles",
+                      "public transportation",
+                      "city planning"
+                    ],
+                    "correctAnswer": "restricting private vehicles"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "it reduces traffic congestion and pollution levels dramatically",
+                      "it saves money",
+                      "it looks good"
+                    ],
+                    "correctAnswer": "it reduces traffic congestion and pollution levels dramatically"
+                  }
                 ],
                 "correctSentence": "One major benefit of restricting private vehicles is that it reduces traffic congestion and pollution levels dramatically.",
                 "usableIn": "body-paragraph-1"
@@ -286,9 +457,33 @@
                 "type": "template",
                 "template": "_____ offer _____ for _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Vehicle-free initiatives", "Buses", "Taxis"], "correctAnswer": "Vehicle-free initiatives"},
-                  {"id": "topic3_b2", "options": ["substantial environmental and health benefits", "free rides", "faster travel"], "correctAnswer": "substantial environmental and health benefits"},
-                  {"id": "topic3_b3", "options": ["urban populations", "car owners", "politicians"], "correctAnswer": "urban populations"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Vehicle-free initiatives",
+                      "Buses",
+                      "Taxis"
+                    ],
+                    "correctAnswer": "Vehicle-free initiatives"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "substantial environmental and health benefits",
+                      "free rides",
+                      "faster travel"
+                    ],
+                    "correctAnswer": "substantial environmental and health benefits"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "urban populations",
+                      "car owners",
+                      "politicians"
+                    ],
+                    "correctAnswer": "urban populations"
+                  }
                 ],
                 "correctSentence": "Vehicle-free initiatives offer substantial environmental and health benefits for urban populations.",
                 "usableIn": "body-paragraph-1"
@@ -298,7 +493,15 @@
                 "type": "template",
                 "template": "However, a significant disadvantage is _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["the inconvenience caused to residents who rely on private vehicles", "better air quality", "reduced pollution"], "correctAnswer": "the inconvenience caused to residents who rely on private vehicles"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "the inconvenience caused to residents who rely on private vehicles",
+                      "better air quality",
+                      "reduced pollution"
+                    ],
+                    "correctAnswer": "the inconvenience caused to residents who rely on private vehicles"
+                  }
                 ],
                 "correctSentence": "However, a significant disadvantage is the inconvenience caused to residents who rely on private vehicles.",
                 "usableIn": "body-paragraph-2"
@@ -308,8 +511,24 @@
                 "type": "template",
                 "template": "On the negative side, _____ can _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["these restrictions", "air quality", "pedestrians"], "correctAnswer": "these restrictions"},
-                  {"id": "topic5_b2", "options": ["disrupt daily routines and create transportation challenges", "improve health", "reduce costs"], "correctAnswer": "disrupt daily routines and create transportation challenges"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "these restrictions",
+                      "air quality",
+                      "pedestrians"
+                    ],
+                    "correctAnswer": "these restrictions"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "disrupt daily routines and create transportation challenges",
+                      "improve health",
+                      "reduce costs"
+                    ],
+                    "correctAnswer": "disrupt daily routines and create transportation challenges"
+                  }
                 ],
                 "correctSentence": "On the negative side, these restrictions can disrupt daily routines and create transportation challenges.",
                 "usableIn": "body-paragraph-2"
@@ -319,8 +538,24 @@
                 "type": "template",
                 "template": "A key drawback of _____ is _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["banning private vehicles", "public transport", "clean air"], "correctAnswer": "banning private vehicles"},
-                  {"id": "topic6_b2", "options": ["the potential burden on public transportation systems", "better traffic flow", "cleaner streets"], "correctAnswer": "the potential burden on public transportation systems"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "banning private vehicles",
+                      "public transport",
+                      "clean air"
+                    ],
+                    "correctAnswer": "banning private vehicles"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "the potential burden on public transportation systems",
+                      "better traffic flow",
+                      "cleaner streets"
+                    ],
+                    "correctAnswer": "the potential burden on public transportation systems"
+                  }
                 ],
                 "correctSentence": "A key drawback of banning private vehicles is the potential burden on public transportation systems.",
                 "usableIn": "body-paragraph-2"
@@ -330,9 +565,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ brings _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["Supporters of vehicle-free days", "Car owners", "Taxi drivers"], "correctAnswer": "Supporters of vehicle-free days"},
-                  {"id": "topic7_b2", "options": ["this policy", "driving", "parking"], "correctAnswer": "this policy"},
-                  {"id": "topic7_b3", "options": ["measurable improvements to urban environmental quality", "economic losses", "traffic jams"], "correctAnswer": "measurable improvements to urban environmental quality"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "Supporters of vehicle-free days",
+                      "Car owners",
+                      "Taxi drivers"
+                    ],
+                    "correctAnswer": "Supporters of vehicle-free days"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "this policy",
+                      "driving",
+                      "parking"
+                    ],
+                    "correctAnswer": "this policy"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "measurable improvements to urban environmental quality",
+                      "economic losses",
+                      "traffic jams"
+                    ],
+                    "correctAnswer": "measurable improvements to urban environmental quality"
+                  }
                 ],
                 "correctSentence": "Supporters of vehicle-free days argue that this policy brings measurable improvements to urban environmental quality.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +601,24 @@
                 "type": "template",
                 "template": "Critics contend that _____ particularly affects _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["the mobility restriction", "air quality", "pollution reduction"], "correctAnswer": "the mobility restriction"},
-                  {"id": "topic8_b2", "options": ["elderly residents and those with disabilities", "young people", "tourists"], "correctAnswer": "elderly residents and those with disabilities"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "the mobility restriction",
+                      "air quality",
+                      "pollution reduction"
+                    ],
+                    "correctAnswer": "the mobility restriction"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "elderly residents and those with disabilities",
+                      "young people",
+                      "tourists"
+                    ],
+                    "correctAnswer": "elderly residents and those with disabilities"
+                  }
                 ],
                 "correctSentence": "Critics contend that the mobility restriction particularly affects elderly residents and those with disabilities.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +635,24 @@
                 "type": "template",
                 "template": "This is because _____ significantly reduces _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["eliminating vehicle traffic", "public transport", "walking"], "correctAnswer": "eliminating vehicle traffic"},
-                  {"id": "support1_b2", "options": ["harmful emissions and particulate matter in the air", "bus fares", "walking distance"], "correctAnswer": "harmful emissions and particulate matter in the air"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "eliminating vehicle traffic",
+                      "public transport",
+                      "walking"
+                    ],
+                    "correctAnswer": "eliminating vehicle traffic"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "harmful emissions and particulate matter in the air",
+                      "bus fares",
+                      "walking distance"
+                    ],
+                    "correctAnswer": "harmful emissions and particulate matter in the air"
+                  }
                 ],
                 "correctSentence": "This is because eliminating vehicle traffic significantly reduces harmful emissions and particulate matter in the air.",
                 "usableIn": "body-paragraph-1"
@@ -371,8 +662,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["reduced vehicle emissions", "more buses", "better weather"], "correctAnswer": "reduced vehicle emissions"},
-                  {"id": "support2_b2", "options": ["healthier breathing conditions for city residents", "higher costs", "traffic jams"], "correctAnswer": "healthier breathing conditions for city residents"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "reduced vehicle emissions",
+                      "more buses",
+                      "better weather"
+                    ],
+                    "correctAnswer": "reduced vehicle emissions"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "healthier breathing conditions for city residents",
+                      "higher costs",
+                      "traffic jams"
+                    ],
+                    "correctAnswer": "healthier breathing conditions for city residents"
+                  }
                 ],
                 "correctSentence": "The main reason is that reduced vehicle emissions leads to healthier breathing conditions for city residents.",
                 "usableIn": "body-paragraph-1"
@@ -382,10 +689,42 @@
                 "type": "template",
                 "template": "_____ allows _____ to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Removing private vehicles", "Driving cars", "Using taxis"], "correctAnswer": "Removing private vehicles"},
-                  {"id": "support3_b2", "options": ["pedestrians and cyclists", "car owners", "businesses"], "correctAnswer": "pedestrians and cyclists"},
-                  {"id": "support3_b3", "options": ["use city streets safely", "spend money", "work harder"], "correctAnswer": "use city streets safely"},
-                  {"id": "support3_b4", "options": ["fearing traffic accidents", "paying fares", "walking far"], "correctAnswer": "fearing traffic accidents"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Removing private vehicles",
+                      "Driving cars",
+                      "Using taxis"
+                    ],
+                    "correctAnswer": "Removing private vehicles"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "pedestrians and cyclists",
+                      "car owners",
+                      "businesses"
+                    ],
+                    "correctAnswer": "pedestrians and cyclists"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "use city streets safely",
+                      "spend money",
+                      "work harder"
+                    ],
+                    "correctAnswer": "use city streets safely"
+                  },
+                  {
+                    "id": "support3_b4",
+                    "options": [
+                      "fearing traffic accidents",
+                      "paying fares",
+                      "walking far"
+                    ],
+                    "correctAnswer": "fearing traffic accidents"
+                  }
                 ],
                 "correctSentence": "Removing private vehicles allows pedestrians and cyclists to use city streets safely without fearing traffic accidents.",
                 "usableIn": "body-paragraph-1"
@@ -395,9 +734,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["This policy", "Driving", "Parking"], "correctAnswer": "This policy"},
-                  {"id": "support4_b2", "options": ["greater use of sustainable transportation modes", "car dependency", "traffic congestion"], "correctAnswer": "greater use of sustainable transportation modes"},
-                  {"id": "support4_b3", "options": ["benefits long-term environmental goals", "increases pollution", "costs more money"], "correctAnswer": "benefits long-term environmental goals"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "This policy",
+                      "Driving",
+                      "Parking"
+                    ],
+                    "correctAnswer": "This policy"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "greater use of sustainable transportation modes",
+                      "car dependency",
+                      "traffic congestion"
+                    ],
+                    "correctAnswer": "greater use of sustainable transportation modes"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "benefits long-term environmental goals",
+                      "increases pollution",
+                      "costs more money"
+                    ],
+                    "correctAnswer": "benefits long-term environmental goals"
+                  }
                 ],
                 "correctSentence": "This policy fosters greater use of sustainable transportation modes, which benefits long-term environmental goals.",
                 "usableIn": "body-paragraph-1"
@@ -407,8 +770,24 @@
                 "type": "template",
                 "template": "By _____, cities can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["restricting vehicle access periodically", "building more roads", "increasing parking"], "correctAnswer": "restricting vehicle access periodically"},
-                  {"id": "support5_b2", "options": ["raise public awareness about sustainable transportation", "encourage more driving", "reduce public transit"], "correctAnswer": "raise public awareness about sustainable transportation"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "restricting vehicle access periodically",
+                      "building more roads",
+                      "increasing parking"
+                    ],
+                    "correctAnswer": "restricting vehicle access periodically"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "raise public awareness about sustainable transportation",
+                      "encourage more driving",
+                      "reduce public transit"
+                    ],
+                    "correctAnswer": "raise public awareness about sustainable transportation"
+                  }
                 ],
                 "correctSentence": "By restricting vehicle access periodically, cities can raise public awareness about sustainable transportation.",
                 "usableIn": "body-paragraph-1"
@@ -418,9 +797,33 @@
                 "type": "template",
                 "template": "_____ contributes to _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["The absence of vehicles", "More traffic", "Higher pollution"], "correctAnswer": "The absence of vehicles"},
-                  {"id": "support6_b2", "options": ["improved quality of life", "economic decline", "social problems"], "correctAnswer": "improved quality of life"},
-                  {"id": "support6_b3", "options": ["quieter streets and cleaner air", "traffic jams", "higher costs"], "correctAnswer": "quieter streets and cleaner air"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "The absence of vehicles",
+                      "More traffic",
+                      "Higher pollution"
+                    ],
+                    "correctAnswer": "The absence of vehicles"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "improved quality of life",
+                      "economic decline",
+                      "social problems"
+                    ],
+                    "correctAnswer": "improved quality of life"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "quieter streets and cleaner air",
+                      "traffic jams",
+                      "higher costs"
+                    ],
+                    "correctAnswer": "quieter streets and cleaner air"
+                  }
                 ],
                 "correctSentence": "The absence of vehicles contributes to improved quality of life through quieter streets and cleaner air.",
                 "usableIn": "body-paragraph-1"
@@ -430,9 +833,33 @@
                 "type": "template",
                 "template": "However, _____ creates difficulties for _____ who _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["the restriction", "cleaner air", "better health"], "correctAnswer": "the restriction"},
-                  {"id": "support7_b2", "options": ["working professionals", "environmental activists", "public transit users"], "correctAnswer": "working professionals"},
-                  {"id": "support7_b3", "options": ["need to transport heavy equipment or reach remote locations", "enjoy walking", "prefer cycling"], "correctAnswer": "need to transport heavy equipment or reach remote locations"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "the restriction",
+                      "cleaner air",
+                      "better health"
+                    ],
+                    "correctAnswer": "the restriction"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "working professionals",
+                      "environmental activists",
+                      "public transit users"
+                    ],
+                    "correctAnswer": "working professionals"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": [
+                      "need to transport heavy equipment or reach remote locations",
+                      "enjoy walking",
+                      "prefer cycling"
+                    ],
+                    "correctAnswer": "need to transport heavy equipment or reach remote locations"
+                  }
                 ],
                 "correctSentence": "However, the restriction creates difficulties for working professionals who need to transport heavy equipment or reach remote locations.",
                 "usableIn": "body-paragraph-2"
@@ -442,9 +869,33 @@
                 "type": "template",
                 "template": "_____ can become _____ when _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["Public transportation systems", "Air quality", "Street safety"], "correctAnswer": "Public transportation systems"},
-                  {"id": "support8_b2", "options": ["overcrowded and unreliable", "cleaner and faster", "cheaper and better"], "correctAnswer": "overcrowded and unreliable"},
-                  {"id": "support8_b3", "options": ["demand suddenly increases on vehicle-free days", "fewer people travel", "cars are available"], "correctAnswer": "demand suddenly increases on vehicle-free days"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "Public transportation systems",
+                      "Air quality",
+                      "Street safety"
+                    ],
+                    "correctAnswer": "Public transportation systems"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "overcrowded and unreliable",
+                      "cleaner and faster",
+                      "cheaper and better"
+                    ],
+                    "correctAnswer": "overcrowded and unreliable"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "demand suddenly increases on vehicle-free days",
+                      "fewer people travel",
+                      "cars are available"
+                    ],
+                    "correctAnswer": "demand suddenly increases on vehicle-free days"
+                  }
                 ],
                 "correctSentence": "Public transportation systems can become overcrowded and unreliable when demand suddenly increases on vehicle-free days.",
                 "usableIn": "body-paragraph-2"
@@ -454,9 +905,33 @@
                 "type": "template",
                 "template": "_____ may struggle with _____ due to _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Certain demographics", "Young people", "Cyclists"], "correctAnswer": "Certain demographics"},
-                  {"id": "support9_b2", "options": ["limited mobility options", "better transportation", "cleaner air"], "correctAnswer": "limited mobility options"},
-                  {"id": "support9_b3", "options": ["inadequate public transit accessibility", "too many buses", "free taxis"], "correctAnswer": "inadequate public transit accessibility"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Certain demographics",
+                      "Young people",
+                      "Cyclists"
+                    ],
+                    "correctAnswer": "Certain demographics"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "limited mobility options",
+                      "better transportation",
+                      "cleaner air"
+                    ],
+                    "correctAnswer": "limited mobility options"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "inadequate public transit accessibility",
+                      "too many buses",
+                      "free taxis"
+                    ],
+                    "correctAnswer": "inadequate public transit accessibility"
+                  }
                 ],
                 "correctSentence": "Certain demographics may struggle with limited mobility options due to inadequate public transit accessibility.",
                 "usableIn": "body-paragraph-2"
@@ -466,8 +941,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["city residents", "cars", "roads"], "correctAnswer": "city residents"},
-                  {"id": "support10_b2", "options": ["cleaner and quieter urban environments", "more pollution", "traffic congestion"], "correctAnswer": "cleaner and quieter urban environments"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "city residents",
+                      "cars",
+                      "roads"
+                    ],
+                    "correctAnswer": "city residents"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "cleaner and quieter urban environments",
+                      "more pollution",
+                      "traffic congestion"
+                    ],
+                    "correctAnswer": "cleaner and quieter urban environments"
+                  }
                 ],
                 "correctSentence": "As a result, city residents experience cleaner and quieter urban environments.",
                 "usableIn": "body-paragraph-1"
@@ -477,8 +968,24 @@
                 "type": "template",
                 "template": "Consequently, _____ must _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["people without access to reliable public transit", "cyclists", "pedestrians"], "correctAnswer": "people without access to reliable public transit"},
-                  {"id": "support11_b2", "options": ["alter their schedules or face significant delays", "enjoy the day", "celebrate"], "correctAnswer": "alter their schedules or face significant delays"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "people without access to reliable public transit",
+                      "cyclists",
+                      "pedestrians"
+                    ],
+                    "correctAnswer": "people without access to reliable public transit"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "alter their schedules or face significant delays",
+                      "enjoy the day",
+                      "celebrate"
+                    ],
+                    "correctAnswer": "alter their schedules or face significant delays"
+                  }
                 ],
                 "correctSentence": "Consequently, people without access to reliable public transit must alter their schedules or face significant delays.",
                 "usableIn": "body-paragraph-2"
@@ -488,8 +995,24 @@
                 "type": "template",
                 "template": "This leads to _____ because _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["frustration among some residents", "better health", "cleaner air"], "correctAnswer": "frustration among some residents"},
-                  {"id": "support12_b2", "options": ["their daily routines are disrupted without adequate alternatives", "they enjoy walking", "pollution decreases"], "correctAnswer": "their daily routines are disrupted without adequate alternatives"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "frustration among some residents",
+                      "better health",
+                      "cleaner air"
+                    ],
+                    "correctAnswer": "frustration among some residents"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "their daily routines are disrupted without adequate alternatives",
+                      "they enjoy walking",
+                      "pollution decreases"
+                    ],
+                    "correctAnswer": "their daily routines are disrupted without adequate alternatives"
+                  }
                 ],
                 "correctSentence": "This leads to frustration among some residents because their daily routines are disrupted without adequate alternatives.",
                 "usableIn": "body-paragraph-2"
@@ -506,9 +1029,33 @@
                 "type": "template",
                 "template": "For instance, _____ in _____ has seen _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Paris", "my city", "a town"], "correctAnswer": "Paris"},
-                  {"id": "example1_b2", "options": ["its monthly car-free days", "traffic jams", "pollution increase"], "correctAnswer": "its monthly car-free days"},
-                  {"id": "example1_b3", "options": ["a 40% reduction in air pollution levels", "more cars", "worse air"], "correctAnswer": "a 40% reduction in air pollution levels"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Paris",
+                      "my city",
+                      "a town"
+                    ],
+                    "correctAnswer": "Paris"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "its monthly car-free days",
+                      "traffic jams",
+                      "pollution increase"
+                    ],
+                    "correctAnswer": "its monthly car-free days"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "a 40% reduction in air pollution levels",
+                      "more cars",
+                      "worse air"
+                    ],
+                    "correctAnswer": "a 40% reduction in air pollution levels"
+                  }
                 ],
                 "correctSentence": "For instance, Paris in its monthly car-free days has seen a 40% reduction in air pollution levels.",
                 "usableIn": "body-paragraph-1"
@@ -518,9 +1065,33 @@
                 "type": "template",
                 "template": "For example, _____ implemented _____ and reported _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Bogotá, Colombia", "a small village", "my neighborhood"], "correctAnswer": "Bogotá, Colombia"},
-                  {"id": "example2_b2", "options": ["weekly vehicle-free Sundays", "more parking", "cheaper fuel"], "correctAnswer": "weekly vehicle-free Sundays"},
-                  {"id": "example2_b3", "options": ["significant improvements in citizen well-being", "increased accidents", "more complaints"], "correctAnswer": "significant improvements in citizen well-being"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Bogotá, Colombia",
+                      "a small village",
+                      "my neighborhood"
+                    ],
+                    "correctAnswer": "Bogotá, Colombia"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "weekly vehicle-free Sundays",
+                      "more parking",
+                      "cheaper fuel"
+                    ],
+                    "correctAnswer": "weekly vehicle-free Sundays"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "significant improvements in citizen well-being",
+                      "increased accidents",
+                      "more complaints"
+                    ],
+                    "correctAnswer": "significant improvements in citizen well-being"
+                  }
                 ],
                 "correctSentence": "For example, Bogotá, Colombia implemented weekly vehicle-free Sundays and reported significant improvements in citizen well-being.",
                 "usableIn": "body-paragraph-1"
@@ -530,9 +1101,33 @@
                 "type": "template",
                 "template": "Specifically, studies show that _____ decrease by _____ on _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["nitrogen dioxide levels", "bus tickets", "street names"], "correctAnswer": "nitrogen dioxide levels"},
-                  {"id": "example3_b2", "options": ["up to 30%", "a small amount", "nothing"], "correctAnswer": "up to 30%"},
-                  {"id": "example3_b3", "options": ["car-free days", "regular days", "weekends"], "correctAnswer": "car-free days"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "nitrogen dioxide levels",
+                      "bus tickets",
+                      "street names"
+                    ],
+                    "correctAnswer": "nitrogen dioxide levels"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "up to 30%",
+                      "a small amount",
+                      "nothing"
+                    ],
+                    "correctAnswer": "up to 30%"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "car-free days",
+                      "regular days",
+                      "weekends"
+                    ],
+                    "correctAnswer": "car-free days"
+                  }
                 ],
                 "correctSentence": "Specifically, studies show that nitrogen dioxide levels decrease by up to 30% on car-free days.",
                 "usableIn": "body-paragraph-1"
@@ -542,9 +1137,33 @@
                 "type": "template",
                 "template": "Research in _____ demonstrates that _____ when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["European cities", "small towns", "rural areas"], "correctAnswer": "European cities"},
-                  {"id": "example4_b2", "options": ["cycling and walking increase by 50%", "pollution rises", "traffic worsens"], "correctAnswer": "cycling and walking increase by 50%"},
-                  {"id": "example4_b3", "options": ["private vehicles are restricted", "cars are encouraged", "parking is free"], "correctAnswer": "private vehicles are restricted"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "European cities",
+                      "small towns",
+                      "rural areas"
+                    ],
+                    "correctAnswer": "European cities"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "cycling and walking increase by 50%",
+                      "pollution rises",
+                      "traffic worsens"
+                    ],
+                    "correctAnswer": "cycling and walking increase by 50%"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "private vehicles are restricted",
+                      "cars are encouraged",
+                      "parking is free"
+                    ],
+                    "correctAnswer": "private vehicles are restricted"
+                  }
                 ],
                 "correctSentence": "Research in European cities demonstrates that cycling and walking increase by 50% when private vehicles are restricted.",
                 "usableIn": "body-paragraph-1"
@@ -554,9 +1173,33 @@
                 "type": "template",
                 "template": "In _____, _____ experience _____ on vehicle-free days.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Brussels", "small villages", "remote areas"], "correctAnswer": "Brussels"},
-                  {"id": "example5_b2", "options": ["residents", "cars", "buildings"], "correctAnswer": "residents"},
-                  {"id": "example5_b3", "options": ["noticeably quieter neighborhoods and cleaner streets", "more noise", "worse conditions"], "correctAnswer": "noticeably quieter neighborhoods and cleaner streets"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Brussels",
+                      "small villages",
+                      "remote areas"
+                    ],
+                    "correctAnswer": "Brussels"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "residents",
+                      "cars",
+                      "buildings"
+                    ],
+                    "correctAnswer": "residents"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "noticeably quieter neighborhoods and cleaner streets",
+                      "more noise",
+                      "worse conditions"
+                    ],
+                    "correctAnswer": "noticeably quieter neighborhoods and cleaner streets"
+                  }
                 ],
                 "correctSentence": "In Brussels, residents experience noticeably quieter neighborhoods and cleaner streets on vehicle-free days.",
                 "usableIn": "body-paragraph-1"
@@ -566,9 +1209,33 @@
                 "type": "template",
                 "template": "However, _____ found that _____ reported _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["a survey in London", "a car company", "a random study"], "correctAnswer": "a survey in London"},
-                  {"id": "example6_b2", "options": ["30% of small business owners", "most cyclists", "young people"], "correctAnswer": "30% of small business owners"},
-                  {"id": "example6_b3", "options": ["difficulties receiving deliveries and serving customers", "increased profits", "better business"], "correctAnswer": "difficulties receiving deliveries and serving customers"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "a survey in London",
+                      "a car company",
+                      "a random study"
+                    ],
+                    "correctAnswer": "a survey in London"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "30% of small business owners",
+                      "most cyclists",
+                      "young people"
+                    ],
+                    "correctAnswer": "30% of small business owners"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "difficulties receiving deliveries and serving customers",
+                      "increased profits",
+                      "better business"
+                    ],
+                    "correctAnswer": "difficulties receiving deliveries and serving customers"
+                  }
                 ],
                 "correctSentence": "However, a survey in London found that 30% of small business owners reported difficulties receiving deliveries and serving customers.",
                 "usableIn": "body-paragraph-2"
@@ -578,9 +1245,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ complained about _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["healthcare workers", "young students", "tourists"], "correctAnswer": "healthcare workers"},
-                  {"id": "example7_b2", "options": ["many professionals", "few people", "nobody"], "correctAnswer": "many professionals"},
-                  {"id": "example7_b3", "options": ["inability to respond to emergencies quickly", "cleaner air", "better streets"], "correctAnswer": "inability to respond to emergencies quickly"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "healthcare workers",
+                      "young students",
+                      "tourists"
+                    ],
+                    "correctAnswer": "healthcare workers"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "many professionals",
+                      "few people",
+                      "nobody"
+                    ],
+                    "correctAnswer": "many professionals"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "inability to respond to emergencies quickly",
+                      "cleaner air",
+                      "better streets"
+                    ],
+                    "correctAnswer": "inability to respond to emergencies quickly"
+                  }
                 ],
                 "correctSentence": "Take healthcare workers as an example: many professionals complained about inability to respond to emergencies quickly.",
                 "usableIn": "body-paragraph-2"
@@ -590,9 +1281,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ face _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["vulnerable groups", "young adults", "tourists"], "correctAnswer": "vulnerable groups"},
-                  {"id": "example8_b2", "options": ["elderly or disabled individuals", "cyclists", "pedestrians"], "correctAnswer": "elderly or disabled individuals"},
-                  {"id": "example8_b3", "options": ["challenges accessing essential services", "better transport", "easier travel"], "correctAnswer": "challenges accessing essential services"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "vulnerable groups",
+                      "young adults",
+                      "tourists"
+                    ],
+                    "correctAnswer": "vulnerable groups"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "elderly or disabled individuals",
+                      "cyclists",
+                      "pedestrians"
+                    ],
+                    "correctAnswer": "elderly or disabled individuals"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "challenges accessing essential services",
+                      "better transport",
+                      "easier travel"
+                    ],
+                    "correctAnswer": "challenges accessing essential services"
+                  }
                 ],
                 "correctSentence": "In particular, vulnerable groups such as elderly or disabled individuals face challenges accessing essential services.",
                 "usableIn": "body-paragraph-2"
@@ -602,9 +1317,33 @@
                 "type": "template",
                 "template": "According to _____, _____ during _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["data from Singapore", "one person", "no source"], "correctAnswer": "data from Singapore"},
-                  {"id": "example9_b2", "options": ["public buses become overcrowded", "streets are empty", "pollution increases"], "correctAnswer": "public buses become overcrowded"},
-                  {"id": "example9_b3", "options": ["vehicle restriction periods", "normal days", "holidays"], "correctAnswer": "vehicle restriction periods"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "data from Singapore",
+                      "one person",
+                      "no source"
+                    ],
+                    "correctAnswer": "data from Singapore"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "public buses become overcrowded",
+                      "streets are empty",
+                      "pollution increases"
+                    ],
+                    "correctAnswer": "public buses become overcrowded"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "vehicle restriction periods",
+                      "normal days",
+                      "holidays"
+                    ],
+                    "correctAnswer": "vehicle restriction periods"
+                  }
                 ],
                 "correctSentence": "According to data from Singapore, public buses become overcrowded during vehicle restriction periods.",
                 "usableIn": "body-paragraph-2"
@@ -614,9 +1353,33 @@
                 "type": "template",
                 "template": "Evidence from _____ suggests that _____ increases _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["Copenhagen", "a small town", "nowhere"], "correctAnswer": "Copenhagen"},
-                  {"id": "example10_b2", "options": ["restricting vehicle access", "allowing more cars", "building roads"], "correctAnswer": "restricting vehicle access"},
-                  {"id": "example10_b3", "options": ["community engagement in outdoor activities", "traffic jams", "pollution levels"], "correctAnswer": "community engagement in outdoor activities"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "Copenhagen",
+                      "a small town",
+                      "nowhere"
+                    ],
+                    "correctAnswer": "Copenhagen"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "restricting vehicle access",
+                      "allowing more cars",
+                      "building roads"
+                    ],
+                    "correctAnswer": "restricting vehicle access"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "community engagement in outdoor activities",
+                      "traffic jams",
+                      "pollution levels"
+                    ],
+                    "correctAnswer": "community engagement in outdoor activities"
+                  }
                 ],
                 "correctSentence": "Evidence from Copenhagen suggests that restricting vehicle access increases community engagement in outdoor activities.",
                 "usableIn": "body-paragraph-1"
@@ -633,8 +1396,24 @@
                 "type": "template",
                 "template": "However, it must be acknowledged that _____ can _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["these restrictions", "better air", "cleaner streets"], "correctAnswer": "these restrictions"},
-                  {"id": "counter1_b2", "options": ["cause genuine hardship for certain individuals", "improve everyone's life", "solve all problems"], "correctAnswer": "cause genuine hardship for certain individuals"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "these restrictions",
+                      "better air",
+                      "cleaner streets"
+                    ],
+                    "correctAnswer": "these restrictions"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "cause genuine hardship for certain individuals",
+                      "improve everyone's life",
+                      "solve all problems"
+                    ],
+                    "correctAnswer": "cause genuine hardship for certain individuals"
+                  }
                 ],
                 "correctSentence": "However, it must be acknowledged that these restrictions can cause genuine hardship for certain individuals.",
                 "usableIn": "body-paragraph-2"
@@ -644,8 +1423,24 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ presents challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["the policy", "pollution reduction", "cleaner air"], "correctAnswer": "the policy"},
-                  {"id": "counter2_b2", "options": ["inadequate public transport capacity", "better health", "improved mobility"], "correctAnswer": "inadequate public transport capacity"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "the policy",
+                      "pollution reduction",
+                      "cleaner air"
+                    ],
+                    "correctAnswer": "the policy"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "inadequate public transport capacity",
+                      "better health",
+                      "improved mobility"
+                    ],
+                    "correctAnswer": "inadequate public transport capacity"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, the policy presents challenges such as inadequate public transport capacity.",
                 "usableIn": "body-paragraph-2"
@@ -655,9 +1450,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ to _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["successful implementation", "pollution", "traffic"], "correctAnswer": "successful implementation"},
-                  {"id": "counter3_b2", "options": ["robust public transportation infrastructure", "fewer buses", "more cars"], "correctAnswer": "robust public transportation infrastructure"},
-                  {"id": "counter3_b3", "options": ["minimize inconvenience to residents", "increase problems", "create chaos"], "correctAnswer": "minimize inconvenience to residents"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "successful implementation",
+                      "pollution",
+                      "traffic"
+                    ],
+                    "correctAnswer": "successful implementation"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "robust public transportation infrastructure",
+                      "fewer buses",
+                      "more cars"
+                    ],
+                    "correctAnswer": "robust public transportation infrastructure"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "minimize inconvenience to residents",
+                      "increase problems",
+                      "create chaos"
+                    ],
+                    "correctAnswer": "minimize inconvenience to residents"
+                  }
                 ],
                 "correctSentence": "Nevertheless, successful implementation requires robust public transportation infrastructure to minimize inconvenience to residents.",
                 "usableIn": "body-paragraph-2"
@@ -667,8 +1486,24 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it also _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["reducing vehicle emissions", "more traffic", "higher costs"], "correctAnswer": "reducing vehicle emissions"},
-                  {"id": "counter4_b2", "options": ["temporarily disrupts commercial activities and personal schedules", "improves everything", "causes no issues"], "correctAnswer": "temporarily disrupts commercial activities and personal schedules"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "reducing vehicle emissions",
+                      "more traffic",
+                      "higher costs"
+                    ],
+                    "correctAnswer": "reducing vehicle emissions"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "temporarily disrupts commercial activities and personal schedules",
+                      "improves everything",
+                      "causes no issues"
+                    ],
+                    "correctAnswer": "temporarily disrupts commercial activities and personal schedules"
+                  }
                 ],
                 "correctSentence": "Although reducing vehicle emissions offers benefits, it also temporarily disrupts commercial activities and personal schedules.",
                 "usableIn": "body-paragraph-2"
@@ -678,8 +1513,24 @@
                 "type": "template",
                 "template": "Critics argue that _____ if not _____ properly.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["the disadvantages can outweigh advantages", "everything works perfectly", "problems disappear"], "correctAnswer": "the disadvantages can outweigh advantages"},
-                  {"id": "counter5_b2", "options": ["planned and supported with adequate alternatives", "ignored", "forgotten"], "correctAnswer": "planned and supported with adequate alternatives"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "the disadvantages can outweigh advantages",
+                      "everything works perfectly",
+                      "problems disappear"
+                    ],
+                    "correctAnswer": "the disadvantages can outweigh advantages"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "planned and supported with adequate alternatives",
+                      "ignored",
+                      "forgotten"
+                    ],
+                    "correctAnswer": "planned and supported with adequate alternatives"
+                  }
                 ],
                 "correctSentence": "Critics argue that the disadvantages can outweigh advantages if not planned and supported with adequate alternatives properly.",
                 "usableIn": "body-paragraph-2"
@@ -696,8 +1547,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["vehicle-free days present some logistical challenges", "everyone is happy", "there are no issues"], "correctAnswer": "vehicle-free days present some logistical challenges"},
-                  {"id": "conclusion1_b2", "options": ["the environmental and health benefits clearly outweigh these temporary inconveniences", "nothing matters", "problems are bigger"], "correctAnswer": "the environmental and health benefits clearly outweigh these temporary inconveniences"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "vehicle-free days present some logistical challenges",
+                      "everyone is happy",
+                      "there are no issues"
+                    ],
+                    "correctAnswer": "vehicle-free days present some logistical challenges"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the environmental and health benefits clearly outweigh these temporary inconveniences",
+                      "nothing matters",
+                      "problems are bigger"
+                    ],
+                    "correctAnswer": "the environmental and health benefits clearly outweigh these temporary inconveniences"
+                  }
                 ],
                 "correctSentence": "In conclusion, while vehicle-free days present some logistical challenges, I believe the environmental and health benefits clearly outweigh these temporary inconveniences.",
                 "usableIn": "conclusion"
@@ -707,10 +1574,42 @@
                 "type": "template",
                 "template": "Overall, _____ provide _____, whereas _____ are _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["the advantages", "cars", "buses"], "correctAnswer": "the advantages"},
-                  {"id": "conclusion2_b2", "options": ["substantial long-term environmental gains", "minor benefits", "no value"], "correctAnswer": "substantial long-term environmental gains"},
-                  {"id": "conclusion2_b3", "options": ["the disadvantages", "the benefits", "the policies"], "correctAnswer": "the disadvantages"},
-                  {"id": "conclusion2_b4", "options": ["primarily short-term inconveniences", "permanent problems", "insurmountable"], "correctAnswer": "primarily short-term inconveniences"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "the advantages",
+                      "cars",
+                      "buses"
+                    ],
+                    "correctAnswer": "the advantages"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "substantial long-term environmental gains",
+                      "minor benefits",
+                      "no value"
+                    ],
+                    "correctAnswer": "substantial long-term environmental gains"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "the disadvantages",
+                      "the benefits",
+                      "the policies"
+                    ],
+                    "correctAnswer": "the disadvantages"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "primarily short-term inconveniences",
+                      "permanent problems",
+                      "insurmountable"
+                    ],
+                    "correctAnswer": "primarily short-term inconveniences"
+                  }
                 ],
                 "correctSentence": "Overall, the advantages provide substantial long-term environmental gains, whereas the disadvantages are primarily short-term inconveniences.",
                 "usableIn": "conclusion"
@@ -720,8 +1619,24 @@
                 "type": "template",
                 "template": "To summarize, _____ despite _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["vehicle-free initiatives represent a positive step toward sustainable cities", "everything is perfect", "no change occurs"], "correctAnswer": "vehicle-free initiatives represent a positive step toward sustainable cities"},
-                  {"id": "conclusion3_b2", "options": ["requiring careful planning to minimize disruption", "having no downsides", "being universally loved"], "correctAnswer": "requiring careful planning to minimize disruption"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "vehicle-free initiatives represent a positive step toward sustainable cities",
+                      "everything is perfect",
+                      "no change occurs"
+                    ],
+                    "correctAnswer": "vehicle-free initiatives represent a positive step toward sustainable cities"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "requiring careful planning to minimize disruption",
+                      "having no downsides",
+                      "being universally loved"
+                    ],
+                    "correctAnswer": "requiring careful planning to minimize disruption"
+                  }
                 ],
                 "correctSentence": "To summarize, vehicle-free initiatives represent a positive step toward sustainable cities despite requiring careful planning to minimize disruption.",
                 "usableIn": "conclusion"
@@ -731,8 +1646,24 @@
                 "type": "template",
                 "template": "Ultimately, _____ when _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["the benefits significantly exceed the drawbacks", "nothing changes", "problems remain"], "correctAnswer": "the benefits significantly exceed the drawbacks"},
-                  {"id": "conclusion4_b2", "options": ["considering the urgent need to address urban pollution", "ignoring all evidence", "focusing only on convenience"], "correctAnswer": "considering the urgent need to address urban pollution"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "the benefits significantly exceed the drawbacks",
+                      "nothing changes",
+                      "problems remain"
+                    ],
+                    "correctAnswer": "the benefits significantly exceed the drawbacks"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "considering the urgent need to address urban pollution",
+                      "ignoring all evidence",
+                      "focusing only on convenience"
+                    ],
+                    "correctAnswer": "considering the urgent need to address urban pollution"
+                  }
                 ],
                 "correctSentence": "Ultimately, the benefits significantly exceed the drawbacks when considering the urgent need to address urban pollution.",
                 "usableIn": "conclusion"
@@ -742,8 +1673,24 @@
                 "type": "template",
                 "template": "On balance, _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["the advantages of this policy outweigh its limitations", "nothing is clear", "problems dominate"], "correctAnswer": "the advantages of this policy outweigh its limitations"},
-                  {"id": "conclusion5_b2", "options": ["improved air quality and reduced emissions benefit entire communities", "some people complain", "it costs money"], "correctAnswer": "improved air quality and reduced emissions benefit entire communities"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "the advantages of this policy outweigh its limitations",
+                      "nothing is clear",
+                      "problems dominate"
+                    ],
+                    "correctAnswer": "the advantages of this policy outweigh its limitations"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "improved air quality and reduced emissions benefit entire communities",
+                      "some people complain",
+                      "it costs money"
+                    ],
+                    "correctAnswer": "improved air quality and reduced emissions benefit entire communities"
+                  }
                 ],
                 "correctSentence": "On balance, the advantages of this policy outweigh its limitations because improved air quality and reduced emissions benefit entire communities.",
                 "usableIn": "conclusion"
@@ -796,12 +1743,44 @@
           }
         ],
         "usefulTransitions": {
-          "introducing_advantages": ["The primary advantage", "One major benefit", "A significant positive impact", "The most important benefit"],
-          "introducing_disadvantages": ["However, a key drawback", "On the negative side", "Nevertheless, there are challenges", "A significant concern"],
-          "adding_points": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "In cities like", "Evidence from", "Research shows"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
-          "acknowledging_but_refuting": ["However", "Nevertheless", "Despite this", "Although", "While this is true"]
+          "introducing_advantages": [
+            "The primary advantage",
+            "One major benefit",
+            "A significant positive impact",
+            "The most important benefit"
+          ],
+          "introducing_disadvantages": [
+            "However, a key drawback",
+            "On the negative side",
+            "Nevertheless, there are challenges",
+            "A significant concern"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "In cities like",
+            "Evidence from",
+            "Research shows"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to"
+          ],
+          "acknowledging_but_refuting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Although",
+            "While this is true"
+          ]
         }
       }
     },

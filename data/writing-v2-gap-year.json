@@ -79,105 +79,151 @@
             "word": "maturity",
             "pronunciation": "/məˈtʃʊərəti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being fully developed mentally or emotionally",
+            "definition": "The quality of being fully developed mentally or emotionally.",
             "example": "A gap year can enhance personal maturity through real-world experiences.",
-            "synonyms": ["development", "growth"]
+            "synonyms": [
+              "development",
+              "growth"
+            ]
           },
           {
             "word": "perspective",
             "pronunciation": "/pəˈspektɪv/",
             "partOfSpeech": "noun",
-            "definition": "A particular way of viewing things",
+            "definition": "A particular way of viewing things.",
             "example": "Traveling during a gap year broadens one's perspective on life.",
-            "synonyms": ["viewpoint", "outlook"]
+            "synonyms": [
+              "viewpoint",
+              "outlook"
+            ]
           },
           {
             "word": "postpone",
             "pronunciation": "/pəʊstˈpəʊn/",
             "partOfSpeech": "verb",
-            "definition": "To delay or put off to a later time",
+            "definition": "To delay or put off to a later time.",
             "example": "Students who postpone university may find it harder to resume studies.",
-            "synonyms": ["delay", "defer"]
+            "synonyms": [
+              "delay",
+              "defer"
+            ]
           },
           {
             "word": "momentum",
             "pronunciation": "/məʊˈmentəm/",
             "partOfSpeech": "noun",
-            "definition": "The impetus gained by movement or progress",
+            "definition": "The impetus gained by movement or progress.",
             "example": "Taking a year off can cause students to lose academic momentum.",
-            "synonyms": ["impetus", "drive"]
+            "synonyms": [
+              "impetus",
+              "drive"
+            ]
           },
           {
             "word": "exposure",
             "pronunciation": "/ɪkˈspəʊʒər/",
             "partOfSpeech": "noun",
-            "definition": "The experience of coming into contact with something",
+            "definition": "The experience of coming into contact with something.",
             "example": "Gap years provide valuable exposure to different cultures and workplaces.",
-            "synonyms": ["experience", "contact"]
+            "synonyms": [
+              "experience",
+              "contact"
+            ]
           },
           {
             "word": "clarify",
             "pronunciation": "/ˈklærɪfaɪ/",
             "partOfSpeech": "verb",
-            "definition": "To make something easier to understand",
+            "definition": "To make something easier to understand.",
             "example": "A gap year helps students clarify their academic and career goals.",
-            "synonyms": ["clear up", "explain"]
+            "synonyms": [
+              "clear up",
+              "explain"
+            ]
           },
           {
             "word": "finances",
             "pronunciation": "/ˈfaɪnænsɪz/",
             "partOfSpeech": "noun",
-            "definition": "Money resources and management",
+            "definition": "Money resources and management.",
             "example": "Working during a gap year can improve students' finances before university.",
-            "synonyms": ["funds", "resources"]
+            "synonyms": [
+              "funds",
+              "resources"
+            ]
           },
           {
             "word": "transition",
             "pronunciation": "/trænˈzɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of changing from one state to another",
+            "definition": "The process of changing from one state to another.",
             "example": "A gap year can smooth the transition from school to university life.",
-            "synonyms": ["change", "shift"]
+            "synonyms": [
+              "change",
+              "shift"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "work experience",
-            "definition": "Practical knowledge gained from employment",
+            "definition": "Practical knowledge gained from employment.",
             "example": "Students gain valuable work experience during their gap year."
           },
           {
             "phrase": "personal development",
-            "definition": "Growth in skills, character, and understanding",
+            "definition": "Growth in skills, character, and understanding.",
             "example": "Travel and volunteering contribute to personal development."
           },
           {
             "phrase": "career goals",
-            "definition": "Professional objectives and aspirations",
+            "definition": "Professional objectives and aspirations.",
             "example": "Gap years help young people clarify their career goals."
           },
           {
             "phrase": "academic momentum",
-            "definition": "The continuity and drive in educational progress",
+            "definition": "The continuity and drive in educational progress.",
             "example": "Some students struggle to regain academic momentum after a gap year."
           },
           {
             "phrase": "life skills",
-            "definition": "Practical abilities needed for everyday living",
+            "definition": "Practical abilities needed for everyday living.",
             "example": "Independence during a gap year develops essential life skills."
           },
           {
             "phrase": "financial burden",
-            "definition": "The strain of expenses and costs",
+            "definition": "The strain of expenses and costs.",
             "example": "Gap year travel can create a financial burden for families."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["Taking a gap year has become", "Many students choose to", "The practice of taking"],
-          "advantages": ["One significant advantage is", "A key benefit is", "On the positive side"],
-          "disadvantages": ["However, a notable drawback is", "On the negative side", "A potential disadvantage is"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "Taking a gap year has become",
+            "Many students choose to",
+            "The practice of taking"
+          ],
+          "advantages": [
+            "One significant advantage is",
+            "A key benefit is",
+            "On the positive side"
+          ],
+          "disadvantages": [
+            "However, a notable drawback is",
+            "On the negative side",
+            "A potential disadvantage is"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -194,7 +240,10 @@
             "clues": {
               "subject": "A gap year",
               "verb": "provide",
-              "keywords": ["valuable experience", "maturity"]
+              "keywords": [
+                "valuable experience",
+                "maturity"
+              ]
             },
             "hint": "Mention how it develops maturity through experience.",
             "modelAnswer": "A gap year provides valuable real-world experience that enhances personal maturity.",
@@ -205,7 +254,11 @@
             "clues": {
               "subject": "Students",
               "verb": "earn",
-              "keywords": ["money", "working", "university costs"]
+              "keywords": [
+                "money",
+                "working",
+                "university costs"
+              ]
             },
             "hint": "Focus on financial benefits of working during gap year.",
             "modelAnswer": "Students can earn money by working during their gap year to cover university costs.",
@@ -216,7 +269,10 @@
             "clues": {
               "subject": "Taking time off",
               "verb": "cause",
-              "keywords": ["lose", "academic momentum"]
+              "keywords": [
+                "lose",
+                "academic momentum"
+              ]
             },
             "hint": "Discuss the negative effect on academic continuity.",
             "modelAnswer": "Taking time off can cause students to lose valuable academic momentum and study habits.",
@@ -227,7 +283,10 @@
             "clues": {
               "subject": "Travel experiences",
               "verb": "broaden",
-              "keywords": ["perspective", "cultural understanding"]
+              "keywords": [
+                "perspective",
+                "cultural understanding"
+              ]
             },
             "hint": "Focus on how travel changes worldview.",
             "modelAnswer": "Travel experiences during gap years broaden students' perspectives and cultural understanding significantly.",
@@ -238,7 +297,10 @@
             "clues": {
               "subject": "Young people",
               "verb": "clarify",
-              "keywords": ["career goals", "before university"]
+              "keywords": [
+                "career goals",
+                "before university"
+              ]
             },
             "hint": "Mention how gap years help with career decisions.",
             "modelAnswer": "Young people can clarify their career goals and academic interests before committing to university.",
@@ -248,31 +310,73 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["gap years", "have", "become", "increasingly", "popular", "among", "students"],
+            "words": [
+              "gap years",
+              "have",
+              "become",
+              "increasingly",
+              "popular",
+              "among",
+              "students"
+            ],
             "correctAnswer": "Gap years have become increasingly popular among students.",
             "hint": "Start with 'Gap years'"
           },
           {
             "id": "scramble2",
-            "words": ["students", "gain", "valuable", "work", "experience", "during", "this", "time"],
+            "words": [
+              "students",
+              "gain",
+              "valuable",
+              "work",
+              "experience",
+              "during",
+              "this",
+              "time"
+            ],
             "correctAnswer": "Students gain valuable work experience during this time.",
             "hint": "Subject is 'Students'"
           },
           {
             "id": "scramble3",
-            "words": ["traveling", "abroad", "broadens", "cultural", "awareness", "and", "understanding"],
+            "words": [
+              "traveling",
+              "abroad",
+              "broadens",
+              "cultural",
+              "awareness",
+              "and",
+              "understanding"
+            ],
             "correctAnswer": "Traveling abroad broadens cultural awareness and understanding.",
             "hint": "'broadens' is the main verb"
           },
           {
             "id": "scramble4",
-            "words": ["some", "students", "struggle", "to", "return to", "academic", "studies"],
+            "words": [
+              "some",
+              "students",
+              "struggle",
+              "to",
+              "return to",
+              "academic",
+              "studies"
+            ],
             "correctAnswer": "Some students struggle to return to academic studies.",
             "hint": "Start with 'Some students'"
           },
           {
             "id": "scramble5",
-            "words": ["a", "gap year", "helps", "young people", "develop", "independence", "and", "maturity"],
+            "words": [
+              "a",
+              "gap year",
+              "helps",
+              "young people",
+              "develop",
+              "independence",
+              "and",
+              "maturity"
+            ],
             "correctAnswer": "A gap year helps young people develop independence and maturity.",
             "hint": "'helps' is the main verb"
           }
@@ -281,35 +385,55 @@
           {
             "id": "blank1",
             "sentence": "Gap years provide valuable _____ to different cultures and workplaces.",
-            "options": ["exposure", "expose", "exposing"],
+            "options": [
+              "exposure",
+              "expose",
+              "exposing"
+            ],
             "correctAnswer": "exposure",
             "explanation": "Use noun 'exposure' after adjective 'valuable'."
           },
           {
             "id": "blank2",
             "sentence": "_____, students may lose academic momentum during the break.",
-            "options": ["However", "Moreover", "Therefore"],
+            "options": [
+              "However",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to introduce a disadvantage after advantages."
           },
           {
             "id": "blank3",
             "sentence": "Traveling abroad _____ students' cultural understanding.",
-            "options": ["broaden", "broadens", "broadening"],
+            "options": [
+              "broaden",
+              "broadens",
+              "broadening"
+            ],
             "correctAnswer": "broadens",
             "explanation": "Gerund subject 'Traveling' is singular, needs 's' on verb."
           },
           {
             "id": "blank4",
             "sentence": "_____ example, students can volunteer in developing countries.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For example' is the correct phrase."
           },
           {
             "id": "blank5",
             "sentence": "Working during a gap year helps students _____ their finances.",
-            "options": ["improve", "improving", "improvement"],
+            "options": [
+              "improve",
+              "improving",
+              "improvement"
+            ],
             "correctAnswer": "improve",
             "explanation": "Use base form 'improve' after 'help' + object."
           }
@@ -359,12 +483,42 @@
           }
         ],
         "usefulTransitions": {
-          "advantages": ["One significant advantage is", "A key benefit is", "On the positive side", "The primary advantage is"],
-          "disadvantages": ["However, a notable drawback is", "On the negative side", "A potential disadvantage is", "Conversely"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "Such as", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
-          "balancing": ["While", "Although", "Despite this", "On the other hand"]
+          "advantages": [
+            "One significant advantage is",
+            "A key benefit is",
+            "On the positive side",
+            "The primary advantage is"
+          ],
+          "disadvantages": [
+            "However, a notable drawback is",
+            "On the negative side",
+            "A potential disadvantage is",
+            "Conversely"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to"
+          ],
+          "balancing": [
+            "While",
+            "Although",
+            "Despite this",
+            "On the other hand"
+          ]
         }
       }
     },

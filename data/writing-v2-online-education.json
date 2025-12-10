@@ -79,105 +79,151 @@
             "word": "accessible",
             "pronunciation": "/əkˈsesəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Easy to reach or obtain",
+            "definition": "Easy to reach or obtain.",
             "example": "Online courses make education more accessible to people in remote areas.",
-            "synonyms": ["available", "obtainable"]
+            "synonyms": [
+              "available",
+              "obtainable"
+            ]
           },
           {
             "word": "self-discipline",
             "pronunciation": "/ˌself ˈdɪsəplɪn/",
             "partOfSpeech": "noun",
-            "definition": "The ability to control one's behavior and work without supervision",
+            "definition": "The ability to control one's behavior and work without supervision.",
             "example": "Online learning requires strong self-discipline to stay motivated.",
-            "synonyms": ["self-control", "willpower"]
+            "synonyms": [
+              "self-control",
+              "willpower"
+            ]
           },
           {
             "word": "interaction",
             "pronunciation": "/ˌɪntərˈækʃən/",
             "partOfSpeech": "noun",
-            "definition": "Communication or direct involvement with others",
+            "definition": "Communication or direct involvement with others.",
             "example": "Virtual classrooms often lack the personal interaction of traditional schools.",
-            "synonyms": ["engagement", "communication"]
+            "synonyms": [
+              "engagement",
+              "communication"
+            ]
           },
           {
             "word": "flexibility",
             "pronunciation": "/ˌfleksəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The ability to adapt or change according to circumstances",
+            "definition": "The ability to adapt or change according to circumstances.",
             "example": "Online education offers flexibility for working professionals.",
-            "synonyms": ["adaptability", "versatility"]
+            "synonyms": [
+              "adaptability",
+              "versatility"
+            ]
           },
           {
             "word": "distractions",
             "pronunciation": "/dɪˈstrækʃənz/",
             "partOfSpeech": "noun",
-            "definition": "Things that prevent concentration or attention",
+            "definition": "Things that prevent concentration or attention.",
             "example": "Home environments often present more distractions than classrooms.",
-            "synonyms": ["interruptions", "disturbances"]
+            "synonyms": [
+              "interruptions",
+              "disturbances"
+            ]
           },
           {
             "word": "comprehensive",
             "pronunciation": "/ˌkɒmprɪˈhensɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Complete and including everything necessary",
+            "definition": "Complete and including everything necessary.",
             "example": "Many online platforms now offer comprehensive degree programs.",
-            "synonyms": ["thorough", "complete"]
+            "synonyms": [
+              "thorough",
+              "complete"
+            ]
           },
           {
             "word": "isolation",
             "pronunciation": "/ˌaɪsəˈleɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Being separated from others",
+            "definition": "Being separated from others.",
             "example": "Students may experience social isolation when studying exclusively online.",
-            "synonyms": ["separation", "seclusion"]
+            "synonyms": [
+              "separation",
+              "seclusion"
+            ]
           },
           {
             "word": "accommodate",
             "pronunciation": "/əˈkɒmədeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To provide what is needed or adapt to suit",
+            "definition": "To provide what is needed or adapt to suit.",
             "example": "Online platforms can accommodate different learning styles and paces.",
-            "synonyms": ["cater to", "adjust to"]
+            "synonyms": [
+              "cater to",
+              "adjust to"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "learning pace",
-            "definition": "The speed at which someone learns",
+            "definition": "The speed at which someone learns.",
             "example": "Students can progress at their own learning pace in online courses."
           },
           {
             "phrase": "virtual classroom",
-            "definition": "An online space where teaching and learning occur",
+            "definition": "An online space where teaching and learning occur.",
             "example": "Virtual classrooms enable students worldwide to attend the same lecture."
           },
           {
             "phrase": "face-to-face instruction",
-            "definition": "Direct, in-person teaching",
+            "definition": "Direct, in-person teaching.",
             "example": "Some subjects benefit more from face-to-face instruction than online delivery."
           },
           {
             "phrase": "technical difficulties",
-            "definition": "Problems with technology or equipment",
+            "definition": "Problems with technology or equipment.",
             "example": "Technical difficulties can disrupt online lessons and frustrate students."
           },
           {
             "phrase": "digital resources",
-            "definition": "Educational materials available electronically",
+            "definition": "Educational materials available electronically.",
             "example": "Online learning provides access to vast digital resources and materials."
           },
           {
             "phrase": "hands-on experience",
-            "definition": "Practical, direct involvement in activities",
+            "definition": "Practical, direct involvement in activities.",
             "example": "Laboratory sciences require hands-on experience that online formats struggle to provide."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The rise of online education has", "Digital learning platforms have", "In recent years"],
-          "advantages": ["One key advantage is", "A significant benefit is", "The primary advantage is"],
-          "disadvantages": ["However, a major drawback is", "On the negative side", "A significant disadvantage is"],
-          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "The rise of online education has",
+            "Digital learning platforms have",
+            "In recent years"
+          ],
+          "advantages": [
+            "One key advantage is",
+            "A significant benefit is",
+            "The primary advantage is"
+          ],
+          "disadvantages": [
+            "However, a major drawback is",
+            "On the negative side",
+            "A significant disadvantage is"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -194,7 +240,10 @@
             "clues": {
               "subject": "Online education",
               "verb": "provide",
-              "keywords": ["accessible", "geographical barriers"]
+              "keywords": [
+                "accessible",
+                "geographical barriers"
+              ]
             },
             "hint": "Mention how it makes education accessible regardless of location.",
             "modelAnswer": "Online education provides accessible learning opportunities regardless of geographical barriers.",
@@ -205,7 +254,10 @@
             "clues": {
               "subject": "Students",
               "verb": "study",
-              "keywords": ["own pace", "flexibility"]
+              "keywords": [
+                "own pace",
+                "flexibility"
+              ]
             },
             "hint": "Use 'at their own pace' and mention flexibility.",
             "modelAnswer": "Students can study at their own pace with greater flexibility in scheduling.",
@@ -216,7 +268,10 @@
             "clues": {
               "subject": "Online learning",
               "verb": "require",
-              "keywords": ["self-discipline", "motivation"]
+              "keywords": [
+                "self-discipline",
+                "motivation"
+              ]
             },
             "hint": "Mention that it demands or requires these qualities.",
             "modelAnswer": "Online learning requires strong self-discipline and consistent motivation from students.",
@@ -227,7 +282,10 @@
             "clues": {
               "subject": "Virtual classrooms",
               "verb": "lack",
-              "keywords": ["social interaction", "traditional schools"]
+              "keywords": [
+                "social interaction",
+                "traditional schools"
+              ]
             },
             "hint": "Compare to what traditional schools provide.",
             "modelAnswer": "Virtual classrooms often lack the social interaction found in traditional school environments.",
@@ -238,7 +296,10 @@
             "clues": {
               "subject": "Digital platforms",
               "verb": "offer",
-              "keywords": ["comprehensive courses", "lower cost"]
+              "keywords": [
+                "comprehensive courses",
+                "lower cost"
+              ]
             },
             "hint": "Mention cost advantages and course variety.",
             "modelAnswer": "Digital platforms offer comprehensive courses at significantly lower costs than traditional institutions.",
@@ -248,31 +309,71 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["online", "education", "has", "transformed", "the way", "people", "learn"],
+            "words": [
+              "online",
+              "education",
+              "has",
+              "transformed",
+              "the way",
+              "people",
+              "learn"
+            ],
             "correctAnswer": "Online education has transformed the way people learn.",
             "hint": "Start with 'Online education'"
           },
           {
             "id": "scramble2",
-            "words": ["students", "can", "access", "lectures", "from", "anywhere", "in the world"],
+            "words": [
+              "students",
+              "can",
+              "access",
+              "lectures",
+              "from",
+              "anywhere",
+              "in the world"
+            ],
             "correctAnswer": "Students can access lectures from anywhere in the world.",
             "hint": "Subject is 'Students'"
           },
           {
             "id": "scramble3",
-            "words": ["technical", "difficulties", "can", "disrupt", "online", "classes", "significantly"],
+            "words": [
+              "technical",
+              "difficulties",
+              "can",
+              "disrupt",
+              "online",
+              "classes",
+              "significantly"
+            ],
             "correctAnswer": "Technical difficulties can disrupt online classes significantly.",
             "hint": "'can disrupt' is the verb phrase"
           },
           {
             "id": "scramble4",
-            "words": ["many", "students", "struggle", "with", "staying", "motivated", "at home"],
+            "words": [
+              "many",
+              "students",
+              "struggle",
+              "with",
+              "staying",
+              "motivated",
+              "at home"
+            ],
             "correctAnswer": "Many students struggle with staying motivated at home.",
             "hint": "Start with 'Many students'"
           },
           {
             "id": "scramble5",
-            "words": ["virtual", "learning", "eliminates", "commuting", "time", "and", "expenses"],
+            "words": [
+              "virtual",
+              "learning",
+              "eliminates",
+              "commuting",
+              "time",
+              "and",
+              "expenses"
+            ],
             "correctAnswer": "Virtual learning eliminates commuting time and expenses.",
             "hint": "Subject is 'Virtual learning'"
           }
@@ -281,35 +382,55 @@
           {
             "id": "blank1",
             "sentence": "Online courses make education more _____ to people worldwide.",
-            "options": ["accessible", "access", "accessing"],
+            "options": [
+              "accessible",
+              "access",
+              "accessing"
+            ],
             "correctAnswer": "accessible",
             "explanation": "Use adjective 'accessible' after 'more'."
           },
           {
             "id": "blank2",
             "sentence": "_____, students studying from home face more distractions.",
-            "options": ["However", "Moreover", "Therefore"],
+            "options": [
+              "However",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to introduce a disadvantage after discussing advantages."
           },
           {
             "id": "blank3",
             "sentence": "Virtual classrooms _____ the social interaction of traditional schools.",
-            "options": ["lack", "lacks", "lacking"],
+            "options": [
+              "lack",
+              "lacks",
+              "lacking"
+            ],
             "correctAnswer": "lack",
             "explanation": "Plural subject 'classrooms' takes base form 'lack'."
           },
           {
             "id": "blank4",
             "sentence": "_____ working professionals, online degrees offer schedule flexibility.",
-            "options": ["For", "To", "At"],
+            "options": [
+              "For",
+              "To",
+              "At"
+            ],
             "correctAnswer": "For",
             "explanation": "'For' indicates who benefits from something."
           },
           {
             "id": "blank5",
             "sentence": "Students must develop strong self-discipline _____ succeed in online learning.",
-            "options": ["to", "for", "in"],
+            "options": [
+              "to",
+              "for",
+              "in"
+            ],
             "correctAnswer": "to",
             "explanation": "Use 'to' + infinitive to show purpose."
           }
@@ -359,12 +480,42 @@
           }
         ],
         "usefulTransitions": {
-          "advantages": ["One key advantage is", "A significant benefit is", "The primary advantage is", "On the positive side"],
-          "disadvantages": ["However, a major drawback is", "On the negative side", "A significant disadvantage is", "Conversely"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the other hand"]
+          "advantages": [
+            "One key advantage is",
+            "A significant benefit is",
+            "The primary advantage is",
+            "On the positive side"
+          ],
+          "disadvantages": [
+            "However, a major drawback is",
+            "On the negative side",
+            "A significant disadvantage is",
+            "Conversely"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the other hand"
+          ]
         }
       }
     },

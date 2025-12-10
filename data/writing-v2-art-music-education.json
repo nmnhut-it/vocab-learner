@@ -80,105 +80,165 @@
             "word": "holistic",
             "pronunciation": "/həˈlɪstɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Characterized by the treatment of the whole person",
+            "definition": "Characterized by the treatment of the whole person.",
             "example": "Arts education contributes to holistic child development beyond academic skills.",
-            "synonyms": ["comprehensive", "complete", "integrated"]
+            "synonyms": [
+              "comprehensive",
+              "complete",
+              "integrated"
+            ]
           },
           {
             "word": "cultivate",
             "pronunciation": "/ˈkʌltɪveɪt/",
             "partOfSpeech": "verb",
-            "definition": "To develop or improve through education or training",
+            "definition": "To develop or improve through education or training.",
             "example": "Music instruction helps cultivate discipline and perseverance in students.",
-            "synonyms": ["develop", "foster", "nurture"]
+            "synonyms": [
+              "develop",
+              "foster",
+              "nurture"
+            ]
           },
           {
             "word": "pragmatic",
             "pronunciation": "/præɡˈmætɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Dealing with things in a practical rather than theoretical way",
+            "definition": "Dealing with things in a practical rather than theoretical way.",
             "example": "Schools must take a pragmatic approach to curriculum given limited resources.",
-            "synonyms": ["practical", "realistic", "sensible"]
+            "synonyms": [
+              "practical",
+              "realistic",
+              "sensible"
+            ]
           },
           {
             "word": "proficiency",
             "pronunciation": "/prəˈfɪʃənsi/",
             "partOfSpeech": "noun",
-            "definition": "A high degree of skill or expertise",
+            "definition": "A high degree of skill or expertise.",
             "example": "Mathematical proficiency is essential for many career paths today.",
-            "synonyms": ["competence", "expertise", "mastery"]
+            "synonyms": [
+              "competence",
+              "expertise",
+              "mastery"
+            ]
           },
           {
             "word": "enhance",
             "pronunciation": "/ɪnˈhɑːns/",
             "partOfSpeech": "verb",
-            "definition": "To increase or improve in quality, value, or extent",
+            "definition": "To increase or improve in quality, value, or extent.",
             "example": "Artistic activities enhance cognitive development and problem-solving abilities.",
-            "synonyms": ["improve", "augment", "boost"]
+            "synonyms": [
+              "improve",
+              "augment",
+              "boost"
+            ]
           },
           {
             "word": "foundational",
             "pronunciation": "/faʊnˈdeɪʃənəl/",
             "partOfSpeech": "adjective",
-            "definition": "Forming a necessary base or core",
+            "definition": "Forming a necessary base or core.",
             "example": "Science and mathematics provide foundational knowledge for technological advancement.",
-            "synonyms": ["fundamental", "basic", "essential"]
+            "synonyms": [
+              "fundamental",
+              "basic",
+              "essential"
+            ]
           },
           {
             "word": "expressive",
             "pronunciation": "/ɪkˈspresɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Effectively conveying thoughts or feelings",
+            "definition": "Effectively conveying thoughts or feelings.",
             "example": "Art provides expressive outlets for emotional development in children.",
-            "synonyms": ["communicative", "demonstrative", "articulate"]
+            "synonyms": [
+              "communicative",
+              "demonstrative",
+              "articulate"
+            ]
           },
           {
             "word": "allocate",
             "pronunciation": "/ˈæləkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To distribute resources for a particular purpose",
+            "definition": "To distribute resources for a particular purpose.",
             "example": "Schools must carefully allocate limited instructional time among subjects.",
-            "synonyms": ["assign", "distribute", "designate"]
+            "synonyms": [
+              "assign",
+              "distribute",
+              "designate"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "well-rounded education",
-            "definition": "Comprehensive learning across diverse subjects",
+            "definition": "Comprehensive learning across diverse subjects.",
             "example": "Arts contribute to a well-rounded education that develops multiple intelligences."
           },
           {
             "phrase": "creative thinking",
-            "definition": "The ability to generate innovative ideas and solutions",
+            "definition": "The ability to generate innovative ideas and solutions.",
             "example": "Music and art education foster creative thinking skills applicable across disciplines."
           },
           {
             "phrase": "career prospects",
-            "definition": "Future employment opportunities and advancement potential",
+            "definition": "Future employment opportunities and advancement potential.",
             "example": "Strong science and math skills improve students' career prospects significantly."
           },
           {
             "phrase": "cognitive development",
-            "definition": "Growth of intellectual abilities and mental processes",
+            "definition": "Growth of intellectual abilities and mental processes.",
             "example": "Research shows musical training enhances cognitive development in young children."
           },
           {
             "phrase": "core curriculum",
-            "definition": "Essential subjects required in educational programs",
+            "definition": "Essential subjects required in educational programs.",
             "example": "Mathematics and science form the core curriculum in most educational systems."
           },
           {
             "phrase": "emotional intelligence",
-            "definition": "The capacity to understand and manage emotions",
+            "definition": "The capacity to understand and manage emotions.",
             "example": "Artistic expression helps develop emotional intelligence and self-awareness."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "Educators have differing views regarding", "While some advocate"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "Specifically"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+          "introducing": [
+            "There is ongoing debate about",
+            "Educators have differing views regarding",
+            "While some advocate"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In my view"
+          ]
         }
       }
     },
@@ -201,8 +261,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["art and music are essential for holistic education", "creative subjects are important", "students should study arts"], "correctAnswer": "art and music are essential for holistic education"},
-                  {"id": "thesis1_b2", "options": ["academic subjects provide more practical career benefits", "science is more useful", "math matters more"], "correctAnswer": "academic subjects provide more practical career benefits"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "art and music are essential for holistic education",
+                      "creative subjects are important",
+                      "students should study arts"
+                    ],
+                    "correctAnswer": "art and music are essential for holistic education"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "academic subjects provide more practical career benefits",
+                      "science is more useful",
+                      "math matters more"
+                    ],
+                    "correctAnswer": "academic subjects provide more practical career benefits"
+                  }
                 ],
                 "correctSentence": "While some believe art and music are essential for holistic education, others argue that academic subjects provide more practical career benefits.",
                 "usableIn": "introduction"
@@ -212,8 +288,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the ideal curriculum balance", "what students study", "school priorities"], "correctAnswer": "the ideal curriculum balance"},
-                  {"id": "thesis2_b2", "options": ["educational goals and available resources", "school budgets", "teacher preferences"], "correctAnswer": "educational goals and available resources"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the ideal curriculum balance",
+                      "what students study",
+                      "school priorities"
+                    ],
+                    "correctAnswer": "the ideal curriculum balance"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "educational goals and available resources",
+                      "school budgets",
+                      "teacher preferences"
+                    ],
+                    "correctAnswer": "educational goals and available resources"
+                  }
                 ],
                 "correctSentence": "In my opinion, the ideal curriculum balance depends on educational goals and available resources.",
                 "usableIn": "introduction"
@@ -223,8 +315,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["schools should mandate arts education", "art should be taught", "creative subjects are needed"], "correctAnswer": "schools should mandate arts education"},
-                  {"id": "thesis3_b2", "options": ["prioritize scientific and mathematical proficiency", "focus on academics", "emphasize traditional subjects"], "correctAnswer": "prioritize scientific and mathematical proficiency"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "schools should mandate arts education",
+                      "art should be taught",
+                      "creative subjects are needed"
+                    ],
+                    "correctAnswer": "schools should mandate arts education"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "prioritize scientific and mathematical proficiency",
+                      "focus on academics",
+                      "emphasize traditional subjects"
+                    ],
+                    "correctAnswer": "prioritize scientific and mathematical proficiency"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether schools should mandate arts education or prioritize scientific and mathematical proficiency.",
                 "usableIn": "introduction"
@@ -234,8 +342,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["both creative and academic subjects merit inclusion", "all subjects are valuable", "schools need balance"], "correctAnswer": "both creative and academic subjects merit inclusion"},
-                  {"id": "thesis4_b2", "options": ["comprehensive education develops diverse student capabilities", "students need different skills", "learning varies"], "correctAnswer": "comprehensive education develops diverse student capabilities"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "both creative and academic subjects merit inclusion",
+                      "all subjects are valuable",
+                      "schools need balance"
+                    ],
+                    "correctAnswer": "both creative and academic subjects merit inclusion"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "comprehensive education develops diverse student capabilities",
+                      "students need different skills",
+                      "learning varies"
+                    ],
+                    "correctAnswer": "comprehensive education develops diverse student capabilities"
+                  }
                 ],
                 "correctSentence": "From my perspective, both creative and academic subjects merit inclusion because comprehensive education develops diverse student capabilities.",
                 "usableIn": "introduction"
@@ -245,8 +369,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives on curriculum priorities", "different viewpoints", "various opinions"], "correctAnswer": "both perspectives on curriculum priorities"},
-                  {"id": "thesis5_b2", "options": ["schools should balance artistic and academic instruction", "both are important", "balance is needed"], "correctAnswer": "schools should balance artistic and academic instruction"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives on curriculum priorities",
+                      "different viewpoints",
+                      "various opinions"
+                    ],
+                    "correctAnswer": "both perspectives on curriculum priorities"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "schools should balance artistic and academic instruction",
+                      "both are important",
+                      "balance is needed"
+                    ],
+                    "correctAnswer": "schools should balance artistic and academic instruction"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives on curriculum priorities before concluding that schools should balance artistic and academic instruction.",
                 "usableIn": "introduction"
@@ -263,8 +403,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["mandatory arts education", "teaching art", "creative instruction"], "correctAnswer": "mandatory arts education"},
-                  {"id": "topic1_b2", "options": ["crucial benefits for student development", "important skills", "valuable learning"], "correctAnswer": "crucial benefits for student development"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "mandatory arts education",
+                      "teaching art",
+                      "creative instruction"
+                    ],
+                    "correctAnswer": "mandatory arts education"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "crucial benefits for student development",
+                      "important skills",
+                      "valuable learning"
+                    ],
+                    "correctAnswer": "crucial benefits for student development"
+                  }
                 ],
                 "correctSentence": "On the one hand, mandatory arts education provides crucial benefits for student development.",
                 "usableIn": "body-paragraph-1"
@@ -274,8 +430,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["prioritizing academic subjects", "teaching science", "focusing on math"], "correctAnswer": "prioritizing academic subjects"},
-                  {"id": "topic2_b2", "options": ["tangible advantages for future career success", "practical benefits", "useful skills"], "correctAnswer": "tangible advantages for future career success"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "prioritizing academic subjects",
+                      "teaching science",
+                      "focusing on math"
+                    ],
+                    "correctAnswer": "prioritizing academic subjects"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "tangible advantages for future career success",
+                      "practical benefits",
+                      "useful skills"
+                    ],
+                    "correctAnswer": "tangible advantages for future career success"
+                  }
                 ],
                 "correctSentence": "On the other hand, prioritizing academic subjects offers tangible advantages for future career success.",
                 "usableIn": "body-paragraph-2"
@@ -285,8 +457,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["compulsory art and music instruction", "teaching creativity", "arts classes"], "correctAnswer": "compulsory art and music instruction"},
-                  {"id": "topic3_b2", "options": ["the development of creative and emotional intelligence", "student creativity", "artistic skills"], "correctAnswer": "the development of creative and emotional intelligence"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "compulsory art and music instruction",
+                      "teaching creativity",
+                      "arts classes"
+                    ],
+                    "correctAnswer": "compulsory art and music instruction"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the development of creative and emotional intelligence",
+                      "student creativity",
+                      "artistic skills"
+                    ],
+                    "correctAnswer": "the development of creative and emotional intelligence"
+                  }
                 ],
                 "correctSentence": "One significant advantage of compulsory art and music instruction is the development of creative and emotional intelligence.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +484,24 @@
                 "type": "template",
                 "template": "A key benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["emphasizing science and mathematics", "teaching academics", "focusing on core subjects"], "correctAnswer": "emphasizing science and mathematics"},
-                  {"id": "topic4_b2", "options": ["students acquire foundational skills for modern careers", "children learn useful things", "knowledge improves"], "correctAnswer": "students acquire foundational skills for modern careers"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "emphasizing science and mathematics",
+                      "teaching academics",
+                      "focusing on core subjects"
+                    ],
+                    "correctAnswer": "emphasizing science and mathematics"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "students acquire foundational skills for modern careers",
+                      "children learn useful things",
+                      "knowledge improves"
+                    ],
+                    "correctAnswer": "students acquire foundational skills for modern careers"
+                  }
                 ],
                 "correctSentence": "A key benefit of emphasizing science and mathematics is that students acquire foundational skills for modern careers.",
                 "usableIn": "body-paragraph-2"
@@ -307,9 +511,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Advocates of arts education", "Some educators", "Many people"], "correctAnswer": "Advocates of arts education"},
-                  {"id": "topic5_b2", "options": ["exposure to creative subjects", "learning art", "studying music"], "correctAnswer": "exposure to creative subjects"},
-                  {"id": "topic5_b3", "options": ["cultivating well-rounded individuals", "student development", "good education"], "correctAnswer": "cultivating well-rounded individuals"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Advocates of arts education",
+                      "Some educators",
+                      "Many people"
+                    ],
+                    "correctAnswer": "Advocates of arts education"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "exposure to creative subjects",
+                      "learning art",
+                      "studying music"
+                    ],
+                    "correctAnswer": "exposure to creative subjects"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "cultivating well-rounded individuals",
+                      "student development",
+                      "good education"
+                    ],
+                    "correctAnswer": "cultivating well-rounded individuals"
+                  }
                 ],
                 "correctSentence": "Advocates of arts education argue that exposure to creative subjects is essential for cultivating well-rounded individuals.",
                 "usableIn": "body-paragraph-1"
@@ -319,9 +547,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Supporters of academic focus", "Those favoring science", "Many educators"], "correctAnswer": "Supporters of academic focus"},
-                  {"id": "topic6_b2", "options": ["strong grounding in core academic disciplines", "learning math and science", "academic knowledge"], "correctAnswer": "strong grounding in core academic disciplines"},
-                  {"id": "topic6_b3", "options": ["students' career prospects and economic opportunities", "future success", "job chances"], "correctAnswer": "students' career prospects and economic opportunities"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Supporters of academic focus",
+                      "Those favoring science",
+                      "Many educators"
+                    ],
+                    "correctAnswer": "Supporters of academic focus"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "strong grounding in core academic disciplines",
+                      "learning math and science",
+                      "academic knowledge"
+                    ],
+                    "correctAnswer": "strong grounding in core academic disciplines"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "students' career prospects and economic opportunities",
+                      "future success",
+                      "job chances"
+                    ],
+                    "correctAnswer": "students' career prospects and economic opportunities"
+                  }
                 ],
                 "correctSentence": "Supporters of academic focus contend that strong grounding in core academic disciplines enhances students' career prospects and economic opportunities.",
                 "usableIn": "body-paragraph-2"
@@ -331,8 +583,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["requiring artistic instruction", "arts education", "creative subjects"], "correctAnswer": "requiring artistic instruction"},
-                  {"id": "topic7_b2", "options": ["fostering creativity and self-expression in all students", "developing talent", "teaching art skills"], "correctAnswer": "fostering creativity and self-expression in all students"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "requiring artistic instruction",
+                      "arts education",
+                      "creative subjects"
+                    ],
+                    "correctAnswer": "requiring artistic instruction"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "fostering creativity and self-expression in all students",
+                      "developing talent",
+                      "teaching art skills"
+                    ],
+                    "correctAnswer": "fostering creativity and self-expression in all students"
+                  }
                 ],
                 "correctSentence": "The primary advantage of requiring artistic instruction is fostering creativity and self-expression in all students.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +610,24 @@
                 "type": "template",
                 "template": "A major consideration is that _____ face _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["students without mathematical and scientific literacy", "children lacking skills", "pupils missing knowledge"], "correctAnswer": "students without mathematical and scientific literacy"},
-                  {"id": "topic8_b2", "options": ["significant barriers in competitive job markets", "employment challenges", "career difficulties"], "correctAnswer": "significant barriers in competitive job markets"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "students without mathematical and scientific literacy",
+                      "children lacking skills",
+                      "pupils missing knowledge"
+                    ],
+                    "correctAnswer": "students without mathematical and scientific literacy"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "significant barriers in competitive job markets",
+                      "employment challenges",
+                      "career difficulties"
+                    ],
+                    "correctAnswer": "significant barriers in competitive job markets"
+                  }
                 ],
                 "correctSentence": "A major consideration is that students without mathematical and scientific literacy face significant barriers in competitive job markets.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +644,24 @@
                 "type": "template",
                 "template": "This is because _____ enables students to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["engagement with music and art", "creative learning", "artistic study"], "correctAnswer": "engagement with music and art"},
-                  {"id": "support1_b2", "options": ["develop cognitive abilities and emotional awareness", "learn creativity", "express themselves"], "correctAnswer": "develop cognitive abilities and emotional awareness"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "engagement with music and art",
+                      "creative learning",
+                      "artistic study"
+                    ],
+                    "correctAnswer": "engagement with music and art"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "develop cognitive abilities and emotional awareness",
+                      "learn creativity",
+                      "express themselves"
+                    ],
+                    "correctAnswer": "develop cognitive abilities and emotional awareness"
+                  }
                 ],
                 "correctSentence": "This is because engagement with music and art enables students to develop cognitive abilities and emotional awareness.",
                 "usableIn": "body-paragraph-1"
@@ -371,8 +671,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["mathematical and scientific proficiency", "academic knowledge", "core subject mastery"], "correctAnswer": "mathematical and scientific proficiency"},
-                  {"id": "support2_b2", "options": ["greater access to high-paying technical careers", "better jobs", "career success"], "correctAnswer": "greater access to high-paying technical careers"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "mathematical and scientific proficiency",
+                      "academic knowledge",
+                      "core subject mastery"
+                    ],
+                    "correctAnswer": "mathematical and scientific proficiency"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "greater access to high-paying technical careers",
+                      "better jobs",
+                      "career success"
+                    ],
+                    "correctAnswer": "greater access to high-paying technical careers"
+                  }
                 ],
                 "correctSentence": "The main reason is that mathematical and scientific proficiency leads to greater access to high-paying technical careers.",
                 "usableIn": "body-paragraph-2"
@@ -382,9 +698,33 @@
                 "type": "template",
                 "template": "_____ allows children to _____ that _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Artistic expression", "Learning art", "Creative activities"], "correctAnswer": "Artistic expression"},
-                  {"id": "support3_b2", "options": ["explore emotions and ideas", "be creative", "make things"], "correctAnswer": "explore emotions and ideas"},
-                  {"id": "support3_b3", "options": ["cannot be conveyed through traditional academics alone", "are important", "help development"], "correctAnswer": "cannot be conveyed through traditional academics alone"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Artistic expression",
+                      "Learning art",
+                      "Creative activities"
+                    ],
+                    "correctAnswer": "Artistic expression"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "explore emotions and ideas",
+                      "be creative",
+                      "make things"
+                    ],
+                    "correctAnswer": "explore emotions and ideas"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "cannot be conveyed through traditional academics alone",
+                      "are important",
+                      "help development"
+                    ],
+                    "correctAnswer": "cannot be conveyed through traditional academics alone"
+                  }
                 ],
                 "correctSentence": "Artistic expression allows children to explore emotions and ideas that cannot be conveyed through traditional academics alone.",
                 "usableIn": "body-paragraph-1"
@@ -394,9 +734,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Rigorous academic training", "Science education", "Math learning"], "correctAnswer": "Rigorous academic training"},
-                  {"id": "support4_b2", "options": ["analytical thinking and problem-solving skills", "logical reasoning", "critical abilities"], "correctAnswer": "analytical thinking and problem-solving skills"},
-                  {"id": "support4_b3", "options": ["success in technology-driven economies", "modern careers", "future work"], "correctAnswer": "success in technology-driven economies"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Rigorous academic training",
+                      "Science education",
+                      "Math learning"
+                    ],
+                    "correctAnswer": "Rigorous academic training"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "analytical thinking and problem-solving skills",
+                      "logical reasoning",
+                      "critical abilities"
+                    ],
+                    "correctAnswer": "analytical thinking and problem-solving skills"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "success in technology-driven economies",
+                      "modern careers",
+                      "future work"
+                    ],
+                    "correctAnswer": "success in technology-driven economies"
+                  }
                 ],
                 "correctSentence": "Rigorous academic training fosters analytical thinking and problem-solving skills, which is crucial for success in technology-driven economies.",
                 "usableIn": "body-paragraph-2"
@@ -406,8 +770,24 @@
                 "type": "template",
                 "template": "By _____, schools can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["making arts compulsory", "requiring creative subjects", "mandating music and art"], "correctAnswer": "making arts compulsory"},
-                  {"id": "support5_b2", "options": ["ensure all students develop holistic capabilities", "teach everyone creativity", "provide complete education"], "correctAnswer": "ensure all students develop holistic capabilities"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "making arts compulsory",
+                      "requiring creative subjects",
+                      "mandating music and art"
+                    ],
+                    "correctAnswer": "making arts compulsory"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "ensure all students develop holistic capabilities",
+                      "teach everyone creativity",
+                      "provide complete education"
+                    ],
+                    "correctAnswer": "ensure all students develop holistic capabilities"
+                  }
                 ],
                 "correctSentence": "By making arts compulsory, schools can ensure all students develop holistic capabilities.",
                 "usableIn": "body-paragraph-1"
@@ -417,9 +797,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Emphasis on core academics", "Academic focus", "Science priority"], "correctAnswer": "Emphasis on core academics"},
-                  {"id": "support6_b2", "options": ["students' competitive positioning", "career readiness", "future prospects"], "correctAnswer": "students' competitive positioning"},
-                  {"id": "support6_b3", "options": ["building universally valued technical competencies", "teaching important skills", "providing knowledge"], "correctAnswer": "building universally valued technical competencies"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Emphasis on core academics",
+                      "Academic focus",
+                      "Science priority"
+                    ],
+                    "correctAnswer": "Emphasis on core academics"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "students' competitive positioning",
+                      "career readiness",
+                      "future prospects"
+                    ],
+                    "correctAnswer": "students' competitive positioning"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "building universally valued technical competencies",
+                      "teaching important skills",
+                      "providing knowledge"
+                    ],
+                    "correctAnswer": "building universally valued technical competencies"
+                  }
                 ],
                 "correctSentence": "Emphasis on core academics strengthens students' competitive positioning through building universally valued technical competencies.",
                 "usableIn": "body-paragraph-2"
@@ -429,8 +833,24 @@
                 "type": "template",
                 "template": "Musical and artistic training contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["enhanced brain development", "better thinking", "cognitive growth"], "correctAnswer": "enhanced brain development"},
-                  {"id": "support7_b2", "options": ["activating neural pathways associated with creativity and memory", "stimulating the brain", "improving cognition"], "correctAnswer": "activating neural pathways associated with creativity and memory"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "enhanced brain development",
+                      "better thinking",
+                      "cognitive growth"
+                    ],
+                    "correctAnswer": "enhanced brain development"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "activating neural pathways associated with creativity and memory",
+                      "stimulating the brain",
+                      "improving cognition"
+                    ],
+                    "correctAnswer": "activating neural pathways associated with creativity and memory"
+                  }
                 ],
                 "correctSentence": "Musical and artistic training contributes to enhanced brain development by activating neural pathways associated with creativity and memory.",
                 "usableIn": "body-paragraph-1"
@@ -440,8 +860,24 @@
                 "type": "template",
                 "template": "Academic subjects promote _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["quantifiable knowledge and skills", "measurable abilities", "testable competencies"], "correctAnswer": "quantifiable knowledge and skills"},
-                  {"id": "support8_b2", "options": ["employers actively seek when hiring graduates", "companies value", "jobs require"], "correctAnswer": "employers actively seek when hiring graduates"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "quantifiable knowledge and skills",
+                      "measurable abilities",
+                      "testable competencies"
+                    ],
+                    "correctAnswer": "quantifiable knowledge and skills"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "employers actively seek when hiring graduates",
+                      "companies value",
+                      "jobs require"
+                    ],
+                    "correctAnswer": "employers actively seek when hiring graduates"
+                  }
                 ],
                 "correctSentence": "Academic subjects promote quantifiable knowledge and skills that employers actively seek when hiring graduates.",
                 "usableIn": "body-paragraph-2"
@@ -451,9 +887,33 @@
                 "type": "template",
                 "template": "_____ provides students with _____ beyond _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Comprehensive arts education", "Creative learning", "Artistic study"], "correctAnswer": "Comprehensive arts education"},
-                  {"id": "support9_b2", "options": ["valuable life skills and cultural awareness", "important abilities", "useful knowledge"], "correctAnswer": "valuable life skills and cultural awareness"},
-                  {"id": "support9_b3", "options": ["narrow academic achievement", "test scores", "grades"], "correctAnswer": "narrow academic achievement"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Comprehensive arts education",
+                      "Creative learning",
+                      "Artistic study"
+                    ],
+                    "correctAnswer": "Comprehensive arts education"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "valuable life skills and cultural awareness",
+                      "important abilities",
+                      "useful knowledge"
+                    ],
+                    "correctAnswer": "valuable life skills and cultural awareness"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "narrow academic achievement",
+                      "test scores",
+                      "grades"
+                    ],
+                    "correctAnswer": "narrow academic achievement"
+                  }
                 ],
                 "correctSentence": "Comprehensive arts education provides students with valuable life skills and cultural awareness beyond narrow academic achievement.",
                 "usableIn": "body-paragraph-1"
@@ -463,8 +923,24 @@
                 "type": "template",
                 "template": "In competitive economies, _____ increasingly require _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["high-paying careers", "good jobs", "employment opportunities"], "correctAnswer": "high-paying careers"},
-                  {"id": "support10_b2", "options": ["strong mathematical and scientific foundations", "technical knowledge", "academic skills"], "correctAnswer": "strong mathematical and scientific foundations"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "high-paying careers",
+                      "good jobs",
+                      "employment opportunities"
+                    ],
+                    "correctAnswer": "high-paying careers"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "strong mathematical and scientific foundations",
+                      "technical knowledge",
+                      "academic skills"
+                    ],
+                    "correctAnswer": "strong mathematical and scientific foundations"
+                  }
                 ],
                 "correctSentence": "In competitive economies, high-paying careers increasingly require strong mathematical and scientific foundations.",
                 "usableIn": "body-paragraph-2"
@@ -474,8 +950,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["students exposed to arts", "children learning creativity", "pupils studying music"], "correctAnswer": "students exposed to arts"},
-                  {"id": "support11_b2", "options": ["improved self-confidence and communication abilities", "better skills", "enhanced development"], "correctAnswer": "improved self-confidence and communication abilities"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "students exposed to arts",
+                      "children learning creativity",
+                      "pupils studying music"
+                    ],
+                    "correctAnswer": "students exposed to arts"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "improved self-confidence and communication abilities",
+                      "better skills",
+                      "enhanced development"
+                    ],
+                    "correctAnswer": "improved self-confidence and communication abilities"
+                  }
                 ],
                 "correctSentence": "As a result, students exposed to arts experience improved self-confidence and communication abilities.",
                 "usableIn": "body-paragraph-1"
@@ -485,9 +977,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ for students with _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["university admission and career advancement", "academic success", "future opportunities"], "correctAnswer": "university admission and career advancement"},
-                  {"id": "support12_b2", "options": ["more accessible", "easier", "better"], "correctAnswer": "more accessible"},
-                  {"id": "support12_b3", "options": ["strong academic credentials in core subjects", "good grades", "test scores"], "correctAnswer": "strong academic credentials in core subjects"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "university admission and career advancement",
+                      "academic success",
+                      "future opportunities"
+                    ],
+                    "correctAnswer": "university admission and career advancement"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "more accessible",
+                      "easier",
+                      "better"
+                    ],
+                    "correctAnswer": "more accessible"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "strong academic credentials in core subjects",
+                      "good grades",
+                      "test scores"
+                    ],
+                    "correctAnswer": "strong academic credentials in core subjects"
+                  }
                 ],
                 "correctSentence": "Consequently, university admission and career advancement tends to be more accessible for students with strong academic credentials in core subjects.",
                 "usableIn": "body-paragraph-2"
@@ -504,9 +1020,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ through _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["students learning music", "children in art class", "pupils studying creativity"], "correctAnswer": "students learning music"},
-                  {"id": "example1_b2", "options": ["develop discipline and perseverance", "gain useful skills", "improve abilities"], "correctAnswer": "develop discipline and perseverance"},
-                  {"id": "example1_b3", "options": ["regular practice and performance preparation", "hard work", "dedication"], "correctAnswer": "regular practice and performance preparation"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "students learning music",
+                      "children in art class",
+                      "pupils studying creativity"
+                    ],
+                    "correctAnswer": "students learning music"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "develop discipline and perseverance",
+                      "gain useful skills",
+                      "improve abilities"
+                    ],
+                    "correctAnswer": "develop discipline and perseverance"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "regular practice and performance preparation",
+                      "hard work",
+                      "dedication"
+                    ],
+                    "correctAnswer": "regular practice and performance preparation"
+                  }
                 ],
                 "correctSentence": "For instance, students learning music can develop discipline and perseverance through regular practice and performance preparation.",
                 "usableIn": "body-paragraph-1"
@@ -516,9 +1056,33 @@
                 "type": "template",
                 "template": "For example, _____ in fields like _____ require _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["most careers", "many jobs", "employment opportunities"], "correctAnswer": "most careers"},
-                  {"id": "example2_b2", "options": ["engineering, medicine, and technology", "science and computers", "technical work"], "correctAnswer": "engineering, medicine, and technology"},
-                  {"id": "example2_b3", "options": ["strong foundations in mathematics and science", "academic knowledge", "technical skills"], "correctAnswer": "strong foundations in mathematics and science"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "most careers",
+                      "many jobs",
+                      "employment opportunities"
+                    ],
+                    "correctAnswer": "most careers"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "engineering, medicine, and technology",
+                      "science and computers",
+                      "technical work"
+                    ],
+                    "correctAnswer": "engineering, medicine, and technology"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "strong foundations in mathematics and science",
+                      "academic knowledge",
+                      "technical skills"
+                    ],
+                    "correctAnswer": "strong foundations in mathematics and science"
+                  }
                 ],
                 "correctSentence": "For example, most careers in fields like engineering, medicine, and technology require strong foundations in mathematics and science.",
                 "usableIn": "body-paragraph-2"
@@ -528,9 +1092,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in _____ have shown that _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["research studies", "investigations", "experiments"], "correctAnswer": "research studies"},
-                  {"id": "example3_b2", "options": ["neuroscience and psychology", "science", "education"], "correctAnswer": "neuroscience and psychology"},
-                  {"id": "example3_b3", "options": ["musical training enhances spatial reasoning and mathematical abilities", "music helps learning", "arts improve skills"], "correctAnswer": "musical training enhances spatial reasoning and mathematical abilities"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "research studies",
+                      "investigations",
+                      "experiments"
+                    ],
+                    "correctAnswer": "research studies"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "neuroscience and psychology",
+                      "science",
+                      "education"
+                    ],
+                    "correctAnswer": "neuroscience and psychology"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "musical training enhances spatial reasoning and mathematical abilities",
+                      "music helps learning",
+                      "arts improve skills"
+                    ],
+                    "correctAnswer": "musical training enhances spatial reasoning and mathematical abilities"
+                  }
                 ],
                 "correctSentence": "Specifically, research studies in neuroscience and psychology have shown that musical training enhances spatial reasoning and mathematical abilities.",
                 "usableIn": "body-paragraph-1"
@@ -540,10 +1128,42 @@
                 "type": "template",
                 "template": "Data shows that _____ with _____ have _____ than _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["graduates", "students", "young people"], "correctAnswer": "graduates"},
-                  {"id": "example4_b2", "options": ["strong STEM qualifications", "science degrees", "technical skills"], "correctAnswer": "strong STEM qualifications"},
-                  {"id": "example4_b3", "options": ["significantly higher earning potential", "better salaries", "more income"], "correctAnswer": "significantly higher earning potential"},
-                  {"id": "example4_b4", "options": ["those with arts-focused education", "other graduates", "non-technical people"], "correctAnswer": "those with arts-focused education"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "graduates",
+                      "students",
+                      "young people"
+                    ],
+                    "correctAnswer": "graduates"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "strong STEM qualifications",
+                      "science degrees",
+                      "technical skills"
+                    ],
+                    "correctAnswer": "strong STEM qualifications"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "significantly higher earning potential",
+                      "better salaries",
+                      "more income"
+                    ],
+                    "correctAnswer": "significantly higher earning potential"
+                  },
+                  {
+                    "id": "example4_b4",
+                    "options": [
+                      "those with arts-focused education",
+                      "other graduates",
+                      "non-technical people"
+                    ],
+                    "correctAnswer": "those with arts-focused education"
+                  }
                 ],
                 "correctSentence": "Data shows that graduates with strong STEM qualifications have significantly higher earning potential than those with arts-focused education.",
                 "usableIn": "body-paragraph-2"
@@ -553,10 +1173,42 @@
                 "type": "template",
                 "template": "Studies by _____ found that _____ who _____ demonstrated _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["educational psychologists", "researchers", "scientists"], "correctAnswer": "educational psychologists"},
-                  {"id": "example5_b2", "options": ["children", "students", "young learners"], "correctAnswer": "children"},
-                  {"id": "example5_b3", "options": ["participated in regular arts programs", "studied creative subjects", "took art classes"], "correctAnswer": "participated in regular arts programs"},
-                  {"id": "example5_b4", "options": ["improved empathy and social skills", "better behavior", "enhanced abilities"], "correctAnswer": "improved empathy and social skills"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "educational psychologists",
+                      "researchers",
+                      "scientists"
+                    ],
+                    "correctAnswer": "educational psychologists"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "children",
+                      "students",
+                      "young learners"
+                    ],
+                    "correctAnswer": "children"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "participated in regular arts programs",
+                      "studied creative subjects",
+                      "took art classes"
+                    ],
+                    "correctAnswer": "participated in regular arts programs"
+                  },
+                  {
+                    "id": "example5_b4",
+                    "options": [
+                      "improved empathy and social skills",
+                      "better behavior",
+                      "enhanced abilities"
+                    ],
+                    "correctAnswer": "improved empathy and social skills"
+                  }
                 ],
                 "correctSentence": "Studies by educational psychologists found that children who participated in regular arts programs demonstrated improved empathy and social skills.",
                 "usableIn": "body-paragraph-1"
@@ -566,9 +1218,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ consistently rank _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["countries", "nations", "education systems"], "correctAnswer": "countries"},
-                  {"id": "example6_b2", "options": ["Singapore and South Korea", "Asian nations", "top performers"], "correctAnswer": "Singapore and South Korea"},
-                  {"id": "example6_b3", "options": ["highest globally by emphasizing mathematics and science", "well in education", "among the best"], "correctAnswer": "highest globally by emphasizing mathematics and science"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "countries",
+                      "nations",
+                      "education systems"
+                    ],
+                    "correctAnswer": "countries"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "Singapore and South Korea",
+                      "Asian nations",
+                      "top performers"
+                    ],
+                    "correctAnswer": "Singapore and South Korea"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "highest globally by emphasizing mathematics and science",
+                      "well in education",
+                      "among the best"
+                    ],
+                    "correctAnswer": "highest globally by emphasizing mathematics and science"
+                  }
                 ],
                 "correctSentence": "In particular, countries such as Singapore and South Korea consistently rank highest globally by emphasizing mathematics and science.",
                 "usableIn": "body-paragraph-2"
@@ -578,10 +1254,42 @@
                 "type": "template",
                 "template": "Many _____, including _____, credit _____ with _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["successful individuals", "accomplished people", "high achievers"], "correctAnswer": "successful individuals"},
-                  {"id": "example7_b2", "options": ["entrepreneurs and innovators", "business leaders", "creative professionals"], "correctAnswer": "entrepreneurs and innovators"},
-                  {"id": "example7_b3", "options": ["their arts education", "creative learning", "artistic training"], "correctAnswer": "their arts education"},
-                  {"id": "example7_b4", "options": ["developing innovative thinking approaches", "fostering creativity", "building skills"], "correctAnswer": "developing innovative thinking approaches"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "successful individuals",
+                      "accomplished people",
+                      "high achievers"
+                    ],
+                    "correctAnswer": "successful individuals"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "entrepreneurs and innovators",
+                      "business leaders",
+                      "creative professionals"
+                    ],
+                    "correctAnswer": "entrepreneurs and innovators"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "their arts education",
+                      "creative learning",
+                      "artistic training"
+                    ],
+                    "correctAnswer": "their arts education"
+                  },
+                  {
+                    "id": "example7_b4",
+                    "options": [
+                      "developing innovative thinking approaches",
+                      "fostering creativity",
+                      "building skills"
+                    ],
+                    "correctAnswer": "developing innovative thinking approaches"
+                  }
                 ],
                 "correctSentence": "Many successful individuals, including entrepreneurs and innovators, credit their arts education with developing innovative thinking approaches.",
                 "usableIn": "body-paragraph-1"
@@ -591,9 +1299,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ depends heavily on _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the technology sector", "modern industry", "contemporary business"], "correctAnswer": "the technology sector"},
-                  {"id": "example8_b2", "options": ["innovation and competitiveness", "success", "advancement"], "correctAnswer": "innovation and competitiveness"},
-                  {"id": "example8_b3", "options": ["workforce proficiency in mathematics, coding, and scientific principles", "technical skills", "academic knowledge"], "correctAnswer": "workforce proficiency in mathematics, coding, and scientific principles"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the technology sector",
+                      "modern industry",
+                      "contemporary business"
+                    ],
+                    "correctAnswer": "the technology sector"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "innovation and competitiveness",
+                      "success",
+                      "advancement"
+                    ],
+                    "correctAnswer": "innovation and competitiveness"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "workforce proficiency in mathematics, coding, and scientific principles",
+                      "technical skills",
+                      "academic knowledge"
+                    ],
+                    "correctAnswer": "workforce proficiency in mathematics, coding, and scientific principles"
+                  }
                 ],
                 "correctSentence": "Take the technology sector as an example: innovation and competitiveness depends heavily on workforce proficiency in mathematics, coding, and scientific principles.",
                 "usableIn": "body-paragraph-2"
@@ -603,9 +1335,33 @@
                 "type": "template",
                 "template": "According to _____, students with _____ perform better in _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["educational research", "academic studies", "school reports"], "correctAnswer": "educational research"},
-                  {"id": "example9_b2", "options": ["music training", "arts background", "creative education"], "correctAnswer": "music training"},
-                  {"id": "example9_b3", "options": ["subjects requiring pattern recognition and memory", "all academics", "school generally"], "correctAnswer": "subjects requiring pattern recognition and memory"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "educational research",
+                      "academic studies",
+                      "school reports"
+                    ],
+                    "correctAnswer": "educational research"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "music training",
+                      "arts background",
+                      "creative education"
+                    ],
+                    "correctAnswer": "music training"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "subjects requiring pattern recognition and memory",
+                      "all academics",
+                      "school generally"
+                    ],
+                    "correctAnswer": "subjects requiring pattern recognition and memory"
+                  }
                 ],
                 "correctSentence": "According to educational research, students with music training perform better in subjects requiring pattern recognition and memory.",
                 "usableIn": "body-paragraph-1"
@@ -615,9 +1371,33 @@
                 "type": "template",
                 "template": "Evidence indicates that _____ increasingly prioritize _____ when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["employers", "companies", "businesses"], "correctAnswer": "employers"},
-                  {"id": "example10_b2", "options": ["quantifiable technical skills over creative backgrounds", "academic qualifications", "measurable abilities"], "correctAnswer": "quantifiable technical skills over creative backgrounds"},
-                  {"id": "example10_b3", "options": ["recruiting for most professional positions", "hiring employees", "selecting candidates"], "correctAnswer": "recruiting for most professional positions"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "employers",
+                      "companies",
+                      "businesses"
+                    ],
+                    "correctAnswer": "employers"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "quantifiable technical skills over creative backgrounds",
+                      "academic qualifications",
+                      "measurable abilities"
+                    ],
+                    "correctAnswer": "quantifiable technical skills over creative backgrounds"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "recruiting for most professional positions",
+                      "hiring employees",
+                      "selecting candidates"
+                    ],
+                    "correctAnswer": "recruiting for most professional positions"
+                  }
                 ],
                 "correctSentence": "Evidence indicates that employers increasingly prioritize quantifiable technical skills over creative backgrounds when recruiting for most professional positions.",
                 "usableIn": "body-paragraph-2"
@@ -634,8 +1414,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may not _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["mandatory arts instruction", "required creative subjects", "compulsory art classes"], "correctAnswer": "mandatory arts instruction"},
-                  {"id": "counter1_b2", "options": ["effectively use limited educational resources", "be the best choice", "help all students"], "correctAnswer": "effectively use limited educational resources"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "mandatory arts instruction",
+                      "required creative subjects",
+                      "compulsory art classes"
+                    ],
+                    "correctAnswer": "mandatory arts instruction"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "effectively use limited educational resources",
+                      "be the best choice",
+                      "help all students"
+                    ],
+                    "correctAnswer": "effectively use limited educational resources"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that mandatory arts instruction may not effectively use limited educational resources.",
                 "usableIn": "body-paragraph-2"
@@ -645,8 +1441,24 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ cannot address _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["artistic education alone", "creative subjects", "arts programs"], "correctAnswer": "artistic education alone"},
-                  {"id": "counter2_b2", "options": ["the practical need for employable technical skills", "career requirements", "job demands"], "correctAnswer": "the practical need for employable technical skills"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "artistic education alone",
+                      "creative subjects",
+                      "arts programs"
+                    ],
+                    "correctAnswer": "artistic education alone"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "the practical need for employable technical skills",
+                      "career requirements",
+                      "job demands"
+                    ],
+                    "correctAnswer": "the practical need for employable technical skills"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, artistic education alone cannot address the practical need for employable technical skills.",
                 "usableIn": "body-paragraph-1"
@@ -656,9 +1468,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ risks _____ if _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["overemphasis on academic subjects", "focusing only on core subjects", "prioritizing academics"], "correctAnswer": "overemphasis on academic subjects"},
-                  {"id": "counter3_b2", "options": ["producing narrow specialists lacking creativity", "limiting development", "reducing skills"], "correctAnswer": "producing narrow specialists lacking creativity"},
-                  {"id": "counter3_b3", "options": ["arts are completely excluded from curricula", "creative subjects disappear", "art isn't taught"], "correctAnswer": "arts are completely excluded from curricula"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "overemphasis on academic subjects",
+                      "focusing only on core subjects",
+                      "prioritizing academics"
+                    ],
+                    "correctAnswer": "overemphasis on academic subjects"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "producing narrow specialists lacking creativity",
+                      "limiting development",
+                      "reducing skills"
+                    ],
+                    "correctAnswer": "producing narrow specialists lacking creativity"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "arts are completely excluded from curricula",
+                      "creative subjects disappear",
+                      "art isn't taught"
+                    ],
+                    "correctAnswer": "arts are completely excluded from curricula"
+                  }
                 ],
                 "correctSentence": "Nevertheless, overemphasis on academic subjects risks producing narrow specialists lacking creativity if arts are completely excluded from curricula.",
                 "usableIn": "body-paragraph-2"
@@ -668,8 +1504,24 @@
                 "type": "template",
                 "template": "Although _____ offers value, schools must consider _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["comprehensive arts education", "creative learning", "artistic instruction"], "correctAnswer": "comprehensive arts education"},
-                  {"id": "counter4_b2", "options": ["pragmatic constraints of time and budget allocation", "practical limitations", "resource issues"], "correctAnswer": "pragmatic constraints of time and budget allocation"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "comprehensive arts education",
+                      "creative learning",
+                      "artistic instruction"
+                    ],
+                    "correctAnswer": "comprehensive arts education"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "pragmatic constraints of time and budget allocation",
+                      "practical limitations",
+                      "resource issues"
+                    ],
+                    "correctAnswer": "pragmatic constraints of time and budget allocation"
+                  }
                 ],
                 "correctSentence": "Although comprehensive arts education offers value, schools must consider pragmatic constraints of time and budget allocation.",
                 "usableIn": "body-paragraph-1"
@@ -679,8 +1531,24 @@
                 "type": "template",
                 "template": "Critics acknowledge that _____ but maintain that _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["technical skills are economically valuable", "academics matter", "core subjects are important"], "correctAnswer": "technical skills are economically valuable"},
-                  {"id": "counter5_b2", "options": ["education should develop whole persons beyond market utility", "learning involves more", "development needs balance"], "correctAnswer": "education should develop whole persons beyond market utility"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "technical skills are economically valuable",
+                      "academics matter",
+                      "core subjects are important"
+                    ],
+                    "correctAnswer": "technical skills are economically valuable"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "education should develop whole persons beyond market utility",
+                      "learning involves more",
+                      "development needs balance"
+                    ],
+                    "correctAnswer": "education should develop whole persons beyond market utility"
+                  }
                 ],
                 "correctSentence": "Critics acknowledge that technical skills are economically valuable but maintain that education should develop whole persons beyond market utility.",
                 "usableIn": "body-paragraph-2"
@@ -697,8 +1565,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both artistic and academic education have distinct merits", "all subjects are valuable", "different views exist"], "correctAnswer": "both artistic and academic education have distinct merits"},
-                  {"id": "conclusion1_b2", "options": ["schools should balance both rather than exclusively prioritizing either", "balance is important", "both should be taught"], "correctAnswer": "schools should balance both rather than exclusively prioritizing either"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both artistic and academic education have distinct merits",
+                      "all subjects are valuable",
+                      "different views exist"
+                    ],
+                    "correctAnswer": "both artistic and academic education have distinct merits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "schools should balance both rather than exclusively prioritizing either",
+                      "balance is important",
+                      "both should be taught"
+                    ],
+                    "correctAnswer": "schools should balance both rather than exclusively prioritizing either"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both artistic and academic education have distinct merits, I believe schools should balance both rather than exclusively prioritizing either.",
                 "usableIn": "conclusion"
@@ -708,10 +1592,42 @@
                 "type": "template",
                 "template": "Overall, _____ develops _____, whereas _____ provides _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["arts education", "creative learning", "artistic training"], "correctAnswer": "arts education"},
-                  {"id": "conclusion2_b2", "options": ["creativity and emotional intelligence", "artistic skills", "self-expression"], "correctAnswer": "creativity and emotional intelligence"},
-                  {"id": "conclusion2_b3", "options": ["academic instruction", "core subjects", "science and math"], "correctAnswer": "academic instruction"},
-                  {"id": "conclusion2_b4", "options": ["practical career competencies", "technical skills", "job preparation"], "correctAnswer": "practical career competencies"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "arts education",
+                      "creative learning",
+                      "artistic training"
+                    ],
+                    "correctAnswer": "arts education"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "creativity and emotional intelligence",
+                      "artistic skills",
+                      "self-expression"
+                    ],
+                    "correctAnswer": "creativity and emotional intelligence"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "academic instruction",
+                      "core subjects",
+                      "science and math"
+                    ],
+                    "correctAnswer": "academic instruction"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "practical career competencies",
+                      "technical skills",
+                      "job preparation"
+                    ],
+                    "correctAnswer": "practical career competencies"
+                  }
                 ],
                 "correctSentence": "Overall, arts education develops creativity and emotional intelligence, whereas academic instruction provides practical career competencies.",
                 "usableIn": "conclusion"
@@ -721,8 +1637,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["optimal curriculum design", "the best approach", "ideal education"], "correctAnswer": "optimal curriculum design"},
-                  {"id": "conclusion3_b2", "options": ["balancing holistic development with practical employability", "combining both types", "mixing subjects"], "correctAnswer": "balancing holistic development with practical employability"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "optimal curriculum design",
+                      "the best approach",
+                      "ideal education"
+                    ],
+                    "correctAnswer": "optimal curriculum design"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "balancing holistic development with practical employability",
+                      "combining both types",
+                      "mixing subjects"
+                    ],
+                    "correctAnswer": "balancing holistic development with practical employability"
+                  }
                 ],
                 "correctSentence": "To summarize, optimal curriculum design depends on balancing holistic development with practical employability.",
                 "usableIn": "conclusion"
@@ -732,9 +1664,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should integrate _____ to _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["educational institutions", "schools", "curricula"], "correctAnswer": "educational institutions"},
-                  {"id": "conclusion4_b2", "options": ["both creative and analytical disciplines", "arts and academics", "different subjects"], "correctAnswer": "both creative and analytical disciplines"},
-                  {"id": "conclusion4_b3", "options": ["prepare students for comprehensive personal and professional success", "develop well-rounded individuals", "ensure complete education"], "correctAnswer": "prepare students for comprehensive personal and professional success"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "educational institutions",
+                      "schools",
+                      "curricula"
+                    ],
+                    "correctAnswer": "educational institutions"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "both creative and analytical disciplines",
+                      "arts and academics",
+                      "different subjects"
+                    ],
+                    "correctAnswer": "both creative and analytical disciplines"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "prepare students for comprehensive personal and professional success",
+                      "develop well-rounded individuals",
+                      "ensure complete education"
+                    ],
+                    "correctAnswer": "prepare students for comprehensive personal and professional success"
+                  }
                 ],
                 "correctSentence": "Ultimately, educational institutions should integrate both creative and analytical disciplines to prepare students for comprehensive personal and professional success.",
                 "usableIn": "conclusion"
@@ -744,9 +1700,33 @@
                 "type": "template",
                 "template": "In my view, _____ represents _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["a balanced curriculum including arts and academics", "teaching both types", "comprehensive education"], "correctAnswer": "a balanced curriculum including arts and academics"},
-                  {"id": "conclusion5_b2", "options": ["the most effective educational approach", "the best method", "ideal learning"], "correctAnswer": "the most effective educational approach"},
-                  {"id": "conclusion5_b3", "options": ["it cultivates both employable skills and creative intelligence", "both are important", "students need variety"], "correctAnswer": "it cultivates both employable skills and creative intelligence"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "a balanced curriculum including arts and academics",
+                      "teaching both types",
+                      "comprehensive education"
+                    ],
+                    "correctAnswer": "a balanced curriculum including arts and academics"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the most effective educational approach",
+                      "the best method",
+                      "ideal learning"
+                    ],
+                    "correctAnswer": "the most effective educational approach"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "it cultivates both employable skills and creative intelligence",
+                      "both are important",
+                      "students need variety"
+                    ],
+                    "correctAnswer": "it cultivates both employable skills and creative intelligence"
+                  }
                 ],
                 "correctSentence": "In my view, a balanced curriculum including arts and academics represents the most effective educational approach because it cultivates both employable skills and creative intelligence.",
                 "usableIn": "conclusion"
@@ -799,12 +1779,47 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "Advocates of arts education argue that", "Supporters of compulsory arts contend that", "From one perspective"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Supporters of academic focus argue that", "Proponents of core subjects emphasize that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "Specifically"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "In contrast", "Although"]
+          "presenting_first_view": [
+            "On the one hand",
+            "Advocates of arts education argue that",
+            "Supporters of compulsory arts contend that",
+            "From one perspective"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Supporters of academic focus argue that",
+            "Proponents of core subjects emphasize that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Besides"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "Specifically"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "Hence"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "In contrast",
+            "Although"
+          ]
         }
       }
     },

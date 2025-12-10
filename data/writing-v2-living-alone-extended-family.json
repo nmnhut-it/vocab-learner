@@ -79,105 +79,158 @@
             "word": "nuclear family",
             "pronunciation": "/ˈnjuːkliə ˈfæməli/",
             "partOfSpeech": "noun",
-            "definition": "A family unit consisting of parents and their children only",
+            "definition": "A family unit consisting of parents and their children only.",
             "example": "The rise of the nuclear family has transformed traditional social structures.",
-            "synonyms": ["immediate family", "small family unit"]
+            "synonyms": [
+              "immediate family",
+              "small family unit"
+            ]
           },
           {
             "word": "extended family",
             "pronunciation": "/ɪkˈstendɪd ˈfæməli/",
             "partOfSpeech": "noun",
-            "definition": "A family including relatives beyond parents and children",
+            "definition": "A family including relatives beyond parents and children.",
             "example": "Extended families traditionally provided childcare and elderly support.",
-            "synonyms": ["multigenerational family", "broader family network"]
+            "synonyms": [
+              "multigenerational family",
+              "broader family network"
+            ]
           },
           {
             "word": "social isolation",
             "pronunciation": "/ˈsəʊʃəl ˌaɪsəˈleɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Lack of contact with other people or society",
+            "definition": "Lack of contact with other people or society.",
             "example": "Living alone can lead to social isolation, especially among the elderly.",
-            "synonyms": ["loneliness", "disconnection"]
+            "synonyms": [
+              "loneliness",
+              "disconnection"
+            ]
           },
           {
             "word": "independence",
             "pronunciation": "/ˌɪndɪˈpendəns/",
             "partOfSpeech": "noun",
-            "definition": "Freedom from control or support of others",
+            "definition": "Freedom from control or support of others.",
             "example": "Many young professionals value the independence of living alone.",
-            "synonyms": ["autonomy", "self-reliance"]
+            "synonyms": [
+              "autonomy",
+              "self-reliance"
+            ]
           },
           {
             "word": "intergenerational support",
             "pronunciation": "/ˌɪntəˌdʒenəˈreɪʃənəl səˈpɔːt/",
             "partOfSpeech": "noun",
-            "definition": "Assistance and care exchanged between different generations",
+            "definition": "Assistance and care exchanged between different generations.",
             "example": "Extended families provide intergenerational support for childcare and elderly care.",
-            "synonyms": ["cross-generational assistance", "family support network"]
+            "synonyms": [
+              "cross-generational assistance",
+              "family support network"
+            ]
           },
           {
             "word": "urbanization",
             "pronunciation": "/ˌɜːbənaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of population movement to cities",
+            "definition": "The process of population movement to cities.",
             "example": "Rapid urbanization has contributed to the decline of extended family living.",
-            "synonyms": ["urban growth", "city expansion"]
+            "synonyms": [
+              "urban growth",
+              "city expansion"
+            ]
           },
           {
             "word": "mobility",
             "pronunciation": "/məʊˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The ability to move freely or change location",
+            "definition": "The ability to move freely or change location.",
             "example": "Career mobility often requires people to move away from their extended families.",
-            "synonyms": ["movement", "flexibility"]
+            "synonyms": [
+              "movement",
+              "flexibility"
+            ]
           },
           {
             "word": "cohesion",
             "pronunciation": "/kəʊˈhiːʒən/",
             "partOfSpeech": "noun",
-            "definition": "The state of being united or holding together",
+            "definition": "The state of being united or holding together.",
             "example": "Living with extended family strengthens social cohesion within communities.",
-            "synonyms": ["unity", "togetherness"]
+            "synonyms": [
+              "unity",
+              "togetherness"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "loneliness epidemic",
-            "definition": "Widespread problem of social isolation affecting many people",
+            "definition": "Widespread problem of social isolation affecting many people.",
             "example": "The loneliness epidemic is particularly severe among urban dwellers living alone."
           },
           {
             "phrase": "personal freedom",
-            "definition": "The ability to make choices without interference from others",
+            "definition": "The ability to make choices without interference from others.",
             "example": "Living alone offers greater personal freedom in lifestyle choices."
           },
           {
             "phrase": "childcare support",
-            "definition": "Assistance with caring for and raising children",
+            "definition": "Assistance with caring for and raising children.",
             "example": "Extended families traditionally provided childcare support for working parents."
           },
           {
             "phrase": "elderly care challenges",
-            "definition": "Difficulties in providing care for aging family members",
+            "definition": "Difficulties in providing care for aging family members.",
             "example": "Nuclear families face greater elderly care challenges without extended family help."
           },
           {
             "phrase": "work-life balance",
-            "definition": "Equilibrium between professional and personal life",
+            "definition": "Equilibrium between professional and personal life.",
             "example": "Small family units can struggle with work-life balance without family support."
           },
           {
             "phrase": "family obligations",
-            "definition": "Responsibilities and duties toward family members",
+            "definition": "Responsibilities and duties toward family members.",
             "example": "Living separately reduces traditional family obligations and expectations."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["This trend has emerged", "In recent decades", "The shift toward", "This development represents"],
-          "contrasting": ["On the one hand", "On the other hand", "However", "Conversely", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides this"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "In particular"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking everything into account", "All things considered"]
+          "introducing": [
+            "This trend has emerged",
+            "In recent decades",
+            "The shift toward",
+            "This development represents"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "However",
+            "Conversely",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides this"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "In particular"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking everything into account",
+            "All things considered"
+          ]
         }
       }
     },
@@ -200,8 +253,24 @@
                 "type": "template",
                 "template": "This trend toward _____ represents _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["living alone or in nuclear families", "bigger houses", "rural migration"], "correctAnswer": "living alone or in nuclear families"},
-                  {"id": "thesis1_b2", "options": ["a mixed development with both advantages and drawbacks", "pure progress", "complete disaster"], "correctAnswer": "a mixed development with both advantages and drawbacks"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "living alone or in nuclear families",
+                      "bigger houses",
+                      "rural migration"
+                    ],
+                    "correctAnswer": "living alone or in nuclear families"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "a mixed development with both advantages and drawbacks",
+                      "pure progress",
+                      "complete disaster"
+                    ],
+                    "correctAnswer": "a mixed development with both advantages and drawbacks"
+                  }
                 ],
                 "correctSentence": "This trend toward living alone or in nuclear families represents a mixed development with both advantages and drawbacks.",
                 "usableIn": "introduction"
@@ -211,8 +280,24 @@
                 "type": "template",
                 "template": "In my view, while _____, this is _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["this trend offers certain benefits", "cities are growing", "families are shrinking"], "correctAnswer": "this trend offers certain benefits"},
-                  {"id": "thesis2_b2", "options": ["largely a negative development due to social and practical challenges", "completely positive", "unimportant"], "correctAnswer": "largely a negative development due to social and practical challenges"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "this trend offers certain benefits",
+                      "cities are growing",
+                      "families are shrinking"
+                    ],
+                    "correctAnswer": "this trend offers certain benefits"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "largely a negative development due to social and practical challenges",
+                      "completely positive",
+                      "unimportant"
+                    ],
+                    "correctAnswer": "largely a negative development due to social and practical challenges"
+                  }
                 ],
                 "correctSentence": "In my view, while this trend offers certain benefits, this is largely a negative development due to social and practical challenges.",
                 "usableIn": "introduction"
@@ -229,8 +314,24 @@
                 "type": "template",
                 "template": "On the positive side, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["living independently or in small family units", "extended family living", "rural life"], "correctAnswer": "living independently or in small family units"},
-                  {"id": "topic1_b2", "options": ["greater personal freedom and independence", "more family obligations", "less privacy"], "correctAnswer": "greater personal freedom and independence"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "living independently or in small family units",
+                      "extended family living",
+                      "rural life"
+                    ],
+                    "correctAnswer": "living independently or in small family units"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "greater personal freedom and independence",
+                      "more family obligations",
+                      "less privacy"
+                    ],
+                    "correctAnswer": "greater personal freedom and independence"
+                  }
                 ],
                 "correctSentence": "On the positive side, living independently or in small family units provides greater personal freedom and independence.",
                 "usableIn": "body-paragraph-1"
@@ -240,8 +341,24 @@
                 "type": "template",
                 "template": "However, this development also brings _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["significant social and practical challenges", "unlimited benefits", "no consequences"], "correctAnswer": "significant social and practical challenges"},
-                  {"id": "topic2_b2", "options": ["particularly in terms of social isolation and support systems", "only for wealthy people", "in rural areas only"], "correctAnswer": "particularly in terms of social isolation and support systems"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "significant social and practical challenges",
+                      "unlimited benefits",
+                      "no consequences"
+                    ],
+                    "correctAnswer": "significant social and practical challenges"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "particularly in terms of social isolation and support systems",
+                      "only for wealthy people",
+                      "in rural areas only"
+                    ],
+                    "correctAnswer": "particularly in terms of social isolation and support systems"
+                  }
                 ],
                 "correctSentence": "However, this development also brings significant social and practical challenges, particularly in terms of social isolation and support systems.",
                 "usableIn": "body-paragraph-2"
@@ -258,8 +375,24 @@
                 "type": "template",
                 "template": "This is because _____ allows people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["living alone or in nuclear families", "traditional living", "rural housing"], "correctAnswer": "living alone or in nuclear families"},
-                  {"id": "support1_b2", "options": ["make independent decisions about lifestyle, career, and personal choices", "follow family rules", "avoid responsibility"], "correctAnswer": "make independent decisions about lifestyle, career, and personal choices"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "living alone or in nuclear families",
+                      "traditional living",
+                      "rural housing"
+                    ],
+                    "correctAnswer": "living alone or in nuclear families"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "make independent decisions about lifestyle, career, and personal choices",
+                      "follow family rules",
+                      "avoid responsibility"
+                    ],
+                    "correctAnswer": "make independent decisions about lifestyle, career, and personal choices"
+                  }
                 ],
                 "correctSentence": "This is because living alone or in nuclear families allows people to make independent decisions about lifestyle, career, and personal choices.",
                 "usableIn": "body-paragraph-1"
@@ -269,8 +402,24 @@
                 "type": "template",
                 "template": "The main problem is that _____ results in _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["living without extended family support", "having more space", "urban development"], "correctAnswer": "living without extended family support"},
-                  {"id": "support2_b2", "options": ["increased social isolation and lack of practical assistance", "better health", "lower costs"], "correctAnswer": "increased social isolation and lack of practical assistance"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "living without extended family support",
+                      "having more space",
+                      "urban development"
+                    ],
+                    "correctAnswer": "living without extended family support"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "increased social isolation and lack of practical assistance",
+                      "better health",
+                      "lower costs"
+                    ],
+                    "correctAnswer": "increased social isolation and lack of practical assistance"
+                  }
                 ],
                 "correctSentence": "The main problem is that living without extended family support results in increased social isolation and lack of practical assistance.",
                 "usableIn": "body-paragraph-2"
@@ -287,9 +436,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ without _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["young professionals living alone", "elderly people", "children"], "correctAnswer": "young professionals living alone"},
-                  {"id": "example1_b2", "options": ["pursue career opportunities in different cities", "stay in one place", "avoid work"], "correctAnswer": "pursue career opportunities in different cities"},
-                  {"id": "example1_b3", "options": ["being constrained by family expectations or obligations", "earning money", "having friends"], "correctAnswer": "being constrained by family expectations or obligations"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "young professionals living alone",
+                      "elderly people",
+                      "children"
+                    ],
+                    "correctAnswer": "young professionals living alone"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "pursue career opportunities in different cities",
+                      "stay in one place",
+                      "avoid work"
+                    ],
+                    "correctAnswer": "pursue career opportunities in different cities"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "being constrained by family expectations or obligations",
+                      "earning money",
+                      "having friends"
+                    ],
+                    "correctAnswer": "being constrained by family expectations or obligations"
+                  }
                 ],
                 "correctSentence": "For instance, young professionals living alone can pursue career opportunities in different cities without being constrained by family expectations or obligations.",
                 "usableIn": "body-paragraph-1"
@@ -299,9 +472,33 @@
                 "type": "template",
                 "template": "For example, _____ often struggle with _____ because _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["nuclear families with young children", "extended families", "single elderly"], "correctAnswer": "nuclear families with young children"},
-                  {"id": "example2_b2", "options": ["childcare and elderly care simultaneously", "finding housing", "earning income"], "correctAnswer": "childcare and elderly care simultaneously"},
-                  {"id": "example2_b3", "options": ["they lack the intergenerational support that extended families naturally provide", "they are too busy", "they live in cities"], "correctAnswer": "they lack the intergenerational support that extended families naturally provide"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "nuclear families with young children",
+                      "extended families",
+                      "single elderly"
+                    ],
+                    "correctAnswer": "nuclear families with young children"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "childcare and elderly care simultaneously",
+                      "finding housing",
+                      "earning income"
+                    ],
+                    "correctAnswer": "childcare and elderly care simultaneously"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "they lack the intergenerational support that extended families naturally provide",
+                      "they are too busy",
+                      "they live in cities"
+                    ],
+                    "correctAnswer": "they lack the intergenerational support that extended families naturally provide"
+                  }
                 ],
                 "correctSentence": "For example, nuclear families with young children often struggle with childcare and elderly care simultaneously because they lack the intergenerational support that extended families naturally provide.",
                 "usableIn": "body-paragraph-2"
@@ -318,8 +515,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, on balance _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["this trend offers independence and freedom", "everyone lives alone", "cities are growing"], "correctAnswer": "this trend offers independence and freedom"},
-                  {"id": "conclusion1_b2", "options": ["I believe this is a largely negative development due to increasing social isolation and loss of family support systems", "it is completely positive", "it does not matter"], "correctAnswer": "I believe this is a largely negative development due to increasing social isolation and loss of family support systems"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "this trend offers independence and freedom",
+                      "everyone lives alone",
+                      "cities are growing"
+                    ],
+                    "correctAnswer": "this trend offers independence and freedom"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "I believe this is a largely negative development due to increasing social isolation and loss of family support systems",
+                      "it is completely positive",
+                      "it does not matter"
+                    ],
+                    "correctAnswer": "I believe this is a largely negative development due to increasing social isolation and loss of family support systems"
+                  }
                 ],
                 "correctSentence": "In conclusion, while this trend offers independence and freedom, on balance I believe this is a largely negative development due to increasing social isolation and loss of family support systems.",
                 "usableIn": "conclusion"
@@ -348,12 +561,46 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_positive": ["On the positive side", "One advantage is", "This trend offers", "A benefit of this development"],
-          "presenting_negative": ["However", "On the negative side", "A major drawback is", "The downside is"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides this"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "In particular"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "In contrast", "On the other hand"]
+          "presenting_positive": [
+            "On the positive side",
+            "One advantage is",
+            "This trend offers",
+            "A benefit of this development"
+          ],
+          "presenting_negative": [
+            "However",
+            "On the negative side",
+            "A major drawback is",
+            "The downside is"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Besides this"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "In particular"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "In contrast",
+            "On the other hand"
+          ]
         }
       }
     },

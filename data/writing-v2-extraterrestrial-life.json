@@ -79,105 +79,153 @@
             "word": "extraterrestrial intelligence",
             "pronunciation": "/ˌekstrətəˈrestriəl ɪnˈtelɪdʒəns/",
             "partOfSpeech": "noun",
-            "definition": "Intelligent life forms originating from beyond Earth",
+            "definition": "Intelligent life forms originating from beyond Earth.",
             "example": "Scientists have been searching for signs of extraterrestrial intelligence for decades.",
-            "synonyms": ["alien intelligence", "non-terrestrial life"]
+            "synonyms": [
+              "alien intelligence",
+              "non-terrestrial life"
+            ]
           },
           {
             "word": "interstellar communication",
             "pronunciation": "/ˌɪntəˈstelə kəˌmjuːnɪˈkeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Transmission of messages between star systems",
+            "definition": "Transmission of messages between star systems.",
             "example": "Interstellar communication requires powerful radio telescopes and years of signal travel time.",
-            "synonyms": ["cosmic communication", "space messaging"]
+            "synonyms": [
+              "cosmic communication",
+              "space messaging"
+            ]
           },
           {
             "word": "existential risk",
             "pronunciation": "/ˌegzɪˈstenʃəl rɪsk/",
             "partOfSpeech": "noun",
-            "definition": "A threat that could destroy humanity or civilization",
+            "definition": "A threat that could destroy humanity or civilization.",
             "example": "Stephen Hawking warned that contacting aliens poses an existential risk to humanity.",
-            "synonyms": ["civilizational threat", "species-level danger"]
+            "synonyms": [
+              "civilizational threat",
+              "species-level danger"
+            ]
           },
           {
             "word": "cosmic significance",
             "pronunciation": "/ˈkɒzmɪk sɪgˈnɪfɪkəns/",
             "partOfSpeech": "noun",
-            "definition": "Importance on a universal scale",
+            "definition": "Importance on a universal scale.",
             "example": "Discovering alien life would have tremendous cosmic significance for humanity.",
-            "synonyms": ["universal importance", "astronomical importance"]
+            "synonyms": [
+              "universal importance",
+              "astronomical importance"
+            ]
           },
           {
             "word": "benevolent",
             "pronunciation": "/bəˈnevələnt/",
             "partOfSpeech": "adjective",
-            "definition": "Well-meaning and kindly",
+            "definition": "Well-meaning and kindly.",
             "example": "We cannot assume that advanced civilizations would be benevolent toward humanity.",
-            "synonyms": ["friendly", "well-intentioned"]
+            "synonyms": [
+              "friendly",
+              "well-intentioned"
+            ]
           },
           {
             "word": "hostile",
             "pronunciation": "/ˈhɒstaɪl/",
             "partOfSpeech": "adjective",
-            "definition": "Unfriendly and aggressive",
+            "definition": "Unfriendly and aggressive.",
             "example": "A hostile alien civilization could view Earth as a resource to exploit.",
-            "synonyms": ["aggressive", "unfriendly"]
+            "synonyms": [
+              "aggressive",
+              "unfriendly"
+            ]
           },
           {
             "word": "unprecedented",
             "pronunciation": "/ʌnˈpresɪdentɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Never done or known before",
+            "definition": "Never done or known before.",
             "example": "Contact with extraterrestrial intelligence would be an unprecedented event in human history.",
-            "synonyms": ["unparalleled", "extraordinary"]
+            "synonyms": [
+              "unparalleled",
+              "extraordinary"
+            ]
           },
           {
             "word": "imprudent",
             "pronunciation": "/ɪmˈpruːdənt/",
             "partOfSpeech": "adjective",
-            "definition": "Not showing care for the consequences",
+            "definition": "Not showing care for the consequences.",
             "example": "Broadcasting our location to unknown civilizations may be imprudent.",
-            "synonyms": ["reckless", "unwise"]
+            "synonyms": [
+              "reckless",
+              "unwise"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "SETI programs",
-            "definition": "Search for Extraterrestrial Intelligence scientific projects",
+            "definition": "Search for Extraterrestrial Intelligence scientific projects.",
             "example": "SETI programs use radio telescopes to listen for alien signals from space."
           },
           {
             "phrase": "Drake equation",
-            "definition": "Formula estimating the number of communicative civilizations in the galaxy",
+            "definition": "Formula estimating the number of communicative civilizations in the galaxy.",
             "example": "The Drake equation suggests there could be thousands of intelligent civilizations in our galaxy."
           },
           {
             "phrase": "Voyager golden records",
-            "definition": "Phonograph records sent into space with messages from humanity",
+            "definition": "Phonograph records sent into space with messages from humanity.",
             "example": "The Voyager golden records contain images and sounds representing Earth and human culture."
           },
           {
             "phrase": "technological superiority",
-            "definition": "Having more advanced technology than others",
+            "definition": "Having more advanced technology than others.",
             "example": "Any civilization capable of reaching Earth would possess overwhelming technological superiority."
           },
           {
             "phrase": "scientific curiosity",
-            "definition": "Desire to learn and discover new knowledge",
+            "definition": "Desire to learn and discover new knowledge.",
             "example": "Scientific curiosity drives humanity's desire to search for life beyond Earth."
           },
           {
             "phrase": "resource competition",
-            "definition": "Conflict over limited materials or territory",
+            "definition": "Conflict over limited materials or territory.",
             "example": "Resource competition between civilizations could lead to conflict rather than cooperation."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The debate over contacting aliens", "Scientists are divided about whether", "There is ongoing controversy about"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "As demonstrated by", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "The debate over contacting aliens",
+            "Scientists are divided about whether",
+            "There is ongoing controversy about"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "As demonstrated by",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +248,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["we should actively contact extraterrestrial civilizations", "aliens do not exist", "space exploration is expensive"], "correctAnswer": "we should actively contact extraterrestrial civilizations"},
-                  {"id": "thesis1_b2", "options": ["such contact could pose existential risks to humanity", "aliens are friendly", "technology is insufficient"], "correctAnswer": "such contact could pose existential risks to humanity"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "we should actively contact extraterrestrial civilizations",
+                      "aliens do not exist",
+                      "space exploration is expensive"
+                    ],
+                    "correctAnswer": "we should actively contact extraterrestrial civilizations"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "such contact could pose existential risks to humanity",
+                      "aliens are friendly",
+                      "technology is insufficient"
+                    ],
+                    "correctAnswer": "such contact could pose existential risks to humanity"
+                  }
                 ],
                 "correctSentence": "While some believe we should actively contact extraterrestrial civilizations, others argue that such contact could pose existential risks to humanity.",
                 "usableIn": "introduction"
@@ -211,8 +275,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ outweigh _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the potential dangers of interstellar communication", "the costs of space programs", "scientific discoveries"], "correctAnswer": "the potential dangers of interstellar communication"},
-                  {"id": "thesis2_b2", "options": ["the uncertain benefits of contact", "government funding", "telescope maintenance"], "correctAnswer": "the uncertain benefits of contact"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the potential dangers of interstellar communication",
+                      "the costs of space programs",
+                      "scientific discoveries"
+                    ],
+                    "correctAnswer": "the potential dangers of interstellar communication"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the uncertain benefits of contact",
+                      "government funding",
+                      "telescope maintenance"
+                    ],
+                    "correctAnswer": "the uncertain benefits of contact"
+                  }
                 ],
                 "correctSentence": "In my opinion, the potential dangers of interstellar communication outweigh the uncertain benefits of contact.",
                 "usableIn": "introduction"
@@ -229,8 +309,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ could bring _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["contacting extraterrestrial intelligence", "building telescopes", "studying physics"], "correctAnswer": "contacting extraterrestrial intelligence"},
-                  {"id": "topic1_b2", "options": ["unprecedented scientific knowledge and technological advancement", "higher taxes", "more satellites"], "correctAnswer": "unprecedented scientific knowledge and technological advancement"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "contacting extraterrestrial intelligence",
+                      "building telescopes",
+                      "studying physics"
+                    ],
+                    "correctAnswer": "contacting extraterrestrial intelligence"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "unprecedented scientific knowledge and technological advancement",
+                      "higher taxes",
+                      "more satellites"
+                    ],
+                    "correctAnswer": "unprecedented scientific knowledge and technological advancement"
+                  }
                 ],
                 "correctSentence": "On the one hand, contacting extraterrestrial intelligence could bring unprecedented scientific knowledge and technological advancement.",
                 "usableIn": "body-paragraph-1"
@@ -240,8 +336,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ presents _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["actively broadcasting our location", "space research", "telescope operation"], "correctAnswer": "actively broadcasting our location"},
-                  {"id": "topic2_b2", "options": ["serious existential risks that humanity cannot adequately assess", "equipment challenges", "funding problems"], "correctAnswer": "serious existential risks that humanity cannot adequately assess"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "actively broadcasting our location",
+                      "space research",
+                      "telescope operation"
+                    ],
+                    "correctAnswer": "actively broadcasting our location"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "serious existential risks that humanity cannot adequately assess",
+                      "equipment challenges",
+                      "funding problems"
+                    ],
+                    "correctAnswer": "serious existential risks that humanity cannot adequately assess"
+                  }
                 ],
                 "correctSentence": "On the other hand, actively broadcasting our location presents serious existential risks that humanity cannot adequately assess.",
                 "usableIn": "body-paragraph-2"
@@ -258,8 +370,24 @@
                 "type": "template",
                 "template": "This is because _____ could help humanity _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["communication with advanced civilizations", "telescope improvements", "satellite launches"], "correctAnswer": "communication with advanced civilizations"},
-                  {"id": "support1_b2", "options": ["solve critical challenges like climate change or disease", "build better rockets", "explore Mars"], "correctAnswer": "solve critical challenges like climate change or disease"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "communication with advanced civilizations",
+                      "telescope improvements",
+                      "satellite launches"
+                    ],
+                    "correctAnswer": "communication with advanced civilizations"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "solve critical challenges like climate change or disease",
+                      "build better rockets",
+                      "explore Mars"
+                    ],
+                    "correctAnswer": "solve critical challenges like climate change or disease"
+                  }
                 ],
                 "correctSentence": "This is because communication with advanced civilizations could help humanity solve critical challenges like climate change or disease.",
                 "usableIn": "body-paragraph-1"
@@ -269,8 +397,24 @@
                 "type": "template",
                 "template": "The main concern is that _____ might _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["technologically superior alien civilizations", "space telescopes", "radio signals"], "correctAnswer": "technologically superior alien civilizations"},
-                  {"id": "support2_b2", "options": ["view humanity as a threat or resource to exploit", "require maintenance", "cost money"], "correctAnswer": "view humanity as a threat or resource to exploit"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "technologically superior alien civilizations",
+                      "space telescopes",
+                      "radio signals"
+                    ],
+                    "correctAnswer": "technologically superior alien civilizations"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "view humanity as a threat or resource to exploit",
+                      "require maintenance",
+                      "cost money"
+                    ],
+                    "correctAnswer": "view humanity as a threat or resource to exploit"
+                  }
                 ],
                 "correctSentence": "The main concern is that technologically superior alien civilizations might view humanity as a threat or resource to exploit.",
                 "usableIn": "body-paragraph-2"
@@ -287,9 +431,33 @@
                 "type": "template",
                 "template": "For instance, _____ demonstrates _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the Drake equation", "space shuttle programs", "Mars rovers"], "correctAnswer": "the Drake equation"},
-                  {"id": "example1_b2", "options": ["that intelligent life is statistically probable in our galaxy", "rocket technology", "planetary geology"], "correctAnswer": "that intelligent life is statistically probable in our galaxy"},
-                  {"id": "example1_b3", "options": ["making contact a realistic scientific goal worth pursuing", "expensive equipment necessary", "challenging missions"], "correctAnswer": "making contact a realistic scientific goal worth pursuing"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the Drake equation",
+                      "space shuttle programs",
+                      "Mars rovers"
+                    ],
+                    "correctAnswer": "the Drake equation"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "that intelligent life is statistically probable in our galaxy",
+                      "rocket technology",
+                      "planetary geology"
+                    ],
+                    "correctAnswer": "that intelligent life is statistically probable in our galaxy"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "making contact a realistic scientific goal worth pursuing",
+                      "expensive equipment necessary",
+                      "challenging missions"
+                    ],
+                    "correctAnswer": "making contact a realistic scientific goal worth pursuing"
+                  }
                 ],
                 "correctSentence": "For instance, the Drake equation demonstrates that intelligent life is statistically probable in our galaxy, making contact a realistic scientific goal worth pursuing.",
                 "usableIn": "body-paragraph-1"
@@ -299,9 +467,33 @@
                 "type": "template",
                 "template": "For example, _____ warned that _____ because _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Stephen Hawking", "NASA administrators", "telescope operators"], "correctAnswer": "Stephen Hawking"},
-                  {"id": "example2_b2", "options": ["contacting advanced aliens could be catastrophic for humanity", "telescopes need funding", "space is vast"], "correctAnswer": "contacting advanced aliens could be catastrophic for humanity"},
-                  {"id": "example2_b3", "options": ["their arrival might resemble European colonization of the Americas", "equipment is expensive", "signals travel slowly"], "correctAnswer": "their arrival might resemble European colonization of the Americas"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Stephen Hawking",
+                      "NASA administrators",
+                      "telescope operators"
+                    ],
+                    "correctAnswer": "Stephen Hawking"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "contacting advanced aliens could be catastrophic for humanity",
+                      "telescopes need funding",
+                      "space is vast"
+                    ],
+                    "correctAnswer": "contacting advanced aliens could be catastrophic for humanity"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "their arrival might resemble European colonization of the Americas",
+                      "equipment is expensive",
+                      "signals travel slowly"
+                    ],
+                    "correctAnswer": "their arrival might resemble European colonization of the Americas"
+                  }
                 ],
                 "correctSentence": "For example, Stephen Hawking warned that contacting advanced aliens could be catastrophic for humanity because their arrival might resemble European colonization of the Americas.",
                 "usableIn": "body-paragraph-2"
@@ -318,8 +510,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both perspectives have merit", "aliens are interesting", "space is fascinating"], "correctAnswer": "both perspectives have merit"},
-                  {"id": "conclusion1_b2", "options": ["we should prioritize caution over curiosity when humanity's survival is at stake", "we should build more telescopes", "space research should continue"], "correctAnswer": "we should prioritize caution over curiosity when humanity's survival is at stake"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both perspectives have merit",
+                      "aliens are interesting",
+                      "space is fascinating"
+                    ],
+                    "correctAnswer": "both perspectives have merit"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "we should prioritize caution over curiosity when humanity's survival is at stake",
+                      "we should build more telescopes",
+                      "space research should continue"
+                    ],
+                    "correctAnswer": "we should prioritize caution over curiosity when humanity's survival is at stake"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both perspectives have merit, I believe we should prioritize caution over curiosity when humanity's survival is at stake.",
                 "usableIn": "conclusion"
@@ -348,12 +556,41 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "Proponents of contact argue that", "Supporters believe that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Critics warn that", "Opponents contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "As demonstrated by", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "Proponents of contact argue that",
+            "Supporters believe that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Critics warn that",
+            "Opponents contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "As demonstrated by",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

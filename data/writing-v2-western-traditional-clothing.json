@@ -74,107 +74,164 @@
             "word": "globalization",
             "pronunciation": "/ˌɡləʊbəlaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of international integration and exchange of ideas, products and culture",
+            "definition": "The process of international integration and exchange of ideas, products and culture.",
             "example": "Globalization has spread Western fashion trends to every corner of the world.",
-            "synonyms": ["internationalization", "worldwide integration"]
+            "synonyms": [
+              "internationalization",
+              "worldwide integration"
+            ]
           },
           {
             "word": "cultural identity",
             "pronunciation": "/ˈkʌltʃərəl aɪˈdentɪti/",
             "partOfSpeech": "noun",
-            "definition": "The feeling of belonging to a group based on shared culture and traditions",
+            "definition": "The feeling of belonging to a group based on shared culture and traditions.",
             "example": "Traditional clothing is an important part of cultural identity.",
-            "synonyms": ["cultural heritage", "ethnic identity"]
+            "synonyms": [
+              "cultural heritage",
+              "ethnic identity"
+            ]
           },
           {
             "word": "traditional attire",
             "pronunciation": "/trəˈdɪʃənəl əˈtaɪə/",
             "partOfSpeech": "noun",
-            "definition": "Clothing that represents the customs and heritage of a culture",
+            "definition": "Clothing that represents the customs and heritage of a culture.",
             "example": "Many people only wear traditional attire during cultural festivals.",
-            "synonyms": ["ethnic clothing", "cultural garments"]
+            "synonyms": [
+              "ethnic clothing",
+              "cultural garments"
+            ]
           },
           {
             "word": "cultural homogenization",
             "pronunciation": "/ˈkʌltʃərəl həˌmɒdʒənaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of cultures becoming more similar and losing their unique characteristics",
+            "definition": "The process of cultures becoming more similar and losing their unique characteristics.",
             "example": "Cultural homogenization threatens the diversity of traditional dress worldwide.",
-            "synonyms": ["cultural uniformity", "cultural standardization"]
+            "synonyms": [
+              "cultural uniformity",
+              "cultural standardization"
+            ]
           },
           {
             "word": "heritage preservation",
             "pronunciation": "/ˈherɪtɪdʒ ˌprezəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The act of protecting and maintaining cultural traditions and customs",
+            "definition": "The act of protecting and maintaining cultural traditions and customs.",
             "example": "Heritage preservation requires passing traditional clothing practices to younger generations.",
-            "synonyms": ["cultural conservation", "tradition maintenance"]
+            "synonyms": [
+              "cultural conservation",
+              "tradition maintenance"
+            ]
           },
           {
             "word": "practicality",
             "pronunciation": "/ˌpræktɪˈkæləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being suitable for actual use and everyday life",
+            "definition": "The quality of being suitable for actual use and everyday life.",
             "example": "The practicality of jeans and t-shirts makes them popular for modern lifestyles.",
-            "synonyms": ["functionality", "usefulness"]
+            "synonyms": [
+              "functionality",
+              "usefulness"
+            ]
           },
           {
             "word": "symbolic",
             "pronunciation": "/sɪmˈbɒlɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Representing or standing for something important",
+            "definition": "Representing or standing for something important.",
             "example": "Traditional clothing is symbolic of a nation's history and values.",
-            "synonyms": ["representative", "emblematic"]
+            "synonyms": [
+              "representative",
+              "emblematic"
+            ]
           },
           {
             "word": "erode",
             "pronunciation": "/ɪˈrəʊd/",
             "partOfSpeech": "verb",
-            "definition": "To gradually destroy or diminish something",
+            "definition": "To gradually destroy or diminish something.",
             "example": "Western fashion trends may erode traditional clothing customs.",
-            "synonyms": ["diminish", "weaken"]
+            "synonyms": [
+              "diminish",
+              "weaken"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "fashion industry",
-            "definition": "The business sector involved in designing, producing and selling clothing",
+            "definition": "The business sector involved in designing, producing and selling clothing.",
             "example": "The global fashion industry promotes Western styles through advertising and media."
           },
           {
             "phrase": "business dress codes",
-            "definition": "Rules about acceptable clothing in professional work environments",
+            "definition": "Rules about acceptable clothing in professional work environments.",
             "example": "Most corporate offices have business dress codes requiring Western-style suits."
           },
           {
             "phrase": "cultural festivals",
-            "definition": "Celebrations that honor traditional customs and heritage",
+            "definition": "Celebrations that honor traditional customs and heritage.",
             "example": "People often wear traditional attire during cultural festivals and ceremonies."
           },
           {
             "phrase": "youth fashion",
-            "definition": "Clothing styles popular among young people",
+            "definition": "Clothing styles popular among young people.",
             "example": "Youth fashion increasingly favors Western casual wear over traditional garments."
           },
           {
             "phrase": "work environments",
-            "definition": "Places where people perform their jobs",
+            "definition": "Places where people perform their jobs.",
             "example": "Modern work environments typically require practical Western clothing."
           },
           {
             "phrase": "cultural diversity",
-            "definition": "The existence of many different cultures and traditions",
+            "definition": "The existence of many different cultures and traditions.",
             "example": "Traditional clothing contributes to cultural diversity in our globalized world."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There are several reasons for", "This trend can be attributed to", "This phenomenon stems from"],
-          "listing_reasons": ["Firstly", "Secondly", "The main reason is", "Another factor is"],
-          "transitioning": ["Regarding whether this is positive or negative", "As for the impact of this trend", "Turning to the question of"],
-          "contrasting": ["On the one hand", "On the other hand", "However", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "introducing": [
+            "There are several reasons for",
+            "This trend can be attributed to",
+            "This phenomenon stems from"
+          ],
+          "listing_reasons": [
+            "Firstly",
+            "Secondly",
+            "The main reason is",
+            "Another factor is"
+          ],
+          "transitioning": [
+            "Regarding whether this is positive or negative",
+            "As for the impact of this trend",
+            "Turning to the question of"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "However",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -197,8 +254,24 @@
                 "type": "template",
                 "template": "This trend can be attributed to _____, and I believe it is _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["globalization and practicality concerns", "government policy", "cold weather"], "correctAnswer": "globalization and practicality concerns"},
-                  {"id": "thesis1_b2", "options": ["a largely negative development for cultural identity", "completely positive", "irrelevant to society"], "correctAnswer": "a largely negative development for cultural identity"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "globalization and practicality concerns",
+                      "government policy",
+                      "cold weather"
+                    ],
+                    "correctAnswer": "globalization and practicality concerns"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "a largely negative development for cultural identity",
+                      "completely positive",
+                      "irrelevant to society"
+                    ],
+                    "correctAnswer": "a largely negative development for cultural identity"
+                  }
                 ],
                 "correctSentence": "This trend can be attributed to globalization and practicality concerns, and I believe it is a largely negative development for cultural identity.",
                 "usableIn": "introduction"
@@ -208,7 +281,15 @@
                 "type": "template",
                 "template": "There are several reasons for this shift, and in my view, it represents _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["both positive and negative aspects for modern society", "only benefits", "only problems"], "correctAnswer": "both positive and negative aspects for modern society"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "both positive and negative aspects for modern society",
+                      "only benefits",
+                      "only problems"
+                    ],
+                    "correctAnswer": "both positive and negative aspects for modern society"
+                  }
                 ],
                 "correctSentence": "There are several reasons for this shift, and in my view, it represents both positive and negative aspects for modern society.",
                 "usableIn": "introduction"
@@ -225,8 +306,24 @@
                 "type": "template",
                 "template": "There are several reasons why _____ has become _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["Western clothing", "traditional attire", "cultural festivals"], "correctAnswer": "Western clothing"},
-                  {"id": "topic1_b2", "options": ["the dominant fashion choice worldwide", "less popular", "more expensive"], "correctAnswer": "the dominant fashion choice worldwide"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "Western clothing",
+                      "traditional attire",
+                      "cultural festivals"
+                    ],
+                    "correctAnswer": "Western clothing"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "the dominant fashion choice worldwide",
+                      "less popular",
+                      "more expensive"
+                    ],
+                    "correctAnswer": "the dominant fashion choice worldwide"
+                  }
                 ],
                 "correctSentence": "There are several reasons why Western clothing has become the dominant fashion choice worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -236,8 +333,24 @@
                 "type": "template",
                 "template": "In my opinion, this trend is _____ because _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["largely negative", "completely positive", "unimportant"], "correctAnswer": "largely negative"},
-                  {"id": "topic2_b2", "options": ["it threatens cultural identity and heritage preservation", "it saves money", "it looks better"], "correctAnswer": "it threatens cultural identity and heritage preservation"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "largely negative",
+                      "completely positive",
+                      "unimportant"
+                    ],
+                    "correctAnswer": "largely negative"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "it threatens cultural identity and heritage preservation",
+                      "it saves money",
+                      "it looks better"
+                    ],
+                    "correctAnswer": "it threatens cultural identity and heritage preservation"
+                  }
                 ],
                 "correctSentence": "In my opinion, this trend is largely negative because it threatens cultural identity and heritage preservation.",
                 "usableIn": "body-paragraph-2"
@@ -254,9 +367,33 @@
                 "type": "template",
                 "template": "Firstly, _____ has made _____ accessible _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["globalization", "government policy", "cold weather"], "correctAnswer": "globalization"},
-                  {"id": "support1_b2", "options": ["Western fashion", "traditional clothing", "expensive fabrics"], "correctAnswer": "Western fashion"},
-                  {"id": "support1_b3", "options": ["to people in every country through international media and retail chains", "only to wealthy people", "in museums"], "correctAnswer": "to people in every country through international media and retail chains"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "globalization",
+                      "government policy",
+                      "cold weather"
+                    ],
+                    "correctAnswer": "globalization"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "Western fashion",
+                      "traditional clothing",
+                      "expensive fabrics"
+                    ],
+                    "correctAnswer": "Western fashion"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "to people in every country through international media and retail chains",
+                      "only to wealthy people",
+                      "in museums"
+                    ],
+                    "correctAnswer": "to people in every country through international media and retail chains"
+                  }
                 ],
                 "correctSentence": "Firstly, globalization has made Western fashion accessible to people in every country through international media and retail chains.",
                 "usableIn": "body-paragraph-1"
@@ -266,9 +403,33 @@
                 "type": "template",
                 "template": "Secondly, _____ makes _____ more suitable for _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["the practicality of Western clothing", "traditional attire", "expensive jewelry"], "correctAnswer": "the practicality of Western clothing"},
-                  {"id": "support2_b2", "options": ["jeans and suits", "kimonos and saris", "wedding dresses"], "correctAnswer": "jeans and suits"},
-                  {"id": "support2_b3", "options": ["modern work environments and active lifestyles", "special ceremonies only", "sleeping"], "correctAnswer": "modern work environments and active lifestyles"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "the practicality of Western clothing",
+                      "traditional attire",
+                      "expensive jewelry"
+                    ],
+                    "correctAnswer": "the practicality of Western clothing"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "jeans and suits",
+                      "kimonos and saris",
+                      "wedding dresses"
+                    ],
+                    "correctAnswer": "jeans and suits"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "modern work environments and active lifestyles",
+                      "special ceremonies only",
+                      "sleeping"
+                    ],
+                    "correctAnswer": "modern work environments and active lifestyles"
+                  }
                 ],
                 "correctSentence": "Secondly, the practicality of Western clothing makes jeans and suits more suitable for modern work environments and active lifestyles.",
                 "usableIn": "body-paragraph-1"
@@ -278,8 +439,24 @@
                 "type": "template",
                 "template": "This development is negative because _____ leads to _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["the decline of traditional clothing", "wearing jeans", "fashion shows"], "correctAnswer": "the decline of traditional clothing"},
-                  {"id": "support3_b2", "options": ["cultural homogenization and loss of unique identity", "lower clothing costs", "more comfortable life"], "correctAnswer": "cultural homogenization and loss of unique identity"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "the decline of traditional clothing",
+                      "wearing jeans",
+                      "fashion shows"
+                    ],
+                    "correctAnswer": "the decline of traditional clothing"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "cultural homogenization and loss of unique identity",
+                      "lower clothing costs",
+                      "more comfortable life"
+                    ],
+                    "correctAnswer": "cultural homogenization and loss of unique identity"
+                  }
                 ],
                 "correctSentence": "This development is negative because the decline of traditional clothing leads to cultural homogenization and loss of unique identity.",
                 "usableIn": "body-paragraph-2"
@@ -289,9 +466,33 @@
                 "type": "template",
                 "template": "However, there are also _____ benefits, as _____ promotes _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["some practical", "no real", "unlimited"], "correctAnswer": "some practical"},
-                  {"id": "support4_b2", "options": ["Western clothing", "traditional attire", "expensive fashion"], "correctAnswer": "Western clothing"},
-                  {"id": "support4_b3", "options": ["comfort and efficiency in daily life", "cultural festivals", "museum exhibits"], "correctAnswer": "comfort and efficiency in daily life"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "some practical",
+                      "no real",
+                      "unlimited"
+                    ],
+                    "correctAnswer": "some practical"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "Western clothing",
+                      "traditional attire",
+                      "expensive fashion"
+                    ],
+                    "correctAnswer": "Western clothing"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "comfort and efficiency in daily life",
+                      "cultural festivals",
+                      "museum exhibits"
+                    ],
+                    "correctAnswer": "comfort and efficiency in daily life"
+                  }
                 ],
                 "correctSentence": "However, there are also some practical benefits, as Western clothing promotes comfort and efficiency in daily life.",
                 "usableIn": "body-paragraph-2"
@@ -308,9 +509,33 @@
                 "type": "template",
                 "template": "For instance, _____ require _____, making them _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["most corporate offices", "traditional ceremonies", "museums"], "correctAnswer": "most corporate offices"},
-                  {"id": "example1_b2", "options": ["business dress codes with Western suits and formal attire", "traditional clothing only", "casual sportswear"], "correctAnswer": "business dress codes with Western suits and formal attire"},
-                  {"id": "example1_b3", "options": ["essential for professional success", "optional", "outdated"], "correctAnswer": "essential for professional success"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "most corporate offices",
+                      "traditional ceremonies",
+                      "museums"
+                    ],
+                    "correctAnswer": "most corporate offices"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "business dress codes with Western suits and formal attire",
+                      "traditional clothing only",
+                      "casual sportswear"
+                    ],
+                    "correctAnswer": "business dress codes with Western suits and formal attire"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "essential for professional success",
+                      "optional",
+                      "outdated"
+                    ],
+                    "correctAnswer": "essential for professional success"
+                  }
                 ],
                 "correctSentence": "For instance, most corporate offices require business dress codes with Western suits and formal attire, making them essential for professional success.",
                 "usableIn": "body-paragraph-1"
@@ -320,9 +545,33 @@
                 "type": "template",
                 "template": "For example, young people in _____ increasingly prefer _____ over _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Asia and Africa", "Europe only", "Antarctica"], "correctAnswer": "Asia and Africa"},
-                  {"id": "example2_b2", "options": ["jeans and t-shirts", "business suits", "formal gowns"], "correctAnswer": "jeans and t-shirts"},
-                  {"id": "example2_b3", "options": ["traditional garments like kimonos or saris", "expensive jewelry", "winter coats"], "correctAnswer": "traditional garments like kimonos or saris"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Asia and Africa",
+                      "Europe only",
+                      "Antarctica"
+                    ],
+                    "correctAnswer": "Asia and Africa"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "jeans and t-shirts",
+                      "business suits",
+                      "formal gowns"
+                    ],
+                    "correctAnswer": "jeans and t-shirts"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "traditional garments like kimonos or saris",
+                      "expensive jewelry",
+                      "winter coats"
+                    ],
+                    "correctAnswer": "traditional garments like kimonos or saris"
+                  }
                 ],
                 "correctSentence": "For example, young people in Asia and Africa increasingly prefer jeans and t-shirts over traditional garments like kimonos or saris.",
                 "usableIn": "body-paragraph-1"
@@ -332,9 +581,33 @@
                 "type": "template",
                 "template": "For instance, _____ such as _____ are now only worn during _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["traditional garments", "business suits", "sports uniforms"], "correctAnswer": "traditional garments"},
-                  {"id": "example3_b2", "options": ["the kimono in Japan or the hanbok in Korea", "jeans and t-shirts", "winter jackets"], "correctAnswer": "the kimono in Japan or the hanbok in Korea"},
-                  {"id": "example3_b3", "options": ["special cultural festivals or ceremonies", "everyday work", "sports activities"], "correctAnswer": "special cultural festivals or ceremonies"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "traditional garments",
+                      "business suits",
+                      "sports uniforms"
+                    ],
+                    "correctAnswer": "traditional garments"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "the kimono in Japan or the hanbok in Korea",
+                      "jeans and t-shirts",
+                      "winter jackets"
+                    ],
+                    "correctAnswer": "the kimono in Japan or the hanbok in Korea"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "special cultural festivals or ceremonies",
+                      "everyday work",
+                      "sports activities"
+                    ],
+                    "correctAnswer": "special cultural festivals or ceremonies"
+                  }
                 ],
                 "correctSentence": "For instance, traditional garments such as the kimono in Japan or the hanbok in Korea are now only worn during special cultural festivals or ceremonies.",
                 "usableIn": "body-paragraph-2"
@@ -344,9 +617,33 @@
                 "type": "template",
                 "template": "This means that _____ are losing _____ because _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["younger generations", "older people", "fashion designers"], "correctAnswer": "younger generations"},
-                  {"id": "example4_b2", "options": ["connection with their cultural heritage", "money", "free time"], "correctAnswer": "connection with their cultural heritage"},
-                  {"id": "example4_b3", "options": ["they rarely experience wearing traditional attire in daily life", "they prefer museums", "traditional clothing is expensive"], "correctAnswer": "they rarely experience wearing traditional attire in daily life"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "younger generations",
+                      "older people",
+                      "fashion designers"
+                    ],
+                    "correctAnswer": "younger generations"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "connection with their cultural heritage",
+                      "money",
+                      "free time"
+                    ],
+                    "correctAnswer": "connection with their cultural heritage"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "they rarely experience wearing traditional attire in daily life",
+                      "they prefer museums",
+                      "traditional clothing is expensive"
+                    ],
+                    "correctAnswer": "they rarely experience wearing traditional attire in daily life"
+                  }
                 ],
                 "correctSentence": "This means that younger generations are losing connection with their cultural heritage because they rarely experience wearing traditional attire in daily life.",
                 "usableIn": "body-paragraph-2"
@@ -363,8 +660,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["Western clothing offers practical advantages for modern life", "traditional clothing is expensive", "fashion is unimportant"], "correctAnswer": "Western clothing offers practical advantages for modern life"},
-                  {"id": "conclusion1_b2", "options": ["the loss of cultural identity makes this a largely negative trend", "everyone should wear suits", "this is completely positive"], "correctAnswer": "the loss of cultural identity makes this a largely negative trend"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "Western clothing offers practical advantages for modern life",
+                      "traditional clothing is expensive",
+                      "fashion is unimportant"
+                    ],
+                    "correctAnswer": "Western clothing offers practical advantages for modern life"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the loss of cultural identity makes this a largely negative trend",
+                      "everyone should wear suits",
+                      "this is completely positive"
+                    ],
+                    "correctAnswer": "the loss of cultural identity makes this a largely negative trend"
+                  }
                 ],
                 "correctSentence": "In conclusion, while Western clothing offers practical advantages for modern life, I believe the loss of cultural identity makes this a largely negative trend.",
                 "usableIn": "conclusion"
@@ -393,12 +706,44 @@
           }
         ],
         "usefulTransitions": {
-          "listing_reasons": ["Firstly", "Secondly", "The main reason is", "Another factor is", "Additionally"],
-          "transitioning_to_part2": ["Regarding whether this is positive or negative", "As for the impact of this trend", "Turning to the evaluation"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "A case in point is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This means that"],
-          "contrasting": ["However", "Nevertheless", "On the other hand", "Despite this"],
-          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"]
+          "listing_reasons": [
+            "Firstly",
+            "Secondly",
+            "The main reason is",
+            "Another factor is",
+            "Additionally"
+          ],
+          "transitioning_to_part2": [
+            "Regarding whether this is positive or negative",
+            "As for the impact of this trend",
+            "Turning to the evaluation"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "A case in point is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This means that"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the other hand",
+            "Despite this"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ]
         }
       }
     },
