@@ -290,10 +290,15 @@ function validateExercises(exerciseContent, topicId) {
         exerciseContent.buildFromClues.forEach((exercise, idx) => {
             const exContext = `buildFromClues exercise ${idx + 1} in ${context}`;
 
+            // Handle both direct fields and nested clues structure
+            const subject = exercise.subject || exercise.clues?.subject;
+            const verb = exercise.verb || exercise.clues?.verb;
+            const keywords = exercise.keywords || exercise.clues?.keywords;
+
             // Validate required fields
-            if (!exercise.subject) issues.push(`Missing subject in ${exContext}`);
-            if (!exercise.verb) issues.push(`Missing verb in ${exContext}`);
-            if (!exercise.keywords || !Array.isArray(exercise.keywords) || exercise.keywords.length === 0) {
+            if (!subject) issues.push(`Missing subject in ${exContext}`);
+            if (!verb) issues.push(`Missing verb in ${exContext}`);
+            if (!keywords || !Array.isArray(keywords) || keywords.length === 0) {
                 issues.push(`Missing or invalid keywords in ${exContext}`);
             }
             if (!exercise.modelAnswer) {
@@ -305,8 +310,8 @@ function validateExercises(exerciseContent, topicId) {
 
                 // Check if model answer uses the provided subject and verb
                 const answer = exercise.modelAnswer.toLowerCase();
-                if (exercise.subject && !answer.includes(exercise.subject.toLowerCase())) {
-                    issues.push(`Model answer doesn't use subject "${exercise.subject}" in ${exContext}`);
+                if (subject && !answer.includes(subject.toLowerCase())) {
+                    issues.push(`Model answer doesn't use subject "${subject}" in ${exContext}`);
                 }
             }
         });
@@ -500,7 +505,11 @@ function validateTopicData(data, topicId) {
                 const opinionMarkers = [
                     'I believe', 'I think', 'In my opinion', 'In my view',
                     'I agree', 'I disagree', 'personally', 'from my perspective',
-                    'it is my belief', 'I would argue', 'this essay will', 'I strongly'
+                    'it is my belief', 'I would argue', 'this essay will', 'I strongly',
+                    'I partially agree', 'I completely agree', 'I fully agree',
+                    'I somewhat agree', 'I largely agree',
+                    'I completely disagree', 'I firmly disagree', 'I largely disagree',
+                    'I partially disagree', 'I somewhat disagree'
                 ];
                 const hasOpinion = opinionMarkers.some(marker =>
                     intro.toLowerCase().includes(marker.toLowerCase())
@@ -769,7 +778,11 @@ async function runTests() {
                 const opinionMarkers = [
                     'I believe', 'I think', 'In my opinion', 'In my view',
                     'I agree', 'I disagree', 'personally', 'from my perspective',
-                    'it is my belief', 'I would argue', 'this essay will', 'I strongly'
+                    'it is my belief', 'I would argue', 'this essay will', 'I strongly',
+                    'I partially agree', 'I completely agree', 'I fully agree',
+                    'I somewhat agree', 'I largely agree',
+                    'I completely disagree', 'I firmly disagree', 'I largely disagree',
+                    'I partially disagree', 'I somewhat disagree'
                 ];
                 const hasOpinion = opinionMarkers.some(marker =>
                     intro.toLowerCase().includes(marker.toLowerCase())
