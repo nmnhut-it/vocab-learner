@@ -86,7 +86,9 @@
               "incorporate",
               "merge",
               "combine"
-            ]
+            ],
+            "vietnameseDefinition": "Kết hợp hoặc hợp nhất các phần thành một toàn thể.",
+            "vietnameseExample": "Các trường học nên tích hợp công nghệ vào các phương pháp giảng dạy truyền thống."
           },
           {
             "word": "accessibility",
@@ -97,7 +99,9 @@
             "synonyms": [
               "availability",
               "reachability"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng tiếp cận hoặc dễ sử dụng.",
+            "vietnameseExample": "Công nghệ cải thiện khả năng tiếp cận giáo dục cho sinh viên khuyết tật."
           },
           {
             "word": "proficiency",
@@ -189,17 +193,58 @@
           {
             "phrase": "screen time",
             "definition": "Duration spent using digital devices.",
-            "example": "Excessive screen time may negatively impact students' physical health and attention spans."
+            "example": "Excessive screen time may negatively impact students' physical health and attention spans.",
+            "vietnameseDefinition": "Thời gian dành cho việc sử dụng thiết bị kỹ thuật số.",
+            "vietnameseExample": "Thời gian sử dụng màn hình quá mức có thể ảnh hưởng tiêu cực đến sức khỏe học sinh."
           },
           {
             "phrase": "digital divide",
             "definition": "The gap between those with and without access to technology.",
-            "example": "The digital divide creates unequal educational opportunities across socioeconomic groups."
+            "example": "The digital divide creates unequal educational opportunities across socioeconomic groups.",
+            "vietnameseDefinition": "Khoảng cách giữa những người có và không có quyền truy cập công nghệ.",
+            "vietnameseExample": "Khoảng cách kỹ thuật số tạo ra bất bình đẳng trong cơ hội giáo dục."
           },
           {
             "phrase": "blended learning",
             "definition": "Combination of online digital media and traditional classroom methods.",
-            "example": "Blended learning models integrate face-to-face instruction with online components."
+            "example": "Blended learning models integrate face-to-face instruction with online components.",
+            "vietnameseDefinition": "Phương pháp kết hợp giảng dạy trực tiếp và trực tuyến.",
+            "vietnameseExample": "Học tập kết hợp kết hợp những điểm tốt nhất của giáo dục truyền thống và kỹ thuật số."
+          },
+          {
+            "phrase": "flipped classroom",
+            "definition": "Teaching model where students learn content at home and practice in class.",
+            "vietnameseDefinition": "Mô hình giảng dạy nơi học sinh học nội dung ở nhà và thực hành trong lớp.",
+            "example": "The flipped classroom model allows teachers to provide more individualized support.",
+            "vietnameseExample": "Mô hình lớp học đảo ngược cho phép giáo viên cung cấp hỗ trợ cá nhân hóa nhiều hơn."
+          },
+          {
+            "phrase": "gamification in education",
+            "definition": "Using game elements to increase student engagement.",
+            "vietnameseDefinition": "Sử dụng các yếu tố trò chơi để tăng sự tham gia của học sinh.",
+            "example": "Gamification in education can make learning more motivating and fun.",
+            "vietnameseExample": "Trò chơi hóa trong giáo dục có thể làm cho việc học trở nên thúc đẩy và vui vẻ hơn."
+          },
+          {
+            "phrase": "virtual classroom",
+            "definition": "Online learning environment that simulates traditional classroom.",
+            "vietnameseDefinition": "Môi trường học trực tuyến mô phỏng lớp học truyền thống.",
+            "example": "Virtual classrooms became essential during the pandemic.",
+            "vietnameseExample": "Lớp học ảo trở nên thiết yếu trong thời kỳ đại dịch."
+          },
+          {
+            "phrase": "STEM education",
+            "definition": "Integrated teaching of Science, Technology, Engineering, and Mathematics.",
+            "vietnameseDefinition": "Giảng dạy tích hợp Khoa học, Công nghệ, Kỹ thuật và Toán học.",
+            "example": "STEM education prepares students for careers in technology-driven fields.",
+            "vietnameseExample": "Giáo dục STEM chuẩn bị học sinh cho sự nghiệp trong các lĩnh vực công nghệ."
+          },
+          {
+            "phrase": "learning management system",
+            "definition": "Software for administering and tracking educational courses.",
+            "vietnameseDefinition": "Phần mềm để quản lý và theo dõi các khóa học giáo dục.",
+            "example": "Learning management systems help teachers organize course materials and track student progress.",
+            "vietnameseExample": "Hệ thống quản lý học tập giúp giáo viên tổ chức tài liệu khóa học và theo dõi tiến độ học sinh."
           }
         ],
         "linkingPhrases": {
