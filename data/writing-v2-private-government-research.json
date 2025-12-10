@@ -74,105 +74,153 @@
             "word": "R&D investment",
             "pronunciation": "/ɑːr ənd diː ɪnˈvestmənt/",
             "partOfSpeech": "noun",
-            "definition": "Money spent on research and development activities",
+            "definition": "Money spent on research and development activities.",
             "example": "Tech companies allocate billions in R&D investment to stay competitive.",
-            "synonyms": ["research funding", "development spending"]
+            "synonyms": [
+              "research funding",
+              "development spending"
+            ]
           },
           {
             "word": "intellectual property",
             "pronunciation": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
             "partOfSpeech": "noun",
-            "definition": "Legal rights to inventions, discoveries, or creative works",
+            "definition": "Legal rights to inventions, discoveries, or creative works.",
             "example": "Private firms protect their discoveries through intellectual property patents.",
-            "synonyms": ["IP", "proprietary rights"]
+            "synonyms": [
+              "IP",
+              "proprietary rights"
+            ]
           },
           {
             "word": "peer review",
             "pronunciation": "/pɪə rɪˈvjuː/",
             "partOfSpeech": "noun",
-            "definition": "Evaluation of research by experts in the same field",
+            "definition": "Evaluation of research by experts in the same field.",
             "example": "Government research typically undergoes rigorous peer review before publication.",
-            "synonyms": ["academic scrutiny", "expert evaluation"]
+            "synonyms": [
+              "academic scrutiny",
+              "expert evaluation"
+            ]
           },
           {
             "word": "commercial viability",
             "pronunciation": "/kəˈmɜːʃəl ˌvaɪəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Ability of a product or service to generate profit",
+            "definition": "Ability of a product or service to generate profit.",
             "example": "Private research focuses on commercial viability rather than pure science.",
-            "synonyms": ["profitability", "marketability"]
+            "synonyms": [
+              "profitability",
+              "marketability"
+            ]
           },
           {
             "word": "fundamental research",
             "pronunciation": "/ˌfʌndəˈmentəl rɪˈsɜːtʃ/",
             "partOfSpeech": "noun",
-            "definition": "Basic scientific investigation without immediate practical application",
+            "definition": "Basic scientific investigation without immediate practical application.",
             "example": "Fundamental research in physics often receives less private funding.",
-            "synonyms": ["basic research", "pure science"]
+            "synonyms": [
+              "basic research",
+              "pure science"
+            ]
           },
           {
             "word": "innovation",
             "pronunciation": "/ˌɪnəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Introduction of new ideas, methods, or products",
+            "definition": "Introduction of new ideas, methods, or products.",
             "example": "Private companies drive innovation through competitive market pressures.",
-            "synonyms": ["advancement", "breakthrough"]
+            "synonyms": [
+              "advancement",
+              "breakthrough"
+            ]
           },
           {
             "word": "transparency",
             "pronunciation": "/trænsˈpærənsi/",
             "partOfSpeech": "noun",
-            "definition": "Openness and accountability in operations",
+            "definition": "Openness and accountability in operations.",
             "example": "Government research offers greater transparency than proprietary corporate studies.",
-            "synonyms": ["openness", "accountability"]
+            "synonyms": [
+              "openness",
+              "accountability"
+            ]
           },
           {
             "word": "proprietary",
             "pronunciation": "/prəˈpraɪətəri/",
             "partOfSpeech": "adjective",
-            "definition": "Owned by a private company and protected by patents",
+            "definition": "Owned by a private company and protected by patents.",
             "example": "Proprietary research results are often kept secret for competitive advantage.",
-            "synonyms": ["exclusive", "patented"]
+            "synonyms": [
+              "exclusive",
+              "patented"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "knowledge sharing",
-            "definition": "Open exchange of information and findings",
+            "definition": "Open exchange of information and findings.",
             "example": "Government research promotes knowledge sharing across the scientific community."
           },
           {
             "phrase": "profit-driven research",
-            "definition": "Investigation aimed at generating financial returns",
+            "definition": "Investigation aimed at generating financial returns.",
             "example": "Profit-driven research may neglect areas without commercial potential."
           },
           {
             "phrase": "public good",
-            "definition": "Benefits shared by all members of society",
+            "definition": "Benefits shared by all members of society.",
             "example": "Basic scientific research contributes to the public good rather than private profit."
           },
           {
             "phrase": "market forces",
-            "definition": "Economic factors influencing business decisions",
+            "definition": "Economic factors influencing business decisions.",
             "example": "Market forces drive private companies to prioritize profitable research areas."
           },
           {
             "phrase": "breakthrough discoveries",
-            "definition": "Major advances that significantly change understanding",
+            "definition": "Major advances that significantly change understanding.",
             "example": "Both private and government labs have produced breakthrough discoveries."
           },
           {
             "phrase": "funding availability",
-            "definition": "Access to financial resources for research",
+            "definition": "Access to financial resources for research.",
             "example": "Private sector offers better funding availability for applied research projects."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The shift towards private research presents", "This trend has both positive and negative aspects", "While this development brings"],
-          "contrasting": ["On the one hand", "On the other hand", "However", "Conversely"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "A clear example is", "Particularly"],
-          "concluding": ["In conclusion", "On balance", "Overall", "Ultimately"]
+          "introducing": [
+            "The shift towards private research presents",
+            "This trend has both positive and negative aspects",
+            "While this development brings"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "However",
+            "Conversely"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "On balance",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -195,8 +243,24 @@
                 "type": "template",
                 "template": "This trend brings _____, but also _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["faster innovation and efficiency", "more money", "better equipment"], "correctAnswer": "faster innovation and efficiency"},
-                  {"id": "thesis1_b2", "options": ["raises concerns about profit prioritization over public benefit", "costs more", "requires training"], "correctAnswer": "raises concerns about profit prioritization over public benefit"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "faster innovation and efficiency",
+                      "more money",
+                      "better equipment"
+                    ],
+                    "correctAnswer": "faster innovation and efficiency"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "raises concerns about profit prioritization over public benefit",
+                      "costs more",
+                      "requires training"
+                    ],
+                    "correctAnswer": "raises concerns about profit prioritization over public benefit"
+                  }
                 ],
                 "correctSentence": "This trend brings faster innovation and efficiency, but also raises concerns about profit prioritization over public benefit.",
                 "usableIn": "introduction"
@@ -206,8 +270,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the advantages outweigh the disadvantages", "both sides are equal", "research should stop"], "correctAnswer": "the advantages outweigh the disadvantages"},
-                  {"id": "thesis2_b2", "options": ["some legitimate concerns about accessibility and public interest", "high costs", "technical challenges"], "correctAnswer": "some legitimate concerns about accessibility and public interest"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the advantages outweigh the disadvantages",
+                      "both sides are equal",
+                      "research should stop"
+                    ],
+                    "correctAnswer": "the advantages outweigh the disadvantages"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "some legitimate concerns about accessibility and public interest",
+                      "high costs",
+                      "technical challenges"
+                    ],
+                    "correctAnswer": "some legitimate concerns about accessibility and public interest"
+                  }
                 ],
                 "correctSentence": "In my opinion, the advantages outweigh the disadvantages despite some legitimate concerns about accessibility and public interest.",
                 "usableIn": "introduction"
@@ -224,8 +304,24 @@
                 "type": "template",
                 "template": "The primary advantage is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["private sector involvement", "government control", "international cooperation"], "correctAnswer": "private sector involvement"},
-                  {"id": "topic1_b2", "options": ["accelerated innovation and more efficient resource allocation", "slower progress", "higher taxes"], "correctAnswer": "accelerated innovation and more efficient resource allocation"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "private sector involvement",
+                      "government control",
+                      "international cooperation"
+                    ],
+                    "correctAnswer": "private sector involvement"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "accelerated innovation and more efficient resource allocation",
+                      "slower progress",
+                      "higher taxes"
+                    ],
+                    "correctAnswer": "accelerated innovation and more efficient resource allocation"
+                  }
                 ],
                 "correctSentence": "The primary advantage is that private sector involvement leads to accelerated innovation and more efficient resource allocation.",
                 "usableIn": "body-paragraph-1"
@@ -235,8 +331,24 @@
                 "type": "template",
                 "template": "However, _____ creates _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["profit-driven research", "government funding", "academic collaboration"], "correctAnswer": "profit-driven research"},
-                  {"id": "topic2_b2", "options": ["significant concerns about equity and public interest", "more jobs", "better universities"], "correctAnswer": "significant concerns about equity and public interest"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "profit-driven research",
+                      "government funding",
+                      "academic collaboration"
+                    ],
+                    "correctAnswer": "profit-driven research"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "significant concerns about equity and public interest",
+                      "more jobs",
+                      "better universities"
+                    ],
+                    "correctAnswer": "significant concerns about equity and public interest"
+                  }
                 ],
                 "correctSentence": "However, profit-driven research creates significant concerns about equity and public interest.",
                 "usableIn": "body-paragraph-2"
@@ -253,8 +365,24 @@
                 "type": "template",
                 "template": "This is because _____ incentivizes companies to _____.",
                 "blanks": [
-                  {"id": "support_adv1_b1", "options": ["market competition", "government regulation", "public opinion"], "correctAnswer": "market competition"},
-                  {"id": "support_adv1_b2", "options": ["develop products quickly and efficiently to gain competitive advantage", "work slowly", "share all findings"], "correctAnswer": "develop products quickly and efficiently to gain competitive advantage"}
+                  {
+                    "id": "support_adv1_b1",
+                    "options": [
+                      "market competition",
+                      "government regulation",
+                      "public opinion"
+                    ],
+                    "correctAnswer": "market competition"
+                  },
+                  {
+                    "id": "support_adv1_b2",
+                    "options": [
+                      "develop products quickly and efficiently to gain competitive advantage",
+                      "work slowly",
+                      "share all findings"
+                    ],
+                    "correctAnswer": "develop products quickly and efficiently to gain competitive advantage"
+                  }
                 ],
                 "correctSentence": "This is because market competition incentivizes companies to develop products quickly and efficiently to gain competitive advantage.",
                 "usableIn": "body-paragraph-1"
@@ -264,8 +392,24 @@
                 "type": "template",
                 "template": "Private companies can _____ without _____.",
                 "blanks": [
-                  {"id": "support_adv2_b1", "options": ["invest substantial resources in promising research areas", "hire scientists", "publish papers"], "correctAnswer": "invest substantial resources in promising research areas"},
-                  {"id": "support_adv2_b2", "options": ["bureaucratic delays typical of government-funded projects", "paying salaries", "conducting experiments"], "correctAnswer": "bureaucratic delays typical of government-funded projects"}
+                  {
+                    "id": "support_adv2_b1",
+                    "options": [
+                      "invest substantial resources in promising research areas",
+                      "hire scientists",
+                      "publish papers"
+                    ],
+                    "correctAnswer": "invest substantial resources in promising research areas"
+                  },
+                  {
+                    "id": "support_adv2_b2",
+                    "options": [
+                      "bureaucratic delays typical of government-funded projects",
+                      "paying salaries",
+                      "conducting experiments"
+                    ],
+                    "correctAnswer": "bureaucratic delays typical of government-funded projects"
+                  }
                 ],
                 "correctSentence": "Private companies can invest substantial resources in promising research areas without bureaucratic delays typical of government-funded projects.",
                 "usableIn": "body-paragraph-1"
@@ -275,9 +419,33 @@
                 "type": "template",
                 "template": "Moreover, _____ attracts _____ who _____.",
                 "blanks": [
-                  {"id": "support_adv3_b1", "options": ["higher private sector salaries", "government benefits", "academic titles"], "correctAnswer": "higher private sector salaries"},
-                  {"id": "support_adv3_b2", "options": ["top scientific talent", "average workers", "administrators"], "correctAnswer": "top scientific talent"},
-                  {"id": "support_adv3_b3", "options": ["drive breakthrough discoveries and technological advancement", "work standard hours", "attend conferences"], "correctAnswer": "drive breakthrough discoveries and technological advancement"}
+                  {
+                    "id": "support_adv3_b1",
+                    "options": [
+                      "higher private sector salaries",
+                      "government benefits",
+                      "academic titles"
+                    ],
+                    "correctAnswer": "higher private sector salaries"
+                  },
+                  {
+                    "id": "support_adv3_b2",
+                    "options": [
+                      "top scientific talent",
+                      "average workers",
+                      "administrators"
+                    ],
+                    "correctAnswer": "top scientific talent"
+                  },
+                  {
+                    "id": "support_adv3_b3",
+                    "options": [
+                      "drive breakthrough discoveries and technological advancement",
+                      "work standard hours",
+                      "attend conferences"
+                    ],
+                    "correctAnswer": "drive breakthrough discoveries and technological advancement"
+                  }
                 ],
                 "correctSentence": "Moreover, higher private sector salaries attract top scientific talent who drive breakthrough discoveries and technological advancement.",
                 "usableIn": "body-paragraph-1"
@@ -294,8 +462,24 @@
                 "type": "template",
                 "template": "The main concern is that _____ may _____.",
                 "blanks": [
-                  {"id": "support_dis1_b1", "options": ["profit-oriented companies", "government agencies", "universities"], "correctAnswer": "profit-oriented companies"},
-                  {"id": "support_dis1_b2", "options": ["neglect fundamental research that lacks immediate commercial viability", "hire more staff", "publish more often"], "correctAnswer": "neglect fundamental research that lacks immediate commercial viability"}
+                  {
+                    "id": "support_dis1_b1",
+                    "options": [
+                      "profit-oriented companies",
+                      "government agencies",
+                      "universities"
+                    ],
+                    "correctAnswer": "profit-oriented companies"
+                  },
+                  {
+                    "id": "support_dis1_b2",
+                    "options": [
+                      "neglect fundamental research that lacks immediate commercial viability",
+                      "hire more staff",
+                      "publish more often"
+                    ],
+                    "correctAnswer": "neglect fundamental research that lacks immediate commercial viability"
+                  }
                 ],
                 "correctSentence": "The main concern is that profit-oriented companies may neglect fundamental research that lacks immediate commercial viability.",
                 "usableIn": "body-paragraph-2"
@@ -305,9 +489,33 @@
                 "type": "template",
                 "template": "Furthermore, _____ can limit _____ because _____.",
                 "blanks": [
-                  {"id": "support_dis2_b1", "options": ["proprietary research", "public funding", "academic journals"], "correctAnswer": "proprietary research"},
-                  {"id": "support_dis2_b2", "options": ["knowledge sharing across the scientific community", "company profits", "research speed"], "correctAnswer": "knowledge sharing across the scientific community"},
-                  {"id": "support_dis2_b3", "options": ["companies protect intellectual property to maintain competitive advantages", "scientists are busy", "equipment is expensive"], "correctAnswer": "companies protect intellectual property to maintain competitive advantages"}
+                  {
+                    "id": "support_dis2_b1",
+                    "options": [
+                      "proprietary research",
+                      "public funding",
+                      "academic journals"
+                    ],
+                    "correctAnswer": "proprietary research"
+                  },
+                  {
+                    "id": "support_dis2_b2",
+                    "options": [
+                      "knowledge sharing across the scientific community",
+                      "company profits",
+                      "research speed"
+                    ],
+                    "correctAnswer": "knowledge sharing across the scientific community"
+                  },
+                  {
+                    "id": "support_dis2_b3",
+                    "options": [
+                      "companies protect intellectual property to maintain competitive advantages",
+                      "scientists are busy",
+                      "equipment is expensive"
+                    ],
+                    "correctAnswer": "companies protect intellectual property to maintain competitive advantages"
+                  }
                 ],
                 "correctSentence": "Furthermore, proprietary research can limit knowledge sharing across the scientific community because companies protect intellectual property to maintain competitive advantages.",
                 "usableIn": "body-paragraph-2"
@@ -317,9 +525,33 @@
                 "type": "template",
                 "template": "Additionally, _____ prioritize _____ over _____.",
                 "blanks": [
-                  {"id": "support_dis3_b1", "options": ["private firms", "government labs", "universities"], "correctAnswer": "private firms"},
-                  {"id": "support_dis3_b2", "options": ["profitable research areas", "all scientific fields", "academic publications"], "correctAnswer": "profitable research areas"},
-                  {"id": "support_dis3_b3", "options": ["public health needs or environmental concerns", "company growth", "hiring staff"], "correctAnswer": "public health needs or environmental concerns"}
+                  {
+                    "id": "support_dis3_b1",
+                    "options": [
+                      "private firms",
+                      "government labs",
+                      "universities"
+                    ],
+                    "correctAnswer": "private firms"
+                  },
+                  {
+                    "id": "support_dis3_b2",
+                    "options": [
+                      "profitable research areas",
+                      "all scientific fields",
+                      "academic publications"
+                    ],
+                    "correctAnswer": "profitable research areas"
+                  },
+                  {
+                    "id": "support_dis3_b3",
+                    "options": [
+                      "public health needs or environmental concerns",
+                      "company growth",
+                      "hiring staff"
+                    ],
+                    "correctAnswer": "public health needs or environmental concerns"
+                  }
                 ],
                 "correctSentence": "Additionally, private firms prioritize profitable research areas over public health needs or environmental concerns.",
                 "usableIn": "body-paragraph-2"
@@ -336,9 +568,33 @@
                 "type": "template",
                 "template": "For instance, _____ have _____ by _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["pharmaceutical companies", "government agencies", "universities"], "correctAnswer": "pharmaceutical companies"},
-                  {"id": "example1_b2", "options": ["developed life-saving vaccines and treatments rapidly", "published papers", "trained students"], "correctAnswer": "developed life-saving vaccines and treatments rapidly"},
-                  {"id": "example1_b3", "options": ["investing billions in R&D to create commercially viable products", "receiving government grants", "teaching courses"], "correctAnswer": "investing billions in R&D to create commercially viable products"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "pharmaceutical companies",
+                      "government agencies",
+                      "universities"
+                    ],
+                    "correctAnswer": "pharmaceutical companies"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "developed life-saving vaccines and treatments rapidly",
+                      "published papers",
+                      "trained students"
+                    ],
+                    "correctAnswer": "developed life-saving vaccines and treatments rapidly"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "investing billions in R&D to create commercially viable products",
+                      "receiving government grants",
+                      "teaching courses"
+                    ],
+                    "correctAnswer": "investing billions in R&D to create commercially viable products"
+                  }
                 ],
                 "correctSentence": "For instance, pharmaceutical companies have developed life-saving vaccines and treatments rapidly by investing billions in R&D to create commercially viable products.",
                 "usableIn": "body-paragraph-1"
@@ -348,9 +604,33 @@
                 "type": "template",
                 "template": "Similarly, _____ like _____ continually _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["tech giants", "government departments", "public schools"], "correctAnswer": "tech giants"},
-                  {"id": "example2_b2", "options": ["Google and Apple", "NASA and USDA", "local councils"], "correctAnswer": "Google and Apple"},
-                  {"id": "example2_b3", "options": ["push boundaries in artificial intelligence and consumer technology", "write reports", "conduct surveys"], "correctAnswer": "push boundaries in artificial intelligence and consumer technology"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "tech giants",
+                      "government departments",
+                      "public schools"
+                    ],
+                    "correctAnswer": "tech giants"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "Google and Apple",
+                      "NASA and USDA",
+                      "local councils"
+                    ],
+                    "correctAnswer": "Google and Apple"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "push boundaries in artificial intelligence and consumer technology",
+                      "write reports",
+                      "conduct surveys"
+                    ],
+                    "correctAnswer": "push boundaries in artificial intelligence and consumer technology"
+                  }
                 ],
                 "correctSentence": "Similarly, tech giants like Google and Apple continually push boundaries in artificial intelligence and consumer technology.",
                 "usableIn": "body-paragraph-1"
@@ -360,8 +640,24 @@
                 "type": "template",
                 "template": "For example, _____ demonstrates how _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the high cost of proprietary cancer drugs", "free government research", "university collaboration"], "correctAnswer": "the high cost of proprietary cancer drugs"},
-                  {"id": "example3_b2", "options": ["private research can create accessibility barriers for patients who need treatment", "research benefits everyone", "scientists work together"], "correctAnswer": "private research can create accessibility barriers for patients who need treatment"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the high cost of proprietary cancer drugs",
+                      "free government research",
+                      "university collaboration"
+                    ],
+                    "correctAnswer": "the high cost of proprietary cancer drugs"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "private research can create accessibility barriers for patients who need treatment",
+                      "research benefits everyone",
+                      "scientists work together"
+                    ],
+                    "correctAnswer": "private research can create accessibility barriers for patients who need treatment"
+                  }
                 ],
                 "correctSentence": "For example, the high cost of proprietary cancer drugs demonstrates how private research can create accessibility barriers for patients who need treatment.",
                 "usableIn": "body-paragraph-2"
@@ -371,9 +667,33 @@
                 "type": "template",
                 "template": "The contrast between _____ and _____ illustrates _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["NASA's open space research", "private laboratories", "corporate profits"], "correctAnswer": "NASA's open space research"},
-                  {"id": "example4_b2", "options": ["SpaceX's proprietary technology", "government bureaucracy", "university teaching"], "correctAnswer": "SpaceX's proprietary technology"},
-                  {"id": "example4_b3", "options": ["the tension between knowledge sharing and competitive advantage", "research costs", "technological progress"], "correctAnswer": "the tension between knowledge sharing and competitive advantage"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "NASA's open space research",
+                      "private laboratories",
+                      "corporate profits"
+                    ],
+                    "correctAnswer": "NASA's open space research"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "SpaceX's proprietary technology",
+                      "government bureaucracy",
+                      "university teaching"
+                    ],
+                    "correctAnswer": "SpaceX's proprietary technology"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "the tension between knowledge sharing and competitive advantage",
+                      "research costs",
+                      "technological progress"
+                    ],
+                    "correctAnswer": "the tension between knowledge sharing and competitive advantage"
+                  }
                 ],
                 "correctSentence": "The contrast between NASA's open space research and SpaceX's proprietary technology illustrates the tension between knowledge sharing and competitive advantage.",
                 "usableIn": "body-paragraph-2"
@@ -390,8 +710,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["private research raises concerns about equity and public interest", "research is expensive", "companies make profits"], "correctAnswer": "private research raises concerns about equity and public interest"},
-                  {"id": "conclusion1_b2", "options": ["the efficiency and innovation benefits outweigh these disadvantages", "both sides are equal", "we should stop all research"], "correctAnswer": "the efficiency and innovation benefits outweigh these disadvantages"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "private research raises concerns about equity and public interest",
+                      "research is expensive",
+                      "companies make profits"
+                    ],
+                    "correctAnswer": "private research raises concerns about equity and public interest"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the efficiency and innovation benefits outweigh these disadvantages",
+                      "both sides are equal",
+                      "we should stop all research"
+                    ],
+                    "correctAnswer": "the efficiency and innovation benefits outweigh these disadvantages"
+                  }
                 ],
                 "correctSentence": "In conclusion, while private research raises concerns about equity and public interest, the efficiency and innovation benefits outweigh these disadvantages.",
                 "usableIn": "conclusion"
@@ -401,8 +737,24 @@
                 "type": "template",
                 "template": "On balance, _____ provided that _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["the advantages of private scientific research outweigh the drawbacks", "government should control everything", "research should be banned"], "correctAnswer": "the advantages of private scientific research outweigh the drawbacks"},
-                  {"id": "conclusion2_b2", "options": ["proper regulations ensure research serves public interest alongside profit motives", "companies pay more taxes", "universities close down"], "correctAnswer": "proper regulations ensure research serves public interest alongside profit motives"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "the advantages of private scientific research outweigh the drawbacks",
+                      "government should control everything",
+                      "research should be banned"
+                    ],
+                    "correctAnswer": "the advantages of private scientific research outweigh the drawbacks"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "proper regulations ensure research serves public interest alongside profit motives",
+                      "companies pay more taxes",
+                      "universities close down"
+                    ],
+                    "correctAnswer": "proper regulations ensure research serves public interest alongside profit motives"
+                  }
                 ],
                 "correctSentence": "On balance, the advantages of private scientific research outweigh the drawbacks provided that proper regulations ensure research serves public interest alongside profit motives.",
                 "usableIn": "conclusion"
@@ -431,12 +783,45 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_advantages": ["The primary advantage is", "A major benefit of this trend is", "One significant advantage is"],
-          "presenting_disadvantages": ["However", "On the negative side", "Despite these benefits", "The main drawback is"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Beyond this"],
-          "giving_examples": ["For instance", "For example", "A clear example is", "Particularly", "Take for instance"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "balancing": ["On balance", "Overall", "While acknowledging", "Despite", "Although"]
+          "presenting_advantages": [
+            "The primary advantage is",
+            "A major benefit of this trend is",
+            "One significant advantage is"
+          ],
+          "presenting_disadvantages": [
+            "However",
+            "On the negative side",
+            "Despite these benefits",
+            "The main drawback is"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Beyond this"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Particularly",
+            "Take for instance"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "balancing": [
+            "On balance",
+            "Overall",
+            "While acknowledging",
+            "Despite",
+            "Although"
+          ]
         }
       }
     },
@@ -628,7 +1013,7 @@
   ],
   "modelEssay": {
     "text": "The increasing dominance of private companies in scientific research represents a significant shift from traditional government-led investigation. While this development brings faster innovation and more efficient resource allocation, it also raises concerns about profit prioritization over public interest and accessibility of research findings. In my opinion, the advantages of innovation and efficiency outweigh the disadvantages, despite some legitimate concerns about equity and fundamental research.\n\nThe primary advantage is that private sector involvement accelerates innovation and improves research efficiency. Market competition incentivizes companies to develop breakthrough products quickly without the bureaucratic delays typical of government-funded projects. For instance, pharmaceutical companies like Pfizer and Moderna invested billions in R&D investment and developed COVID-19 vaccines in record time, demonstrating the power of private sector efficiency. Moreover, higher salaries in private research attract top scientific talent who drive cutting-edge discoveries in fields like artificial intelligence and biotechnology. As a result, society benefits from faster availability of life-improving technologies and treatments that might have taken years longer through traditional government channels.\n\nHowever, profit-driven research creates significant concerns about equity, accessibility, and neglect of fundamental research. The main problem is that companies naturally prioritize research areas with strong commercial viability while potentially neglecting basic science that lacks immediate profit potential. For example, the high cost of proprietary cancer drugs demonstrates how private research can create accessibility barriers for patients who desperately need treatment. Furthermore, companies protect intellectual property to maintain competitive advantages, which limits knowledge sharing across the scientific community and may slow overall scientific progress. Therefore, there are legitimate concerns about whether private research adequately serves broader public interest rather than shareholder profits.\n\nIn conclusion, while private research raises concerns about profit prioritization, accessibility, and fundamental science neglect, I believe the advantages of accelerated innovation, efficiency, and breakthrough discoveries outweigh these disadvantages. However, proper government regulations should ensure that private research serves public interest alongside profit motives.",
-    "wordCount": 295,
+    "wordCount": 312,
     "structure": {
       "introduction": "The increasing dominance of private companies in scientific research represents a significant shift from traditional government-led investigation. While this development brings faster innovation and more efficient resource allocation, it also raises concerns about profit prioritization over public interest and accessibility of research findings. In my opinion, the advantages of innovation and efficiency outweigh the disadvantages, despite some legitimate concerns about equity and fundamental research.",
       "body1": "The primary advantage is that private sector involvement accelerates innovation and improves research efficiency. Market competition incentivizes companies to develop breakthrough products quickly without the bureaucratic delays typical of government-funded projects. For instance, pharmaceutical companies like Pfizer and Moderna invested billions in R&D investment and developed COVID-19 vaccines in record time, demonstrating the power of private sector efficiency. Moreover, higher salaries in private research attract top scientific talent who drive cutting-edge discoveries in fields like artificial intelligence and biotechnology. As a result, society benefits from faster availability of life-improving technologies and treatments that might have taken years longer through traditional government channels.",

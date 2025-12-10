@@ -79,106 +79,165 @@
             "word": "nurture",
             "pronunciation": "/ˈnɜːtʃə(r)/",
             "partOfSpeech": "verb",
-            "definition": "To care for and encourage growth or development",
+            "definition": "To care for and encourage growth or development.",
             "example": "Parenting courses help parents nurture their children's emotional development.",
-            "synonyms": ["cultivate", "foster", "support"]
+            "synonyms": [
+              "cultivate",
+              "foster",
+              "support"
+            ]
           },
           {
             "word": "equipped",
             "pronunciation": "/ɪˈkwɪpt/",
             "partOfSpeech": "adjective",
-            "definition": "Having the necessary tools, skills, or knowledge",
+            "definition": "Having the necessary tools, skills, or knowledge.",
             "example": "Many new parents feel inadequately equipped to handle behavioral challenges.",
-            "synonyms": ["prepared", "ready", "capable"]
+            "synonyms": [
+              "prepared",
+              "ready",
+              "capable"
+            ]
           },
           {
             "word": "intervention",
             "pronunciation": "/ˌɪntəˈvenʃən/",
             "partOfSpeech": "noun",
-            "definition": "Action taken to improve a situation",
+            "definition": "Action taken to improve a situation.",
             "example": "Early intervention through education can prevent parenting mistakes.",
-            "synonyms": ["involvement", "action", "measures"]
+            "synonyms": [
+              "involvement",
+              "action",
+              "measures"
+            ]
           },
           {
             "word": "comprehensive",
             "pronunciation": "/ˌkɒmprɪˈhensɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Complete and including everything necessary",
+            "definition": "Complete and including everything necessary.",
             "example": "Comprehensive parenting programs cover both physical and emotional child development.",
-            "synonyms": ["thorough", "extensive", "complete"]
+            "synonyms": [
+              "thorough",
+              "extensive",
+              "complete"
+            ]
           },
           {
             "word": "evidence-based",
             "pronunciation": "/ˈevɪdəns beɪst/",
             "partOfSpeech": "adjective",
-            "definition": "Based on scientific research and proven methods",
+            "definition": "Based on scientific research and proven methods.",
             "example": "Evidence-based parenting techniques yield better outcomes than traditional approaches.",
-            "synonyms": ["research-backed", "scientifically proven", "validated"]
+            "synonyms": [
+              "research-backed",
+              "scientifically proven",
+              "validated"
+            ]
           },
           {
             "word": "enhance",
             "pronunciation": "/ɪnˈhɑːns/",
             "partOfSpeech": "verb",
-            "definition": "To improve or increase quality",
+            "definition": "To improve or increase quality.",
             "example": "Parenting education can enhance the parent-child relationship significantly.",
-            "synonyms": ["improve", "strengthen", "boost"]
+            "synonyms": [
+              "improve",
+              "strengthen",
+              "boost"
+            ]
           },
           {
             "word": "mitigate",
             "pronunciation": "/ˈmɪtɪɡeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make less severe or serious",
+            "definition": "To make less severe or serious.",
             "example": "Proper training can mitigate the negative effects of inexperienced parenting.",
-            "synonyms": ["reduce", "alleviate", "lessen"]
+            "synonyms": [
+              "reduce",
+              "alleviate",
+              "lessen"
+            ]
           },
           {
             "word": "implement",
             "pronunciation": "/ˈɪmplɪment/",
             "partOfSpeech": "verb",
-            "definition": "To put a plan or system into action",
+            "definition": "To put a plan or system into action.",
             "example": "Parents can implement effective discipline strategies learned in courses.",
-            "synonyms": ["apply", "execute", "carry out"]
+            "synonyms": [
+              "apply",
+              "execute",
+              "carry out"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "child development",
-            "definition": "The physical, cognitive, and emotional growth of children",
+            "definition": "The physical, cognitive, and emotional growth of children.",
             "example": "Understanding child development helps parents set appropriate expectations."
           },
           {
             "phrase": "parenting skills",
-            "definition": "Abilities needed to raise children effectively",
+            "definition": "Abilities needed to raise children effectively.",
             "example": "Basic parenting skills include communication, discipline, and emotional support."
           },
           {
             "phrase": "formative years",
-            "definition": "Early childhood period when personality and habits develop",
+            "definition": "Early childhood period when personality and habits develop.",
             "example": "The formative years are crucial for establishing healthy behavioral patterns."
           },
           {
             "phrase": "behavioral issues",
-            "definition": "Problems related to how a child acts or responds",
+            "definition": "Problems related to how a child acts or responds.",
             "example": "Many behavioral issues can be addressed through proper parenting techniques."
           },
           {
             "phrase": "emotional well-being",
-            "definition": "The state of mental and emotional health",
+            "definition": "The state of mental and emotional health.",
             "example": "Parental knowledge directly impacts children's emotional well-being."
           },
           {
             "phrase": "time constraints",
-            "definition": "Limitations on available time",
+            "definition": "Limitations on available time.",
             "example": "Working parents often face time constraints that make annual courses challenging."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is often argued that", "There is a growing belief that", "Some advocate that"],
-          "agreeing": ["I strongly agree that", "This viewpoint is valid because", "Indeed"],
-          "disagreeing": ["However, I believe this approach is", "This proposal has limitations", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "exemplifying": ["For instance", "For example", "To illustrate", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "It is often argued that",
+            "There is a growing belief that",
+            "Some advocate that"
+          ],
+          "agreeing": [
+            "I strongly agree that",
+            "This viewpoint is valid because",
+            "Indeed"
+          ],
+          "disagreeing": [
+            "However, I believe this approach is",
+            "This proposal has limitations",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,9 +260,33 @@
                 "type": "template",
                 "template": "I _____ agree that _____ because _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["strongly", "partially", "do not"], "correctAnswer": "strongly"},
-                  {"id": "thesis1_b2", "options": ["parents should attend annual courses", "children need better schools", "education is important"], "correctAnswer": "parents should attend annual courses"},
-                  {"id": "thesis1_b3", "options": ["formal education enhances parenting effectiveness", "everyone likes courses", "schools are helpful"], "correctAnswer": "formal education enhances parenting effectiveness"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "strongly",
+                      "partially",
+                      "do not"
+                    ],
+                    "correctAnswer": "strongly"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "parents should attend annual courses",
+                      "children need better schools",
+                      "education is important"
+                    ],
+                    "correctAnswer": "parents should attend annual courses"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "formal education enhances parenting effectiveness",
+                      "everyone likes courses",
+                      "schools are helpful"
+                    ],
+                    "correctAnswer": "formal education enhances parenting effectiveness"
+                  }
                 ],
                 "correctSentence": "I strongly agree that parents should attend annual courses because formal education enhances parenting effectiveness.",
                 "usableIn": "introduction"
@@ -213,8 +296,24 @@
                 "type": "template",
                 "template": "While _____, I believe _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["parenting education has merit", "courses are expensive", "children need attention"], "correctAnswer": "parenting education has merit"},
-                  {"id": "thesis2_b2", "options": ["annual attendance may be impractical for most families", "everyone should attend", "schools should teach this"], "correctAnswer": "annual attendance may be impractical for most families"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "parenting education has merit",
+                      "courses are expensive",
+                      "children need attention"
+                    ],
+                    "correctAnswer": "parenting education has merit"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "annual attendance may be impractical for most families",
+                      "everyone should attend",
+                      "schools should teach this"
+                    ],
+                    "correctAnswer": "annual attendance may be impractical for most families"
+                  }
                 ],
                 "correctSentence": "While parenting education has merit, I believe annual attendance may be impractical for most families.",
                 "usableIn": "introduction"
@@ -224,8 +323,24 @@
                 "type": "template",
                 "template": "It is often argued that _____; however, _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["formal parenting courses improve child outcomes", "children need toys", "parents are too busy"], "correctAnswer": "formal parenting courses improve child outcomes"},
-                  {"id": "thesis3_b2", "options": ["I partly disagree with making this mandatory", "everyone should attend", "courses are free"], "correctAnswer": "I partly disagree with making this mandatory"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "formal parenting courses improve child outcomes",
+                      "children need toys",
+                      "parents are too busy"
+                    ],
+                    "correctAnswer": "formal parenting courses improve child outcomes"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "I partly disagree with making this mandatory",
+                      "everyone should attend",
+                      "courses are free"
+                    ],
+                    "correctAnswer": "I partly disagree with making this mandatory"
+                  }
                 ],
                 "correctSentence": "It is often argued that formal parenting courses improve child outcomes; however, I partly disagree with making this mandatory.",
                 "usableIn": "introduction"
@@ -235,9 +350,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ would _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["regular parenting education", "expensive programs", "school classes"], "correctAnswer": "regular parenting education"},
-                  {"id": "thesis4_b2", "options": ["significantly benefit children's development", "cost too much money", "waste parents' time"], "correctAnswer": "significantly benefit children's development"},
-                  {"id": "thesis4_b3", "options": ["it equips parents with evidence-based techniques", "children like courses", "schools recommend it"], "correctAnswer": "it equips parents with evidence-based techniques"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "regular parenting education",
+                      "expensive programs",
+                      "school classes"
+                    ],
+                    "correctAnswer": "regular parenting education"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "significantly benefit children's development",
+                      "cost too much money",
+                      "waste parents' time"
+                    ],
+                    "correctAnswer": "significantly benefit children's development"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "it equips parents with evidence-based techniques",
+                      "children like courses",
+                      "schools recommend it"
+                    ],
+                    "correctAnswer": "it equips parents with evidence-based techniques"
+                  }
                 ],
                 "correctSentence": "From my perspective, regular parenting education would significantly benefit children's development because it equips parents with evidence-based techniques.",
                 "usableIn": "introduction"
@@ -247,8 +386,24 @@
                 "type": "template",
                 "template": "This essay will argue that _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["parenting courses are valuable", "children need freedom", "education is optional"], "correctAnswer": "parenting courses are valuable"},
-                  {"id": "thesis5_b2", "options": ["certain practical limitations regarding annual attendance", "being free to attend", "everyone wanting them"], "correctAnswer": "certain practical limitations regarding annual attendance"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "parenting courses are valuable",
+                      "children need freedom",
+                      "education is optional"
+                    ],
+                    "correctAnswer": "parenting courses are valuable"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "certain practical limitations regarding annual attendance",
+                      "being free to attend",
+                      "everyone wanting them"
+                    ],
+                    "correctAnswer": "certain practical limitations regarding annual attendance"
+                  }
                 ],
                 "correctSentence": "This essay will argue that parenting courses are valuable despite certain practical limitations regarding annual attendance.",
                 "usableIn": "introduction"
@@ -265,8 +420,24 @@
                 "type": "template",
                 "template": "The primary benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["parenting education programs", "expensive schools", "television shows"], "correctAnswer": "parenting education programs"},
-                  {"id": "topic1_b2", "options": ["they provide evidence-based knowledge about child development", "children watch videos", "parents get certificates"], "correctAnswer": "they provide evidence-based knowledge about child development"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "parenting education programs",
+                      "expensive schools",
+                      "television shows"
+                    ],
+                    "correctAnswer": "parenting education programs"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "they provide evidence-based knowledge about child development",
+                      "children watch videos",
+                      "parents get certificates"
+                    ],
+                    "correctAnswer": "they provide evidence-based knowledge about child development"
+                  }
                 ],
                 "correctSentence": "The primary benefit of parenting education programs is that they provide evidence-based knowledge about child development.",
                 "usableIn": "body-paragraph-1"
@@ -276,8 +447,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["formal parenting courses", "watching children", "buying toys"], "correctAnswer": "formal parenting courses"},
-                  {"id": "topic2_b2", "options": ["the ability to address behavioral challenges effectively", "getting free materials", "meeting other parents"], "correctAnswer": "the ability to address behavioral challenges effectively"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "formal parenting courses",
+                      "watching children",
+                      "buying toys"
+                    ],
+                    "correctAnswer": "formal parenting courses"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "the ability to address behavioral challenges effectively",
+                      "getting free materials",
+                      "meeting other parents"
+                    ],
+                    "correctAnswer": "the ability to address behavioral challenges effectively"
+                  }
                 ],
                 "correctSentence": "One significant advantage of formal parenting courses is the ability to address behavioral challenges effectively.",
                 "usableIn": "body-paragraph-1"
@@ -287,9 +474,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Advocates of parenting education", "Some teachers", "Many children"], "correctAnswer": "Advocates of parenting education"},
-                  {"id": "topic3_b2", "options": ["structured learning about child psychology", "buying books", "watching videos"], "correctAnswer": "structured learning about child psychology"},
-                  {"id": "topic3_b3", "options": ["nurturing healthy emotional development", "passing exams", "saving money"], "correctAnswer": "nurturing healthy emotional development"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Advocates of parenting education",
+                      "Some teachers",
+                      "Many children"
+                    ],
+                    "correctAnswer": "Advocates of parenting education"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "structured learning about child psychology",
+                      "buying books",
+                      "watching videos"
+                    ],
+                    "correctAnswer": "structured learning about child psychology"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "nurturing healthy emotional development",
+                      "passing exams",
+                      "saving money"
+                    ],
+                    "correctAnswer": "nurturing healthy emotional development"
+                  }
                 ],
                 "correctSentence": "Advocates of parenting education argue that structured learning about child psychology is essential for nurturing healthy emotional development.",
                 "usableIn": "body-paragraph-1"
@@ -299,8 +510,24 @@
                 "type": "template",
                 "template": "However, _____ presents _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["requiring annual course attendance", "giving free courses", "optional learning"], "correctAnswer": "requiring annual course attendance"},
-                  {"id": "topic4_b2", "options": ["several practical challenges for working families", "no problems", "many benefits only"], "correctAnswer": "several practical challenges for working families"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "requiring annual course attendance",
+                      "giving free courses",
+                      "optional learning"
+                    ],
+                    "correctAnswer": "requiring annual course attendance"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "several practical challenges for working families",
+                      "no problems",
+                      "many benefits only"
+                    ],
+                    "correctAnswer": "several practical challenges for working families"
+                  }
                 ],
                 "correctSentence": "However, requiring annual course attendance presents several practical challenges for working families.",
                 "usableIn": "body-paragraph-2"
@@ -310,8 +537,24 @@
                 "type": "template",
                 "template": "A key concern about _____ is that _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["mandatory parenting courses", "free education", "helpful programs"], "correctAnswer": "mandatory parenting courses"},
-                  {"id": "topic5_b2", "options": ["they may not accommodate diverse family circumstances", "everyone loves them", "children enjoy them"], "correctAnswer": "they may not accommodate diverse family circumstances"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "mandatory parenting courses",
+                      "free education",
+                      "helpful programs"
+                    ],
+                    "correctAnswer": "mandatory parenting courses"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "they may not accommodate diverse family circumstances",
+                      "everyone loves them",
+                      "children enjoy them"
+                    ],
+                    "correctAnswer": "they may not accommodate diverse family circumstances"
+                  }
                 ],
                 "correctSentence": "A key concern about mandatory parenting courses is that they may not accommodate diverse family circumstances.",
                 "usableIn": "body-paragraph-2"
@@ -321,9 +564,33 @@
                 "type": "template",
                 "template": "_____ can _____ through _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Parents", "Schools", "Children"], "correctAnswer": "Parents"},
-                  {"id": "topic6_b2", "options": ["enhance their parenting capabilities", "earn money", "watch television"], "correctAnswer": "enhance their parenting capabilities"},
-                  {"id": "topic6_b3", "options": ["structured educational interventions", "buying products", "reading magazines"], "correctAnswer": "structured educational interventions"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Parents",
+                      "Schools",
+                      "Children"
+                    ],
+                    "correctAnswer": "Parents"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "enhance their parenting capabilities",
+                      "earn money",
+                      "watch television"
+                    ],
+                    "correctAnswer": "enhance their parenting capabilities"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "structured educational interventions",
+                      "buying products",
+                      "reading magazines"
+                    ],
+                    "correctAnswer": "structured educational interventions"
+                  }
                 ],
                 "correctSentence": "Parents can enhance their parenting capabilities through structured educational interventions.",
                 "usableIn": "body-paragraph-1"
@@ -333,9 +600,33 @@
                 "type": "template",
                 "template": "Despite the benefits, _____ may _____ for _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["annual course requirements", "free programs", "optional classes"], "correctAnswer": "annual course requirements"},
-                  {"id": "topic7_b2", "options": ["prove impractical", "be very easy", "cost nothing"], "correctAnswer": "prove impractical"},
-                  {"id": "topic7_b3", "options": ["families with demanding work schedules", "wealthy families", "retired people"], "correctAnswer": "families with demanding work schedules"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "annual course requirements",
+                      "free programs",
+                      "optional classes"
+                    ],
+                    "correctAnswer": "annual course requirements"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "prove impractical",
+                      "be very easy",
+                      "cost nothing"
+                    ],
+                    "correctAnswer": "prove impractical"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "families with demanding work schedules",
+                      "wealthy families",
+                      "retired people"
+                    ],
+                    "correctAnswer": "families with demanding work schedules"
+                  }
                 ],
                 "correctSentence": "Despite the benefits, annual course requirements may prove impractical for families with demanding work schedules.",
                 "usableIn": "body-paragraph-2"
@@ -345,8 +636,24 @@
                 "type": "template",
                 "template": "The main drawback of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["compulsory yearly attendance", "free education", "helpful courses"], "correctAnswer": "compulsory yearly attendance"},
-                  {"id": "topic8_b2", "options": ["the significant time commitment required from busy parents", "too much benefit", "being too easy"], "correctAnswer": "the significant time commitment required from busy parents"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "compulsory yearly attendance",
+                      "free education",
+                      "helpful courses"
+                    ],
+                    "correctAnswer": "compulsory yearly attendance"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the significant time commitment required from busy parents",
+                      "too much benefit",
+                      "being too easy"
+                    ],
+                    "correctAnswer": "the significant time commitment required from busy parents"
+                  }
                 ],
                 "correctSentence": "The main drawback of compulsory yearly attendance is the significant time commitment required from busy parents.",
                 "usableIn": "body-paragraph-2"
@@ -363,8 +670,24 @@
                 "type": "template",
                 "template": "This is because _____ provides parents with _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["formal training", "free time", "entertainment"], "correctAnswer": "formal training"},
-                  {"id": "support1_b2", "options": ["scientifically proven methods for handling developmental stages", "certificates only", "social media tips"], "correctAnswer": "scientifically proven methods for handling developmental stages"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "formal training",
+                      "free time",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "formal training"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "scientifically proven methods for handling developmental stages",
+                      "certificates only",
+                      "social media tips"
+                    ],
+                    "correctAnswer": "scientifically proven methods for handling developmental stages"
+                  }
                 ],
                 "correctSentence": "This is because formal training provides parents with scientifically proven methods for handling developmental stages.",
                 "usableIn": "body-paragraph-1"
@@ -374,8 +697,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ helps parents _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["professional guidance", "expensive toys", "free babysitting"], "correctAnswer": "professional guidance"},
-                  {"id": "support2_b2", "options": ["understand and respond to their children's needs appropriately", "save money", "work longer hours"], "correctAnswer": "understand and respond to their children's needs appropriately"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "professional guidance",
+                      "expensive toys",
+                      "free babysitting"
+                    ],
+                    "correctAnswer": "professional guidance"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "understand and respond to their children's needs appropriately",
+                      "save money",
+                      "work longer hours"
+                    ],
+                    "correctAnswer": "understand and respond to their children's needs appropriately"
+                  }
                 ],
                 "correctSentence": "The main reason is that professional guidance helps parents understand and respond to their children's needs appropriately.",
                 "usableIn": "body-paragraph-1"
@@ -385,9 +724,33 @@
                 "type": "template",
                 "template": "_____ enables parents to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Parenting education", "Television", "Social media"], "correctAnswer": "Parenting education"},
-                  {"id": "support3_b2", "options": ["implement effective discipline strategies", "punish children", "ignore problems"], "correctAnswer": "implement effective discipline strategies"},
-                  {"id": "support3_b3", "options": ["relying solely on trial and error", "spending money", "reading books"], "correctAnswer": "relying solely on trial and error"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Parenting education",
+                      "Television",
+                      "Social media"
+                    ],
+                    "correctAnswer": "Parenting education"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "implement effective discipline strategies",
+                      "punish children",
+                      "ignore problems"
+                    ],
+                    "correctAnswer": "implement effective discipline strategies"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "relying solely on trial and error",
+                      "spending money",
+                      "reading books"
+                    ],
+                    "correctAnswer": "relying solely on trial and error"
+                  }
                 ],
                 "correctSentence": "Parenting education enables parents to implement effective discipline strategies without relying solely on trial and error.",
                 "usableIn": "body-paragraph-1"
@@ -397,9 +760,33 @@
                 "type": "template",
                 "template": "_____ equips parents with _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Structured courses", "Random advice", "Television shows"], "correctAnswer": "Structured courses"},
-                  {"id": "support4_b2", "options": ["knowledge about emotional and cognitive development", "entertaining stories", "quick fixes"], "correctAnswer": "knowledge about emotional and cognitive development"},
-                  {"id": "support4_b3", "options": ["supporting children during formative years", "buying products", "saving time"], "correctAnswer": "supporting children during formative years"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Structured courses",
+                      "Random advice",
+                      "Television shows"
+                    ],
+                    "correctAnswer": "Structured courses"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "knowledge about emotional and cognitive development",
+                      "entertaining stories",
+                      "quick fixes"
+                    ],
+                    "correctAnswer": "knowledge about emotional and cognitive development"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "supporting children during formative years",
+                      "buying products",
+                      "saving time"
+                    ],
+                    "correctAnswer": "supporting children during formative years"
+                  }
                 ],
                 "correctSentence": "Structured courses equip parents with knowledge about emotional and cognitive development, which is crucial for supporting children during formative years.",
                 "usableIn": "body-paragraph-1"
@@ -409,8 +796,24 @@
                 "type": "template",
                 "template": "By _____, parents can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["learning evidence-based techniques", "watching videos", "buying books"], "correctAnswer": "learning evidence-based techniques"},
-                  {"id": "support5_b2", "options": ["mitigate common parenting mistakes", "spend less time", "earn more money"], "correctAnswer": "mitigate common parenting mistakes"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "learning evidence-based techniques",
+                      "watching videos",
+                      "buying books"
+                    ],
+                    "correctAnswer": "learning evidence-based techniques"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "mitigate common parenting mistakes",
+                      "spend less time",
+                      "earn more money"
+                    ],
+                    "correctAnswer": "mitigate common parenting mistakes"
+                  }
                 ],
                 "correctSentence": "By learning evidence-based techniques, parents can mitigate common parenting mistakes.",
                 "usableIn": "body-paragraph-1"
@@ -420,9 +823,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Parenting education", "Television", "Social media"], "correctAnswer": "Parenting education"},
-                  {"id": "support6_b2", "options": ["the parent-child bond", "house security", "family wealth"], "correctAnswer": "the parent-child bond"},
-                  {"id": "support6_b3", "options": ["teaching effective communication methods", "buying gifts", "spending money"], "correctAnswer": "teaching effective communication methods"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Parenting education",
+                      "Television",
+                      "Social media"
+                    ],
+                    "correctAnswer": "Parenting education"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "the parent-child bond",
+                      "house security",
+                      "family wealth"
+                    ],
+                    "correctAnswer": "the parent-child bond"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "teaching effective communication methods",
+                      "buying gifts",
+                      "spending money"
+                    ],
+                    "correctAnswer": "teaching effective communication methods"
+                  }
                 ],
                 "correctSentence": "Parenting education strengthens the parent-child bond through teaching effective communication methods.",
                 "usableIn": "body-paragraph-1"
@@ -432,8 +859,24 @@
                 "type": "template",
                 "template": "Professional courses contribute to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["better child outcomes", "parental income", "family entertainment"], "correctAnswer": "better child outcomes"},
-                  {"id": "support7_b2", "options": ["reducing harmful parenting practices", "providing free toys", "increasing screen time"], "correctAnswer": "reducing harmful parenting practices"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "better child outcomes",
+                      "parental income",
+                      "family entertainment"
+                    ],
+                    "correctAnswer": "better child outcomes"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "reducing harmful parenting practices",
+                      "providing free toys",
+                      "increasing screen time"
+                    ],
+                    "correctAnswer": "reducing harmful parenting practices"
+                  }
                 ],
                 "correctSentence": "Professional courses contribute to better child outcomes by reducing harmful parenting practices.",
                 "usableIn": "body-paragraph-1"
@@ -443,9 +886,33 @@
                 "type": "template",
                 "template": "However, _____ creates _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["mandatory annual attendance", "free education", "optional learning"], "correctAnswer": "mandatory annual attendance"},
-                  {"id": "support8_b2", "options": ["scheduling difficulties", "extra benefits", "more enjoyment"], "correctAnswer": "scheduling difficulties"},
-                  {"id": "support8_b3", "options": ["may discourage participation among working parents", "help everyone", "cost nothing"], "correctAnswer": "may discourage participation among working parents"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "mandatory annual attendance",
+                      "free education",
+                      "optional learning"
+                    ],
+                    "correctAnswer": "mandatory annual attendance"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "scheduling difficulties",
+                      "extra benefits",
+                      "more enjoyment"
+                    ],
+                    "correctAnswer": "scheduling difficulties"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "may discourage participation among working parents",
+                      "help everyone",
+                      "cost nothing"
+                    ],
+                    "correctAnswer": "may discourage participation among working parents"
+                  }
                 ],
                 "correctSentence": "However, mandatory annual attendance creates scheduling difficulties that may discourage participation among working parents.",
                 "usableIn": "body-paragraph-2"
@@ -455,9 +922,33 @@
                 "type": "template",
                 "template": "_____ may impose _____ on _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Yearly course requirements", "Free programs", "Optional classes"], "correctAnswer": "Yearly course requirements"},
-                  {"id": "support9_b2", "options": ["unrealistic expectations", "no burden", "extra help"], "correctAnswer": "unrealistic expectations"},
-                  {"id": "support9_b3", "options": ["families already struggling with time constraints", "wealthy families", "retired people"], "correctAnswer": "families already struggling with time constraints"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Yearly course requirements",
+                      "Free programs",
+                      "Optional classes"
+                    ],
+                    "correctAnswer": "Yearly course requirements"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "unrealistic expectations",
+                      "no burden",
+                      "extra help"
+                    ],
+                    "correctAnswer": "unrealistic expectations"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "families already struggling with time constraints",
+                      "wealthy families",
+                      "retired people"
+                    ],
+                    "correctAnswer": "families already struggling with time constraints"
+                  }
                 ],
                 "correctSentence": "Yearly course requirements may impose unrealistic expectations on families already struggling with time constraints.",
                 "usableIn": "body-paragraph-2"
@@ -467,8 +958,24 @@
                 "type": "template",
                 "template": "In practice, _____ can _____ more readily.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["flexible learning options", "strict schedules", "expensive programs"], "correctAnswer": "flexible learning options"},
-                  {"id": "support10_b2", "options": ["accommodate diverse family situations", "exclude busy parents", "waste time"], "correctAnswer": "accommodate diverse family situations"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "flexible learning options",
+                      "strict schedules",
+                      "expensive programs"
+                    ],
+                    "correctAnswer": "flexible learning options"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "accommodate diverse family situations",
+                      "exclude busy parents",
+                      "waste time"
+                    ],
+                    "correctAnswer": "accommodate diverse family situations"
+                  }
                 ],
                 "correctSentence": "In practice, flexible learning options can accommodate diverse family situations more readily.",
                 "usableIn": "body-paragraph-2"
@@ -478,8 +985,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["educated parents", "untrained individuals", "random people"], "correctAnswer": "educated parents"},
-                  {"id": "support11_b2", "options": ["greater confidence in handling parenting challenges", "more confusion", "less success"], "correctAnswer": "greater confidence in handling parenting challenges"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "educated parents",
+                      "untrained individuals",
+                      "random people"
+                    ],
+                    "correctAnswer": "educated parents"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "greater confidence in handling parenting challenges",
+                      "more confusion",
+                      "less success"
+                    ],
+                    "correctAnswer": "greater confidence in handling parenting challenges"
+                  }
                 ],
                 "correctSentence": "As a result, educated parents experience greater confidence in handling parenting challenges.",
                 "usableIn": "body-paragraph-1"
@@ -489,9 +1012,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ when _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["program effectiveness", "course cost", "time waste"], "correctAnswer": "program effectiveness"},
-                  {"id": "support12_b2", "options": ["higher", "lower", "unchanged"], "correctAnswer": "higher"},
-                  {"id": "support12_b3", "options": ["courses are optional rather than mandatory", "everyone is forced to attend", "programs are expensive"], "correctAnswer": "courses are optional rather than mandatory"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "program effectiveness",
+                      "course cost",
+                      "time waste"
+                    ],
+                    "correctAnswer": "program effectiveness"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "higher",
+                      "lower",
+                      "unchanged"
+                    ],
+                    "correctAnswer": "higher"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "courses are optional rather than mandatory",
+                      "everyone is forced to attend",
+                      "programs are expensive"
+                    ],
+                    "correctAnswer": "courses are optional rather than mandatory"
+                  }
                 ],
                 "correctSentence": "Consequently, program effectiveness tends to be higher when courses are optional rather than mandatory.",
                 "usableIn": "body-paragraph-2"
@@ -508,9 +1055,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["trained parents", "untrained people", "random individuals"], "correctAnswer": "trained parents"},
-                  {"id": "example1_b2", "options": ["recognize developmental milestones", "ignore problems", "guess randomly"], "correctAnswer": "recognize developmental milestones"},
-                  {"id": "example1_b3", "options": ["identifying potential delays early", "wasting time", "spending money"], "correctAnswer": "identifying potential delays early"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "trained parents",
+                      "untrained people",
+                      "random individuals"
+                    ],
+                    "correctAnswer": "trained parents"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "recognize developmental milestones",
+                      "ignore problems",
+                      "guess randomly"
+                    ],
+                    "correctAnswer": "recognize developmental milestones"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "identifying potential delays early",
+                      "wasting time",
+                      "spending money"
+                    ],
+                    "correctAnswer": "identifying potential delays early"
+                  }
                 ],
                 "correctSentence": "For instance, trained parents can recognize developmental milestones while identifying potential delays early.",
                 "usableIn": "body-paragraph-1"
@@ -520,9 +1091,33 @@
                 "type": "template",
                 "template": "For example, _____ often require _____ that are best learned through _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["behavioral challenges", "shopping trips", "vacation planning"], "correctAnswer": "behavioral challenges"},
-                  {"id": "example2_b2", "options": ["specific intervention strategies", "expensive toys", "punishment methods"], "correctAnswer": "specific intervention strategies"},
-                  {"id": "example2_b3", "options": ["professional instruction", "trial and error", "random guessing"], "correctAnswer": "professional instruction"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "behavioral challenges",
+                      "shopping trips",
+                      "vacation planning"
+                    ],
+                    "correctAnswer": "behavioral challenges"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "specific intervention strategies",
+                      "expensive toys",
+                      "punishment methods"
+                    ],
+                    "correctAnswer": "specific intervention strategies"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "professional instruction",
+                      "trial and error",
+                      "random guessing"
+                    ],
+                    "correctAnswer": "professional instruction"
+                  }
                 ],
                 "correctSentence": "For example, behavioral challenges often require specific intervention strategies that are best learned through professional instruction.",
                 "usableIn": "body-paragraph-1"
@@ -532,9 +1127,33 @@
                 "type": "template",
                 "template": "Specifically, _____ who lack _____ may struggle with _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["first-time parents", "experienced educators", "medical professionals"], "correctAnswer": "first-time parents"},
-                  {"id": "example3_b2", "options": ["formal training in child psychology", "expensive equipment", "free time"], "correctAnswer": "formal training in child psychology"},
-                  {"id": "example3_b3", "options": ["age-appropriate discipline techniques", "buying toys", "cooking meals"], "correctAnswer": "age-appropriate discipline techniques"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "first-time parents",
+                      "experienced educators",
+                      "medical professionals"
+                    ],
+                    "correctAnswer": "first-time parents"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "formal training in child psychology",
+                      "expensive equipment",
+                      "free time"
+                    ],
+                    "correctAnswer": "formal training in child psychology"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "age-appropriate discipline techniques",
+                      "buying toys",
+                      "cooking meals"
+                    ],
+                    "correctAnswer": "age-appropriate discipline techniques"
+                  }
                 ],
                 "correctSentence": "Specifically, first-time parents who lack formal training in child psychology may struggle with age-appropriate discipline techniques.",
                 "usableIn": "body-paragraph-1"
@@ -544,8 +1163,24 @@
                 "type": "template",
                 "template": "Research shows that _____ improve when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["child behavioral outcomes", "product sales", "entertainment options"], "correctAnswer": "child behavioral outcomes"},
-                  {"id": "example4_b2", "options": ["parents receive evidence-based education", "families watch more television", "children play more games"], "correctAnswer": "parents receive evidence-based education"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "child behavioral outcomes",
+                      "product sales",
+                      "entertainment options"
+                    ],
+                    "correctAnswer": "child behavioral outcomes"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "parents receive evidence-based education",
+                      "families watch more television",
+                      "children play more games"
+                    ],
+                    "correctAnswer": "parents receive evidence-based education"
+                  }
                 ],
                 "correctSentence": "Research shows that child behavioral outcomes improve when parents receive evidence-based education.",
                 "usableIn": "body-paragraph-1"
@@ -555,9 +1190,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ reported _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["child development experts", "random bloggers", "toy manufacturers"], "correctAnswer": "child development experts"},
-                  {"id": "example5_b2", "options": ["parents who completed courses", "people who avoided learning", "individuals who guessed"], "correctAnswer": "parents who completed courses"},
-                  {"id": "example5_b3", "options": ["increased confidence and reduced stress", "more confusion", "higher expenses"], "correctAnswer": "increased confidence and reduced stress"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "child development experts",
+                      "random bloggers",
+                      "toy manufacturers"
+                    ],
+                    "correctAnswer": "child development experts"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "parents who completed courses",
+                      "people who avoided learning",
+                      "individuals who guessed"
+                    ],
+                    "correctAnswer": "parents who completed courses"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "increased confidence and reduced stress",
+                      "more confusion",
+                      "higher expenses"
+                    ],
+                    "correctAnswer": "increased confidence and reduced stress"
+                  }
                 ],
                 "correctSentence": "A study by child development experts found that parents who completed courses reported increased confidence and reduced stress.",
                 "usableIn": "body-paragraph-1"
@@ -567,9 +1226,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ benefit significantly from _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["critical topics", "entertainment shows", "shopping advice"], "correctAnswer": "critical topics"},
-                  {"id": "example6_b2", "options": ["emotional regulation and positive discipline", "toy selection and entertainment", "vacation planning"], "correctAnswer": "emotional regulation and positive discipline"},
-                  {"id": "example6_b3", "options": ["structured educational programs", "random internet advice", "television commercials"], "correctAnswer": "structured educational programs"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "critical topics",
+                      "entertainment shows",
+                      "shopping advice"
+                    ],
+                    "correctAnswer": "critical topics"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "emotional regulation and positive discipline",
+                      "toy selection and entertainment",
+                      "vacation planning"
+                    ],
+                    "correctAnswer": "emotional regulation and positive discipline"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "structured educational programs",
+                      "random internet advice",
+                      "television commercials"
+                    ],
+                    "correctAnswer": "structured educational programs"
+                  }
                 ],
                 "correctSentence": "In particular, critical topics such as emotional regulation and positive discipline benefit significantly from structured educational programs.",
                 "usableIn": "body-paragraph-1"
@@ -579,9 +1262,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have reported that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["working parents", "retired individuals", "college students"], "correctAnswer": "working parents"},
-                  {"id": "example7_b2", "options": ["single mothers and dual-income families", "wealthy retirees", "unemployed people"], "correctAnswer": "single mothers and dual-income families"},
-                  {"id": "example7_b3", "options": ["annual attendance creates significant scheduling conflicts", "they have unlimited time", "courses are too easy"], "correctAnswer": "annual attendance creates significant scheduling conflicts"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "working parents",
+                      "retired individuals",
+                      "college students"
+                    ],
+                    "correctAnswer": "working parents"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "single mothers and dual-income families",
+                      "wealthy retirees",
+                      "unemployed people"
+                    ],
+                    "correctAnswer": "single mothers and dual-income families"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "annual attendance creates significant scheduling conflicts",
+                      "they have unlimited time",
+                      "courses are too easy"
+                    ],
+                    "correctAnswer": "annual attendance creates significant scheduling conflicts"
+                  }
                 ],
                 "correctSentence": "Many working parents, including single mothers and dual-income families, have reported that annual attendance creates significant scheduling conflicts.",
                 "usableIn": "body-paragraph-2"
@@ -591,9 +1298,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ face challenges when _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["shift workers", "retired people", "wealthy families"], "correctAnswer": "shift workers"},
-                  {"id": "example8_b2", "options": ["they", "children", "schools"], "correctAnswer": "they"},
-                  {"id": "example8_b3", "options": ["courses are only offered during standard business hours", "everything is free", "programs are online"], "correctAnswer": "courses are only offered during standard business hours"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "shift workers",
+                      "retired people",
+                      "wealthy families"
+                    ],
+                    "correctAnswer": "shift workers"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "they",
+                      "children",
+                      "schools"
+                    ],
+                    "correctAnswer": "they"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "courses are only offered during standard business hours",
+                      "everything is free",
+                      "programs are online"
+                    ],
+                    "correctAnswer": "courses are only offered during standard business hours"
+                  }
                 ],
                 "correctSentence": "Take shift workers as an example: they face challenges when courses are only offered during standard business hours.",
                 "usableIn": "body-paragraph-2"
@@ -603,8 +1334,24 @@
                 "type": "template",
                 "template": "According to _____, children whose parents _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["developmental psychologists", "random bloggers", "toy sellers"], "correctAnswer": "developmental psychologists"},
-                  {"id": "example9_b2", "options": ["received parenting training demonstrate better social skills", "avoided education have no problems", "guessed randomly succeed equally"], "correctAnswer": "received parenting training demonstrate better social skills"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "developmental psychologists",
+                      "random bloggers",
+                      "toy sellers"
+                    ],
+                    "correctAnswer": "developmental psychologists"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "received parenting training demonstrate better social skills",
+                      "avoided education have no problems",
+                      "guessed randomly succeed equally"
+                    ],
+                    "correctAnswer": "received parenting training demonstrate better social skills"
+                  }
                 ],
                 "correctSentence": "According to developmental psychologists, children whose parents received parenting training demonstrate better social skills.",
                 "usableIn": "body-paragraph-1"
@@ -614,8 +1361,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is more effective when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["parenting education", "random advice", "television watching"], "correctAnswer": "parenting education"},
-                  {"id": "example10_b2", "options": ["offered flexibly to accommodate work schedules", "mandatory for everyone", "expensive and exclusive"], "correctAnswer": "offered flexibly to accommodate work schedules"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "parenting education",
+                      "random advice",
+                      "television watching"
+                    ],
+                    "correctAnswer": "parenting education"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "offered flexibly to accommodate work schedules",
+                      "mandatory for everyone",
+                      "expensive and exclusive"
+                    ],
+                    "correctAnswer": "offered flexibly to accommodate work schedules"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that parenting education is more effective when offered flexibly to accommodate work schedules.",
                 "usableIn": "body-paragraph-2"
@@ -632,8 +1395,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["compulsory courses", "free programs", "optional learning"], "correctAnswer": "compulsory courses"},
-                  {"id": "counter1_b2", "options": ["create financial and time burdens for families", "solve all problems", "cost nothing"], "correctAnswer": "create financial and time burdens for families"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "compulsory courses",
+                      "free programs",
+                      "optional learning"
+                    ],
+                    "correctAnswer": "compulsory courses"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "create financial and time burdens for families",
+                      "solve all problems",
+                      "cost nothing"
+                    ],
+                    "correctAnswer": "create financial and time burdens for families"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that compulsory courses may create financial and time burdens for families.",
                 "usableIn": "body-paragraph-2"
@@ -643,8 +1422,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["mandatory parenting education", "free advice", "optional programs"], "correctAnswer": "mandatory parenting education"},
-                  {"id": "counter2_b2", "options": ["accessibility issues for rural or low-income families", "too many benefits", "excessive enjoyment"], "correctAnswer": "accessibility issues for rural or low-income families"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "mandatory parenting education",
+                      "free advice",
+                      "optional programs"
+                    ],
+                    "correctAnswer": "mandatory parenting education"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "accessibility issues for rural or low-income families",
+                      "too many benefits",
+                      "excessive enjoyment"
+                    ],
+                    "correctAnswer": "accessibility issues for rural or low-income families"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, mandatory parenting education can present challenges such as accessibility issues for rural or low-income families.",
                 "usableIn": "body-paragraph-2"
@@ -654,9 +1449,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ assumes that _____ which _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["annual attendance", "free programs", "no education"], "correctAnswer": "annual attendance"},
-                  {"id": "counter3_b2", "options": ["all parents have equal access to time and resources", "everyone is wealthy", "nobody works"], "correctAnswer": "all parents have equal access to time and resources"},
-                  {"id": "counter3_b3", "options": ["is not always realistic", "is always true", "never matters"], "correctAnswer": "is not always realistic"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "annual attendance",
+                      "free programs",
+                      "no education"
+                    ],
+                    "correctAnswer": "annual attendance"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "all parents have equal access to time and resources",
+                      "everyone is wealthy",
+                      "nobody works"
+                    ],
+                    "correctAnswer": "all parents have equal access to time and resources"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "is not always realistic",
+                      "is always true",
+                      "never matters"
+                    ],
+                    "correctAnswer": "is not always realistic"
+                  }
                 ],
                 "correctSentence": "Nevertheless, annual attendance assumes that all parents have equal access to time and resources which is not always realistic.",
                 "usableIn": "body-paragraph-2"
@@ -666,8 +1485,24 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it also _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["formal parenting training", "random advice", "television shows"], "correctAnswer": "formal parenting training"},
-                  {"id": "counter4_b2", "options": ["requires significant investment of time that working parents may not have", "provides only advantages", "costs nothing"], "correctAnswer": "requires significant investment of time that working parents may not have"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "formal parenting training",
+                      "random advice",
+                      "television shows"
+                    ],
+                    "correctAnswer": "formal parenting training"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "requires significant investment of time that working parents may not have",
+                      "provides only advantages",
+                      "costs nothing"
+                    ],
+                    "correctAnswer": "requires significant investment of time that working parents may not have"
+                  }
                 ],
                 "correctSentence": "Although formal parenting training offers benefits, it also requires significant investment of time that working parents may not have.",
                 "usableIn": "body-paragraph-2"
@@ -677,9 +1512,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ may _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["standardized courses", "free programs", "optional classes"], "correctAnswer": "standardized courses"},
-                  {"id": "counter5_b2", "options": ["not address individual family needs", "help everyone", "solve all problems"], "correctAnswer": "not address individual family needs"},
-                  {"id": "counter5_b3", "options": ["they adopt a one-size-fits-all approach", "they are customized", "they are free"], "correctAnswer": "they adopt a one-size-fits-all approach"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "standardized courses",
+                      "free programs",
+                      "optional classes"
+                    ],
+                    "correctAnswer": "standardized courses"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "not address individual family needs",
+                      "help everyone",
+                      "solve all problems"
+                    ],
+                    "correctAnswer": "not address individual family needs"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "they adopt a one-size-fits-all approach",
+                      "they are customized",
+                      "they are free"
+                    ],
+                    "correctAnswer": "they adopt a one-size-fits-all approach"
+                  }
                 ],
                 "correctSentence": "Critics point out that standardized courses may not address individual family needs if they adopt a one-size-fits-all approach.",
                 "usableIn": "body-paragraph-2"
@@ -696,8 +1555,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["parenting education has clear benefits", "courses are unnecessary", "training wastes time"], "correctAnswer": "parenting education has clear benefits"},
-                  {"id": "conclusion1_b2", "options": ["flexible access is more practical than annual mandatory attendance", "everyone must attend yearly", "courses should be banned"], "correctAnswer": "flexible access is more practical than annual mandatory attendance"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "parenting education has clear benefits",
+                      "courses are unnecessary",
+                      "training wastes time"
+                    ],
+                    "correctAnswer": "parenting education has clear benefits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "flexible access is more practical than annual mandatory attendance",
+                      "everyone must attend yearly",
+                      "courses should be banned"
+                    ],
+                    "correctAnswer": "flexible access is more practical than annual mandatory attendance"
+                  }
                 ],
                 "correctSentence": "In conclusion, while parenting education has clear benefits, I believe flexible access is more practical than annual mandatory attendance.",
                 "usableIn": "conclusion"
@@ -707,10 +1582,42 @@
                 "type": "template",
                 "template": "Overall, _____ would _____, whereas _____ creates _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["optional parenting courses", "mandatory programs", "no education"], "correctAnswer": "optional parenting courses"},
-                  {"id": "conclusion2_b2", "options": ["encourage broader participation", "limit access", "waste resources"], "correctAnswer": "encourage broader participation"},
-                  {"id": "conclusion2_b3", "options": ["compulsory annual attendance", "free programs", "online courses"], "correctAnswer": "compulsory annual attendance"},
-                  {"id": "conclusion2_b4", "options": ["unrealistic expectations for many families", "no problems", "universal success"], "correctAnswer": "unrealistic expectations for many families"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "optional parenting courses",
+                      "mandatory programs",
+                      "no education"
+                    ],
+                    "correctAnswer": "optional parenting courses"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "encourage broader participation",
+                      "limit access",
+                      "waste resources"
+                    ],
+                    "correctAnswer": "encourage broader participation"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "compulsory annual attendance",
+                      "free programs",
+                      "online courses"
+                    ],
+                    "correctAnswer": "compulsory annual attendance"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "unrealistic expectations for many families",
+                      "no problems",
+                      "universal success"
+                    ],
+                    "correctAnswer": "unrealistic expectations for many families"
+                  }
                 ],
                 "correctSentence": "Overall, optional parenting courses would encourage broader participation, whereas compulsory annual attendance creates unrealistic expectations for many families.",
                 "usableIn": "conclusion"
@@ -720,9 +1627,33 @@
                 "type": "template",
                 "template": "To summarize, _____ should be _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["parenting education programs", "expensive courses", "random advice"], "correctAnswer": "parenting education programs"},
-                  {"id": "conclusion3_b2", "options": ["encouraged and made accessible", "mandatory and strict", "eliminated completely"], "correctAnswer": "encouraged and made accessible"},
-                  {"id": "conclusion3_b3", "options": ["enforced through annual requirements", "free for everyone", "banned entirely"], "correctAnswer": "enforced through annual requirements"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "parenting education programs",
+                      "expensive courses",
+                      "random advice"
+                    ],
+                    "correctAnswer": "parenting education programs"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "encouraged and made accessible",
+                      "mandatory and strict",
+                      "eliminated completely"
+                    ],
+                    "correctAnswer": "encouraged and made accessible"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "enforced through annual requirements",
+                      "free for everyone",
+                      "banned entirely"
+                    ],
+                    "correctAnswer": "enforced through annual requirements"
+                  }
                 ],
                 "correctSentence": "To summarize, parenting education programs should be encouraged and made accessible rather than enforced through annual requirements.",
                 "usableIn": "conclusion"
@@ -732,9 +1663,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ depends on _____ when _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["the success of parenting programs", "course cost", "random factors"], "correctAnswer": "the success of parenting programs"},
-                  {"id": "conclusion4_b2", "options": ["providing flexible options", "strict enforcement", "high prices"], "correctAnswer": "providing flexible options"},
-                  {"id": "conclusion4_b3", "options": ["accommodating diverse family circumstances", "ignoring individual needs", "forcing attendance"], "correctAnswer": "accommodating diverse family circumstances"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "the success of parenting programs",
+                      "course cost",
+                      "random factors"
+                    ],
+                    "correctAnswer": "the success of parenting programs"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "providing flexible options",
+                      "strict enforcement",
+                      "high prices"
+                    ],
+                    "correctAnswer": "providing flexible options"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "accommodating diverse family circumstances",
+                      "ignoring individual needs",
+                      "forcing attendance"
+                    ],
+                    "correctAnswer": "accommodating diverse family circumstances"
+                  }
                 ],
                 "correctSentence": "Ultimately, the success of parenting programs depends on providing flexible options when accommodating diverse family circumstances.",
                 "usableIn": "conclusion"
@@ -744,8 +1699,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most effective solution because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["voluntary parenting education with accessible resources", "mandatory annual courses", "no education at all"], "correctAnswer": "voluntary parenting education with accessible resources"},
-                  {"id": "conclusion5_b2", "options": ["it balances effectiveness with practical feasibility", "it forces everyone to attend", "it eliminates all learning"], "correctAnswer": "it balances effectiveness with practical feasibility"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "voluntary parenting education with accessible resources",
+                      "mandatory annual courses",
+                      "no education at all"
+                    ],
+                    "correctAnswer": "voluntary parenting education with accessible resources"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it balances effectiveness with practical feasibility",
+                      "it forces everyone to attend",
+                      "it eliminates all learning"
+                    ],
+                    "correctAnswer": "it balances effectiveness with practical feasibility"
+                  }
                 ],
                 "correctSentence": "In my view, voluntary parenting education with accessible resources represents the most effective solution because it balances effectiveness with practical feasibility.",
                 "usableIn": "conclusion"
@@ -804,13 +1775,48 @@
           }
         ],
         "usefulTransitions": {
-          "agreeing": ["I strongly agree that", "This viewpoint is valid because", "Indeed", "It is undeniable that"],
-          "partial_agreement": ["While this has merit", "Admittedly", "To some extent", "Although there are benefits"],
-          "disagreeing": ["However, I believe", "Nevertheless", "This proposal has significant limitations", "This approach overlooks"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "agreeing": [
+            "I strongly agree that",
+            "This viewpoint is valid because",
+            "Indeed",
+            "It is undeniable that"
+          ],
+          "partial_agreement": [
+            "While this has merit",
+            "Admittedly",
+            "To some extent",
+            "Although there are benefits"
+          ],
+          "disagreeing": [
+            "However, I believe",
+            "Nevertheless",
+            "This proposal has significant limitations",
+            "This approach overlooks"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },
@@ -997,13 +2003,13 @@
     }
   ],
   "modelEssay": {
-    "text": "There is growing advocacy for mandatory annual parenting education to enhance children's development. While I recognize the value of such programs, I believe that compulsory yearly attendance is impractical and that flexible, accessible resources would be more effective.\n\nAdmittedly, structured parenting courses provide crucial benefits that many parents lack. Formal education equips mothers and fathers with evidence-based techniques for handling behavioral challenges, understanding developmental milestones, and fostering emotional intelligence. For instance, courses teach age-appropriate discipline strategies and help parents recognize when professional intervention may be necessary. Research demonstrates that children whose parents receive such training exhibit better social skills and emotional regulation. This clearly illustrates how parental education can significantly improve child outcomes.\n\nNevertheless, requiring annual course attendance presents substantial practical obstacles for many families. Working parents, particularly single mothers and those in dual-income households, struggle to balance demanding employment schedules with childcare responsibilities. Moreover, the assumption that all families have equal access to such programs overlooks geographical and socioeconomic barriers. For example, rural families may lack local courses, while low-income parents cannot afford time off work or childcare costs. Consequently, mandatory requirements risk excluding the very families who would benefit most from support.\n\nIn conclusion, while parenting education offers clear advantages, compulsory annual attendance is unrealistic for many families. A more effective approach would involve providing diverse, flexible learning options such as online modules, community workshops, and accessible resources that parents can utilize according to their individual circumstances and schedules.",
+    "text": "There is growing advocacy for mandatory annual parenting education to enhance children's development. While I recognize the value of such programs, I believe that compulsory yearly attendance is impractical and that flexible, accessible resources would be more effective.\n\nAdmittedly, structured parenting courses provide crucial benefits that many parents lack. Formal education equips mothers and fathers with evidence-based techniques for handling behavioral challenges, understanding developmental milestones, and fostering emotional intelligence. For instance, courses teach age-appropriate discipline strategies and help parents recognize when professional intervention may be necessary. Research demonstrates that children whose parents receive such training exhibit better social skills and emotional regulation. This clearly illustrates how parental education can significantly improve child outcomes.\n\nNevertheless, requiring annual course attendance presents substantial practical obstacles for many families. Working parents, particularly single mothers and those in dual-income households, struggle to balance demanding employment schedules with childcare responsibilities. Moreover, the assumption that all families have equal access to such programs overlooks geographical and socioeconomic barriers. For example, rural families may lack local courses, while low-income parents cannot afford time off work or childcare costs. Consequently, mandatory requirements risk excluding the very families who would benefit most from support.\n\nIn conclusion, while parenting education offers clear advantages, compulsory annual attendance is unrealistic for many families. A more effective approach would involve providing diverse, flexible learning options such as online modules, community workshops, and accessible resources that parents can utilize according to their individual circumstances and schedules. By prioritizing accessibility and flexibility over mandatory participation, such programs can reach a broader audience and generate more meaningful improvements in child-rearing practices across diverse communities.",
     "wordCount": 267,
     "structure": {
       "introduction": "There is growing advocacy for mandatory annual parenting education to enhance children's development. While I recognize the value of such programs, I believe that compulsory yearly attendance is impractical and that flexible, accessible resources would be more effective.",
       "body1": "Admittedly, structured parenting courses provide crucial benefits that many parents lack. Formal education equips mothers and fathers with evidence-based techniques for handling behavioral challenges, understanding developmental milestones, and fostering emotional intelligence. For instance, courses teach age-appropriate discipline strategies and help parents recognize when professional intervention may be necessary. Research demonstrates that children whose parents receive such training exhibit better social skills and emotional regulation. This clearly illustrates how parental education can significantly improve child outcomes.",
       "body2": "Nevertheless, requiring annual course attendance presents substantial practical obstacles for many families. Working parents, particularly single mothers and those in dual-income households, struggle to balance demanding employment schedules with childcare responsibilities. Moreover, the assumption that all families have equal access to such programs overlooks geographical and socioeconomic barriers. For example, rural families may lack local courses, while low-income parents cannot afford time off work or childcare costs. Consequently, mandatory requirements risk excluding the very families who would benefit most from support.",
-      "conclusion": "In conclusion, while parenting education offers clear advantages, compulsory annual attendance is unrealistic for many families. A more effective approach would involve providing diverse, flexible learning options such as online modules, community workshops, and accessible resources that parents can utilize according to their individual circumstances and schedules."
+      "conclusion": "In conclusion, while parenting education offers clear advantages, compulsory annual attendance is unrealistic for many families. A more effective approach would involve providing diverse, flexible learning options such as online modules, community workshops, and accessible resources that parents can utilize according to their individual circumstances and schedules. By prioritizing accessibility and flexibility over mandatory participation, such programs can reach a broader audience and generate more meaningful improvements in child-rearing practices across diverse communities."
     },
     "highlights": [
       {

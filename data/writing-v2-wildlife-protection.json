@@ -80,105 +80,155 @@
             "word": "conservation",
             "pronunciation": "/ˌkɒnsəˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The protection and preservation of natural resources",
+            "definition": "The protection and preservation of natural resources.",
             "example": "Wildlife conservation requires substantial financial resources and expertise.",
-            "synonyms": ["preservation", "protection"]
+            "synonyms": [
+              "preservation",
+              "protection"
+            ]
           },
           {
             "word": "biodiversity",
             "pronunciation": "/ˌbaɪəʊdaɪˈvɜːsəti/",
             "partOfSpeech": "noun",
-            "definition": "The variety of life in a particular habitat or ecosystem",
+            "definition": "The variety of life in a particular habitat or ecosystem.",
             "example": "Protecting all species helps maintain biodiversity in ecosystems.",
-            "synonyms": ["biological diversity", "species variety"]
+            "synonyms": [
+              "biological diversity",
+              "species variety"
+            ]
           },
           {
             "word": "ecosystem",
             "pronunciation": "/ˈiːkəʊˌsɪstəm/",
             "partOfSpeech": "noun",
-            "definition": "A biological community of interacting organisms and their environment",
+            "definition": "A biological community of interacting organisms and their environment.",
             "example": "Each species plays a crucial role within its ecosystem.",
-            "synonyms": ["habitat", "environment"]
+            "synonyms": [
+              "habitat",
+              "environment"
+            ]
           },
           {
             "word": "prioritize",
             "pronunciation": "/praɪˈɒrɪtaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To organize by order of importance",
+            "definition": "To organize by order of importance.",
             "example": "Conservation efforts should prioritize endangered species facing imminent extinction.",
-            "synonyms": ["rank", "organize by importance"]
+            "synonyms": [
+              "rank",
+              "organize by importance"
+            ]
           },
           {
             "word": "extinction",
             "pronunciation": "/ɪkˈstɪŋkʃən/",
             "partOfSpeech": "noun",
-            "definition": "The complete disappearance of a species",
+            "definition": "The complete disappearance of a species.",
             "example": "Many species face extinction due to habitat loss and climate change.",
-            "synonyms": ["elimination", "disappearance"]
+            "synonyms": [
+              "elimination",
+              "disappearance"
+            ]
           },
           {
             "word": "allocate",
             "pronunciation": "/ˈæləkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To distribute resources for a particular purpose",
+            "definition": "To distribute resources for a particular purpose.",
             "example": "Limited funds must be allocated wisely among conservation projects.",
-            "synonyms": ["distribute", "assign", "designate"]
+            "synonyms": [
+              "distribute",
+              "assign",
+              "designate"
+            ]
           },
           {
             "word": "interconnected",
             "pronunciation": "/ˌɪntəkəˈnektɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Having parts that are joined or linked together",
+            "definition": "Having parts that are joined or linked together.",
             "example": "All species are interconnected within their natural environments.",
-            "synonyms": ["linked", "connected", "interdependent"]
+            "synonyms": [
+              "linked",
+              "connected",
+              "interdependent"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance or size",
+            "definition": "Of considerable importance or size.",
             "example": "Wildlife protection requires substantial financial investment and human resources.",
-            "synonyms": ["significant", "considerable"]
+            "synonyms": [
+              "significant",
+              "considerable"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "endangered species",
-            "definition": "Animals at serious risk of extinction",
+            "definition": "Animals at serious risk of extinction.",
             "example": "Pandas and tigers are classified as endangered species requiring urgent protection."
           },
           {
             "phrase": "habitat destruction",
-            "definition": "The damage or elimination of natural living environments",
+            "definition": "The damage or elimination of natural living environments.",
             "example": "Habitat destruction is the primary threat to wildlife worldwide."
           },
           {
             "phrase": "conservation resources",
-            "definition": "Money, personnel, and materials dedicated to protecting wildlife",
+            "definition": "Money, personnel, and materials dedicated to protecting wildlife.",
             "example": "Conservation resources are limited and must be used strategically."
           },
           {
             "phrase": "ecological balance",
-            "definition": "The natural equilibrium in an ecosystem",
+            "definition": "The natural equilibrium in an ecosystem.",
             "example": "Protecting all species helps maintain ecological balance in nature."
           },
           {
             "phrase": "keystone species",
-            "definition": "Species that have disproportionate effects on their ecosystem",
+            "definition": "Species that have disproportionate effects on their ecosystem.",
             "example": "Wolves are keystone species whose presence affects entire ecosystems."
           },
           {
             "phrase": "limited funding",
-            "definition": "Insufficient financial resources",
+            "definition": "Insufficient financial resources.",
             "example": "Limited funding forces conservationists to make difficult choices about which species to protect."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,8 +251,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["all wildlife deserves equal protection", "only large animals matter", "conservation is unnecessary"], "correctAnswer": "all wildlife deserves equal protection"},
-                  {"id": "thesis1_b2", "options": ["resources should focus on endangered species", "animals should not be protected", "conservation is too expensive"], "correctAnswer": "resources should focus on endangered species"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "all wildlife deserves equal protection",
+                      "only large animals matter",
+                      "conservation is unnecessary"
+                    ],
+                    "correctAnswer": "all wildlife deserves equal protection"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "resources should focus on endangered species",
+                      "animals should not be protected",
+                      "conservation is too expensive"
+                    ],
+                    "correctAnswer": "resources should focus on endangered species"
+                  }
                 ],
                 "correctSentence": "While some believe all wildlife deserves equal protection, others argue that resources should focus on endangered species.",
                 "usableIn": "introduction"
@@ -212,8 +278,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["a selective approach is more practical", "all animals are equal", "conservation is impossible"], "correctAnswer": "a selective approach is more practical"},
-                  {"id": "thesis2_b2", "options": ["conservation resources are limited", "all animals are cute", "protection is easy"], "correctAnswer": "conservation resources are limited"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "a selective approach is more practical",
+                      "all animals are equal",
+                      "conservation is impossible"
+                    ],
+                    "correctAnswer": "a selective approach is more practical"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "conservation resources are limited",
+                      "all animals are cute",
+                      "protection is easy"
+                    ],
+                    "correctAnswer": "conservation resources are limited"
+                  }
                 ],
                 "correctSentence": "In my opinion, a selective approach is more practical because conservation resources are limited.",
                 "usableIn": "introduction"
@@ -223,8 +305,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["every species should receive protection", "animals should be ignored", "conservation is worthless"], "correctAnswer": "every species should receive protection"},
-                  {"id": "thesis3_b2", "options": ["efforts should prioritize critically endangered animals", "only pets should be saved", "wildlife is unimportant"], "correctAnswer": "efforts should prioritize critically endangered animals"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "every species should receive protection",
+                      "animals should be ignored",
+                      "conservation is worthless"
+                    ],
+                    "correctAnswer": "every species should receive protection"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "efforts should prioritize critically endangered animals",
+                      "only pets should be saved",
+                      "wildlife is unimportant"
+                    ],
+                    "correctAnswer": "efforts should prioritize critically endangered animals"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether every species should receive protection or efforts should prioritize critically endangered animals.",
                 "usableIn": "introduction"
@@ -234,8 +332,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["prioritization is necessary", "all protection should stop", "conservation is pointless"], "correctAnswer": "prioritization is necessary"},
-                  {"id": "thesis4_b2", "options": ["the ethical importance of all species", "animals being worthless", "conservation being easy"], "correctAnswer": "the ethical importance of all species"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "prioritization is necessary",
+                      "all protection should stop",
+                      "conservation is pointless"
+                    ],
+                    "correctAnswer": "prioritization is necessary"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "the ethical importance of all species",
+                      "animals being worthless",
+                      "conservation being easy"
+                    ],
+                    "correctAnswer": "the ethical importance of all species"
+                  }
                 ],
                 "correctSentence": "From my perspective, prioritization is necessary despite the ethical importance of all species.",
                 "usableIn": "introduction"
@@ -245,8 +359,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives", "only one view", "irrelevant topics"], "correctAnswer": "both perspectives"},
-                  {"id": "thesis5_b2", "options": ["strategic conservation is most effective", "all conservation should stop", "protection is impossible"], "correctAnswer": "strategic conservation is most effective"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives",
+                      "only one view",
+                      "irrelevant topics"
+                    ],
+                    "correctAnswer": "both perspectives"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "strategic conservation is most effective",
+                      "all conservation should stop",
+                      "protection is impossible"
+                    ],
+                    "correctAnswer": "strategic conservation is most effective"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives before concluding that strategic conservation is most effective.",
                 "usableIn": "introduction"
@@ -263,8 +393,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ argues that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["the universal protection perspective", "one scientist", "a random person"], "correctAnswer": "the universal protection perspective"},
-                  {"id": "topic1_b2", "options": ["all species have intrinsic value", "only humans matter", "conservation is wasteful"], "correctAnswer": "all species have intrinsic value"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "the universal protection perspective",
+                      "one scientist",
+                      "a random person"
+                    ],
+                    "correctAnswer": "the universal protection perspective"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "all species have intrinsic value",
+                      "only humans matter",
+                      "conservation is wasteful"
+                    ],
+                    "correctAnswer": "all species have intrinsic value"
+                  }
                 ],
                 "correctSentence": "On the one hand, the universal protection perspective argues that all species have intrinsic value.",
                 "usableIn": "body-paragraph-1"
@@ -274,8 +420,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ contend that _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["advocates of selective conservation", "people who dislike animals", "random individuals"], "correctAnswer": "advocates of selective conservation"},
-                  {"id": "topic2_b2", "options": ["limited resources require prioritization", "protection is unnecessary", "all animals are worthless"], "correctAnswer": "limited resources require prioritization"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "advocates of selective conservation",
+                      "people who dislike animals",
+                      "random individuals"
+                    ],
+                    "correctAnswer": "advocates of selective conservation"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "limited resources require prioritization",
+                      "protection is unnecessary",
+                      "all animals are worthless"
+                    ],
+                    "correctAnswer": "limited resources require prioritization"
+                  }
                 ],
                 "correctSentence": "On the other hand, advocates of selective conservation contend that limited resources require prioritization.",
                 "usableIn": "body-paragraph-2"
@@ -285,8 +447,24 @@
                 "type": "template",
                 "template": "One significant reason for _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["protecting all species", "ignoring conservation", "avoiding protection"], "correctAnswer": "protecting all species"},
-                  {"id": "topic3_b2", "options": ["the interconnected nature of ecosystems", "financial profit", "human entertainment"], "correctAnswer": "the interconnected nature of ecosystems"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "protecting all species",
+                      "ignoring conservation",
+                      "avoiding protection"
+                    ],
+                    "correctAnswer": "protecting all species"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the interconnected nature of ecosystems",
+                      "financial profit",
+                      "human entertainment"
+                    ],
+                    "correctAnswer": "the interconnected nature of ecosystems"
+                  }
                 ],
                 "correctSentence": "One significant reason for protecting all species is the interconnected nature of ecosystems.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +474,24 @@
                 "type": "template",
                 "template": "A key argument for _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["prioritizing certain species", "abandoning conservation", "ignoring all wildlife"], "correctAnswer": "prioritizing certain species"},
-                  {"id": "topic4_b2", "options": ["conservation budgets are insufficient for universal protection", "animals are not important", "protection is easy"], "correctAnswer": "conservation budgets are insufficient for universal protection"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "prioritizing certain species",
+                      "abandoning conservation",
+                      "ignoring all wildlife"
+                    ],
+                    "correctAnswer": "prioritizing certain species"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "conservation budgets are insufficient for universal protection",
+                      "animals are not important",
+                      "protection is easy"
+                    ],
+                    "correctAnswer": "conservation budgets are insufficient for universal protection"
+                  }
                 ],
                 "correctSentence": "A key argument for prioritizing certain species is that conservation budgets are insufficient for universal protection.",
                 "usableIn": "body-paragraph-2"
@@ -307,9 +501,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ plays a vital role in _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of universal protection", "Some individuals", "Random people"], "correctAnswer": "Supporters of universal protection"},
-                  {"id": "topic5_b2", "options": ["every species", "only humans", "nothing"], "correctAnswer": "every species"},
-                  {"id": "topic5_b3", "options": ["maintaining ecological balance", "making money", "entertainment"], "correctAnswer": "maintaining ecological balance"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of universal protection",
+                      "Some individuals",
+                      "Random people"
+                    ],
+                    "correctAnswer": "Supporters of universal protection"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "every species",
+                      "only humans",
+                      "nothing"
+                    ],
+                    "correctAnswer": "every species"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "maintaining ecological balance",
+                      "making money",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "maintaining ecological balance"
+                  }
                 ],
                 "correctSentence": "Supporters of universal protection argue that every species plays a vital role in maintaining ecological balance.",
                 "usableIn": "body-paragraph-1"
@@ -319,9 +537,33 @@
                 "type": "template",
                 "template": "_____ maintain that _____ should receive _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Proponents of selective conservation", "Everyone", "Nobody"], "correctAnswer": "Proponents of selective conservation"},
-                  {"id": "topic6_b2", "options": ["critically endangered species", "only domestic animals", "no animals"], "correctAnswer": "critically endangered species"},
-                  {"id": "topic6_b3", "options": ["priority in conservation efforts", "no attention", "only minimal care"], "correctAnswer": "priority in conservation efforts"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Proponents of selective conservation",
+                      "Everyone",
+                      "Nobody"
+                    ],
+                    "correctAnswer": "Proponents of selective conservation"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "critically endangered species",
+                      "only domestic animals",
+                      "no animals"
+                    ],
+                    "correctAnswer": "critically endangered species"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "priority in conservation efforts",
+                      "no attention",
+                      "only minimal care"
+                    ],
+                    "correctAnswer": "priority in conservation efforts"
+                  }
                 ],
                 "correctSentence": "Proponents of selective conservation maintain that critically endangered species should receive priority in conservation efforts.",
                 "usableIn": "body-paragraph-2"
@@ -331,8 +573,24 @@
                 "type": "template",
                 "template": "The primary justification for _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["protecting all wildlife", "ignoring animals", "ending conservation"], "correctAnswer": "protecting all wildlife"},
-                  {"id": "topic7_b2", "options": ["the moral obligation to preserve biodiversity", "financial gain", "human convenience"], "correctAnswer": "the moral obligation to preserve biodiversity"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "protecting all wildlife",
+                      "ignoring animals",
+                      "ending conservation"
+                    ],
+                    "correctAnswer": "protecting all wildlife"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "the moral obligation to preserve biodiversity",
+                      "financial gain",
+                      "human convenience"
+                    ],
+                    "correctAnswer": "the moral obligation to preserve biodiversity"
+                  }
                 ],
                 "correctSentence": "The primary justification for protecting all wildlife is the moral obligation to preserve biodiversity.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +600,24 @@
                 "type": "template",
                 "template": "A major challenge with _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["universal wildlife protection", "selective conservation", "ignoring animals"], "correctAnswer": "universal wildlife protection"},
-                  {"id": "topic8_b2", "options": ["the enormous financial and logistical demands", "lack of animals", "too much money"], "correctAnswer": "the enormous financial and logistical demands"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "universal wildlife protection",
+                      "selective conservation",
+                      "ignoring animals"
+                    ],
+                    "correctAnswer": "universal wildlife protection"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the enormous financial and logistical demands",
+                      "lack of animals",
+                      "too much money"
+                    ],
+                    "correctAnswer": "the enormous financial and logistical demands"
+                  }
                 ],
                 "correctSentence": "A major challenge with universal wildlife protection is the enormous financial and logistical demands.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +634,24 @@
                 "type": "template",
                 "template": "This is because _____ are fundamentally _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["ecosystems", "animals", "people"], "correctAnswer": "ecosystems"},
-                  {"id": "support1_b2", "options": ["interconnected and interdependent", "simple and separate", "unimportant"], "correctAnswer": "interconnected and interdependent"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "ecosystems",
+                      "animals",
+                      "people"
+                    ],
+                    "correctAnswer": "ecosystems"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "interconnected and interdependent",
+                      "simple and separate",
+                      "unimportant"
+                    ],
+                    "correctAnswer": "interconnected and interdependent"
+                  }
                 ],
                 "correctSentence": "This is because ecosystems are fundamentally interconnected and interdependent.",
                 "usableIn": "body-paragraph-1"
@@ -371,9 +661,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ forces _____ to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["limited funding", "abundant resources", "unlimited money"], "correctAnswer": "limited funding"},
-                  {"id": "support2_b2", "options": ["conservationists", "animals", "nobody"], "correctAnswer": "conservationists"},
-                  {"id": "support2_b3", "options": ["make strategic choices", "protect everything easily", "abandon all efforts"], "correctAnswer": "make strategic choices"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "limited funding",
+                      "abundant resources",
+                      "unlimited money"
+                    ],
+                    "correctAnswer": "limited funding"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "conservationists",
+                      "animals",
+                      "nobody"
+                    ],
+                    "correctAnswer": "conservationists"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "make strategic choices",
+                      "protect everything easily",
+                      "abandon all efforts"
+                    ],
+                    "correctAnswer": "make strategic choices"
+                  }
                 ],
                 "correctSentence": "The main reason is that limited funding forces conservationists to make strategic choices.",
                 "usableIn": "body-paragraph-2"
@@ -383,9 +697,33 @@
                 "type": "template",
                 "template": "_____ can have _____ on _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["The loss of even seemingly minor species", "Nothing", "Only large animals"], "correctAnswer": "The loss of even seemingly minor species"},
-                  {"id": "support3_b2", "options": ["cascading effects", "no impact", "positive results"], "correctAnswer": "cascading effects"},
-                  {"id": "support3_b3", "options": ["entire food chains", "nothing", "human entertainment"], "correctAnswer": "entire food chains"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "The loss of even seemingly minor species",
+                      "Nothing",
+                      "Only large animals"
+                    ],
+                    "correctAnswer": "The loss of even seemingly minor species"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "cascading effects",
+                      "no impact",
+                      "positive results"
+                    ],
+                    "correctAnswer": "cascading effects"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "entire food chains",
+                      "nothing",
+                      "human entertainment"
+                    ],
+                    "correctAnswer": "entire food chains"
+                  }
                 ],
                 "correctSentence": "The loss of even seemingly minor species can have cascading effects on entire food chains.",
                 "usableIn": "body-paragraph-1"
@@ -395,9 +733,33 @@
                 "type": "template",
                 "template": "_____ enables _____ to _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Prioritizing endangered species", "Ignoring all animals", "Random selection"], "correctAnswer": "Prioritizing endangered species"},
-                  {"id": "support4_b2", "options": ["conservation organizations", "nobody", "hunters"], "correctAnswer": "conservation organizations"},
-                  {"id": "support4_b3", "options": ["maximize the impact of limited resources", "waste money", "accomplish nothing"], "correctAnswer": "maximize the impact of limited resources"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Prioritizing endangered species",
+                      "Ignoring all animals",
+                      "Random selection"
+                    ],
+                    "correctAnswer": "Prioritizing endangered species"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "conservation organizations",
+                      "nobody",
+                      "hunters"
+                    ],
+                    "correctAnswer": "conservation organizations"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "maximize the impact of limited resources",
+                      "waste money",
+                      "accomplish nothing"
+                    ],
+                    "correctAnswer": "maximize the impact of limited resources"
+                  }
                 ],
                 "correctSentence": "Prioritizing endangered species enables conservation organizations to maximize the impact of limited resources.",
                 "usableIn": "body-paragraph-2"
@@ -407,8 +769,24 @@
                 "type": "template",
                 "template": "By _____, we can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["protecting biodiversity", "ignoring wildlife", "destroying habitats"], "correctAnswer": "protecting biodiversity"},
-                  {"id": "support5_b2", "options": ["preserve ecosystem services that benefit humanity", "harm the environment", "waste resources"], "correctAnswer": "preserve ecosystem services that benefit humanity"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "protecting biodiversity",
+                      "ignoring wildlife",
+                      "destroying habitats"
+                    ],
+                    "correctAnswer": "protecting biodiversity"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "preserve ecosystem services that benefit humanity",
+                      "harm the environment",
+                      "waste resources"
+                    ],
+                    "correctAnswer": "preserve ecosystem services that benefit humanity"
+                  }
                 ],
                 "correctSentence": "By protecting biodiversity, we can preserve ecosystem services that benefit humanity.",
                 "usableIn": "body-paragraph-1"
@@ -418,9 +796,33 @@
                 "type": "template",
                 "template": "_____ allows _____ to _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Strategic allocation of funds", "Random spending", "Wasting money"], "correctAnswer": "Strategic allocation of funds"},
-                  {"id": "support6_b2", "options": ["organizations", "nobody", "animals themselves"], "correctAnswer": "organizations"},
-                  {"id": "support6_b3", "options": ["prevent immediate extinctions effectively", "accomplish nothing", "waste time"], "correctAnswer": "prevent immediate extinctions effectively"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Strategic allocation of funds",
+                      "Random spending",
+                      "Wasting money"
+                    ],
+                    "correctAnswer": "Strategic allocation of funds"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "organizations",
+                      "nobody",
+                      "animals themselves"
+                    ],
+                    "correctAnswer": "organizations"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "prevent immediate extinctions effectively",
+                      "accomplish nothing",
+                      "waste time"
+                    ],
+                    "correctAnswer": "prevent immediate extinctions effectively"
+                  }
                 ],
                 "correctSentence": "Strategic allocation of funds allows organizations to prevent immediate extinctions effectively.",
                 "usableIn": "body-paragraph-2"
@@ -430,8 +832,24 @@
                 "type": "template",
                 "template": "Universal protection contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["environmental stability", "chaos", "destruction"], "correctAnswer": "environmental stability"},
-                  {"id": "support7_b2", "options": ["maintaining the complex web of life", "destroying ecosystems", "ignoring nature"], "correctAnswer": "maintaining the complex web of life"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "environmental stability",
+                      "chaos",
+                      "destruction"
+                    ],
+                    "correctAnswer": "environmental stability"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "maintaining the complex web of life",
+                      "destroying ecosystems",
+                      "ignoring nature"
+                    ],
+                    "correctAnswer": "maintaining the complex web of life"
+                  }
                 ],
                 "correctSentence": "Universal protection contributes to environmental stability by maintaining the complex web of life.",
                 "usableIn": "body-paragraph-1"
@@ -441,8 +859,24 @@
                 "type": "template",
                 "template": "Selective conservation ensures that _____ receive _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["species facing imminent extinction", "all animals equally", "no animals"], "correctAnswer": "species facing imminent extinction"},
-                  {"id": "support8_b2", "options": ["urgent attention and adequate resources", "no help", "minimal care"], "correctAnswer": "urgent attention and adequate resources"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "species facing imminent extinction",
+                      "all animals equally",
+                      "no animals"
+                    ],
+                    "correctAnswer": "species facing imminent extinction"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "urgent attention and adequate resources",
+                      "no help",
+                      "minimal care"
+                    ],
+                    "correctAnswer": "urgent attention and adequate resources"
+                  }
                 ],
                 "correctSentence": "Selective conservation ensures that species facing imminent extinction receive urgent attention and adequate resources.",
                 "usableIn": "body-paragraph-2"
@@ -452,9 +886,33 @@
                 "type": "template",
                 "template": "_____ provides _____ with _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Protecting all species", "Ignoring wildlife", "Random actions"], "correctAnswer": "Protecting all species"},
-                  {"id": "support9_b2", "options": ["future generations", "nobody", "only current people"], "correctAnswer": "future generations"},
-                  {"id": "support9_b3", "options": ["a rich and diverse natural heritage", "nothing", "problems"], "correctAnswer": "a rich and diverse natural heritage"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Protecting all species",
+                      "Ignoring wildlife",
+                      "Random actions"
+                    ],
+                    "correctAnswer": "Protecting all species"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "future generations",
+                      "nobody",
+                      "only current people"
+                    ],
+                    "correctAnswer": "future generations"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "a rich and diverse natural heritage",
+                      "nothing",
+                      "problems"
+                    ],
+                    "correctAnswer": "a rich and diverse natural heritage"
+                  }
                 ],
                 "correctSentence": "Protecting all species provides future generations with a rich and diverse natural heritage.",
                 "usableIn": "body-paragraph-1"
@@ -464,8 +922,24 @@
                 "type": "template",
                 "template": "With limited resources, _____ can _____ more effectively.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["targeted conservation programs", "random efforts", "no programs"], "correctAnswer": "targeted conservation programs"},
-                  {"id": "support10_b2", "options": ["save species from extinction", "waste money", "accomplish nothing"], "correctAnswer": "save species from extinction"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "targeted conservation programs",
+                      "random efforts",
+                      "no programs"
+                    ],
+                    "correctAnswer": "targeted conservation programs"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "save species from extinction",
+                      "waste money",
+                      "accomplish nothing"
+                    ],
+                    "correctAnswer": "save species from extinction"
+                  }
                 ],
                 "correctSentence": "With limited resources, targeted conservation programs can save species from extinction more effectively.",
                 "usableIn": "body-paragraph-2"
@@ -475,8 +949,24 @@
                 "type": "template",
                 "template": "As a result, _____ helps _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["comprehensive wildlife protection", "ignoring animals", "destroying habitats"], "correctAnswer": "comprehensive wildlife protection"},
-                  {"id": "support11_b2", "options": ["maintain healthy ecosystems", "destroy nature", "waste resources"], "correctAnswer": "maintain healthy ecosystems"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "comprehensive wildlife protection",
+                      "ignoring animals",
+                      "destroying habitats"
+                    ],
+                    "correctAnswer": "comprehensive wildlife protection"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "maintain healthy ecosystems",
+                      "destroy nature",
+                      "waste resources"
+                    ],
+                    "correctAnswer": "maintain healthy ecosystems"
+                  }
                 ],
                 "correctSentence": "As a result, comprehensive wildlife protection helps maintain healthy ecosystems.",
                 "usableIn": "body-paragraph-1"
@@ -486,9 +976,33 @@
                 "type": "template",
                 "template": "Consequently, _____ achieves _____ through _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["focused conservation", "random action", "no effort"], "correctAnswer": "focused conservation"},
-                  {"id": "support12_b2", "options": ["measurable results", "no impact", "failure"], "correctAnswer": "measurable results"},
-                  {"id": "support12_b3", "options": ["efficient use of available funding", "wasting money", "ignoring priorities"], "correctAnswer": "efficient use of available funding"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "focused conservation",
+                      "random action",
+                      "no effort"
+                    ],
+                    "correctAnswer": "focused conservation"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "measurable results",
+                      "no impact",
+                      "failure"
+                    ],
+                    "correctAnswer": "measurable results"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "efficient use of available funding",
+                      "wasting money",
+                      "ignoring priorities"
+                    ],
+                    "correctAnswer": "efficient use of available funding"
+                  }
                 ],
                 "correctSentence": "Consequently, focused conservation achieves measurable results through efficient use of available funding.",
                 "usableIn": "body-paragraph-2"
@@ -505,9 +1019,33 @@
                 "type": "template",
                 "template": "For instance, _____ depend on _____ for _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["many plant species", "humans", "buildings"], "correctAnswer": "many plant species"},
-                  {"id": "example1_b2", "options": ["specific insects", "large mammals", "technology"], "correctAnswer": "specific insects"},
-                  {"id": "example1_b3", "options": ["pollination and reproduction", "entertainment", "nothing"], "correctAnswer": "pollination and reproduction"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "many plant species",
+                      "humans",
+                      "buildings"
+                    ],
+                    "correctAnswer": "many plant species"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "specific insects",
+                      "large mammals",
+                      "technology"
+                    ],
+                    "correctAnswer": "specific insects"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "pollination and reproduction",
+                      "entertainment",
+                      "nothing"
+                    ],
+                    "correctAnswer": "pollination and reproduction"
+                  }
                 ],
                 "correctSentence": "For instance, many plant species depend on specific insects for pollination and reproduction.",
                 "usableIn": "body-paragraph-1"
@@ -517,9 +1055,33 @@
                 "type": "template",
                 "template": "For example, _____ receives _____ because _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["the giant panda", "common rats", "domestic cats"], "correctAnswer": "the giant panda"},
-                  {"id": "example2_b2", "options": ["substantial conservation funding", "no attention", "minimal support"], "correctAnswer": "substantial conservation funding"},
-                  {"id": "example2_b3", "options": ["it faces imminent extinction", "it is common", "it is unimportant"], "correctAnswer": "it faces imminent extinction"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "the giant panda",
+                      "common rats",
+                      "domestic cats"
+                    ],
+                    "correctAnswer": "the giant panda"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "substantial conservation funding",
+                      "no attention",
+                      "minimal support"
+                    ],
+                    "correctAnswer": "substantial conservation funding"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "it faces imminent extinction",
+                      "it is common",
+                      "it is unimportant"
+                    ],
+                    "correctAnswer": "it faces imminent extinction"
+                  }
                 ],
                 "correctSentence": "For example, the giant panda receives substantial conservation funding because it faces imminent extinction.",
                 "usableIn": "body-paragraph-2"
@@ -529,9 +1091,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in _____ illustrates _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the reintroduction of wolves", "building cities", "hunting animals"], "correctAnswer": "the reintroduction of wolves"},
-                  {"id": "example3_b2", "options": ["Yellowstone National Park", "shopping malls", "factories"], "correctAnswer": "Yellowstone National Park"},
-                  {"id": "example3_b3", "options": ["how one species can restore ecosystem balance", "human dominance", "nothing important"], "correctAnswer": "how one species can restore ecosystem balance"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the reintroduction of wolves",
+                      "building cities",
+                      "hunting animals"
+                    ],
+                    "correctAnswer": "the reintroduction of wolves"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "Yellowstone National Park",
+                      "shopping malls",
+                      "factories"
+                    ],
+                    "correctAnswer": "Yellowstone National Park"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "how one species can restore ecosystem balance",
+                      "human dominance",
+                      "nothing important"
+                    ],
+                    "correctAnswer": "how one species can restore ecosystem balance"
+                  }
                 ],
                 "correctSentence": "Specifically, the reintroduction of wolves in Yellowstone National Park illustrates how one species can restore ecosystem balance.",
                 "usableIn": "body-paragraph-1"
@@ -541,9 +1127,33 @@
                 "type": "template",
                 "template": "Research shows that _____ must _____ to _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["conservation organizations", "random people", "nobody"], "correctAnswer": "conservation organizations"},
-                  {"id": "example4_b2", "options": ["prioritize funding", "ignore problems", "waste money"], "correctAnswer": "prioritize funding"},
-                  {"id": "example4_b3", "options": ["achieve maximum impact with limited budgets", "accomplish nothing", "increase costs"], "correctAnswer": "achieve maximum impact with limited budgets"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "conservation organizations",
+                      "random people",
+                      "nobody"
+                    ],
+                    "correctAnswer": "conservation organizations"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "prioritize funding",
+                      "ignore problems",
+                      "waste money"
+                    ],
+                    "correctAnswer": "prioritize funding"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "achieve maximum impact with limited budgets",
+                      "accomplish nothing",
+                      "increase costs"
+                    ],
+                    "correctAnswer": "achieve maximum impact with limited budgets"
+                  }
                 ],
                 "correctSentence": "Research shows that conservation organizations must prioritize funding to achieve maximum impact with limited budgets.",
                 "usableIn": "body-paragraph-2"
@@ -553,9 +1163,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ are essential for _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["environmental scientists", "random bloggers", "nobody"], "correctAnswer": "environmental scientists"},
-                  {"id": "example5_b2", "options": ["even small organisms", "only large animals", "humans only"], "correctAnswer": "even small organisms"},
-                  {"id": "example5_b3", "options": ["maintaining ecosystem health", "entertainment", "nothing"], "correctAnswer": "maintaining ecosystem health"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "environmental scientists",
+                      "random bloggers",
+                      "nobody"
+                    ],
+                    "correctAnswer": "environmental scientists"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "even small organisms",
+                      "only large animals",
+                      "humans only"
+                    ],
+                    "correctAnswer": "even small organisms"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "maintaining ecosystem health",
+                      "entertainment",
+                      "nothing"
+                    ],
+                    "correctAnswer": "maintaining ecosystem health"
+                  }
                 ],
                 "correctSentence": "A study by environmental scientists found that even small organisms are essential for maintaining ecosystem health.",
                 "usableIn": "body-paragraph-1"
@@ -565,9 +1199,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ require _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["critically endangered species", "common animals", "domestic pets"], "correctAnswer": "critically endangered species"},
-                  {"id": "example6_b2", "options": ["Sumatran rhinos and Amur leopards", "pigeons and rats", "dogs and cats"], "correctAnswer": "Sumatran rhinos and Amur leopards"},
-                  {"id": "example6_b3", "options": ["immediate and intensive conservation action", "no attention", "minimal effort"], "correctAnswer": "immediate and intensive conservation action"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "critically endangered species",
+                      "common animals",
+                      "domestic pets"
+                    ],
+                    "correctAnswer": "critically endangered species"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "Sumatran rhinos and Amur leopards",
+                      "pigeons and rats",
+                      "dogs and cats"
+                    ],
+                    "correctAnswer": "Sumatran rhinos and Amur leopards"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "immediate and intensive conservation action",
+                      "no attention",
+                      "minimal effort"
+                    ],
+                    "correctAnswer": "immediate and intensive conservation action"
+                  }
                 ],
                 "correctSentence": "In particular, critically endangered species such as Sumatran rhinos and Amur leopards require immediate and intensive conservation action.",
                 "usableIn": "body-paragraph-2"
@@ -577,9 +1235,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, play crucial roles in _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["overlooked species", "popular animals", "domestic creatures"], "correctAnswer": "overlooked species"},
-                  {"id": "example7_b2", "options": ["bees and earthworms", "lions and elephants", "cats and dogs"], "correctAnswer": "bees and earthworms"},
-                  {"id": "example7_b3", "options": ["supporting agricultural systems", "entertainment", "nothing useful"], "correctAnswer": "supporting agricultural systems"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "overlooked species",
+                      "popular animals",
+                      "domestic creatures"
+                    ],
+                    "correctAnswer": "overlooked species"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "bees and earthworms",
+                      "lions and elephants",
+                      "cats and dogs"
+                    ],
+                    "correctAnswer": "bees and earthworms"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "supporting agricultural systems",
+                      "entertainment",
+                      "nothing useful"
+                    ],
+                    "correctAnswer": "supporting agricultural systems"
+                  }
                 ],
                 "correctSentence": "Many overlooked species, including bees and earthworms, play crucial roles in supporting agricultural systems.",
                 "usableIn": "body-paragraph-1"
@@ -589,9 +1271,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ has successfully _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the California condor recovery program", "random wildlife programs", "no programs"], "correctAnswer": "the California condor recovery program"},
-                  {"id": "example8_b2", "options": ["targeted conservation", "ignoring problems", "wasting resources"], "correctAnswer": "targeted conservation"},
-                  {"id": "example8_b3", "options": ["brought the species back from near extinction", "accomplished nothing", "harmed wildlife"], "correctAnswer": "brought the species back from near extinction"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the California condor recovery program",
+                      "random wildlife programs",
+                      "no programs"
+                    ],
+                    "correctAnswer": "the California condor recovery program"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "targeted conservation",
+                      "ignoring problems",
+                      "wasting resources"
+                    ],
+                    "correctAnswer": "targeted conservation"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "brought the species back from near extinction",
+                      "accomplished nothing",
+                      "harmed wildlife"
+                    ],
+                    "correctAnswer": "brought the species back from near extinction"
+                  }
                 ],
                 "correctSentence": "Take the California condor recovery program as an example: targeted conservation has successfully brought the species back from near extinction.",
                 "usableIn": "body-paragraph-2"
@@ -601,9 +1307,33 @@
                 "type": "template",
                 "template": "According to _____, protecting _____ prevents _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["ecologists", "random people", "nobody"], "correctAnswer": "ecologists"},
-                  {"id": "example9_b2", "options": ["keystone species", "only popular animals", "no species"], "correctAnswer": "keystone species"},
-                  {"id": "example9_b3", "options": ["ecosystem collapse", "nothing", "human progress"], "correctAnswer": "ecosystem collapse"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "ecologists",
+                      "random people",
+                      "nobody"
+                    ],
+                    "correctAnswer": "ecologists"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "keystone species",
+                      "only popular animals",
+                      "no species"
+                    ],
+                    "correctAnswer": "keystone species"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "ecosystem collapse",
+                      "nothing",
+                      "human progress"
+                    ],
+                    "correctAnswer": "ecosystem collapse"
+                  }
                 ],
                 "correctSentence": "According to ecologists, protecting keystone species prevents ecosystem collapse.",
                 "usableIn": "body-paragraph-1"
@@ -613,9 +1343,33 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ generates _____ when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["focused conservation", "random action", "no effort"], "correctAnswer": "focused conservation"},
-                  {"id": "example10_b2", "options": ["better outcomes", "no results", "negative effects"], "correctAnswer": "better outcomes"},
-                  {"id": "example10_b3", "options": ["resources target the most threatened species", "everything is protected equally", "nothing is done"], "correctAnswer": "resources target the most threatened species"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "focused conservation",
+                      "random action",
+                      "no effort"
+                    ],
+                    "correctAnswer": "focused conservation"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "better outcomes",
+                      "no results",
+                      "negative effects"
+                    ],
+                    "correctAnswer": "better outcomes"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "resources target the most threatened species",
+                      "everything is protected equally",
+                      "nothing is done"
+                    ],
+                    "correctAnswer": "resources target the most threatened species"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that focused conservation generates better outcomes when resources target the most threatened species.",
                 "usableIn": "body-paragraph-2"
@@ -632,9 +1386,33 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ is _____ given _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["protecting all species equally", "ignoring conservation", "destroying habitats"], "correctAnswer": "protecting all species equally"},
-                  {"id": "counter1_b2", "options": ["impractical", "easy", "profitable"], "correctAnswer": "impractical"},
-                  {"id": "counter1_b3", "options": ["current financial constraints", "unlimited resources", "lack of animals"], "correctAnswer": "current financial constraints"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "protecting all species equally",
+                      "ignoring conservation",
+                      "destroying habitats"
+                    ],
+                    "correctAnswer": "protecting all species equally"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "impractical",
+                      "easy",
+                      "profitable"
+                    ],
+                    "correctAnswer": "impractical"
+                  },
+                  {
+                    "id": "counter1_b3",
+                    "options": [
+                      "current financial constraints",
+                      "unlimited resources",
+                      "lack of animals"
+                    ],
+                    "correctAnswer": "current financial constraints"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that protecting all species equally is impractical given current financial constraints.",
                 "usableIn": "body-paragraph-1"
@@ -644,9 +1422,33 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ risks _____ that _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["selective conservation", "universal protection", "ignoring wildlife"], "correctAnswer": "selective conservation"},
-                  {"id": "counter2_b2", "options": ["overlooking species", "protecting everything", "wasting money"], "correctAnswer": "overlooking species"},
-                  {"id": "counter2_b3", "options": ["may prove ecologically important later", "are definitely useless", "should be ignored"], "correctAnswer": "may prove ecologically important later"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "selective conservation",
+                      "universal protection",
+                      "ignoring wildlife"
+                    ],
+                    "correctAnswer": "selective conservation"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "overlooking species",
+                      "protecting everything",
+                      "wasting money"
+                    ],
+                    "correctAnswer": "overlooking species"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": [
+                      "may prove ecologically important later",
+                      "are definitely useless",
+                      "should be ignored"
+                    ],
+                    "correctAnswer": "may prove ecologically important later"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, selective conservation risks overlooking species that may prove ecologically important later.",
                 "usableIn": "body-paragraph-2"
@@ -656,9 +1458,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["comprehensive protection", "doing nothing", "random action"], "correctAnswer": "comprehensive protection"},
-                  {"id": "counter3_b2", "options": ["vast resources", "no money", "minimal effort"], "correctAnswer": "vast resources"},
-                  {"id": "counter3_b3", "options": ["most nations cannot currently provide", "are easily available", "nobody needs"], "correctAnswer": "most nations cannot currently provide"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "comprehensive protection",
+                      "doing nothing",
+                      "random action"
+                    ],
+                    "correctAnswer": "comprehensive protection"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "vast resources",
+                      "no money",
+                      "minimal effort"
+                    ],
+                    "correctAnswer": "vast resources"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "most nations cannot currently provide",
+                      "are easily available",
+                      "nobody needs"
+                    ],
+                    "correctAnswer": "most nations cannot currently provide"
+                  }
                 ],
                 "correctSentence": "Nevertheless, comprehensive protection requires vast resources that most nations cannot currently provide.",
                 "usableIn": "body-paragraph-1"
@@ -668,9 +1494,33 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it _____ the risk of _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["prioritization", "universal protection", "ignoring wildlife"], "correctAnswer": "prioritization"},
-                  {"id": "counter4_b2", "options": ["carries", "eliminates", "prevents"], "correctAnswer": "carries"},
-                  {"id": "counter4_b3", "options": ["losing biodiversity permanently", "protecting too much", "wasting money"], "correctAnswer": "losing biodiversity permanently"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "prioritization",
+                      "universal protection",
+                      "ignoring wildlife"
+                    ],
+                    "correctAnswer": "prioritization"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "carries",
+                      "eliminates",
+                      "prevents"
+                    ],
+                    "correctAnswer": "carries"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "losing biodiversity permanently",
+                      "protecting too much",
+                      "wasting money"
+                    ],
+                    "correctAnswer": "losing biodiversity permanently"
+                  }
                 ],
                 "correctSentence": "Although prioritization offers benefits, it carries the risk of losing biodiversity permanently.",
                 "usableIn": "body-paragraph-2"
@@ -680,9 +1530,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ may _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["focusing only on endangered species", "protecting everything", "doing nothing"], "correctAnswer": "focusing only on endangered species"},
-                  {"id": "counter5_b2", "options": ["cause unforeseen ecological damage", "solve all problems", "waste no money"], "correctAnswer": "cause unforeseen ecological damage"},
-                  {"id": "counter5_b3", "options": ["other important species are neglected", "everything is protected", "nothing happens"], "correctAnswer": "other important species are neglected"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "focusing only on endangered species",
+                      "protecting everything",
+                      "doing nothing"
+                    ],
+                    "correctAnswer": "focusing only on endangered species"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "cause unforeseen ecological damage",
+                      "solve all problems",
+                      "waste no money"
+                    ],
+                    "correctAnswer": "cause unforeseen ecological damage"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "other important species are neglected",
+                      "everything is protected",
+                      "nothing happens"
+                    ],
+                    "correctAnswer": "other important species are neglected"
+                  }
                 ],
                 "correctSentence": "Critics point out that focusing only on endangered species may cause unforeseen ecological damage if other important species are neglected.",
                 "usableIn": "body-paragraph-2"
@@ -699,8 +1573,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["all species have ecological value", "some animals are worthless", "conservation is pointless"], "correctAnswer": "all species have ecological value"},
-                  {"id": "conclusion1_b2", "options": ["practical limitations necessitate prioritization", "we should protect nothing", "unlimited funds exist"], "correctAnswer": "practical limitations necessitate prioritization"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "all species have ecological value",
+                      "some animals are worthless",
+                      "conservation is pointless"
+                    ],
+                    "correctAnswer": "all species have ecological value"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "practical limitations necessitate prioritization",
+                      "we should protect nothing",
+                      "unlimited funds exist"
+                    ],
+                    "correctAnswer": "practical limitations necessitate prioritization"
+                  }
                 ],
                 "correctSentence": "In conclusion, while all species have ecological value, I believe practical limitations necessitate prioritization.",
                 "usableIn": "conclusion"
@@ -710,10 +1600,42 @@
                 "type": "template",
                 "template": "Overall, _____ emphasizes _____, whereas _____ prioritizes _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["universal protection", "doing nothing", "ignoring wildlife"], "correctAnswer": "universal protection"},
-                  {"id": "conclusion2_b2", "options": ["ecological integrity", "human profit", "entertainment"], "correctAnswer": "ecological integrity"},
-                  {"id": "conclusion2_b3", "options": ["selective conservation", "random action", "abandoning efforts"], "correctAnswer": "selective conservation"},
-                  {"id": "conclusion2_b4", "options": ["practical effectiveness", "wasting money", "accomplishing nothing"], "correctAnswer": "practical effectiveness"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "universal protection",
+                      "doing nothing",
+                      "ignoring wildlife"
+                    ],
+                    "correctAnswer": "universal protection"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "ecological integrity",
+                      "human profit",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "ecological integrity"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "selective conservation",
+                      "random action",
+                      "abandoning efforts"
+                    ],
+                    "correctAnswer": "selective conservation"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "practical effectiveness",
+                      "wasting money",
+                      "accomplishing nothing"
+                    ],
+                    "correctAnswer": "practical effectiveness"
+                  }
                 ],
                 "correctSentence": "Overall, universal protection emphasizes ecological integrity, whereas selective conservation prioritizes practical effectiveness.",
                 "usableIn": "conclusion"
@@ -723,9 +1645,33 @@
                 "type": "template",
                 "template": "To summarize, _____ requires _____ between _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["effective wildlife conservation", "ignoring animals", "random action"], "correctAnswer": "effective wildlife conservation"},
-                  {"id": "conclusion3_b2", "options": ["balancing", "choosing randomly", "ignoring"], "correctAnswer": "balancing"},
-                  {"id": "conclusion3_b3", "options": ["ecological ideals and practical constraints", "profit and loss", "nothing important"], "correctAnswer": "ecological ideals and practical constraints"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "effective wildlife conservation",
+                      "ignoring animals",
+                      "random action"
+                    ],
+                    "correctAnswer": "effective wildlife conservation"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "balancing",
+                      "choosing randomly",
+                      "ignoring"
+                    ],
+                    "correctAnswer": "balancing"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "ecological ideals and practical constraints",
+                      "profit and loss",
+                      "nothing important"
+                    ],
+                    "correctAnswer": "ecological ideals and practical constraints"
+                  }
                 ],
                 "correctSentence": "To summarize, effective wildlife conservation requires balancing between ecological ideals and practical constraints.",
                 "usableIn": "conclusion"
@@ -735,9 +1681,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should _____ while _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["conservation strategies", "random people", "nobody"], "correctAnswer": "conservation strategies"},
-                  {"id": "conclusion4_b2", "options": ["focus on critically endangered species", "ignore all animals", "waste resources"], "correctAnswer": "focus on critically endangered species"},
-                  {"id": "conclusion4_b3", "options": ["recognizing the value of all wildlife", "ignoring other species", "abandoning efforts"], "correctAnswer": "recognizing the value of all wildlife"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "conservation strategies",
+                      "random people",
+                      "nobody"
+                    ],
+                    "correctAnswer": "conservation strategies"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "focus on critically endangered species",
+                      "ignore all animals",
+                      "waste resources"
+                    ],
+                    "correctAnswer": "focus on critically endangered species"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "recognizing the value of all wildlife",
+                      "ignoring other species",
+                      "abandoning efforts"
+                    ],
+                    "correctAnswer": "recognizing the value of all wildlife"
+                  }
                 ],
                 "correctSentence": "Ultimately, conservation strategies should focus on critically endangered species while recognizing the value of all wildlife.",
                 "usableIn": "conclusion"
@@ -747,8 +1717,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most viable approach because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["strategic prioritization", "universal equal protection", "ignoring conservation"], "correctAnswer": "strategic prioritization"},
-                  {"id": "conclusion5_b2", "options": ["it maximizes conservation impact within realistic budgets", "it wastes money", "it accomplishes nothing"], "correctAnswer": "it maximizes conservation impact within realistic budgets"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "strategic prioritization",
+                      "universal equal protection",
+                      "ignoring conservation"
+                    ],
+                    "correctAnswer": "strategic prioritization"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it maximizes conservation impact within realistic budgets",
+                      "it wastes money",
+                      "it accomplishes nothing"
+                    ],
+                    "correctAnswer": "it maximizes conservation impact within realistic budgets"
+                  }
                 ],
                 "correctSentence": "In my view, strategic prioritization represents the most viable approach because it maximizes conservation impact within realistic budgets.",
                 "usableIn": "conclusion"
@@ -801,12 +1787,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of universal protection argue that", "Advocates of comprehensive conservation contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Proponents of selective conservation argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of universal protection argue that",
+            "Advocates of comprehensive conservation contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Proponents of selective conservation argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },
@@ -979,7 +1995,7 @@
   ],
   "modelEssay": {
     "text": "People have differing views about whether all wildlife species deserve protection or if conservation efforts should focus selectively on certain animals. While both perspectives have merit, I believe that practical limitations necessitate a strategic approach that prioritizes the most endangered species.\n\nOn the one hand, advocates of universal protection argue that all species play vital roles within their ecosystems. Even organisms that appear insignificant can have profound effects on environmental stability, as ecosystems are fundamentally interconnected and interdependent. For instance, the decline of bee populations threatens not only wild plant reproduction but also agricultural systems that humanity depends upon. Furthermore, protecting biodiversity preserves genetic resources that may prove valuable for medicine, agriculture, or climate adaptation. Consequently, comprehensive wildlife protection helps maintain the complex ecological balance that supports all life on Earth.\n\nOn the other hand, selective conservation offers practical advantages given the reality of limited resources. Conservation organizations face substantial financial constraints that make universal protection unfeasible, forcing difficult choices about resource allocation. Targeted programs focusing on critically endangered species, such as the successful California condor and giant panda recovery efforts, demonstrate how concentrated investment can prevent immediate extinctions. Moreover, prioritizing species facing imminent extinction allows conservationists to achieve measurable results rather than spreading resources too thinly across countless species. This strategic approach maximizes the impact of available funding and expertise.\n\nIn conclusion, while all species contribute to ecological integrity, practical constraints require prioritizing those facing the greatest extinction risk. Conservation strategies should focus limited resources on critically endangered animals while working gradually toward broader protection as funding and capacity increase.",
-    "wordCount": 273,
+    "wordCount": 261,
     "structure": {
       "introduction": "People have differing views about whether all wildlife species deserve protection or if conservation efforts should focus selectively on certain animals. While both perspectives have merit, I believe that practical limitations necessitate a strategic approach that prioritizes the most endangered species.",
       "body1": "On the one hand, advocates of universal protection argue that all species play vital roles within their ecosystems. Even organisms that appear insignificant can have profound effects on environmental stability, as ecosystems are fundamentally interconnected and interdependent. For instance, the decline of bee populations threatens not only wild plant reproduction but also agricultural systems that humanity depends upon. Furthermore, protecting biodiversity preserves genetic resources that may prove valuable for medicine, agriculture, or climate adaptation. Consequently, comprehensive wildlife protection helps maintain the complex ecological balance that supports all life on Earth.",

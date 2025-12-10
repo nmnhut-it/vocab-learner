@@ -79,105 +79,158 @@
             "word": "public services",
             "pronunciation": "/ˈpʌblɪk ˈsɜːvɪsɪz/",
             "partOfSpeech": "noun",
-            "definition": "Services provided by the government for all citizens",
+            "definition": "Services provided by the government for all citizens.",
             "example": "Public services like healthcare and education benefit the entire society.",
-            "synonyms": ["government services", "state services"]
+            "synonyms": [
+              "government services",
+              "state services"
+            ]
           },
           {
             "word": "universal access",
             "pronunciation": "/ˌjuːnɪˈvɜːsəl ˈækses/",
             "partOfSpeech": "noun",
-            "definition": "Availability of services to everyone regardless of income",
+            "definition": "Availability of services to everyone regardless of income.",
             "example": "Universal access to healthcare ensures that no one is denied treatment due to poverty.",
-            "synonyms": ["equal access", "inclusive access"]
+            "synonyms": [
+              "equal access",
+              "inclusive access"
+            ]
           },
           {
             "word": "taxpayer funding",
             "pronunciation": "/ˈtækspeɪə ˈfʌndɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Money collected from citizens through taxes to pay for services",
+            "definition": "Money collected from citizens through taxes to pay for services.",
             "example": "Taxpayer funding is used to support public schools and hospitals.",
-            "synonyms": ["public funding", "state funding"]
+            "synonyms": [
+              "public funding",
+              "state funding"
+            ]
           },
           {
             "word": "privatization",
             "pronunciation": "/ˌpraɪvətaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Transfer of services from government to private companies",
+            "definition": "Transfer of services from government to private companies.",
             "example": "Privatization of healthcare can lead to more efficient services but higher costs.",
-            "synonyms": ["private ownership", "denationalization"]
+            "synonyms": [
+              "private ownership",
+              "denationalization"
+            ]
           },
           {
             "word": "social welfare",
             "pronunciation": "/ˈsəʊʃəl ˈwelfeə/",
             "partOfSpeech": "noun",
-            "definition": "Government programs designed to support citizens' wellbeing",
+            "definition": "Government programs designed to support citizens' wellbeing.",
             "example": "Social welfare systems aim to reduce poverty and inequality in society.",
-            "synonyms": ["social security", "public welfare"]
+            "synonyms": [
+              "social security",
+              "public welfare"
+            ]
           },
           {
             "word": "fiscal responsibility",
             "pronunciation": "/ˈfɪskəl rɪˌspɒnsəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The obligation to manage public money wisely",
+            "definition": "The obligation to manage public money wisely.",
             "example": "Fiscal responsibility requires governments to balance spending with revenue.",
-            "synonyms": ["financial accountability", "economic prudence"]
+            "synonyms": [
+              "financial accountability",
+              "economic prudence"
+            ]
           },
           {
             "word": "equitable",
             "pronunciation": "/ˈekwɪtəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Fair and impartial treatment for all",
+            "definition": "Fair and impartial treatment for all.",
             "example": "An equitable healthcare system ensures that rich and poor receive similar treatment.",
-            "synonyms": ["fair", "just", "impartial"]
+            "synonyms": [
+              "fair",
+              "just",
+              "impartial"
+            ]
           },
           {
             "word": "subsidize",
             "pronunciation": "/ˈsʌbsɪdaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To support financially with public money",
+            "definition": "To support financially with public money.",
             "example": "Many governments subsidize education to make it affordable for all citizens.",
-            "synonyms": ["fund", "support financially", "underwrite"]
+            "synonyms": [
+              "fund",
+              "support financially",
+              "underwrite"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "social equality",
-            "definition": "Equal opportunities and treatment for all members of society",
+            "definition": "Equal opportunities and treatment for all members of society.",
             "example": "Government-funded education promotes social equality by giving everyone access to learning."
           },
           {
             "phrase": "economic efficiency",
-            "definition": "Achieving maximum output with minimum waste of resources",
+            "definition": "Achieving maximum output with minimum waste of resources.",
             "example": "Some argue that private healthcare offers better economic efficiency than government systems."
           },
           {
             "phrase": "individual choice",
-            "definition": "The freedom to make personal decisions",
+            "definition": "The freedom to make personal decisions.",
             "example": "Critics argue that government control limits individual choice in healthcare options."
           },
           {
             "phrase": "basic rights",
-            "definition": "Fundamental entitlements that everyone should have",
+            "definition": "Fundamental entitlements that everyone should have.",
             "example": "Many view healthcare and education as basic rights that governments must guarantee."
           },
           {
             "phrase": "taxpayer burden",
-            "definition": "The financial weight placed on citizens through taxation",
+            "definition": "The financial weight placed on citizens through taxation.",
             "example": "Opponents worry that funding all healthcare increases the taxpayer burden significantly."
           },
           {
             "phrase": "private sector",
-            "definition": "Businesses and organizations not owned by the government",
+            "definition": "Businesses and organizations not owned by the government.",
             "example": "The private sector can deliver education services more efficiently than government bureaucracies."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "Opinions are divided on whether", "While some advocate"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
-          "exemplifying": ["For instance", "For example", "A clear example is", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In my view", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "Opinions are divided on whether",
+            "While some advocate"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In my view",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +253,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["the government should fund healthcare and education", "all services should be free", "taxes should be eliminated"], "correctAnswer": "the government should fund healthcare and education"},
-                  {"id": "thesis1_b2", "options": ["these should be private responsibilities", "everyone should pay equally", "education is unnecessary"], "correctAnswer": "these should be private responsibilities"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "the government should fund healthcare and education",
+                      "all services should be free",
+                      "taxes should be eliminated"
+                    ],
+                    "correctAnswer": "the government should fund healthcare and education"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "these should be private responsibilities",
+                      "everyone should pay equally",
+                      "education is unnecessary"
+                    ],
+                    "correctAnswer": "these should be private responsibilities"
+                  }
                 ],
                 "correctSentence": "While some believe the government should fund healthcare and education, others argue that these should be private responsibilities.",
                 "usableIn": "introduction"
@@ -211,9 +280,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ are _____ that governments must _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["healthcare and education", "luxury services", "private businesses"], "correctAnswer": "healthcare and education"},
-                  {"id": "thesis2_b2", "options": ["basic rights", "optional extras", "commercial products"], "correctAnswer": "basic rights"},
-                  {"id": "thesis2_b3", "options": ["guarantee through public funding", "ignore completely", "leave to private companies"], "correctAnswer": "guarantee through public funding"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "healthcare and education",
+                      "luxury services",
+                      "private businesses"
+                    ],
+                    "correctAnswer": "healthcare and education"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "basic rights",
+                      "optional extras",
+                      "commercial products"
+                    ],
+                    "correctAnswer": "basic rights"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "guarantee through public funding",
+                      "ignore completely",
+                      "leave to private companies"
+                    ],
+                    "correctAnswer": "guarantee through public funding"
+                  }
                 ],
                 "correctSentence": "In my opinion, healthcare and education are basic rights that governments must guarantee through public funding.",
                 "usableIn": "introduction"
@@ -223,9 +316,33 @@
                 "type": "template",
                 "template": "While _____ have merit, I believe _____ should _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["both perspectives", "private companies", "foreign governments"], "correctAnswer": "both perspectives"},
-                  {"id": "thesis3_b2", "options": ["governments", "individuals", "corporations"], "correctAnswer": "governments"},
-                  {"id": "thesis3_b3", "options": ["take primary responsibility for funding these essential services", "avoid all involvement", "privatize everything"], "correctAnswer": "take primary responsibility for funding these essential services"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "both perspectives",
+                      "private companies",
+                      "foreign governments"
+                    ],
+                    "correctAnswer": "both perspectives"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "governments",
+                      "individuals",
+                      "corporations"
+                    ],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": [
+                      "take primary responsibility for funding these essential services",
+                      "avoid all involvement",
+                      "privatize everything"
+                    ],
+                    "correctAnswer": "take primary responsibility for funding these essential services"
+                  }
                 ],
                 "correctSentence": "While both perspectives have merit, I believe governments should take primary responsibility for funding these essential services.",
                 "usableIn": "introduction"
@@ -242,8 +359,24 @@
                 "type": "template",
                 "template": "On the one hand, government funding for _____ ensures _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["healthcare and education", "luxury goods", "entertainment"], "correctAnswer": "healthcare and education"},
-                  {"id": "topic1_b2", "options": ["universal access and social equality", "higher taxes", "government control"], "correctAnswer": "universal access and social equality"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "healthcare and education",
+                      "luxury goods",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "healthcare and education"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "universal access and social equality",
+                      "higher taxes",
+                      "government control"
+                    ],
+                    "correctAnswer": "universal access and social equality"
+                  }
                 ],
                 "correctSentence": "On the one hand, government funding for healthcare and education ensures universal access and social equality.",
                 "usableIn": "body-paragraph-1"
@@ -253,9 +386,33 @@
                 "type": "template",
                 "template": "On the other hand, _____ argue that _____ should _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["critics", "students", "doctors"], "correctAnswer": "critics"},
-                  {"id": "topic2_b2", "options": ["individuals and the private sector", "only governments", "foreign countries"], "correctAnswer": "individuals and the private sector"},
-                  {"id": "topic2_b3", "options": ["bear the responsibility for these services", "receive free services", "avoid all costs"], "correctAnswer": "bear the responsibility for these services"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "critics",
+                      "students",
+                      "doctors"
+                    ],
+                    "correctAnswer": "critics"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "individuals and the private sector",
+                      "only governments",
+                      "foreign countries"
+                    ],
+                    "correctAnswer": "individuals and the private sector"
+                  },
+                  {
+                    "id": "topic2_b3",
+                    "options": [
+                      "bear the responsibility for these services",
+                      "receive free services",
+                      "avoid all costs"
+                    ],
+                    "correctAnswer": "bear the responsibility for these services"
+                  }
                 ],
                 "correctSentence": "On the other hand, critics argue that individuals and the private sector should bear the responsibility for these services.",
                 "usableIn": "body-paragraph-2"
@@ -265,8 +422,24 @@
                 "type": "template",
                 "template": "_____ of healthcare and education promotes _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Public provision", "Complete privatization", "Foreign control"], "correctAnswer": "Public provision"},
-                  {"id": "topic3_b2", "options": ["fairness and reduces inequality in society", "higher costs", "lower quality"], "correctAnswer": "fairness and reduces inequality in society"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Public provision",
+                      "Complete privatization",
+                      "Foreign control"
+                    ],
+                    "correctAnswer": "Public provision"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "fairness and reduces inequality in society",
+                      "higher costs",
+                      "lower quality"
+                    ],
+                    "correctAnswer": "fairness and reduces inequality in society"
+                  }
                 ],
                 "correctSentence": "Public provision of healthcare and education promotes fairness and reduces inequality in society.",
                 "usableIn": "body-paragraph-1"
@@ -276,7 +449,15 @@
                 "type": "template",
                 "template": "Private provision of these services can lead to _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["greater efficiency and innovation", "complete chaos", "free services"], "correctAnswer": "greater efficiency and innovation"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "greater efficiency and innovation",
+                      "complete chaos",
+                      "free services"
+                    ],
+                    "correctAnswer": "greater efficiency and innovation"
+                  }
                 ],
                 "correctSentence": "Private provision of these services can lead to greater efficiency and innovation.",
                 "usableIn": "body-paragraph-2"
@@ -293,9 +474,33 @@
                 "type": "template",
                 "template": "This is because _____ enables _____ to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["government funding", "private insurance", "foreign aid"], "correctAnswer": "government funding"},
-                  {"id": "support1_b2", "options": ["all citizens, regardless of income", "only wealthy people", "foreign nationals"], "correctAnswer": "all citizens, regardless of income"},
-                  {"id": "support1_b3", "options": ["access essential services without financial barriers", "pay higher taxes", "leave the country"], "correctAnswer": "access essential services without financial barriers"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "government funding",
+                      "private insurance",
+                      "foreign aid"
+                    ],
+                    "correctAnswer": "government funding"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "all citizens, regardless of income",
+                      "only wealthy people",
+                      "foreign nationals"
+                    ],
+                    "correctAnswer": "all citizens, regardless of income"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "access essential services without financial barriers",
+                      "pay higher taxes",
+                      "leave the country"
+                    ],
+                    "correctAnswer": "access essential services without financial barriers"
+                  }
                 ],
                 "correctSentence": "This is because government funding enables all citizens, regardless of income, to access essential services without financial barriers.",
                 "usableIn": "body-paragraph-1"
@@ -305,9 +510,33 @@
                 "type": "template",
                 "template": "When _____ are treated as _____, society becomes _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["healthcare and education", "luxury items", "entertainment services"], "correctAnswer": "healthcare and education"},
-                  {"id": "support2_b2", "options": ["basic rights", "commercial products", "optional extras"], "correctAnswer": "basic rights"},
-                  {"id": "support2_b3", "options": ["more equitable and prosperous", "less efficient", "more divided"], "correctAnswer": "more equitable and prosperous"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "healthcare and education",
+                      "luxury items",
+                      "entertainment services"
+                    ],
+                    "correctAnswer": "healthcare and education"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "basic rights",
+                      "commercial products",
+                      "optional extras"
+                    ],
+                    "correctAnswer": "basic rights"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "more equitable and prosperous",
+                      "less efficient",
+                      "more divided"
+                    ],
+                    "correctAnswer": "more equitable and prosperous"
+                  }
                 ],
                 "correctSentence": "When healthcare and education are treated as basic rights, society becomes more equitable and prosperous.",
                 "usableIn": "body-paragraph-1"
@@ -317,8 +546,24 @@
                 "type": "template",
                 "template": "The main concern is that _____ creates _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["extensive government funding", "private healthcare", "free education"], "correctAnswer": "extensive government funding"},
-                  {"id": "support3_b2", "options": ["a significant taxpayer burden", "better services", "universal access"], "correctAnswer": "a significant taxpayer burden"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "extensive government funding",
+                      "private healthcare",
+                      "free education"
+                    ],
+                    "correctAnswer": "extensive government funding"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "a significant taxpayer burden",
+                      "better services",
+                      "universal access"
+                    ],
+                    "correctAnswer": "a significant taxpayer burden"
+                  }
                 ],
                 "correctSentence": "The main concern is that extensive government funding creates a significant taxpayer burden.",
                 "usableIn": "body-paragraph-2"
@@ -328,9 +573,33 @@
                 "type": "template",
                 "template": "_____ leads to _____ because _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Private sector involvement", "Government monopoly", "Free services"], "correctAnswer": "Private sector involvement"},
-                  {"id": "support4_b2", "options": ["greater efficiency", "higher costs", "reduced access"], "correctAnswer": "greater efficiency"},
-                  {"id": "support4_b3", "options": ["competition incentivizes better service and innovation", "companies avoid regulation", "profits increase"], "correctAnswer": "competition incentivizes better service and innovation"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Private sector involvement",
+                      "Government monopoly",
+                      "Free services"
+                    ],
+                    "correctAnswer": "Private sector involvement"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "greater efficiency",
+                      "higher costs",
+                      "reduced access"
+                    ],
+                    "correctAnswer": "greater efficiency"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "competition incentivizes better service and innovation",
+                      "companies avoid regulation",
+                      "profits increase"
+                    ],
+                    "correctAnswer": "competition incentivizes better service and innovation"
+                  }
                 ],
                 "correctSentence": "Private sector involvement leads to greater efficiency because competition incentivizes better service and innovation.",
                 "usableIn": "body-paragraph-2"
@@ -340,8 +609,24 @@
                 "type": "template",
                 "template": "Furthermore, _____ ensures that _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["public funding", "private insurance", "charity"], "correctAnswer": "public funding"},
-                  {"id": "support5_b2", "options": ["economic background does not determine health outcomes or educational opportunities", "wealthy people benefit", "taxes increase"], "correctAnswer": "economic background does not determine health outcomes or educational opportunities"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "public funding",
+                      "private insurance",
+                      "charity"
+                    ],
+                    "correctAnswer": "public funding"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "economic background does not determine health outcomes or educational opportunities",
+                      "wealthy people benefit",
+                      "taxes increase"
+                    ],
+                    "correctAnswer": "economic background does not determine health outcomes or educational opportunities"
+                  }
                 ],
                 "correctSentence": "Furthermore, public funding ensures that economic background does not determine health outcomes or educational opportunities.",
                 "usableIn": "body-paragraph-1"
@@ -351,8 +636,24 @@
                 "type": "template",
                 "template": "Critics also point out that _____ may _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["government-run systems", "private hospitals", "charitable organizations"], "correctAnswer": "government-run systems"},
-                  {"id": "support6_b2", "options": ["become inefficient and bureaucratic without market competition", "provide better care", "reduce costs"], "correctAnswer": "become inefficient and bureaucratic without market competition"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "government-run systems",
+                      "private hospitals",
+                      "charitable organizations"
+                    ],
+                    "correctAnswer": "government-run systems"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "become inefficient and bureaucratic without market competition",
+                      "provide better care",
+                      "reduce costs"
+                    ],
+                    "correctAnswer": "become inefficient and bureaucratic without market competition"
+                  }
                 ],
                 "correctSentence": "Critics also point out that government-run systems may become inefficient and bureaucratic without market competition.",
                 "usableIn": "body-paragraph-2"
@@ -369,8 +670,24 @@
                 "type": "template",
                 "template": "For instance, _____ demonstrates _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the British NHS", "private American hospitals", "luxury healthcare"], "correctAnswer": "the British NHS"},
-                  {"id": "example1_b2", "options": ["how universal healthcare can provide quality treatment to all citizens", "expensive services", "long waiting times"], "correctAnswer": "how universal healthcare can provide quality treatment to all citizens"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the British NHS",
+                      "private American hospitals",
+                      "luxury healthcare"
+                    ],
+                    "correctAnswer": "the British NHS"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "how universal healthcare can provide quality treatment to all citizens",
+                      "expensive services",
+                      "long waiting times"
+                    ],
+                    "correctAnswer": "how universal healthcare can provide quality treatment to all citizens"
+                  }
                 ],
                 "correctSentence": "For instance, the British NHS demonstrates how universal healthcare can provide quality treatment to all citizens.",
                 "usableIn": "body-paragraph-1"
@@ -380,9 +697,33 @@
                 "type": "template",
                 "template": "_____ exemplify _____ through _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["Scandinavian countries", "Developing nations", "Island nations"], "correctAnswer": "Scandinavian countries"},
-                  {"id": "example2_b2", "options": ["successful public funding models", "failed systems", "private healthcare"], "correctAnswer": "successful public funding models"},
-                  {"id": "example2_b3", "options": ["their comprehensive welfare systems that ensure high-quality education and healthcare for all", "high taxes only", "small populations"], "correctAnswer": "their comprehensive welfare systems that ensure high-quality education and healthcare for all"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "Scandinavian countries",
+                      "Developing nations",
+                      "Island nations"
+                    ],
+                    "correctAnswer": "Scandinavian countries"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "successful public funding models",
+                      "failed systems",
+                      "private healthcare"
+                    ],
+                    "correctAnswer": "successful public funding models"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "their comprehensive welfare systems that ensure high-quality education and healthcare for all",
+                      "high taxes only",
+                      "small populations"
+                    ],
+                    "correctAnswer": "their comprehensive welfare systems that ensure high-quality education and healthcare for all"
+                  }
                 ],
                 "correctSentence": "Scandinavian countries exemplify successful public funding models through their comprehensive welfare systems that ensure high-quality education and healthcare for all.",
                 "usableIn": "body-paragraph-1"
@@ -392,8 +733,24 @@
                 "type": "template",
                 "template": "For example, _____ shows _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the US healthcare system", "Cuban medicine", "European education"], "correctAnswer": "the US healthcare system"},
-                  {"id": "example3_b2", "options": ["that private provision can lead to innovation but also creates access inequality", "perfect equality", "low costs"], "correctAnswer": "that private provision can lead to innovation but also creates access inequality"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the US healthcare system",
+                      "Cuban medicine",
+                      "European education"
+                    ],
+                    "correctAnswer": "the US healthcare system"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "that private provision can lead to innovation but also creates access inequality",
+                      "perfect equality",
+                      "low costs"
+                    ],
+                    "correctAnswer": "that private provision can lead to innovation but also creates access inequality"
+                  }
                 ],
                 "correctSentence": "For example, the US healthcare system shows that private provision can lead to innovation but also creates access inequality.",
                 "usableIn": "body-paragraph-2"
@@ -403,8 +760,24 @@
                 "type": "template",
                 "template": "A clear example is _____ where _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["Singapore", "Antarctica", "Medieval Europe"], "correctAnswer": "Singapore"},
-                  {"id": "example4_b2", "options": ["a mixed system combines government subsidies with individual responsibility for healthcare costs", "everything is free", "only private care exists"], "correctAnswer": "a mixed system combines government subsidies with individual responsibility for healthcare costs"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "Singapore",
+                      "Antarctica",
+                      "Medieval Europe"
+                    ],
+                    "correctAnswer": "Singapore"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "a mixed system combines government subsidies with individual responsibility for healthcare costs",
+                      "everything is free",
+                      "only private care exists"
+                    ],
+                    "correctAnswer": "a mixed system combines government subsidies with individual responsibility for healthcare costs"
+                  }
                 ],
                 "correctSentence": "A clear example is Singapore where a mixed system combines government subsidies with individual responsibility for healthcare costs.",
                 "usableIn": "body-paragraph-2"
@@ -414,8 +787,24 @@
                 "type": "template",
                 "template": "Countries with _____ tend to have _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["publicly-funded education systems", "no schools", "only private universities"], "correctAnswer": "publicly-funded education systems"},
-                  {"id": "example5_b2", "options": ["higher literacy rates and better social mobility", "lower education levels", "fewer graduates"], "correctAnswer": "higher literacy rates and better social mobility"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "publicly-funded education systems",
+                      "no schools",
+                      "only private universities"
+                    ],
+                    "correctAnswer": "publicly-funded education systems"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "higher literacy rates and better social mobility",
+                      "lower education levels",
+                      "fewer graduates"
+                    ],
+                    "correctAnswer": "higher literacy rates and better social mobility"
+                  }
                 ],
                 "correctSentence": "Countries with publicly-funded education systems tend to have higher literacy rates and better social mobility.",
                 "usableIn": "body-paragraph-1"
@@ -425,9 +814,33 @@
                 "type": "template",
                 "template": "Conversely, _____ can result in _____ as seen in _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["complete reliance on private funding", "government support", "free education"], "correctAnswer": "complete reliance on private funding"},
-                  {"id": "example6_b2", "options": ["significant inequality", "perfect equality", "lower costs"], "correctAnswer": "significant inequality"},
-                  {"id": "example6_b3", "options": ["countries where only wealthy families can afford quality education", "Scandinavian nations", "fictional societies"], "correctAnswer": "countries where only wealthy families can afford quality education"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "complete reliance on private funding",
+                      "government support",
+                      "free education"
+                    ],
+                    "correctAnswer": "complete reliance on private funding"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "significant inequality",
+                      "perfect equality",
+                      "lower costs"
+                    ],
+                    "correctAnswer": "significant inequality"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "countries where only wealthy families can afford quality education",
+                      "Scandinavian nations",
+                      "fictional societies"
+                    ],
+                    "correctAnswer": "countries where only wealthy families can afford quality education"
+                  }
                 ],
                 "correctSentence": "Conversely, complete reliance on private funding can result in significant inequality as seen in countries where only wealthy families can afford quality education.",
                 "usableIn": "body-paragraph-2"
@@ -444,9 +857,33 @@
                 "type": "template",
                 "template": "However, _____ argue that _____ is _____.",
                 "blanks": [
-                  {"id": "contrast1_b1", "options": ["opponents", "supporters", "students"], "correctAnswer": "opponents"},
-                  {"id": "contrast1_b2", "options": ["individual responsibility", "government control", "foreign aid"], "correctAnswer": "individual responsibility"},
-                  {"id": "contrast1_b3", "options": ["more sustainable than relying on public funding", "impossible", "unnecessary"], "correctAnswer": "more sustainable than relying on public funding"}
+                  {
+                    "id": "contrast1_b1",
+                    "options": [
+                      "opponents",
+                      "supporters",
+                      "students"
+                    ],
+                    "correctAnswer": "opponents"
+                  },
+                  {
+                    "id": "contrast1_b2",
+                    "options": [
+                      "individual responsibility",
+                      "government control",
+                      "foreign aid"
+                    ],
+                    "correctAnswer": "individual responsibility"
+                  },
+                  {
+                    "id": "contrast1_b3",
+                    "options": [
+                      "more sustainable than relying on public funding",
+                      "impossible",
+                      "unnecessary"
+                    ],
+                    "correctAnswer": "more sustainable than relying on public funding"
+                  }
                 ],
                 "correctSentence": "However, opponents argue that individual responsibility is more sustainable than relying on public funding.",
                 "usableIn": "body-paragraph-2"
@@ -456,8 +893,24 @@
                 "type": "template",
                 "template": "In contrast to _____, private systems _____.",
                 "blanks": [
-                  {"id": "contrast2_b1", "options": ["government-funded models", "foreign healthcare", "ancient medicine"], "correctAnswer": "government-funded models"},
-                  {"id": "contrast2_b2", "options": ["can offer faster service and greater choice", "cost nothing", "exclude everyone"], "correctAnswer": "can offer faster service and greater choice"}
+                  {
+                    "id": "contrast2_b1",
+                    "options": [
+                      "government-funded models",
+                      "foreign healthcare",
+                      "ancient medicine"
+                    ],
+                    "correctAnswer": "government-funded models"
+                  },
+                  {
+                    "id": "contrast2_b2",
+                    "options": [
+                      "can offer faster service and greater choice",
+                      "cost nothing",
+                      "exclude everyone"
+                    ],
+                    "correctAnswer": "can offer faster service and greater choice"
+                  }
                 ],
                 "correctSentence": "In contrast to government-funded models, private systems can offer faster service and greater choice.",
                 "usableIn": "body-paragraph-2"
@@ -467,9 +920,33 @@
                 "type": "template",
                 "template": "While _____ promotes _____, it also _____.",
                 "blanks": [
-                  {"id": "contrast3_b1", "options": ["public funding", "privatization", "charity"], "correctAnswer": "public funding"},
-                  {"id": "contrast3_b2", "options": ["equality", "profits", "exclusion"], "correctAnswer": "equality"},
-                  {"id": "contrast3_b3", "options": ["requires substantial tax revenue", "eliminates all costs", "prevents innovation"], "correctAnswer": "requires substantial tax revenue"}
+                  {
+                    "id": "contrast3_b1",
+                    "options": [
+                      "public funding",
+                      "privatization",
+                      "charity"
+                    ],
+                    "correctAnswer": "public funding"
+                  },
+                  {
+                    "id": "contrast3_b2",
+                    "options": [
+                      "equality",
+                      "profits",
+                      "exclusion"
+                    ],
+                    "correctAnswer": "equality"
+                  },
+                  {
+                    "id": "contrast3_b3",
+                    "options": [
+                      "requires substantial tax revenue",
+                      "eliminates all costs",
+                      "prevents innovation"
+                    ],
+                    "correctAnswer": "requires substantial tax revenue"
+                  }
                 ],
                 "correctSentence": "While public funding promotes equality, it also requires substantial tax revenue.",
                 "usableIn": "body-paragraph-2"
@@ -486,8 +963,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both perspectives have valid points", "private funding is perfect", "taxes are unnecessary"], "correctAnswer": "both perspectives have valid points"},
-                  {"id": "conclusion1_b2", "options": ["government funding of healthcare and education is essential for a fair society", "everything should be private", "nothing should be funded"], "correctAnswer": "government funding of healthcare and education is essential for a fair society"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both perspectives have valid points",
+                      "private funding is perfect",
+                      "taxes are unnecessary"
+                    ],
+                    "correctAnswer": "both perspectives have valid points"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "government funding of healthcare and education is essential for a fair society",
+                      "everything should be private",
+                      "nothing should be funded"
+                    ],
+                    "correctAnswer": "government funding of healthcare and education is essential for a fair society"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both perspectives have valid points, I believe government funding of healthcare and education is essential for a fair society.",
                 "usableIn": "conclusion"
@@ -497,9 +990,33 @@
                 "type": "template",
                 "template": "Overall, _____ remains _____ in ensuring _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["government responsibility", "private charity", "individual effort"], "correctAnswer": "government responsibility"},
-                  {"id": "conclusion2_b2", "options": ["crucial", "optional", "harmful"], "correctAnswer": "crucial"},
-                  {"id": "conclusion2_b3", "options": ["that all citizens have access to fundamental services", "profits increase", "taxes decrease"], "correctAnswer": "that all citizens have access to fundamental services"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "government responsibility",
+                      "private charity",
+                      "individual effort"
+                    ],
+                    "correctAnswer": "government responsibility"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "crucial",
+                      "optional",
+                      "harmful"
+                    ],
+                    "correctAnswer": "crucial"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "that all citizens have access to fundamental services",
+                      "profits increase",
+                      "taxes decrease"
+                    ],
+                    "correctAnswer": "that all citizens have access to fundamental services"
+                  }
                 ],
                 "correctSentence": "Overall, government responsibility remains crucial in ensuring that all citizens have access to fundamental services.",
                 "usableIn": "conclusion"
@@ -546,13 +1063,50 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "Supporters of government funding argue that", "Those in favor contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Critics argue that", "Opponents believe that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides"],
-          "giving_examples": ["For instance", "For example", "A clear example is", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "In contrast"],
-          "acknowledging_opposition": ["Admittedly", "It is true that", "While it may be argued that"]
+          "presenting_first_view": [
+            "On the one hand",
+            "Supporters of government funding argue that",
+            "Those in favor contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Critics argue that",
+            "Opponents believe that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Besides"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "In contrast"
+          ],
+          "acknowledging_opposition": [
+            "Admittedly",
+            "It is true that",
+            "While it may be argued that"
+          ]
         }
       }
     },

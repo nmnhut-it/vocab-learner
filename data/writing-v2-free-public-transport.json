@@ -81,106 +81,172 @@
             "word": "traffic congestion",
             "pronunciation": "/ˈtræfɪk kənˈdʒestʃən/",
             "partOfSpeech": "noun",
-            "definition": "Overcrowding of roads leading to slower traffic speeds",
+            "definition": "Overcrowding of roads leading to slower traffic speeds.",
             "example": "Traffic congestion costs cities billions in lost productivity annually.",
-            "synonyms": ["gridlock", "traffic jams", "road congestion"]
+            "synonyms": [
+              "gridlock",
+              "traffic jams",
+              "road congestion"
+            ]
           },
           {
             "word": "public transit",
             "pronunciation": "/ˈpʌblɪk ˈtrænzɪt/",
             "partOfSpeech": "noun",
-            "definition": "Shared transportation services available to the general public",
+            "definition": "Shared transportation services available to the general public.",
             "example": "Public transit includes buses, trains, and subway systems.",
-            "synonyms": ["public transport", "mass transit", "public transportation"]
+            "synonyms": [
+              "public transport",
+              "mass transit",
+              "public transportation"
+            ]
           },
           {
             "word": "fiscal burden",
             "pronunciation": "/ˈfɪskəl ˈbɜːdən/",
             "partOfSpeech": "noun",
-            "definition": "Financial cost or strain on government budgets",
+            "definition": "Financial cost or strain on government budgets.",
             "example": "Free public transport would impose a significant fiscal burden on taxpayers.",
-            "synonyms": ["financial strain", "economic cost", "budgetary pressure"]
+            "synonyms": [
+              "financial strain",
+              "economic cost",
+              "budgetary pressure"
+            ]
           },
           {
             "word": "ridership",
             "pronunciation": "/ˈraɪdərʃɪp/",
             "partOfSpeech": "noun",
-            "definition": "The number of passengers using public transportation",
+            "definition": "The number of passengers using public transportation.",
             "example": "Luxembourg saw increased ridership after introducing free public transport.",
-            "synonyms": ["passenger numbers", "transit usage", "user base"]
+            "synonyms": [
+              "passenger numbers",
+              "transit usage",
+              "user base"
+            ]
           },
           {
             "word": "infrastructure capacity",
             "pronunciation": "/ˈɪnfrəstrʌktʃər kəˈpæsəti/",
             "partOfSpeech": "noun",
-            "definition": "The maximum number of users transportation systems can accommodate",
+            "definition": "The maximum number of users transportation systems can accommodate.",
             "example": "Many cities lack sufficient infrastructure capacity to handle increased transit demand.",
-            "synonyms": ["system capacity", "service capacity", "operational limits"]
+            "synonyms": [
+              "system capacity",
+              "service capacity",
+              "operational limits"
+            ]
           },
           {
             "word": "sustainable mobility",
             "pronunciation": "/səˈsteɪnəbəl məʊˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Transportation methods that minimize environmental impact",
+            "definition": "Transportation methods that minimize environmental impact.",
             "example": "Governments are investing in sustainable mobility to reduce carbon emissions.",
-            "synonyms": ["green transportation", "eco-friendly transit", "sustainable transport"]
+            "synonyms": [
+              "green transportation",
+              "eco-friendly transit",
+              "sustainable transport"
+            ]
           },
           {
             "word": "incentivize",
             "pronunciation": "/ɪnˈsentɪvaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To motivate or encourage specific behavior through rewards",
+            "definition": "To motivate or encourage specific behavior through rewards.",
             "example": "Free fares incentivize commuters to abandon private vehicles.",
-            "synonyms": ["encourage", "motivate", "stimulate"]
+            "synonyms": [
+              "encourage",
+              "motivate",
+              "stimulate"
+            ]
           },
           {
             "word": "viable",
             "pronunciation": "/ˈvaɪəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Capable of working successfully; feasible",
+            "definition": "Capable of working successfully; feasible.",
             "example": "Free 24/7 transit may not be financially viable for most cities.",
-            "synonyms": ["feasible", "practical", "workable"]
+            "synonyms": [
+              "feasible",
+              "practical",
+              "workable"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "rush hour",
-            "definition": "Peak travel times when traffic is heaviest",
+            "definition": "Peak travel times when traffic is heaviest.",
             "example": "Traffic congestion is most severe during morning and evening rush hours."
           },
           {
             "phrase": "modal shift",
-            "definition": "Change from one form of transportation to another",
+            "definition": "Change from one form of transportation to another.",
             "example": "Free public transport aims to create a modal shift from cars to buses."
           },
           {
             "phrase": "fare-free transit",
-            "definition": "Public transportation that requires no payment from passengers",
+            "definition": "Public transportation that requires no payment from passengers.",
             "example": "Tallinn implemented fare-free transit for residents in 2013."
           },
           {
             "phrase": "taxpayer funding",
-            "definition": "Financial support provided through public tax revenue",
+            "definition": "Financial support provided through public tax revenue.",
             "example": "Free public transport relies entirely on taxpayer funding."
           },
           {
             "phrase": "carbon emissions",
-            "definition": "Release of carbon dioxide into the atmosphere",
+            "definition": "Release of carbon dioxide into the atmosphere.",
             "example": "Reducing private car usage can significantly lower carbon emissions."
           },
           {
             "phrase": "congestion pricing",
-            "definition": "Charging fees to drive in busy areas during peak times",
+            "definition": "Charging fees to drive in busy areas during peak times.",
             "example": "London uses congestion pricing as an alternative to free public transport."
           }
         ],
         "linkingPhrases": {
-          "stating_opinion": ["In my opinion", "I believe that", "From my perspective", "I partly agree that"],
-          "giving_reasons": ["The primary reason is", "This is mainly because", "The main factor is", "One key advantage is"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition", "Another point is"],
-          "giving_examples": ["For instance", "For example", "A notable case is", "Luxembourg demonstrates", "Tallinn illustrates"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this", "Conversely"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary", "Therefore"]
+          "stating_opinion": [
+            "In my opinion",
+            "I believe that",
+            "From my perspective",
+            "I partly agree that"
+          ],
+          "giving_reasons": [
+            "The primary reason is",
+            "This is mainly because",
+            "The main factor is",
+            "One key advantage is"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Another point is"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A notable case is",
+            "Luxembourg demonstrates",
+            "Tallinn illustrates"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Despite this",
+            "Conversely"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary",
+            "Therefore"
+          ]
         }
       }
     },
@@ -203,8 +269,24 @@
                 "type": "template",
                 "template": "I _____ that free 24/7 public transport is _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["partly agree", "completely agree", "somewhat agree"], "correctAnswer": "partly agree"},
-                  {"id": "thesis1_b2", "options": ["one effective solution but not the only answer", "the perfect solution", "completely ineffective"], "correctAnswer": "one effective solution but not the only answer"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "partly agree",
+                      "completely agree",
+                      "somewhat agree"
+                    ],
+                    "correctAnswer": "partly agree"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "one effective solution but not the only answer",
+                      "the perfect solution",
+                      "completely ineffective"
+                    ],
+                    "correctAnswer": "one effective solution but not the only answer"
+                  }
                 ],
                 "correctSentence": "I partly agree that free 24/7 public transport is one effective solution but not the only answer.",
                 "usableIn": "introduction"
@@ -214,9 +296,33 @@
                 "type": "template",
                 "template": "While _____ offers _____, it may not be _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["this approach", "congestion pricing", "road construction"], "correctAnswer": "this approach"},
-                  {"id": "thesis2_b2", "options": ["certain benefits in reducing traffic", "unlimited capacity", "zero environmental impact"], "correctAnswer": "certain benefits in reducing traffic"},
-                  {"id": "thesis2_b3", "options": ["financially viable for all cities", "necessary", "complicated"], "correctAnswer": "financially viable for all cities"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "this approach",
+                      "congestion pricing",
+                      "road construction"
+                    ],
+                    "correctAnswer": "this approach"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "certain benefits in reducing traffic",
+                      "unlimited capacity",
+                      "zero environmental impact"
+                    ],
+                    "correctAnswer": "certain benefits in reducing traffic"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "financially viable for all cities",
+                      "necessary",
+                      "complicated"
+                    ],
+                    "correctAnswer": "financially viable for all cities"
+                  }
                 ],
                 "correctSentence": "While this approach offers certain benefits in reducing traffic, it may not be financially viable for all cities.",
                 "usableIn": "introduction"
@@ -233,8 +339,24 @@
                 "type": "template",
                 "template": "One major advantage is that _____ can _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["fare-free public transit", "expensive tickets", "private cars"], "correctAnswer": "fare-free public transit"},
-                  {"id": "topic1_b2", "options": ["incentivize commuters to abandon private vehicles", "increase government debt", "reduce bus quality"], "correctAnswer": "incentivize commuters to abandon private vehicles"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "fare-free public transit",
+                      "expensive tickets",
+                      "private cars"
+                    ],
+                    "correctAnswer": "fare-free public transit"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "incentivize commuters to abandon private vehicles",
+                      "increase government debt",
+                      "reduce bus quality"
+                    ],
+                    "correctAnswer": "incentivize commuters to abandon private vehicles"
+                  }
                 ],
                 "correctSentence": "One major advantage is that fare-free public transit can incentivize commuters to abandon private vehicles.",
                 "usableIn": "body-paragraph-1"
@@ -244,8 +366,24 @@
                 "type": "template",
                 "template": "However, _____ imposes _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["implementing free 24/7 service", "building new roads", "charging higher fares"], "correctAnswer": "implementing free 24/7 service"},
-                  {"id": "topic2_b2", "options": ["a substantial fiscal burden on government budgets", "no financial costs", "minor expenses"], "correctAnswer": "a substantial fiscal burden on government budgets"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "implementing free 24/7 service",
+                      "building new roads",
+                      "charging higher fares"
+                    ],
+                    "correctAnswer": "implementing free 24/7 service"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "a substantial fiscal burden on government budgets",
+                      "no financial costs",
+                      "minor expenses"
+                    ],
+                    "correctAnswer": "a substantial fiscal burden on government budgets"
+                  }
                 ],
                 "correctSentence": "However, implementing free 24/7 service imposes a substantial fiscal burden on government budgets.",
                 "usableIn": "body-paragraph-2"
@@ -262,8 +400,24 @@
                 "type": "template",
                 "template": "This is because _____ makes public transit _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["eliminating fares", "increasing prices", "reducing routes"], "correctAnswer": "eliminating fares"},
-                  {"id": "support1_b2", "options": ["more accessible and attractive compared to driving", "more expensive than cars", "less convenient"], "correctAnswer": "more accessible and attractive compared to driving"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "eliminating fares",
+                      "increasing prices",
+                      "reducing routes"
+                    ],
+                    "correctAnswer": "eliminating fares"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "more accessible and attractive compared to driving",
+                      "more expensive than cars",
+                      "less convenient"
+                    ],
+                    "correctAnswer": "more accessible and attractive compared to driving"
+                  }
                 ],
                 "correctSentence": "This is because eliminating fares makes public transit more accessible and attractive compared to driving.",
                 "usableIn": "body-paragraph-1"
@@ -273,8 +427,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ requires _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["operating buses and trains around the clock", "closing stations early", "reducing service frequency"], "correctAnswer": "operating buses and trains around the clock"},
-                  {"id": "support2_b2", "options": ["substantial taxpayer funding and operational resources", "minimal investment", "volunteer staff"], "correctAnswer": "substantial taxpayer funding and operational resources"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "operating buses and trains around the clock",
+                      "closing stations early",
+                      "reducing service frequency"
+                    ],
+                    "correctAnswer": "operating buses and trains around the clock"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "substantial taxpayer funding and operational resources",
+                      "minimal investment",
+                      "volunteer staff"
+                    ],
+                    "correctAnswer": "substantial taxpayer funding and operational resources"
+                  }
                 ],
                 "correctSentence": "The main reason is that operating buses and trains around the clock requires substantial taxpayer funding and operational resources.",
                 "usableIn": "body-paragraph-2"
@@ -291,9 +461,33 @@
                 "type": "template",
                 "template": "For instance, _____ introduced _____ and saw _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Luxembourg", "Singapore", "Tokyo"], "correctAnswer": "Luxembourg"},
-                  {"id": "example1_b2", "options": ["free nationwide public transport in 2020", "congestion pricing", "road tolls"], "correctAnswer": "free nationwide public transport in 2020"},
-                  {"id": "example1_b3", "options": ["increased ridership and reduced traffic congestion", "decreased usage", "higher pollution"], "correctAnswer": "increased ridership and reduced traffic congestion"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Luxembourg",
+                      "Singapore",
+                      "Tokyo"
+                    ],
+                    "correctAnswer": "Luxembourg"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "free nationwide public transport in 2020",
+                      "congestion pricing",
+                      "road tolls"
+                    ],
+                    "correctAnswer": "free nationwide public transport in 2020"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "increased ridership and reduced traffic congestion",
+                      "decreased usage",
+                      "higher pollution"
+                    ],
+                    "correctAnswer": "increased ridership and reduced traffic congestion"
+                  }
                 ],
                 "correctSentence": "For instance, Luxembourg introduced free nationwide public transport in 2020 and saw increased ridership and reduced traffic congestion.",
                 "usableIn": "body-paragraph-1"
@@ -303,9 +497,33 @@
                 "type": "template",
                 "template": "For example, _____ during _____ can _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["providing round-the-clock service", "reducing service hours", "increasing ticket prices"], "correctAnswer": "providing round-the-clock service"},
-                  {"id": "example2_b2", "options": ["off-peak hours when demand is minimal", "rush hours only", "weekdays only"], "correctAnswer": "off-peak hours when demand is minimal"},
-                  {"id": "example2_b3", "options": ["strain infrastructure capacity and prove economically wasteful", "maximize efficiency", "reduce costs"], "correctAnswer": "strain infrastructure capacity and prove economically wasteful"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "providing round-the-clock service",
+                      "reducing service hours",
+                      "increasing ticket prices"
+                    ],
+                    "correctAnswer": "providing round-the-clock service"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "off-peak hours when demand is minimal",
+                      "rush hours only",
+                      "weekdays only"
+                    ],
+                    "correctAnswer": "off-peak hours when demand is minimal"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "strain infrastructure capacity and prove economically wasteful",
+                      "maximize efficiency",
+                      "reduce costs"
+                    ],
+                    "correctAnswer": "strain infrastructure capacity and prove economically wasteful"
+                  }
                 ],
                 "correctSentence": "For example, providing round-the-clock service during off-peak hours when demand is minimal can strain infrastructure capacity and prove economically wasteful.",
                 "usableIn": "body-paragraph-2"
@@ -322,8 +540,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["free public transport can help reduce congestion", "this solution is perfect", "traffic is impossible to solve"], "correctAnswer": "free public transport can help reduce congestion"},
-                  {"id": "conclusion1_b2", "options": ["it should be combined with other measures for optimal results", "it is the only solution needed", "it will never work"], "correctAnswer": "it should be combined with other measures for optimal results"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "free public transport can help reduce congestion",
+                      "this solution is perfect",
+                      "traffic is impossible to solve"
+                    ],
+                    "correctAnswer": "free public transport can help reduce congestion"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "it should be combined with other measures for optimal results",
+                      "it is the only solution needed",
+                      "it will never work"
+                    ],
+                    "correctAnswer": "it should be combined with other measures for optimal results"
+                  }
                 ],
                 "correctSentence": "In conclusion, while free public transport can help reduce congestion, I believe it should be combined with other measures for optimal results.",
                 "usableIn": "conclusion"
@@ -370,12 +604,46 @@
           }
         ],
         "usefulTransitions": {
-          "stating_opinion": ["I partly agree that", "I strongly believe that", "From my perspective", "In my view"],
-          "giving_reasons": ["The primary reason is", "One major advantage is", "The main issue is", "First and foremost"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition", "Another point to consider"],
-          "giving_examples": ["For instance", "For example", "Luxembourg demonstrates", "Tallinn illustrates", "A notable case is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This leads to"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this", "Conversely"]
+          "stating_opinion": [
+            "I partly agree that",
+            "I strongly believe that",
+            "From my perspective",
+            "In my view"
+          ],
+          "giving_reasons": [
+            "The primary reason is",
+            "One major advantage is",
+            "The main issue is",
+            "First and foremost"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Another point to consider"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Luxembourg demonstrates",
+            "Tallinn illustrates",
+            "A notable case is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This leads to"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Despite this",
+            "Conversely"
+          ]
         }
       }
     },

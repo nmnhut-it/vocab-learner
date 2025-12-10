@@ -79,105 +79,155 @@
             "word": "conformity",
             "pronunciation": "/kənˈfɔːməti/",
             "partOfSpeech": "noun",
-            "definition": "Behavior in accordance with socially accepted standards",
+            "definition": "Behavior in accordance with socially accepted standards.",
             "example": "Peer pressure often leads to conformity among teenagers.",
-            "synonyms": ["compliance", "obedience"]
+            "synonyms": [
+              "compliance",
+              "obedience"
+            ]
           },
           {
             "word": "susceptible",
             "pronunciation": "/səˈseptəbl/",
             "partOfSpeech": "adjective",
-            "definition": "Likely to be influenced or harmed by something",
+            "definition": "Likely to be influenced or harmed by something.",
             "example": "Adolescents are particularly susceptible to peer influence.",
-            "synonyms": ["vulnerable", "prone"]
+            "synonyms": [
+              "vulnerable",
+              "prone"
+            ]
           },
           {
             "word": "detrimental",
             "pronunciation": "/ˌdetrɪˈmentl/",
             "partOfSpeech": "adjective",
-            "definition": "Causing harm or damage",
+            "definition": "Causing harm or damage.",
             "example": "Negative peer pressure can be detrimental to academic performance.",
-            "synonyms": ["harmful", "damaging"]
+            "synonyms": [
+              "harmful",
+              "damaging"
+            ]
           },
           {
             "word": "motivation",
             "pronunciation": "/ˌməʊtɪˈveɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The reason or drive behind actions",
+            "definition": "The reason or drive behind actions.",
             "example": "Positive peer influence can provide motivation for self-improvement.",
-            "synonyms": ["incentive", "encouragement"]
+            "synonyms": [
+              "incentive",
+              "encouragement"
+            ]
           },
           {
             "word": "autonomy",
             "pronunciation": "/ɔːˈtɒnəmi/",
             "partOfSpeech": "noun",
-            "definition": "Independence in thought and action",
+            "definition": "Independence in thought and action.",
             "example": "Excessive peer pressure undermines individual autonomy.",
-            "synonyms": ["independence", "self-governance"]
+            "synonyms": [
+              "independence",
+              "self-governance"
+            ]
           },
           {
             "word": "undermine",
             "pronunciation": "/ˌʌndəˈmaɪn/",
             "partOfSpeech": "verb",
-            "definition": "To weaken or damage something gradually",
+            "definition": "To weaken or damage something gradually.",
             "example": "Peer pressure can undermine a young person's self-confidence.",
-            "synonyms": ["weaken", "sabotage", "erode"]
+            "synonyms": [
+              "weaken",
+              "sabotage",
+              "erode"
+            ]
           },
           {
             "word": "foster",
             "pronunciation": "/ˈfɒstə/",
             "partOfSpeech": "verb",
-            "definition": "To encourage the development of something",
+            "definition": "To encourage the development of something.",
             "example": "Peer groups can foster positive habits and social skills.",
-            "synonyms": ["promote", "encourage", "cultivate"]
+            "synonyms": [
+              "promote",
+              "encourage",
+              "cultivate"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance or size",
+            "definition": "Of considerable importance or size.",
             "example": "Peer pressure has a substantial impact on teenage decision-making.",
-            "synonyms": ["significant", "considerable"]
+            "synonyms": [
+              "significant",
+              "considerable"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "social acceptance",
-            "definition": "Being approved and welcomed by a social group",
+            "definition": "Being approved and welcomed by a social group.",
             "example": "Teenagers often conform to gain social acceptance from their peers."
           },
           {
             "phrase": "risky behavior",
-            "definition": "Actions that could lead to negative consequences",
+            "definition": "Actions that could lead to negative consequences.",
             "example": "Peer pressure frequently leads young people to engage in risky behavior."
           },
           {
             "phrase": "self-esteem",
-            "definition": "Confidence in one's own worth and abilities",
+            "definition": "Confidence in one's own worth and abilities.",
             "example": "Negative peer influence can damage self-esteem during formative years."
           },
           {
             "phrase": "role model",
-            "definition": "A person whose behavior is imitated by others",
+            "definition": "A person whose behavior is imitated by others.",
             "example": "Peers can serve as positive role models for academic achievement."
           },
           {
             "phrase": "formative years",
-            "definition": "The period during which character and abilities develop",
+            "definition": "The period during which character and abilities develop.",
             "example": "Peer influence is particularly strong during formative years of adolescence."
           },
           {
             "phrase": "individual judgment",
-            "definition": "Personal decision-making ability",
+            "definition": "Personal decision-making ability.",
             "example": "Strong peer pressure can override individual judgment in critical situations."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is considerable debate about", "While some argue that", "It is often claimed that"],
-          "contrasting": ["On the one hand", "On the other hand", "However", "Conversely"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "There is considerable debate about",
+            "While some argue that",
+            "It is often claimed that"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "However",
+            "Conversely"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -200,9 +250,33 @@
                 "type": "template",
                 "template": "While _____ can bring _____, I believe _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["peer pressure", "social media", "education"], "correctAnswer": "peer pressure"},
-                  {"id": "thesis1_b2", "options": ["some positive benefits", "no advantages", "only harm"], "correctAnswer": "some positive benefits"},
-                  {"id": "thesis1_b3", "options": ["the disadvantages are more significant", "it is always good", "we should ignore it"], "correctAnswer": "the disadvantages are more significant"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "peer pressure",
+                      "social media",
+                      "education"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "some positive benefits",
+                      "no advantages",
+                      "only harm"
+                    ],
+                    "correctAnswer": "some positive benefits"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "the disadvantages are more significant",
+                      "it is always good",
+                      "we should ignore it"
+                    ],
+                    "correctAnswer": "the disadvantages are more significant"
+                  }
                 ],
                 "correctSentence": "While peer pressure can bring some positive benefits, I believe the disadvantages are more significant.",
                 "usableIn": "introduction"
@@ -212,9 +286,33 @@
                 "type": "template",
                 "template": "Although _____ has certain advantages, _____ ultimately _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["peer influence", "technology", "money"], "correctAnswer": "peer influence"},
-                  {"id": "thesis2_b2", "options": ["its negative effects", "its benefits", "social media"], "correctAnswer": "its negative effects"},
-                  {"id": "thesis2_b3", "options": ["outweigh the benefits", "are minimal", "don't matter"], "correctAnswer": "outweigh the benefits"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "peer influence",
+                      "technology",
+                      "money"
+                    ],
+                    "correctAnswer": "peer influence"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "its negative effects",
+                      "its benefits",
+                      "social media"
+                    ],
+                    "correctAnswer": "its negative effects"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "outweigh the benefits",
+                      "are minimal",
+                      "don't matter"
+                    ],
+                    "correctAnswer": "outweigh the benefits"
+                  }
                 ],
                 "correctSentence": "Although peer influence has certain advantages, its negative effects ultimately outweigh the benefits.",
                 "usableIn": "introduction"
@@ -224,8 +322,24 @@
                 "type": "template",
                 "template": "This essay will examine _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["both the positive and negative aspects of peer pressure", "only disadvantages", "social media effects"], "correctAnswer": "both the positive and negative aspects of peer pressure"},
-                  {"id": "thesis3_b2", "options": ["the drawbacks are more substantial", "everything is positive", "we cannot decide"], "correctAnswer": "the drawbacks are more substantial"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "both the positive and negative aspects of peer pressure",
+                      "only disadvantages",
+                      "social media effects"
+                    ],
+                    "correctAnswer": "both the positive and negative aspects of peer pressure"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "the drawbacks are more substantial",
+                      "everything is positive",
+                      "we cannot decide"
+                    ],
+                    "correctAnswer": "the drawbacks are more substantial"
+                  }
                 ],
                 "correctSentence": "This essay will examine both the positive and negative aspects of peer pressure before concluding that the drawbacks are more substantial.",
                 "usableIn": "introduction"
@@ -235,8 +349,24 @@
                 "type": "template",
                 "template": "Despite _____, I would argue that _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["some potential benefits", "no advantages", "complete safety"], "correctAnswer": "some potential benefits"},
-                  {"id": "thesis4_b2", "options": ["the negative consequences of peer pressure are more significant", "peer pressure is always good", "we should encourage it"], "correctAnswer": "the negative consequences of peer pressure are more significant"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "some potential benefits",
+                      "no advantages",
+                      "complete safety"
+                    ],
+                    "correctAnswer": "some potential benefits"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "the negative consequences of peer pressure are more significant",
+                      "peer pressure is always good",
+                      "we should encourage it"
+                    ],
+                    "correctAnswer": "the negative consequences of peer pressure are more significant"
+                  }
                 ],
                 "correctSentence": "Despite some potential benefits, I would argue that the negative consequences of peer pressure are more significant.",
                 "usableIn": "introduction"
@@ -246,8 +376,24 @@
                 "type": "template",
                 "template": "In my view, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["the disadvantages of peer influence outweigh its advantages", "peer pressure is neutral", "everything is beneficial"], "correctAnswer": "the disadvantages of peer influence outweigh its advantages"},
-                  {"id": "thesis5_b2", "options": ["it can lead to harmful behaviors that damage young people's futures", "it helps everyone", "schools encourage it"], "correctAnswer": "it can lead to harmful behaviors that damage young people's futures"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "the disadvantages of peer influence outweigh its advantages",
+                      "peer pressure is neutral",
+                      "everything is beneficial"
+                    ],
+                    "correctAnswer": "the disadvantages of peer influence outweigh its advantages"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "it can lead to harmful behaviors that damage young people's futures",
+                      "it helps everyone",
+                      "schools encourage it"
+                    ],
+                    "correctAnswer": "it can lead to harmful behaviors that damage young people's futures"
+                  }
                 ],
                 "correctSentence": "In my view, the disadvantages of peer influence outweigh its advantages because it can lead to harmful behaviors that damage young people's futures.",
                 "usableIn": "introduction"
@@ -264,8 +410,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ can have _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["peer pressure", "technology", "money"], "correctAnswer": "peer pressure"},
-                  {"id": "topic1_b2", "options": ["certain positive effects on young people", "no benefits", "negative results only"], "correctAnswer": "certain positive effects on young people"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "peer pressure",
+                      "technology",
+                      "money"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "certain positive effects on young people",
+                      "no benefits",
+                      "negative results only"
+                    ],
+                    "correctAnswer": "certain positive effects on young people"
+                  }
                 ],
                 "correctSentence": "On the one hand, peer pressure can have certain positive effects on young people.",
                 "usableIn": "body-paragraph-1"
@@ -275,8 +437,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ presents _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["peer influence", "education", "technology"], "correctAnswer": "peer influence"},
-                  {"id": "topic2_b2", "options": ["substantial risks to adolescent development", "only advantages", "no problems"], "correctAnswer": "substantial risks to adolescent development"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "peer influence",
+                      "education",
+                      "technology"
+                    ],
+                    "correctAnswer": "peer influence"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "substantial risks to adolescent development",
+                      "only advantages",
+                      "no problems"
+                    ],
+                    "correctAnswer": "substantial risks to adolescent development"
+                  }
                 ],
                 "correctSentence": "On the other hand, peer influence presents substantial risks to adolescent development.",
                 "usableIn": "body-paragraph-2"
@@ -286,8 +464,24 @@
                 "type": "template",
                 "template": "One advantage of _____ is that it _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["peer pressure", "social isolation", "avoiding friends"], "correctAnswer": "peer pressure"},
-                  {"id": "topic3_b2", "options": ["can motivate positive behavioral changes", "always causes harm", "has no effect"], "correctAnswer": "can motivate positive behavioral changes"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "peer pressure",
+                      "social isolation",
+                      "avoiding friends"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "can motivate positive behavioral changes",
+                      "always causes harm",
+                      "has no effect"
+                    ],
+                    "correctAnswer": "can motivate positive behavioral changes"
+                  }
                 ],
                 "correctSentence": "One advantage of peer pressure is that it can motivate positive behavioral changes.",
                 "usableIn": "body-paragraph-1"
@@ -297,8 +491,24 @@
                 "type": "template",
                 "template": "A significant drawback is that _____ often leads to _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["peer pressure", "studying", "helping others"], "correctAnswer": "peer pressure"},
-                  {"id": "topic4_b2", "options": ["risky and harmful behaviors", "better grades", "improved health"], "correctAnswer": "risky and harmful behaviors"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "peer pressure",
+                      "studying",
+                      "helping others"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "risky and harmful behaviors",
+                      "better grades",
+                      "improved health"
+                    ],
+                    "correctAnswer": "risky and harmful behaviors"
+                  }
                 ],
                 "correctSentence": "A significant drawback is that peer pressure often leads to risky and harmful behaviors.",
                 "usableIn": "body-paragraph-2"
@@ -308,8 +518,24 @@
                 "type": "template",
                 "template": "Proponents argue that _____ can encourage _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["positive peer influence", "isolation", "avoiding friends"], "correctAnswer": "positive peer influence"},
-                  {"id": "topic5_b2", "options": ["academic achievement and healthy habits", "laziness", "dangerous activities"], "correctAnswer": "academic achievement and healthy habits"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "positive peer influence",
+                      "isolation",
+                      "avoiding friends"
+                    ],
+                    "correctAnswer": "positive peer influence"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "academic achievement and healthy habits",
+                      "laziness",
+                      "dangerous activities"
+                    ],
+                    "correctAnswer": "academic achievement and healthy habits"
+                  }
                 ],
                 "correctSentence": "Proponents argue that positive peer influence can encourage academic achievement and healthy habits.",
                 "usableIn": "body-paragraph-1"
@@ -319,8 +545,24 @@
                 "type": "template",
                 "template": "Critics contend that _____ undermines _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["negative peer pressure", "good education", "helpful advice"], "correctAnswer": "negative peer pressure"},
-                  {"id": "topic6_b2", "options": ["individual autonomy and critical thinking", "social skills", "friendship bonds"], "correctAnswer": "individual autonomy and critical thinking"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "negative peer pressure",
+                      "good education",
+                      "helpful advice"
+                    ],
+                    "correctAnswer": "negative peer pressure"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "individual autonomy and critical thinking",
+                      "social skills",
+                      "friendship bonds"
+                    ],
+                    "correctAnswer": "individual autonomy and critical thinking"
+                  }
                 ],
                 "correctSentence": "Critics contend that negative peer pressure undermines individual autonomy and critical thinking.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +572,24 @@
                 "type": "template",
                 "template": "The primary benefit of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["peer influence", "isolation", "loneliness"], "correctAnswer": "peer influence"},
-                  {"id": "topic7_b2", "options": ["its ability to promote social skills and cooperation", "causing problems", "creating conflicts"], "correctAnswer": "its ability to promote social skills and cooperation"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "peer influence",
+                      "isolation",
+                      "loneliness"
+                    ],
+                    "correctAnswer": "peer influence"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "its ability to promote social skills and cooperation",
+                      "causing problems",
+                      "creating conflicts"
+                    ],
+                    "correctAnswer": "its ability to promote social skills and cooperation"
+                  }
                 ],
                 "correctSentence": "The primary benefit of peer influence is its ability to promote social skills and cooperation.",
                 "usableIn": "body-paragraph-1"
@@ -341,8 +599,24 @@
                 "type": "template",
                 "template": "A major concern is that _____ can _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["peer pressure", "good advice", "parental guidance"], "correctAnswer": "peer pressure"},
-                  {"id": "topic8_b2", "options": ["damage self-esteem and mental health", "improve confidence", "enhance wellbeing"], "correctAnswer": "damage self-esteem and mental health"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "peer pressure",
+                      "good advice",
+                      "parental guidance"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "damage self-esteem and mental health",
+                      "improve confidence",
+                      "enhance wellbeing"
+                    ],
+                    "correctAnswer": "damage self-esteem and mental health"
+                  }
                 ],
                 "correctSentence": "A major concern is that peer pressure can damage self-esteem and mental health.",
                 "usableIn": "body-paragraph-2"
@@ -359,8 +633,24 @@
                 "type": "template",
                 "template": "This is because _____ encourages young people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["peer influence", "isolation", "punishment"], "correctAnswer": "peer influence"},
-                  {"id": "support1_b2", "options": ["adopt beneficial behaviors to gain social acceptance", "avoid all friends", "stop studying"], "correctAnswer": "adopt beneficial behaviors to gain social acceptance"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "peer influence",
+                      "isolation",
+                      "punishment"
+                    ],
+                    "correctAnswer": "peer influence"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "adopt beneficial behaviors to gain social acceptance",
+                      "avoid all friends",
+                      "stop studying"
+                    ],
+                    "correctAnswer": "adopt beneficial behaviors to gain social acceptance"
+                  }
                 ],
                 "correctSentence": "This is because peer influence encourages young people to adopt beneficial behaviors to gain social acceptance.",
                 "usableIn": "body-paragraph-1"
@@ -370,8 +660,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ are particularly susceptible to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["adolescents", "adults", "teachers"], "correctAnswer": "adolescents"},
-                  {"id": "support2_b2", "options": ["external influence during their formative years", "no influence at all", "only positive effects"], "correctAnswer": "external influence during their formative years"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "adolescents",
+                      "adults",
+                      "teachers"
+                    ],
+                    "correctAnswer": "adolescents"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "external influence during their formative years",
+                      "no influence at all",
+                      "only positive effects"
+                    ],
+                    "correctAnswer": "external influence during their formative years"
+                  }
                 ],
                 "correctSentence": "The main reason is that adolescents are particularly susceptible to external influence during their formative years.",
                 "usableIn": "body-paragraph-2"
@@ -381,9 +687,33 @@
                 "type": "template",
                 "template": "_____ can motivate teenagers to _____ in order to _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Positive peer pressure", "Isolation", "Punishment"], "correctAnswer": "Positive peer pressure"},
-                  {"id": "support3_b2", "options": ["improve their academic performance", "skip classes", "fail exams"], "correctAnswer": "improve their academic performance"},
-                  {"id": "support3_b3", "options": ["match their high-achieving friends", "disappoint teachers", "avoid school"], "correctAnswer": "match their high-achieving friends"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Positive peer pressure",
+                      "Isolation",
+                      "Punishment"
+                    ],
+                    "correctAnswer": "Positive peer pressure"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "improve their academic performance",
+                      "skip classes",
+                      "fail exams"
+                    ],
+                    "correctAnswer": "improve their academic performance"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "match their high-achieving friends",
+                      "disappoint teachers",
+                      "avoid school"
+                    ],
+                    "correctAnswer": "match their high-achieving friends"
+                  }
                 ],
                 "correctSentence": "Positive peer pressure can motivate teenagers to improve their academic performance in order to match their high-achieving friends.",
                 "usableIn": "body-paragraph-1"
@@ -393,9 +723,33 @@
                 "type": "template",
                 "template": "_____ often results in _____, which can have _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Negative peer influence", "Good advice", "Parental support"], "correctAnswer": "Negative peer influence"},
-                  {"id": "support4_b2", "options": ["engagement in dangerous activities", "better grades", "improved health"], "correctAnswer": "engagement in dangerous activities"},
-                  {"id": "support4_b3", "options": ["serious long-term consequences", "positive outcomes", "no impact"], "correctAnswer": "serious long-term consequences"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Negative peer influence",
+                      "Good advice",
+                      "Parental support"
+                    ],
+                    "correctAnswer": "Negative peer influence"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "engagement in dangerous activities",
+                      "better grades",
+                      "improved health"
+                    ],
+                    "correctAnswer": "engagement in dangerous activities"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "serious long-term consequences",
+                      "positive outcomes",
+                      "no impact"
+                    ],
+                    "correctAnswer": "serious long-term consequences"
+                  }
                 ],
                 "correctSentence": "Negative peer influence often results in engagement in dangerous activities, which can have serious long-term consequences.",
                 "usableIn": "body-paragraph-2"
@@ -405,8 +759,24 @@
                 "type": "template",
                 "template": "By _____, peers can help each other _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["encouraging positive habits", "promoting laziness", "avoiding responsibility"], "correctAnswer": "encouraging positive habits"},
-                  {"id": "support5_b2", "options": ["develop important life skills", "waste time", "fail courses"], "correctAnswer": "develop important life skills"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "encouraging positive habits",
+                      "promoting laziness",
+                      "avoiding responsibility"
+                    ],
+                    "correctAnswer": "encouraging positive habits"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "develop important life skills",
+                      "waste time",
+                      "fail courses"
+                    ],
+                    "correctAnswer": "develop important life skills"
+                  }
                 ],
                 "correctSentence": "By encouraging positive habits, peers can help each other develop important life skills.",
                 "usableIn": "body-paragraph-1"
@@ -416,9 +786,33 @@
                 "type": "template",
                 "template": "_____ creates pressure that _____ at the expense of _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Conformity", "Independence", "Wisdom"], "correctAnswer": "Conformity"},
-                  {"id": "support6_b2", "options": ["prioritizes social acceptance", "encourages uniqueness", "supports individuality"], "correctAnswer": "prioritizes social acceptance"},
-                  {"id": "support6_b3", "options": ["individual judgment and personal values", "group harmony", "social skills"], "correctAnswer": "individual judgment and personal values"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Conformity",
+                      "Independence",
+                      "Wisdom"
+                    ],
+                    "correctAnswer": "Conformity"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "prioritizes social acceptance",
+                      "encourages uniqueness",
+                      "supports individuality"
+                    ],
+                    "correctAnswer": "prioritizes social acceptance"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "individual judgment and personal values",
+                      "group harmony",
+                      "social skills"
+                    ],
+                    "correctAnswer": "individual judgment and personal values"
+                  }
                 ],
                 "correctSentence": "Conformity creates pressure that prioritizes social acceptance at the expense of individual judgment and personal values.",
                 "usableIn": "body-paragraph-2"
@@ -428,8 +822,24 @@
                 "type": "template",
                 "template": "Peer groups can foster _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["healthy competition", "laziness", "failure"], "correctAnswer": "healthy competition"},
-                  {"id": "support7_b2", "options": ["creating an environment where achievement is valued", "discouraging effort", "promoting mediocrity"], "correctAnswer": "creating an environment where achievement is valued"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "healthy competition",
+                      "laziness",
+                      "failure"
+                    ],
+                    "correctAnswer": "healthy competition"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "creating an environment where achievement is valued",
+                      "discouraging effort",
+                      "promoting mediocrity"
+                    ],
+                    "correctAnswer": "creating an environment where achievement is valued"
+                  }
                 ],
                 "correctSentence": "Peer groups can foster healthy competition by creating an environment where achievement is valued.",
                 "usableIn": "body-paragraph-1"
@@ -439,9 +849,33 @@
                 "type": "template",
                 "template": "Young people facing _____ may _____ even when _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["strong peer pressure", "good advice", "parental guidance"], "correctAnswer": "strong peer pressure"},
-                  {"id": "support8_b2", "options": ["make poor decisions", "think carefully", "seek help"], "correctAnswer": "make poor decisions"},
-                  {"id": "support8_b3", "options": ["they know the behavior is harmful", "they feel confident", "adults support them"], "correctAnswer": "they know the behavior is harmful"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "strong peer pressure",
+                      "good advice",
+                      "parental guidance"
+                    ],
+                    "correctAnswer": "strong peer pressure"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "make poor decisions",
+                      "think carefully",
+                      "seek help"
+                    ],
+                    "correctAnswer": "make poor decisions"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "they know the behavior is harmful",
+                      "they feel confident",
+                      "adults support them"
+                    ],
+                    "correctAnswer": "they know the behavior is harmful"
+                  }
                 ],
                 "correctSentence": "Young people facing strong peer pressure may make poor decisions even when they know the behavior is harmful.",
                 "usableIn": "body-paragraph-2"
@@ -451,9 +885,33 @@
                 "type": "template",
                 "template": "_____ provides _____ for _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Peer support", "Isolation", "Punishment"], "correctAnswer": "Peer support"},
-                  {"id": "support9_b2", "options": ["motivation and encouragement", "no benefits", "obstacles"], "correctAnswer": "motivation and encouragement"},
-                  {"id": "support9_b3", "options": ["overcoming challenges and building confidence", "failing tasks", "avoiding responsibility"], "correctAnswer": "overcoming challenges and building confidence"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Peer support",
+                      "Isolation",
+                      "Punishment"
+                    ],
+                    "correctAnswer": "Peer support"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "motivation and encouragement",
+                      "no benefits",
+                      "obstacles"
+                    ],
+                    "correctAnswer": "motivation and encouragement"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "overcoming challenges and building confidence",
+                      "failing tasks",
+                      "avoiding responsibility"
+                    ],
+                    "correctAnswer": "overcoming challenges and building confidence"
+                  }
                 ],
                 "correctSentence": "Peer support provides motivation and encouragement for overcoming challenges and building confidence.",
                 "usableIn": "body-paragraph-1"
@@ -463,9 +921,33 @@
                 "type": "template",
                 "template": "When _____, adolescents _____ their own _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["conforming to peer expectations", "thinking independently", "seeking guidance"], "correctAnswer": "conforming to peer expectations"},
-                  {"id": "support10_b2", "options": ["may compromise", "always improve", "never change"], "correctAnswer": "may compromise"},
-                  {"id": "support10_b3", "options": ["beliefs and moral standards", "social skills", "friendships"], "correctAnswer": "beliefs and moral standards"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "conforming to peer expectations",
+                      "thinking independently",
+                      "seeking guidance"
+                    ],
+                    "correctAnswer": "conforming to peer expectations"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "may compromise",
+                      "always improve",
+                      "never change"
+                    ],
+                    "correctAnswer": "may compromise"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "beliefs and moral standards",
+                      "social skills",
+                      "friendships"
+                    ],
+                    "correctAnswer": "beliefs and moral standards"
+                  }
                 ],
                 "correctSentence": "When conforming to peer expectations, adolescents may compromise their own beliefs and moral standards.",
                 "usableIn": "body-paragraph-2"
@@ -475,8 +957,24 @@
                 "type": "template",
                 "template": "As a result, _____ can lead to _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["positive peer influence", "isolation", "punishment"], "correctAnswer": "positive peer influence"},
-                  {"id": "support11_b2", "options": ["improved social skills and teamwork abilities", "poor behavior", "academic failure"], "correctAnswer": "improved social skills and teamwork abilities"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "positive peer influence",
+                      "isolation",
+                      "punishment"
+                    ],
+                    "correctAnswer": "positive peer influence"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "improved social skills and teamwork abilities",
+                      "poor behavior",
+                      "academic failure"
+                    ],
+                    "correctAnswer": "improved social skills and teamwork abilities"
+                  }
                 ],
                 "correctSentence": "As a result, positive peer influence can lead to improved social skills and teamwork abilities.",
                 "usableIn": "body-paragraph-1"
@@ -486,8 +984,24 @@
                 "type": "template",
                 "template": "Consequently, _____ becomes _____ in peer-dominated situations.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["independent decision-making", "social acceptance", "group harmony"], "correctAnswer": "independent decision-making"},
-                  {"id": "support12_b2", "options": ["increasingly difficult", "very easy", "more common"], "correctAnswer": "increasingly difficult"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "independent decision-making",
+                      "social acceptance",
+                      "group harmony"
+                    ],
+                    "correctAnswer": "independent decision-making"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "increasingly difficult",
+                      "very easy",
+                      "more common"
+                    ],
+                    "correctAnswer": "increasingly difficult"
+                  }
                 ],
                 "correctSentence": "Consequently, independent decision-making becomes increasingly difficult in peer-dominated situations.",
                 "usableIn": "body-paragraph-2"
@@ -504,9 +1018,33 @@
                 "type": "template",
                 "template": "For instance, _____ may _____ when their friends _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["teenagers", "adults", "teachers"], "correctAnswer": "teenagers"},
-                  {"id": "example1_b2", "options": ["become more interested in sports or academics", "lose interest in everything", "refuse to try"], "correctAnswer": "become more interested in sports or academics"},
-                  {"id": "example1_b3", "options": ["demonstrate enthusiasm for these activities", "discourage participation", "show no interest"], "correctAnswer": "demonstrate enthusiasm for these activities"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "teenagers",
+                      "adults",
+                      "teachers"
+                    ],
+                    "correctAnswer": "teenagers"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "become more interested in sports or academics",
+                      "lose interest in everything",
+                      "refuse to try"
+                    ],
+                    "correctAnswer": "become more interested in sports or academics"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "demonstrate enthusiasm for these activities",
+                      "discourage participation",
+                      "show no interest"
+                    ],
+                    "correctAnswer": "demonstrate enthusiasm for these activities"
+                  }
                 ],
                 "correctSentence": "For instance, teenagers may become more interested in sports or academics when their friends demonstrate enthusiasm for these activities.",
                 "usableIn": "body-paragraph-1"
@@ -516,9 +1054,33 @@
                 "type": "template",
                 "template": "For example, _____ such as _____ are often driven by _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["risky behaviors", "good habits", "study skills"], "correctAnswer": "risky behaviors"},
-                  {"id": "example2_b2", "options": ["underage drinking or drug experimentation", "reading books", "doing homework"], "correctAnswer": "underage drinking or drug experimentation"},
-                  {"id": "example2_b3", "options": ["the desire to fit in with peers", "parental encouragement", "personal goals"], "correctAnswer": "the desire to fit in with peers"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "risky behaviors",
+                      "good habits",
+                      "study skills"
+                    ],
+                    "correctAnswer": "risky behaviors"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "underage drinking or drug experimentation",
+                      "reading books",
+                      "doing homework"
+                    ],
+                    "correctAnswer": "underage drinking or drug experimentation"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "the desire to fit in with peers",
+                      "parental encouragement",
+                      "personal goals"
+                    ],
+                    "correctAnswer": "the desire to fit in with peers"
+                  }
                 ],
                 "correctSentence": "For example, risky behaviors such as underage drinking or drug experimentation are often driven by the desire to fit in with peers.",
                 "usableIn": "body-paragraph-2"
@@ -528,9 +1090,33 @@
                 "type": "template",
                 "template": "Specifically, _____ who are surrounded by _____ tend to _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["students", "workers", "parents"], "correctAnswer": "students"},
-                  {"id": "example3_b2", "options": ["academically motivated peers", "unmotivated friends", "no one"], "correctAnswer": "academically motivated peers"},
-                  {"id": "example3_b3", "options": ["achieve higher grades and educational goals", "perform poorly", "drop out"], "correctAnswer": "achieve higher grades and educational goals"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "students",
+                      "workers",
+                      "parents"
+                    ],
+                    "correctAnswer": "students"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "academically motivated peers",
+                      "unmotivated friends",
+                      "no one"
+                    ],
+                    "correctAnswer": "academically motivated peers"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "achieve higher grades and educational goals",
+                      "perform poorly",
+                      "drop out"
+                    ],
+                    "correctAnswer": "achieve higher grades and educational goals"
+                  }
                 ],
                 "correctSentence": "Specifically, students who are surrounded by academically motivated peers tend to achieve higher grades and educational goals.",
                 "usableIn": "body-paragraph-1"
@@ -540,9 +1126,33 @@
                 "type": "template",
                 "template": "Research shows that _____ are more likely to _____ if _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["young people", "adults", "teachers"], "correctAnswer": "young people"},
-                  {"id": "example4_b2", "options": ["engage in smoking or substance abuse", "succeed academically", "help others"], "correctAnswer": "engage in smoking or substance abuse"},
-                  {"id": "example4_b3", "options": ["their peer group normalizes these behaviors", "parents supervise them", "schools educate them"], "correctAnswer": "their peer group normalizes these behaviors"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "young people",
+                      "adults",
+                      "teachers"
+                    ],
+                    "correctAnswer": "young people"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "engage in smoking or substance abuse",
+                      "succeed academically",
+                      "help others"
+                    ],
+                    "correctAnswer": "engage in smoking or substance abuse"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "their peer group normalizes these behaviors",
+                      "parents supervise them",
+                      "schools educate them"
+                    ],
+                    "correctAnswer": "their peer group normalizes these behaviors"
+                  }
                 ],
                 "correctSentence": "Research shows that young people are more likely to engage in smoking or substance abuse if their peer group normalizes these behaviors.",
                 "usableIn": "body-paragraph-2"
@@ -552,9 +1162,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ experienced _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Harvard University", "a local school", "random people"], "correctAnswer": "Harvard University"},
-                  {"id": "example5_b2", "options": ["adolescents with supportive peer groups", "isolated teenagers", "adults"], "correctAnswer": "adolescents with supportive peer groups"},
-                  {"id": "example5_b3", "options": ["higher levels of self-confidence and resilience", "constant failure", "no benefits"], "correctAnswer": "higher levels of self-confidence and resilience"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Harvard University",
+                      "a local school",
+                      "random people"
+                    ],
+                    "correctAnswer": "Harvard University"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "adolescents with supportive peer groups",
+                      "isolated teenagers",
+                      "adults"
+                    ],
+                    "correctAnswer": "adolescents with supportive peer groups"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "higher levels of self-confidence and resilience",
+                      "constant failure",
+                      "no benefits"
+                    ],
+                    "correctAnswer": "higher levels of self-confidence and resilience"
+                  }
                 ],
                 "correctSentence": "A study by Harvard University found that adolescents with supportive peer groups experienced higher levels of self-confidence and resilience.",
                 "usableIn": "body-paragraph-1"
@@ -564,9 +1198,33 @@
                 "type": "template",
                 "template": "In particular, _____ face pressure to _____ which can lead to _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["teenagers", "adults", "teachers"], "correctAnswer": "teenagers"},
-                  {"id": "example6_b2", "options": ["conform to appearance standards or social trends", "be themselves", "ignore others"], "correctAnswer": "conform to appearance standards or social trends"},
-                  {"id": "example6_b3", "options": ["eating disorders or financial problems", "better health", "improved confidence"], "correctAnswer": "eating disorders or financial problems"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "teenagers",
+                      "adults",
+                      "teachers"
+                    ],
+                    "correctAnswer": "teenagers"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "conform to appearance standards or social trends",
+                      "be themselves",
+                      "ignore others"
+                    ],
+                    "correctAnswer": "conform to appearance standards or social trends"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "eating disorders or financial problems",
+                      "better health",
+                      "improved confidence"
+                    ],
+                    "correctAnswer": "eating disorders or financial problems"
+                  }
                 ],
                 "correctSentence": "In particular, teenagers face pressure to conform to appearance standards or social trends which can lead to eating disorders or financial problems.",
                 "usableIn": "body-paragraph-2"
@@ -576,9 +1234,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have benefited from _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["young people", "elderly people", "professionals"], "correctAnswer": "young people"},
-                  {"id": "example7_b2", "options": ["those struggling with motivation", "highly successful individuals", "teachers"], "correctAnswer": "those struggling with motivation"},
-                  {"id": "example7_b3", "options": ["peer encouragement to pursue healthy lifestyles", "isolation", "avoiding friends"], "correctAnswer": "peer encouragement to pursue healthy lifestyles"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "young people",
+                      "elderly people",
+                      "professionals"
+                    ],
+                    "correctAnswer": "young people"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "those struggling with motivation",
+                      "highly successful individuals",
+                      "teachers"
+                    ],
+                    "correctAnswer": "those struggling with motivation"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "peer encouragement to pursue healthy lifestyles",
+                      "isolation",
+                      "avoiding friends"
+                    ],
+                    "correctAnswer": "peer encouragement to pursue healthy lifestyles"
+                  }
                 ],
                 "correctSentence": "Many young people, including those struggling with motivation, have benefited from peer encouragement to pursue healthy lifestyles.",
                 "usableIn": "body-paragraph-1"
@@ -588,9 +1270,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: many adolescents _____ to avoid _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["cyberbullying", "education", "sports"], "correctAnswer": "cyberbullying"},
-                  {"id": "example8_b2", "options": ["participate in online harassment", "help victims", "report problems"], "correctAnswer": "participate in online harassment"},
-                  {"id": "example8_b3", "options": ["social exclusion from their peer group", "making friends", "being popular"], "correctAnswer": "social exclusion from their peer group"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "cyberbullying",
+                      "education",
+                      "sports"
+                    ],
+                    "correctAnswer": "cyberbullying"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "participate in online harassment",
+                      "help victims",
+                      "report problems"
+                    ],
+                    "correctAnswer": "participate in online harassment"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "social exclusion from their peer group",
+                      "making friends",
+                      "being popular"
+                    ],
+                    "correctAnswer": "social exclusion from their peer group"
+                  }
                 ],
                 "correctSentence": "Take cyberbullying as an example: many adolescents participate in online harassment to avoid social exclusion from their peer group.",
                 "usableIn": "body-paragraph-2"
@@ -600,9 +1306,33 @@
                 "type": "template",
                 "template": "According to _____, teenagers who _____ are more likely to _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["recent surveys", "old books", "random opinions"], "correctAnswer": "recent surveys"},
-                  {"id": "example9_b2", "options": ["have positive role models among peers", "avoid all friends", "stay isolated"], "correctAnswer": "have positive role models among peers"},
-                  {"id": "example9_b3", "options": ["develop better decision-making skills", "make poor choices", "fail academically"], "correctAnswer": "develop better decision-making skills"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "recent surveys",
+                      "old books",
+                      "random opinions"
+                    ],
+                    "correctAnswer": "recent surveys"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "have positive role models among peers",
+                      "avoid all friends",
+                      "stay isolated"
+                    ],
+                    "correctAnswer": "have positive role models among peers"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "develop better decision-making skills",
+                      "make poor choices",
+                      "fail academically"
+                    ],
+                    "correctAnswer": "develop better decision-making skills"
+                  }
                 ],
                 "correctSentence": "According to recent surveys, teenagers who have positive role models among peers are more likely to develop better decision-making skills.",
                 "usableIn": "body-paragraph-1"
@@ -612,8 +1342,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ during adolescence can result in _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["constant pressure to conform", "good education", "parental support"], "correctAnswer": "constant pressure to conform"},
-                  {"id": "example10_b2", "options": ["long-term psychological damage and identity issues", "better outcomes", "improved health"], "correctAnswer": "long-term psychological damage and identity issues"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "constant pressure to conform",
+                      "good education",
+                      "parental support"
+                    ],
+                    "correctAnswer": "constant pressure to conform"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "long-term psychological damage and identity issues",
+                      "better outcomes",
+                      "improved health"
+                    ],
+                    "correctAnswer": "long-term psychological damage and identity issues"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that constant pressure to conform during adolescence can result in long-term psychological damage and identity issues.",
                 "usableIn": "body-paragraph-2"
@@ -630,8 +1376,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ sometimes _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["peer influence", "isolation", "punishment"], "correctAnswer": "peer influence"},
-                  {"id": "counter1_b2", "options": ["produces positive outcomes for personal growth", "has no effect", "always causes harm"], "correctAnswer": "produces positive outcomes for personal growth"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "peer influence",
+                      "isolation",
+                      "punishment"
+                    ],
+                    "correctAnswer": "peer influence"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "produces positive outcomes for personal growth",
+                      "has no effect",
+                      "always causes harm"
+                    ],
+                    "correctAnswer": "produces positive outcomes for personal growth"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that peer influence sometimes produces positive outcomes for personal growth.",
                 "usableIn": "body-paragraph-1"
@@ -641,8 +1403,24 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ can _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["peer pressure", "good advice", "education"], "correctAnswer": "peer pressure"},
-                  {"id": "counter2_b2", "options": ["easily spiral into harmful conformity", "always help", "guarantee success"], "correctAnswer": "easily spiral into harmful conformity"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "peer pressure",
+                      "good advice",
+                      "education"
+                    ],
+                    "correctAnswer": "peer pressure"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "easily spiral into harmful conformity",
+                      "always help",
+                      "guarantee success"
+                    ],
+                    "correctAnswer": "easily spiral into harmful conformity"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, peer pressure can easily spiral into harmful conformity.",
                 "usableIn": "body-paragraph-2"
@@ -652,8 +1430,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ benefits only materialize when _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["these positive", "all negative", "random"], "correctAnswer": "these positive"},
-                  {"id": "counter3_b2", "options": ["peer groups actively promote constructive behaviors", "no one cares", "everyone is harmful"], "correctAnswer": "peer groups actively promote constructive behaviors"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "these positive",
+                      "all negative",
+                      "random"
+                    ],
+                    "correctAnswer": "these positive"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "peer groups actively promote constructive behaviors",
+                      "no one cares",
+                      "everyone is harmful"
+                    ],
+                    "correctAnswer": "peer groups actively promote constructive behaviors"
+                  }
                 ],
                 "correctSentence": "Nevertheless, these positive benefits only materialize when peer groups actively promote constructive behaviors.",
                 "usableIn": "body-paragraph-1"
@@ -663,8 +1457,24 @@
                 "type": "template",
                 "template": "Although _____ exists, it _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["some potential for positive peer influence", "no hope", "complete safety"], "correctAnswer": "some potential for positive peer influence"},
-                  {"id": "counter4_b2", "options": ["cannot outweigh the serious risks involved", "guarantees success", "eliminates all problems"], "correctAnswer": "cannot outweigh the serious risks involved"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "some potential for positive peer influence",
+                      "no hope",
+                      "complete safety"
+                    ],
+                    "correctAnswer": "some potential for positive peer influence"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "cannot outweigh the serious risks involved",
+                      "guarantees success",
+                      "eliminates all problems"
+                    ],
+                    "correctAnswer": "cannot outweigh the serious risks involved"
+                  }
                 ],
                 "correctSentence": "Although some potential for positive peer influence exists, it cannot outweigh the serious risks involved.",
                 "usableIn": "body-paragraph-2"
@@ -674,9 +1484,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ requires _____ that _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["positive peer pressure", "negative behavior", "harmful actions"], "correctAnswer": "positive peer pressure"},
-                  {"id": "counter5_b2", "options": ["exceptionally strong peer role models", "no effort", "avoiding responsibility"], "correctAnswer": "exceptionally strong peer role models"},
-                  {"id": "counter5_b3", "options": ["are relatively rare among adolescent groups", "are everywhere", "don't matter"], "correctAnswer": "are relatively rare among adolescent groups"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "positive peer pressure",
+                      "negative behavior",
+                      "harmful actions"
+                    ],
+                    "correctAnswer": "positive peer pressure"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "exceptionally strong peer role models",
+                      "no effort",
+                      "avoiding responsibility"
+                    ],
+                    "correctAnswer": "exceptionally strong peer role models"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "are relatively rare among adolescent groups",
+                      "are everywhere",
+                      "don't matter"
+                    ],
+                    "correctAnswer": "are relatively rare among adolescent groups"
+                  }
                 ],
                 "correctSentence": "Critics point out that positive peer pressure requires exceptionally strong peer role models that are relatively rare among adolescent groups.",
                 "usableIn": "body-paragraph-1"
@@ -693,8 +1527,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["peer pressure can occasionally yield positive results", "everything is harmful", "there are no benefits"], "correctAnswer": "peer pressure can occasionally yield positive results"},
-                  {"id": "conclusion1_b2", "options": ["its disadvantages significantly outweigh these limited advantages", "it is always good", "we should encourage it"], "correctAnswer": "its disadvantages significantly outweigh these limited advantages"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "peer pressure can occasionally yield positive results",
+                      "everything is harmful",
+                      "there are no benefits"
+                    ],
+                    "correctAnswer": "peer pressure can occasionally yield positive results"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "its disadvantages significantly outweigh these limited advantages",
+                      "it is always good",
+                      "we should encourage it"
+                    ],
+                    "correctAnswer": "its disadvantages significantly outweigh these limited advantages"
+                  }
                 ],
                 "correctSentence": "In conclusion, while peer pressure can occasionally yield positive results, I believe its disadvantages significantly outweigh these limited advantages.",
                 "usableIn": "conclusion"
@@ -704,10 +1554,42 @@
                 "type": "template",
                 "template": "Overall, _____ carries _____, whereas _____ presents _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["positive peer influence", "negative pressure", "isolation"], "correctAnswer": "positive peer influence"},
-                  {"id": "conclusion2_b2", "options": ["some potential benefits", "no value", "only harm"], "correctAnswer": "some potential benefits"},
-                  {"id": "conclusion2_b3", "options": ["negative peer pressure", "good advice", "support"], "correctAnswer": "negative peer pressure"},
-                  {"id": "conclusion2_b4", "options": ["far more serious and lasting consequences", "minor issues", "no problems"], "correctAnswer": "far more serious and lasting consequences"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "positive peer influence",
+                      "negative pressure",
+                      "isolation"
+                    ],
+                    "correctAnswer": "positive peer influence"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "some potential benefits",
+                      "no value",
+                      "only harm"
+                    ],
+                    "correctAnswer": "some potential benefits"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "negative peer pressure",
+                      "good advice",
+                      "support"
+                    ],
+                    "correctAnswer": "negative peer pressure"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "far more serious and lasting consequences",
+                      "minor issues",
+                      "no problems"
+                    ],
+                    "correctAnswer": "far more serious and lasting consequences"
+                  }
                 ],
                 "correctSentence": "Overall, positive peer influence carries some potential benefits, whereas negative peer pressure presents far more serious and lasting consequences.",
                 "usableIn": "conclusion"
@@ -717,9 +1599,33 @@
                 "type": "template",
                 "template": "To summarize, _____ are _____ than _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the risks associated with peer pressure", "the benefits", "neutral factors"], "correctAnswer": "the risks associated with peer pressure"},
-                  {"id": "conclusion3_b2", "options": ["more substantial and concerning", "less important", "irrelevant"], "correctAnswer": "more substantial and concerning"},
-                  {"id": "conclusion3_b3", "options": ["its occasional positive effects", "all advantages", "every benefit"], "correctAnswer": "its occasional positive effects"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the risks associated with peer pressure",
+                      "the benefits",
+                      "neutral factors"
+                    ],
+                    "correctAnswer": "the risks associated with peer pressure"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "more substantial and concerning",
+                      "less important",
+                      "irrelevant"
+                    ],
+                    "correctAnswer": "more substantial and concerning"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "its occasional positive effects",
+                      "all advantages",
+                      "every benefit"
+                    ],
+                    "correctAnswer": "its occasional positive effects"
+                  }
                 ],
                 "correctSentence": "To summarize, the risks associated with peer pressure are more substantial and concerning than its occasional positive effects.",
                 "usableIn": "conclusion"
@@ -729,9 +1635,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should _____ to help _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["parents and educators", "teenagers alone", "nobody"], "correctAnswer": "parents and educators"},
-                  {"id": "conclusion4_b2", "options": ["focus on building resilience against negative peer influence", "ignore the problem", "encourage conformity"], "correctAnswer": "focus on building resilience against negative peer influence"},
-                  {"id": "conclusion4_b3", "options": ["young people make independent decisions", "peers control everyone", "eliminate friendships"], "correctAnswer": "young people make independent decisions"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "parents and educators",
+                      "teenagers alone",
+                      "nobody"
+                    ],
+                    "correctAnswer": "parents and educators"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "focus on building resilience against negative peer influence",
+                      "ignore the problem",
+                      "encourage conformity"
+                    ],
+                    "correctAnswer": "focus on building resilience against negative peer influence"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "young people make independent decisions",
+                      "peers control everyone",
+                      "eliminate friendships"
+                    ],
+                    "correctAnswer": "young people make independent decisions"
+                  }
                 ],
                 "correctSentence": "Ultimately, parents and educators should focus on building resilience against negative peer influence to help young people make independent decisions.",
                 "usableIn": "conclusion"
@@ -741,8 +1671,24 @@
                 "type": "template",
                 "template": "On balance, _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["the disadvantages of peer pressure outweigh the advantages", "everything is positive", "there are no concerns"], "correctAnswer": "the disadvantages of peer pressure outweigh the advantages"},
-                  {"id": "conclusion5_b2", "options": ["the potential for harm far exceeds the likelihood of positive outcomes", "peers always help", "conformity is beneficial"], "correctAnswer": "the potential for harm far exceeds the likelihood of positive outcomes"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "the disadvantages of peer pressure outweigh the advantages",
+                      "everything is positive",
+                      "there are no concerns"
+                    ],
+                    "correctAnswer": "the disadvantages of peer pressure outweigh the advantages"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the potential for harm far exceeds the likelihood of positive outcomes",
+                      "peers always help",
+                      "conformity is beneficial"
+                    ],
+                    "correctAnswer": "the potential for harm far exceeds the likelihood of positive outcomes"
+                  }
                 ],
                 "correctSentence": "On balance, the disadvantages of peer pressure outweigh the advantages because the potential for harm far exceeds the likelihood of positive outcomes.",
                 "usableIn": "conclusion"
@@ -795,12 +1741,43 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_advantages": ["On the one hand", "Admittedly", "There are certain benefits", "To some extent"],
-          "presenting_disadvantages": ["On the other hand", "However", "More importantly", "By contrast", "The main concern is"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Take...as an example"],
-          "showing_result": ["As a result", "Consequently", "This leads to", "Therefore"],
-          "emphasizing": ["Most significantly", "More importantly", "Particularly concerning", "Especially"]
+          "presenting_advantages": [
+            "On the one hand",
+            "Admittedly",
+            "There are certain benefits",
+            "To some extent"
+          ],
+          "presenting_disadvantages": [
+            "On the other hand",
+            "However",
+            "More importantly",
+            "By contrast",
+            "The main concern is"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Take...as an example"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "This leads to",
+            "Therefore"
+          ],
+          "emphasizing": [
+            "Most significantly",
+            "More importantly",
+            "Particularly concerning",
+            "Especially"
+          ]
         }
       }
     },

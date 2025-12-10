@@ -85,106 +85,168 @@
             "word": "role models",
             "pronunciation": "/rəʊl ˈmɒdəlz/",
             "partOfSpeech": "noun",
-            "definition": "People whose behavior is imitated by others, especially young people",
+            "definition": "People whose behavior is imitated by others, especially young people.",
             "example": "Many young people look to celebrities as role models for their own lives.",
-            "synonyms": ["examples", "mentors", "inspirations"]
+            "synonyms": [
+              "examples",
+              "mentors",
+              "inspirations"
+            ]
           },
           {
             "word": "superficial",
             "pronunciation": "/ˌsuːpəˈfɪʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Existing or occurring at or on the surface; shallow and not deep or meaningful",
+            "definition": "Existing or occurring at or on the surface; shallow and not deep or meaningful.",
             "example": "Celebrity culture often promotes superficial values like physical appearance over real achievements.",
-            "synonyms": ["shallow", "surface-level", "external"]
+            "synonyms": [
+              "shallow",
+              "surface-level",
+              "external"
+            ]
           },
           {
             "word": "materialism",
             "pronunciation": "/məˈtɪəriəlɪzəm/",
             "partOfSpeech": "noun",
-            "definition": "Excessive regard for material possessions and physical comfort",
+            "definition": "Excessive regard for material possessions and physical comfort.",
             "example": "The constant display of luxury goods by influencers encourages materialism among teenagers.",
-            "synonyms": ["consumerism", "acquisitiveness"]
+            "synonyms": [
+              "consumerism",
+              "acquisitiveness"
+            ]
           },
           {
             "word": "accomplishments",
             "pronunciation": "/əˈkʌmplɪʃmənts/",
             "partOfSpeech": "noun",
-            "definition": "Achievements or successful results through effort and skill",
+            "definition": "Achievements or successful results through effort and skill.",
             "example": "Scientists and doctors gain recognition through their accomplishments rather than appearance.",
-            "synonyms": ["achievements", "attainments", "successes"]
+            "synonyms": [
+              "achievements",
+              "attainments",
+              "successes"
+            ]
           },
           {
             "word": "influence",
             "pronunciation": "/ˈɪnfluəns/",
             "partOfSpeech": "noun/verb",
-            "definition": "The power to affect someone's beliefs or actions",
+            "definition": "The power to affect someone's beliefs or actions.",
             "example": "Social media influencers have tremendous influence over young people's purchasing decisions.",
-            "synonyms": ["impact", "effect", "sway"]
+            "synonyms": [
+              "impact",
+              "effect",
+              "sway"
+            ]
           },
           {
             "word": "aspire",
             "pronunciation": "/əˈspaɪə/",
             "partOfSpeech": "verb",
-            "definition": "To have ambitions to achieve something",
+            "definition": "To have ambitions to achieve something.",
             "example": "Young people should aspire to meaningful careers rather than just fame and wealth.",
-            "synonyms": ["aim", "strive", "pursue"]
+            "synonyms": [
+              "aim",
+              "strive",
+              "pursue"
+            ]
           },
           {
             "word": "prioritize",
             "pronunciation": "/praɪˈɒrɪtaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To designate or treat something as more important than other things",
+            "definition": "To designate or treat something as more important than other things.",
             "example": "Celebrity culture encourages people to prioritize appearance over substance.",
-            "synonyms": ["emphasize", "focus on", "value"]
+            "synonyms": [
+              "emphasize",
+              "focus on",
+              "value"
+            ]
           },
           {
             "word": "distorted",
             "pronunciation": "/dɪˈstɔːtɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Pulled or twisted out of shape; not accurately representing reality",
+            "definition": "Pulled or twisted out of shape; not accurately representing reality.",
             "example": "Reality TV shows present a distorted view of success and happiness.",
-            "synonyms": ["twisted", "warped", "misrepresented"]
+            "synonyms": [
+              "twisted",
+              "warped",
+              "misrepresented"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "celebrity culture",
-            "definition": "Society's fascination with and emphasis on famous people",
+            "definition": "Society's fascination with and emphasis on famous people.",
             "example": "Celebrity culture has intensified with the rise of social media platforms."
           },
           {
             "phrase": "reality TV stars",
-            "definition": "People who become famous through reality television programs",
+            "definition": "People who become famous through reality television programs.",
             "example": "Many reality TV stars are famous for drama and lifestyle rather than talent or achievement."
           },
           {
             "phrase": "social media influencers",
-            "definition": "People with large online followings who affect others' opinions and behaviors",
+            "definition": "People with large online followings who affect others' opinions and behaviors.",
             "example": "Social media influencers often promote products and lifestyles focused on appearance and consumption."
           },
           {
             "phrase": "instant fame",
-            "definition": "Becoming famous very quickly without long-term effort",
+            "definition": "Becoming famous very quickly without long-term effort.",
             "example": "The internet has created opportunities for instant fame without substantial accomplishment."
           },
           {
             "phrase": "superficial values",
-            "definition": "Shallow beliefs focused on external appearance and material wealth",
+            "definition": "Shallow beliefs focused on external appearance and material wealth.",
             "example": "Constantly seeing luxury lifestyles online can promote superficial values among youth."
           },
           {
             "phrase": "worthy achievements",
-            "definition": "Meaningful accomplishments that contribute to society",
+            "definition": "Meaningful accomplishments that contribute to society.",
             "example": "Medical breakthroughs and scientific discoveries are worthy achievements that deserve recognition."
           }
         ],
         "linkingPhrases": {
-          "stating_opinion": ["I strongly agree that", "I partially agree with this view because", "I largely disagree with this statement"],
-          "giving_reasons": ["Firstly", "The main reason is", "One significant factor is", "Another key point is"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition", "What is more"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "A clear example is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "stating_opinion": [
+            "I strongly agree that",
+            "I partially agree with this view because",
+            "I largely disagree with this statement"
+          ],
+          "giving_reasons": [
+            "Firstly",
+            "The main reason is",
+            "One significant factor is",
+            "Another key point is"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "What is more"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "A clear example is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -207,9 +269,33 @@
                 "type": "template",
                 "template": "I strongly agree that _____ are celebrated more for _____ than for _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["modern celebrities", "all famous people", "social media users"], "correctAnswer": "modern celebrities"},
-                  {"id": "thesis1_b2", "options": ["their superficial qualities and material wealth", "their talent", "their education"], "correctAnswer": "their superficial qualities and material wealth"},
-                  {"id": "thesis1_b3", "options": ["genuine accomplishments and contributions to society", "their appearance", "their popularity"], "correctAnswer": "genuine accomplishments and contributions to society"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "modern celebrities",
+                      "all famous people",
+                      "social media users"
+                    ],
+                    "correctAnswer": "modern celebrities"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "their superficial qualities and material wealth",
+                      "their talent",
+                      "their education"
+                    ],
+                    "correctAnswer": "their superficial qualities and material wealth"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "genuine accomplishments and contributions to society",
+                      "their appearance",
+                      "their popularity"
+                    ],
+                    "correctAnswer": "genuine accomplishments and contributions to society"
+                  }
                 ],
                 "correctSentence": "I strongly agree that modern celebrities are celebrated more for their superficial qualities and material wealth than for genuine accomplishments and contributions to society.",
                 "usableIn": "introduction"
@@ -219,8 +305,24 @@
                 "type": "template",
                 "template": "This trend _____ because it encourages young people to _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["sets a concerning example", "is beneficial", "has no impact"], "correctAnswer": "sets a concerning example"},
-                  {"id": "thesis2_b2", "options": ["prioritize appearance and wealth over meaningful achievements", "work harder", "study more"], "correctAnswer": "prioritize appearance and wealth over meaningful achievements"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "sets a concerning example",
+                      "is beneficial",
+                      "has no impact"
+                    ],
+                    "correctAnswer": "sets a concerning example"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "prioritize appearance and wealth over meaningful achievements",
+                      "work harder",
+                      "study more"
+                    ],
+                    "correctAnswer": "prioritize appearance and wealth over meaningful achievements"
+                  }
                 ],
                 "correctSentence": "This trend sets a concerning example because it encourages young people to prioritize appearance and wealth over meaningful achievements.",
                 "usableIn": "introduction"
@@ -237,9 +339,33 @@
                 "type": "template",
                 "template": "Firstly, _____ has shifted public attention toward _____ rather than _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["the rise of reality TV and social media", "traditional education", "sports achievement"], "correctAnswer": "the rise of reality TV and social media"},
-                  {"id": "topic1_b2", "options": ["glamorous lifestyles and physical appearance", "hard work", "education"], "correctAnswer": "glamorous lifestyles and physical appearance"},
-                  {"id": "topic1_b3", "options": ["substantial achievements and expertise", "family values", "simple living"], "correctAnswer": "substantial achievements and expertise"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "the rise of reality TV and social media",
+                      "traditional education",
+                      "sports achievement"
+                    ],
+                    "correctAnswer": "the rise of reality TV and social media"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "glamorous lifestyles and physical appearance",
+                      "hard work",
+                      "education"
+                    ],
+                    "correctAnswer": "glamorous lifestyles and physical appearance"
+                  },
+                  {
+                    "id": "topic1_b3",
+                    "options": [
+                      "substantial achievements and expertise",
+                      "family values",
+                      "simple living"
+                    ],
+                    "correctAnswer": "substantial achievements and expertise"
+                  }
                 ],
                 "correctSentence": "Firstly, the rise of reality TV and social media has shifted public attention toward glamorous lifestyles and physical appearance rather than substantial achievements and expertise.",
                 "usableIn": "body-paragraph-1"
@@ -249,8 +375,24 @@
                 "type": "template",
                 "template": "Furthermore, this phenomenon _____ by promoting _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["negatively impacts youth development", "improves society", "has no effect"], "correctAnswer": "negatively impacts youth development"},
-                  {"id": "topic2_b2", "options": ["materialism and superficial values over hard work and dedication", "good values", "education"], "correctAnswer": "materialism and superficial values over hard work and dedication"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "negatively impacts youth development",
+                      "improves society",
+                      "has no effect"
+                    ],
+                    "correctAnswer": "negatively impacts youth development"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "materialism and superficial values over hard work and dedication",
+                      "good values",
+                      "education"
+                    ],
+                    "correctAnswer": "materialism and superficial values over hard work and dedication"
+                  }
                 ],
                 "correctSentence": "Furthermore, this phenomenon negatively impacts youth development by promoting materialism and superficial values over hard work and dedication.",
                 "usableIn": "body-paragraph-2"
@@ -267,9 +409,33 @@
                 "type": "template",
                 "template": "This is because _____ gain millions of followers by _____ rather than _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["reality TV stars and influencers", "scientists", "teachers"], "correctAnswer": "reality TV stars and influencers"},
-                  {"id": "support1_b2", "options": ["displaying luxury goods and perfect appearances", "working hard", "studying"], "correctAnswer": "displaying luxury goods and perfect appearances"},
-                  {"id": "support1_b3", "options": ["demonstrating talent or making meaningful contributions", "being wealthy", "traveling"], "correctAnswer": "demonstrating talent or making meaningful contributions"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "reality TV stars and influencers",
+                      "scientists",
+                      "teachers"
+                    ],
+                    "correctAnswer": "reality TV stars and influencers"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "displaying luxury goods and perfect appearances",
+                      "working hard",
+                      "studying"
+                    ],
+                    "correctAnswer": "displaying luxury goods and perfect appearances"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "demonstrating talent or making meaningful contributions",
+                      "being wealthy",
+                      "traveling"
+                    ],
+                    "correctAnswer": "demonstrating talent or making meaningful contributions"
+                  }
                 ],
                 "correctSentence": "This is because reality TV stars and influencers gain millions of followers by displaying luxury goods and perfect appearances rather than demonstrating talent or making meaningful contributions.",
                 "usableIn": "body-paragraph-1"
@@ -279,9 +445,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads young people to _____ instead of _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["constant exposure to celebrity wealth", "good education", "family time"], "correctAnswer": "constant exposure to celebrity wealth"},
-                  {"id": "support2_b2", "options": ["aspire to instant fame and material success", "work in offices", "stay home"], "correctAnswer": "aspire to instant fame and material success"},
-                  {"id": "support2_b3", "options": ["pursuing careers that require dedication and skill development", "being poor", "avoiding work"], "correctAnswer": "pursuing careers that require dedication and skill development"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "constant exposure to celebrity wealth",
+                      "good education",
+                      "family time"
+                    ],
+                    "correctAnswer": "constant exposure to celebrity wealth"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "aspire to instant fame and material success",
+                      "work in offices",
+                      "stay home"
+                    ],
+                    "correctAnswer": "aspire to instant fame and material success"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "pursuing careers that require dedication and skill development",
+                      "being poor",
+                      "avoiding work"
+                    ],
+                    "correctAnswer": "pursuing careers that require dedication and skill development"
+                  }
                 ],
                 "correctSentence": "The main reason is that constant exposure to celebrity wealth leads young people to aspire to instant fame and material success instead of pursuing careers that require dedication and skill development.",
                 "usableIn": "body-paragraph-2"
@@ -298,10 +488,42 @@
                 "type": "template",
                 "template": "For instance, _____ receive far more _____ than _____ who _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["social media influencers promoting beauty products", "teachers", "farmers"], "correctAnswer": "social media influencers promoting beauty products"},
-                  {"id": "example1_b2", "options": ["public attention and financial rewards", "criticism", "homework"], "correctAnswer": "public attention and financial rewards"},
-                  {"id": "example1_b3", "options": ["doctors or scientists", "celebrities", "athletes"], "correctAnswer": "doctors or scientists"},
-                  {"id": "example1_b4", "options": ["make groundbreaking medical or scientific discoveries", "appear on TV", "use social media"], "correctAnswer": "make groundbreaking medical or scientific discoveries"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "social media influencers promoting beauty products",
+                      "teachers",
+                      "farmers"
+                    ],
+                    "correctAnswer": "social media influencers promoting beauty products"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "public attention and financial rewards",
+                      "criticism",
+                      "homework"
+                    ],
+                    "correctAnswer": "public attention and financial rewards"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "doctors or scientists",
+                      "celebrities",
+                      "athletes"
+                    ],
+                    "correctAnswer": "doctors or scientists"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "make groundbreaking medical or scientific discoveries",
+                      "appear on TV",
+                      "use social media"
+                    ],
+                    "correctAnswer": "make groundbreaking medical or scientific discoveries"
+                  }
                 ],
                 "correctSentence": "For instance, social media influencers promoting beauty products receive far more public attention and financial rewards than doctors or scientists who make groundbreaking medical or scientific discoveries.",
                 "usableIn": "body-paragraph-1"
@@ -311,9 +533,33 @@
                 "type": "template",
                 "template": "For example, many teenagers now _____ rather than _____ because _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["dream of becoming YouTube stars or Instagram influencers", "want to be farmers", "avoid technology"], "correctAnswer": "dream of becoming YouTube stars or Instagram influencers"},
-                  {"id": "example2_b2", "options": ["aspiring to meaningful professions like teaching or engineering", "watching TV", "playing games"], "correctAnswer": "aspiring to meaningful professions like teaching or engineering"},
-                  {"id": "example2_b3", "options": ["they see influencers achieving wealth and fame without traditional qualifications", "it is easier", "their parents want this"], "correctAnswer": "they see influencers achieving wealth and fame without traditional qualifications"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "dream of becoming YouTube stars or Instagram influencers",
+                      "want to be farmers",
+                      "avoid technology"
+                    ],
+                    "correctAnswer": "dream of becoming YouTube stars or Instagram influencers"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "aspiring to meaningful professions like teaching or engineering",
+                      "watching TV",
+                      "playing games"
+                    ],
+                    "correctAnswer": "aspiring to meaningful professions like teaching or engineering"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "they see influencers achieving wealth and fame without traditional qualifications",
+                      "it is easier",
+                      "their parents want this"
+                    ],
+                    "correctAnswer": "they see influencers achieving wealth and fame without traditional qualifications"
+                  }
                 ],
                 "correctSentence": "For example, many teenagers now dream of becoming YouTube stars or Instagram influencers rather than aspiring to meaningful professions like teaching or engineering because they see influencers achieving wealth and fame without traditional qualifications.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +576,24 @@
                 "type": "template",
                 "template": "In conclusion, I strongly believe that _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["modern celebrity culture prioritizes superficial qualities over real achievements", "all celebrities are bad", "young people should avoid media"], "correctAnswer": "modern celebrity culture prioritizes superficial qualities over real achievements"},
-                  {"id": "conclusion1_b2", "options": ["this distorts young people's values and career aspirations", "it is popular", "everyone agrees"], "correctAnswer": "this distorts young people's values and career aspirations"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "modern celebrity culture prioritizes superficial qualities over real achievements",
+                      "all celebrities are bad",
+                      "young people should avoid media"
+                    ],
+                    "correctAnswer": "modern celebrity culture prioritizes superficial qualities over real achievements"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "this distorts young people's values and career aspirations",
+                      "it is popular",
+                      "everyone agrees"
+                    ],
+                    "correctAnswer": "this distorts young people's values and career aspirations"
+                  }
                 ],
                 "correctSentence": "In conclusion, I strongly believe that modern celebrity culture prioritizes superficial qualities over real achievements because this distorts young people's values and career aspirations.",
                 "usableIn": "conclusion"
@@ -341,8 +603,24 @@
                 "type": "template",
                 "template": "Society should _____ to ensure that _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["celebrate genuine accomplishments and expertise more prominently", "ban social media", "ignore celebrities"], "correctAnswer": "celebrate genuine accomplishments and expertise more prominently"},
-                  {"id": "conclusion2_b2", "options": ["young people develop healthier aspirations and role models", "everyone becomes famous", "wealth is distributed equally"], "correctAnswer": "young people develop healthier aspirations and role models"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "celebrate genuine accomplishments and expertise more prominently",
+                      "ban social media",
+                      "ignore celebrities"
+                    ],
+                    "correctAnswer": "celebrate genuine accomplishments and expertise more prominently"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "young people develop healthier aspirations and role models",
+                      "everyone becomes famous",
+                      "wealth is distributed equally"
+                    ],
+                    "correctAnswer": "young people develop healthier aspirations and role models"
+                  }
                 ],
                 "correctSentence": "Society should celebrate genuine accomplishments and expertise more prominently to ensure that young people develop healthier aspirations and role models.",
                 "usableIn": "conclusion"
@@ -380,13 +658,51 @@
           }
         ],
         "usefulTransitions": {
-          "stating_agreement": ["I strongly agree that", "I completely agree with this view", "I largely agree that", "I partially agree because"],
-          "giving_reasons": ["Firstly", "The main reason is", "One significant factor is", "Furthermore", "Moreover"],
-          "adding_information": ["In addition", "Additionally", "What is more", "Beyond this"],
-          "giving_examples": ["For instance", "For example", "A clear example is", "Such as", "Particularly"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to", "Thus"],
-          "contrasting": ["However", "Nevertheless", "On the other hand", "Conversely"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "stating_agreement": [
+            "I strongly agree that",
+            "I completely agree with this view",
+            "I largely agree that",
+            "I partially agree because"
+          ],
+          "giving_reasons": [
+            "Firstly",
+            "The main reason is",
+            "One significant factor is",
+            "Furthermore",
+            "Moreover"
+          ],
+          "adding_information": [
+            "In addition",
+            "Additionally",
+            "What is more",
+            "Beyond this"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A clear example is",
+            "Such as",
+            "Particularly"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the other hand",
+            "Conversely"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -550,13 +866,13 @@
     }
   ],
   "modelEssay": {
-    "text": "In contemporary society, fame has become increasingly associated with glamorous appearances and material wealth rather than meaningful accomplishments. I strongly agree that this trend in celebrity culture sets a detrimental example for young people, as it promotes superficial values over genuine achievement and hard work.\n\nFirstly, the rise of reality television and social media platforms has fundamentally shifted what society celebrates in public figures. Reality TV stars and social media influencers often gain millions of followers and substantial wealth primarily by displaying luxury lifestyles, designer clothing, and physical attractiveness rather than demonstrating any particular talent or expertise. For instance, Instagram influencers who promote beauty products or showcase their lavish vacations typically receive far more public attention and financial rewards than medical researchers developing life-saving treatments or teachers educating the next generation. This creates a distorted perception among audiences, particularly youth, where external appearance and material possessions are valued more highly than education, skill development, or contributions to society.\n\nFurthermore, this phenomenon directly damages young people's values and career aspirations. Constant exposure to celebrity wealth and glamour through social media platforms leads teenagers to prioritize instant fame and material success over meaningful work that requires dedication and skill. For example, surveys show that many teenagers now aspire to become YouTube stars or reality TV personalities rather than pursuing traditional careers in medicine, engineering, or teaching. This shift encourages a generation that undervalues education, hard work, and the development of abilities that genuinely benefit communities and society at large.\n\nIn conclusion, I firmly believe that modern celebrity culture's emphasis on superficial qualities over real accomplishments negatively influences young people's development. Society should place greater emphasis on celebrating scientists, educators, healthcare workers, and other professionals whose genuine achievements contribute meaningfully to human progress and collective wellbeing.",
+    "text": "In contemporary society, fame has become increasingly associated with glamorous appearances and material wealth rather than meaningful accomplishments. I strongly agree that this trend in celebrity culture sets a detrimental example for young people, as it promotes superficial values over genuine achievement and hard work.\n\nFirstly, the rise of reality television and social media platforms has fundamentally shifted what society celebrates in public figures. Reality TV stars and social media influencers often gain millions of followers and substantial wealth primarily by displaying luxury lifestyles, designer clothing, and physical attractiveness rather than demonstrating any particular talent or expertise. For instance, Instagram influencers who promote beauty products or showcase their lavish vacations typically receive far more public attention and financial rewards than medical researchers developing life-saving treatments or teachers educating the next generation. This creates a distorted perception among audiences, particularly youth, where external appearance and material possessions are valued more highly than education, skill development, or contributions to society.\n\nFurthermore, this phenomenon directly damages young people's values and career aspirations. Constant exposure to celebrity wealth and glamour through social media platforms leads teenagers to prioritize instant fame and material success over meaningful work that requires dedication and skill. For example, surveys show that many teenagers now aspire to become YouTube stars or reality TV personalities rather than pursuing traditional careers in medicine, engineering, or teaching. This shift encourages a generation that undervalues education, hard work, and the development of abilities that genuinely benefit communities and society at large.\n\nIn conclusion, I firmly believe that modern celebrity culture's emphasis on superficial qualities over real accomplishments negatively influences young people's development. Society should place greater emphasis on celebrating scientists, educators, healthcare workers, and other professionals whose genuine achievements help protect human progress and collective wellbeing.",
     "wordCount": 286,
     "structure": {
       "introduction": "In contemporary society, fame has become increasingly associated with glamorous appearances and material wealth rather than meaningful accomplishments. I strongly agree that this trend in celebrity culture sets a detrimental example for young people, as it promotes superficial values over genuine achievement and hard work.",
       "body1": "Firstly, the rise of reality television and social media platforms has fundamentally shifted what society celebrates in public figures. Reality TV stars and social media influencers often gain millions of followers and substantial wealth primarily by displaying luxury lifestyles, designer clothing, and physical attractiveness rather than demonstrating any particular talent or expertise. For instance, Instagram influencers who promote beauty products or showcase their lavish vacations typically receive far more public attention and financial rewards than medical researchers developing life-saving treatments or teachers educating the next generation. This creates a distorted perception among audiences, particularly youth, where external appearance and material possessions are valued more highly than education, skill development, or contributions to society.",
       "body2": "Furthermore, this phenomenon directly damages young people's values and career aspirations. Constant exposure to celebrity wealth and glamour through social media platforms leads teenagers to prioritize instant fame and material success over meaningful work that requires dedication and skill. For example, surveys show that many teenagers now aspire to become YouTube stars or reality TV personalities rather than pursuing traditional careers in medicine, engineering, or teaching. This shift encourages a generation that undervalues education, hard work, and the development of abilities that genuinely benefit communities and society at large.",
-      "conclusion": "In conclusion, I firmly believe that modern celebrity culture's emphasis on superficial qualities over real accomplishments negatively influences young people's development. Society should place greater emphasis on celebrating scientists, educators, healthcare workers, and other professionals whose genuine achievements contribute meaningfully to human progress and collective wellbeing."
+      "conclusion": "In conclusion, I firmly believe that modern celebrity culture's emphasis on superficial qualities over real accomplishments negatively influences young people's development. Society should place greater emphasis on celebrating scientists, educators, healthcare workers, and other professionals whose genuine achievements help protect human progress and collective wellbeing."
     },
     "highlights": [
       {

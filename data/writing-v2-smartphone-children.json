@@ -79,105 +79,151 @@
             "word": "supervision",
             "pronunciation": "/ˌsuːpəˈvɪʒən/",
             "partOfSpeech": "noun",
-            "definition": "Careful watching and direction",
+            "definition": "Careful watching and direction.",
             "example": "Children using smartphones require appropriate parental supervision.",
-            "synonyms": ["monitoring", "oversight"]
+            "synonyms": [
+              "monitoring",
+              "oversight"
+            ]
           },
           {
             "word": "connectivity",
             "pronunciation": "/ˌkɒnekˈtɪvəti/",
             "partOfSpeech": "noun",
-            "definition": "The state of being connected",
+            "definition": "The state of being connected.",
             "example": "Smartphones provide children with constant connectivity to parents and friends.",
-            "synonyms": ["connection", "communication"]
+            "synonyms": [
+              "connection",
+              "communication"
+            ]
           },
           {
             "word": "exposure",
             "pronunciation": "/ɪkˈspəʊʒər/",
             "partOfSpeech": "noun",
-            "definition": "The experience of encountering something",
+            "definition": "The experience of encountering something.",
             "example": "Early smartphone use increases children's exposure to inappropriate content.",
-            "synonyms": ["contact", "experience"]
+            "synonyms": [
+              "contact",
+              "experience"
+            ]
           },
           {
             "word": "detrimental",
             "pronunciation": "/ˌdetrɪˈmentəl/",
             "partOfSpeech": "adjective",
-            "definition": "Causing harm or damage",
+            "definition": "Causing harm or damage.",
             "example": "Excessive screen time can be detrimental to children's physical health.",
-            "synonyms": ["harmful", "damaging"]
+            "synonyms": [
+              "harmful",
+              "damaging"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make easier or help bring about",
-            "example": "Smartphones facilitate educational opportunities through learning apps.",
-            "synonyms": ["enable", "assist"]
+            "definition": "To make easier or help bring about.",
+            "example": "Smartphones support educational opportunities through learning apps.",
+            "synonyms": [
+              "enable",
+              "assist"
+            ]
           },
           {
             "word": "dependency",
             "pronunciation": "/dɪˈpendənsi/",
             "partOfSpeech": "noun",
-            "definition": "Reliance on something or someone",
+            "definition": "Reliance on something or someone.",
             "example": "Children can develop unhealthy dependency on digital devices.",
-            "synonyms": ["reliance", "addiction"]
+            "synonyms": [
+              "reliance",
+              "addiction"
+            ]
           },
           {
             "word": "interaction",
             "pronunciation": "/ˌɪntərˈækʃən/",
             "partOfSpeech": "noun",
-            "definition": "Communication or involvement with others",
+            "definition": "Communication or involvement with others.",
             "example": "Excessive smartphone use may reduce face-to-face interaction among children.",
-            "synonyms": ["communication", "engagement"]
+            "synonyms": [
+              "communication",
+              "engagement"
+            ]
           },
           {
             "word": "cognitive",
             "pronunciation": "/ˈkɒɡnɪtɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Related to mental processes of knowing and understanding",
+            "definition": "Related to mental processes of knowing and understanding.",
             "example": "Some educational apps support children's cognitive development.",
-            "synonyms": ["mental", "intellectual"]
+            "synonyms": [
+              "mental",
+              "intellectual"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "screen time",
-            "definition": "Time spent using devices with screens",
+            "definition": "Time spent using devices with screens.",
             "example": "Excessive screen time can affect children's sleep patterns and health."
           },
           {
             "phrase": "educational apps",
-            "definition": "Software applications designed for learning",
+            "definition": "Software applications designed for learning.",
             "example": "Educational apps provide children with interactive learning opportunities."
           },
           {
             "phrase": "online safety",
-            "definition": "Protection from digital threats and inappropriate content",
+            "definition": "Protection from digital threats and inappropriate content.",
             "example": "Parents must educate children about online safety and privacy."
           },
           {
             "phrase": "social development",
-            "definition": "Growth in ability to interact with others",
+            "definition": "Growth in ability to interact with others.",
             "example": "Excessive smartphone use may hinder children's social development."
           },
           {
             "phrase": "parental controls",
-            "definition": "Settings that restrict content and usage",
+            "definition": "Settings that restrict content and usage.",
             "example": "Parental controls help manage what children can access on smartphones."
           },
           {
             "phrase": "digital literacy",
-            "definition": "Ability to use and understand technology",
+            "definition": "Ability to use and understand technology.",
             "example": "Early smartphone access can enhance children's digital literacy skills."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The proliferation of smartphones among children", "Young people's access to mobile devices", "In recent years"],
-          "advantages": ["One significant benefit is", "A key advantage is", "On the positive side"],
-          "disadvantages": ["However, a major concern is", "On the negative side", "A significant drawback is"],
-          "exemplifying": ["For instance", "For example", "Particularly", "Specifically"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "The proliferation of smartphones among children",
+            "Young people's access to mobile devices",
+            "In recent years"
+          ],
+          "advantages": [
+            "One significant benefit is",
+            "A key advantage is",
+            "On the positive side"
+          ],
+          "disadvantages": [
+            "However, a major concern is",
+            "On the negative side",
+            "A significant drawback is"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -194,7 +240,11 @@
             "clues": {
               "subject": "Smartphones",
               "verb": "provide",
-              "keywords": ["constant contact", "parents", "safety"]
+              "keywords": [
+                "constant contact",
+                "parents",
+                "safety"
+              ]
             },
             "hint": "Focus on safety and communication benefits.",
             "modelAnswer": "Smartphones provide children with constant contact to parents for safety and emergencies.",
@@ -205,7 +255,10 @@
             "clues": {
               "subject": "Educational apps",
               "verb": "enhance",
-              "keywords": ["learning", "interactive"]
+              "keywords": [
+                "learning",
+                "interactive"
+              ]
             },
             "hint": "Mention how apps support education.",
             "modelAnswer": "Educational apps can enhance children's learning through interactive and engaging content.",
@@ -216,7 +269,10 @@
             "clues": {
               "subject": "Excessive screen time",
               "verb": "damage",
-              "keywords": ["physical health", "eyesight"]
+              "keywords": [
+                "physical health",
+                "eyesight"
+              ]
             },
             "hint": "Focus on health concerns from overuse.",
             "modelAnswer": "Excessive screen time can damage children's physical health, particularly their eyesight and posture.",
@@ -227,7 +283,10 @@
             "clues": {
               "subject": "Children",
               "verb": "expose",
-              "keywords": ["inappropriate content", "online risks"]
+              "keywords": [
+                "inappropriate content",
+                "online risks"
+              ]
             },
             "hint": "Discuss dangers of unrestricted access.",
             "modelAnswer": "Children with smartphones may be exposed to inappropriate content and various online risks.",
@@ -238,7 +297,10 @@
             "clues": {
               "subject": "Early access",
               "verb": "develop",
-              "keywords": ["digital literacy", "technology skills"]
+              "keywords": [
+                "digital literacy",
+                "technology skills"
+              ]
             },
             "hint": "Mention skill development benefits.",
             "modelAnswer": "Early access to smartphones helps children develop essential digital literacy and technology skills.",
@@ -248,31 +310,75 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["smartphones", "enable", "instant", "communication", "with", "family", "members"],
+            "words": [
+              "smartphones",
+              "enable",
+              "instant",
+              "communication",
+              "with",
+              "family",
+              "members"
+            ],
             "correctAnswer": "Smartphones enable instant communication with family members.",
             "hint": "Start with 'Smartphones'"
           },
           {
             "id": "scramble2",
-            "words": ["educational", "apps", "provide", "interactive", "learning", "opportunities", "for", "children"],
+            "words": [
+              "educational",
+              "apps",
+              "provide",
+              "interactive",
+              "learning",
+              "opportunities",
+              "for",
+              "children"
+            ],
             "correctAnswer": "Educational apps provide interactive learning opportunities for children.",
             "hint": "Subject is 'Educational apps'"
           },
           {
             "id": "scramble3",
-            "words": ["excessive", "use", "can", "disrupt", "sleep", "patterns", "and", "routines"],
+            "words": [
+              "excessive",
+              "use",
+              "can",
+              "disrupt",
+              "sleep",
+              "patterns",
+              "and",
+              "routines"
+            ],
             "correctAnswer": "Excessive use can disrupt sleep patterns and routines.",
             "hint": "'can disrupt' is the verb phrase"
           },
           {
             "id": "scramble4",
-            "words": ["children", "may", "encounter", "cyberbullying", "or", "inappropriate", "content", "online"],
+            "words": [
+              "children",
+              "may",
+              "encounter",
+              "cyberbullying",
+              "or",
+              "inappropriate",
+              "content",
+              "online"
+            ],
             "correctAnswer": "Children may encounter cyberbullying or inappropriate content online.",
             "hint": "Start with 'Children'"
           },
           {
             "id": "scramble5",
-            "words": ["parental", "supervision", "is", "essential", "for", "safe", "smartphone", "usage"],
+            "words": [
+              "parental",
+              "supervision",
+              "is",
+              "essential",
+              "for",
+              "safe",
+              "smartphone",
+              "usage"
+            ],
             "correctAnswer": "Parental supervision is essential for safe smartphone usage.",
             "hint": "Subject is 'Parental supervision'"
           }
@@ -281,35 +387,55 @@
           {
             "id": "blank1",
             "sentence": "Smartphones _____ children with instant access to parents.",
-            "options": ["provide", "provides", "providing"],
+            "options": [
+              "provide",
+              "provides",
+              "providing"
+            ],
             "correctAnswer": "provide",
             "explanation": "Plural subject 'Smartphones' takes base form 'provide'."
           },
           {
             "id": "blank2",
             "sentence": "_____, excessive screen time can harm physical health.",
-            "options": ["However", "Moreover", "Therefore"],
+            "options": [
+              "However",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to introduce disadvantages after advantages."
           },
           {
             "id": "blank3",
             "sentence": "Children can _____ to inappropriate content online.",
-            "options": ["be exposed", "expose", "exposing"],
+            "options": [
+              "be exposed",
+              "expose",
+              "exposing"
+            ],
             "correctAnswer": "be exposed",
             "explanation": "Use passive voice 'be exposed' for receiving action."
           },
           {
             "id": "blank4",
             "sentence": "_____ instance, learning apps teach mathematics through games.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For instance' is correct for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Parental supervision is _____ for safe smartphone usage.",
-            "options": ["essential", "essence", "essentially"],
+            "options": [
+              "essential",
+              "essence",
+              "essentially"
+            ],
             "correctAnswer": "essential",
             "explanation": "Use adjective 'essential' after 'is'."
           }
@@ -359,12 +485,42 @@
           }
         ],
         "usefulTransitions": {
-          "advantages": ["One significant benefit is", "A key advantage is", "On the positive side", "The primary benefit is"],
-          "disadvantages": ["However, a major concern is", "On the negative side", "A significant drawback is", "Conversely"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Specifically"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to"],
-          "balancing": ["While", "Although", "Despite this", "Nevertheless"]
+          "advantages": [
+            "One significant benefit is",
+            "A key advantage is",
+            "On the positive side",
+            "The primary benefit is"
+          ],
+          "disadvantages": [
+            "However, a major concern is",
+            "On the negative side",
+            "A significant drawback is",
+            "Conversely"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Specifically"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to"
+          ],
+          "balancing": [
+            "While",
+            "Although",
+            "Despite this",
+            "Nevertheless"
+          ]
         }
       }
     },
@@ -530,11 +686,11 @@
     }
   ],
   "modelEssay": {
-    "text": "The proliferation of smartphones among children has become increasingly prevalent in modern society, with children as young as eight receiving their own devices. While this development offers clear benefits in communication and educational access, it also presents significant concerns regarding health, safety, and social development.\n\nOne significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices enable immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps facilitate interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.\n\nHowever, a major concern is children's exposure to inappropriate content and harmful online interactions without adequate supervision. Social media platforms expose young users to cyberbullying, unrealistic beauty standards, and addictive scrolling behaviors that can severely impact mental health. For example, research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression. Furthermore, unmonitored smartphone use can lead to physical health issues, including disrupted sleep patterns, poor posture, and eye strain. Consequently, these problems can negatively affect children's academic performance, physical wellbeing, and crucial social development during formative years.\n\nIn conclusion, while smartphones provide valuable communication and educational opportunities for children, they also pose real risks to physical and mental health. Success ultimately depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time management to maximize benefits while minimizing potential harm.",
+    "text": "The proliferation of smartphones among children has become increasingly prevalent in modern society, with children as young as eight receiving their own devices. While this development offers clear benefits in communication and educational access, it also presents significant concerns regarding health, safety, and social development.\n\nOne significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices allow immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps support interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.\n\nHowever, a major concern is children's exposure to inappropriate content and harmful online interactions without adequate supervision. Social media platforms expose young users to cyberbullying, unrealistic beauty standards, and addictive scrolling behaviors that can severely impact mental health. For example, research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression. Furthermore, unmonitored smartphone use can lead to physical health issues, including disrupted sleep patterns, poor posture, and eye strain. Consequently, these problems can negatively affect children's academic performance, physical wellbeing, and crucial social development during formative years.\n\nIn conclusion, while smartphones provide valuable communication and educational opportunities for children, they also pose real risks to physical and mental health. Success ultimately depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time management to maximize benefits while minimizing potential harm.",
     "wordCount": 275,
     "structure": {
       "introduction": "The proliferation of smartphones among children has become increasingly prevalent in modern society, with children as young as eight receiving their own devices. While this development offers clear benefits in communication and educational access, it also presents significant concerns regarding health, safety, and social development.",
-      "body1": "One significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices enable immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps facilitate interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.",
+      "body1": "One significant benefit is the enhanced safety and constant connectivity smartphones provide between children and parents. These devices allow immediate contact during emergencies or unexpected situations, such as schedule changes, transportation issues, or times when children feel unsafe. For instance, a child who misses the school bus can instantly notify parents, or a teenager working part-time can request assistance if needed. Additionally, smartphones with educational apps support interactive learning opportunities that complement traditional classroom instruction. As a result, parents experience greater peace of mind while children gain valuable digital literacy skills essential for modern life.",
       "body2": "However, a major concern is children's exposure to inappropriate content and harmful online interactions without adequate supervision. Social media platforms expose young users to cyberbullying, unrealistic beauty standards, and addictive scrolling behaviors that can severely impact mental health. For example, research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression. Furthermore, unmonitored smartphone use can lead to physical health issues, including disrupted sleep patterns, poor posture, and eye strain. Consequently, these problems can negatively affect children's academic performance, physical wellbeing, and crucial social development during formative years.",
       "conclusion": "In conclusion, while smartphones provide valuable communication and educational opportunities for children, they also pose real risks to physical and mental health. Success ultimately depends on appropriate parental supervision, age-suitable content restrictions, and balanced screen time management to maximize benefits while minimizing potential harm."
     },

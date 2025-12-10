@@ -79,105 +79,153 @@
             "word": "work-life balance",
             "pronunciation": "/wɜːk laɪf ˈbæləns/",
             "partOfSpeech": "noun",
-            "definition": "The equilibrium between professional and personal life",
+            "definition": "The equilibrium between professional and personal life.",
             "example": "Maintaining work-life balance is essential for overall wellbeing.",
-            "synonyms": ["life balance", "professional-personal balance"]
+            "synonyms": [
+              "life balance",
+              "professional-personal balance"
+            ]
           },
           {
             "word": "professional relationships",
             "pronunciation": "/prəˈfeʃənəl rɪˈleɪʃənʃɪps/",
             "partOfSpeech": "noun",
-            "definition": "Connections and associations formed in work settings",
+            "definition": "Connections and associations formed in work settings.",
             "example": "Professional relationships can sometimes develop into genuine friendships.",
-            "synonyms": ["workplace connections", "collegial bonds"]
+            "synonyms": [
+              "workplace connections",
+              "collegial bonds"
+            ]
           },
           {
             "word": "workplace camaraderie",
             "pronunciation": "/ˈwɜːkpleɪs ˌkæməˈrɑːdəri/",
             "partOfSpeech": "noun",
-            "definition": "Mutual trust and friendship among work colleagues",
+            "definition": "Mutual trust and friendship among work colleagues.",
             "example": "Workplace camaraderie often improves team productivity and morale.",
-            "synonyms": ["team spirit", "collegial friendship"]
+            "synonyms": [
+              "team spirit",
+              "collegial friendship"
+            ]
           },
           {
             "word": "social networks",
             "pronunciation": "/ˈsəʊʃəl ˈnetwɜːks/",
             "partOfSpeech": "noun",
-            "definition": "Groups of people connected through social relationships",
+            "definition": "Groups of people connected through social relationships.",
             "example": "Diverse social networks provide emotional support and different perspectives.",
-            "synonyms": ["social circles", "friend groups"]
+            "synonyms": [
+              "social circles",
+              "friend groups"
+            ]
           },
           {
             "word": "boundaries",
             "pronunciation": "/ˈbaʊndəriz/",
             "partOfSpeech": "noun",
-            "definition": "Limits or separations between different areas of life",
+            "definition": "Limits or separations between different areas of life.",
             "example": "Setting boundaries between work and personal life helps reduce stress.",
-            "synonyms": ["limits", "divisions"]
+            "synonyms": [
+              "limits",
+              "divisions"
+            ]
           },
           {
             "word": "collaboration",
             "pronunciation": "/kəˌlæbəˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Working together towards a common goal",
+            "definition": "Working together towards a common goal.",
             "example": "Workplace collaboration naturally builds social connections among colleagues.",
-            "synonyms": ["cooperation", "teamwork"]
+            "synonyms": [
+              "cooperation",
+              "teamwork"
+            ]
           },
           {
             "word": "personal interests",
             "pronunciation": "/ˈpɜːsənəl ˈɪntrəsts/",
             "partOfSpeech": "noun",
-            "definition": "Individual hobbies, activities, or passions",
+            "definition": "Individual hobbies, activities, or passions.",
             "example": "Pursuing personal interests outside work enriches one's social life.",
-            "synonyms": ["hobbies", "pastimes"]
+            "synonyms": [
+              "hobbies",
+              "pastimes"
+            ]
           },
           {
             "word": "authentic",
             "pronunciation": "/ɔːˈθentɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Genuine and not pretended or superficial",
+            "definition": "Genuine and not pretended or superficial.",
             "example": "Authentic friendships are built on shared interests rather than professional obligations.",
-            "synonyms": ["genuine", "real"]
+            "synonyms": [
+              "genuine",
+              "real"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "after-work socializing",
-            "definition": "Spending leisure time with colleagues outside office hours",
+            "definition": "Spending leisure time with colleagues outside office hours.",
             "example": "After-work socializing helps colleagues bond beyond professional tasks."
           },
           {
             "phrase": "office friendships",
-            "definition": "Personal relationships developed in workplace settings",
+            "definition": "Personal relationships developed in workplace settings.",
             "example": "Office friendships can make daily work more enjoyable and less stressful."
           },
           {
             "phrase": "hobby groups",
-            "definition": "Communities formed around shared recreational interests",
+            "definition": "Communities formed around shared recreational interests.",
             "example": "Joining hobby groups allows people to meet others with similar passions."
           },
           {
             "phrase": "shared interests",
-            "definition": "Common hobbies, values, or passions between people",
+            "definition": "Common hobbies, values, or passions between people.",
             "example": "Friendships based on shared interests tend to be more meaningful."
           },
           {
             "phrase": "professional obligations",
-            "definition": "Duties and responsibilities related to work",
+            "definition": "Duties and responsibilities related to work.",
             "example": "Social interactions at work may be influenced by professional obligations."
           },
           {
             "phrase": "diverse perspectives",
-            "definition": "Different viewpoints and experiences from varied backgrounds",
+            "definition": "Different viewpoints and experiences from varied backgrounds.",
             "example": "Meeting people outside work exposes you to diverse perspectives."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +248,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["workplace provides natural social opportunities", "work should be separate from personal life", "income is the only purpose of work"], "correctAnswer": "workplace provides natural social opportunities"},
-                  {"id": "thesis1_b2", "options": ["social life should be developed outside professional settings", "colleagues make the best friends", "work is more important than friendships"], "correctAnswer": "social life should be developed outside professional settings"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "workplace provides natural social opportunities",
+                      "work should be separate from personal life",
+                      "income is the only purpose of work"
+                    ],
+                    "correctAnswer": "workplace provides natural social opportunities"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "social life should be developed outside professional settings",
+                      "colleagues make the best friends",
+                      "work is more important than friendships"
+                    ],
+                    "correctAnswer": "social life should be developed outside professional settings"
+                  }
                 ],
                 "correctSentence": "While some believe workplace provides natural social opportunities, others argue that social life should be developed outside professional settings.",
                 "usableIn": "introduction"
@@ -211,8 +275,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ is ideal because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["a balanced approach combining both", "only workplace friendships", "completely separating work and social life"], "correctAnswer": "a balanced approach combining both"},
-                  {"id": "thesis2_b2", "options": ["it provides diverse social connections and healthy boundaries", "work is everything", "friends distract from work"], "correctAnswer": "it provides diverse social connections and healthy boundaries"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "a balanced approach combining both",
+                      "only workplace friendships",
+                      "completely separating work and social life"
+                    ],
+                    "correctAnswer": "a balanced approach combining both"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "it provides diverse social connections and healthy boundaries",
+                      "work is everything",
+                      "friends distract from work"
+                    ],
+                    "correctAnswer": "it provides diverse social connections and healthy boundaries"
+                  }
                 ],
                 "correctSentence": "In my opinion, a balanced approach combining both is ideal because it provides diverse social connections and healthy boundaries.",
                 "usableIn": "introduction"
@@ -229,8 +309,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ creates _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["workplace interaction", "avoiding colleagues", "working alone"], "correctAnswer": "workplace interaction"},
-                  {"id": "topic1_b2", "options": ["natural opportunities for meaningful social connections", "unnecessary stress", "confusion"], "correctAnswer": "natural opportunities for meaningful social connections"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "workplace interaction",
+                      "avoiding colleagues",
+                      "working alone"
+                    ],
+                    "correctAnswer": "workplace interaction"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "natural opportunities for meaningful social connections",
+                      "unnecessary stress",
+                      "confusion"
+                    ],
+                    "correctAnswer": "natural opportunities for meaningful social connections"
+                  }
                 ],
                 "correctSentence": "On the one hand, workplace interaction creates natural opportunities for meaningful social connections.",
                 "usableIn": "body-paragraph-1"
@@ -240,8 +336,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["building friendships outside work", "only working with colleagues", "staying at home"], "correctAnswer": "building friendships outside work"},
-                  {"id": "topic2_b2", "options": ["greater authenticity and freedom from professional constraints", "more work opportunities", "less free time"], "correctAnswer": "greater authenticity and freedom from professional constraints"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "building friendships outside work",
+                      "only working with colleagues",
+                      "staying at home"
+                    ],
+                    "correctAnswer": "building friendships outside work"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "greater authenticity and freedom from professional constraints",
+                      "more work opportunities",
+                      "less free time"
+                    ],
+                    "correctAnswer": "greater authenticity and freedom from professional constraints"
+                  }
                 ],
                 "correctSentence": "On the other hand, building friendships outside work offers greater authenticity and freedom from professional constraints.",
                 "usableIn": "body-paragraph-2"
@@ -258,8 +370,24 @@
                 "type": "template",
                 "template": "This is because _____ allows people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["daily workplace collaboration", "working in isolation", "avoiding teamwork"], "correctAnswer": "daily workplace collaboration"},
-                  {"id": "support1_b2", "options": ["develop camaraderie and shared understanding through common goals", "compete against each other", "focus only on tasks"], "correctAnswer": "develop camaraderie and shared understanding through common goals"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "daily workplace collaboration",
+                      "working in isolation",
+                      "avoiding teamwork"
+                    ],
+                    "correctAnswer": "daily workplace collaboration"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "develop camaraderie and shared understanding through common goals",
+                      "compete against each other",
+                      "focus only on tasks"
+                    ],
+                    "correctAnswer": "develop camaraderie and shared understanding through common goals"
+                  }
                 ],
                 "correctSentence": "This is because daily workplace collaboration allows people to develop camaraderie and shared understanding through common goals.",
                 "usableIn": "body-paragraph-1"
@@ -269,8 +397,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ enables _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["socializing outside work", "only meeting colleagues", "working overtime"], "correctAnswer": "socializing outside work"},
-                  {"id": "support2_b2", "options": ["people to form relationships based purely on shared interests and values", "professional advancement", "increased income"], "correctAnswer": "people to form relationships based purely on shared interests and values"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "socializing outside work",
+                      "only meeting colleagues",
+                      "working overtime"
+                    ],
+                    "correctAnswer": "socializing outside work"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "people to form relationships based purely on shared interests and values",
+                      "professional advancement",
+                      "increased income"
+                    ],
+                    "correctAnswer": "people to form relationships based purely on shared interests and values"
+                  }
                 ],
                 "correctSentence": "The main reason is that socializing outside work enables people to form relationships based purely on shared interests and values.",
                 "usableIn": "body-paragraph-2"
@@ -287,9 +431,33 @@
                 "type": "template",
                 "template": "For instance, _____ often _____ which _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["colleagues who work on projects together", "people who avoid each other", "employees working remotely alone"], "correctAnswer": "colleagues who work on projects together"},
-                  {"id": "example1_b2", "options": ["bond over shared challenges and successes", "compete for promotions", "ignore each other"], "correctAnswer": "bond over shared challenges and successes"},
-                  {"id": "example1_b3", "options": ["can lead to lasting friendships beyond the office", "creates workplace conflict", "reduces productivity"], "correctAnswer": "can lead to lasting friendships beyond the office"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "colleagues who work on projects together",
+                      "people who avoid each other",
+                      "employees working remotely alone"
+                    ],
+                    "correctAnswer": "colleagues who work on projects together"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "bond over shared challenges and successes",
+                      "compete for promotions",
+                      "ignore each other"
+                    ],
+                    "correctAnswer": "bond over shared challenges and successes"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "can lead to lasting friendships beyond the office",
+                      "creates workplace conflict",
+                      "reduces productivity"
+                    ],
+                    "correctAnswer": "can lead to lasting friendships beyond the office"
+                  }
                 ],
                 "correctSentence": "For instance, colleagues who work on projects together often bond over shared challenges and successes which can lead to lasting friendships beyond the office.",
                 "usableIn": "body-paragraph-1"
@@ -299,9 +467,33 @@
                 "type": "template",
                 "template": "For example, _____ provides _____ without _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["joining sports clubs or hobby groups", "staying at the office late", "working on weekends"], "correctAnswer": "joining sports clubs or hobby groups"},
-                  {"id": "example2_b2", "options": ["opportunities to meet diverse people with similar interests", "work assignments", "professional obligations"], "correctAnswer": "opportunities to meet diverse people with similar interests"},
-                  {"id": "example2_b3", "options": ["the pressure of professional hierarchies or workplace politics", "fun activities", "social interaction"], "correctAnswer": "the pressure of professional hierarchies or workplace politics"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "joining sports clubs or hobby groups",
+                      "staying at the office late",
+                      "working on weekends"
+                    ],
+                    "correctAnswer": "joining sports clubs or hobby groups"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "opportunities to meet diverse people with similar interests",
+                      "work assignments",
+                      "professional obligations"
+                    ],
+                    "correctAnswer": "opportunities to meet diverse people with similar interests"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "the pressure of professional hierarchies or workplace politics",
+                      "fun activities",
+                      "social interaction"
+                    ],
+                    "correctAnswer": "the pressure of professional hierarchies or workplace politics"
+                  }
                 ],
                 "correctSentence": "For example, joining sports clubs or hobby groups provides opportunities to meet diverse people with similar interests without the pressure of professional hierarchies or workplace politics.",
                 "usableIn": "body-paragraph-2"
@@ -318,8 +510,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both approaches have clear benefits", "work is only for income", "friendships are unnecessary"], "correctAnswer": "both approaches have clear benefits"},
-                  {"id": "conclusion1_b2", "options": ["maintaining diverse social networks from both work and personal spheres creates the richest social life", "people should only socialize at work", "work and social life should never mix"], "correctAnswer": "maintaining diverse social networks from both work and personal spheres creates the richest social life"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both approaches have clear benefits",
+                      "work is only for income",
+                      "friendships are unnecessary"
+                    ],
+                    "correctAnswer": "both approaches have clear benefits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "maintaining diverse social networks from both work and personal spheres creates the richest social life",
+                      "people should only socialize at work",
+                      "work and social life should never mix"
+                    ],
+                    "correctAnswer": "maintaining diverse social networks from both work and personal spheres creates the richest social life"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both approaches have clear benefits, I believe maintaining diverse social networks from both work and personal spheres creates the richest social life.",
                 "usableIn": "conclusion"
@@ -348,12 +556,40 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of workplace socializing argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Advocates of separate social lives contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of workplace socializing argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Advocates of separate social lives contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

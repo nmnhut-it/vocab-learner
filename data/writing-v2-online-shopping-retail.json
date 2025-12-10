@@ -80,105 +80,160 @@
             "word": "convenience",
             "pronunciation": "/kənˈviːniəns/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being easy and suitable for one's needs",
+            "definition": "The quality of being easy and suitable for one's needs.",
             "example": "Online shopping offers unparalleled convenience for busy consumers.",
-            "synonyms": ["ease", "accessibility"]
+            "synonyms": [
+              "ease",
+              "accessibility"
+            ]
           },
           {
             "word": "tangible",
             "pronunciation": "/ˈtændʒəbl/",
             "partOfSpeech": "adjective",
-            "definition": "Able to be touched or physically examined",
+            "definition": "Able to be touched or physically examined.",
             "example": "Physical stores allow customers to inspect tangible products before purchasing.",
-            "synonyms": ["physical", "concrete", "palpable"]
+            "synonyms": [
+              "physical",
+              "concrete",
+              "palpable"
+            ]
           },
           {
             "word": "instantaneous",
             "pronunciation": "/ˌɪnstənˈteɪniəs/",
             "partOfSpeech": "adjective",
-            "definition": "Occurring immediately or without delay",
+            "definition": "Occurring immediately or without delay.",
             "example": "E-commerce provides instantaneous access to product information and reviews.",
-            "synonyms": ["immediate", "instant"]
+            "synonyms": [
+              "immediate",
+              "instant"
+            ]
           },
           {
             "word": "tactile",
             "pronunciation": "/ˈtæktaɪl/",
             "partOfSpeech": "adjective",
-            "definition": "Related to the sense of touch",
+            "definition": "Related to the sense of touch.",
             "example": "Traditional shopping provides tactile experiences that online platforms cannot replicate.",
-            "synonyms": ["touchable", "sensory"]
+            "synonyms": [
+              "touchable",
+              "sensory"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance or size",
+            "definition": "Of considerable importance or size.",
             "example": "Online retailers offer substantial discounts compared to physical stores.",
-            "synonyms": ["significant", "considerable"]
+            "synonyms": [
+              "significant",
+              "considerable"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
-            "example": "Digital platforms facilitate price comparison across multiple retailers.",
-            "synonyms": ["enable", "assist", "streamline"]
+            "definition": "To make an action or process easier.",
+            "example": "Digital platforms support price comparison across multiple retailers.",
+            "synonyms": [
+              "enable",
+              "assist",
+              "streamline"
+            ]
           },
           {
             "word": "diminish",
             "pronunciation": "/dɪˈmɪnɪʃ/",
             "partOfSpeech": "verb",
-            "definition": "To make or become less",
+            "definition": "To make or become less.",
             "example": "Online shopping can diminish the social aspect of retail experiences.",
-            "synonyms": ["reduce", "decrease", "lessen"]
+            "synonyms": [
+              "reduce",
+              "decrease",
+              "lessen"
+            ]
           },
           {
             "word": "authenticity",
             "pronunciation": "/ˌɔːθenˈtɪsəti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being genuine or real",
+            "definition": "The quality of being genuine or real.",
             "example": "Physical stores help verify the authenticity of luxury products.",
-            "synonyms": ["genuineness", "legitimacy"]
+            "synonyms": [
+              "genuineness",
+              "legitimacy"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "e-commerce platform",
-            "definition": "Online system for buying and selling goods",
+            "definition": "Online system for buying and selling goods.",
             "example": "E-commerce platforms like Amazon have revolutionized retail shopping."
           },
           {
             "phrase": "brick-and-mortar store",
-            "definition": "Physical retail location customers can visit",
+            "definition": "Physical retail location customers can visit.",
             "example": "Many brick-and-mortar stores struggle to compete with online prices."
           },
           {
             "phrase": "impulse buying",
-            "definition": "Making unplanned purchases on the spot",
+            "definition": "Making unplanned purchases on the spot.",
             "example": "Physical stores often trigger impulse buying through strategic product placement."
           },
           {
             "phrase": "customer service",
-            "definition": "Assistance provided to shoppers",
+            "definition": "Assistance provided to shoppers.",
             "example": "Traditional stores offer immediate customer service from sales staff."
           },
           {
             "phrase": "price comparison",
-            "definition": "Evaluating costs across different sellers",
+            "definition": "Evaluating costs across different sellers.",
             "example": "Online shopping enables easy price comparison between retailers."
           },
           {
             "phrase": "shopping experience",
-            "definition": "The overall process and feeling of purchasing",
+            "definition": "The overall process and feeling of purchasing.",
             "example": "Many consumers value the social shopping experience of physical stores."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "Consumers have differing preferences regarding", "While some favor"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly", "Specifically"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+          "introducing": [
+            "There is ongoing debate about",
+            "Consumers have differing preferences regarding",
+            "While some favor"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In my view"
+          ]
         }
       }
     },
@@ -201,8 +256,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["online shopping provides superior convenience and value", "internet shopping is faster", "websites sell products"], "correctAnswer": "online shopping provides superior convenience and value"},
-                  {"id": "thesis1_b2", "options": ["traditional retail stores offer better shopping experiences", "stores have employees", "physical shops cost more"], "correctAnswer": "traditional retail stores offer better shopping experiences"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "online shopping provides superior convenience and value",
+                      "internet shopping is faster",
+                      "websites sell products"
+                    ],
+                    "correctAnswer": "online shopping provides superior convenience and value"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "traditional retail stores offer better shopping experiences",
+                      "stores have employees",
+                      "physical shops cost more"
+                    ],
+                    "correctAnswer": "traditional retail stores offer better shopping experiences"
+                  }
                 ],
                 "correctSentence": "While some believe online shopping provides superior convenience and value, others argue that traditional retail stores offer better shopping experiences.",
                 "usableIn": "introduction"
@@ -212,8 +283,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the ideal shopping method", "buying products", "consumer behavior"], "correctAnswer": "the ideal shopping method"},
-                  {"id": "thesis2_b2", "options": ["the type of product and personal priorities", "internet speed", "store location"], "correctAnswer": "the type of product and personal priorities"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the ideal shopping method",
+                      "buying products",
+                      "consumer behavior"
+                    ],
+                    "correctAnswer": "the ideal shopping method"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the type of product and personal priorities",
+                      "internet speed",
+                      "store location"
+                    ],
+                    "correctAnswer": "the type of product and personal priorities"
+                  }
                 ],
                 "correctSentence": "In my opinion, the ideal shopping method depends on the type of product and personal priorities.",
                 "usableIn": "introduction"
@@ -223,8 +310,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["purchasing goods online is more advantageous", "websites are better", "technology helps shopping"], "correctAnswer": "purchasing goods online is more advantageous"},
-                  {"id": "thesis3_b2", "options": ["shopping in physical stores provides greater benefits", "stores should close", "prices are lower"], "correctAnswer": "shopping in physical stores provides greater benefits"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "purchasing goods online is more advantageous",
+                      "websites are better",
+                      "technology helps shopping"
+                    ],
+                    "correctAnswer": "purchasing goods online is more advantageous"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "shopping in physical stores provides greater benefits",
+                      "stores should close",
+                      "prices are lower"
+                    ],
+                    "correctAnswer": "shopping in physical stores provides greater benefits"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether purchasing goods online is more advantageous or shopping in physical stores provides greater benefits.",
                 "usableIn": "introduction"
@@ -234,8 +337,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["both shopping methods have distinct merits", "online shopping is best", "stores are obsolete"], "correctAnswer": "both shopping methods have distinct merits"},
-                  {"id": "thesis4_b2", "options": ["different products require different purchasing approaches", "everyone has internet", "prices vary"], "correctAnswer": "different products require different purchasing approaches"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "both shopping methods have distinct merits",
+                      "online shopping is best",
+                      "stores are obsolete"
+                    ],
+                    "correctAnswer": "both shopping methods have distinct merits"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "different products require different purchasing approaches",
+                      "everyone has internet",
+                      "prices vary"
+                    ],
+                    "correctAnswer": "different products require different purchasing approaches"
+                  }
                 ],
                 "correctSentence": "From my perspective, both shopping methods have distinct merits because different products require different purchasing approaches.",
                 "usableIn": "introduction"
@@ -245,8 +364,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives on retail shopping", "online stores", "shopping habits"], "correctAnswer": "both perspectives on retail shopping"},
-                  {"id": "thesis5_b2", "options": ["each approach suits different consumer needs", "online is better", "stores will disappear"], "correctAnswer": "each approach suits different consumer needs"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives on retail shopping",
+                      "online stores",
+                      "shopping habits"
+                    ],
+                    "correctAnswer": "both perspectives on retail shopping"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "each approach suits different consumer needs",
+                      "online is better",
+                      "stores will disappear"
+                    ],
+                    "correctAnswer": "each approach suits different consumer needs"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives on retail shopping before concluding that each approach suits different consumer needs.",
                 "usableIn": "introduction"
@@ -263,8 +398,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["online shopping", "the internet", "technology"], "correctAnswer": "online shopping"},
-                  {"id": "topic1_b2", "options": ["significant advantages for modern consumers", "websites", "lower prices"], "correctAnswer": "significant advantages for modern consumers"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "online shopping",
+                      "the internet",
+                      "technology"
+                    ],
+                    "correctAnswer": "online shopping"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "significant advantages for modern consumers",
+                      "websites",
+                      "lower prices"
+                    ],
+                    "correctAnswer": "significant advantages for modern consumers"
+                  }
                 ],
                 "correctSentence": "On the one hand, online shopping offers significant advantages for modern consumers.",
                 "usableIn": "body-paragraph-1"
@@ -274,8 +425,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["traditional retail stores", "online shopping", "websites"], "correctAnswer": "traditional retail stores"},
-                  {"id": "topic2_b2", "options": ["crucial benefits that e-commerce cannot replicate", "buildings", "employment"], "correctAnswer": "crucial benefits that e-commerce cannot replicate"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "traditional retail stores",
+                      "online shopping",
+                      "websites"
+                    ],
+                    "correctAnswer": "traditional retail stores"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "crucial benefits that e-commerce cannot replicate",
+                      "buildings",
+                      "employment"
+                    ],
+                    "correctAnswer": "crucial benefits that e-commerce cannot replicate"
+                  }
                 ],
                 "correctSentence": "On the other hand, traditional retail stores provide crucial benefits that e-commerce cannot replicate.",
                 "usableIn": "body-paragraph-2"
@@ -285,8 +452,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["purchasing products online", "using computers", "browsing websites"], "correctAnswer": "purchasing products online"},
-                  {"id": "topic3_b2", "options": ["the convenience it provides to busy shoppers", "internet speed", "free delivery"], "correctAnswer": "the convenience it provides to busy shoppers"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "purchasing products online",
+                      "using computers",
+                      "browsing websites"
+                    ],
+                    "correctAnswer": "purchasing products online"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the convenience it provides to busy shoppers",
+                      "internet speed",
+                      "free delivery"
+                    ],
+                    "correctAnswer": "the convenience it provides to busy shoppers"
+                  }
                 ],
                 "correctSentence": "One significant advantage of purchasing products online is the convenience it provides to busy shoppers.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +479,24 @@
                 "type": "template",
                 "template": "A key benefit of _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["shopping in physical stores", "online browsing", "using apps"], "correctAnswer": "shopping in physical stores"},
-                  {"id": "topic4_b2", "options": ["customers can physically examine products before buying", "stores have parking", "employees are present"], "correctAnswer": "customers can physically examine products before buying"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "shopping in physical stores",
+                      "online browsing",
+                      "using apps"
+                    ],
+                    "correctAnswer": "shopping in physical stores"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "customers can physically examine products before buying",
+                      "stores have parking",
+                      "employees are present"
+                    ],
+                    "correctAnswer": "customers can physically examine products before buying"
+                  }
                 ],
                 "correctSentence": "A key benefit of shopping in physical stores is that customers can physically examine products before buying.",
                 "usableIn": "body-paragraph-2"
@@ -307,9 +506,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of e-commerce", "Some people", "Consumers"], "correctAnswer": "Supporters of e-commerce"},
-                  {"id": "topic5_b2", "options": ["the ability to shop anytime from anywhere", "internet connection", "credit cards"], "correctAnswer": "the ability to shop anytime from anywhere"},
-                  {"id": "topic5_b3", "options": ["meeting modern lifestyle demands", "buying products", "saving time"], "correctAnswer": "meeting modern lifestyle demands"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of e-commerce",
+                      "Some people",
+                      "Consumers"
+                    ],
+                    "correctAnswer": "Supporters of e-commerce"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "the ability to shop anytime from anywhere",
+                      "internet connection",
+                      "credit cards"
+                    ],
+                    "correctAnswer": "the ability to shop anytime from anywhere"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "meeting modern lifestyle demands",
+                      "buying products",
+                      "saving time"
+                    ],
+                    "correctAnswer": "meeting modern lifestyle demands"
+                  }
                 ],
                 "correctSentence": "Supporters of e-commerce argue that the ability to shop anytime from anywhere is essential for meeting modern lifestyle demands.",
                 "usableIn": "body-paragraph-1"
@@ -319,9 +542,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ enhances _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Advocates of traditional retail", "Everyone", "Store owners"], "correctAnswer": "Advocates of traditional retail"},
-                  {"id": "topic6_b2", "options": ["the tactile shopping experience in physical stores", "having buildings", "face-to-face service"], "correctAnswer": "the tactile shopping experience in physical stores"},
-                  {"id": "topic6_b3", "options": ["customer satisfaction and purchase confidence", "store profits", "employee wages"], "correctAnswer": "customer satisfaction and purchase confidence"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Advocates of traditional retail",
+                      "Everyone",
+                      "Store owners"
+                    ],
+                    "correctAnswer": "Advocates of traditional retail"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "the tactile shopping experience in physical stores",
+                      "having buildings",
+                      "face-to-face service"
+                    ],
+                    "correctAnswer": "the tactile shopping experience in physical stores"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "customer satisfaction and purchase confidence",
+                      "store profits",
+                      "employee wages"
+                    ],
+                    "correctAnswer": "customer satisfaction and purchase confidence"
+                  }
                 ],
                 "correctSentence": "Advocates of traditional retail contend that the tactile shopping experience in physical stores enhances customer satisfaction and purchase confidence.",
                 "usableIn": "body-paragraph-2"
@@ -331,8 +578,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["digital commerce platforms", "computers", "websites"], "correctAnswer": "digital commerce platforms"},
-                  {"id": "topic7_b2", "options": ["the extensive product selection available to consumers", "fast shipping", "lower costs"], "correctAnswer": "the extensive product selection available to consumers"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "digital commerce platforms",
+                      "computers",
+                      "websites"
+                    ],
+                    "correctAnswer": "digital commerce platforms"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "the extensive product selection available to consumers",
+                      "fast shipping",
+                      "lower costs"
+                    ],
+                    "correctAnswer": "the extensive product selection available to consumers"
+                  }
                 ],
                 "correctSentence": "The primary advantage of digital commerce platforms is the extensive product selection available to consumers.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +605,24 @@
                 "type": "template",
                 "template": "A major drawback of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["online purchasing", "physical stores", "shopping malls"], "correctAnswer": "online purchasing"},
-                  {"id": "topic8_b2", "options": ["the inability to physically inspect items before buying", "slow internet", "high prices"], "correctAnswer": "the inability to physically inspect items before buying"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "online purchasing",
+                      "physical stores",
+                      "shopping malls"
+                    ],
+                    "correctAnswer": "online purchasing"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the inability to physically inspect items before buying",
+                      "slow internet",
+                      "high prices"
+                    ],
+                    "correctAnswer": "the inability to physically inspect items before buying"
+                  }
                 ],
                 "correctSentence": "A major drawback of online purchasing is the inability to physically inspect items before buying.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +639,24 @@
                 "type": "template",
                 "template": "This is because _____ enables consumers to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["e-commerce", "the internet", "technology"], "correctAnswer": "e-commerce"},
-                  {"id": "support1_b2", "options": ["shop at any time without traveling to stores", "buy products", "use computers"], "correctAnswer": "shop at any time without traveling to stores"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "e-commerce",
+                      "the internet",
+                      "technology"
+                    ],
+                    "correctAnswer": "e-commerce"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "shop at any time without traveling to stores",
+                      "buy products",
+                      "use computers"
+                    ],
+                    "correctAnswer": "shop at any time without traveling to stores"
+                  }
                 ],
                 "correctSentence": "This is because e-commerce enables consumers to shop at any time without traveling to stores.",
                 "usableIn": "body-paragraph-1"
@@ -371,8 +666,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["physical product examination", "online browsing", "website viewing"], "correctAnswer": "physical product examination"},
-                  {"id": "support2_b2", "options": ["more informed purchasing decisions and fewer returns", "faster shopping", "better prices"], "correctAnswer": "more informed purchasing decisions and fewer returns"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "physical product examination",
+                      "online browsing",
+                      "website viewing"
+                    ],
+                    "correctAnswer": "physical product examination"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "more informed purchasing decisions and fewer returns",
+                      "faster shopping",
+                      "better prices"
+                    ],
+                    "correctAnswer": "more informed purchasing decisions and fewer returns"
+                  }
                 ],
                 "correctSentence": "The main reason is that physical product examination leads to more informed purchasing decisions and fewer returns.",
                 "usableIn": "body-paragraph-2"
@@ -382,9 +693,33 @@
                 "type": "template",
                 "template": "_____ allows shoppers to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Shopping online", "Physical stores", "Using apps"], "correctAnswer": "Shopping online"},
-                  {"id": "support3_b2", "options": ["compare prices across multiple retailers", "buy products", "spend money"], "correctAnswer": "compare prices across multiple retailers"},
-                  {"id": "support3_b3", "options": ["visiting numerous physical locations", "using internet", "paying extra"], "correctAnswer": "visiting numerous physical locations"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Shopping online",
+                      "Physical stores",
+                      "Using apps"
+                    ],
+                    "correctAnswer": "Shopping online"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "compare prices across multiple retailers",
+                      "buy products",
+                      "spend money"
+                    ],
+                    "correctAnswer": "compare prices across multiple retailers"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "visiting numerous physical locations",
+                      "using internet",
+                      "paying extra"
+                    ],
+                    "correctAnswer": "visiting numerous physical locations"
+                  }
                 ],
                 "correctSentence": "Shopping online allows shoppers to compare prices across multiple retailers without visiting numerous physical locations.",
                 "usableIn": "body-paragraph-1"
@@ -394,9 +729,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is crucial for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["In-store shopping", "Online shopping", "Technology"], "correctAnswer": "In-store shopping"},
-                  {"id": "support4_b2", "options": ["personal interaction with sales staff", "product browsing", "payment processing"], "correctAnswer": "personal interaction with sales staff"},
-                  {"id": "support4_b3", "options": ["obtaining expert advice and recommendations", "buying items", "spending money"], "correctAnswer": "obtaining expert advice and recommendations"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "In-store shopping",
+                      "Online shopping",
+                      "Technology"
+                    ],
+                    "correctAnswer": "In-store shopping"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "personal interaction with sales staff",
+                      "product browsing",
+                      "payment processing"
+                    ],
+                    "correctAnswer": "personal interaction with sales staff"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "obtaining expert advice and recommendations",
+                      "buying items",
+                      "spending money"
+                    ],
+                    "correctAnswer": "obtaining expert advice and recommendations"
+                  }
                 ],
                 "correctSentence": "In-store shopping fosters personal interaction with sales staff, which is crucial for obtaining expert advice and recommendations.",
                 "usableIn": "body-paragraph-2"
@@ -406,8 +765,24 @@
                 "type": "template",
                 "template": "By _____, online shoppers can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["reading customer reviews and ratings", "browsing websites", "using computers"], "correctAnswer": "reading customer reviews and ratings"},
-                  {"id": "support5_b2", "options": ["make well-informed purchasing choices", "buy faster", "save money"], "correctAnswer": "make well-informed purchasing choices"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "reading customer reviews and ratings",
+                      "browsing websites",
+                      "using computers"
+                    ],
+                    "correctAnswer": "reading customer reviews and ratings"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "make well-informed purchasing choices",
+                      "buy faster",
+                      "save money"
+                    ],
+                    "correctAnswer": "make well-informed purchasing choices"
+                  }
                 ],
                 "correctSentence": "By reading customer reviews and ratings, online shoppers can make well-informed purchasing choices.",
                 "usableIn": "body-paragraph-1"
@@ -417,9 +792,33 @@
                 "type": "template",
                 "template": "_____ strengthens _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Traditional retail", "Online shopping", "Technology"], "correctAnswer": "Traditional retail"},
-                  {"id": "support6_b2", "options": ["customer confidence", "store profits", "website traffic"], "correctAnswer": "customer confidence"},
-                  {"id": "support6_b3", "options": ["immediate product verification and quality assessment", "advertising", "discounts"], "correctAnswer": "immediate product verification and quality assessment"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Traditional retail",
+                      "Online shopping",
+                      "Technology"
+                    ],
+                    "correctAnswer": "Traditional retail"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "customer confidence",
+                      "store profits",
+                      "website traffic"
+                    ],
+                    "correctAnswer": "customer confidence"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "immediate product verification and quality assessment",
+                      "advertising",
+                      "discounts"
+                    ],
+                    "correctAnswer": "immediate product verification and quality assessment"
+                  }
                 ],
                 "correctSentence": "Traditional retail strengthens customer confidence through immediate product verification and quality assessment.",
                 "usableIn": "body-paragraph-2"
@@ -429,8 +828,24 @@
                 "type": "template",
                 "template": "Online retail contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["consumer cost savings", "faster delivery", "better products"], "correctAnswer": "consumer cost savings"},
-                  {"id": "support7_b2", "options": ["offering competitive prices through reduced overhead costs", "providing websites", "accepting payments"], "correctAnswer": "offering competitive prices through reduced overhead costs"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "consumer cost savings",
+                      "faster delivery",
+                      "better products"
+                    ],
+                    "correctAnswer": "consumer cost savings"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "offering competitive prices through reduced overhead costs",
+                      "providing websites",
+                      "accepting payments"
+                    ],
+                    "correctAnswer": "offering competitive prices through reduced overhead costs"
+                  }
                 ],
                 "correctSentence": "Online retail contributes to consumer cost savings by offering competitive prices through reduced overhead costs.",
                 "usableIn": "body-paragraph-1"
@@ -440,8 +855,24 @@
                 "type": "template",
                 "template": "Physical stores promote _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["social shopping experiences", "product sales", "customer traffic"], "correctAnswer": "social shopping experiences"},
-                  {"id": "support8_b2", "options": ["enhance overall consumer satisfaction and enjoyment", "increase profits", "require employees"], "correctAnswer": "enhance overall consumer satisfaction and enjoyment"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "social shopping experiences",
+                      "product sales",
+                      "customer traffic"
+                    ],
+                    "correctAnswer": "social shopping experiences"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "enhance overall consumer satisfaction and enjoyment",
+                      "increase profits",
+                      "require employees"
+                    ],
+                    "correctAnswer": "enhance overall consumer satisfaction and enjoyment"
+                  }
                 ],
                 "correctSentence": "Physical stores promote social shopping experiences that enhance overall consumer satisfaction and enjoyment.",
                 "usableIn": "body-paragraph-2"
@@ -451,9 +882,33 @@
                 "type": "template",
                 "template": "_____ provides shoppers with _____ over _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["E-commerce", "Physical retail", "Technology"], "correctAnswer": "E-commerce"},
-                  {"id": "support9_b2", "options": ["greater control", "less choice", "no benefits"], "correctAnswer": "greater control"},
-                  {"id": "support9_b3", "options": ["their shopping schedule and product selection", "store hours", "payment methods"], "correctAnswer": "their shopping schedule and product selection"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "E-commerce",
+                      "Physical retail",
+                      "Technology"
+                    ],
+                    "correctAnswer": "E-commerce"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "greater control",
+                      "less choice",
+                      "no benefits"
+                    ],
+                    "correctAnswer": "greater control"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "their shopping schedule and product selection",
+                      "store hours",
+                      "payment methods"
+                    ],
+                    "correctAnswer": "their shopping schedule and product selection"
+                  }
                 ],
                 "correctSentence": "E-commerce provides shoppers with greater control over their shopping schedule and product selection.",
                 "usableIn": "body-paragraph-1"
@@ -463,8 +918,24 @@
                 "type": "template",
                 "template": "In brick-and-mortar stores, _____ can _____ more readily.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["customers", "products", "employees"], "correctAnswer": "customers"},
-                  {"id": "support10_b2", "options": ["assess product quality and suitability", "pay money", "browse items"], "correctAnswer": "assess product quality and suitability"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "customers",
+                      "products",
+                      "employees"
+                    ],
+                    "correctAnswer": "customers"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "assess product quality and suitability",
+                      "pay money",
+                      "browse items"
+                    ],
+                    "correctAnswer": "assess product quality and suitability"
+                  }
                 ],
                 "correctSentence": "In brick-and-mortar stores, customers can assess product quality and suitability more readily.",
                 "usableIn": "body-paragraph-2"
@@ -474,8 +945,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["online consumers", "physical stores", "websites"], "correctAnswer": "online consumers"},
-                  {"id": "support11_b2", "options": ["greater convenience and time efficiency", "slower service", "higher prices"], "correctAnswer": "greater convenience and time efficiency"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "online consumers",
+                      "physical stores",
+                      "websites"
+                    ],
+                    "correctAnswer": "online consumers"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "greater convenience and time efficiency",
+                      "slower service",
+                      "higher prices"
+                    ],
+                    "correctAnswer": "greater convenience and time efficiency"
+                  }
                 ],
                 "correctSentence": "As a result, online consumers experience greater convenience and time efficiency.",
                 "usableIn": "body-paragraph-1"
@@ -485,8 +972,24 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ in physical retail environments.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["customer satisfaction", "product cost", "delivery speed"], "correctAnswer": "customer satisfaction"},
-                  {"id": "support12_b2", "options": ["higher for products requiring tactile evaluation", "lower for all items", "irrelevant to purchases"], "correctAnswer": "higher for products requiring tactile evaluation"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "customer satisfaction",
+                      "product cost",
+                      "delivery speed"
+                    ],
+                    "correctAnswer": "customer satisfaction"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "higher for products requiring tactile evaluation",
+                      "lower for all items",
+                      "irrelevant to purchases"
+                    ],
+                    "correctAnswer": "higher for products requiring tactile evaluation"
+                  }
                 ],
                 "correctSentence": "Consequently, customer satisfaction tends to be higher for products requiring tactile evaluation in physical retail environments.",
                 "usableIn": "body-paragraph-2"
@@ -503,9 +1006,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["online shoppers", "physical stores", "websites"], "correctAnswer": "online shoppers"},
-                  {"id": "example1_b2", "options": ["purchase groceries at midnight", "browse products", "use computers"], "correctAnswer": "purchase groceries at midnight"},
-                  {"id": "example1_b3", "options": ["avoiding crowded stores during peak hours", "spending money", "reading reviews"], "correctAnswer": "avoiding crowded stores during peak hours"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "online shoppers",
+                      "physical stores",
+                      "websites"
+                    ],
+                    "correctAnswer": "online shoppers"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "purchase groceries at midnight",
+                      "browse products",
+                      "use computers"
+                    ],
+                    "correctAnswer": "purchase groceries at midnight"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "avoiding crowded stores during peak hours",
+                      "spending money",
+                      "reading reviews"
+                    ],
+                    "correctAnswer": "avoiding crowded stores during peak hours"
+                  }
                 ],
                 "correctSentence": "For instance, online shoppers can purchase groceries at midnight while avoiding crowded stores during peak hours.",
                 "usableIn": "body-paragraph-1"
@@ -515,9 +1042,33 @@
                 "type": "template",
                 "template": "For example, _____ often require _____ that are best provided _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["clothing and footwear purchases", "online orders", "website transactions"], "correctAnswer": "clothing and footwear purchases"},
-                  {"id": "example2_b2", "options": ["fitting and fabric assessment", "credit cards", "shipping addresses"], "correctAnswer": "fitting and fabric assessment"},
-                  {"id": "example2_b3", "options": ["in physical stores with changing rooms", "through websites", "by email"], "correctAnswer": "in physical stores with changing rooms"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "clothing and footwear purchases",
+                      "online orders",
+                      "website transactions"
+                    ],
+                    "correctAnswer": "clothing and footwear purchases"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "fitting and fabric assessment",
+                      "credit cards",
+                      "shipping addresses"
+                    ],
+                    "correctAnswer": "fitting and fabric assessment"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "in physical stores with changing rooms",
+                      "through websites",
+                      "by email"
+                    ],
+                    "correctAnswer": "in physical stores with changing rooms"
+                  }
                 ],
                 "correctSentence": "For example, clothing and footwear purchases often require fitting and fabric assessment that are best provided in physical stores with changing rooms.",
                 "usableIn": "body-paragraph-2"
@@ -527,10 +1078,42 @@
                 "type": "template",
                 "template": "Specifically, _____ can browse _____ from _____ without _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["digital consumers", "physical shoppers", "store employees"], "correctAnswer": "digital consumers"},
-                  {"id": "example3_b2", "options": ["thousands of products across multiple retailers", "store shelves", "shopping malls"], "correctAnswer": "thousands of products across multiple retailers"},
-                  {"id": "example3_b3", "options": ["their homes or offices", "shopping centers", "physical locations"], "correctAnswer": "their homes or offices"},
-                  {"id": "example3_b4", "options": ["spending time commuting or parking", "using internet", "paying extra"], "correctAnswer": "spending time commuting or parking"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "digital consumers",
+                      "physical shoppers",
+                      "store employees"
+                    ],
+                    "correctAnswer": "digital consumers"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "thousands of products across multiple retailers",
+                      "store shelves",
+                      "shopping malls"
+                    ],
+                    "correctAnswer": "thousands of products across multiple retailers"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "their homes or offices",
+                      "shopping centers",
+                      "physical locations"
+                    ],
+                    "correctAnswer": "their homes or offices"
+                  },
+                  {
+                    "id": "example3_b4",
+                    "options": [
+                      "spending time commuting or parking",
+                      "using internet",
+                      "paying extra"
+                    ],
+                    "correctAnswer": "spending time commuting or parking"
+                  }
                 ],
                 "correctSentence": "Specifically, digital consumers can browse thousands of products across multiple retailers from their homes or offices without spending time commuting or parking.",
                 "usableIn": "body-paragraph-1"
@@ -540,8 +1123,24 @@
                 "type": "template",
                 "template": "Research shows that _____ increase when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["return rates", "store profits", "website visits"], "correctAnswer": "return rates"},
-                  {"id": "example4_b2", "options": ["customers cannot physically examine products before purchase", "prices are low", "stores have sales"], "correctAnswer": "customers cannot physically examine products before purchase"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "return rates",
+                      "store profits",
+                      "website visits"
+                    ],
+                    "correctAnswer": "return rates"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "customers cannot physically examine products before purchase",
+                      "prices are low",
+                      "stores have sales"
+                    ],
+                    "correctAnswer": "customers cannot physically examine products before purchase"
+                  }
                 ],
                 "correctSentence": "Research shows that return rates increase when customers cannot physically examine products before purchase.",
                 "usableIn": "body-paragraph-2"
@@ -551,9 +1150,33 @@
                 "type": "template",
                 "template": "A study by _____ found that _____ reported _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Deloitte", "a small shop", "my neighbor"], "correctAnswer": "Deloitte"},
-                  {"id": "example5_b2", "options": ["online retailers", "physical stores", "shopping malls"], "correctAnswer": "online retailers"},
-                  {"id": "example5_b3", "options": ["30% lower operating costs than traditional stores", "higher prices", "fewer customers"], "correctAnswer": "30% lower operating costs than traditional stores"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Deloitte",
+                      "a small shop",
+                      "my neighbor"
+                    ],
+                    "correctAnswer": "Deloitte"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "online retailers",
+                      "physical stores",
+                      "shopping malls"
+                    ],
+                    "correctAnswer": "online retailers"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "30% lower operating costs than traditional stores",
+                      "higher prices",
+                      "fewer customers"
+                    ],
+                    "correctAnswer": "30% lower operating costs than traditional stores"
+                  }
                 ],
                 "correctSentence": "A study by Deloitte found that online retailers reported 30% lower operating costs than traditional stores.",
                 "usableIn": "body-paragraph-1"
@@ -563,9 +1186,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ benefit significantly from _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["product categories", "websites", "stores"], "correctAnswer": "product categories"},
-                  {"id": "example6_b2", "options": ["furniture and cosmetics", "books and pens", "digital downloads"], "correctAnswer": "furniture and cosmetics"},
-                  {"id": "example6_b3", "options": ["in-person evaluation before purchase", "online shopping only", "fast delivery"], "correctAnswer": "in-person evaluation before purchase"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "product categories",
+                      "websites",
+                      "stores"
+                    ],
+                    "correctAnswer": "product categories"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "furniture and cosmetics",
+                      "books and pens",
+                      "digital downloads"
+                    ],
+                    "correctAnswer": "furniture and cosmetics"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "in-person evaluation before purchase",
+                      "online shopping only",
+                      "fast delivery"
+                    ],
+                    "correctAnswer": "in-person evaluation before purchase"
+                  }
                 ],
                 "correctSentence": "In particular, product categories such as furniture and cosmetics benefit significantly from in-person evaluation before purchase.",
                 "usableIn": "body-paragraph-2"
@@ -575,9 +1222,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have reported that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["e-commerce platforms", "physical stores", "shopping malls"], "correctAnswer": "e-commerce platforms"},
-                  {"id": "example7_b2", "options": ["Amazon and Alibaba", "local shops", "small businesses"], "correctAnswer": "Amazon and Alibaba"},
-                  {"id": "example7_b3", "options": ["customer convenience drives increasing sales growth", "stores are closing", "prices are rising"], "correctAnswer": "customer convenience drives increasing sales growth"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "e-commerce platforms",
+                      "physical stores",
+                      "shopping malls"
+                    ],
+                    "correctAnswer": "e-commerce platforms"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "Amazon and Alibaba",
+                      "local shops",
+                      "small businesses"
+                    ],
+                    "correctAnswer": "Amazon and Alibaba"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "customer convenience drives increasing sales growth",
+                      "stores are closing",
+                      "prices are rising"
+                    ],
+                    "correctAnswer": "customer convenience drives increasing sales growth"
+                  }
                 ],
                 "correctSentence": "Many e-commerce platforms, including Amazon and Alibaba, have reported that customer convenience drives increasing sales growth.",
                 "usableIn": "body-paragraph-1"
@@ -587,9 +1258,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ relies heavily on _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the jewelry industry", "online shopping", "website design"], "correctAnswer": "the jewelry industry"},
-                  {"id": "example8_b2", "options": ["customer purchase confidence", "store profits", "website traffic"], "correctAnswer": "customer purchase confidence"},
-                  {"id": "example8_b3", "options": ["in-person inspection to verify authenticity and quality", "online sales only", "fast shipping"], "correctAnswer": "in-person inspection to verify authenticity and quality"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the jewelry industry",
+                      "online shopping",
+                      "website design"
+                    ],
+                    "correctAnswer": "the jewelry industry"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "customer purchase confidence",
+                      "store profits",
+                      "website traffic"
+                    ],
+                    "correctAnswer": "customer purchase confidence"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "in-person inspection to verify authenticity and quality",
+                      "online sales only",
+                      "fast shipping"
+                    ],
+                    "correctAnswer": "in-person inspection to verify authenticity and quality"
+                  }
                 ],
                 "correctSentence": "Take the jewelry industry as an example: customer purchase confidence relies heavily on in-person inspection to verify authenticity and quality.",
                 "usableIn": "body-paragraph-2"
@@ -599,8 +1294,24 @@
                 "type": "template",
                 "template": "According to _____, consumers who shop online _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["recent consumer surveys", "old reports", "random opinions"], "correctAnswer": "recent consumer surveys"},
-                  {"id": "example9_b2", "options": ["save an average of 8 hours per month", "spend more money", "buy fewer items"], "correctAnswer": "save an average of 8 hours per month"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "recent consumer surveys",
+                      "old reports",
+                      "random opinions"
+                    ],
+                    "correctAnswer": "recent consumer surveys"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "save an average of 8 hours per month",
+                      "spend more money",
+                      "buy fewer items"
+                    ],
+                    "correctAnswer": "save an average of 8 hours per month"
+                  }
                 ],
                 "correctSentence": "According to recent consumer surveys, consumers who shop online save an average of 8 hours per month.",
                 "usableIn": "body-paragraph-1"
@@ -610,8 +1321,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ is more effective when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["luxury goods purchasing", "online browsing", "price comparison"], "correctAnswer": "luxury goods purchasing"},
-                  {"id": "example10_b2", "options": ["customers can experience products in person", "prices are discounted", "websites load faster"], "correctAnswer": "customers can experience products in person"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "luxury goods purchasing",
+                      "online browsing",
+                      "price comparison"
+                    ],
+                    "correctAnswer": "luxury goods purchasing"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "customers can experience products in person",
+                      "prices are discounted",
+                      "websites load faster"
+                    ],
+                    "correctAnswer": "customers can experience products in person"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that luxury goods purchasing is more effective when customers can experience products in person.",
                 "usableIn": "body-paragraph-2"
@@ -628,8 +1355,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may lead to _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive online shopping", "physical stores", "browsing websites"], "correctAnswer": "excessive online shopping"},
-                  {"id": "counter1_b2", "options": ["impulse purchases and buyer's remorse", "better decisions", "higher satisfaction"], "correctAnswer": "impulse purchases and buyer's remorse"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive online shopping",
+                      "physical stores",
+                      "browsing websites"
+                    ],
+                    "correctAnswer": "excessive online shopping"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "impulse purchases and buyer's remorse",
+                      "better decisions",
+                      "higher satisfaction"
+                    ],
+                    "correctAnswer": "impulse purchases and buyer's remorse"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that excessive online shopping may lead to impulse purchases and buyer's remorse.",
                 "usableIn": "body-paragraph-2"
@@ -639,8 +1382,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["purchasing online", "physical shopping", "visiting stores"], "correctAnswer": "purchasing online"},
-                  {"id": "counter2_b2", "options": ["delayed delivery and product mismatch issues", "better service", "lower prices"], "correctAnswer": "delayed delivery and product mismatch issues"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "purchasing online",
+                      "physical shopping",
+                      "visiting stores"
+                    ],
+                    "correctAnswer": "purchasing online"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "delayed delivery and product mismatch issues",
+                      "better service",
+                      "lower prices"
+                    ],
+                    "correctAnswer": "delayed delivery and product mismatch issues"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, purchasing online can present challenges such as delayed delivery and product mismatch issues.",
                 "usableIn": "body-paragraph-1"
@@ -650,8 +1409,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that not all consumers possess.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["successful online shopping", "physical shopping", "store visits"], "correctAnswer": "successful online shopping"},
-                  {"id": "counter3_b2", "options": ["digital literacy and internet access", "a car", "cash money"], "correctAnswer": "digital literacy and internet access"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "successful online shopping",
+                      "physical shopping",
+                      "store visits"
+                    ],
+                    "correctAnswer": "successful online shopping"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "digital literacy and internet access",
+                      "a car",
+                      "cash money"
+                    ],
+                    "correctAnswer": "digital literacy and internet access"
+                  }
                 ],
                 "correctSentence": "Nevertheless, successful online shopping requires digital literacy and internet access that not all consumers possess.",
                 "usableIn": "body-paragraph-1"
@@ -661,9 +1436,33 @@
                 "type": "template",
                 "template": "Although _____ offers benefits, it also involves _____ that _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["traditional retail shopping", "online shopping", "e-commerce"], "correctAnswer": "traditional retail shopping"},
-                  {"id": "counter4_b2", "options": ["time and transportation costs", "better products", "lower prices"], "correctAnswer": "time and transportation costs"},
-                  {"id": "counter4_b3", "options": ["reduce overall convenience for busy consumers", "improve satisfaction", "increase savings"], "correctAnswer": "reduce overall convenience for busy consumers"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "traditional retail shopping",
+                      "online shopping",
+                      "e-commerce"
+                    ],
+                    "correctAnswer": "traditional retail shopping"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "time and transportation costs",
+                      "better products",
+                      "lower prices"
+                    ],
+                    "correctAnswer": "time and transportation costs"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "reduce overall convenience for busy consumers",
+                      "improve satisfaction",
+                      "increase savings"
+                    ],
+                    "correctAnswer": "reduce overall convenience for busy consumers"
+                  }
                 ],
                 "correctSentence": "Although traditional retail shopping offers benefits, it also involves time and transportation costs that reduce overall convenience for busy consumers.",
                 "usableIn": "body-paragraph-2"
@@ -673,8 +1472,24 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____ if not carefully managed.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["online purchasing habits", "physical stores", "shopping malls"], "correctAnswer": "online purchasing habits"},
-                  {"id": "counter5_b2", "options": ["lead to overspending and financial difficulties", "improve budgeting", "increase savings"], "correctAnswer": "lead to overspending and financial difficulties"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "online purchasing habits",
+                      "physical stores",
+                      "shopping malls"
+                    ],
+                    "correctAnswer": "online purchasing habits"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "lead to overspending and financial difficulties",
+                      "improve budgeting",
+                      "increase savings"
+                    ],
+                    "correctAnswer": "lead to overspending and financial difficulties"
+                  }
                 ],
                 "correctSentence": "Critics point out that online purchasing habits can lead to overspending and financial difficulties if not carefully managed.",
                 "usableIn": "body-paragraph-2"
@@ -691,8 +1506,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both shopping methods have distinct advantages", "online shopping is perfect", "stores are obsolete"], "correctAnswer": "both shopping methods have distinct advantages"},
-                  {"id": "conclusion1_b2", "options": ["the ideal approach depends on product type and personal preferences", "everyone should shop online", "physical stores should close"], "correctAnswer": "the ideal approach depends on product type and personal preferences"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both shopping methods have distinct advantages",
+                      "online shopping is perfect",
+                      "stores are obsolete"
+                    ],
+                    "correctAnswer": "both shopping methods have distinct advantages"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the ideal approach depends on product type and personal preferences",
+                      "everyone should shop online",
+                      "physical stores should close"
+                    ],
+                    "correctAnswer": "the ideal approach depends on product type and personal preferences"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both shopping methods have distinct advantages, I believe the ideal approach depends on product type and personal preferences.",
                 "usableIn": "conclusion"
@@ -702,10 +1533,42 @@
                 "type": "template",
                 "template": "Overall, _____ offers _____, whereas _____ provides _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["online shopping", "technology", "the internet"], "correctAnswer": "online shopping"},
-                  {"id": "conclusion2_b2", "options": ["convenience and competitive pricing", "websites", "apps"], "correctAnswer": "convenience and competitive pricing"},
-                  {"id": "conclusion2_b3", "options": ["traditional retail", "browsing", "payment"], "correctAnswer": "traditional retail"},
-                  {"id": "conclusion2_b4", "options": ["tactile experiences and immediate gratification", "buildings", "parking"], "correctAnswer": "tactile experiences and immediate gratification"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "online shopping",
+                      "technology",
+                      "the internet"
+                    ],
+                    "correctAnswer": "online shopping"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "convenience and competitive pricing",
+                      "websites",
+                      "apps"
+                    ],
+                    "correctAnswer": "convenience and competitive pricing"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "traditional retail",
+                      "browsing",
+                      "payment"
+                    ],
+                    "correctAnswer": "traditional retail"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "tactile experiences and immediate gratification",
+                      "buildings",
+                      "parking"
+                    ],
+                    "correctAnswer": "tactile experiences and immediate gratification"
+                  }
                 ],
                 "correctSentence": "Overall, online shopping offers convenience and competitive pricing, whereas traditional retail provides tactile experiences and immediate gratification.",
                 "usableIn": "conclusion"
@@ -715,8 +1578,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends largely on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the choice between these shopping methods", "consumer behavior", "store locations"], "correctAnswer": "the choice between these shopping methods"},
-                  {"id": "conclusion3_b2", "options": ["the specific product category and individual priorities", "internet speed", "store hours"], "correctAnswer": "the specific product category and individual priorities"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the choice between these shopping methods",
+                      "consumer behavior",
+                      "store locations"
+                    ],
+                    "correctAnswer": "the choice between these shopping methods"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "the specific product category and individual priorities",
+                      "internet speed",
+                      "store hours"
+                    ],
+                    "correctAnswer": "the specific product category and individual priorities"
+                  }
                 ],
                 "correctSentence": "To summarize, the choice between these shopping methods depends largely on the specific product category and individual priorities.",
                 "usableIn": "conclusion"
@@ -726,9 +1605,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should consider _____ when deciding _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["consumers", "store owners", "websites"], "correctAnswer": "consumers"},
-                  {"id": "conclusion4_b2", "options": ["their specific needs and product requirements", "store locations", "delivery times"], "correctAnswer": "their specific needs and product requirements"},
-                  {"id": "conclusion4_b3", "options": ["between online and traditional shopping", "payment methods", "shopping hours"], "correctAnswer": "between online and traditional shopping"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "consumers",
+                      "store owners",
+                      "websites"
+                    ],
+                    "correctAnswer": "consumers"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "their specific needs and product requirements",
+                      "store locations",
+                      "delivery times"
+                    ],
+                    "correctAnswer": "their specific needs and product requirements"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "between online and traditional shopping",
+                      "payment methods",
+                      "shopping hours"
+                    ],
+                    "correctAnswer": "between online and traditional shopping"
+                  }
                 ],
                 "correctSentence": "Ultimately, consumers should consider their specific needs and product requirements when deciding between online and traditional shopping.",
                 "usableIn": "conclusion"
@@ -738,8 +1641,24 @@
                 "type": "template",
                 "template": "In my view, _____ represents the most effective solution because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["combining both shopping approaches", "online shopping only", "avoiding stores completely"], "correctAnswer": "combining both shopping approaches"},
-                  {"id": "conclusion5_b2", "options": ["it leverages the strengths of each method", "it's cheaper", "everyone prefers it"], "correctAnswer": "it leverages the strengths of each method"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "combining both shopping approaches",
+                      "online shopping only",
+                      "avoiding stores completely"
+                    ],
+                    "correctAnswer": "combining both shopping approaches"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it leverages the strengths of each method",
+                      "it's cheaper",
+                      "everyone prefers it"
+                    ],
+                    "correctAnswer": "it leverages the strengths of each method"
+                  }
                 ],
                 "correctSentence": "In my view, combining both shopping approaches represents the most effective solution because it leverages the strengths of each method.",
                 "usableIn": "conclusion"
@@ -792,12 +1711,46 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of online shopping argue that", "Advocates of e-commerce contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Proponents of traditional retail argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Besides"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as", "Specifically"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "In contrast"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of online shopping argue that",
+            "Advocates of e-commerce contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Proponents of traditional retail argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Besides"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "Specifically"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "Hence"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "In contrast"
+          ]
         }
       }
     },
@@ -969,13 +1922,13 @@
     }
   ],
   "modelEssay": {
-    "text": "Consumers today have divergent preferences regarding shopping methods. While some favor the convenience of online platforms, others contend that brick-and-mortar stores provide superior experiences. In my view, the optimal approach depends largely on the product category being purchased.\n\nOn the one hand, e-commerce offers substantial advantages for modern consumers. Digital platforms enable shoppers to browse thousands of products across multiple retailers without leaving their homes, facilitating instantaneous price comparisons. For instance, someone purchasing electronics can evaluate specifications and prices from ten different vendors within minutes, ensuring they secure the best value. Furthermore, online shopping eliminates commuting time and parking hassles, which is particularly beneficial for busy professionals. Consequently, this method delivers exceptional convenience and cost efficiency.\n\nOn the other hand, traditional retail stores provide crucial benefits that digital platforms cannot replicate. Physical shopping allows customers to examine product quality, assess tactile characteristics, and verify authenticity before committing to purchase. This is particularly important for items such as clothing, where proper fit is essential, or furniture, where comfort and dimensions must be evaluated personally. Moreover, in-store shopping offers immediate gratification through instant product acquisition, whereas online purchases require delivery waiting periods. These tangible experiences significantly reduce return rates and enhance customer confidence.\n\nIn conclusion, while online shopping excels in convenience and competitive pricing, traditional retail provides superior tactile assessment opportunities. Ultimately, consumers should select their shopping method based on product requirements, purchasing technical items online while evaluating tactile products in physical stores for optimal satisfaction.",
-    "wordCount": 276,
+    "text": "Consumers today have divergent preferences regarding shopping methods. While some favor the convenience of online platforms, others contend that brick-and-mortar stores provide superior experiences. In my view, the optimal approach depends largely on the product category being purchased.\n\nOn the one hand, e-commerce offers substantial advantages for modern consumers. Digital platforms allow shoppers to browse thousands of products across multiple retailers without leaving their homes, facilitating instantaneous price comparisons. For instance, someone purchasing electronics can evaluate specifications and prices from ten different vendors within minutes, ensuring they secure the best value. Furthermore, online shopping eliminates commuting time and parking hassles, which is particularly beneficial for busy professionals. Consequently, this method delivers exceptional convenience and cost efficiency.\n\nOn the other hand, traditional retail stores provide crucial benefits that digital platforms cannot replicate. Physical shopping allows customers to examine product quality, assess tactile characteristics, and verify authenticity before committing to purchase. This is particularly important for items such as clothing, where proper fit is essential, or furniture, where comfort and dimensions must be evaluated personally. Moreover, in-store shopping offers immediate gratification through instant product acquisition, whereas online purchases require delivery waiting periods. These tangible experiences significantly reduce return rates and enhance customer confidence.\n\nIn conclusion, while online shopping excels in convenience and competitive pricing, traditional retail provides superior tactile assessment opportunities and immediate gratification. Ultimately, informed consumers should carefully select their shopping method based on specific product requirements, purchasing technical items online while evaluating tactile products in physical stores for optimal satisfaction and value.",
+    "wordCount": 252,
     "structure": {
       "introduction": "Consumers today have divergent preferences regarding shopping methods. While some favor the convenience of online platforms, others contend that brick-and-mortar stores provide superior experiences. In my view, the optimal approach depends largely on the product category being purchased.",
-      "body1": "On the one hand, e-commerce offers substantial advantages for modern consumers. Digital platforms enable shoppers to browse thousands of products across multiple retailers without leaving their homes, facilitating instantaneous price comparisons. For instance, someone purchasing electronics can evaluate specifications and prices from ten different vendors within minutes, ensuring they secure the best value. Furthermore, online shopping eliminates commuting time and parking hassles, which is particularly beneficial for busy professionals. Consequently, this method delivers exceptional convenience and cost efficiency.",
+      "body1": "On the one hand, e-commerce offers substantial advantages for modern consumers. Digital platforms allow shoppers to browse thousands of products across multiple retailers without leaving their homes, facilitating instantaneous price comparisons. For instance, someone purchasing electronics can evaluate specifications and prices from ten different vendors within minutes, ensuring they secure the best value. Furthermore, online shopping eliminates commuting time and parking hassles, which is particularly beneficial for busy professionals. Consequently, this method delivers exceptional convenience and cost efficiency.",
       "body2": "On the other hand, traditional retail stores provide crucial benefits that digital platforms cannot replicate. Physical shopping allows customers to examine product quality, assess tactile characteristics, and verify authenticity before committing to purchase. This is particularly important for items such as clothing, where proper fit is essential, or furniture, where comfort and dimensions must be evaluated personally. Moreover, in-store shopping offers immediate gratification through instant product acquisition, whereas online purchases require delivery waiting periods. These tangible experiences significantly reduce return rates and enhance customer confidence.",
-      "conclusion": "In conclusion, while online shopping excels in convenience and competitive pricing, traditional retail provides superior tactile assessment opportunities. Ultimately, consumers should select their shopping method based on product requirements, purchasing technical items online while evaluating tactile products in physical stores for optimal satisfaction."
+      "conclusion": "In conclusion, while online shopping excels in convenience and competitive pricing, traditional retail provides superior tactile assessment opportunities and immediate gratification. Ultimately, informed consumers should carefully select their shopping method based on specific product requirements, purchasing technical items online while evaluating tactile products in physical stores for optimal satisfaction and value."
     },
     "highlights": [
       {

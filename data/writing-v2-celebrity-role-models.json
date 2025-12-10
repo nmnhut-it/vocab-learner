@@ -80,105 +80,166 @@
             "word": "emulate",
             "pronunciation": "/ˈemjuleɪt/",
             "partOfSpeech": "verb",
-            "definition": "To copy or imitate someone's behavior",
+            "definition": "To copy or imitate someone's behavior.",
             "example": "Many teenagers emulate the fashion choices of their favorite celebrities.",
-            "synonyms": ["imitate", "mimic", "replicate"]
+            "synonyms": [
+              "imitate",
+              "mimic",
+              "replicate"
+            ]
           },
           {
             "word": "admiration",
             "pronunciation": "/ˌædməˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Respect and warm approval for someone",
+            "definition": "Respect and warm approval for someone.",
             "example": "Public admiration for celebrities can influence youth behavior significantly.",
-            "synonyms": ["respect", "reverence", "esteem"]
+            "synonyms": [
+              "respect",
+              "reverence",
+              "esteem"
+            ]
           },
           {
             "word": "aspire",
             "pronunciation": "/əˈspaɪə/",
             "partOfSpeech": "verb",
-            "definition": "To have strong desire to achieve something",
+            "definition": "To have strong desire to achieve something.",
             "example": "Young people aspire to achieve the success they see in celebrities.",
-            "synonyms": ["aim", "strive", "hope"]
+            "synonyms": [
+              "aim",
+              "strive",
+              "hope"
+            ]
           },
           {
             "word": "detrimental",
             "pronunciation": "/ˌdetrɪˈmentl/",
             "partOfSpeech": "adjective",
-            "definition": "Harmful or damaging",
+            "definition": "Harmful or damaging.",
             "example": "Celebrity culture can be detrimental to young people's self-esteem.",
-            "synonyms": ["harmful", "damaging", "negative"]
+            "synonyms": [
+              "harmful",
+              "damaging",
+              "negative"
+            ]
           },
           {
             "word": "superficial",
             "pronunciation": "/ˌsuːpəˈfɪʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Lacking depth, concerned only with surface appearance",
+            "definition": "Lacking depth, concerned only with surface appearance.",
             "example": "Many celebrities promote superficial values focused on appearance and wealth.",
-            "synonyms": ["shallow", "surface-level", "trivial"]
+            "synonyms": [
+              "shallow",
+              "surface-level",
+              "trivial"
+            ]
           },
           {
             "word": "exemplify",
             "pronunciation": "/ɪɡˈzemplɪfaɪ/",
             "partOfSpeech": "verb",
-            "definition": "To serve as a typical example of something",
+            "definition": "To serve as a typical example of something.",
             "example": "Some athletes exemplify dedication and hard work for young people.",
-            "synonyms": ["illustrate", "demonstrate", "represent"]
+            "synonyms": [
+              "illustrate",
+              "demonstrate",
+              "represent"
+            ]
           },
           {
             "word": "impressionable",
             "pronunciation": "/ɪmˈpreʃənəbl/",
             "partOfSpeech": "adjective",
-            "definition": "Easily influenced because of youth or inexperience",
+            "definition": "Easily influenced because of youth or inexperience.",
             "example": "Impressionable teenagers are particularly vulnerable to celebrity influence.",
-            "synonyms": ["susceptible", "suggestible", "vulnerable"]
+            "synonyms": [
+              "susceptible",
+              "suggestible",
+              "vulnerable"
+            ]
           },
           {
             "word": "phenomenon",
             "pronunciation": "/fəˈnɒmɪnən/",
             "partOfSpeech": "noun",
-            "definition": "A remarkable event or situation",
+            "definition": "A remarkable event or situation.",
             "example": "Celebrity worship is a widespread phenomenon in modern society.",
-            "synonyms": ["occurrence", "trend", "development"]
+            "synonyms": [
+              "occurrence",
+              "trend",
+              "development"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "social media presence",
-            "definition": "Someone's activity and visibility on social platforms",
+            "definition": "Someone's activity and visibility on social platforms.",
             "example": "Celebrities with large social media presence influence millions of young followers."
           },
           {
             "phrase": "philanthropic work",
-            "definition": "Charitable activities to help others",
+            "definition": "Charitable activities to help others.",
             "example": "Some celebrities inspire youth through their philanthropic work and charitable donations."
           },
           {
             "phrase": "unrealistic expectations",
-            "definition": "Standards or goals that are impossible to achieve",
+            "definition": "Standards or goals that are impossible to achieve.",
             "example": "Celebrity lifestyles create unrealistic expectations about success and appearance."
           },
           {
             "phrase": "moral compass",
-            "definition": "Internal sense of right and wrong",
+            "definition": "Internal sense of right and wrong.",
             "example": "Young people need positive role models to develop their moral compass."
           },
           {
             "phrase": "public figure",
-            "definition": "A person widely known and recognized in society",
+            "definition": "A person widely known and recognized in society.",
             "example": "Public figures have a responsibility to set good examples for youth."
           },
           {
             "phrase": "personal values",
-            "definition": "Principles and beliefs that guide behavior",
+            "definition": "Principles and beliefs that guide behavior.",
             "example": "Celebrity culture can overshadow the importance of developing personal values."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In today's society", "The phenomenon of", "There is growing concern about", "Celebrity culture has become"],
-          "contrasting": ["On the positive side", "However", "Conversely", "On the negative side", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Equally important"],
-          "exemplifying": ["For instance", "For example", "Take the case of", "A clear example is", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance", "Taking everything into account"]
+          "introducing": [
+            "In today's society",
+            "The phenomenon of",
+            "There is growing concern about",
+            "Celebrity culture has become"
+          ],
+          "contrasting": [
+            "On the positive side",
+            "However",
+            "Conversely",
+            "On the negative side",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Equally important"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Take the case of",
+            "A clear example is",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance",
+            "Taking everything into account"
+          ]
         }
       }
     },
@@ -201,9 +262,33 @@
                 "type": "template",
                 "template": "While _____ can _____, I believe this trend is _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["celebrity influence", "social media", "young people"], "correctAnswer": "celebrity influence"},
-                  {"id": "thesis1_b2", "options": ["have both positive and negative effects", "be popular", "make money"], "correctAnswer": "have both positive and negative effects"},
-                  {"id": "thesis1_b3", "options": ["largely negative for young people", "completely good", "not important"], "correctAnswer": "largely negative for young people"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "celebrity influence",
+                      "social media",
+                      "young people"
+                    ],
+                    "correctAnswer": "celebrity influence"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "have both positive and negative effects",
+                      "be popular",
+                      "make money"
+                    ],
+                    "correctAnswer": "have both positive and negative effects"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "largely negative for young people",
+                      "completely good",
+                      "not important"
+                    ],
+                    "correctAnswer": "largely negative for young people"
+                  }
                 ],
                 "correctSentence": "While celebrity influence can have both positive and negative effects, I believe this trend is largely negative for young people.",
                 "usableIn": "introduction"
@@ -213,8 +298,24 @@
                 "type": "template",
                 "template": "In my opinion, the growing influence of _____ on youth is _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["celebrities as role models", "television shows", "social media apps"], "correctAnswer": "celebrities as role models"},
-                  {"id": "thesis2_b2", "options": ["predominantly positive despite some drawbacks", "always beneficial", "unimportant"], "correctAnswer": "predominantly positive despite some drawbacks"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "celebrities as role models",
+                      "television shows",
+                      "social media apps"
+                    ],
+                    "correctAnswer": "celebrities as role models"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "predominantly positive despite some drawbacks",
+                      "always beneficial",
+                      "unimportant"
+                    ],
+                    "correctAnswer": "predominantly positive despite some drawbacks"
+                  }
                 ],
                 "correctSentence": "In my opinion, the growing influence of celebrities as role models on youth is predominantly positive despite some drawbacks.",
                 "usableIn": "introduction"
@@ -224,8 +325,24 @@
                 "type": "template",
                 "template": "This essay will argue that celebrity influence on the young is _____ because _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["more harmful than beneficial", "always good", "not significant"], "correctAnswer": "more harmful than beneficial"},
-                  {"id": "thesis3_b2", "options": ["it promotes superficial values over genuine achievement", "celebrities are famous", "young people like it"], "correctAnswer": "it promotes superficial values over genuine achievement"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "more harmful than beneficial",
+                      "always good",
+                      "not significant"
+                    ],
+                    "correctAnswer": "more harmful than beneficial"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "it promotes superficial values over genuine achievement",
+                      "celebrities are famous",
+                      "young people like it"
+                    ],
+                    "correctAnswer": "it promotes superficial values over genuine achievement"
+                  }
                 ],
                 "correctSentence": "This essay will argue that celebrity influence on the young is more harmful than beneficial because it promotes superficial values over genuine achievement.",
                 "usableIn": "introduction"
@@ -235,8 +352,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ represents _____ for society.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["the trend of celebrities as youth role models", "watching television", "using social media"], "correctAnswer": "the trend of celebrities as youth role models"},
-                  {"id": "thesis4_b2", "options": ["a positive development with transformative potential", "a waste of time", "an expensive problem"], "correctAnswer": "a positive development with transformative potential"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "the trend of celebrities as youth role models",
+                      "watching television",
+                      "using social media"
+                    ],
+                    "correctAnswer": "the trend of celebrities as youth role models"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "a positive development with transformative potential",
+                      "a waste of time",
+                      "an expensive problem"
+                    ],
+                    "correctAnswer": "a positive development with transformative potential"
+                  }
                 ],
                 "correctSentence": "From my perspective, the trend of celebrities as youth role models represents a positive development with transformative potential for society.",
                 "usableIn": "introduction"
@@ -246,9 +379,33 @@
                 "type": "template",
                 "template": "Although _____, I believe _____ because _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["some celebrities provide positive examples", "celebrities are wealthy", "young people watch television"], "correctAnswer": "some celebrities provide positive examples"},
-                  {"id": "thesis5_b2", "options": ["the overall impact is negative", "everyone loves celebrities", "fame is good"], "correctAnswer": "the overall impact is negative"},
-                  {"id": "thesis5_b3", "options": ["most promote unrealistic lifestyles and values", "they are on television", "people buy their products"], "correctAnswer": "most promote unrealistic lifestyles and values"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "some celebrities provide positive examples",
+                      "celebrities are wealthy",
+                      "young people watch television"
+                    ],
+                    "correctAnswer": "some celebrities provide positive examples"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the overall impact is negative",
+                      "everyone loves celebrities",
+                      "fame is good"
+                    ],
+                    "correctAnswer": "the overall impact is negative"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "most promote unrealistic lifestyles and values",
+                      "they are on television",
+                      "people buy their products"
+                    ],
+                    "correctAnswer": "most promote unrealistic lifestyles and values"
+                  }
                 ],
                 "correctSentence": "Although some celebrities provide positive examples, I believe the overall impact is negative because most promote unrealistic lifestyles and values.",
                 "usableIn": "introduction"
@@ -265,8 +422,24 @@
                 "type": "template",
                 "template": "On the positive side, _____ can _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["celebrity role models", "television programs", "social media"], "correctAnswer": "celebrity role models"},
-                  {"id": "topic1_b2", "options": ["inspire young people to pursue their dreams", "make money from advertising", "become popular"], "correctAnswer": "inspire young people to pursue their dreams"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "celebrity role models",
+                      "television programs",
+                      "social media"
+                    ],
+                    "correctAnswer": "celebrity role models"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "inspire young people to pursue their dreams",
+                      "make money from advertising",
+                      "become popular"
+                    ],
+                    "correctAnswer": "inspire young people to pursue their dreams"
+                  }
                 ],
                 "correctSentence": "On the positive side, celebrity role models can inspire young people to pursue their dreams.",
                 "usableIn": "body-paragraph-1"
@@ -276,8 +449,24 @@
                 "type": "template",
                 "template": "However, _____ of celebrities on youth has _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["the influence", "the popularity", "the wealth"], "correctAnswer": "the influence"},
-                  {"id": "topic2_b2", "options": ["several concerning negative aspects", "no problems", "many benefits"], "correctAnswer": "several concerning negative aspects"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "the influence",
+                      "the popularity",
+                      "the wealth"
+                    ],
+                    "correctAnswer": "the influence"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "several concerning negative aspects",
+                      "no problems",
+                      "many benefits"
+                    ],
+                    "correctAnswer": "several concerning negative aspects"
+                  }
                 ],
                 "correctSentence": "However, the influence of celebrities on youth has several concerning negative aspects.",
                 "usableIn": "body-paragraph-2"
@@ -287,8 +476,24 @@
                 "type": "template",
                 "template": "One significant benefit is that _____ often _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["famous athletes and entertainers", "television channels", "advertisements"], "correctAnswer": "famous athletes and entertainers"},
-                  {"id": "topic3_b2", "options": ["demonstrate the value of hard work and dedication", "earn large salaries", "travel frequently"], "correctAnswer": "demonstrate the value of hard work and dedication"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "famous athletes and entertainers",
+                      "television channels",
+                      "advertisements"
+                    ],
+                    "correctAnswer": "famous athletes and entertainers"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "demonstrate the value of hard work and dedication",
+                      "earn large salaries",
+                      "travel frequently"
+                    ],
+                    "correctAnswer": "demonstrate the value of hard work and dedication"
+                  }
                 ],
                 "correctSentence": "One significant benefit is that famous athletes and entertainers often demonstrate the value of hard work and dedication.",
                 "usableIn": "body-paragraph-1"
@@ -298,8 +503,24 @@
                 "type": "template",
                 "template": "A major drawback is that _____ frequently _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["celebrity culture", "watching television", "social media apps"], "correctAnswer": "celebrity culture"},
-                  {"id": "topic4_b2", "options": ["promotes superficial values and materialism", "provides entertainment", "shows interesting content"], "correctAnswer": "promotes superficial values and materialism"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "celebrity culture",
+                      "watching television",
+                      "social media apps"
+                    ],
+                    "correctAnswer": "celebrity culture"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "promotes superficial values and materialism",
+                      "provides entertainment",
+                      "shows interesting content"
+                    ],
+                    "correctAnswer": "promotes superficial values and materialism"
+                  }
                 ],
                 "correctSentence": "A major drawback is that celebrity culture frequently promotes superficial values and materialism.",
                 "usableIn": "body-paragraph-2"
@@ -309,9 +530,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ provide _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of celebrity culture", "Television producers", "Social media users"], "correctAnswer": "Supporters of celebrity culture"},
-                  {"id": "topic5_b2", "options": ["famous public figures", "entertainment programs", "advertisements"], "correctAnswer": "famous public figures"},
-                  {"id": "topic5_b3", "options": ["valuable inspiration for achieving success", "good entertainment", "interesting content"], "correctAnswer": "valuable inspiration for achieving success"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of celebrity culture",
+                      "Television producers",
+                      "Social media users"
+                    ],
+                    "correctAnswer": "Supporters of celebrity culture"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "famous public figures",
+                      "entertainment programs",
+                      "advertisements"
+                    ],
+                    "correctAnswer": "famous public figures"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "valuable inspiration for achieving success",
+                      "good entertainment",
+                      "interesting content"
+                    ],
+                    "correctAnswer": "valuable inspiration for achieving success"
+                  }
                 ],
                 "correctSentence": "Supporters of celebrity culture argue that famous public figures provide valuable inspiration for achieving success.",
                 "usableIn": "body-paragraph-1"
@@ -321,9 +566,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ creates _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Critics of celebrity worship", "Fans", "Advertisers"], "correctAnswer": "Critics of celebrity worship"},
-                  {"id": "topic6_b2", "options": ["excessive celebrity influence", "popular content", "entertainment value"], "correctAnswer": "excessive celebrity influence"},
-                  {"id": "topic6_b3", "options": ["unrealistic expectations and poor self-esteem among youth", "more television viewers", "profitable businesses"], "correctAnswer": "unrealistic expectations and poor self-esteem among youth"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Critics of celebrity worship",
+                      "Fans",
+                      "Advertisers"
+                    ],
+                    "correctAnswer": "Critics of celebrity worship"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "excessive celebrity influence",
+                      "popular content",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "excessive celebrity influence"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "unrealistic expectations and poor self-esteem among youth",
+                      "more television viewers",
+                      "profitable businesses"
+                    ],
+                    "correctAnswer": "unrealistic expectations and poor self-esteem among youth"
+                  }
                 ],
                 "correctSentence": "Critics of celebrity worship contend that excessive celebrity influence creates unrealistic expectations and poor self-esteem among youth.",
                 "usableIn": "body-paragraph-2"
@@ -333,8 +602,24 @@
                 "type": "template",
                 "template": "The primary advantage is that _____ can _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["successful celebrities", "television shows", "fashion trends"], "correctAnswer": "successful celebrities"},
-                  {"id": "topic7_b2", "options": ["motivate young people to work toward their goals", "make money", "become popular"], "correctAnswer": "motivate young people to work toward their goals"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "successful celebrities",
+                      "television shows",
+                      "fashion trends"
+                    ],
+                    "correctAnswer": "successful celebrities"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "motivate young people to work toward their goals",
+                      "make money",
+                      "become popular"
+                    ],
+                    "correctAnswer": "motivate young people to work toward their goals"
+                  }
                 ],
                 "correctSentence": "The primary advantage is that successful celebrities can motivate young people to work toward their goals.",
                 "usableIn": "body-paragraph-1"
@@ -344,8 +629,24 @@
                 "type": "template",
                 "template": "The most serious concern is that _____ often _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["impressionable young people", "television programs", "social media platforms"], "correctAnswer": "impressionable young people"},
-                  {"id": "topic8_b2", "options": ["emulate the negative behaviors of their celebrity idols", "watch too much television", "use social media"], "correctAnswer": "emulate the negative behaviors of their celebrity idols"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "impressionable young people",
+                      "television programs",
+                      "social media platforms"
+                    ],
+                    "correctAnswer": "impressionable young people"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "emulate the negative behaviors of their celebrity idols",
+                      "watch too much television",
+                      "use social media"
+                    ],
+                    "correctAnswer": "emulate the negative behaviors of their celebrity idols"
+                  }
                 ],
                 "correctSentence": "The most serious concern is that impressionable young people often emulate the negative behaviors of their celebrity idols.",
                 "usableIn": "body-paragraph-2"
@@ -362,9 +663,33 @@
                 "type": "template",
                 "template": "This is because _____ exemplify _____ that young people can _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["many successful celebrities", "television shows", "advertisements"], "correctAnswer": "many successful celebrities"},
-                  {"id": "support1_b2", "options": ["dedication and perseverance", "wealth and luxury", "popularity"], "correctAnswer": "dedication and perseverance"},
-                  {"id": "support1_b3", "options": ["learn from and apply to their own lives", "copy exactly", "ignore completely"], "correctAnswer": "learn from and apply to their own lives"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "many successful celebrities",
+                      "television shows",
+                      "advertisements"
+                    ],
+                    "correctAnswer": "many successful celebrities"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "dedication and perseverance",
+                      "wealth and luxury",
+                      "popularity"
+                    ],
+                    "correctAnswer": "dedication and perseverance"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "learn from and apply to their own lives",
+                      "copy exactly",
+                      "ignore completely"
+                    ],
+                    "correctAnswer": "learn from and apply to their own lives"
+                  }
                 ],
                 "correctSentence": "This is because many successful celebrities exemplify dedication and perseverance that young people can learn from and apply to their own lives.",
                 "usableIn": "body-paragraph-1"
@@ -374,8 +699,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["constant exposure to celebrity lifestyles", "watching television", "using smartphones"], "correctAnswer": "constant exposure to celebrity lifestyles"},
-                  {"id": "support2_b2", "options": ["distorted perceptions of success and happiness", "better education", "improved skills"], "correctAnswer": "distorted perceptions of success and happiness"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "constant exposure to celebrity lifestyles",
+                      "watching television",
+                      "using smartphones"
+                    ],
+                    "correctAnswer": "constant exposure to celebrity lifestyles"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "distorted perceptions of success and happiness",
+                      "better education",
+                      "improved skills"
+                    ],
+                    "correctAnswer": "distorted perceptions of success and happiness"
+                  }
                 ],
                 "correctSentence": "The main reason is that constant exposure to celebrity lifestyles leads to distorted perceptions of success and happiness.",
                 "usableIn": "body-paragraph-2"
@@ -385,9 +726,33 @@
                 "type": "template",
                 "template": "_____ use their platform to _____ which _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Some prominent celebrities", "Television networks", "Advertisers"], "correctAnswer": "Some prominent celebrities"},
-                  {"id": "support3_b2", "options": ["raise awareness about important social issues", "sell products", "gain followers"], "correctAnswer": "raise awareness about important social issues"},
-                  {"id": "support3_b3", "options": ["encourages youth civic engagement and activism", "increases profits", "creates controversy"], "correctAnswer": "encourages youth civic engagement and activism"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Some prominent celebrities",
+                      "Television networks",
+                      "Advertisers"
+                    ],
+                    "correctAnswer": "Some prominent celebrities"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "raise awareness about important social issues",
+                      "sell products",
+                      "gain followers"
+                    ],
+                    "correctAnswer": "raise awareness about important social issues"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "encourages youth civic engagement and activism",
+                      "increases profits",
+                      "creates controversy"
+                    ],
+                    "correctAnswer": "encourages youth civic engagement and activism"
+                  }
                 ],
                 "correctSentence": "Some prominent celebrities use their platform to raise awareness about important social issues which encourages youth civic engagement and activism.",
                 "usableIn": "body-paragraph-1"
@@ -397,9 +762,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is detrimental to _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Celebrity worship culture", "Entertainment", "Television viewing"], "correctAnswer": "Celebrity worship culture"},
-                  {"id": "support4_b2", "options": ["an obsession with appearance and material possessions", "creativity", "social connections"], "correctAnswer": "an obsession with appearance and material possessions"},
-                  {"id": "support4_b3", "options": ["the development of authentic personal values", "entertainment", "popularity"], "correctAnswer": "the development of authentic personal values"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Celebrity worship culture",
+                      "Entertainment",
+                      "Television viewing"
+                    ],
+                    "correctAnswer": "Celebrity worship culture"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "an obsession with appearance and material possessions",
+                      "creativity",
+                      "social connections"
+                    ],
+                    "correctAnswer": "an obsession with appearance and material possessions"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "the development of authentic personal values",
+                      "entertainment",
+                      "popularity"
+                    ],
+                    "correctAnswer": "the development of authentic personal values"
+                  }
                 ],
                 "correctSentence": "Celebrity worship culture fosters an obsession with appearance and material possessions, which is detrimental to the development of authentic personal values.",
                 "usableIn": "body-paragraph-2"
@@ -409,8 +798,24 @@
                 "type": "template",
                 "template": "By _____, celebrities can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["sharing their personal struggles and achievements", "posting on social media", "earning money"], "correctAnswer": "sharing their personal struggles and achievements"},
-                  {"id": "support5_b2", "options": ["demonstrate that success requires effort and resilience", "become more famous", "gain followers"], "correctAnswer": "demonstrate that success requires effort and resilience"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "sharing their personal struggles and achievements",
+                      "posting on social media",
+                      "earning money"
+                    ],
+                    "correctAnswer": "sharing their personal struggles and achievements"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "demonstrate that success requires effort and resilience",
+                      "become more famous",
+                      "gain followers"
+                    ],
+                    "correctAnswer": "demonstrate that success requires effort and resilience"
+                  }
                 ],
                 "correctSentence": "By sharing their personal struggles and achievements, celebrities can demonstrate that success requires effort and resilience.",
                 "usableIn": "body-paragraph-1"
@@ -420,9 +825,33 @@
                 "type": "template",
                 "template": "_____ undermines _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["The celebrity phenomenon", "Entertainment", "Social media"], "correctAnswer": "The celebrity phenomenon"},
-                  {"id": "support6_b2", "options": ["young people's self-worth", "television ratings", "advertising revenue"], "correctAnswer": "young people's self-worth"},
-                  {"id": "support6_b3", "options": ["promoting impossible beauty and lifestyle standards", "providing entertainment", "creating content"], "correctAnswer": "promoting impossible beauty and lifestyle standards"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "The celebrity phenomenon",
+                      "Entertainment",
+                      "Social media"
+                    ],
+                    "correctAnswer": "The celebrity phenomenon"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "young people's self-worth",
+                      "television ratings",
+                      "advertising revenue"
+                    ],
+                    "correctAnswer": "young people's self-worth"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "promoting impossible beauty and lifestyle standards",
+                      "providing entertainment",
+                      "creating content"
+                    ],
+                    "correctAnswer": "promoting impossible beauty and lifestyle standards"
+                  }
                 ],
                 "correctSentence": "The celebrity phenomenon undermines young people's self-worth through promoting impossible beauty and lifestyle standards.",
                 "usableIn": "body-paragraph-2"
@@ -432,8 +861,24 @@
                 "type": "template",
                 "template": "Celebrity influence contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["positive social change", "entertainment value", "advertising revenue"], "correctAnswer": "positive social change"},
-                  {"id": "support7_b2", "options": ["bringing attention to charitable causes and humanitarian issues", "creating popular content", "selling products"], "correctAnswer": "bringing attention to charitable causes and humanitarian issues"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "positive social change",
+                      "entertainment value",
+                      "advertising revenue"
+                    ],
+                    "correctAnswer": "positive social change"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "bringing attention to charitable causes and humanitarian issues",
+                      "creating popular content",
+                      "selling products"
+                    ],
+                    "correctAnswer": "bringing attention to charitable causes and humanitarian issues"
+                  }
                 ],
                 "correctSentence": "Celebrity influence contributes to positive social change by bringing attention to charitable causes and humanitarian issues.",
                 "usableIn": "body-paragraph-1"
@@ -443,8 +888,24 @@
                 "type": "template",
                 "template": "Celebrity culture promotes _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["superficial aspirations", "entertainment", "creativity"], "correctAnswer": "superficial aspirations"},
-                  {"id": "support8_b2", "options": ["distract youth from developing meaningful skills and character", "provide enjoyment", "create trends"], "correctAnswer": "distract youth from developing meaningful skills and character"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "superficial aspirations",
+                      "entertainment",
+                      "creativity"
+                    ],
+                    "correctAnswer": "superficial aspirations"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "distract youth from developing meaningful skills and character",
+                      "provide enjoyment",
+                      "create trends"
+                    ],
+                    "correctAnswer": "distract youth from developing meaningful skills and character"
+                  }
                 ],
                 "correctSentence": "Celebrity culture promotes superficial aspirations that distract youth from developing meaningful skills and character.",
                 "usableIn": "body-paragraph-2"
@@ -454,9 +915,33 @@
                 "type": "template",
                 "template": "_____ provides young people with _____ of _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Positive celebrity role modeling", "Television programming", "Social media content"], "correctAnswer": "Positive celebrity role modeling"},
-                  {"id": "support9_b2", "options": ["tangible examples", "entertainment", "information"], "correctAnswer": "tangible examples"},
-                  {"id": "support9_b3", "options": ["how talent combined with hard work leads to achievement", "popularity", "wealth"], "correctAnswer": "how talent combined with hard work leads to achievement"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Positive celebrity role modeling",
+                      "Television programming",
+                      "Social media content"
+                    ],
+                    "correctAnswer": "Positive celebrity role modeling"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "tangible examples",
+                      "entertainment",
+                      "information"
+                    ],
+                    "correctAnswer": "tangible examples"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "how talent combined with hard work leads to achievement",
+                      "popularity",
+                      "wealth"
+                    ],
+                    "correctAnswer": "how talent combined with hard work leads to achievement"
+                  }
                 ],
                 "correctSentence": "Positive celebrity role modeling provides young people with tangible examples of how talent combined with hard work leads to achievement.",
                 "usableIn": "body-paragraph-1"
@@ -466,9 +951,33 @@
                 "type": "template",
                 "template": "When _____, young people _____ rather than _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["exposed to constant celebrity glamorization", "watching television", "using smartphones"], "correctAnswer": "exposed to constant celebrity glamorization"},
-                  {"id": "support10_b2", "options": ["focus on external validation and fame", "develop skills", "study hard"], "correctAnswer": "focus on external validation and fame"},
-                  {"id": "support10_b3", "options": ["cultivating internal qualities like integrity and compassion", "watching more content", "following trends"], "correctAnswer": "cultivating internal qualities like integrity and compassion"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "exposed to constant celebrity glamorization",
+                      "watching television",
+                      "using smartphones"
+                    ],
+                    "correctAnswer": "exposed to constant celebrity glamorization"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "focus on external validation and fame",
+                      "develop skills",
+                      "study hard"
+                    ],
+                    "correctAnswer": "focus on external validation and fame"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "cultivating internal qualities like integrity and compassion",
+                      "watching more content",
+                      "following trends"
+                    ],
+                    "correctAnswer": "cultivating internal qualities like integrity and compassion"
+                  }
                 ],
                 "correctSentence": "When exposed to constant celebrity glamorization, young people focus on external validation and fame rather than cultivating internal qualities like integrity and compassion.",
                 "usableIn": "body-paragraph-2"
@@ -478,8 +987,24 @@
                 "type": "template",
                 "template": "As a result, _____ feel _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["inspired young people", "television viewers", "social media users"], "correctAnswer": "inspired young people"},
-                  {"id": "support11_b2", "options": ["motivated to pursue ambitious goals and overcome obstacles", "entertained", "informed"], "correctAnswer": "motivated to pursue ambitious goals and overcome obstacles"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "inspired young people",
+                      "television viewers",
+                      "social media users"
+                    ],
+                    "correctAnswer": "inspired young people"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "motivated to pursue ambitious goals and overcome obstacles",
+                      "entertained",
+                      "informed"
+                    ],
+                    "correctAnswer": "motivated to pursue ambitious goals and overcome obstacles"
+                  }
                 ],
                 "correctSentence": "As a result, inspired young people feel motivated to pursue ambitious goals and overcome obstacles.",
                 "usableIn": "body-paragraph-1"
@@ -489,8 +1014,24 @@
                 "type": "template",
                 "template": "Consequently, _____ experience _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["impressionable teenagers", "television audiences", "internet users"], "correctAnswer": "impressionable teenagers"},
-                  {"id": "support12_b2", "options": ["anxiety and inadequacy when comparing themselves to celebrities", "entertainment", "information"], "correctAnswer": "anxiety and inadequacy when comparing themselves to celebrities"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "impressionable teenagers",
+                      "television audiences",
+                      "internet users"
+                    ],
+                    "correctAnswer": "impressionable teenagers"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "anxiety and inadequacy when comparing themselves to celebrities",
+                      "entertainment",
+                      "information"
+                    ],
+                    "correctAnswer": "anxiety and inadequacy when comparing themselves to celebrities"
+                  }
                 ],
                 "correctSentence": "Consequently, impressionable teenagers experience anxiety and inadequacy when comparing themselves to celebrities.",
                 "usableIn": "body-paragraph-2"
@@ -507,8 +1048,24 @@
                 "type": "template",
                 "template": "For instance, _____ has used their fame to _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Malala Yousafzai", "a random person", "my friend"], "correctAnswer": "Malala Yousafzai"},
-                  {"id": "example1_b2", "options": ["advocate for girls' education worldwide", "sell products", "gain followers"], "correctAnswer": "advocate for girls' education worldwide"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Malala Yousafzai",
+                      "a random person",
+                      "my friend"
+                    ],
+                    "correctAnswer": "Malala Yousafzai"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "advocate for girls' education worldwide",
+                      "sell products",
+                      "gain followers"
+                    ],
+                    "correctAnswer": "advocate for girls' education worldwide"
+                  }
                 ],
                 "correctSentence": "For instance, Malala Yousafzai has used their fame to advocate for girls' education worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -518,9 +1075,33 @@
                 "type": "template",
                 "template": "For example, studies show that _____ among teenagers has _____ due to _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["body image dissatisfaction", "television viewing", "social media use"], "correctAnswer": "body image dissatisfaction"},
-                  {"id": "example2_b2", "options": ["increased dramatically", "stayed the same", "decreased slightly"], "correctAnswer": "increased dramatically"},
-                  {"id": "example2_b3", "options": ["exposure to idealized celebrity images on social media", "better education", "parental guidance"], "correctAnswer": "exposure to idealized celebrity images on social media"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "body image dissatisfaction",
+                      "television viewing",
+                      "social media use"
+                    ],
+                    "correctAnswer": "body image dissatisfaction"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "increased dramatically",
+                      "stayed the same",
+                      "decreased slightly"
+                    ],
+                    "correctAnswer": "increased dramatically"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "exposure to idealized celebrity images on social media",
+                      "better education",
+                      "parental guidance"
+                    ],
+                    "correctAnswer": "exposure to idealized celebrity images on social media"
+                  }
                 ],
                 "correctSentence": "For example, studies show that body image dissatisfaction among teenagers has increased dramatically due to exposure to idealized celebrity images on social media.",
                 "usableIn": "body-paragraph-2"
@@ -530,9 +1111,33 @@
                 "type": "template",
                 "template": "Specifically, _____ like _____ demonstrate _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["successful athletes", "television programs", "social media apps"], "correctAnswer": "successful athletes"},
-                  {"id": "example3_b2", "options": ["Serena Williams or Cristiano Ronaldo", "reality TV stars", "random people"], "correctAnswer": "Serena Williams or Cristiano Ronaldo"},
-                  {"id": "example3_b3", "options": ["how dedication and discipline lead to extraordinary achievement", "how to become wealthy", "how to gain followers"], "correctAnswer": "how dedication and discipline lead to extraordinary achievement"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "successful athletes",
+                      "television programs",
+                      "social media apps"
+                    ],
+                    "correctAnswer": "successful athletes"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "Serena Williams or Cristiano Ronaldo",
+                      "reality TV stars",
+                      "random people"
+                    ],
+                    "correctAnswer": "Serena Williams or Cristiano Ronaldo"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "how dedication and discipline lead to extraordinary achievement",
+                      "how to become wealthy",
+                      "how to gain followers"
+                    ],
+                    "correctAnswer": "how dedication and discipline lead to extraordinary achievement"
+                  }
                 ],
                 "correctSentence": "Specifically, successful athletes like Serena Williams or Cristiano Ronaldo demonstrate how dedication and discipline lead to extraordinary achievement.",
                 "usableIn": "body-paragraph-1"
@@ -542,9 +1147,33 @@
                 "type": "template",
                 "template": "Research indicates that _____ who regularly _____ are more likely to _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["young people", "celebrities", "parents"], "correctAnswer": "young people"},
-                  {"id": "example4_b2", "options": ["follow celebrity culture", "watch television", "use computers"], "correctAnswer": "follow celebrity culture"},
-                  {"id": "example4_b3", "options": ["develop materialistic values and decreased life satisfaction", "succeed in school", "help others"], "correctAnswer": "develop materialistic values and decreased life satisfaction"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "young people",
+                      "celebrities",
+                      "parents"
+                    ],
+                    "correctAnswer": "young people"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "follow celebrity culture",
+                      "watch television",
+                      "use computers"
+                    ],
+                    "correctAnswer": "follow celebrity culture"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "develop materialistic values and decreased life satisfaction",
+                      "succeed in school",
+                      "help others"
+                    ],
+                    "correctAnswer": "develop materialistic values and decreased life satisfaction"
+                  }
                 ],
                 "correctSentence": "Research indicates that young people who regularly follow celebrity culture are more likely to develop materialistic values and decreased life satisfaction.",
                 "usableIn": "body-paragraph-2"
@@ -554,9 +1183,33 @@
                 "type": "template",
                 "template": "A notable example is _____, whose _____ has inspired _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["Emma Watson", "a television show", "a social media app"], "correctAnswer": "Emma Watson"},
-                  {"id": "example5_b2", "options": ["advocacy for gender equality", "acting career", "popularity"], "correctAnswer": "advocacy for gender equality"},
-                  {"id": "example5_b3", "options": ["countless young women to pursue feminist causes", "people to watch movies", "fans to follow her"], "correctAnswer": "countless young women to pursue feminist causes"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "Emma Watson",
+                      "a television show",
+                      "a social media app"
+                    ],
+                    "correctAnswer": "Emma Watson"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "advocacy for gender equality",
+                      "acting career",
+                      "popularity"
+                    ],
+                    "correctAnswer": "advocacy for gender equality"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "countless young women to pursue feminist causes",
+                      "people to watch movies",
+                      "fans to follow her"
+                    ],
+                    "correctAnswer": "countless young women to pursue feminist causes"
+                  }
                 ],
                 "correctSentence": "A notable example is Emma Watson, whose advocacy for gender equality has inspired countless young women to pursue feminist causes.",
                 "usableIn": "body-paragraph-1"
@@ -566,9 +1219,33 @@
                 "type": "template",
                 "template": "In particular, _____ cases involving _____ demonstrate _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["high-profile", "television", "internet"], "correctAnswer": "high-profile"},
-                  {"id": "example6_b2", "options": ["celebrities with substance abuse or legal problems", "successful business people", "talented artists"], "correctAnswer": "celebrities with substance abuse or legal problems"},
-                  {"id": "example6_b3", "options": ["the dangers of glorifying fame without character", "entertainment value", "media attention"], "correctAnswer": "the dangers of glorifying fame without character"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "high-profile",
+                      "television",
+                      "internet"
+                    ],
+                    "correctAnswer": "high-profile"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "celebrities with substance abuse or legal problems",
+                      "successful business people",
+                      "talented artists"
+                    ],
+                    "correctAnswer": "celebrities with substance abuse or legal problems"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "the dangers of glorifying fame without character",
+                      "entertainment value",
+                      "media attention"
+                    ],
+                    "correctAnswer": "the dangers of glorifying fame without character"
+                  }
                 ],
                 "correctSentence": "In particular, high-profile cases involving celebrities with substance abuse or legal problems demonstrate the dangers of glorifying fame without character.",
                 "usableIn": "body-paragraph-2"
@@ -578,9 +1255,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, actively _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["influential celebrities", "television shows", "websites"], "correctAnswer": "influential celebrities"},
-                  {"id": "example7_b2", "options": ["Leonardo DiCaprio and Angelina Jolie", "reality TV stars", "social media influencers"], "correctAnswer": "Leonardo DiCaprio and Angelina Jolie"},
-                  {"id": "example7_b3", "options": ["engage in philanthropic work that encourages youth volunteerism", "promote their products", "gain publicity"], "correctAnswer": "engage in philanthropic work that encourages youth volunteerism"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "influential celebrities",
+                      "television shows",
+                      "websites"
+                    ],
+                    "correctAnswer": "influential celebrities"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "Leonardo DiCaprio and Angelina Jolie",
+                      "reality TV stars",
+                      "social media influencers"
+                    ],
+                    "correctAnswer": "Leonardo DiCaprio and Angelina Jolie"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "engage in philanthropic work that encourages youth volunteerism",
+                      "promote their products",
+                      "gain publicity"
+                    ],
+                    "correctAnswer": "engage in philanthropic work that encourages youth volunteerism"
+                  }
                 ],
                 "correctSentence": "Many influential celebrities, including Leonardo DiCaprio and Angelina Jolie, actively engage in philanthropic work that encourages youth volunteerism.",
                 "usableIn": "body-paragraph-1"
@@ -590,9 +1291,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ has led to _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the Kardashian phenomenon", "a television program", "an educational initiative"], "correctAnswer": "the Kardashian phenomenon"},
-                  {"id": "example8_b2", "options": ["their emphasis on appearance and wealth", "their business success", "their popularity"], "correctAnswer": "their emphasis on appearance and wealth"},
-                  {"id": "example8_b3", "options": ["millions of young people prioritizing superficial qualities over substance", "successful businesses", "entertainment"], "correctAnswer": "millions of young people prioritizing superficial qualities over substance"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the Kardashian phenomenon",
+                      "a television program",
+                      "an educational initiative"
+                    ],
+                    "correctAnswer": "the Kardashian phenomenon"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "their emphasis on appearance and wealth",
+                      "their business success",
+                      "their popularity"
+                    ],
+                    "correctAnswer": "their emphasis on appearance and wealth"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "millions of young people prioritizing superficial qualities over substance",
+                      "successful businesses",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "millions of young people prioritizing superficial qualities over substance"
+                  }
                 ],
                 "correctSentence": "Take the Kardashian phenomenon as an example: their emphasis on appearance and wealth has led to millions of young people prioritizing superficial qualities over substance.",
                 "usableIn": "body-paragraph-2"
@@ -602,9 +1327,33 @@
                 "type": "template",
                 "template": "According to _____, celebrities who _____ significantly impact _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["psychological research", "entertainment magazines", "social media posts"], "correctAnswer": "psychological research"},
-                  {"id": "example9_b2", "options": ["share authentic stories about overcoming adversity", "post perfect photos", "gain followers"], "correctAnswer": "share authentic stories about overcoming adversity"},
-                  {"id": "example9_b3", "options": ["youth resilience and determination", "popularity", "entertainment value"], "correctAnswer": "youth resilience and determination"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "psychological research",
+                      "entertainment magazines",
+                      "social media posts"
+                    ],
+                    "correctAnswer": "psychological research"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "share authentic stories about overcoming adversity",
+                      "post perfect photos",
+                      "gain followers"
+                    ],
+                    "correctAnswer": "share authentic stories about overcoming adversity"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "youth resilience and determination",
+                      "popularity",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "youth resilience and determination"
+                  }
                 ],
                 "correctSentence": "According to psychological research, celebrities who share authentic stories about overcoming adversity significantly impact youth resilience and determination.",
                 "usableIn": "body-paragraph-1"
@@ -614,8 +1363,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ correlates with _____ among young people.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["excessive celebrity worship", "television viewing", "internet use"], "correctAnswer": "excessive celebrity worship"},
-                  {"id": "example10_b2", "options": ["increased rates of depression and anxiety", "better education", "improved health"], "correctAnswer": "increased rates of depression and anxiety"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "excessive celebrity worship",
+                      "television viewing",
+                      "internet use"
+                    ],
+                    "correctAnswer": "excessive celebrity worship"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "increased rates of depression and anxiety",
+                      "better education",
+                      "improved health"
+                    ],
+                    "correctAnswer": "increased rates of depression and anxiety"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that excessive celebrity worship correlates with increased rates of depression and anxiety among young people.",
                 "usableIn": "body-paragraph-2"
@@ -632,8 +1397,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["not all celebrity influence is positive", "television is beneficial", "social media is harmless"], "correctAnswer": "not all celebrity influence is positive"},
-                  {"id": "counter1_b2", "options": ["promote harmful behaviors and unrealistic standards", "provide entertainment", "create jobs"], "correctAnswer": "promote harmful behaviors and unrealistic standards"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "not all celebrity influence is positive",
+                      "television is beneficial",
+                      "social media is harmless"
+                    ],
+                    "correctAnswer": "not all celebrity influence is positive"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "promote harmful behaviors and unrealistic standards",
+                      "provide entertainment",
+                      "create jobs"
+                    ],
+                    "correctAnswer": "promote harmful behaviors and unrealistic standards"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that not all celebrity influence is positive may promote harmful behaviors and unrealistic standards.",
                 "usableIn": "body-paragraph-2"
@@ -643,9 +1424,33 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ can _____ when _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["celebrity role models", "entertainment", "television"], "correctAnswer": "celebrity role models"},
-                  {"id": "counter2_b2", "options": ["have negative effects", "be helpful", "provide value"], "correctAnswer": "have negative effects"},
-                  {"id": "counter2_b3", "options": ["they prioritize fame and wealth over meaningful values", "they work hard", "they are popular"], "correctAnswer": "they prioritize fame and wealth over meaningful values"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "celebrity role models",
+                      "entertainment",
+                      "television"
+                    ],
+                    "correctAnswer": "celebrity role models"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "have negative effects",
+                      "be helpful",
+                      "provide value"
+                    ],
+                    "correctAnswer": "have negative effects"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": [
+                      "they prioritize fame and wealth over meaningful values",
+                      "they work hard",
+                      "they are popular"
+                    ],
+                    "correctAnswer": "they prioritize fame and wealth over meaningful values"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, celebrity role models can have negative effects when they prioritize fame and wealth over meaningful values.",
                 "usableIn": "body-paragraph-1"
@@ -655,9 +1460,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["positive celebrity influence", "entertainment", "popularity"], "correctAnswer": "positive celebrity influence"},
-                  {"id": "counter3_b2", "options": ["celebrities to act responsibly", "more followers", "better marketing"], "correctAnswer": "celebrities to act responsibly"},
-                  {"id": "counter3_b3", "options": ["many fail to do consistently", "everyone can achieve", "is always present"], "correctAnswer": "many fail to do consistently"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "positive celebrity influence",
+                      "entertainment",
+                      "popularity"
+                    ],
+                    "correctAnswer": "positive celebrity influence"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "celebrities to act responsibly",
+                      "more followers",
+                      "better marketing"
+                    ],
+                    "correctAnswer": "celebrities to act responsibly"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "many fail to do consistently",
+                      "everyone can achieve",
+                      "is always present"
+                    ],
+                    "correctAnswer": "many fail to do consistently"
+                  }
                 ],
                 "correctSentence": "Nevertheless, positive celebrity influence requires celebrities to act responsibly that many fail to do consistently.",
                 "usableIn": "body-paragraph-1"
@@ -667,9 +1496,33 @@
                 "type": "template",
                 "template": "Although _____ provides inspiration, it also _____ that _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["celebrity success", "entertainment", "popularity"], "correctAnswer": "celebrity success"},
-                  {"id": "counter4_b2", "options": ["creates unrealistic expectations", "provides jobs", "generates revenue"], "correctAnswer": "creates unrealistic expectations"},
-                  {"id": "counter4_b3", "options": ["can damage young people's mental health", "everyone enjoys", "is beneficial"], "correctAnswer": "can damage young people's mental health"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "celebrity success",
+                      "entertainment",
+                      "popularity"
+                    ],
+                    "correctAnswer": "celebrity success"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "creates unrealistic expectations",
+                      "provides jobs",
+                      "generates revenue"
+                    ],
+                    "correctAnswer": "creates unrealistic expectations"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "can damage young people's mental health",
+                      "everyone enjoys",
+                      "is beneficial"
+                    ],
+                    "correctAnswer": "can damage young people's mental health"
+                  }
                 ],
                 "correctSentence": "Although celebrity success provides inspiration, it also creates unrealistic expectations that can damage young people's mental health.",
                 "usableIn": "body-paragraph-2"
@@ -679,9 +1532,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ can _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["even positive celebrity influence", "television programs", "social media"], "correctAnswer": "even positive celebrity influence"},
-                  {"id": "counter5_b2", "options": ["become problematic", "be beneficial", "provide value"], "correctAnswer": "become problematic"},
-                  {"id": "counter5_b3", "options": ["young people become obsessed rather than inspired", "it is popular", "everyone likes it"], "correctAnswer": "young people become obsessed rather than inspired"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "even positive celebrity influence",
+                      "television programs",
+                      "social media"
+                    ],
+                    "correctAnswer": "even positive celebrity influence"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "become problematic",
+                      "be beneficial",
+                      "provide value"
+                    ],
+                    "correctAnswer": "become problematic"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "young people become obsessed rather than inspired",
+                      "it is popular",
+                      "everyone likes it"
+                    ],
+                    "correctAnswer": "young people become obsessed rather than inspired"
+                  }
                 ],
                 "correctSentence": "Critics point out that even positive celebrity influence can become problematic if young people become obsessed rather than inspired.",
                 "usableIn": "body-paragraph-1"
@@ -698,8 +1575,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["celebrity influence has some positive aspects", "television is popular", "social media is widespread"], "correctAnswer": "celebrity influence has some positive aspects"},
-                  {"id": "conclusion1_b2", "options": ["the negative effects outweigh the benefits for young people", "it is always good", "everyone benefits"], "correctAnswer": "the negative effects outweigh the benefits for young people"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "celebrity influence has some positive aspects",
+                      "television is popular",
+                      "social media is widespread"
+                    ],
+                    "correctAnswer": "celebrity influence has some positive aspects"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the negative effects outweigh the benefits for young people",
+                      "it is always good",
+                      "everyone benefits"
+                    ],
+                    "correctAnswer": "the negative effects outweigh the benefits for young people"
+                  }
                 ],
                 "correctSentence": "In conclusion, while celebrity influence has some positive aspects, I believe the negative effects outweigh the benefits for young people.",
                 "usableIn": "conclusion"
@@ -709,10 +1602,42 @@
                 "type": "template",
                 "template": "Overall, _____ can _____, but _____ makes it _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["celebrity role modeling", "entertainment", "television"], "correctAnswer": "celebrity role modeling"},
-                  {"id": "conclusion2_b2", "options": ["inspire positive change", "provide fun", "generate money"], "correctAnswer": "inspire positive change"},
-                  {"id": "conclusion2_b3", "options": ["the prevalence of superficial values in celebrity culture", "its popularity", "media attention"], "correctAnswer": "the prevalence of superficial values in celebrity culture"},
-                  {"id": "conclusion2_b4", "options": ["predominantly harmful", "always beneficial", "completely neutral"], "correctAnswer": "predominantly harmful"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "celebrity role modeling",
+                      "entertainment",
+                      "television"
+                    ],
+                    "correctAnswer": "celebrity role modeling"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "inspire positive change",
+                      "provide fun",
+                      "generate money"
+                    ],
+                    "correctAnswer": "inspire positive change"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "the prevalence of superficial values in celebrity culture",
+                      "its popularity",
+                      "media attention"
+                    ],
+                    "correctAnswer": "the prevalence of superficial values in celebrity culture"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "predominantly harmful",
+                      "always beneficial",
+                      "completely neutral"
+                    ],
+                    "correctAnswer": "predominantly harmful"
+                  }
                 ],
                 "correctSentence": "Overall, celebrity role modeling can inspire positive change, but the prevalence of superficial values in celebrity culture makes it predominantly harmful.",
                 "usableIn": "conclusion"
@@ -722,9 +1647,33 @@
                 "type": "template",
                 "template": "To summarize, _____ represents _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the growing celebrity influence on youth", "television viewing", "internet usage"], "correctAnswer": "the growing celebrity influence on youth"},
-                  {"id": "conclusion3_b2", "options": ["a largely positive development", "entertainment", "a neutral trend"], "correctAnswer": "a largely positive development"},
-                  {"id": "conclusion3_b3", "options": ["it provides inspiration and raises awareness of important causes", "it is popular", "everyone likes it"], "correctAnswer": "it provides inspiration and raises awareness of important causes"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the growing celebrity influence on youth",
+                      "television viewing",
+                      "internet usage"
+                    ],
+                    "correctAnswer": "the growing celebrity influence on youth"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "a largely positive development",
+                      "entertainment",
+                      "a neutral trend"
+                    ],
+                    "correctAnswer": "a largely positive development"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "it provides inspiration and raises awareness of important causes",
+                      "it is popular",
+                      "everyone likes it"
+                    ],
+                    "correctAnswer": "it provides inspiration and raises awareness of important causes"
+                  }
                 ],
                 "correctSentence": "To summarize, the growing celebrity influence on youth represents a largely positive development because it provides inspiration and raises awareness of important causes.",
                 "usableIn": "conclusion"
@@ -734,9 +1683,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should _____ to ensure _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["parents and educators", "celebrities", "media companies"], "correctAnswer": "parents and educators"},
-                  {"id": "conclusion4_b2", "options": ["help young people critically evaluate celebrity culture", "watch more television", "use social media more"], "correctAnswer": "help young people critically evaluate celebrity culture"},
-                  {"id": "conclusion4_b3", "options": ["they develop authentic values rather than superficial aspirations", "they are entertained", "they follow trends"], "correctAnswer": "they develop authentic values rather than superficial aspirations"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "parents and educators",
+                      "celebrities",
+                      "media companies"
+                    ],
+                    "correctAnswer": "parents and educators"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "help young people critically evaluate celebrity culture",
+                      "watch more television",
+                      "use social media more"
+                    ],
+                    "correctAnswer": "help young people critically evaluate celebrity culture"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "they develop authentic values rather than superficial aspirations",
+                      "they are entertained",
+                      "they follow trends"
+                    ],
+                    "correctAnswer": "they develop authentic values rather than superficial aspirations"
+                  }
                 ],
                 "correctSentence": "Ultimately, parents and educators should help young people critically evaluate celebrity culture to ensure they develop authentic values rather than superficial aspirations.",
                 "usableIn": "conclusion"
@@ -746,9 +1719,33 @@
                 "type": "template",
                 "template": "On balance, _____ is _____ due to _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["the trend of celebrities as youth role models", "television programming", "social media usage"], "correctAnswer": "the trend of celebrities as youth role models"},
-                  {"id": "conclusion5_b2", "options": ["more beneficial than harmful", "purely entertaining", "completely negative"], "correctAnswer": "more beneficial than harmful"},
-                  {"id": "conclusion5_b3", "options": ["their ability to inspire positive social change and ambitious goals", "their popularity", "media coverage"], "correctAnswer": "their ability to inspire positive social change and ambitious goals"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "the trend of celebrities as youth role models",
+                      "television programming",
+                      "social media usage"
+                    ],
+                    "correctAnswer": "the trend of celebrities as youth role models"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "more beneficial than harmful",
+                      "purely entertaining",
+                      "completely negative"
+                    ],
+                    "correctAnswer": "more beneficial than harmful"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "their ability to inspire positive social change and ambitious goals",
+                      "their popularity",
+                      "media coverage"
+                    ],
+                    "correctAnswer": "their ability to inspire positive social change and ambitious goals"
+                  }
                 ],
                 "correctSentence": "On balance, the trend of celebrities as youth role models is more beneficial than harmful due to their ability to inspire positive social change and ambitious goals.",
                 "usableIn": "conclusion"
@@ -801,12 +1798,47 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_positive_side": ["On the positive side", "One beneficial aspect", "The main advantage", "Positively speaking"],
-          "presenting_negative_side": ["On the negative side", "However", "Conversely", "The main drawback", "More concerning"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally", "Equally important"],
-          "giving_examples": ["For instance", "For example", "Take the case of", "Particularly", "A clear example is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "This leads to", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "Although"]
+          "presenting_positive_side": [
+            "On the positive side",
+            "One beneficial aspect",
+            "The main advantage",
+            "Positively speaking"
+          ],
+          "presenting_negative_side": [
+            "On the negative side",
+            "However",
+            "Conversely",
+            "The main drawback",
+            "More concerning"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "Equally important"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Take the case of",
+            "Particularly",
+            "A clear example is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "This leads to",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "Although"
+          ]
         }
       }
     },
@@ -959,7 +1991,7 @@
   ],
   "modelEssay": {
     "text": "In numerous countries worldwide, famous individuals increasingly serve as role models for young people who seek to emulate their success and lifestyle. From my perspective, this represents a predominantly negative development because celebrity culture often promotes superficial values over genuine personal development and meaningful achievement.\n\nOn the positive side, certain celebrities do provide valuable inspiration through their accomplishments and advocacy work. For instance, figures like Malala Yousafzai have used their platform to champion important causes such as girls' education, demonstrating courage and dedication that resonates with young audiences globally. Similarly, successful athletes exemplify how discipline and perseverance can lead to extraordinary achievement. As a result, some young people feel genuinely motivated to pursue ambitious goals and engage in social activism for causes they believe in.\n\nHowever, the negative aspects of celebrity influence are far more pervasive and concerning. The majority of contemporary celebrity culture emphasizes external factors such as physical appearance, material wealth, and social media popularity rather than character, integrity, or substantive contributions to society. For example, platforms like Instagram are saturated with celebrities displaying luxurious lifestyles and digitally enhanced images that establish impossible standards for ordinary people to meet. Consequently, impressionable teenagers experience increased rates of body dissatisfaction, anxiety, and depression while developing materialistic value systems that prioritize fame and external validation over authentic self-development.\n\nIn conclusion, while certain public figures offer positive examples through their achievements and philanthropic efforts, I believe the overall trend of celebrity influence on youth is fundamentally negative because the predominant messages in celebrity culture distract young people from cultivating meaningful personal qualities and realistic life goals.",
-    "wordCount": 278,
+    "wordCount": 264,
     "structure": {
       "introduction": "In numerous countries worldwide, famous individuals increasingly serve as role models for young people who seek to emulate their success and lifestyle. From my perspective, this represents a predominantly negative development because celebrity culture often promotes superficial values over genuine personal development and meaningful achievement.",
       "body1": "On the positive side, certain celebrities do provide valuable inspiration through their accomplishments and advocacy work. For instance, figures like Malala Yousafzai have used their platform to champion important causes such as girls' education, demonstrating courage and dedication that resonates with young audiences globally. Similarly, successful athletes exemplify how discipline and perseverance can lead to extraordinary achievement. As a result, some young people feel genuinely motivated to pursue ambitious goals and engage in social activism for causes they believe in.",

@@ -81,106 +81,167 @@
             "word": "road safety",
             "pronunciation": "/rəʊd ˈseɪfti/",
             "partOfSpeech": "noun",
-            "definition": "The prevention of road accidents and protection of road users",
+            "definition": "The prevention of road accidents and protection of road users.",
             "example": "Improving road safety requires a combination of education, enforcement, and infrastructure.",
-            "synonyms": ["traffic safety", "highway safety"]
+            "synonyms": [
+              "traffic safety",
+              "highway safety"
+            ]
           },
           {
             "word": "driving competency",
             "pronunciation": "/ˈdraɪvɪŋ ˈkɒmpɪtənsi/",
             "partOfSpeech": "noun",
-            "definition": "The ability to drive safely and skillfully",
-            "example": "Regular testing could help identify drivers whose competency has declined over time.",
-            "synonyms": ["driving ability", "driving skills"]
+            "definition": "The ability to drive safely and skillfully.",
+            "example": "Regular testing could help identify drivers whose driving competency has declined over time.",
+            "synonyms": [
+              "driving ability",
+              "driving skills"
+            ]
           },
           {
             "word": "traffic accidents",
             "pronunciation": "/ˈtræfɪk ˈæksɪdənts/",
             "partOfSpeech": "noun",
-            "definition": "Collisions involving vehicles on roads",
+            "definition": "Collisions involving vehicles on roads.",
             "example": "Traffic accidents cause thousands of deaths annually worldwide.",
-            "synonyms": ["road accidents", "vehicular collisions"]
+            "synonyms": [
+              "road accidents",
+              "vehicular collisions"
+            ]
           },
           {
             "word": "mandatory",
             "pronunciation": "/ˈmændətəri/",
             "partOfSpeech": "adjective",
-            "definition": "Required by law or rules; compulsory",
+            "definition": "Required by law or rules; compulsory.",
             "example": "Making annual testing mandatory would require significant legislative changes.",
-            "synonyms": ["compulsory", "obligatory", "required"]
+            "synonyms": [
+              "compulsory",
+              "obligatory",
+              "required"
+            ]
           },
           {
             "word": "enforcement",
             "pronunciation": "/ɪnˈfɔːsmənt/",
             "partOfSpeech": "noun",
-            "definition": "Ensuring compliance with laws or rules",
+            "definition": "Ensuring compliance with laws or rules.",
             "example": "Strict enforcement of traffic laws is essential for road safety.",
-            "synonyms": ["implementation", "regulation"]
+            "synonyms": [
+              "implementation",
+              "regulation"
+            ]
           },
           {
             "word": "deteriorate",
             "pronunciation": "/dɪˈtɪəriəreɪt/",
             "partOfSpeech": "verb",
-            "definition": "To become progressively worse",
+            "definition": "To become progressively worse.",
             "example": "Driving skills can deteriorate with age or lack of practice.",
-            "synonyms": ["decline", "worsen", "degrade"]
+            "synonyms": [
+              "decline",
+              "worsen",
+              "degrade"
+            ]
           },
           {
             "word": "implement",
             "pronunciation": "/ˈɪmplɪment/",
             "partOfSpeech": "verb",
-            "definition": "To put a plan or system into effect",
+            "definition": "To put a plan or system into effect.",
             "example": "Implementing annual driver testing nationwide would be logistically challenging.",
-            "synonyms": ["execute", "carry out", "introduce"]
+            "synonyms": [
+              "execute",
+              "carry out",
+              "introduce"
+            ]
           },
           {
             "word": "preventive",
             "pronunciation": "/prɪˈventɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Designed to stop something before it happens",
+            "definition": "Designed to stop something before it happens.",
             "example": "Annual testing serves as a preventive measure against unsafe drivers.",
-            "synonyms": ["precautionary", "proactive"]
+            "synonyms": [
+              "precautionary",
+              "proactive"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "license renewal",
-            "definition": "The process of updating or extending a driving permit",
+            "definition": "The process of updating or extending a driving permit.",
             "example": "License renewal could include mandatory retesting requirements."
           },
           {
             "phrase": "traffic fatalities",
-            "definition": "Deaths resulting from road accidents",
+            "definition": "Deaths resulting from road accidents.",
             "example": "Countries with stricter testing report fewer traffic fatalities."
           },
           {
             "phrase": "reaction time",
-            "definition": "The time taken to respond to a stimulus",
+            "definition": "The time taken to respond to a stimulus.",
             "example": "Annual tests could assess whether a driver's reaction time remains adequate."
           },
           {
             "phrase": "driving standards",
-            "definition": "The level of skill and safety expected from drivers",
+            "definition": "The level of skill and safety expected from drivers.",
             "example": "Regular testing helps maintain high driving standards across the population."
           },
           {
             "phrase": "elderly drivers",
-            "definition": "Senior citizens who operate vehicles",
+            "definition": "Senior citizens who operate vehicles.",
             "example": "Elderly drivers may experience declining vision and slower reflexes."
           },
           {
             "phrase": "administrative burden",
-            "definition": "The workload created by bureaucratic processes",
+            "definition": "The workload created by bureaucratic processes.",
             "example": "Annual testing would create a significant administrative burden for authorities."
           }
         ],
         "linkingPhrases": {
-          "stating_opinion": ["I strongly believe that", "In my view", "From my perspective", "I would argue that"],
-          "adding_points": ["Furthermore", "Moreover", "Additionally", "In addition", "What is more"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "A case in point is"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this", "Although"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary", "To conclude"]
+          "stating_opinion": [
+            "I strongly believe that",
+            "In my view",
+            "From my perspective",
+            "I would argue that"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "What is more"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "A case in point is"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "Hence"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Despite this",
+            "Although"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary",
+            "To conclude"
+          ]
         }
       }
     },
@@ -203,8 +264,24 @@
                 "type": "template",
                 "template": "I _____ that annual driver testing is _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["strongly disagree", "partially agree", "believe"], "correctAnswer": "partially agree"},
-                  {"id": "thesis1_b2", "options": ["beneficial but not the only solution", "completely unnecessary", "the perfect answer"], "correctAnswer": "beneficial but not the only solution"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "strongly disagree",
+                      "partially agree",
+                      "believe"
+                    ],
+                    "correctAnswer": "partially agree"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "beneficial but not the only solution",
+                      "completely unnecessary",
+                      "the perfect answer"
+                    ],
+                    "correctAnswer": "beneficial but not the only solution"
+                  }
                 ],
                 "correctSentence": "I partially agree that annual driver testing is beneficial but not the only solution.",
                 "usableIn": "introduction"
@@ -214,8 +291,24 @@
                 "type": "template",
                 "template": "While _____ could help, _____ are equally important.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["annual testing", "driving bans", "traffic lights"], "correctAnswer": "annual testing"},
-                  {"id": "thesis2_b2", "options": ["other measures such as better infrastructure and stricter enforcement", "expensive cars", "longer roads"], "correctAnswer": "other measures such as better infrastructure and stricter enforcement"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "annual testing",
+                      "driving bans",
+                      "traffic lights"
+                    ],
+                    "correctAnswer": "annual testing"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "other measures such as better infrastructure and stricter enforcement",
+                      "expensive cars",
+                      "longer roads"
+                    ],
+                    "correctAnswer": "other measures such as better infrastructure and stricter enforcement"
+                  }
                 ],
                 "correctSentence": "While annual testing could help, other measures such as better infrastructure and stricter enforcement are equally important.",
                 "usableIn": "introduction"
@@ -232,8 +325,24 @@
                 "type": "template",
                 "template": "Annual testing would be _____ because it could _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["beneficial", "unnecessary", "impossible"], "correctAnswer": "beneficial"},
-                  {"id": "topic1_b2", "options": ["identify drivers whose skills have deteriorated", "waste government money", "create traffic jams"], "correctAnswer": "identify drivers whose skills have deteriorated"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "beneficial",
+                      "unnecessary",
+                      "impossible"
+                    ],
+                    "correctAnswer": "beneficial"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "identify drivers whose skills have deteriorated",
+                      "waste government money",
+                      "create traffic jams"
+                    ],
+                    "correctAnswer": "identify drivers whose skills have deteriorated"
+                  }
                 ],
                 "correctSentence": "Annual testing would be beneficial because it could identify drivers whose skills have deteriorated.",
                 "usableIn": "body-paragraph-1"
@@ -243,9 +352,33 @@
                 "type": "template",
                 "template": "However, _____ alone cannot _____ without _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["mandatory testing", "road signs", "speed limits"], "correctAnswer": "mandatory testing"},
-                  {"id": "topic2_b2", "options": ["guarantee road safety", "cost money", "take time"], "correctAnswer": "guarantee road safety"},
-                  {"id": "topic2_b3", "options": ["addressing other critical factors like infrastructure and enforcement", "new cars", "more drivers"], "correctAnswer": "addressing other critical factors like infrastructure and enforcement"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "mandatory testing",
+                      "road signs",
+                      "speed limits"
+                    ],
+                    "correctAnswer": "mandatory testing"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "guarantee road safety",
+                      "cost money",
+                      "take time"
+                    ],
+                    "correctAnswer": "guarantee road safety"
+                  },
+                  {
+                    "id": "topic2_b3",
+                    "options": [
+                      "addressing other critical factors like infrastructure and enforcement",
+                      "new cars",
+                      "more drivers"
+                    ],
+                    "correctAnswer": "addressing other critical factors like infrastructure and enforcement"
+                  }
                 ],
                 "correctSentence": "However, mandatory testing alone cannot guarantee road safety without addressing other critical factors like infrastructure and enforcement.",
                 "usableIn": "body-paragraph-2"
@@ -262,8 +395,24 @@
                 "type": "template",
                 "template": "This is particularly important for _____ who may _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["elderly drivers", "young drivers", "taxi drivers"], "correctAnswer": "elderly drivers"},
-                  {"id": "support1_b2", "options": ["experience declining vision, slower reaction times, or cognitive issues", "drive too fast", "own multiple cars"], "correctAnswer": "experience declining vision, slower reaction times, or cognitive issues"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "elderly drivers",
+                      "young drivers",
+                      "taxi drivers"
+                    ],
+                    "correctAnswer": "elderly drivers"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "experience declining vision, slower reaction times, or cognitive issues",
+                      "drive too fast",
+                      "own multiple cars"
+                    ],
+                    "correctAnswer": "experience declining vision, slower reaction times, or cognitive issues"
+                  }
                 ],
                 "correctSentence": "This is particularly important for elderly drivers who may experience declining vision, slower reaction times, or cognitive issues.",
                 "usableIn": "body-paragraph-1"
@@ -273,9 +422,33 @@
                 "type": "template",
                 "template": "The reason is that _____ often result from _____ rather than _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["traffic accidents", "car purchases", "parking violations"], "correctAnswer": "traffic accidents"},
-                  {"id": "support2_b2", "options": ["poor road conditions and inadequate traffic management", "lack of testing", "expensive fuel"], "correctAnswer": "poor road conditions and inadequate traffic management"},
-                  {"id": "support2_b3", "options": ["driver incompetence alone", "bad weather", "old cars"], "correctAnswer": "driver incompetence alone"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "traffic accidents",
+                      "car purchases",
+                      "parking violations"
+                    ],
+                    "correctAnswer": "traffic accidents"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "poor road conditions and inadequate traffic management",
+                      "lack of testing",
+                      "expensive fuel"
+                    ],
+                    "correctAnswer": "poor road conditions and inadequate traffic management"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "driver incompetence alone",
+                      "bad weather",
+                      "old cars"
+                    ],
+                    "correctAnswer": "driver incompetence alone"
+                  }
                 ],
                 "correctSentence": "The reason is that traffic accidents often result from poor road conditions and inadequate traffic management rather than driver incompetence alone.",
                 "usableIn": "body-paragraph-2"
@@ -292,9 +465,33 @@
                 "type": "template",
                 "template": "For instance, _____ could reveal _____ that _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["reaction time tests", "driving licenses", "car inspections"], "correctAnswer": "reaction time tests"},
-                  {"id": "example1_b2", "options": ["drivers with impaired reflexes", "expensive cars", "new roads"], "correctAnswer": "drivers with impaired reflexes"},
-                  {"id": "example1_b3", "options": ["pose serious risks on high-speed motorways", "need new tires", "prefer automatic transmission"], "correctAnswer": "pose serious risks on high-speed motorways"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "reaction time tests",
+                      "driving licenses",
+                      "car inspections"
+                    ],
+                    "correctAnswer": "reaction time tests"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "drivers with impaired reflexes",
+                      "expensive cars",
+                      "new roads"
+                    ],
+                    "correctAnswer": "drivers with impaired reflexes"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "pose serious risks on high-speed motorways",
+                      "need new tires",
+                      "prefer automatic transmission"
+                    ],
+                    "correctAnswer": "pose serious risks on high-speed motorways"
+                  }
                 ],
                 "correctSentence": "For instance, reaction time tests could reveal drivers with impaired reflexes that pose serious risks on high-speed motorways.",
                 "usableIn": "body-paragraph-1"
@@ -304,8 +501,24 @@
                 "type": "template",
                 "template": "For example, in countries with _____, traffic fatalities remain high due to _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["well-maintained roads but poor enforcement", "expensive cars", "many drivers"], "correctAnswer": "well-maintained roads but poor enforcement"},
-                  {"id": "example2_b2", "options": ["speeding, drunk driving, and reckless behavior", "too many tests", "lack of parking"], "correctAnswer": "speeding, drunk driving, and reckless behavior"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "well-maintained roads but poor enforcement",
+                      "expensive cars",
+                      "many drivers"
+                    ],
+                    "correctAnswer": "well-maintained roads but poor enforcement"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "speeding, drunk driving, and reckless behavior",
+                      "too many tests",
+                      "lack of parking"
+                    ],
+                    "correctAnswer": "speeding, drunk driving, and reckless behavior"
+                  }
                 ],
                 "correctSentence": "For example, in countries with well-maintained roads but poor enforcement, traffic fatalities remain high due to speeding, drunk driving, and reckless behavior.",
                 "usableIn": "body-paragraph-2"
@@ -322,8 +535,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["annual testing has merit", "testing is useless", "roads are dangerous"], "correctAnswer": "annual testing has merit"},
-                  {"id": "conclusion1_b2", "options": ["it should be combined with improved infrastructure and stricter law enforcement", "it is the only solution", "we should ban all cars"], "correctAnswer": "it should be combined with improved infrastructure and stricter law enforcement"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "annual testing has merit",
+                      "testing is useless",
+                      "roads are dangerous"
+                    ],
+                    "correctAnswer": "annual testing has merit"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "it should be combined with improved infrastructure and stricter law enforcement",
+                      "it is the only solution",
+                      "we should ban all cars"
+                    ],
+                    "correctAnswer": "it should be combined with improved infrastructure and stricter law enforcement"
+                  }
                 ],
                 "correctSentence": "In conclusion, while annual testing has merit, I believe it should be combined with improved infrastructure and stricter law enforcement.",
                 "usableIn": "conclusion"
@@ -370,13 +599,48 @@
           }
         ],
         "usefulTransitions": {
-          "agreeing": ["I strongly agree that", "This approach would be highly effective", "Annual testing would certainly"],
-          "partially_agreeing": ["To some extent", "While this has merit", "I partially agree that", "This could help, but"],
-          "disagreeing": ["I disagree with the view that", "This approach is flawed because", "Annual testing is not the best solution"],
-          "adding_points": ["Furthermore", "Moreover", "In addition", "Additionally", "What is more"],
-          "giving_examples": ["For instance", "For example", "To illustrate", "A clear example is"],
-          "showing_contrast": ["However", "On the other hand", "Conversely", "Nevertheless"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "Hence"]
+          "agreeing": [
+            "I strongly agree that",
+            "This approach would be highly effective",
+            "Annual testing would certainly"
+          ],
+          "partially_agreeing": [
+            "To some extent",
+            "While this has merit",
+            "I partially agree that",
+            "This could help, but"
+          ],
+          "disagreeing": [
+            "I disagree with the view that",
+            "This approach is flawed because",
+            "Annual testing is not the best solution"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "What is more"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "A clear example is"
+          ],
+          "showing_contrast": [
+            "However",
+            "On the other hand",
+            "Conversely",
+            "Nevertheless"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "Hence"
+          ]
         }
       }
     },
@@ -549,7 +813,7 @@
   ],
   "modelEssay": {
     "text": "Road safety has become a critical concern worldwide as traffic accidents claim millions of lives each year. While some argue that annual driver testing is the most effective solution to this problem, I partially agree with this view because although regular testing can identify incompetent drivers, comprehensive road safety requires multiple complementary measures.\n\nAnnual driver testing would undoubtedly be beneficial in identifying individuals whose driving competency has deteriorated over time. Regular assessments could detect declining physical abilities such as reduced vision, slower reaction times, and impaired cognitive function that develop gradually with age or health conditions. For instance, elderly drivers over seventy often experience diminished peripheral vision and delayed reflexes that significantly increase their accident risk on high-speed motorways. Mandatory retesting could prevent thousands of collisions by identifying such drivers and either providing refresher training or suspending licenses when necessary. Consequently, this preventive approach would remove genuinely dangerous drivers from roads before they cause serious accidents.\n\nHowever, annual testing alone cannot guarantee comprehensive road safety without addressing other critical factors. The reason is that many traffic fatalities result from poor road infrastructure, inadequate traffic management systems, and insufficient law enforcement rather than driver incompetence alone. For example, countries with rigorous testing requirements still experience high accident rates when they fail to maintain roads properly or enforce penalties for speeding, drunk driving, and reckless behavior. Therefore, improving road safety demands a multifaceted strategy combining driver competency assessment with infrastructure investment, better road design, and strict enforcement of traffic regulations.\n\nIn conclusion, while annual driver testing offers clear benefits by identifying unsafe drivers, I believe it represents only one component of effective road safety policy. Overall, governments should implement regular testing alongside improved infrastructure and stricter law enforcement to achieve meaningful reductions in traffic accidents and fatalities.",
-    "wordCount": 283,
+    "wordCount": 295,
     "structure": {
       "introduction": "Road safety has become a critical concern worldwide as traffic accidents claim millions of lives each year. While some argue that annual driver testing is the most effective solution to this problem, I partially agree with this view because although regular testing can identify incompetent drivers, comprehensive road safety requires multiple complementary measures.",
       "body1": "Annual driver testing would undoubtedly be beneficial in identifying individuals whose driving competency has deteriorated over time. Regular assessments could detect declining physical abilities such as reduced vision, slower reaction times, and impaired cognitive function that develop gradually with age or health conditions. For instance, elderly drivers over seventy often experience diminished peripheral vision and delayed reflexes that significantly increase their accident risk on high-speed motorways. Mandatory retesting could prevent thousands of collisions by identifying such drivers and either providing refresher training or suspending licenses when necessary. Consequently, this preventive approach would remove genuinely dangerous drivers from roads before they cause serious accidents.",

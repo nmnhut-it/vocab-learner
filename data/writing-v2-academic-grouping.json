@@ -79,105 +79,153 @@
             "word": "streaming",
             "pronunciation": "/ˈstriːmɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Dividing students into groups based on their academic ability",
+            "definition": "Dividing students into groups based on their academic ability.",
             "example": "Streaming allows teachers to tailor instruction to students' ability levels.",
-            "synonyms": ["ability grouping", "tracking"]
+            "synonyms": [
+              "ability grouping",
+              "tracking"
+            ]
           },
           {
             "word": "mixed-ability classes",
             "pronunciation": "/mɪkst əˈbɪləti ˈklɑːsɪz/",
             "partOfSpeech": "noun",
-            "definition": "Classes containing students with varying academic performance levels",
+            "definition": "Classes containing students with varying academic performance levels.",
             "example": "Mixed-ability classes promote peer learning and social inclusion.",
-            "synonyms": ["heterogeneous grouping", "inclusive classrooms"]
+            "synonyms": [
+              "heterogeneous grouping",
+              "inclusive classrooms"
+            ]
           },
           {
             "word": "academic performance",
             "pronunciation": "/ˌækəˈdemɪk pəˈfɔːməns/",
             "partOfSpeech": "noun",
-            "definition": "The level of achievement in educational tasks and assessments",
+            "definition": "The level of achievement in educational tasks and assessments.",
             "example": "Ability grouping may improve academic performance for high-achieving students.",
-            "synonyms": ["scholastic achievement", "educational attainment"]
+            "synonyms": [
+              "scholastic achievement",
+              "educational attainment"
+            ]
           },
           {
             "word": "learning pace",
             "pronunciation": "/ˈlɜːnɪŋ peɪs/",
             "partOfSpeech": "noun",
-            "definition": "The speed at which a student acquires new knowledge",
+            "definition": "The speed at which a student acquires new knowledge.",
             "example": "Students have different learning paces that teachers must accommodate.",
-            "synonyms": ["learning speed", "study tempo"]
+            "synonyms": [
+              "learning speed",
+              "study tempo"
+            ]
           },
           {
             "word": "educational equity",
             "pronunciation": "/ˌedʒuˈkeɪʃənəl ˈekwəti/",
             "partOfSpeech": "noun",
-            "definition": "Fair access to quality education for all students",
+            "definition": "Fair access to quality education for all students.",
             "example": "Mixed-ability classes are often promoted to ensure educational equity.",
-            "synonyms": ["educational fairness", "learning equality"]
+            "synonyms": [
+              "educational fairness",
+              "learning equality"
+            ]
           },
           {
             "word": "peer learning",
             "pronunciation": "/pɪə ˈlɜːnɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Education that occurs through interaction among students",
+            "definition": "Education that occurs through interaction among students.",
             "example": "Peer learning benefits both high and low achievers in mixed classes.",
-            "synonyms": ["collaborative learning", "peer-to-peer education"]
+            "synonyms": [
+              "collaborative learning",
+              "peer-to-peer education"
+            ]
           },
           {
             "word": "differentiation",
             "pronunciation": "/ˌdɪfərenʃiˈeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Tailoring instruction to meet individual student needs",
+            "definition": "Tailoring instruction to meet individual student needs.",
             "example": "Effective differentiation can work in both streamed and mixed-ability settings.",
-            "synonyms": ["individualized instruction", "adaptive teaching"]
+            "synonyms": [
+              "individualized instruction",
+              "adaptive teaching"
+            ]
           },
           {
             "word": "stigmatization",
             "pronunciation": "/ˌstɪɡmətaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The process of marking someone with negative labels",
+            "definition": "The process of marking someone with negative labels.",
             "example": "Critics argue that streaming leads to stigmatization of lower-ability students.",
-            "synonyms": ["labeling", "social marking"]
+            "synonyms": [
+              "labeling",
+              "social marking"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "gifted programs",
-            "definition": "Special educational programs for academically talented students",
+            "definition": "Special educational programs for academically talented students.",
             "example": "Many countries offer gifted programs for high-achieving learners."
           },
           {
             "phrase": "inclusive education",
-            "definition": "Educational approach integrating students of all abilities",
+            "definition": "Educational approach integrating students of all abilities.",
             "example": "Inclusive education emphasizes learning together regardless of ability."
           },
           {
             "phrase": "academic achievement gap",
-            "definition": "Disparity in educational performance between student groups",
+            "definition": "Disparity in educational performance between student groups.",
             "example": "Mixed-ability classes aim to reduce the academic achievement gap."
           },
           {
             "phrase": "tailored instruction",
-            "definition": "Teaching customized to specific student needs",
+            "definition": "Teaching customized to specific student needs.",
             "example": "Ability grouping allows for more tailored instruction."
           },
           {
             "phrase": "social integration",
-            "definition": "The process of different groups mixing and interacting",
+            "definition": "The process of different groups mixing and interacting.",
             "example": "Mixed classes promote social integration among diverse learners."
           },
           {
             "phrase": "self-esteem",
-            "definition": "Confidence in one's own worth and abilities",
+            "definition": "Confidence in one's own worth and abilities.",
             "example": "Being placed in lower streams can damage students' self-esteem."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "Educators disagree on whether", "While some advocate"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "Educators disagree on whether",
+            "While some advocate"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +248,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["schools should group students by ability", "all students are the same", "testing is unnecessary"], "correctAnswer": "schools should group students by ability"},
-                  {"id": "thesis1_b2", "options": ["mixed-ability classes create better learning environments", "ability doesn't matter", "grouping is always harmful"], "correctAnswer": "mixed-ability classes create better learning environments"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "schools should group students by ability",
+                      "all students are the same",
+                      "testing is unnecessary"
+                    ],
+                    "correctAnswer": "schools should group students by ability"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "mixed-ability classes create better learning environments",
+                      "ability doesn't matter",
+                      "grouping is always harmful"
+                    ],
+                    "correctAnswer": "mixed-ability classes create better learning environments"
+                  }
                 ],
                 "correctSentence": "While some believe schools should group students by ability, others argue that mixed-ability classes create better learning environments.",
                 "usableIn": "introduction"
@@ -211,8 +275,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the best grouping approach", "student happiness", "school size"], "correctAnswer": "the best grouping approach"},
-                  {"id": "thesis2_b2", "options": ["the subject being taught and available resources", "government policy", "parental preference"], "correctAnswer": "the subject being taught and available resources"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the best grouping approach",
+                      "student happiness",
+                      "school size"
+                    ],
+                    "correctAnswer": "the best grouping approach"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the subject being taught and available resources",
+                      "government policy",
+                      "parental preference"
+                    ],
+                    "correctAnswer": "the subject being taught and available resources"
+                  }
                 ],
                 "correctSentence": "In my opinion, the best grouping approach depends on the subject being taught and available resources.",
                 "usableIn": "introduction"
@@ -222,8 +302,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["both educational approaches", "only streaming", "neither method"], "correctAnswer": "both educational approaches"},
-                  {"id": "thesis3_b2", "options": ["a balanced approach may be most effective", "streaming is always better", "mixing abilities never works"], "correctAnswer": "a balanced approach may be most effective"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "both educational approaches",
+                      "only streaming",
+                      "neither method"
+                    ],
+                    "correctAnswer": "both educational approaches"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "a balanced approach may be most effective",
+                      "streaming is always better",
+                      "mixing abilities never works"
+                    ],
+                    "correctAnswer": "a balanced approach may be most effective"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both educational approaches before concluding that a balanced approach may be most effective.",
                 "usableIn": "introduction"
@@ -233,8 +329,24 @@
                 "type": "template",
                 "template": "Although _____, I believe _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["ability grouping has some benefits", "all students are equal", "testing is perfect"], "correctAnswer": "ability grouping has some benefits"},
-                  {"id": "thesis4_b2", "options": ["mixed-ability classes better serve most students' needs", "streaming is always superior", "grouping should be mandatory"], "correctAnswer": "mixed-ability classes better serve most students' needs"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "ability grouping has some benefits",
+                      "all students are equal",
+                      "testing is perfect"
+                    ],
+                    "correctAnswer": "ability grouping has some benefits"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "mixed-ability classes better serve most students' needs",
+                      "streaming is always superior",
+                      "grouping should be mandatory"
+                    ],
+                    "correctAnswer": "mixed-ability classes better serve most students' needs"
+                  }
                 ],
                 "correctSentence": "Although ability grouping has some benefits, I believe mixed-ability classes better serve most students' needs.",
                 "usableIn": "introduction"
@@ -244,9 +356,33 @@
                 "type": "template",
                 "template": "The debate over _____ has _____ with valid arguments on _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["student grouping methods", "school funding", "teacher salaries"], "correctAnswer": "student grouping methods"},
-                  {"id": "thesis5_b2", "options": ["intensified in recent years", "been resolved", "become irrelevant"], "correctAnswer": "intensified in recent years"},
-                  {"id": "thesis5_b3", "options": ["both sides of the discussion", "one side only", "neither perspective"], "correctAnswer": "both sides of the discussion"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "student grouping methods",
+                      "school funding",
+                      "teacher salaries"
+                    ],
+                    "correctAnswer": "student grouping methods"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "intensified in recent years",
+                      "been resolved",
+                      "become irrelevant"
+                    ],
+                    "correctAnswer": "intensified in recent years"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "both sides of the discussion",
+                      "one side only",
+                      "neither perspective"
+                    ],
+                    "correctAnswer": "both sides of the discussion"
+                  }
                 ],
                 "correctSentence": "The debate over student grouping methods has intensified in recent years with valid arguments on both sides of the discussion.",
                 "usableIn": "introduction"
@@ -256,9 +392,33 @@
                 "type": "template",
                 "template": "Both _____ and _____ have advantages, but _____.",
                 "blanks": [
-                  {"id": "thesis6_b1", "options": ["streaming students by ability", "random assignment", "alphabetical ordering"], "correctAnswer": "streaming students by ability"},
-                  {"id": "thesis6_b2", "options": ["teaching mixed-ability groups", "ignoring differences", "competitive ranking"], "correctAnswer": "teaching mixed-ability groups"},
-                  {"id": "thesis6_b3", "options": ["the optimal choice varies by educational context", "one is clearly superior", "neither works well"], "correctAnswer": "the optimal choice varies by educational context"}
+                  {
+                    "id": "thesis6_b1",
+                    "options": [
+                      "streaming students by ability",
+                      "random assignment",
+                      "alphabetical ordering"
+                    ],
+                    "correctAnswer": "streaming students by ability"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": [
+                      "teaching mixed-ability groups",
+                      "ignoring differences",
+                      "competitive ranking"
+                    ],
+                    "correctAnswer": "teaching mixed-ability groups"
+                  },
+                  {
+                    "id": "thesis6_b3",
+                    "options": [
+                      "the optimal choice varies by educational context",
+                      "one is clearly superior",
+                      "neither works well"
+                    ],
+                    "correctAnswer": "the optimal choice varies by educational context"
+                  }
                 ],
                 "correctSentence": "Both streaming students by ability and teaching mixed-ability groups have advantages, but the optimal choice varies by educational context.",
                 "usableIn": "introduction"
@@ -268,8 +428,24 @@
                 "type": "template",
                 "template": "There are compelling reasons why _____, although _____.",
                 "blanks": [
-                  {"id": "thesis7_b1", "options": ["some schools prefer ability-based grouping", "all schools use identical methods", "grouping is unnecessary"], "correctAnswer": "some schools prefer ability-based grouping"},
-                  {"id": "thesis7_b2", "options": ["mixed-ability classrooms offer significant social benefits", "streaming guarantees success", "testing is always accurate"], "correctAnswer": "mixed-ability classrooms offer significant social benefits"}
+                  {
+                    "id": "thesis7_b1",
+                    "options": [
+                      "some schools prefer ability-based grouping",
+                      "all schools use identical methods",
+                      "grouping is unnecessary"
+                    ],
+                    "correctAnswer": "some schools prefer ability-based grouping"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": [
+                      "mixed-ability classrooms offer significant social benefits",
+                      "streaming guarantees success",
+                      "testing is always accurate"
+                    ],
+                    "correctAnswer": "mixed-ability classrooms offer significant social benefits"
+                  }
                 ],
                 "correctSentence": "There are compelling reasons why some schools prefer ability-based grouping, although mixed-ability classrooms offer significant social benefits.",
                 "usableIn": "introduction"
@@ -286,8 +462,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ allows teachers to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["ability grouping", "random assignment", "age grouping"], "correctAnswer": "ability grouping"},
-                  {"id": "topic1_b2", "options": ["provide instruction matched to students' learning pace", "ignore individual differences", "teach less content"], "correctAnswer": "provide instruction matched to students' learning pace"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "ability grouping",
+                      "random assignment",
+                      "age grouping"
+                    ],
+                    "correctAnswer": "ability grouping"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "provide instruction matched to students' learning pace",
+                      "ignore individual differences",
+                      "teach less content"
+                    ],
+                    "correctAnswer": "provide instruction matched to students' learning pace"
+                  }
                 ],
                 "correctSentence": "On the one hand, ability grouping allows teachers to provide instruction matched to students' learning pace.",
                 "usableIn": "body-paragraph-1"
@@ -297,8 +489,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ promotes _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["mixed-ability teaching", "ability streaming", "selective education"], "correctAnswer": "mixed-ability teaching"},
-                  {"id": "topic2_b2", "options": ["social integration and peer learning opportunities", "faster curriculum coverage", "easier grading"], "correctAnswer": "social integration and peer learning opportunities"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "mixed-ability teaching",
+                      "ability streaming",
+                      "selective education"
+                    ],
+                    "correctAnswer": "mixed-ability teaching"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "social integration and peer learning opportunities",
+                      "faster curriculum coverage",
+                      "easier grading"
+                    ],
+                    "correctAnswer": "social integration and peer learning opportunities"
+                  }
                 ],
                 "correctSentence": "On the other hand, mixed-ability teaching promotes social integration and peer learning opportunities.",
                 "usableIn": "body-paragraph-2"
@@ -308,8 +516,24 @@
                 "type": "template",
                 "template": "Proponents of streaming argue that _____ benefits _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["separating students by ability", "mixing all abilities", "ignoring performance"], "correctAnswer": "separating students by ability"},
-                  {"id": "topic3_b2", "options": ["both high and low achievers academically", "only teachers", "school administrators"], "correctAnswer": "both high and low achievers academically"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "separating students by ability",
+                      "mixing all abilities",
+                      "ignoring performance"
+                    ],
+                    "correctAnswer": "separating students by ability"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "both high and low achievers academically",
+                      "only teachers",
+                      "school administrators"
+                    ],
+                    "correctAnswer": "both high and low achievers academically"
+                  }
                 ],
                 "correctSentence": "Proponents of streaming argue that separating students by ability benefits both high and low achievers academically.",
                 "usableIn": "body-paragraph-1"
@@ -319,8 +543,24 @@
                 "type": "template",
                 "template": "Advocates of inclusive classrooms contend that _____ creates _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["learning with diverse peers", "ability segregation", "competitive pressure"], "correctAnswer": "learning with diverse peers"},
-                  {"id": "topic4_b2", "options": ["a more equitable educational environment", "confusion among students", "slower progress"], "correctAnswer": "a more equitable educational environment"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "learning with diverse peers",
+                      "ability segregation",
+                      "competitive pressure"
+                    ],
+                    "correctAnswer": "learning with diverse peers"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "a more equitable educational environment",
+                      "confusion among students",
+                      "slower progress"
+                    ],
+                    "correctAnswer": "a more equitable educational environment"
+                  }
                 ],
                 "correctSentence": "Advocates of inclusive classrooms contend that learning with diverse peers creates a more equitable educational environment.",
                 "usableIn": "body-paragraph-2"
@@ -330,8 +570,24 @@
                 "type": "template",
                 "template": "Setting students by ability in _____ can _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["specific subjects like mathematics", "all activities", "physical education"], "correctAnswer": "specific subjects like mathematics"},
-                  {"id": "topic5_b2", "options": ["optimize learning outcomes for different skill levels", "eliminate the need for teaching", "guarantee perfect results"], "correctAnswer": "optimize learning outcomes for different skill levels"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "specific subjects like mathematics",
+                      "all activities",
+                      "physical education"
+                    ],
+                    "correctAnswer": "specific subjects like mathematics"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "optimize learning outcomes for different skill levels",
+                      "eliminate the need for teaching",
+                      "guarantee perfect results"
+                    ],
+                    "correctAnswer": "optimize learning outcomes for different skill levels"
+                  }
                 ],
                 "correctSentence": "Setting students by ability in specific subjects like mathematics can optimize learning outcomes for different skill levels.",
                 "usableIn": "body-paragraph-1"
@@ -341,8 +597,24 @@
                 "type": "template",
                 "template": "Heterogeneous grouping supports _____ by _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["social cohesion", "academic competition", "rigid hierarchies"], "correctAnswer": "social cohesion"},
-                  {"id": "topic6_b2", "options": ["bringing together students from different backgrounds and abilities", "separating high and low achievers", "eliminating academic standards"], "correctAnswer": "bringing together students from different backgrounds and abilities"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "social cohesion",
+                      "academic competition",
+                      "rigid hierarchies"
+                    ],
+                    "correctAnswer": "social cohesion"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "bringing together students from different backgrounds and abilities",
+                      "separating high and low achievers",
+                      "eliminating academic standards"
+                    ],
+                    "correctAnswer": "bringing together students from different backgrounds and abilities"
+                  }
                 ],
                 "correctSentence": "Heterogeneous grouping supports social cohesion by bringing together students from different backgrounds and abilities.",
                 "usableIn": "body-paragraph-2"
@@ -359,8 +631,24 @@
                 "type": "template",
                 "template": "This is because _____ enables teachers to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["homogeneous grouping", "random placement", "age-based classes"], "correctAnswer": "homogeneous grouping"},
-                  {"id": "support1_b2", "options": ["focus on appropriate difficulty levels without holding anyone back", "use identical materials for everyone", "reduce preparation time"], "correctAnswer": "focus on appropriate difficulty levels without holding anyone back"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "homogeneous grouping",
+                      "random placement",
+                      "age-based classes"
+                    ],
+                    "correctAnswer": "homogeneous grouping"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "focus on appropriate difficulty levels without holding anyone back",
+                      "use identical materials for everyone",
+                      "reduce preparation time"
+                    ],
+                    "correctAnswer": "focus on appropriate difficulty levels without holding anyone back"
+                  }
                 ],
                 "correctSentence": "This is because homogeneous grouping enables teachers to focus on appropriate difficulty levels without holding anyone back.",
                 "usableIn": "body-paragraph-1"
@@ -370,8 +658,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["diverse classroom composition", "strict ability sorting", "competitive ranking"], "correctAnswer": "diverse classroom composition"},
-                  {"id": "support2_b2", "options": ["stronger students helping weaker ones improve", "uniform test scores", "simplified teaching"], "correctAnswer": "stronger students helping weaker ones improve"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "diverse classroom composition",
+                      "strict ability sorting",
+                      "competitive ranking"
+                    ],
+                    "correctAnswer": "diverse classroom composition"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "stronger students helping weaker ones improve",
+                      "uniform test scores",
+                      "simplified teaching"
+                    ],
+                    "correctAnswer": "stronger students helping weaker ones improve"
+                  }
                 ],
                 "correctSentence": "The main reason is that diverse classroom composition leads to stronger students helping weaker ones improve.",
                 "usableIn": "body-paragraph-2"
@@ -381,8 +685,24 @@
                 "type": "template",
                 "template": "When students are grouped by ability, _____ can _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["high achievers", "all students equally", "only average students"], "correctAnswer": "high achievers"},
-                  {"id": "support3_b2", "options": ["progress through material at a faster pace", "become complacent", "stop studying"], "correctAnswer": "progress through material at a faster pace"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "high achievers",
+                      "all students equally",
+                      "only average students"
+                    ],
+                    "correctAnswer": "high achievers"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "progress through material at a faster pace",
+                      "become complacent",
+                      "stop studying"
+                    ],
+                    "correctAnswer": "progress through material at a faster pace"
+                  }
                 ],
                 "correctSentence": "When students are grouped by ability, high achievers can progress through material at a faster pace.",
                 "usableIn": "body-paragraph-1"
@@ -392,8 +712,24 @@
                 "type": "template",
                 "template": "In mixed-ability settings, _____ develops _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["interaction among different learners", "competitive pressure", "uniform thinking"], "correctAnswer": "interaction among different learners"},
-                  {"id": "support4_b2", "options": ["empathy and reduces social stigmatization", "academic arrogance", "learning barriers"], "correctAnswer": "empathy and reduces social stigmatization"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "interaction among different learners",
+                      "competitive pressure",
+                      "uniform thinking"
+                    ],
+                    "correctAnswer": "interaction among different learners"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "empathy and reduces social stigmatization",
+                      "academic arrogance",
+                      "learning barriers"
+                    ],
+                    "correctAnswer": "empathy and reduces social stigmatization"
+                  }
                 ],
                 "correctSentence": "In mixed-ability settings, interaction among different learners develops empathy and reduces social stigmatization.",
                 "usableIn": "body-paragraph-2"
@@ -403,8 +739,24 @@
                 "type": "template",
                 "template": "Furthermore, _____ means that _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["tailored instruction for ability groups", "standardized teaching", "minimal differentiation"], "correctAnswer": "tailored instruction for ability groups"},
-                  {"id": "support5_b2", "options": ["struggling students receive targeted support without embarrassment", "all students learn the same way", "teachers work less"], "correctAnswer": "struggling students receive targeted support without embarrassment"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "tailored instruction for ability groups",
+                      "standardized teaching",
+                      "minimal differentiation"
+                    ],
+                    "correctAnswer": "tailored instruction for ability groups"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "struggling students receive targeted support without embarrassment",
+                      "all students learn the same way",
+                      "teachers work less"
+                    ],
+                    "correctAnswer": "struggling students receive targeted support without embarrassment"
+                  }
                 ],
                 "correctSentence": "Furthermore, tailored instruction for ability groups means that struggling students receive targeted support without embarrassment.",
                 "usableIn": "body-paragraph-1"
@@ -414,8 +766,24 @@
                 "type": "template",
                 "template": "Additionally, _____ ensures that _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["heterogeneous classrooms", "strict streaming", "ability testing"], "correctAnswer": "heterogeneous classrooms"},
-                  {"id": "support6_b2", "options": ["all students access the same curriculum and opportunities", "gifted students are unchallenged", "weak students fall behind"], "correctAnswer": "all students access the same curriculum and opportunities"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "heterogeneous classrooms",
+                      "strict streaming",
+                      "ability testing"
+                    ],
+                    "correctAnswer": "heterogeneous classrooms"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "all students access the same curriculum and opportunities",
+                      "gifted students are unchallenged",
+                      "weak students fall behind"
+                    ],
+                    "correctAnswer": "all students access the same curriculum and opportunities"
+                  }
                 ],
                 "correctSentence": "Additionally, heterogeneous classrooms ensure that all students access the same curriculum and opportunities.",
                 "usableIn": "body-paragraph-2"
@@ -425,8 +793,24 @@
                 "type": "template",
                 "template": "Another advantage is that _____ allows _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["ability-based grouping", "random selection", "alphabetical ordering"], "correctAnswer": "ability-based grouping"},
-                  {"id": "support7_b2", "options": ["struggling learners to receive focused attention without embarrassment", "teachers to avoid difficult students", "all students identical treatment"], "correctAnswer": "struggling learners to receive focused attention without embarrassment"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "ability-based grouping",
+                      "random selection",
+                      "alphabetical ordering"
+                    ],
+                    "correctAnswer": "ability-based grouping"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "struggling learners to receive focused attention without embarrassment",
+                      "teachers to avoid difficult students",
+                      "all students identical treatment"
+                    ],
+                    "correctAnswer": "struggling learners to receive focused attention without embarrassment"
+                  }
                 ],
                 "correctSentence": "Another advantage is that ability-based grouping allows struggling learners to receive focused attention without embarrassment.",
                 "usableIn": "body-paragraph-1"
@@ -436,9 +820,33 @@
                 "type": "template",
                 "template": "Moreover, _____ creates _____ where _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["inclusive classroom environments", "competitive atmospheres", "isolated groups"], "correctAnswer": "inclusive classroom environments"},
-                  {"id": "support8_b2", "options": ["supportive communities", "hostile competition", "academic pressure"], "correctAnswer": "supportive communities"},
-                  {"id": "support8_b3", "options": ["students learn to appreciate diverse perspectives and abilities", "only the strongest succeed", "weak students are ignored"], "correctAnswer": "students learn to appreciate diverse perspectives and abilities"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "inclusive classroom environments",
+                      "competitive atmospheres",
+                      "isolated groups"
+                    ],
+                    "correctAnswer": "inclusive classroom environments"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "supportive communities",
+                      "hostile competition",
+                      "academic pressure"
+                    ],
+                    "correctAnswer": "supportive communities"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "students learn to appreciate diverse perspectives and abilities",
+                      "only the strongest succeed",
+                      "weak students are ignored"
+                    ],
+                    "correctAnswer": "students learn to appreciate diverse perspectives and abilities"
+                  }
                 ],
                 "correctSentence": "Moreover, inclusive classroom environments create supportive communities where students learn to appreciate diverse perspectives and abilities.",
                 "usableIn": "body-paragraph-2"
@@ -455,9 +863,33 @@
                 "type": "template",
                 "template": "For instance, _____ in _____ demonstrates _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the grammar school system", "random assignment", "social promotion"], "correctAnswer": "the grammar school system"},
-                  {"id": "example1_b2", "options": ["the United Kingdom", "most countries", "developing nations"], "correctAnswer": "the United Kingdom"},
-                  {"id": "example1_b3", "options": ["how ability selection can produce high academic standards", "that all students benefit equally", "streaming always fails"], "correctAnswer": "how ability selection can produce high academic standards"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the grammar school system",
+                      "random assignment",
+                      "social promotion"
+                    ],
+                    "correctAnswer": "the grammar school system"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "the United Kingdom",
+                      "most countries",
+                      "developing nations"
+                    ],
+                    "correctAnswer": "the United Kingdom"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "how ability selection can produce high academic standards",
+                      "that all students benefit equally",
+                      "streaming always fails"
+                    ],
+                    "correctAnswer": "how ability selection can produce high academic standards"
+                  }
                 ],
                 "correctSentence": "For instance, the grammar school system in the United Kingdom demonstrates how ability selection can produce high academic standards.",
                 "usableIn": "body-paragraph-1"
@@ -467,9 +899,33 @@
                 "type": "template",
                 "template": "For example, _____ have shown that _____ when _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["studies on inclusive education", "ability tests", "standardized curricula"], "correctAnswer": "studies on inclusive education"},
-                  {"id": "example2_b2", "options": ["weaker students improve their performance", "all students get identical grades", "learning becomes impossible"], "correctAnswer": "weaker students improve their performance"},
-                  {"id": "example2_b3", "options": ["they work alongside higher-achieving peers", "they study alone", "teachers ignore them"], "correctAnswer": "they work alongside higher-achieving peers"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "studies on inclusive education",
+                      "ability tests",
+                      "standardized curricula"
+                    ],
+                    "correctAnswer": "studies on inclusive education"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "weaker students improve their performance",
+                      "all students get identical grades",
+                      "learning becomes impossible"
+                    ],
+                    "correctAnswer": "weaker students improve their performance"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "they work alongside higher-achieving peers",
+                      "they study alone",
+                      "teachers ignore them"
+                    ],
+                    "correctAnswer": "they work alongside higher-achieving peers"
+                  }
                 ],
                 "correctSentence": "For example, studies on inclusive education have shown that weaker students improve their performance when they work alongside higher-achieving peers.",
                 "usableIn": "body-paragraph-2"
@@ -479,9 +935,33 @@
                 "type": "template",
                 "template": "In _____, _____ allows students to _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["mathematics classes", "physical education", "lunch breaks"], "correctAnswer": "mathematics classes"},
-                  {"id": "example3_b2", "options": ["setting by ability", "random grouping", "alphabetical ordering"], "correctAnswer": "setting by ability"},
-                  {"id": "example3_b3", "options": ["work on problems appropriate to their skill level", "avoid challenging work", "compete unfairly"], "correctAnswer": "work on problems appropriate to their skill level"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "mathematics classes",
+                      "physical education",
+                      "lunch breaks"
+                    ],
+                    "correctAnswer": "mathematics classes"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "setting by ability",
+                      "random grouping",
+                      "alphabetical ordering"
+                    ],
+                    "correctAnswer": "setting by ability"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "work on problems appropriate to their skill level",
+                      "avoid challenging work",
+                      "compete unfairly"
+                    ],
+                    "correctAnswer": "work on problems appropriate to their skill level"
+                  }
                 ],
                 "correctSentence": "In mathematics classes, setting by ability allows students to work on problems appropriate to their skill level.",
                 "usableIn": "body-paragraph-1"
@@ -491,9 +971,33 @@
                 "type": "template",
                 "template": "Research from _____ suggests that _____ in mixed classes _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["Finland's education system", "competitive schools", "private institutions"], "correctAnswer": "Finland's education system"},
-                  {"id": "example4_b2", "options": ["collaborative learning", "individual competition", "ability testing"], "correctAnswer": "collaborative learning"},
-                  {"id": "example4_b3", "options": ["benefits students across all performance levels", "only helps high achievers", "slows down progress"], "correctAnswer": "benefits students across all performance levels"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "Finland's education system",
+                      "competitive schools",
+                      "private institutions"
+                    ],
+                    "correctAnswer": "Finland's education system"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "collaborative learning",
+                      "individual competition",
+                      "ability testing"
+                    ],
+                    "correctAnswer": "collaborative learning"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "benefits students across all performance levels",
+                      "only helps high achievers",
+                      "slows down progress"
+                    ],
+                    "correctAnswer": "benefits students across all performance levels"
+                  }
                 ],
                 "correctSentence": "Research from Finland's education system suggests that collaborative learning in mixed classes benefits students across all performance levels.",
                 "usableIn": "body-paragraph-2"
@@ -503,10 +1007,42 @@
                 "type": "template",
                 "template": "Particularly in _____, _____ can _____ because _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["gifted programs", "regular classes", "extracurricular activities"], "correctAnswer": "gifted programs"},
-                  {"id": "example5_b2", "options": ["accelerated curricula", "simplified content", "reduced expectations"], "correctAnswer": "accelerated curricula"},
-                  {"id": "example5_b3", "options": ["challenge exceptional learners effectively", "bore talented students", "create problems"], "correctAnswer": "challenge exceptional learners effectively"},
-                  {"id": "example5_b4", "options": ["these students need advanced material", "all students are gifted", "testing is accurate"], "correctAnswer": "these students need advanced material"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "gifted programs",
+                      "regular classes",
+                      "extracurricular activities"
+                    ],
+                    "correctAnswer": "gifted programs"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "accelerated curricula",
+                      "simplified content",
+                      "reduced expectations"
+                    ],
+                    "correctAnswer": "accelerated curricula"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "challenge exceptional learners effectively",
+                      "bore talented students",
+                      "create problems"
+                    ],
+                    "correctAnswer": "challenge exceptional learners effectively"
+                  },
+                  {
+                    "id": "example5_b4",
+                    "options": [
+                      "these students need advanced material",
+                      "all students are gifted",
+                      "testing is accurate"
+                    ],
+                    "correctAnswer": "these students need advanced material"
+                  }
                 ],
                 "correctSentence": "Particularly in gifted programs, accelerated curricula can challenge exceptional learners effectively because these students need advanced material.",
                 "usableIn": "body-paragraph-1"
@@ -516,9 +1052,33 @@
                 "type": "template",
                 "template": "Evidence indicates that _____ in diverse classrooms _____ as _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["peer tutoring", "individual study", "competitive testing"], "correctAnswer": "peer tutoring"},
-                  {"id": "example6_b2", "options": ["strengthens understanding for both tutors and learners", "wastes valuable time", "creates confusion"], "correctAnswer": "strengthens understanding for both tutors and learners"},
-                  {"id": "example6_b3", "options": ["teaching reinforces knowledge", "students avoid work", "teachers lose control"], "correctAnswer": "teaching reinforces knowledge"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "peer tutoring",
+                      "individual study",
+                      "competitive testing"
+                    ],
+                    "correctAnswer": "peer tutoring"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "strengthens understanding for both tutors and learners",
+                      "wastes valuable time",
+                      "creates confusion"
+                    ],
+                    "correctAnswer": "strengthens understanding for both tutors and learners"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "teaching reinforces knowledge",
+                      "students avoid work",
+                      "teachers lose control"
+                    ],
+                    "correctAnswer": "teaching reinforces knowledge"
+                  }
                 ],
                 "correctSentence": "Evidence indicates that peer tutoring in diverse classrooms strengthens understanding for both tutors and learners as teaching reinforces knowledge.",
                 "usableIn": "body-paragraph-2"
@@ -528,9 +1088,33 @@
                 "type": "template",
                 "template": "Countries like _____ successfully use _____ to _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["Singapore", "most nations", "developing countries"], "correctAnswer": "Singapore"},
-                  {"id": "example7_b2", "options": ["flexible streaming in specific subjects", "strict ability separation", "no grouping at all"], "correctAnswer": "flexible streaming in specific subjects"},
-                  {"id": "example7_b3", "options": ["balance academic rigor with social integration", "create elite schools only", "eliminate weak students"], "correctAnswer": "balance academic rigor with social integration"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "Singapore",
+                      "most nations",
+                      "developing countries"
+                    ],
+                    "correctAnswer": "Singapore"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "flexible streaming in specific subjects",
+                      "strict ability separation",
+                      "no grouping at all"
+                    ],
+                    "correctAnswer": "flexible streaming in specific subjects"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "balance academic rigor with social integration",
+                      "create elite schools only",
+                      "eliminate weak students"
+                    ],
+                    "correctAnswer": "balance academic rigor with social integration"
+                  }
                 ],
                 "correctSentence": "Countries like Singapore successfully use flexible streaming in specific subjects to balance academic rigor with social integration.",
                 "usableIn": "body-paragraph-1"
@@ -540,8 +1124,24 @@
                 "type": "template",
                 "template": "Studies show that _____ in mixed settings often _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["lower-performing students", "all students", "only gifted learners"], "correctAnswer": "lower-performing students"},
-                  {"id": "example8_b2", "options": ["develop higher aspirations through exposure to successful peers", "give up trying", "disrupt classes"], "correctAnswer": "develop higher aspirations through exposure to successful peers"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "lower-performing students",
+                      "all students",
+                      "only gifted learners"
+                    ],
+                    "correctAnswer": "lower-performing students"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "develop higher aspirations through exposure to successful peers",
+                      "give up trying",
+                      "disrupt classes"
+                    ],
+                    "correctAnswer": "develop higher aspirations through exposure to successful peers"
+                  }
                 ],
                 "correctSentence": "Studies show that lower-performing students in mixed settings often develop higher aspirations through exposure to successful peers.",
                 "usableIn": "body-paragraph-2"
@@ -558,8 +1158,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may lead to _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["rigid ability streaming", "flexible grouping", "inclusive teaching"], "correctAnswer": "rigid ability streaming"},
-                  {"id": "counter1_b2", "options": ["reduced self-esteem among lower-stream students", "improved confidence", "better outcomes"], "correctAnswer": "reduced self-esteem among lower-stream students"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "rigid ability streaming",
+                      "flexible grouping",
+                      "inclusive teaching"
+                    ],
+                    "correctAnswer": "rigid ability streaming"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "reduced self-esteem among lower-stream students",
+                      "improved confidence",
+                      "better outcomes"
+                    ],
+                    "correctAnswer": "reduced self-esteem among lower-stream students"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that rigid ability streaming may lead to reduced self-esteem among lower-stream students.",
                 "usableIn": "body-paragraph-1"
@@ -569,8 +1185,24 @@
                 "type": "template",
                 "template": "Despite these advantages, _____ can present challenges such as _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["mixed-ability teaching", "ability grouping", "standardized testing"], "correctAnswer": "mixed-ability teaching"},
-                  {"id": "counter2_b2", "options": ["difficulty meeting all students' needs simultaneously", "uniform learning outcomes", "simplified instruction"], "correctAnswer": "difficulty meeting all students' needs simultaneously"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "mixed-ability teaching",
+                      "ability grouping",
+                      "standardized testing"
+                    ],
+                    "correctAnswer": "mixed-ability teaching"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "difficulty meeting all students' needs simultaneously",
+                      "uniform learning outcomes",
+                      "simplified instruction"
+                    ],
+                    "correctAnswer": "difficulty meeting all students' needs simultaneously"
+                  }
                 ],
                 "correctSentence": "Despite these advantages, mixed-ability teaching can present challenges such as difficulty meeting all students' needs simultaneously.",
                 "usableIn": "body-paragraph-2"
@@ -580,8 +1212,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that not all schools possess.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["effective ability grouping", "random assignment", "age-based classes"], "correctAnswer": "effective ability grouping"},
-                  {"id": "counter3_b2", "options": ["sufficient resources and qualified staff", "minimal preparation", "less funding"], "correctAnswer": "sufficient resources and qualified staff"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "effective ability grouping",
+                      "random assignment",
+                      "age-based classes"
+                    ],
+                    "correctAnswer": "effective ability grouping"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "sufficient resources and qualified staff",
+                      "minimal preparation",
+                      "less funding"
+                    ],
+                    "correctAnswer": "sufficient resources and qualified staff"
+                  }
                 ],
                 "correctSentence": "Nevertheless, effective ability grouping requires sufficient resources and qualified staff that not all schools possess.",
                 "usableIn": "body-paragraph-1"
@@ -591,9 +1239,33 @@
                 "type": "template",
                 "template": "While _____ is beneficial, _____ may _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["inclusive education", "selective education", "competitive grading"], "correctAnswer": "inclusive education"},
-                  {"id": "counter4_b2", "options": ["high-achieving students", "average learners", "all students equally"], "correctAnswer": "high-achieving students"},
-                  {"id": "counter4_b3", "options": ["not be sufficiently challenged", "progress too quickly", "become overconfident"], "correctAnswer": "not be sufficiently challenged"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "inclusive education",
+                      "selective education",
+                      "competitive grading"
+                    ],
+                    "correctAnswer": "inclusive education"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "high-achieving students",
+                      "average learners",
+                      "all students equally"
+                    ],
+                    "correctAnswer": "high-achieving students"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "not be sufficiently challenged",
+                      "progress too quickly",
+                      "become overconfident"
+                    ],
+                    "correctAnswer": "not be sufficiently challenged"
+                  }
                 ],
                 "correctSentence": "While inclusive education is beneficial, high-achieving students may not be sufficiently challenged.",
                 "usableIn": "body-paragraph-2"
@@ -603,9 +1275,33 @@
                 "type": "template",
                 "template": "Critics contend that _____ can _____ rather than _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["streaming by ability", "mixed-ability teaching", "random grouping"], "correctAnswer": "streaming by ability"},
-                  {"id": "counter5_b2", "options": ["reinforce educational inequality", "promote fairness", "improve outcomes"], "correctAnswer": "reinforce educational inequality"},
-                  {"id": "counter5_b3", "options": ["address it effectively", "worsen it further", "ignore it completely"], "correctAnswer": "address it effectively"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "streaming by ability",
+                      "mixed-ability teaching",
+                      "random grouping"
+                    ],
+                    "correctAnswer": "streaming by ability"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "reinforce educational inequality",
+                      "promote fairness",
+                      "improve outcomes"
+                    ],
+                    "correctAnswer": "reinforce educational inequality"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "address it effectively",
+                      "worsen it further",
+                      "ignore it completely"
+                    ],
+                    "correctAnswer": "address it effectively"
+                  }
                 ],
                 "correctSentence": "Critics contend that streaming by ability can reinforce educational inequality rather than address it effectively.",
                 "usableIn": "body-paragraph-1"
@@ -615,9 +1311,33 @@
                 "type": "template",
                 "template": "Although _____ has merits, _____ suggests that _____.",
                 "blanks": [
-                  {"id": "counter6_b1", "options": ["heterogeneous grouping", "ability tracking", "standardized testing"], "correctAnswer": "heterogeneous grouping"},
-                  {"id": "counter6_b2", "options": ["practical classroom experience", "theoretical research", "government policy"], "correctAnswer": "practical classroom experience"},
-                  {"id": "counter6_b3", "options": ["some differentiation is inevitable", "all students learn identically", "grouping is unnecessary"], "correctAnswer": "some differentiation is inevitable"}
+                  {
+                    "id": "counter6_b1",
+                    "options": [
+                      "heterogeneous grouping",
+                      "ability tracking",
+                      "standardized testing"
+                    ],
+                    "correctAnswer": "heterogeneous grouping"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": [
+                      "practical classroom experience",
+                      "theoretical research",
+                      "government policy"
+                    ],
+                    "correctAnswer": "practical classroom experience"
+                  },
+                  {
+                    "id": "counter6_b3",
+                    "options": [
+                      "some differentiation is inevitable",
+                      "all students learn identically",
+                      "grouping is unnecessary"
+                    ],
+                    "correctAnswer": "some differentiation is inevitable"
+                  }
                 ],
                 "correctSentence": "Although heterogeneous grouping has merits, practical classroom experience suggests that some differentiation is inevitable.",
                 "usableIn": "body-paragraph-2"
@@ -627,9 +1347,33 @@
                 "type": "template",
                 "template": "On the contrary, _____ argue that _____ can _____.",
                 "blanks": [
-                  {"id": "counter7_b1", "options": ["opponents of streaming", "all educators", "most parents"], "correctAnswer": "opponents of streaming"},
-                  {"id": "counter7_b2", "options": ["labeling students by ability", "mixed classes", "random grouping"], "correctAnswer": "labeling students by ability"},
-                  {"id": "counter7_b3", "options": ["create self-fulfilling prophecies and limit potential", "guarantee success", "improve motivation"], "correctAnswer": "create self-fulfilling prophecies and limit potential"}
+                  {
+                    "id": "counter7_b1",
+                    "options": [
+                      "opponents of streaming",
+                      "all educators",
+                      "most parents"
+                    ],
+                    "correctAnswer": "opponents of streaming"
+                  },
+                  {
+                    "id": "counter7_b2",
+                    "options": [
+                      "labeling students by ability",
+                      "mixed classes",
+                      "random grouping"
+                    ],
+                    "correctAnswer": "labeling students by ability"
+                  },
+                  {
+                    "id": "counter7_b3",
+                    "options": [
+                      "create self-fulfilling prophecies and limit potential",
+                      "guarantee success",
+                      "improve motivation"
+                    ],
+                    "correctAnswer": "create self-fulfilling prophecies and limit potential"
+                  }
                 ],
                 "correctSentence": "On the contrary, opponents of streaming argue that labeling students by ability can create self-fulfilling prophecies and limit potential.",
                 "usableIn": "body-paragraph-1"
@@ -639,9 +1383,33 @@
                 "type": "template",
                 "template": "It must be acknowledged that _____ without _____ may _____.",
                 "blanks": [
-                  {"id": "counter8_b1", "options": ["mixed-ability instruction", "streaming", "testing"], "correctAnswer": "mixed-ability instruction"},
-                  {"id": "counter8_b2", "options": ["adequate teacher training and resources", "ability grouping", "standardized tests"], "correctAnswer": "adequate teacher training and resources"},
-                  {"id": "counter8_b3", "options": ["fail to meet diverse student needs effectively", "work perfectly", "solve all problems"], "correctAnswer": "fail to meet diverse student needs effectively"}
+                  {
+                    "id": "counter8_b1",
+                    "options": [
+                      "mixed-ability instruction",
+                      "streaming",
+                      "testing"
+                    ],
+                    "correctAnswer": "mixed-ability instruction"
+                  },
+                  {
+                    "id": "counter8_b2",
+                    "options": [
+                      "adequate teacher training and resources",
+                      "ability grouping",
+                      "standardized tests"
+                    ],
+                    "correctAnswer": "adequate teacher training and resources"
+                  },
+                  {
+                    "id": "counter8_b3",
+                    "options": [
+                      "fail to meet diverse student needs effectively",
+                      "work perfectly",
+                      "solve all problems"
+                    ],
+                    "correctAnswer": "fail to meet diverse student needs effectively"
+                  }
                 ],
                 "correctSentence": "It must be acknowledged that mixed-ability instruction without adequate teacher training and resources may fail to meet diverse student needs effectively.",
                 "usableIn": "body-paragraph-2"
@@ -658,8 +1426,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both approaches have distinct merits", "streaming is always better", "mixing is never effective"], "correctAnswer": "both approaches have distinct merits"},
-                  {"id": "conclusion1_b2", "options": ["a flexible combination may serve students best", "pure streaming is ideal", "ability should be ignored"], "correctAnswer": "a flexible combination may serve students best"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both approaches have distinct merits",
+                      "streaming is always better",
+                      "mixing is never effective"
+                    ],
+                    "correctAnswer": "both approaches have distinct merits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "a flexible combination may serve students best",
+                      "pure streaming is ideal",
+                      "ability should be ignored"
+                    ],
+                    "correctAnswer": "a flexible combination may serve students best"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both approaches have distinct merits, I believe a flexible combination may serve students best.",
                 "usableIn": "conclusion"
@@ -669,8 +1453,24 @@
                 "type": "template",
                 "template": "Overall, although _____, _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["ability grouping offers academic advantages", "all systems are equal", "grouping is harmful"], "correctAnswer": "ability grouping offers academic advantages"},
-                  {"id": "conclusion2_b2", "options": ["the social benefits of mixed-ability classes are more important", "streaming should be mandatory", "testing determines everything"], "correctAnswer": "the social benefits of mixed-ability classes are more important"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "ability grouping offers academic advantages",
+                      "all systems are equal",
+                      "grouping is harmful"
+                    ],
+                    "correctAnswer": "ability grouping offers academic advantages"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "the social benefits of mixed-ability classes are more important",
+                      "streaming should be mandatory",
+                      "testing determines everything"
+                    ],
+                    "correctAnswer": "the social benefits of mixed-ability classes are more important"
+                  }
                 ],
                 "correctSentence": "Overall, although ability grouping offers academic advantages, the social benefits of mixed-ability classes are more important.",
                 "usableIn": "conclusion"
@@ -680,9 +1480,33 @@
                 "type": "template",
                 "template": "To summarize, _____ and _____, but ultimately _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["streaming supports tailored instruction", "all methods work equally", "grouping is unnecessary"], "correctAnswer": "streaming supports tailored instruction"},
-                  {"id": "conclusion3_b2", "options": ["mixed classes promote equity", "ability is unimportant", "testing is perfect"], "correctAnswer": "mixed classes promote equity"},
-                  {"id": "conclusion3_b3", "options": ["the choice depends on educational goals and resources", "streaming is always superior", "mixing is the only option"], "correctAnswer": "the choice depends on educational goals and resources"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "streaming supports tailored instruction",
+                      "all methods work equally",
+                      "grouping is unnecessary"
+                    ],
+                    "correctAnswer": "streaming supports tailored instruction"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "mixed classes promote equity",
+                      "ability is unimportant",
+                      "testing is perfect"
+                    ],
+                    "correctAnswer": "mixed classes promote equity"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "the choice depends on educational goals and resources",
+                      "streaming is always superior",
+                      "mixing is the only option"
+                    ],
+                    "correctAnswer": "the choice depends on educational goals and resources"
+                  }
                 ],
                 "correctSentence": "To summarize, streaming supports tailored instruction and mixed classes promote equity, but ultimately the choice depends on educational goals and resources.",
                 "usableIn": "conclusion"
@@ -692,9 +1516,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should consider _____ when deciding _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["schools", "parents only", "governments alone"], "correctAnswer": "schools"},
-                  {"id": "conclusion4_b2", "options": ["both academic outcomes and social development", "only test scores", "financial costs only"], "correctAnswer": "both academic outcomes and social development"},
-                  {"id": "conclusion4_b3", "options": ["how to group students for optimal learning", "which students to exclude", "whether to test students"], "correctAnswer": "how to group students for optimal learning"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "schools",
+                      "parents only",
+                      "governments alone"
+                    ],
+                    "correctAnswer": "schools"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "both academic outcomes and social development",
+                      "only test scores",
+                      "financial costs only"
+                    ],
+                    "correctAnswer": "both academic outcomes and social development"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "how to group students for optimal learning",
+                      "which students to exclude",
+                      "whether to test students"
+                    ],
+                    "correctAnswer": "how to group students for optimal learning"
+                  }
                 ],
                 "correctSentence": "Ultimately, schools should consider both academic outcomes and social development when deciding how to group students for optimal learning.",
                 "usableIn": "conclusion"
@@ -704,9 +1552,33 @@
                 "type": "template",
                 "template": "In my view, _____ offers _____ than _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["a balanced approach combining both methods", "pure streaming", "complete mixing"], "correctAnswer": "a balanced approach combining both methods"},
-                  {"id": "conclusion5_b2", "options": ["more benefits", "fewer advantages", "no value"], "correctAnswer": "more benefits"},
-                  {"id": "conclusion5_b3", "options": ["rigidly applying either system alone", "any other approach", "traditional methods"], "correctAnswer": "rigidly applying either system alone"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "a balanced approach combining both methods",
+                      "pure streaming",
+                      "complete mixing"
+                    ],
+                    "correctAnswer": "a balanced approach combining both methods"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "more benefits",
+                      "fewer advantages",
+                      "no value"
+                    ],
+                    "correctAnswer": "more benefits"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "rigidly applying either system alone",
+                      "any other approach",
+                      "traditional methods"
+                    ],
+                    "correctAnswer": "rigidly applying either system alone"
+                  }
                 ],
                 "correctSentence": "In my view, a balanced approach combining both methods offers more benefits than rigidly applying either system alone.",
                 "usableIn": "conclusion"
@@ -716,9 +1588,33 @@
                 "type": "template",
                 "template": "Therefore, _____ must weigh _____ against _____.",
                 "blanks": [
-                  {"id": "conclusion6_b1", "options": ["educators", "only parents", "students themselves"], "correctAnswer": "educators"},
-                  {"id": "conclusion6_b2", "options": ["academic efficiency", "financial costs", "personal preferences"], "correctAnswer": "academic efficiency"},
-                  {"id": "conclusion6_b3", "options": ["social and emotional considerations", "administrative convenience", "political pressures"], "correctAnswer": "social and emotional considerations"}
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "educators",
+                      "only parents",
+                      "students themselves"
+                    ],
+                    "correctAnswer": "educators"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "academic efficiency",
+                      "financial costs",
+                      "personal preferences"
+                    ],
+                    "correctAnswer": "academic efficiency"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": [
+                      "social and emotional considerations",
+                      "administrative convenience",
+                      "political pressures"
+                    ],
+                    "correctAnswer": "social and emotional considerations"
+                  }
                 ],
                 "correctSentence": "Therefore, educators must weigh academic efficiency against social and emotional considerations.",
                 "usableIn": "conclusion"
@@ -728,10 +1624,42 @@
                 "type": "template",
                 "template": "On balance, while _____ serves _____, _____ promotes _____.",
                 "blanks": [
-                  {"id": "conclusion7_b1", "options": ["ability grouping", "random assignment", "age grouping"], "correctAnswer": "ability grouping"},
-                  {"id": "conclusion7_b2", "options": ["academic advancement", "administrative ease", "parental satisfaction"], "correctAnswer": "academic advancement"},
-                  {"id": "conclusion7_b3", "options": ["mixed-ability education", "strict streaming", "competitive ranking"], "correctAnswer": "mixed-ability education"},
-                  {"id": "conclusion7_b4", "options": ["broader social benefits", "faster learning", "easier teaching"], "correctAnswer": "broader social benefits"}
+                  {
+                    "id": "conclusion7_b1",
+                    "options": [
+                      "ability grouping",
+                      "random assignment",
+                      "age grouping"
+                    ],
+                    "correctAnswer": "ability grouping"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": [
+                      "academic advancement",
+                      "administrative ease",
+                      "parental satisfaction"
+                    ],
+                    "correctAnswer": "academic advancement"
+                  },
+                  {
+                    "id": "conclusion7_b3",
+                    "options": [
+                      "mixed-ability education",
+                      "strict streaming",
+                      "competitive ranking"
+                    ],
+                    "correctAnswer": "mixed-ability education"
+                  },
+                  {
+                    "id": "conclusion7_b4",
+                    "options": [
+                      "broader social benefits",
+                      "faster learning",
+                      "easier teaching"
+                    ],
+                    "correctAnswer": "broader social benefits"
+                  }
                 ],
                 "correctSentence": "On balance, while ability grouping serves academic advancement, mixed-ability education promotes broader social benefits.",
                 "usableIn": "conclusion"
@@ -741,9 +1669,33 @@
                 "type": "template",
                 "template": "Looking forward, _____ will likely require _____ to _____.",
                 "blanks": [
-                  {"id": "conclusion8_b1", "options": ["effective student grouping", "standardized testing", "school funding"], "correctAnswer": "effective student grouping"},
-                  {"id": "conclusion8_b2", "options": ["flexible strategies adapted to different contexts", "one universal solution", "abandoning all differentiation"], "correctAnswer": "flexible strategies adapted to different contexts"},
-                  {"id": "conclusion8_b3", "options": ["meet diverse learning needs successfully", "simplify administrative tasks", "reduce educational costs"], "correctAnswer": "meet diverse learning needs successfully"}
+                  {
+                    "id": "conclusion8_b1",
+                    "options": [
+                      "effective student grouping",
+                      "standardized testing",
+                      "school funding"
+                    ],
+                    "correctAnswer": "effective student grouping"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": [
+                      "flexible strategies adapted to different contexts",
+                      "one universal solution",
+                      "abandoning all differentiation"
+                    ],
+                    "correctAnswer": "flexible strategies adapted to different contexts"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": [
+                      "meet diverse learning needs successfully",
+                      "simplify administrative tasks",
+                      "reduce educational costs"
+                    ],
+                    "correctAnswer": "meet diverse learning needs successfully"
+                  }
                 ],
                 "correctSentence": "Looking forward, effective student grouping will likely require flexible strategies adapted to different contexts to meet diverse learning needs successfully.",
                 "usableIn": "conclusion"
@@ -790,12 +1742,40 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Proponents of streaming argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Advocates of mixed-ability classes contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "Although"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Proponents of streaming argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Advocates of mixed-ability classes contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "Although"
+          ]
         }
       }
     },

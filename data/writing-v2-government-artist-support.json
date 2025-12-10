@@ -80,105 +80,160 @@
             "word": "subsidize",
             "pronunciation": "/ˈsʌbsɪdaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To support financially with public money",
+            "definition": "To support financially with public money.",
             "example": "The government should subsidize struggling artists to preserve cultural heritage.",
-            "synonyms": ["fund", "finance", "support"]
+            "synonyms": [
+              "fund",
+              "finance",
+              "support"
+            ]
           },
           {
             "word": "allocate",
             "pronunciation": "/ˈæləkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To distribute resources for a particular purpose",
+            "definition": "To distribute resources for a particular purpose.",
             "example": "Public funds should be allocated to essential services rather than arts.",
-            "synonyms": ["assign", "designate", "distribute"]
+            "synonyms": [
+              "assign",
+              "designate",
+              "distribute"
+            ]
           },
           {
             "word": "heritage",
             "pronunciation": "/ˈherɪtɪdʒ/",
             "partOfSpeech": "noun",
-            "definition": "Cultural traditions and values passed down through generations",
+            "definition": "Cultural traditions and values passed down through generations.",
             "example": "Government funding helps preserve our cultural heritage through the arts.",
-            "synonyms": ["legacy", "tradition", "inheritance"]
+            "synonyms": [
+              "legacy",
+              "tradition",
+              "inheritance"
+            ]
           },
           {
             "word": "flourish",
             "pronunciation": "/ˈflʌrɪʃ/",
             "partOfSpeech": "verb",
-            "definition": "To grow or develop in a healthy way",
+            "definition": "To grow or develop in a healthy way.",
             "example": "The arts can only flourish with adequate financial support.",
-            "synonyms": ["thrive", "prosper", "bloom"]
+            "synonyms": [
+              "thrive",
+              "prosper",
+              "bloom"
+            ]
           },
           {
             "word": "prioritize",
             "pronunciation": "/praɪˈɒrɪtaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To treat something as more important than other things",
+            "definition": "To treat something as more important than other things.",
             "example": "Governments must prioritize healthcare and education over artistic endeavors.",
-            "synonyms": ["emphasize", "focus on", "privilege"]
+            "synonyms": [
+              "emphasize",
+              "focus on",
+              "privilege"
+            ]
           },
           {
             "word": "enrich",
             "pronunciation": "/ɪnˈrɪtʃ/",
             "partOfSpeech": "verb",
-            "definition": "To improve or enhance the quality of something",
+            "definition": "To improve or enhance the quality of something.",
             "example": "The arts enrich society by promoting creativity and cultural awareness.",
-            "synonyms": ["enhance", "improve", "augment"]
+            "synonyms": [
+              "enhance",
+              "improve",
+              "augment"
+            ]
           },
           {
             "word": "taxpayer",
             "pronunciation": "/ˈtækspeɪə/",
             "partOfSpeech": "noun",
-            "definition": "A person who pays taxes to the government",
+            "definition": "A person who pays taxes to the government.",
             "example": "Many taxpayers object to funding artists with public money.",
-            "synonyms": ["citizen", "contributor"]
+            "synonyms": [
+              "citizen",
+              "contributor"
+            ]
           },
           {
             "word": "prosperity",
             "pronunciation": "/prɒˈsperəti/",
             "partOfSpeech": "noun",
-            "definition": "The state of being successful and wealthy",
+            "definition": "The state of being successful and wealthy.",
             "example": "Cultural prosperity contributes to a nation's overall development.",
-            "synonyms": ["success", "wealth", "affluence"]
+            "synonyms": [
+              "success",
+              "wealth",
+              "affluence"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "cultural heritage",
-            "definition": "The traditions and artistic legacy of a society",
+            "definition": "The traditions and artistic legacy of a society.",
             "example": "Government funding preserves cultural heritage for future generations."
           },
           {
             "phrase": "public funds",
-            "definition": "Money from taxes used for government spending",
+            "definition": "Money from taxes used for government spending.",
             "example": "Public funds should be spent on essential services, not entertainment."
           },
           {
             "phrase": "creative industries",
-            "definition": "Sectors involving arts, culture, and creative production",
+            "definition": "Sectors involving arts, culture, and creative production.",
             "example": "Supporting artists strengthens the creative industries and economy."
           },
           {
             "phrase": "financial burden",
-            "definition": "The cost or expense placed on someone",
+            "definition": "The cost or expense placed on someone.",
             "example": "Arts funding creates an unnecessary financial burden on taxpayers."
           },
           {
             "phrase": "free market",
-            "definition": "Economic system where prices are determined by supply and demand",
+            "definition": "Economic system where prices are determined by supply and demand.",
             "example": "Artists should rely on the free market rather than government support."
           },
           {
             "phrase": "cultural enrichment",
-            "definition": "Enhancement of society through arts and culture",
+            "definition": "Enhancement of society through arts and culture.",
             "example": "Government support for artists provides cultural enrichment for all citizens."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -201,8 +256,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["governments should subsidize artists and creative professionals", "all artists should receive free money", "art is very important"], "correctAnswer": "governments should subsidize artists and creative professionals"},
-                  {"id": "thesis1_b2", "options": ["this represents a waste of public resources", "artists don't work hard", "art is not useful"], "correctAnswer": "this represents a waste of public resources"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "governments should subsidize artists and creative professionals",
+                      "all artists should receive free money",
+                      "art is very important"
+                    ],
+                    "correctAnswer": "governments should subsidize artists and creative professionals"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "this represents a waste of public resources",
+                      "artists don't work hard",
+                      "art is not useful"
+                    ],
+                    "correctAnswer": "this represents a waste of public resources"
+                  }
                 ],
                 "correctSentence": "While some believe governments should subsidize artists and creative professionals, others argue that this represents a waste of public resources.",
                 "usableIn": "introduction"
@@ -212,8 +283,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["government support for the arts is justified", "artists need money", "everyone likes art"], "correctAnswer": "government support for the arts is justified"},
-                  {"id": "thesis2_b2", "options": ["it preserves cultural heritage and enriches society", "art is fun", "some people want it"], "correctAnswer": "it preserves cultural heritage and enriches society"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "government support for the arts is justified",
+                      "artists need money",
+                      "everyone likes art"
+                    ],
+                    "correctAnswer": "government support for the arts is justified"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "it preserves cultural heritage and enriches society",
+                      "art is fun",
+                      "some people want it"
+                    ],
+                    "correctAnswer": "it preserves cultural heritage and enriches society"
+                  }
                 ],
                 "correctSentence": "In my opinion, government support for the arts is justified because it preserves cultural heritage and enriches society.",
                 "usableIn": "introduction"
@@ -223,8 +310,24 @@
                 "type": "template",
                 "template": "There is ongoing debate about whether _____ or _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["public funding should support creative professionals", "government should give artists money", "art should be free"], "correctAnswer": "public funding should support creative professionals"},
-                  {"id": "thesis3_b2", "options": ["artists should rely entirely on private patronage", "artists should get other jobs", "no one should make art"], "correctAnswer": "artists should rely entirely on private patronage"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "public funding should support creative professionals",
+                      "government should give artists money",
+                      "art should be free"
+                    ],
+                    "correctAnswer": "public funding should support creative professionals"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "artists should rely entirely on private patronage",
+                      "artists should get other jobs",
+                      "no one should make art"
+                    ],
+                    "correctAnswer": "artists should rely entirely on private patronage"
+                  }
                 ],
                 "correctSentence": "There is ongoing debate about whether public funding should support creative professionals or artists should rely entirely on private patronage.",
                 "usableIn": "introduction"
@@ -234,8 +337,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["the value of arts funding", "whether art is good", "if people like art"], "correctAnswer": "the value of arts funding"},
-                  {"id": "thesis4_b2", "options": ["balancing cultural benefits against other public priorities", "how much money exists", "government preferences"], "correctAnswer": "balancing cultural benefits against other public priorities"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "the value of arts funding",
+                      "whether art is good",
+                      "if people like art"
+                    ],
+                    "correctAnswer": "the value of arts funding"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "balancing cultural benefits against other public priorities",
+                      "how much money exists",
+                      "government preferences"
+                    ],
+                    "correctAnswer": "balancing cultural benefits against other public priorities"
+                  }
                 ],
                 "correctSentence": "From my perspective, the value of arts funding depends on balancing cultural benefits against other public priorities.",
                 "usableIn": "introduction"
@@ -245,8 +364,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both perspectives on government arts funding", "different opinions", "whether art is important"], "correctAnswer": "both perspectives on government arts funding"},
-                  {"id": "thesis5_b2", "options": ["strategic investment in culture benefits the entire nation", "art is good", "some funding is acceptable"], "correctAnswer": "strategic investment in culture benefits the entire nation"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both perspectives on government arts funding",
+                      "different opinions",
+                      "whether art is important"
+                    ],
+                    "correctAnswer": "both perspectives on government arts funding"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "strategic investment in culture benefits the entire nation",
+                      "art is good",
+                      "some funding is acceptable"
+                    ],
+                    "correctAnswer": "strategic investment in culture benefits the entire nation"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives on government arts funding before concluding that strategic investment in culture benefits the entire nation.",
                 "usableIn": "introduction"
@@ -263,8 +398,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["government funding for artists", "free money", "public support"], "correctAnswer": "government funding for artists"},
-                  {"id": "topic1_b2", "options": ["essential support for cultural development", "entertainment", "some benefits"], "correctAnswer": "essential support for cultural development"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "government funding for artists",
+                      "free money",
+                      "public support"
+                    ],
+                    "correctAnswer": "government funding for artists"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "essential support for cultural development",
+                      "entertainment",
+                      "some benefits"
+                    ],
+                    "correctAnswer": "essential support for cultural development"
+                  }
                 ],
                 "correctSentence": "On the one hand, government funding for artists provides essential support for cultural development.",
                 "usableIn": "body-paragraph-1"
@@ -274,8 +425,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ represents _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["using taxpayer money for the arts", "government spending", "public funding"], "correctAnswer": "using taxpayer money for the arts"},
-                  {"id": "topic2_b2", "options": ["an inefficient allocation of limited public resources", "bad spending", "wasted money"], "correctAnswer": "an inefficient allocation of limited public resources"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "using taxpayer money for the arts",
+                      "government spending",
+                      "public funding"
+                    ],
+                    "correctAnswer": "using taxpayer money for the arts"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "an inefficient allocation of limited public resources",
+                      "bad spending",
+                      "wasted money"
+                    ],
+                    "correctAnswer": "an inefficient allocation of limited public resources"
+                  }
                 ],
                 "correctSentence": "On the other hand, using taxpayer money for the arts represents an inefficient allocation of limited public resources.",
                 "usableIn": "body-paragraph-2"
@@ -285,8 +452,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["public arts funding", "giving money to artists", "government support"], "correctAnswer": "public arts funding"},
-                  {"id": "topic3_b2", "options": ["the preservation of cultural heritage", "making people happy", "creating entertainment"], "correctAnswer": "the preservation of cultural heritage"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "public arts funding",
+                      "giving money to artists",
+                      "government support"
+                    ],
+                    "correctAnswer": "public arts funding"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the preservation of cultural heritage",
+                      "making people happy",
+                      "creating entertainment"
+                    ],
+                    "correctAnswer": "the preservation of cultural heritage"
+                  }
                 ],
                 "correctSentence": "One significant advantage of public arts funding is the preservation of cultural heritage.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +479,24 @@
                 "type": "template",
                 "template": "A key concern about _____ is that _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["subsidizing creative professionals", "helping artists", "arts funding"], "correctAnswer": "subsidizing creative professionals"},
-                  {"id": "topic4_b2", "options": ["it diverts funds from essential public services", "it costs money", "some people dislike it"], "correctAnswer": "it diverts funds from essential public services"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "subsidizing creative professionals",
+                      "helping artists",
+                      "arts funding"
+                    ],
+                    "correctAnswer": "subsidizing creative professionals"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "it diverts funds from essential public services",
+                      "it costs money",
+                      "some people dislike it"
+                    ],
+                    "correctAnswer": "it diverts funds from essential public services"
+                  }
                 ],
                 "correctSentence": "A key concern about subsidizing creative professionals is that it diverts funds from essential public services.",
                 "usableIn": "body-paragraph-2"
@@ -307,9 +506,33 @@
                 "type": "template",
                 "template": "_____ argue that _____ is essential for _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["Supporters of arts funding", "Some people", "Art lovers"], "correctAnswer": "Supporters of arts funding"},
-                  {"id": "topic5_b2", "options": ["government investment in culture", "giving money", "public support"], "correctAnswer": "government investment in culture"},
-                  {"id": "topic5_b3", "options": ["maintaining a vibrant and diverse society", "happiness", "entertainment"], "correctAnswer": "maintaining a vibrant and diverse society"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Supporters of arts funding",
+                      "Some people",
+                      "Art lovers"
+                    ],
+                    "correctAnswer": "Supporters of arts funding"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "government investment in culture",
+                      "giving money",
+                      "public support"
+                    ],
+                    "correctAnswer": "government investment in culture"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "maintaining a vibrant and diverse society",
+                      "happiness",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "maintaining a vibrant and diverse society"
+                  }
                 ],
                 "correctSentence": "Supporters of arts funding argue that government investment in culture is essential for maintaining a vibrant and diverse society.",
                 "usableIn": "body-paragraph-1"
@@ -319,9 +542,33 @@
                 "type": "template",
                 "template": "_____ contend that _____ should _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Critics of public arts funding", "Opponents", "Some people"], "correctAnswer": "Critics of public arts funding"},
-                  {"id": "topic6_b2", "options": ["artists", "creative people", "musicians"], "correctAnswer": "artists"},
-                  {"id": "topic6_b3", "options": ["operate within the free market like other professionals", "get regular jobs", "work harder"], "correctAnswer": "operate within the free market like other professionals"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Critics of public arts funding",
+                      "Opponents",
+                      "Some people"
+                    ],
+                    "correctAnswer": "Critics of public arts funding"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "artists",
+                      "creative people",
+                      "musicians"
+                    ],
+                    "correctAnswer": "artists"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "operate within the free market like other professionals",
+                      "get regular jobs",
+                      "work harder"
+                    ],
+                    "correctAnswer": "operate within the free market like other professionals"
+                  }
                 ],
                 "correctSentence": "Critics of public arts funding contend that artists should operate within the free market like other professionals.",
                 "usableIn": "body-paragraph-2"
@@ -331,8 +578,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["state support for the arts", "government money", "public funding"], "correctAnswer": "state support for the arts"},
-                  {"id": "topic7_b2", "options": ["enabling artists to create work without commercial pressures", "helping people", "making art available"], "correctAnswer": "enabling artists to create work without commercial pressures"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "state support for the arts",
+                      "government money",
+                      "public funding"
+                    ],
+                    "correctAnswer": "state support for the arts"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "enabling artists to create work without commercial pressures",
+                      "helping people",
+                      "making art available"
+                    ],
+                    "correctAnswer": "enabling artists to create work without commercial pressures"
+                  }
                 ],
                 "correctSentence": "The primary advantage of state support for the arts is enabling artists to create work without commercial pressures.",
                 "usableIn": "body-paragraph-1"
@@ -342,8 +605,24 @@
                 "type": "template",
                 "template": "A major drawback of _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["government arts subsidies", "public funding", "taxpayer money for art"], "correctAnswer": "government arts subsidies"},
-                  {"id": "topic8_b2", "options": ["the opportunity cost of not funding critical infrastructure", "that it costs money", "some disagreement"], "correctAnswer": "the opportunity cost of not funding critical infrastructure"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "government arts subsidies",
+                      "public funding",
+                      "taxpayer money for art"
+                    ],
+                    "correctAnswer": "government arts subsidies"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the opportunity cost of not funding critical infrastructure",
+                      "that it costs money",
+                      "some disagreement"
+                    ],
+                    "correctAnswer": "the opportunity cost of not funding critical infrastructure"
+                  }
                 ],
                 "correctSentence": "A major drawback of government arts subsidies is the opportunity cost of not funding critical infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +639,24 @@
                 "type": "template",
                 "template": "This is because _____ helps to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["government funding", "public money", "financial support"], "correctAnswer": "government funding"},
-                  {"id": "support1_b2", "options": ["preserve traditional art forms that might otherwise disappear", "make people happy", "create entertainment"], "correctAnswer": "preserve traditional art forms that might otherwise disappear"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "government funding",
+                      "public money",
+                      "financial support"
+                    ],
+                    "correctAnswer": "government funding"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "preserve traditional art forms that might otherwise disappear",
+                      "make people happy",
+                      "create entertainment"
+                    ],
+                    "correctAnswer": "preserve traditional art forms that might otherwise disappear"
+                  }
                 ],
                 "correctSentence": "This is because government funding helps to preserve traditional art forms that might otherwise disappear.",
                 "usableIn": "body-paragraph-1"
@@ -371,8 +666,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["allocating resources to arts instead of healthcare", "spending on culture", "arts funding"], "correctAnswer": "allocating resources to arts instead of healthcare"},
-                  {"id": "support2_b2", "options": ["reduced funding for more urgent public needs", "problems", "wasted money"], "correctAnswer": "reduced funding for more urgent public needs"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "allocating resources to arts instead of healthcare",
+                      "spending on culture",
+                      "arts funding"
+                    ],
+                    "correctAnswer": "allocating resources to arts instead of healthcare"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "reduced funding for more urgent public needs",
+                      "problems",
+                      "wasted money"
+                    ],
+                    "correctAnswer": "reduced funding for more urgent public needs"
+                  }
                 ],
                 "correctSentence": "The main reason is that allocating resources to arts instead of healthcare leads to reduced funding for more urgent public needs.",
                 "usableIn": "body-paragraph-2"
@@ -382,10 +693,42 @@
                 "type": "template",
                 "template": "_____ allows _____ to _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Public subsidies allow", "Money helps", "Funding enables"], "correctAnswer": "Public subsidies allow"},
-                  {"id": "support3_b2", "options": ["musicians and painters", "creative people", "artists"], "correctAnswer": "musicians and painters"},
-                  {"id": "support3_b3", "options": ["pursue meaningful artistic projects", "make art", "work"], "correctAnswer": "pursue meaningful artistic projects"},
-                  {"id": "support3_b4", "options": ["compromising their vision for commercial success", "worrying about money", "getting other jobs"], "correctAnswer": "compromising their vision for commercial success"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Public subsidies allow",
+                      "Money helps",
+                      "Funding enables"
+                    ],
+                    "correctAnswer": "Public subsidies allow"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "musicians and painters",
+                      "creative people",
+                      "artists"
+                    ],
+                    "correctAnswer": "musicians and painters"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "pursue meaningful artistic projects",
+                      "make art",
+                      "work"
+                    ],
+                    "correctAnswer": "pursue meaningful artistic projects"
+                  },
+                  {
+                    "id": "support3_b4",
+                    "options": [
+                      "compromising their vision for commercial success",
+                      "worrying about money",
+                      "getting other jobs"
+                    ],
+                    "correctAnswer": "compromising their vision for commercial success"
+                  }
                 ],
                 "correctSentence": "Public subsidies allow musicians and painters to pursue meaningful artistic projects without compromising their vision for commercial success.",
                 "usableIn": "body-paragraph-1"
@@ -395,9 +738,33 @@
                 "type": "template",
                 "template": "_____ creates _____, which means _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Funding arts with taxpayer money", "Government support", "Public spending"], "correctAnswer": "Funding arts with taxpayer money"},
-                  {"id": "support4_b2", "options": ["a financial burden on ordinary citizens", "expenses", "costs"], "correctAnswer": "a financial burden on ordinary citizens"},
-                  {"id": "support4_b3", "options": ["less money available for education and infrastructure", "problems", "difficulties"], "correctAnswer": "less money available for education and infrastructure"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Funding arts with taxpayer money",
+                      "Government support",
+                      "Public spending"
+                    ],
+                    "correctAnswer": "Funding arts with taxpayer money"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "a financial burden on ordinary citizens",
+                      "expenses",
+                      "costs"
+                    ],
+                    "correctAnswer": "a financial burden on ordinary citizens"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "less money available for education and infrastructure",
+                      "problems",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "less money available for education and infrastructure"
+                  }
                 ],
                 "correctSentence": "Funding arts with taxpayer money creates a financial burden on ordinary citizens, which means less money available for education and infrastructure.",
                 "usableIn": "body-paragraph-2"
@@ -407,8 +774,24 @@
                 "type": "template",
                 "template": "By _____, governments can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["supporting creative industries", "giving money to artists", "funding culture"], "correctAnswer": "supporting creative industries"},
-                  {"id": "support5_b2", "options": ["stimulate cultural tourism and economic growth", "make people happy", "promote entertainment"], "correctAnswer": "stimulate cultural tourism and economic growth"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "supporting creative industries",
+                      "giving money to artists",
+                      "funding culture"
+                    ],
+                    "correctAnswer": "supporting creative industries"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "stimulate cultural tourism and economic growth",
+                      "make people happy",
+                      "promote entertainment"
+                    ],
+                    "correctAnswer": "stimulate cultural tourism and economic growth"
+                  }
                 ],
                 "correctSentence": "By supporting creative industries, governments can stimulate cultural tourism and economic growth.",
                 "usableIn": "body-paragraph-1"
@@ -418,9 +801,33 @@
                 "type": "template",
                 "template": "_____ encourages _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Withdrawing government support", "Ending public funding", "Stopping subsidies"], "correctAnswer": "Withdrawing government support"},
-                  {"id": "support6_b2", "options": ["artistic accountability and quality", "better art", "improvement"], "correctAnswer": "artistic accountability and quality"},
-                  {"id": "support6_b3", "options": ["free market competition and audience demand", "normal business", "selling art"], "correctAnswer": "free market competition and audience demand"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Withdrawing government support",
+                      "Ending public funding",
+                      "Stopping subsidies"
+                    ],
+                    "correctAnswer": "Withdrawing government support"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "artistic accountability and quality",
+                      "better art",
+                      "improvement"
+                    ],
+                    "correctAnswer": "artistic accountability and quality"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "free market competition and audience demand",
+                      "normal business",
+                      "selling art"
+                    ],
+                    "correctAnswer": "free market competition and audience demand"
+                  }
                 ],
                 "correctSentence": "Withdrawing government support encourages artistic accountability and quality through free market competition and audience demand.",
                 "usableIn": "body-paragraph-2"
@@ -430,8 +837,24 @@
                 "type": "template",
                 "template": "Arts funding contributes to _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["national identity and social cohesion", "happiness", "entertainment"], "correctAnswer": "national identity and social cohesion"},
-                  {"id": "support7_b2", "options": ["celebrating shared cultural values and traditions", "making people feel good", "providing activities"], "correctAnswer": "celebrating shared cultural values and traditions"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "national identity and social cohesion",
+                      "happiness",
+                      "entertainment"
+                    ],
+                    "correctAnswer": "national identity and social cohesion"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "celebrating shared cultural values and traditions",
+                      "making people feel good",
+                      "providing activities"
+                    ],
+                    "correctAnswer": "celebrating shared cultural values and traditions"
+                  }
                 ],
                 "correctSentence": "Arts funding contributes to national identity and social cohesion by celebrating shared cultural values and traditions.",
                 "usableIn": "body-paragraph-1"
@@ -441,8 +864,24 @@
                 "type": "template",
                 "template": "Market-based approaches ensure that _____ produces _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["artistic production", "making art", "creative work"], "correctAnswer": "artistic production"},
-                  {"id": "support8_b2", "options": ["work that genuinely resonates with audiences", "popular content", "things people like"], "correctAnswer": "work that genuinely resonates with audiences"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "artistic production",
+                      "making art",
+                      "creative work"
+                    ],
+                    "correctAnswer": "artistic production"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "work that genuinely resonates with audiences",
+                      "popular content",
+                      "things people like"
+                    ],
+                    "correctAnswer": "work that genuinely resonates with audiences"
+                  }
                 ],
                 "correctSentence": "Market-based approaches ensure that artistic production produces work that genuinely resonates with audiences.",
                 "usableIn": "body-paragraph-2"
@@ -452,10 +891,42 @@
                 "type": "template",
                 "template": "_____ provides _____ with _____ to _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Government investment", "Public funding", "State support"], "correctAnswer": "Government investment"},
-                  {"id": "support9_b2", "options": ["emerging artists", "young people", "new creators"], "correctAnswer": "emerging artists"},
-                  {"id": "support9_b3", "options": ["the financial stability", "money", "resources"], "correctAnswer": "the financial stability"},
-                  {"id": "support9_b4", "options": ["develop their talents and contribute to culture", "practice their art", "make things"], "correctAnswer": "develop their talents and contribute to culture"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Government investment",
+                      "Public funding",
+                      "State support"
+                    ],
+                    "correctAnswer": "Government investment"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "emerging artists",
+                      "young people",
+                      "new creators"
+                    ],
+                    "correctAnswer": "emerging artists"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "the financial stability",
+                      "money",
+                      "resources"
+                    ],
+                    "correctAnswer": "the financial stability"
+                  },
+                  {
+                    "id": "support9_b4",
+                    "options": [
+                      "develop their talents and contribute to culture",
+                      "practice their art",
+                      "make things"
+                    ],
+                    "correctAnswer": "develop their talents and contribute to culture"
+                  }
                 ],
                 "correctSentence": "Government investment provides emerging artists with the financial stability to develop their talents and contribute to culture.",
                 "usableIn": "body-paragraph-1"
@@ -465,9 +936,33 @@
                 "type": "template",
                 "template": "When left to market forces, _____ must _____ rather than _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["artists", "creative people", "musicians"], "correctAnswer": "artists"},
-                  {"id": "support10_b2", "options": ["focus on commercially viable projects", "make money", "sell their work"], "correctAnswer": "focus on commercially viable projects"},
-                  {"id": "support10_b3", "options": ["relying on government subsidies", "getting free money", "receiving support"], "correctAnswer": "relying on government subsidies"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "artists",
+                      "creative people",
+                      "musicians"
+                    ],
+                    "correctAnswer": "artists"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "focus on commercially viable projects",
+                      "make money",
+                      "sell their work"
+                    ],
+                    "correctAnswer": "focus on commercially viable projects"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "relying on government subsidies",
+                      "getting free money",
+                      "receiving support"
+                    ],
+                    "correctAnswer": "relying on government subsidies"
+                  }
                 ],
                 "correctSentence": "When left to market forces, artists must focus on commercially viable projects rather than relying on government subsidies.",
                 "usableIn": "body-paragraph-2"
@@ -477,8 +972,24 @@
                 "type": "template",
                 "template": "As a result, _____ can _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["society as a whole", "everyone", "people"], "correctAnswer": "society as a whole"},
-                  {"id": "support11_b2", "options": ["access diverse cultural experiences regardless of commercial appeal", "enjoy different art", "see various things"], "correctAnswer": "access diverse cultural experiences regardless of commercial appeal"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "society as a whole",
+                      "everyone",
+                      "people"
+                    ],
+                    "correctAnswer": "society as a whole"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "access diverse cultural experiences regardless of commercial appeal",
+                      "enjoy different art",
+                      "see various things"
+                    ],
+                    "correctAnswer": "access diverse cultural experiences regardless of commercial appeal"
+                  }
                 ],
                 "correctSentence": "As a result, society as a whole can access diverse cultural experiences regardless of commercial appeal.",
                 "usableIn": "body-paragraph-1"
@@ -488,8 +999,24 @@
                 "type": "template",
                 "template": "Consequently, _____ can be redirected toward _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["limited public funds", "government money", "taxpayer resources"], "correctAnswer": "limited public funds"},
-                  {"id": "support12_b2", "options": ["critical areas like healthcare and education", "more important things", "essential services"], "correctAnswer": "critical areas like healthcare and education"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "limited public funds",
+                      "government money",
+                      "taxpayer resources"
+                    ],
+                    "correctAnswer": "limited public funds"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "critical areas like healthcare and education",
+                      "more important things",
+                      "essential services"
+                    ],
+                    "correctAnswer": "critical areas like healthcare and education"
+                  }
                 ],
                 "correctSentence": "Consequently, limited public funds can be redirected toward critical areas like healthcare and education.",
                 "usableIn": "body-paragraph-2"
@@ -506,10 +1033,42 @@
                 "type": "template",
                 "template": "For instance, _____ in _____ would _____ without _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["traditional folk music", "popular songs", "modern art"], "correctAnswer": "traditional folk music"},
-                  {"id": "example1_b2", "options": ["many countries", "some places", "certain regions"], "correctAnswer": "many countries"},
-                  {"id": "example1_b3", "options": ["likely vanish", "disappear", "go away"], "correctAnswer": "likely vanish"},
-                  {"id": "example1_b4", "options": ["state preservation programs", "government help", "public support"], "correctAnswer": "state preservation programs"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "traditional folk music",
+                      "popular songs",
+                      "modern art"
+                    ],
+                    "correctAnswer": "traditional folk music"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "many countries",
+                      "some places",
+                      "certain regions"
+                    ],
+                    "correctAnswer": "many countries"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "likely vanish",
+                      "disappear",
+                      "go away"
+                    ],
+                    "correctAnswer": "likely vanish"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "state preservation programs",
+                      "government help",
+                      "public support"
+                    ],
+                    "correctAnswer": "state preservation programs"
+                  }
                 ],
                 "correctSentence": "For instance, traditional folk music in many countries would likely vanish without state preservation programs.",
                 "usableIn": "body-paragraph-1"
@@ -519,10 +1078,42 @@
                 "type": "template",
                 "template": "For example, _____ struggles with _____ while _____ lacks _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["public healthcare", "the hospital system", "medical services"], "correctAnswer": "public healthcare"},
-                  {"id": "example2_b2", "options": ["inadequate funding and long waiting times", "problems", "difficulties"], "correctAnswer": "inadequate funding and long waiting times"},
-                  {"id": "example2_b3", "options": ["critical infrastructure", "roads and bridges", "public facilities"], "correctAnswer": "critical infrastructure"},
-                  {"id": "example2_b4", "options": ["necessary maintenance and upgrades", "repairs", "improvements"], "correctAnswer": "necessary maintenance and upgrades"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "public healthcare",
+                      "the hospital system",
+                      "medical services"
+                    ],
+                    "correctAnswer": "public healthcare"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "inadequate funding and long waiting times",
+                      "problems",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "inadequate funding and long waiting times"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "critical infrastructure",
+                      "roads and bridges",
+                      "public facilities"
+                    ],
+                    "correctAnswer": "critical infrastructure"
+                  },
+                  {
+                    "id": "example2_b4",
+                    "options": [
+                      "necessary maintenance and upgrades",
+                      "repairs",
+                      "improvements"
+                    ],
+                    "correctAnswer": "necessary maintenance and upgrades"
+                  }
                 ],
                 "correctSentence": "For example, public healthcare struggles with inadequate funding and long waiting times while critical infrastructure lacks necessary maintenance and upgrades.",
                 "usableIn": "body-paragraph-2"
@@ -532,10 +1123,42 @@
                 "type": "template",
                 "template": "Specifically, _____ such as _____ receive _____ that _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["national museums and galleries", "art buildings", "cultural centers"], "correctAnswer": "national museums and galleries"},
-                  {"id": "example3_b2", "options": ["the British Museum and the Louvre", "some famous places", "major institutions"], "correctAnswer": "the British Museum and the Louvre"},
-                  {"id": "example3_b3", "options": ["significant government subsidies", "public money", "financial support"], "correctAnswer": "significant government subsidies"},
-                  {"id": "example3_b4", "options": ["enable free public access to cultural treasures", "help people visit", "provide services"], "correctAnswer": "enable free public access to cultural treasures"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "national museums and galleries",
+                      "art buildings",
+                      "cultural centers"
+                    ],
+                    "correctAnswer": "national museums and galleries"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "the British Museum and the Louvre",
+                      "some famous places",
+                      "major institutions"
+                    ],
+                    "correctAnswer": "the British Museum and the Louvre"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "significant government subsidies",
+                      "public money",
+                      "financial support"
+                    ],
+                    "correctAnswer": "significant government subsidies"
+                  },
+                  {
+                    "id": "example3_b4",
+                    "options": [
+                      "enable free public access to cultural treasures",
+                      "help people visit",
+                      "provide services"
+                    ],
+                    "correctAnswer": "enable free public access to cultural treasures"
+                  }
                 ],
                 "correctSentence": "Specifically, national museums and galleries such as the British Museum and the Louvre receive significant government subsidies that enable free public access to cultural treasures.",
                 "usableIn": "body-paragraph-1"
@@ -545,9 +1168,33 @@
                 "type": "template",
                 "template": "Research shows that _____ in _____ could fund _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["annual arts budgets", "yearly cultural spending", "art funding"], "correctAnswer": "annual arts budgets"},
-                  {"id": "example4_b2", "options": ["many developed nations", "some countries", "various places"], "correctAnswer": "many developed nations"},
-                  {"id": "example4_b3", "options": ["thousands of teaching positions or hospital beds", "important services", "essential resources"], "correctAnswer": "thousands of teaching positions or hospital beds"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "annual arts budgets",
+                      "yearly cultural spending",
+                      "art funding"
+                    ],
+                    "correctAnswer": "annual arts budgets"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "many developed nations",
+                      "some countries",
+                      "various places"
+                    ],
+                    "correctAnswer": "many developed nations"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "thousands of teaching positions or hospital beds",
+                      "important services",
+                      "essential resources"
+                    ],
+                    "correctAnswer": "thousands of teaching positions or hospital beds"
+                  }
                 ],
                 "correctSentence": "Research shows that annual arts budgets in many developed nations could fund thousands of teaching positions or hospital beds.",
                 "usableIn": "body-paragraph-2"
@@ -557,9 +1204,33 @@
                 "type": "template",
                 "template": "Countries such as _____ have demonstrated that _____ leads to _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["France and Germany", "some nations", "certain countries"], "correctAnswer": "France and Germany"},
-                  {"id": "example5_b2", "options": ["robust government support for the arts", "cultural funding", "arts investment"], "correctAnswer": "robust government support for the arts"},
-                  {"id": "example5_b3", "options": ["thriving cultural sectors that attract millions of tourists", "successful culture", "good results"], "correctAnswer": "thriving cultural sectors that attract millions of tourists"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "France and Germany",
+                      "some nations",
+                      "certain countries"
+                    ],
+                    "correctAnswer": "France and Germany"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "robust government support for the arts",
+                      "cultural funding",
+                      "arts investment"
+                    ],
+                    "correctAnswer": "robust government support for the arts"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "thriving cultural sectors that attract millions of tourists",
+                      "successful culture",
+                      "good results"
+                    ],
+                    "correctAnswer": "thriving cultural sectors that attract millions of tourists"
+                  }
                 ],
                 "correctSentence": "Countries such as France and Germany have demonstrated that robust government support for the arts leads to thriving cultural sectors that attract millions of tourists.",
                 "usableIn": "body-paragraph-1"
@@ -569,9 +1240,33 @@
                 "type": "template",
                 "template": "In particular, _____ like _____ succeeded _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["many successful artists", "famous creative people", "renowned creators"], "correctAnswer": "many successful artists"},
-                  {"id": "example6_b2", "options": ["J.K. Rowling and Taylor Swift", "popular figures", "well-known people"], "correctAnswer": "J.K. Rowling and Taylor Swift"},
-                  {"id": "example6_b3", "options": ["through market demand without government subsidies", "on their own", "independently"], "correctAnswer": "through market demand without government subsidies"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "many successful artists",
+                      "famous creative people",
+                      "renowned creators"
+                    ],
+                    "correctAnswer": "many successful artists"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "J.K. Rowling and Taylor Swift",
+                      "popular figures",
+                      "well-known people"
+                    ],
+                    "correctAnswer": "J.K. Rowling and Taylor Swift"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "through market demand without government subsidies",
+                      "on their own",
+                      "independently"
+                    ],
+                    "correctAnswer": "through market demand without government subsidies"
+                  }
                 ],
                 "correctSentence": "In particular, many successful artists like J.K. Rowling and Taylor Swift succeeded through market demand without government subsidies.",
                 "usableIn": "body-paragraph-2"
@@ -581,9 +1276,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, depend heavily on _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["symphony orchestras and opera companies", "musical groups", "performance organizations"], "correctAnswer": "symphony orchestras and opera companies"},
-                  {"id": "example7_b2", "options": ["the Vienna Philharmonic", "famous ensembles", "well-known groups"], "correctAnswer": "the Vienna Philharmonic"},
-                  {"id": "example7_b3", "options": ["public funding to maintain artistic excellence", "government support", "state money"], "correctAnswer": "public funding to maintain artistic excellence"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "symphony orchestras and opera companies",
+                      "musical groups",
+                      "performance organizations"
+                    ],
+                    "correctAnswer": "symphony orchestras and opera companies"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "the Vienna Philharmonic",
+                      "famous ensembles",
+                      "well-known groups"
+                    ],
+                    "correctAnswer": "the Vienna Philharmonic"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "public funding to maintain artistic excellence",
+                      "government support",
+                      "state money"
+                    ],
+                    "correctAnswer": "public funding to maintain artistic excellence"
+                  }
                 ],
                 "correctSentence": "Many symphony orchestras and opera companies, including the Vienna Philharmonic, depend heavily on public funding to maintain artistic excellence.",
                 "usableIn": "body-paragraph-1"
@@ -593,9 +1312,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ demonstrates that _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["the entertainment industry", "commercial culture", "popular media"], "correctAnswer": "the entertainment industry"},
-                  {"id": "example8_b2", "options": ["its financial success", "its profitability", "its earnings"], "correctAnswer": "its financial success"},
-                  {"id": "example8_b3", "options": ["profitable art requires no government intervention", "markets work well", "subsidies are unnecessary"], "correctAnswer": "profitable art requires no government intervention"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "the entertainment industry",
+                      "commercial culture",
+                      "popular media"
+                    ],
+                    "correctAnswer": "the entertainment industry"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "its financial success",
+                      "its profitability",
+                      "its earnings"
+                    ],
+                    "correctAnswer": "its financial success"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "profitable art requires no government intervention",
+                      "markets work well",
+                      "subsidies are unnecessary"
+                    ],
+                    "correctAnswer": "profitable art requires no government intervention"
+                  }
                 ],
                 "correctSentence": "Take the entertainment industry as an example: its financial success demonstrates that profitable art requires no government intervention.",
                 "usableIn": "body-paragraph-2"
@@ -605,8 +1348,24 @@
                 "type": "template",
                 "template": "According to _____, government arts programs help _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["cultural economists", "research studies", "experts"], "correctAnswer": "cultural economists"},
-                  {"id": "example9_b2", "options": ["disadvantaged communities access cultural opportunities", "poor people enjoy art", "everyone participate"], "correctAnswer": "disadvantaged communities access cultural opportunities"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "cultural economists",
+                      "research studies",
+                      "experts"
+                    ],
+                    "correctAnswer": "cultural economists"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "disadvantaged communities access cultural opportunities",
+                      "poor people enjoy art",
+                      "everyone participate"
+                    ],
+                    "correctAnswer": "disadvantaged communities access cultural opportunities"
+                  }
                 ],
                 "correctSentence": "According to cultural economists, government arts programs help disadvantaged communities access cultural opportunities.",
                 "usableIn": "body-paragraph-1"
@@ -616,9 +1375,33 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ when _____ must _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["innovation and creativity flourish", "art improves", "quality increases"], "correctAnswer": "innovation and creativity flourish"},
-                  {"id": "example10_b2", "options": ["artists", "creative people", "producers"], "correctAnswer": "artists"},
-                  {"id": "example10_b3", "options": ["compete for audience attention and financial support", "work in markets", "earn money themselves"], "correctAnswer": "compete for audience attention and financial support"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "innovation and creativity flourish",
+                      "art improves",
+                      "quality increases"
+                    ],
+                    "correctAnswer": "innovation and creativity flourish"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "artists",
+                      "creative people",
+                      "producers"
+                    ],
+                    "correctAnswer": "artists"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "compete for audience attention and financial support",
+                      "work in markets",
+                      "earn money themselves"
+                    ],
+                    "correctAnswer": "compete for audience attention and financial support"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that innovation and creativity flourish when artists must compete for audience attention and financial support.",
                 "usableIn": "body-paragraph-2"
@@ -635,8 +1418,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ may _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["excessive government funding for arts", "too much arts spending", "unlimited cultural subsidies"], "correctAnswer": "excessive government funding for arts"},
-                  {"id": "counter1_b2", "options": ["create dependency rather than encouraging self-sufficiency", "cause problems", "waste resources"], "correctAnswer": "create dependency rather than encouraging self-sufficiency"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "excessive government funding for arts",
+                      "too much arts spending",
+                      "unlimited cultural subsidies"
+                    ],
+                    "correctAnswer": "excessive government funding for arts"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "create dependency rather than encouraging self-sufficiency",
+                      "cause problems",
+                      "waste resources"
+                    ],
+                    "correctAnswer": "create dependency rather than encouraging self-sufficiency"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that excessive government funding for arts may create dependency rather than encouraging self-sufficiency.",
                 "usableIn": "body-paragraph-1"
@@ -646,8 +1445,24 @@
                 "type": "template",
                 "template": "Despite these concerns, _____ serves _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["strategic arts investment", "cultural funding", "government support"], "correctAnswer": "strategic arts investment"},
-                  {"id": "counter2_b2", "options": ["broader social and economic purposes beyond entertainment", "important goals", "useful functions"], "correctAnswer": "broader social and economic purposes beyond entertainment"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "strategic arts investment",
+                      "cultural funding",
+                      "government support"
+                    ],
+                    "correctAnswer": "strategic arts investment"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "broader social and economic purposes beyond entertainment",
+                      "important goals",
+                      "useful functions"
+                    ],
+                    "correctAnswer": "broader social and economic purposes beyond entertainment"
+                  }
                 ],
                 "correctSentence": "Despite these concerns, strategic arts investment serves broader social and economic purposes beyond entertainment.",
                 "usableIn": "body-paragraph-2"
@@ -657,9 +1472,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ requires _____ that _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["maintaining cultural institutions", "running museums", "operating galleries"], "correctAnswer": "maintaining cultural institutions"},
-                  {"id": "counter3_b2", "options": ["substantial ongoing investment", "significant funding", "continuous money"], "correctAnswer": "substantial ongoing investment"},
-                  {"id": "counter3_b3", "options": ["many taxpayers consider unjustified during economic hardship", "people question", "citizens debate"], "correctAnswer": "many taxpayers consider unjustified during economic hardship"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "maintaining cultural institutions",
+                      "running museums",
+                      "operating galleries"
+                    ],
+                    "correctAnswer": "maintaining cultural institutions"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "substantial ongoing investment",
+                      "significant funding",
+                      "continuous money"
+                    ],
+                    "correctAnswer": "substantial ongoing investment"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "many taxpayers consider unjustified during economic hardship",
+                      "people question",
+                      "citizens debate"
+                    ],
+                    "correctAnswer": "many taxpayers consider unjustified during economic hardship"
+                  }
                 ],
                 "correctSentence": "Nevertheless, maintaining cultural institutions requires substantial ongoing investment that many taxpayers consider unjustified during economic hardship.",
                 "usableIn": "body-paragraph-2"
@@ -669,8 +1508,24 @@
                 "type": "template",
                 "template": "Although _____ has merit, _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["the free market argument", "market-based thinking", "commercial approaches"], "correctAnswer": "the free market argument"},
-                  {"id": "counter4_b2", "options": ["it overlooks how markets favor commercial over cultural value", "it has limitations", "there are problems"], "correctAnswer": "it overlooks how markets favor commercial over cultural value"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "the free market argument",
+                      "market-based thinking",
+                      "commercial approaches"
+                    ],
+                    "correctAnswer": "the free market argument"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "it overlooks how markets favor commercial over cultural value",
+                      "it has limitations",
+                      "there are problems"
+                    ],
+                    "correctAnswer": "it overlooks how markets favor commercial over cultural value"
+                  }
                 ],
                 "correctSentence": "Although the free market argument has merit, it overlooks how markets favor commercial over cultural value.",
                 "usableIn": "body-paragraph-1"
@@ -680,8 +1535,24 @@
                 "type": "template",
                 "template": "Critics point out that _____ if _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["arts funding lacks accountability", "cultural spending has issues", "subsidies create problems"], "correctAnswer": "arts funding lacks accountability"},
-                  {"id": "counter5_b2", "options": ["not tied to measurable public benefits", "results aren't tracked", "outcomes aren't clear"], "correctAnswer": "not tied to measurable public benefits"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "arts funding lacks accountability",
+                      "cultural spending has issues",
+                      "subsidies create problems"
+                    ],
+                    "correctAnswer": "arts funding lacks accountability"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "not tied to measurable public benefits",
+                      "results aren't tracked",
+                      "outcomes aren't clear"
+                    ],
+                    "correctAnswer": "not tied to measurable public benefits"
+                  }
                 ],
                 "correctSentence": "Critics point out that arts funding lacks accountability if not tied to measurable public benefits.",
                 "usableIn": "body-paragraph-2"
@@ -698,8 +1569,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["concerns about public spending are valid", "money is limited", "there are different opinions"], "correctAnswer": "concerns about public spending are valid"},
-                  {"id": "conclusion1_b2", "options": ["strategic government support for arts is justified", "some funding is good", "culture needs help"], "correctAnswer": "strategic government support for arts is justified"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "concerns about public spending are valid",
+                      "money is limited",
+                      "there are different opinions"
+                    ],
+                    "correctAnswer": "concerns about public spending are valid"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "strategic government support for arts is justified",
+                      "some funding is good",
+                      "culture needs help"
+                    ],
+                    "correctAnswer": "strategic government support for arts is justified"
+                  }
                 ],
                 "correctSentence": "In conclusion, while concerns about public spending are valid, I believe strategic government support for arts is justified.",
                 "usableIn": "conclusion"
@@ -709,10 +1596,42 @@
                 "type": "template",
                 "template": "Overall, _____ provides _____, whereas _____ emphasizes _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["government funding", "public support", "state subsidies"], "correctAnswer": "government funding"},
-                  {"id": "conclusion2_b2", "options": ["cultural preservation and accessibility", "arts benefits", "creative support"], "correctAnswer": "cultural preservation and accessibility"},
-                  {"id": "conclusion2_b3", "options": ["the opposing view", "critics", "opponents"], "correctAnswer": "the opposing view"},
-                  {"id": "conclusion2_b4", "options": ["fiscal responsibility and market efficiency", "saving money", "practical concerns"], "correctAnswer": "fiscal responsibility and market efficiency"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "government funding",
+                      "public support",
+                      "state subsidies"
+                    ],
+                    "correctAnswer": "government funding"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "cultural preservation and accessibility",
+                      "arts benefits",
+                      "creative support"
+                    ],
+                    "correctAnswer": "cultural preservation and accessibility"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "the opposing view",
+                      "critics",
+                      "opponents"
+                    ],
+                    "correctAnswer": "the opposing view"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "fiscal responsibility and market efficiency",
+                      "saving money",
+                      "practical concerns"
+                    ],
+                    "correctAnswer": "fiscal responsibility and market efficiency"
+                  }
                 ],
                 "correctSentence": "Overall, government funding provides cultural preservation and accessibility, whereas the opposing view emphasizes fiscal responsibility and market efficiency.",
                 "usableIn": "conclusion"
@@ -722,8 +1641,24 @@
                 "type": "template",
                 "template": "To summarize, _____ depends on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the appropriate level of arts funding", "how much to spend", "funding decisions"], "correctAnswer": "the appropriate level of arts funding"},
-                  {"id": "conclusion3_b2", "options": ["balancing cultural value against competing priorities", "weighing different needs", "considering all factors"], "correctAnswer": "balancing cultural value against competing priorities"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the appropriate level of arts funding",
+                      "how much to spend",
+                      "funding decisions"
+                    ],
+                    "correctAnswer": "the appropriate level of arts funding"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "balancing cultural value against competing priorities",
+                      "weighing different needs",
+                      "considering all factors"
+                    ],
+                    "correctAnswer": "balancing cultural value against competing priorities"
+                  }
                 ],
                 "correctSentence": "To summarize, the appropriate level of arts funding depends on balancing cultural value against competing priorities.",
                 "usableIn": "conclusion"
@@ -733,9 +1668,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should _____ while _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["governments", "policymakers", "authorities"], "correctAnswer": "governments"},
-                  {"id": "conclusion4_b2", "options": ["invest strategically in cultural heritage", "support some arts", "provide funding"], "correctAnswer": "invest strategically in cultural heritage"},
-                  {"id": "conclusion4_b3", "options": ["ensuring accountability and measurable benefits", "being careful", "monitoring results"], "correctAnswer": "ensuring accountability and measurable benefits"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "governments",
+                      "policymakers",
+                      "authorities"
+                    ],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "invest strategically in cultural heritage",
+                      "support some arts",
+                      "provide funding"
+                    ],
+                    "correctAnswer": "invest strategically in cultural heritage"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "ensuring accountability and measurable benefits",
+                      "being careful",
+                      "monitoring results"
+                    ],
+                    "correctAnswer": "ensuring accountability and measurable benefits"
+                  }
                 ],
                 "correctSentence": "Ultimately, governments should invest strategically in cultural heritage while ensuring accountability and measurable benefits.",
                 "usableIn": "conclusion"
@@ -745,8 +1704,24 @@
                 "type": "template",
                 "template": "In my view, _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["selective arts funding represents sound public policy", "some cultural support is worthwhile", "governments should help artists"], "correctAnswer": "selective arts funding represents sound public policy"},
-                  {"id": "conclusion5_b2", "options": ["it preserves irreplaceable cultural assets for future generations", "culture is important", "art benefits society"], "correctAnswer": "it preserves irreplaceable cultural assets for future generations"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "selective arts funding represents sound public policy",
+                      "some cultural support is worthwhile",
+                      "governments should help artists"
+                    ],
+                    "correctAnswer": "selective arts funding represents sound public policy"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it preserves irreplaceable cultural assets for future generations",
+                      "culture is important",
+                      "art benefits society"
+                    ],
+                    "correctAnswer": "it preserves irreplaceable cultural assets for future generations"
+                  }
                 ],
                 "correctSentence": "In my view, selective arts funding represents sound public policy because it preserves irreplaceable cultural assets for future generations.",
                 "usableIn": "conclusion"
@@ -799,12 +1774,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of arts funding argue that", "Advocates of government support contend that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "From an opposing viewpoint", "Critics argue that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of arts funding argue that",
+            "Advocates of government support contend that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "From an opposing viewpoint",
+            "Critics argue that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },
@@ -978,7 +1983,7 @@
   ],
   "modelEssay": {
     "text": "People have differing views about whether governments should allocate public funds to support creative professionals such as musicians, painters, and poets. While concerns about fiscal responsibility are understandable, I believe that strategic investment in the arts serves important cultural and social purposes that justify government support.\n\nOn the one hand, public funding enables the preservation of cultural heritage and artistic traditions that might otherwise disappear. Many valuable art forms, including classical music, traditional crafts, and indigenous cultural practices, lack sufficient commercial viability to survive in free markets alone. For instance, institutions like the Vienna Philharmonic and the British Museum depend heavily on government subsidies to maintain artistic excellence and provide free public access. Furthermore, state support allows emerging artists to develop their talents without compromising their creative vision for commercial success. This ensures that society benefits from diverse cultural expressions regardless of their market appeal.\n\nOn the other hand, critics argue that arts funding diverts limited resources from more pressing public needs. Healthcare systems, educational institutions, and infrastructure often face chronic underfunding while governments allocate millions to cultural programs. For example, many hospitals struggle with inadequate equipment and long waiting times, raising questions about spending priorities. Moreover, successful artists like J.K. Rowling demonstrate that creative talent can flourish through market demand without taxpayer subsidies, suggesting that government intervention may be unnecessary.\n\nIn conclusion, while fiscal constraints are legitimate concerns, I believe selective government support for culturally significant arts represents sound public policy because it preserves irreplaceable heritage and enriches society in ways that purely commercial markets cannot sustain.",
-    "wordCount": 270,
+    "wordCount": 258,
     "structure": {
       "introduction": "People have differing views about whether governments should allocate public funds to support creative professionals such as musicians, painters, and poets. While concerns about fiscal responsibility are understandable, I believe that strategic investment in the arts serves important cultural and social purposes that justify government support.",
       "body1": "On the one hand, public funding enables the preservation of cultural heritage and artistic traditions that might otherwise disappear. Many valuable art forms, including classical music, traditional crafts, and indigenous cultural practices, lack sufficient commercial viability to survive in free markets alone. For instance, institutions like the Vienna Philharmonic and the British Museum depend heavily on government subsidies to maintain artistic excellence and provide free public access. Furthermore, state support allows emerging artists to develop their talents without compromising their creative vision for commercial success. This ensures that society benefits from diverse cultural expressions regardless of their market appeal.",

@@ -80,105 +80,151 @@
             "word": "automation",
             "pronunciation": "/ˌɔːtəˈmeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Use of technology to perform tasks without human intervention",
+            "definition": "Use of technology to perform tasks without human intervention.",
             "example": "AI-driven automation is transforming manufacturing and service industries.",
-            "synonyms": ["mechanization", "computerization"]
+            "synonyms": [
+              "mechanization",
+              "computerization"
+            ]
           },
           {
             "word": "displacement",
             "pronunciation": "/dɪsˈpleɪsmənt/",
             "partOfSpeech": "noun",
-            "definition": "The act of forcing something from its place",
+            "definition": "The act of forcing something from its place.",
             "example": "Worker displacement due to AI poses significant economic challenges.",
-            "synonyms": ["replacement", "removal"]
+            "synonyms": [
+              "replacement",
+              "removal"
+            ]
           },
           {
             "word": "efficiency",
             "pronunciation": "/ɪˈfɪʃənsi/",
             "partOfSpeech": "noun",
-            "definition": "Achieving maximum productivity with minimum wasted effort",
+            "definition": "Achieving maximum productivity with minimum wasted effort.",
             "example": "AI systems dramatically improve operational efficiency in many sectors.",
-            "synonyms": ["productivity", "effectiveness"]
+            "synonyms": [
+              "productivity",
+              "effectiveness"
+            ]
           },
           {
             "word": "obsolete",
             "pronunciation": "/ˈɒbsəliːt/",
             "partOfSpeech": "adjective",
-            "definition": "No longer in use or outdated",
+            "definition": "No longer in use or outdated.",
             "example": "Many traditional job roles risk becoming obsolete due to AI advancement.",
-            "synonyms": ["outdated", "antiquated"]
+            "synonyms": [
+              "outdated",
+              "antiquated"
+            ]
           },
           {
             "word": "unprecedented",
             "pronunciation": "/ʌnˈpresɪdentɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Never done or experienced before",
-            "example": "AI represents an unprecedented transformation of the global workforce.",
-            "synonyms": ["extraordinary", "unparalleled"]
+            "definition": "Never done or experienced before.",
+            "example": "AI represents a major transformation of the global workforce.",
+            "synonyms": [
+              "extraordinary",
+              "unparalleled"
+            ]
           },
           {
             "word": "adaptability",
             "pronunciation": "/əˌdæptəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "Ability to adjust to new conditions",
+            "definition": "Ability to adjust to new conditions.",
             "example": "Workers need greater adaptability to thrive in an AI-dominated economy.",
-            "synonyms": ["flexibility", "versatility"]
+            "synonyms": [
+              "flexibility",
+              "versatility"
+            ]
           },
           {
             "word": "proliferation",
             "pronunciation": "/prəˌlɪfəˈreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Rapid increase or spread",
+            "definition": "Rapid increase or spread.",
             "example": "The proliferation of AI technologies is reshaping employment patterns globally.",
-            "synonyms": ["expansion", "growth"]
+            "synonyms": [
+              "expansion",
+              "growth"
+            ]
           },
           {
             "word": "mitigate",
             "pronunciation": "/ˈmɪtɪɡeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make less severe or serious",
+            "definition": "To make less severe or serious.",
             "example": "Governments must implement policies to mitigate AI's negative employment impacts.",
-            "synonyms": ["alleviate", "reduce"]
+            "synonyms": [
+              "alleviate",
+              "reduce"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "workforce automation",
-            "definition": "Using technology to replace human labor",
+            "definition": "Using technology to replace human labor.",
             "example": "Workforce automation through AI is accelerating across manufacturing sectors."
           },
           {
             "phrase": "job displacement",
-            "definition": "Workers losing jobs to technology",
+            "definition": "Workers losing jobs to technology.",
             "example": "Job displacement affects low-skilled workers most severely in automated industries."
           },
           {
             "phrase": "machine learning",
-            "definition": "AI systems that improve through experience",
+            "definition": "AI systems that improve through experience.",
             "example": "Machine learning algorithms now outperform humans in pattern recognition tasks."
           },
           {
             "phrase": "economic inequality",
-            "definition": "Unequal distribution of wealth and opportunity",
+            "definition": "Unequal distribution of wealth and opportunity.",
             "example": "AI adoption may exacerbate economic inequality between skilled and unskilled workers."
           },
           {
             "phrase": "reskilling programs",
-            "definition": "Training to learn new job skills",
+            "definition": "Training to learn new job skills.",
             "example": "Reskilling programs help displaced workers transition to AI-complementary roles."
           },
           {
             "phrase": "cognitive tasks",
-            "definition": "Work requiring thinking and decision-making",
+            "definition": "Work requiring thinking and decision-making.",
             "example": "AI now handles complex cognitive tasks previously requiring human expertise."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The rise of artificial intelligence", "AI technology is fundamentally", "In recent years, AI has"],
-          "advantages": ["One significant advantage is", "From a business perspective", "On the positive side"],
-          "disadvantages": ["However, a major concern is", "From a social perspective", "On the negative side"],
-          "exemplifying": ["For instance", "A notable example is", "This is particularly evident in", "Specifically"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking both perspectives into account"]
+          "introducing": [
+            "The rise of artificial intelligence",
+            "AI technology is fundamentally",
+            "In recent years, AI has"
+          ],
+          "advantages": [
+            "One significant advantage is",
+            "From a business perspective",
+            "On the positive side"
+          ],
+          "disadvantages": [
+            "However, a major concern is",
+            "From a social perspective",
+            "On the negative side"
+          ],
+          "exemplifying": [
+            "For instance",
+            "A notable example is",
+            "This is particularly evident in",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking both perspectives into account"
+          ]
         }
       }
     },
@@ -195,7 +241,10 @@
             "clues": {
               "subject": "AI systems",
               "verb": "perform",
-              "keywords": ["repetitive tasks", "greater efficiency"]
+              "keywords": [
+                "repetitive tasks",
+                "greater efficiency"
+              ]
             },
             "hint": "Focus on productivity and accuracy benefits.",
             "modelAnswer": "AI systems can perform repetitive tasks with significantly greater efficiency and accuracy than humans.",
@@ -206,7 +255,10 @@
             "clues": {
               "subject": "Automation",
               "verb": "reduce",
-              "keywords": ["operational costs", "businesses"]
+              "keywords": [
+                "operational costs",
+                "businesses"
+              ]
             },
             "hint": "Mention cost savings for companies.",
             "modelAnswer": "Automation through AI dramatically reduces operational costs for businesses across multiple industries.",
@@ -217,7 +269,11 @@
             "clues": {
               "subject": "Job displacement",
               "verb": "threaten",
-              "keywords": ["millions", "workers", "unemployment"]
+              "keywords": [
+                "millions",
+                "workers",
+                "unemployment"
+              ]
             },
             "hint": "Focus on scale of employment threat.",
             "modelAnswer": "Job displacement caused by AI threatens millions of workers with unemployment and economic insecurity.",
@@ -228,7 +284,10 @@
             "clues": {
               "subject": "AI adoption",
               "verb": "exacerbate",
-              "keywords": ["economic inequality", "society"]
+              "keywords": [
+                "economic inequality",
+                "society"
+              ]
             },
             "hint": "Discuss widening gap between skilled and unskilled.",
             "modelAnswer": "Widespread AI adoption may exacerbate economic inequality by disproportionately affecting low-skilled workers.",
@@ -239,7 +298,11 @@
             "clues": {
               "subject": "Workers",
               "verb": "require",
-              "keywords": ["reskilling", "adapt", "AI-dominated economy"]
+              "keywords": [
+                "reskilling",
+                "adapt",
+                "AI-dominated economy"
+              ]
             },
             "hint": "Mention need for training and adaptation.",
             "modelAnswer": "Workers will require extensive reskilling and adaptability to thrive in an increasingly AI-dominated economy.",
@@ -249,31 +312,77 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["artificial intelligence", "is", "transforming", "the", "nature", "of", "work", "globally"],
+            "words": [
+              "artificial intelligence",
+              "is",
+              "transforming",
+              "the",
+              "nature",
+              "of",
+              "work",
+              "globally"
+            ],
             "correctAnswer": "Artificial intelligence is transforming the nature of work globally.",
             "hint": "Start with 'Artificial intelligence'"
           },
           {
             "id": "scramble2",
-            "words": ["AI", "systems", "outperform", "humans", "in", "many", "specialized", "tasks"],
+            "words": [
+              "AI",
+              "systems",
+              "outperform",
+              "humans",
+              "in",
+              "many",
+              "specialized",
+              "tasks"
+            ],
             "correctAnswer": "AI systems outperform humans in many specialized tasks.",
             "hint": "Subject is 'AI systems'"
           },
           {
             "id": "scramble3",
-            "words": ["millions", "of", "jobs", "face", "automation", "in", "the", "coming", "decades"],
+            "words": [
+              "millions",
+              "of",
+              "jobs",
+              "face",
+              "automation",
+              "in",
+              "the",
+              "coming",
+              "decades"
+            ],
             "correctAnswer": "Millions of jobs face automation in the coming decades.",
             "hint": "'face automation' is the key phrase"
           },
           {
             "id": "scramble4",
-            "words": ["machine", "learning", "algorithms", "improve", "efficiency", "across", "industries"],
+            "words": [
+              "machine",
+              "learning",
+              "algorithms",
+              "improve",
+              "efficiency",
+              "across",
+              "industries"
+            ],
             "correctAnswer": "Machine learning algorithms improve efficiency across industries.",
             "hint": "Subject is 'Machine learning algorithms'"
           },
           {
             "id": "scramble5",
-            "words": ["governments", "must", "address", "the", "social", "impacts", "of", "AI", "automation"],
+            "words": [
+              "governments",
+              "must",
+              "address",
+              "the",
+              "social",
+              "impacts",
+              "of",
+              "AI",
+              "automation"
+            ],
             "correctAnswer": "Governments must address the social impacts of AI automation.",
             "hint": "'must address' is the verb phrase"
           }
@@ -282,35 +391,55 @@
           {
             "id": "blank1",
             "sentence": "AI systems _____ operational efficiency across multiple sectors.",
-            "options": ["improve", "improves", "improving"],
+            "options": [
+              "improve",
+              "improves",
+              "improving"
+            ],
             "correctAnswer": "improve",
             "explanation": "Plural subject 'systems' takes base form 'improve'."
           },
           {
             "id": "blank2",
             "sentence": "_____, job displacement poses serious economic challenges.",
-            "options": ["However", "Moreover", "Therefore"],
+            "options": [
+              "However",
+              "Moreover",
+              "Therefore"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to contrast advantages with disadvantages."
           },
           {
             "id": "blank3",
             "sentence": "Many traditional roles risk becoming _____ due to automation.",
-            "options": ["obsolete", "obsolescence", "obsoleting"],
+            "options": [
+              "obsolete",
+              "obsolescence",
+              "obsoleting"
+            ],
             "correctAnswer": "obsolete",
             "explanation": "Use adjective 'obsolete' after 'becoming'."
           },
           {
             "id": "blank4",
             "sentence": "_____ instance, AI now performs complex medical diagnoses.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For instance' is correct for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Workers must develop _____ to adapt to technological change.",
-            "options": ["adaptability", "adapt", "adapting"],
+            "options": [
+              "adaptability",
+              "adapt",
+              "adapting"
+            ],
             "correctAnswer": "adaptability",
             "explanation": "Use noun 'adaptability' as object of 'develop'."
           }
@@ -360,12 +489,42 @@
           }
         ],
         "usefulTransitions": {
-          "advantages": ["From a business perspective", "In terms of productivity", "On the positive side", "Economically speaking"],
-          "disadvantages": ["From a social perspective", "In terms of employment", "On the negative side", "From a human standpoint"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "A notable example is", "This is particularly evident in", "Specifically"],
-          "showing_result": ["This leads to", "Consequently", "As a result", "This results in"],
-          "contrasting": ["However", "Conversely", "Nevertheless", "Despite these benefits"]
+          "advantages": [
+            "From a business perspective",
+            "In terms of productivity",
+            "On the positive side",
+            "Economically speaking"
+          ],
+          "disadvantages": [
+            "From a social perspective",
+            "In terms of employment",
+            "On the negative side",
+            "From a human standpoint"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "A notable example is",
+            "This is particularly evident in",
+            "Specifically"
+          ],
+          "showing_result": [
+            "This leads to",
+            "Consequently",
+            "As a result",
+            "This results in"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "Nevertheless",
+            "Despite these benefits"
+          ]
         }
       }
     },
@@ -531,10 +690,10 @@
     }
   ],
   "modelEssay": {
-    "text": "The rise of artificial intelligence in the workplace represents an unprecedented technological transformation that is fundamentally reshaping modern economies and employment structures worldwide. While this development offers significant gains in productivity and operational efficiency for businesses, it also poses serious challenges regarding widespread job displacement and economic inequality.\n\nFrom a business perspective, AI dramatically enhances operational efficiency and cost-effectiveness across virtually all sectors. Machine learning systems can process vast datasets, identify complex patterns, and execute decisions far faster than human workers, while operating continuously without errors, fatigue, or benefits costs. For instance, in manufacturing, AI-powered robots now assemble products with superhuman precision and speed, while in finance, algorithmic trading systems execute millions of transactions instantaneously based on market analysis. Similarly, AI customer service chatbots handle thousands of inquiries simultaneously, reducing staffing costs significantly. This leads to substantial cost reductions, increased corporate profits, and enhanced global competitiveness for organizations successfully adopting these technologies.\n\nFrom a social perspective, however, widespread automation threatens millions of workers with unemployment and economic insecurity. Studies project that up to forty percent of current jobs could face automation within two decades, disproportionately affecting low-skilled workers in manufacturing, transportation, retail, and customer service sectors. For example, truck drivers face displacement by autonomous vehicles, factory workers by robotic assembly lines, and cashiers by automated checkout systems. Furthermore, the pace of technological change often exceeds workers' capacity to retrain for new roles, particularly older employees and those lacking educational resources. This results in increased economic inequality, community disruption, and psychological distress among displaced workers who struggle to find alternative employment offering comparable wages or dignity.\n\nIn conclusion, while AI automation provides undeniable economic benefits through enhanced efficiency and productivity, it also creates profound social challenges through job displacement and inequality. Successfully managing this transition requires comprehensive reskilling programs, strengthened social safety nets, and potentially revolutionary economic models such as universal basic income to ensure that technological progress benefits all members of society rather than exacerbating existing inequalities.",
-    "wordCount": 315,
+    "text": "The rise of artificial intelligence in the workplace represents a major technological transformation that is fundamentally reshaping modern economies and employment structures worldwide. While this development offers significant gains in productivity and operational efficiency for businesses, it also poses serious challenges regarding widespread job displacement and economic inequality.\n\nFrom a business perspective, AI dramatically enhances operational efficiency and cost-effectiveness across virtually all sectors. Machine learning systems can process vast datasets, identify complex patterns, and execute decisions far faster than human workers, while operating continuously without errors, fatigue, or benefits costs. For instance, in manufacturing, AI-powered robots now assemble products with superhuman precision and speed, while in finance, algorithmic trading systems execute millions of transactions instantaneously based on market analysis. Similarly, AI customer service chatbots handle thousands of inquiries simultaneously, reducing staffing costs significantly. This leads to substantial cost reductions, increased corporate profits, and enhanced global competitiveness for organizations successfully adopting these technologies.\n\nFrom a social perspective, however, widespread automation threatens millions of workers with unemployment and economic insecurity. Studies project that up to forty percent of current jobs could face automation within two decades, disproportionately affecting low-skilled workers in manufacturing, transportation, retail, and customer service sectors. For example, truck drivers face displacement by autonomous vehicles, factory workers by robotic assembly lines, and cashiers by automated checkout systems. Furthermore, the pace of technological change often exceeds workers' capacity to retrain for new roles, particularly older employees and those lacking educational resources. This results in increased economic inequality, community disruption, and psychological distress among displaced workers who struggle to find alternative employment offering comparable wages or dignity.\n\nIn conclusion, while AI automation provides undeniable economic benefits through enhanced efficiency and productivity, it also creates profound social challenges through job displacement and inequality. Successfully managing this transition requires comprehensive reskilling programs, strengthened social safety nets, and potentially revolutionary economic models such as universal basic income to ensure that technological progress benefits all members of society rather than exacerbating existing inequalities.",
+    "wordCount": 327,
     "structure": {
-      "introduction": "The rise of artificial intelligence in the workplace represents an unprecedented technological transformation that is fundamentally reshaping modern economies and employment structures worldwide. While this development offers significant gains in productivity and operational efficiency for businesses, it also poses serious challenges regarding widespread job displacement and economic inequality.",
+      "introduction": "The rise of artificial intelligence in the workplace represents a major technological transformation that is fundamentally reshaping modern economies and employment structures worldwide. While this development offers significant gains in productivity and operational efficiency for businesses, it also poses serious challenges regarding widespread job displacement and economic inequality.",
       "body1": "From a business perspective, AI dramatically enhances operational efficiency and cost-effectiveness across virtually all sectors. Machine learning systems can process vast datasets, identify complex patterns, and execute decisions far faster than human workers, while operating continuously without errors, fatigue, or benefits costs. For instance, in manufacturing, AI-powered robots now assemble products with superhuman precision and speed, while in finance, algorithmic trading systems execute millions of transactions instantaneously based on market analysis. Similarly, AI customer service chatbots handle thousands of inquiries simultaneously, reducing staffing costs significantly. This leads to substantial cost reductions, increased corporate profits, and enhanced global competitiveness for organizations successfully adopting these technologies.",
       "body2": "From a social perspective, however, widespread automation threatens millions of workers with unemployment and economic insecurity. Studies project that up to forty percent of current jobs could face automation within two decades, disproportionately affecting low-skilled workers in manufacturing, transportation, retail, and customer service sectors. For example, truck drivers face displacement by autonomous vehicles, factory workers by robotic assembly lines, and cashiers by automated checkout systems. Furthermore, the pace of technological change often exceeds workers' capacity to retrain for new roles, particularly older employees and those lacking educational resources. This results in increased economic inequality, community disruption, and psychological distress among displaced workers who struggle to find alternative employment offering comparable wages or dignity.",
       "conclusion": "In conclusion, while AI automation provides undeniable economic benefits through enhanced efficiency and productivity, it also creates profound social challenges through job displacement and inequality. Successfully managing this transition requires comprehensive reskilling programs, strengthened social safety nets, and potentially revolutionary economic models such as universal basic income to ensure that technological progress benefits all members of society rather than exacerbating existing inequalities."

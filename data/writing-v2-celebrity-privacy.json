@@ -79,116 +79,175 @@
             "word": "intrusion",
             "pronunciation": "/ɪnˈtruːʒən/",
             "partOfSpeech": "noun",
-            "definition": "Unwelcome entry into another's private affairs",
+            "definition": "Unwelcome entry into another's private affairs.",
             "example": "Media intrusion into celebrity homes violates basic privacy rights.",
-            "synonyms": ["invasion", "encroachment", "interference"]
+            "synonyms": [
+              "invasion",
+              "encroachment",
+              "interference"
+            ]
           },
           {
             "word": "legitimate",
             "pronunciation": "/lɪˈdʒɪtɪmət/",
             "partOfSpeech": "adjective",
-            "definition": "Conforming to recognized principles or accepted standards",
+            "definition": "Conforming to recognized principles or accepted standards.",
             "example": "There is legitimate public interest in how politicians spend taxpayer money.",
-            "synonyms": ["valid", "justified", "reasonable"]
+            "synonyms": [
+              "valid",
+              "justified",
+              "reasonable"
+            ]
           },
           {
             "word": "boundaries",
             "pronunciation": "/ˈbaʊndəriz/",
             "partOfSpeech": "noun",
-            "definition": "Limits defining acceptable behavior",
+            "definition": "Limits defining acceptable behavior.",
             "example": "Personal boundaries should be respected regardless of celebrity status.",
-            "synonyms": ["limits", "parameters", "restrictions"]
+            "synonyms": [
+              "limits",
+              "parameters",
+              "restrictions"
+            ]
           },
           {
             "word": "scrutiny",
             "pronunciation": "/ˈskruːtəni/",
             "partOfSpeech": "noun",
-            "definition": "Critical observation or examination",
+            "definition": "Critical observation or examination.",
             "example": "Public figures naturally face greater scrutiny than private citizens.",
-            "synonyms": ["examination", "inspection", "surveillance"]
+            "synonyms": [
+              "examination",
+              "inspection",
+              "surveillance"
+            ]
           },
           {
             "word": "exploitation",
             "pronunciation": "/ˌeksplɔɪˈteɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Using something or someone unfairly for one's own advantage",
+            "definition": "Using something or someone unfairly for one's own advantage.",
             "example": "The exploitation of celebrity tragedies for profit raises ethical concerns.",
-            "synonyms": ["manipulation", "abuse", "misuse"]
+            "synonyms": [
+              "manipulation",
+              "abuse",
+              "misuse"
+            ]
           },
           {
             "word": "entitlement",
             "pronunciation": "/ɪnˈtaɪtəlmənt/",
             "partOfSpeech": "noun",
-            "definition": "The belief that one deserves privileges or special treatment",
+            "definition": "The belief that one deserves privileges or special treatment.",
             "example": "The public's sense of entitlement to celebrity information has grown with social media.",
-            "synonyms": ["right", "claim", "privilege"]
+            "synonyms": [
+              "right",
+              "claim",
+              "privilege"
+            ]
           },
           {
             "word": "relentless",
             "pronunciation": "/rɪˈlentləs/",
             "partOfSpeech": "adjective",
-            "definition": "Unceasingly intense or harsh",
+            "definition": "Unceasingly intense or harsh.",
             "example": "Relentless paparazzi pursuit can endanger celebrity safety.",
-            "synonyms": ["persistent", "unceasing", "constant"]
+            "synonyms": [
+              "persistent",
+              "unceasing",
+              "constant"
+            ]
           },
           {
             "word": "fundamental",
             "pronunciation": "/ˌfʌndəˈmentəl/",
             "partOfSpeech": "adjective",
-            "definition": "Forming a necessary base or core; essential",
+            "definition": "Forming a necessary base or core; essential.",
             "example": "Privacy is a fundamental human right protected by international law.",
-            "synonyms": ["basic", "essential", "primary"]
+            "synonyms": [
+              "basic",
+              "essential",
+              "primary"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "public interest",
-            "definition": "Matters of importance or concern to the general public",
+            "definition": "Matters of importance or concern to the general public.",
             "example": "True public interest concerns issues affecting society, not celebrity gossip."
           },
           {
             "phrase": "privacy rights",
-            "definition": "Legal entitlement to keep personal matters private",
+            "definition": "Legal entitlement to keep personal matters private.",
             "example": "Privacy rights extend to everyone, including famous individuals."
           },
           {
             "phrase": "media intrusion",
-            "definition": "Unwanted interference by journalists and photographers",
+            "definition": "Unwanted interference by journalists and photographers.",
             "example": "Aggressive media intrusion contributed to Princess Diana's tragic death."
           },
           {
             "phrase": "paparazzi",
-            "definition": "Photographers who pursue celebrities to get candid photos",
+            "definition": "Photographers who pursue celebrities to get candid photos.",
             "example": "Paparazzi often use extreme tactics to capture private moments."
           },
           {
             "phrase": "public figures",
-            "definition": "People who are widely known and recognized",
+            "definition": "People who are widely known and recognized.",
             "example": "Public figures accept some loss of privacy but deserve personal boundaries."
           },
           {
             "phrase": "personal boundaries",
-            "definition": "Limits on what aspects of life remain private",
+            "definition": "Limits on what aspects of life remain private.",
             "example": "Respecting personal boundaries protects mental health and family wellbeing."
           },
           {
             "phrase": "tabloid culture",
-            "definition": "Media environment focused on sensational celebrity stories",
+            "definition": "Media environment focused on sensational celebrity stories.",
             "example": "Tabloid culture prioritizes entertainment value over ethical journalism."
           },
           {
             "phrase": "social media exposure",
-            "definition": "Visibility and scrutiny through online platforms",
+            "definition": "Visibility and scrutiny through online platforms.",
             "example": "Social media exposure has intensified pressure on celebrities to share private details."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is often claimed that", "There is debate about whether", "Some argue that"],
-          "agreeing": ["I strongly agree that", "This perspective is valid because", "Indeed"],
-          "disagreeing": ["However, I disagree with this view", "This argument overlooks", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "exemplifying": ["For instance", "For example", "A notable case is", "As evidenced by"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "It is often claimed that",
+            "There is debate about whether",
+            "Some argue that"
+          ],
+          "agreeing": [
+            "I strongly agree that",
+            "This perspective is valid because",
+            "Indeed"
+          ],
+          "disagreeing": [
+            "However, I disagree with this view",
+            "This argument overlooks",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "A notable case is",
+            "As evidenced by"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -211,9 +270,33 @@
                 "type": "template",
                 "template": "I _____ disagree that _____ because _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["strongly", "partly", "do not"], "correctAnswer": "strongly"},
-                  {"id": "thesis1_b2", "options": ["celebrities should accept media intrusion", "privacy is unimportant", "fame has benefits"], "correctAnswer": "celebrities should accept media intrusion"},
-                  {"id": "thesis1_b3", "options": ["privacy is a fundamental human right", "celebrities earn money", "media needs stories"], "correctAnswer": "privacy is a fundamental human right"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "strongly",
+                      "partly",
+                      "do not"
+                    ],
+                    "correctAnswer": "strongly"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "celebrities should accept media intrusion",
+                      "privacy is unimportant",
+                      "fame has benefits"
+                    ],
+                    "correctAnswer": "celebrities should accept media intrusion"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "privacy is a fundamental human right",
+                      "celebrities earn money",
+                      "media needs stories"
+                    ],
+                    "correctAnswer": "privacy is a fundamental human right"
+                  }
                 ],
                 "correctSentence": "I strongly disagree that celebrities should accept media intrusion because privacy is a fundamental human right.",
                 "usableIn": "introduction"
@@ -223,8 +306,24 @@
                 "type": "template",
                 "template": "While _____, I believe _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["public figures accept some scrutiny", "celebrities are wealthy", "media sells newspapers"], "correctAnswer": "public figures accept some scrutiny"},
-                  {"id": "thesis2_b2", "options": ["this does not justify invasion of their private lives", "they should share everything", "privacy is outdated"], "correctAnswer": "this does not justify invasion of their private lives"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "public figures accept some scrutiny",
+                      "celebrities are wealthy",
+                      "media sells newspapers"
+                    ],
+                    "correctAnswer": "public figures accept some scrutiny"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "this does not justify invasion of their private lives",
+                      "they should share everything",
+                      "privacy is outdated"
+                    ],
+                    "correctAnswer": "this does not justify invasion of their private lives"
+                  }
                 ],
                 "correctSentence": "While public figures accept some scrutiny, I believe this does not justify invasion of their private lives.",
                 "usableIn": "introduction"
@@ -234,8 +333,24 @@
                 "type": "template",
                 "template": "It is often claimed that _____; however, _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["fame comes with loss of privacy", "celebrities love attention", "media is always right"], "correctAnswer": "fame comes with loss of privacy"},
-                  {"id": "thesis3_b2", "options": ["I disagree with this assumption", "everyone agrees with this", "celebrities enjoy intrusion"], "correctAnswer": "I disagree with this assumption"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "fame comes with loss of privacy",
+                      "celebrities love attention",
+                      "media is always right"
+                    ],
+                    "correctAnswer": "fame comes with loss of privacy"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "I disagree with this assumption",
+                      "everyone agrees with this",
+                      "celebrities enjoy intrusion"
+                    ],
+                    "correctAnswer": "I disagree with this assumption"
+                  }
                 ],
                 "correctSentence": "It is often claimed that fame comes with loss of privacy; however, I disagree with this assumption.",
                 "usableIn": "introduction"
@@ -245,9 +360,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ should _____ because _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["celebrities' personal boundaries", "media profits", "public curiosity"], "correctAnswer": "celebrities' personal boundaries"},
-                  {"id": "thesis4_b2", "options": ["be respected by the media", "be ignored completely", "not exist at all"], "correctAnswer": "be respected by the media"},
-                  {"id": "thesis4_b3", "options": ["everyone deserves protection of their family life", "celebrities are rich", "newspapers need content"], "correctAnswer": "everyone deserves protection of their family life"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "celebrities' personal boundaries",
+                      "media profits",
+                      "public curiosity"
+                    ],
+                    "correctAnswer": "celebrities' personal boundaries"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "be respected by the media",
+                      "be ignored completely",
+                      "not exist at all"
+                    ],
+                    "correctAnswer": "be respected by the media"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "everyone deserves protection of their family life",
+                      "celebrities are rich",
+                      "newspapers need content"
+                    ],
+                    "correctAnswer": "everyone deserves protection of their family life"
+                  }
                 ],
                 "correctSentence": "From my perspective, celebrities' personal boundaries should be respected by the media because everyone deserves protection of their family life.",
                 "usableIn": "introduction"
@@ -257,8 +396,24 @@
                 "type": "template",
                 "template": "This essay will argue that _____ despite _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["privacy rights extend to famous individuals", "celebrities want publicity", "media has power"], "correctAnswer": "privacy rights extend to famous individuals"},
-                  {"id": "thesis5_b2", "options": ["their public professional status", "earning high incomes", "appearing in films"], "correctAnswer": "their public professional status"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "privacy rights extend to famous individuals",
+                      "celebrities want publicity",
+                      "media has power"
+                    ],
+                    "correctAnswer": "privacy rights extend to famous individuals"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "their public professional status",
+                      "earning high incomes",
+                      "appearing in films"
+                    ],
+                    "correctAnswer": "their public professional status"
+                  }
                 ],
                 "correctSentence": "This essay will argue that privacy rights extend to famous individuals despite their public professional status.",
                 "usableIn": "introduction"
@@ -275,8 +430,24 @@
                 "type": "template",
                 "template": "The primary reason _____ is that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["celebrities deserve privacy", "media should intrude", "fame eliminates rights"], "correctAnswer": "celebrities deserve privacy"},
-                  {"id": "topic1_b2", "options": ["privacy is a fundamental human right regardless of profession", "they earn too much money", "newspapers need stories"], "correctAnswer": "privacy is a fundamental human right regardless of profession"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "celebrities deserve privacy",
+                      "media should intrude",
+                      "fame eliminates rights"
+                    ],
+                    "correctAnswer": "celebrities deserve privacy"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "privacy is a fundamental human right regardless of profession",
+                      "they earn too much money",
+                      "newspapers need stories"
+                    ],
+                    "correctAnswer": "privacy is a fundamental human right regardless of profession"
+                  }
                 ],
                 "correctSentence": "The primary reason celebrities deserve privacy is that privacy is a fundamental human right regardless of profession.",
                 "usableIn": "body-paragraph-1"
@@ -286,8 +457,24 @@
                 "type": "template",
                 "template": "One significant concern about _____ is _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["unrestricted media intrusion", "celebrity wealth", "public interest"], "correctAnswer": "unrestricted media intrusion"},
-                  {"id": "topic2_b2", "options": ["the severe psychological harm it can cause", "reduced newspaper sales", "celebrity complaints"], "correctAnswer": "the severe psychological harm it can cause"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "unrestricted media intrusion",
+                      "celebrity wealth",
+                      "public interest"
+                    ],
+                    "correctAnswer": "unrestricted media intrusion"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "the severe psychological harm it can cause",
+                      "reduced newspaper sales",
+                      "celebrity complaints"
+                    ],
+                    "correctAnswer": "the severe psychological harm it can cause"
+                  }
                 ],
                 "correctSentence": "One significant concern about unrestricted media intrusion is the severe psychological harm it can cause.",
                 "usableIn": "body-paragraph-1"
@@ -297,9 +484,33 @@
                 "type": "template",
                 "template": "_____ demonstrates that _____ should _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["International law", "Public opinion", "Celebrity income"], "correctAnswer": "International law"},
-                  {"id": "topic3_b2", "options": ["personal and family life", "professional achievements", "financial details"], "correctAnswer": "personal and family life"},
-                  {"id": "topic3_b3", "options": ["remain protected from exploitation", "be fully publicized", "generate more stories"], "correctAnswer": "remain protected from exploitation"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "International law",
+                      "Public opinion",
+                      "Celebrity income"
+                    ],
+                    "correctAnswer": "International law"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "personal and family life",
+                      "professional achievements",
+                      "financial details"
+                    ],
+                    "correctAnswer": "personal and family life"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "remain protected from exploitation",
+                      "be fully publicized",
+                      "generate more stories"
+                    ],
+                    "correctAnswer": "remain protected from exploitation"
+                  }
                 ],
                 "correctSentence": "International law demonstrates that personal and family life should remain protected from exploitation.",
                 "usableIn": "body-paragraph-1"
@@ -309,8 +520,24 @@
                 "type": "template",
                 "template": "However, _____ raises _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["relentless paparazzi pursuit", "celebrity interviews", "professional reporting"], "correctAnswer": "relentless paparazzi pursuit"},
-                  {"id": "topic4_b2", "options": ["serious safety and ethical concerns", "interesting questions", "media profits"], "correctAnswer": "serious safety and ethical concerns"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "relentless paparazzi pursuit",
+                      "celebrity interviews",
+                      "professional reporting"
+                    ],
+                    "correctAnswer": "relentless paparazzi pursuit"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "serious safety and ethical concerns",
+                      "interesting questions",
+                      "media profits"
+                    ],
+                    "correctAnswer": "serious safety and ethical concerns"
+                  }
                 ],
                 "correctSentence": "However, relentless paparazzi pursuit raises serious safety and ethical concerns.",
                 "usableIn": "body-paragraph-2"
@@ -320,8 +547,24 @@
                 "type": "template",
                 "template": "A crucial distinction exists between _____ and _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["legitimate public interest", "celebrity gossip", "newspaper profits"], "correctAnswer": "legitimate public interest"},
-                  {"id": "topic5_b2", "options": ["invasive personal coverage", "professional reporting", "social media posts"], "correctAnswer": "invasive personal coverage"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "legitimate public interest",
+                      "celebrity gossip",
+                      "newspaper profits"
+                    ],
+                    "correctAnswer": "legitimate public interest"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "invasive personal coverage",
+                      "professional reporting",
+                      "social media posts"
+                    ],
+                    "correctAnswer": "invasive personal coverage"
+                  }
                 ],
                 "correctSentence": "A crucial distinction exists between legitimate public interest and invasive personal coverage.",
                 "usableIn": "body-paragraph-2"
@@ -331,9 +574,33 @@
                 "type": "template",
                 "template": "_____ can _____ through _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["Media organizations", "Celebrities", "Photographers"], "correctAnswer": "Media organizations"},
-                  {"id": "topic6_b2", "options": ["maintain journalistic integrity", "increase profits", "publish anything"], "correctAnswer": "maintain journalistic integrity"},
-                  {"id": "topic6_b3", "options": ["respecting personal boundaries while covering professional activities", "ignoring privacy rights", "pursuing celebrities constantly"], "correctAnswer": "respecting personal boundaries while covering professional activities"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "Media organizations",
+                      "Celebrities",
+                      "Photographers"
+                    ],
+                    "correctAnswer": "Media organizations"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "maintain journalistic integrity",
+                      "increase profits",
+                      "publish anything"
+                    ],
+                    "correctAnswer": "maintain journalistic integrity"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "respecting personal boundaries while covering professional activities",
+                      "ignoring privacy rights",
+                      "pursuing celebrities constantly"
+                    ],
+                    "correctAnswer": "respecting personal boundaries while covering professional activities"
+                  }
                 ],
                 "correctSentence": "Media organizations can maintain journalistic integrity through respecting personal boundaries while covering professional activities.",
                 "usableIn": "body-paragraph-2"
@@ -343,9 +610,33 @@
                 "type": "template",
                 "template": "Despite _____, _____ must _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["public curiosity about celebrities", "high celebrity incomes", "media freedom"], "correctAnswer": "public curiosity about celebrities"},
-                  {"id": "topic7_b2", "options": ["ethical journalism", "tabloid newspapers", "paparazzi photographers"], "correctAnswer": "ethical journalism"},
-                  {"id": "topic7_b3", "options": ["recognize fundamental privacy rights", "pursue any story", "maximize profits"], "correctAnswer": "recognize fundamental privacy rights"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "public curiosity about celebrities",
+                      "high celebrity incomes",
+                      "media freedom"
+                    ],
+                    "correctAnswer": "public curiosity about celebrities"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "ethical journalism",
+                      "tabloid newspapers",
+                      "paparazzi photographers"
+                    ],
+                    "correctAnswer": "ethical journalism"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "recognize fundamental privacy rights",
+                      "pursue any story",
+                      "maximize profits"
+                    ],
+                    "correctAnswer": "recognize fundamental privacy rights"
+                  }
                 ],
                 "correctSentence": "Despite public curiosity about celebrities, ethical journalism must recognize fundamental privacy rights.",
                 "usableIn": "body-paragraph-2"
@@ -355,8 +646,24 @@
                 "type": "template",
                 "template": "The main problem with _____ is _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["accepting media intrusion as inevitable", "celebrity privacy", "professional journalism"], "correctAnswer": "accepting media intrusion as inevitable"},
-                  {"id": "topic8_b2", "options": ["it normalizes violation of basic human rights", "celebrities complain too much", "newspapers lose money"], "correctAnswer": "it normalizes violation of basic human rights"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "accepting media intrusion as inevitable",
+                      "celebrity privacy",
+                      "professional journalism"
+                    ],
+                    "correctAnswer": "accepting media intrusion as inevitable"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "it normalizes violation of basic human rights",
+                      "celebrities complain too much",
+                      "newspapers lose money"
+                    ],
+                    "correctAnswer": "it normalizes violation of basic human rights"
+                  }
                 ],
                 "correctSentence": "The main problem with accepting media intrusion as inevitable is it normalizes violation of basic human rights.",
                 "usableIn": "body-paragraph-1"
@@ -373,8 +680,24 @@
                 "type": "template",
                 "template": "This is because _____ protects _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["the right to privacy", "media freedom", "public curiosity"], "correctAnswer": "the right to privacy"},
-                  {"id": "support1_b2", "options": ["mental health and family wellbeing", "newspaper circulation", "photographer income"], "correctAnswer": "mental health and family wellbeing"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "the right to privacy",
+                      "media freedom",
+                      "public curiosity"
+                    ],
+                    "correctAnswer": "the right to privacy"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "mental health and family wellbeing",
+                      "newspaper circulation",
+                      "photographer income"
+                    ],
+                    "correctAnswer": "mental health and family wellbeing"
+                  }
                 ],
                 "correctSentence": "This is because the right to privacy protects mental health and family wellbeing.",
                 "usableIn": "body-paragraph-1"
@@ -384,8 +707,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ does not _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["choosing a public career", "earning high income", "appearing on television"], "correctAnswer": "choosing a public career"},
-                  {"id": "support2_b2", "options": ["forfeit all rights to personal privacy", "require talent", "guarantee success"], "correctAnswer": "forfeit all rights to personal privacy"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "choosing a public career",
+                      "earning high income",
+                      "appearing on television"
+                    ],
+                    "correctAnswer": "choosing a public career"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "forfeit all rights to personal privacy",
+                      "require talent",
+                      "guarantee success"
+                    ],
+                    "correctAnswer": "forfeit all rights to personal privacy"
+                  }
                 ],
                 "correctSentence": "The main reason is that choosing a public career does not forfeit all rights to personal privacy.",
                 "usableIn": "body-paragraph-1"
@@ -395,9 +734,33 @@
                 "type": "template",
                 "template": "_____ enables _____ without _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Respecting privacy", "Constant surveillance", "Media intrusion"], "correctAnswer": "Respecting privacy"},
-                  {"id": "support3_b2", "options": ["celebrities to function normally", "newspapers to profit", "paparazzi to work"], "correctAnswer": "celebrities to function normally"},
-                  {"id": "support3_b3", "options": ["constant fear of exploitation", "public criticism", "media attention"], "correctAnswer": "constant fear of exploitation"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Respecting privacy",
+                      "Constant surveillance",
+                      "Media intrusion"
+                    ],
+                    "correctAnswer": "Respecting privacy"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "celebrities to function normally",
+                      "newspapers to profit",
+                      "paparazzi to work"
+                    ],
+                    "correctAnswer": "celebrities to function normally"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "constant fear of exploitation",
+                      "public criticism",
+                      "media attention"
+                    ],
+                    "correctAnswer": "constant fear of exploitation"
+                  }
                 ],
                 "correctSentence": "Respecting privacy enables celebrities to function normally without constant fear of exploitation.",
                 "usableIn": "body-paragraph-1"
@@ -407,9 +770,33 @@
                 "type": "template",
                 "template": "_____ creates _____, which is essential for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Maintaining personal boundaries", "Ignoring privacy", "Constant publicity"], "correctAnswer": "Maintaining personal boundaries"},
-                  {"id": "support4_b2", "options": ["psychological safety", "newspaper sales", "paparazzi income"], "correctAnswer": "psychological safety"},
-                  {"id": "support4_b3", "options": ["protecting vulnerable family members like children", "generating gossip", "entertaining the public"], "correctAnswer": "protecting vulnerable family members like children"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Maintaining personal boundaries",
+                      "Ignoring privacy",
+                      "Constant publicity"
+                    ],
+                    "correctAnswer": "Maintaining personal boundaries"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "psychological safety",
+                      "newspaper sales",
+                      "paparazzi income"
+                    ],
+                    "correctAnswer": "psychological safety"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "protecting vulnerable family members like children",
+                      "generating gossip",
+                      "entertaining the public"
+                    ],
+                    "correctAnswer": "protecting vulnerable family members like children"
+                  }
                 ],
                 "correctSentence": "Maintaining personal boundaries creates psychological safety, which is essential for protecting vulnerable family members like children.",
                 "usableIn": "body-paragraph-1"
@@ -419,8 +806,24 @@
                 "type": "template",
                 "template": "By _____, society can _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["establishing clear privacy protections", "allowing unlimited intrusion", "ignoring boundaries"], "correctAnswer": "establishing clear privacy protections"},
-                  {"id": "support5_b2", "options": ["prevent tragic outcomes like harassment", "satisfy public curiosity", "increase tabloid sales"], "correctAnswer": "prevent tragic outcomes like harassment"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "establishing clear privacy protections",
+                      "allowing unlimited intrusion",
+                      "ignoring boundaries"
+                    ],
+                    "correctAnswer": "establishing clear privacy protections"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "prevent tragic outcomes like harassment",
+                      "satisfy public curiosity",
+                      "increase tabloid sales"
+                    ],
+                    "correctAnswer": "prevent tragic outcomes like harassment"
+                  }
                 ],
                 "correctSentence": "By establishing clear privacy protections, society can prevent tragic outcomes like harassment.",
                 "usableIn": "body-paragraph-1"
@@ -430,9 +833,33 @@
                 "type": "template",
                 "template": "_____ undermines _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Excessive media intrusion", "Celebrity privacy", "Professional journalism"], "correctAnswer": "Excessive media intrusion"},
-                  {"id": "support6_b2", "options": ["democratic principles", "media profits", "public entertainment"], "correctAnswer": "democratic principles"},
-                  {"id": "support6_b3", "options": ["violating universally recognized human rights", "reporting news accurately", "covering professional events"], "correctAnswer": "violating universally recognized human rights"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Excessive media intrusion",
+                      "Celebrity privacy",
+                      "Professional journalism"
+                    ],
+                    "correctAnswer": "Excessive media intrusion"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "democratic principles",
+                      "media profits",
+                      "public entertainment"
+                    ],
+                    "correctAnswer": "democratic principles"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "violating universally recognized human rights",
+                      "reporting news accurately",
+                      "covering professional events"
+                    ],
+                    "correctAnswer": "violating universally recognized human rights"
+                  }
                 ],
                 "correctSentence": "Excessive media intrusion undermines democratic principles through violating universally recognized human rights.",
                 "usableIn": "body-paragraph-1"
@@ -442,8 +869,24 @@
                 "type": "template",
                 "template": "Responsible reporting acknowledges that _____ by _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["privacy boundaries exist", "celebrities want publicity", "all information is public"], "correctAnswer": "privacy boundaries exist"},
-                  {"id": "support7_b2", "options": ["distinguishing professional from personal matters", "publishing everything", "ignoring complaints"], "correctAnswer": "distinguishing professional from personal matters"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "privacy boundaries exist",
+                      "celebrities want publicity",
+                      "all information is public"
+                    ],
+                    "correctAnswer": "privacy boundaries exist"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "distinguishing professional from personal matters",
+                      "publishing everything",
+                      "ignoring complaints"
+                    ],
+                    "correctAnswer": "distinguishing professional from personal matters"
+                  }
                 ],
                 "correctSentence": "Responsible reporting acknowledges that privacy boundaries exist by distinguishing professional from personal matters.",
                 "usableIn": "body-paragraph-2"
@@ -453,9 +896,33 @@
                 "type": "template",
                 "template": "However, _____ creates _____ that _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["aggressive paparazzi behavior", "celebrity interviews", "professional photography"], "correctAnswer": "aggressive paparazzi behavior"},
-                  {"id": "support8_b2", "options": ["dangerous situations", "interesting photos", "media content"], "correctAnswer": "dangerous situations"},
-                  {"id": "support8_b3", "options": ["can endanger lives and violate dignity", "entertain audiences", "generate profits"], "correctAnswer": "can endanger lives and violate dignity"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "aggressive paparazzi behavior",
+                      "celebrity interviews",
+                      "professional photography"
+                    ],
+                    "correctAnswer": "aggressive paparazzi behavior"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "dangerous situations",
+                      "interesting photos",
+                      "media content"
+                    ],
+                    "correctAnswer": "dangerous situations"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "can endanger lives and violate dignity",
+                      "entertain audiences",
+                      "generate profits"
+                    ],
+                    "correctAnswer": "can endanger lives and violate dignity"
+                  }
                 ],
                 "correctSentence": "However, aggressive paparazzi behavior creates dangerous situations that can endanger lives and violate dignity.",
                 "usableIn": "body-paragraph-2"
@@ -465,9 +932,33 @@
                 "type": "template",
                 "template": "_____ may impose _____ on _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Constant media surveillance", "Professional reporting", "Celebrity interviews"], "correctAnswer": "Constant media surveillance"},
-                  {"id": "support9_b2", "options": ["severe psychological stress", "public awareness", "entertainment value"], "correctAnswer": "severe psychological stress"},
-                  {"id": "support9_b3", "options": ["celebrities and their innocent family members", "media organizations", "the general public"], "correctAnswer": "celebrities and their innocent family members"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Constant media surveillance",
+                      "Professional reporting",
+                      "Celebrity interviews"
+                    ],
+                    "correctAnswer": "Constant media surveillance"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "severe psychological stress",
+                      "public awareness",
+                      "entertainment value"
+                    ],
+                    "correctAnswer": "severe psychological stress"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "celebrities and their innocent family members",
+                      "media organizations",
+                      "the general public"
+                    ],
+                    "correctAnswer": "celebrities and their innocent family members"
+                  }
                 ],
                 "correctSentence": "Constant media surveillance may impose severe psychological stress on celebrities and their innocent family members.",
                 "usableIn": "body-paragraph-2"
@@ -477,8 +968,24 @@
                 "type": "template",
                 "template": "In practice, _____ can _____ more effectively.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["ethical media guidelines", "unlimited intrusion", "constant pursuit"], "correctAnswer": "ethical media guidelines"},
-                  {"id": "support10_b2", "options": ["balance public interest with privacy rights", "maximize profits", "satisfy curiosity"], "correctAnswer": "balance public interest with privacy rights"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "ethical media guidelines",
+                      "unlimited intrusion",
+                      "constant pursuit"
+                    ],
+                    "correctAnswer": "ethical media guidelines"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "balance public interest with privacy rights",
+                      "maximize profits",
+                      "satisfy curiosity"
+                    ],
+                    "correctAnswer": "balance public interest with privacy rights"
+                  }
                 ],
                 "correctSentence": "In practice, ethical media guidelines can balance public interest with privacy rights more effectively.",
                 "usableIn": "body-paragraph-2"
@@ -488,8 +995,24 @@
                 "type": "template",
                 "template": "As a result, _____ experience _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["celebrities with privacy protection", "constantly pursued individuals", "media organizations"], "correctAnswer": "celebrities with privacy protection"},
-                  {"id": "support11_b2", "options": ["better mental health and family stability", "more harassment", "reduced income"], "correctAnswer": "better mental health and family stability"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "celebrities with privacy protection",
+                      "constantly pursued individuals",
+                      "media organizations"
+                    ],
+                    "correctAnswer": "celebrities with privacy protection"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "better mental health and family stability",
+                      "more harassment",
+                      "reduced income"
+                    ],
+                    "correctAnswer": "better mental health and family stability"
+                  }
                 ],
                 "correctSentence": "As a result, celebrities with privacy protection experience better mental health and family stability.",
                 "usableIn": "body-paragraph-1"
@@ -499,9 +1022,33 @@
                 "type": "template",
                 "template": "Consequently, _____ tends to be _____ when _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["public discourse quality", "media profit", "celebrity gossip"], "correctAnswer": "public discourse quality"},
-                  {"id": "support12_b2", "options": ["higher", "lower", "unchanged"], "correctAnswer": "higher"},
-                  {"id": "support12_b3", "options": ["media focuses on substantive issues rather than private lives", "tabloids publish more gossip", "paparazzi pursue celebrities"], "correctAnswer": "media focuses on substantive issues rather than private lives"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "public discourse quality",
+                      "media profit",
+                      "celebrity gossip"
+                    ],
+                    "correctAnswer": "public discourse quality"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "higher",
+                      "lower",
+                      "unchanged"
+                    ],
+                    "correctAnswer": "higher"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "media focuses on substantive issues rather than private lives",
+                      "tabloids publish more gossip",
+                      "paparazzi pursue celebrities"
+                    ],
+                    "correctAnswer": "media focuses on substantive issues rather than private lives"
+                  }
                 ],
                 "correctSentence": "Consequently, public discourse quality tends to be higher when media focuses on substantive issues rather than private lives.",
                 "usableIn": "body-paragraph-2"
@@ -518,9 +1065,33 @@
                 "type": "template",
                 "template": "For instance, _____ demonstrates how _____ can _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the tragic death of Princess Diana", "celebrity social media", "professional interviews"], "correctAnswer": "the tragic death of Princess Diana"},
-                  {"id": "example1_b2", "options": ["aggressive paparazzi pursuit", "respectful journalism", "public interest"], "correctAnswer": "aggressive paparazzi pursuit"},
-                  {"id": "example1_b3", "options": ["have fatal consequences", "benefit everyone", "increase awareness"], "correctAnswer": "have fatal consequences"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the tragic death of Princess Diana",
+                      "celebrity social media",
+                      "professional interviews"
+                    ],
+                    "correctAnswer": "the tragic death of Princess Diana"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "aggressive paparazzi pursuit",
+                      "respectful journalism",
+                      "public interest"
+                    ],
+                    "correctAnswer": "aggressive paparazzi pursuit"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "have fatal consequences",
+                      "benefit everyone",
+                      "increase awareness"
+                    ],
+                    "correctAnswer": "have fatal consequences"
+                  }
                 ],
                 "correctSentence": "For instance, the tragic death of Princess Diana demonstrates how aggressive paparazzi pursuit can have fatal consequences.",
                 "usableIn": "body-paragraph-1"
@@ -530,9 +1101,33 @@
                 "type": "template",
                 "template": "For example, _____ often face _____ that _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["celebrity children", "famous actors", "professional athletes"], "correctAnswer": "celebrity children"},
-                  {"id": "example2_b2", "options": ["unwanted media attention", "positive publicity", "career opportunities"], "correctAnswer": "unwanted media attention"},
-                  {"id": "example2_b3", "options": ["severely impacts their development and wellbeing", "helps their education", "improves their lives"], "correctAnswer": "severely impacts their development and wellbeing"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "celebrity children",
+                      "famous actors",
+                      "professional athletes"
+                    ],
+                    "correctAnswer": "celebrity children"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "unwanted media attention",
+                      "positive publicity",
+                      "career opportunities"
+                    ],
+                    "correctAnswer": "unwanted media attention"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "severely impacts their development and wellbeing",
+                      "helps their education",
+                      "improves their lives"
+                    ],
+                    "correctAnswer": "severely impacts their development and wellbeing"
+                  }
                 ],
                 "correctSentence": "For example, celebrity children often face unwanted media attention that severely impacts their development and wellbeing.",
                 "usableIn": "body-paragraph-1"
@@ -542,9 +1137,33 @@
                 "type": "template",
                 "template": "Specifically, _____ who experience _____ frequently report _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["public figures", "ordinary citizens", "media professionals"], "correctAnswer": "public figures"},
-                  {"id": "example3_b2", "options": ["constant privacy violations", "professional coverage", "respectful journalism"], "correctAnswer": "constant privacy violations"},
-                  {"id": "example3_b3", "options": ["anxiety, depression, and relationship difficulties", "improved wellbeing", "career advancement"], "correctAnswer": "anxiety, depression, and relationship difficulties"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "public figures",
+                      "ordinary citizens",
+                      "media professionals"
+                    ],
+                    "correctAnswer": "public figures"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "constant privacy violations",
+                      "professional coverage",
+                      "respectful journalism"
+                    ],
+                    "correctAnswer": "constant privacy violations"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "anxiety, depression, and relationship difficulties",
+                      "improved wellbeing",
+                      "career advancement"
+                    ],
+                    "correctAnswer": "anxiety, depression, and relationship difficulties"
+                  }
                 ],
                 "correctSentence": "Specifically, public figures who experience constant privacy violations frequently report anxiety, depression, and relationship difficulties.",
                 "usableIn": "body-paragraph-1"
@@ -554,8 +1173,24 @@
                 "type": "template",
                 "template": "Research shows that _____ worsens when _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["mental health among celebrities", "media quality", "public knowledge"], "correctAnswer": "mental health among celebrities"},
-                  {"id": "example4_b2", "options": ["subjected to relentless tabloid scrutiny", "receiving positive coverage", "avoiding media entirely"], "correctAnswer": "subjected to relentless tabloid scrutiny"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "mental health among celebrities",
+                      "media quality",
+                      "public knowledge"
+                    ],
+                    "correctAnswer": "mental health among celebrities"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "subjected to relentless tabloid scrutiny",
+                      "receiving positive coverage",
+                      "avoiding media entirely"
+                    ],
+                    "correctAnswer": "subjected to relentless tabloid scrutiny"
+                  }
                 ],
                 "correctSentence": "Research shows that mental health among celebrities worsens when subjected to relentless tabloid scrutiny.",
                 "usableIn": "body-paragraph-1"
@@ -565,8 +1200,24 @@
                 "type": "template",
                 "template": "Studies indicate that _____ reported _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["celebrities with privacy protection", "constantly pursued individuals", "media organizations"], "correctAnswer": "celebrities with privacy protection"},
-                  {"id": "example5_b2", "options": ["significantly better life satisfaction and family relationships", "lower income", "reduced fame"], "correctAnswer": "significantly better life satisfaction and family relationships"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "celebrities with privacy protection",
+                      "constantly pursued individuals",
+                      "media organizations"
+                    ],
+                    "correctAnswer": "celebrities with privacy protection"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "significantly better life satisfaction and family relationships",
+                      "lower income",
+                      "reduced fame"
+                    ],
+                    "correctAnswer": "significantly better life satisfaction and family relationships"
+                  }
                 ],
                 "correctSentence": "Studies indicate that celebrities with privacy protection reported significantly better life satisfaction and family relationships.",
                 "usableIn": "body-paragraph-1"
@@ -576,9 +1227,33 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ demonstrate _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["tragic cases", "celebrity interviews", "professional events"], "correctAnswer": "tragic cases"},
-                  {"id": "example6_b2", "options": ["Princess Diana's death and numerous celebrity suicides", "award ceremonies", "film premieres"], "correctAnswer": "Princess Diana's death and numerous celebrity suicides"},
-                  {"id": "example6_b3", "options": ["the severe human cost of unrestricted media intrusion", "successful careers", "public interest"], "correctAnswer": "the severe human cost of unrestricted media intrusion"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "tragic cases",
+                      "celebrity interviews",
+                      "professional events"
+                    ],
+                    "correctAnswer": "tragic cases"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "Princess Diana's death and numerous celebrity suicides",
+                      "award ceremonies",
+                      "film premieres"
+                    ],
+                    "correctAnswer": "Princess Diana's death and numerous celebrity suicides"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "the severe human cost of unrestricted media intrusion",
+                      "successful careers",
+                      "public interest"
+                    ],
+                    "correctAnswer": "the severe human cost of unrestricted media intrusion"
+                  }
                 ],
                 "correctSentence": "In particular, tragic cases such as Princess Diana's death and numerous celebrity suicides demonstrate the severe human cost of unrestricted media intrusion.",
                 "usableIn": "body-paragraph-1"
@@ -588,9 +1263,33 @@
                 "type": "template",
                 "template": "Many _____, including _____, have reported that _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["celebrities", "journalists", "photographers"], "correctAnswer": "celebrities"},
-                  {"id": "example7_b2", "options": ["actors and musicians", "editors and reporters", "studio executives"], "correctAnswer": "actors and musicians"},
-                  {"id": "example7_b3", "options": ["aggressive paparazzi tactics endangered their children's safety", "media coverage helped their careers", "publicity increased income"], "correctAnswer": "aggressive paparazzi tactics endangered their children's safety"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "celebrities",
+                      "journalists",
+                      "photographers"
+                    ],
+                    "correctAnswer": "celebrities"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "actors and musicians",
+                      "editors and reporters",
+                      "studio executives"
+                    ],
+                    "correctAnswer": "actors and musicians"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "aggressive paparazzi tactics endangered their children's safety",
+                      "media coverage helped their careers",
+                      "publicity increased income"
+                    ],
+                    "correctAnswer": "aggressive paparazzi tactics endangered their children's safety"
+                  }
                 ],
                 "correctSentence": "Many celebrities, including actors and musicians, have reported that aggressive paparazzi tactics endangered their children's safety.",
                 "usableIn": "body-paragraph-2"
@@ -600,9 +1299,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ resulted in _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["tabloid culture in Britain", "professional journalism", "celebrity interviews"], "correctAnswer": "tabloid culture in Britain"},
-                  {"id": "example8_b2", "options": ["phone hacking scandals", "accurate reporting", "public awareness"], "correctAnswer": "phone hacking scandals"},
-                  {"id": "example8_b3", "options": ["criminal prosecutions and public outrage", "improved journalism", "higher quality news"], "correctAnswer": "criminal prosecutions and public outrage"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "tabloid culture in Britain",
+                      "professional journalism",
+                      "celebrity interviews"
+                    ],
+                    "correctAnswer": "tabloid culture in Britain"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "phone hacking scandals",
+                      "accurate reporting",
+                      "public awareness"
+                    ],
+                    "correctAnswer": "phone hacking scandals"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "criminal prosecutions and public outrage",
+                      "improved journalism",
+                      "higher quality news"
+                    ],
+                    "correctAnswer": "criminal prosecutions and public outrage"
+                  }
                 ],
                 "correctSentence": "Take tabloid culture in Britain as an example: phone hacking scandals resulted in criminal prosecutions and public outrage.",
                 "usableIn": "body-paragraph-2"
@@ -612,8 +1335,24 @@
                 "type": "template",
                 "template": "According to _____, celebrities who _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["mental health professionals", "tabloid journalists", "publicity agents"], "correctAnswer": "mental health professionals"},
-                  {"id": "example9_b2", "options": ["experience constant privacy violations suffer higher rates of depression and anxiety", "receive positive coverage feel happy", "avoid media have no problems"], "correctAnswer": "experience constant privacy violations suffer higher rates of depression and anxiety"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "mental health professionals",
+                      "tabloid journalists",
+                      "publicity agents"
+                    ],
+                    "correctAnswer": "mental health professionals"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "experience constant privacy violations suffer higher rates of depression and anxiety",
+                      "receive positive coverage feel happy",
+                      "avoid media have no problems"
+                    ],
+                    "correctAnswer": "experience constant privacy violations suffer higher rates of depression and anxiety"
+                  }
                 ],
                 "correctSentence": "According to mental health professionals, celebrities who experience constant privacy violations suffer higher rates of depression and anxiety.",
                 "usableIn": "body-paragraph-1"
@@ -623,9 +1362,33 @@
                 "type": "template",
                 "template": "Evidence from _____ suggests that _____ is more effective when _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["countries with strong privacy laws", "tabloid newspapers", "social media platforms"], "correctAnswer": "countries with strong privacy laws"},
-                  {"id": "example10_b2", "options": ["media coverage", "paparazzi pursuit", "celebrity gossip"], "correctAnswer": "media coverage"},
-                  {"id": "example10_b3", "options": ["balanced with respect for personal boundaries", "unlimited and unrestricted", "focused solely on private matters"], "correctAnswer": "balanced with respect for personal boundaries"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "countries with strong privacy laws",
+                      "tabloid newspapers",
+                      "social media platforms"
+                    ],
+                    "correctAnswer": "countries with strong privacy laws"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "media coverage",
+                      "paparazzi pursuit",
+                      "celebrity gossip"
+                    ],
+                    "correctAnswer": "media coverage"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "balanced with respect for personal boundaries",
+                      "unlimited and unrestricted",
+                      "focused solely on private matters"
+                    ],
+                    "correctAnswer": "balanced with respect for personal boundaries"
+                  }
                 ],
                 "correctSentence": "Evidence from countries with strong privacy laws suggests that media coverage is more effective when balanced with respect for personal boundaries.",
                 "usableIn": "body-paragraph-2"
@@ -642,8 +1405,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ involves _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["choosing public careers", "earning income", "living privately"], "correctAnswer": "choosing public careers"},
-                  {"id": "counter1_b2", "options": ["accepting some level of public scrutiny", "complete loss of privacy", "unlimited intrusion"], "correctAnswer": "accepting some level of public scrutiny"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "choosing public careers",
+                      "earning income",
+                      "living privately"
+                    ],
+                    "correctAnswer": "choosing public careers"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "accepting some level of public scrutiny",
+                      "complete loss of privacy",
+                      "unlimited intrusion"
+                    ],
+                    "correctAnswer": "accepting some level of public scrutiny"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that choosing public careers involves accepting some level of public scrutiny.",
                 "usableIn": "body-paragraph-2"
@@ -653,8 +1432,24 @@
                 "type": "template",
                 "template": "Despite these concerns, _____ does not justify _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["public interest in celebrities", "media freedom", "journalistic rights"], "correctAnswer": "public interest in celebrities"},
-                  {"id": "counter2_b2", "options": ["invasion of their families' private lives", "professional reporting", "accurate journalism"], "correctAnswer": "invasion of their families' private lives"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "public interest in celebrities",
+                      "media freedom",
+                      "journalistic rights"
+                    ],
+                    "correctAnswer": "public interest in celebrities"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "invasion of their families' private lives",
+                      "professional reporting",
+                      "accurate journalism"
+                    ],
+                    "correctAnswer": "invasion of their families' private lives"
+                  }
                 ],
                 "correctSentence": "Despite these concerns, public interest in celebrities does not justify invasion of their families' private lives.",
                 "usableIn": "body-paragraph-2"
@@ -664,9 +1459,33 @@
                 "type": "template",
                 "template": "Nevertheless, there is _____ between _____ and _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["a crucial difference", "no distinction", "complete overlap"], "correctAnswer": "a crucial difference"},
-                  {"id": "counter3_b2", "options": ["legitimate news coverage", "celebrity gossip", "entertainment reporting"], "correctAnswer": "legitimate news coverage"},
-                  {"id": "counter3_b3", "options": ["invasive personal surveillance", "professional journalism", "public relations"], "correctAnswer": "invasive personal surveillance"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "a crucial difference",
+                      "no distinction",
+                      "complete overlap"
+                    ],
+                    "correctAnswer": "a crucial difference"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "legitimate news coverage",
+                      "celebrity gossip",
+                      "entertainment reporting"
+                    ],
+                    "correctAnswer": "legitimate news coverage"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "invasive personal surveillance",
+                      "professional journalism",
+                      "public relations"
+                    ],
+                    "correctAnswer": "invasive personal surveillance"
+                  }
                 ],
                 "correctSentence": "Nevertheless, there is a crucial difference between legitimate news coverage and invasive personal surveillance.",
                 "usableIn": "body-paragraph-2"
@@ -676,9 +1495,33 @@
                 "type": "template",
                 "template": "Although _____ benefits from _____, this does not _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["celebrity status", "media attention", "public recognition"], "correctAnswer": "celebrity status"},
-                  {"id": "counter4_b2", "options": ["public visibility", "privacy violations", "constant surveillance"], "correctAnswer": "public visibility"},
-                  {"id": "counter4_b3", "options": ["justify exploiting their personal tragedies", "require professional reporting", "involve ethical journalism"], "correctAnswer": "justify exploiting their personal tragedies"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "celebrity status",
+                      "media attention",
+                      "public recognition"
+                    ],
+                    "correctAnswer": "celebrity status"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "public visibility",
+                      "privacy violations",
+                      "constant surveillance"
+                    ],
+                    "correctAnswer": "public visibility"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "justify exploiting their personal tragedies",
+                      "require professional reporting",
+                      "involve ethical journalism"
+                    ],
+                    "correctAnswer": "justify exploiting their personal tragedies"
+                  }
                 ],
                 "correctSentence": "Although celebrity status benefits from public visibility, this does not justify exploiting their personal tragedies.",
                 "usableIn": "body-paragraph-2"
@@ -688,9 +1531,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ may _____, but _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["celebrities", "journalists", "photographers"], "correctAnswer": "celebrities"},
-                  {"id": "counter5_b2", "options": ["use media for publicity", "avoid all coverage", "control everything"], "correctAnswer": "use media for publicity"},
-                  {"id": "counter5_b3", "options": ["this does not grant unlimited access to their private lives", "they deserve constant intrusion", "privacy becomes irrelevant"], "correctAnswer": "this does not grant unlimited access to their private lives"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "celebrities",
+                      "journalists",
+                      "photographers"
+                    ],
+                    "correctAnswer": "celebrities"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "use media for publicity",
+                      "avoid all coverage",
+                      "control everything"
+                    ],
+                    "correctAnswer": "use media for publicity"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "this does not grant unlimited access to their private lives",
+                      "they deserve constant intrusion",
+                      "privacy becomes irrelevant"
+                    ],
+                    "correctAnswer": "this does not grant unlimited access to their private lives"
+                  }
                 ],
                 "correctSentence": "Critics point out that celebrities may use media for publicity, but this does not grant unlimited access to their private lives.",
                 "usableIn": "body-paragraph-2"
@@ -707,8 +1574,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I firmly believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["public figures accept some scrutiny", "celebrities seek publicity", "media needs content"], "correctAnswer": "public figures accept some scrutiny"},
-                  {"id": "conclusion1_b2", "options": ["privacy remains a fundamental right that must be protected", "unlimited intrusion should be accepted", "all privacy should be eliminated"], "correctAnswer": "privacy remains a fundamental right that must be protected"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "public figures accept some scrutiny",
+                      "celebrities seek publicity",
+                      "media needs content"
+                    ],
+                    "correctAnswer": "public figures accept some scrutiny"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "privacy remains a fundamental right that must be protected",
+                      "unlimited intrusion should be accepted",
+                      "all privacy should be eliminated"
+                    ],
+                    "correctAnswer": "privacy remains a fundamental right that must be protected"
+                  }
                 ],
                 "correctSentence": "In conclusion, while public figures accept some scrutiny, I firmly believe privacy remains a fundamental right that must be protected.",
                 "usableIn": "conclusion"
@@ -718,10 +1601,42 @@
                 "type": "template",
                 "template": "Overall, _____ should _____, whereas _____ must _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["personal boundaries", "media profits", "public curiosity"], "correctAnswer": "personal boundaries"},
-                  {"id": "conclusion2_b2", "options": ["be respected regardless of fame", "not exist for celebrities", "be completely ignored"], "correctAnswer": "be respected regardless of fame"},
-                  {"id": "conclusion2_b3", "options": ["aggressive intrusion", "professional reporting", "celebrity interviews"], "correctAnswer": "aggressive intrusion"},
-                  {"id": "conclusion2_b4", "options": ["be recognized as a violation of human rights", "continue unrestricted", "be encouraged"], "correctAnswer": "be recognized as a violation of human rights"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "personal boundaries",
+                      "media profits",
+                      "public curiosity"
+                    ],
+                    "correctAnswer": "personal boundaries"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "be respected regardless of fame",
+                      "not exist for celebrities",
+                      "be completely ignored"
+                    ],
+                    "correctAnswer": "be respected regardless of fame"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "aggressive intrusion",
+                      "professional reporting",
+                      "celebrity interviews"
+                    ],
+                    "correctAnswer": "aggressive intrusion"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "be recognized as a violation of human rights",
+                      "continue unrestricted",
+                      "be encouraged"
+                    ],
+                    "correctAnswer": "be recognized as a violation of human rights"
+                  }
                 ],
                 "correctSentence": "Overall, personal boundaries should be respected regardless of fame, whereas aggressive intrusion must be recognized as a violation of human rights.",
                 "usableIn": "conclusion"
@@ -731,9 +1646,33 @@
                 "type": "template",
                 "template": "To summarize, _____ does not _____ and _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["choosing a public profession", "earning high income", "appearing on screen"], "correctAnswer": "choosing a public profession"},
-                  {"id": "conclusion3_b2", "options": ["eliminate the right to privacy", "require talent", "guarantee success"], "correctAnswer": "eliminate the right to privacy"},
-                  {"id": "conclusion3_b3", "options": ["society must establish ethical boundaries for media coverage", "tabloids should publish everything", "privacy should be abandoned"], "correctAnswer": "society must establish ethical boundaries for media coverage"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "choosing a public profession",
+                      "earning high income",
+                      "appearing on screen"
+                    ],
+                    "correctAnswer": "choosing a public profession"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "eliminate the right to privacy",
+                      "require talent",
+                      "guarantee success"
+                    ],
+                    "correctAnswer": "eliminate the right to privacy"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "society must establish ethical boundaries for media coverage",
+                      "tabloids should publish everything",
+                      "privacy should be abandoned"
+                    ],
+                    "correctAnswer": "society must establish ethical boundaries for media coverage"
+                  }
                 ],
                 "correctSentence": "To summarize, choosing a public profession does not eliminate the right to privacy and society must establish ethical boundaries for media coverage.",
                 "usableIn": "conclusion"
@@ -743,9 +1682,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ depends on _____ while _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["protecting democratic values", "maximizing profits", "satisfying curiosity"], "correctAnswer": "protecting democratic values"},
-                  {"id": "conclusion4_b2", "options": ["respecting universal privacy rights", "ignoring all boundaries", "pursuing celebrities"], "correctAnswer": "respecting universal privacy rights"},
-                  {"id": "conclusion4_b3", "options": ["balancing legitimate public interest with human dignity", "publishing all personal information", "eliminating media coverage"], "correctAnswer": "balancing legitimate public interest with human dignity"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "protecting democratic values",
+                      "maximizing profits",
+                      "satisfying curiosity"
+                    ],
+                    "correctAnswer": "protecting democratic values"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "respecting universal privacy rights",
+                      "ignoring all boundaries",
+                      "pursuing celebrities"
+                    ],
+                    "correctAnswer": "respecting universal privacy rights"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "balancing legitimate public interest with human dignity",
+                      "publishing all personal information",
+                      "eliminating media coverage"
+                    ],
+                    "correctAnswer": "balancing legitimate public interest with human dignity"
+                  }
                 ],
                 "correctSentence": "Ultimately, protecting democratic values depends on respecting universal privacy rights while balancing legitimate public interest with human dignity.",
                 "usableIn": "conclusion"
@@ -755,9 +1718,33 @@
                 "type": "template",
                 "template": "In my view, _____ represents _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["establishing clear privacy protections", "unlimited media access", "constant surveillance"], "correctAnswer": "establishing clear privacy protections"},
-                  {"id": "conclusion5_b2", "options": ["the only ethical approach", "unnecessary restriction", "outdated thinking"], "correctAnswer": "the only ethical approach"},
-                  {"id": "conclusion5_b3", "options": ["it upholds fundamental human rights for all individuals", "it limits press freedom", "it reduces entertainment"], "correctAnswer": "it upholds fundamental human rights for all individuals"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "establishing clear privacy protections",
+                      "unlimited media access",
+                      "constant surveillance"
+                    ],
+                    "correctAnswer": "establishing clear privacy protections"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the only ethical approach",
+                      "unnecessary restriction",
+                      "outdated thinking"
+                    ],
+                    "correctAnswer": "the only ethical approach"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "it upholds fundamental human rights for all individuals",
+                      "it limits press freedom",
+                      "it reduces entertainment"
+                    ],
+                    "correctAnswer": "it upholds fundamental human rights for all individuals"
+                  }
                 ],
                 "correctSentence": "In my view, establishing clear privacy protections represents the only ethical approach because it upholds fundamental human rights for all individuals.",
                 "usableIn": "conclusion"
@@ -816,13 +1803,48 @@
           }
         ],
         "usefulTransitions": {
-          "disagreeing": ["I strongly disagree that", "This view overlooks", "However, this perspective ignores", "This argument fails to consider"],
-          "partial_agreement": ["While this has some validity", "Admittedly", "To some extent", "Although there is merit to"],
-          "agreeing": ["I strongly agree that", "This viewpoint is justified because", "Indeed", "It is undeniable that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "A notable case is", "As evidenced by"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "disagreeing": [
+            "I strongly disagree that",
+            "This view overlooks",
+            "However, this perspective ignores",
+            "This argument fails to consider"
+          ],
+          "partial_agreement": [
+            "While this has some validity",
+            "Admittedly",
+            "To some extent",
+            "Although there is merit to"
+          ],
+          "agreeing": [
+            "I strongly agree that",
+            "This viewpoint is justified because",
+            "Indeed",
+            "It is undeniable that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "A notable case is",
+            "As evidenced by"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },
@@ -1010,7 +2032,7 @@
   ],
   "modelEssay": {
     "text": "It is often claimed that celebrities should accept media intrusion into their private lives as an inevitable consequence of fame. I strongly disagree with this perspective because privacy is a fundamental human right that should not be forfeited based on one's profession or public recognition.\n\nThe primary reason celebrities deserve privacy protection is that unrestricted media intrusion causes severe psychological harm. Constant surveillance, harassment by paparazzi, and violation of personal boundaries create anxiety, depression, and chronic stress for famous individuals and their families. For instance, Princess Diana's tragic death in 1997 resulted directly from aggressive paparazzi pursuit while fleeing photographers in Paris, demonstrating how media intrusion can have fatal consequences. Similarly, numerous celebrities have reported that relentless tabloid scrutiny contributed to mental health crises and damaged family relationships. As a result, what society dismisses as harmless curiosity actually inflicts serious human suffering.\n\nFurthermore, accepting media intrusion as inevitable undermines fundamental democratic principles. Choosing a public career does not eliminate one's right to personal and family privacy, which international law recognizes as essential to human dignity. There exists a crucial distinction between legitimate public interest in professional activities and exploitative coverage of private matters. For example, celebrity children who never chose fame frequently face unwanted media attention that severely impacts their psychological development and safety. Tabloid culture in Britain led to phone hacking scandals that resulted in criminal prosecutions, revealing how normalized intrusion crosses ethical and legal boundaries. Therefore, society must distinguish between responsible journalism and privacy violation.\n\nIn conclusion, I firmly disagree that celebrities should accept unlimited media intrusion. While public figures naturally face greater scrutiny regarding their professional work, their fundamental privacy rights deserve protection through ethical media guidelines, legal safeguards, and public recognition that fame does not justify exploitation.",
-    "wordCount": 279,
+    "wordCount": 291,
     "structure": {
       "introduction": "It is often claimed that celebrities should accept media intrusion into their private lives as an inevitable consequence of fame. I strongly disagree with this perspective because privacy is a fundamental human right that should not be forfeited based on one's profession or public recognition.",
       "body1": "The primary reason celebrities deserve privacy protection is that unrestricted media intrusion causes severe psychological harm. Constant surveillance, harassment by paparazzi, and violation of personal boundaries create anxiety, depression, and chronic stress for famous individuals and their families. For instance, Princess Diana's tragic death in 1997 resulted directly from aggressive paparazzi pursuit while fleeing photographers in Paris, demonstrating how media intrusion can have fatal consequences. Similarly, numerous celebrities have reported that relentless tabloid scrutiny contributed to mental health crises and damaged family relationships. As a result, what society dismisses as harmless curiosity actually inflicts serious human suffering.",

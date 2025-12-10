@@ -79,105 +79,153 @@
             "word": "filial responsibility",
             "pronunciation": "/ˈfɪliəl rɪˌspɒnsəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The duty of children to care for their parents",
+            "definition": "The duty of children to care for their parents.",
             "example": "In many cultures, filial responsibility is considered a moral obligation.",
-            "synonyms": ["family duty", "parental obligation"]
+            "synonyms": [
+              "family duty",
+              "parental obligation"
+            ]
           },
           {
             "word": "elderly care",
             "pronunciation": "/ˈeldəli keə/",
             "partOfSpeech": "noun",
-            "definition": "Services and support for aging individuals",
+            "definition": "Services and support for aging individuals.",
             "example": "Elderly care has become a major concern in aging societies.",
-            "synonyms": ["senior care", "geriatric care"]
+            "synonyms": [
+              "senior care",
+              "geriatric care"
+            ]
           },
           {
             "word": "companionship",
             "pronunciation": "/kəmˈpænjənʃɪp/",
             "partOfSpeech": "noun",
-            "definition": "The state of having a companion or friend",
+            "definition": "The state of having a companion or friend.",
             "example": "Living with family provides elderly parents with daily companionship.",
-            "synonyms": ["fellowship", "company"]
+            "synonyms": [
+              "fellowship",
+              "company"
+            ]
           },
           {
             "word": "professional care",
             "pronunciation": "/prəˈfeʃənəl keə/",
             "partOfSpeech": "noun",
-            "definition": "Healthcare provided by trained specialists",
+            "definition": "Healthcare provided by trained specialists.",
             "example": "Nursing homes offer round-the-clock professional care.",
-            "synonyms": ["specialized care", "medical care"]
+            "synonyms": [
+              "specialized care",
+              "medical care"
+            ]
           },
           {
             "word": "autonomy",
             "pronunciation": "/ɔːˈtɒnəmi/",
             "partOfSpeech": "noun",
-            "definition": "Independence and self-governance",
+            "definition": "Independence and self-governance.",
             "example": "Some elderly prefer nursing homes to maintain their autonomy.",
-            "synonyms": ["independence", "self-determination"]
+            "synonyms": [
+              "independence",
+              "self-determination"
+            ]
           },
           {
             "word": "burden",
             "pronunciation": "/ˈbɜːdən/",
             "partOfSpeech": "noun",
-            "definition": "A heavy load or responsibility",
+            "definition": "A heavy load or responsibility.",
             "example": "Caring for elderly parents can become a burden for working adults.",
-            "synonyms": ["responsibility", "strain"]
+            "synonyms": [
+              "responsibility",
+              "strain"
+            ]
           },
           {
             "word": "intergenerational",
             "pronunciation": "/ˌɪntəˌdʒenəˈreɪʃənəl/",
             "partOfSpeech": "adjective",
-            "definition": "Relating to different generations",
+            "definition": "Relating to different generations.",
             "example": "Intergenerational living benefits both the elderly and grandchildren.",
-            "synonyms": ["multigenerational", "cross-generational"]
+            "synonyms": [
+              "multigenerational",
+              "cross-generational"
+            ]
           },
           {
             "word": "deteriorate",
             "pronunciation": "/dɪˈtɪəriəreɪt/",
             "partOfSpeech": "verb",
-            "definition": "To become progressively worse",
+            "definition": "To become progressively worse.",
             "example": "Health may deteriorate without proper medical attention.",
-            "synonyms": ["decline", "worsen"]
+            "synonyms": [
+              "decline",
+              "worsen"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "aging population",
-            "definition": "Society with increasing proportion of elderly people",
+            "definition": "Society with increasing proportion of elderly people.",
             "example": "Many countries face challenges from an aging population."
           },
           {
             "phrase": "emotional support",
-            "definition": "Comfort and understanding from loved ones",
+            "definition": "Comfort and understanding from loved ones.",
             "example": "Family provides irreplaceable emotional support to elderly parents."
           },
           {
             "phrase": "quality of life",
-            "definition": "Standard of health, comfort and happiness",
+            "definition": "Standard of health, comfort and happiness.",
             "example": "The goal is to improve the quality of life for the elderly."
           },
           {
             "phrase": "round-the-clock care",
-            "definition": "24-hour continuous care and attention",
+            "definition": "24-hour continuous care and attention.",
             "example": "Nursing homes provide round-the-clock care for residents."
           },
           {
             "phrase": "family bonds",
-            "definition": "Emotional connections between family members",
+            "definition": "Emotional connections between family members.",
             "example": "Living together strengthens family bonds across generations."
           },
           {
             "phrase": "specialized facilities",
-            "definition": "Buildings equipped for specific purposes",
+            "definition": "Buildings equipped for specific purposes.",
             "example": "Nursing homes have specialized facilities for elderly needs."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +248,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["elderly parents should live with their children", "nursing homes are outdated", "family care is expensive"], "correctAnswer": "elderly parents should live with their children"},
-                  {"id": "thesis1_b2", "options": ["professional nursing homes provide better care", "families should always stay together", "elderly should live alone"], "correctAnswer": "professional nursing homes provide better care"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "elderly parents should live with their children",
+                      "nursing homes are outdated",
+                      "family care is expensive"
+                    ],
+                    "correctAnswer": "elderly parents should live with their children"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "professional nursing homes provide better care",
+                      "families should always stay together",
+                      "elderly should live alone"
+                    ],
+                    "correctAnswer": "professional nursing homes provide better care"
+                  }
                 ],
                 "correctSentence": "While some believe elderly parents should live with their children, others argue that professional nursing homes provide better care.",
                 "usableIn": "introduction"
@@ -211,8 +275,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the best living arrangement", "nursing home quality", "family size"], "correctAnswer": "the best living arrangement"},
-                  {"id": "thesis2_b2", "options": ["the elderly person's health needs and family circumstances", "government policy", "housing prices"], "correctAnswer": "the elderly person's health needs and family circumstances"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the best living arrangement",
+                      "nursing home quality",
+                      "family size"
+                    ],
+                    "correctAnswer": "the best living arrangement"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the elderly person's health needs and family circumstances",
+                      "government policy",
+                      "housing prices"
+                    ],
+                    "correctAnswer": "the elderly person's health needs and family circumstances"
+                  }
                 ],
                 "correctSentence": "In my opinion, the best living arrangement depends on the elderly person's health needs and family circumstances.",
                 "usableIn": "introduction"
@@ -229,8 +309,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ offers _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["living with adult children", "nursing home care", "living alone"], "correctAnswer": "living with adult children"},
-                  {"id": "topic1_b2", "options": ["emotional comfort and family companionship", "medical equipment", "more privacy"], "correctAnswer": "emotional comfort and family companionship"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "living with adult children",
+                      "nursing home care",
+                      "living alone"
+                    ],
+                    "correctAnswer": "living with adult children"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "emotional comfort and family companionship",
+                      "medical equipment",
+                      "more privacy"
+                    ],
+                    "correctAnswer": "emotional comfort and family companionship"
+                  }
                 ],
                 "correctSentence": "On the one hand, living with adult children offers emotional comfort and family companionship.",
                 "usableIn": "body-paragraph-1"
@@ -240,8 +336,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ provides _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["nursing homes", "family care", "hospitals"], "correctAnswer": "nursing homes"},
-                  {"id": "topic2_b2", "options": ["professional medical care and specialized facilities", "family bonding", "cheaper costs"], "correctAnswer": "professional medical care and specialized facilities"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "nursing homes",
+                      "family care",
+                      "hospitals"
+                    ],
+                    "correctAnswer": "nursing homes"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "professional medical care and specialized facilities",
+                      "family bonding",
+                      "cheaper costs"
+                    ],
+                    "correctAnswer": "professional medical care and specialized facilities"
+                  }
                 ],
                 "correctSentence": "On the other hand, nursing homes provide professional medical care and specialized facilities.",
                 "usableIn": "body-paragraph-2"
@@ -258,8 +370,24 @@
                 "type": "template",
                 "template": "This is because _____ enables elderly parents to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["living with family", "nursing care", "hospital stays"], "correctAnswer": "living with family"},
-                  {"id": "support1_b2", "options": ["maintain close bonds and feel emotionally supported", "access medical equipment", "have more privacy"], "correctAnswer": "maintain close bonds and feel emotionally supported"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "living with family",
+                      "nursing care",
+                      "hospital stays"
+                    ],
+                    "correctAnswer": "living with family"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "maintain close bonds and feel emotionally supported",
+                      "access medical equipment",
+                      "have more privacy"
+                    ],
+                    "correctAnswer": "maintain close bonds and feel emotionally supported"
+                  }
                 ],
                 "correctSentence": "This is because living with family enables elderly parents to maintain close bonds and feel emotionally supported.",
                 "usableIn": "body-paragraph-1"
@@ -269,8 +397,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["professional nursing care", "family visits", "home cooking"], "correctAnswer": "professional nursing care"},
-                  {"id": "support2_b2", "options": ["better health monitoring and immediate medical attention", "stronger family bonds", "lower costs"], "correctAnswer": "better health monitoring and immediate medical attention"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "professional nursing care",
+                      "family visits",
+                      "home cooking"
+                    ],
+                    "correctAnswer": "professional nursing care"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "better health monitoring and immediate medical attention",
+                      "stronger family bonds",
+                      "lower costs"
+                    ],
+                    "correctAnswer": "better health monitoring and immediate medical attention"
+                  }
                 ],
                 "correctSentence": "The main reason is that professional nursing care leads to better health monitoring and immediate medical attention.",
                 "usableIn": "body-paragraph-2"
@@ -287,9 +431,33 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["grandchildren", "nurses", "doctors"], "correctAnswer": "grandchildren"},
-                  {"id": "example1_b2", "options": ["bring joy and purpose to elderly lives", "provide medical care", "manage finances"], "correctAnswer": "bring joy and purpose to elderly lives"},
-                  {"id": "example1_b3", "options": ["learning valuable life lessons from their grandparents", "studying medicine", "working remotely"], "correctAnswer": "learning valuable life lessons from their grandparents"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "grandchildren",
+                      "nurses",
+                      "doctors"
+                    ],
+                    "correctAnswer": "grandchildren"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "bring joy and purpose to elderly lives",
+                      "provide medical care",
+                      "manage finances"
+                    ],
+                    "correctAnswer": "bring joy and purpose to elderly lives"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "learning valuable life lessons from their grandparents",
+                      "studying medicine",
+                      "working remotely"
+                    ],
+                    "correctAnswer": "learning valuable life lessons from their grandparents"
+                  }
                 ],
                 "correctSentence": "For instance, grandchildren can bring joy and purpose to elderly lives while learning valuable life lessons from their grandparents.",
                 "usableIn": "body-paragraph-1"
@@ -299,9 +467,33 @@
                 "type": "template",
                 "template": "For example, _____ often have _____ that _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["nursing homes", "families", "hospitals"], "correctAnswer": "nursing homes"},
-                  {"id": "example2_b2", "options": ["trained nurses and medical equipment", "large kitchens", "entertainment systems"], "correctAnswer": "trained nurses and medical equipment"},
-                  {"id": "example2_b3", "options": ["can respond to health emergencies immediately", "cost a lot of money", "require maintenance"], "correctAnswer": "can respond to health emergencies immediately"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "nursing homes",
+                      "families",
+                      "hospitals"
+                    ],
+                    "correctAnswer": "nursing homes"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "trained nurses and medical equipment",
+                      "large kitchens",
+                      "entertainment systems"
+                    ],
+                    "correctAnswer": "trained nurses and medical equipment"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "can respond to health emergencies immediately",
+                      "cost a lot of money",
+                      "require maintenance"
+                    ],
+                    "correctAnswer": "can respond to health emergencies immediately"
+                  }
                 ],
                 "correctSentence": "For example, nursing homes often have trained nurses and medical equipment that can respond to health emergencies immediately.",
                 "usableIn": "body-paragraph-2"
@@ -318,8 +510,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["both options have distinct advantages", "family care is perfect", "nursing homes are unnecessary"], "correctAnswer": "both options have distinct advantages"},
-                  {"id": "conclusion1_b2", "options": ["the choice depends on individual health needs and family capacity", "everyone should choose family care", "nursing homes are always better"], "correctAnswer": "the choice depends on individual health needs and family capacity"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "both options have distinct advantages",
+                      "family care is perfect",
+                      "nursing homes are unnecessary"
+                    ],
+                    "correctAnswer": "both options have distinct advantages"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the choice depends on individual health needs and family capacity",
+                      "everyone should choose family care",
+                      "nursing homes are always better"
+                    ],
+                    "correctAnswer": "the choice depends on individual health needs and family capacity"
+                  }
                 ],
                 "correctSentence": "In conclusion, while both options have distinct advantages, I believe the choice depends on individual health needs and family capacity.",
                 "usableIn": "conclusion"
@@ -348,12 +556,40 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Supporters of family care argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Advocates of nursing homes contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Supporters of family care argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Advocates of nursing homes contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ]
         }
       }
     },

@@ -79,105 +79,151 @@
             "word": "infrastructure",
             "pronunciation": "/ˈɪnfrəstrʌktʃər/",
             "partOfSpeech": "noun",
-            "definition": "Basic physical systems and facilities",
+            "definition": "Basic physical systems and facilities.",
             "example": "Governments must decide how to allocate infrastructure spending effectively.",
-            "synonyms": ["facilities", "systems"]
+            "synonyms": [
+              "facilities",
+              "systems"
+            ]
           },
           {
             "word": "congestion",
             "pronunciation": "/kənˈdʒestʃən/",
             "partOfSpeech": "noun",
-            "definition": "Excessive crowding or overcrowding",
+            "definition": "Excessive crowding or overcrowding.",
             "example": "Public transport investment can significantly reduce traffic congestion.",
-            "synonyms": ["crowding", "gridlock"]
+            "synonyms": [
+              "crowding",
+              "gridlock"
+            ]
           },
           {
             "word": "emissions",
             "pronunciation": "/ɪˈmɪʃənz/",
             "partOfSpeech": "noun",
-            "definition": "Gases released into the atmosphere",
+            "definition": "Gases released into the atmosphere.",
             "example": "Expanding public transport helps reduce carbon emissions from vehicles.",
-            "synonyms": ["discharges", "pollutants"]
+            "synonyms": [
+              "discharges",
+              "pollutants"
+            ]
           },
           {
             "word": "accessibility",
             "pronunciation": "/əkˌsesəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being easily reached or accessed",
+            "definition": "The quality of being easily reached or accessed.",
             "example": "Good road networks improve accessibility to remote rural areas.",
-            "synonyms": ["availability", "reachability"]
+            "synonyms": [
+              "availability",
+              "reachability"
+            ]
           },
           {
             "word": "sustainable",
             "pronunciation": "/səˈsteɪnəbəl/",
             "partOfSpeech": "adjective",
-            "definition": "Able to be maintained without depleting resources",
+            "definition": "Able to be maintained without depleting resources.",
             "example": "Public transport systems offer a more sustainable transportation solution.",
-            "synonyms": ["viable", "maintainable"]
+            "synonyms": [
+              "viable",
+              "maintainable"
+            ]
           },
           {
             "word": "commerce",
             "pronunciation": "/ˈkɒmɜːs/",
             "partOfSpeech": "noun",
-            "definition": "Trading and business activities",
-            "example": "Well-maintained roads facilitate commerce and economic growth.",
-            "synonyms": ["trade", "business"]
+            "definition": "Trading and business activities.",
+            "example": "Well-maintained roads support commerce and economic growth.",
+            "synonyms": [
+              "trade",
+              "business"
+            ]
           },
           {
             "word": "allocate",
             "pronunciation": "/ˈæləkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To distribute resources for a particular purpose",
+            "definition": "To distribute resources for a particular purpose.",
             "example": "Governments must allocate limited budgets wisely between competing priorities.",
-            "synonyms": ["assign", "distribute"]
+            "synonyms": [
+              "assign",
+              "distribute"
+            ]
           },
           {
             "word": "prioritize",
             "pronunciation": "/praɪˈɒrɪtaɪz/",
             "partOfSpeech": "verb",
-            "definition": "To treat something as more important",
+            "definition": "To treat something as more important.",
             "example": "Urban areas should prioritize public transport over road expansion.",
-            "synonyms": ["favor", "emphasize"]
+            "synonyms": [
+              "favor",
+              "emphasize"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "mass transit",
-            "definition": "Large-scale public transportation systems",
+            "definition": "Large-scale public transportation systems.",
             "example": "Mass transit systems like subways efficiently move thousands of commuters."
           },
           {
             "phrase": "traffic congestion",
-            "definition": "Overcrowding of vehicles causing delays",
+            "definition": "Overcrowding of vehicles causing delays.",
             "example": "Investing in public transport reduces traffic congestion in cities."
           },
           {
             "phrase": "road network",
-            "definition": "System of interconnected roads",
+            "definition": "System of interconnected roads.",
             "example": "A comprehensive road network supports economic development nationwide."
           },
           {
             "phrase": "carbon footprint",
-            "definition": "Total greenhouse gas emissions produced",
+            "definition": "Total greenhouse gas emissions produced.",
             "example": "Public transport helps reduce the overall carbon footprint of cities."
           },
           {
             "phrase": "freight transportation",
-            "definition": "Moving goods and cargo",
+            "definition": "Moving goods and cargo.",
             "example": "Roads remain essential for freight transportation and delivery services."
           },
           {
             "phrase": "urban planning",
-            "definition": "Designing and organizing city development",
+            "definition": "Designing and organizing city development.",
             "example": "Effective urban planning integrates both public transport and road systems."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["The question of infrastructure investment", "There is debate about whether", "Governments face decisions about"],
-          "public_transport_side": ["Proponents of public transport argue", "From an environmental perspective", "Those favoring mass transit contend"],
-          "roads_side": ["Advocates for road investment argue", "From an economic perspective", "Those supporting road expansion contend"],
-          "exemplifying": ["For instance", "A clear example is", "This is evident in", "Particularly"],
-          "concluding": ["In conclusion", "Overall", "On balance", "Taking both views into account"]
+          "introducing": [
+            "The question of infrastructure investment",
+            "There is debate about whether",
+            "Governments face decisions about"
+          ],
+          "public_transport_side": [
+            "Proponents of public transport argue",
+            "From an environmental perspective",
+            "Those favoring mass transit contend"
+          ],
+          "roads_side": [
+            "Advocates for road investment argue",
+            "From an economic perspective",
+            "Those supporting road expansion contend"
+          ],
+          "exemplifying": [
+            "For instance",
+            "A clear example is",
+            "This is evident in",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "Overall",
+            "On balance",
+            "Taking both views into account"
+          ]
         }
       }
     },
@@ -194,7 +240,10 @@
             "clues": {
               "subject": "Public transport",
               "verb": "reduce",
-              "keywords": ["traffic congestion", "carbon emissions"]
+              "keywords": [
+                "traffic congestion",
+                "carbon emissions"
+              ]
             },
             "hint": "Mention both traffic and environmental benefits.",
             "modelAnswer": "Public transport investment significantly reduces traffic congestion and carbon emissions in urban areas.",
@@ -205,10 +254,13 @@
             "clues": {
               "subject": "Road networks",
               "verb": "facilitate",
-              "keywords": ["commerce", "economic growth"]
+              "keywords": [
+                "commerce",
+                "economic growth"
+              ]
             },
             "hint": "Focus on economic benefits of good roads.",
-            "modelAnswer": "Well-maintained road networks facilitate commerce and support economic growth across all regions.",
+            "modelAnswer": "Well-maintained road networks support commerce and economic growth across all regions.",
             "minWords": 11
           },
           {
@@ -216,7 +268,10 @@
             "clues": {
               "subject": "Mass transit systems",
               "verb": "move",
-              "keywords": ["thousands", "efficiently"]
+              "keywords": [
+                "thousands",
+                "efficiently"
+              ]
             },
             "hint": "Mention capacity and efficiency advantages.",
             "modelAnswer": "Mass transit systems can move thousands of commuters efficiently during peak hours.",
@@ -227,7 +282,10 @@
             "clues": {
               "subject": "Rural areas",
               "verb": "depend",
-              "keywords": ["roads", "accessibility"]
+              "keywords": [
+                "roads",
+                "accessibility"
+              ]
             },
             "hint": "Focus on why rural regions need roads more.",
             "modelAnswer": "Rural areas depend heavily on roads for accessibility since public transport is often impractical.",
@@ -238,7 +296,10 @@
             "clues": {
               "subject": "Governments",
               "verb": "balance",
-              "keywords": ["both types", "infrastructure needs"]
+              "keywords": [
+                "both types",
+                "infrastructure needs"
+              ]
             },
             "hint": "Mention the need for balanced investment.",
             "modelAnswer": "Governments must carefully balance investment between both types of infrastructure based on regional needs.",
@@ -248,31 +309,73 @@
         "sentenceUnscramble": [
           {
             "id": "scramble1",
-            "words": ["public transport", "reduces", "environmental", "impact", "of", "urban", "commuting"],
+            "words": [
+              "public transport",
+              "reduces",
+              "environmental",
+              "impact",
+              "of",
+              "urban",
+              "commuting"
+            ],
             "correctAnswer": "Public transport reduces environmental impact of urban commuting.",
             "hint": "Start with 'Public transport'"
           },
           {
             "id": "scramble2",
-            "words": ["road", "infrastructure", "supports", "freight", "transportation", "and", "deliveries"],
+            "words": [
+              "road",
+              "infrastructure",
+              "supports",
+              "freight",
+              "transportation",
+              "and",
+              "deliveries"
+            ],
             "correctAnswer": "Road infrastructure supports freight transportation and deliveries.",
             "hint": "Subject is 'Road infrastructure'"
           },
           {
             "id": "scramble3",
-            "words": ["investing", "in", "mass transit", "alleviates", "traffic", "congestion", "significantly"],
+            "words": [
+              "investing",
+              "in",
+              "mass transit",
+              "alleviates",
+              "traffic",
+              "congestion",
+              "significantly"
+            ],
             "correctAnswer": "Investing in mass transit alleviates traffic congestion significantly.",
             "hint": "Start with gerund 'Investing'"
           },
           {
             "id": "scramble4",
-            "words": ["rural", "communities", "require", "reliable", "road", "connections", "for", "access"],
+            "words": [
+              "rural",
+              "communities",
+              "require",
+              "reliable",
+              "road",
+              "connections",
+              "for",
+              "access"
+            ],
             "correctAnswer": "Rural communities require reliable road connections for access.",
             "hint": "Subject is 'Rural communities'"
           },
           {
             "id": "scramble5",
-            "words": ["urban", "areas", "benefit", "most", "from", "public", "transport", "investment"],
+            "words": [
+              "urban",
+              "areas",
+              "benefit",
+              "most",
+              "from",
+              "public",
+              "transport",
+              "investment"
+            ],
             "correctAnswer": "Urban areas benefit most from public transport investment.",
             "hint": "'benefit' is the main verb"
           }
@@ -281,35 +384,55 @@
           {
             "id": "blank1",
             "sentence": "Public transport _____ traffic congestion in crowded cities.",
-            "options": ["reduce", "reduces", "reducing"],
+            "options": [
+              "reduce",
+              "reduces",
+              "reducing"
+            ],
             "correctAnswer": "reduces",
             "explanation": "Singular subject 'Public transport' needs 's' on verb."
           },
           {
             "id": "blank2",
             "sentence": "_____, road networks remain essential for rural accessibility.",
-            "options": ["However", "Therefore", "Moreover"],
+            "options": [
+              "However",
+              "Therefore",
+              "Moreover"
+            ],
             "correctAnswer": "However",
             "explanation": "Use 'However' to contrast with public transport arguments."
           },
           {
             "id": "blank3",
             "sentence": "Governments must _____ limited budgets between competing priorities.",
-            "options": ["allocate", "allocates", "allocation"],
+            "options": [
+              "allocate",
+              "allocates",
+              "allocation"
+            ],
             "correctAnswer": "allocate",
             "explanation": "Use base form 'allocate' after 'must'."
           },
           {
             "id": "blank4",
             "sentence": "_____ instance, Tokyo's subway system serves millions daily.",
-            "options": ["For", "To", "In"],
+            "options": [
+              "For",
+              "To",
+              "In"
+            ],
             "correctAnswer": "For",
             "explanation": "'For instance' is correct for giving examples."
           },
           {
             "id": "blank5",
             "sentence": "Mass transit offers a more _____ transportation solution.",
-            "options": ["sustainable", "sustainability", "sustain"],
+            "options": [
+              "sustainable",
+              "sustainability",
+              "sustain"
+            ],
             "correctAnswer": "sustainable",
             "explanation": "Use adjective 'sustainable' before noun 'solution'."
           }
@@ -359,12 +482,42 @@
           }
         ],
         "usefulTransitions": {
-          "public_transport_perspective": ["Proponents of public transport argue", "From an environmental perspective", "Those favoring mass transit contend", "Advocates of public investment claim"],
-          "roads_perspective": ["Advocates for road investment argue", "From an economic perspective", "Those supporting road development contend", "Proponents of highway expansion claim"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "A clear example is", "This is evident in", "Particularly"],
-          "showing_result": ["Therefore", "Consequently", "As a result", "Thus"],
-          "contrasting": ["Conversely", "However", "In contrast", "On the other hand"]
+          "public_transport_perspective": [
+            "Proponents of public transport argue",
+            "From an environmental perspective",
+            "Those favoring mass transit contend",
+            "Advocates of public investment claim"
+          ],
+          "roads_perspective": [
+            "Advocates for road investment argue",
+            "From an economic perspective",
+            "Those supporting road development contend",
+            "Proponents of highway expansion claim"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "A clear example is",
+            "This is evident in",
+            "Particularly"
+          ],
+          "showing_result": [
+            "Therefore",
+            "Consequently",
+            "As a result",
+            "Thus"
+          ],
+          "contrasting": [
+            "Conversely",
+            "However",
+            "In contrast",
+            "On the other hand"
+          ]
         }
       }
     },
@@ -544,12 +697,12 @@
     }
   ],
   "modelEssay": {
-    "text": "Infrastructure investment priorities remain a contentious issue for governments worldwide facing limited budgets and growing transportation demands. While some advocate prioritizing public transport to reduce congestion and emissions, others support road investment for economic growth and accessibility. In my opinion, the optimal choice depends on geographic context, with urban areas needing mass transit while rural regions require road development.\n\nProponents of public transport argue it offers the most sustainable solution for urban transportation challenges. Mass transit systems can move thousands of commuters efficiently during peak hours while significantly reducing per-capita carbon emissions compared to private vehicles. For instance, cities like Singapore and Tokyo have developed world-class subway networks that handle millions of daily passengers, dramatically reducing traffic congestion and air pollution in densely populated areas. Furthermore, public transport investment reduces the need for expensive parking infrastructure and road widening projects. Therefore, prioritizing mass transit yields substantial environmental and efficiency benefits, particularly in metropolitan centers where population density makes such systems economically viable.\n\nConversely, advocates of road investment contend that comprehensive highway networks remain essential for economic development and regional equity. Roads facilitate freight transportation, business connectivity, and provide crucial access to remote communities where public transport is economically impractical or impossible to implement. For example, Australia's extensive highway system enables commercial activities across vast distances and connects isolated rural populations to essential services, education, and healthcare facilities. Moreover, roads support emergency services and agriculture, which underpin national economies. Consequently, road infrastructure remains indispensable for ensuring universal accessibility and economic competitiveness across all regions.\n\nIn conclusion, while both infrastructure types serve vital functions, optimal investment depends on geographic and demographic context. I believe urban centers should prioritize sustainable public transport systems, while rural and regional areas require continued road development to ensure accessibility and economic participation for all citizens.",
-    "wordCount": 279,
+    "text": "Infrastructure investment priorities remain a contentious issue for governments worldwide facing limited budgets and growing transportation demands. While some advocate prioritizing public transport to reduce congestion and emissions, others support road investment for economic growth and accessibility. In my opinion, the optimal choice depends on geographic context, with urban areas needing mass transit while rural regions require road development.\n\nProponents of public transport argue it offers the most sustainable solution for urban transportation challenges. Mass transit systems can move thousands of commuters efficiently during peak hours while significantly reducing per-capita carbon emissions compared to private vehicles. For instance, cities like Singapore and Tokyo have developed world-class subway networks that handle millions of daily passengers, dramatically reducing traffic congestion and air pollution in densely populated areas. Furthermore, public transport investment reduces the need for expensive parking infrastructure and road widening projects. Therefore, prioritizing mass transit yields substantial environmental and efficiency benefits, particularly in metropolitan centers where population density makes such systems economically viable.\n\nConversely, advocates of road investment contend that comprehensive highway networks remain essential for economic development and regional equity. Roads enable freight transportation, business connectivity, and provide crucial access to remote communities where public transport is economically impractical or impossible to implement. For example, Australia's extensive highway system supports commercial activities across vast distances and connects isolated rural populations to essential services, education, and healthcare facilities. Moreover, roads support emergency services and agriculture, which underpin national economies. Consequently, road infrastructure remains indispensable for ensuring universal accessibility and economic competitiveness across all regions.\n\nIn conclusion, while both infrastructure types serve vital functions, optimal investment depends on geographic and demographic context. I believe urban centers should prioritize sustainable public transport systems, while rural and regional areas require continued road development to ensure accessibility and economic participation for all citizens.",
+    "wordCount": 298,
     "structure": {
       "introduction": "Infrastructure investment priorities remain a contentious issue for governments worldwide facing limited budgets and growing transportation demands. While some advocate prioritizing public transport to reduce congestion and emissions, others support road investment for economic growth and accessibility. In my opinion, the optimal choice depends on geographic context, with urban areas needing mass transit while rural regions require road development.",
       "body1": "Proponents of public transport argue it offers the most sustainable solution for urban transportation challenges. Mass transit systems can move thousands of commuters efficiently during peak hours while significantly reducing per-capita carbon emissions compared to private vehicles. For instance, cities like Singapore and Tokyo have developed world-class subway networks that handle millions of daily passengers, dramatically reducing traffic congestion and air pollution in densely populated areas. Furthermore, public transport investment reduces the need for expensive parking infrastructure and road widening projects. Therefore, prioritizing mass transit yields substantial environmental and efficiency benefits, particularly in metropolitan centers where population density makes such systems economically viable.",
-      "body2": "Conversely, advocates of road investment contend that comprehensive highway networks remain essential for economic development and regional equity. Roads facilitate freight transportation, business connectivity, and provide crucial access to remote communities where public transport is economically impractical or impossible to implement. For example, Australia's extensive highway system enables commercial activities across vast distances and connects isolated rural populations to essential services, education, and healthcare facilities. Moreover, roads support emergency services and agriculture, which underpin national economies. Consequently, road infrastructure remains indispensable for ensuring universal accessibility and economic competitiveness across all regions.",
+      "body2": "Conversely, advocates of road investment contend that comprehensive highway networks remain essential for economic development and regional equity. Roads enable freight transportation, business connectivity, and provide crucial access to remote communities where public transport is economically impractical or impossible to implement. For example, Australia's extensive highway system supports commercial activities across vast distances and connects isolated rural populations to essential services, education, and healthcare facilities. Moreover, roads support emergency services and agriculture, which underpin national economies. Consequently, road infrastructure remains indispensable for ensuring universal accessibility and economic competitiveness across all regions.",
       "conclusion": "In conclusion, while both infrastructure types serve vital functions, optimal investment depends on geographic and demographic context. I believe urban centers should prioritize sustainable public transport systems, while rural and regional areas require continued road development to ensure accessibility and economic participation for all citizens."
     },
     "highlights": [

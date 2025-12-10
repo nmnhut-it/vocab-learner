@@ -84,105 +84,154 @@
             "word": "bilateral agreements",
             "pronunciation": "/baɪˈlætərəl əˈɡriːmənts/",
             "partOfSpeech": "noun",
-            "definition": "Treaties or deals between two countries",
-            "example": "Bilateral agreements enable two nations to coordinate climate policies effectively.",
-            "synonyms": ["two-way treaties", "reciprocal pacts"]
+            "definition": "Treaties or deals between two countries.",
+            "example": "Bilateral agreements allow two nations to coordinate climate policies effectively.",
+            "synonyms": [
+              "two-way treaties",
+              "reciprocal pacts"
+            ]
           },
           {
             "word": "multilateral treaties",
             "pronunciation": "/ˌmʌltiˈlætərəl ˈtriːtiz/",
             "partOfSpeech": "noun",
-            "definition": "International agreements involving multiple countries",
+            "definition": "International agreements involving multiple countries.",
             "example": "Multilateral treaties like the Paris Agreement address global climate change collectively.",
-            "synonyms": ["multi-nation agreements", "international pacts"]
+            "synonyms": [
+              "multi-nation agreements",
+              "international pacts"
+            ]
           },
           {
             "word": "carbon emissions",
             "pronunciation": "/ˈkɑːbən ɪˈmɪʃənz/",
             "partOfSpeech": "noun",
-            "definition": "Release of carbon dioxide into the atmosphere",
+            "definition": "Release of carbon dioxide into the atmosphere.",
             "example": "Countries must cooperate to reduce carbon emissions and combat global warming.",
-            "synonyms": ["CO2 emissions", "greenhouse gases"]
+            "synonyms": [
+              "CO2 emissions",
+              "greenhouse gases"
+            ]
           },
           {
             "word": "trade tariffs",
             "pronunciation": "/treɪd ˈtærɪfs/",
             "partOfSpeech": "noun",
-            "definition": "Taxes imposed on imported goods",
-            "example": "International cooperation helps reduce trade tariffs and facilitate commerce.",
-            "synonyms": ["import duties", "customs duties"]
+            "definition": "Taxes imposed on imported goods.",
+            "example": "International cooperation helps reduce trade tariffs and support commerce.",
+            "synonyms": [
+              "import duties",
+              "customs duties"
+            ]
           },
           {
             "word": "sustainable development",
             "pronunciation": "/səˈsteɪnəbl dɪˈveləpmənt/",
             "partOfSpeech": "noun",
-            "definition": "Economic growth that protects environmental resources",
+            "definition": "Economic growth that protects environmental resources.",
             "example": "International cooperation promotes sustainable development for future generations.",
-            "synonyms": ["green growth", "eco-friendly development"]
+            "synonyms": [
+              "green growth",
+              "eco-friendly development"
+            ]
           },
           {
             "word": "economic integration",
             "pronunciation": "/ˌiːkəˈnɒmɪk ˌɪntɪˈɡreɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Process of countries linking their economies",
+            "definition": "Process of countries linking their economies.",
             "example": "Economic integration through trade agreements benefits businesses globally.",
-            "synonyms": ["economic unification", "trade integration"]
+            "synonyms": [
+              "economic unification",
+              "trade integration"
+            ]
           },
           {
             "word": "transnational",
             "pronunciation": "/trænzˈnæʃənəl/",
             "partOfSpeech": "adjective",
-            "definition": "Extending across national boundaries",
+            "definition": "Extending across national boundaries.",
             "example": "Transnational cooperation is essential for addressing climate change.",
-            "synonyms": ["international", "cross-border"]
+            "synonyms": [
+              "international",
+              "cross-border"
+            ]
           },
           {
             "word": "ratify",
             "pronunciation": "/ˈrætɪfaɪ/",
             "partOfSpeech": "verb",
-            "definition": "To formally approve or confirm an agreement",
+            "definition": "To formally approve or confirm an agreement.",
             "example": "Nations must ratify environmental treaties to make them legally binding.",
-            "synonyms": ["approve", "endorse", "confirm"]
+            "synonyms": [
+              "approve",
+              "endorse",
+              "confirm"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "global warming",
-            "definition": "Increase in Earth's average temperature due to greenhouse gases",
+            "definition": "Increase in Earth's average temperature due to greenhouse gases.",
             "example": "International cooperation is vital for combating global warming effectively."
           },
           {
             "phrase": "free trade zones",
-            "definition": "Areas where goods can be traded without tariffs or restrictions",
+            "definition": "Areas where goods can be traded without tariffs or restrictions.",
             "example": "Free trade zones created through cooperation boost business profits significantly."
           },
           {
             "phrase": "wildlife conservation",
-            "definition": "Protection of endangered animal species and habitats",
+            "definition": "Protection of endangered animal species and habitats.",
             "example": "Cross-border cooperation enables better wildlife conservation efforts."
           },
           {
             "phrase": "market access",
-            "definition": "Ability of businesses to enter and compete in foreign markets",
+            "definition": "Ability of businesses to enter and compete in foreign markets.",
             "example": "Trade agreements provide businesses with increased market access globally."
           },
           {
             "phrase": "pollution control",
-            "definition": "Measures to reduce environmental contamination",
+            "definition": "Measures to reduce environmental contamination.",
             "example": "International standards for pollution control protect shared ecosystems."
           },
           {
             "phrase": "supply chain efficiency",
-            "definition": "Streamlined process of producing and delivering goods",
+            "definition": "Streamlined process of producing and delivering goods.",
             "example": "Economic cooperation improves supply chain efficiency for multinational corporations."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["There is ongoing debate about", "People have differing views about", "While some believe"],
-          "contrasting": ["On the one hand", "On the other hand", "Conversely", "However"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "There is ongoing debate about",
+            "People have differing views about",
+            "While some believe"
+          ],
+          "contrasting": [
+            "On the one hand",
+            "On the other hand",
+            "Conversely",
+            "However"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -205,8 +254,24 @@
                 "type": "template",
                 "template": "While some believe _____, others argue that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["the primary benefit is environmental protection", "cooperation is unnecessary", "only rich countries benefit"], "correctAnswer": "the primary benefit is environmental protection"},
-                  {"id": "thesis1_b2", "options": ["businesses gain the most advantages from cooperation", "the environment is unimportant", "countries should work alone"], "correctAnswer": "businesses gain the most advantages from cooperation"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "the primary benefit is environmental protection",
+                      "cooperation is unnecessary",
+                      "only rich countries benefit"
+                    ],
+                    "correctAnswer": "the primary benefit is environmental protection"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "businesses gain the most advantages from cooperation",
+                      "the environment is unimportant",
+                      "countries should work alone"
+                    ],
+                    "correctAnswer": "businesses gain the most advantages from cooperation"
+                  }
                 ],
                 "correctSentence": "While some believe the primary benefit is environmental protection, others argue that businesses gain the most advantages from cooperation.",
                 "usableIn": "introduction"
@@ -216,8 +281,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ provides _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["international cooperation", "domestic policy", "individual action"], "correctAnswer": "international cooperation"},
-                  {"id": "thesis2_b2", "options": ["significant benefits to both environmental protection and business growth", "no real advantages", "only political benefits"], "correctAnswer": "significant benefits to both environmental protection and business growth"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "international cooperation",
+                      "domestic policy",
+                      "individual action"
+                    ],
+                    "correctAnswer": "international cooperation"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "significant benefits to both environmental protection and business growth",
+                      "no real advantages",
+                      "only political benefits"
+                    ],
+                    "correctAnswer": "significant benefits to both environmental protection and business growth"
+                  }
                 ],
                 "correctSentence": "In my opinion, international cooperation provides significant benefits to both environmental protection and business growth.",
                 "usableIn": "introduction"
@@ -227,8 +308,24 @@
                 "type": "template",
                 "template": "This essay will discuss _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["both perspectives", "environmental issues only", "business matters only"], "correctAnswer": "both perspectives"},
-                  {"id": "thesis3_b2", "options": ["environmental benefits are more critical for humanity's future", "cooperation is useless", "only wealthy nations benefit"], "correctAnswer": "environmental benefits are more critical for humanity's future"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "both perspectives",
+                      "environmental issues only",
+                      "business matters only"
+                    ],
+                    "correctAnswer": "both perspectives"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "environmental benefits are more critical for humanity's future",
+                      "cooperation is useless",
+                      "only wealthy nations benefit"
+                    ],
+                    "correctAnswer": "environmental benefits are more critical for humanity's future"
+                  }
                 ],
                 "correctSentence": "This essay will discuss both perspectives before concluding that environmental benefits are more critical for humanity's future.",
                 "usableIn": "introduction"
@@ -245,8 +342,24 @@
                 "type": "template",
                 "template": "On the one hand, _____ enables countries to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["international environmental cooperation", "business cooperation only", "military alliances"], "correctAnswer": "international environmental cooperation"},
-                  {"id": "topic1_b2", "options": ["address climate change and protect shared ecosystems effectively", "increase trade profits", "compete economically"], "correctAnswer": "address climate change and protect shared ecosystems effectively"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "international environmental cooperation",
+                      "business cooperation only",
+                      "military alliances"
+                    ],
+                    "correctAnswer": "international environmental cooperation"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "address climate change and protect shared ecosystems effectively",
+                      "increase trade profits",
+                      "compete economically"
+                    ],
+                    "correctAnswer": "address climate change and protect shared ecosystems effectively"
+                  }
                 ],
                 "correctSentence": "On the one hand, international environmental cooperation enables countries to address climate change and protect shared ecosystems effectively.",
                 "usableIn": "body-paragraph-1"
@@ -256,8 +369,24 @@
                 "type": "template",
                 "template": "On the other hand, _____ creates _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["international business cooperation", "environmental treaties", "climate agreements"], "correctAnswer": "international business cooperation"},
-                  {"id": "topic2_b2", "options": ["substantial economic opportunities and commercial advantages", "environmental protection", "pollution reduction"], "correctAnswer": "substantial economic opportunities and commercial advantages"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "international business cooperation",
+                      "environmental treaties",
+                      "climate agreements"
+                    ],
+                    "correctAnswer": "international business cooperation"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "substantial economic opportunities and commercial advantages",
+                      "environmental protection",
+                      "pollution reduction"
+                    ],
+                    "correctAnswer": "substantial economic opportunities and commercial advantages"
+                  }
                 ],
                 "correctSentence": "On the other hand, international business cooperation creates substantial economic opportunities and commercial advantages.",
                 "usableIn": "body-paragraph-2"
@@ -267,8 +396,24 @@
                 "type": "template",
                 "template": "From one perspective, _____ represents the most crucial benefit because _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["environmental protection", "increased profits", "political power"], "correctAnswer": "environmental protection"},
-                  {"id": "topic3_b2", "options": ["climate threats affect all nations equally", "businesses need growth", "countries compete economically"], "correctAnswer": "climate threats affect all nations equally"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "environmental protection",
+                      "increased profits",
+                      "political power"
+                    ],
+                    "correctAnswer": "environmental protection"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "climate threats affect all nations equally",
+                      "businesses need growth",
+                      "countries compete economically"
+                    ],
+                    "correctAnswer": "climate threats affect all nations equally"
+                  }
                 ],
                 "correctSentence": "From one perspective, environmental protection represents the most crucial benefit because climate threats affect all nations equally.",
                 "usableIn": "body-paragraph-1"
@@ -285,8 +430,24 @@
                 "type": "template",
                 "template": "This is because _____ requires _____ to be effective.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["combating climate change", "increasing business profits", "domestic regulations"], "correctAnswer": "combating climate change"},
-                  {"id": "support1_b2", "options": ["coordinated global action and shared commitments", "individual efforts only", "corporate decisions"], "correctAnswer": "coordinated global action and shared commitments"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "combating climate change",
+                      "increasing business profits",
+                      "domestic regulations"
+                    ],
+                    "correctAnswer": "combating climate change"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "coordinated global action and shared commitments",
+                      "individual efforts only",
+                      "corporate decisions"
+                    ],
+                    "correctAnswer": "coordinated global action and shared commitments"
+                  }
                 ],
                 "correctSentence": "This is because combating climate change requires coordinated global action and shared commitments to be effective.",
                 "usableIn": "body-paragraph-1"
@@ -296,8 +457,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["reducing trade tariffs through cooperation", "environmental regulations", "climate treaties"], "correctAnswer": "reducing trade tariffs through cooperation"},
-                  {"id": "support2_b2", "options": ["increased market access and higher corporate profits", "pollution control", "wildlife conservation"], "correctAnswer": "increased market access and higher corporate profits"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "reducing trade tariffs through cooperation",
+                      "environmental regulations",
+                      "climate treaties"
+                    ],
+                    "correctAnswer": "reducing trade tariffs through cooperation"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "increased market access and higher corporate profits",
+                      "pollution control",
+                      "wildlife conservation"
+                    ],
+                    "correctAnswer": "increased market access and higher corporate profits"
+                  }
                 ],
                 "correctSentence": "The main reason is that reducing trade tariffs through cooperation leads to increased market access and higher corporate profits.",
                 "usableIn": "body-paragraph-2"
@@ -307,8 +484,24 @@
                 "type": "template",
                 "template": "Without _____, individual nations cannot _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["international environmental agreements", "business deals", "trade negotiations"], "correctAnswer": "international environmental agreements"},
-                  {"id": "support3_b2", "options": ["effectively reduce global carbon emissions or protect shared resources", "maximize profits", "compete globally"], "correctAnswer": "effectively reduce global carbon emissions or protect shared resources"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "international environmental agreements",
+                      "business deals",
+                      "trade negotiations"
+                    ],
+                    "correctAnswer": "international environmental agreements"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "effectively reduce global carbon emissions or protect shared resources",
+                      "maximize profits",
+                      "compete globally"
+                    ],
+                    "correctAnswer": "effectively reduce global carbon emissions or protect shared resources"
+                  }
                 ],
                 "correctSentence": "Without international environmental agreements, individual nations cannot effectively reduce global carbon emissions or protect shared resources.",
                 "usableIn": "body-paragraph-1"
@@ -318,8 +511,24 @@
                 "type": "template",
                 "template": "Furthermore, _____ enables businesses to _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["economic integration", "environmental protection", "pollution control"], "correctAnswer": "economic integration"},
-                  {"id": "support4_b2", "options": ["expand operations internationally and increase supply chain efficiency", "reduce emissions", "protect wildlife"], "correctAnswer": "expand operations internationally and increase supply chain efficiency"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "economic integration",
+                      "environmental protection",
+                      "pollution control"
+                    ],
+                    "correctAnswer": "economic integration"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "expand operations internationally and increase supply chain efficiency",
+                      "reduce emissions",
+                      "protect wildlife"
+                    ],
+                    "correctAnswer": "expand operations internationally and increase supply chain efficiency"
+                  }
                 ],
                 "correctSentence": "Furthermore, economic integration enables businesses to expand operations internationally and increase supply chain efficiency.",
                 "usableIn": "body-paragraph-2"
@@ -336,9 +545,33 @@
                 "type": "template",
                 "template": "For instance, _____ has helped _____ by _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["the Paris Agreement", "the WTO", "free trade zones"], "correctAnswer": "the Paris Agreement"},
-                  {"id": "example1_b2", "options": ["195 countries", "multinational corporations", "local businesses"], "correctAnswer": "195 countries"},
-                  {"id": "example1_b3", "options": ["setting binding targets to limit global temperature rise", "increasing trade volumes", "reducing business costs"], "correctAnswer": "setting binding targets to limit global temperature rise"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the Paris Agreement",
+                      "the WTO",
+                      "free trade zones"
+                    ],
+                    "correctAnswer": "the Paris Agreement"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "195 countries",
+                      "multinational corporations",
+                      "local businesses"
+                    ],
+                    "correctAnswer": "195 countries"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "setting binding targets to limit global temperature rise",
+                      "increasing trade volumes",
+                      "reducing business costs"
+                    ],
+                    "correctAnswer": "setting binding targets to limit global temperature rise"
+                  }
                 ],
                 "correctSentence": "For instance, the Paris Agreement has helped 195 countries by setting binding targets to limit global temperature rise.",
                 "usableIn": "body-paragraph-1"
@@ -348,9 +581,33 @@
                 "type": "template",
                 "template": "For example, _____ provides _____ with _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["the European Union", "climate treaties", "environmental regulations"], "correctAnswer": "the European Union"},
-                  {"id": "example2_b2", "options": ["member businesses", "environmental groups", "wildlife organizations"], "correctAnswer": "member businesses"},
-                  {"id": "example2_b3", "options": ["tariff-free trade access to a market of 450 million consumers", "pollution standards", "conservation programs"], "correctAnswer": "tariff-free trade access to a market of 450 million consumers"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "the European Union",
+                      "climate treaties",
+                      "environmental regulations"
+                    ],
+                    "correctAnswer": "the European Union"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "member businesses",
+                      "environmental groups",
+                      "wildlife organizations"
+                    ],
+                    "correctAnswer": "member businesses"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "tariff-free trade access to a market of 450 million consumers",
+                      "pollution standards",
+                      "conservation programs"
+                    ],
+                    "correctAnswer": "tariff-free trade access to a market of 450 million consumers"
+                  }
                 ],
                 "correctSentence": "For example, the European Union provides member businesses with tariff-free trade access to a market of 450 million consumers.",
                 "usableIn": "body-paragraph-2"
@@ -360,8 +617,24 @@
                 "type": "template",
                 "template": "Similarly, _____ demonstrates how cooperation _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the Montreal Protocol protecting the ozone layer", "international trade deals", "business mergers"], "correctAnswer": "the Montreal Protocol protecting the ozone layer"},
-                  {"id": "example3_b2", "options": ["can successfully address transnational environmental threats", "increases corporate profits", "reduces business regulations"], "correctAnswer": "can successfully address transnational environmental threats"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the Montreal Protocol protecting the ozone layer",
+                      "international trade deals",
+                      "business mergers"
+                    ],
+                    "correctAnswer": "the Montreal Protocol protecting the ozone layer"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "can successfully address transnational environmental threats",
+                      "increases corporate profits",
+                      "reduces business regulations"
+                    ],
+                    "correctAnswer": "can successfully address transnational environmental threats"
+                  }
                 ],
                 "correctSentence": "Similarly, the Montreal Protocol protecting the ozone layer demonstrates how cooperation can successfully address transnational environmental threats.",
                 "usableIn": "body-paragraph-1"
@@ -371,9 +644,33 @@
                 "type": "template",
                 "template": "Specifically, _____ enables companies to _____, resulting in _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["the World Trade Organization", "environmental treaties", "climate agreements"], "correctAnswer": "the World Trade Organization"},
-                  {"id": "example4_b2", "options": ["access international markets with reduced barriers", "reduce pollution", "protect wildlife"], "correctAnswer": "access international markets with reduced barriers"},
-                  {"id": "example4_b3", "options": ["significant revenue growth and job creation", "cleaner air", "species protection"], "correctAnswer": "significant revenue growth and job creation"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "the World Trade Organization",
+                      "environmental treaties",
+                      "climate agreements"
+                    ],
+                    "correctAnswer": "the World Trade Organization"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "access international markets with reduced barriers",
+                      "reduce pollution",
+                      "protect wildlife"
+                    ],
+                    "correctAnswer": "access international markets with reduced barriers"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "significant revenue growth and job creation",
+                      "cleaner air",
+                      "species protection"
+                    ],
+                    "correctAnswer": "significant revenue growth and job creation"
+                  }
                 ],
                 "correctSentence": "Specifically, the World Trade Organization enables companies to access international markets with reduced barriers, resulting in significant revenue growth and job creation.",
                 "usableIn": "body-paragraph-2"
@@ -390,9 +687,33 @@
                 "type": "template",
                 "template": "While _____ focuses on _____, business cooperation emphasizes _____.",
                 "blanks": [
-                  {"id": "contrast1_b1", "options": ["environmental cooperation", "trade policy", "economic growth"], "correctAnswer": "environmental cooperation"},
-                  {"id": "contrast1_b2", "options": ["long-term planetary survival", "short-term profits", "political power"], "correctAnswer": "long-term planetary survival"},
-                  {"id": "contrast1_b3", "options": ["immediate economic gains and market expansion", "climate action", "pollution reduction"], "correctAnswer": "immediate economic gains and market expansion"}
+                  {
+                    "id": "contrast1_b1",
+                    "options": [
+                      "environmental cooperation",
+                      "trade policy",
+                      "economic growth"
+                    ],
+                    "correctAnswer": "environmental cooperation"
+                  },
+                  {
+                    "id": "contrast1_b2",
+                    "options": [
+                      "long-term planetary survival",
+                      "short-term profits",
+                      "political power"
+                    ],
+                    "correctAnswer": "long-term planetary survival"
+                  },
+                  {
+                    "id": "contrast1_b3",
+                    "options": [
+                      "immediate economic gains and market expansion",
+                      "climate action",
+                      "pollution reduction"
+                    ],
+                    "correctAnswer": "immediate economic gains and market expansion"
+                  }
                 ],
                 "correctSentence": "While environmental cooperation focuses on long-term planetary survival, business cooperation emphasizes immediate economic gains and market expansion.",
                 "usableIn": "body-paragraph-2"
@@ -402,10 +723,42 @@
                 "type": "template",
                 "template": "However, _____ affects _____, whereas _____ primarily benefits _____.",
                 "blanks": [
-                  {"id": "contrast2_b1", "options": ["climate change", "trade growth", "corporate profits"], "correctAnswer": "climate change"},
-                  {"id": "contrast2_b2", "options": ["all humanity regardless of economic status", "wealthy businesses", "developed nations"], "correctAnswer": "all humanity regardless of economic status"},
-                  {"id": "contrast2_b3", "options": ["business cooperation", "environmental treaties", "pollution control"], "correctAnswer": "business cooperation"},
-                  {"id": "contrast2_b4", "options": ["corporations and their shareholders", "poor countries", "wildlife"], "correctAnswer": "corporations and their shareholders"}
+                  {
+                    "id": "contrast2_b1",
+                    "options": [
+                      "climate change",
+                      "trade growth",
+                      "corporate profits"
+                    ],
+                    "correctAnswer": "climate change"
+                  },
+                  {
+                    "id": "contrast2_b2",
+                    "options": [
+                      "all humanity regardless of economic status",
+                      "wealthy businesses",
+                      "developed nations"
+                    ],
+                    "correctAnswer": "all humanity regardless of economic status"
+                  },
+                  {
+                    "id": "contrast2_b3",
+                    "options": [
+                      "business cooperation",
+                      "environmental treaties",
+                      "pollution control"
+                    ],
+                    "correctAnswer": "business cooperation"
+                  },
+                  {
+                    "id": "contrast2_b4",
+                    "options": [
+                      "corporations and their shareholders",
+                      "poor countries",
+                      "wildlife"
+                    ],
+                    "correctAnswer": "corporations and their shareholders"
+                  }
                 ],
                 "correctSentence": "However, climate change affects all humanity regardless of economic status, whereas business cooperation primarily benefits corporations and their shareholders.",
                 "usableIn": "body-paragraph-2"
@@ -422,8 +775,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["international cooperation benefits both environment and business", "only businesses gain", "cooperation is ineffective"], "correctAnswer": "international cooperation benefits both environment and business"},
-                  {"id": "conclusion1_b2", "options": ["environmental protection represents the more critical priority for humanity's survival", "profits are more important", "both are equally important"], "correctAnswer": "environmental protection represents the more critical priority for humanity's survival"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "international cooperation benefits both environment and business",
+                      "only businesses gain",
+                      "cooperation is ineffective"
+                    ],
+                    "correctAnswer": "international cooperation benefits both environment and business"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "environmental protection represents the more critical priority for humanity's survival",
+                      "profits are more important",
+                      "both are equally important"
+                    ],
+                    "correctAnswer": "environmental protection represents the more critical priority for humanity's survival"
+                  }
                 ],
                 "correctSentence": "In conclusion, while international cooperation benefits both environment and business, I believe environmental protection represents the more critical priority for humanity's survival.",
                 "usableIn": "conclusion"
@@ -433,8 +802,24 @@
                 "type": "template",
                 "template": "Ultimately, although _____, the long-term importance of _____ cannot be overstated.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["business benefits are significant", "profits matter", "trade is important"], "correctAnswer": "business benefits are significant"},
-                  {"id": "conclusion2_b2", "options": ["preserving our planet through international environmental cooperation", "increasing corporate revenues", "expanding trade"], "correctAnswer": "preserving our planet through international environmental cooperation"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "business benefits are significant",
+                      "profits matter",
+                      "trade is important"
+                    ],
+                    "correctAnswer": "business benefits are significant"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "preserving our planet through international environmental cooperation",
+                      "increasing corporate revenues",
+                      "expanding trade"
+                    ],
+                    "correctAnswer": "preserving our planet through international environmental cooperation"
+                  }
                 ],
                 "correctSentence": "Ultimately, although business benefits are significant, the long-term importance of preserving our planet through international environmental cooperation cannot be overstated.",
                 "usableIn": "conclusion"
@@ -481,13 +866,46 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_first_view": ["On the one hand", "From one perspective", "Advocates of environmental benefits argue that"],
-          "presenting_second_view": ["On the other hand", "Conversely", "Supporters of business benefits contend that"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary"],
-          "emphasizing": ["Indeed", "Clearly", "Undoubtedly", "Significantly"]
+          "presenting_first_view": [
+            "On the one hand",
+            "From one perspective",
+            "Advocates of environmental benefits argue that"
+          ],
+          "presenting_second_view": [
+            "On the other hand",
+            "Conversely",
+            "Supporters of business benefits contend that"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary"
+          ],
+          "emphasizing": [
+            "Indeed",
+            "Clearly",
+            "Undoubtedly",
+            "Significantly"
+          ]
         }
       }
     },
@@ -657,12 +1075,12 @@
     }
   ],
   "modelEssay": {
-    "text": "The role of international cooperation in addressing global challenges has sparked considerable debate. While some believe that the primary benefit lies in environmental protection, others argue that businesses gain the most significant advantages. In my opinion, although both areas benefit substantially, environmental protection represents the more critical priority for humanity's long-term survival.\n\nOn the one hand, international environmental cooperation enables nations to address climate change and protect shared ecosystems effectively. This is because environmental threats like global warming and pollution transcend national borders, requiring coordinated action across countries. For instance, the Paris Agreement successfully united 195 nations in committing to binding targets aimed at limiting global temperature rise below 2 degrees Celsius. Similarly, the Montreal Protocol demonstrated how international cooperation could effectively reverse ozone layer depletion. Without such multilateral treaties, individual countries cannot meaningfully reduce carbon emissions or preserve biodiversity. As a result, environmental cooperation protects the planet for future generations and prevents catastrophic climate disasters that would affect all humanity.\n\nOn the other hand, international business cooperation creates substantial economic opportunities and commercial advantages. The main reason is that trade agreements reduce tariffs and eliminate barriers, enabling businesses to access larger markets and increase profitability significantly. For example, the European Union provides member businesses with tariff-free access to a market of 450 million consumers, while the World Trade Organization facilitates global commerce by establishing common trading rules. Furthermore, economic integration improves supply chain efficiency and enables companies to expand operations internationally. Consequently, these advantages drive economic growth, create employment opportunities, and raise living standards globally.\n\nIn conclusion, while international cooperation delivers significant benefits to both environmental protection and business development, I believe environmental protection represents the more critical priority. This is because economic prosperity becomes meaningless on an uninhabitable planet affected by irreversible climate change.",
-    "wordCount": 283,
+    "text": "The role of international cooperation in addressing global challenges has sparked considerable debate. While some believe that the primary benefit lies in environmental protection, others argue that businesses gain the most significant advantages. In my opinion, although both areas benefit substantially, environmental protection represents the more critical priority for humanity's long-term survival.\n\nOn the one hand, international environmental cooperation allows nations to address climate change and protect shared ecosystems effectively. This is because environmental threats like global warming and pollution transcend national borders, requiring coordinated action across countries. For instance, the Paris Agreement successfully united 195 nations in committing to binding targets aimed at limiting global temperature rise below 2 degrees Celsius. Similarly, the Montreal Protocol demonstrated how international cooperation could effectively reverse ozone layer depletion. Without such multilateral treaties, individual countries cannot meaningfully reduce carbon emissions or preserve biodiversity. As a result, environmental cooperation protects the planet for future generations and prevents catastrophic climate disasters that would affect all humanity.\n\nOn the other hand, international business cooperation creates substantial economic opportunities and commercial advantages. The main reason is that trade agreements reduce tariffs and eliminate barriers, enabling businesses to access larger markets and increase profitability significantly. For example, the European Union provides member businesses with tariff-free access to a market of 450 million consumers, while the World Trade Organization supports global commerce by establishing common trading rules. Furthermore, economic integration improves supply chain efficiency and allows companies to expand operations internationally. Consequently, these advantages drive economic growth, create employment opportunities, and raise living standards globally.\n\nIn conclusion, while international cooperation delivers significant benefits to both environmental protection and business development, I believe environmental protection represents the more critical priority. This is because economic prosperity becomes meaningless on an uninhabitable planet affected by irreversible climate change.",
+    "wordCount": 296,
     "structure": {
       "introduction": "The role of international cooperation in addressing global challenges has sparked considerable debate. While some believe that the primary benefit lies in environmental protection, others argue that businesses gain the most significant advantages. In my opinion, although both areas benefit substantially, environmental protection represents the more critical priority for humanity's long-term survival.",
-      "body1": "On the one hand, international environmental cooperation enables nations to address climate change and protect shared ecosystems effectively. This is because environmental threats like global warming and pollution transcend national borders, requiring coordinated action across countries. For instance, the Paris Agreement successfully united 195 nations in committing to binding targets aimed at limiting global temperature rise below 2 degrees Celsius. Similarly, the Montreal Protocol demonstrated how international cooperation could effectively reverse ozone layer depletion. Without such multilateral treaties, individual countries cannot meaningfully reduce carbon emissions or preserve biodiversity. As a result, environmental cooperation protects the planet for future generations and prevents catastrophic climate disasters that would affect all humanity.",
-      "body2": "On the other hand, international business cooperation creates substantial economic opportunities and commercial advantages. The main reason is that trade agreements reduce tariffs and eliminate barriers, enabling businesses to access larger markets and increase profitability significantly. For example, the European Union provides member businesses with tariff-free access to a market of 450 million consumers, while the World Trade Organization facilitates global commerce by establishing common trading rules. Furthermore, economic integration improves supply chain efficiency and enables companies to expand operations internationally. Consequently, these advantages drive economic growth, create employment opportunities, and raise living standards globally.",
+      "body1": "On the one hand, international environmental cooperation allows nations to address climate change and protect shared ecosystems effectively. This is because environmental threats like global warming and pollution transcend national borders, requiring coordinated action across countries. For instance, the Paris Agreement successfully united 195 nations in committing to binding targets aimed at limiting global temperature rise below 2 degrees Celsius. Similarly, the Montreal Protocol demonstrated how international cooperation could effectively reverse ozone layer depletion. Without such multilateral treaties, individual countries cannot meaningfully reduce carbon emissions or preserve biodiversity. As a result, environmental cooperation protects the planet for future generations and prevents catastrophic climate disasters that would affect all humanity.",
+      "body2": "On the other hand, international business cooperation creates substantial economic opportunities and commercial advantages. The main reason is that trade agreements reduce tariffs and eliminate barriers, enabling businesses to access larger markets and increase profitability significantly. For example, the European Union provides member businesses with tariff-free access to a market of 450 million consumers, while the World Trade Organization supports global commerce by establishing common trading rules. Furthermore, economic integration improves supply chain efficiency and allows companies to expand operations internationally. Consequently, these advantages drive economic growth, create employment opportunities, and raise living standards globally.",
       "conclusion": "In conclusion, while international cooperation delivers significant benefits to both environmental protection and business development, I believe environmental protection represents the more critical priority. This is because economic prosperity becomes meaningless on an uninhabitable planet affected by irreversible climate change."
     },
     "highlights": [

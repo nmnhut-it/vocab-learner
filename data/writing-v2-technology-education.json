@@ -80,105 +80,158 @@
             "word": "integrate",
             "pronunciation": "/ˈɪntɪɡreɪt/",
             "partOfSpeech": "verb",
-            "definition": "To combine or incorporate technology into existing systems",
-            "example": "Educational institutions are integrating digital tools into their curricula.",
-            "synonyms": ["incorporate", "merge", "combine"]
+            "definition": "To combine or incorporate technology into existing systems.",
+            "example": "Schools should integrate technology into their curriculum to prepare students for the digital age.",
+            "synonyms": [
+              "incorporate",
+              "merge",
+              "combine"
+            ]
           },
           {
             "word": "accessibility",
             "pronunciation": "/əkˌsesəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being easily reached, obtained, or used",
+            "definition": "The quality of being easily reached, obtained, or used.",
             "example": "Technology improves accessibility to educational resources for remote students.",
-            "synonyms": ["availability", "reachability"]
+            "synonyms": [
+              "availability",
+              "reachability"
+            ]
           },
           {
             "word": "proficiency",
             "pronunciation": "/prəˈfɪʃənsi/",
             "partOfSpeech": "noun",
-            "definition": "A high degree of skill or expertise",
+            "definition": "A high degree of skill or expertise.",
             "example": "Digital proficiency is essential for navigating modern educational platforms.",
-            "synonyms": ["competence", "expertise", "mastery"]
+            "synonyms": [
+              "competence",
+              "expertise",
+              "mastery"
+            ]
           },
           {
             "word": "disparity",
             "pronunciation": "/dɪˈspærəti/",
             "partOfSpeech": "noun",
-            "definition": "A great difference or inequality between groups",
+            "definition": "A great difference or inequality between groups.",
             "example": "Technology can widen the disparity between wealthy and disadvantaged schools.",
-            "synonyms": ["inequality", "gap", "imbalance"]
+            "synonyms": [
+              "inequality",
+              "gap",
+              "imbalance"
+            ]
           },
           {
             "word": "pedagogy",
             "pronunciation": "/ˈpedəɡɒdʒi/",
             "partOfSpeech": "noun",
-            "definition": "The method and practice of teaching",
+            "definition": "The method and practice of teaching.",
             "example": "Technology-based pedagogy requires different instructional approaches than traditional methods.",
-            "synonyms": ["teaching methodology", "instructional practice"]
+            "synonyms": [
+              "teaching methodology",
+              "instructional practice"
+            ]
           },
           {
             "word": "cognitive",
             "pronunciation": "/ˈkɒɡnətɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Related to mental processes of learning and understanding",
+            "definition": "Related to mental processes of learning and understanding.",
             "example": "Interactive educational software can enhance cognitive development in young learners.",
-            "synonyms": ["mental", "intellectual"]
+            "synonyms": [
+              "mental",
+              "intellectual"
+            ]
           },
           {
             "word": "supplement",
             "pronunciation": "/ˈsʌplɪmənt/",
             "partOfSpeech": "verb",
-            "definition": "To add to something to enhance or complete it",
+            "definition": "To add to something to enhance or complete it.",
             "example": "Digital resources should supplement rather than completely replace traditional instruction.",
-            "synonyms": ["complement", "enhance", "augment"]
+            "synonyms": [
+              "complement",
+              "enhance",
+              "augment"
+            ]
           },
           {
             "word": "equitable",
             "pronunciation": "/ˈekwɪtəbl/",
             "partOfSpeech": "adjective",
-            "definition": "Fair and impartial; providing equal opportunities",
+            "definition": "Fair and impartial; providing equal opportunities.",
             "example": "Ensuring equitable access to technology remains a significant challenge for schools.",
-            "synonyms": ["fair", "just", "unbiased"]
+            "synonyms": [
+              "fair",
+              "just",
+              "unbiased"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "digital literacy",
-            "definition": "The ability to use technology and digital tools effectively",
+            "definition": "The ability to use technology and digital tools effectively.",
             "example": "Modern students require strong digital literacy skills for academic success."
           },
           {
             "phrase": "interactive learning",
-            "definition": "Educational approach where students actively engage with content",
+            "definition": "Educational approach where students actively engage with content.",
             "example": "Technology enables interactive learning through simulations and virtual labs."
           },
           {
             "phrase": "personalized instruction",
-            "definition": "Teaching tailored to individual student needs and learning pace",
+            "definition": "Teaching tailored to individual student needs and learning pace.",
             "example": "Adaptive software provides personalized instruction based on student performance."
           },
           {
             "phrase": "screen time",
-            "definition": "Duration spent using digital devices",
+            "definition": "Duration spent using digital devices.",
             "example": "Excessive screen time may negatively impact students' physical health and attention spans."
           },
           {
             "phrase": "digital divide",
-            "definition": "The gap between those with and without access to technology",
+            "definition": "The gap between those with and without access to technology.",
             "example": "The digital divide creates unequal educational opportunities across socioeconomic groups."
           },
           {
             "phrase": "blended learning",
-            "definition": "Combination of online digital media and traditional classroom methods",
+            "definition": "Combination of online digital media and traditional classroom methods.",
             "example": "Blended learning models integrate face-to-face instruction with online components."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In the digital age", "With the rise of educational technology", "As institutions modernize"],
-          "contrasting": ["However", "Conversely", "On the contrary", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Specifically", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "In the digital age",
+            "With the rise of educational technology",
+            "As institutions modernize"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "On the contrary",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Specifically",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -201,9 +254,33 @@
                 "type": "template",
                 "template": "While _____ brings _____, it also presents _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["educational technology", "modern teaching", "internet access"], "correctAnswer": "educational technology"},
-                  {"id": "thesis1_b2", "options": ["significant pedagogical advantages", "new computers", "faster internet"], "correctAnswer": "significant pedagogical advantages"},
-                  {"id": "thesis1_b3", "options": ["considerable challenges regarding equity and student wellbeing", "some problems", "technical issues"], "correctAnswer": "considerable challenges regarding equity and student wellbeing"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "educational technology",
+                      "modern teaching",
+                      "internet access"
+                    ],
+                    "correctAnswer": "educational technology"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "significant pedagogical advantages",
+                      "new computers",
+                      "faster internet"
+                    ],
+                    "correctAnswer": "significant pedagogical advantages"
+                  },
+                  {
+                    "id": "thesis1_b3",
+                    "options": [
+                      "considerable challenges regarding equity and student wellbeing",
+                      "some problems",
+                      "technical issues"
+                    ],
+                    "correctAnswer": "considerable challenges regarding equity and student wellbeing"
+                  }
                 ],
                 "correctSentence": "While educational technology brings significant pedagogical advantages, it also presents considerable challenges regarding equity and student wellbeing.",
                 "usableIn": "introduction"
@@ -213,9 +290,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ outweigh _____ when _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the advantages of technology integration", "computer costs", "internet speed"], "correctAnswer": "the advantages of technology integration"},
-                  {"id": "thesis2_b2", "options": ["the disadvantages", "the benefits", "traditional methods"], "correctAnswer": "the disadvantages"},
-                  {"id": "thesis2_b3", "options": ["implemented thoughtfully with adequate support systems", "schools buy computers", "teachers use tablets"], "correctAnswer": "implemented thoughtfully with adequate support systems"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the advantages of technology integration",
+                      "computer costs",
+                      "internet speed"
+                    ],
+                    "correctAnswer": "the advantages of technology integration"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the disadvantages",
+                      "the benefits",
+                      "traditional methods"
+                    ],
+                    "correctAnswer": "the disadvantages"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "implemented thoughtfully with adequate support systems",
+                      "schools buy computers",
+                      "teachers use tablets"
+                    ],
+                    "correctAnswer": "implemented thoughtfully with adequate support systems"
+                  }
                 ],
                 "correctSentence": "In my opinion, the advantages of technology integration outweigh the disadvantages when implemented thoughtfully with adequate support systems.",
                 "usableIn": "introduction"
@@ -225,9 +326,33 @@
                 "type": "template",
                 "template": "The shift toward _____ has sparked debate about whether _____ than _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["technology-based instruction", "using computers", "digital tools"], "correctAnswer": "technology-based instruction"},
-                  {"id": "thesis3_b2", "options": ["the benefits are more substantial", "schools should spend more", "students learn faster"], "correctAnswer": "the benefits are more substantial"},
-                  {"id": "thesis3_b3", "options": ["the potential drawbacks", "traditional teaching", "expensive equipment"], "correctAnswer": "the potential drawbacks"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "technology-based instruction",
+                      "using computers",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "technology-based instruction"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "the benefits are more substantial",
+                      "schools should spend more",
+                      "students learn faster"
+                    ],
+                    "correctAnswer": "the benefits are more substantial"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": [
+                      "the potential drawbacks",
+                      "traditional teaching",
+                      "expensive equipment"
+                    ],
+                    "correctAnswer": "the potential drawbacks"
+                  }
                 ],
                 "correctSentence": "The shift toward technology-based instruction has sparked debate about whether the benefits are more substantial than the potential drawbacks.",
                 "usableIn": "introduction"
@@ -237,9 +362,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ represents _____, despite _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["digital transformation in education", "buying computers", "using internet"], "correctAnswer": "digital transformation in education"},
-                  {"id": "thesis4_b2", "options": ["a net positive development for learning outcomes", "expensive investment", "modern approach"], "correctAnswer": "a net positive development for learning outcomes"},
-                  {"id": "thesis4_b3", "options": ["legitimate concerns about accessibility and overreliance", "high costs", "technical problems"], "correctAnswer": "legitimate concerns about accessibility and overreliance"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "digital transformation in education",
+                      "buying computers",
+                      "using internet"
+                    ],
+                    "correctAnswer": "digital transformation in education"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "a net positive development for learning outcomes",
+                      "expensive investment",
+                      "modern approach"
+                    ],
+                    "correctAnswer": "a net positive development for learning outcomes"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "legitimate concerns about accessibility and overreliance",
+                      "high costs",
+                      "technical problems"
+                    ],
+                    "correctAnswer": "legitimate concerns about accessibility and overreliance"
+                  }
                 ],
                 "correctSentence": "From my perspective, digital transformation in education represents a net positive development for learning outcomes, despite legitimate concerns about accessibility and overreliance.",
                 "usableIn": "introduction"
@@ -249,8 +398,24 @@
                 "type": "template",
                 "template": "This essay will examine _____ before concluding that _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["both the benefits and drawbacks of educational technology", "computer usage in schools", "internet access problems"], "correctAnswer": "both the benefits and drawbacks of educational technology"},
-                  {"id": "thesis5_b2", "options": ["the advantages predominate when proper safeguards are established", "schools should buy more devices", "traditional methods are better"], "correctAnswer": "the advantages predominate when proper safeguards are established"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both the benefits and drawbacks of educational technology",
+                      "computer usage in schools",
+                      "internet access problems"
+                    ],
+                    "correctAnswer": "both the benefits and drawbacks of educational technology"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the advantages predominate when proper safeguards are established",
+                      "schools should buy more devices",
+                      "traditional methods are better"
+                    ],
+                    "correctAnswer": "the advantages predominate when proper safeguards are established"
+                  }
                 ],
                 "correctSentence": "This essay will examine both the benefits and drawbacks of educational technology before concluding that the advantages predominate when proper safeguards are established.",
                 "usableIn": "introduction"
@@ -267,8 +432,24 @@
                 "type": "template",
                 "template": "One significant advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["technology-based learning", "computer games", "internet browsing"], "correctAnswer": "technology-based learning"},
-                  {"id": "topic1_b2", "options": ["enhanced accessibility to educational resources", "faster typing skills", "better graphics"], "correctAnswer": "enhanced accessibility to educational resources"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "technology-based learning",
+                      "computer games",
+                      "internet browsing"
+                    ],
+                    "correctAnswer": "technology-based learning"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "enhanced accessibility to educational resources",
+                      "faster typing skills",
+                      "better graphics"
+                    ],
+                    "correctAnswer": "enhanced accessibility to educational resources"
+                  }
                 ],
                 "correctSentence": "One significant advantage of technology-based learning is enhanced accessibility to educational resources.",
                 "usableIn": "body-paragraph-1"
@@ -278,8 +459,24 @@
                 "type": "template",
                 "template": "The primary benefit of _____ lies in _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["integrating digital tools in education", "buying tablets", "installing software"], "correctAnswer": "integrating digital tools in education"},
-                  {"id": "topic2_b2", "options": ["its capacity to personalize instruction for diverse learners", "lower paper costs", "modern appearance"], "correctAnswer": "its capacity to personalize instruction for diverse learners"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "integrating digital tools in education",
+                      "buying tablets",
+                      "installing software"
+                    ],
+                    "correctAnswer": "integrating digital tools in education"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "its capacity to personalize instruction for diverse learners",
+                      "lower paper costs",
+                      "modern appearance"
+                    ],
+                    "correctAnswer": "its capacity to personalize instruction for diverse learners"
+                  }
                 ],
                 "correctSentence": "The primary benefit of integrating digital tools in education lies in its capacity to personalize instruction for diverse learners.",
                 "usableIn": "body-paragraph-1"
@@ -289,10 +486,42 @@
                 "type": "template",
                 "template": "_____ contend that _____ enriches _____ through _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["Proponents of educational technology", "Some people", "Teachers"], "correctAnswer": "Proponents of educational technology"},
-                  {"id": "topic3_b2", "options": ["digital integration", "computer usage", "internet access"], "correctAnswer": "digital integration"},
-                  {"id": "topic3_b3", "options": ["the learning experience", "classroom decoration", "school reputation"], "correctAnswer": "the learning experience"},
-                  {"id": "topic3_b4", "options": ["interactive multimedia content", "colorful screens", "faster connections"], "correctAnswer": "interactive multimedia content"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "Proponents of educational technology",
+                      "Some people",
+                      "Teachers"
+                    ],
+                    "correctAnswer": "Proponents of educational technology"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "digital integration",
+                      "computer usage",
+                      "internet access"
+                    ],
+                    "correctAnswer": "digital integration"
+                  },
+                  {
+                    "id": "topic3_b3",
+                    "options": [
+                      "the learning experience",
+                      "classroom decoration",
+                      "school reputation"
+                    ],
+                    "correctAnswer": "the learning experience"
+                  },
+                  {
+                    "id": "topic3_b4",
+                    "options": [
+                      "interactive multimedia content",
+                      "colorful screens",
+                      "faster connections"
+                    ],
+                    "correctAnswer": "interactive multimedia content"
+                  }
                 ],
                 "correctSentence": "Proponents of educational technology contend that digital integration enriches the learning experience through interactive multimedia content.",
                 "usableIn": "body-paragraph-1"
@@ -302,8 +531,24 @@
                 "type": "template",
                 "template": "Educational technology facilitates _____ by enabling _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["more engaging instruction", "faster grading", "easier attendance"], "correctAnswer": "more engaging instruction"},
-                  {"id": "topic4_b2", "options": ["students to interact with complex concepts through simulations", "teachers to send emails", "schools to save paper"], "correctAnswer": "students to interact with complex concepts through simulations"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "more engaging instruction",
+                      "faster grading",
+                      "easier attendance"
+                    ],
+                    "correctAnswer": "more engaging instruction"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "students to interact with complex concepts through simulations",
+                      "teachers to send emails",
+                      "schools to save paper"
+                    ],
+                    "correctAnswer": "students to interact with complex concepts through simulations"
+                  }
                 ],
                 "correctSentence": "Educational technology facilitates more engaging instruction by enabling students to interact with complex concepts through simulations.",
                 "usableIn": "body-paragraph-1"
@@ -313,8 +558,24 @@
                 "type": "template",
                 "template": "However, _____ poses _____ that cannot be overlooked.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["the widespread adoption of digital learning", "using computers", "internet access"], "correctAnswer": "the widespread adoption of digital learning"},
-                  {"id": "topic5_b2", "options": ["serious equity concerns and health risks", "some small problems", "minor inconveniences"], "correctAnswer": "serious equity concerns and health risks"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "the widespread adoption of digital learning",
+                      "using computers",
+                      "internet access"
+                    ],
+                    "correctAnswer": "the widespread adoption of digital learning"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "serious equity concerns and health risks",
+                      "some small problems",
+                      "minor inconveniences"
+                    ],
+                    "correctAnswer": "serious equity concerns and health risks"
+                  }
                 ],
                 "correctSentence": "However, the widespread adoption of digital learning poses serious equity concerns and health risks that cannot be overlooked.",
                 "usableIn": "body-paragraph-2"
@@ -324,8 +585,24 @@
                 "type": "template",
                 "template": "A major disadvantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["replacing traditional methods with technology", "modern education", "computer usage"], "correctAnswer": "replacing traditional methods with technology"},
-                  {"id": "topic6_b2", "options": ["the exacerbation of educational inequality", "higher electricity bills", "technical glitches"], "correctAnswer": "the exacerbation of educational inequality"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "replacing traditional methods with technology",
+                      "modern education",
+                      "computer usage"
+                    ],
+                    "correctAnswer": "replacing traditional methods with technology"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "the exacerbation of educational inequality",
+                      "higher electricity bills",
+                      "technical glitches"
+                    ],
+                    "correctAnswer": "the exacerbation of educational inequality"
+                  }
                 ],
                 "correctSentence": "A major disadvantage of replacing traditional methods with technology is the exacerbation of educational inequality.",
                 "usableIn": "body-paragraph-2"
@@ -335,10 +612,42 @@
                 "type": "template",
                 "template": "_____ argue that _____ undermines _____ by _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["Critics of educational technology", "Some teachers", "Parents"], "correctAnswer": "Critics of educational technology"},
-                  {"id": "topic7_b2", "options": ["excessive screen time", "computer usage", "online learning"], "correctAnswer": "excessive screen time"},
-                  {"id": "topic7_b3", "options": ["student wellbeing", "test scores", "classroom order"], "correctAnswer": "student wellbeing"},
-                  {"id": "topic7_b4", "options": ["reducing physical activity and straining eyesight", "making noise", "costing money"], "correctAnswer": "reducing physical activity and straining eyesight"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "Critics of educational technology",
+                      "Some teachers",
+                      "Parents"
+                    ],
+                    "correctAnswer": "Critics of educational technology"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "excessive screen time",
+                      "computer usage",
+                      "online learning"
+                    ],
+                    "correctAnswer": "excessive screen time"
+                  },
+                  {
+                    "id": "topic7_b3",
+                    "options": [
+                      "student wellbeing",
+                      "test scores",
+                      "classroom order"
+                    ],
+                    "correctAnswer": "student wellbeing"
+                  },
+                  {
+                    "id": "topic7_b4",
+                    "options": [
+                      "reducing physical activity and straining eyesight",
+                      "making noise",
+                      "costing money"
+                    ],
+                    "correctAnswer": "reducing physical activity and straining eyesight"
+                  }
                 ],
                 "correctSentence": "Critics of educational technology argue that excessive screen time undermines student wellbeing by reducing physical activity and straining eyesight.",
                 "usableIn": "body-paragraph-2"
@@ -348,8 +657,24 @@
                 "type": "template",
                 "template": "Another significant drawback concerns _____ and _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["the substantial infrastructure costs", "computer colors", "screen sizes"], "correctAnswer": "the substantial infrastructure costs"},
-                  {"id": "topic8_b2", "options": ["the need for continuous technical support", "faster internet", "newer models"], "correctAnswer": "the need for continuous technical support"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "the substantial infrastructure costs",
+                      "computer colors",
+                      "screen sizes"
+                    ],
+                    "correctAnswer": "the substantial infrastructure costs"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "the need for continuous technical support",
+                      "faster internet",
+                      "newer models"
+                    ],
+                    "correctAnswer": "the need for continuous technical support"
+                  }
                 ],
                 "correctSentence": "Another significant drawback concerns the substantial infrastructure costs and the need for continuous technical support.",
                 "usableIn": "body-paragraph-2"
@@ -366,9 +691,33 @@
                 "type": "template",
                 "template": "This is because _____ enables students to _____ regardless of _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["online learning platforms", "computer games", "social media"], "correctAnswer": "online learning platforms"},
-                  {"id": "support1_b2", "options": ["access high-quality educational materials", "play videos", "chat with friends"], "correctAnswer": "access high-quality educational materials"},
-                  {"id": "support1_b3", "options": ["their geographic location or physical disabilities", "their favorite subjects", "school schedules"], "correctAnswer": "their geographic location or physical disabilities"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "online learning platforms",
+                      "computer games",
+                      "social media"
+                    ],
+                    "correctAnswer": "online learning platforms"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "access high-quality educational materials",
+                      "play videos",
+                      "chat with friends"
+                    ],
+                    "correctAnswer": "access high-quality educational materials"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": [
+                      "their geographic location or physical disabilities",
+                      "their favorite subjects",
+                      "school schedules"
+                    ],
+                    "correctAnswer": "their geographic location or physical disabilities"
+                  }
                 ],
                 "correctSentence": "This is because online learning platforms enable students to access high-quality educational materials regardless of their geographic location or physical disabilities.",
                 "usableIn": "body-paragraph-1"
@@ -378,9 +727,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ allows _____ to progress at _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["adaptive learning software", "computer programs", "digital devices"], "correctAnswer": "adaptive learning software"},
-                  {"id": "support2_b2", "options": ["individual learners", "all students", "teachers"], "correctAnswer": "individual learners"},
-                  {"id": "support2_b3", "options": ["their own optimal pace without falling behind or becoming bored", "normal speed", "different times"], "correctAnswer": "their own optimal pace without falling behind or becoming bored"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "adaptive learning software",
+                      "computer programs",
+                      "digital devices"
+                    ],
+                    "correctAnswer": "adaptive learning software"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "individual learners",
+                      "all students",
+                      "teachers"
+                    ],
+                    "correctAnswer": "individual learners"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "their own optimal pace without falling behind or becoming bored",
+                      "normal speed",
+                      "different times"
+                    ],
+                    "correctAnswer": "their own optimal pace without falling behind or becoming bored"
+                  }
                 ],
                 "correctSentence": "The main reason is that adaptive learning software allows individual learners to progress at their own optimal pace without falling behind or becoming bored.",
                 "usableIn": "body-paragraph-1"
@@ -390,9 +763,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which is essential for _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Interactive digital content", "Computer screens", "Internet connections"], "correctAnswer": "Interactive digital content"},
-                  {"id": "support3_b2", "options": ["active engagement with material", "passive viewing", "casual browsing"], "correctAnswer": "active engagement with material"},
-                  {"id": "support3_b3", "options": ["deep comprehension and knowledge retention", "passing tests", "finishing homework"], "correctAnswer": "deep comprehension and knowledge retention"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Interactive digital content",
+                      "Computer screens",
+                      "Internet connections"
+                    ],
+                    "correctAnswer": "Interactive digital content"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "active engagement with material",
+                      "passive viewing",
+                      "casual browsing"
+                    ],
+                    "correctAnswer": "active engagement with material"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "deep comprehension and knowledge retention",
+                      "passing tests",
+                      "finishing homework"
+                    ],
+                    "correctAnswer": "deep comprehension and knowledge retention"
+                  }
                 ],
                 "correctSentence": "Interactive digital content fosters active engagement with material, which is essential for deep comprehension and knowledge retention.",
                 "usableIn": "body-paragraph-1"
@@ -402,9 +799,33 @@
                 "type": "template",
                 "template": "By _____, technology _____ that would be impossible with _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["providing virtual laboratories and simulations", "showing videos", "displaying images"], "correctAnswer": "providing virtual laboratories and simulations"},
-                  {"id": "support4_b2", "options": ["creates immersive learning experiences", "saves paper", "reduces noise"], "correctAnswer": "creates immersive learning experiences"},
-                  {"id": "support4_b3", "options": ["traditional textbooks and lectures alone", "older technology", "physical classrooms"], "correctAnswer": "traditional textbooks and lectures alone"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "providing virtual laboratories and simulations",
+                      "showing videos",
+                      "displaying images"
+                    ],
+                    "correctAnswer": "providing virtual laboratories and simulations"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "creates immersive learning experiences",
+                      "saves paper",
+                      "reduces noise"
+                    ],
+                    "correctAnswer": "creates immersive learning experiences"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "traditional textbooks and lectures alone",
+                      "older technology",
+                      "physical classrooms"
+                    ],
+                    "correctAnswer": "traditional textbooks and lectures alone"
+                  }
                 ],
                 "correctSentence": "By providing virtual laboratories and simulations, technology creates immersive learning experiences that would be impossible with traditional textbooks and lectures alone.",
                 "usableIn": "body-paragraph-1"
@@ -414,9 +835,33 @@
                 "type": "template",
                 "template": "_____ contributes to _____ by offering _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["Educational technology", "Computer usage", "Internet browsing"], "correctAnswer": "Educational technology"},
-                  {"id": "support5_b2", "options": ["improved learning outcomes", "faster completion", "easier grading"], "correctAnswer": "improved learning outcomes"},
-                  {"id": "support5_b3", "options": ["immediate feedback and data-driven insights into student performance", "colorful graphics", "automated attendance"], "correctAnswer": "immediate feedback and data-driven insights into student performance"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "Educational technology",
+                      "Computer usage",
+                      "Internet browsing"
+                    ],
+                    "correctAnswer": "Educational technology"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "improved learning outcomes",
+                      "faster completion",
+                      "easier grading"
+                    ],
+                    "correctAnswer": "improved learning outcomes"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "immediate feedback and data-driven insights into student performance",
+                      "colorful graphics",
+                      "automated attendance"
+                    ],
+                    "correctAnswer": "immediate feedback and data-driven insights into student performance"
+                  }
                 ],
                 "correctSentence": "Educational technology contributes to improved learning outcomes by offering immediate feedback and data-driven insights into student performance.",
                 "usableIn": "body-paragraph-1"
@@ -426,9 +871,33 @@
                 "type": "template",
                 "template": "_____ prepares students for _____ in which _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Digital proficiency", "Computer skills", "Typing ability"], "correctAnswer": "Digital proficiency"},
-                  {"id": "support6_b2", "options": ["a workforce environment", "future jobs", "adult life"], "correctAnswer": "a workforce environment"},
-                  {"id": "support6_b3", "options": ["technological competence is increasingly indispensable", "computers are common", "technology exists"], "correctAnswer": "technological competence is increasingly indispensable"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Digital proficiency",
+                      "Computer skills",
+                      "Typing ability"
+                    ],
+                    "correctAnswer": "Digital proficiency"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "a workforce environment",
+                      "future jobs",
+                      "adult life"
+                    ],
+                    "correctAnswer": "a workforce environment"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "technological competence is increasingly indispensable",
+                      "computers are common",
+                      "technology exists"
+                    ],
+                    "correctAnswer": "technological competence is increasingly indispensable"
+                  }
                 ],
                 "correctSentence": "Digital proficiency prepares students for a workforce environment in which technological competence is increasingly indispensable.",
                 "usableIn": "body-paragraph-1"
@@ -438,9 +907,33 @@
                 "type": "template",
                 "template": "This is primarily because _____ creates _____ between students from _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["the digital divide", "internet speed", "computer brands"], "correctAnswer": "the digital divide"},
-                  {"id": "support7_b2", "options": ["profound disparities in educational opportunities", "some differences", "minor variations"], "correctAnswer": "profound disparities in educational opportunities"},
-                  {"id": "support7_b3", "options": ["affluent and disadvantaged socioeconomic backgrounds", "different schools", "various grades"], "correctAnswer": "affluent and disadvantaged socioeconomic backgrounds"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "the digital divide",
+                      "internet speed",
+                      "computer brands"
+                    ],
+                    "correctAnswer": "the digital divide"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "profound disparities in educational opportunities",
+                      "some differences",
+                      "minor variations"
+                    ],
+                    "correctAnswer": "profound disparities in educational opportunities"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": [
+                      "affluent and disadvantaged socioeconomic backgrounds",
+                      "different schools",
+                      "various grades"
+                    ],
+                    "correctAnswer": "affluent and disadvantaged socioeconomic backgrounds"
+                  }
                 ],
                 "correctSentence": "This is primarily because the digital divide creates profound disparities in educational opportunities between students from affluent and disadvantaged socioeconomic backgrounds.",
                 "usableIn": "body-paragraph-2"
@@ -450,9 +943,33 @@
                 "type": "template",
                 "template": "The fundamental issue is that _____ lack _____ necessary for _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["many underprivileged families", "some students", "certain schools"], "correctAnswer": "many underprivileged families"},
-                  {"id": "support8_b2", "options": ["reliable internet connectivity and modern devices", "computers", "technology"], "correctAnswer": "reliable internet connectivity and modern devices"},
-                  {"id": "support8_b3", "options": ["fully participating in technology-driven education", "online learning", "digital assignments"], "correctAnswer": "fully participating in technology-driven education"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "many underprivileged families",
+                      "some students",
+                      "certain schools"
+                    ],
+                    "correctAnswer": "many underprivileged families"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "reliable internet connectivity and modern devices",
+                      "computers",
+                      "technology"
+                    ],
+                    "correctAnswer": "reliable internet connectivity and modern devices"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "fully participating in technology-driven education",
+                      "online learning",
+                      "digital assignments"
+                    ],
+                    "correctAnswer": "fully participating in technology-driven education"
+                  }
                 ],
                 "correctSentence": "The fundamental issue is that many underprivileged families lack reliable internet connectivity and modern devices necessary for fully participating in technology-driven education.",
                 "usableIn": "body-paragraph-2"
@@ -462,9 +979,33 @@
                 "type": "template",
                 "template": "_____ diminishes _____ by encouraging _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Prolonged screen exposure", "Computer usage", "Technology"], "correctAnswer": "Prolonged screen exposure"},
-                  {"id": "support9_b2", "options": ["physical health and social development", "learning speed", "test performance"], "correctAnswer": "physical health and social development"},
-                  {"id": "support9_b3", "options": ["sedentary behavior and reducing face-to-face interpersonal skills", "sitting down", "less talking"], "correctAnswer": "sedentary behavior and reducing face-to-face interpersonal skills"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Prolonged screen exposure",
+                      "Computer usage",
+                      "Technology"
+                    ],
+                    "correctAnswer": "Prolonged screen exposure"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "physical health and social development",
+                      "learning speed",
+                      "test performance"
+                    ],
+                    "correctAnswer": "physical health and social development"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "sedentary behavior and reducing face-to-face interpersonal skills",
+                      "sitting down",
+                      "less talking"
+                    ],
+                    "correctAnswer": "sedentary behavior and reducing face-to-face interpersonal skills"
+                  }
                 ],
                 "correctSentence": "Prolonged screen exposure diminishes physical health and social development by encouraging sedentary behavior and reducing face-to-face interpersonal skills.",
                 "usableIn": "body-paragraph-2"
@@ -474,9 +1015,33 @@
                 "type": "template",
                 "template": "Moreover, _____ can lead to _____ when students become _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["overreliance on digital resources", "using computers", "internet access"], "correctAnswer": "overreliance on digital resources"},
-                  {"id": "support10_b2", "options": ["diminished critical thinking capabilities", "faster work", "better grades"], "correctAnswer": "diminished critical thinking capabilities"},
-                  {"id": "support10_b3", "options": ["overly dependent on automated tools rather than developing analytical skills", "lazy", "distracted"], "correctAnswer": "overly dependent on automated tools rather than developing analytical skills"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "overreliance on digital resources",
+                      "using computers",
+                      "internet access"
+                    ],
+                    "correctAnswer": "overreliance on digital resources"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "diminished critical thinking capabilities",
+                      "faster work",
+                      "better grades"
+                    ],
+                    "correctAnswer": "diminished critical thinking capabilities"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "overly dependent on automated tools rather than developing analytical skills",
+                      "lazy",
+                      "distracted"
+                    ],
+                    "correctAnswer": "overly dependent on automated tools rather than developing analytical skills"
+                  }
                 ],
                 "correctSentence": "Moreover, overreliance on digital resources can lead to diminished critical thinking capabilities when students become overly dependent on automated tools rather than developing analytical skills.",
                 "usableIn": "body-paragraph-2"
@@ -486,8 +1051,24 @@
                 "type": "template",
                 "template": "Consequently, _____ experience _____ that traditional instruction does not present.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["technology-dependent learners", "modern students", "young people"], "correctAnswer": "technology-dependent learners"},
-                  {"id": "support11_b2", "options": ["attention fragmentation and digital distractions", "some problems", "challenges"], "correctAnswer": "attention fragmentation and digital distractions"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "technology-dependent learners",
+                      "modern students",
+                      "young people"
+                    ],
+                    "correctAnswer": "technology-dependent learners"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "attention fragmentation and digital distractions",
+                      "some problems",
+                      "challenges"
+                    ],
+                    "correctAnswer": "attention fragmentation and digital distractions"
+                  }
                 ],
                 "correctSentence": "Consequently, technology-dependent learners experience attention fragmentation and digital distractions that traditional instruction does not present.",
                 "usableIn": "body-paragraph-2"
@@ -497,10 +1078,42 @@
                 "type": "template",
                 "template": "Additionally, _____ requires _____, which places _____ on _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["maintaining technology infrastructure", "buying computers", "using software"], "correctAnswer": "maintaining technology infrastructure"},
-                  {"id": "support12_b2", "options": ["substantial financial investment and ongoing training", "some money", "basic support"], "correctAnswer": "substantial financial investment and ongoing training"},
-                  {"id": "support12_b3", "options": ["considerable strain", "some pressure", "minor burden"], "correctAnswer": "considerable strain"},
-                  {"id": "support12_b4", "options": ["already underfunded educational budgets", "school finances", "available money"], "correctAnswer": "already underfunded educational budgets"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "maintaining technology infrastructure",
+                      "buying computers",
+                      "using software"
+                    ],
+                    "correctAnswer": "maintaining technology infrastructure"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "substantial financial investment and ongoing training",
+                      "some money",
+                      "basic support"
+                    ],
+                    "correctAnswer": "substantial financial investment and ongoing training"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "considerable strain",
+                      "some pressure",
+                      "minor burden"
+                    ],
+                    "correctAnswer": "considerable strain"
+                  },
+                  {
+                    "id": "support12_b4",
+                    "options": [
+                      "already underfunded educational budgets",
+                      "school finances",
+                      "available money"
+                    ],
+                    "correctAnswer": "already underfunded educational budgets"
+                  }
                 ],
                 "correctSentence": "Additionally, maintaining technology infrastructure requires substantial financial investment and ongoing training, which places considerable strain on already underfunded educational budgets.",
                 "usableIn": "body-paragraph-2"
@@ -517,9 +1130,33 @@
                 "type": "template",
                 "template": "For instance, _____ can now access _____ from institutions like _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["students in remote rural areas", "urban students", "wealthy families"], "correctAnswer": "students in remote rural areas"},
-                  {"id": "example1_b2", "options": ["world-class lectures and courses", "basic information", "video content"], "correctAnswer": "world-class lectures and courses"},
-                  {"id": "example1_b3", "options": ["MIT and Harvard through platforms such as edX", "local schools", "nearby colleges"], "correctAnswer": "MIT and Harvard through platforms such as edX"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "students in remote rural areas",
+                      "urban students",
+                      "wealthy families"
+                    ],
+                    "correctAnswer": "students in remote rural areas"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "world-class lectures and courses",
+                      "basic information",
+                      "video content"
+                    ],
+                    "correctAnswer": "world-class lectures and courses"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "MIT and Harvard through platforms such as edX",
+                      "local schools",
+                      "nearby colleges"
+                    ],
+                    "correctAnswer": "MIT and Harvard through platforms such as edX"
+                  }
                 ],
                 "correctSentence": "For instance, students in remote rural areas can now access world-class lectures and courses from institutions like MIT and Harvard through platforms such as edX.",
                 "usableIn": "body-paragraph-1"
@@ -529,10 +1166,42 @@
                 "type": "template",
                 "template": "For example, _____ such as _____ adjusts _____ based on _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["adaptive learning software", "computer programs", "digital tools"], "correctAnswer": "adaptive learning software"},
-                  {"id": "example2_b2", "options": ["Khan Academy", "YouTube", "Google"], "correctAnswer": "Khan Academy"},
-                  {"id": "example2_b3", "options": ["difficulty levels and pacing automatically", "content display", "screen brightness"], "correctAnswer": "difficulty levels and pacing automatically"},
-                  {"id": "example2_b4", "options": ["individual student performance and comprehension", "user preferences", "time of day"], "correctAnswer": "individual student performance and comprehension"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "adaptive learning software",
+                      "computer programs",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "adaptive learning software"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "Khan Academy",
+                      "YouTube",
+                      "Google"
+                    ],
+                    "correctAnswer": "Khan Academy"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "difficulty levels and pacing automatically",
+                      "content display",
+                      "screen brightness"
+                    ],
+                    "correctAnswer": "difficulty levels and pacing automatically"
+                  },
+                  {
+                    "id": "example2_b4",
+                    "options": [
+                      "individual student performance and comprehension",
+                      "user preferences",
+                      "time of day"
+                    ],
+                    "correctAnswer": "individual student performance and comprehension"
+                  }
                 ],
                 "correctSentence": "For example, adaptive learning software such as Khan Academy adjusts difficulty levels and pacing automatically based on individual student performance and comprehension.",
                 "usableIn": "body-paragraph-1"
@@ -542,9 +1211,33 @@
                 "type": "template",
                 "template": "Specifically, _____ in subjects like _____ allow students to _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["virtual laboratory simulations", "video lessons", "online quizzes"], "correctAnswer": "virtual laboratory simulations"},
-                  {"id": "example3_b2", "options": ["chemistry and physics", "history and art", "language learning"], "correctAnswer": "chemistry and physics"},
-                  {"id": "example3_b3", "options": ["conduct experiments safely without expensive equipment or hazardous materials", "watch demonstrations", "read textbooks"], "correctAnswer": "conduct experiments safely without expensive equipment or hazardous materials"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "virtual laboratory simulations",
+                      "video lessons",
+                      "online quizzes"
+                    ],
+                    "correctAnswer": "virtual laboratory simulations"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "chemistry and physics",
+                      "history and art",
+                      "language learning"
+                    ],
+                    "correctAnswer": "chemistry and physics"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "conduct experiments safely without expensive equipment or hazardous materials",
+                      "watch demonstrations",
+                      "read textbooks"
+                    ],
+                    "correctAnswer": "conduct experiments safely without expensive equipment or hazardous materials"
+                  }
                 ],
                 "correctSentence": "Specifically, virtual laboratory simulations in subjects like chemistry and physics allow students to conduct experiments safely without expensive equipment or hazardous materials.",
                 "usableIn": "body-paragraph-1"
@@ -554,9 +1247,33 @@
                 "type": "template",
                 "template": "Research by _____ demonstrates that _____ when instruction incorporates _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["the U.S. Department of Education", "local schools", "some teachers"], "correctAnswer": "the U.S. Department of Education"},
-                  {"id": "example4_b2", "options": ["students retain information more effectively", "learning happens", "grades improve"], "correctAnswer": "students retain information more effectively"},
-                  {"id": "example4_b3", "options": ["interactive multimedia elements compared to static text alone", "technology", "computers"], "correctAnswer": "interactive multimedia elements compared to static text alone"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "the U.S. Department of Education",
+                      "local schools",
+                      "some teachers"
+                    ],
+                    "correctAnswer": "the U.S. Department of Education"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "students retain information more effectively",
+                      "learning happens",
+                      "grades improve"
+                    ],
+                    "correctAnswer": "students retain information more effectively"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "interactive multimedia elements compared to static text alone",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "interactive multimedia elements compared to static text alone"
+                  }
                 ],
                 "correctSentence": "Research by the U.S. Department of Education demonstrates that students retain information more effectively when instruction incorporates interactive multimedia elements compared to static text alone.",
                 "usableIn": "body-paragraph-1"
@@ -566,10 +1283,42 @@
                 "type": "template",
                 "template": "In particular, _____ such as _____ benefit significantly from _____ that provide _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["students with learning disabilities", "gifted students", "average students"], "correctAnswer": "students with learning disabilities"},
-                  {"id": "example5_b2", "options": ["dyslexia or ADHD", "high intelligence", "good memory"], "correctAnswer": "dyslexia or ADHD"},
-                  {"id": "example5_b3", "options": ["assistive technologies", "standard software", "basic programs"], "correctAnswer": "assistive technologies"},
-                  {"id": "example5_b4", "options": ["text-to-speech features and customizable interfaces", "general support", "basic functions"], "correctAnswer": "text-to-speech features and customizable interfaces"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "students with learning disabilities",
+                      "gifted students",
+                      "average students"
+                    ],
+                    "correctAnswer": "students with learning disabilities"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "dyslexia or ADHD",
+                      "high intelligence",
+                      "good memory"
+                    ],
+                    "correctAnswer": "dyslexia or ADHD"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "assistive technologies",
+                      "standard software",
+                      "basic programs"
+                    ],
+                    "correctAnswer": "assistive technologies"
+                  },
+                  {
+                    "id": "example5_b4",
+                    "options": [
+                      "text-to-speech features and customizable interfaces",
+                      "general support",
+                      "basic functions"
+                    ],
+                    "correctAnswer": "text-to-speech features and customizable interfaces"
+                  }
                 ],
                 "correctSentence": "In particular, students with learning disabilities such as dyslexia or ADHD benefit significantly from assistive technologies that provide text-to-speech features and customizable interfaces.",
                 "usableIn": "body-paragraph-1"
@@ -579,9 +1328,33 @@
                 "type": "template",
                 "template": "Conversely, during _____, students from _____ fell behind because _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["the COVID-19 pandemic", "summer vacation", "school holidays"], "correctAnswer": "the COVID-19 pandemic"},
-                  {"id": "example6_b2", "options": ["low-income households", "wealthy families", "urban areas"], "correctAnswer": "low-income households"},
-                  {"id": "example6_b3", "options": ["they lacked adequate devices and internet access for remote learning", "they were lazy", "schools were closed"], "correctAnswer": "they lacked adequate devices and internet access for remote learning"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "the COVID-19 pandemic",
+                      "summer vacation",
+                      "school holidays"
+                    ],
+                    "correctAnswer": "the COVID-19 pandemic"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "low-income households",
+                      "wealthy families",
+                      "urban areas"
+                    ],
+                    "correctAnswer": "low-income households"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "they lacked adequate devices and internet access for remote learning",
+                      "they were lazy",
+                      "schools were closed"
+                    ],
+                    "correctAnswer": "they lacked adequate devices and internet access for remote learning"
+                  }
                 ],
                 "correctSentence": "Conversely, during the COVID-19 pandemic, students from low-income households fell behind because they lacked adequate devices and internet access for remote learning.",
                 "usableIn": "body-paragraph-2"
@@ -591,9 +1364,33 @@
                 "type": "template",
                 "template": "According to _____, children who spend _____ on screens daily face _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["pediatric health studies", "some reports", "news articles"], "correctAnswer": "pediatric health studies"},
-                  {"id": "example7_b2", "options": ["more than four hours", "some time", "a few minutes"], "correctAnswer": "more than four hours"},
-                  {"id": "example7_b3", "options": ["increased risks of obesity, sleep disorders, and vision problems", "minor issues", "temporary discomfort"], "correctAnswer": "increased risks of obesity, sleep disorders, and vision problems"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "pediatric health studies",
+                      "some reports",
+                      "news articles"
+                    ],
+                    "correctAnswer": "pediatric health studies"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "more than four hours",
+                      "some time",
+                      "a few minutes"
+                    ],
+                    "correctAnswer": "more than four hours"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "increased risks of obesity, sleep disorders, and vision problems",
+                      "minor issues",
+                      "temporary discomfort"
+                    ],
+                    "correctAnswer": "increased risks of obesity, sleep disorders, and vision problems"
+                  }
                 ],
                 "correctSentence": "According to pediatric health studies, children who spend more than four hours on screens daily face increased risks of obesity, sleep disorders, and vision problems.",
                 "usableIn": "body-paragraph-2"
@@ -603,9 +1400,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: despite implementing _____, the district struggled with _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["Los Angeles Unified School District", "a local school", "some institution"], "correctAnswer": "Los Angeles Unified School District"},
-                  {"id": "example8_b2", "options": ["a costly one-to-one iPad program", "new computers", "digital tools"], "correctAnswer": "a costly one-to-one iPad program"},
-                  {"id": "example8_b3", "options": ["technical difficulties, inadequate teacher training, and infrastructure limitations", "minor problems", "small challenges"], "correctAnswer": "technical difficulties, inadequate teacher training, and infrastructure limitations"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "Los Angeles Unified School District",
+                      "a local school",
+                      "some institution"
+                    ],
+                    "correctAnswer": "Los Angeles Unified School District"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "a costly one-to-one iPad program",
+                      "new computers",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "a costly one-to-one iPad program"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "technical difficulties, inadequate teacher training, and infrastructure limitations",
+                      "minor problems",
+                      "small challenges"
+                    ],
+                    "correctAnswer": "technical difficulties, inadequate teacher training, and infrastructure limitations"
+                  }
                 ],
                 "correctSentence": "Take Los Angeles Unified School District as an example: despite implementing a costly one-to-one iPad program, the district struggled with technical difficulties, inadequate teacher training, and infrastructure limitations.",
                 "usableIn": "body-paragraph-2"
@@ -615,10 +1436,42 @@
                 "type": "template",
                 "template": "Evidence from _____ shows that students who _____ demonstrate _____ compared to _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["educational psychology research", "some studies", "recent surveys"], "correctAnswer": "educational psychology research"},
-                  {"id": "example9_b2", "options": ["primarily learn through screens", "use computers", "have technology"], "correctAnswer": "primarily learn through screens"},
-                  {"id": "example9_b3", "options": ["weaker handwriting skills and reduced spatial reasoning", "some differences", "varied results"], "correctAnswer": "weaker handwriting skills and reduced spatial reasoning"},
-                  {"id": "example9_b4", "options": ["peers using balanced instructional approaches", "other students", "previous generations"], "correctAnswer": "peers using balanced instructional approaches"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "educational psychology research",
+                      "some studies",
+                      "recent surveys"
+                    ],
+                    "correctAnswer": "educational psychology research"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "primarily learn through screens",
+                      "use computers",
+                      "have technology"
+                    ],
+                    "correctAnswer": "primarily learn through screens"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "weaker handwriting skills and reduced spatial reasoning",
+                      "some differences",
+                      "varied results"
+                    ],
+                    "correctAnswer": "weaker handwriting skills and reduced spatial reasoning"
+                  },
+                  {
+                    "id": "example9_b4",
+                    "options": [
+                      "peers using balanced instructional approaches",
+                      "other students",
+                      "previous generations"
+                    ],
+                    "correctAnswer": "peers using balanced instructional approaches"
+                  }
                 ],
                 "correctSentence": "Evidence from educational psychology research shows that students who primarily learn through screens demonstrate weaker handwriting skills and reduced spatial reasoning compared to peers using balanced instructional approaches.",
                 "usableIn": "body-paragraph-2"
@@ -628,10 +1481,42 @@
                 "type": "template",
                 "template": "A study conducted in _____ found that _____ reported _____ after transitioning to _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["South Korean schools", "some classrooms", "various places"], "correctAnswer": "South Korean schools"},
-                  {"id": "example10_b2", "options": ["both teachers and students", "administrators", "parents"], "correctAnswer": "both teachers and students"},
-                  {"id": "example10_b3", "options": ["higher stress levels and digital fatigue", "better results", "mixed feelings"], "correctAnswer": "higher stress levels and digital fatigue"},
-                  {"id": "example10_b4", "options": ["fully digital curricula", "new methods", "modern approaches"], "correctAnswer": "fully digital curricula"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "South Korean schools",
+                      "some classrooms",
+                      "various places"
+                    ],
+                    "correctAnswer": "South Korean schools"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "both teachers and students",
+                      "administrators",
+                      "parents"
+                    ],
+                    "correctAnswer": "both teachers and students"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "higher stress levels and digital fatigue",
+                      "better results",
+                      "mixed feelings"
+                    ],
+                    "correctAnswer": "higher stress levels and digital fatigue"
+                  },
+                  {
+                    "id": "example10_b4",
+                    "options": [
+                      "fully digital curricula",
+                      "new methods",
+                      "modern approaches"
+                    ],
+                    "correctAnswer": "fully digital curricula"
+                  }
                 ],
                 "correctSentence": "A study conducted in South Korean schools found that both teachers and students reported higher stress levels and digital fatigue after transitioning to fully digital curricula.",
                 "usableIn": "body-paragraph-2"
@@ -648,8 +1533,24 @@
                 "type": "template",
                 "template": "However, these advantages must be balanced against _____ that disproportionately affects _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["the persistent digital divide", "minor inconveniences", "technical issues"], "correctAnswer": "the persistent digital divide"},
-                  {"id": "counter1_b2", "options": ["marginalized and economically disadvantaged communities", "some students", "certain groups"], "correctAnswer": "marginalized and economically disadvantaged communities"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "the persistent digital divide",
+                      "minor inconveniences",
+                      "technical issues"
+                    ],
+                    "correctAnswer": "the persistent digital divide"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "marginalized and economically disadvantaged communities",
+                      "some students",
+                      "certain groups"
+                    ],
+                    "correctAnswer": "marginalized and economically disadvantaged communities"
+                  }
                 ],
                 "correctSentence": "However, these advantages must be balanced against the persistent digital divide that disproportionately affects marginalized and economically disadvantaged communities.",
                 "usableIn": "body-paragraph-1"
@@ -659,9 +1560,33 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ can _____ if _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["technology integration", "computer usage", "digital tools"], "correctAnswer": "technology integration"},
-                  {"id": "counter2_b2", "options": ["exacerbate existing inequalities", "cause problems", "create issues"], "correctAnswer": "exacerbate existing inequalities"},
-                  {"id": "counter2_b3", "options": ["not accompanied by equitable resource distribution", "poorly implemented", "too expensive"], "correctAnswer": "not accompanied by equitable resource distribution"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "technology integration",
+                      "computer usage",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "technology integration"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "exacerbate existing inequalities",
+                      "cause problems",
+                      "create issues"
+                    ],
+                    "correctAnswer": "exacerbate existing inequalities"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": [
+                      "not accompanied by equitable resource distribution",
+                      "poorly implemented",
+                      "too expensive"
+                    ],
+                    "correctAnswer": "not accompanied by equitable resource distribution"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, technology integration can exacerbate existing inequalities if not accompanied by equitable resource distribution.",
                 "usableIn": "body-paragraph-1"
@@ -671,8 +1596,24 @@
                 "type": "template",
                 "template": "Nevertheless, these concerns can be mitigated through _____ and _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["thoughtful implementation policies", "buying more devices", "faster internet"], "correctAnswer": "thoughtful implementation policies"},
-                  {"id": "counter3_b2", "options": ["comprehensive support systems for disadvantaged students", "better computers", "newer software"], "correctAnswer": "comprehensive support systems for disadvantaged students"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "thoughtful implementation policies",
+                      "buying more devices",
+                      "faster internet"
+                    ],
+                    "correctAnswer": "thoughtful implementation policies"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "comprehensive support systems for disadvantaged students",
+                      "better computers",
+                      "newer software"
+                    ],
+                    "correctAnswer": "comprehensive support systems for disadvantaged students"
+                  }
                 ],
                 "correctSentence": "Nevertheless, these concerns can be mitigated through thoughtful implementation policies and comprehensive support systems for disadvantaged students.",
                 "usableIn": "body-paragraph-2"
@@ -682,9 +1623,33 @@
                 "type": "template",
                 "template": "Although _____ presents risks, _____ when schools establish _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["increased screen time", "computer usage", "technology"], "correctAnswer": "increased screen time"},
-                  {"id": "counter4_b2", "options": ["these can be managed effectively", "problems disappear", "issues resolve"], "correctAnswer": "these can be managed effectively"},
-                  {"id": "counter4_b3", "options": ["clear usage guidelines and promote balanced digital-physical learning activities", "basic rules", "time limits"], "correctAnswer": "clear usage guidelines and promote balanced digital-physical learning activities"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "increased screen time",
+                      "computer usage",
+                      "technology"
+                    ],
+                    "correctAnswer": "increased screen time"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "these can be managed effectively",
+                      "problems disappear",
+                      "issues resolve"
+                    ],
+                    "correctAnswer": "these can be managed effectively"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "clear usage guidelines and promote balanced digital-physical learning activities",
+                      "basic rules",
+                      "time limits"
+                    ],
+                    "correctAnswer": "clear usage guidelines and promote balanced digital-physical learning activities"
+                  }
                 ],
                 "correctSentence": "Although increased screen time presents risks, these can be managed effectively when schools establish clear usage guidelines and promote balanced digital-physical learning activities.",
                 "usableIn": "body-paragraph-2"
@@ -694,9 +1659,33 @@
                 "type": "template",
                 "template": "While _____ is valid, it should not _____ given that _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["the concern about educational inequality", "criticism of technology", "worry about costs"], "correctAnswer": "the concern about educational inequality"},
-                  {"id": "counter5_b2", "options": ["overshadow the transformative potential of technology", "stop progress", "prevent changes"], "correctAnswer": "overshadow the transformative potential of technology"},
-                  {"id": "counter5_b3", "options": ["targeted interventions can ensure broader access", "solutions exist", "improvements happen"], "correctAnswer": "targeted interventions can ensure broader access"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "the concern about educational inequality",
+                      "criticism of technology",
+                      "worry about costs"
+                    ],
+                    "correctAnswer": "the concern about educational inequality"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "overshadow the transformative potential of technology",
+                      "stop progress",
+                      "prevent changes"
+                    ],
+                    "correctAnswer": "overshadow the transformative potential of technology"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "targeted interventions can ensure broader access",
+                      "solutions exist",
+                      "improvements happen"
+                    ],
+                    "correctAnswer": "targeted interventions can ensure broader access"
+                  }
                 ],
                 "correctSentence": "While the concern about educational inequality is valid, it should not overshadow the transformative potential of technology given that targeted interventions can ensure broader access.",
                 "usableIn": "body-paragraph-2"
@@ -713,10 +1702,42 @@
                 "type": "template",
                 "template": "In conclusion, while _____ presents _____, I believe _____ when _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["educational technology", "digital learning", "computer usage"], "correctAnswer": "educational technology"},
-                  {"id": "conclusion1_b2", "options": ["legitimate challenges regarding equity and wellbeing", "some problems", "certain issues"], "correctAnswer": "legitimate challenges regarding equity and wellbeing"},
-                  {"id": "conclusion1_b3", "options": ["the advantages significantly outweigh the disadvantages", "it is generally good", "benefits exist"], "correctAnswer": "the advantages significantly outweigh the disadvantages"},
-                  {"id": "conclusion1_b4", "options": ["implemented with appropriate safeguards and support systems", "done properly", "schools are careful"], "correctAnswer": "implemented with appropriate safeguards and support systems"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "educational technology",
+                      "digital learning",
+                      "computer usage"
+                    ],
+                    "correctAnswer": "educational technology"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "legitimate challenges regarding equity and wellbeing",
+                      "some problems",
+                      "certain issues"
+                    ],
+                    "correctAnswer": "legitimate challenges regarding equity and wellbeing"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": [
+                      "the advantages significantly outweigh the disadvantages",
+                      "it is generally good",
+                      "benefits exist"
+                    ],
+                    "correctAnswer": "the advantages significantly outweigh the disadvantages"
+                  },
+                  {
+                    "id": "conclusion1_b4",
+                    "options": [
+                      "implemented with appropriate safeguards and support systems",
+                      "done properly",
+                      "schools are careful"
+                    ],
+                    "correctAnswer": "implemented with appropriate safeguards and support systems"
+                  }
                 ],
                 "correctSentence": "In conclusion, while educational technology presents legitimate challenges regarding equity and wellbeing, I believe the advantages significantly outweigh the disadvantages when implemented with appropriate safeguards and support systems.",
                 "usableIn": "conclusion"
@@ -726,10 +1747,42 @@
                 "type": "template",
                 "template": "Overall, _____ offers _____, whereas _____ poses _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["technology-based instruction", "computer learning", "digital education"], "correctAnswer": "technology-based instruction"},
-                  {"id": "conclusion2_b2", "options": ["unprecedented opportunities for personalized and accessible learning", "good features", "useful tools"], "correctAnswer": "unprecedented opportunities for personalized and accessible learning"},
-                  {"id": "conclusion2_b3", "options": ["its widespread adoption", "using it", "implementation"], "correctAnswer": "its widespread adoption"},
-                  {"id": "conclusion2_b4", "options": ["risks of deepening inequality and compromising student health", "some concerns", "potential problems"], "correctAnswer": "risks of deepening inequality and compromising student health"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "technology-based instruction",
+                      "computer learning",
+                      "digital education"
+                    ],
+                    "correctAnswer": "technology-based instruction"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "unprecedented opportunities for personalized and accessible learning",
+                      "good features",
+                      "useful tools"
+                    ],
+                    "correctAnswer": "unprecedented opportunities for personalized and accessible learning"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "its widespread adoption",
+                      "using it",
+                      "implementation"
+                    ],
+                    "correctAnswer": "its widespread adoption"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "risks of deepening inequality and compromising student health",
+                      "some concerns",
+                      "potential problems"
+                    ],
+                    "correctAnswer": "risks of deepening inequality and compromising student health"
+                  }
                 ],
                 "correctSentence": "Overall, technology-based instruction offers unprecedented opportunities for personalized and accessible learning, whereas its widespread adoption poses risks of deepening inequality and compromising student health.",
                 "usableIn": "conclusion"
@@ -739,8 +1792,24 @@
                 "type": "template",
                 "template": "To summarize, the success of _____ depends critically on _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["digital transformation in education", "technology integration", "computer implementation"], "correctAnswer": "digital transformation in education"},
-                  {"id": "conclusion3_b2", "options": ["ensuring equitable access and maintaining balance with traditional pedagogical approaches", "having good computers", "proper planning"], "correctAnswer": "ensuring equitable access and maintaining balance with traditional pedagogical approaches"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "digital transformation in education",
+                      "technology integration",
+                      "computer implementation"
+                    ],
+                    "correctAnswer": "digital transformation in education"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "ensuring equitable access and maintaining balance with traditional pedagogical approaches",
+                      "having good computers",
+                      "proper planning"
+                    ],
+                    "correctAnswer": "ensuring equitable access and maintaining balance with traditional pedagogical approaches"
+                  }
                 ],
                 "correctSentence": "To summarize, the success of digital transformation in education depends critically on ensuring equitable access and maintaining balance with traditional pedagogical approaches.",
                 "usableIn": "conclusion"
@@ -750,9 +1819,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should prioritize _____ while _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["educational policymakers", "school administrators", "teachers"], "correctAnswer": "educational policymakers"},
-                  {"id": "conclusion4_b2", "options": ["leveraging technology's benefits", "using computers", "implementing changes"], "correctAnswer": "leveraging technology's benefits"},
-                  {"id": "conclusion4_b3", "options": ["actively addressing infrastructure gaps and health concerns", "fixing problems", "making improvements"], "correctAnswer": "actively addressing infrastructure gaps and health concerns"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "educational policymakers",
+                      "school administrators",
+                      "teachers"
+                    ],
+                    "correctAnswer": "educational policymakers"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "leveraging technology's benefits",
+                      "using computers",
+                      "implementing changes"
+                    ],
+                    "correctAnswer": "leveraging technology's benefits"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "actively addressing infrastructure gaps and health concerns",
+                      "fixing problems",
+                      "making improvements"
+                    ],
+                    "correctAnswer": "actively addressing infrastructure gaps and health concerns"
+                  }
                 ],
                 "correctSentence": "Ultimately, educational policymakers should prioritize leveraging technology's benefits while actively addressing infrastructure gaps and health concerns.",
                 "usableIn": "conclusion"
@@ -762,9 +1855,33 @@
                 "type": "template",
                 "template": "In my view, _____ represents _____ provided that _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["a blended learning approach combining technology with traditional methods", "using both old and new ways", "mixed teaching"], "correctAnswer": "a blended learning approach combining technology with traditional methods"},
-                  {"id": "conclusion5_b2", "options": ["the optimal educational strategy", "the best solution", "good practice"], "correctAnswer": "the optimal educational strategy"},
-                  {"id": "conclusion5_b3", "options": ["institutions commit to inclusive access and evidence-based implementation", "schools try their best", "everyone participates"], "correctAnswer": "institutions commit to inclusive access and evidence-based implementation"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "a blended learning approach combining technology with traditional methods",
+                      "using both old and new ways",
+                      "mixed teaching"
+                    ],
+                    "correctAnswer": "a blended learning approach combining technology with traditional methods"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the optimal educational strategy",
+                      "the best solution",
+                      "good practice"
+                    ],
+                    "correctAnswer": "the optimal educational strategy"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "institutions commit to inclusive access and evidence-based implementation",
+                      "schools try their best",
+                      "everyone participates"
+                    ],
+                    "correctAnswer": "institutions commit to inclusive access and evidence-based implementation"
+                  }
                 ],
                 "correctSentence": "In my view, a blended learning approach combining technology with traditional methods represents the optimal educational strategy provided that institutions commit to inclusive access and evidence-based implementation.",
                 "usableIn": "conclusion"
@@ -774,9 +1891,33 @@
                 "type": "template",
                 "template": "On balance, _____ justify _____, particularly as _____.",
                 "blanks": [
-                  {"id": "conclusion6_b1", "options": ["the pedagogical and accessibility gains", "technology benefits", "positive outcomes"], "correctAnswer": "the pedagogical and accessibility gains"},
-                  {"id": "conclusion6_b2", "options": ["continued investment in educational technology", "buying more devices", "using computers"], "correctAnswer": "continued investment in educational technology"},
-                  {"id": "conclusion6_b3", "options": ["solutions emerge to address current limitations", "problems get fixed", "improvements happen"], "correctAnswer": "solutions emerge to address current limitations"}
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "the pedagogical and accessibility gains",
+                      "technology benefits",
+                      "positive outcomes"
+                    ],
+                    "correctAnswer": "the pedagogical and accessibility gains"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "continued investment in educational technology",
+                      "buying more devices",
+                      "using computers"
+                    ],
+                    "correctAnswer": "continued investment in educational technology"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": [
+                      "solutions emerge to address current limitations",
+                      "problems get fixed",
+                      "improvements happen"
+                    ],
+                    "correctAnswer": "solutions emerge to address current limitations"
+                  }
                 ],
                 "correctSentence": "On balance, the pedagogical and accessibility gains justify continued investment in educational technology, particularly as solutions emerge to address current limitations.",
                 "usableIn": "conclusion"
@@ -786,9 +1927,33 @@
                 "type": "template",
                 "template": "Therefore, while _____ require attention, they should not _____ of _____.",
                 "blanks": [
-                  {"id": "conclusion7_b1", "options": ["equity and health concerns", "some problems", "certain issues"], "correctAnswer": "equity and health concerns"},
-                  {"id": "conclusion7_b2", "options": ["overshadow the substantial educational benefits", "stop progress", "prevent change"], "correctAnswer": "overshadow the substantial educational benefits"},
-                  {"id": "conclusion7_b3", "options": ["thoughtfully integrated technology", "computer usage", "digital tools"], "correctAnswer": "thoughtfully integrated technology"}
+                  {
+                    "id": "conclusion7_b1",
+                    "options": [
+                      "equity and health concerns",
+                      "some problems",
+                      "certain issues"
+                    ],
+                    "correctAnswer": "equity and health concerns"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": [
+                      "overshadow the substantial educational benefits",
+                      "stop progress",
+                      "prevent change"
+                    ],
+                    "correctAnswer": "overshadow the substantial educational benefits"
+                  },
+                  {
+                    "id": "conclusion7_b3",
+                    "options": [
+                      "thoughtfully integrated technology",
+                      "computer usage",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "thoughtfully integrated technology"
+                  }
                 ],
                 "correctSentence": "Therefore, while equity and health concerns require attention, they should not overshadow the substantial educational benefits of thoughtfully integrated technology.",
                 "usableIn": "conclusion"
@@ -798,10 +1963,42 @@
                 "type": "template",
                 "template": "In summary, _____ constitutes _____, despite _____ that demand _____.",
                 "blanks": [
-                  {"id": "conclusion8_b1", "options": ["the integration of technology in education", "using computers", "digital learning"], "correctAnswer": "the integration of technology in education"},
-                  {"id": "conclusion8_b2", "options": ["a net positive development", "good change", "progress"], "correctAnswer": "a net positive development"},
-                  {"id": "conclusion8_b3", "options": ["significant implementation challenges", "some problems", "various issues"], "correctAnswer": "significant implementation challenges"},
-                  {"id": "conclusion8_b4", "options": ["ongoing vigilance and policy intervention", "attention", "solutions"], "correctAnswer": "ongoing vigilance and policy intervention"}
+                  {
+                    "id": "conclusion8_b1",
+                    "options": [
+                      "the integration of technology in education",
+                      "using computers",
+                      "digital learning"
+                    ],
+                    "correctAnswer": "the integration of technology in education"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": [
+                      "a net positive development",
+                      "good change",
+                      "progress"
+                    ],
+                    "correctAnswer": "a net positive development"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": [
+                      "significant implementation challenges",
+                      "some problems",
+                      "various issues"
+                    ],
+                    "correctAnswer": "significant implementation challenges"
+                  },
+                  {
+                    "id": "conclusion8_b4",
+                    "options": [
+                      "ongoing vigilance and policy intervention",
+                      "attention",
+                      "solutions"
+                    ],
+                    "correctAnswer": "ongoing vigilance and policy intervention"
+                  }
                 ],
                 "correctSentence": "In summary, the integration of technology in education constitutes a net positive development, despite significant implementation challenges that demand ongoing vigilance and policy intervention.",
                 "usableIn": "conclusion"
@@ -854,12 +2051,43 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_advantages": ["One significant advantage", "A key benefit", "On the positive side", "Technology facilitates"],
-          "presenting_disadvantages": ["However", "Conversely", "A major disadvantage", "On the negative side"],
-          "adding_information": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "giving_examples": ["For instance", "For example", "Specifically", "Take X as an example"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "contrasting": ["However", "Nevertheless", "Despite this", "On the contrary", "Conversely"]
+          "presenting_advantages": [
+            "One significant advantage",
+            "A key benefit",
+            "On the positive side",
+            "Technology facilitates"
+          ],
+          "presenting_disadvantages": [
+            "However",
+            "Conversely",
+            "A major disadvantage",
+            "On the negative side"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Specifically",
+            "Take X as an example"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "Despite this",
+            "On the contrary",
+            "Conversely"
+          ]
         }
       }
     },
@@ -1031,11 +2259,11 @@
     }
   ],
   "modelEssay": {
-    "text": "Educational institutions worldwide are increasingly integrating technology-based approaches in place of traditional teaching methods. While this transformation offers substantial pedagogical advantages, it also presents significant challenges regarding equity and student wellbeing. In my opinion, the benefits outweigh the drawbacks when technology is implemented thoughtfully with appropriate support systems.\n\nOne primary advantage of educational technology is enhanced accessibility to high-quality learning resources. Online platforms enable students to access world-class courses and materials regardless of geographic location or physical disabilities. For instance, learners in remote rural areas can now access lectures from prestigious institutions like MIT and Harvard through platforms such as edX and Coursera. Moreover, adaptive learning software such as Khan Academy personalizes instruction by automatically adjusting difficulty based on individual performance, allowing students to progress at their optimal pace. Consequently, technology democratizes education by removing traditional barriers and providing opportunities once limited to privileged populations.\n\nHowever, widespread adoption of educational technology poses serious equity concerns that cannot be overlooked. The fundamental issue is that many disadvantaged families lack reliable internet connectivity and modern devices necessary for fully participating in technology-driven education. During the COVID-19 pandemic, this digital divide became starkly apparent when students from low-income households fell significantly behind their wealthier peers who possessed adequate technological resources. Additionally, pediatric health studies indicate that children spending excessive time on screens face increased risks of obesity, vision problems, and sleep disorders. These disparities threaten to widen rather than narrow educational inequality.\n\nIn conclusion, while educational technology presents legitimate challenges regarding access and student health, I believe the pedagogical advantages significantly outweigh these disadvantages when institutions prioritize equitable resource distribution and establish balanced implementation policies.",
+    "text": "Educational institutions worldwide are increasingly integrating technology-based approaches in place of traditional teaching methods. While this transformation offers substantial pedagogical advantages, it also presents significant challenges regarding equity and student wellbeing. In my opinion, the benefits outweigh the drawbacks when technology is implemented thoughtfully with appropriate support systems.\n\nOne primary advantage of educational technology is enhanced accessibility to high-quality learning resources. Online platforms allow students to access world-class courses and materials regardless of geographic location or physical disabilities. For instance, learners in remote rural areas can now access lectures from prestigious institutions like MIT and Harvard through platforms such as edX and Coursera. Moreover, adaptive learning software such as Khan Academy personalizes instruction by automatically adjusting difficulty based on individual performance, allowing students to progress at their optimal pace. Consequently, technology democratizes education by removing traditional barriers and providing opportunities once limited to privileged populations.\n\nHowever, widespread adoption of educational technology poses serious equity concerns that cannot be overlooked. The fundamental issue is that many disadvantaged families lack reliable internet connectivity and modern devices necessary for fully participating in technology-driven education. During the COVID-19 pandemic, this digital divide became starkly apparent when students from low-income households fell significantly behind their wealthier peers who possessed adequate technological resources. Additionally, pediatric health studies indicate that children spending excessive time on screens face increased risks of obesity, vision problems, and sleep disorders. These disparities threaten to widen rather than narrow educational inequality.\n\nIn conclusion, while educational technology presents legitimate challenges regarding access and student health, I believe the pedagogical advantages significantly outweigh these disadvantages when institutions prioritize equitable resource distribution and establish balanced implementation policies.",
     "wordCount": 276,
     "structure": {
       "introduction": "Educational institutions worldwide are increasingly integrating technology-based approaches in place of traditional teaching methods. While this transformation offers substantial pedagogical advantages, it also presents significant challenges regarding equity and student wellbeing. In my opinion, the benefits outweigh the drawbacks when technology is implemented thoughtfully with appropriate support systems.",
-      "body1": "One primary advantage of educational technology is enhanced accessibility to high-quality learning resources. Online platforms enable students to access world-class courses and materials regardless of geographic location or physical disabilities. For instance, learners in remote rural areas can now access lectures from prestigious institutions like MIT and Harvard through platforms such as edX and Coursera. Moreover, adaptive learning software such as Khan Academy personalizes instruction by automatically adjusting difficulty based on individual performance, allowing students to progress at their optimal pace. Consequently, technology democratizes education by removing traditional barriers and providing opportunities once limited to privileged populations.",
+      "body1": "One primary advantage of educational technology is enhanced accessibility to high-quality learning resources. Online platforms allow students to access world-class courses and materials regardless of geographic location or physical disabilities. For instance, learners in remote rural areas can now access lectures from prestigious institutions like MIT and Harvard through platforms such as edX and Coursera. Moreover, adaptive learning software such as Khan Academy personalizes instruction by automatically adjusting difficulty based on individual performance, allowing students to progress at their optimal pace. Consequently, technology democratizes education by removing traditional barriers and providing opportunities once limited to privileged populations.",
       "body2": "However, widespread adoption of educational technology poses serious equity concerns that cannot be overlooked. The fundamental issue is that many disadvantaged families lack reliable internet connectivity and modern devices necessary for fully participating in technology-driven education. During the COVID-19 pandemic, this digital divide became starkly apparent when students from low-income households fell significantly behind their wealthier peers who possessed adequate technological resources. Additionally, pediatric health studies indicate that children spending excessive time on screens face increased risks of obesity, vision problems, and sleep disorders. These disparities threaten to widen rather than narrow educational inequality.",
       "conclusion": "In conclusion, while educational technology presents legitimate challenges regarding access and student health, I believe the pedagogical advantages significantly outweigh these disadvantages when institutions prioritize equitable resource distribution and establish balanced implementation policies."
     },

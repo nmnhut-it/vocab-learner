@@ -79,106 +79,160 @@
             "word": "virtual attendance",
             "pronunciation": "/ˈvɜːtʃuəl əˈtendəns/",
             "partOfSpeech": "noun",
-            "definition": "Participating in an event remotely through technology",
+            "definition": "Participating in an event remotely through technology.",
             "example": "Virtual attendance at concerts has increased significantly during recent years.",
-            "synonyms": ["remote participation", "online viewing"]
+            "synonyms": [
+              "remote participation",
+              "online viewing"
+            ]
           },
           {
             "word": "live streaming",
             "pronunciation": "/laɪv ˈstriːmɪŋ/",
             "partOfSpeech": "noun",
-            "definition": "Broadcasting events in real-time over the internet",
+            "definition": "Broadcasting events in real-time over the internet.",
             "example": "Live streaming platforms allow millions to watch concerts simultaneously.",
-            "synonyms": ["real-time broadcasting", "online streaming"]
+            "synonyms": [
+              "real-time broadcasting",
+              "online streaming"
+            ]
           },
           {
             "word": "audience experience",
             "pronunciation": "/ˈɔːdiəns ɪkˈspɪəriəns/",
             "partOfSpeech": "noun",
-            "definition": "The overall quality of participation from the viewer's perspective",
+            "definition": "The overall quality of participation from the viewer's perspective.",
             "example": "The audience experience differs greatly between live venues and home viewing.",
-            "synonyms": ["viewer experience", "spectator experience"]
+            "synonyms": [
+              "viewer experience",
+              "spectator experience"
+            ]
           },
           {
             "word": "accessibility",
             "pronunciation": "/əkˌsesəˈbɪləti/",
             "partOfSpeech": "noun",
-            "definition": "The quality of being easily reached or obtained",
+            "definition": "The quality of being easily reached or obtained.",
             "example": "Home streaming improves accessibility for people with mobility limitations.",
-            "synonyms": ["availability", "ease of access"]
+            "synonyms": [
+              "availability",
+              "ease of access"
+            ]
           },
           {
             "word": "atmosphere",
             "pronunciation": "/ˈætməsfɪə/",
             "partOfSpeech": "noun",
-            "definition": "The mood or feeling of a particular environment",
+            "definition": "The mood or feeling of a particular environment.",
             "example": "The electric atmosphere of live concerts cannot be replicated at home.",
-            "synonyms": ["ambience", "environment"]
+            "synonyms": [
+              "ambience",
+              "environment"
+            ]
           },
           {
             "word": "convenience",
             "pronunciation": "/kənˈviːniəns/",
             "partOfSpeech": "noun",
-            "definition": "The state of being able to proceed with something easily",
+            "definition": "The state of being able to proceed with something easily.",
             "example": "Watching performances at home offers unmatched convenience and comfort.",
-            "synonyms": ["ease", "comfort"]
+            "synonyms": [
+              "ease",
+              "comfort"
+            ]
           },
           {
             "word": "immersive",
             "pronunciation": "/ɪˈmɜːsɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Providing a deeply engaging experience",
+            "definition": "Providing a deeply engaging experience.",
             "example": "In-person concerts provide an immersive experience that screens cannot match.",
-            "synonyms": ["engaging", "absorbing"]
+            "synonyms": [
+              "engaging",
+              "absorbing"
+            ]
           },
           {
             "word": "replicate",
             "pronunciation": "/ˈreplɪkeɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an exact copy or duplicate of something",
+            "definition": "To make an exact copy or duplicate of something.",
             "example": "Technology struggles to replicate the energy of live audiences.",
-            "synonyms": ["reproduce", "duplicate"]
+            "synonyms": [
+              "reproduce",
+              "duplicate"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "in-person attendance",
-            "definition": "Being physically present at an event",
+            "definition": "Being physically present at an event.",
             "example": "In-person attendance at concerts has declined with streaming options."
           },
           {
             "phrase": "viewing comfort",
-            "definition": "Physical ease and convenience while watching",
+            "definition": "Physical ease and convenience while watching.",
             "example": "Home viewing offers superior viewing comfort with personal seating choices."
           },
           {
             "phrase": "collective energy",
-            "definition": "The shared excitement and enthusiasm of a crowd",
+            "definition": "The shared excitement and enthusiasm of a crowd.",
             "example": "The collective energy of a live audience enhances the performance experience."
           },
           {
             "phrase": "cost-effective",
-            "definition": "Providing good value for the money spent",
+            "definition": "Providing good value for the money spent.",
             "example": "Streaming concerts is more cost-effective than buying venue tickets."
           },
           {
             "phrase": "real-time interaction",
-            "definition": "Direct communication or response happening immediately",
+            "definition": "Direct communication or response happening immediately.",
             "example": "Live venues allow real-time interaction between performers and audiences."
           },
           {
             "phrase": "technological advancement",
-            "definition": "Progress in digital tools and platforms",
+            "definition": "Progress in digital tools and platforms.",
             "example": "Technological advancement has made home streaming increasingly popular."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["In recent years", "With the rise of", "The trend of", "Increasingly"],
-          "advantages": ["One major advantage is", "A key benefit is", "This offers", "This provides"],
-          "disadvantages": ["However, a significant drawback is", "On the downside", "Nevertheless", "A major limitation is"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Such as", "Particularly"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "On balance"]
+          "introducing": [
+            "In recent years",
+            "With the rise of",
+            "The trend of",
+            "Increasingly"
+          ],
+          "advantages": [
+            "One major advantage is",
+            "A key benefit is",
+            "This offers",
+            "This provides"
+          ],
+          "disadvantages": [
+            "However, a significant drawback is",
+            "On the downside",
+            "Nevertheless",
+            "A major limitation is"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Such as",
+            "Particularly"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "On balance"
+          ]
         }
       }
     },
@@ -201,8 +255,24 @@
                 "type": "template",
                 "template": "This trend offers _____, but also presents _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["significant convenience and accessibility", "expensive technology", "complicated systems"], "correctAnswer": "significant convenience and accessibility"},
-                  {"id": "thesis1_b2", "options": ["notable disadvantages in terms of experience quality", "minor issues", "no problems"], "correctAnswer": "notable disadvantages in terms of experience quality"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "significant convenience and accessibility",
+                      "expensive technology",
+                      "complicated systems"
+                    ],
+                    "correctAnswer": "significant convenience and accessibility"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "notable disadvantages in terms of experience quality",
+                      "minor issues",
+                      "no problems"
+                    ],
+                    "correctAnswer": "notable disadvantages in terms of experience quality"
+                  }
                 ],
                 "correctSentence": "This trend offers significant convenience and accessibility, but also presents notable disadvantages in terms of experience quality.",
                 "usableIn": "introduction"
@@ -212,8 +282,24 @@
                 "type": "template",
                 "template": "In my opinion, _____ outweigh _____ for most people.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the advantages", "the problems", "the costs"], "correctAnswer": "the advantages"},
-                  {"id": "thesis2_b2", "options": ["the disadvantages", "the benefits", "the features"], "correctAnswer": "the disadvantages"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the advantages",
+                      "the problems",
+                      "the costs"
+                    ],
+                    "correctAnswer": "the advantages"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "the disadvantages",
+                      "the benefits",
+                      "the features"
+                    ],
+                    "correctAnswer": "the disadvantages"
+                  }
                 ],
                 "correctSentence": "In my opinion, the advantages outweigh the disadvantages for most people.",
                 "usableIn": "introduction"
@@ -230,8 +316,24 @@
                 "type": "template",
                 "template": "The primary advantage of _____ is _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["watching performances at home", "attending live venues", "buying tickets"], "correctAnswer": "watching performances at home"},
-                  {"id": "topic1_b2", "options": ["the convenience and accessibility it provides", "the expensive equipment needed", "the internet connection"], "correctAnswer": "the convenience and accessibility it provides"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "watching performances at home",
+                      "attending live venues",
+                      "buying tickets"
+                    ],
+                    "correctAnswer": "watching performances at home"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "the convenience and accessibility it provides",
+                      "the expensive equipment needed",
+                      "the internet connection"
+                    ],
+                    "correctAnswer": "the convenience and accessibility it provides"
+                  }
                 ],
                 "correctSentence": "The primary advantage of watching performances at home is the convenience and accessibility it provides.",
                 "usableIn": "body-paragraph-1"
@@ -241,8 +343,24 @@
                 "type": "template",
                 "template": "However, _____ is _____ of this trend.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["the loss of immersive atmosphere", "the cost savings", "the comfort"], "correctAnswer": "the loss of immersive atmosphere"},
-                  {"id": "topic2_b2", "options": ["a significant disadvantage", "a minor benefit", "an advantage"], "correctAnswer": "a significant disadvantage"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "the loss of immersive atmosphere",
+                      "the cost savings",
+                      "the comfort"
+                    ],
+                    "correctAnswer": "the loss of immersive atmosphere"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "a significant disadvantage",
+                      "a minor benefit",
+                      "an advantage"
+                    ],
+                    "correctAnswer": "a significant disadvantage"
+                  }
                 ],
                 "correctSentence": "However, the loss of immersive atmosphere is a significant disadvantage of this trend.",
                 "usableIn": "body-paragraph-2"
@@ -259,8 +377,24 @@
                 "type": "template",
                 "template": "This is because _____ enables people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["live streaming technology", "expensive tickets", "travel requirements"], "correctAnswer": "live streaming technology"},
-                  {"id": "support1_b2", "options": ["access performances without traveling or spending heavily", "miss the experience", "ignore entertainment"], "correctAnswer": "access performances without traveling or spending heavily"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "live streaming technology",
+                      "expensive tickets",
+                      "travel requirements"
+                    ],
+                    "correctAnswer": "live streaming technology"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "access performances without traveling or spending heavily",
+                      "miss the experience",
+                      "ignore entertainment"
+                    ],
+                    "correctAnswer": "access performances without traveling or spending heavily"
+                  }
                 ],
                 "correctSentence": "This is because live streaming technology enables people to access performances without traveling or spending heavily.",
                 "usableIn": "body-paragraph-1"
@@ -270,8 +404,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ creates _____ that cannot be replicated.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["in-person attendance", "home viewing", "online streaming"], "correctAnswer": "in-person attendance"},
-                  {"id": "support2_b2", "options": ["collective energy and emotional connection", "technical problems", "expensive costs"], "correctAnswer": "collective energy and emotional connection"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "in-person attendance",
+                      "home viewing",
+                      "online streaming"
+                    ],
+                    "correctAnswer": "in-person attendance"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "collective energy and emotional connection",
+                      "technical problems",
+                      "expensive costs"
+                    ],
+                    "correctAnswer": "collective energy and emotional connection"
+                  }
                 ],
                 "correctSentence": "The main reason is that in-person attendance creates collective energy and emotional connection that cannot be replicated.",
                 "usableIn": "body-paragraph-2"
@@ -288,9 +438,33 @@
                 "type": "template",
                 "template": "For instance, _____ allows viewers to _____ while _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["Netflix concerts and virtual theater", "physical venues", "ticket offices"], "correctAnswer": "Netflix concerts and virtual theater"},
-                  {"id": "example1_b2", "options": ["enjoy world-class performances", "waste time", "spend money"], "correctAnswer": "enjoy world-class performances"},
-                  {"id": "example1_b3", "options": ["avoiding travel costs and venue crowds", "missing the show", "buying expensive tickets"], "correctAnswer": "avoiding travel costs and venue crowds"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "Netflix concerts and virtual theater",
+                      "physical venues",
+                      "ticket offices"
+                    ],
+                    "correctAnswer": "Netflix concerts and virtual theater"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "enjoy world-class performances",
+                      "waste time",
+                      "spend money"
+                    ],
+                    "correctAnswer": "enjoy world-class performances"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "avoiding travel costs and venue crowds",
+                      "missing the show",
+                      "buying expensive tickets"
+                    ],
+                    "correctAnswer": "avoiding travel costs and venue crowds"
+                  }
                 ],
                 "correctSentence": "For instance, Netflix concerts and virtual theater allow viewers to enjoy world-class performances while avoiding travel costs and venue crowds.",
                 "usableIn": "body-paragraph-1"
@@ -300,9 +474,33 @@
                 "type": "template",
                 "template": "For example, _____ at concerts creates _____ that _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["the live audience", "the streaming service", "the website"], "correctAnswer": "the live audience"},
-                  {"id": "example2_b2", "options": ["an electric atmosphere", "technical issues", "high costs"], "correctAnswer": "an electric atmosphere"},
-                  {"id": "example2_b3", "options": ["screens simply cannot capture or convey", "everyone can enjoy", "is unnecessary"], "correctAnswer": "screens simply cannot capture or convey"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "the live audience",
+                      "the streaming service",
+                      "the website"
+                    ],
+                    "correctAnswer": "the live audience"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "an electric atmosphere",
+                      "technical issues",
+                      "high costs"
+                    ],
+                    "correctAnswer": "an electric atmosphere"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "screens simply cannot capture or convey",
+                      "everyone can enjoy",
+                      "is unnecessary"
+                    ],
+                    "correctAnswer": "screens simply cannot capture or convey"
+                  }
                 ],
                 "correctSentence": "For example, the live audience at concerts creates an electric atmosphere that screens simply cannot capture or convey.",
                 "usableIn": "body-paragraph-2"
@@ -319,8 +517,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["home viewing lacks the immersive atmosphere of live venues", "streaming is expensive", "technology is difficult"], "correctAnswer": "home viewing lacks the immersive atmosphere of live venues"},
-                  {"id": "conclusion1_b2", "options": ["the convenience and accessibility advantages outweigh this drawback", "live venues are always better", "people should avoid streaming"], "correctAnswer": "the convenience and accessibility advantages outweigh this drawback"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "home viewing lacks the immersive atmosphere of live venues",
+                      "streaming is expensive",
+                      "technology is difficult"
+                    ],
+                    "correctAnswer": "home viewing lacks the immersive atmosphere of live venues"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the convenience and accessibility advantages outweigh this drawback",
+                      "live venues are always better",
+                      "people should avoid streaming"
+                    ],
+                    "correctAnswer": "the convenience and accessibility advantages outweigh this drawback"
+                  }
                 ],
                 "correctSentence": "In conclusion, while home viewing lacks the immersive atmosphere of live venues, I believe the convenience and accessibility advantages outweigh this drawback.",
                 "usableIn": "conclusion"
@@ -349,12 +563,42 @@
           }
         ],
         "usefulTransitions": {
-          "presenting_advantages": ["The primary advantage is", "A key benefit is", "One major strength is", "This offers"],
-          "presenting_disadvantages": ["However", "Nevertheless", "On the downside", "A significant drawback is"],
-          "adding_information": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "giving_examples": ["For instance", "For example", "Particularly", "Such as"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus"],
-          "balancing": ["While", "Although", "Despite this", "Nevertheless"]
+          "presenting_advantages": [
+            "The primary advantage is",
+            "A key benefit is",
+            "One major strength is",
+            "This offers"
+          ],
+          "presenting_disadvantages": [
+            "However",
+            "Nevertheless",
+            "On the downside",
+            "A significant drawback is"
+          ],
+          "adding_information": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus"
+          ],
+          "balancing": [
+            "While",
+            "Although",
+            "Despite this",
+            "Nevertheless"
+          ]
         }
       }
     },
@@ -533,7 +777,7 @@
   ],
   "modelEssay": {
     "text": "In recent years, technological advancement has transformed how people consume entertainment, with many now choosing to watch live performances such as concerts and theater shows through streaming platforms rather than attending in person. This trend offers significant convenience and accessibility, but also presents notable limitations in terms of atmosphere and audience experience. In my opinion, the advantages of home viewing outweigh the disadvantages for most people.\n\nThe primary advantage of watching performances at home is the convenience and accessibility it provides to diverse audiences. Live streaming technology enables people to enjoy world-class entertainment without the need to travel long distances, purchase expensive tickets, or navigate crowded venues. For instance, platforms like Netflix and YouTube regularly stream major concerts and theater productions, allowing millions of viewers globally to watch performances simultaneously from the comfort of their homes. Additionally, virtual attendance benefits people with mobility limitations, those living in remote areas, or individuals with financial constraints. As a result, this accessibility has democratized entertainment, making cultural experiences available to people regardless of their location or income level.\n\nHowever, a significant disadvantage is the loss of the immersive atmosphere and collective energy present at live venues. In-person attendance creates real-time interaction between performers and audiences, generating emotional connections and shared experiences that screens simply cannot replicate. For example, the electric atmosphere at a live rock concert, with thousands of fans singing together and responding to the artist's energy, creates unforgettable memories and emotional impact impossible to capture through digital means. Moreover, the sensory elements such as sound quality, stage lighting, and physical presence contribute to an experience far richer than what home technology can deliver.\n\nIn conclusion, while home viewing cannot fully replicate the immersive atmosphere and collective energy of attending live performances in person, I believe the advantages of convenience, cost-effectiveness, and accessibility outweigh this limitation for the majority of people in modern society.",
-    "wordCount": 294,
+    "wordCount": 312,
     "structure": {
       "introduction": "In recent years, technological advancement has transformed how people consume entertainment, with many now choosing to watch live performances such as concerts and theater shows through streaming platforms rather than attending in person. This trend offers significant convenience and accessibility, but also presents notable limitations in terms of atmosphere and audience experience. In my opinion, the advantages of home viewing outweigh the disadvantages for most people.",
       "body1": "The primary advantage of watching performances at home is the convenience and accessibility it provides to diverse audiences. Live streaming technology enables people to enjoy world-class entertainment without the need to travel long distances, purchase expensive tickets, or navigate crowded venues. For instance, platforms like Netflix and YouTube regularly stream major concerts and theater productions, allowing millions of viewers globally to watch performances simultaneously from the comfort of their homes. Additionally, virtual attendance benefits people with mobility limitations, those living in remote areas, or individuals with financial constraints. As a result, this accessibility has democratized entertainment, making cultural experiences available to people regardless of their location or income level.",

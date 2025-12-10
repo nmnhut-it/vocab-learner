@@ -74,106 +74,166 @@
             "word": "achievement",
             "pronunciation": "/əˈtʃiːvmənt/",
             "partOfSpeech": "noun",
-            "definition": "Something accomplished through effort, skill, or courage",
+            "definition": "Something accomplished through effort, skill, or courage.",
             "example": "Personal achievement in life requires more than mere luck.",
-            "synonyms": ["accomplishment", "attainment", "success"]
+            "synonyms": [
+              "accomplishment",
+              "attainment",
+              "success"
+            ]
           },
           {
             "word": "determination",
             "pronunciation": "/dɪˌtɜːmɪˈneɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "Firmness of purpose and persistence",
+            "definition": "Firmness of purpose and persistence.",
             "example": "Determination and perseverance are crucial factors in achieving goals.",
-            "synonyms": ["resolve", "persistence", "tenacity"]
+            "synonyms": [
+              "resolve",
+              "persistence",
+              "tenacity"
+            ]
           },
           {
             "word": "circumstance",
             "pronunciation": "/ˈsɜːkəmstæns/",
             "partOfSpeech": "noun",
-            "definition": "A fact or condition connected with an event",
+            "definition": "A fact or condition connected with an event.",
             "example": "While circumstances play a role, they do not solely determine outcomes.",
-            "synonyms": ["situation", "condition", "context"]
+            "synonyms": [
+              "situation",
+              "condition",
+              "context"
+            ]
           },
           {
             "word": "attribute",
             "pronunciation": "/əˈtrɪbjuːt/",
             "partOfSpeech": "verb",
-            "definition": "To regard something as being caused by",
+            "definition": "To regard something as being caused by.",
             "example": "Success cannot be solely attributed to fortunate circumstances.",
-            "synonyms": ["ascribe", "credit", "assign"]
+            "synonyms": [
+              "ascribe",
+              "credit",
+              "assign"
+            ]
           },
           {
             "word": "perseverance",
             "pronunciation": "/ˌpɜːsɪˈvɪərəns/",
             "partOfSpeech": "noun",
-            "definition": "Continued effort despite difficulties",
+            "definition": "Continued effort despite difficulties.",
             "example": "Perseverance often proves more valuable than good fortune alone.",
-            "synonyms": ["persistence", "tenacity", "determination"]
+            "synonyms": [
+              "persistence",
+              "tenacity",
+              "determination"
+            ]
           },
           {
             "word": "cultivate",
             "pronunciation": "/ˈkʌltɪveɪt/",
             "partOfSpeech": "verb",
-            "definition": "To develop or improve through education or training",
+            "definition": "To develop or improve through education or training.",
             "example": "Successful individuals cultivate skills through consistent practice.",
-            "synonyms": ["develop", "nurture", "foster"]
+            "synonyms": [
+              "develop",
+              "nurture",
+              "foster"
+            ]
           },
           {
             "word": "substantial",
             "pronunciation": "/səbˈstænʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Of considerable importance or size",
+            "definition": "Of considerable importance or size.",
             "example": "Hard work makes a substantial difference in achieving long-term goals.",
-            "synonyms": ["significant", "considerable", "major"]
+            "synonyms": [
+              "significant",
+              "considerable",
+              "major"
+            ]
           },
           {
             "word": "predominantly",
             "pronunciation": "/prɪˈdɒmɪnəntli/",
             "partOfSpeech": "adverb",
-            "definition": "Mainly or for the most part",
+            "definition": "Mainly or for the most part.",
             "example": "Success is predominantly determined by effort rather than chance.",
-            "synonyms": ["primarily", "mainly", "chiefly"]
+            "synonyms": [
+              "primarily",
+              "mainly",
+              "chiefly"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "hard work and dedication",
-            "definition": "Consistent effort and commitment to a goal",
+            "definition": "Consistent effort and commitment to a goal.",
             "example": "Hard work and dedication are fundamental to achieving success."
           },
           {
             "phrase": "random chance",
-            "definition": "Events occurring without predictable pattern or control",
+            "definition": "Events occurring without predictable pattern or control.",
             "example": "While random chance plays a role, it is not the primary determinant."
           },
           {
             "phrase": "personal effort",
-            "definition": "Individual work and initiative toward a goal",
+            "definition": "Individual work and initiative toward a goal.",
             "example": "Personal effort consistently outweighs lucky circumstances in achieving goals."
           },
           {
             "phrase": "favorable circumstances",
-            "definition": "Conditions that increase the likelihood of success",
+            "definition": "Conditions that increase the likelihood of success.",
             "example": "Favorable circumstances can facilitate success but cannot guarantee it."
           },
           {
             "phrase": "self-made success",
-            "definition": "Achievement through one's own efforts rather than inheritance or luck",
+            "definition": "Achievement through one's own efforts rather than inheritance or luck.",
             "example": "Many entrepreneurs demonstrate that self-made success is possible through perseverance."
           },
           {
             "phrase": "life outcomes",
-            "definition": "The results or consequences in someone's life",
+            "definition": "The results or consequences in someone's life.",
             "example": "Life outcomes are shaped by both choices and external factors."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is often argued that", "Some people claim that", "There is a belief that"],
-          "stating_opinion": ["From my perspective", "In my view", "I firmly believe that"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Despite this"],
-          "adding": ["Furthermore", "Moreover", "In addition", "Additionally"],
-          "exemplifying": ["For instance", "For example", "To illustrate", "Consider the case of"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "In summary"]
+          "introducing": [
+            "It is often argued that",
+            "Some people claim that",
+            "There is a belief that"
+          ],
+          "stating_opinion": [
+            "From my perspective",
+            "In my view",
+            "I firmly believe that"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Despite this"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "To illustrate",
+            "Consider the case of"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "In summary"
+          ]
         }
       }
     },
@@ -196,8 +256,24 @@
                 "type": "template",
                 "template": "While _____ plays a role, I believe _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["luck", "effort", "money"], "correctAnswer": "luck"},
-                  {"id": "thesis1_b2", "options": ["personal effort and determination are far more significant", "luck is everything", "nothing matters"], "correctAnswer": "personal effort and determination are far more significant"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "luck",
+                      "effort",
+                      "money"
+                    ],
+                    "correctAnswer": "luck"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "personal effort and determination are far more significant",
+                      "luck is everything",
+                      "nothing matters"
+                    ],
+                    "correctAnswer": "personal effort and determination are far more significant"
+                  }
                 ],
                 "correctSentence": "While luck plays a role, I believe personal effort and determination are far more significant.",
                 "usableIn": "introduction"
@@ -207,8 +283,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ rather than _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["success is predominantly determined by hard work", "luck controls everything", "nothing is important"], "correctAnswer": "success is predominantly determined by hard work"},
-                  {"id": "thesis2_b2", "options": ["fortunate circumstances alone", "personal choice", "education"], "correctAnswer": "fortunate circumstances alone"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "success is predominantly determined by hard work",
+                      "luck controls everything",
+                      "nothing is important"
+                    ],
+                    "correctAnswer": "success is predominantly determined by hard work"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "fortunate circumstances alone",
+                      "personal choice",
+                      "education"
+                    ],
+                    "correctAnswer": "fortunate circumstances alone"
+                  }
                 ],
                 "correctSentence": "From my perspective, success is predominantly determined by hard work rather than fortunate circumstances alone.",
                 "usableIn": "introduction"
@@ -218,8 +310,24 @@
                 "type": "template",
                 "template": "I strongly _____ the notion that _____ is mostly a matter of luck.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["disagree with", "agree with", "ignore"], "correctAnswer": "disagree with"},
-                  {"id": "thesis3_b2", "options": ["achieving one's goals", "earning money", "having friends"], "correctAnswer": "achieving one's goals"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "disagree with",
+                      "agree with",
+                      "ignore"
+                    ],
+                    "correctAnswer": "disagree with"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "achieving one's goals",
+                      "earning money",
+                      "having friends"
+                    ],
+                    "correctAnswer": "achieving one's goals"
+                  }
                 ],
                 "correctSentence": "I strongly disagree with the notion that achieving one's goals is mostly a matter of luck.",
                 "usableIn": "introduction"
@@ -229,9 +337,33 @@
                 "type": "template",
                 "template": "In my view, _____ are _____ than _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["dedication and perseverance", "lucky breaks", "wealthy parents"], "correctAnswer": "dedication and perseverance"},
-                  {"id": "thesis4_b2", "options": ["far more crucial", "less important", "equally valuable"], "correctAnswer": "far more crucial"},
-                  {"id": "thesis4_b3", "options": ["random chance", "hard work", "education"], "correctAnswer": "random chance"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "dedication and perseverance",
+                      "lucky breaks",
+                      "wealthy parents"
+                    ],
+                    "correctAnswer": "dedication and perseverance"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "far more crucial",
+                      "less important",
+                      "equally valuable"
+                    ],
+                    "correctAnswer": "far more crucial"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "random chance",
+                      "hard work",
+                      "education"
+                    ],
+                    "correctAnswer": "random chance"
+                  }
                 ],
                 "correctSentence": "In my view, dedication and perseverance are far more crucial than random chance.",
                 "usableIn": "introduction"
@@ -241,9 +373,33 @@
                 "type": "template",
                 "template": "Although _____ can influence outcomes, _____ ultimately determines _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["favorable circumstances", "intelligence", "money"], "correctAnswer": "favorable circumstances"},
-                  {"id": "thesis5_b2", "options": ["consistent effort and planning", "pure luck", "family background"], "correctAnswer": "consistent effort and planning"},
-                  {"id": "thesis5_b3", "options": ["long-term success", "short-term gains", "immediate results"], "correctAnswer": "long-term success"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "favorable circumstances",
+                      "intelligence",
+                      "money"
+                    ],
+                    "correctAnswer": "favorable circumstances"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "consistent effort and planning",
+                      "pure luck",
+                      "family background"
+                    ],
+                    "correctAnswer": "consistent effort and planning"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "long-term success",
+                      "short-term gains",
+                      "immediate results"
+                    ],
+                    "correctAnswer": "long-term success"
+                  }
                 ],
                 "correctSentence": "Although favorable circumstances can influence outcomes, consistent effort and planning ultimately determines long-term success.",
                 "usableIn": "introduction"
@@ -260,8 +416,24 @@
                 "type": "template",
                 "template": "The primary reason why _____ is more important than luck is that _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["hard work", "money", "appearance"], "correctAnswer": "hard work"},
-                  {"id": "topic1_b2", "options": ["it can be controlled and developed consistently", "it costs nothing", "everyone has it"], "correctAnswer": "it can be controlled and developed consistently"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "hard work",
+                      "money",
+                      "appearance"
+                    ],
+                    "correctAnswer": "hard work"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "it can be controlled and developed consistently",
+                      "it costs nothing",
+                      "everyone has it"
+                    ],
+                    "correctAnswer": "it can be controlled and developed consistently"
+                  }
                 ],
                 "correctSentence": "The primary reason why hard work is more important than luck is that it can be controlled and developed consistently.",
                 "usableIn": "body-paragraph-1"
@@ -271,8 +443,24 @@
                 "type": "template",
                 "template": "One compelling argument is that _____ enables individuals to _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["persistent effort", "good fortune", "wealthy parents"], "correctAnswer": "persistent effort"},
-                  {"id": "topic2_b2", "options": ["overcome unfavorable circumstances", "win the lottery", "avoid work"], "correctAnswer": "overcome unfavorable circumstances"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "persistent effort",
+                      "good fortune",
+                      "wealthy parents"
+                    ],
+                    "correctAnswer": "persistent effort"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "overcome unfavorable circumstances",
+                      "win the lottery",
+                      "avoid work"
+                    ],
+                    "correctAnswer": "overcome unfavorable circumstances"
+                  }
                 ],
                 "correctSentence": "One compelling argument is that persistent effort enables individuals to overcome unfavorable circumstances.",
                 "usableIn": "body-paragraph-1"
@@ -282,8 +470,24 @@
                 "type": "template",
                 "template": "Success predominantly stems from _____ rather than _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["deliberate practice and skill development", "random events", "inheritances"], "correctAnswer": "deliberate practice and skill development"},
-                  {"id": "topic3_b2", "options": ["fortunate accidents", "hard work", "education"], "correctAnswer": "fortunate accidents"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "deliberate practice and skill development",
+                      "random events",
+                      "inheritances"
+                    ],
+                    "correctAnswer": "deliberate practice and skill development"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "fortunate accidents",
+                      "hard work",
+                      "education"
+                    ],
+                    "correctAnswer": "fortunate accidents"
+                  }
                 ],
                 "correctSentence": "Success predominantly stems from deliberate practice and skill development rather than fortunate accidents.",
                 "usableIn": "body-paragraph-1"
@@ -293,8 +497,24 @@
                 "type": "template",
                 "template": "It is undeniable that _____ requires _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["achieving meaningful goals", "winning the lottery", "being famous"], "correctAnswer": "achieving meaningful goals"},
-                  {"id": "topic4_b2", "options": ["sustained dedication and strategic planning", "only good luck", "wealthy connections"], "correctAnswer": "sustained dedication and strategic planning"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "achieving meaningful goals",
+                      "winning the lottery",
+                      "being famous"
+                    ],
+                    "correctAnswer": "achieving meaningful goals"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "sustained dedication and strategic planning",
+                      "only good luck",
+                      "wealthy connections"
+                    ],
+                    "correctAnswer": "sustained dedication and strategic planning"
+                  }
                 ],
                 "correctSentence": "It is undeniable that achieving meaningful goals requires sustained dedication and strategic planning.",
                 "usableIn": "body-paragraph-1"
@@ -304,9 +524,33 @@
                 "type": "template",
                 "template": "While _____ may provide opportunities, _____ determines whether _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["favorable circumstances", "wealthy parents", "natural talent"], "correctAnswer": "favorable circumstances"},
-                  {"id": "topic5_b2", "options": ["personal initiative and preparation", "luck", "inheritance"], "correctAnswer": "personal initiative and preparation"},
-                  {"id": "topic5_b3", "options": ["those opportunities are successfully seized", "people become rich", "success is guaranteed"], "correctAnswer": "those opportunities are successfully seized"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "favorable circumstances",
+                      "wealthy parents",
+                      "natural talent"
+                    ],
+                    "correctAnswer": "favorable circumstances"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "personal initiative and preparation",
+                      "luck",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "personal initiative and preparation"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "those opportunities are successfully seized",
+                      "people become rich",
+                      "success is guaranteed"
+                    ],
+                    "correctAnswer": "those opportunities are successfully seized"
+                  }
                 ],
                 "correctSentence": "While favorable circumstances may provide opportunities, personal initiative and preparation determines whether those opportunities are successfully seized.",
                 "usableIn": "body-paragraph-2"
@@ -316,9 +560,33 @@
                 "type": "template",
                 "template": "Admittedly, _____ can _____, but _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["luck", "effort", "money"], "correctAnswer": "luck"},
-                  {"id": "topic6_b2", "options": ["create initial advantages", "guarantee success", "replace hard work"], "correctAnswer": "create initial advantages"},
-                  {"id": "topic6_b3", "options": ["these alone cannot sustain long-term achievement", "it is everything", "nothing else matters"], "correctAnswer": "these alone cannot sustain long-term achievement"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "luck",
+                      "effort",
+                      "money"
+                    ],
+                    "correctAnswer": "luck"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "create initial advantages",
+                      "guarantee success",
+                      "replace hard work"
+                    ],
+                    "correctAnswer": "create initial advantages"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "these alone cannot sustain long-term achievement",
+                      "it is everything",
+                      "nothing else matters"
+                    ],
+                    "correctAnswer": "these alone cannot sustain long-term achievement"
+                  }
                 ],
                 "correctSentence": "Admittedly, luck can create initial advantages, but these alone cannot sustain long-term achievement.",
                 "usableIn": "body-paragraph-2"
@@ -328,8 +596,24 @@
                 "type": "template",
                 "template": "The most significant factor in _____ is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["determining life outcomes", "winning games", "making friends"], "correctAnswer": "determining life outcomes"},
-                  {"id": "topic7_b2", "options": ["individual effort and resilience", "pure chance", "family wealth"], "correctAnswer": "individual effort and resilience"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "determining life outcomes",
+                      "winning games",
+                      "making friends"
+                    ],
+                    "correctAnswer": "determining life outcomes"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "individual effort and resilience",
+                      "pure chance",
+                      "family wealth"
+                    ],
+                    "correctAnswer": "individual effort and resilience"
+                  }
                 ],
                 "correctSentence": "The most significant factor in determining life outcomes is individual effort and resilience.",
                 "usableIn": "body-paragraph-1"
@@ -339,8 +623,24 @@
                 "type": "template",
                 "template": "Evidence consistently demonstrates that _____ rather than _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["self-discipline and consistent action lead to success", "random events control everything", "nothing matters"], "correctAnswer": "self-discipline and consistent action lead to success"},
-                  {"id": "topic8_b2", "options": ["waiting for lucky breaks", "working hard", "studying"], "correctAnswer": "waiting for lucky breaks"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "self-discipline and consistent action lead to success",
+                      "random events control everything",
+                      "nothing matters"
+                    ],
+                    "correctAnswer": "self-discipline and consistent action lead to success"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "waiting for lucky breaks",
+                      "working hard",
+                      "studying"
+                    ],
+                    "correctAnswer": "waiting for lucky breaks"
+                  }
                 ],
                 "correctSentence": "Evidence consistently demonstrates that self-discipline and consistent action lead to success rather than waiting for lucky breaks.",
                 "usableIn": "body-paragraph-1"
@@ -357,8 +657,24 @@
                 "type": "template",
                 "template": "This is because _____ allows people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["dedicated practice", "good fortune", "inheritance"], "correctAnswer": "dedicated practice"},
-                  {"id": "support1_b2", "options": ["develop expertise and overcome obstacles", "avoid hard work", "win easily"], "correctAnswer": "develop expertise and overcome obstacles"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "dedicated practice",
+                      "good fortune",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "dedicated practice"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "develop expertise and overcome obstacles",
+                      "avoid hard work",
+                      "win easily"
+                    ],
+                    "correctAnswer": "develop expertise and overcome obstacles"
+                  }
                 ],
                 "correctSentence": "This is because dedicated practice allows people to develop expertise and overcome obstacles.",
                 "usableIn": "body-paragraph-1"
@@ -368,9 +684,33 @@
                 "type": "template",
                 "template": "The main reason is that _____ can be _____ while _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["skills and knowledge", "luck", "wealth"], "correctAnswer": "skills and knowledge"},
-                  {"id": "support2_b2", "options": ["systematically cultivated", "randomly obtained", "inherited"], "correctAnswer": "systematically cultivated"},
-                  {"id": "support2_b3", "options": ["luck remains unpredictable and unreliable", "effort is unnecessary", "nothing else matters"], "correctAnswer": "luck remains unpredictable and unreliable"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "skills and knowledge",
+                      "luck",
+                      "wealth"
+                    ],
+                    "correctAnswer": "skills and knowledge"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "systematically cultivated",
+                      "randomly obtained",
+                      "inherited"
+                    ],
+                    "correctAnswer": "systematically cultivated"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": [
+                      "luck remains unpredictable and unreliable",
+                      "effort is unnecessary",
+                      "nothing else matters"
+                    ],
+                    "correctAnswer": "luck remains unpredictable and unreliable"
+                  }
                 ],
                 "correctSentence": "The main reason is that skills and knowledge can be systematically cultivated while luck remains unpredictable and unreliable.",
                 "usableIn": "body-paragraph-1"
@@ -380,9 +720,33 @@
                 "type": "template",
                 "template": "_____ enables individuals to _____ regardless of _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Persistent effort", "Good luck", "Wealth"], "correctAnswer": "Persistent effort"},
-                  {"id": "support3_b2", "options": ["create their own opportunities", "win the lottery", "inherit money"], "correctAnswer": "create their own opportunities"},
-                  {"id": "support3_b3", "options": ["initial disadvantages", "their hard work", "their education"], "correctAnswer": "initial disadvantages"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Persistent effort",
+                      "Good luck",
+                      "Wealth"
+                    ],
+                    "correctAnswer": "Persistent effort"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "create their own opportunities",
+                      "win the lottery",
+                      "inherit money"
+                    ],
+                    "correctAnswer": "create their own opportunities"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "initial disadvantages",
+                      "their hard work",
+                      "their education"
+                    ],
+                    "correctAnswer": "initial disadvantages"
+                  }
                 ],
                 "correctSentence": "Persistent effort enables individuals to create their own opportunities regardless of initial disadvantages.",
                 "usableIn": "body-paragraph-1"
@@ -392,8 +756,24 @@
                 "type": "template",
                 "template": "By _____, people can _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["continuously improving their abilities", "hoping for luck", "doing nothing"], "correctAnswer": "continuously improving their abilities"},
-                  {"id": "support4_b2", "options": ["significantly increase their chances of success", "guarantee failure", "avoid challenges"], "correctAnswer": "significantly increase their chances of success"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "continuously improving their abilities",
+                      "hoping for luck",
+                      "doing nothing"
+                    ],
+                    "correctAnswer": "continuously improving their abilities"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "significantly increase their chances of success",
+                      "guarantee failure",
+                      "avoid challenges"
+                    ],
+                    "correctAnswer": "significantly increase their chances of success"
+                  }
                 ],
                 "correctSentence": "By continuously improving their abilities, people can significantly increase their chances of success.",
                 "usableIn": "body-paragraph-1"
@@ -403,9 +783,33 @@
                 "type": "template",
                 "template": "_____ provides _____, which is essential for _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["Determination", "Luck", "Money"], "correctAnswer": "Determination"},
-                  {"id": "support5_b2", "options": ["the resilience needed to overcome setbacks", "instant success", "guaranteed wins"], "correctAnswer": "the resilience needed to overcome setbacks"},
-                  {"id": "support5_b3", "options": ["long-term achievement", "short-term gains", "avoiding work"], "correctAnswer": "long-term achievement"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "Determination",
+                      "Luck",
+                      "Money"
+                    ],
+                    "correctAnswer": "Determination"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "the resilience needed to overcome setbacks",
+                      "instant success",
+                      "guaranteed wins"
+                    ],
+                    "correctAnswer": "the resilience needed to overcome setbacks"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "long-term achievement",
+                      "short-term gains",
+                      "avoiding work"
+                    ],
+                    "correctAnswer": "long-term achievement"
+                  }
                 ],
                 "correctSentence": "Determination provides the resilience needed to overcome setbacks, which is essential for long-term achievement.",
                 "usableIn": "body-paragraph-1"
@@ -415,9 +819,33 @@
                 "type": "template",
                 "template": "Unlike _____, _____ is completely within _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["random chance", "hard work", "success"], "correctAnswer": "random chance"},
-                  {"id": "support6_b2", "options": ["personal effort", "luck", "inheritance"], "correctAnswer": "personal effort"},
-                  {"id": "support6_b3", "options": ["an individual's control", "external forces", "other people's hands"], "correctAnswer": "an individual's control"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "random chance",
+                      "hard work",
+                      "success"
+                    ],
+                    "correctAnswer": "random chance"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "personal effort",
+                      "luck",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "personal effort"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "an individual's control",
+                      "external forces",
+                      "other people's hands"
+                    ],
+                    "correctAnswer": "an individual's control"
+                  }
                 ],
                 "correctSentence": "Unlike random chance, personal effort is completely within an individual's control.",
                 "usableIn": "body-paragraph-1"
@@ -427,9 +855,33 @@
                 "type": "template",
                 "template": "Through _____, individuals can _____ even when _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["strategic planning and preparation", "wishing and hoping", "doing nothing"], "correctAnswer": "strategic planning and preparation"},
-                  {"id": "support7_b2", "options": ["achieve their objectives", "fail completely", "avoid responsibility"], "correctAnswer": "achieve their objectives"},
-                  {"id": "support7_b3", "options": ["circumstances are challenging", "everything is perfect", "luck is guaranteed"], "correctAnswer": "circumstances are challenging"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "strategic planning and preparation",
+                      "wishing and hoping",
+                      "doing nothing"
+                    ],
+                    "correctAnswer": "strategic planning and preparation"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "achieve their objectives",
+                      "fail completely",
+                      "avoid responsibility"
+                    ],
+                    "correctAnswer": "achieve their objectives"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": [
+                      "circumstances are challenging",
+                      "everything is perfect",
+                      "luck is guaranteed"
+                    ],
+                    "correctAnswer": "circumstances are challenging"
+                  }
                 ],
                 "correctSentence": "Through strategic planning and preparation, individuals can achieve their objectives even when circumstances are challenging.",
                 "usableIn": "body-paragraph-1"
@@ -439,9 +891,33 @@
                 "type": "template",
                 "template": "_____ fosters _____, which directly contributes to _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["Consistent work ethic", "Random luck", "Inheritance"], "correctAnswer": "Consistent work ethic"},
-                  {"id": "support8_b2", "options": ["skill mastery and confidence", "laziness and complacency", "instant wealth"], "correctAnswer": "skill mastery and confidence"},
-                  {"id": "support8_b3", "options": ["achieving ambitious goals", "avoiding challenges", "guaranteed failure"], "correctAnswer": "achieving ambitious goals"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "Consistent work ethic",
+                      "Random luck",
+                      "Inheritance"
+                    ],
+                    "correctAnswer": "Consistent work ethic"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "skill mastery and confidence",
+                      "laziness and complacency",
+                      "instant wealth"
+                    ],
+                    "correctAnswer": "skill mastery and confidence"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": [
+                      "achieving ambitious goals",
+                      "avoiding challenges",
+                      "guaranteed failure"
+                    ],
+                    "correctAnswer": "achieving ambitious goals"
+                  }
                 ],
                 "correctSentence": "Consistent work ethic fosters skill mastery and confidence, which directly contributes to achieving ambitious goals.",
                 "usableIn": "body-paragraph-1"
@@ -451,9 +927,33 @@
                 "type": "template",
                 "template": "When individuals _____, they are _____ to _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["invest time in self-improvement", "wait for luck", "avoid challenges"], "correctAnswer": "invest time in self-improvement"},
-                  {"id": "support9_b2", "options": ["far more likely", "less likely", "unable"], "correctAnswer": "far more likely"},
-                  {"id": "support9_b3", "options": ["realize their full potential", "fail completely", "depend on others"], "correctAnswer": "realize their full potential"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "invest time in self-improvement",
+                      "wait for luck",
+                      "avoid challenges"
+                    ],
+                    "correctAnswer": "invest time in self-improvement"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "far more likely",
+                      "less likely",
+                      "unable"
+                    ],
+                    "correctAnswer": "far more likely"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "realize their full potential",
+                      "fail completely",
+                      "depend on others"
+                    ],
+                    "correctAnswer": "realize their full potential"
+                  }
                 ],
                 "correctSentence": "When individuals invest time in self-improvement, they are far more likely to realize their full potential.",
                 "usableIn": "body-paragraph-1"
@@ -463,9 +963,33 @@
                 "type": "template",
                 "template": "While _____ may provide temporary advantages, _____ ensures _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["fortunate circumstances", "hard work", "talent"], "correctAnswer": "fortunate circumstances"},
-                  {"id": "support10_b2", "options": ["sustained effort and learning", "giving up", "laziness"], "correctAnswer": "sustained effort and learning"},
-                  {"id": "support10_b3", "options": ["lasting success and growth", "quick failure", "missed opportunities"], "correctAnswer": "lasting success and growth"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "fortunate circumstances",
+                      "hard work",
+                      "talent"
+                    ],
+                    "correctAnswer": "fortunate circumstances"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "sustained effort and learning",
+                      "giving up",
+                      "laziness"
+                    ],
+                    "correctAnswer": "sustained effort and learning"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "lasting success and growth",
+                      "quick failure",
+                      "missed opportunities"
+                    ],
+                    "correctAnswer": "lasting success and growth"
+                  }
                 ],
                 "correctSentence": "While fortunate circumstances may provide temporary advantages, sustained effort and learning ensures lasting success and growth.",
                 "usableIn": "body-paragraph-2"
@@ -475,9 +999,33 @@
                 "type": "template",
                 "template": "As a result, _____ proves to be _____ than _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["deliberate effort", "random luck", "inheritance"], "correctAnswer": "deliberate effort"},
-                  {"id": "support11_b2", "options": ["far more reliable", "less effective", "completely useless"], "correctAnswer": "far more reliable"},
-                  {"id": "support11_b3", "options": ["depending on chance alone", "working hard", "planning ahead"], "correctAnswer": "depending on chance alone"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "deliberate effort",
+                      "random luck",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "deliberate effort"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "far more reliable",
+                      "less effective",
+                      "completely useless"
+                    ],
+                    "correctAnswer": "far more reliable"
+                  },
+                  {
+                    "id": "support11_b3",
+                    "options": [
+                      "depending on chance alone",
+                      "working hard",
+                      "planning ahead"
+                    ],
+                    "correctAnswer": "depending on chance alone"
+                  }
                 ],
                 "correctSentence": "As a result, deliberate effort proves to be far more reliable than depending on chance alone.",
                 "usableIn": "body-paragraph-1"
@@ -487,8 +1035,24 @@
                 "type": "template",
                 "template": "Consequently, _____ becomes the decisive factor in _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["personal determination and work ethic", "pure chance", "family background"], "correctAnswer": "personal determination and work ethic"},
-                  {"id": "support12_b2", "options": ["whether individuals achieve their life goals", "winning the lottery", "avoiding responsibility"], "correctAnswer": "whether individuals achieve their life goals"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "personal determination and work ethic",
+                      "pure chance",
+                      "family background"
+                    ],
+                    "correctAnswer": "personal determination and work ethic"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "whether individuals achieve their life goals",
+                      "winning the lottery",
+                      "avoiding responsibility"
+                    ],
+                    "correctAnswer": "whether individuals achieve their life goals"
+                  }
                 ],
                 "correctSentence": "Consequently, personal determination and work ethic becomes the decisive factor in whether individuals achieve their life goals.",
                 "usableIn": "body-paragraph-1"
@@ -505,9 +1069,33 @@
                 "type": "template",
                 "template": "For instance, _____ achieved success through _____ rather than _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["many self-made entrepreneurs", "lottery winners", "inherited wealth"], "correctAnswer": "many self-made entrepreneurs"},
-                  {"id": "example1_b2", "options": ["years of persistent effort and innovation", "lucky breaks alone", "doing nothing"], "correctAnswer": "years of persistent effort and innovation"},
-                  {"id": "example1_b3", "options": ["fortunate circumstances", "hard work", "dedication"], "correctAnswer": "fortunate circumstances"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "many self-made entrepreneurs",
+                      "lottery winners",
+                      "inherited wealth"
+                    ],
+                    "correctAnswer": "many self-made entrepreneurs"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "years of persistent effort and innovation",
+                      "lucky breaks alone",
+                      "doing nothing"
+                    ],
+                    "correctAnswer": "years of persistent effort and innovation"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "fortunate circumstances",
+                      "hard work",
+                      "dedication"
+                    ],
+                    "correctAnswer": "fortunate circumstances"
+                  }
                 ],
                 "correctSentence": "For instance, many self-made entrepreneurs achieved success through years of persistent effort and innovation rather than fortunate circumstances.",
                 "usableIn": "body-paragraph-1"
@@ -517,9 +1105,33 @@
                 "type": "template",
                 "template": "Consider _____, who _____ despite _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["J.K. Rowling", "lottery winners", "wealthy heirs"], "correctAnswer": "J.K. Rowling"},
-                  {"id": "example2_b2", "options": ["became a successful author", "gave up immediately", "inherited wealth"], "correctAnswer": "became a successful author"},
-                  {"id": "example2_b3", "options": ["facing numerous rejections and financial hardship", "having every advantage", "never trying"], "correctAnswer": "facing numerous rejections and financial hardship"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "J.K. Rowling",
+                      "lottery winners",
+                      "wealthy heirs"
+                    ],
+                    "correctAnswer": "J.K. Rowling"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "became a successful author",
+                      "gave up immediately",
+                      "inherited wealth"
+                    ],
+                    "correctAnswer": "became a successful author"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "facing numerous rejections and financial hardship",
+                      "having every advantage",
+                      "never trying"
+                    ],
+                    "correctAnswer": "facing numerous rejections and financial hardship"
+                  }
                 ],
                 "correctSentence": "Consider J.K. Rowling, who became a successful author despite facing numerous rejections and financial hardship.",
                 "usableIn": "body-paragraph-1"
@@ -529,9 +1141,33 @@
                 "type": "template",
                 "template": "Studies show that _____ who _____ are significantly more likely to _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["individuals", "people", "students"], "correctAnswer": "individuals"},
-                  {"id": "example3_b2", "options": ["practice deliberately for extended periods", "hope for luck", "avoid challenges"], "correctAnswer": "practice deliberately for extended periods"},
-                  {"id": "example3_b3", "options": ["achieve mastery in their fields", "fail quickly", "give up"], "correctAnswer": "achieve mastery in their fields"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "individuals",
+                      "people",
+                      "students"
+                    ],
+                    "correctAnswer": "individuals"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "practice deliberately for extended periods",
+                      "hope for luck",
+                      "avoid challenges"
+                    ],
+                    "correctAnswer": "practice deliberately for extended periods"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "achieve mastery in their fields",
+                      "fail quickly",
+                      "give up"
+                    ],
+                    "correctAnswer": "achieve mastery in their fields"
+                  }
                 ],
                 "correctSentence": "Studies show that individuals who practice deliberately for extended periods are significantly more likely to achieve mastery in their fields.",
                 "usableIn": "body-paragraph-1"
@@ -541,9 +1177,33 @@
                 "type": "template",
                 "template": "For example, _____ demonstrates that _____ trumps _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["the 10,000-hour rule", "random chance", "instant success"], "correctAnswer": "the 10,000-hour rule"},
-                  {"id": "example4_b2", "options": ["sustained practice", "luck", "inheritance"], "correctAnswer": "sustained practice"},
-                  {"id": "example4_b3", "options": ["natural talent or luck", "hard work", "dedication"], "correctAnswer": "natural talent or luck"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "the 10,000-hour rule",
+                      "random chance",
+                      "instant success"
+                    ],
+                    "correctAnswer": "the 10,000-hour rule"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "sustained practice",
+                      "luck",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "sustained practice"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": [
+                      "natural talent or luck",
+                      "hard work",
+                      "dedication"
+                    ],
+                    "correctAnswer": "natural talent or luck"
+                  }
                 ],
                 "correctSentence": "For example, the 10,000-hour rule demonstrates that sustained practice trumps natural talent or luck.",
                 "usableIn": "body-paragraph-1"
@@ -553,9 +1213,33 @@
                 "type": "template",
                 "template": "Research by _____ found that _____ is _____ predictor of success.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["psychologist Angela Duckworth", "random studies", "unknown sources"], "correctAnswer": "psychologist Angela Duckworth"},
-                  {"id": "example5_b2", "options": ["grit and perseverance", "luck", "wealth"], "correctAnswer": "grit and perseverance"},
-                  {"id": "example5_b3", "options": ["a stronger", "a weaker", "an irrelevant"], "correctAnswer": "a stronger"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "psychologist Angela Duckworth",
+                      "random studies",
+                      "unknown sources"
+                    ],
+                    "correctAnswer": "psychologist Angela Duckworth"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "grit and perseverance",
+                      "luck",
+                      "wealth"
+                    ],
+                    "correctAnswer": "grit and perseverance"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "a stronger",
+                      "a weaker",
+                      "an irrelevant"
+                    ],
+                    "correctAnswer": "a stronger"
+                  }
                 ],
                 "correctSentence": "Research by psychologist Angela Duckworth found that grit and perseverance is a stronger predictor of success.",
                 "usableIn": "body-paragraph-1"
@@ -565,9 +1249,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: they _____ through _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["Olympic athletes", "lottery winners", "inherited wealth"], "correctAnswer": "Olympic athletes"},
-                  {"id": "example6_b2", "options": ["achieve excellence", "get lucky", "avoid work"], "correctAnswer": "achieve excellence"},
-                  {"id": "example6_b3", "options": ["countless hours of rigorous training", "random chance", "doing nothing"], "correctAnswer": "countless hours of rigorous training"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "Olympic athletes",
+                      "lottery winners",
+                      "inherited wealth"
+                    ],
+                    "correctAnswer": "Olympic athletes"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "achieve excellence",
+                      "get lucky",
+                      "avoid work"
+                    ],
+                    "correctAnswer": "achieve excellence"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "countless hours of rigorous training",
+                      "random chance",
+                      "doing nothing"
+                    ],
+                    "correctAnswer": "countless hours of rigorous training"
+                  }
                 ],
                 "correctSentence": "Take Olympic athletes as an example: they achieve excellence through countless hours of rigorous training.",
                 "usableIn": "body-paragraph-1"
@@ -577,9 +1285,33 @@
                 "type": "template",
                 "template": "In particular, _____ overcame _____ to become _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["Oprah Winfrey", "wealthy heirs", "lottery winners"], "correctAnswer": "Oprah Winfrey"},
-                  {"id": "example7_b2", "options": ["poverty and adversity", "no obstacles", "every advantage"], "correctAnswer": "poverty and adversity"},
-                  {"id": "example7_b3", "options": ["one of the most successful media personalities", "instantly wealthy", "immediately famous"], "correctAnswer": "one of the most successful media personalities"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "Oprah Winfrey",
+                      "wealthy heirs",
+                      "lottery winners"
+                    ],
+                    "correctAnswer": "Oprah Winfrey"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "poverty and adversity",
+                      "no obstacles",
+                      "every advantage"
+                    ],
+                    "correctAnswer": "poverty and adversity"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "one of the most successful media personalities",
+                      "instantly wealthy",
+                      "immediately famous"
+                    ],
+                    "correctAnswer": "one of the most successful media personalities"
+                  }
                 ],
                 "correctSentence": "In particular, Oprah Winfrey overcame poverty and adversity to become one of the most successful media personalities.",
                 "usableIn": "body-paragraph-1"
@@ -589,9 +1321,33 @@
                 "type": "template",
                 "template": "Specifically, _____ spent _____ before _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["Thomas Edison", "random people", "lucky individuals"], "correctAnswer": "Thomas Edison"},
-                  {"id": "example8_b2", "options": ["years conducting thousands of experiments", "no time working", "waiting for luck"], "correctAnswer": "years conducting thousands of experiments"},
-                  {"id": "example8_b3", "options": ["successfully inventing the light bulb", "giving up", "becoming wealthy"], "correctAnswer": "successfully inventing the light bulb"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "Thomas Edison",
+                      "random people",
+                      "lucky individuals"
+                    ],
+                    "correctAnswer": "Thomas Edison"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "years conducting thousands of experiments",
+                      "no time working",
+                      "waiting for luck"
+                    ],
+                    "correctAnswer": "years conducting thousands of experiments"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "successfully inventing the light bulb",
+                      "giving up",
+                      "becoming wealthy"
+                    ],
+                    "correctAnswer": "successfully inventing the light bulb"
+                  }
                 ],
                 "correctSentence": "Specifically, Thomas Edison spent years conducting thousands of experiments before successfully inventing the light bulb.",
                 "usableIn": "body-paragraph-1"
@@ -601,9 +1357,33 @@
                 "type": "template",
                 "template": "According to _____, _____ of successful people attribute their achievement to _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["numerous surveys", "random guesses", "no evidence"], "correctAnswer": "numerous surveys"},
-                  {"id": "example9_b2", "options": ["the vast majority", "a tiny fraction", "none"], "correctAnswer": "the vast majority"},
-                  {"id": "example9_b3", "options": ["hard work rather than luck", "pure chance", "inheritance"], "correctAnswer": "hard work rather than luck"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "numerous surveys",
+                      "random guesses",
+                      "no evidence"
+                    ],
+                    "correctAnswer": "numerous surveys"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "the vast majority",
+                      "a tiny fraction",
+                      "none"
+                    ],
+                    "correctAnswer": "the vast majority"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "hard work rather than luck",
+                      "pure chance",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "hard work rather than luck"
+                  }
                 ],
                 "correctSentence": "According to numerous surveys, the vast majority of successful people attribute their achievement to hard work rather than luck.",
                 "usableIn": "body-paragraph-1"
@@ -613,9 +1393,33 @@
                 "type": "template",
                 "template": "Evidence from _____ reveals that _____ consistently leads to _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["longitudinal studies", "random observations", "unverified claims"], "correctAnswer": "longitudinal studies"},
-                  {"id": "example10_b2", "options": ["sustained effort and deliberate practice", "hoping for luck", "avoiding challenges"], "correctAnswer": "sustained effort and deliberate practice"},
-                  {"id": "example10_b3", "options": ["better life outcomes than passive waiting", "guaranteed failure", "wasted time"], "correctAnswer": "better life outcomes than passive waiting"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "longitudinal studies",
+                      "random observations",
+                      "unverified claims"
+                    ],
+                    "correctAnswer": "longitudinal studies"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "sustained effort and deliberate practice",
+                      "hoping for luck",
+                      "avoiding challenges"
+                    ],
+                    "correctAnswer": "sustained effort and deliberate practice"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "better life outcomes than passive waiting",
+                      "guaranteed failure",
+                      "wasted time"
+                    ],
+                    "correctAnswer": "better life outcomes than passive waiting"
+                  }
                 ],
                 "correctSentence": "Evidence from longitudinal studies reveals that sustained effort and deliberate practice consistently leads to better life outcomes than passive waiting.",
                 "usableIn": "body-paragraph-1"
@@ -632,9 +1436,33 @@
                 "type": "template",
                 "template": "Admittedly, _____ can _____, but _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["favorable circumstances", "hard work", "dedication"], "correctAnswer": "favorable circumstances"},
-                  {"id": "counter1_b2", "options": ["provide initial opportunities", "guarantee success", "replace effort"], "correctAnswer": "provide initial opportunities"},
-                  {"id": "counter1_b3", "options": ["capitalizing on these opportunities requires effort", "luck is everything", "nothing else matters"], "correctAnswer": "capitalizing on these opportunities requires effort"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "favorable circumstances",
+                      "hard work",
+                      "dedication"
+                    ],
+                    "correctAnswer": "favorable circumstances"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "provide initial opportunities",
+                      "guarantee success",
+                      "replace effort"
+                    ],
+                    "correctAnswer": "provide initial opportunities"
+                  },
+                  {
+                    "id": "counter1_b3",
+                    "options": [
+                      "capitalizing on these opportunities requires effort",
+                      "luck is everything",
+                      "nothing else matters"
+                    ],
+                    "correctAnswer": "capitalizing on these opportunities requires effort"
+                  }
                 ],
                 "correctSentence": "Admittedly, favorable circumstances can provide initial opportunities, but capitalizing on these opportunities requires effort.",
                 "usableIn": "body-paragraph-2"
@@ -644,8 +1472,24 @@
                 "type": "template",
                 "template": "While it is true that _____, _____ remains the primary determinant.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["some people have fortunate starting points", "everyone is identical", "nothing matters"], "correctAnswer": "some people have fortunate starting points"},
-                  {"id": "counter2_b2", "options": ["individual effort and perseverance", "pure luck", "family wealth"], "correctAnswer": "individual effort and perseverance"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "some people have fortunate starting points",
+                      "everyone is identical",
+                      "nothing matters"
+                    ],
+                    "correctAnswer": "some people have fortunate starting points"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "individual effort and perseverance",
+                      "pure luck",
+                      "family wealth"
+                    ],
+                    "correctAnswer": "individual effort and perseverance"
+                  }
                 ],
                 "correctSentence": "While it is true that some people have fortunate starting points, individual effort and perseverance remains the primary determinant.",
                 "usableIn": "body-paragraph-2"
@@ -655,9 +1499,33 @@
                 "type": "template",
                 "template": "Although _____ may play a role in _____, it cannot _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["luck", "effort", "skill"], "correctAnswer": "luck"},
-                  {"id": "counter3_b2", "options": ["creating opportunities", "determining outcomes", "replacing work"], "correctAnswer": "creating opportunities"},
-                  {"id": "counter3_b3", "options": ["substitute for dedication and preparation", "help at all", "be controlled"], "correctAnswer": "substitute for dedication and preparation"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "luck",
+                      "effort",
+                      "skill"
+                    ],
+                    "correctAnswer": "luck"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "creating opportunities",
+                      "determining outcomes",
+                      "replacing work"
+                    ],
+                    "correctAnswer": "creating opportunities"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "substitute for dedication and preparation",
+                      "help at all",
+                      "be controlled"
+                    ],
+                    "correctAnswer": "substitute for dedication and preparation"
+                  }
                 ],
                 "correctSentence": "Although luck may play a role in creating opportunities, it cannot substitute for dedication and preparation.",
                 "usableIn": "body-paragraph-2"
@@ -667,8 +1535,24 @@
                 "type": "template",
                 "template": "It could be argued that _____, however, _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["some succeed through fortunate circumstances", "effort never matters", "luck is everything"], "correctAnswer": "some succeed through fortunate circumstances"},
-                  {"id": "counter4_b2", "options": ["such cases are exceptional rather than typical", "this proves luck controls everything", "hard work is useless"], "correctAnswer": "such cases are exceptional rather than typical"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "some succeed through fortunate circumstances",
+                      "effort never matters",
+                      "luck is everything"
+                    ],
+                    "correctAnswer": "some succeed through fortunate circumstances"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "such cases are exceptional rather than typical",
+                      "this proves luck controls everything",
+                      "hard work is useless"
+                    ],
+                    "correctAnswer": "such cases are exceptional rather than typical"
+                  }
                 ],
                 "correctSentence": "It could be argued that some succeed through fortunate circumstances, however, such cases are exceptional rather than typical.",
                 "usableIn": "body-paragraph-2"
@@ -678,9 +1562,33 @@
                 "type": "template",
                 "template": "Despite _____ providing advantages, _____ ultimately determines _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["certain circumstances", "everything", "nothing"], "correctAnswer": "certain circumstances"},
-                  {"id": "counter5_b2", "options": ["how individuals respond to their situation", "pure chance", "external forces"], "correctAnswer": "how individuals respond to their situation"},
-                  {"id": "counter5_b3", "options": ["their eventual success or failure", "nothing", "everything"], "correctAnswer": "their eventual success or failure"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "certain circumstances",
+                      "everything",
+                      "nothing"
+                    ],
+                    "correctAnswer": "certain circumstances"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "how individuals respond to their situation",
+                      "pure chance",
+                      "external forces"
+                    ],
+                    "correctAnswer": "how individuals respond to their situation"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "their eventual success or failure",
+                      "nothing",
+                      "everything"
+                    ],
+                    "correctAnswer": "their eventual success or failure"
+                  }
                 ],
                 "correctSentence": "Despite certain circumstances providing advantages, how individuals respond to their situation ultimately determines their eventual success or failure.",
                 "usableIn": "body-paragraph-2"
@@ -697,8 +1605,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I firmly believe that _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["luck may influence certain outcomes", "effort is useless", "nothing matters"], "correctAnswer": "luck may influence certain outcomes"},
-                  {"id": "conclusion1_b2", "options": ["personal effort and determination are the primary drivers of success", "luck controls everything", "success is impossible"], "correctAnswer": "personal effort and determination are the primary drivers of success"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "luck may influence certain outcomes",
+                      "effort is useless",
+                      "nothing matters"
+                    ],
+                    "correctAnswer": "luck may influence certain outcomes"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "personal effort and determination are the primary drivers of success",
+                      "luck controls everything",
+                      "success is impossible"
+                    ],
+                    "correctAnswer": "personal effort and determination are the primary drivers of success"
+                  }
                 ],
                 "correctSentence": "In conclusion, while luck may influence certain outcomes, I firmly believe that personal effort and determination are the primary drivers of success.",
                 "usableIn": "conclusion"
@@ -708,9 +1632,33 @@
                 "type": "template",
                 "template": "Overall, _____ rather than _____ determines _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["consistent hard work and strategic planning", "random chance", "external factors"], "correctAnswer": "consistent hard work and strategic planning"},
-                  {"id": "conclusion2_b2", "options": ["fortunate circumstances alone", "personal effort", "dedication"], "correctAnswer": "fortunate circumstances alone"},
-                  {"id": "conclusion2_b3", "options": ["whether individuals achieve their life goals", "nothing", "everything"], "correctAnswer": "whether individuals achieve their life goals"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "consistent hard work and strategic planning",
+                      "random chance",
+                      "external factors"
+                    ],
+                    "correctAnswer": "consistent hard work and strategic planning"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "fortunate circumstances alone",
+                      "personal effort",
+                      "dedication"
+                    ],
+                    "correctAnswer": "fortunate circumstances alone"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "whether individuals achieve their life goals",
+                      "nothing",
+                      "everything"
+                    ],
+                    "correctAnswer": "whether individuals achieve their life goals"
+                  }
                 ],
                 "correctSentence": "Overall, consistent hard work and strategic planning rather than fortunate circumstances alone determines whether individuals achieve their life goals.",
                 "usableIn": "conclusion"
@@ -720,9 +1668,33 @@
                 "type": "template",
                 "template": "To summarize, _____ is predominantly a result of _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["success", "failure", "wealth"], "correctAnswer": "success"},
-                  {"id": "conclusion3_b2", "options": ["deliberate effort and perseverance", "random events", "inheritance"], "correctAnswer": "deliberate effort and perseverance"},
-                  {"id": "conclusion3_b3", "options": ["random chance", "hard work", "planning"], "correctAnswer": "random chance"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "success",
+                      "failure",
+                      "wealth"
+                    ],
+                    "correctAnswer": "success"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "deliberate effort and perseverance",
+                      "random events",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "deliberate effort and perseverance"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "random chance",
+                      "hard work",
+                      "planning"
+                    ],
+                    "correctAnswer": "random chance"
+                  }
                 ],
                 "correctSentence": "To summarize, success is predominantly a result of deliberate effort and perseverance rather than random chance.",
                 "usableIn": "conclusion"
@@ -732,9 +1704,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ plays a far greater role than _____ in _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["individual determination", "pure luck", "external circumstances"], "correctAnswer": "individual determination"},
-                  {"id": "conclusion4_b2", "options": ["luck", "effort", "skill"], "correctAnswer": "luck"},
-                  {"id": "conclusion4_b3", "options": ["determining life outcomes", "winning games", "making friends"], "correctAnswer": "determining life outcomes"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "individual determination",
+                      "pure luck",
+                      "external circumstances"
+                    ],
+                    "correctAnswer": "individual determination"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "luck",
+                      "effort",
+                      "skill"
+                    ],
+                    "correctAnswer": "luck"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "determining life outcomes",
+                      "winning games",
+                      "making friends"
+                    ],
+                    "correctAnswer": "determining life outcomes"
+                  }
                 ],
                 "correctSentence": "Ultimately, individual determination plays a far greater role than luck in determining life outcomes.",
                 "usableIn": "conclusion"
@@ -744,8 +1740,24 @@
                 "type": "template",
                 "template": "In summary, _____ remains the decisive factor because _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["personal effort", "random chance", "inheritance"], "correctAnswer": "personal effort"},
-                  {"id": "conclusion5_b2", "options": ["it can be controlled and developed consistently", "it requires no work", "it is guaranteed"], "correctAnswer": "it can be controlled and developed consistently"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "personal effort",
+                      "random chance",
+                      "inheritance"
+                    ],
+                    "correctAnswer": "personal effort"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "it can be controlled and developed consistently",
+                      "it requires no work",
+                      "it is guaranteed"
+                    ],
+                    "correctAnswer": "it can be controlled and developed consistently"
+                  }
                 ],
                 "correctSentence": "In summary, personal effort remains the decisive factor because it can be controlled and developed consistently.",
                 "usableIn": "conclusion"
@@ -798,13 +1810,51 @@
           }
         ],
         "usefulTransitions": {
-          "stating_disagreement": ["I strongly disagree", "I completely reject the notion", "This view is fundamentally flawed"],
-          "partial_agreement": ["While it is true that", "Admittedly", "To some extent", "Although"],
-          "contrasting": ["However", "Nevertheless", "On the contrary", "Conversely", "Despite this"],
-          "adding_points": ["Furthermore", "Moreover", "In addition", "Additionally", "More importantly"],
-          "giving_examples": ["For instance", "For example", "Consider the case of", "Take...as an example"],
-          "showing_result": ["As a result", "Consequently", "Therefore", "Thus", "This demonstrates"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In summary"]
+          "stating_disagreement": [
+            "I strongly disagree",
+            "I completely reject the notion",
+            "This view is fundamentally flawed"
+          ],
+          "partial_agreement": [
+            "While it is true that",
+            "Admittedly",
+            "To some extent",
+            "Although"
+          ],
+          "contrasting": [
+            "However",
+            "Nevertheless",
+            "On the contrary",
+            "Conversely",
+            "Despite this"
+          ],
+          "adding_points": [
+            "Furthermore",
+            "Moreover",
+            "In addition",
+            "Additionally",
+            "More importantly"
+          ],
+          "giving_examples": [
+            "For instance",
+            "For example",
+            "Consider the case of",
+            "Take...as an example"
+          ],
+          "showing_result": [
+            "As a result",
+            "Consequently",
+            "Therefore",
+            "Thus",
+            "This demonstrates"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In summary"
+          ]
         }
       }
     },
@@ -984,12 +2034,12 @@
     }
   ],
   "modelEssay": {
-    "text": "It is often argued that success in life is predominantly determined by fortunate circumstances rather than personal qualities. I strongly disagree with this perspective because individual effort, determination, and strategic planning play far more significant roles in achieving one's goals.\n\nThe primary reason for my disagreement is that hard work and perseverance can be systematically developed, whereas luck remains unpredictable and beyond personal control. Individuals can deliberately cultivate skills, acquire specialized knowledge, and build expertise through consistent practice and dedication over extended periods. For instance, self-made entrepreneurs like Oprah Winfrey overcame significant poverty and adversity through years of focused effort to become remarkably successful. Similarly, J.K. Rowling faced homelessness and numerous publisher rejections before her persistence led to creating one of the world's most beloved book series. These examples clearly demonstrate that sustained personal effort proves far more reliable than passively waiting for fortunate circumstances.\n\nFurthermore, determination and strategic planning enable individuals to create opportunities rather than depending on chance. While some people may indeed benefit from favorable starting conditions, capitalizing on any opportunity still requires preparation, skill development, and willingness to work persistently toward objectives. Research by psychologist Angela Duckworth demonstrates that grit and perseverance are stronger predictors of success than natural talent or advantageous circumstances. Olympic athletes, for example, achieve excellence not through luck but through countless hours of rigorous training, sacrifice, and unwavering commitment to improvement.\n\nIn conclusion, while fortunate circumstances may occasionally influence outcomes to some degree, I firmly believe that personal dedication, consistent effort, and strategic planning are the primary determinants of whether individuals successfully achieve their life goals.",
-    "wordCount": 278,
+    "text": "It is often argued that success in life is predominantly determined by fortunate circumstances rather than personal qualities. I strongly disagree with this perspective because individual effort, determination, and strategic planning play far more significant roles in achieving one's goals.\n\nThe primary reason for my disagreement is that hard work and perseverance can be systematically developed, whereas luck remains unpredictable and beyond personal control. Individuals can deliberately cultivate skills, acquire specialized knowledge, and build expertise through consistent practice and dedication over extended periods. For instance, self-made entrepreneurs like Oprah Winfrey overcame significant poverty and adversity through years of focused effort to become remarkably successful. Similarly, J.K. Rowling faced homelessness and numerous publisher rejections before her persistence led to creating one of the world's most beloved book series. These examples clearly demonstrate that sustained personal effort proves far more reliable than passively waiting for fortunate circumstances.\n\nFurthermore, determination and strategic planning allow individuals to create opportunities rather than depending on chance. While some people may indeed benefit from favorable starting conditions, capitalizing on any opportunity still requires preparation, skill development, and willingness to work persistently toward objectives. Research by psychologist Angela Duckworth demonstrates that grit and perseverance are stronger predictors of success than natural talent or advantageous circumstances. Olympic athletes, for example, achieve excellence not through luck but through countless hours of rigorous training, sacrifice, and unwavering commitment to improvement.\n\nIn conclusion, while fortunate circumstances may occasionally influence outcomes to some degree, I firmly believe that personal dedication, consistent effort, and strategic planning are the primary determinants of whether individuals successfully achieve their life goals.",
+    "wordCount": 264,
     "structure": {
       "introduction": "It is often argued that success in life is predominantly determined by fortunate circumstances rather than personal qualities. I strongly disagree with this perspective because individual effort, determination, and strategic planning play far more significant roles in achieving one's goals.",
       "body1": "The primary reason for my disagreement is that hard work and perseverance can be systematically developed, whereas luck remains unpredictable and beyond personal control. Individuals can deliberately cultivate skills, acquire specialized knowledge, and build expertise through consistent practice and dedication over extended periods. For instance, self-made entrepreneurs like Oprah Winfrey overcame significant poverty and adversity through years of focused effort to become remarkably successful. Similarly, J.K. Rowling faced homelessness and numerous publisher rejections before her persistence led to creating one of the world's most beloved book series. These examples clearly demonstrate that sustained personal effort proves far more reliable than passively waiting for fortunate circumstances.",
-      "body2": "Furthermore, determination and strategic planning enable individuals to create opportunities rather than depending on chance. While some people may indeed benefit from favorable starting conditions, capitalizing on any opportunity still requires preparation, skill development, and willingness to work persistently toward objectives. Research by psychologist Angela Duckworth demonstrates that grit and perseverance are stronger predictors of success than natural talent or advantageous circumstances. Olympic athletes, for example, achieve excellence not through luck but through countless hours of rigorous training, sacrifice, and unwavering commitment to improvement.",
+      "body2": "Furthermore, determination and strategic planning allow individuals to create opportunities rather than depending on chance. While some people may indeed benefit from favorable starting conditions, capitalizing on any opportunity still requires preparation, skill development, and willingness to work persistently toward objectives. Research by psychologist Angela Duckworth demonstrates that grit and perseverance are stronger predictors of success than natural talent or advantageous circumstances. Olympic athletes, for example, achieve excellence not through luck but through countless hours of rigorous training, sacrifice, and unwavering commitment to improvement.",
       "conclusion": "In conclusion, while fortunate circumstances may occasionally influence outcomes to some degree, I firmly believe that personal dedication, consistent effort, and strategic planning are the primary determinants of whether individuals successfully achieve their life goals."
     },
     "highlights": [

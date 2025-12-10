@@ -79,105 +79,158 @@
             "word": "revolutionary",
             "pronunciation": "/ˌrevəˈluːʃəneri/",
             "partOfSpeech": "adjective",
-            "definition": "Involving or causing dramatic change or innovation",
+            "definition": "Involving or causing dramatic change or innovation.",
             "example": "The internet has had a revolutionary impact on modern society.",
-            "synonyms": ["groundbreaking", "transformative"]
+            "synonyms": [
+              "groundbreaking",
+              "transformative"
+            ]
           },
           {
             "word": "transformative",
             "pronunciation": "/trænsˈfɔːrmətɪv/",
             "partOfSpeech": "adjective",
-            "definition": "Causing a marked change in someone or something",
+            "definition": "Causing a marked change in someone or something.",
             "example": "Many consider the internet the most transformative invention of recent times.",
-            "synonyms": ["revolutionary", "life-changing"]
+            "synonyms": [
+              "revolutionary",
+              "life-changing"
+            ]
           },
           {
             "word": "fundamental",
             "pronunciation": "/ˌfʌndəˈmentl/",
             "partOfSpeech": "adjective",
-            "definition": "Forming a necessary base or core; of central importance",
+            "definition": "Forming a necessary base or core; of central importance.",
             "example": "The wheel was a fundamental invention for transportation and industry.",
-            "synonyms": ["essential", "basic", "crucial"]
+            "synonyms": [
+              "essential",
+              "basic",
+              "crucial"
+            ]
           },
           {
             "word": "unprecedented",
             "pronunciation": "/ʌnˈpresɪdentɪd/",
             "partOfSpeech": "adjective",
-            "definition": "Never done or known before",
-            "example": "The internet provides unprecedented access to information worldwide.",
-            "synonyms": ["unparalleled", "extraordinary"]
+            "definition": "Never done or known before.",
+            "example": "The internet provides unmatched access to information worldwide.",
+            "synonyms": [
+              "unparalleled",
+              "extraordinary"
+            ]
           },
           {
             "word": "civilization",
             "pronunciation": "/ˌsɪvəlaɪˈzeɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The stage of human social development and organization",
+            "definition": "The stage of human social development and organization.",
             "example": "Several inventions have fundamentally shaped human civilization throughout history.",
-            "synonyms": ["society", "culture"]
+            "synonyms": [
+              "society",
+              "culture"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
+            "definition": "To make an action or process easier.",
             "example": "The internet facilitates instant communication across continents.",
-            "synonyms": ["enable", "assist", "expedite"]
+            "synonyms": [
+              "enable",
+              "assist",
+              "expedite"
+            ]
           },
           {
             "word": "magnitude",
             "pronunciation": "/ˈmæɡnɪtjuːd/",
             "partOfSpeech": "noun",
-            "definition": "The great size or importance of something",
+            "definition": "The great size or importance of something.",
             "example": "It is difficult to overstate the magnitude of the internet's impact.",
-            "synonyms": ["scale", "extent", "significance"]
+            "synonyms": [
+              "scale",
+              "extent",
+              "significance"
+            ]
           },
           {
             "word": "profound",
             "pronunciation": "/prəˈfaʊnd/",
             "partOfSpeech": "adjective",
-            "definition": "Very great or intense; having deep significance",
+            "definition": "Very great or intense; having deep significance.",
             "example": "The wheel had a profound effect on trade and transportation.",
-            "synonyms": ["deep", "significant", "far-reaching"]
+            "synonyms": [
+              "deep",
+              "significant",
+              "far-reaching"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "technological advancement",
-            "definition": "Progress or improvement in technology",
+            "definition": "Progress or improvement in technology.",
             "example": "The internet represents a major technological advancement of the modern era."
           },
           {
             "phrase": "human progress",
-            "definition": "The development and improvement of human society",
+            "definition": "The development and improvement of human society.",
             "example": "Many inventions have contributed significantly to human progress."
           },
           {
             "phrase": "information age",
-            "definition": "The current era characterized by easy access to information",
+            "definition": "The current era characterized by easy access to information.",
             "example": "The internet ushered in the information age we live in today."
           },
           {
             "phrase": "global connectivity",
-            "definition": "The state of being connected worldwide",
+            "definition": "The state of being connected worldwide.",
             "example": "The internet has created global connectivity on an unprecedented scale."
           },
           {
             "phrase": "historical significance",
-            "definition": "Importance in the context of history",
+            "definition": "Importance in the context of history.",
             "example": "The wheel's historical significance cannot be understated."
           },
           {
             "phrase": "societal transformation",
-            "definition": "Fundamental change in how society functions",
+            "definition": "Fundamental change in how society functions.",
             "example": "The internet has driven societal transformation in communication and commerce."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["Throughout human history", "It is often debated whether", "While some argue that", "From my perspective"],
-          "contrasting": ["However", "Conversely", "On the contrary", "Nevertheless"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition"],
-          "exemplifying": ["For instance", "For example", "Particularly", "Such as"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "introducing": [
+            "Throughout human history",
+            "It is often debated whether",
+            "While some argue that",
+            "From my perspective"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "On the contrary",
+            "Nevertheless"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -200,8 +253,24 @@
                 "type": "template",
                 "template": "While _____ have been important, I believe that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["numerous historical inventions", "some technologies", "modern devices"], "correctAnswer": "numerous historical inventions"},
-                  {"id": "thesis1_b2", "options": ["the internet represents the most significant innovation", "technology is advancing", "computers are useful"], "correctAnswer": "the internet represents the most significant innovation"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "numerous historical inventions",
+                      "some technologies",
+                      "modern devices"
+                    ],
+                    "correctAnswer": "numerous historical inventions"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "the internet represents the most significant innovation",
+                      "technology is advancing",
+                      "computers are useful"
+                    ],
+                    "correctAnswer": "the internet represents the most significant innovation"
+                  }
                 ],
                 "correctSentence": "While numerous historical inventions have been important, I believe that the internet represents the most significant innovation.",
                 "usableIn": "introduction"
@@ -211,9 +280,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ is more important than _____ because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["the internet", "the wheel", "electricity"], "correctAnswer": "the internet"},
-                  {"id": "thesis2_b2", "options": ["any single historical invention", "computers", "smartphones"], "correctAnswer": "any single historical invention"},
-                  {"id": "thesis2_b3", "options": ["it has fundamentally transformed every aspect of modern life", "it is new", "everyone uses it"], "correctAnswer": "it has fundamentally transformed every aspect of modern life"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the internet",
+                      "the wheel",
+                      "electricity"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "any single historical invention",
+                      "computers",
+                      "smartphones"
+                    ],
+                    "correctAnswer": "any single historical invention"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "it has fundamentally transformed every aspect of modern life",
+                      "it is new",
+                      "everyone uses it"
+                    ],
+                    "correctAnswer": "it has fundamentally transformed every aspect of modern life"
+                  }
                 ],
                 "correctSentence": "In my opinion, the internet is more important than any single historical invention because it has fundamentally transformed every aspect of modern life.",
                 "usableIn": "introduction"
@@ -223,8 +316,24 @@
                 "type": "template",
                 "template": "Although _____ played crucial roles in history, I strongly agree that _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["inventions such as the wheel and electricity", "some devices", "old technologies"], "correctAnswer": "inventions such as the wheel and electricity"},
-                  {"id": "thesis3_b2", "options": ["the internet is the most transformative innovation", "technology is important", "people need the internet"], "correctAnswer": "the internet is the most transformative innovation"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "inventions such as the wheel and electricity",
+                      "some devices",
+                      "old technologies"
+                    ],
+                    "correctAnswer": "inventions such as the wheel and electricity"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "the internet is the most transformative innovation",
+                      "technology is important",
+                      "people need the internet"
+                    ],
+                    "correctAnswer": "the internet is the most transformative innovation"
+                  }
                 ],
                 "correctSentence": "Although inventions such as the wheel and electricity played crucial roles in history, I strongly agree that the internet is the most transformative innovation.",
                 "usableIn": "introduction"
@@ -234,9 +343,33 @@
                 "type": "template",
                 "template": "From my perspective, _____ cannot match _____ in terms of _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["earlier inventions", "computers", "smartphones"], "correctAnswer": "earlier inventions"},
-                  {"id": "thesis4_b2", "options": ["the internet's impact", "modern technology", "new devices"], "correctAnswer": "the internet's impact"},
-                  {"id": "thesis4_b3", "options": ["global connectivity and information access", "speed", "popularity"], "correctAnswer": "global connectivity and information access"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "earlier inventions",
+                      "computers",
+                      "smartphones"
+                    ],
+                    "correctAnswer": "earlier inventions"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "the internet's impact",
+                      "modern technology",
+                      "new devices"
+                    ],
+                    "correctAnswer": "the internet's impact"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": [
+                      "global connectivity and information access",
+                      "speed",
+                      "popularity"
+                    ],
+                    "correctAnswer": "global connectivity and information access"
+                  }
                 ],
                 "correctSentence": "From my perspective, earlier inventions cannot match the internet's impact in terms of global connectivity and information access.",
                 "usableIn": "introduction"
@@ -246,8 +379,24 @@
                 "type": "template",
                 "template": "I partially agree that the internet is most important, but _____ also deserve _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["foundational inventions like the wheel and printing press", "old technologies", "some devices"], "correctAnswer": "foundational inventions like the wheel and printing press"},
-                  {"id": "thesis5_b2", "options": ["significant recognition for enabling modern civilization", "credit", "attention"], "correctAnswer": "significant recognition for enabling modern civilization"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "foundational inventions like the wheel and printing press",
+                      "old technologies",
+                      "some devices"
+                    ],
+                    "correctAnswer": "foundational inventions like the wheel and printing press"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "significant recognition for enabling modern civilization",
+                      "credit",
+                      "attention"
+                    ],
+                    "correctAnswer": "significant recognition for enabling modern civilization"
+                  }
                 ],
                 "correctSentence": "I partially agree that the internet is most important, but foundational inventions like the wheel and printing press also deserve significant recognition for enabling modern civilization.",
                 "usableIn": "introduction"
@@ -264,7 +413,15 @@
                 "type": "template",
                 "template": "The internet's importance lies primarily in _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["its unprecedented ability to connect people and information globally", "being modern", "being popular"], "correctAnswer": "its unprecedented ability to connect people and information globally"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "its unprecedented ability to connect people and information globally",
+                      "being modern",
+                      "being popular"
+                    ],
+                    "correctAnswer": "its unprecedented ability to connect people and information globally"
+                  }
                 ],
                 "correctSentence": "The internet's importance lies primarily in its unprecedented ability to connect people and information globally.",
                 "usableIn": "body-paragraph-1"
@@ -274,9 +431,33 @@
                 "type": "template",
                 "template": "_____ has revolutionized _____ in ways _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["The internet", "Technology", "Modern life"], "correctAnswer": "The internet"},
-                  {"id": "topic2_b2", "options": ["communication, education, and commerce", "computers", "devices"], "correctAnswer": "communication, education, and commerce"},
-                  {"id": "topic2_b3", "options": ["no previous invention could achieve", "are interesting", "people enjoy"], "correctAnswer": "no previous invention could achieve"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "The internet",
+                      "Technology",
+                      "Modern life"
+                    ],
+                    "correctAnswer": "The internet"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "communication, education, and commerce",
+                      "computers",
+                      "devices"
+                    ],
+                    "correctAnswer": "communication, education, and commerce"
+                  },
+                  {
+                    "id": "topic2_b3",
+                    "options": [
+                      "no previous invention could achieve",
+                      "are interesting",
+                      "people enjoy"
+                    ],
+                    "correctAnswer": "no previous invention could achieve"
+                  }
                 ],
                 "correctSentence": "The internet has revolutionized communication, education, and commerce in ways no previous invention could achieve.",
                 "usableIn": "body-paragraph-1"
@@ -286,8 +467,24 @@
                 "type": "template",
                 "template": "However, it is important to acknowledge that _____ laid _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["earlier inventions like the wheel and printing press", "old technologies", "previous devices"], "correctAnswer": "earlier inventions like the wheel and printing press"},
-                  {"id": "topic3_b2", "options": ["the foundation for modern civilization", "groundwork", "basis"], "correctAnswer": "the foundation for modern civilization"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "earlier inventions like the wheel and printing press",
+                      "old technologies",
+                      "previous devices"
+                    ],
+                    "correctAnswer": "earlier inventions like the wheel and printing press"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "the foundation for modern civilization",
+                      "groundwork",
+                      "basis"
+                    ],
+                    "correctAnswer": "the foundation for modern civilization"
+                  }
                 ],
                 "correctSentence": "However, it is important to acknowledge that earlier inventions like the wheel and printing press laid the foundation for modern civilization.",
                 "usableIn": "body-paragraph-2"
@@ -297,9 +494,33 @@
                 "type": "template",
                 "template": "One cannot underestimate _____ that _____ had on _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["the profound impact", "the effect", "the result"], "correctAnswer": "the profound impact"},
-                  {"id": "topic4_b2", "options": ["fundamental inventions", "old devices", "previous technology"], "correctAnswer": "fundamental inventions"},
-                  {"id": "topic4_b3", "options": ["human survival and progress", "people", "society"], "correctAnswer": "human survival and progress"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "the profound impact",
+                      "the effect",
+                      "the result"
+                    ],
+                    "correctAnswer": "the profound impact"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "fundamental inventions",
+                      "old devices",
+                      "previous technology"
+                    ],
+                    "correctAnswer": "fundamental inventions"
+                  },
+                  {
+                    "id": "topic4_b3",
+                    "options": [
+                      "human survival and progress",
+                      "people",
+                      "society"
+                    ],
+                    "correctAnswer": "human survival and progress"
+                  }
                 ],
                 "correctSentence": "One cannot underestimate the profound impact that fundamental inventions had on human survival and progress.",
                 "usableIn": "body-paragraph-2"
@@ -309,8 +530,24 @@
                 "type": "template",
                 "template": "The primary reason _____ surpasses other inventions is _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["the internet", "technology", "computers"], "correctAnswer": "the internet"},
-                  {"id": "topic5_b2", "options": ["its universal scope and instant accessibility", "being new", "being fast"], "correctAnswer": "its universal scope and instant accessibility"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "its universal scope and instant accessibility",
+                      "being new",
+                      "being fast"
+                    ],
+                    "correctAnswer": "its universal scope and instant accessibility"
+                  }
                 ],
                 "correctSentence": "The primary reason the internet surpasses other inventions is its universal scope and instant accessibility.",
                 "usableIn": "body-paragraph-1"
@@ -320,9 +557,33 @@
                 "type": "template",
                 "template": "_____ argues that without _____, modern society would not _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["A compelling counter-argument", "Some people say", "Critics mention"], "correctAnswer": "A compelling counter-argument"},
-                  {"id": "topic6_b2", "options": ["foundational technologies like electricity and the wheel", "old inventions", "previous devices"], "correctAnswer": "foundational technologies like electricity and the wheel"},
-                  {"id": "topic6_b3", "options": ["exist in its current form", "work properly", "be developed"], "correctAnswer": "exist in its current form"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "A compelling counter-argument",
+                      "Some people say",
+                      "Critics mention"
+                    ],
+                    "correctAnswer": "A compelling counter-argument"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "foundational technologies like electricity and the wheel",
+                      "old inventions",
+                      "previous devices"
+                    ],
+                    "correctAnswer": "foundational technologies like electricity and the wheel"
+                  },
+                  {
+                    "id": "topic6_b3",
+                    "options": [
+                      "exist in its current form",
+                      "work properly",
+                      "be developed"
+                    ],
+                    "correctAnswer": "exist in its current form"
+                  }
                 ],
                 "correctSentence": "A compelling counter-argument argues that without foundational technologies like electricity and the wheel, modern society would not exist in its current form.",
                 "usableIn": "body-paragraph-2"
@@ -332,7 +593,15 @@
                 "type": "template",
                 "template": "What makes the internet particularly significant is _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["its capacity to democratize knowledge and opportunity", "being modern", "being useful"], "correctAnswer": "its capacity to democratize knowledge and opportunity"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "its capacity to democratize knowledge and opportunity",
+                      "being modern",
+                      "being useful"
+                    ],
+                    "correctAnswer": "its capacity to democratize knowledge and opportunity"
+                  }
                 ],
                 "correctSentence": "What makes the internet particularly significant is its capacity to democratize knowledge and opportunity.",
                 "usableIn": "body-paragraph-1"
@@ -342,9 +611,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ remain _____ because _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["historical inventions", "old technologies", "previous devices"], "correctAnswer": "historical inventions"},
-                  {"id": "topic8_b2", "options": ["fundamentally important", "useful", "relevant"], "correctAnswer": "fundamentally important"},
-                  {"id": "topic8_b3", "options": ["they enabled human survival and societal development", "they are old", "people used them"], "correctAnswer": "they enabled human survival and societal development"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "historical inventions",
+                      "old technologies",
+                      "previous devices"
+                    ],
+                    "correctAnswer": "historical inventions"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "fundamentally important",
+                      "useful",
+                      "relevant"
+                    ],
+                    "correctAnswer": "fundamentally important"
+                  },
+                  {
+                    "id": "topic8_b3",
+                    "options": [
+                      "they enabled human survival and societal development",
+                      "they are old",
+                      "people used them"
+                    ],
+                    "correctAnswer": "they enabled human survival and societal development"
+                  }
                 ],
                 "correctSentence": "Nevertheless, historical inventions remain fundamentally important because they enabled human survival and societal development.",
                 "usableIn": "body-paragraph-2"
@@ -361,8 +654,24 @@
                 "type": "template",
                 "template": "This is because _____ enables people to _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["the internet", "technology", "computers"], "correctAnswer": "the internet"},
-                  {"id": "support1_b2", "options": ["access information and communicate instantly across continents", "use devices", "work faster"], "correctAnswer": "access information and communicate instantly across continents"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "access information and communicate instantly across continents",
+                      "use devices",
+                      "work faster"
+                    ],
+                    "correctAnswer": "access information and communicate instantly across continents"
+                  }
                 ],
                 "correctSentence": "This is because the internet enables people to access information and communicate instantly across continents.",
                 "usableIn": "body-paragraph-1"
@@ -372,8 +681,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ has created _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["global connectivity", "technology", "computers"], "correctAnswer": "global connectivity"},
-                  {"id": "support2_b2", "options": ["opportunities for education, business, and social interaction", "websites", "devices"], "correctAnswer": "opportunities for education, business, and social interaction"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "global connectivity",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "global connectivity"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "opportunities for education, business, and social interaction",
+                      "websites",
+                      "devices"
+                    ],
+                    "correctAnswer": "opportunities for education, business, and social interaction"
+                  }
                 ],
                 "correctSentence": "The main reason is that global connectivity has created opportunities for education, business, and social interaction.",
                 "usableIn": "body-paragraph-1"
@@ -383,9 +708,33 @@
                 "type": "template",
                 "template": "_____ has transformed _____ by _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["The internet", "Technology", "Modern life"], "correctAnswer": "The internet"},
-                  {"id": "support3_b2", "options": ["every sector of society", "computers", "devices"], "correctAnswer": "every sector of society"},
-                  {"id": "support3_b3", "options": ["eliminating geographical and temporal barriers", "being fast", "being new"], "correctAnswer": "eliminating geographical and temporal barriers"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "The internet",
+                      "Technology",
+                      "Modern life"
+                    ],
+                    "correctAnswer": "The internet"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "every sector of society",
+                      "computers",
+                      "devices"
+                    ],
+                    "correctAnswer": "every sector of society"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "eliminating geographical and temporal barriers",
+                      "being fast",
+                      "being new"
+                    ],
+                    "correctAnswer": "eliminating geographical and temporal barriers"
+                  }
                 ],
                 "correctSentence": "The internet has transformed every sector of society by eliminating geographical and temporal barriers.",
                 "usableIn": "body-paragraph-1"
@@ -395,9 +744,33 @@
                 "type": "template",
                 "template": "_____ provided _____, which were essential for _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Historical innovations", "Old devices", "Previous technology"], "correctAnswer": "Historical innovations"},
-                  {"id": "support4_b2", "options": ["fundamental tools for survival and development", "basic items", "simple things"], "correctAnswer": "fundamental tools for survival and development"},
-                  {"id": "support4_b3", "options": ["the advancement of human civilization", "people", "society"], "correctAnswer": "the advancement of human civilization"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Historical innovations",
+                      "Old devices",
+                      "Previous technology"
+                    ],
+                    "correctAnswer": "Historical innovations"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "fundamental tools for survival and development",
+                      "basic items",
+                      "simple things"
+                    ],
+                    "correctAnswer": "fundamental tools for survival and development"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "the advancement of human civilization",
+                      "people",
+                      "society"
+                    ],
+                    "correctAnswer": "the advancement of human civilization"
+                  }
                 ],
                 "correctSentence": "Historical innovations provided fundamental tools for survival and development, which were essential for the advancement of human civilization.",
                 "usableIn": "body-paragraph-2"
@@ -407,8 +780,24 @@
                 "type": "template",
                 "template": "By _____, the internet has _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["democratizing access to knowledge", "being available", "existing online"], "correctAnswer": "democratizing access to knowledge"},
-                  {"id": "support5_b2", "options": ["leveled the playing field for people worldwide", "helped people", "changed things"], "correctAnswer": "leveled the playing field for people worldwide"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "democratizing access to knowledge",
+                      "being available",
+                      "existing online"
+                    ],
+                    "correctAnswer": "democratizing access to knowledge"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "leveled the playing field for people worldwide",
+                      "helped people",
+                      "changed things"
+                    ],
+                    "correctAnswer": "leveled the playing field for people worldwide"
+                  }
                 ],
                 "correctSentence": "By democratizing access to knowledge, the internet has leveled the playing field for people worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -418,9 +807,33 @@
                 "type": "template",
                 "template": "_____ enabled _____ through _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["The wheel", "Transportation", "Vehicles"], "correctAnswer": "The wheel"},
-                  {"id": "support6_b2", "options": ["trade, agriculture, and industrialization", "movement", "travel"], "correctAnswer": "trade, agriculture, and industrialization"},
-                  {"id": "support6_b3", "options": ["revolutionizing transportation and manufacturing", "helping people", "making things easier"], "correctAnswer": "revolutionizing transportation and manufacturing"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "The wheel",
+                      "Transportation",
+                      "Vehicles"
+                    ],
+                    "correctAnswer": "The wheel"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "trade, agriculture, and industrialization",
+                      "movement",
+                      "travel"
+                    ],
+                    "correctAnswer": "trade, agriculture, and industrialization"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "revolutionizing transportation and manufacturing",
+                      "helping people",
+                      "making things easier"
+                    ],
+                    "correctAnswer": "revolutionizing transportation and manufacturing"
+                  }
                 ],
                 "correctSentence": "The wheel enabled trade, agriculture, and industrialization through revolutionizing transportation and manufacturing.",
                 "usableIn": "body-paragraph-2"
@@ -430,8 +843,24 @@
                 "type": "template",
                 "template": "The internet facilitates _____ that was _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["real-time global collaboration", "communication", "connection"], "correctAnswer": "real-time global collaboration"},
-                  {"id": "support7_b2", "options": ["impossible before its creation", "difficult", "slow"], "correctAnswer": "impossible before its creation"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "real-time global collaboration",
+                      "communication",
+                      "connection"
+                    ],
+                    "correctAnswer": "real-time global collaboration"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "impossible before its creation",
+                      "difficult",
+                      "slow"
+                    ],
+                    "correctAnswer": "impossible before its creation"
+                  }
                 ],
                 "correctSentence": "The internet facilitates real-time global collaboration that was impossible before its creation.",
                 "usableIn": "body-paragraph-1"
@@ -441,8 +870,24 @@
                 "type": "template",
                 "template": "Without _____, humanity would not have _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["fundamental discoveries like fire and agriculture", "old inventions", "previous technology"], "correctAnswer": "fundamental discoveries like fire and agriculture"},
-                  {"id": "support8_b2", "options": ["survived and evolved to create modern technology", "existed", "developed"], "correctAnswer": "survived and evolved to create modern technology"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "fundamental discoveries like fire and agriculture",
+                      "old inventions",
+                      "previous technology"
+                    ],
+                    "correctAnswer": "fundamental discoveries like fire and agriculture"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "survived and evolved to create modern technology",
+                      "existed",
+                      "developed"
+                    ],
+                    "correctAnswer": "survived and evolved to create modern technology"
+                  }
                 ],
                 "correctSentence": "Without fundamental discoveries like fire and agriculture, humanity would not have survived and evolved to create modern technology.",
                 "usableIn": "body-paragraph-2"
@@ -452,9 +897,33 @@
                 "type": "template",
                 "template": "_____ has accelerated _____ at _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["The internet", "Technology", "Modern life"], "correctAnswer": "The internet"},
-                  {"id": "support9_b2", "options": ["innovation and scientific progress", "change", "development"], "correctAnswer": "innovation and scientific progress"},
-                  {"id": "support9_b3", "options": ["an unprecedented pace", "fast speed", "quick rate"], "correctAnswer": "an unprecedented pace"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "The internet",
+                      "Technology",
+                      "Modern life"
+                    ],
+                    "correctAnswer": "The internet"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "innovation and scientific progress",
+                      "change",
+                      "development"
+                    ],
+                    "correctAnswer": "innovation and scientific progress"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "an unprecedented pace",
+                      "fast speed",
+                      "quick rate"
+                    ],
+                    "correctAnswer": "an unprecedented pace"
+                  }
                 ],
                 "correctSentence": "The internet has accelerated innovation and scientific progress at an unprecedented pace.",
                 "usableIn": "body-paragraph-1"
@@ -464,8 +933,24 @@
                 "type": "template",
                 "template": "_____ created the conditions that _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["Early inventions", "Old devices", "Previous technology"], "correctAnswer": "Early inventions"},
-                  {"id": "support10_b2", "options": ["made subsequent innovations possible", "helped people", "changed things"], "correctAnswer": "made subsequent innovations possible"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "Early inventions",
+                      "Old devices",
+                      "Previous technology"
+                    ],
+                    "correctAnswer": "Early inventions"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "made subsequent innovations possible",
+                      "helped people",
+                      "changed things"
+                    ],
+                    "correctAnswer": "made subsequent innovations possible"
+                  }
                 ],
                 "correctSentence": "Early inventions created the conditions that made subsequent innovations possible.",
                 "usableIn": "body-paragraph-2"
@@ -475,8 +960,24 @@
                 "type": "template",
                 "template": "As a result, _____ have access to _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["billions of people", "many individuals", "users"], "correctAnswer": "billions of people"},
-                  {"id": "support11_b2", "options": ["educational resources and economic opportunities", "information", "websites"], "correctAnswer": "educational resources and economic opportunities"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "billions of people",
+                      "many individuals",
+                      "users"
+                    ],
+                    "correctAnswer": "billions of people"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "educational resources and economic opportunities",
+                      "information",
+                      "websites"
+                    ],
+                    "correctAnswer": "educational resources and economic opportunities"
+                  }
                 ],
                 "correctSentence": "As a result, billions of people have access to educational resources and economic opportunities.",
                 "usableIn": "body-paragraph-1"
@@ -486,9 +987,33 @@
                 "type": "template",
                 "template": "Consequently, _____ served as _____ for _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["these foundational inventions", "old devices", "previous technology"], "correctAnswer": "these foundational inventions"},
-                  {"id": "support12_b2", "options": ["building blocks", "tools", "items"], "correctAnswer": "building blocks"},
-                  {"id": "support12_b3", "options": ["all modern technological achievements", "new things", "current devices"], "correctAnswer": "all modern technological achievements"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "these foundational inventions",
+                      "old devices",
+                      "previous technology"
+                    ],
+                    "correctAnswer": "these foundational inventions"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "building blocks",
+                      "tools",
+                      "items"
+                    ],
+                    "correctAnswer": "building blocks"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "all modern technological achievements",
+                      "new things",
+                      "current devices"
+                    ],
+                    "correctAnswer": "all modern technological achievements"
+                  }
                 ],
                 "correctSentence": "Consequently, these foundational inventions served as building blocks for all modern technological achievements.",
                 "usableIn": "body-paragraph-2"
@@ -505,9 +1030,33 @@
                 "type": "template",
                 "template": "For instance, _____ can now _____ through _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["students in remote villages", "people", "users"], "correctAnswer": "students in remote villages"},
-                  {"id": "example1_b2", "options": ["access world-class educational content", "learn things", "study"], "correctAnswer": "access world-class educational content"},
-                  {"id": "example1_b3", "options": ["online platforms like Khan Academy and Coursera", "websites", "the internet"], "correctAnswer": "online platforms like Khan Academy and Coursera"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "students in remote villages",
+                      "people",
+                      "users"
+                    ],
+                    "correctAnswer": "students in remote villages"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "access world-class educational content",
+                      "learn things",
+                      "study"
+                    ],
+                    "correctAnswer": "access world-class educational content"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "online platforms like Khan Academy and Coursera",
+                      "websites",
+                      "the internet"
+                    ],
+                    "correctAnswer": "online platforms like Khan Academy and Coursera"
+                  }
                 ],
                 "correctSentence": "For instance, students in remote villages can now access world-class educational content through online platforms like Khan Academy and Coursera.",
                 "usableIn": "body-paragraph-1"
@@ -517,9 +1066,33 @@
                 "type": "template",
                 "template": "For example, _____ enabled _____ which _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["the printing press", "old technology", "previous inventions"], "correctAnswer": "the printing press"},
-                  {"id": "example2_b2", "options": ["mass literacy and the spread of knowledge", "reading", "books"], "correctAnswer": "mass literacy and the spread of knowledge"},
-                  {"id": "example2_b3", "options": ["transformed European society during the Renaissance", "helped people", "changed things"], "correctAnswer": "transformed European society during the Renaissance"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "the printing press",
+                      "old technology",
+                      "previous inventions"
+                    ],
+                    "correctAnswer": "the printing press"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "mass literacy and the spread of knowledge",
+                      "reading",
+                      "books"
+                    ],
+                    "correctAnswer": "mass literacy and the spread of knowledge"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "transformed European society during the Renaissance",
+                      "helped people",
+                      "changed things"
+                    ],
+                    "correctAnswer": "transformed European society during the Renaissance"
+                  }
                 ],
                 "correctSentence": "For example, the printing press enabled mass literacy and the spread of knowledge, which transformed European society during the Renaissance.",
                 "usableIn": "body-paragraph-2"
@@ -529,9 +1102,33 @@
                 "type": "template",
                 "template": "Specifically, _____ has enabled _____ such as _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["the internet", "technology", "modern life"], "correctAnswer": "the internet"},
-                  {"id": "example3_b2", "options": ["revolutionary services", "new things", "websites"], "correctAnswer": "revolutionary services"},
-                  {"id": "example3_b3", "options": ["telemedicine, remote work, and e-commerce", "online shopping", "social media"], "correctAnswer": "telemedicine, remote work, and e-commerce"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "modern life"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "revolutionary services",
+                      "new things",
+                      "websites"
+                    ],
+                    "correctAnswer": "revolutionary services"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "telemedicine, remote work, and e-commerce",
+                      "online shopping",
+                      "social media"
+                    ],
+                    "correctAnswer": "telemedicine, remote work, and e-commerce"
+                  }
                 ],
                 "correctSentence": "Specifically, the internet has enabled revolutionary services such as telemedicine, remote work, and e-commerce.",
                 "usableIn": "body-paragraph-1"
@@ -541,8 +1138,24 @@
                 "type": "template",
                 "template": "Research shows that _____ has connected _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["the internet", "technology", "communication"], "correctAnswer": "the internet"},
-                  {"id": "example4_b2", "options": ["over 5 billion people worldwide", "many people", "users globally"], "correctAnswer": "over 5 billion people worldwide"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "communication"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "over 5 billion people worldwide",
+                      "many people",
+                      "users globally"
+                    ],
+                    "correctAnswer": "over 5 billion people worldwide"
+                  }
                 ],
                 "correctSentence": "Research shows that the internet has connected over 5 billion people worldwide.",
                 "usableIn": "body-paragraph-1"
@@ -552,8 +1165,24 @@
                 "type": "template",
                 "template": "Historical evidence demonstrates that _____ was crucial for _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["the development of agriculture", "farming", "old methods"], "correctAnswer": "the development of agriculture"},
-                  {"id": "example5_b2", "options": ["the emergence of permanent settlements and complex societies", "people living together", "civilization"], "correctAnswer": "the emergence of permanent settlements and complex societies"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "the development of agriculture",
+                      "farming",
+                      "old methods"
+                    ],
+                    "correctAnswer": "the development of agriculture"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "the emergence of permanent settlements and complex societies",
+                      "people living together",
+                      "civilization"
+                    ],
+                    "correctAnswer": "the emergence of permanent settlements and complex societies"
+                  }
                 ],
                 "correctSentence": "Historical evidence demonstrates that the development of agriculture was crucial for the emergence of permanent settlements and complex societies.",
                 "usableIn": "body-paragraph-2"
@@ -563,9 +1192,33 @@
                 "type": "template",
                 "template": "In particular, _____ during _____ depended entirely on _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["global scientific collaboration", "research", "work"], "correctAnswer": "global scientific collaboration"},
-                  {"id": "example6_b2", "options": ["the COVID-19 pandemic", "recent years", "modern times"], "correctAnswer": "the COVID-19 pandemic"},
-                  {"id": "example6_b3", "options": ["internet-based communication and data sharing", "technology", "computers"], "correctAnswer": "internet-based communication and data sharing"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "global scientific collaboration",
+                      "research",
+                      "work"
+                    ],
+                    "correctAnswer": "global scientific collaboration"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "the COVID-19 pandemic",
+                      "recent years",
+                      "modern times"
+                    ],
+                    "correctAnswer": "the COVID-19 pandemic"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "internet-based communication and data sharing",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "internet-based communication and data sharing"
+                  }
                 ],
                 "correctSentence": "In particular, global scientific collaboration during the COVID-19 pandemic depended entirely on internet-based communication and data sharing.",
                 "usableIn": "body-paragraph-1"
@@ -575,9 +1228,33 @@
                 "type": "template",
                 "template": "Consider how _____, invented _____ years ago, remains _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["the wheel", "old technology", "ancient inventions"], "correctAnswer": "the wheel"},
-                  {"id": "example7_b2", "options": ["over 5,000", "many", "several"], "correctAnswer": "over 5,000"},
-                  {"id": "example7_b3", "options": ["fundamental to modern transportation and machinery", "useful today", "still important"], "correctAnswer": "fundamental to modern transportation and machinery"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "the wheel",
+                      "old technology",
+                      "ancient inventions"
+                    ],
+                    "correctAnswer": "the wheel"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "over 5,000",
+                      "many",
+                      "several"
+                    ],
+                    "correctAnswer": "over 5,000"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "fundamental to modern transportation and machinery",
+                      "useful today",
+                      "still important"
+                    ],
+                    "correctAnswer": "fundamental to modern transportation and machinery"
+                  }
                 ],
                 "correctSentence": "Consider how the wheel, invented over 5,000 years ago, remains fundamental to modern transportation and machinery.",
                 "usableIn": "body-paragraph-2"
@@ -587,9 +1264,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ would be impossible without _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["modern e-commerce", "online shopping", "websites"], "correctAnswer": "modern e-commerce"},
-                  {"id": "example8_b2", "options": ["companies like Amazon and Alibaba", "businesses", "stores"], "correctAnswer": "companies like Amazon and Alibaba"},
-                  {"id": "example8_b3", "options": ["the internet's global infrastructure", "technology", "computers"], "correctAnswer": "the internet's global infrastructure"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "modern e-commerce",
+                      "online shopping",
+                      "websites"
+                    ],
+                    "correctAnswer": "modern e-commerce"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "companies like Amazon and Alibaba",
+                      "businesses",
+                      "stores"
+                    ],
+                    "correctAnswer": "companies like Amazon and Alibaba"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "the internet's global infrastructure",
+                      "technology",
+                      "computers"
+                    ],
+                    "correctAnswer": "the internet's global infrastructure"
+                  }
                 ],
                 "correctSentence": "Take modern e-commerce as an example: companies like Amazon and Alibaba would be impossible without the internet's global infrastructure.",
                 "usableIn": "body-paragraph-1"
@@ -599,8 +1300,24 @@
                 "type": "template",
                 "template": "According to historians, _____ allowed ancient civilizations to _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["the control of fire", "old discoveries", "early inventions"], "correctAnswer": "the control of fire"},
-                  {"id": "example9_b2", "options": ["cook food, stay warm, and ward off predators", "survive", "live better"], "correctAnswer": "cook food, stay warm, and ward off predators"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "the control of fire",
+                      "old discoveries",
+                      "early inventions"
+                    ],
+                    "correctAnswer": "the control of fire"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "cook food, stay warm, and ward off predators",
+                      "survive",
+                      "live better"
+                    ],
+                    "correctAnswer": "cook food, stay warm, and ward off predators"
+                  }
                 ],
                 "correctSentence": "According to historians, the control of fire allowed ancient civilizations to cook food, stay warm, and ward off predators.",
                 "usableIn": "body-paragraph-2"
@@ -610,8 +1327,24 @@
                 "type": "template",
                 "template": "Evidence suggests that _____ has reduced _____ dramatically.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["internet access", "technology", "modern communication"], "correctAnswer": "internet access"},
-                  {"id": "example10_b2", "options": ["information inequality between developed and developing nations", "differences", "gaps"], "correctAnswer": "information inequality between developed and developing nations"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "internet access",
+                      "technology",
+                      "modern communication"
+                    ],
+                    "correctAnswer": "internet access"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "information inequality between developed and developing nations",
+                      "differences",
+                      "gaps"
+                    ],
+                    "correctAnswer": "information inequality between developed and developing nations"
+                  }
                 ],
                 "correctSentence": "Evidence suggests that internet access has reduced information inequality between developed and developing nations dramatically.",
                 "usableIn": "body-paragraph-1"
@@ -628,8 +1361,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ would not exist without _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["the internet itself", "modern technology", "current devices"], "correctAnswer": "the internet itself"},
-                  {"id": "counter1_b2", "options": ["foundational inventions like electricity and telecommunications", "previous inventions", "old technology"], "correctAnswer": "foundational inventions like electricity and telecommunications"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "the internet itself",
+                      "modern technology",
+                      "current devices"
+                    ],
+                    "correctAnswer": "the internet itself"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "foundational inventions like electricity and telecommunications",
+                      "previous inventions",
+                      "old technology"
+                    ],
+                    "correctAnswer": "foundational inventions like electricity and telecommunications"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that the internet itself would not exist without foundational inventions like electricity and telecommunications.",
                 "usableIn": "body-paragraph-2"
@@ -639,8 +1388,24 @@
                 "type": "template",
                 "template": "Despite this impact, _____ created _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["earlier inventions", "old technology", "previous discoveries"], "correctAnswer": "earlier inventions"},
-                  {"id": "counter2_b2", "options": ["the very foundation upon which modern technology stands", "basic things", "important items"], "correctAnswer": "the very foundation upon which modern technology stands"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "earlier inventions",
+                      "old technology",
+                      "previous discoveries"
+                    ],
+                    "correctAnswer": "earlier inventions"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "the very foundation upon which modern technology stands",
+                      "basic things",
+                      "important items"
+                    ],
+                    "correctAnswer": "the very foundation upon which modern technology stands"
+                  }
                 ],
                 "correctSentence": "Despite this impact, earlier inventions created the very foundation upon which modern technology stands.",
                 "usableIn": "body-paragraph-2"
@@ -650,8 +1415,24 @@
                 "type": "template",
                 "template": "Nevertheless, _____ depends on _____ that existed long before.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["the internet's functionality", "technology", "modern systems"], "correctAnswer": "the internet's functionality"},
-                  {"id": "counter3_b2", "options": ["fundamental technologies", "old inventions", "previous devices"], "correctAnswer": "fundamental technologies"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "the internet's functionality",
+                      "technology",
+                      "modern systems"
+                    ],
+                    "correctAnswer": "the internet's functionality"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "fundamental technologies",
+                      "old inventions",
+                      "previous devices"
+                    ],
+                    "correctAnswer": "fundamental technologies"
+                  }
                 ],
                 "correctSentence": "Nevertheless, the internet's functionality depends on fundamental technologies that existed long before.",
                 "usableIn": "body-paragraph-2"
@@ -661,8 +1442,24 @@
                 "type": "template",
                 "template": "Although _____ is transformative, it has also created problems such as _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["the internet", "technology", "modern communication"], "correctAnswer": "the internet"},
-                  {"id": "counter4_b2", "options": ["misinformation, privacy concerns, and digital addiction", "issues", "challenges"], "correctAnswer": "misinformation, privacy concerns, and digital addiction"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "modern communication"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "misinformation, privacy concerns, and digital addiction",
+                      "issues",
+                      "challenges"
+                    ],
+                    "correctAnswer": "misinformation, privacy concerns, and digital addiction"
+                  }
                 ],
                 "correctSentence": "Although the internet is transformative, it has also created problems such as misinformation, privacy concerns, and digital addiction.",
                 "usableIn": "body-paragraph-2"
@@ -672,9 +1469,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ enabled _____ in ways _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["historic inventions", "old technology", "previous discoveries"], "correctAnswer": "historic inventions"},
-                  {"id": "counter5_b2", "options": ["human survival and civilization", "people to live", "society to develop"], "correctAnswer": "human survival and civilization"},
-                  {"id": "counter5_b3", "options": ["that were more fundamentally important", "that mattered", "that were significant"], "correctAnswer": "that were more fundamentally important"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "historic inventions",
+                      "old technology",
+                      "previous discoveries"
+                    ],
+                    "correctAnswer": "historic inventions"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "human survival and civilization",
+                      "people to live",
+                      "society to develop"
+                    ],
+                    "correctAnswer": "human survival and civilization"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "that were more fundamentally important",
+                      "that mattered",
+                      "that were significant"
+                    ],
+                    "correctAnswer": "that were more fundamentally important"
+                  }
                 ],
                 "correctSentence": "Critics point out that historic inventions enabled human survival and civilization in ways that were more fundamentally important.",
                 "usableIn": "body-paragraph-2"
@@ -691,8 +1512,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["historical inventions were undeniably important", "old inventions mattered", "previous technology helped"], "correctAnswer": "historical inventions were undeniably important"},
-                  {"id": "conclusion1_b2", "options": ["the internet represents the most transformative innovation in human history", "the internet is best", "modern technology is superior"], "correctAnswer": "the internet represents the most transformative innovation in human history"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "historical inventions were undeniably important",
+                      "old inventions mattered",
+                      "previous technology helped"
+                    ],
+                    "correctAnswer": "historical inventions were undeniably important"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "the internet represents the most transformative innovation in human history",
+                      "the internet is best",
+                      "modern technology is superior"
+                    ],
+                    "correctAnswer": "the internet represents the most transformative innovation in human history"
+                  }
                 ],
                 "correctSentence": "In conclusion, while historical inventions were undeniably important, I believe the internet represents the most transformative innovation in human history.",
                 "usableIn": "conclusion"
@@ -702,10 +1539,42 @@
                 "type": "template",
                 "template": "Overall, _____ has provided _____, whereas _____ laid _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["the internet", "technology", "modern innovation"], "correctAnswer": "the internet"},
-                  {"id": "conclusion2_b2", "options": ["unprecedented global connectivity", "connections", "communication"], "correctAnswer": "unprecedented global connectivity"},
-                  {"id": "conclusion2_b3", "options": ["earlier inventions", "old technology", "previous discoveries"], "correctAnswer": "earlier inventions"},
-                  {"id": "conclusion2_b4", "options": ["the groundwork for civilization", "foundations", "basics"], "correctAnswer": "the groundwork for civilization"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "modern innovation"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "unprecedented global connectivity",
+                      "connections",
+                      "communication"
+                    ],
+                    "correctAnswer": "unprecedented global connectivity"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "earlier inventions",
+                      "old technology",
+                      "previous discoveries"
+                    ],
+                    "correctAnswer": "earlier inventions"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": [
+                      "the groundwork for civilization",
+                      "foundations",
+                      "basics"
+                    ],
+                    "correctAnswer": "the groundwork for civilization"
+                  }
                 ],
                 "correctSentence": "Overall, the internet has provided unprecedented global connectivity, whereas earlier inventions laid the groundwork for civilization.",
                 "usableIn": "conclusion"
@@ -715,9 +1584,33 @@
                 "type": "template",
                 "template": "To summarize, _____ surpasses _____ in _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["the internet", "modern technology", "current innovation"], "correctAnswer": "the internet"},
-                  {"id": "conclusion3_b2", "options": ["previous inventions", "old technology", "historic discoveries"], "correctAnswer": "previous inventions"},
-                  {"id": "conclusion3_b3", "options": ["scope, speed, and societal impact", "importance", "usefulness"], "correctAnswer": "scope, speed, and societal impact"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the internet",
+                      "modern technology",
+                      "current innovation"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "previous inventions",
+                      "old technology",
+                      "historic discoveries"
+                    ],
+                    "correctAnswer": "previous inventions"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "scope, speed, and societal impact",
+                      "importance",
+                      "usefulness"
+                    ],
+                    "correctAnswer": "scope, speed, and societal impact"
+                  }
                 ],
                 "correctSentence": "To summarize, the internet surpasses previous inventions in scope, speed, and societal impact.",
                 "usableIn": "conclusion"
@@ -727,9 +1620,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ should be recognized as _____ because _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["the internet", "technology", "modern innovation"], "correctAnswer": "the internet"},
-                  {"id": "conclusion4_b2", "options": ["humanity's most significant invention", "the best invention", "very important"], "correctAnswer": "humanity's most significant invention"},
-                  {"id": "conclusion4_b3", "options": ["it has fundamentally transformed every aspect of modern existence", "it helps everyone", "it is useful"], "correctAnswer": "it has fundamentally transformed every aspect of modern existence"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "the internet",
+                      "technology",
+                      "modern innovation"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "humanity's most significant invention",
+                      "the best invention",
+                      "very important"
+                    ],
+                    "correctAnswer": "humanity's most significant invention"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "it has fundamentally transformed every aspect of modern existence",
+                      "it helps everyone",
+                      "it is useful"
+                    ],
+                    "correctAnswer": "it has fundamentally transformed every aspect of modern existence"
+                  }
                 ],
                 "correctSentence": "Ultimately, the internet should be recognized as humanity's most significant invention because it has fundamentally transformed every aspect of modern existence.",
                 "usableIn": "conclusion"
@@ -739,9 +1656,33 @@
                 "type": "template",
                 "template": "In my view, _____ built upon _____, but _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["the internet", "modern technology", "current innovation"], "correctAnswer": "the internet"},
-                  {"id": "conclusion5_b2", "options": ["the foundations of earlier inventions", "previous work", "old technology"], "correctAnswer": "the foundations of earlier inventions"},
-                  {"id": "conclusion5_b3", "options": ["its unique global impact makes it the most important", "it is better", "it matters more"], "correctAnswer": "its unique global impact makes it the most important"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "the internet",
+                      "modern technology",
+                      "current innovation"
+                    ],
+                    "correctAnswer": "the internet"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "the foundations of earlier inventions",
+                      "previous work",
+                      "old technology"
+                    ],
+                    "correctAnswer": "the foundations of earlier inventions"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "its unique global impact makes it the most important",
+                      "it is better",
+                      "it matters more"
+                    ],
+                    "correctAnswer": "its unique global impact makes it the most important"
+                  }
                 ],
                 "correctSentence": "In my view, the internet built upon the foundations of earlier inventions, but its unique global impact makes it the most important.",
                 "usableIn": "conclusion"
@@ -794,12 +1735,42 @@
           }
         ],
         "usefulTransitions": {
-          "showing_agreement": ["I strongly agree that", "It is undeniable that", "Indeed", "Certainly"],
-          "showing_partial_agreement": ["To some extent", "While I partly agree", "I partially concur that", "Although there is merit to this view"],
-          "comparing": ["In contrast to", "Unlike", "Compared with", "Whereas"],
-          "emphasizing": ["Particularly", "Especially", "Most importantly", "Above all"],
-          "acknowledging_counter": ["Admittedly", "It is true that", "Granted", "While it is recognized that"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately"]
+          "showing_agreement": [
+            "I strongly agree that",
+            "It is undeniable that",
+            "Indeed",
+            "Certainly"
+          ],
+          "showing_partial_agreement": [
+            "To some extent",
+            "While I partly agree",
+            "I partially concur that",
+            "Although there is merit to this view"
+          ],
+          "comparing": [
+            "In contrast to",
+            "Unlike",
+            "Compared with",
+            "Whereas"
+          ],
+          "emphasizing": [
+            "Particularly",
+            "Especially",
+            "Most importantly",
+            "Above all"
+          ],
+          "acknowledging_counter": [
+            "Admittedly",
+            "It is true that",
+            "Granted",
+            "While it is recognized that"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately"
+          ]
         }
       }
     },
@@ -979,7 +1950,7 @@
   ],
   "modelEssay": {
     "text": "Throughout human history, countless innovations from the wheel to electricity have transformed civilization. However, I strongly agree that the internet is the most important invention because it has fundamentally reshaped global communication, education, and commerce in unprecedented ways.\n\nThe internet's primary importance lies in its unparalleled ability to democratize access to knowledge and opportunity. Unlike any previous invention, it eliminates geographical and socioeconomic barriers to information, enabling billions of people to access educational resources, conduct business, and communicate instantaneously. For instance, students in remote villages can now attend lectures from world-class universities through platforms like Coursera and Khan Academy, while entrepreneurs in developing nations can reach global markets through e-commerce. This level of accessibility has created opportunities that were simply impossible with earlier technologies.\n\nWhile foundational inventions such as the wheel, printing press, and electricity were undeniably transformative, they cannot match the internet's scope and speed of impact. The printing press, for example, took centuries to spread literacy across Europe, whereas the internet connected half the world's population in merely three decades. Moreover, the internet builds upon and amplifies the utility of previous inventions, serving as a platform that integrates and enhances all prior technological achievements. Even electricity, fundamental as it is, primarily provides power, whereas the internet fundamentally transforms how humans interact, learn, work, and innovate.\n\nIn conclusion, while historical inventions laid crucial groundwork for modern civilization, the internet represents humanity's most significant innovation because its global reach, instantaneous nature, and transformative impact on virtually every aspect of human existence surpass all previous inventions in both scale and significance.",
-    "wordCount": 276,
+    "wordCount": 260,
     "structure": {
       "introduction": "Throughout human history, countless innovations from the wheel to electricity have transformed civilization. However, I strongly agree that the internet is the most important invention because it has fundamentally reshaped global communication, education, and commerce in unprecedented ways.",
       "body1": "The internet's primary importance lies in its unparalleled ability to democratize access to knowledge and opportunity. Unlike any previous invention, it eliminates geographical and socioeconomic barriers to information, enabling billions of people to access educational resources, conduct business, and communicate instantaneously. For instance, students in remote villages can now attend lectures from world-class universities through platforms like Coursera and Khan Academy, while entrepreneurs in developing nations can reach global markets through e-commerce. This level of accessibility has created opportunities that were simply impossible with earlier technologies.",

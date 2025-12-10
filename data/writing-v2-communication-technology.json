@@ -74,105 +74,164 @@
             "word": "superficial",
             "pronunciation": "/ˌsuːpəˈfɪʃəl/",
             "partOfSpeech": "adjective",
-            "definition": "Existing or occurring at the surface; lacking depth",
+            "definition": "Existing or occurring at the surface; lacking depth.",
             "example": "Social media often encourages superficial connections rather than deep friendships.",
-            "synonyms": ["shallow", "surface-level"]
+            "synonyms": [
+              "shallow",
+              "surface-level"
+            ]
           },
           {
             "word": "facilitate",
             "pronunciation": "/fəˈsɪlɪteɪt/",
             "partOfSpeech": "verb",
-            "definition": "To make an action or process easier",
+            "definition": "To make an action or process easier.",
             "example": "Digital communication facilitates staying in touch with distant friends and family.",
-            "synonyms": ["enable", "assist", "support"]
+            "synonyms": [
+              "enable",
+              "assist",
+              "support"
+            ]
           },
           {
             "word": "interpersonal",
             "pronunciation": "/ˌɪntəˈpɜːsənəl/",
             "partOfSpeech": "adjective",
-            "definition": "Relating to relationships between people",
+            "definition": "Relating to relationships between people.",
             "example": "Excessive screen time can weaken interpersonal skills in young people.",
-            "synonyms": ["social", "relational"]
+            "synonyms": [
+              "social",
+              "relational"
+            ]
           },
           {
             "word": "diminish",
             "pronunciation": "/dɪˈmɪnɪʃ/",
             "partOfSpeech": "verb",
-            "definition": "To make or become less",
+            "definition": "To make or become less.",
             "example": "Constant digital distractions can diminish the quality of family interactions.",
-            "synonyms": ["reduce", "decrease", "lessen"]
+            "synonyms": [
+              "reduce",
+              "decrease",
+              "lessen"
+            ]
           },
           {
             "word": "authentic",
             "pronunciation": "/ɔːˈθentɪk/",
             "partOfSpeech": "adjective",
-            "definition": "Genuine, real, and true",
+            "definition": "Genuine, real, and true.",
             "example": "Face-to-face conversations allow for more authentic emotional connections.",
-            "synonyms": ["genuine", "real", "true"]
+            "synonyms": [
+              "genuine",
+              "real",
+              "true"
+            ]
           },
           {
             "word": "isolation",
             "pronunciation": "/ˌaɪsəˈleɪʃən/",
             "partOfSpeech": "noun",
-            "definition": "The state of being alone or separated from others",
+            "definition": "The state of being alone or separated from others.",
             "example": "Paradoxically, excessive social media use can lead to feelings of isolation.",
-            "synonyms": ["loneliness", "separation", "detachment"]
+            "synonyms": [
+              "loneliness",
+              "separation",
+              "detachment"
+            ]
           },
           {
             "word": "detrimental",
             "pronunciation": "/ˌdetrɪˈmentl/",
             "partOfSpeech": "adjective",
-            "definition": "Tending to cause harm",
+            "definition": "Tending to cause harm.",
             "example": "Smartphone addiction can have detrimental effects on family relationships.",
-            "synonyms": ["harmful", "damaging", "negative"]
+            "synonyms": [
+              "harmful",
+              "damaging",
+              "negative"
+            ]
           },
           {
             "word": "enhance",
             "pronunciation": "/ɪnˈhɑːns/",
             "partOfSpeech": "verb",
-            "definition": "To improve or increase the quality, value, or extent of something",
+            "definition": "To improve or increase the quality, value, or extent of something.",
             "example": "Video calls can enhance communication with relatives living abroad.",
-            "synonyms": ["improve", "boost", "strengthen"]
+            "synonyms": [
+              "improve",
+              "boost",
+              "strengthen"
+            ]
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "face-to-face interaction",
-            "definition": "Direct, in-person communication between people",
+            "definition": "Direct, in-person communication between people.",
             "example": "Many argue that face-to-face interaction is being replaced by digital messaging."
           },
           {
             "phrase": "digital communication",
-            "definition": "Exchange of information through electronic devices",
+            "definition": "Exchange of information through electronic devices.",
             "example": "Digital communication has transformed how people maintain relationships."
           },
           {
             "phrase": "social media platforms",
-            "definition": "Online services for social networking like Facebook and Instagram",
+            "definition": "Online services for social networking like Facebook and Instagram.",
             "example": "Social media platforms allow people to stay connected across distances."
           },
           {
             "phrase": "virtual relationships",
-            "definition": "Connections maintained primarily through online interaction",
+            "definition": "Connections maintained primarily through online interaction.",
             "example": "Virtual relationships can lack the depth of traditional friendships."
           },
           {
             "phrase": "interpersonal skills",
-            "definition": "Abilities used to communicate and interact with others",
+            "definition": "Abilities used to communicate and interact with others.",
             "example": "Excessive screen time may hinder the development of interpersonal skills."
           },
           {
             "phrase": "meaningful connections",
-            "definition": "Deep, significant relationships with emotional bonds",
+            "definition": "Deep, significant relationships with emotional bonds.",
             "example": "Technology can help maintain meaningful connections despite physical distance."
           }
         ],
         "linkingPhrases": {
-          "introducing": ["It is often argued that", "Some believe that", "While many claim that", "From my perspective"],
-          "contrasting": ["However", "Conversely", "On the contrary", "Nevertheless", "In contrast"],
-          "adding": ["Furthermore", "Moreover", "Additionally", "In addition", "Besides"],
-          "exemplifying": ["For instance", "For example", "Particularly", "Such as", "Specifically"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+          "introducing": [
+            "It is often argued that",
+            "Some believe that",
+            "While many claim that",
+            "From my perspective"
+          ],
+          "contrasting": [
+            "However",
+            "Conversely",
+            "On the contrary",
+            "Nevertheless",
+            "In contrast"
+          ],
+          "adding": [
+            "Furthermore",
+            "Moreover",
+            "Additionally",
+            "In addition",
+            "Besides"
+          ],
+          "exemplifying": [
+            "For instance",
+            "For example",
+            "Particularly",
+            "Such as",
+            "Specifically"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In my view"
+          ]
         }
       }
     },
@@ -195,8 +254,24 @@
                 "type": "template",
                 "template": "While _____ has some drawbacks, I believe that _____.",
                 "blanks": [
-                  {"id": "thesis1_b1", "options": ["modern communication technology", "social media", "smartphones"], "correctAnswer": "modern communication technology"},
-                  {"id": "thesis1_b2", "options": ["it has more positive than negative effects on relationships", "technology is useful", "people should use phones less"], "correctAnswer": "it has more positive than negative effects on relationships"}
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "modern communication technology",
+                      "social media",
+                      "smartphones"
+                    ],
+                    "correctAnswer": "modern communication technology"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "it has more positive than negative effects on relationships",
+                      "technology is useful",
+                      "people should use phones less"
+                    ],
+                    "correctAnswer": "it has more positive than negative effects on relationships"
+                  }
                 ],
                 "correctSentence": "While modern communication technology has some drawbacks, I believe that it has more positive than negative effects on relationships.",
                 "usableIn": "introduction"
@@ -206,9 +281,33 @@
                 "type": "template",
                 "template": "In my opinion, _____ is indeed having _____ because _____.",
                 "blanks": [
-                  {"id": "thesis2_b1", "options": ["digital communication", "technology", "social media"], "correctAnswer": "digital communication"},
-                  {"id": "thesis2_b2", "options": ["a largely negative effect on social relationships", "bad impacts", "problems"], "correctAnswer": "a largely negative effect on social relationships"},
-                  {"id": "thesis2_b3", "options": ["it reduces face-to-face interaction and creates superficial connections", "people use phones too much", "it is addictive"], "correctAnswer": "it reduces face-to-face interaction and creates superficial connections"}
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "digital communication",
+                      "technology",
+                      "social media"
+                    ],
+                    "correctAnswer": "digital communication"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "a largely negative effect on social relationships",
+                      "bad impacts",
+                      "problems"
+                    ],
+                    "correctAnswer": "a largely negative effect on social relationships"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "it reduces face-to-face interaction and creates superficial connections",
+                      "people use phones too much",
+                      "it is addictive"
+                    ],
+                    "correctAnswer": "it reduces face-to-face interaction and creates superficial connections"
+                  }
                 ],
                 "correctSentence": "In my opinion, digital communication is indeed having a largely negative effect on social relationships because it reduces face-to-face interaction and creates superficial connections.",
                 "usableIn": "introduction"
@@ -218,8 +317,24 @@
                 "type": "template",
                 "template": "I partially agree that _____, though it also _____.",
                 "blanks": [
-                  {"id": "thesis3_b1", "options": ["communication technology can weaken relationships", "technology is bad", "people are too connected"], "correctAnswer": "communication technology can weaken relationships"},
-                  {"id": "thesis3_b2", "options": ["offers significant benefits for maintaining connections", "is sometimes useful", "helps people"], "correctAnswer": "offers significant benefits for maintaining connections"}
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "communication technology can weaken relationships",
+                      "technology is bad",
+                      "people are too connected"
+                    ],
+                    "correctAnswer": "communication technology can weaken relationships"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "offers significant benefits for maintaining connections",
+                      "is sometimes useful",
+                      "helps people"
+                    ],
+                    "correctAnswer": "offers significant benefits for maintaining connections"
+                  }
                 ],
                 "correctSentence": "I partially agree that communication technology can weaken relationships, though it also offers significant benefits for maintaining connections.",
                 "usableIn": "introduction"
@@ -229,8 +344,24 @@
                 "type": "template",
                 "template": "From my perspective, _____ depends on _____.",
                 "blanks": [
-                  {"id": "thesis4_b1", "options": ["the impact of communication technology on relationships", "technology effects", "social media influence"], "correctAnswer": "the impact of communication technology on relationships"},
-                  {"id": "thesis4_b2", "options": ["how individuals choose to use these tools", "people", "users"], "correctAnswer": "how individuals choose to use these tools"}
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "the impact of communication technology on relationships",
+                      "technology effects",
+                      "social media influence"
+                    ],
+                    "correctAnswer": "the impact of communication technology on relationships"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "how individuals choose to use these tools",
+                      "people",
+                      "users"
+                    ],
+                    "correctAnswer": "how individuals choose to use these tools"
+                  }
                 ],
                 "correctSentence": "From my perspective, the impact of communication technology on relationships depends on how individuals choose to use these tools.",
                 "usableIn": "introduction"
@@ -240,8 +371,24 @@
                 "type": "template",
                 "template": "I disagree with the view that _____ because _____.",
                 "blanks": [
-                  {"id": "thesis5_b1", "options": ["technology is primarily damaging relationships", "smartphones are bad", "social media is harmful"], "correctAnswer": "technology is primarily damaging relationships"},
-                  {"id": "thesis5_b2", "options": ["it has actually enhanced our ability to maintain connections", "people need technology", "it helps communication"], "correctAnswer": "it has actually enhanced our ability to maintain connections"}
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "technology is primarily damaging relationships",
+                      "smartphones are bad",
+                      "social media is harmful"
+                    ],
+                    "correctAnswer": "technology is primarily damaging relationships"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "it has actually enhanced our ability to maintain connections",
+                      "people need technology",
+                      "it helps communication"
+                    ],
+                    "correctAnswer": "it has actually enhanced our ability to maintain connections"
+                  }
                 ],
                 "correctSentence": "I disagree with the view that technology is primarily damaging relationships because it has actually enhanced our ability to maintain connections.",
                 "usableIn": "introduction"
@@ -258,8 +405,24 @@
                 "type": "template",
                 "template": "One major concern is that _____ leads to _____.",
                 "blanks": [
-                  {"id": "topic1_b1", "options": ["excessive use of digital communication", "smartphones", "social media"], "correctAnswer": "excessive use of digital communication"},
-                  {"id": "topic1_b2", "options": ["reduced face-to-face interaction and superficial connections", "problems", "less talking"], "correctAnswer": "reduced face-to-face interaction and superficial connections"}
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "excessive use of digital communication",
+                      "smartphones",
+                      "social media"
+                    ],
+                    "correctAnswer": "excessive use of digital communication"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "reduced face-to-face interaction and superficial connections",
+                      "problems",
+                      "less talking"
+                    ],
+                    "correctAnswer": "reduced face-to-face interaction and superficial connections"
+                  }
                 ],
                 "correctSentence": "One major concern is that excessive use of digital communication leads to reduced face-to-face interaction and superficial connections.",
                 "usableIn": "body-paragraph-1"
@@ -269,8 +432,24 @@
                 "type": "template",
                 "template": "_____ has significantly improved _____.",
                 "blanks": [
-                  {"id": "topic2_b1", "options": ["Communication technology", "Smartphones", "The internet"], "correctAnswer": "Communication technology"},
-                  {"id": "topic2_b2", "options": ["our ability to maintain long-distance relationships", "talking", "connections"], "correctAnswer": "our ability to maintain long-distance relationships"}
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "Communication technology",
+                      "Smartphones",
+                      "The internet"
+                    ],
+                    "correctAnswer": "Communication technology"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "our ability to maintain long-distance relationships",
+                      "talking",
+                      "connections"
+                    ],
+                    "correctAnswer": "our ability to maintain long-distance relationships"
+                  }
                 ],
                 "correctSentence": "Communication technology has significantly improved our ability to maintain long-distance relationships.",
                 "usableIn": "body-paragraph-1"
@@ -280,8 +459,24 @@
                 "type": "template",
                 "template": "However, it is important to recognize that _____ provides _____.",
                 "blanks": [
-                  {"id": "topic3_b1", "options": ["digital communication", "technology", "social media"], "correctAnswer": "digital communication"},
-                  {"id": "topic3_b2", "options": ["unprecedented opportunities for connection and community building", "ways to talk", "benefits"], "correctAnswer": "unprecedented opportunities for connection and community building"}
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "digital communication",
+                      "technology",
+                      "social media"
+                    ],
+                    "correctAnswer": "digital communication"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "unprecedented opportunities for connection and community building",
+                      "ways to talk",
+                      "benefits"
+                    ],
+                    "correctAnswer": "unprecedented opportunities for connection and community building"
+                  }
                 ],
                 "correctSentence": "However, it is important to recognize that digital communication provides unprecedented opportunities for connection and community building.",
                 "usableIn": "body-paragraph-2"
@@ -291,8 +486,24 @@
                 "type": "template",
                 "template": "Another negative aspect is that _____ can _____.",
                 "blanks": [
-                  {"id": "topic4_b1", "options": ["constant connectivity through smartphones", "technology", "phones"], "correctAnswer": "constant connectivity through smartphones"},
-                  {"id": "topic4_b2", "options": ["diminish the quality of in-person interactions", "make problems", "be distracting"], "correctAnswer": "diminish the quality of in-person interactions"}
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "constant connectivity through smartphones",
+                      "technology",
+                      "phones"
+                    ],
+                    "correctAnswer": "constant connectivity through smartphones"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "diminish the quality of in-person interactions",
+                      "make problems",
+                      "be distracting"
+                    ],
+                    "correctAnswer": "diminish the quality of in-person interactions"
+                  }
                 ],
                 "correctSentence": "Another negative aspect is that constant connectivity through smartphones can diminish the quality of in-person interactions.",
                 "usableIn": "body-paragraph-2"
@@ -302,8 +513,24 @@
                 "type": "template",
                 "template": "The primary benefit of _____ is _____.",
                 "blanks": [
-                  {"id": "topic5_b1", "options": ["modern communication platforms", "technology", "apps"], "correctAnswer": "modern communication platforms"},
-                  {"id": "topic5_b2", "options": ["their ability to bridge geographical distances", "helping people", "connecting"], "correctAnswer": "their ability to bridge geographical distances"}
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "modern communication platforms",
+                      "technology",
+                      "apps"
+                    ],
+                    "correctAnswer": "modern communication platforms"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "their ability to bridge geographical distances",
+                      "helping people",
+                      "connecting"
+                    ],
+                    "correctAnswer": "their ability to bridge geographical distances"
+                  }
                 ],
                 "correctSentence": "The primary benefit of modern communication platforms is their ability to bridge geographical distances.",
                 "usableIn": "body-paragraph-1"
@@ -313,8 +540,24 @@
                 "type": "template",
                 "template": "A significant drawback is that _____ encourages _____.",
                 "blanks": [
-                  {"id": "topic6_b1", "options": ["social media", "technology", "online communication"], "correctAnswer": "social media"},
-                  {"id": "topic6_b2", "options": ["superficial interactions over meaningful conversations", "bad behavior", "problems"], "correctAnswer": "superficial interactions over meaningful conversations"}
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "social media",
+                      "technology",
+                      "online communication"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "superficial interactions over meaningful conversations",
+                      "bad behavior",
+                      "problems"
+                    ],
+                    "correctAnswer": "superficial interactions over meaningful conversations"
+                  }
                 ],
                 "correctSentence": "A significant drawback is that social media encourages superficial interactions over meaningful conversations.",
                 "usableIn": "body-paragraph-2"
@@ -324,8 +567,24 @@
                 "type": "template",
                 "template": "Despite concerns, _____ has enabled _____.",
                 "blanks": [
-                  {"id": "topic7_b1", "options": ["communication technology", "digital tools", "smartphones"], "correctAnswer": "communication technology"},
-                  {"id": "topic7_b2", "options": ["people to maintain relationships that would otherwise fade", "better connections", "more talking"], "correctAnswer": "people to maintain relationships that would otherwise fade"}
+                  {
+                    "id": "topic7_b1",
+                    "options": [
+                      "communication technology",
+                      "digital tools",
+                      "smartphones"
+                    ],
+                    "correctAnswer": "communication technology"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": [
+                      "people to maintain relationships that would otherwise fade",
+                      "better connections",
+                      "more talking"
+                    ],
+                    "correctAnswer": "people to maintain relationships that would otherwise fade"
+                  }
                 ],
                 "correctSentence": "Despite concerns, communication technology has enabled people to maintain relationships that would otherwise fade.",
                 "usableIn": "body-paragraph-1"
@@ -335,8 +594,24 @@
                 "type": "template",
                 "template": "Critics argue that _____ is replacing _____.",
                 "blanks": [
-                  {"id": "topic8_b1", "options": ["digital interaction", "technology", "texting"], "correctAnswer": "digital interaction"},
-                  {"id": "topic8_b2", "options": ["authentic face-to-face communication", "real conversations", "talking"], "correctAnswer": "authentic face-to-face communication"}
+                  {
+                    "id": "topic8_b1",
+                    "options": [
+                      "digital interaction",
+                      "technology",
+                      "texting"
+                    ],
+                    "correctAnswer": "digital interaction"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": [
+                      "authentic face-to-face communication",
+                      "real conversations",
+                      "talking"
+                    ],
+                    "correctAnswer": "authentic face-to-face communication"
+                  }
                 ],
                 "correctSentence": "Critics argue that digital interaction is replacing authentic face-to-face communication.",
                 "usableIn": "body-paragraph-2"
@@ -353,8 +628,24 @@
                 "type": "template",
                 "template": "This is because _____ prevents people from _____.",
                 "blanks": [
-                  {"id": "support1_b1", "options": ["constant phone checking", "technology", "social media"], "correctAnswer": "constant phone checking"},
-                  {"id": "support1_b2", "options": ["being fully present in face-to-face conversations", "talking properly", "paying attention"], "correctAnswer": "being fully present in face-to-face conversations"}
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "constant phone checking",
+                      "technology",
+                      "social media"
+                    ],
+                    "correctAnswer": "constant phone checking"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "being fully present in face-to-face conversations",
+                      "talking properly",
+                      "paying attention"
+                    ],
+                    "correctAnswer": "being fully present in face-to-face conversations"
+                  }
                 ],
                 "correctSentence": "This is because constant phone checking prevents people from being fully present in face-to-face conversations.",
                 "usableIn": "body-paragraph-1"
@@ -364,8 +655,24 @@
                 "type": "template",
                 "template": "The main reason is that _____ enables _____.",
                 "blanks": [
-                  {"id": "support2_b1", "options": ["video calling technology", "smartphones", "apps"], "correctAnswer": "video calling technology"},
-                  {"id": "support2_b2", "options": ["families to stay connected despite living in different countries", "people to talk", "communication"], "correctAnswer": "families to stay connected despite living in different countries"}
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "video calling technology",
+                      "smartphones",
+                      "apps"
+                    ],
+                    "correctAnswer": "video calling technology"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "families to stay connected despite living in different countries",
+                      "people to talk",
+                      "communication"
+                    ],
+                    "correctAnswer": "families to stay connected despite living in different countries"
+                  }
                 ],
                 "correctSentence": "The main reason is that video calling technology enables families to stay connected despite living in different countries.",
                 "usableIn": "body-paragraph-1"
@@ -375,9 +682,33 @@
                 "type": "template",
                 "template": "_____ has transformed _____ by _____.",
                 "blanks": [
-                  {"id": "support3_b1", "options": ["Social media", "Technology", "The internet"], "correctAnswer": "Social media"},
-                  {"id": "support3_b2", "options": ["how people share experiences", "communication", "talking"], "correctAnswer": "how people share experiences"},
-                  {"id": "support3_b3", "options": ["prioritizing image over genuine interaction", "changing behavior", "making it different"], "correctAnswer": "prioritizing image over genuine interaction"}
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "Social media",
+                      "Technology",
+                      "The internet"
+                    ],
+                    "correctAnswer": "Social media"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "how people share experiences",
+                      "communication",
+                      "talking"
+                    ],
+                    "correctAnswer": "how people share experiences"
+                  },
+                  {
+                    "id": "support3_b3",
+                    "options": [
+                      "prioritizing image over genuine interaction",
+                      "changing behavior",
+                      "making it different"
+                    ],
+                    "correctAnswer": "prioritizing image over genuine interaction"
+                  }
                 ],
                 "correctSentence": "Social media has transformed how people share experiences by prioritizing image over genuine interaction.",
                 "usableIn": "body-paragraph-1"
@@ -387,9 +718,33 @@
                 "type": "template",
                 "template": "_____ allows _____, which strengthens _____.",
                 "blanks": [
-                  {"id": "support4_b1", "options": ["Instant messaging", "Technology", "Apps"], "correctAnswer": "Instant messaging"},
-                  {"id": "support4_b2", "options": ["frequent contact with friends and family", "communication", "talking"], "correctAnswer": "frequent contact with friends and family"},
-                  {"id": "support4_b3", "options": ["emotional bonds over time", "relationships", "connections"], "correctAnswer": "emotional bonds over time"}
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "Instant messaging",
+                      "Technology",
+                      "Apps"
+                    ],
+                    "correctAnswer": "Instant messaging"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "frequent contact with friends and family",
+                      "communication",
+                      "talking"
+                    ],
+                    "correctAnswer": "frequent contact with friends and family"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": [
+                      "emotional bonds over time",
+                      "relationships",
+                      "connections"
+                    ],
+                    "correctAnswer": "emotional bonds over time"
+                  }
                 ],
                 "correctSentence": "Instant messaging allows frequent contact with friends and family, which strengthens emotional bonds over time.",
                 "usableIn": "body-paragraph-1"
@@ -399,8 +754,24 @@
                 "type": "template",
                 "template": "By _____, digital platforms _____.",
                 "blanks": [
-                  {"id": "support5_b1", "options": ["reducing the need for in-person meetings", "being convenient", "existing online"], "correctAnswer": "reducing the need for in-person meetings"},
-                  {"id": "support5_b2", "options": ["may weaken traditional social skills", "cause problems", "change things"], "correctAnswer": "may weaken traditional social skills"}
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "reducing the need for in-person meetings",
+                      "being convenient",
+                      "existing online"
+                    ],
+                    "correctAnswer": "reducing the need for in-person meetings"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "may weaken traditional social skills",
+                      "cause problems",
+                      "change things"
+                    ],
+                    "correctAnswer": "may weaken traditional social skills"
+                  }
                 ],
                 "correctSentence": "By reducing the need for in-person meetings, digital platforms may weaken traditional social skills.",
                 "usableIn": "body-paragraph-2"
@@ -410,9 +781,33 @@
                 "type": "template",
                 "template": "_____ facilitates _____ that would be _____.",
                 "blanks": [
-                  {"id": "support6_b1", "options": ["Communication technology", "Smartphones", "The internet"], "correctAnswer": "Communication technology"},
-                  {"id": "support6_b2", "options": ["maintaining relationships across time zones", "connections", "talking"], "correctAnswer": "maintaining relationships across time zones"},
-                  {"id": "support6_b3", "options": ["impossible through traditional methods", "very hard", "difficult"], "correctAnswer": "impossible through traditional methods"}
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "Communication technology",
+                      "Smartphones",
+                      "The internet"
+                    ],
+                    "correctAnswer": "Communication technology"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "maintaining relationships across time zones",
+                      "connections",
+                      "talking"
+                    ],
+                    "correctAnswer": "maintaining relationships across time zones"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "impossible through traditional methods",
+                      "very hard",
+                      "difficult"
+                    ],
+                    "correctAnswer": "impossible through traditional methods"
+                  }
                 ],
                 "correctSentence": "Communication technology facilitates maintaining relationships across time zones that would be impossible through traditional methods.",
                 "usableIn": "body-paragraph-1"
@@ -422,8 +817,24 @@
                 "type": "template",
                 "template": "The problem with _____ is that it _____.",
                 "blanks": [
-                  {"id": "support7_b1", "options": ["text-based communication", "messaging", "digital talking"], "correctAnswer": "text-based communication"},
-                  {"id": "support7_b2", "options": ["lacks the emotional depth of face-to-face conversation", "is not personal", "is imperfect"], "correctAnswer": "lacks the emotional depth of face-to-face conversation"}
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "text-based communication",
+                      "messaging",
+                      "digital talking"
+                    ],
+                    "correctAnswer": "text-based communication"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "lacks the emotional depth of face-to-face conversation",
+                      "is not personal",
+                      "is imperfect"
+                    ],
+                    "correctAnswer": "lacks the emotional depth of face-to-face conversation"
+                  }
                 ],
                 "correctSentence": "The problem with text-based communication is that it lacks the emotional depth of face-to-face conversation.",
                 "usableIn": "body-paragraph-2"
@@ -433,8 +844,24 @@
                 "type": "template",
                 "template": "Without _____, many relationships would _____.",
                 "blanks": [
-                  {"id": "support8_b1", "options": ["modern communication tools", "technology", "phones"], "correctAnswer": "modern communication tools"},
-                  {"id": "support8_b2", "options": ["naturally fade due to distance and time constraints", "end", "disappear"], "correctAnswer": "naturally fade due to distance and time constraints"}
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "modern communication tools",
+                      "technology",
+                      "phones"
+                    ],
+                    "correctAnswer": "modern communication tools"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "naturally fade due to distance and time constraints",
+                      "end",
+                      "disappear"
+                    ],
+                    "correctAnswer": "naturally fade due to distance and time constraints"
+                  }
                 ],
                 "correctSentence": "Without modern communication tools, many relationships would naturally fade due to distance and time constraints.",
                 "usableIn": "body-paragraph-1"
@@ -444,9 +871,33 @@
                 "type": "template",
                 "template": "_____ has led to _____ among _____.",
                 "blanks": [
-                  {"id": "support9_b1", "options": ["Excessive social media use", "Technology", "Phones"], "correctAnswer": "Excessive social media use"},
-                  {"id": "support9_b2", "options": ["increased feelings of isolation and comparison", "problems", "bad feelings"], "correctAnswer": "increased feelings of isolation and comparison"},
-                  {"id": "support9_b3", "options": ["young people", "users", "teenagers"], "correctAnswer": "young people"}
+                  {
+                    "id": "support9_b1",
+                    "options": [
+                      "Excessive social media use",
+                      "Technology",
+                      "Phones"
+                    ],
+                    "correctAnswer": "Excessive social media use"
+                  },
+                  {
+                    "id": "support9_b2",
+                    "options": [
+                      "increased feelings of isolation and comparison",
+                      "problems",
+                      "bad feelings"
+                    ],
+                    "correctAnswer": "increased feelings of isolation and comparison"
+                  },
+                  {
+                    "id": "support9_b3",
+                    "options": [
+                      "young people",
+                      "users",
+                      "teenagers"
+                    ],
+                    "correctAnswer": "young people"
+                  }
                 ],
                 "correctSentence": "Excessive social media use has led to increased feelings of isolation and comparison among young people.",
                 "usableIn": "body-paragraph-2"
@@ -456,9 +907,33 @@
                 "type": "template",
                 "template": "_____ creates opportunities for _____ to _____.",
                 "blanks": [
-                  {"id": "support10_b1", "options": ["Digital communication", "Technology", "The internet"], "correctAnswer": "Digital communication"},
-                  {"id": "support10_b2", "options": ["people with mobility issues or social anxiety", "some people", "users"], "correctAnswer": "people with mobility issues or social anxiety"},
-                  {"id": "support10_b3", "options": ["build and maintain social connections", "make friends", "talk to others"], "correctAnswer": "build and maintain social connections"}
+                  {
+                    "id": "support10_b1",
+                    "options": [
+                      "Digital communication",
+                      "Technology",
+                      "The internet"
+                    ],
+                    "correctAnswer": "Digital communication"
+                  },
+                  {
+                    "id": "support10_b2",
+                    "options": [
+                      "people with mobility issues or social anxiety",
+                      "some people",
+                      "users"
+                    ],
+                    "correctAnswer": "people with mobility issues or social anxiety"
+                  },
+                  {
+                    "id": "support10_b3",
+                    "options": [
+                      "build and maintain social connections",
+                      "make friends",
+                      "talk to others"
+                    ],
+                    "correctAnswer": "build and maintain social connections"
+                  }
                 ],
                 "correctSentence": "Digital communication creates opportunities for people with mobility issues or social anxiety to build and maintain social connections.",
                 "usableIn": "body-paragraph-1"
@@ -468,8 +943,24 @@
                 "type": "template",
                 "template": "As a result, _____ spend less time _____.",
                 "blanks": [
-                  {"id": "support11_b1", "options": ["families", "people", "individuals"], "correctAnswer": "families"},
-                  {"id": "support11_b2", "options": ["engaging in meaningful face-to-face conversations", "talking together", "interacting"], "correctAnswer": "engaging in meaningful face-to-face conversations"}
+                  {
+                    "id": "support11_b1",
+                    "options": [
+                      "families",
+                      "people",
+                      "individuals"
+                    ],
+                    "correctAnswer": "families"
+                  },
+                  {
+                    "id": "support11_b2",
+                    "options": [
+                      "engaging in meaningful face-to-face conversations",
+                      "talking together",
+                      "interacting"
+                    ],
+                    "correctAnswer": "engaging in meaningful face-to-face conversations"
+                  }
                 ],
                 "correctSentence": "As a result, families spend less time engaging in meaningful face-to-face conversations.",
                 "usableIn": "body-paragraph-2"
@@ -479,9 +970,33 @@
                 "type": "template",
                 "template": "Consequently, _____ can _____ rather than _____.",
                 "blanks": [
-                  {"id": "support12_b1", "options": ["these technologies", "smartphones", "apps"], "correctAnswer": "these technologies"},
-                  {"id": "support12_b2", "options": ["complement traditional communication methods", "help", "be useful"], "correctAnswer": "complement traditional communication methods"},
-                  {"id": "support12_b3", "options": ["replace them entirely", "take over", "be the only way"], "correctAnswer": "replace them entirely"}
+                  {
+                    "id": "support12_b1",
+                    "options": [
+                      "these technologies",
+                      "smartphones",
+                      "apps"
+                    ],
+                    "correctAnswer": "these technologies"
+                  },
+                  {
+                    "id": "support12_b2",
+                    "options": [
+                      "complement traditional communication methods",
+                      "help",
+                      "be useful"
+                    ],
+                    "correctAnswer": "complement traditional communication methods"
+                  },
+                  {
+                    "id": "support12_b3",
+                    "options": [
+                      "replace them entirely",
+                      "take over",
+                      "be the only way"
+                    ],
+                    "correctAnswer": "replace them entirely"
+                  }
                 ],
                 "correctSentence": "Consequently, these technologies can complement traditional communication methods rather than replace them entirely.",
                 "usableIn": "body-paragraph-2"
@@ -498,10 +1013,42 @@
                 "type": "template",
                 "template": "For instance, _____ can _____ through _____ despite _____.",
                 "blanks": [
-                  {"id": "example1_b1", "options": ["families living abroad", "people", "relatives"], "correctAnswer": "families living abroad"},
-                  {"id": "example1_b2", "options": ["share daily moments and important events", "stay connected", "communicate"], "correctAnswer": "share daily moments and important events"},
-                  {"id": "example1_b3", "options": ["video calls and instant messaging", "technology", "apps"], "correctAnswer": "video calls and instant messaging"},
-                  {"id": "example1_b4", "options": ["being thousands of miles apart", "distance", "separation"], "correctAnswer": "being thousands of miles apart"}
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "families living abroad",
+                      "people",
+                      "relatives"
+                    ],
+                    "correctAnswer": "families living abroad"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "share daily moments and important events",
+                      "stay connected",
+                      "communicate"
+                    ],
+                    "correctAnswer": "share daily moments and important events"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "video calls and instant messaging",
+                      "technology",
+                      "apps"
+                    ],
+                    "correctAnswer": "video calls and instant messaging"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": [
+                      "being thousands of miles apart",
+                      "distance",
+                      "separation"
+                    ],
+                    "correctAnswer": "being thousands of miles apart"
+                  }
                 ],
                 "correctSentence": "For instance, families living abroad can share daily moments and important events through video calls and instant messaging despite being thousands of miles apart.",
                 "usableIn": "body-paragraph-1"
@@ -511,9 +1058,33 @@
                 "type": "template",
                 "template": "For example, _____ often _____ at family dinners, _____.",
                 "blanks": [
-                  {"id": "example2_b1", "options": ["parents and children", "people", "family members"], "correctAnswer": "parents and children"},
-                  {"id": "example2_b2", "options": ["remain absorbed in their smartphones", "use phones", "check devices"], "correctAnswer": "remain absorbed in their smartphones"},
-                  {"id": "example2_b3", "options": ["reducing opportunities for meaningful conversation", "not talking", "missing connection"], "correctAnswer": "reducing opportunities for meaningful conversation"}
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "parents and children",
+                      "people",
+                      "family members"
+                    ],
+                    "correctAnswer": "parents and children"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "remain absorbed in their smartphones",
+                      "use phones",
+                      "check devices"
+                    ],
+                    "correctAnswer": "remain absorbed in their smartphones"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "reducing opportunities for meaningful conversation",
+                      "not talking",
+                      "missing connection"
+                    ],
+                    "correctAnswer": "reducing opportunities for meaningful conversation"
+                  }
                 ],
                 "correctSentence": "For example, parents and children often remain absorbed in their smartphones at family dinners, reducing opportunities for meaningful conversation.",
                 "usableIn": "body-paragraph-2"
@@ -523,9 +1094,33 @@
                 "type": "template",
                 "template": "Specifically, _____ enables _____ such as _____.",
                 "blanks": [
-                  {"id": "example3_b1", "options": ["social media", "technology", "the internet"], "correctAnswer": "social media"},
-                  {"id": "example3_b2", "options": ["online communities based on shared interests", "groups", "connections"], "correctAnswer": "online communities based on shared interests"},
-                  {"id": "example3_b3", "options": ["support groups for health conditions or hobby enthusiasts", "Facebook groups", "online forums"], "correctAnswer": "support groups for health conditions or hobby enthusiasts"}
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "social media",
+                      "technology",
+                      "the internet"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "online communities based on shared interests",
+                      "groups",
+                      "connections"
+                    ],
+                    "correctAnswer": "online communities based on shared interests"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": [
+                      "support groups for health conditions or hobby enthusiasts",
+                      "Facebook groups",
+                      "online forums"
+                    ],
+                    "correctAnswer": "support groups for health conditions or hobby enthusiasts"
+                  }
                 ],
                 "correctSentence": "Specifically, social media enables online communities based on shared interests such as support groups for health conditions or hobby enthusiasts.",
                 "usableIn": "body-paragraph-1"
@@ -535,8 +1130,24 @@
                 "type": "template",
                 "template": "Research shows that _____ has increased _____.",
                 "blanks": [
-                  {"id": "example4_b1", "options": ["heavy social media use", "technology", "smartphone usage"], "correctAnswer": "heavy social media use"},
-                  {"id": "example4_b2", "options": ["feelings of loneliness and social comparison among teenagers", "problems", "issues"], "correctAnswer": "feelings of loneliness and social comparison among teenagers"}
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "heavy social media use",
+                      "technology",
+                      "smartphone usage"
+                    ],
+                    "correctAnswer": "heavy social media use"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "feelings of loneliness and social comparison among teenagers",
+                      "problems",
+                      "issues"
+                    ],
+                    "correctAnswer": "feelings of loneliness and social comparison among teenagers"
+                  }
                 ],
                 "correctSentence": "Research shows that heavy social media use has increased feelings of loneliness and social comparison among teenagers.",
                 "usableIn": "body-paragraph-2"
@@ -546,9 +1157,33 @@
                 "type": "template",
                 "template": "Evidence demonstrates that _____ helps _____ maintain _____.",
                 "blanks": [
-                  {"id": "example5_b1", "options": ["regular video calling", "technology", "digital communication"], "correctAnswer": "regular video calling"},
-                  {"id": "example5_b2", "options": ["long-distance couples", "people", "relationships"], "correctAnswer": "long-distance couples"},
-                  {"id": "example5_b3", "options": ["emotional intimacy and relationship satisfaction", "connections", "bonds"], "correctAnswer": "emotional intimacy and relationship satisfaction"}
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "regular video calling",
+                      "technology",
+                      "digital communication"
+                    ],
+                    "correctAnswer": "regular video calling"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "long-distance couples",
+                      "people",
+                      "relationships"
+                    ],
+                    "correctAnswer": "long-distance couples"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": [
+                      "emotional intimacy and relationship satisfaction",
+                      "connections",
+                      "bonds"
+                    ],
+                    "correctAnswer": "emotional intimacy and relationship satisfaction"
+                  }
                 ],
                 "correctSentence": "Evidence demonstrates that regular video calling helps long-distance couples maintain emotional intimacy and relationship satisfaction.",
                 "usableIn": "body-paragraph-1"
@@ -558,9 +1193,33 @@
                 "type": "template",
                 "template": "In particular, _____ during _____ has shown _____.",
                 "blanks": [
-                  {"id": "example6_b1", "options": ["the widespread adoption of video conferencing", "technology use", "digital tools"], "correctAnswer": "the widespread adoption of video conferencing"},
-                  {"id": "example6_b2", "options": ["the COVID-19 pandemic", "lockdowns", "isolation periods"], "correctAnswer": "the COVID-19 pandemic"},
-                  {"id": "example6_b3", "options": ["how technology can sustain relationships during physical separation", "benefits", "usefulness"], "correctAnswer": "how technology can sustain relationships during physical separation"}
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "the widespread adoption of video conferencing",
+                      "technology use",
+                      "digital tools"
+                    ],
+                    "correctAnswer": "the widespread adoption of video conferencing"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "the COVID-19 pandemic",
+                      "lockdowns",
+                      "isolation periods"
+                    ],
+                    "correctAnswer": "the COVID-19 pandemic"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": [
+                      "how technology can sustain relationships during physical separation",
+                      "benefits",
+                      "usefulness"
+                    ],
+                    "correctAnswer": "how technology can sustain relationships during physical separation"
+                  }
                 ],
                 "correctSentence": "In particular, the widespread adoption of video conferencing during the COVID-19 pandemic has shown how technology can sustain relationships during physical separation.",
                 "usableIn": "body-paragraph-1"
@@ -570,9 +1229,33 @@
                 "type": "template",
                 "template": "Consider how _____ leads to _____ where _____.",
                 "blanks": [
-                  {"id": "example7_b1", "options": ["constant smartphone presence", "phones", "technology"], "correctAnswer": "constant smartphone presence"},
-                  {"id": "example7_b2", "options": ["situations", "problems", "scenarios"], "correctAnswer": "situations"},
-                  {"id": "example7_b3", "options": ["people prioritize responding to messages over engaging with those physically present", "attention is divided", "focus is lost"], "correctAnswer": "people prioritize responding to messages over engaging with those physically present"}
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "constant smartphone presence",
+                      "phones",
+                      "technology"
+                    ],
+                    "correctAnswer": "constant smartphone presence"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "situations",
+                      "problems",
+                      "scenarios"
+                    ],
+                    "correctAnswer": "situations"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "people prioritize responding to messages over engaging with those physically present",
+                      "attention is divided",
+                      "focus is lost"
+                    ],
+                    "correctAnswer": "people prioritize responding to messages over engaging with those physically present"
+                  }
                 ],
                 "correctSentence": "Consider how constant smartphone presence leads to situations where people prioritize responding to messages over engaging with those physically present.",
                 "usableIn": "body-paragraph-2"
@@ -582,9 +1265,33 @@
                 "type": "template",
                 "template": "Take _____ as an example: _____ allows them to _____.",
                 "blanks": [
-                  {"id": "example8_b1", "options": ["elderly people living alone", "seniors", "older adults"], "correctAnswer": "elderly people living alone"},
-                  {"id": "example8_b2", "options": ["communication technology", "smartphones", "video calls"], "correctAnswer": "communication technology"},
-                  {"id": "example8_b3", "options": ["stay connected with family and reduce isolation", "talk to relatives", "maintain contact"], "correctAnswer": "stay connected with family and reduce isolation"}
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "elderly people living alone",
+                      "seniors",
+                      "older adults"
+                    ],
+                    "correctAnswer": "elderly people living alone"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "communication technology",
+                      "smartphones",
+                      "video calls"
+                    ],
+                    "correctAnswer": "communication technology"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "stay connected with family and reduce isolation",
+                      "talk to relatives",
+                      "maintain contact"
+                    ],
+                    "correctAnswer": "stay connected with family and reduce isolation"
+                  }
                 ],
                 "correctSentence": "Take elderly people living alone as an example: communication technology allows them to stay connected with family and reduce isolation.",
                 "usableIn": "body-paragraph-1"
@@ -594,9 +1301,33 @@
                 "type": "template",
                 "template": "According to studies, _____ who _____ report _____.",
                 "blanks": [
-                  {"id": "example9_b1", "options": ["young adults", "people", "teenagers"], "correctAnswer": "young adults"},
-                  {"id": "example9_b2", "options": ["spend excessive time on social media", "use phones heavily", "are always online"], "correctAnswer": "spend excessive time on social media"},
-                  {"id": "example9_b3", "options": ["lower life satisfaction and weaker real-world friendships", "unhappiness", "problems"], "correctAnswer": "lower life satisfaction and weaker real-world friendships"}
+                  {
+                    "id": "example9_b1",
+                    "options": [
+                      "young adults",
+                      "people",
+                      "teenagers"
+                    ],
+                    "correctAnswer": "young adults"
+                  },
+                  {
+                    "id": "example9_b2",
+                    "options": [
+                      "spend excessive time on social media",
+                      "use phones heavily",
+                      "are always online"
+                    ],
+                    "correctAnswer": "spend excessive time on social media"
+                  },
+                  {
+                    "id": "example9_b3",
+                    "options": [
+                      "lower life satisfaction and weaker real-world friendships",
+                      "unhappiness",
+                      "problems"
+                    ],
+                    "correctAnswer": "lower life satisfaction and weaker real-world friendships"
+                  }
                 ],
                 "correctSentence": "According to studies, young adults who spend excessive time on social media report lower life satisfaction and weaker real-world friendships.",
                 "usableIn": "body-paragraph-2"
@@ -606,9 +1337,33 @@
                 "type": "template",
                 "template": "Studies suggest that _____ has helped _____ by _____.",
                 "blanks": [
-                  {"id": "example10_b1", "options": ["instant messaging", "technology", "digital communication"], "correctAnswer": "instant messaging"},
-                  {"id": "example10_b2", "options": ["busy professionals", "working people", "adults"], "correctAnswer": "busy professionals"},
-                  {"id": "example10_b3", "options": ["enabling them to maintain friendships despite demanding schedules", "staying connected", "keeping in touch"], "correctAnswer": "enabling them to maintain friendships despite demanding schedules"}
+                  {
+                    "id": "example10_b1",
+                    "options": [
+                      "instant messaging",
+                      "technology",
+                      "digital communication"
+                    ],
+                    "correctAnswer": "instant messaging"
+                  },
+                  {
+                    "id": "example10_b2",
+                    "options": [
+                      "busy professionals",
+                      "working people",
+                      "adults"
+                    ],
+                    "correctAnswer": "busy professionals"
+                  },
+                  {
+                    "id": "example10_b3",
+                    "options": [
+                      "enabling them to maintain friendships despite demanding schedules",
+                      "staying connected",
+                      "keeping in touch"
+                    ],
+                    "correctAnswer": "enabling them to maintain friendships despite demanding schedules"
+                  }
                 ],
                 "correctSentence": "Studies suggest that instant messaging has helped busy professionals by enabling them to maintain friendships despite demanding schedules.",
                 "usableIn": "body-paragraph-1"
@@ -625,8 +1380,24 @@
                 "type": "template",
                 "template": "However, it could be argued that _____ cannot replace _____.",
                 "blanks": [
-                  {"id": "counter1_b1", "options": ["digital communication", "technology", "messaging"], "correctAnswer": "digital communication"},
-                  {"id": "counter1_b2", "options": ["the richness of face-to-face interaction", "real conversations", "in-person talking"], "correctAnswer": "the richness of face-to-face interaction"}
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "digital communication",
+                      "technology",
+                      "messaging"
+                    ],
+                    "correctAnswer": "digital communication"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "the richness of face-to-face interaction",
+                      "real conversations",
+                      "in-person talking"
+                    ],
+                    "correctAnswer": "the richness of face-to-face interaction"
+                  }
                 ],
                 "correctSentence": "However, it could be argued that digital communication cannot replace the richness of face-to-face interaction.",
                 "usableIn": "body-paragraph-2"
@@ -636,8 +1407,24 @@
                 "type": "template",
                 "template": "Despite these benefits, _____ also brings _____.",
                 "blanks": [
-                  {"id": "counter2_b1", "options": ["communication technology", "digital tools", "social media"], "correctAnswer": "communication technology"},
-                  {"id": "counter2_b2", "options": ["genuine challenges to interpersonal connection", "problems", "difficulties"], "correctAnswer": "genuine challenges to interpersonal connection"}
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "communication technology",
+                      "digital tools",
+                      "social media"
+                    ],
+                    "correctAnswer": "communication technology"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "genuine challenges to interpersonal connection",
+                      "problems",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "genuine challenges to interpersonal connection"
+                  }
                 ],
                 "correctSentence": "Despite these benefits, communication technology also brings genuine challenges to interpersonal connection.",
                 "usableIn": "body-paragraph-2"
@@ -647,9 +1434,33 @@
                 "type": "template",
                 "template": "Nevertheless, _____ when _____ are not _____.",
                 "blanks": [
-                  {"id": "counter3_b1", "options": ["these negative effects primarily occur", "problems happen", "issues arise"], "correctAnswer": "these negative effects primarily occur"},
-                  {"id": "counter3_b2", "options": ["digital tools", "technologies", "apps"], "correctAnswer": "digital tools"},
-                  {"id": "counter3_b3", "options": ["used mindfully and in moderation", "controlled", "managed properly"], "correctAnswer": "used mindfully and in moderation"}
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "these negative effects primarily occur",
+                      "problems happen",
+                      "issues arise"
+                    ],
+                    "correctAnswer": "these negative effects primarily occur"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "digital tools",
+                      "technologies",
+                      "apps"
+                    ],
+                    "correctAnswer": "digital tools"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "used mindfully and in moderation",
+                      "controlled",
+                      "managed properly"
+                    ],
+                    "correctAnswer": "used mindfully and in moderation"
+                  }
                 ],
                 "correctSentence": "Nevertheless, these negative effects primarily occur when digital tools are not used mindfully and in moderation.",
                 "usableIn": "body-paragraph-2"
@@ -659,9 +1470,33 @@
                 "type": "template",
                 "template": "Although _____ is valuable, it has _____ such as _____.",
                 "blanks": [
-                  {"id": "counter4_b1", "options": ["communication technology", "digital connection", "social media"], "correctAnswer": "communication technology"},
-                  {"id": "counter4_b2", "options": ["created new problems", "caused issues", "brought challenges"], "correctAnswer": "created new problems"},
-                  {"id": "counter4_b3", "options": ["reduced attention spans and increased social anxiety", "distractions", "difficulties"], "correctAnswer": "reduced attention spans and increased social anxiety"}
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "communication technology",
+                      "digital connection",
+                      "social media"
+                    ],
+                    "correctAnswer": "communication technology"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "created new problems",
+                      "caused issues",
+                      "brought challenges"
+                    ],
+                    "correctAnswer": "created new problems"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": [
+                      "reduced attention spans and increased social anxiety",
+                      "distractions",
+                      "difficulties"
+                    ],
+                    "correctAnswer": "reduced attention spans and increased social anxiety"
+                  }
                 ],
                 "correctSentence": "Although communication technology is valuable, it has created new problems such as reduced attention spans and increased social anxiety.",
                 "usableIn": "body-paragraph-2"
@@ -671,9 +1506,33 @@
                 "type": "template",
                 "template": "Critics point out that _____ lacks _____ that make _____.",
                 "blanks": [
-                  {"id": "counter5_b1", "options": ["virtual communication", "digital interaction", "online talking"], "correctAnswer": "virtual communication"},
-                  {"id": "counter5_b2", "options": ["non-verbal cues and emotional nuances", "body language", "personal elements"], "correctAnswer": "non-verbal cues and emotional nuances"},
-                  {"id": "counter5_b3", "options": ["face-to-face conversation deeply meaningful", "real talking special", "in-person interaction important"], "correctAnswer": "face-to-face conversation deeply meaningful"}
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "virtual communication",
+                      "digital interaction",
+                      "online talking"
+                    ],
+                    "correctAnswer": "virtual communication"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "non-verbal cues and emotional nuances",
+                      "body language",
+                      "personal elements"
+                    ],
+                    "correctAnswer": "non-verbal cues and emotional nuances"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "face-to-face conversation deeply meaningful",
+                      "real talking special",
+                      "in-person interaction important"
+                    ],
+                    "correctAnswer": "face-to-face conversation deeply meaningful"
+                  }
                 ],
                 "correctSentence": "Critics point out that virtual communication lacks non-verbal cues and emotional nuances that make face-to-face conversation deeply meaningful.",
                 "usableIn": "body-paragraph-2"
@@ -690,8 +1549,24 @@
                 "type": "template",
                 "template": "In conclusion, while _____, I believe _____.",
                 "blanks": [
-                  {"id": "conclusion1_b1", "options": ["communication technology has some negative aspects", "there are drawbacks", "problems exist"], "correctAnswer": "communication technology has some negative aspects"},
-                  {"id": "conclusion1_b2", "options": ["its benefits for maintaining relationships outweigh these concerns", "it is more positive", "advantages are greater"], "correctAnswer": "its benefits for maintaining relationships outweigh these concerns"}
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "communication technology has some negative aspects",
+                      "there are drawbacks",
+                      "problems exist"
+                    ],
+                    "correctAnswer": "communication technology has some negative aspects"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "its benefits for maintaining relationships outweigh these concerns",
+                      "it is more positive",
+                      "advantages are greater"
+                    ],
+                    "correctAnswer": "its benefits for maintaining relationships outweigh these concerns"
+                  }
                 ],
                 "correctSentence": "In conclusion, while communication technology has some negative aspects, I believe its benefits for maintaining relationships outweigh these concerns.",
                 "usableIn": "conclusion"
@@ -701,9 +1576,33 @@
                 "type": "template",
                 "template": "Overall, _____ depends on _____ rather than _____.",
                 "blanks": [
-                  {"id": "conclusion2_b1", "options": ["the impact of technology on relationships", "effects", "outcomes"], "correctAnswer": "the impact of technology on relationships"},
-                  {"id": "conclusion2_b2", "options": ["how we choose to use it", "user choices", "individual behavior"], "correctAnswer": "how we choose to use it"},
-                  {"id": "conclusion2_b3", "options": ["being inherently negative", "technology itself", "the tools alone"], "correctAnswer": "being inherently negative"}
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "the impact of technology on relationships",
+                      "effects",
+                      "outcomes"
+                    ],
+                    "correctAnswer": "the impact of technology on relationships"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "how we choose to use it",
+                      "user choices",
+                      "individual behavior"
+                    ],
+                    "correctAnswer": "how we choose to use it"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "being inherently negative",
+                      "technology itself",
+                      "the tools alone"
+                    ],
+                    "correctAnswer": "being inherently negative"
+                  }
                 ],
                 "correctSentence": "Overall, the impact of technology on relationships depends on how we choose to use it rather than being inherently negative.",
                 "usableIn": "conclusion"
@@ -713,10 +1612,42 @@
                 "type": "template",
                 "template": "To summarize, _____ has both _____ and _____, but _____.",
                 "blanks": [
-                  {"id": "conclusion3_b1", "options": ["modern communication technology", "digital tools", "social media"], "correctAnswer": "modern communication technology"},
-                  {"id": "conclusion3_b2", "options": ["enhanced connectivity", "benefits", "advantages"], "correctAnswer": "enhanced connectivity"},
-                  {"id": "conclusion3_b3", "options": ["reduced face-to-face interaction", "drawbacks", "problems"], "correctAnswer": "reduced face-to-face interaction"},
-                  {"id": "conclusion3_b4", "options": ["responsible use can maximize benefits while minimizing harm", "balance is key", "it helps overall"], "correctAnswer": "responsible use can maximize benefits while minimizing harm"}
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "modern communication technology",
+                      "digital tools",
+                      "social media"
+                    ],
+                    "correctAnswer": "modern communication technology"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "enhanced connectivity",
+                      "benefits",
+                      "advantages"
+                    ],
+                    "correctAnswer": "enhanced connectivity"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": [
+                      "reduced face-to-face interaction",
+                      "drawbacks",
+                      "problems"
+                    ],
+                    "correctAnswer": "reduced face-to-face interaction"
+                  },
+                  {
+                    "id": "conclusion3_b4",
+                    "options": [
+                      "responsible use can maximize benefits while minimizing harm",
+                      "balance is key",
+                      "it helps overall"
+                    ],
+                    "correctAnswer": "responsible use can maximize benefits while minimizing harm"
+                  }
                 ],
                 "correctSentence": "To summarize, modern communication technology has both enhanced connectivity and reduced face-to-face interaction, but responsible use can maximize benefits while minimizing harm.",
                 "usableIn": "conclusion"
@@ -726,9 +1657,33 @@
                 "type": "template",
                 "template": "Ultimately, _____ is not _____ but rather _____.",
                 "blanks": [
-                  {"id": "conclusion4_b1", "options": ["communication technology", "digital tools", "social media"], "correctAnswer": "communication technology"},
-                  {"id": "conclusion4_b2", "options": ["inherently damaging to relationships", "always bad", "completely negative"], "correctAnswer": "inherently damaging to relationships"},
-                  {"id": "conclusion4_b3", "options": ["a powerful tool that can strengthen connections when used thoughtfully", "sometimes helpful", "occasionally useful"], "correctAnswer": "a powerful tool that can strengthen connections when used thoughtfully"}
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "communication technology",
+                      "digital tools",
+                      "social media"
+                    ],
+                    "correctAnswer": "communication technology"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "inherently damaging to relationships",
+                      "always bad",
+                      "completely negative"
+                    ],
+                    "correctAnswer": "inherently damaging to relationships"
+                  },
+                  {
+                    "id": "conclusion4_b3",
+                    "options": [
+                      "a powerful tool that can strengthen connections when used thoughtfully",
+                      "sometimes helpful",
+                      "occasionally useful"
+                    ],
+                    "correctAnswer": "a powerful tool that can strengthen connections when used thoughtfully"
+                  }
                 ],
                 "correctSentence": "Ultimately, communication technology is not inherently damaging to relationships but rather a powerful tool that can strengthen connections when used thoughtfully.",
                 "usableIn": "conclusion"
@@ -738,9 +1693,33 @@
                 "type": "template",
                 "template": "In my view, _____ has _____, and _____.",
                 "blanks": [
-                  {"id": "conclusion5_b1", "options": ["the effect of technology on social relationships", "digital impact", "technology influence"], "correctAnswer": "the effect of technology on social relationships"},
-                  {"id": "conclusion5_b2", "options": ["been predominantly negative", "caused harm", "weakened bonds"], "correctAnswer": "been predominantly negative"},
-                  {"id": "conclusion5_b3", "options": ["we must prioritize in-person interaction to preserve meaningful connections", "face-to-face matters", "real contact is important"], "correctAnswer": "we must prioritize in-person interaction to preserve meaningful connections"}
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "the effect of technology on social relationships",
+                      "digital impact",
+                      "technology influence"
+                    ],
+                    "correctAnswer": "the effect of technology on social relationships"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "been predominantly negative",
+                      "caused harm",
+                      "weakened bonds"
+                    ],
+                    "correctAnswer": "been predominantly negative"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "we must prioritize in-person interaction to preserve meaningful connections",
+                      "face-to-face matters",
+                      "real contact is important"
+                    ],
+                    "correctAnswer": "we must prioritize in-person interaction to preserve meaningful connections"
+                  }
                 ],
                 "correctSentence": "In my view, the effect of technology on social relationships has been predominantly negative, and we must prioritize in-person interaction to preserve meaningful connections.",
                 "usableIn": "conclusion"
@@ -793,13 +1772,49 @@
           }
         ],
         "usefulTransitions": {
-          "showing_agreement": ["I agree that", "It is true that", "Indeed", "Certainly"],
-          "showing_disagreement": ["I disagree with the view that", "Contrary to this belief", "However, I believe that"],
-          "showing_partial_agreement": ["I partially agree that", "While there is some truth to", "To some extent", "Although I recognize that"],
-          "presenting_problems": ["One major concern is", "A significant drawback is", "The problem with", "A negative aspect is"],
-          "presenting_benefits": ["One key benefit is", "An important advantage is", "A positive aspect is", "The main benefit is"],
-          "acknowledging_counter": ["Admittedly", "It is true that", "Despite these benefits", "Although", "Nevertheless"],
-          "concluding": ["In conclusion", "To summarize", "Overall", "Ultimately", "In my view"]
+          "showing_agreement": [
+            "I agree that",
+            "It is true that",
+            "Indeed",
+            "Certainly"
+          ],
+          "showing_disagreement": [
+            "I disagree with the view that",
+            "Contrary to this belief",
+            "However, I believe that"
+          ],
+          "showing_partial_agreement": [
+            "I partially agree that",
+            "While there is some truth to",
+            "To some extent",
+            "Although I recognize that"
+          ],
+          "presenting_problems": [
+            "One major concern is",
+            "A significant drawback is",
+            "The problem with",
+            "A negative aspect is"
+          ],
+          "presenting_benefits": [
+            "One key benefit is",
+            "An important advantage is",
+            "A positive aspect is",
+            "The main benefit is"
+          ],
+          "acknowledging_counter": [
+            "Admittedly",
+            "It is true that",
+            "Despite these benefits",
+            "Although",
+            "Nevertheless"
+          ],
+          "concluding": [
+            "In conclusion",
+            "To summarize",
+            "Overall",
+            "Ultimately",
+            "In my view"
+          ]
         }
       }
     },
@@ -979,10 +1994,10 @@
     }
   ],
   "modelEssay": {
-    "text": "While modern communication technology has enabled unprecedented global connectivity, I disagree that it is having a primarily negative effect on social relationships because it has fundamentally enhanced our ability to maintain meaningful connections across distances and circumstances.\n\nThe greatest strength of communication technology lies in its capacity to sustain relationships that would otherwise deteriorate due to geographical separation. Video calling platforms and instant messaging applications allow families and friends to share daily experiences, provide emotional support, and participate in important life moments despite physical distance. For instance, parents working overseas can maintain close bonds with their children through daily video calls, sharing meals virtually and helping with homework in real-time. Similarly, elderly individuals with mobility limitations can reduce isolation by staying connected with relatives through user-friendly video chat applications. As a result, technology has eliminated the relationship-eroding effects of distance that previous generations simply had to accept.\n\nAlthough critics argue that digital communication reduces face-to-face interaction quality and encourages superficial connections, this perspective overlooks how technology complements rather than replaces traditional communication. The COVID-19 pandemic demonstrated this clearly, as communication platforms became essential for maintaining relationships during mandatory physical separation. Families organized virtual celebrations, couples sustained long-distance relationships through video dates, and friends maintained social bonds through online gatherings. Furthermore, social media enables communities based on shared interests, creating support networks for people facing similar challenges. These examples illustrate that technology expands rather than diminishes our capacity for connection.\n\nIn conclusion, while excessive or mindless technology use can pose challenges, communication technology has predominantly strengthened social relationships by providing flexible tools for maintaining meaningful connections in our increasingly mobile and globalized society.",
+    "text": "While modern communication technology has created massive global connectivity, I disagree that it is having a primarily negative effect on social relationships because it has fundamentally enhanced our ability to maintain meaningful connections across distances and circumstances.\n\nThe greatest strength of communication technology lies in its capacity to sustain relationships that would otherwise deteriorate due to geographical separation. Video calling platforms and instant messaging applications allow families and friends to share daily experiences, provide emotional support, and participate in important life moments despite physical distance. For instance, parents working overseas can maintain close bonds with their children through daily video calls, sharing meals virtually and helping with homework in real-time. Similarly, elderly individuals with mobility limitations can reduce isolation by staying connected with relatives through user-friendly video chat applications. As a result, technology has eliminated the relationship-eroding effects of distance that previous generations simply had to accept.\n\nAlthough critics argue that digital communication reduces face-to-face interaction quality and encourages superficial connections, this perspective overlooks how technology complements rather than replaces traditional communication. The COVID-19 pandemic demonstrated this clearly, as communication platforms became essential for maintaining relationships during mandatory physical separation. Families organized virtual celebrations, couples sustained long-distance relationships through video dates, and friends maintained social bonds through online gatherings. Furthermore, social media enables communities based on shared interests, creating support networks for people facing similar challenges. These examples illustrate that technology expands rather than diminishes our capacity for connection.\n\nIn conclusion, while excessive or mindless technology use can pose challenges, communication technology has predominantly strengthened social relationships by providing flexible tools for maintaining meaningful connections in our increasingly mobile and globalized society.",
     "wordCount": 273,
     "structure": {
-      "introduction": "While modern communication technology has enabled unprecedented global connectivity, I disagree that it is having a primarily negative effect on social relationships because it has fundamentally enhanced our ability to maintain meaningful connections across distances and circumstances.",
+      "introduction": "While modern communication technology has created massive global connectivity, I disagree that it is having a primarily negative effect on social relationships because it has fundamentally enhanced our ability to maintain meaningful connections across distances and circumstances.",
       "body1": "The greatest strength of communication technology lies in its capacity to sustain relationships that would otherwise deteriorate due to geographical separation. Video calling platforms and instant messaging applications allow families and friends to share daily experiences, provide emotional support, and participate in important life moments despite physical distance. For instance, parents working overseas can maintain close bonds with their children through daily video calls, sharing meals virtually and helping with homework in real-time. Similarly, elderly individuals with mobility limitations can reduce isolation by staying connected with relatives through user-friendly video chat applications. As a result, technology has eliminated the relationship-eroding effects of distance that previous generations simply had to accept.",
       "body2": "Although critics argue that digital communication reduces face-to-face interaction quality and encourages superficial connections, this perspective overlooks how technology complements rather than replaces traditional communication. The COVID-19 pandemic demonstrated this clearly, as communication platforms became essential for maintaining relationships during mandatory physical separation. Families organized virtual celebrations, couples sustained long-distance relationships through video dates, and friends maintained social bonds through online gatherings. Furthermore, social media enables communities based on shared interests, creating support networks for people facing similar challenges. These examples illustrate that technology expands rather than diminishes our capacity for connection.",
       "conclusion": "In conclusion, while excessive or mindless technology use can pose challenges, communication technology has predominantly strengthened social relationships by providing flexible tools for maintaining meaningful connections in our increasingly mobile and globalized society."
