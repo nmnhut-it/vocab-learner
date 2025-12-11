@@ -1,0 +1,502 @@
+[
+  {
+    "id": "living-alone-extended-family_academic_1",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "extended family",
+    "englishDefinition": "A family including relatives beyond parents and children.",
+    "englishExample": "An extended family traditionally provides childcare and elderly support.",
+    "vietnameseDefinition": "Gia đình bao gồm các thành viên họ hàng ngoài cha mẹ và con cái.",
+    "vietnameseExample": "Gia đình mở rộng theo truyền thống cung cấp dịch vụ chăm sóc trẻ em và hỗ trợ người cao tuổi."
+  },
+  {
+    "id": "living-alone-extended-family_academic_2",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "social isolation",
+    "englishDefinition": "Lack of contact with other people or society.",
+    "englishExample": "Living alone can lead to social isolation, especially among the elderly.",
+    "vietnameseDefinition": "Thiếu tiếp xúc với người khác hoặc xã hội.",
+    "vietnameseExample": "Sống một mình có thể dẫn đến sự cô lập xã hội, đặc biệt là đối với người cao tuổi."
+  },
+  {
+    "id": "living-alone-extended-family_academic_3",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "independence",
+    "englishDefinition": "Freedom from control or support of others.",
+    "englishExample": "Many young professionals value the independence of living alone.",
+    "vietnameseDefinition": "Tự do khỏi sự kiểm soát hoặc hỗ trợ của người khác.",
+    "vietnameseExample": "Nhiều chuyên gia trẻ đánh giá cao sự độc lập của việc sống một mình."
+  },
+  {
+    "id": "living-alone-extended-family_academic_4",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "intergenerational support",
+    "englishDefinition": "Assistance and care exchanged between different generations.",
+    "englishExample": "Extended families provide intergenerational support for childcare and elderly care.",
+    "vietnameseDefinition": "Sự hỗ trợ và chăm sóc trao đổi giữa các thế hệ khác nhau.",
+    "vietnameseExample": "Gia đình mở rộng cung cấp hỗ trợ liên thế hệ cho chăm sóc trẻ em và chăm sóc người cao tuổi."
+  },
+  {
+    "id": "living-alone-extended-family_academic_5",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "urbanization",
+    "englishDefinition": "The process of population movement to cities.",
+    "englishExample": "Rapid urbanization has contributed to the decline of extended family living.",
+    "vietnameseDefinition": "Quá trình di chuyển dân số vào các thành phố.",
+    "vietnameseExample": "Đô thị hóa nhanh chóng đã góp phần vào sự suy giảm của việc sống trong gia đình mở rộng."
+  },
+  {
+    "id": "living-alone-extended-family_academic_6",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "mobility",
+    "englishDefinition": "The ability to move freely or change location.",
+    "englishExample": "Career mobility often requires people to move away from their extended families.",
+    "vietnameseDefinition": "Khả năng di chuyển tự do hoặc thay đổi vị trí.",
+    "vietnameseExample": "Sự di chuyển nghề nghiệp thường yêu cầu mọi người rời xa gia đình mở rộng của họ."
+  },
+  {
+    "id": "living-alone-extended-family_academic_7",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "cohesion",
+    "englishDefinition": "The state of being united or holding together.",
+    "englishExample": "Living with extended family strengthens social cohesion within communities.",
+    "vietnameseDefinition": "Trạng thái đoàn kết hoặc gắn bó với nhau.",
+    "vietnameseExample": "Sống với gia đình mở rộng tăng cường sự gắn kết xã hội trong cộng đồng."
+  },
+  {
+    "id": "living-alone-extended-family_topic_0",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "loneliness epidemic",
+    "englishDefinition": "Widespread problem of social isolation affecting many people.",
+    "englishExample": "The loneliness epidemic is particularly severe among urban dwellers living alone.",
+    "vietnameseDefinition": "Vấn đề cô đơn lan rộng ảnh hưởng đến nhiều người.",
+    "vietnameseExample": "Dịch cô đơn đặc biệt nghiêm trọng ở những cư dân đô thị sống một mình."
+  },
+  {
+    "id": "living-alone-extended-family_topic_1",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "personal freedom",
+    "englishDefinition": "The ability to make choices without interference from others.",
+    "englishExample": "Living alone offers greater personal freedom in lifestyle choices.",
+    "vietnameseDefinition": "Khả năng đưa ra lựa chọn mà không bị can thiệp từ người khác.",
+    "vietnameseExample": "Sống một mình mang lại tự do cá nhân lớn hơn trong các lựa chọn lối sống."
+  },
+  {
+    "id": "living-alone-extended-family_topic_2",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "childcare support",
+    "englishDefinition": "Assistance with caring for and raising children.",
+    "englishExample": "Extended families traditionally provided childcare support for working parents.",
+    "vietnameseDefinition": "Hỗ trợ chăm sóc và nuôi dạy trẻ em.",
+    "vietnameseExample": "Gia đình mở rộng theo truyền thống cung cấp hỗ trợ chăm sóc trẻ em cho cha mẹ đi làm."
+  },
+  {
+    "id": "living-alone-extended-family_topic_3",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "elderly care challenges",
+    "englishDefinition": "Difficulties in providing care for aging family members.",
+    "englishExample": "Nuclear families face greater elderly care challenges without extended family help.",
+    "vietnameseDefinition": "Những khó khăn trong việc chăm sóc các thành viên gia đình cao tuổi.",
+    "vietnameseExample": "Gia đình hạt nhân đối mặt với nhiều thách thức chăm sóc người cao tuổi hơn nếu không có sự giúp đỡ của gia đình mở rộng."
+  },
+  {
+    "id": "living-alone-extended-family_topic_4",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "work-life balance",
+    "englishDefinition": "Equilibrium between professional and personal life.",
+    "englishExample": "Small family units can struggle with work-life balance without family support.",
+    "vietnameseDefinition": "Sự cân bằng giữa cuộc sống nghề nghiệp và cá nhân.",
+    "vietnameseExample": "Các đơn vị gia đình nhỏ có thể gặp khó khăn với cân bằng công việc-cuộc sống nếu không có sự hỗ trợ của gia đình."
+  },
+  {
+    "id": "living-alone-extended-family_topic_5",
+    "fileId": "living-alone-extended-family",
+    "type": "topic",
+    "phrase": "family obligations",
+    "englishDefinition": "Responsibilities and duties toward family members.",
+    "englishExample": "Living separately reduces traditional family obligations and expectations.",
+    "vietnameseDefinition": "Trách nhiệm và nghĩa vụ đối với các thành viên trong gia đình.",
+    "vietnameseExample": "Sống riêng giảm bớt nghĩa vụ và kỳ vọng gia đình truyền thống."
+  },
+  {
+    "id": "local-foreign-films_academic_0",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "cultural identity",
+    "englishDefinition": "The distinctive characteristics and values of a culture.",
+    "englishExample": "Local films help preserve and promote a nation's cultural identity.",
+    "vietnameseDefinition": "Các đặc điểm và giá trị đặc trưng của một nền văn hóa.",
+    "vietnameseExample": "Phim địa phương giúp bảo tồn và thúc đẩy bản sắc văn hóa của quốc gia."
+  },
+  {
+    "id": "local-foreign-films_academic_1",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "domestic",
+    "englishDefinition": "Relating to one's own country rather than foreign countries.",
+    "englishExample": "Domestic film production creates jobs for local talent.",
+    "vietnameseDefinition": "Liên quan đến đất nước của mình hơn là các nước ngoài.",
+    "vietnameseExample": "Sản xuất phim trong nước tạo việc làm cho tài năng địa phương."
+  },
+  {
+    "id": "local-foreign-films_academic_2",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "preserve",
+    "englishDefinition": "To maintain or keep something in its original state.",
+    "englishExample": "Local films preserve traditional stories and cultural values.",
+    "vietnameseDefinition": "Duy trì hoặc giữ điều gì đó ở trạng thái ban đầu.",
+    "vietnameseExample": "Phim địa phương bảo tồn các câu chuyện truyền thống và giá trị văn hóa."
+  },
+  {
+    "id": "local-foreign-films_academic_3",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "diversity",
+    "englishDefinition": "The inclusion of different types or varieties.",
+    "englishExample": "Importing foreign films increases cultural diversity and understanding.",
+    "vietnameseDefinition": "Sự bao gồm các loại hoặc giống khác nhau.",
+    "vietnameseExample": "Nhập khẩu phim nước ngoài làm tăng sự đa dạng văn hóa và hiểu biết."
+  },
+  {
+    "id": "local-foreign-films_academic_4",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "exposure",
+    "englishDefinition": "Contact with or experience of something.",
+    "englishExample": "Foreign content provides exposure to different perspectives and lifestyles.",
+    "vietnameseDefinition": "Tiếp xúc hoặc trải nghiệm điều gì đó.",
+    "vietnameseExample": "Nội dung nước ngoài cung cấp cơ hội tiếp xúc với các quan điểm và lối sống khác nhau."
+  },
+  {
+    "id": "local-foreign-films_academic_5",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "authentic",
+    "englishDefinition": "Genuine and representative of a culture or place.",
+    "englishExample": "Domestic films offer authentic portrayals of local life and traditions.",
+    "vietnameseDefinition": "Chân thực và đại diện cho một nền văn hóa hoặc địa điểm.",
+    "vietnameseExample": "Phim trong nước cung cấp hình ảnh chân thực về cuộc sống và truyền thống địa phương."
+  },
+  {
+    "id": "local-foreign-films_academic_6",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "subsidize",
+    "englishDefinition": "To support financially with government funds.",
+    "englishExample": "Many governments subsidize their film industries to protect cultural values.",
+    "vietnameseDefinition": "Hỗ trợ tài chính bằng ngân sách chính phủ.",
+    "vietnameseExample": "Nhiều chính phủ trợ cấp cho ngành công nghiệp phim của họ để bảo vệ giá trị văn hóa."
+  },
+  {
+    "id": "local-foreign-films_academic_7",
+    "fileId": "local-foreign-films",
+    "type": "academic",
+    "word": "revenue",
+    "englishDefinition": "Income generated from business activities.",
+    "englishExample": "The film industry generates substantial revenue for the national economy.",
+    "vietnameseDefinition": "Doanh thu từ hoạt động kinh doanh.",
+    "vietnameseExample": "Ngành công nghiệp phim tạo ra doanh thu đáng kể cho nền kinh tế quốc gia."
+  },
+  {
+    "id": "local-foreign-films_topic_0",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "cultural heritage",
+    "englishDefinition": "The traditions and values passed down through generations.",
+    "englishExample": "Local films play a vital role in preserving cultural heritage.",
+    "vietnameseDefinition": "Truyền thống và giá trị được truyền qua các thế hệ.",
+    "vietnameseExample": "Phim địa phương đóng vai trò quan trọng trong việc bảo tồn di sản văn hóa."
+  },
+  {
+    "id": "local-foreign-films_topic_1",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "film industry",
+    "englishDefinition": "The business sector involved in producing movies.",
+    "englishExample": "Developing a strong film industry creates employment opportunities.",
+    "vietnameseDefinition": "Ngành kinh doanh liên quan đến sản xuất phim.",
+    "vietnameseExample": "Phát triển một ngành công nghiệp phim mạnh tạo ra cơ hội việc làm."
+  },
+  {
+    "id": "local-foreign-films_topic_2",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "global perspective",
+    "englishDefinition": "Understanding and awareness of international viewpoints.",
+    "englishExample": "Foreign films provide audiences with a broader global perspective.",
+    "vietnameseDefinition": "Hiểu biết và nhận thức về quan điểm quốc tế.",
+    "vietnameseExample": "Phim nước ngoài cung cấp cho khán giả cái nhìn toàn cầu rộng hơn."
+  },
+  {
+    "id": "local-foreign-films_topic_3",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "cultural exchange",
+    "englishDefinition": "The sharing of ideas and traditions between cultures.",
+    "englishExample": "Importing foreign content facilitates valuable cultural exchange.",
+    "vietnameseDefinition": "Chia sẻ ý tưởng và truyền thống giữa các nền văn hóa.",
+    "vietnameseExample": "Nhập khẩu nội dung nước ngoài tạo điều kiện cho giao lưu văn hóa có giá trị."
+  },
+  {
+    "id": "local-foreign-films_topic_4",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "local talent",
+    "englishDefinition": "Skilled professionals from within the country.",
+    "englishExample": "Domestic production nurtures and showcases local talent.",
+    "vietnameseDefinition": "Những chuyên gia có kỹ năng từ trong nước.",
+    "vietnameseExample": "Sản xuất trong nước nuôi dưỡng và giới thiệu tài năng địa phương."
+  },
+  {
+    "id": "local-foreign-films_topic_5",
+    "fileId": "local-foreign-films",
+    "type": "topic",
+    "phrase": "entertainment value",
+    "englishDefinition": "The quality of providing enjoyment and interest.",
+    "englishExample": "High-budget foreign films often offer superior entertainment value.",
+    "vietnameseDefinition": "Chất lượng cung cấp sự giải trí và thú vị.",
+    "vietnameseExample": "Phim nước ngoài có ngân sách cao thường mang lại giá trị giải trí vượt trội."
+  },
+  {
+    "id": "museums-local-foreign_academic_0",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "cultural heritage",
+    "englishDefinition": "The traditions, monuments, and artifacts passed down from previous generations.",
+    "englishExample": "Museums play a vital role in preserving cultural heritage for future generations.",
+    "vietnameseDefinition": "Truyền thống, di tích và hiện vật được truyền lại từ các thế hệ trước.",
+    "vietnameseExample": "Bảo tàng đóng vai trò quan trọng trong việc bảo tồn di sản văn hóa cho các thế hệ tương lai."
+  },
+  {
+    "id": "museums-local-foreign_academic_1",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "artistic diversity",
+    "englishDefinition": "Variety in artistic styles, cultures, and expressions.",
+    "englishExample": "Artistic diversity enriches visitors' understanding of global creativity.",
+    "vietnameseDefinition": "Sự đa dạng trong phong cách nghệ thuật, văn hóa và biểu hiện.",
+    "vietnameseExample": "Sự đa dạng nghệ thuật làm phong phú hiểu biết của khách tham quan về sáng tạo toàn cầu."
+  },
+  {
+    "id": "museums-local-foreign_academic_2",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "national identity",
+    "englishDefinition": "The sense of belonging to a particular nation with shared culture and values.",
+    "englishExample": "Local artworks strengthen national identity and cultural pride.",
+    "vietnameseDefinition": "Ý thức thuộc về một quốc gia cụ thể với văn hóa và giá trị chung.",
+    "vietnameseExample": "Các tác phẩm nghệ thuật địa phương củng cố bản sắc quốc gia và niềm tự hào văn hóa."
+  },
+  {
+    "id": "museums-local-foreign_academic_3",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "cross-cultural understanding",
+    "englishDefinition": "Comprehension and appreciation of different cultures.",
+    "englishExample": "International exhibitions promote cross-cultural understanding and tolerance.",
+    "vietnameseDefinition": "Sự hiểu biết và đánh giá cao các nền văn hóa khác nhau.",
+    "vietnameseExample": "Các triển lãm quốc tế thúc đẩy sự hiểu biết và khoan dung liên văn hóa."
+  },
+  {
+    "id": "museums-local-foreign_academic_4",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "exhibition curation",
+    "englishDefinition": "The selection and organization of items for public display.",
+    "englishExample": "Effective exhibition curation balances local and international collections.",
+    "vietnameseDefinition": "Việc lựa chọn và tổ chức các mục để trưng bày công khai.",
+    "vietnameseExample": "Quản lý triển lãm hiệu quả cân bằng các bộ sưu tập địa phương và quốc tế."
+  },
+  {
+    "id": "museums-local-foreign_academic_5",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "artistic exchange",
+    "englishDefinition": "The sharing of artistic works and ideas between cultures.",
+    "englishExample": "Artistic exchange between nations fosters creativity and innovation.",
+    "vietnameseDefinition": "Chia sẻ các tác phẩm nghệ thuật và ý tưởng giữa các nền văn hóa.",
+    "vietnameseExample": "Trao đổi nghệ thuật giữa các quốc gia thúc đẩy sáng tạo và đổi mới."
+  },
+  {
+    "id": "museums-local-foreign_academic_6",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "preserve",
+    "englishDefinition": "To maintain and protect something from loss or damage.",
+    "englishExample": "National museums must preserve indigenous artworks for posterity.",
+    "vietnameseDefinition": "Duy trì và bảo vệ điều gì đó khỏi bị mất hoặc hư hỏng.",
+    "vietnameseExample": "Các bảo tàng quốc gia phải bảo tồn các tác phẩm nghệ thuật bản địa cho hậu thế."
+  },
+  {
+    "id": "museums-local-foreign_academic_7",
+    "fileId": "museums-local-foreign",
+    "type": "academic",
+    "word": "contemporary",
+    "englishDefinition": "Belonging to the present time; modern.",
+    "englishExample": "Contemporary museums showcase both historical and modern artworks.",
+    "vietnameseDefinition": "Thuộc về thời hiện tại; hiện đại.",
+    "vietnameseExample": "Bảo tàng đương đại trưng bày cả các tác phẩm nghệ thuật lịch sử và hiện đại."
+  },
+  {
+    "id": "museums-local-foreign_topic_0",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "cultural preservation",
+    "englishDefinition": "The protection and maintenance of cultural artifacts and traditions.",
+    "englishExample": "Museums contribute significantly to cultural preservation efforts.",
+    "vietnameseDefinition": "Bảo vệ và duy trì các hiện vật văn hóa và truyền thống.",
+    "vietnameseExample": "Bảo tàng đóng góp đáng kể vào các nỗ lực bảo tồn văn hóa."
+  },
+  {
+    "id": "museums-local-foreign_topic_1",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "global perspective",
+    "englishDefinition": "A worldwide or international viewpoint.",
+    "englishExample": "Foreign artworks provide visitors with a valuable global perspective.",
+    "vietnameseDefinition": "Quan điểm toàn cầu hoặc quốc tế.",
+    "vietnameseExample": "Các tác phẩm nghệ thuật nước ngoài cung cấp cho du khách góc nhìn toàn cầu có giá trị."
+  },
+  {
+    "id": "museums-local-foreign_topic_2",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "indigenous art",
+    "englishDefinition": "Artworks created by native or original inhabitants of a region.",
+    "englishExample": "Indigenous art deserves prominent display in national museums.",
+    "vietnameseDefinition": "Các tác phẩm nghệ thuật được tạo ra bởi cư dân bản địa hoặc gốc của một khu vực.",
+    "vietnameseExample": "Nghệ thuật bản địa xứng đáng được trưng bày nổi bật trong các bảo tàng quốc gia."
+  },
+  {
+    "id": "museums-local-foreign_topic_3",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "cultural diplomacy",
+    "englishDefinition": "The exchange of ideas and culture to strengthen international relations.",
+    "englishExample": "International exhibitions serve as effective cultural diplomacy tools.",
+    "vietnameseDefinition": "Trao đổi ý tưởng và văn hóa để tăng cường quan hệ quốc tế.",
+    "vietnameseExample": "Các triển lãm quốc tế đóng vai trò là công cụ ngoại giao văn hóa hiệu quả."
+  },
+  {
+    "id": "museums-local-foreign_topic_4",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "artistic masterpieces",
+    "englishDefinition": "Outstanding works of art of exceptional quality.",
+    "englishExample": "The Louvre houses artistic masterpieces from numerous civilizations.",
+    "vietnameseDefinition": "Các tác phẩm nghệ thuật xuất sắc có chất lượng đặc biệt.",
+    "vietnameseExample": "Bảo tàng Louvre chứa các kiệt tác nghệ thuật từ nhiều nền văn minh."
+  },
+  {
+    "id": "museums-local-foreign_topic_5",
+    "fileId": "museums-local-foreign",
+    "type": "topic",
+    "phrase": "cultural appropriation",
+    "englishDefinition": "The controversial acquisition of artifacts from other cultures.",
+    "englishExample": "The British Museum faces criticism over cultural appropriation of foreign treasures.",
+    "vietnameseDefinition": "Việc thu thập gây tranh cãi các hiện vật từ các nền văn hóa khác.",
+    "vietnameseExample": "Bảo tàng Anh đối mặt với chỉ trích về việc chiếm đoạt văn hóa của các kho báu nước ngoài."
+  },
+  {
+    "id": "museums-local-visitors_academic_0",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "cultural tourism",
+    "englishDefinition": "Travel to experience the culture, heritage, and arts of a place.",
+    "englishExample": "Museums benefit greatly from cultural tourism revenue.",
+    "vietnameseDefinition": "Du lịch để trải nghiệm văn hóa, di sản và nghệ thuật của một địa điểm.",
+    "vietnameseExample": "Bảo tàng hưởng lợi rất nhiều từ doanh thu du lịch văn hóa."
+  },
+  {
+    "id": "museums-local-visitors_academic_1",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "local engagement",
+    "englishDefinition": "Participation and involvement of local residents.",
+    "englishExample": "Museums need to improve local engagement through community programs.",
+    "vietnameseDefinition": "Sự tham gia và cam kết của cư dân địa phương.",
+    "vietnameseExample": "Bảo tàng cần cải thiện sự tham gia của người dân địa phương thông qua các chương trình cộng đồng."
+  },
+  {
+    "id": "museums-local-visitors_academic_2",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "heritage appreciation",
+    "englishDefinition": "Recognition and valuing of cultural and historical legacy.",
+    "englishExample": "Heritage appreciation often develops through educational programs.",
+    "vietnameseDefinition": "Sự công nhận và đánh giá cao di sản văn hóa và lịch sử.",
+    "vietnameseExample": "Sự đánh giá cao di sản thường phát triển thông qua các chương trình giáo dục."
+  },
+  {
+    "id": "museums-local-visitors_academic_3",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "community outreach",
+    "englishDefinition": "Efforts to engage with and serve the local community.",
+    "englishExample": "Museums should invest in community outreach to attract local visitors.",
+    "vietnameseDefinition": "Nỗ lực để gắn kết và phục vụ cộng đồng địa phương.",
+    "vietnameseExample": "Bảo tàng nên đầu tư vào hoạt động tiếp cận cộng đồng để thu hút khách tham quan địa phương."
+  },
+  {
+    "id": "museums-local-visitors_academic_4",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "admission fees",
+    "englishDefinition": "Charges for entering a venue or facility.",
+    "englishExample": "High admission fees often discourage local people from visiting museums regularly.",
+    "vietnameseDefinition": "Phí vào cửa một địa điểm hoặc cơ sở.",
+    "vietnameseExample": "Phí vào cửa cao thường ngăn cản người dân địa phương tham quan bảo tàng thường xuyên."
+  },
+  {
+    "id": "museums-local-visitors_academic_5",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "incentive",
+    "englishDefinition": "Something that motivates or encourages action.",
+    "englishExample": "Free entry days provide an incentive for locals to visit museums.",
+    "vietnameseDefinition": "Điều gì đó thúc đẩy hoặc khuyến khích hành động.",
+    "vietnameseExample": "Các ngày vào cửa miễn phí cung cấp động lực cho người dân địa phương tham quan bảo tàng."
+  },
+  {
+    "id": "museums-local-visitors_academic_6",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "familiarity",
+    "englishDefinition": "Close knowledge or acquaintance with something.",
+    "englishExample": "Excessive familiarity with local heritage can reduce interest in visiting.",
+    "vietnameseDefinition": "Sự hiểu biết hoặc quen thuộc sâu sắc với điều gì đó.",
+    "vietnameseExample": "Sự quen thuộc quá mức với di sản địa phương có thể giảm sự quan tâm đến việc tham quan."
+  },
+  {
+    "id": "museums-local-visitors_academic_7",
+    "fileId": "museums-local-visitors",
+    "type": "academic",
+    "word": "accessibility",
+    "englishDefinition": "The quality of being easy to reach or use.",
+    "englishExample": "Improving accessibility through extended hours can attract more local visitors.",
+    "vietnameseDefinition": "Tính dễ tiếp cận hoặc dễ sử dụng.",
+    "vietnameseExample": "Cải thiện khả năng tiếp cận thông qua giờ mở cửa kéo dài có thể thu hút nhiều du khách địa phương hơn."
+  },
+  {
+    "id": "museums-local-visitors_topic_0",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "educational programs",
+    "englishDefinition": "Structured learning activities and courses.",
+    "englishExample": "Museums can offer educational programs specifically designed for local schools.",
+    "vietnameseDefinition": "Các hoạt động và khóa học có cấu trúc.",
+    "vietnameseExample": "Bảo tàng có thể cung cấp các chương trình giáo dục được thiết kế riêng cho trường học địa phương."
+  }
+]

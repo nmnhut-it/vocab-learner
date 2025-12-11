@@ -1,0 +1,502 @@
+[
+  {
+    "id": "income-equality-happiness_academic_7",
+    "fileId": "income-equality-happiness",
+    "type": "academic",
+    "word": "contentment",
+    "englishDefinition": "A state of peaceful happiness and satisfaction.",
+    "englishExample": "Material equality may contribute to greater contentment in society.",
+    "vietnameseDefinition": "Trạng thái hạnh phúc và thỏa mãn bình yên.",
+    "vietnameseExample": "Bình đẳng vật chất có thể góp phần vào sự thỏa mãn lớn hơn trong xã hội."
+  },
+  {
+    "id": "income-equality-happiness_topic_0",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "wealth gap",
+    "englishDefinition": "The difference in wealth between rich and poor.",
+    "englishExample": "Reducing the wealth gap could decrease social tensions.",
+    "vietnameseDefinition": "Khoảng cách giàu nghèo.",
+    "vietnameseExample": "Giảm khoảng cách giàu nghèo có thể làm giảm căng thẳng xã hội."
+  },
+  {
+    "id": "income-equality-happiness_topic_1",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "social mobility",
+    "englishDefinition": "The ability to move between economic classes.",
+    "englishExample": "High inequality often restricts social mobility for the poor.",
+    "vietnameseDefinition": "Khả năng di chuyển giữa các tầng lớp kinh tế.",
+    "vietnameseExample": "Bất bình đẳng cao thường hạn chế khả năng di chuyển xã hội của người nghèo."
+  },
+  {
+    "id": "income-equality-happiness_topic_2",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "standard of living",
+    "englishDefinition": "The level of wealth, comfort, and material goods available.",
+    "englishExample": "Income equality can improve the standard of living for lower earners.",
+    "vietnameseDefinition": "Mức độ giàu có, thoải mái và hàng hóa vật chất có sẵn.",
+    "vietnameseExample": "Bình đẳng thu nhập có thể cải thiện mức sống cho những người thu nhập thấp."
+  },
+  {
+    "id": "income-equality-happiness_topic_3",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "quality of life",
+    "englishDefinition": "The general wellbeing of individuals and societies.",
+    "englishExample": "Quality of life depends on factors beyond just income levels.",
+    "vietnameseDefinition": "Chất lượng cuộc sống chung của cá nhân và xã hội.",
+    "vietnameseExample": "Chất lượng cuộc sống phụ thuộc vào các yếu tố không chỉ là mức thu nhập."
+  },
+  {
+    "id": "income-equality-happiness_topic_4",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "economic incentives",
+    "englishDefinition": "Financial motivations to behave in certain ways.",
+    "englishExample": "Some argue that income differences provide economic incentives for achievement.",
+    "vietnameseDefinition": "Động cơ tài chính để hành động theo cách nhất định.",
+    "vietnameseExample": "Một số người cho rằng sự chênh lệch thu nhập tạo động lực kinh tế cho thành tựu."
+  },
+  {
+    "id": "income-equality-happiness_topic_5",
+    "fileId": "income-equality-happiness",
+    "type": "topic",
+    "phrase": "social harmony",
+    "englishDefinition": "Peaceful and cooperative relations in society.",
+    "englishExample": "Greater income equality tends to promote social harmony.",
+    "vietnameseDefinition": "Mối quan hệ hòa bình và hợp tác trong xã hội.",
+    "vietnameseExample": "Bình đẳng thu nhập cao hơn có xu hướng thúc đẩy sự hòa hợp xã hội."
+  },
+  {
+    "id": "international-cooperation_academic_0",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "bilateral agreements",
+    "englishDefinition": "Treaties or deals between two countries.",
+    "englishExample": "Bilateral agreements allow two nations to coordinate climate policies effectively.",
+    "vietnameseDefinition": "Hiệp ước hoặc thỏa thuận giữa hai quốc gia.",
+    "vietnameseExample": "Các thỏa thuận song phương cho phép hai quốc gia phối hợp chính sách khí hậu hiệu quả."
+  },
+  {
+    "id": "international-cooperation_academic_1",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "multilateral treaties",
+    "englishDefinition": "International agreements involving multiple countries.",
+    "englishExample": "Multilateral treaties like the Paris Agreement address global climate change collectively.",
+    "vietnameseDefinition": "Hiệp định quốc tế có sự tham gia của nhiều quốc gia.",
+    "vietnameseExample": "Các hiệp ước đa phương như Hiệp định Paris giải quyết vấn đề biến đổi khí hậu toàn cầu một cách tập thể."
+  },
+  {
+    "id": "international-cooperation_academic_2",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "carbon emissions",
+    "englishDefinition": "Release of carbon dioxide into the atmosphere.",
+    "englishExample": "Countries must cooperate to reduce carbon emissions and combat global warming.",
+    "vietnameseDefinition": "Lượng khí carbon dioxide thải ra khí quyển.",
+    "vietnameseExample": "Các quốc gia phải hợp tác để giảm phát thải carbon và chống biến đổi khí hậu toàn cầu."
+  },
+  {
+    "id": "international-cooperation_academic_3",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "trade tariffs",
+    "englishDefinition": "Taxes imposed on imported goods.",
+    "englishExample": "International cooperation helps reduce trade tariffs and support commerce.",
+    "vietnameseDefinition": "Thuế áp dụng cho hàng hóa nhập khẩu.",
+    "vietnameseExample": "Hợp tác quốc tế giúp giảm thuế quan thương mại và hỗ trợ thương mại."
+  },
+  {
+    "id": "international-cooperation_academic_4",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "sustainable development",
+    "englishDefinition": "Economic growth that protects environmental resources.",
+    "englishExample": "International cooperation promotes sustainable development for future generations.",
+    "vietnameseDefinition": "Tăng trưởng kinh tế bảo vệ tài nguyên môi trường.",
+    "vietnameseExample": "Hợp tác quốc tế thúc đẩy phát triển bền vững cho các thế hệ tương lai."
+  },
+  {
+    "id": "international-cooperation_academic_5",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "economic integration",
+    "englishDefinition": "Process of countries linking their economies.",
+    "englishExample": "Economic integration through trade agreements benefits businesses globally.",
+    "vietnameseDefinition": "Quá trình các quốc gia liên kết nền kinh tế của họ.",
+    "vietnameseExample": "Hội nhập kinh tế thông qua các hiệp định thương mại mang lại lợi ích cho doanh nghiệp toàn cầu."
+  },
+  {
+    "id": "international-cooperation_academic_6",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "transnational",
+    "englishDefinition": "Extending across national boundaries.",
+    "englishExample": "Transnational cooperation is essential for addressing climate change.",
+    "vietnameseDefinition": "Mở rộng qua biên giới quốc gia.",
+    "vietnameseExample": "Hợp tác xuyên quốc gia là thiết yếu để giải quyết vấn đề biến đổi khí hậu."
+  },
+  {
+    "id": "international-cooperation_academic_7",
+    "fileId": "international-cooperation",
+    "type": "academic",
+    "word": "ratify",
+    "englishDefinition": "To formally approve or confirm an agreement.",
+    "englishExample": "Nations must ratify environmental treaties to make them legally binding.",
+    "vietnameseDefinition": "Phê chuẩn hoặc xác nhận chính thức một thỏa thuận.",
+    "vietnameseExample": "Các quốc gia phải phê chuẩn các hiệp ước môi trường để làm cho chúng có hiệu lực pháp lý."
+  },
+  {
+    "id": "international-cooperation_topic_0",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "global warming",
+    "englishDefinition": "Increase in Earth's average temperature due to greenhouse gases.",
+    "englishExample": "International cooperation is vital for combating global warming effectively.",
+    "vietnameseDefinition": "Sự gia tăng nhiệt độ trung bình của Trái đất do khí nhà kính.",
+    "vietnameseExample": "Hợp tác quốc tế là rất quan trọng để chống lại sự nóng lên toàn cầu một cách hiệu quả."
+  },
+  {
+    "id": "international-cooperation_topic_1",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "free trade zones",
+    "englishDefinition": "Areas where goods can be traded without tariffs or restrictions.",
+    "englishExample": "Free trade zones created through cooperation boost business profits significantly.",
+    "vietnameseDefinition": "Các khu vực nơi hàng hóa có thể được buôn bán không có thuế quan hoặc hạn chế.",
+    "vietnameseExample": "Các khu vực thương mại tự do được tạo ra thông qua hợp tác thúc đẩy lợi nhuận kinh doanh đáng kể."
+  },
+  {
+    "id": "international-cooperation_topic_2",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "wildlife conservation",
+    "englishDefinition": "Protection of endangered animal species and habitats.",
+    "englishExample": "Cross-border cooperation enables better wildlife conservation efforts.",
+    "vietnameseDefinition": "Bảo vệ các loài động vật có nguy cơ tuyệt chủng và môi trường sống.",
+    "vietnameseExample": "Hợp tác xuyên biên giới cho phép nỗ lực bảo tồn động vật hoang dã tốt hơn."
+  },
+  {
+    "id": "international-cooperation_topic_3",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "market access",
+    "englishDefinition": "Ability of businesses to enter and compete in foreign markets.",
+    "englishExample": "Trade agreements provide businesses with increased market access globally.",
+    "vietnameseDefinition": "Khả năng của doanh nghiệp để thâm nhập và cạnh tranh ở thị trường nước ngoài.",
+    "vietnameseExample": "Các hiệp định thương mại cung cấp cho doanh nghiệp khả năng tiếp cận thị trường toàn cầu tăng lên."
+  },
+  {
+    "id": "international-cooperation_topic_4",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "pollution control",
+    "englishDefinition": "Measures to reduce environmental contamination.",
+    "englishExample": "International standards for pollution control protect shared ecosystems.",
+    "vietnameseDefinition": "Các biện pháp giảm ô nhiễm môi trường.",
+    "vietnameseExample": "Các tiêu chuẩn quốc tế về kiểm soát ô nhiễm bảo vệ hệ sinh thái chung."
+  },
+  {
+    "id": "international-cooperation_topic_5",
+    "fileId": "international-cooperation",
+    "type": "topic",
+    "phrase": "supply chain efficiency",
+    "englishDefinition": "Streamlined process of producing and delivering goods.",
+    "englishExample": "Economic cooperation improves supply chain efficiency for multinational corporations.",
+    "vietnameseDefinition": "Quy trình sản xuất và giao hàng được tối ưu hóa.",
+    "vietnameseExample": "Hợp tác kinh tế cải thiện hiệu quả chuỗi cung ứng cho các tập đoàn đa quốc gia."
+  },
+  {
+    "id": "internet-most-important_academic_0",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "revolutionary",
+    "englishDefinition": "Involving or causing dramatic change or innovation.",
+    "englishExample": "The internet has had a revolutionary impact on modern society.",
+    "vietnameseDefinition": "Liên quan đến hoặc gây ra sự thay đổi hoặc đổi mới mạnh mẽ.",
+    "vietnameseExample": "Internet đã có tác động mang tính cách mạng đối với xã hội hiện đại."
+  },
+  {
+    "id": "internet-most-important_academic_1",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "transformative",
+    "englishDefinition": "Causing a marked change in someone or something.",
+    "englishExample": "Many consider the internet the most transformative invention of recent times.",
+    "vietnameseDefinition": "Gây ra sự thay đổi rõ rệt ở ai đó hoặc điều gì đó.",
+    "vietnameseExample": "Nhiều người coi internet là phát minh có tác động thay đổi lớn nhất trong thời gian gần đây."
+  },
+  {
+    "id": "internet-most-important_academic_2",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "fundamental",
+    "englishDefinition": "Forming a necessary base or core; of central importance.",
+    "englishExample": "The wheel was a fundamental invention for transportation and industry.",
+    "vietnameseDefinition": "Tạo nên nền tảng hoặc cốt lõi cần thiết; có tầm quan trọng trung tâm.",
+    "vietnameseExample": "Bánh xe là phát minh cơ bản cho giao thông và công nghiệp."
+  },
+  {
+    "id": "internet-most-important_academic_3",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "unprecedented",
+    "englishDefinition": "Never done or known before.",
+    "englishExample": "The internet provides unmatched access to information worldwide.",
+    "vietnameseDefinition": "Chưa từng được thực hiện hoặc biết đến trước đây.",
+    "vietnameseExample": "Internet cung cấp khả năng tiếp cận thông tin không có gì sánh được trên toàn thế giới."
+  },
+  {
+    "id": "internet-most-important_academic_4",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "civilization",
+    "englishDefinition": "The stage of human social development and organization.",
+    "englishExample": "Several inventions have fundamentally shaped human civilization throughout history.",
+    "vietnameseDefinition": "Giai đoạn phát triển và tổ chức xã hội của con người.",
+    "vietnameseExample": "Một số phát minh đã định hình nền văn minh nhân loại theo cách cơ bản trong suốt lịch sử."
+  },
+  {
+    "id": "internet-most-important_academic_5",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "facilitate",
+    "englishDefinition": "To make an action or process easier.",
+    "englishExample": "The internet facilitates instant communication across continents.",
+    "vietnameseDefinition": "Làm cho một hành động hoặc quá trình dễ dàng hơn.",
+    "vietnameseExample": "Internet tạo điều kiện thuận lợi cho giao tiếp tức thời xuyên lục địa."
+  },
+  {
+    "id": "internet-most-important_academic_6",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "magnitude",
+    "englishDefinition": "The great size or importance of something.",
+    "englishExample": "It is difficult to overstate the magnitude of the internet's impact.",
+    "vietnameseDefinition": "Quy mô hoặc tầm quan trọng lớn của điều gì đó.",
+    "vietnameseExample": "Rất khó để phóng đại quy mô tác động của internet."
+  },
+  {
+    "id": "internet-most-important_academic_7",
+    "fileId": "internet-most-important",
+    "type": "academic",
+    "word": "profound",
+    "englishDefinition": "Very great or intense; having deep significance.",
+    "englishExample": "The wheel had a profound effect on trade and transportation.",
+    "vietnameseDefinition": "Rất lớn hoặc mạnh mẽ; có ý nghĩa sâu sắc.",
+    "vietnameseExample": "Bánh xe có tác động sâu sắc đến thương mại và giao thông vận tải."
+  },
+  {
+    "id": "internet-most-important_topic_0",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "technological advancement",
+    "englishDefinition": "Progress or improvement in technology.",
+    "englishExample": "The internet represents a major technological advancement of the modern era.",
+    "vietnameseDefinition": "Tiến bộ hoặc cải tiến trong công nghệ.",
+    "vietnameseExample": "Internet đại diện cho một bước tiến công nghệ lớn của thời đại hiện đại."
+  },
+  {
+    "id": "internet-most-important_topic_1",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "human progress",
+    "englishDefinition": "The development and improvement of human society.",
+    "englishExample": "Many inventions have contributed significantly to human progress.",
+    "vietnameseDefinition": "Sự phát triển và cải thiện của xã hội loài người.",
+    "vietnameseExample": "Nhiều phát minh đã đóng góp đáng kể vào sự tiến bộ của loài người."
+  },
+  {
+    "id": "internet-most-important_topic_2",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "information age",
+    "englishDefinition": "The current era characterized by easy access to information.",
+    "englishExample": "The internet ushered in the information age we live in today.",
+    "vietnameseDefinition": "Thời đại hiện tại đặc trưng bởi khả năng tiếp cận thông tin dễ dàng.",
+    "vietnameseExample": "Internet mở ra thời đại thông tin mà chúng ta đang sống ngày nay."
+  },
+  {
+    "id": "internet-most-important_topic_3",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "global connectivity",
+    "englishDefinition": "The state of being connected worldwide.",
+    "englishExample": "The internet has created global connectivity on an unprecedented scale.",
+    "vietnameseDefinition": "Trạng thái được kết nối trên toàn thế giới.",
+    "vietnameseExample": "Internet đã tạo ra khả năng kết nối toàn cầu ở quy mô chưa từng có."
+  },
+  {
+    "id": "internet-most-important_topic_4",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "historical significance",
+    "englishDefinition": "Importance in the context of history.",
+    "englishExample": "The wheel's historical significance cannot be understated.",
+    "vietnameseDefinition": "Tầm quan trọng trong bối cảnh lịch sử.",
+    "vietnameseExample": "Ý nghĩa lịch sử của bánh xe không thể bị đánh giá thấp."
+  },
+  {
+    "id": "internet-most-important_topic_5",
+    "fileId": "internet-most-important",
+    "type": "topic",
+    "phrase": "societal transformation",
+    "englishDefinition": "Fundamental change in how society functions.",
+    "englishExample": "The internet has driven societal transformation in communication and commerce.",
+    "vietnameseDefinition": "Sự thay đổi cơ bản trong cách xã hội hoạt động.",
+    "vietnameseExample": "Internet đã thúc đẩy sự chuyển đổi xã hội trong giao tiếp và thương mại."
+  },
+  {
+    "id": "live-performances-home_academic_0",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "virtual attendance",
+    "englishDefinition": "Participating in an event remotely through technology.",
+    "englishExample": "Virtual attendance at concerts has increased significantly during recent years.",
+    "vietnameseDefinition": "Tham dự sự kiện từ xa thông qua công nghệ.",
+    "vietnameseExample": "Tham dự buổi hòa nhạc trực tuyến đã tăng đáng kể trong những năm gần đây."
+  },
+  {
+    "id": "live-performances-home_academic_1",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "live streaming",
+    "englishDefinition": "Broadcasting events in real-time over the internet.",
+    "englishExample": "Live streaming platforms allow millions to watch concerts simultaneously.",
+    "vietnameseDefinition": "Phát sóng sự kiện theo thời gian thực trên internet.",
+    "vietnameseExample": "Các nền tảng phát trực tiếp cho phép hàng triệu người xem buổi hòa nhạc cùng lúc."
+  },
+  {
+    "id": "live-performances-home_academic_2",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "audience experience",
+    "englishDefinition": "The overall quality of participation from the viewer's perspective.",
+    "englishExample": "The audience experience differs greatly between live venues and home viewing.",
+    "vietnameseDefinition": "Chất lượng tổng thể của trải nghiệm từ góc độ người xem.",
+    "vietnameseExample": "Trải nghiệm của khán giả khác nhau rất nhiều giữa các địa điểm trực tiếp và xem tại nhà."
+  },
+  {
+    "id": "live-performances-home_academic_3",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "accessibility",
+    "englishDefinition": "The quality of being easily reached or obtained.",
+    "englishExample": "Home streaming improves accessibility for people with mobility limitations.",
+    "vietnameseDefinition": "Tính dễ tiếp cận hoặc dễ đạt được.",
+    "vietnameseExample": "Xem trực tuyến tại nhà cải thiện khả năng tiếp cận cho người có hạn chế về di chuyển."
+  },
+  {
+    "id": "live-performances-home_academic_4",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "atmosphere",
+    "englishDefinition": "The mood or feeling of a particular environment.",
+    "englishExample": "The electric atmosphere of live concerts cannot be replicated at home.",
+    "vietnameseDefinition": "Không khí hoặc cảm giác của một môi trường cụ thể.",
+    "vietnameseExample": "Không khí sôi động của buổi hòa nhạc trực tiếp không thể tái tạo tại nhà."
+  },
+  {
+    "id": "live-performances-home_academic_5",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "convenience",
+    "englishDefinition": "The state of being able to proceed with something easily.",
+    "englishExample": "Watching performances at home offers unmatched convenience and comfort.",
+    "vietnameseDefinition": "Trạng thái có thể tiến hành điều gì đó một cách dễ dàng.",
+    "vietnameseExample": "Xem biểu diễn tại nhà mang lại sự tiện lợi và thoải mái không thể so sánh."
+  },
+  {
+    "id": "live-performances-home_academic_6",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "immersive",
+    "englishDefinition": "Providing a deeply engaging experience.",
+    "englishExample": "In-person concerts provide an immersive experience that screens cannot match.",
+    "vietnameseDefinition": "Cung cấp trải nghiệm hấp dẫn sâu sắc.",
+    "vietnameseExample": "Buổi hòa nhạc trực tiếp cung cấp trải nghiệm đắm chìm mà màn hình không thể sánh được."
+  },
+  {
+    "id": "live-performances-home_academic_7",
+    "fileId": "live-performances-home",
+    "type": "academic",
+    "word": "replicate",
+    "englishDefinition": "To make an exact copy or duplicate of something.",
+    "englishExample": "Technology struggles to replicate the energy of live audiences.",
+    "vietnameseDefinition": "Tạo ra một bản sao chính xác hoặc nhân bản của điều gì đó.",
+    "vietnameseExample": "Công nghệ gặp khó khăn trong việc tái tạo năng lượng của khán giả trực tiếp."
+  },
+  {
+    "id": "live-performances-home_topic_0",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "in-person attendance",
+    "englishDefinition": "Being physically present at an event.",
+    "englishExample": "In-person attendance at concerts has declined with streaming options.",
+    "vietnameseDefinition": "Có mặt trực tiếp tại sự kiện.",
+    "vietnameseExample": "Tham dự trực tiếp buổi hòa nhạc đã giảm với các tùy chọn xem trực tuyến."
+  },
+  {
+    "id": "live-performances-home_topic_1",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "viewing comfort",
+    "englishDefinition": "Physical ease and convenience while watching.",
+    "englishExample": "Home viewing offers superior viewing comfort with personal seating choices.",
+    "vietnameseDefinition": "Sự thoải mái và tiện lợi về mặt vật lý khi xem.",
+    "vietnameseExample": "Xem tại nhà cung cấp sự thoải mái xem vượt trội với lựa chọn chỗ ngồi cá nhân."
+  },
+  {
+    "id": "live-performances-home_topic_2",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "collective energy",
+    "englishDefinition": "The shared excitement and enthusiasm of a crowd.",
+    "englishExample": "The collective energy of a live audience enhances the performance experience.",
+    "vietnameseDefinition": "Sự phấn khích và nhiệt tình được chia sẻ của đám đông.",
+    "vietnameseExample": "Năng lượng tập thể của khán giả trực tiếp nâng cao trải nghiệm biểu diễn."
+  },
+  {
+    "id": "live-performances-home_topic_3",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "cost-effective",
+    "englishDefinition": "Providing good value for the money spent.",
+    "englishExample": "Streaming concerts is more cost-effective than buying venue tickets.",
+    "vietnameseDefinition": "Cung cấp giá trị tốt cho số tiền chi ra.",
+    "vietnameseExample": "Xem buổi hòa nhạc trực tuyến tiết kiệm chi phí hơn so với mua vé địa điểm."
+  },
+  {
+    "id": "live-performances-home_topic_4",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "real-time interaction",
+    "englishDefinition": "Direct communication or response happening immediately.",
+    "englishExample": "Live venues allow real-time interaction between performers and audiences.",
+    "vietnameseDefinition": "Giao tiếp hoặc phản hồi trực tiếp xảy ra ngay lập tức.",
+    "vietnameseExample": "Địa điểm trực tiếp cho phép tương tác thời gian thực giữa người biểu diễn và khán giả."
+  },
+  {
+    "id": "live-performances-home_topic_5",
+    "fileId": "live-performances-home",
+    "type": "topic",
+    "phrase": "technological advancement",
+    "englishDefinition": "Progress in digital tools and platforms.",
+    "englishExample": "Technological advancement has made home streaming increasingly popular.",
+    "vietnameseDefinition": "Tiến bộ trong các công cụ và nền tảng kỹ thuật số.",
+    "vietnameseExample": "Tiến bộ công nghệ đã làm cho xem trực tuyến tại nhà ngày càng phổ biến."
+  },
+  {
+    "id": "living-alone-extended-family_academic_0",
+    "fileId": "living-alone-extended-family",
+    "type": "academic",
+    "word": "nuclear family",
+    "englishDefinition": "A family unit consisting of parents and their children only.",
+    "englishExample": "The rise of the nuclear family has transformed traditional social structures.",
+    "vietnameseDefinition": "Đơn vị gia đình chỉ bao gồm cha mẹ và con cái.",
+    "vietnameseExample": "Sự gia tăng của gia đình hạt nhân đã thay đổi cấu trúc xã hội truyền thống."
+  }
+]

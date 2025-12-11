@@ -1,0 +1,502 @@
+[
+  {
+    "id": "private-healthcare_academic_6",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "fundamental",
+    "englishDefinition": "Forming a necessary base or core.",
+    "englishExample": "Many believe healthcare is a fundamental human right.",
+    "vietnameseDefinition": "Tạo thành cơ sở hoặc lõi cần thiết.",
+    "vietnameseExample": "Nhiều người tin rằng chăm sóc sức khỏe là quyền con người cơ bản."
+  },
+  {
+    "id": "private-healthcare_academic_7",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "comprehensive",
+    "englishDefinition": "Complete and including everything necessary.",
+    "englishExample": "Private facilities often provide comprehensive medical services.",
+    "vietnameseDefinition": "Hoàn chỉnh và bao gồm mọi thứ cần thiết.",
+    "vietnameseExample": "Các cơ sở tư nhân thường cung cấp dịch vụ y tế toàn diện."
+  },
+  {
+    "id": "private-healthcare_topic_0",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "waiting times",
+    "englishDefinition": "The period patients must wait to receive medical treatment.",
+    "englishExample": "Private healthcare typically offers shorter waiting times than public systems.",
+    "vietnameseDefinition": "Khoảng thời gian bệnh nhân phải chờ đợi để nhận điều trị y tế.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân thường cung cấp thời gian chờ đợi ngắn hơn so với hệ thống công cộng."
+  },
+  {
+    "id": "private-healthcare_topic_1",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "healthcare inequality",
+    "englishDefinition": "Unequal access to medical services based on socioeconomic factors.",
+    "englishExample": "Private healthcare can contribute to healthcare inequality in society.",
+    "vietnameseDefinition": "Tiếp cận không bình đẳng đến các dịch vụ y tế dựa trên các yếu tố kinh tế xã hội.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân có thể góp phần vào bất bình đẳng chăm sóc sức khỏe trong xã hội."
+  },
+  {
+    "id": "private-healthcare_topic_2",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "quality of care",
+    "englishDefinition": "The standard of medical treatment provided to patients.",
+    "englishExample": "Private hospitals often maintain high quality of care through competitive standards.",
+    "vietnameseDefinition": "Tiêu chuẩn điều trị y tế được cung cấp cho bệnh nhân.",
+    "vietnameseExample": "Các bệnh viện tư nhân thường duy trì chất lượng chăm sóc cao thông qua các tiêu chuẩn cạnh tranh."
+  },
+  {
+    "id": "private-healthcare_topic_3",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "profit-driven model",
+    "englishDefinition": "A business approach focused on generating financial returns.",
+    "englishExample": "A profit-driven model may conflict with the principle of universal healthcare access.",
+    "vietnameseDefinition": "Một cách tiếp cận kinh doanh tập trung vào tạo ra lợi nhuận tài chính.",
+    "vietnameseExample": "Mô hình hướng đến lợi nhuận có thể xung đột với nguyên tắc tiếp cận chăm sóc sức khỏe toàn dân."
+  },
+  {
+    "id": "private-healthcare_topic_4",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "universal healthcare",
+    "englishDefinition": "A system where all citizens have access to medical services.",
+    "englishExample": "Critics argue that private healthcare undermines universal healthcare principles.",
+    "vietnameseDefinition": "Một hệ thống mà tất cả công dân có quyền tiếp cận dịch vụ y tế.",
+    "vietnameseExample": "Các nhà phê bình cho rằng chăm sóc sức khỏe tư nhân làm suy yếu các nguyên tắc chăm sóc sức khỏe toàn dân."
+  },
+  {
+    "id": "private-healthcare_topic_5",
+    "fileId": "private-healthcare",
+    "type": "topic",
+    "phrase": "socioeconomic status",
+    "englishDefinition": "An individual's social and economic position in society.",
+    "englishExample": "Private healthcare access often depends on socioeconomic status rather than medical need.",
+    "vietnameseDefinition": "Vị trí xã hội và kinh tế của một cá nhân trong xã hội.",
+    "vietnameseExample": "Tiếp cận chăm sóc sức khỏe tư nhân thường phụ thuộc vào địa vị kinh tế xã hội hơn là nhu cầu y tế."
+  },
+  {
+    "id": "professional-sports-salaries_academic_0",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "compensation",
+    "englishDefinition": "Payment or reward for work or services.",
+    "englishExample": "Professional athletes receive substantial compensation for their performances.",
+    "vietnameseDefinition": "Thanh toán hoặc phần thưởng cho công việc hoặc dịch vụ.",
+    "vietnameseExample": "Các vận động viên chuyên nghiệp nhận được mức đền bù đáng kể cho màn trình diễn của họ."
+  },
+  {
+    "id": "professional-sports-salaries_academic_1",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "disproportionate",
+    "englishDefinition": "Too large or too small in comparison with something else.",
+    "englishExample": "Critics argue that sports salaries are disproportionate to societal contribution.",
+    "vietnameseDefinition": "Quá lớn hoặc quá nhỏ so với một cái gì đó khác.",
+    "vietnameseExample": "Các nhà phê bình cho rằng lương thể thao không tương xứng với đóng góp xã hội."
+  },
+  {
+    "id": "professional-sports-salaries_academic_2",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "lucrative",
+    "englishDefinition": "Producing a great deal of profit or income.",
+    "englishExample": "Professional sports have become increasingly lucrative due to media rights.",
+    "vietnameseDefinition": "Tạo ra nhiều lợi nhuận hoặc thu nhập.",
+    "vietnameseExample": "Thể thao chuyên nghiệp ngày càng sinh lời do quyền truyền thông."
+  },
+  {
+    "id": "professional-sports-salaries_academic_3",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "rigorous",
+    "englishDefinition": "Extremely thorough and demanding.",
+    "englishExample": "Athletes undergo rigorous training regimens to reach elite levels.",
+    "vietnameseDefinition": "Cực kỳ kỹ lưỡng và đòi hỏi khắt khe.",
+    "vietnameseExample": "Các vận động viên trải qua chế độ tập luyện nghiêm ngặt để đạt đến trình độ ưu tú."
+  },
+  {
+    "id": "professional-sports-salaries_academic_4",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "exemplify",
+    "englishDefinition": "To serve as a typical example of something.",
+    "englishExample": "Top footballers exemplify the extreme earning potential in professional sports.",
+    "vietnameseDefinition": "Phục vụ như một ví dụ điển hình của điều gì đó.",
+    "vietnameseExample": "Các cầu thủ bóng đá hàng đầu minh họa cho tiềm năng thu nhập cực cao trong thể thao chuyên nghiệp."
+  },
+  {
+    "id": "professional-sports-salaries_academic_5",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "generate",
+    "englishDefinition": "To produce or create something.",
+    "englishExample": "Star athletes generate enormous revenue through ticket sales and merchandise.",
+    "vietnameseDefinition": "Sản xuất hoặc tạo ra điều gì đó.",
+    "vietnameseExample": "Các vận động viên ngôi sao tạo ra doanh thu khổng lồ thông qua bán vé và hàng hóa."
+  },
+  {
+    "id": "professional-sports-salaries_academic_6",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "ephemeral",
+    "englishDefinition": "Lasting for a very short time.",
+    "englishExample": "Athletic careers are ephemeral, typically lasting only 10-15 years.",
+    "vietnameseDefinition": "Kéo dài trong một thời gian rất ngắn.",
+    "vietnameseExample": "Sự nghiệp vận động viên là ngắn ngủi, thường chỉ kéo dài 10-15 năm."
+  },
+  {
+    "id": "professional-sports-salaries_academic_7",
+    "fileId": "professional-sports-salaries",
+    "type": "academic",
+    "word": "allocation",
+    "englishDefinition": "The distribution of resources for a particular purpose.",
+    "englishExample": "Some question whether current salary allocation reflects true societal priorities.",
+    "vietnameseDefinition": "Sự phân bổ nguồn lực cho một mục đích cụ thể.",
+    "vietnameseExample": "Một số người đặt câu hỏi liệu việc phân bổ lương hiện tại có phản ánh các ưu tiên xã hội thực sự hay không."
+  },
+  {
+    "id": "professional-sports-salaries_topic_0",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "market value",
+    "englishDefinition": "The worth of something based on supply and demand.",
+    "englishExample": "Athletes' salaries reflect their market value in entertainment industry.",
+    "vietnameseDefinition": "Giá trị của một cái gì đó dựa trên cung và cầu.",
+    "vietnameseExample": "Lương của vận động viên phản ánh giá trị thị trường của họ trong ngành giải trí."
+  },
+  {
+    "id": "professional-sports-salaries_topic_1",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "revenue generation",
+    "englishDefinition": "The creation of income or profit.",
+    "englishExample": "Top players drive significant revenue generation for their teams.",
+    "vietnameseDefinition": "Việc tạo ra thu nhập hoặc lợi nhuận.",
+    "vietnameseExample": "Các cầu thủ hàng đầu thúc đẩy tạo ra doanh thu đáng kể cho đội của họ."
+  },
+  {
+    "id": "professional-sports-salaries_topic_2",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "career longevity",
+    "englishDefinition": "The duration of a professional career.",
+    "englishExample": "Limited career longevity justifies higher earnings during peak years.",
+    "vietnameseDefinition": "Thời gian kéo dài của sự nghiệp chuyên nghiệp.",
+    "vietnameseExample": "Tuổi thọ sự nghiệp hạn chế biện minh cho thu nhập cao hơn trong những năm đỉnh cao."
+  },
+  {
+    "id": "professional-sports-salaries_topic_3",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "endorsement deals",
+    "englishDefinition": "Agreements to promote products in exchange for payment.",
+    "englishExample": "Many athletes supplement salaries with lucrative endorsement deals.",
+    "vietnameseDefinition": "Thỏa thuận quảng cáo sản phẩm để đổi lấy tiền.",
+    "vietnameseExample": "Nhiều vận động viên bổ sung lương với các hợp đồng quảng cáo sinh lời."
+  },
+  {
+    "id": "professional-sports-salaries_topic_4",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "physical sacrifice",
+    "englishDefinition": "Bodily harm or health risks endured.",
+    "englishExample": "Professional sports involve considerable physical sacrifice and injury risk.",
+    "vietnameseDefinition": "Tổn hại cơ thể hoặc rủi ro sức khỏe phải chịu đựng.",
+    "vietnameseExample": "Thể thao chuyên nghiệp liên quan đến sự hy sinh thể chất đáng kể và nguy cơ chấn thương."
+  },
+  {
+    "id": "professional-sports-salaries_topic_5",
+    "fileId": "professional-sports-salaries",
+    "type": "topic",
+    "phrase": "public entertainment",
+    "englishDefinition": "Performance or spectacle for audience enjoyment.",
+    "englishExample": "Athletes provide public entertainment that millions of people value.",
+    "vietnameseDefinition": "Biểu diễn hoặc cảnh tượng để người xem thưởng thức.",
+    "vietnameseExample": "Các vận động viên cung cấp giải trí công cộng mà hàng triệu người đánh giá cao."
+  },
+  {
+    "id": "public-transport_academic_0",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "infrastructure",
+    "englishDefinition": "Basic physical systems and facilities.",
+    "englishExample": "Governments must decide how to allocate infrastructure spending effectively.",
+    "vietnameseDefinition": "Hệ thống và cơ sở vật chất cơ bản.",
+    "vietnameseExample": "Chính phủ phải quyết định cách phân bổ chi tiêu cơ sở hạ tầng hiệu quả."
+  },
+  {
+    "id": "public-transport_academic_1",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "congestion",
+    "englishDefinition": "Excessive crowding or overcrowding.",
+    "englishExample": "Public transport investment can significantly reduce traffic congestion.",
+    "vietnameseDefinition": "Tình trạng đông đúc quá mức hoặc quá tải.",
+    "vietnameseExample": "Đầu tư giao thông công cộng có thể giảm đáng kể tắc nghẽn giao thông."
+  },
+  {
+    "id": "public-transport_academic_2",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "emissions",
+    "englishDefinition": "Gases released into the atmosphere.",
+    "englishExample": "Expanding public transport helps reduce carbon emissions from vehicles.",
+    "vietnameseDefinition": "Khí được thải vào khí quyển.",
+    "vietnameseExample": "Mở rộng giao thông công cộng giúp giảm lượng khí thải carbon từ xe cộ."
+  },
+  {
+    "id": "public-transport_academic_3",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "accessibility",
+    "englishDefinition": "The quality of being easily reached or accessed.",
+    "englishExample": "Good road networks improve accessibility to remote rural areas.",
+    "vietnameseDefinition": "Chất lượng dễ dàng tiếp cận hoặc truy cập.",
+    "vietnameseExample": "Mạng lưới đường bộ tốt cải thiện khả năng tiếp cận các khu vực nông thôn xa xôi."
+  },
+  {
+    "id": "public-transport_academic_4",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "sustainable",
+    "englishDefinition": "Able to be maintained without depleting resources.",
+    "englishExample": "Public transport systems offer a more sustainable transportation solution.",
+    "vietnameseDefinition": "Có thể được duy trì mà không cạn kiệt tài nguyên.",
+    "vietnameseExample": "Hệ thống giao thông công cộng cung cấp giải pháp vận tải bền vững hơn."
+  },
+  {
+    "id": "public-transport_academic_5",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "commerce",
+    "englishDefinition": "Trading and business activities.",
+    "englishExample": "Well-maintained roads support commerce and economic growth.",
+    "vietnameseDefinition": "Hoạt động buôn bán và kinh doanh.",
+    "vietnameseExample": "Đường bộ được bảo trì tốt hỗ trợ thương mại và tăng trưởng kinh tế."
+  },
+  {
+    "id": "public-transport_academic_6",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "allocate",
+    "englishDefinition": "To distribute resources for a particular purpose.",
+    "englishExample": "Governments must allocate limited budgets wisely between competing priorities.",
+    "vietnameseDefinition": "Phân bổ nguồn lực cho một mục đích cụ thể.",
+    "vietnameseExample": "Chính phủ phải phân bổ ngân sách hạn chế một cách khôn ngoan giữa các ưu tiên cạnh tranh."
+  },
+  {
+    "id": "public-transport_academic_7",
+    "fileId": "public-transport",
+    "type": "academic",
+    "word": "prioritize",
+    "englishDefinition": "To treat something as more important.",
+    "englishExample": "Urban areas should prioritize public transport over road expansion.",
+    "vietnameseDefinition": "Coi điều gì đó là quan trọng hơn.",
+    "vietnameseExample": "Các khu vực đô thị nên ưu tiên giao thông công cộng hơn mở rộng đường bộ."
+  },
+  {
+    "id": "public-transport_topic_0",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "mass transit",
+    "englishDefinition": "Large-scale public transportation systems.",
+    "englishExample": "Mass transit systems like subways efficiently move thousands of commuters.",
+    "vietnameseDefinition": "Hệ thống giao thông công cộng quy mô lớn.",
+    "vietnameseExample": "Các hệ thống giao thông công cộng như tàu điện ngầm vận chuyển hiệu quả hàng nghìn người đi làm."
+  },
+  {
+    "id": "public-transport_topic_1",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "traffic congestion",
+    "englishDefinition": "Overcrowding of vehicles causing delays.",
+    "englishExample": "Investing in public transport reduces traffic congestion in cities.",
+    "vietnameseDefinition": "Tình trạng quá tải xe cộ gây chậm trễ.",
+    "vietnameseExample": "Đầu tư vào giao thông công cộng giảm tắc nghẽn giao thông trong các thành phố."
+  },
+  {
+    "id": "public-transport_topic_2",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "road network",
+    "englishDefinition": "System of interconnected roads.",
+    "englishExample": "A comprehensive road network supports economic development nationwide.",
+    "vietnameseDefinition": "Hệ thống đường bộ kết nối với nhau.",
+    "vietnameseExample": "Một mạng lưới đường bộ toàn diện hỗ trợ phát triển kinh tế toàn quốc."
+  },
+  {
+    "id": "public-transport_topic_3",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "carbon footprint",
+    "englishDefinition": "Total greenhouse gas emissions produced.",
+    "englishExample": "Public transport helps reduce the overall carbon footprint of cities.",
+    "vietnameseDefinition": "Tổng lượng khí thải nhà kính được sản xuất.",
+    "vietnameseExample": "Giao thông công cộng giúp giảm dấu chân carbon tổng thể của các thành phố."
+  },
+  {
+    "id": "public-transport_topic_4",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "freight transportation",
+    "englishDefinition": "Moving goods and cargo.",
+    "englishExample": "Roads remain essential for freight transportation and delivery services.",
+    "vietnameseDefinition": "Vận chuyển hàng hóa và hàng.",
+    "vietnameseExample": "Đường bộ vẫn cần thiết cho vận chuyển hàng hóa và dịch vụ giao hàng."
+  },
+  {
+    "id": "public-transport_topic_5",
+    "fileId": "public-transport",
+    "type": "topic",
+    "phrase": "urban planning",
+    "englishDefinition": "Designing and organizing city development.",
+    "englishExample": "Effective urban planning integrates both public transport and road systems.",
+    "vietnameseDefinition": "Thiết kế và tổ chức phát triển thành phố.",
+    "vietnameseExample": "Quy hoạch đô thị hiệu quả tích hợp cả hệ thống giao thông công cộng và đường bộ."
+  },
+  {
+    "id": "remote-work_academic_0",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "flexibility",
+    "englishDefinition": "The ability to change or adapt easily.",
+    "englishExample": "Remote work offers greater flexibility in managing work schedules.",
+    "vietnameseDefinition": "Khả năng thay đổi hoặc thích nghi dễ dàng.",
+    "vietnameseExample": "Làm việc từ xa cung cấp tính linh hoạt cao hơn trong việc quản lý lịch trình làm việc."
+  },
+  {
+    "id": "remote-work_academic_1",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "productivity",
+    "englishDefinition": "The effectiveness of work output.",
+    "englishExample": "Some studies show increased productivity when working remotely.",
+    "vietnameseDefinition": "Hiệu quả của sản lượng công việc.",
+    "vietnameseExample": "Một số nghiên cứu cho thấy năng suất tăng lên khi làm việc từ xa."
+  },
+  {
+    "id": "remote-work_academic_2",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "collaboration",
+    "englishDefinition": "Working together with others.",
+    "englishExample": "Office environments support better collaboration among team members.",
+    "vietnameseDefinition": "Làm việc cùng nhau với người khác.",
+    "vietnameseExample": "Môi trường văn phòng hỗ trợ sự cộng tác tốt hơn giữa các thành viên trong nhóm."
+  },
+  {
+    "id": "remote-work_academic_3",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "autonomy",
+    "englishDefinition": "Independence in decision-making.",
+    "englishExample": "Remote workers enjoy greater autonomy over their daily routines.",
+    "vietnameseDefinition": "Sự độc lập trong ra quyết định.",
+    "vietnameseExample": "Người làm việc từ xa tận hưởng quyền tự chủ cao hơn đối với thói quen hàng ngày của họ."
+  },
+  {
+    "id": "remote-work_academic_4",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "efficiency",
+    "englishDefinition": "Achieving maximum output with minimum wasted effort.",
+    "englishExample": "Working from home can improve efficiency by eliminating commute time.",
+    "vietnameseDefinition": "Đạt được sản lượng tối đa với nỗ lực lãng phí tối thiểu.",
+    "vietnameseExample": "Làm việc tại nhà có thể cải thiện hiệu quả bằng cách loại bỏ thời gian đi lại."
+  },
+  {
+    "id": "remote-work_academic_5",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "facilitate",
+    "englishDefinition": "To make an action or process easier.",
+    "englishExample": "Physical offices encourage spontaneous discussions and brainstorming.",
+    "vietnameseDefinition": "Làm cho một hành động hoặc quá trình dễ dàng hơn.",
+    "vietnameseExample": "Văn phòng vật lý khuyến khích các cuộc thảo luận tự phát và động não."
+  },
+  {
+    "id": "remote-work_academic_6",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "cohesion",
+    "englishDefinition": "Unity and togetherness within a group.",
+    "englishExample": "Office work strengthens team cohesion through daily interactions.",
+    "vietnameseDefinition": "Sự đoàn kết và gắn bó trong một nhóm.",
+    "vietnameseExample": "Làm việc văn phòng củng cố sự gắn kết của nhóm thông qua các tương tác hàng ngày."
+  },
+  {
+    "id": "remote-work_academic_7",
+    "fileId": "remote-work",
+    "type": "academic",
+    "word": "substantial",
+    "englishDefinition": "Of considerable importance or size.",
+    "englishExample": "Remote work provides substantial savings on transportation costs.",
+    "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+    "vietnameseExample": "Làm việc từ xa mang lại tiết kiệm đáng kể về chi phí vận chuyển."
+  },
+  {
+    "id": "remote-work_topic_0",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "work-life balance",
+    "englishDefinition": "The equilibrium between professional and personal life.",
+    "englishExample": "Remote work often improves work-life balance for employees.",
+    "vietnameseDefinition": "Sự cân bằng giữa cuộc sống nghề nghiệp và cá nhân.",
+    "vietnameseExample": "Làm việc từ xa thường cải thiện sự cân bằng giữa công việc và cuộc sống cho nhân viên."
+  },
+  {
+    "id": "remote-work_topic_1",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "commute time",
+    "englishDefinition": "Time spent traveling to and from work.",
+    "englishExample": "Eliminating commute time saves 1-2 hours daily.",
+    "vietnameseDefinition": "Thời gian đi từ và đến nơi làm việc.",
+    "vietnameseExample": "Loại bỏ thời gian đi lại tiết kiệm 1-2 giờ mỗi ngày."
+  },
+  {
+    "id": "remote-work_topic_2",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "face-to-face interaction",
+    "englishDefinition": "Direct in-person communication.",
+    "englishExample": "Offices enable face-to-face interaction which builds stronger relationships.",
+    "vietnameseDefinition": "Giao tiếp trực tiếp trực diện.",
+    "vietnameseExample": "Văn phòng cho phép tương tác trực tiếp giúp xây dựng các mối quan hệ mạnh mẽ hơn."
+  },
+  {
+    "id": "remote-work_topic_3",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "company culture",
+    "englishDefinition": "The shared values and practices of an organization.",
+    "englishExample": "Physical presence helps maintain strong company culture.",
+    "vietnameseDefinition": "Các giá trị và thực hành được chia sẻ của một tổ chức.",
+    "vietnameseExample": "Sự hiện diện vật lý giúp duy trì văn hóa công ty mạnh mẽ."
+  },
+  {
+    "id": "remote-work_topic_4",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "remote setting",
+    "englishDefinition": "Working environment outside traditional office.",
+    "englishExample": "Remote settings offer comfortable and personalized workspaces.",
+    "vietnameseDefinition": "Môi trường làm việc bên ngoài văn phòng truyền thống.",
+    "vietnameseExample": "Môi trường từ xa cung cấp không gian làm việc thoải mái và được cá nhân hóa."
+  },
+  {
+    "id": "remote-work_topic_5",
+    "fileId": "remote-work",
+    "type": "topic",
+    "phrase": "spontaneous discussion",
+    "englishDefinition": "Unplanned conversations that arise naturally.",
+    "englishExample": "Spontaneous discussions in offices often lead to creative solutions.",
+    "vietnameseDefinition": "Các cuộc trò chuyện không có kế hoạch trước phát sinh một cách tự nhiên.",
+    "vietnameseExample": "Các cuộc thảo luận tự phát trong văn phòng thường dẫn đến các giải pháp sáng tạo."
+  }
+]
