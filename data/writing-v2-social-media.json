@@ -151,7 +151,9 @@
               "enable",
               "assist",
               "promote"
-            ]
+            ],
+            "vietnameseDefinition": "Làm cho một hành động hoặc quá trình trở nên dễ dàng hơn.",
+            "vietnameseExample": "Các nền tảng này tạo điều kiện thuận lợi cho các phong trào xã hội và hành động tập thể."
           },
           {
             "word": "detrimental",
@@ -163,7 +165,9 @@
               "harmful",
               "damaging",
               "adverse"
-            ]
+            ],
+            "vietnameseDefinition": "Có hại hoặc gây tổn hại.",
+            "vietnameseExample": "Sử dụng mạng xã hội quá mức có thể gây hại cho sức khỏe tinh thần."
           },
           {
             "word": "unprecedented",
@@ -174,14 +178,18 @@
             "synonyms": [
               "unparalleled",
               "extraordinary"
-            ]
+            ],
+            "vietnameseDefinition": "Chưa từng xảy ra hoặc được biết đến trước đây.",
+            "vietnameseExample": "Mạng xã hội cung cấp khả năng tiếp cận thông tin toàn cầu chưa từng có."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "echo chamber",
             "definition": "Environment where people only encounter views they already agree with.",
-            "example": "Social media algorithms can create echo chambers that reinforce existing beliefs."
+            "example": "Social media algorithms can create echo chambers that reinforce existing beliefs.",
+            "vietnameseDefinition": "Môi trường mà mọi người chỉ gặp những quan điểm họ đã đồng ý.",
+            "vietnameseExample": "Thuật toán mạng xã hội có thể tạo ra buồng vang dội củng cố niềm tin hiện có."
           },
           {
             "phrase": "viral content",
@@ -200,17 +208,23 @@
           {
             "phrase": "mental wellbeing",
             "definition": "Psychological health and emotional state.",
-            "example": "Constant social comparison can negatively affect mental wellbeing."
+            "example": "Constant social comparison can negatively affect mental wellbeing.",
+            "vietnameseDefinition": "Sức khỏe tâm lý và trạng thái cảm xúc.",
+            "vietnameseExample": "So sánh xã hội liên tục có thể ảnh hưởng tiêu cực đến sức khỏe tinh thần."
           },
           {
             "phrase": "public discourse",
             "definition": "Open discussion of issues in society.",
-            "example": "Social media has democratized public discourse by giving everyone a voice."
+            "example": "Social media has democratized public discourse by giving everyone a voice.",
+            "vietnameseDefinition": "Thảo luận công khai về các vấn đề trong xã hội.",
+            "vietnameseExample": "Mạng xã hội đã dân chủ hóa diễn ngôn công cộng bằng cách cho mọi người có tiếng nói."
           },
           {
             "phrase": "cyberbullying",
             "definition": "Harassment or intimidation conducted online.",
-            "example": "Cyberbullying on social platforms has become a serious concern for young people."
+            "example": "Cyberbullying on social platforms has become a serious concern for young people.",
+            "vietnameseDefinition": "Quấy rối hoặc đe dọa được thực hiện trực tuyến.",
+            "vietnameseExample": "Bắt nạt trên mạng trên các nền tảng xã hội đã trở thành mối quan ngại nghiêm trọng đối với giới trẻ."
           },
           {
             "phrase": "attention economy",
@@ -284,208 +298,1338 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "instructions": "Build sentences you can use in your essay. Complete templates by choosing the right words.",
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Social media",
-              "verb": "enable",
-              "keywords": [
-                "global connectivity",
-                "diverse communities"
-              ]
-            },
-            "hint": "Mention how it enables connection across distances.",
-            "modelAnswer": "Social media connects people worldwide from different backgrounds and cultures.",
-            "minWords": 10
+            "function": "thesis-statements",
+            "title": "Thesis Statements (Introduction)",
+            "description": "Complete sentences that state both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, others argue that _____.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "social media democratizes information and empowers voices",
+                      "all technology is beneficial",
+                      "everyone should use social media"
+                    ],
+                    "correctAnswer": "social media democratizes information and empowers voices"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "it contributes to misinformation and polarization",
+                      "it has no negative effects",
+                      "technology is always harmful"
+                    ],
+                    "correctAnswer": "it contributes to misinformation and polarization"
+                  }
+                ],
+                "correctSentence": "While some believe social media democratizes information and empowers voices, others argue that it contributes to misinformation and polarization.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "In my opinion, _____ depends on _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "the impact of social media",
+                      "all online platforms",
+                      "internet speed"
+                    ],
+                    "correctAnswer": "the impact of social media"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "how responsibly these platforms are used and regulated",
+                      "the number of users",
+                      "corporate profits"
+                    ],
+                    "correctAnswer": "how responsibly these platforms are used and regulated"
+                  }
+                ],
+                "correctSentence": "In my opinion, the impact of social media depends on how responsibly these platforms are used and regulated.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This essay will discuss _____ before concluding that _____.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "both positive and negative societal effects",
+                      "only the benefits",
+                      "technological features"
+                    ],
+                    "correctAnswer": "both positive and negative societal effects"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "the benefits outweigh drawbacks when used mindfully",
+                      "social media should be banned",
+                      "everyone must use social platforms"
+                    ],
+                    "correctAnswer": "the benefits outweigh drawbacks when used mindfully"
+                  }
+                ],
+                "correctSentence": "This essay will discuss both positive and negative societal effects before concluding that the benefits outweigh drawbacks when used mindfully.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "Although _____, I believe _____.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "social media poses risks to mental health and cohesion",
+                      "all platforms are identical",
+                      "nobody uses social media"
+                    ],
+                    "correctAnswer": "social media poses risks to mental health and cohesion"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "its connectivity benefits outweigh the drawbacks",
+                      "it should be completely eliminated",
+                      "regulation is unnecessary"
+                    ],
+                    "correctAnswer": "its connectivity benefits outweigh the drawbacks"
+                  }
+                ],
+                "correctSentence": "Although social media poses risks to mental health and cohesion, I believe its connectivity benefits outweigh the drawbacks.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "The debate over _____ has _____ with valid arguments on _____.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "social media's societal impact",
+                      "smartphone prices",
+                      "internet speeds"
+                    ],
+                    "correctAnswer": "social media's societal impact"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "intensified in recent years",
+                      "been completely resolved",
+                      "become irrelevant"
+                    ],
+                    "correctAnswer": "intensified in recent years"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": [
+                      "both sides of the discussion",
+                      "only one perspective",
+                      "neither side"
+                    ],
+                    "correctAnswer": "both sides of the discussion"
+                  }
+                ],
+                "correctSentence": "The debate over social media's societal impact has intensified in recent years with valid arguments on both sides of the discussion.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "Both _____ and _____ are evident, but _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": [
+                      "empowerment through connectivity",
+                      "faster internet",
+                      "more advertisements"
+                    ],
+                    "correctAnswer": "empowerment through connectivity"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": [
+                      "risks of misinformation and mental health decline",
+                      "technical glitches",
+                      "subscription costs"
+                    ],
+                    "correctAnswer": "risks of misinformation and mental health decline"
+                  },
+                  {
+                    "id": "thesis6_b3",
+                    "options": [
+                      "responsible use can maximize benefits while minimizing harms",
+                      "one clearly outweighs the other",
+                      "neither matters significantly"
+                    ],
+                    "correctAnswer": "responsible use can maximize benefits while minimizing harms"
+                  }
+                ],
+                "correctSentence": "Both empowerment through connectivity and risks of misinformation and mental health decline are evident, but responsible use can maximize benefits while minimizing harms.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "There are compelling reasons why _____, although _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": [
+                      "advocates emphasize social media's democratizing power",
+                      "some people never go online",
+                      "platforms charge subscription fees"
+                    ],
+                    "correctAnswer": "advocates emphasize social media's democratizing power"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": [
+                      "critics point to serious societal and psychological risks",
+                      "everyone agrees it's perfect",
+                      "there are no concerns"
+                    ],
+                    "correctAnswer": "critics point to serious societal and psychological risks"
+                  }
+                ],
+                "correctSentence": "There are compelling reasons why advocates emphasize social media's democratizing power, although critics point to serious societal and psychological risks.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "Social media has _____, presenting both _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": [
+                      "fundamentally transformed modern communication",
+                      "remained unchanged for decades",
+                      "disappeared from society"
+                    ],
+                    "correctAnswer": "fundamentally transformed modern communication"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": [
+                      "unprecedented opportunities for connection",
+                      "no benefits",
+                      "only technical features"
+                    ],
+                    "correctAnswer": "unprecedented opportunities for connection"
+                  },
+                  {
+                    "id": "thesis8_b3",
+                    "options": [
+                      "significant challenges to wellbeing and truth",
+                      "perfect solutions",
+                      "no drawbacks"
+                    ],
+                    "correctAnswer": "significant challenges to wellbeing and truth"
+                  }
+                ],
+                "correctSentence": "Social media has fundamentally transformed modern communication, presenting both unprecedented opportunities for connection and significant challenges to wellbeing and truth.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Digital platforms",
-              "verb": "facilitate",
-              "keywords": [
-                "social movements",
-                "collective action"
-              ]
-            },
-            "hint": "Focus on how they help organize movements.",
-            "modelAnswer": "Digital platforms help organize social movements by allowing people to coordinate quickly.",
-            "minWords": 10
+            "function": "topic-sentences",
+            "title": "Topic Sentences (Body Paragraphs)",
+            "description": "Start each body paragraph with a clear topic sentence",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "On the positive side, _____ enables _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "social media",
+                      "traditional media",
+                      "printed newspapers"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": [
+                      "unprecedented global connectivity and information sharing",
+                      "slower communication",
+                      "less interaction"
+                    ],
+                    "correctAnswer": "unprecedented global connectivity and information sharing"
+                  }
+                ],
+                "correctSentence": "On the positive side, social media enables unprecedented global connectivity and information sharing.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "On the negative side, _____ contributes to _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "social media",
+                      "face-to-face conversation",
+                      "traditional education"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": [
+                      "political polarization and mental health decline",
+                      "better understanding",
+                      "increased happiness"
+                    ],
+                    "correctAnswer": "political polarization and mental health decline"
+                  }
+                ],
+                "correctSentence": "On the negative side, social media contributes to political polarization and mental health decline.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Advocates argue that _____ amplifies _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "digital platforms",
+                      "printed media",
+                      "radio broadcasts"
+                    ],
+                    "correctAnswer": "digital platforms"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": [
+                      "marginalized voices and facilitates social movements",
+                      "corporate advertising",
+                      "government propaganda"
+                    ],
+                    "correctAnswer": "marginalized voices and facilitates social movements"
+                  }
+                ],
+                "correctSentence": "Advocates argue that digital platforms amplify marginalized voices and facilitate social movements.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "Critics contend that _____ creates _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "algorithm-driven content",
+                      "random content",
+                      "user choice"
+                    ],
+                    "correctAnswer": "algorithm-driven content"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": [
+                      "echo chambers that reinforce existing beliefs",
+                      "diverse perspectives",
+                      "balanced viewpoints"
+                    ],
+                    "correctAnswer": "echo chambers that reinforce existing beliefs"
+                  }
+                ],
+                "correctSentence": "Critics contend that algorithm-driven content creates echo chambers that reinforce existing beliefs.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "_____ platforms provide _____ for _____.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "Social media",
+                      "Traditional",
+                      "Outdated"
+                    ],
+                    "correctAnswer": "Social media"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": [
+                      "equal access to public discourse",
+                      "limited opportunities",
+                      "restricted participation"
+                    ],
+                    "correctAnswer": "equal access to public discourse"
+                  },
+                  {
+                    "id": "topic5_b3",
+                    "options": [
+                      "people regardless of wealth or location",
+                      "only wealthy individuals",
+                      "corporations exclusively"
+                    ],
+                    "correctAnswer": "people regardless of wealth or location"
+                  }
+                ],
+                "correctSentence": "Social media platforms provide equal access to public discourse for people regardless of wealth or location.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "The rapid _____ through social networks can _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "spread of misinformation",
+                      "fact-checking process",
+                      "verification system"
+                    ],
+                    "correctAnswer": "spread of misinformation"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": [
+                      "have serious real-world consequences",
+                      "improve accuracy",
+                      "enhance truth"
+                    ],
+                    "correctAnswer": "have serious real-world consequences"
+                  }
+                ],
+                "correctSentence": "The rapid spread of misinformation through social networks can have serious real-world consequences.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Social media",
-              "verb": "contribute",
-              "keywords": [
-                "misinformation",
-                "spread rapidly"
-              ]
-            },
-            "hint": "Discuss the negative aspect of false information spreading.",
-            "modelAnswer": "Social media contributes to the spread of misinformation which can rapidly reach millions.",
-            "minWords": 11
+            "function": "supporting-arguments",
+            "title": "Supporting Arguments (Body Paragraphs)",
+            "description": "Explain WHY with reasons and analysis",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ provides _____.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "social media",
+                      "traditional mail",
+                      "smoke signals"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": [
+                      "instant communication across geographic boundaries",
+                      "delayed messages",
+                      "no connectivity"
+                    ],
+                    "correctAnswer": "instant communication across geographic boundaries"
+                  }
+                ],
+                "correctSentence": "This is because social media provides instant communication across geographic boundaries.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The main reason is that _____ leads to _____.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "algorithmic content curation",
+                      "random content display",
+                      "diverse perspectives"
+                    ],
+                    "correctAnswer": "algorithmic content curation"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": [
+                      "users encountering only views that match their own",
+                      "exposure to many viewpoints",
+                      "balanced information"
+                    ],
+                    "correctAnswer": "users encountering only views that match their own"
+                  }
+                ],
+                "correctSentence": "The main reason is that algorithmic content curation leads to users encountering only views that match their own.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "These platforms _____ by _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "democratize information access",
+                      "restrict communication",
+                      "limit participation"
+                    ],
+                    "correctAnswer": "democratize information access"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": [
+                      "giving everyone an equal voice in public discourse",
+                      "favoring wealthy users",
+                      "blocking most people"
+                    ],
+                    "correctAnswer": "giving everyone an equal voice in public discourse"
+                  }
+                ],
+                "correctSentence": "These platforms democratize information access by giving everyone an equal voice in public discourse.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Furthermore, _____ means that _____.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "constant social comparison",
+                      "limited interaction",
+                      "no communication"
+                    ],
+                    "correctAnswer": "constant social comparison"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": [
+                      "users often experience anxiety and diminished wellbeing",
+                      "everyone feels happier",
+                      "mental health improves"
+                    ],
+                    "correctAnswer": "users often experience anxiety and diminished wellbeing"
+                  }
+                ],
+                "correctSentence": "Furthermore, constant social comparison means that users often experience anxiety and diminished wellbeing.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Additionally, _____ enables _____ to _____.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "rapid information dissemination",
+                      "slow communication",
+                      "delayed messaging"
+                    ],
+                    "correctAnswer": "rapid information dissemination"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": [
+                      "social movements",
+                      "corporate advertising",
+                      "government control"
+                    ],
+                    "correctAnswer": "social movements"
+                  },
+                  {
+                    "id": "support5_b3",
+                    "options": [
+                      "coordinate action and gain global support quickly",
+                      "slow down progress",
+                      "lose momentum"
+                    ],
+                    "correctAnswer": "coordinate action and gain global support quickly"
+                  }
+                ],
+                "correctSentence": "Additionally, rapid information dissemination enables social movements to coordinate action and gain global support quickly.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Moreover, _____ creates _____ where _____.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "the attention economy model",
+                      "fair pricing",
+                      "equal distribution"
+                    ],
+                    "correctAnswer": "the attention economy model"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": [
+                      "an environment",
+                      "a solution",
+                      "a benefit"
+                    ],
+                    "correctAnswer": "an environment"
+                  },
+                  {
+                    "id": "support6_b3",
+                    "options": [
+                      "platforms prioritize engagement over accuracy or wellbeing",
+                      "truth is always prioritized",
+                      "users are fully protected"
+                    ],
+                    "correctAnswer": "platforms prioritize engagement over accuracy or wellbeing"
+                  }
+                ],
+                "correctSentence": "Moreover, the attention economy model creates an environment where platforms prioritize engagement over accuracy or wellbeing.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Another advantage is that _____ allows _____.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "digital activism",
+                      "passive scrolling",
+                      "isolation"
+                    ],
+                    "correctAnswer": "digital activism"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": [
+                      "grassroots movements to challenge traditional power structures",
+                      "corporations to dominate",
+                      "governments to control everything"
+                    ],
+                    "correctAnswer": "grassroots movements to challenge traditional power structures"
+                  }
+                ],
+                "correctSentence": "Another advantage is that digital activism allows grassroots movements to challenge traditional power structures.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "The problem is intensified when _____ because _____.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "users spend excessive time on platforms",
+                      "people use technology responsibly",
+                      "platforms are well-regulated"
+                    ],
+                    "correctAnswer": "users spend excessive time on platforms"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": [
+                      "this displacement of real relationships leads to isolation",
+                      "it improves social connections",
+                      "mental health benefits increase"
+                    ],
+                    "correctAnswer": "this displacement of real relationships leads to isolation"
+                  }
+                ],
+                "correctSentence": "The problem is intensified when users spend excessive time on platforms because this displacement of real relationships leads to isolation.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Constant exposure",
-              "verb": "affect",
-              "keywords": [
-                "mental wellbeing",
-                "young people"
-              ]
-            },
-            "hint": "Focus on negative psychological impacts.",
-            "modelAnswer": "Constant exposure to social media can negatively affect the mental wellbeing of young people.",
-            "minWords": 12
+            "function": "examples-evidence",
+            "title": "Examples & Evidence",
+            "description": "Support your arguments with specific examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ utilized _____ to _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "the Black Lives Matter movement",
+                      "traditional advertising",
+                      "door-to-door campaigns"
+                    ],
+                    "correctAnswer": "the Black Lives Matter movement"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "Twitter and Instagram",
+                      "telegrams",
+                      "printed pamphlets"
+                    ],
+                    "correctAnswer": "Twitter and Instagram"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": [
+                      "gain global momentum and influence policy worldwide",
+                      "send letters slowly",
+                      "reduce awareness"
+                    ],
+                    "correctAnswer": "gain global momentum and influence policy worldwide"
+                  }
+                ],
+                "correctSentence": "For instance, the Black Lives Matter movement utilized Twitter and Instagram to gain global momentum and influence policy worldwide.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "Research shows that _____ who _____ report _____.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "teenagers",
+                      "elderly people rarely online",
+                      "professional athletes"
+                    ],
+                    "correctAnswer": "teenagers"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "spend over three hours daily on Instagram",
+                      "never use social media",
+                      "read books instead"
+                    ],
+                    "correctAnswer": "spend over three hours daily on Instagram"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": [
+                      "significantly higher anxiety and depression levels",
+                      "perfect mental health",
+                      "no psychological effects"
+                    ],
+                    "correctAnswer": "significantly higher anxiety and depression levels"
+                  }
+                ],
+                "correctSentence": "Research shows that teenagers who spend over three hours daily on Instagram report significantly higher anxiety and depression levels.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "A notable example is _____, which _____.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "the Arab Spring",
+                      "traditional journalism",
+                      "postal services"
+                    ],
+                    "correctAnswer": "the Arab Spring"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "demonstrated how social media can mobilize political change",
+                      "showed social media has no impact",
+                      "proved technology is irrelevant"
+                    ],
+                    "correctAnswer": "demonstrated how social media can mobilize political change"
+                  }
+                ],
+                "correctSentence": "A notable example is the Arab Spring, which demonstrated how social media can mobilize political change.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "This is evident in _____, where _____.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "the 2016 U.S. election",
+                      "traditional elections",
+                      "local town meetings"
+                    ],
+                    "correctAnswer": "the 2016 U.S. election"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "misinformation on Facebook significantly influenced voter perceptions",
+                      "all information was accurate",
+                      "social media had no role"
+                    ],
+                    "correctAnswer": "misinformation on Facebook significantly influenced voter perceptions"
+                  }
+                ],
+                "correctSentence": "This is evident in the 2016 U.S. election, where misinformation on Facebook significantly influenced voter perceptions.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Particularly during _____, social media _____.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "the COVID-19 pandemic",
+                      "prehistoric times",
+                      "the medieval period"
+                    ],
+                    "correctAnswer": "the COVID-19 pandemic"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "enabled people to maintain connections despite physical distancing",
+                      "completely failed",
+                      "had no usefulness"
+                    ],
+                    "correctAnswer": "enabled people to maintain connections despite physical distancing"
+                  }
+                ],
+                "correctSentence": "Particularly during the COVID-19 pandemic, social media enabled people to maintain connections despite physical distancing.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Studies indicate that _____ can lead to _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "exposure to curated highlight reels of others' lives",
+                      "honest communication",
+                      "balanced perspectives"
+                    ],
+                    "correctAnswer": "exposure to curated highlight reels of others' lives"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "feelings of inadequacy and decreased life satisfaction",
+                      "increased confidence",
+                      "improved self-esteem"
+                    ],
+                    "correctAnswer": "feelings of inadequacy and decreased life satisfaction"
+                  }
+                ],
+                "correctSentence": "Studies indicate that exposure to curated highlight reels of others' lives can lead to feelings of inadequacy and decreased life satisfaction.",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "For example, _____ movement gained _____ through _____.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "the #MeToo",
+                      "no social",
+                      "an anti-technology"
+                    ],
+                    "correctAnswer": "the #MeToo"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "unprecedented global reach",
+                      "limited attention",
+                      "no support"
+                    ],
+                    "correctAnswer": "unprecedented global reach"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": [
+                      "viral hashtags on Twitter",
+                      "traditional mail",
+                      "phone calls"
+                    ],
+                    "correctAnswer": "viral hashtags on Twitter"
+                  }
+                ],
+                "correctSentence": "For example, the #MeToo movement gained unprecedented global reach through viral hashtags on Twitter.",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "In _____, research found that _____ experienced _____.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "multiple studies",
+                      "no research",
+                      "ancient texts"
+                    ],
+                    "correctAnswer": "multiple studies"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "young people exposed to cyberbullying",
+                      "people avoiding technology",
+                      "non-users"
+                    ],
+                    "correctAnswer": "young people exposed to cyberbullying"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": [
+                      "lasting psychological trauma and increased suicide risk",
+                      "no negative effects",
+                      "improved wellbeing"
+                    ],
+                    "correctAnswer": "lasting psychological trauma and increased suicide risk"
+                  }
+                ],
+                "correctSentence": "In multiple studies, research found that young people exposed to cyberbullying experienced lasting psychological trauma and increased suicide risk.",
+                "usableIn": "body-paragraph-2"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "These platforms",
-              "verb": "amplify",
-              "keywords": [
-                "marginalized voices",
-                "social issues"
-              ]
-            },
-            "hint": "Discuss how they give voice to underrepresented groups.",
-            "modelAnswer": "These platforms amplify marginalized voices and bring attention to important social issues.",
-            "minWords": 11
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "social media",
-              "has",
-              "transformed",
-              "how",
-              "people",
-              "communicate",
-              "globally"
-            ],
-            "correctAnswer": "Social media has transformed how people communicate globally.",
-            "hint": "Start with 'Social media'"
+            "function": "counter-arguments",
+            "title": "Counter-Arguments & Concessions",
+            "description": "Acknowledge the opposing view before refuting it",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "Admittedly, _____, however, _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "social media can spread misinformation",
+                      "all information online is perfect",
+                      "platforms have no issues"
+                    ],
+                    "correctAnswer": "social media can spread misinformation"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "better content moderation policies can address this concern",
+                      "nothing can be done",
+                      "the problem will solve itself"
+                    ],
+                    "correctAnswer": "better content moderation policies can address this concern"
+                  }
+                ],
+                "correctSentence": "Admittedly, social media can spread misinformation, however, better content moderation policies can address this concern.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "While it is true that _____, it should also be noted that _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "excessive use harms mental health",
+                      "social media has only benefits",
+                      "everyone uses it perfectly"
+                    ],
+                    "correctAnswer": "excessive use harms mental health"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "moderate and mindful use can provide connection benefits",
+                      "all use is equally harmful",
+                      "there's no way to use it safely"
+                    ],
+                    "correctAnswer": "moderate and mindful use can provide connection benefits"
+                  }
+                ],
+                "correctSentence": "While it is true that excessive use harms mental health, it should also be noted that moderate and mindful use can provide connection benefits.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Although _____ have merit, _____ presents a stronger argument because _____.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "concerns about echo chambers",
+                      "claims that nothing works",
+                      "ideas that tech is perfect"
+                    ],
+                    "correctAnswer": "concerns about echo chambers"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "the democratization of information",
+                      "complete isolation",
+                      "total censorship"
+                    ],
+                    "correctAnswer": "the democratization of information"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": [
+                      "it empowers previously silenced voices",
+                      "it benefits only corporations",
+                      "it helps nobody"
+                    ],
+                    "correctAnswer": "it empowers previously silenced voices"
+                  }
+                ],
+                "correctSentence": "Although concerns about echo chambers have merit, the democratization of information presents a stronger argument because it empowers previously silenced voices.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Despite _____, the reality is that _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "these valid concerns about mental health",
+                      "perfect platform design",
+                      "no problems existing"
+                    ],
+                    "correctAnswer": "these valid concerns about mental health"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "social media remains essential for modern communication",
+                      "everyone should stop using it",
+                      "it has no value"
+                    ],
+                    "correctAnswer": "social media remains essential for modern communication"
+                  }
+                ],
+                "correctSentence": "Despite these valid concerns about mental health, the reality is that social media remains essential for modern communication.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Some argue that _____, yet _____ demonstrates _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "social media only divides people",
+                      "platforms are flawless",
+                      "everyone agrees on everything"
+                    ],
+                    "correctAnswer": "social media only divides people"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "evidence from social movements",
+                      "corporate advertising",
+                      "government control"
+                    ],
+                    "correctAnswer": "evidence from social movements"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": [
+                      "its power to unite people around common causes",
+                      "that it always fails",
+                      "no meaningful impact"
+                    ],
+                    "correctAnswer": "its power to unite people around common causes"
+                  }
+                ],
+                "correctSentence": "Some argue that social media only divides people, yet evidence from social movements demonstrates its power to unite people around common causes.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Opponents claim that _____, but this overlooks _____.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": [
+                      "platforms cannot be effectively regulated",
+                      "regulation is unnecessary",
+                      "everything is perfect now"
+                    ],
+                    "correctAnswer": "platforms cannot be effectively regulated"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": [
+                      "successful content moderation examples in several countries",
+                      "the fact that nothing works",
+                      "why regulation is impossible"
+                    ],
+                    "correctAnswer": "successful content moderation examples in several countries"
+                  }
+                ],
+                "correctSentence": "Opponents claim that platforms cannot be effectively regulated, but this overlooks successful content moderation examples in several countries.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "online platforms",
-              "enable",
-              "rapid",
-              "dissemination",
-              "of",
-              "information",
-              "worldwide"
-            ],
-            "correctAnswer": "Online platforms enable rapid dissemination of information worldwide.",
-            "hint": "Subject is 'Online platforms'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "misinformation",
-              "spreads",
-              "quickly",
-              "through",
-              "social",
-              "media",
-              "networks"
-            ],
-            "correctAnswer": "Misinformation spreads quickly through social media networks.",
-            "hint": "'spreads' is the main verb"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "digital activism",
-              "has",
-              "mobilized",
-              "millions",
-              "for",
-              "important",
-              "causes"
-            ],
-            "correctAnswer": "Digital activism has mobilized millions for important causes.",
-            "hint": "Start with 'Digital activism'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "excessive",
-              "use",
-              "can",
-              "lead to",
-              "social",
-              "isolation",
-              "and",
-              "anxiety"
-            ],
-            "correctAnswer": "Excessive use can lead to social isolation and anxiety.",
-            "hint": "'can lead to' is the verb phrase"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Social media _____ unprecedented connectivity among global communities.",
-            "options": [
-              "provide",
-              "provides",
-              "providing"
-            ],
-            "correctAnswer": "provides",
-            "explanation": "Singular subject 'Social media' needs 's' on the verb."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, these platforms can spread misinformation rapidly.",
-            "options": [
-              "Moreover",
-              "However",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to contrast positive aspects with negative ones."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Digital activism has _____ millions for social movements.",
-            "options": [
-              "mobilized",
-              "mobile",
-              "mobility"
-            ],
-            "correctAnswer": "mobilized",
-            "explanation": "Use past participle 'mobilized' with 'has'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ instance, the Arab Spring utilized social media effectively.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For instance' is the correct phrase for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Excessive use can be _____ to mental health.",
-            "options": [
-              "detrimental",
-              "detriment",
-              "detrimentally"
-            ],
-            "correctAnswer": "detrimental",
-            "explanation": "Use adjective 'detrimental' after 'be'."
+            "function": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Summarize and restate your opinion",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, I believe _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "social media poses challenges to mental health and cohesion",
+                      "everything is perfect",
+                      "there are no issues"
+                    ],
+                    "correctAnswer": "social media poses challenges to mental health and cohesion"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "its connectivity benefits outweigh drawbacks with responsible use",
+                      "it should be completely banned",
+                      "regulation is unnecessary"
+                    ],
+                    "correctAnswer": "its connectivity benefits outweigh drawbacks with responsible use"
+                  }
+                ],
+                "correctSentence": "In conclusion, while social media poses challenges to mental health and cohesion, I believe its connectivity benefits outweigh drawbacks with responsible use.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ and _____, but _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "both positive and negative effects exist",
+                      "only benefits are present",
+                      "there are no drawbacks"
+                    ],
+                    "correctAnswer": "both positive and negative effects exist"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "each perspective has validity",
+                      "one side is completely wrong",
+                      "neither view matters"
+                    ],
+                    "correctAnswer": "each perspective has validity"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": [
+                      "responsible use maximizes benefits while minimizing harms",
+                      "nothing can be done",
+                      "the situation is hopeless"
+                    ],
+                    "correctAnswer": "responsible use maximizes benefits while minimizing harms"
+                  }
+                ],
+                "correctSentence": "Overall, both positive and negative effects exist and each perspective has validity, but responsible use maximizes benefits while minimizing harms.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "On balance, _____ when _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "the advantages of social media outweigh disadvantages",
+                      "there are only negatives",
+                      "benefits don't exist"
+                    ],
+                    "correctAnswer": "the advantages of social media outweigh disadvantages"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "platforms implement responsible moderation and users develop media literacy",
+                      "nothing is regulated",
+                      "everyone uses it excessively"
+                    ],
+                    "correctAnswer": "platforms implement responsible moderation and users develop media literacy"
+                  }
+                ],
+                "correctSentence": "On balance, the advantages of social media outweigh disadvantages when platforms implement responsible moderation and users develop media literacy.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "Taking everything into account, _____ provided that _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "social media offers more opportunities than threats",
+                      "all platforms are harmful",
+                      "technology has no value"
+                    ],
+                    "correctAnswer": "social media offers more opportunities than threats"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "society addresses content moderation and digital wellbeing",
+                      "nothing changes",
+                      "everyone ignores the problems"
+                    ],
+                    "correctAnswer": "society addresses content moderation and digital wellbeing"
+                  }
+                ],
+                "correctSentence": "Taking everything into account, social media offers more opportunities than threats provided that society addresses content moderation and digital wellbeing.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "To sum up, _____ represents _____, and _____ is key to _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "social media",
+                      "traditional communication",
+                      "outdated technology"
+                    ],
+                    "correctAnswer": "social media"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "a transformative force with both benefits and risks",
+                      "only negative outcomes",
+                      "perfect solutions"
+                    ],
+                    "correctAnswer": "a transformative force with both benefits and risks"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": [
+                      "responsible and regulated use",
+                      "unlimited access",
+                      "complete avoidance"
+                    ],
+                    "correctAnswer": "responsible and regulated use"
+                  },
+                  {
+                    "id": "conclusion5_b4",
+                    "options": [
+                      "maximizing societal benefits",
+                      "eliminating all technology",
+                      "ignoring the issues"
+                    ],
+                    "correctAnswer": "maximizing societal benefits"
+                  }
+                ],
+                "correctSentence": "To sum up, social media represents a transformative force with both benefits and risks, and responsible and regulated use is key to maximizing societal benefits.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "In summary, although _____, _____ ultimately _____ because _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "valid concerns exist about polarization and wellbeing",
+                      "there are no problems",
+                      "everything is ideal"
+                    ],
+                    "correctAnswer": "valid concerns exist about polarization and wellbeing"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "the positive impacts of social media",
+                      "traditional media",
+                      "complete isolation"
+                    ],
+                    "correctAnswer": "the positive impacts of social media"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": [
+                      "outweigh the negatives",
+                      "are insignificant",
+                      "don't matter"
+                    ],
+                    "correctAnswer": "outweigh the negatives"
+                  },
+                  {
+                    "id": "conclusion6_b4",
+                    "options": [
+                      "they democratize information and empower marginalized communities",
+                      "they benefit only corporations",
+                      "they serve no purpose"
+                    ],
+                    "correctAnswer": "they democratize information and empower marginalized communities"
+                  }
+                ],
+                "correctSentence": "In summary, although valid concerns exist about polarization and wellbeing, the positive impacts of social media ultimately outweigh the negatives because they democratize information and empower marginalized communities.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }
