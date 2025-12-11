@@ -298,208 +298,1007 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Individuals",
-              "verb": "reduce",
-              "keywords": [
-                "carbon footprint",
-                "daily choices"
-              ]
-            },
-            "hint": "Mention how personal choices impact carbon emissions.",
-            "modelAnswer": "Individuals can reduce their carbon footprint by making better choices about what they consume each day.",
-            "minWords": 10
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "description": "Practice writing strong thesis statements that present both views and your opinion",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe _____, I argue that _____ for environmental protection.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["individuals should bear primary responsibility", "governments must control everything", "no one is responsible"],
+                    "correctAnswer": "individuals should bear primary responsibility"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["both parties must collaborate", "only rich people should act", "it doesn't matter"],
+                    "correctAnswer": "both parties must collaborate"
+                  }
+                ],
+                "correctSentence": "While some believe individuals should bear primary responsibility, I argue that both parties must collaborate for environmental protection.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "Although _____ play a role, _____ are ultimately more crucial for addressing climate change.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["individual citizens", "foreign countries", "ancient civilizations"],
+                    "correctAnswer": "individual citizens"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["governmental policies and regulations", "social media campaigns", "personal hobbies"],
+                    "correctAnswer": "governmental policies and regulations"
+                  }
+                ],
+                "correctSentence": "Although individual citizens play a role, governmental policies and regulations are ultimately more crucial for addressing climate change.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This essay will argue that _____ and _____ must work together to achieve environmental sustainability.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["personal responsibility", "corporate advertising", "entertainment industry"],
+                    "correctAnswer": "personal responsibility"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["institutional action", "sports competitions", "fashion trends"],
+                    "correctAnswer": "institutional action"
+                  }
+                ],
+                "correctSentence": "This essay will argue that personal responsibility and institutional action must work together to achieve environmental sustainability.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "In my opinion, while _____, _____ is more essential due to its capacity for large-scale implementation.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["individual actions contribute meaningfully", "people should ignore the problem", "technology will solve everything"],
+                    "correctAnswer": "individual actions contribute meaningfully"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["governmental intervention", "consumer marketing", "celebrity influence"],
+                    "correctAnswer": "governmental intervention"
+                  }
+                ],
+                "correctSentence": "In my opinion, while individual actions contribute meaningfully, governmental intervention is more essential due to its capacity for large-scale implementation.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "I firmly believe that _____ must lead environmental efforts through _____ and enforcement.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["governments", "private citizens", "social clubs"],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": ["comprehensive legislation", "optional suggestions", "entertainment programs"],
+                    "correctAnswer": "comprehensive legislation"
+                  }
+                ],
+                "correctSentence": "I firmly believe that governments must lead environmental efforts through comprehensive legislation and enforcement.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "Environmental protection requires _____ from individuals and _____ from governments.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["daily sustainable choices", "occasional good intentions", "social media posts"],
+                    "correctAnswer": "daily sustainable choices"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["large-scale infrastructure investment", "minimal oversight", "celebrity endorsements"],
+                    "correctAnswer": "large-scale infrastructure investment"
+                  }
+                ],
+                "correctSentence": "Environmental protection requires daily sustainable choices from individuals and large-scale infrastructure investment from governments.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "While both perspectives have merit, I contend that _____ offers the most effective path to _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["government-led environmental policy", "ignoring the problem entirely", "wishful thinking"],
+                    "correctAnswer": "government-led environmental policy"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["meaningful environmental protection", "increased pollution", "corporate profits"],
+                    "correctAnswer": "meaningful environmental protection"
+                  }
+                ],
+                "correctSentence": "While both perspectives have merit, I contend that government-led environmental policy offers the most effective path to meaningful environmental protection.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "This essay argues that _____ through personal choices and _____ through policy are equally important.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["individual accountability", "avoiding responsibility", "blaming others"],
+                    "correctAnswer": "individual accountability"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["governmental leadership", "corporate advertising", "media sensationalism"],
+                    "correctAnswer": "governmental leadership"
+                  }
+                ],
+                "correctSentence": "This essay argues that individual accountability through personal choices and governmental leadership through policy are equally important.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Governments",
-              "verb": "implement",
-              "keywords": [
-                "environmental regulations",
-                "industries"
-              ]
-            },
-            "hint": "Focus on regulatory power over corporations.",
-            "modelAnswer": "Governments have the authority to implement strict environmental regulations controlling industrial emissions.",
-            "minWords": 10
+            "category": "topic-sentences",
+            "title": "Topic Sentences for Body Paragraphs",
+            "description": "Practice writing clear topic sentences that introduce the main idea of each paragraph",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "From an individual perspective, citizens can _____ through _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["make meaningful environmental contributions", "avoid all responsibility", "ignore climate science"],
+                    "correctAnswer": "make meaningful environmental contributions"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": ["daily consumption and lifestyle choices", "occasional social media posts", "complaining about others"],
+                    "correctAnswer": "daily consumption and lifestyle choices"
+                  }
+                ],
+                "correctSentence": "From an individual perspective, citizens can make meaningful environmental contributions through daily consumption and lifestyle choices.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "From a governmental perspective, _____ possess the _____ necessary for transformative change.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["national authorities", "private individuals", "entertainment celebrities"],
+                    "correctAnswer": "national authorities"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": ["resources and regulatory power", "social media followers", "popularity contests"],
+                    "correctAnswer": "resources and regulatory power"
+                  }
+                ],
+                "correctSentence": "From a governmental perspective, national authorities possess the resources and regulatory power necessary for transformative change.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Individual actions are essential because _____ directly influences _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["collective consumer behavior", "celebrity gossip", "random chance"],
+                    "correctAnswer": "collective consumer behavior"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": ["market demand for sustainable products", "entertainment ratings", "sports outcomes"],
+                    "correctAnswer": "market demand for sustainable products"
+                  }
+                ],
+                "correctSentence": "Individual actions are essential because collective consumer behavior directly influences market demand for sustainable products.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "Governments are better positioned to address environmental challenges through _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["comprehensive regulation and large-scale investment", "optional recommendations only", "ignoring scientific evidence"],
+                    "correctAnswer": "comprehensive regulation and large-scale investment"
+                  }
+                ],
+                "correctSentence": "Governments are better positioned to address environmental challenges through comprehensive regulation and large-scale investment.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Personal responsibility plays a crucial role in _____ at the grassroots level.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["driving environmental awareness and action", "avoiding any real change", "promoting wasteful consumption"],
+                    "correctAnswer": "driving environmental awareness and action"
+                  }
+                ],
+                "correctSentence": "Personal responsibility plays a crucial role in driving environmental awareness and action at the grassroots level.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Only governments can _____ that _____ across entire industries.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["implement regulations", "suggest optional changes", "ignore problems"],
+                    "correctAnswer": "implement regulations"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": ["enforce environmental standards", "allow unlimited pollution", "prioritize short-term profits"],
+                    "correctAnswer": "enforce environmental standards"
+                  }
+                ],
+                "correctSentence": "Only governments can implement regulations that enforce environmental standards across entire industries.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Individual citizens contribute to environmental protection by _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["reducing personal consumption", "maximizing waste production", "ignoring recycling"],
+                    "correctAnswer": "reducing personal consumption"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": ["adopting sustainable practices", "promoting excessive consumption", "rejecting all responsibility"],
+                    "correctAnswer": "adopting sustainable practices"
+                  }
+                ],
+                "correctSentence": "Individual citizens contribute to environmental protection by reducing personal consumption and adopting sustainable practices.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Governmental intervention is indispensable for _____ that individual actions cannot achieve.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["systemic environmental changes", "social media trends", "entertainment purposes"],
+                    "correctAnswer": "systemic environmental changes"
+                  }
+                ],
+                "correctSentence": "Governmental intervention is indispensable for systemic environmental changes that individual actions cannot achieve.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Personal actions",
-              "verb": "contribute",
-              "keywords": [
-                "recycling",
-                "sustainable practices"
-              ]
-            },
-            "hint": "Mention specific individual actions like recycling.",
-            "modelAnswer": "Personal actions such as recycling and adopting sustainable practices help protect the environment.",
-            "minWords": 12
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments (WHY/Reasoning)",
+            "description": "Practice explaining WHY your point is valid with clear reasoning",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because when many people _____, they can _____ significantly.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["take environmental action", "ignore the problem", "only complain"],
+                    "correctAnswer": "take environmental action"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": ["reduce overall environmental damage", "increase pollution levels", "waste more resources"],
+                    "correctAnswer": "reduce overall environmental damage"
+                  }
+                ],
+                "correctSentence": "This is because when many people take environmental action, they can reduce overall environmental damage significantly.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The reason is that only governments can _____ and _____ across entire industries.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["implement comprehensive regulations", "make optional suggestions", "ignore industrial pollution"],
+                    "correctAnswer": "implement comprehensive regulations"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": ["enforce environmental standards", "allow unlimited emissions", "prioritize corporate profits"],
+                    "correctAnswer": "enforce environmental standards"
+                  }
+                ],
+                "correctSentence": "The reason is that only governments can implement comprehensive regulations and enforce environmental standards across entire industries.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Individual actions matter because _____ directly influences _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["collective consumer demand", "celebrity opinions", "random events"],
+                    "correctAnswer": "collective consumer demand"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": ["corporate production decisions", "entertainment programming", "sports outcomes"],
+                    "correctAnswer": "corporate production decisions"
+                  }
+                ],
+                "correctSentence": "Individual actions matter because collective consumer demand directly influences corporate production decisions.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Governments are essential because they possess _____ that _____.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["the financial resources", "social media accounts", "celebrity connections"],
+                    "correctAnswer": "the financial resources"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": ["individuals lack for large-scale projects", "are irrelevant to the environment", "should be used for other purposes"],
+                    "correctAnswer": "individuals lack for large-scale projects"
+                  }
+                ],
+                "correctSentence": "Governments are essential because they possess the financial resources that individuals lack for large-scale projects.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Personal choices accumulate impact because _____ multiplied by _____ creates substantial change.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["small individual actions", "social media likes", "celebrity endorsements"],
+                    "correctAnswer": "small individual actions"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": ["millions of people", "entertainment value", "corporate marketing"],
+                    "correctAnswer": "millions of people"
+                  }
+                ],
+                "correctSentence": "Personal choices accumulate impact because small individual actions multiplied by millions of people creates substantial change.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Governmental policy works because _____ can _____ in ways individual actions cannot.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["legislation and enforcement", "optional guidelines", "social media campaigns"],
+                    "correctAnswer": "legislation and enforcement"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": ["mandate industry-wide changes", "suggest polite requests", "create entertainment content"],
+                    "correctAnswer": "mandate industry-wide changes"
+                  }
+                ],
+                "correctSentence": "Governmental policy works because legislation and enforcement can mandate industry-wide changes in ways individual actions cannot.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Citizens drive change by _____, which _____ to adopt sustainable practices.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["demanding eco-friendly products", "ignoring environmental issues", "maximizing consumption"],
+                    "correctAnswer": "demanding eco-friendly products"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": ["incentivizes companies", "discourages innovation", "promotes wasteful practices"],
+                    "correctAnswer": "incentivizes companies"
+                  }
+                ],
+                "correctSentence": "Citizens drive change by demanding eco-friendly products, which incentivizes companies to adopt sustainable practices.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "National authorities are crucial because _____ requires _____ that only governments possess.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["building renewable infrastructure", "creating social media content", "organizing entertainment events"],
+                    "correctAnswer": "building renewable infrastructure"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": ["massive capital investment", "celebrity endorsements", "viral marketing"],
+                    "correctAnswer": "massive capital investment"
+                  }
+                ],
+                "correctSentence": "National authorities are crucial because building renewable infrastructure requires massive capital investment that only governments possess.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "National authorities",
-              "verb": "invest",
-              "keywords": [
-                "renewable energy",
-                "infrastructure"
-              ]
-            },
-            "hint": "Focus on large-scale investment capacity.",
-            "modelAnswer": "National authorities can invest in renewable energy infrastructure on a much larger scale than individuals.",
-            "minWords": 13
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "description": "Practice providing specific, concrete examples to support your arguments",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, if millions of people _____, _____ could drop by up to thirty percent.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["chose public transport over private vehicles", "drove more frequently", "ignored transportation choices"],
+                    "correctAnswer": "chose public transport over private vehicles"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": ["carbon emissions", "public interest", "entertainment value"],
+                    "correctAnswer": "carbon emissions"
+                  }
+                ],
+                "correctSentence": "For instance, if millions of people chose public transport over private vehicles, carbon emissions could drop by up to thirty percent.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, Denmark's investment in _____ has transformed it into a global leader in _____.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["wind energy infrastructure", "social media marketing", "entertainment industry"],
+                    "correctAnswer": "wind energy infrastructure"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": ["renewable power generation", "celebrity culture", "sports competitions"],
+                    "correctAnswer": "renewable power generation"
+                  }
+                ],
+                "correctSentence": "For example, Denmark's investment in wind energy infrastructure has transformed it into a global leader in renewable power generation.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, when consumers _____, companies like _____ respond by _____.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["demand sustainable packaging", "ignore product origins", "maximize waste"],
+                    "correctAnswer": "demand sustainable packaging"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": ["Unilever and Nestle", "random companies", "entertainment studios"],
+                    "correctAnswer": "Unilever and Nestle"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": ["reducing plastic use", "increasing pollution", "ignoring consumer preferences"],
+                    "correctAnswer": "reducing plastic use"
+                  }
+                ],
+                "correctSentence": "Specifically, when consumers demand sustainable packaging, companies like Unilever and Nestle respond by reducing plastic use.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "A clear example is _____, where government regulations _____ emissions by forty percent in two decades.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["Germany's Energiewende policy", "random social media trends", "entertainment programs"],
+                    "correctAnswer": "Germany's Energiewende policy"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": ["reduced carbon", "increased pollution", "ignored environmental"],
+                    "correctAnswer": "reduced carbon"
+                  }
+                ],
+                "correctSentence": "A clear example is Germany's Energiewende policy, where government regulations reduced carbon emissions by forty percent in two decades.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "To illustrate, Sweden's _____ has successfully _____ while maintaining economic growth.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["carbon tax system", "entertainment industry", "social media presence"],
+                    "correctAnswer": "carbon tax system"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": ["reduced emissions by sixty-three percent", "increased pollution levels", "ignored environmental concerns"],
+                    "correctAnswer": "reduced emissions by sixty-three percent"
+                  }
+                ],
+                "correctSentence": "To illustrate, Sweden's carbon tax system has successfully reduced emissions by sixty-three percent while maintaining economic growth.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "For instance, grassroots movements like _____ demonstrate how _____ can drive _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["Fridays for Future", "random social clubs", "entertainment groups"],
+                    "correctAnswer": "Fridays for Future"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": ["individual collective action", "celebrity gossip", "sports fandom"],
+                    "correctAnswer": "individual collective action"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": ["political awareness and change", "entertainment ratings", "social media likes"],
+                    "correctAnswer": "political awareness and change"
+                  }
+                ],
+                "correctSentence": "For instance, grassroots movements like Fridays for Future demonstrate how individual collective action can drive political awareness and change.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Research shows that cities implementing _____, such as _____, have reduced traffic emissions by _____.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["congestion charges", "free parking everywhere", "unlimited vehicle access"],
+                    "correctAnswer": "congestion charges"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": ["London and Singapore", "random cities", "entertainment districts"],
+                    "correctAnswer": "London and Singapore"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": ["over twenty percent", "negligible amounts", "zero percent"],
+                    "correctAnswer": "over twenty percent"
+                  }
+                ],
+                "correctSentence": "Research shows that cities implementing congestion charges, such as London and Singapore, have reduced traffic emissions by over twenty percent.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Evidence from _____ shows that when _____, recycling rates increased from _____ to _____.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["San Francisco's mandatory recycling program", "random social media campaigns", "entertainment initiatives"],
+                    "correctAnswer": "San Francisco's mandatory recycling program"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": ["governments mandated waste separation", "individuals were left to choose", "no action was taken"],
+                    "correctAnswer": "governments mandated waste separation"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": ["thirty-eight percent", "zero percent", "five percent"],
+                    "correctAnswer": "thirty-eight percent"
+                  },
+                  {
+                    "id": "example8_b4",
+                    "options": ["eighty percent", "ten percent", "twenty percent"],
+                    "correctAnswer": "eighty percent"
+                  }
+                ],
+                "correctSentence": "Evidence from San Francisco's mandatory recycling program shows that when governments mandated waste separation, recycling rates increased from thirty-eight percent to eighty percent.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Collective action",
-              "verb": "require",
-              "keywords": [
-                "both levels",
-                "effective protection"
-              ]
-            },
-            "hint": "Mention that both are needed for success.",
-            "modelAnswer": "Effective environmental protection requires collective action from both individual citizens and governmental institutions.",
-            "minWords": 12
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "environmental",
-              "protection",
-              "requires",
-              "action",
-              "at",
-              "all",
-              "levels"
-            ],
-            "correctAnswer": "Environmental protection requires action at all levels.",
-            "hint": "Start with 'Environmental protection'"
+            "category": "counter-arguments",
+            "title": "Counter-Arguments",
+            "description": "Practice acknowledging opposing views to show balanced thinking",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "Admittedly, _____ can contribute through _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["individual citizens", "no one", "only celebrities"],
+                    "correctAnswer": "individual citizens"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": ["daily sustainable choices", "ignoring the problem", "social media posts"],
+                    "correctAnswer": "daily sustainable choices"
+                  }
+                ],
+                "correctSentence": "Admittedly, individual citizens can contribute through daily sustainable choices.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "However, without _____, _____ are insufficient to address the scale of the crisis.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["government support and regulation", "social media attention", "celebrity endorsements"],
+                    "correctAnswer": "government support and regulation"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": ["individual efforts alone", "governmental policies", "comprehensive regulations"],
+                    "correctAnswer": "individual efforts alone"
+                  }
+                ],
+                "correctSentence": "However, without government support and regulation, individual efforts alone are insufficient to address the scale of the crisis.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "While _____ have regulatory power, they cannot succeed without _____ from citizens.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["governments", "individuals", "corporations"],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": ["behavioral change and support", "resistance and opposition", "complete ignorance"],
+                    "correctAnswer": "behavioral change and support"
+                  }
+                ],
+                "correctSentence": "While governments have regulatory power, they cannot succeed without behavioral change and support from citizens.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Some argue that _____, but this overlooks _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["personal choices are enough", "nothing can be done", "only governments matter"],
+                    "correctAnswer": "personal choices are enough"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": ["the need for systemic regulatory change", "individual responsibility", "social media influence"],
+                    "correctAnswer": "the need for systemic regulatory change"
+                  }
+                ],
+                "correctSentence": "Some argue that personal choices are enough, but this overlooks the need for systemic regulatory change.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Critics claim that _____, yet evidence shows that _____ are indispensable.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["individuals cannot make a difference", "governments are irrelevant", "no action is needed"],
+                    "correctAnswer": "individuals cannot make a difference"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": ["collective personal actions", "social media campaigns", "celebrity opinions"],
+                    "correctAnswer": "collective personal actions"
+                  }
+                ],
+                "correctSentence": "Critics claim that individuals cannot make a difference, yet evidence shows that collective personal actions are indispensable.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Although _____ may seem limited, when _____ they create significant momentum.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["individual actions", "government policies", "corporate initiatives"],
+                    "correctAnswer": "individual actions"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": ["multiplied across millions of people", "performed by one person", "ignored entirely"],
+                    "correctAnswer": "multiplied across millions of people"
+                  }
+                ],
+                "correctSentence": "Although individual actions may seem limited, when multiplied across millions of people they create significant momentum.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "It is true that _____, but _____ remains essential for _____.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["governments have greater resources", "individuals are powerless", "nothing matters"],
+                    "correctAnswer": "governments have greater resources"
+                  },
+                  {
+                    "id": "counter7_b2",
+                    "options": ["individual participation", "government inaction", "corporate profit"],
+                    "correctAnswer": "individual participation"
+                  },
+                  {
+                    "id": "counter7_b3",
+                    "options": ["grassroots support and compliance", "avoiding responsibility", "entertainment purposes"],
+                    "correctAnswer": "grassroots support and compliance"
+                  }
+                ],
+                "correctSentence": "It is true that governments have greater resources, but individual participation remains essential for grassroots support and compliance.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "Despite _____, _____ alone cannot achieve _____ without _____.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["their regulatory authority", "social media influence", "entertainment value"],
+                    "correctAnswer": "their regulatory authority"
+                  },
+                  {
+                    "id": "counter8_b2",
+                    "options": ["governments", "individuals", "celebrities"],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "counter8_b3",
+                    "options": ["meaningful environmental change", "social media success", "entertainment goals"],
+                    "correctAnswer": "meaningful environmental change"
+                  },
+                  {
+                    "id": "counter8_b4",
+                    "options": ["public cooperation", "corporate sponsorship", "celebrity endorsements"],
+                    "correctAnswer": "public cooperation"
+                  }
+                ],
+                "correctSentence": "Despite their regulatory authority, governments alone cannot achieve meaningful environmental change without public cooperation.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "individuals",
-              "can",
-              "make",
-              "sustainable",
-              "lifestyle",
-              "choices",
-              "daily"
-            ],
-            "correctAnswer": "Individuals can make sustainable lifestyle choices daily.",
-            "hint": "Subject is 'Individuals'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "governments",
-              "have",
-              "resources",
-              "for",
-              "large-scale",
-              "environmental",
-              "programs"
-            ],
-            "correctAnswer": "Governments have resources for large-scale environmental programs.",
-            "hint": "'have' is the main verb"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "personal",
-              "consumption",
-              "habits",
-              "significantly",
-              "impact",
-              "the",
-              "environment"
-            ],
-            "correctAnswer": "Personal consumption habits significantly impact the environment.",
-            "hint": "Subject is 'Personal consumption habits'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "strict",
-              "regulations",
-              "can",
-              "force",
-              "industries",
-              "to",
-              "reduce",
-              "pollution"
-            ],
-            "correctAnswer": "Strict regulations can force industries to reduce pollution.",
-            "hint": "'can force' is the verb phrase"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Individuals can _____ their carbon footprint through daily choices.",
-            "options": [
-              "reduce",
-              "reducing",
-              "reduction"
-            ],
-            "correctAnswer": "reduce",
-            "explanation": "Use base form 'reduce' after 'can'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, governments have greater resources for environmental initiatives.",
-            "options": [
-              "However",
-              "Therefore",
-              "Moreover"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to contrast individual with governmental capacity."
-          },
-          {
-            "id": "blank3",
-            "sentence": "National authorities _____ implement comprehensive environmental policies.",
-            "options": [
-              "can",
-              "cans",
-              "canning"
-            ],
-            "correctAnswer": "can",
-            "explanation": "Modal verb 'can' doesn't take 's' even with plural subject."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ instance, Denmark invested heavily in wind energy infrastructure.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For instance' is the correct phrase for examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Personal accountability _____ essential for sustainable consumption.",
-            "options": [
-              "is",
-              "are",
-              "be"
-            ],
-            "correctAnswer": "is",
-            "explanation": "Singular subject 'accountability' takes 'is'."
+            "category": "conclusions",
+            "title": "Conclusion Statements",
+            "description": "Practice writing effective conclusions that summarize and restate your position",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____, _____ is ultimately more essential for _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["individual actions contribute meaningfully", "nothing matters", "only entertainment counts"],
+                    "correctAnswer": "individual actions contribute meaningfully"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["governmental intervention", "social media activism", "celebrity influence"],
+                    "correctAnswer": "governmental intervention"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": ["large-scale environmental protection", "entertainment purposes", "corporate profits"],
+                    "correctAnswer": "large-scale environmental protection"
+                  }
+                ],
+                "correctSentence": "In conclusion, while individual actions contribute meaningfully, governmental intervention is ultimately more essential for large-scale environmental protection.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ and _____ must work together to achieve _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["personal responsibility", "celebrity culture", "entertainment industry"],
+                    "correctAnswer": "personal responsibility"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["governmental action", "social media trends", "corporate marketing"],
+                    "correctAnswer": "governmental action"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": ["meaningful environmental sustainability", "higher entertainment ratings", "increased consumption"],
+                    "correctAnswer": "meaningful environmental sustainability"
+                  }
+                ],
+                "correctSentence": "Overall, personal responsibility and governmental action must work together to achieve meaningful environmental sustainability.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, environmental protection requires _____ from individuals and _____ from governments.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["daily sustainable choices", "occasional social media posts", "complete inaction"],
+                    "correctAnswer": "daily sustainable choices"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["comprehensive policy frameworks", "optional suggestions", "entertainment programs"],
+                    "correctAnswer": "comprehensive policy frameworks"
+                  }
+                ],
+                "correctSentence": "To summarize, environmental protection requires daily sustainable choices from individuals and comprehensive policy frameworks from governments.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, I believe _____ because _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["both parties share equal responsibility", "only individuals matter", "nothing can help"],
+                    "correctAnswer": "both parties share equal responsibility"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": ["neither can succeed without the other", "governments should do everything", "individuals should be ignored"],
+                    "correctAnswer": "neither can succeed without the other"
+                  }
+                ],
+                "correctSentence": "On balance, I believe both parties share equal responsibility because neither can succeed without the other.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In summary, while _____, success ultimately depends on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["both approaches have merit", "only one approach works", "nothing works"],
+                    "correctAnswer": "both approaches have merit"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["collaboration between individuals and institutions", "avoiding all responsibility", "social media campaigns"],
+                    "correctAnswer": "collaboration between individuals and institutions"
+                  }
+                ],
+                "correctSentence": "In summary, while both approaches have merit, success ultimately depends on collaboration between individuals and institutions.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "Taking both views into account, _____ offers the most effective path, though _____ remains important.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["government-led policy", "ignoring the problem", "social media activism"],
+                    "correctAnswer": "government-led policy"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": ["individual participation", "corporate profit", "entertainment value"],
+                    "correctAnswer": "individual participation"
+                  }
+                ],
+                "correctSentence": "Taking both views into account, government-led policy offers the most effective path, though individual participation remains important.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Therefore, effective environmental protection demands _____ from both _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["sustained commitment and action", "occasional awareness", "social media attention"],
+                    "correctAnswer": "sustained commitment and action"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": ["citizens and their governments", "celebrities and influencers", "corporations and media"],
+                    "correctAnswer": "citizens and their governments"
+                  }
+                ],
+                "correctSentence": "Therefore, effective environmental protection demands sustained commitment and action from both citizens and their governments.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "Ultimately, _____ provides _____, while _____ ensures _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["governmental leadership", "individual inaction", "social media"],
+                    "correctAnswer": "governmental leadership"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["the necessary regulatory framework", "entertainment content", "celebrity gossip"],
+                    "correctAnswer": "the necessary regulatory framework"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": ["individual action", "government neglect", "corporate profit"],
+                    "correctAnswer": "individual action"
+                  },
+                  {
+                    "id": "conclusion8_b4",
+                    "options": ["grassroots support and compliance", "social media trends", "entertainment ratings"],
+                    "correctAnswer": "grassroots support and compliance"
+                  }
+                ],
+                "correctSentence": "Ultimately, governmental leadership provides the necessary regulatory framework, while individual action ensures grassroots support and compliance.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

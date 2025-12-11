@@ -84,7 +84,9 @@
             "synonyms": [
               "development",
               "growth"
-            ]
+            ],
+            "vietnameseDefinition": "Sự trưởng thành về tâm lý hoặc cảm xúc.",
+            "vietnameseExample": "Một năm nghỉ ngơi có thể nâng cao sự trưởng thành cá nhân thông qua trải nghiệm thực tế."
           },
           {
             "word": "perspective",
@@ -95,7 +97,9 @@
             "synonyms": [
               "viewpoint",
               "outlook"
-            ]
+            ],
+            "vietnameseDefinition": "Cách nhìn nhận cụ thể về sự vật.",
+            "vietnameseExample": "Du lịch trong năm nghỉ ngơi mở rộng góc nhìn của một người về cuộc sống."
           },
           {
             "word": "postpone",
@@ -106,7 +110,9 @@
             "synonyms": [
               "delay",
               "defer"
-            ]
+            ],
+            "vietnameseDefinition": "Hoãn lại hoặc trì hoãn đến một thời điểm muộn hơn.",
+            "vietnameseExample": "Sinh viên hoãn học đại học có thể thấy khó khăn hơn để tiếp tục học tập."
           },
           {
             "word": "momentum",
@@ -117,7 +123,9 @@
             "synonyms": [
               "impetus",
               "drive"
-            ]
+            ],
+            "vietnameseDefinition": "Động lực đạt được từ sự chuyển động hoặc tiến triển.",
+            "vietnameseExample": "Nghỉ một năm có thể khiến sinh viên mất đà học tập."
           },
           {
             "word": "exposure",
@@ -128,7 +136,9 @@
             "synonyms": [
               "experience",
               "contact"
-            ]
+            ],
+            "vietnameseDefinition": "Trải nghiệm tiếp xúc với điều gì đó.",
+            "vietnameseExample": "Năm nghỉ ngơi cung cấp cơ hội tiếp xúc quý giá với các nền văn hóa và môi trường làm việc khác nhau."
           },
           {
             "word": "clarify",
@@ -139,7 +149,9 @@
             "synonyms": [
               "clear up",
               "explain"
-            ]
+            ],
+            "vietnameseDefinition": "Làm rõ hoặc làm cho điều gì đó dễ hiểu hơn.",
+            "vietnameseExample": "Năm nghỉ ngơi giúp sinh viên làm rõ mục tiêu học tập và nghề nghiệp."
           },
           {
             "word": "finances",
@@ -150,7 +162,9 @@
             "synonyms": [
               "funds",
               "resources"
-            ]
+            ],
+            "vietnameseDefinition": "Nguồn tài chính và quản lý tiền bạc.",
+            "vietnameseExample": "Làm việc trong năm nghỉ ngơi có thể cải thiện tài chính của sinh viên trước khi vào đại học."
           },
           {
             "word": "transition",
@@ -161,39 +175,53 @@
             "synonyms": [
               "change",
               "shift"
-            ]
+            ],
+            "vietnameseDefinition": "Quá trình chuyển đổi từ trạng thái này sang trạng thái khác.",
+            "vietnameseExample": "Năm nghỉ ngơi có thể làm cho quá trình chuyển đổi từ trường học sang đại học trở nên suôn sẻ hơn."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "work experience",
             "definition": "Practical knowledge gained from employment.",
-            "example": "Students gain valuable work experience during their gap year."
+            "example": "Students gain valuable work experience during their gap year.",
+            "vietnameseDefinition": "Kinh nghiệm thực tế đạt được từ việc làm.",
+            "vietnameseExample": "Sinh viên có được kinh nghiệm làm việc quý giá trong năm nghỉ ngơi của họ."
           },
           {
             "phrase": "personal development",
             "definition": "Growth in skills, character, and understanding.",
-            "example": "Travel and volunteering contribute to personal development."
+            "example": "Travel and volunteering contribute to personal development.",
+            "vietnameseDefinition": "Sự phát triển về kỹ năng, tính cách và hiểu biết.",
+            "vietnameseExample": "Du lịch và tình nguyện góp phần vào sự phát triển cá nhân."
           },
           {
             "phrase": "career goals",
             "definition": "Professional objectives and aspirations.",
-            "example": "Gap years help young people clarify their career goals."
+            "example": "Gap years help young people clarify their career goals.",
+            "vietnameseDefinition": "Mục tiêu và khát vọng nghề nghiệp.",
+            "vietnameseExample": "Năm nghỉ ngơi giúp giới trẻ làm rõ mục tiêu nghề nghiệp của họ."
           },
           {
             "phrase": "academic momentum",
             "definition": "The continuity and drive in educational progress.",
-            "example": "Some students struggle to regain academic momentum after a gap year."
+            "example": "Some students struggle to regain academic momentum after a gap year.",
+            "vietnameseDefinition": "Sự liên tục và động lực trong tiến trình học tập.",
+            "vietnameseExample": "Một số sinh viên gặp khó khăn trong việc lấy lại đà học tập sau năm nghỉ ngơi."
           },
           {
             "phrase": "life skills",
             "definition": "Practical abilities needed for everyday living.",
-            "example": "Independence during a gap year develops essential life skills."
+            "example": "Independence during a gap year develops essential life skills.",
+            "vietnameseDefinition": "Kỹ năng thực tế cần thiết cho cuộc sống hàng ngày.",
+            "vietnameseExample": "Sự độc lập trong năm nghỉ ngơi phát triển các kỹ năng sống thiết yếu."
           },
           {
             "phrase": "financial burden",
             "definition": "The strain of expenses and costs.",
-            "example": "Gap year travel can create a financial burden for families."
+            "example": "Gap year travel can create a financial burden for families.",
+            "vietnameseDefinition": "Gánh nặng của các chi phí và khoản tiêu tốn.",
+            "vietnameseExample": "Du lịch trong năm nghỉ ngơi có thể tạo ra gánh nặng tài chính cho các gia đình."
           }
         ],
         "linkingPhrases": {
@@ -232,210 +260,1052 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "A gap year",
-              "verb": "provide",
-              "keywords": [
-                "valuable experience",
-                "maturity"
-              ]
-            },
-            "hint": "Mention how it develops maturity through experience.",
-            "modelAnswer": "A gap year provides valuable real-world experience that enhances personal maturity.",
-            "minWords": 10
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "description": "Practice writing balanced thesis statements for advantages/disadvantages essays",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While gap years offer _____, they also present _____.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["valuable opportunities for personal growth", "guaranteed academic success", "unlimited entertainment"],
+                    "correctAnswer": "valuable opportunities for personal growth"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["significant challenges regarding academic continuity", "no real problems", "only positive outcomes"],
+                    "correctAnswer": "significant challenges regarding academic continuity"
+                  }
+                ],
+                "correctSentence": "While gap years offer valuable opportunities for personal growth, they also present significant challenges regarding academic continuity.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "Taking a year off provides _____ but can also lead to _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["crucial work experience and maturity", "automatic university admission", "guaranteed employment"],
+                    "correctAnswer": "crucial work experience and maturity"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["loss of academic momentum", "immediate success", "academic improvement"],
+                    "correctAnswer": "loss of academic momentum"
+                  }
+                ],
+                "correctSentence": "Taking a year off provides crucial work experience and maturity but can also lead to loss of academic momentum.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This essay will examine both _____ and _____ of taking a gap year.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["the benefits", "the entertainment value", "the social media appeal"],
+                    "correctAnswer": "the benefits"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["the drawbacks", "the advantages only", "the popularity"],
+                    "correctAnswer": "the drawbacks"
+                  }
+                ],
+                "correctSentence": "This essay will examine both the benefits and the drawbacks of taking a gap year.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "Although gap years can _____, students must also consider _____.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["enhance personal development significantly", "guarantee future success", "eliminate all problems"],
+                    "correctAnswer": "enhance personal development significantly"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["potential difficulties in returning to studies", "only the positive aspects", "social media reactions"],
+                    "correctAnswer": "potential difficulties in returning to studies"
+                  }
+                ],
+                "correctSentence": "Although gap years can enhance personal development significantly, students must also consider potential difficulties in returning to studies.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "The gap year trend has both _____ in terms of _____ and _____ regarding _____.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["advantages", "disadvantages", "irrelevance"],
+                    "correctAnswer": "advantages"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": ["personal growth and work experience", "social media popularity", "entertainment value"],
+                    "correctAnswer": "personal growth and work experience"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": ["disadvantages", "benefits", "positive aspects"],
+                    "correctAnswer": "disadvantages"
+                  },
+                  {
+                    "id": "thesis5_b4",
+                    "options": ["academic continuity and financial costs", "guaranteed success", "celebrity endorsements"],
+                    "correctAnswer": "academic continuity and financial costs"
+                  }
+                ],
+                "correctSentence": "The gap year trend has both advantages in terms of personal growth and work experience and disadvantages regarding academic continuity and financial costs.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "Gap years present a complex decision with _____ balanced against _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["substantial benefits for maturity and clarity", "guaranteed university acceptance", "no real advantages"],
+                    "correctAnswer": "substantial benefits for maturity and clarity"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["real risks to academic performance", "only positive outcomes", "social media fame"],
+                    "correctAnswer": "real risks to academic performance"
+                  }
+                ],
+                "correctSentence": "Gap years present a complex decision with substantial benefits for maturity and clarity balanced against real risks to academic performance.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "While _____ make gap years attractive, _____ cannot be ignored.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["opportunities for travel and self-discovery", "social media trends", "peer pressure"],
+                    "correctAnswer": "opportunities for travel and self-discovery"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["concerns about delayed graduation and lost momentum", "celebrity opinions", "entertainment factors"],
+                    "correctAnswer": "concerns about delayed graduation and lost momentum"
+                  }
+                ],
+                "correctSentence": "While opportunities for travel and self-discovery make gap years attractive, concerns about delayed graduation and lost momentum cannot be ignored.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "This practice offers _____ for young people but also involves _____ that require consideration.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["valuable real-world learning experiences", "guaranteed career success", "social media popularity"],
+                    "correctAnswer": "valuable real-world learning experiences"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["financial and academic challenges", "only positive outcomes", "celebrity endorsements"],
+                    "correctAnswer": "financial and academic challenges"
+                  }
+                ],
+                "correctSentence": "This practice offers valuable real-world learning experiences for young people but also involves financial and academic challenges that require consideration.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Students",
-              "verb": "earn",
-              "keywords": [
-                "money",
-                "working",
-                "university costs"
-              ]
-            },
-            "hint": "Focus on financial benefits of working during gap year.",
-            "modelAnswer": "Students can earn money by working during their gap year to cover university costs.",
-            "minWords": 12
+            "category": "topic-sentences",
+            "title": "Topic Sentences for Body Paragraphs",
+            "description": "Practice writing clear topic sentences that introduce advantages or disadvantages",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "One significant advantage is _____ gained through _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["the personal maturity and independence", "guaranteed university success", "social media popularity"],
+                    "correctAnswer": "the personal maturity and independence"
+                  },
+                  {
+                    "id": "topic1_b2",
+                    "options": ["real-world experiences outside the classroom", "online gaming", "celebrity culture"],
+                    "correctAnswer": "real-world experiences outside the classroom"
+                  }
+                ],
+                "correctSentence": "One significant advantage is the personal maturity and independence gained through real-world experiences outside the classroom.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "However, a notable drawback is _____ after _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["the potential loss of academic momentum", "guaranteed improvement", "social media success"],
+                    "correctAnswer": "the potential loss of academic momentum"
+                  },
+                  {
+                    "id": "topic2_b2",
+                    "options": ["a year away from formal education", "increased studying", "entertainment activities"],
+                    "correctAnswer": "a year away from formal education"
+                  }
+                ],
+                "correctSentence": "However, a notable drawback is the potential loss of academic momentum after a year away from formal education.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "A key benefit of gap years is _____ which helps students _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["the opportunity to gain work experience", "guaranteed wealth", "social media fame"],
+                    "correctAnswer": "the opportunity to gain work experience"
+                  },
+                  {
+                    "id": "topic3_b2",
+                    "options": ["clarify career goals and develop practical skills", "avoid all responsibilities", "become celebrities"],
+                    "correctAnswer": "clarify career goals and develop practical skills"
+                  }
+                ],
+                "correctSentence": "A key benefit of gap years is the opportunity to gain work experience which helps students clarify career goals and develop practical skills.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "On the negative side, students may _____ when they _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["struggle to readjust to academic demands", "achieve instant success", "become millionaires"],
+                    "correctAnswer": "struggle to readjust to academic demands"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": ["attempt to return to university studies", "start their gap year", "ignore all advice"],
+                    "correctAnswer": "attempt to return to university studies"
+                  }
+                ],
+                "correctSentence": "On the negative side, students may struggle to readjust to academic demands when they attempt to return to university studies.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Gap years provide valuable _____ that _____ rarely offers.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["exposure to different cultures and workplaces", "guaranteed academic degrees", "social media followers"],
+                    "correctAnswer": "exposure to different cultures and workplaces"
+                  },
+                  {
+                    "id": "topic5_b2",
+                    "options": ["formal classroom education", "entertainment", "celebrity culture"],
+                    "correctAnswer": "formal classroom education"
+                  }
+                ],
+                "correctSentence": "Gap years provide valuable exposure to different cultures and workplaces that formal classroom education rarely offers.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "A potential disadvantage involves _____ which can create _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["the financial costs of travel and living expenses", "guaranteed savings", "free entertainment"],
+                    "correctAnswer": "the financial costs of travel and living expenses"
+                  },
+                  {
+                    "id": "topic6_b2",
+                    "options": ["debt that affects university finances", "unlimited wealth", "social media success"],
+                    "correctAnswer": "debt that affects university finances"
+                  }
+                ],
+                "correctSentence": "A potential disadvantage involves the financial costs of travel and living expenses which can create debt that affects university finances.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "On the positive side, _____ often _____ during their gap year.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["young people", "celebrities", "politicians"],
+                    "correctAnswer": "young people"
+                  },
+                  {
+                    "id": "topic7_b2",
+                    "options": ["develop essential life skills and independence", "waste all their time", "become social media stars"],
+                    "correctAnswer": "develop essential life skills and independence"
+                  }
+                ],
+                "correctSentence": "On the positive side, young people often develop essential life skills and independence during their gap year.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Conversely, the break from studying can result in _____ which affects _____.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["deteriorated study habits and discipline", "improved academic performance", "guaranteed success"],
+                    "correctAnswer": "deteriorated study habits and discipline"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": ["first-year university grades", "social media popularity", "entertainment value"],
+                    "correctAnswer": "first-year university grades"
+                  }
+                ],
+                "correctSentence": "Conversely, the break from studying can result in deteriorated study habits and discipline which affects first-year university grades.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Taking time off",
-              "verb": "cause",
-              "keywords": [
-                "lose",
-                "academic momentum"
-              ]
-            },
-            "hint": "Discuss the negative effect on academic continuity.",
-            "modelAnswer": "Taking time off can cause students to lose valuable academic momentum and study habits.",
-            "minWords": 12
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments (WHY/Reasoning)",
+            "description": "Practice explaining WHY gap years have advantages or disadvantages",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ develop _____ that formal education rarely provides.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["students working or traveling", "people watching television", "celebrities posting online"],
+                    "correctAnswer": "students working or traveling"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": ["independence and practical life skills", "social media followers", "entertainment preferences"],
+                    "correctAnswer": "independence and practical life skills"
+                  }
+                ],
+                "correctSentence": "This is because students working or traveling develop independence and practical life skills that formal education rarely provides.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The reason is that after _____, students may find it difficult to _____.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["twelve months without structured learning", "a short vacation", "one day off"],
+                    "correctAnswer": "twelve months without structured learning"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": ["readjust to academic demands and examinations", "have fun", "use social media"],
+                    "correctAnswer": "readjust to academic demands and examinations"
+                  }
+                ],
+                "correctSentence": "The reason is that after twelve months without structured learning, students may find it difficult to readjust to academic demands and examinations.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Gap years matter because _____ helps young people _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["real-world exposure", "social media fame", "entertainment"],
+                    "correctAnswer": "real-world exposure"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": ["clarify their career and academic interests", "avoid responsibilities", "become celebrities"],
+                    "correctAnswer": "clarify their career and academic interests"
+                  }
+                ],
+                "correctSentence": "Gap years matter because real-world exposure helps young people clarify their career and academic interests.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "This creates problems because _____ affects _____ during the first semester.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["loss of study momentum", "increased motivation", "guaranteed success"],
+                    "correctAnswer": "loss of study momentum"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": ["time management and academic performance", "social media popularity", "entertainment choices"],
+                    "correctAnswer": "time management and academic performance"
+                  }
+                ],
+                "correctSentence": "This creates problems because loss of study momentum affects time management and academic performance during the first semester.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Work experience is valuable because _____ provides _____ before university.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["it", "they", "we"],
+                    "correctAnswer": "it"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": ["insights into workplace dynamics and professional responsibilities", "social media followers", "entertainment value"],
+                    "correctAnswer": "insights into workplace dynamics and professional responsibilities"
+                  }
+                ],
+                "correctSentence": "Work experience is valuable because it provides insights into workplace dynamics and professional responsibilities before university.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Financial pressures arise because _____ can _____ that compounds university expenses.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["gap year travel and living costs", "careful savings", "part-time work"],
+                    "correctAnswer": "gap year travel and living costs"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": ["create significant debt", "eliminate all expenses", "guarantee wealth"],
+                    "correctAnswer": "create significant debt"
+                  }
+                ],
+                "correctSentence": "Financial pressures arise because gap year travel and living costs can create significant debt that compounds university expenses.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Personal growth occurs because _____ forces students to _____ in unfamiliar situations.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["living independently", "staying at home", "avoiding challenges"],
+                    "correctAnswer": "living independently"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": ["develop resilience and problem-solving skills", "rely on parents completely", "avoid responsibility"],
+                    "correctAnswer": "develop resilience and problem-solving skills"
+                  }
+                ],
+                "correctSentence": "Personal growth occurs because living independently forces students to develop resilience and problem-solving skills in unfamiliar situations.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Academic challenges emerge because _____ diminishes _____ necessary for university success.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["extended time away from studying", "constant practice", "daily homework"],
+                    "correctAnswer": "extended time away from studying"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": ["the mental sharpness and study discipline", "social media skills", "entertainment knowledge"],
+                    "correctAnswer": "the mental sharpness and study discipline"
+                  }
+                ],
+                "correctSentence": "Academic challenges emerge because extended time away from studying diminishes the mental sharpness and study discipline necessary for university success.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Travel experiences",
-              "verb": "broaden",
-              "keywords": [
-                "perspective",
-                "cultural understanding"
-              ]
-            },
-            "hint": "Focus on how travel changes worldview.",
-            "modelAnswer": "Travel experiences during gap years broaden students' perspectives and cultural understanding significantly.",
-            "minWords": 10
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "description": "Practice providing specific examples related to gap year experiences",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, many gap year students _____ in sectors like _____, gaining valuable _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["work in various industries", "avoid all responsibilities", "only use social media"],
+                    "correctAnswer": "work in various industries"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": ["hospitality, education, or conservation", "entertainment and gaming", "celebrity gossip"],
+                    "correctAnswer": "hospitality, education, or conservation"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": ["professional experience and skills", "social media followers", "entertainment credits"],
+                    "correctAnswer": "professional experience and skills"
+                  }
+                ],
+                "correctSentence": "For instance, many gap year students work in various industries in sectors like hospitality, education, or conservation, gaining valuable professional experience and skills.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, research indicates that _____ experience _____ during their first semester at university.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["some gap year students", "all successful students", "celebrities"],
+                    "correctAnswer": "some gap year students"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": ["difficulties with time management and study discipline", "immediate academic success", "social media popularity"],
+                    "correctAnswer": "difficulties with time management and study discipline"
+                  }
+                ],
+                "correctSentence": "For example, research indicates that some gap year students experience difficulties with time management and study discipline during their first semester at university.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, students who _____ often return to university with _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["volunteer in developing countries", "stay home playing games", "only use social media"],
+                    "correctAnswer": "volunteer in developing countries"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": ["broader perspectives", "narrow viewpoints", "no change"],
+                    "correctAnswer": "broader perspectives"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": ["enhanced cultural awareness", "decreased understanding", "entertainment skills"],
+                    "correctAnswer": "enhanced cultural awareness"
+                  }
+                ],
+                "correctSentence": "Specifically, students who volunteer in developing countries often return to university with broader perspectives and enhanced cultural awareness.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "To illustrate, a student working as _____ can earn _____ which helps _____.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["a barista or retail assistant", "a celebrity", "a professional gamer"],
+                    "correctAnswer": "a barista or retail assistant"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": ["several thousand pounds", "millions instantly", "nothing useful"],
+                    "correctAnswer": "several thousand pounds"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": ["offset university tuition costs", "buy luxury items only", "fund entertainment"],
+                    "correctAnswer": "offset university tuition costs"
+                  }
+                ],
+                "correctSentence": "To illustrate, a student working as a barista or retail assistant can earn several thousand pounds which helps offset university tuition costs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Evidence shows that students who travel to _____ develop _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["Southeast Asia or South America", "only luxury resorts", "entertainment venues"],
+                    "correctAnswer": "Southeast Asia or South America"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": ["independence", "dependency", "laziness"],
+                    "correctAnswer": "independence"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": ["adaptability to new situations", "resistance to change", "entertainment skills"],
+                    "correctAnswer": "adaptability to new situations"
+                  }
+                ],
+                "correctSentence": "Evidence shows that students who travel to Southeast Asia or South America develop independence and adaptability to new situations.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "A clear example is students who _____, only to find that _____ have _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["postpone university for a year", "immediately start studying", "never take breaks"],
+                    "correctAnswer": "postpone university for a year"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": ["their former classmates", "celebrities", "random people"],
+                    "correctAnswer": "their former classmates"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": ["already completed their first year", "achieved nothing", "become famous"],
+                    "correctAnswer": "already completed their first year"
+                  }
+                ],
+                "correctSentence": "A clear example is students who postpone university for a year, only to find that their former classmates have already completed their first year.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Research from _____ demonstrates that gap year students often enter university with _____ compared to _____.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["UK universities", "entertainment companies", "social media platforms"],
+                    "correctAnswer": "UK universities"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": ["greater motivation and clearer goals", "less focus and direction", "social media skills"],
+                    "correctAnswer": "greater motivation and clearer goals"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": ["direct-entry students", "celebrities", "professional gamers"],
+                    "correctAnswer": "direct-entry students"
+                  }
+                ],
+                "correctSentence": "Research from UK universities demonstrates that gap year students often enter university with greater motivation and clearer goals compared to direct-entry students.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "For instance, programs like _____ show that _____ can _____ while gaining _____.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["Teach for America or VSO", "reality TV shows", "gaming tournaments"],
+                    "correctAnswer": "Teach for America or VSO"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": ["gap year students", "celebrities", "professional gamers"],
+                    "correctAnswer": "gap year students"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": ["contribute to communities", "become famous", "earn millions"],
+                    "correctAnswer": "contribute to communities"
+                  },
+                  {
+                    "id": "example8_b4",
+                    "options": ["valuable teaching experience", "social media followers", "entertainment credits"],
+                    "correctAnswer": "valuable teaching experience"
+                  }
+                ],
+                "correctSentence": "For instance, programs like Teach for America or VSO show that gap year students can contribute to communities while gaining valuable teaching experience.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Young people",
-              "verb": "clarify",
-              "keywords": [
-                "career goals",
-                "before university"
-              ]
-            },
-            "hint": "Mention how gap years help with career decisions.",
-            "modelAnswer": "Young people can clarify their career goals and academic interests before committing to university.",
-            "minWords": 12
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "gap years",
-              "have",
-              "become",
-              "increasingly",
-              "popular",
-              "among",
-              "students"
-            ],
-            "correctAnswer": "Gap years have become increasingly popular among students.",
-            "hint": "Start with 'Gap years'"
+            "category": "counter-arguments",
+            "title": "Counter-Arguments",
+            "description": "Practice acknowledging the other side to show balanced analysis",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "Admittedly, _____ can _____ during gap years.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["students", "celebrities", "politicians"],
+                    "correctAnswer": "students"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": ["gain valuable real-world experience", "waste all their time", "become social media stars"],
+                    "correctAnswer": "gain valuable real-world experience"
+                  }
+                ],
+                "correctSentence": "Admittedly, students can gain valuable real-world experience during gap years.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "However, this benefit must be weighed against _____ of _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["the risk", "the guarantee", "the certainty"],
+                    "correctAnswer": "the risk"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": ["losing academic momentum and study skills", "guaranteed success", "instant wealth"],
+                    "correctAnswer": "losing academic momentum and study skills"
+                  }
+                ],
+                "correctSentence": "However, this benefit must be weighed against the risk of losing academic momentum and study skills.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "While _____ may seem problematic, many students _____ successfully.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["taking a year off", "studying constantly", "avoiding breaks"],
+                    "correctAnswer": "taking a year off"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": ["readjust to academic life", "fail completely", "give up"],
+                    "correctAnswer": "readjust to academic life"
+                  }
+                ],
+                "correctSentence": "While taking a year off may seem problematic, many students readjust to academic life successfully.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Some argue that _____, but this overlooks _____ that _____ provide.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["gap years waste valuable time", "everyone should take gap years", "time doesn't matter"],
+                    "correctAnswer": "gap years waste valuable time"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": ["the personal development and maturity", "the entertainment value", "the social media content"],
+                    "correctAnswer": "the personal development and maturity"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": ["real-world experiences", "online games", "celebrity gossip"],
+                    "correctAnswer": "real-world experiences"
+                  }
+                ],
+                "correctSentence": "Some argue that gap years waste valuable time, but this overlooks the personal development and maturity that real-world experiences provide.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Although _____ is a concern, _____ can _____ by _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["lost academic momentum", "guaranteed success", "instant fame"],
+                    "correctAnswer": "lost academic momentum"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": ["students", "celebrities", "politicians"],
+                    "correctAnswer": "students"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": ["mitigate this", "ignore it", "celebrate it"],
+                    "correctAnswer": "mitigate this"
+                  },
+                  {
+                    "id": "counter5_b4",
+                    "options": ["maintaining reading and learning habits", "avoiding all study", "only using social media"],
+                    "correctAnswer": "maintaining reading and learning habits"
+                  }
+                ],
+                "correctSentence": "Although lost academic momentum is a concern, students can mitigate this by maintaining reading and learning habits.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Critics claim that _____, yet many students _____ that _____.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["gap years delay graduation unnecessarily", "everyone should take gap years", "timing doesn't matter"],
+                    "correctAnswer": "gap years delay graduation unnecessarily"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": ["report", "ignore", "deny"],
+                    "correctAnswer": "report"
+                  },
+                  {
+                    "id": "counter6_b3",
+                    "options": ["the maturity gained was worth the delay", "nothing changed", "they wasted time"],
+                    "correctAnswer": "the maturity gained was worth the delay"
+                  }
+                ],
+                "correctSentence": "Critics claim that gap years delay graduation unnecessarily, yet many students report that the maturity gained was worth the delay.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "It is true that _____, but _____ often _____ this challenge.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["financial costs can be substantial", "money is unlimited", "nothing costs anything"],
+                    "correctAnswer": "financial costs can be substantial"
+                  },
+                  {
+                    "id": "counter7_b2",
+                    "options": ["working during the gap year", "avoiding work completely", "social media fame"],
+                    "correctAnswer": "working during the gap year"
+                  },
+                  {
+                    "id": "counter7_b3",
+                    "options": ["offsets", "increases", "ignores"],
+                    "correctAnswer": "offsets"
+                  }
+                ],
+                "correctSentence": "It is true that financial costs can be substantial, but working during the gap year often offsets this challenge.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "Despite _____, _____ demonstrate that _____ when _____.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["concerns about academic regression", "guaranteed improvement", "no risks"],
+                    "correctAnswer": "concerns about academic regression"
+                  },
+                  {
+                    "id": "counter8_b2",
+                    "options": ["studies", "celebrities", "games"],
+                    "correctAnswer": "studies"
+                  },
+                  {
+                    "id": "counter8_b3",
+                    "options": ["students perform well", "everyone fails", "nothing matters"],
+                    "correctAnswer": "students perform well"
+                  },
+                  {
+                    "id": "counter8_b4",
+                    "options": ["they return with clear motivation", "they avoid studying", "they use social media"],
+                    "correctAnswer": "they return with clear motivation"
+                  }
+                ],
+                "correctSentence": "Despite concerns about academic regression, studies demonstrate that students perform well when they return with clear motivation.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "students",
-              "gain",
-              "valuable",
-              "work",
-              "experience",
-              "during",
-              "this",
-              "time"
-            ],
-            "correctAnswer": "Students gain valuable work experience during this time.",
-            "hint": "Subject is 'Students'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "traveling",
-              "abroad",
-              "broadens",
-              "cultural",
-              "awareness",
-              "and",
-              "understanding"
-            ],
-            "correctAnswer": "Traveling abroad broadens cultural awareness and understanding.",
-            "hint": "'broadens' is the main verb"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "some",
-              "students",
-              "struggle",
-              "to",
-              "return to",
-              "academic",
-              "studies"
-            ],
-            "correctAnswer": "Some students struggle to return to academic studies.",
-            "hint": "Start with 'Some students'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "a",
-              "gap year",
-              "helps",
-              "young people",
-              "develop",
-              "independence",
-              "and",
-              "maturity"
-            ],
-            "correctAnswer": "A gap year helps young people develop independence and maturity.",
-            "hint": "'helps' is the main verb"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Gap years provide valuable _____ to different cultures and workplaces.",
-            "options": [
-              "exposure",
-              "expose",
-              "exposing"
-            ],
-            "correctAnswer": "exposure",
-            "explanation": "Use noun 'exposure' after adjective 'valuable'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, students may lose academic momentum during the break.",
-            "options": [
-              "However",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to introduce a disadvantage after advantages."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Traveling abroad _____ students' cultural understanding.",
-            "options": [
-              "broaden",
-              "broadens",
-              "broadening"
-            ],
-            "correctAnswer": "broadens",
-            "explanation": "Gerund subject 'Traveling' is singular, needs 's' on verb."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ example, students can volunteer in developing countries.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For example' is the correct phrase."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Working during a gap year helps students _____ their finances.",
-            "options": [
-              "improve",
-              "improving",
-              "improvement"
-            ],
-            "correctAnswer": "improve",
-            "explanation": "Use base form 'improve' after 'help' + object."
+            "category": "conclusions",
+            "title": "Conclusion Statements",
+            "description": "Practice writing balanced conclusions for advantages/disadvantages essays",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while gap years offer _____, they also present _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["substantial benefits in personal growth", "guaranteed success", "only problems"],
+                    "correctAnswer": "substantial benefits in personal growth"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["real challenges regarding academic continuity", "no disadvantages", "only positive outcomes"],
+                    "correctAnswer": "real challenges regarding academic continuity"
+                  }
+                ],
+                "correctSentence": "In conclusion, while gap years offer substantial benefits in personal growth, they also present real challenges regarding academic continuity.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, the decision should depend on _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["individual maturity levels", "social media popularity", "peer pressure"],
+                    "correctAnswer": "individual maturity levels"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["clear plans for the year", "random chance", "celebrity advice"],
+                    "correctAnswer": "clear plans for the year"
+                  }
+                ],
+                "correctSentence": "Overall, the decision should depend on individual maturity levels and clear plans for the year.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, gap years provide _____ but require _____ to maximize benefits.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["valuable opportunities for development", "guaranteed university admission", "social media fame"],
+                    "correctAnswer": "valuable opportunities for development"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["careful planning and clear objectives", "no effort", "celebrity connections"],
+                    "correctAnswer": "careful planning and clear objectives"
+                  }
+                ],
+                "correctSentence": "To summarize, gap years provide valuable opportunities for development but require careful planning and clear objectives to maximize benefits.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, _____ and _____ must both be considered when making this decision.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["the advantages of personal growth", "social media trends", "celebrity opinions"],
+                    "correctAnswer": "the advantages of personal growth"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": ["the disadvantages of academic disruption", "guaranteed success", "entertainment value"],
+                    "correctAnswer": "the disadvantages of academic disruption"
+                  }
+                ],
+                "correctSentence": "On balance, the advantages of personal growth and the disadvantages of academic disruption must both be considered when making this decision.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "In summary, while _____, the ultimate success depends on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["gap years have both benefits and drawbacks", "only advantages exist", "nothing matters"],
+                    "correctAnswer": "gap years have both benefits and drawbacks"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["how students use the time", "social media likes", "random chance"],
+                    "correctAnswer": "how students use the time"
+                  }
+                ],
+                "correctSentence": "In summary, while gap years have both benefits and drawbacks, the ultimate success depends on how students use the time.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "Taking both sides into account, _____ can be _____ when _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["gap years", "social media", "entertainment"],
+                    "correctAnswer": "gap years"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": ["highly beneficial", "completely useless", "only problematic"],
+                    "correctAnswer": "highly beneficial"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": ["undertaken with clear purpose and planning", "done randomly", "avoided completely"],
+                    "correctAnswer": "undertaken with clear purpose and planning"
+                  }
+                ],
+                "correctSentence": "Taking both sides into account, gap years can be highly beneficial when undertaken with clear purpose and planning.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Therefore, prospective gap year students should carefully weigh _____ against _____ before deciding.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["the potential for personal growth and clarity", "social media popularity", "entertainment options"],
+                    "correctAnswer": "the potential for personal growth and clarity"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": ["the risks of academic disruption and costs", "guaranteed benefits", "celebrity advice"],
+                    "correctAnswer": "the risks of academic disruption and costs"
+                  }
+                ],
+                "correctSentence": "Therefore, prospective gap year students should carefully weigh the potential for personal growth and clarity against the risks of academic disruption and costs before deciding.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "Ultimately, gap years offer _____ for some students while presenting _____ for others.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["transformative experiences and valuable development", "guaranteed university success", "social media opportunities"],
+                    "correctAnswer": "transformative experiences and valuable development"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["significant challenges and setbacks", "only advantages", "entertainment value"],
+                    "correctAnswer": "significant challenges and setbacks"
+                  }
+                ],
+                "correctSentence": "Ultimately, gap years offer transformative experiences and valuable development for some students while presenting significant challenges and setbacks for others.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

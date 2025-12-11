@@ -1,0 +1,502 @@
+[
+  {
+    "id": "paternity-leave_topic_4",
+    "fileId": "paternity-leave",
+    "type": "topic",
+    "phrase": "economic impact",
+    "englishDefinition": "The effect on financial systems and business operations.",
+    "englishExample": "Employers must consider the economic impact of implementing paternity leave policies.",
+    "vietnameseDefinition": "Tác động lên hệ thống tài chính và hoạt động kinh doanh.",
+    "vietnameseExample": "Nhà tuyển dụng phải xem xét tác động kinh tế của việc thực hiện các chính sách nghỉ chăm con dành cho cha."
+  },
+  {
+    "id": "paternity-leave_topic_5",
+    "fileId": "paternity-leave",
+    "type": "topic",
+    "phrase": "employee retention",
+    "englishDefinition": "The ability to keep workers in their positions.",
+    "englishExample": "Offering paternity leave improves employee retention and company loyalty.",
+    "vietnameseDefinition": "Khả năng giữ chân người lao động ở vị trí của họ.",
+    "vietnameseExample": "Cung cấp nghỉ chăm con dành cho cha cải thiện khả năng giữ chân nhân viên và lòng trung thành với công ty."
+  },
+  {
+    "id": "peer-pressure_academic_0",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "conformity",
+    "englishDefinition": "Behavior in accordance with socially accepted standards.",
+    "englishExample": "Peer pressure often leads to conformity among teenagers.",
+    "vietnameseDefinition": "Hành vi phù hợp với các tiêu chuẩn được xã hội chấp nhận.",
+    "vietnameseExample": "Áp lực đồng trang lứa thường dẫn đến sự tuân thủ trong giới thanh thiếu niên."
+  },
+  {
+    "id": "peer-pressure_academic_1",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "susceptible",
+    "englishDefinition": "Likely to be influenced or harmed by something.",
+    "englishExample": "Adolescents are particularly susceptible to peer influence.",
+    "vietnameseDefinition": "Có khả năng bị ảnh hưởng hoặc gây hại bởi điều gì đó.",
+    "vietnameseExample": "Thanh thiếu niên đặc biệt dễ bị ảnh hưởng bởi bạn bè đồng trang lứa."
+  },
+  {
+    "id": "peer-pressure_academic_2",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "detrimental",
+    "englishDefinition": "Causing harm or damage.",
+    "englishExample": "Negative peer pressure can be detrimental to academic performance.",
+    "vietnameseDefinition": "Gây hại hoặc thiệt hại.",
+    "vietnameseExample": "Áp lực tiêu cực từ bạn bè có thể gây hại cho kết quả học tập."
+  },
+  {
+    "id": "peer-pressure_academic_3",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "motivation",
+    "englishDefinition": "The reason or drive behind actions.",
+    "englishExample": "Positive peer influence can provide motivation for self-improvement.",
+    "vietnameseDefinition": "Lý do hoặc động lực đằng sau các hành động.",
+    "vietnameseExample": "Ảnh hưởng tích cực từ bạn bè có thể cung cấp động lực để tự hoàn thiện bản thân."
+  },
+  {
+    "id": "peer-pressure_academic_4",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "autonomy",
+    "englishDefinition": "Independence in thought and action.",
+    "englishExample": "Excessive peer pressure undermines individual autonomy.",
+    "vietnameseDefinition": "Sự độc lập trong suy nghĩ và hành động.",
+    "vietnameseExample": "Áp lực đồng trang lứa quá mức làm suy yếu quyền tự chủ cá nhân."
+  },
+  {
+    "id": "peer-pressure_academic_5",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "undermine",
+    "englishDefinition": "To weaken or damage something gradually.",
+    "englishExample": "Peer pressure can undermine a young person's self-confidence.",
+    "vietnameseDefinition": "Làm suy yếu hoặc làm tổn hại điều gì đó một cách dần dần.",
+    "vietnameseExample": "Áp lực đồng trang lứa có thể làm suy yếu sự tự tin của một người trẻ tuổi."
+  },
+  {
+    "id": "peer-pressure_academic_6",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "foster",
+    "englishDefinition": "To encourage the development of something.",
+    "englishExample": "Peer groups can foster positive habits and social skills.",
+    "vietnameseDefinition": "Khuyến khích sự phát triển của điều gì đó.",
+    "vietnameseExample": "Các nhóm bạn bè có thể nuôi dưỡng thói quen tích cực và kỹ năng xã hội."
+  },
+  {
+    "id": "peer-pressure_academic_7",
+    "fileId": "peer-pressure",
+    "type": "academic",
+    "word": "substantial",
+    "englishDefinition": "Of considerable importance or size.",
+    "englishExample": "Peer pressure has a substantial impact on teenage decision-making.",
+    "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+    "vietnameseExample": "Áp lực đồng trang lứa có tác động đáng kể đến việc ra quyết định của thanh thiếu niên."
+  },
+  {
+    "id": "peer-pressure_topic_0",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "social acceptance",
+    "englishDefinition": "Being approved and welcomed by a social group.",
+    "englishExample": "Teenagers often conform to gain social acceptance from their peers.",
+    "vietnameseDefinition": "Được chấp nhận và chào đón bởi một nhóm xã hội.",
+    "vietnameseExample": "Thanh thiếu niên thường tuân thủ để được chấp nhận xã hội từ bạn bè đồng trang lứa."
+  },
+  {
+    "id": "peer-pressure_topic_1",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "risky behavior",
+    "englishDefinition": "Actions that could lead to negative consequences.",
+    "englishExample": "Peer pressure frequently leads young people to engage in risky behavior.",
+    "vietnameseDefinition": "Các hành động có thể dẫn đến hậu quả tiêu cực.",
+    "vietnameseExample": "Áp lực đồng trang lứa thường xuyên dẫn người trẻ tham gia vào hành vi nguy hiểm."
+  },
+  {
+    "id": "peer-pressure_topic_2",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "self-esteem",
+    "englishDefinition": "Confidence in one's own worth and abilities.",
+    "englishExample": "Negative peer influence can damage self-esteem during formative years.",
+    "vietnameseDefinition": "Sự tự tin vào giá trị và khả năng của chính mình.",
+    "vietnameseExample": "Ảnh hưởng tiêu cực từ bạn bè có thể làm tổn hại lòng tự trọng trong những năm hình thành."
+  },
+  {
+    "id": "peer-pressure_topic_3",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "role model",
+    "englishDefinition": "A person whose behavior is imitated by others.",
+    "englishExample": "Peers can serve as positive role models for academic achievement.",
+    "vietnameseDefinition": "Một người có hành vi được người khác bắt chước.",
+    "vietnameseExample": "Bạn bè có thể đóng vai trò là hình mẫu tích cực cho thành tích học tập."
+  },
+  {
+    "id": "peer-pressure_topic_4",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "formative years",
+    "englishDefinition": "The period during which character and abilities develop.",
+    "englishExample": "Peer influence is particularly strong during formative years of adolescence.",
+    "vietnameseDefinition": "Giai đoạn mà tính cách và khả năng phát triển.",
+    "vietnameseExample": "Ảnh hưởng từ bạn bè đặc biệt mạnh mẽ trong những năm hình thành của tuổi vị thành niên."
+  },
+  {
+    "id": "peer-pressure_topic_5",
+    "fileId": "peer-pressure",
+    "type": "topic",
+    "phrase": "individual judgment",
+    "englishDefinition": "Personal decision-making ability.",
+    "englishExample": "Strong peer pressure can override individual judgment in critical situations.",
+    "vietnameseDefinition": "Khả năng ra quyết định cá nhân.",
+    "vietnameseExample": "Áp lực đồng trang lứa mạnh mẽ có thể gạt bỏ phán đoán cá nhân trong các tình huống quan trọng."
+  },
+  {
+    "id": "prison-alternatives_academic_0",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "deterrent",
+    "englishDefinition": "Something that discourages an action or behavior.",
+    "englishExample": "Prison sentences serve as a deterrent to potential criminals.",
+    "vietnameseDefinition": "Điều gì đó ngăn cản một hành động hoặc hành vi.",
+    "vietnameseExample": "Bản án tù giam đóng vai trò như một biện pháp răn đe đối với tội phạm tiềm ẩn."
+  },
+  {
+    "id": "prison-alternatives_academic_1",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "rehabilitation",
+    "englishDefinition": "The process of helping someone return to normal life after punishment or illness.",
+    "englishExample": "Community service focuses on rehabilitation rather than punishment.",
+    "vietnameseDefinition": "Quá trình giúp một người trở lại cuộc sống bình thường sau hình phạt hoặc bệnh tật.",
+    "vietnameseExample": "Dịch vụ cộng đồng tập trung vào cải tạo hơn là trừng phạt."
+  },
+  {
+    "id": "prison-alternatives_academic_2",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "proportionate",
+    "englishDefinition": "Corresponding in size, degree, or intensity to something else.",
+    "englishExample": "The punishment should be proportionate to the severity of the crime.",
+    "vietnameseDefinition": "Tương ứng về quy mô, mức độ hoặc cường độ với một cái gì đó khác.",
+    "vietnameseExample": "Hình phạt nên tương xứng với mức độ nghiêm trọng của tội phạm."
+  },
+  {
+    "id": "prison-alternatives_academic_3",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "incarceration",
+    "englishDefinition": "The state of being confined in prison.",
+    "englishExample": "Long-term incarceration can have negative psychological effects.",
+    "vietnameseDefinition": "Trạng thái bị giam giữ trong tù.",
+    "vietnameseExample": "Giam giữ lâu dài có thể có tác động tâm lý tiêu cực."
+  },
+  {
+    "id": "prison-alternatives_academic_4",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "recidivism",
+    "englishDefinition": "The tendency of criminals to reoffend after punishment.",
+    "englishExample": "Community-based programs may reduce recidivism rates more effectively.",
+    "vietnameseDefinition": "Xu hướng của tội phạm tái phạm sau hình phạt.",
+    "vietnameseExample": "Các chương trình dựa vào cộng đồng có thể giảm tỷ lệ tái phạm hiệu quả hơn."
+  },
+  {
+    "id": "prison-alternatives_academic_5",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "facilitate",
+    "englishDefinition": "To make an action or process easier.",
+    "englishExample": "Alternative sentences support the offender's reintegration into society.",
+    "vietnameseDefinition": "Làm cho một hành động hoặc quá trình dễ dàng hơn.",
+    "vietnameseExample": "Các bản án thay thế hỗ trợ việc tái hòa nhập vào xã hội của người phạm tội."
+  },
+  {
+    "id": "prison-alternatives_academic_6",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "severity",
+    "englishDefinition": "The seriousness or harshness of something.",
+    "englishExample": "The severity of the punishment should match the crime committed.",
+    "vietnameseDefinition": "Mức độ nghiêm trọng hoặc khắc nghiệt của điều gì đó.",
+    "vietnameseExample": "Mức độ nghiêm trọng của hình phạt nên phù hợp với tội phạm đã thực hiện."
+  },
+  {
+    "id": "prison-alternatives_academic_7",
+    "fileId": "prison-alternatives",
+    "type": "academic",
+    "word": "substantial",
+    "englishDefinition": "Of considerable importance or size.",
+    "englishExample": "Prison overcrowding creates substantial financial and social problems.",
+    "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+    "vietnameseExample": "Tình trạng quá tải nhà tù tạo ra các vấn đề tài chính và xã hội đáng kể."
+  },
+  {
+    "id": "prison-alternatives_topic_0",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "community service",
+    "englishDefinition": "Unpaid work performed for the benefit of the public as punishment.",
+    "englishExample": "Community service allows offenders to give back to society.",
+    "vietnameseDefinition": "Công việc không được trả lương thực hiện vì lợi ích của công chúng như một hình phạt.",
+    "vietnameseExample": "Dịch vụ cộng đồng cho phép người phạm tội cống hiến lại cho xã hội."
+  },
+  {
+    "id": "prison-alternatives_topic_1",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "petty crime",
+    "englishDefinition": "Minor or less serious criminal offense.",
+    "englishExample": "Petty crimes such as shoplifting rarely warrant imprisonment.",
+    "vietnameseDefinition": "Tội phạm nhỏ hoặc ít nghiêm trọng.",
+    "vietnameseExample": "Các tội phạm nhỏ như ăn cắp vặt hiếm khi đáng bị giam giữ."
+  },
+  {
+    "id": "prison-alternatives_topic_2",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "prison overcrowding",
+    "englishDefinition": "When prisons hold more inmates than designed capacity.",
+    "englishExample": "Alternative sentencing helps address prison overcrowding issues.",
+    "vietnameseDefinition": "Khi nhà tù giam giữ nhiều tù nhân hơn công suất thiết kế.",
+    "vietnameseExample": "Xử phạt thay thế giúp giải quyết vấn đề quá tải nhà tù."
+  },
+  {
+    "id": "prison-alternatives_topic_3",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "restorative justice",
+    "englishDefinition": "A system focused on repairing harm rather than pure punishment.",
+    "englishExample": "Restorative justice emphasizes reconciliation between offenders and victims.",
+    "vietnameseDefinition": "Một hệ thống tập trung vào sửa chữa thiệt hại hơn là trừng phạt thuần túy.",
+    "vietnameseExample": "Công lý khôi phục nhấn mạnh sự hòa giải giữa người phạm tội và nạn nhân."
+  },
+  {
+    "id": "prison-alternatives_topic_4",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "reoffending rates",
+    "englishDefinition": "The percentage of criminals who commit crimes again.",
+    "englishExample": "Countries with alternative sentencing report lower reoffending rates.",
+    "vietnameseDefinition": "Tỷ lệ phần trăm tội phạm thực hiện tội phạm lại.",
+    "vietnameseExample": "Các quốc gia có xử phạt thay thế báo cáo tỷ lệ tái phạm thấp hơn."
+  },
+  {
+    "id": "prison-alternatives_topic_5",
+    "fileId": "prison-alternatives",
+    "type": "topic",
+    "phrase": "punitive approach",
+    "englishDefinition": "A method focused on punishment rather than rehabilitation.",
+    "englishExample": "The punitive approach to justice emphasizes harsh penalties for all offenders.",
+    "vietnameseDefinition": "Một phương pháp tập trung vào trừng phạt hơn là cải tạo.",
+    "vietnameseExample": "Cách tiếp cận trừng phạt đối với công lý nhấn mạnh các hình phạt khắc nghiệt cho tất cả người phạm tội."
+  },
+  {
+    "id": "private-government-research_academic_0",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "R&D investment",
+    "englishDefinition": "Money spent on research and development activities.",
+    "englishExample": "Tech companies allocate billions in R&D investment to stay competitive.",
+    "vietnameseDefinition": "Tiền được chi cho các hoạt động nghiên cứu và phát triển.",
+    "vietnameseExample": "Các công ty công nghệ phân bổ hàng tỷ đô la đầu tư R&D để duy trì tính cạnh tranh."
+  },
+  {
+    "id": "private-government-research_academic_1",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "intellectual property",
+    "englishDefinition": "Legal rights to inventions, discoveries, or creative works.",
+    "englishExample": "Private firms protect their discoveries through intellectual property patents.",
+    "vietnameseDefinition": "Quyền pháp lý đối với các phát minh, khám phá hoặc tác phẩm sáng tạo.",
+    "vietnameseExample": "Các công ty tư nhân bảo vệ khám phá của họ thông qua bằng sáng chế tài sản trí tuệ."
+  },
+  {
+    "id": "private-government-research_academic_2",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "peer review",
+    "englishDefinition": "Evaluation of research by experts in the same field.",
+    "englishExample": "Government research typically undergoes rigorous peer review before publication.",
+    "vietnameseDefinition": "Đánh giá nghiên cứu bởi các chuyên gia trong cùng lĩnh vực.",
+    "vietnameseExample": "Nghiên cứu của chính phủ thường trải qua đánh giá đồng nghiệp nghiêm ngặt trước khi công bố."
+  },
+  {
+    "id": "private-government-research_academic_3",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "commercial viability",
+    "englishDefinition": "Ability of a product or service to generate profit.",
+    "englishExample": "Private research focuses on commercial viability rather than pure science.",
+    "vietnameseDefinition": "Khả năng của một sản phẩm hoặc dịch vụ tạo ra lợi nhuận.",
+    "vietnameseExample": "Nghiên cứu tư nhân tập trung vào khả năng thương mại hóa hơn là khoa học thuần túy."
+  },
+  {
+    "id": "private-government-research_academic_4",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "fundamental research",
+    "englishDefinition": "Basic scientific investigation without immediate practical application.",
+    "englishExample": "Fundamental research in physics often receives less private funding.",
+    "vietnameseDefinition": "Điều tra khoa học cơ bản không có ứng dụng thực tiễn ngay lập tức.",
+    "vietnameseExample": "Nghiên cứu cơ bản trong vật lý thường nhận được ít tài trợ tư nhân hơn."
+  },
+  {
+    "id": "private-government-research_academic_5",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "innovation",
+    "englishDefinition": "Introduction of new ideas, methods, or products.",
+    "englishExample": "Private companies drive innovation through competitive market pressures.",
+    "vietnameseDefinition": "Giới thiệu các ý tưởng, phương pháp hoặc sản phẩm mới.",
+    "vietnameseExample": "Các công ty tư nhân thúc đẩy đổi mới thông qua áp lực thị trường cạnh tranh."
+  },
+  {
+    "id": "private-government-research_academic_6",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "transparency",
+    "englishDefinition": "Openness and accountability in operations.",
+    "englishExample": "Government research offers greater transparency than proprietary corporate studies.",
+    "vietnameseDefinition": "Tính công khai và trách nhiệm giải trình trong hoạt động.",
+    "vietnameseExample": "Nghiên cứu của chính phủ cung cấp tính minh bạch cao hơn so với các nghiên cứu độc quyền của doanh nghiệp."
+  },
+  {
+    "id": "private-government-research_academic_7",
+    "fileId": "private-government-research",
+    "type": "academic",
+    "word": "proprietary",
+    "englishDefinition": "Owned by a private company and protected by patents.",
+    "englishExample": "Proprietary research results are often kept secret for competitive advantage.",
+    "vietnameseDefinition": "Thuộc sở hữu của một công ty tư nhân và được bảo vệ bằng bằng sáng chế.",
+    "vietnameseExample": "Kết quả nghiên cứu độc quyền thường được giữ bí mật để có lợi thế cạnh tranh."
+  },
+  {
+    "id": "private-government-research_topic_0",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "knowledge sharing",
+    "englishDefinition": "Open exchange of information and findings.",
+    "englishExample": "Government research promotes knowledge sharing across the scientific community.",
+    "vietnameseDefinition": "Trao đổi mở về thông tin và phát hiện.",
+    "vietnameseExample": "Nghiên cứu của chính phủ thúc đẩy chia sẻ kiến thức trong cộng đồng khoa học."
+  },
+  {
+    "id": "private-government-research_topic_1",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "profit-driven research",
+    "englishDefinition": "Investigation aimed at generating financial returns.",
+    "englishExample": "Profit-driven research may neglect areas without commercial potential.",
+    "vietnameseDefinition": "Điều tra nhằm tạo ra lợi nhuận tài chính.",
+    "vietnameseExample": "Nghiên cứu hướng đến lợi nhuận có thể bỏ qua các lĩnh vực không có tiềm năng thương mại."
+  },
+  {
+    "id": "private-government-research_topic_2",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "public good",
+    "englishDefinition": "Benefits shared by all members of society.",
+    "englishExample": "Basic scientific research contributes to the public good rather than private profit.",
+    "vietnameseDefinition": "Lợi ích được chia sẻ bởi tất cả các thành viên của xã hội.",
+    "vietnameseExample": "Nghiên cứu khoa học cơ bản đóng góp cho lợi ích công cộng hơn là lợi nhuận tư nhân."
+  },
+  {
+    "id": "private-government-research_topic_3",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "market forces",
+    "englishDefinition": "Economic factors influencing business decisions.",
+    "englishExample": "Market forces drive private companies to prioritize profitable research areas.",
+    "vietnameseDefinition": "Các yếu tố kinh tế ảnh hưởng đến quyết định kinh doanh.",
+    "vietnameseExample": "Lực lượng thị trường thúc đẩy các công ty tư nhân ưu tiên các lĩnh vực nghiên cứu có lợi nhuận."
+  },
+  {
+    "id": "private-government-research_topic_4",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "breakthrough discoveries",
+    "englishDefinition": "Major advances that significantly change understanding.",
+    "englishExample": "Both private and government labs have produced breakthrough discoveries.",
+    "vietnameseDefinition": "Tiến bộ lớn làm thay đổi đáng kể hiểu biết.",
+    "vietnameseExample": "Cả phòng thí nghiệm tư nhân và chính phủ đã tạo ra những khám phá đột phá."
+  },
+  {
+    "id": "private-government-research_topic_5",
+    "fileId": "private-government-research",
+    "type": "topic",
+    "phrase": "funding availability",
+    "englishDefinition": "Access to financial resources for research.",
+    "englishExample": "Private sector offers better funding availability for applied research projects.",
+    "vietnameseDefinition": "Khả năng tiếp cận nguồn tài chính cho nghiên cứu.",
+    "vietnameseExample": "Khu vực tư nhân cung cấp nguồn tài trợ tốt hơn cho các dự án nghiên cứu ứng dụng."
+  },
+  {
+    "id": "private-healthcare_academic_0",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "accessibility",
+    "englishDefinition": "The quality of being available or easy to obtain.",
+    "englishExample": "Private healthcare can improve accessibility for those who can afford it.",
+    "vietnameseDefinition": "Chất lượng sẵn có hoặc dễ dàng đạt được.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân có thể cải thiện khả năng tiếp cận cho những người có khả năng chi trả."
+  },
+  {
+    "id": "private-healthcare_academic_1",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "disparity",
+    "englishDefinition": "A great difference or inequality.",
+    "englishExample": "Private healthcare often creates a disparity in access to quality medical treatment.",
+    "vietnameseDefinition": "Sự khác biệt lớn hoặc bất bình đẳng.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân thường tạo ra sự chênh lệch trong việc tiếp cận điều trị y tế chất lượng."
+  },
+  {
+    "id": "private-healthcare_academic_2",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "prioritize",
+    "englishDefinition": "To designate or treat as most important.",
+    "englishExample": "Critics argue that private hospitals prioritize profits over patient welfare.",
+    "vietnameseDefinition": "Chỉ định hoặc coi là quan trọng nhất.",
+    "vietnameseExample": "Các nhà phê bình cho rằng các bệnh viện tư nhân ưu tiên lợi nhuận hơn phúc lợi bệnh nhân."
+  },
+  {
+    "id": "private-healthcare_academic_3",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "alleviate",
+    "englishDefinition": "To make suffering or a problem less severe.",
+    "englishExample": "Private healthcare can alleviate the burden on public health systems.",
+    "vietnameseDefinition": "Làm giảm bớt đau khổ hoặc vấn đề.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân có thể giảm bớt gánh nặng cho hệ thống y tế công cộng."
+  },
+  {
+    "id": "private-healthcare_academic_4",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "efficiency",
+    "englishDefinition": "The ability to accomplish something with minimum waste of time and effort.",
+    "englishExample": "Private hospitals often demonstrate greater efficiency in service delivery.",
+    "vietnameseDefinition": "Khả năng hoàn thành điều gì đó với ít lãng phí thời gian và công sức nhất.",
+    "vietnameseExample": "Các bệnh viện tư nhân thường thể hiện hiệu quả cao hơn trong cung cấp dịch vụ."
+  },
+  {
+    "id": "private-healthcare_academic_5",
+    "fileId": "private-healthcare",
+    "type": "academic",
+    "word": "exacerbate",
+    "englishDefinition": "To make a problem or situation worse.",
+    "englishExample": "Private healthcare can exacerbate social inequality in medical access.",
+    "vietnameseDefinition": "Làm cho một vấn đề hoặc tình huống tồi tệ hơn.",
+    "vietnameseExample": "Chăm sóc sức khỏe tư nhân có thể làm trầm trọng thêm bất bình đẳng xã hội trong tiếp cận y tế."
+  }
+]

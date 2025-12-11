@@ -1,0 +1,502 @@
+[
+  {
+    "id": "traditional-education_academic_7",
+    "fileId": "traditional-education",
+    "type": "academic",
+    "word": "facilitate",
+    "englishDefinition": "To make an action or process easier.",
+    "englishExample": "Technology can support personalized learning experiences for diverse student needs.",
+    "vietnameseDefinition": "Làm cho một hành động hoặc quá trình dễ dàng hơn.",
+    "vietnameseExample": "Công nghệ có thể hỗ trợ trải nghiệm học tập cá nhân hóa cho nhu cầu đa dạng của học sinh."
+  },
+  {
+    "id": "traditional-education_topic_0",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "blended learning",
+    "englishDefinition": "Educational approach combining online digital media with traditional classroom methods.",
+    "englishExample": "Blended learning models integrate the best aspects of both traditional and digital education.",
+    "vietnameseDefinition": "Phương pháp giáo dục kết hợp phương tiện kỹ thuật số trực tuyến với phương pháp lớp học truyền thống.",
+    "vietnameseExample": "Mô hình học tập kết hợp tích hợp những khía cạnh tốt nhất của cả giáo dục truyền thống và kỹ thuật số."
+  },
+  {
+    "id": "traditional-education_topic_1",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "online education platforms",
+    "englishDefinition": "Digital systems that deliver educational content remotely via the internet.",
+    "englishExample": "Online education platforms like Coursera and Khan Academy have expanded access to learning resources.",
+    "vietnameseDefinition": "Hệ thống kỹ thuật số cung cấp nội dung giáo dục từ xa qua internet.",
+    "vietnameseExample": "Các nền tảng giáo dục trực tuyến như Coursera và Khan Academy đã mở rộng quyền truy cập vào tài nguyên học tập."
+  },
+  {
+    "id": "traditional-education_topic_2",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "interpersonal skills",
+    "englishDefinition": "Abilities used to communicate and interact effectively with others.",
+    "englishExample": "Physical classrooms are essential for developing interpersonal skills through direct social interaction.",
+    "vietnameseDefinition": "Khả năng giao tiếp và tương tác hiệu quả với người khác.",
+    "vietnameseExample": "Lớp học thực tế là cần thiết để phát triển kỹ năng giao tiếp thông qua tương tác xã hội trực tiếp."
+  },
+  {
+    "id": "traditional-education_topic_3",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "personalized learning",
+    "englishDefinition": "Tailoring education to individual student needs, pace, and interests.",
+    "englishExample": "AI-powered systems enable personalized learning paths for each student.",
+    "vietnameseDefinition": "Điều chỉnh giáo dục theo nhu cầu, tốc độ và sở thích cá nhân của học sinh.",
+    "vietnameseExample": "Hệ thống AI cho phép lộ trình học tập cá nhân hóa cho từng học sinh."
+  },
+  {
+    "id": "traditional-education_topic_4",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "human element",
+    "englishDefinition": "The personal, emotional, and social aspects of human interaction.",
+    "englishExample": "The human element in teaching provides emotional support that algorithms cannot replicate.",
+    "vietnameseDefinition": "Các khía cạnh cá nhân, cảm xúc và xã hội của tương tác con người.",
+    "vietnameseExample": "Yếu tố con người trong giảng dạy cung cấp sự hỗ trợ cảm xúc mà thuật toán không thể sao chép."
+  },
+  {
+    "id": "traditional-education_topic_5",
+    "fileId": "traditional-education",
+    "type": "topic",
+    "phrase": "digital divide",
+    "englishDefinition": "Gap between those with access to technology and those without.",
+    "englishExample": "The digital divide prevents complete replacement of traditional education with online alternatives.",
+    "vietnameseDefinition": "Khoảng cách giữa những người có quyền truy cập công nghệ và những người không có.",
+    "vietnameseExample": "Khoảng cách kỹ thuật số ngăn cản việc thay thế hoàn toàn giáo dục truyền thống bằng các phương án trực tuyến."
+  },
+  {
+    "id": "university-subjects_academic_0",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "fulfillment",
+    "englishDefinition": "Satisfaction from fully developing one's abilities.",
+    "englishExample": "Studying subjects students love leads to greater personal fulfillment.",
+    "vietnameseDefinition": "Sự thỏa mãn từ việc phát triển đầy đủ khả năng của bản thân.",
+    "vietnameseExample": "Học các môn mà học sinh yêu thích dẫn đến sự thỏa mãn cá nhân lớn hơn."
+  },
+  {
+    "id": "university-subjects_academic_1",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "employability",
+    "englishDefinition": "The quality of being suitable for paid work.",
+    "englishExample": "Career-focused subjects enhance students' employability after graduation.",
+    "vietnameseDefinition": "Chất lượng phù hợp cho công việc có lương.",
+    "vietnameseExample": "Các môn học hướng nghiệp tăng cường khả năng làm việc của sinh viên sau khi tốt nghiệp."
+  },
+  {
+    "id": "university-subjects_academic_2",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "passion",
+    "englishDefinition": "Strong enthusiasm or interest.",
+    "englishExample": "Following one's passion often leads to greater academic success.",
+    "vietnameseDefinition": "Sự nhiệt tình hoặc quan tâm mạnh mẽ.",
+    "vietnameseExample": "Theo đuổi đam mê thường dẫn đến thành công trong học tập lớn hơn."
+  },
+  {
+    "id": "university-subjects_academic_3",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "pragmatic",
+    "englishDefinition": "Dealing with things in a practical way.",
+    "englishExample": "A pragmatic approach focuses on subjects with clear career paths.",
+    "vietnameseDefinition": "Giải quyết vấn đề theo cách thực tế.",
+    "vietnameseExample": "Cách tiếp cận thực dụng tập trung vào các môn học có con đường nghề nghiệp rõ ràng."
+  },
+  {
+    "id": "university-subjects_academic_4",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "innovation",
+    "englishDefinition": "The introduction of new ideas or methods.",
+    "englishExample": "Passion-driven study often produces innovation and creative breakthroughs.",
+    "vietnameseDefinition": "Sự giới thiệu những ý tưởng hoặc phương pháp mới.",
+    "vietnameseExample": "Học tập theo đam mê thường tạo ra sự đổi mới và những đột phá sáng tạo."
+  },
+  {
+    "id": "university-subjects_academic_5",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "credentials",
+    "englishDefinition": "Qualifications showing suitability for something.",
+    "englishExample": "Job-focused degrees provide credentials that employers actively seek.",
+    "vietnameseDefinition": "Bằng cấp thể hiện sự phù hợp cho điều gì đó.",
+    "vietnameseExample": "Bằng cấp hướng nghiệp cung cấp chứng chỉ mà nhà tuyển dụng tích cực tìm kiếm."
+  },
+  {
+    "id": "university-subjects_academic_6",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "well-rounded",
+    "englishDefinition": "Having a personality developed in all aspects.",
+    "englishExample": "Studying diverse subjects creates well-rounded graduates.",
+    "vietnameseDefinition": "Có tính cách được phát triển ở mọi khía cạnh.",
+    "vietnameseExample": "Học các môn học đa dạng tạo ra sinh viên tốt nghiệp toàn diện."
+  },
+  {
+    "id": "university-subjects_academic_7",
+    "fileId": "university-subjects",
+    "type": "academic",
+    "word": "specialization",
+    "englishDefinition": "Concentrating on a particular area of study.",
+    "englishExample": "Career-focused education emphasizes specialization in marketable skills.",
+    "vietnameseDefinition": "Tập trung vào một lĩnh vực nghiên cứu cụ thể.",
+    "vietnameseExample": "Giáo dục hướng nghiệp nhấn mạnh chuyên môn hóa trong các kỹ năng có thể bán được."
+  },
+  {
+    "id": "university-subjects_topic_0",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "liberal arts",
+    "englishDefinition": "Academic subjects including humanities and sciences.",
+    "englishExample": "Liberal arts education develops critical thinking across disciplines.",
+    "vietnameseDefinition": "Các môn học thuật bao gồm nhân văn và khoa học.",
+    "vietnameseExample": "Giáo dục khai phóng phát triển tư duy phản biện xuyên suốt các ngành học."
+  },
+  {
+    "id": "university-subjects_topic_1",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "vocational training",
+    "englishDefinition": "Education focused on specific trades or careers.",
+    "englishExample": "Vocational training prepares students for immediate employment.",
+    "vietnameseDefinition": "Giáo dục tập trung vào nghề hoặc nghề nghiệp cụ thể.",
+    "vietnameseExample": "Đào tạo nghề chuẩn bị cho sinh viên việc làm ngay lập tức."
+  },
+  {
+    "id": "university-subjects_topic_2",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "intrinsic motivation",
+    "englishDefinition": "Drive coming from internal satisfaction.",
+    "englishExample": "Studying subjects students love enhances intrinsic motivation.",
+    "vietnameseDefinition": "Động lực đến từ sự thỏa mãn bên trong.",
+    "vietnameseExample": "Học các môn mà học sinh yêu thích tăng cường động lực nội tại."
+  },
+  {
+    "id": "university-subjects_topic_3",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "job market",
+    "englishDefinition": "The availability of employment opportunities.",
+    "englishExample": "Understanding the job market helps students choose practical degrees.",
+    "vietnameseDefinition": "Sự sẵn có của cơ hội việc làm.",
+    "vietnameseExample": "Hiểu thị trường việc làm giúp sinh viên chọn bằng cấp thực tế."
+  },
+  {
+    "id": "university-subjects_topic_4",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "intellectual curiosity",
+    "englishDefinition": "Desire to learn and understand.",
+    "englishExample": "Passion-based study nurtures intellectual curiosity and lifelong learning.",
+    "vietnameseDefinition": "Mong muốn học hỏi và hiểu biết.",
+    "vietnameseExample": "Học tập dựa trên đam mê nuôi dưỡng sự tò mò trí tuệ và học tập suốt đời."
+  },
+  {
+    "id": "university-subjects_topic_5",
+    "fileId": "university-subjects",
+    "type": "topic",
+    "phrase": "career prospects",
+    "englishDefinition": "Likelihood of professional success.",
+    "englishExample": "Practical subjects often offer stronger career prospects and salaries.",
+    "vietnameseDefinition": "Khả năng thành công trong nghề nghiệp.",
+    "vietnameseExample": "Các môn học thực tế thường mang lại triển vọng nghề nghiệp và mức lương tốt hơn."
+  },
+  {
+    "id": "urban-migration_academic_0",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "urban planning",
+    "englishDefinition": "The process of designing and organizing cities and towns.",
+    "englishExample": "Effective urban planning is essential for managing growing populations in cities.",
+    "vietnameseDefinition": "Quá trình thiết kế và tổ chức các thành phố và thị trấn.",
+    "vietnameseExample": "Quy hoạch đô thị hiệu quả là cần thiết để quản lý dân số ngày càng tăng ở các thành phố."
+  },
+  {
+    "id": "urban-migration_academic_1",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "traffic congestion",
+    "englishDefinition": "Heavy traffic causing slower speeds and longer journey times.",
+    "englishExample": "Traffic congestion costs major cities billions in lost productivity annually.",
+    "vietnameseDefinition": "Giao thông đông đúc gây ra tốc độ chậm hơn và thời gian di chuyển lâu hơn.",
+    "vietnameseExample": "Tắc nghẽn giao thông gây thiệt hại hàng tỷ đô la năng suất cho các thành phố lớn hàng năm."
+  },
+  {
+    "id": "urban-migration_academic_2",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "commuter patterns",
+    "englishDefinition": "Regular travel habits of people going to and from work.",
+    "englishExample": "Commuter patterns show that most traffic occurs during rush hours when suburban residents travel to the city.",
+    "vietnameseDefinition": "Thói quen di chuyển đều đặn của người dân đi làm.",
+    "vietnameseExample": "Các mô hình đi lại cho thấy phần lớn giao thông xảy ra trong giờ cao điểm khi cư dân ngoại ô di chuyển vào thành phố."
+  },
+  {
+    "id": "urban-migration_academic_3",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "public infrastructure",
+    "englishDefinition": "Basic facilities and systems serving a community, such as roads and transport.",
+    "englishExample": "Cities need robust public infrastructure to support dense populations.",
+    "vietnameseDefinition": "Các cơ sở vật chất và hệ thống cơ bản phục vụ cộng đồng như đường xá và giao thông.",
+    "vietnameseExample": "Các thành phố cần cơ sở hạ tầng công cộng vững chắc để hỗ trợ dân số đông đúc."
+  },
+  {
+    "id": "urban-migration_academic_4",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "population density",
+    "englishDefinition": "Number of people living per unit area.",
+    "englishExample": "Increasing population density in cities can strain existing services and housing.",
+    "vietnameseDefinition": "Số lượng người sống trên một đơn vị diện tích.",
+    "vietnameseExample": "Mật độ dân số tăng cao ở các thành phố có thể gây áp lực lên các dịch vụ và nhà ở hiện có."
+  },
+  {
+    "id": "urban-migration_academic_5",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "sustainable transport",
+    "englishDefinition": "Transportation methods that minimize environmental impact.",
+    "englishExample": "Cities are investing in sustainable transport options like cycling lanes and electric buses.",
+    "vietnameseDefinition": "Phương tiện giao thông giảm thiểu tác động môi trường.",
+    "vietnameseExample": "Các thành phố đang đầu tư vào các phương án giao thông bền vững như làn đường xe đạp và xe buýt điện."
+  },
+  {
+    "id": "urban-migration_academic_6",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "accommodate",
+    "englishDefinition": "To provide space or adapt to something.",
+    "englishExample": "Cities must accommodate growing populations with adequate housing and services.",
+    "vietnameseDefinition": "Cung cấp không gian hoặc thích nghi với điều gì đó.",
+    "vietnameseExample": "Các thành phố phải chứa đựng dân số ngày càng tăng bằng nhà ở và dịch vụ đầy đủ."
+  },
+  {
+    "id": "urban-migration_academic_7",
+    "fileId": "urban-migration",
+    "type": "academic",
+    "word": "alleviate",
+    "englishDefinition": "To make a problem less severe.",
+    "englishExample": "Improved public transport can alleviate traffic congestion significantly.",
+    "vietnameseDefinition": "Làm cho vấn đề bớt nghiêm trọng hơn.",
+    "vietnameseExample": "Giao thông công cộng được cải thiện có thể giảm bớt tắc nghẽn giao thông đáng kể."
+  },
+  {
+    "id": "urban-migration_topic_0",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "rush hour traffic",
+    "englishDefinition": "Heavy traffic during peak commuting times.",
+    "englishExample": "Rush hour traffic is caused primarily by suburban commuters traveling to city centers.",
+    "vietnameseDefinition": "Giao thông đông đúc trong giờ cao điểm đi lại.",
+    "vietnameseExample": "Giao thông giờ cao điểm chủ yếu do người đi làm từ ngoại ô vào trung tâm thành phố gây ra."
+  },
+  {
+    "id": "urban-migration_topic_1",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "car-free city centers",
+    "englishDefinition": "Urban areas where private vehicles are restricted or banned.",
+    "englishExample": "Many European cities have established car-free city centers to reduce pollution and congestion.",
+    "vietnameseDefinition": "Khu vực đô thị nơi phương tiện cá nhân bị hạn chế hoặc cấm.",
+    "vietnameseExample": "Nhiều thành phố châu Âu đã thiết lập trung tâm thành phố không có ô tô để giảm ô nhiễm và tắc nghẽn."
+  },
+  {
+    "id": "urban-migration_topic_2",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "remote working trends",
+    "englishDefinition": "Increasing pattern of employees working from home.",
+    "englishExample": "Remote working trends have reduced commuter traffic in many cities since the pandemic.",
+    "vietnameseDefinition": "Xu hướng ngày càng tăng của nhân viên làm việc từ xa.",
+    "vietnameseExample": "Xu hướng làm việc từ xa đã giảm lưu lượng đi lại ở nhiều thành phố kể từ đại dịch."
+  },
+  {
+    "id": "urban-migration_topic_3",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "urban sprawl",
+    "englishDefinition": "Uncontrolled expansion of cities into surrounding areas.",
+    "englishExample": "Urban sprawl forces more people to commute long distances daily.",
+    "vietnameseDefinition": "Sự mở rộng không kiểm soát của các thành phố vào các khu vực xung quanh.",
+    "vietnameseExample": "Sự phát triển đô thị lan rộng buộc nhiều người phải đi lại quãng đường dài hàng ngày."
+  },
+  {
+    "id": "urban-migration_topic_4",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "mass transit systems",
+    "englishDefinition": "Public transportation networks serving large numbers of people.",
+    "englishExample": "Tokyo's mass transit systems efficiently move millions of commuters daily.",
+    "vietnameseDefinition": "Mạng lưới giao thông công cộng phục vụ số lượng lớn người dân.",
+    "vietnameseExample": "Hệ thống giao thông đại chúng của Tokyo di chuyển hiệu quả hàng triệu người đi làm mỗi ngày."
+  },
+  {
+    "id": "urban-migration_topic_5",
+    "fileId": "urban-migration",
+    "type": "topic",
+    "phrase": "housing affordability",
+    "englishDefinition": "The ability of people to purchase or rent accommodation.",
+    "englishExample": "Housing affordability remains a major challenge in encouraging urban migration.",
+    "vietnameseDefinition": "Khả năng mua hoặc thuê nhà ở của người dân.",
+    "vietnameseExample": "Khả năng chi trả nhà ở vẫn là thách thức lớn trong việc khuyến khích di cư đô thị."
+  },
+  {
+    "id": "vehicle-free-days_academic_0",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "congestion",
+    "englishDefinition": "Overcrowding, especially of traffic in urban areas.",
+    "englishExample": "Vehicle-free days can significantly reduce traffic congestion in city centers.",
+    "vietnameseDefinition": "Sự quá tải, đặc biệt là giao thông ở khu vực đô thị.",
+    "vietnameseExample": "Ngày không có xe cộ có thể giảm đáng kể tắc nghẽn giao thông ở trung tâm thành phố."
+  },
+  {
+    "id": "vehicle-free-days_academic_1",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "emissions",
+    "englishDefinition": "Gases or substances released into the atmosphere.",
+    "englishExample": "Reducing vehicle emissions improves urban air quality substantially.",
+    "vietnameseDefinition": "Khí hoặc chất thải được thải vào khí quyển.",
+    "vietnameseExample": "Giảm khí thải từ phương tiện cải thiện chất lượng không khí đô thị đáng kể."
+  },
+  {
+    "id": "vehicle-free-days_academic_2",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "implementation",
+    "englishDefinition": "The process of putting a policy or plan into effect.",
+    "englishExample": "Implementation of vehicle-free days requires careful planning and public support.",
+    "vietnameseDefinition": "Quá trình đưa chính sách hoặc kế hoạch vào thực tế.",
+    "vietnameseExample": "Thực hiện các ngày không có xe cộ đòi hỏi lập kế hoạch cẩn thận và sự hỗ trợ của công chúng."
+  },
+  {
+    "id": "vehicle-free-days_academic_3",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "inconvenience",
+    "englishDefinition": "Trouble or difficulty that causes discomfort.",
+    "englishExample": "Some residents view the policy as an inconvenience to their daily routines.",
+    "vietnameseDefinition": "Rắc rối hoặc khó khăn gây ra sự bất tiện.",
+    "vietnameseExample": "Một số cư dân coi chính sách này là sự bất tiện cho thói quen hàng ngày của họ."
+  },
+  {
+    "id": "vehicle-free-days_academic_4",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "mitigate",
+    "englishDefinition": "To make something less severe or serious.",
+    "englishExample": "Vehicle-free initiatives help mitigate the environmental impact of urban transportation.",
+    "vietnameseDefinition": "Làm cho điều gì đó bớt nghiêm trọng hơn.",
+    "vietnameseExample": "Các sáng kiến không có xe cộ giúp giảm thiểu tác động môi trường của giao thông đô thị."
+  },
+  {
+    "id": "vehicle-free-days_academic_5",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "accessible",
+    "englishDefinition": "Able to be reached or used easily.",
+    "englishExample": "Public transportation must be accessible and affordable for the policy to succeed.",
+    "vietnameseDefinition": "Có thể tiếp cận hoặc sử dụng dễ dàng.",
+    "vietnameseExample": "Giao thông công cộng phải dễ tiếp cận và giá cả phải chăng để chính sách thành công."
+  },
+  {
+    "id": "vehicle-free-days_academic_6",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "pedestrian",
+    "englishDefinition": "A person walking rather than traveling in a vehicle.",
+    "englishExample": "Vehicle-free days create safer environments for pedestrians and cyclists.",
+    "vietnameseDefinition": "Người đi bộ thay vì di chuyển bằng phương tiện.",
+    "vietnameseExample": "Ngày không có xe cộ tạo môi trường an toàn hơn cho người đi bộ và người đi xe đạp."
+  },
+  {
+    "id": "vehicle-free-days_academic_7",
+    "fileId": "vehicle-free-days",
+    "type": "academic",
+    "word": "sustainable",
+    "englishDefinition": "Able to be maintained at a certain level without depleting resources.",
+    "englishExample": "Promoting sustainable transport options benefits cities long-term.",
+    "vietnameseDefinition": "Có thể duy trì ở mức độ nhất định mà không làm cạn kiệt tài nguyên.",
+    "vietnameseExample": "Thúc đẩy các lựa chọn giao thông bền vững mang lại lợi ích lâu dài cho thành phố."
+  },
+  {
+    "id": "vehicle-free-days_topic_0",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "air quality",
+    "englishDefinition": "The condition of air in terms of pollution levels.",
+    "englishExample": "Vehicle-free days lead to noticeable improvements in air quality.",
+    "vietnameseDefinition": "Tình trạng không khí về mức độ ô nhiễm.",
+    "vietnameseExample": "Ngày không có xe cộ dẫn đến cải thiện đáng kể chất lượng không khí."
+  },
+  {
+    "id": "vehicle-free-days_topic_1",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "carbon footprint",
+    "englishDefinition": "The total greenhouse gas emissions caused by activities.",
+    "englishExample": "Such initiatives help reduce the city's overall carbon footprint.",
+    "vietnameseDefinition": "Tổng lượng khí thải nhà kính gây ra bởi các hoạt động.",
+    "vietnameseExample": "Các sáng kiến này giúp giảm lượng khí thải carbon tổng thể của thành phố."
+  },
+  {
+    "id": "vehicle-free-days_topic_2",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "public transit infrastructure",
+    "englishDefinition": "Systems and facilities for public transportation.",
+    "englishExample": "Effective vehicle-free policies require robust public transit infrastructure.",
+    "vietnameseDefinition": "Hệ thống và cơ sở vật chất cho giao thông công cộng.",
+    "vietnameseExample": "Chính sách không có xe cộ hiệu quả đòi hỏi cơ sở hạ tầng giao thông công cộng vững chắc."
+  },
+  {
+    "id": "vehicle-free-days_topic_3",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "commuter disruption",
+    "englishDefinition": "Interference with people's regular travel to work.",
+    "englishExample": "Critics argue the policy causes unnecessary commuter disruption.",
+    "vietnameseDefinition": "Sự gián đoạn trong việc đi lại đều đặn của mọi người đến công việc.",
+    "vietnameseExample": "Những người chỉ trích cho rằng chính sách gây ra sự gián đoạn không cần thiết cho người đi làm."
+  },
+  {
+    "id": "vehicle-free-days_topic_4",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "environmental benefits",
+    "englishDefinition": "Positive effects on the natural environment.",
+    "englishExample": "The environmental benefits of reduced emissions are substantial.",
+    "vietnameseDefinition": "Tác động tích cực đến môi trường tự nhiên.",
+    "vietnameseExample": "Lợi ích môi trường từ việc giảm khí thải là đáng kể."
+  },
+  {
+    "id": "vehicle-free-days_topic_5",
+    "fileId": "vehicle-free-days",
+    "type": "topic",
+    "phrase": "mobility restrictions",
+    "englishDefinition": "Limitations on movement and transportation options.",
+    "englishExample": "Mobility restrictions can particularly affect elderly or disabled residents.",
+    "vietnameseDefinition": "Hạn chế về di chuyển và lựa chọn giao thông.",
+    "vietnameseExample": "Hạn chế di chuyển có thể đặc biệt ảnh hưởng đến người cao tuổi hoặc người khuyết tật."
+  },
+  {
+    "id": "western-traditional-clothing_academic_0",
+    "fileId": "western-traditional-clothing",
+    "type": "academic",
+    "word": "globalization",
+    "englishDefinition": "The process of international integration and exchange of ideas, products and culture.",
+    "englishExample": "Globalization has spread Western fashion trends to every corner of the world.",
+    "vietnameseDefinition": "Quá trình hội nhập quốc tế và trao đổi ý tưởng, sản phẩm và văn hóa.",
+    "vietnameseExample": "Toàn cầu hóa đã lan rộng xu hướng thời trang phương Tây đến mọi ngóc ngách của thế giới."
+  }
+]

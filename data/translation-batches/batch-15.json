@@ -1,0 +1,502 @@
+[
+  {
+    "id": "smartphone-children_academic_0",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "supervision",
+    "englishDefinition": "Careful watching and direction.",
+    "englishExample": "Children using smartphones require appropriate parental supervision.",
+    "vietnameseDefinition": "Sự giám sát và hướng dẫn cẩn thận.",
+    "vietnameseExample": "Trẻ em sử dụng điện thoại thông minh cần sự giám sát thích hợp từ cha mẹ."
+  },
+  {
+    "id": "smartphone-children_academic_1",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "connectivity",
+    "englishDefinition": "The state of being connected.",
+    "englishExample": "Smartphones provide children with constant connectivity to parents and friends.",
+    "vietnameseDefinition": "Trạng thái được kết nối.",
+    "vietnameseExample": "Điện thoại thông minh cung cấp cho trẻ em kết nối liên tục với cha mẹ và bạn bè."
+  },
+  {
+    "id": "smartphone-children_academic_2",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "exposure",
+    "englishDefinition": "The experience of encountering something.",
+    "englishExample": "Early smartphone use increases children's exposure to inappropriate content.",
+    "vietnameseDefinition": "Trải nghiệm tiếp xúc với điều gì đó.",
+    "vietnameseExample": "Sử dụng điện thoại thông minh sớm làm tăng sự tiếp xúc của trẻ em với nội dung không phù hợp."
+  },
+  {
+    "id": "smartphone-children_academic_3",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "detrimental",
+    "englishDefinition": "Causing harm or damage.",
+    "englishExample": "Excessive screen time can be detrimental to children's physical health.",
+    "vietnameseDefinition": "Gây hại hoặc thiệt hại.",
+    "vietnameseExample": "Thời gian màn hình quá mức có thể gây hại cho sức khỏe thể chất của trẻ em."
+  },
+  {
+    "id": "smartphone-children_academic_4",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "facilitate",
+    "englishDefinition": "To make easier or help bring about.",
+    "englishExample": "Smartphones support educational opportunities through learning apps.",
+    "vietnameseDefinition": "Làm dễ dàng hơn hoặc giúp mang lại.",
+    "vietnameseExample": "Điện thoại thông minh hỗ trợ các cơ hội giáo dục thông qua các ứng dụng học tập."
+  },
+  {
+    "id": "smartphone-children_academic_5",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "dependency",
+    "englishDefinition": "Reliance on something or someone.",
+    "englishExample": "Children can develop unhealthy dependency on digital devices.",
+    "vietnameseDefinition": "Sự phụ thuộc vào điều gì đó hoặc ai đó.",
+    "vietnameseExample": "Trẻ em có thể phát triển sự phụ thuộc không lành mạnh vào các thiết bị kỹ thuật số."
+  },
+  {
+    "id": "smartphone-children_academic_6",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "interaction",
+    "englishDefinition": "Communication or involvement with others.",
+    "englishExample": "Excessive smartphone use may reduce face-to-face interaction among children.",
+    "vietnameseDefinition": "Giao tiếp hoặc tương tác với người khác.",
+    "vietnameseExample": "Sử dụng điện thoại thông minh quá mức có thể làm giảm tương tác trực tiếp giữa trẻ em."
+  },
+  {
+    "id": "smartphone-children_academic_7",
+    "fileId": "smartphone-children",
+    "type": "academic",
+    "word": "cognitive",
+    "englishDefinition": "Related to mental processes of knowing and understanding.",
+    "englishExample": "Some educational apps support children's cognitive development.",
+    "vietnameseDefinition": "Liên quan đến các quá trình tinh thần của việc biết và hiểu.",
+    "vietnameseExample": "Một số ứng dụng giáo dục hỗ trợ sự phát triển nhận thức của trẻ em."
+  },
+  {
+    "id": "smartphone-children_topic_0",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "screen time",
+    "englishDefinition": "Time spent using devices with screens.",
+    "englishExample": "Excessive screen time can affect children's sleep patterns and health.",
+    "vietnameseDefinition": "Thời gian sử dụng thiết bị có màn hình.",
+    "vietnameseExample": "Thời gian màn hình quá mức có thể ảnh hưởng đến mẫu giấc ngủ và sức khỏe của trẻ em."
+  },
+  {
+    "id": "smartphone-children_topic_1",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "educational apps",
+    "englishDefinition": "Software applications designed for learning.",
+    "englishExample": "Educational apps provide children with interactive learning opportunities.",
+    "vietnameseDefinition": "Ứng dụng phần mềm được thiết kế cho việc học tập.",
+    "vietnameseExample": "Các ứng dụng giáo dục cung cấp cho trẻ em các cơ hội học tập tương tác."
+  },
+  {
+    "id": "smartphone-children_topic_2",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "online safety",
+    "englishDefinition": "Protection from digital threats and inappropriate content.",
+    "englishExample": "Parents must educate children about online safety and privacy.",
+    "vietnameseDefinition": "Bảo vệ khỏi các mối đe dọa kỹ thuật số và nội dung không phù hợp.",
+    "vietnameseExample": "Cha mẹ phải giáo dục trẻ em về an toàn trực tuyến và quyền riêng tư."
+  },
+  {
+    "id": "smartphone-children_topic_3",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "social development",
+    "englishDefinition": "Growth in ability to interact with others.",
+    "englishExample": "Excessive smartphone use may hinder children's social development.",
+    "vietnameseDefinition": "Sự tăng trưởng trong khả năng tương tác với người khác.",
+    "vietnameseExample": "Sử dụng điện thoại thông minh quá mức có thể cản trở sự phát triển xã hội của trẻ em."
+  },
+  {
+    "id": "smartphone-children_topic_4",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "parental controls",
+    "englishDefinition": "Settings that restrict content and usage.",
+    "englishExample": "Parental controls help manage what children can access on smartphones.",
+    "vietnameseDefinition": "Cài đặt hạn chế nội dung và cách sử dụng.",
+    "vietnameseExample": "Kiểm soát của phụ huynh giúp quản lý những gì trẻ em có thể truy cập trên điện thoại thông minh."
+  },
+  {
+    "id": "smartphone-children_topic_5",
+    "fileId": "smartphone-children",
+    "type": "topic",
+    "phrase": "digital literacy",
+    "englishDefinition": "Ability to use and understand technology.",
+    "englishExample": "Early smartphone access can enhance children's digital literacy skills.",
+    "vietnameseDefinition": "Khả năng sử dụng và hiểu công nghệ.",
+    "vietnameseExample": "Tiếp cận điện thoại thông minh sớm có thể nâng cao kỹ năng hiểu biết kỹ thuật số của trẻ em."
+  },
+  {
+    "id": "space-exploration-earth_academic_0",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "space exploration",
+    "englishDefinition": "Investigation and discovery of outer space through missions and research.",
+    "englishExample": "Space exploration has led to numerous technological innovations.",
+    "vietnameseDefinition": "Điều tra và khám phá không gian vũ trụ thông qua các sứ mệnh và nghiên cứu.",
+    "vietnameseExample": "Khám phá không gian đã dẫn đến nhiều đổi mới công nghệ."
+  },
+  {
+    "id": "space-exploration-earth_academic_1",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "resource allocation",
+    "englishDefinition": "The distribution of available resources among competing uses.",
+    "englishExample": "Governments must make difficult decisions about resource allocation.",
+    "vietnameseDefinition": "Việc phân bổ nguồn lực có sẵn giữa các mục đích sử dụng cạnh tranh.",
+    "vietnameseExample": "Chính phủ phải đưa ra các quyết định khó khăn về phân bổ nguồn lực."
+  },
+  {
+    "id": "space-exploration-earth_academic_2",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "scientific advancement",
+    "englishDefinition": "Progress in scientific knowledge and capabilities.",
+    "englishExample": "Space programs drive scientific advancement in multiple fields.",
+    "vietnameseDefinition": "Tiến bộ trong kiến thức và khả năng khoa học.",
+    "vietnameseExample": "Các chương trình không gian thúc đẩy tiến bộ khoa học trong nhiều lĩnh vực."
+  },
+  {
+    "id": "space-exploration-earth_academic_3",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "opportunity cost",
+    "englishDefinition": "The loss of potential benefit from other choices when one option is selected.",
+    "englishExample": "The opportunity cost of space exploration is funding for social programs.",
+    "vietnameseDefinition": "Sự mất mát lợi ích tiềm năng từ các lựa chọn khác khi một tùy chọn được chọn.",
+    "vietnameseExample": "Chi phí cơ hội của khám phá không gian là tài trợ cho các chương trình xã hội."
+  },
+  {
+    "id": "space-exploration-earth_academic_4",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "humanitarian issues",
+    "englishDefinition": "Concerns related to human welfare and suffering.",
+    "englishExample": "Many argue that humanitarian issues should take priority over space research.",
+    "vietnameseDefinition": "Các mối quan tâm liên quan đến phúc lợi và đau khổ của con người.",
+    "vietnameseExample": "Nhiều người cho rằng các vấn đề nhân đạo nên được ưu tiên hơn nghiên cứu không gian."
+  },
+  {
+    "id": "space-exploration-earth_academic_5",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "technological spinoffs",
+    "englishDefinition": "Technologies developed for one purpose that find applications elsewhere.",
+    "englishExample": "GPS and satellite communications are technological spinoffs from space programs.",
+    "vietnameseDefinition": "Các công nghệ được phát triển cho một mục đích mà tìm thấy ứng dụng ở nơi khác.",
+    "vietnameseExample": "GPS và truyền thông vệ tinh là các sản phẩm phụ công nghệ từ các chương trình không gian."
+  },
+  {
+    "id": "space-exploration-earth_academic_6",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "prioritize",
+    "englishDefinition": "To organize or deal with something in order of importance.",
+    "englishExample": "Governments should prioritize immediate human needs over distant space goals.",
+    "vietnameseDefinition": "Tổ chức hoặc xử lý điều gì đó theo thứ tự quan trọng.",
+    "vietnameseExample": "Chính phủ nên ưu tiên nhu cầu con người trước mắt hơn mục tiêu không gian xa vời."
+  },
+  {
+    "id": "space-exploration-earth_academic_7",
+    "fileId": "space-exploration-earth",
+    "type": "academic",
+    "word": "taxpayer",
+    "englishDefinition": "A person or organization that pays taxes.",
+    "englishExample": "Many taxpayers question spending billions on Mars missions.",
+    "vietnameseDefinition": "Một người hoặc tổ chức nộp thuế.",
+    "vietnameseExample": "Nhiều người nộp thuế đặt câu hỏi về việc chi hàng tỷ đô la cho các sứ mệnh sao Hỏa."
+  },
+  {
+    "id": "space-exploration-earth_topic_0",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "public funding",
+    "englishDefinition": "Money from government budgets derived from taxes.",
+    "englishExample": "Public funding for space programs remains controversial.",
+    "vietnameseDefinition": "Tiền từ ngân sách chính phủ có nguồn gốc từ thuế.",
+    "vietnameseExample": "Tài trợ công cho các chương trình không gian vẫn còn gây tranh cãi."
+  },
+  {
+    "id": "space-exploration-earth_topic_1",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "NASA budget",
+    "englishDefinition": "Government allocation to the space agency.",
+    "englishExample": "The NASA budget accounts for less than one percent of federal spending.",
+    "vietnameseDefinition": "Phân bổ của chính phủ cho cơ quan không gian.",
+    "vietnameseExample": "Ngân sách NASA chiếm chưa đến một phần trăm chi tiêu liên bang."
+  },
+  {
+    "id": "space-exploration-earth_topic_2",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "Mars missions",
+    "englishDefinition": "Space exploration programs targeting the planet Mars.",
+    "englishExample": "Mars missions cost billions while millions lack clean water on Earth.",
+    "vietnameseDefinition": "Các chương trình khám phá không gian nhắm đến hành tinh Sao Hỏa.",
+    "vietnameseExample": "Các sứ mệnh sao Hỏa tốn hàng tỷ đô la trong khi hàng triệu người thiếu nước sạch trên Trái đất."
+  },
+  {
+    "id": "space-exploration-earth_topic_3",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "climate change funding",
+    "englishDefinition": "Investment in addressing global warming.",
+    "englishExample": "Some argue climate change funding deserves higher priority than space exploration.",
+    "vietnameseDefinition": "Đầu tư vào giải quyết sự nóng lên toàn cầu.",
+    "vietnameseExample": "Một số người cho rằng tài trợ biến đổi khí hậu заслуживает ưu tiên cao hơn khám phá không gian."
+  },
+  {
+    "id": "space-exploration-earth_topic_4",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "poverty reduction",
+    "englishDefinition": "Efforts and programs to decrease economic hardship.",
+    "englishExample": "Poverty reduction programs could benefit from redirected space budgets.",
+    "vietnameseDefinition": "Các nỗ lực và chương trình để giảm khó khăn kinh tế.",
+    "vietnameseExample": "Các chương trình giảm nghèo có thể được hưởng lợi từ việc chuyển hướng ngân sách không gian."
+  },
+  {
+    "id": "space-exploration-earth_topic_5",
+    "fileId": "space-exploration-earth",
+    "type": "topic",
+    "phrase": "long-term benefits",
+    "englishDefinition": "Advantages that materialize over extended periods.",
+    "englishExample": "Space exploration offers long-term benefits through technological innovation.",
+    "vietnameseDefinition": "Lợi ích hiện thực hóa trong thời gian kéo dài.",
+    "vietnameseExample": "Khám phá không gian mang lại lợi ích lâu dài thông qua đổi mới công nghệ."
+  },
+  {
+    "id": "space-exploration_academic_0",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "allocate",
+    "englishDefinition": "To distribute resources for a particular purpose.",
+    "englishExample": "Governments must decide how to allocate limited budgets effectively.",
+    "vietnameseDefinition": "Phân bổ nguồn lực cho một mục đích cụ thể.",
+    "vietnameseExample": "Chính phủ phải quyết định cách phân bổ ngân sách hạn chế một cách hiệu quả."
+  },
+  {
+    "id": "space-exploration_academic_1",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "innovation",
+    "englishDefinition": "Introduction of new ideas, methods, or inventions.",
+    "englishExample": "Space programs have driven technological innovation in various fields.",
+    "vietnameseDefinition": "Giới thiệu các ý tưởng, phương pháp hoặc phát minh mới.",
+    "vietnameseExample": "Các chương trình không gian đã thúc đẩy đổi mới công nghệ trong nhiều lĩnh vực."
+  },
+  {
+    "id": "space-exploration_academic_2",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "priority",
+    "englishDefinition": "Something regarded as more important than others.",
+    "englishExample": "Many argue that poverty reduction should be the top priority for government spending.",
+    "vietnameseDefinition": "Điều gì đó được coi là quan trọng hơn những điều khác.",
+    "vietnameseExample": "Nhiều người cho rằng giảm nghèo nên là ưu tiên hàng đầu cho chi tiêu chính phủ."
+  },
+  {
+    "id": "space-exploration_academic_3",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "resources",
+    "englishDefinition": "Available assets including money, materials, and personnel.",
+    "englishExample": "Public resources are finite and must be used strategically.",
+    "vietnameseDefinition": "Các tài sản có sẵn bao gồm tiền, vật liệu và nhân sự.",
+    "vietnameseExample": "Nguồn lực công là hữu hạn và phải được sử dụng một cách chiến lược."
+  },
+  {
+    "id": "space-exploration_academic_4",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "justification",
+    "englishDefinition": "Valid reason or explanation for an action.",
+    "englishExample": "Proponents provide scientific justification for space exploration funding.",
+    "vietnameseDefinition": "Lý do hợp lệ hoặc giải thích cho một hành động.",
+    "vietnameseExample": "Những người ủng hộ cung cấp biện minh khoa học cho tài trợ khám phá không gian."
+  },
+  {
+    "id": "space-exploration_academic_5",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "advancement",
+    "englishDefinition": "Progress or development in a particular field.",
+    "englishExample": "Space research contributes to scientific advancement globally.",
+    "vietnameseDefinition": "Tiến bộ hoặc phát triển trong một lĩnh vực cụ thể.",
+    "vietnameseExample": "Nghiên cứu không gian đóng góp vào tiến bộ khoa học toàn cầu."
+  },
+  {
+    "id": "space-exploration_academic_6",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "pressing",
+    "englishDefinition": "Requiring immediate attention; urgent.",
+    "englishExample": "Climate change is a pressing issue that demands immediate action.",
+    "vietnameseDefinition": "Đòi hỏi sự chú ý ngay lập tức; khẩn cấp.",
+    "vietnameseExample": "Biến đổi khí hậu là một vấn đề cấp bách đòi hỏi hành động ngay lập tức."
+  },
+  {
+    "id": "space-exploration_academic_7",
+    "fileId": "space-exploration",
+    "type": "academic",
+    "word": "expenditure",
+    "englishDefinition": "The action of spending funds.",
+    "englishExample": "Space exploration expenditure represents a small fraction of national budgets.",
+    "vietnameseDefinition": "Hành động chi tiêu tiền.",
+    "vietnameseExample": "Chi tiêu khám phá không gian đại diện cho một phần nhỏ của ngân sách quốc gia."
+  },
+  {
+    "id": "space-exploration_topic_0",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "space program",
+    "englishDefinition": "Organized activities for space research and exploration.",
+    "englishExample": "National space programs have produced numerous technological spinoffs.",
+    "vietnameseDefinition": "Các hoạt động có tổ chức cho nghiên cứu và khám phá không gian.",
+    "vietnameseExample": "Các chương trình không gian quốc gia đã tạo ra nhiều sản phẩm phụ công nghệ."
+  },
+  {
+    "id": "space-exploration_topic_1",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "domestic issues",
+    "englishDefinition": "Problems within a country's borders.",
+    "englishExample": "Critics argue that domestic issues deserve greater funding than space missions.",
+    "vietnameseDefinition": "Các vấn đề trong biên giới một quốc gia.",
+    "vietnameseExample": "Các nhà phê bình cho rằng các vấn đề trong nước заслуживает tài trợ lớn hơn so với các sứ mệnh không gian."
+  },
+  {
+    "id": "space-exploration_topic_2",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "scientific advancement",
+    "englishDefinition": "Progress in scientific knowledge and capabilities.",
+    "englishExample": "Space exploration accelerates scientific advancement in multiple disciplines.",
+    "vietnameseDefinition": "Tiến bộ trong kiến thức và khả năng khoa học.",
+    "vietnameseExample": "Khám phá không gian đẩy nhanh tiến bộ khoa học trong nhiều ngành học."
+  },
+  {
+    "id": "space-exploration_topic_3",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "limited budget",
+    "englishDefinition": "Restricted amount of available funding.",
+    "englishExample": "Governments operate with limited budgets that require careful prioritization.",
+    "vietnameseDefinition": "Lượng tài trợ có sẵn bị hạn chế.",
+    "vietnameseExample": "Chính phủ hoạt động với ngân sách hạn chế đòi hỏi ưu tiên cẩn thận."
+  },
+  {
+    "id": "space-exploration_topic_4",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "immediate needs",
+    "englishDefinition": "Urgent requirements that need prompt attention.",
+    "englishExample": "Immediate needs like healthcare often compete with long-term space goals.",
+    "vietnameseDefinition": "Yêu cầu khẩn cấp cần sự chú ý nhanh chóng.",
+    "vietnameseExample": "Nhu cầu trước mắt như chăm sóc sức khỏe thường cạnh tranh với mục tiêu không gian lâu dài."
+  },
+  {
+    "id": "space-exploration_topic_5",
+    "fileId": "space-exploration",
+    "type": "topic",
+    "phrase": "technological spinoffs",
+    "englishDefinition": "Secondary benefits or products derived from research.",
+    "englishExample": "Space research has generated technological spinoffs in medicine and communications.",
+    "vietnameseDefinition": "Lợi ích phụ hoặc sản phẩm có nguồn gốc từ nghiên cứu.",
+    "vietnameseExample": "Nghiên cứu không gian đã tạo ra các sản phẩm phụ công nghệ trong y học và truyền thông."
+  },
+  {
+    "id": "sports-big-business_academic_0",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "commercialization",
+    "englishDefinition": "The process of managing or running something primarily for financial profit.",
+    "englishExample": "The commercialization of sports has transformed how games are played and marketed.",
+    "vietnameseDefinition": "Quá trình quản lý hoặc điều hành điều gì đó chủ yếu để kiếm lợi nhuận tài chính.",
+    "vietnameseExample": "Thương mại hóa thể thao đã biến đổi cách các trò chơi được chơi và tiếp thị."
+  },
+  {
+    "id": "sports-big-business_academic_1",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "sponsorship deals",
+    "englishDefinition": "Financial agreements where companies pay to be associated with sports teams or events.",
+    "englishExample": "Major sponsorship deals bring millions of dollars to professional sports leagues.",
+    "vietnameseDefinition": "Các thỏa thuận tài chính nơi các công ty trả tiền để được liên kết với các đội thể thao hoặc sự kiện.",
+    "vietnameseExample": "Các hợp đồng tài trợ lớn mang lại hàng triệu đô la cho các giải đấu thể thao chuyên nghiệp."
+  },
+  {
+    "id": "sports-big-business_academic_2",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "athlete salaries",
+    "englishDefinition": "The wages and compensation paid to professional sports players.",
+    "englishExample": "Athlete salaries in top football leagues have reached extremely high levels.",
+    "vietnameseDefinition": "Tiền lương và mức đền bù trả cho các cầu thủ thể thao chuyên nghiệp.",
+    "vietnameseExample": "Lương vận động viên trong các giải bóng đá hàng đầu đã đạt đến mức cực kỳ cao."
+  },
+  {
+    "id": "sports-big-business_academic_3",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "grassroots sports",
+    "englishDefinition": "Amateur and community-level sports participation at the local level.",
+    "englishExample": "Critics argue that commercialization diverts resources away from grassroots sports.",
+    "vietnameseDefinition": "Sự tham gia thể thao nghiệp dư và cấp cộng đồng ở cấp địa phương.",
+    "vietnameseExample": "Các nhà phê bình cho rằng thương mại hóa chuyển hướng nguồn lực khỏi thể thao cơ sở."
+  },
+  {
+    "id": "sports-big-business_academic_4",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "sports industry",
+    "englishDefinition": "The business sector encompassing professional sports, equipment, media rights, and related services.",
+    "englishExample": "The global sports industry generates hundreds of billions of dollars annually.",
+    "vietnameseDefinition": "Ngành kinh doanh bao gồm thể thao chuyên nghiệp, thiết bị, quyền truyền thông và các dịch vụ liên quan.",
+    "vietnameseExample": "Ngành công nghiệp thể thao toàn cầu tạo ra hàng trăm tỷ đô la hàng năm."
+  },
+  {
+    "id": "sports-big-business_academic_5",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "performance enhancement",
+    "englishDefinition": "Methods and resources used to improve athletic capability and results.",
+    "englishExample": "Large revenues allow investment in advanced performance enhancement technologies.",
+    "vietnameseDefinition": "Các phương pháp và nguồn lực được sử dụng để cải thiện khả năng và kết quả thể thao.",
+    "vietnameseExample": "Doanh thu lớn cho phép đầu tư vào các công nghệ nâng cao hiệu suất tiên tiến."
+  },
+  {
+    "id": "sports-big-business_academic_6",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "lucrative",
+    "englishDefinition": "Producing a great deal of profit or wealth.",
+    "englishExample": "Professional sports have become increasingly lucrative for top athletes.",
+    "vietnameseDefinition": "Tạo ra nhiều lợi nhuận hoặc của cải.",
+    "vietnameseExample": "Thể thao chuyên nghiệp ngày càng sinh lời cho các vận động viên hàng đầu."
+  },
+  {
+    "id": "sports-big-business_academic_7",
+    "fileId": "sports-big-business",
+    "type": "academic",
+    "word": "integrity",
+    "englishDefinition": "The quality of being honest and having strong moral principles.",
+    "englishExample": "Financial pressures can compromise the integrity of competitive sports.",
+    "vietnameseDefinition": "Chất lượng trung thực và có các nguyên tắc đạo đức vững chắc.",
+    "vietnameseExample": "Áp lực tài chính có thể làm tổn hại đến sự chính trực của thể thao thi đấu."
+  }
+]

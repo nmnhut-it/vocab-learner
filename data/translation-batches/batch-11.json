@@ -1,0 +1,502 @@
+[
+  {
+    "id": "museums-local-visitors_topic_1",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "free entry days",
+    "englishDefinition": "Designated days when admission is free.",
+    "englishExample": "Free entry days on weekends encourage families to visit cultural sites.",
+    "vietnameseDefinition": "Những ngày được chỉ định khi vé vào cửa miễn phí.",
+    "vietnameseExample": "Các ngày miễn phí vào cuối tuần khuyến khích các gia đình đến thăm các địa điểm văn hóa."
+  },
+  {
+    "id": "museums-local-visitors_topic_2",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "school partnerships",
+    "englishDefinition": "Collaborative arrangements with educational institutions.",
+    "englishExample": "School partnerships can integrate museum visits into the curriculum.",
+    "vietnameseDefinition": "Sự hợp tác với các cơ sở giáo dục.",
+    "vietnameseExample": "Quan hệ đối tác với trường học có thể tích hợp các chuyến thăm bảo tàng vào chương trình giảng dạy."
+  },
+  {
+    "id": "museums-local-visitors_topic_3",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "local discounts",
+    "englishDefinition": "Reduced prices for area residents.",
+    "englishExample": "Offering local discounts makes museums more affordable for regular visits.",
+    "vietnameseDefinition": "Giá ưu đãi cho cư dân địa phương.",
+    "vietnameseExample": "Việc cung cấp giảm giá cho người dân địa phương giúp các chuyến thăm bảo tàng thường xuyên trở nên dễ tiếp cận hơn về mặt chi phí."
+  },
+  {
+    "id": "museums-local-visitors_topic_4",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "cultural institutions",
+    "englishDefinition": "Organizations dedicated to preserving and sharing culture.",
+    "englishExample": "Cultural institutions must adapt to serve both tourists and local communities.",
+    "vietnameseDefinition": "Các tổ chức chuyên bảo tồn và chia sẻ văn hóa.",
+    "vietnameseExample": "Các cơ quan văn hóa phải thích nghi để phục vụ cả khách du lịch và cộng đồng địa phương."
+  },
+  {
+    "id": "museums-local-visitors_topic_5",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "temporary exhibitions",
+    "englishDefinition": "Short-term displays that change regularly.",
+    "englishExample": "Rotating temporary exhibitions encourage locals to return frequently.",
+    "vietnameseDefinition": "Các triển lãm ngắn hạn được thay đổi thường xuyên.",
+    "vietnameseExample": "Các triển lãm tạm thời luân phiên khuyến khích người dân địa phương quay lại thường xuyên."
+  },
+  {
+    "id": "museums-local-visitors_topic_6",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "heritage sites",
+    "englishDefinition": "Locations of historical or cultural importance.",
+    "englishExample": "Many heritage sites struggle to attract local visitors despite tourist popularity.",
+    "vietnameseDefinition": "Các địa điểm có tầm quan trọng về lịch sử hoặc văn hóa.",
+    "vietnameseExample": "Nhiều di sản văn hóa gặp khó khăn trong việc thu hút du khách địa phương mặc dù rất phổ biến với khách du lịch."
+  },
+  {
+    "id": "museums-local-visitors_topic_7",
+    "fileId": "museums-local-visitors",
+    "type": "topic",
+    "phrase": "promotional campaigns",
+    "englishDefinition": "Organized efforts to advertise or publicize something.",
+    "englishExample": "Targeted promotional campaigns can raise awareness among local residents.",
+    "vietnameseDefinition": "Các nỗ lực có tổ chức để quảng cáo hoặc công khai hóa điều gì đó.",
+    "vietnameseExample": "Các chiến dịch quảng bá có mục tiêu có thể nâng cao nhận thức trong cư dân địa phương."
+  },
+  {
+    "id": "natural-resource-consumption_academic_0",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "depletion",
+    "englishDefinition": "The reduction or exhaustion of a resource.",
+    "englishExample": "The depletion of fossil fuels poses serious environmental challenges.",
+    "vietnameseDefinition": "Sự suy giảm hoặc cạn kiệt tài nguyên.",
+    "vietnameseExample": "Sự cạn kiệt nhiên liệu hóa thạch gây ra những thách thức nghiêm trọng về môi trường."
+  },
+  {
+    "id": "natural-resource-consumption_academic_1",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "sustainability",
+    "englishDefinition": "The ability to maintain resources for future generations.",
+    "englishExample": "Environmental sustainability requires careful management of natural resources.",
+    "vietnameseDefinition": "Khả năng duy trì tài nguyên cho các thế hệ tương lai.",
+    "vietnameseExample": "Tính bền vững môi trường đòi hỏi quản lý cẩn thận tài nguyên thiên nhiên."
+  },
+  {
+    "id": "natural-resource-consumption_academic_2",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "exponential",
+    "englishDefinition": "Increasing at a rapidly accelerating rate.",
+    "englishExample": "Population growth has led to exponential increases in resource consumption.",
+    "vietnameseDefinition": "Tăng với tốc độ nhanh chóng gia tăng.",
+    "vietnameseExample": "Tăng trưởng dân số đã dẫn đến sự gia tăng theo cấp số nhân trong tiêu thụ tài nguyên."
+  },
+  {
+    "id": "natural-resource-consumption_academic_3",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "implement",
+    "englishDefinition": "To put a plan or decision into effect.",
+    "englishExample": "Governments must implement stricter regulations on resource extraction.",
+    "vietnameseDefinition": "Đưa một kế hoạch hoặc quyết định vào thực thi.",
+    "vietnameseExample": "Chính phủ phải thực thi các quy định chặt chẽ hơn về khai thác tài nguyên."
+  },
+  {
+    "id": "natural-resource-consumption_academic_4",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "conservation",
+    "englishDefinition": "The protection and preservation of natural resources.",
+    "englishExample": "Forest conservation is essential for maintaining biodiversity.",
+    "vietnameseDefinition": "Sự bảo vệ và gìn giữ tài nguyên thiên nhiên.",
+    "vietnameseExample": "Bảo tồn rừng là điều thiết yếu để duy trì đa dạng sinh học."
+  },
+  {
+    "id": "natural-resource-consumption_academic_5",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "mitigate",
+    "englishDefinition": "To make less severe or reduce the impact.",
+    "englishExample": "Renewable energy can mitigate the depletion of fossil fuels.",
+    "vietnameseDefinition": "Làm giảm mức độ nghiêm trọng hoặc giảm tác động.",
+    "vietnameseExample": "Năng lượng tái tạo có thể giảm thiểu sự cạn kiệt nhiên liệu hóa thạch."
+  },
+  {
+    "id": "natural-resource-consumption_academic_6",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "rampant",
+    "englishDefinition": "Widespread and difficult to control.",
+    "englishExample": "Rampant industrialization has accelerated resource depletion.",
+    "vietnameseDefinition": "Lan rộng và khó kiểm soát.",
+    "vietnameseExample": "Công nghiệp hóa tràn lan đã đẩy nhanh sự cạn kiệt tài nguyên."
+  },
+  {
+    "id": "natural-resource-consumption_academic_7",
+    "fileId": "natural-resource-consumption",
+    "type": "academic",
+    "word": "incentivize",
+    "englishDefinition": "To motivate or encourage through rewards.",
+    "englishExample": "Tax breaks can incentivize businesses to adopt sustainable practices.",
+    "vietnameseDefinition": "Thúc đẩy hoặc khuyến khích thông qua phần thưởng.",
+    "vietnameseExample": "Giảm thuế có thể khuyến khích doanh nghiệp áp dụng các hoạt động bền vững."
+  },
+  {
+    "id": "natural-resource-consumption_topic_0",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "renewable energy",
+    "englishDefinition": "Energy from sources that naturally replenish (solar, wind, hydro).",
+    "englishExample": "Transitioning to renewable energy reduces dependence on fossil fuels.",
+    "vietnameseDefinition": "Năng lượng từ các nguồn tự nhiên tái tạo (mặt trời, gió, thủy điện).",
+    "vietnameseExample": "Chuyển đổi sang năng lượng tái tạo làm giảm sự phụ thuộc vào nhiên liệu hóa thạch."
+  },
+  {
+    "id": "natural-resource-consumption_topic_1",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "carbon footprint",
+    "englishDefinition": "The total greenhouse gas emissions caused by activities.",
+    "englishExample": "Reducing our carbon footprint is crucial for environmental sustainability.",
+    "vietnameseDefinition": "Tổng lượng khí thải nhà kính do các hoạt động gây ra.",
+    "vietnameseExample": "Giảm dấu chân carbon của chúng ta là điều quan trọng cho tính bền vững môi trường."
+  },
+  {
+    "id": "natural-resource-consumption_topic_2",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "ecological balance",
+    "englishDefinition": "The equilibrium between living organisms and their environment.",
+    "englishExample": "Deforestation disrupts the ecological balance of entire ecosystems.",
+    "vietnameseDefinition": "Sự cân bằng giữa các sinh vật sống và môi trường của chúng.",
+    "vietnameseExample": "Phá rừng phá vỡ sự cân bằng sinh thái của toàn bộ hệ sinh thái."
+  },
+  {
+    "id": "natural-resource-consumption_topic_3",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "resource extraction",
+    "englishDefinition": "The process of removing natural resources from the earth.",
+    "englishExample": "Unregulated resource extraction leads to environmental degradation.",
+    "vietnameseDefinition": "Quá trình lấy tài nguyên thiên nhiên từ trái đất.",
+    "vietnameseExample": "Khai thác tài nguyên không được quản lý dẫn đến suy thoái môi trường."
+  },
+  {
+    "id": "natural-resource-consumption_topic_4",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "circular economy",
+    "englishDefinition": "An economic system aimed at eliminating waste through reuse and recycling.",
+    "englishExample": "A circular economy model can significantly reduce raw material consumption.",
+    "vietnameseDefinition": "Một hệ thống kinh tế nhằm loại bỏ chất thải thông qua tái sử dụng và tái chế.",
+    "vietnameseExample": "Mô hình kinh tế tuần hoàn có thể giảm đáng kể tiêu thụ nguyên liệu thô."
+  },
+  {
+    "id": "natural-resource-consumption_topic_5",
+    "fileId": "natural-resource-consumption",
+    "type": "topic",
+    "phrase": "population pressure",
+    "englishDefinition": "Strain on resources caused by growing population.",
+    "englishExample": "Population pressure intensifies competition for limited water resources.",
+    "vietnameseDefinition": "Áp lực lên tài nguyên do dân số tăng trưởng gây ra.",
+    "vietnameseExample": "Áp lực dân số làm gia tăng cạnh tranh cho nguồn nước hạn chế."
+  },
+  {
+    "id": "negative-news-media_academic_0",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "sensationalism",
+    "englishDefinition": "Presenting news in an exaggerated way to provoke strong reactions.",
+    "englishExample": "Media sensationalism often prioritizes shocking stories over important but less dramatic news.",
+    "vietnameseDefinition": "Trình bày tin tức theo cách phóng đại để kích thích phản ứng mạnh mẽ.",
+    "vietnameseExample": "Chủ nghĩa giật gân của truyền thông thường ưu tiên các câu chuyện gây sốc hơn tin tức quan trọng nhưng kém kịch tính."
+  },
+  {
+    "id": "negative-news-media_academic_1",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "media bias",
+    "englishDefinition": "Prejudice or favoritism in news reporting.",
+    "englishExample": "Media bias toward negative stories creates a distorted view of reality.",
+    "vietnameseDefinition": "Thành kiến hoặc thiên vị trong đưa tin.",
+    "vietnameseExample": "Sự thiên vị của truyền thông đối với các tin tiêu cực tạo ra một góc nhìn méo mó về thực tế."
+  },
+  {
+    "id": "negative-news-media_academic_2",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "public perception",
+    "englishDefinition": "How the general population views or understands something.",
+    "englishExample": "Constant negative news shapes public perception that society is deteriorating.",
+    "vietnameseDefinition": "Cách người dân nói chung nhìn nhận hoặc hiểu về điều gì đó.",
+    "vietnameseExample": "Tin tức tiêu cực liên tục định hình nhận thức công chúng rằng xã hội đang xuống cấp."
+  },
+  {
+    "id": "negative-news-media_academic_3",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "mental health",
+    "englishDefinition": "Psychological and emotional well-being.",
+    "englishExample": "Excessive exposure to negative news can adversely affect mental health.",
+    "vietnameseDefinition": "Sức khỏe tâm lý và cảm xúc.",
+    "vietnameseExample": "Tiếp xúc quá mức với tin tức tiêu cực có thể ảnh hưởng xấu đến sức khỏe tâm thần."
+  },
+  {
+    "id": "negative-news-media_academic_4",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "informed citizenry",
+    "englishDefinition": "A population that is knowledgeable about important issues.",
+    "englishExample": "An informed citizenry requires balanced news coverage, not just crisis reporting.",
+    "vietnameseDefinition": "Một dân số có hiểu biết về các vấn đề quan trọng.",
+    "vietnameseExample": "Công dân có hiểu biết đòi hỏi tin tức cân bằng, không chỉ đưa tin về khủng hoảng."
+  },
+  {
+    "id": "negative-news-media_academic_5",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "distort",
+    "englishDefinition": "To misrepresent or give a false account of reality.",
+    "englishExample": "Focusing exclusively on problems distorts the true state of society.",
+    "vietnameseDefinition": "Bóp méo hoặc đưa ra bản mô tả sai về thực tế.",
+    "vietnameseExample": "Tập trung chỉ vào các vấn đề sẽ bóp méo tình trạng thực sự của xã hội."
+  },
+  {
+    "id": "negative-news-media_academic_6",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "amplify",
+    "englishDefinition": "To increase or make stronger.",
+    "englishExample": "Social media platforms can amplify negative news stories, making them spread more rapidly.",
+    "vietnameseDefinition": "Tăng cường hoặc làm mạnh hơn.",
+    "vietnameseExample": "Các nền tảng truyền thông xã hội có thể khuếch đại các tin tức tiêu cực, khiến chúng lan truyền nhanh hơn."
+  },
+  {
+    "id": "negative-news-media_academic_7",
+    "fileId": "negative-news-media",
+    "type": "academic",
+    "word": "cultivate",
+    "englishDefinition": "To develop or encourage growth of something.",
+    "englishExample": "Fear-based reporting cultivates a climate of anxiety in society.",
+    "vietnameseDefinition": "Phát triển hoặc khuyến khích sự tăng trưởng của điều gì đó.",
+    "vietnameseExample": "Đưa tin dựa trên nỗi sợ hãi nuôi dưỡng bầu không khí lo lắng trong xã hội."
+  },
+  {
+    "id": "negative-news-media_topic_0",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "news consumption",
+    "englishDefinition": "The way people access and engage with news media.",
+    "englishExample": "Excessive news consumption of negative stories can lead to increased stress levels.",
+    "vietnameseDefinition": "Cách mọi người tiếp cận và tương tác với tin tức truyền thông.",
+    "vietnameseExample": "Tiêu thụ tin tức quá mức về các câu chuyện tiêu cực có thể dẫn đến tăng mức độ căng thẳng."
+  },
+  {
+    "id": "negative-news-media_topic_1",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "fear-based reporting",
+    "englishDefinition": "Journalism that emphasizes threats and dangers.",
+    "englishExample": "Fear-based reporting may attract viewers but undermines public trust and well-being.",
+    "vietnameseDefinition": "Báo chí nhấn mạnh các mối đe dọa và nguy hiểm.",
+    "vietnameseExample": "Đưa tin dựa trên nỗi sợ hãi có thể thu hút người xem nhưng làm suy yếu niềm tin công chúng và phúc lợi."
+  },
+  {
+    "id": "negative-news-media_topic_2",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "solutions journalism",
+    "englishDefinition": "Reporting that focuses on responses to problems, not just the problems.",
+    "englishExample": "Solutions journalism offers a more balanced approach by highlighting effective responses to challenges.",
+    "vietnameseDefinition": "Đưa tin tập trung vào các giải pháp cho vấn đề, không chỉ vấn đề.",
+    "vietnameseExample": "Báo chí giải pháp cung cấp một cách tiếp cận cân bằng hơn bằng cách nêu bật các phản ứng hiệu quả đối với thách thức."
+  },
+  {
+    "id": "negative-news-media_topic_3",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "psychological impact",
+    "englishDefinition": "Effects on mental and emotional state.",
+    "englishExample": "The psychological impact of relentless negative news includes anxiety and helplessness.",
+    "vietnameseDefinition": "Tác động lên trạng thái tinh thần và cảm xúc.",
+    "vietnameseExample": "Tác động tâm lý của tin tức tiêu cực không ngừng bao gồm lo lắng và bất lực."
+  },
+  {
+    "id": "negative-news-media_topic_4",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "balanced coverage",
+    "englishDefinition": "News reporting that presents multiple perspectives fairly.",
+    "englishExample": "Balanced coverage would include both challenges and progress in society.",
+    "vietnameseDefinition": "Đưa tin trình bày nhiều quan điểm một cách công bằng.",
+    "vietnameseExample": "Đưa tin cân bằng sẽ bao gồm cả thách thức và tiến bộ trong xã hội."
+  },
+  {
+    "id": "negative-news-media_topic_5",
+    "fileId": "negative-news-media",
+    "type": "topic",
+    "phrase": "editorial decisions",
+    "englishDefinition": "Choices made by news organizations about what to report.",
+    "englishExample": "Editorial decisions that favor sensational stories contribute to negativity bias.",
+    "vietnameseDefinition": "Các quyết định của tổ chức tin tức về nội dung đưa tin.",
+    "vietnameseExample": "Các quyết định biên tập ưu ái các câu chuyện giật gân góp phần vào thiên vị tiêu cực."
+  },
+  {
+    "id": "news-relevance_academic_0",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "informed",
+    "englishDefinition": "Having knowledge about current events and situations.",
+    "englishExample": "Citizens need to be informed about political decisions that affect their lives.",
+    "vietnameseDefinition": "Có kiến thức về các sự kiện và tình huống hiện tại.",
+    "vietnameseExample": "Công dân cần được thông tin về các quyết định chính trị ảnh hưởng đến cuộc sống của họ."
+  },
+  {
+    "id": "news-relevance_academic_1",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "relevance",
+    "englishDefinition": "The quality of being connected to the matter at hand.",
+    "englishExample": "Local news has direct relevance to community members.",
+    "vietnameseDefinition": "Chất lượng có liên quan đến vấn đề đang được đề cập.",
+    "vietnameseExample": "Tin tức địa phương có mối liên quan trực tiếp đến các thành viên cộng đồng."
+  },
+  {
+    "id": "news-relevance_academic_2",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "awareness",
+    "englishDefinition": "Knowledge or understanding of a situation or fact.",
+    "englishExample": "News media increases public awareness of social issues.",
+    "vietnameseDefinition": "Kiến thức hoặc hiểu biết về một tình huống hoặc sự thật.",
+    "vietnameseExample": "Truyền thông tin tức tăng nhận thức công chúng về các vấn đề xã hội."
+  },
+  {
+    "id": "news-relevance_academic_3",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "essential",
+    "englishDefinition": "Absolutely necessary or extremely important.",
+    "englishExample": "Access to news is essential for democratic participation.",
+    "vietnameseDefinition": "Hoàn toàn cần thiết hoặc cực kỳ quan trọng.",
+    "vietnameseExample": "Tiếp cận tin tức là điều thiết yếu cho sự tham gia dân chủ."
+  },
+  {
+    "id": "news-relevance_academic_4",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "empowerment",
+    "englishDefinition": "The process of becoming stronger and more confident.",
+    "englishExample": "News consumption leads to citizen empowerment through knowledge.",
+    "vietnameseDefinition": "Quá trình trở nên mạnh mẽ hơn và tự tin hơn.",
+    "vietnameseExample": "Tiêu thụ tin tức dẫn đến trao quyền cho công dân thông qua kiến thức."
+  },
+  {
+    "id": "news-relevance_academic_5",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "trivial",
+    "englishDefinition": "Of little value or importance.",
+    "englishExample": "Some argue that celebrity news is trivial and disconnected from real issues.",
+    "vietnameseDefinition": "Có giá trị hoặc tầm quan trọng nhỏ.",
+    "vietnameseExample": "Một số người cho rằng tin tức về người nổi tiếng là tầm thường và không liên quan đến các vấn đề thực sự."
+  },
+  {
+    "id": "news-relevance_academic_6",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "sensationalized",
+    "englishDefinition": "Presented in a way to cause excitement or shock.",
+    "englishExample": "Sensationalized reporting can distort the importance of events.",
+    "vietnameseDefinition": "Được trình bày theo cách gây sự phấn khích hoặc sốc.",
+    "vietnameseExample": "Đưa tin giật gân có thể bóp méo tầm quan trọng của các sự kiện."
+  },
+  {
+    "id": "news-relevance_academic_7",
+    "fileId": "news-relevance",
+    "type": "academic",
+    "word": "implications",
+    "englishDefinition": "Possible effects or results of an action or decision.",
+    "englishExample": "Understanding the implications of policy changes requires following the news.",
+    "vietnameseDefinition": "Các tác động hoặc kết quả có thể có của một hành động hoặc quyết định.",
+    "vietnameseExample": "Hiểu các hàm ý của những thay đổi chính sách đòi hỏi theo dõi tin tức."
+  },
+  {
+    "id": "news-relevance_topic_0",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "current affairs",
+    "englishDefinition": "Important events happening now in politics, society, or economics.",
+    "englishExample": "Following current affairs helps citizens participate in democracy.",
+    "vietnameseDefinition": "Các sự kiện quan trọng đang diễn ra trong chính trị, xã hội hoặc kinh tế.",
+    "vietnameseExample": "Theo dõi thời sự giúp công dân tham gia vào nền dân chủ."
+  },
+  {
+    "id": "news-relevance_topic_1",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "media literacy",
+    "englishDefinition": "The ability to critically evaluate news and media content.",
+    "englishExample": "Media literacy enables people to distinguish reliable news from misinformation.",
+    "vietnameseDefinition": "Khả năng đánh giá phản biện tin tức và nội dung truyền thông.",
+    "vietnameseExample": "Hiểu biết truyền thông cho phép mọi người phân biệt tin tức đáng tin cậy với thông tin sai lệch."
+  },
+  {
+    "id": "news-relevance_topic_2",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "civic engagement",
+    "englishDefinition": "Active participation in community and political life.",
+    "englishExample": "News consumption supports civic engagement by informing voters.",
+    "vietnameseDefinition": "Sự tham gia tích cực vào đời sống cộng đồng và chính trị.",
+    "vietnameseExample": "Tiêu thụ tin tức hỗ trợ sự tham gia công dân bằng cách cung cấp thông tin cho cử tri."
+  },
+  {
+    "id": "news-relevance_topic_3",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "global perspective",
+    "englishDefinition": "Understanding of worldwide events and their interconnections.",
+    "englishExample": "International news provides a global perspective on shared challenges.",
+    "vietnameseDefinition": "Hiểu biết về các sự kiện toàn cầu và mối liên hệ của chúng.",
+    "vietnameseExample": "Tin tức quốc tế cung cấp góc nhìn toàn cầu về các thách thức chung."
+  },
+  {
+    "id": "news-relevance_topic_4",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "informed decisions",
+    "englishDefinition": "Choices made based on knowledge and understanding.",
+    "englishExample": "Citizens can make informed decisions when they follow news regularly.",
+    "vietnameseDefinition": "Các lựa chọn được đưa ra dựa trên kiến thức và hiểu biết.",
+    "vietnameseExample": "Công dân có thể đưa ra quyết định sáng suốt khi họ theo dõi tin tức thường xuyên."
+  },
+  {
+    "id": "news-relevance_topic_5",
+    "fileId": "news-relevance",
+    "type": "topic",
+    "phrase": "public discourse",
+    "englishDefinition": "Discussion and debate about issues affecting society.",
+    "englishExample": "News media shapes public discourse on important social issues.",
+    "vietnameseDefinition": "Thảo luận và tranh luận về các vấn đề ảnh hưởng đến xã hội.",
+    "vietnameseExample": "Truyền thông tin tức định hình diễn ngôn công chúng về các vấn đề xã hội quan trọng."
+  },
+  {
+    "id": "online-education_academic_0",
+    "fileId": "online-education",
+    "type": "academic",
+    "word": "accessible",
+    "englishDefinition": "Easy to reach or obtain.",
+    "englishExample": "Online courses make education more accessible to people in remote areas.",
+    "vietnameseDefinition": "Dễ dàng tiếp cận hoặc đạt được.",
+    "vietnameseExample": "Các khóa học trực tuyến làm cho giáo dục dễ tiếp cận hơn với người dân ở các vùng xa xôi."
+  }
+]

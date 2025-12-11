@@ -1,0 +1,502 @@
+[
+  {
+    "id": "art-music-education_topic_5",
+    "fileId": "art-music-education",
+    "type": "topic",
+    "phrase": "emotional intelligence",
+    "englishDefinition": "The capacity to understand and manage emotions.",
+    "englishExample": "Artistic expression helps develop emotional intelligence and self-awareness.",
+    "vietnameseDefinition": "Khả năng hiểu và quản lý cảm xúc.",
+    "vietnameseExample": "Biểu đạt nghệ thuật giúp phát triển trí tuệ cảm xúc và nhận thức về bản thân."
+  },
+  {
+    "id": "artificial-intelligence_academic_0",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "automation",
+    "englishDefinition": "Use of technology to perform tasks without human intervention.",
+    "englishExample": "AI-driven automation is transforming manufacturing and service industries.",
+    "vietnameseDefinition": "Việc sử dụng công nghệ để thực hiện các nhiệm vụ mà không cần can thiệp của con người.",
+    "vietnameseExample": "Tự động hóa dựa trên AI đang thay đổi các ngành sản xuất và dịch vụ."
+  },
+  {
+    "id": "artificial-intelligence_academic_1",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "displacement",
+    "englishDefinition": "The act of forcing something from its place.",
+    "englishExample": "Worker displacement due to AI poses significant economic challenges.",
+    "vietnameseDefinition": "Hành động đẩy cái gì đó ra khỏi vị trí của nó.",
+    "vietnameseExample": "Việc người lao động bị thay thế do AI tạo ra những thách thức kinh tế đáng kể."
+  },
+  {
+    "id": "artificial-intelligence_academic_2",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "efficiency",
+    "englishDefinition": "Achieving maximum productivity with minimum wasted effort.",
+    "englishExample": "AI systems dramatically improve operational efficiency in many sectors.",
+    "vietnameseDefinition": "Đạt được năng suất tối đa với nỗ lực lãng phí tối thiểu.",
+    "vietnameseExample": "Các hệ thống AI cải thiện đáng kể hiệu suất hoạt động trong nhiều lĩnh vực."
+  },
+  {
+    "id": "artificial-intelligence_academic_3",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "obsolete",
+    "englishDefinition": "No longer in use or outdated.",
+    "englishExample": "Many traditional job roles risk becoming obsolete due to AI advancement.",
+    "vietnameseDefinition": "Không còn được sử dụng hoặc lỗi thời.",
+    "vietnameseExample": "Nhiều vai trò công việc truyền thống có nguy cơ trở nên lỗi thời do sự tiến bộ của AI."
+  },
+  {
+    "id": "artificial-intelligence_academic_4",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "unprecedented",
+    "englishDefinition": "Never done or experienced before.",
+    "englishExample": "AI represents a major transformation of the global workforce.",
+    "vietnameseDefinition": "Chưa từng được thực hiện hoặc trải nghiệm trước đây.",
+    "vietnameseExample": "AI đại diện cho sự chuyển đổi chưa từng có của lực lượng lao động toàn cầu."
+  },
+  {
+    "id": "artificial-intelligence_academic_5",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "adaptability",
+    "englishDefinition": "Ability to adjust to new conditions.",
+    "englishExample": "Workers need greater adaptability to thrive in an AI-dominated economy.",
+    "vietnameseDefinition": "Khả năng thích nghi với các điều kiện mới.",
+    "vietnameseExample": "Người lao động cần khả năng thích nghi tốt hơn để phát triển trong nền kinh tế bị chi phối bởi AI."
+  },
+  {
+    "id": "artificial-intelligence_academic_6",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "proliferation",
+    "englishDefinition": "Rapid increase or spread.",
+    "englishExample": "The proliferation of AI technologies is reshaping employment patterns globally.",
+    "vietnameseDefinition": "Sự gia tăng hoặc lan rộng nhanh chóng.",
+    "vietnameseExample": "Sự phổ biến của công nghệ AI đang định hình lại các mô hình việc làm trên toàn cầu."
+  },
+  {
+    "id": "artificial-intelligence_academic_7",
+    "fileId": "artificial-intelligence",
+    "type": "academic",
+    "word": "mitigate",
+    "englishDefinition": "To make less severe or serious.",
+    "englishExample": "Governments must implement policies to mitigate AI's negative employment impacts.",
+    "vietnameseDefinition": "Làm giảm mức độ nghiêm trọng.",
+    "vietnameseExample": "Chính phủ phải thực hiện các chính sách để giảm thiểu tác động tiêu cực của AI đến việc làm."
+  },
+  {
+    "id": "artificial-intelligence_topic_0",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "workforce automation",
+    "englishDefinition": "Using technology to replace human labor.",
+    "englishExample": "Workforce automation through AI is accelerating across manufacturing sectors.",
+    "vietnameseDefinition": "Sử dụng công nghệ để thay thế lao động con người.",
+    "vietnameseExample": "Tự động hóa lực lượng lao động thông qua AI đang tăng tốc trong các lĩnh vực sản xuất."
+  },
+  {
+    "id": "artificial-intelligence_topic_1",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "job displacement",
+    "englishDefinition": "Workers losing jobs to technology.",
+    "englishExample": "Job displacement affects low-skilled workers most severely in automated industries.",
+    "vietnameseDefinition": "Người lao động mất việc vì công nghệ.",
+    "vietnameseExample": "Mất việc làm ảnh hưởng nghiêm trọng nhất đến người lao động có kỹ năng thấp trong các ngành tự động hóa."
+  },
+  {
+    "id": "artificial-intelligence_topic_2",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "machine learning",
+    "englishDefinition": "AI systems that improve through experience.",
+    "englishExample": "Machine learning algorithms now outperform humans in pattern recognition tasks.",
+    "vietnameseDefinition": "Hệ thống AI được cải thiện thông qua kinh nghiệm.",
+    "vietnameseExample": "Các thuật toán học máy hiện vượt trội hơn con người trong các nhiệm vụ nhận dạng mẫu."
+  },
+  {
+    "id": "artificial-intelligence_topic_3",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "economic inequality",
+    "englishDefinition": "Unequal distribution of wealth and opportunity.",
+    "englishExample": "AI adoption may exacerbate economic inequality between skilled and unskilled workers.",
+    "vietnameseDefinition": "Sự phân phối không đồng đều của cải và cơ hội.",
+    "vietnameseExample": "Việc áp dụng AI có thể làm trầm trọng thêm bất bình đẳng kinh tế giữa người lao động có kỹ năng và không có kỹ năng."
+  },
+  {
+    "id": "artificial-intelligence_topic_4",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "reskilling programs",
+    "englishDefinition": "Training to learn new job skills.",
+    "englishExample": "Reskilling programs help displaced workers transition to AI-complementary roles.",
+    "vietnameseDefinition": "Chương trình đào tạo để học các kỹ năng công việc mới.",
+    "vietnameseExample": "Các chương trình đào tạo lại kỹ năng giúp người lao động bị thay thế chuyển sang các vai trò bổ sung cho AI."
+  },
+  {
+    "id": "artificial-intelligence_topic_5",
+    "fileId": "artificial-intelligence",
+    "type": "topic",
+    "phrase": "cognitive tasks",
+    "englishDefinition": "Work requiring thinking and decision-making.",
+    "englishExample": "AI now handles complex cognitive tasks previously requiring human expertise.",
+    "vietnameseDefinition": "Công việc đòi hỏi tư duy và ra quyết định.",
+    "vietnameseExample": "AI hiện xử lý các nhiệm vụ nhận thức phức tạp trước đây đòi hỏi chuyên môn của con người."
+  },
+  {
+    "id": "arts-science_academic_0",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "emotional expression",
+    "englishDefinition": "The communication of feelings and emotions through creative means.",
+    "englishExample": "Music provides emotional expression that scientific data cannot capture.",
+    "vietnameseDefinition": "Việc truyền đạt cảm xúc và tình cảm thông qua các phương tiện sáng tạo.",
+    "vietnameseExample": "Âm nhạc cung cấp sự biểu đạt cảm xúc mà dữ liệu khoa học không thể nắm bắt được."
+  },
+  {
+    "id": "arts-science_academic_1",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "human condition",
+    "englishDefinition": "The characteristics and key events of human life including mortality, love, conflict.",
+    "englishExample": "Literature explores the human condition through complex characters and narratives.",
+    "vietnameseDefinition": "Các đặc điểm và sự kiện chính của cuộc sống con người bao gồm cái chết, tình yêu, xung đột.",
+    "vietnameseExample": "Văn học khám phá cảnh ngộ con người thông qua các nhân vật và câu chuyện phức tạp."
+  },
+  {
+    "id": "arts-science_academic_2",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "subjective experience",
+    "englishDefinition": "Personal perceptions and feelings that vary between individuals.",
+    "englishExample": "Arts capture subjective experience in ways that objective science cannot.",
+    "vietnameseDefinition": "Nhận thức và cảm xúc cá nhân khác nhau giữa các cá thể.",
+    "vietnameseExample": "Nghệ thuật nắm bắt trải nghiệm chủ quan theo cách mà khoa học khách quan không thể làm được."
+  },
+  {
+    "id": "arts-science_academic_3",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "aesthetic value",
+    "englishDefinition": "The quality of beauty and artistic appreciation.",
+    "englishExample": "Paintings offer aesthetic value that goes beyond measurable properties.",
+    "vietnameseDefinition": "Chất lượng của vẻ đẹp và sự đánh giá cao nghệ thuật.",
+    "vietnameseExample": "Tranh vẽ mang lại giá trị thẩm mỹ vượt ra ngoài các thuộc tính có thể đo lường được."
+  },
+  {
+    "id": "arts-science_academic_4",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "cultural identity",
+    "englishDefinition": "The sense of belonging to a particular culture or group.",
+    "englishExample": "Traditional music preserves cultural identity across generations.",
+    "vietnameseDefinition": "Ý thức thuộc về một nền văn hóa hoặc nhóm cụ thể.",
+    "vietnameseExample": "Âm nhạc truyền thống bảo tồn bản sắc văn hóa qua các thế hệ."
+  },
+  {
+    "id": "arts-science_academic_5",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "creativity",
+    "englishDefinition": "The ability to produce original and imaginative ideas or works.",
+    "englishExample": "Artistic creativity reveals possibilities that scientific logic cannot envision.",
+    "vietnameseDefinition": "Khả năng tạo ra các ý tưởng hoặc tác phẩm nguyên bản và giàu trí tưởng tượng.",
+    "vietnameseExample": "Sự sáng tạo nghệ thuật bộc lộ những khả năng mà logic khoa học không thể hình dung."
+  },
+  {
+    "id": "arts-science_academic_6",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "convey",
+    "englishDefinition": "To communicate or express something.",
+    "englishExample": "Poetry can convey complex emotions that data cannot express.",
+    "vietnameseDefinition": "Truyền đạt hoặc biểu đạt điều gì đó.",
+    "vietnameseExample": "Thơ có thể truyền tải những cảm xúc phức tạp mà dữ liệu không thể diễn đạt."
+  },
+  {
+    "id": "arts-science_academic_7",
+    "fileId": "arts-science",
+    "type": "academic",
+    "word": "empirical",
+    "englishDefinition": "Based on observation and measurement rather than theory.",
+    "englishExample": "While science uses empirical methods, arts explore non-quantifiable truths.",
+    "vietnameseDefinition": "Dựa trên quan sát và đo lường thay vì lý thuyết.",
+    "vietnameseExample": "Trong khi khoa học sử dụng phương pháp thực nghiệm, nghệ thuật khám phá những sự thật không thể định lượng."
+  },
+  {
+    "id": "arts-science_topic_0",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "emotional depth",
+    "englishDefinition": "The richness and complexity of feelings.",
+    "englishExample": "Classical music reveals emotional depth that scientific analysis cannot measure.",
+    "vietnameseDefinition": "Sự phong phú và phức tạp của cảm xúc.",
+    "vietnameseExample": "Nhạc cổ điển bộc lộ chiều sâu cảm xúc mà phân tích khoa học không thể đo lường được."
+  },
+  {
+    "id": "arts-science_topic_1",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "moral dilemmas",
+    "englishDefinition": "Difficult ethical questions without clear answers.",
+    "englishExample": "Literature explores moral dilemmas through character development and plot.",
+    "vietnameseDefinition": "Các câu hỏi đạo đức khó khăn không có câu trả lời rõ ràng.",
+    "vietnameseExample": "Văn học khám phá những tình huống tiến thoái lưỡng nan về đạo đức thông qua sự phát triển nhân vật và cốt truyện."
+  },
+  {
+    "id": "arts-science_topic_2",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "social commentary",
+    "englishDefinition": "Artistic expression that critiques or reflects on society.",
+    "englishExample": "Visual art provides powerful social commentary on inequality and injustice.",
+    "vietnameseDefinition": "Biểu đạt nghệ thuật phê phán hoặc phản ánh về xã hội.",
+    "vietnameseExample": "Nghệ thuật thị giác cung cấp những bình luận xã hội mạnh mẽ về bất bình đẳng và bất công."
+  },
+  {
+    "id": "arts-science_topic_3",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "universal themes",
+    "englishDefinition": "Topics and experiences common to all humanity.",
+    "englishExample": "Great literature addresses universal themes like love, loss and identity.",
+    "vietnameseDefinition": "Các chủ đề và trải nghiệm chung cho toàn nhân loại.",
+    "vietnameseExample": "Văn học vĩ đại đề cập đến những chủ đề phổ quát như tình yêu, mất mát và bản sắc."
+  },
+  {
+    "id": "arts-science_topic_4",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "therapeutic benefits",
+    "englishDefinition": "Healing or wellness effects.",
+    "englishExample": "Music therapy demonstrates therapeutic benefits for mental health that medicine alone cannot provide.",
+    "vietnameseDefinition": "Các tác dụng chữa lành hoặc phục hồi sức khỏe.",
+    "vietnameseExample": "Liệu pháp âm nhạc cho thấy lợi ích trị liệu cho sức khỏe tâm thần mà thuốc men đơn thuần không thể cung cấp."
+  },
+  {
+    "id": "arts-science_topic_5",
+    "fileId": "arts-science",
+    "type": "topic",
+    "phrase": "abstract concepts",
+    "englishDefinition": "Ideas that are not concrete or tangible.",
+    "englishExample": "Arts express abstract concepts like hope and freedom in tangible forms.",
+    "vietnameseDefinition": "Các ý tưởng không cụ thể hoặc hữu hình.",
+    "vietnameseExample": "Nghệ thuật diễn đạt các khái niệm trừu tượng như hy vọng và tự do ở dạng hữu hình."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_0",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "role models",
+    "englishDefinition": "People whose behavior is imitated by others, especially young people.",
+    "englishExample": "Many young people look to celebrities as role models for their own lives.",
+    "vietnameseDefinition": "Những người có hành vi được người khác bắt chước, đặc biệt là giới trẻ.",
+    "vietnameseExample": "Nhiều thanh niên coi người nổi tiếng như hình mẫu cho cuộc sống của họ."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_1",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "superficial",
+    "englishDefinition": "Existing or occurring at or on the surface; shallow and not deep or meaningful.",
+    "englishExample": "Celebrity culture often promotes superficial values like physical appearance over real achievements.",
+    "vietnameseDefinition": "Tồn tại hoặc xảy ra trên bề mặt; nông cạn và không sâu sắc hoặc có ý nghĩa.",
+    "vietnameseExample": "Văn hóa người nổi tiếng thường thúc đẩy các giá trị hời hợt như ngoại hình thay vì thành tích thực sự."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_2",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "materialism",
+    "englishDefinition": "Excessive regard for material possessions and physical comfort.",
+    "englishExample": "The constant display of luxury goods by influencers encourages materialism among teenagers.",
+    "vietnameseDefinition": "Sự coi trọng quá mức về của cải vật chất và sự thoải mái vật chất.",
+    "vietnameseExample": "Việc người có ảnh hưởng liên tục phô trương hàng xa xỉ khuyến khích chủ nghĩa vật chất ở thanh thiếu niên."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_3",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "accomplishments",
+    "englishDefinition": "Achievements or successful results through effort and skill.",
+    "englishExample": "Scientists and doctors gain recognition through their accomplishments rather than appearance.",
+    "vietnameseDefinition": "Những thành tựu hoặc kết quả thành công thông qua nỗ lực và kỹ năng.",
+    "vietnameseExample": "Các nhà khoa học và bác sĩ nhận được sự công nhận thông qua thành tựu của họ thay vì ngoại hình."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_4",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "influence",
+    "englishDefinition": "The power to affect someone's beliefs or actions.",
+    "englishExample": "Social media influencers have tremendous influence over young people's purchasing decisions.",
+    "vietnameseDefinition": "Sức mạnh ảnh hưởng đến niềm tin hoặc hành động của ai đó.",
+    "vietnameseExample": "Những người có ảnh hưởng trên mạng xã hội có ảnh hưởng to lớn đến quyết định mua sắm của giới trẻ."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_5",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "aspire",
+    "englishDefinition": "To have ambitions to achieve something.",
+    "englishExample": "Young people should aspire to meaningful careers rather than just fame and wealth.",
+    "vietnameseDefinition": "Có tham vọng đạt được điều gì đó.",
+    "vietnameseExample": "Giới trẻ nên khát vọng nghề nghiệp có ý nghĩa thay vì chỉ theo đuổi danh tiếng và của cải."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_6",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "prioritize",
+    "englishDefinition": "To designate or treat something as more important than other things.",
+    "englishExample": "Celebrity culture encourages people to prioritize appearance over substance.",
+    "vietnameseDefinition": "Chỉ định hoặc coi điều gì đó quan trọng hơn những thứ khác.",
+    "vietnameseExample": "Văn hóa người nổi tiếng khuyến khích mọi người ưu tiên ngoại hình hơn bản chất."
+  },
+  {
+    "id": "celebrities-fame-achievement_academic_7",
+    "fileId": "celebrities-fame-achievement",
+    "type": "academic",
+    "word": "distorted",
+    "englishDefinition": "Pulled or twisted out of shape; not accurately representing reality.",
+    "englishExample": "Reality TV shows present a distorted view of success and happiness.",
+    "vietnameseDefinition": "Bị kéo hoặc xoắn biến dạng; không phản ánh chính xác thực tế.",
+    "vietnameseExample": "Các chương trình truyền hình thực tế trình bày cái nhìn méo mó về thành công và hạnh phúc."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_0",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "celebrity culture",
+    "englishDefinition": "Society's fascination with and emphasis on famous people.",
+    "englishExample": "Celebrity culture has intensified with the rise of social media platforms.",
+    "vietnameseDefinition": "Sự mê đắm và nhấn mạnh của xã hội về những người nổi tiếng.",
+    "vietnameseExample": "Văn hóa người nổi tiếng đã tăng cường với sự phát triển của các nền tảng mạng xã hội."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_1",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "reality TV stars",
+    "englishDefinition": "People who become famous through reality television programs.",
+    "englishExample": "Many reality TV stars are famous for drama and lifestyle rather than talent or achievement.",
+    "vietnameseDefinition": "Những người trở nên nổi tiếng thông qua các chương trình truyền hình thực tế.",
+    "vietnameseExample": "Nhiều ngôi sao truyền hình thực tế nổi tiếng vì kịch tính và lối sống thay vì tài năng hay thành tích."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_2",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "social media influencers",
+    "englishDefinition": "People with large online followings who affect others' opinions and behaviors.",
+    "englishExample": "Social media influencers often promote products and lifestyles focused on appearance and consumption.",
+    "vietnameseDefinition": "Những người có lượng theo dõi trực tuyến lớn, ảnh hưởng đến ý kiến và hành vi của người khác.",
+    "vietnameseExample": "Những người có ảnh hưởng trên mạng xã hội thường quảng bá sản phẩm và lối sống tập trung vào ngoại hình và tiêu dùng."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_3",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "instant fame",
+    "englishDefinition": "Becoming famous very quickly without long-term effort.",
+    "englishExample": "The internet has created opportunities for instant fame without substantial accomplishment.",
+    "vietnameseDefinition": "Trở nên nổi tiếng rất nhanh chóng mà không cần nỗ lực lâu dài.",
+    "vietnameseExample": "Internet đã tạo ra cơ hội cho danh tiếng tức thì mà không cần thành tích đáng kể."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_4",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "superficial values",
+    "englishDefinition": "Shallow beliefs focused on external appearance and material wealth.",
+    "englishExample": "Constantly seeing luxury lifestyles online can promote superficial values among youth.",
+    "vietnameseDefinition": "Niềm tin nông cạn tập trung vào vẻ ngoài và của cải vật chất.",
+    "vietnameseExample": "Việc liên tục xem lối sống xa hoa trực tuyến có thể thúc đẩy các giá trị hời hợt ở giới trẻ."
+  },
+  {
+    "id": "celebrities-fame-achievement_topic_5",
+    "fileId": "celebrities-fame-achievement",
+    "type": "topic",
+    "phrase": "worthy achievements",
+    "englishDefinition": "Meaningful accomplishments that contribute to society.",
+    "englishExample": "Medical breakthroughs and scientific discoveries are worthy achievements that deserve recognition.",
+    "vietnameseDefinition": "Những thành tựu có ý nghĩa đóng góp cho xã hội.",
+    "vietnameseExample": "Các đột phá y học và khám phá khoa học là những thành tựu xứng đáng được ghi nhận."
+  },
+  {
+    "id": "celebrity-privacy_academic_0",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "intrusion",
+    "englishDefinition": "Unwelcome entry into another's private affairs.",
+    "englishExample": "Media intrusion into celebrity homes violates basic privacy rights.",
+    "vietnameseDefinition": "Sự xâm nhập không được chào đón vào đời tư của người khác.",
+    "vietnameseExample": "Sự xâm nhập của giới truyền thông vào nhà riêng của người nổi tiếng vi phạm quyền riêng tư cơ bản."
+  },
+  {
+    "id": "celebrity-privacy_academic_1",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "legitimate",
+    "englishDefinition": "Conforming to recognized principles or accepted standards.",
+    "englishExample": "There is legitimate public interest in how politicians spend taxpayer money.",
+    "vietnameseDefinition": "Phù hợp với các nguyên tắc được công nhận hoặc tiêu chuẩn được chấp nhận.",
+    "vietnameseExample": "Có sự quan tâm chính đáng của công chúng về cách các chính trị gia chi tiêu tiền thuế."
+  },
+  {
+    "id": "celebrity-privacy_academic_2",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "boundaries",
+    "englishDefinition": "Limits defining acceptable behavior.",
+    "englishExample": "Personal boundaries should be respected regardless of celebrity status.",
+    "vietnameseDefinition": "Các giới hạn xác định hành vi có thể chấp nhận được.",
+    "vietnameseExample": "Ranh giới cá nhân cần được tôn trọng bất kể địa vị người nổi tiếng."
+  },
+  {
+    "id": "celebrity-privacy_academic_3",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "scrutiny",
+    "englishDefinition": "Critical observation or examination.",
+    "englishExample": "Public figures naturally face greater scrutiny than private citizens.",
+    "vietnameseDefinition": "Sự quan sát hoặc xem xét kỹ lưỡng.",
+    "vietnameseExample": "Các nhân vật công chúng đương nhiên phải đối mặt với sự giám sát nhiều hơn so với công dân bình thường."
+  },
+  {
+    "id": "celebrity-privacy_academic_4",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "exploitation",
+    "englishDefinition": "Using something or someone unfairly for one's own advantage.",
+    "englishExample": "The exploitation of celebrity tragedies for profit raises ethical concerns.",
+    "vietnameseDefinition": "Sử dụng cái gì đó hoặc ai đó một cách bất công để lợi ích riêng.",
+    "vietnameseExample": "Việc khai thác bi kịch của người nổi tiếng vì lợi nhuận làm dấy lên mối lo ngại về đạo đức."
+  },
+  {
+    "id": "celebrity-privacy_academic_5",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "entitlement",
+    "englishDefinition": "The belief that one deserves privileges or special treatment.",
+    "englishExample": "The public's sense of entitlement to celebrity information has grown with social media.",
+    "vietnameseDefinition": "Niềm tin rằng mình xứng đáng được hưởng đặc quyền hoặc đối xử đặc biệt.",
+    "vietnameseExample": "Ý thức về quyền lợi của công chúng đối với thông tin người nổi tiếng đã tăng lên cùng với mạng xã hội."
+  },
+  {
+    "id": "celebrity-privacy_academic_6",
+    "fileId": "celebrity-privacy",
+    "type": "academic",
+    "word": "relentless",
+    "englishDefinition": "Unceasingly intense or harsh.",
+    "englishExample": "Relentless paparazzi pursuit can endanger celebrity safety.",
+    "vietnameseDefinition": "Không ngừng dữ dội hoặc khắc nghiệt.",
+    "vietnameseExample": "Sự truy đuổi không ngừng của paparazzi có thể gây nguy hiểm cho sự an toàn của người nổi tiếng."
+  }
+]

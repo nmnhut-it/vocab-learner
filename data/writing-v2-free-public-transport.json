@@ -87,7 +87,9 @@
               "gridlock",
               "traffic jams",
               "road congestion"
-            ]
+            ],
+            "vietnameseDefinition": "Tình trạng quá tải giao thông dẫn đến tốc độ di chuyển chậm lại.",
+            "vietnameseExample": "Ùn tắc giao thông khiến các thành phố mất hàng tỷ đô la do giảm năng suất mỗi năm."
           },
           {
             "word": "public transit",
@@ -99,7 +101,9 @@
               "public transport",
               "mass transit",
               "public transportation"
-            ]
+            ],
+            "vietnameseDefinition": "Dịch vụ vận chuyển công cộng dành cho mọi người.",
+            "vietnameseExample": "Phương tiện công cộng bao gồm xe buýt, tàu hỏa và hệ thống tàu điện ngầm."
           },
           {
             "word": "fiscal burden",
@@ -111,7 +115,9 @@
               "financial strain",
               "economic cost",
               "budgetary pressure"
-            ]
+            ],
+            "vietnameseDefinition": "Gánh nặng tài chính đối với ngân sách chính phủ.",
+            "vietnameseExample": "Giao thông công cộng miễn phí sẽ gây gánh nặng tài chính đáng kể cho người nộp thuế."
           },
           {
             "word": "ridership",
@@ -123,7 +129,9 @@
               "passenger numbers",
               "transit usage",
               "user base"
-            ]
+            ],
+            "vietnameseDefinition": "Số lượng hành khách sử dụng phương tiện công cộng.",
+            "vietnameseExample": "Luxembourg chứng kiến lượng hành khách tăng lên sau khi áp dụng giao thông công cộng miễn phí."
           },
           {
             "word": "infrastructure capacity",
@@ -135,7 +143,9 @@
               "system capacity",
               "service capacity",
               "operational limits"
-            ]
+            ],
+            "vietnameseDefinition": "Công suất tối đa mà hệ thống giao thông có thể chứa.",
+            "vietnameseExample": "Nhiều thành phố thiếu công suất cơ sở hạ tầng để đáp ứng nhu cầu vận chuyển tăng cao."
           },
           {
             "word": "sustainable mobility",
@@ -147,7 +157,9 @@
               "green transportation",
               "eco-friendly transit",
               "sustainable transport"
-            ]
+            ],
+            "vietnameseDefinition": "Phương thức vận chuyển giảm thiểu tác động đến môi trường.",
+            "vietnameseExample": "Các chính phủ đang đầu tư vào phương thức vận chuyển bền vững để giảm phát thải carbon."
           },
           {
             "word": "incentivize",
@@ -159,7 +171,9 @@
               "encourage",
               "motivate",
               "stimulate"
-            ]
+            ],
+            "vietnameseDefinition": "Khuyến khích hoặc thúc đẩy hành vi cụ thể thông qua phần thưởng.",
+            "vietnameseExample": "Giá vé miễn phí khuyến khích người đi làm từ bỏ phương tiện cá nhân."
           },
           {
             "word": "viable",
@@ -171,39 +185,53 @@
               "feasible",
               "practical",
               "workable"
-            ]
+            ],
+            "vietnameseDefinition": "Có khả năng hoạt động thành công, khả thi.",
+            "vietnameseExample": "Giao thông công cộng miễn phí 24/7 có thể không khả thi về mặt tài chính đối với hầu hết các thành phố."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "rush hour",
             "definition": "Peak travel times when traffic is heaviest.",
-            "example": "Traffic congestion is most severe during morning and evening rush hours."
+            "example": "Traffic congestion is most severe during morning and evening rush hours.",
+            "vietnameseDefinition": "Giờ cao điểm khi giao thông đông đúc nhất.",
+            "vietnameseExample": "Ùn tắc giao thông nghiêm trọng nhất vào giờ cao điểm buổi sáng và buổi tối."
           },
           {
             "phrase": "modal shift",
             "definition": "Change from one form of transportation to another.",
-            "example": "Free public transport aims to create a modal shift from cars to buses."
+            "example": "Free public transport aims to create a modal shift from cars to buses.",
+            "vietnameseDefinition": "Sự chuyển đổi từ phương thức vận chuyển này sang phương thức khác.",
+            "vietnameseExample": "Giao thông công cộng miễn phí nhằm tạo ra sự chuyển đổi từ ô tô sang xe buýt."
           },
           {
             "phrase": "fare-free transit",
             "definition": "Public transportation that requires no payment from passengers.",
-            "example": "Tallinn implemented fare-free transit for residents in 2013."
+            "example": "Tallinn implemented fare-free transit for residents in 2013.",
+            "vietnameseDefinition": "Giao thông công cộng không yêu cầu thanh toán từ hành khách.",
+            "vietnameseExample": "Tallinn triển khai giao thông công cộng miễn phí cho cư dân vào năm 2013."
           },
           {
             "phrase": "taxpayer funding",
             "definition": "Financial support provided through public tax revenue.",
-            "example": "Free public transport relies entirely on taxpayer funding."
+            "example": "Free public transport relies entirely on taxpayer funding.",
+            "vietnameseDefinition": "Hỗ trợ tài chính được cung cấp từ nguồn thuế công.",
+            "vietnameseExample": "Giao thông công cộng miễn phí hoàn toàn dựa vào nguồn tài trợ từ người nộp thuế."
           },
           {
             "phrase": "carbon emissions",
             "definition": "Release of carbon dioxide into the atmosphere.",
-            "example": "Reducing private car usage can significantly lower carbon emissions."
+            "example": "Reducing private car usage can significantly lower carbon emissions.",
+            "vietnameseDefinition": "Lượng khí carbon dioxide thải ra khí quyển.",
+            "vietnameseExample": "Giảm sử dụng ô tô cá nhân có thể làm giảm đáng kể lượng phát thải carbon."
           },
           {
             "phrase": "congestion pricing",
             "definition": "Charging fees to drive in busy areas during peak times.",
-            "example": "London uses congestion pricing as an alternative to free public transport."
+            "example": "London uses congestion pricing as an alternative to free public transport.",
+            "vietnameseDefinition": "Phí thu cho việc lái xe ở khu vực đông đúc trong giờ cao điểm.",
+            "vietnameseExample": "London sử dụng phí ùn tắc như một giải pháp thay thế cho giao thông công cộng miễn phí."
           }
         ],
         "linkingPhrases": {

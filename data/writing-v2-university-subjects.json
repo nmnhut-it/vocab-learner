@@ -84,7 +84,9 @@
             "synonyms": [
               "satisfaction",
               "contentment"
-            ]
+            ],
+            "vietnameseDefinition": "Sự thỏa mãn từ việc phát triển đầy đủ khả năng của bản thân.",
+            "vietnameseExample": "Học các môn mà học sinh yêu thích dẫn đến sự thỏa mãn cá nhân lớn hơn."
           },
           {
             "word": "employability",
@@ -95,7 +97,9 @@
             "synonyms": [
               "job readiness",
               "marketability"
-            ]
+            ],
+            "vietnameseDefinition": "Chất lượng phù hợp cho công việc có lương.",
+            "vietnameseExample": "Các môn học hướng nghiệp tăng cường khả năng làm việc của sinh viên sau khi tốt nghiệp."
           },
           {
             "word": "passion",
@@ -106,7 +110,9 @@
             "synonyms": [
               "enthusiasm",
               "interest"
-            ]
+            ],
+            "vietnameseDefinition": "Sự nhiệt tình hoặc quan tâm mạnh mẽ.",
+            "vietnameseExample": "Theo đuổi đam mê thường dẫn đến thành công trong học tập lớn hơn."
           },
           {
             "word": "pragmatic",
@@ -117,7 +123,9 @@
             "synonyms": [
               "practical",
               "realistic"
-            ]
+            ],
+            "vietnameseDefinition": "Giải quyết vấn đề theo cách thực tế.",
+            "vietnameseExample": "Cách tiếp cận thực dụng tập trung vào các môn học có con đường nghề nghiệp rõ ràng."
           },
           {
             "word": "innovation",
@@ -128,7 +136,9 @@
             "synonyms": [
               "creativity",
               "invention"
-            ]
+            ],
+            "vietnameseDefinition": "Sự giới thiệu những ý tưởng hoặc phương pháp mới.",
+            "vietnameseExample": "Học tập theo đam mê thường tạo ra sự đổi mới và những đột phá sáng tạo."
           },
           {
             "word": "credentials",
@@ -139,7 +149,9 @@
             "synonyms": [
               "qualifications",
               "certifications"
-            ]
+            ],
+            "vietnameseDefinition": "Bằng cấp thể hiện sự phù hợp cho điều gì đó.",
+            "vietnameseExample": "Bằng cấp hướng nghiệp cung cấp chứng chỉ mà nhà tuyển dụng tích cực tìm kiếm."
           },
           {
             "word": "well-rounded",
@@ -150,7 +162,9 @@
             "synonyms": [
               "balanced",
               "comprehensive"
-            ]
+            ],
+            "vietnameseDefinition": "Có tính cách được phát triển ở mọi khía cạnh.",
+            "vietnameseExample": "Học các môn học đa dạng tạo ra sinh viên tốt nghiệp toàn diện."
           },
           {
             "word": "specialization",
@@ -161,39 +175,53 @@
             "synonyms": [
               "expertise",
               "focus"
-            ]
+            ],
+            "vietnameseDefinition": "Tập trung vào một lĩnh vực nghiên cứu cụ thể.",
+            "vietnameseExample": "Giáo dục hướng nghiệp nhấn mạnh chuyên môn hóa trong các kỹ năng có thể bán được."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "liberal arts",
             "definition": "Academic subjects including humanities and sciences.",
-            "example": "Liberal arts education develops critical thinking across disciplines."
+            "example": "Liberal arts education develops critical thinking across disciplines.",
+            "vietnameseDefinition": "Các môn học thuật bao gồm nhân văn và khoa học.",
+            "vietnameseExample": "Giáo dục khai phóng phát triển tư duy phản biện xuyên suốt các ngành học."
           },
           {
             "phrase": "vocational training",
             "definition": "Education focused on specific trades or careers.",
-            "example": "Vocational training prepares students for immediate employment."
+            "example": "Vocational training prepares students for immediate employment.",
+            "vietnameseDefinition": "Giáo dục tập trung vào nghề hoặc nghề nghiệp cụ thể.",
+            "vietnameseExample": "Đào tạo nghề chuẩn bị cho sinh viên việc làm ngay lập tức."
           },
           {
             "phrase": "intrinsic motivation",
             "definition": "Drive coming from internal satisfaction.",
-            "example": "Studying subjects students love enhances intrinsic motivation."
+            "example": "Studying subjects students love enhances intrinsic motivation.",
+            "vietnameseDefinition": "Động lực đến từ sự thỏa mãn bên trong.",
+            "vietnameseExample": "Học các môn mà học sinh yêu thích tăng cường động lực nội tại."
           },
           {
             "phrase": "job market",
             "definition": "The availability of employment opportunities.",
-            "example": "Understanding the job market helps students choose practical degrees."
+            "example": "Understanding the job market helps students choose practical degrees.",
+            "vietnameseDefinition": "Sự sẵn có của cơ hội việc làm.",
+            "vietnameseExample": "Hiểu thị trường việc làm giúp sinh viên chọn bằng cấp thực tế."
           },
           {
             "phrase": "intellectual curiosity",
             "definition": "Desire to learn and understand.",
-            "example": "Passion-based study nurtures intellectual curiosity and lifelong learning."
+            "example": "Passion-based study nurtures intellectual curiosity and lifelong learning.",
+            "vietnameseDefinition": "Mong muốn học hỏi và hiểu biết.",
+            "vietnameseExample": "Học tập dựa trên đam mê nuôi dưỡng sự tò mò trí tuệ và học tập suốt đời."
           },
           {
             "phrase": "career prospects",
             "definition": "Likelihood of professional success.",
-            "example": "Practical subjects often offer stronger career prospects and salaries."
+            "example": "Practical subjects often offer stronger career prospects and salaries.",
+            "vietnameseDefinition": "Khả năng thành công trong nghề nghiệp.",
+            "vietnameseExample": "Các môn học thực tế thường mang lại triển vọng nghề nghiệp và mức lương tốt hơn."
           }
         ],
         "linkingPhrases": {
@@ -232,212 +260,1088 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Studying subjects students love",
-              "verb": "increase",
-              "keywords": [
-                "motivation",
-                "academic success"
-              ]
-            },
-            "hint": "Focus on how passion improves performance.",
-            "modelAnswer": "Studying subjects students love significantly increases their motivation and likelihood of academic success.",
-            "minWords": 12
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some believe students should study _____, others argue they should focus on _____.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "subjects they genuinely love and are passionate about",
+                      "the cheapest and easiest courses available",
+                      "only online programs and distance learning"
+                    ],
+                    "correctAnswer": "subjects they genuinely love and are passionate about"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "practical subjects with clear career prospects",
+                      "subjects with the shortest degree programs",
+                      "courses offered at prestigious universities only"
+                    ],
+                    "correctAnswer": "practical subjects with clear career prospects"
+                  }
+                ],
+                "correctSentence": "While some believe students should study subjects they genuinely love and are passionate about, others argue they should focus on practical subjects with clear career prospects.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "University curriculum choices remain _____, with opinions divided between _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "contentious in modern education debates",
+                      "simple and straightforward decisions",
+                      "irrelevant to most students"
+                    ],
+                    "correctAnswer": "contentious in modern education debates"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "following personal interests",
+                      "choosing popular majors",
+                      "selecting affordable programs"
+                    ],
+                    "correctAnswer": "following personal interests"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": [
+                      "prioritizing employability",
+                      "avoiding difficult courses",
+                      "minimizing study time"
+                    ],
+                    "correctAnswer": "prioritizing employability"
+                  }
+                ],
+                "correctSentence": "University curriculum choices remain contentious in modern education debates, with opinions divided between following personal interests and prioritizing employability.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "The debate between _____ and _____ reflects different priorities in higher education.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "passion-based learning",
+                      "expensive private education",
+                      "part-time study programs"
+                    ],
+                    "correctAnswer": "passion-based learning"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "career-focused education",
+                      "accelerated degree programs",
+                      "international study options"
+                    ],
+                    "correctAnswer": "career-focused education"
+                  }
+                ],
+                "correctSentence": "The debate between passion-based learning and career-focused education reflects different priorities in higher education.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "Although _____ offers personal fulfillment, _____ ensures financial security.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "studying subjects one loves",
+                      "attending famous universities",
+                      "completing degrees quickly"
+                    ],
+                    "correctAnswer": "studying subjects one loves"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "pursuing practical degrees",
+                      "choosing nearby institutions",
+                      "taking online courses"
+                    ],
+                    "correctAnswer": "pursuing practical degrees"
+                  }
+                ],
+                "correctSentence": "Although studying subjects one loves offers personal fulfillment, pursuing practical degrees ensures financial security.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will discuss both _____ and _____ before presenting my view.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "the benefits of passion-driven study",
+                      "the cost of university tuition",
+                      "the location of different campuses"
+                    ],
+                    "correctAnswer": "the benefits of passion-driven study"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "the advantages of career-oriented programs",
+                      "the difficulty of entrance examinations",
+                      "the availability of student housing"
+                    ],
+                    "correctAnswer": "the advantages of career-oriented programs"
+                  }
+                ],
+                "correctSentence": "This essay will discuss both the benefits of passion-driven study and the advantages of career-oriented programs before presenting my view.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "In my opinion, the ideal approach involves _____ with _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": [
+                      "balancing personal interests",
+                      "selecting the cheapest option",
+                      "avoiding challenging subjects"
+                    ],
+                    "correctAnswer": "balancing personal interests"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": [
+                      "realistic consideration of job market demands",
+                      "focusing only on prestigious institutions",
+                      "choosing the shortest programs available"
+                    ],
+                    "correctAnswer": "realistic consideration of job market demands"
+                  }
+                ],
+                "correctSentence": "In my opinion, the ideal approach involves balancing personal interests with realistic consideration of job market demands.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "While _____ produces innovation and creativity, _____ offers practical advantages in _____ markets.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": [
+                      "following one's passion",
+                      "attending local universities",
+                      "studying part-time"
+                    ],
+                    "correctAnswer": "following one's passion"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": [
+                      "career-focused education",
+                      "online learning platforms",
+                      "accelerated programs"
+                    ],
+                    "correctAnswer": "career-focused education"
+                  },
+                  {
+                    "id": "thesis7_b3",
+                    "options": [
+                      "competitive employment",
+                      "global tourism",
+                      "real estate"
+                    ],
+                    "correctAnswer": "competitive employment"
+                  }
+                ],
+                "correctSentence": "While following one's passion produces innovation and creativity, career-focused education offers practical advantages in competitive employment markets.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "The choice between _____ depends on _____, though I believe _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": [
+                      "passion and practicality",
+                      "public and private universities",
+                      "domestic and international programs"
+                    ],
+                    "correctAnswer": "passion and practicality"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": [
+                      "individual circumstances and career goals",
+                      "tuition fees and living expenses",
+                      "campus facilities and location"
+                    ],
+                    "correctAnswer": "individual circumstances and career goals"
+                  },
+                  {
+                    "id": "thesis8_b3",
+                    "options": [
+                      "students should seek subjects at the intersection of both",
+                      "the shortest degree is always best",
+                      "only prestigious schools matter"
+                    ],
+                    "correctAnswer": "students should seek subjects at the intersection of both"
+                  }
+                ],
+                "correctSentence": "The choice between passion and practicality depends on individual circumstances and career goals, though I believe students should seek subjects at the intersection of both.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Career-focused degrees",
-              "verb": "provide",
-              "keywords": [
-                "employability",
-                "job market"
-              ]
-            },
-            "hint": "Mention practical employment benefits.",
-            "modelAnswer": "Career-focused degrees provide better employability and alignment with current job market demands.",
-            "minWords": 11
+            "category": "topic-sentences",
+            "title": "Topic Sentences",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Advocates of passion-based learning argue that _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "following genuine interests produces superior academic outcomes",
+                      "all universities offer equivalent education quality",
+                      "degree completion time should be minimized"
+                    ],
+                    "correctAnswer": "following genuine interests produces superior academic outcomes"
+                  }
+                ],
+                "correctSentence": "Advocates of passion-based learning argue that following genuine interests produces superior academic outcomes.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "Conversely, supporters of career-focused education contend that _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "practical subjects offer better employability and financial security",
+                      "online degrees are always inferior to traditional ones",
+                      "students should avoid difficult technical subjects"
+                    ],
+                    "correctAnswer": "practical subjects offer better employability and financial security"
+                  }
+                ],
+                "correctSentence": "Conversely, supporters of career-focused education contend that practical subjects offer better employability and financial security.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "A primary benefit of studying subjects one loves is _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "the enhanced motivation and deeper engagement it provides",
+                      "the reduced tuition costs at most institutions",
+                      "the shorter time required for degree completion"
+                    ],
+                    "correctAnswer": "the enhanced motivation and deeper engagement it provides"
+                  }
+                ],
+                "correctSentence": "A primary benefit of studying subjects one loves is the enhanced motivation and deeper engagement it provides.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "On the other hand, practical degrees _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "provide clearer career paths and higher starting salaries",
+                      "require less study time and effort",
+                      "are available only at expensive universities"
+                    ],
+                    "correctAnswer": "provide clearer career paths and higher starting salaries"
+                  }
+                ],
+                "correctSentence": "On the other hand, practical degrees provide clearer career paths and higher starting salaries.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Those supporting student choice believe that _____.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "intrinsic motivation leads to exceptional achievements",
+                      "all subjects are equally valuable in society",
+                      "university rankings determine future success"
+                    ],
+                    "correctAnswer": "intrinsic motivation leads to exceptional achievements"
+                  }
+                ],
+                "correctSentence": "Those supporting student choice believe that intrinsic motivation leads to exceptional achievements.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Proponents of vocational education maintain that _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "job-focused training ensures economic stability after graduation",
+                      "students should avoid humanities and arts completely",
+                      "international degrees offer no additional value"
+                    ],
+                    "correctAnswer": "job-focused training ensures economic stability after graduation"
+                  }
+                ],
+                "correctSentence": "Proponents of vocational education maintain that job-focused training ensures economic stability after graduation.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Passion-driven study",
-              "verb": "foster",
-              "keywords": [
-                "innovation",
-                "creative thinking"
-              ]
-            },
-            "hint": "Discuss creativity and innovation benefits.",
-            "modelAnswer": "Passion-driven study fosters innovation and creative thinking that drives societal progress forward.",
-            "minWords": 11
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments (WHY/Reasoning)",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "When students study what they love, they _____.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "demonstrate higher motivation and greater persistence through challenges",
+                      "always complete degrees faster than their peers",
+                      "require less financial aid and scholarships"
+                    ],
+                    "correctAnswer": "demonstrate higher motivation and greater persistence through challenges"
+                  }
+                ],
+                "correctSentence": "When students study what they love, they demonstrate higher motivation and greater persistence through challenges.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "Passion-driven study fosters _____ that society needs.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "creativity and original thinking",
+                      "conformity and standardization",
+                      "faster graduation rates"
+                    ],
+                    "correctAnswer": "creativity and original thinking"
+                  }
+                ],
+                "correctSentence": "Passion-driven study fosters creativity and original thinking that society needs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Following genuine interests can lead to _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "exceptional personal fulfillment and significant societal contributions",
+                      "guaranteed high salaries immediately after graduation",
+                      "shorter study periods and easier coursework"
+                    ],
+                    "correctAnswer": "exceptional personal fulfillment and significant societal contributions"
+                  }
+                ],
+                "correctSentence": "Following genuine interests can lead to exceptional personal fulfillment and significant societal contributions.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Practical subjects provide _____ that employers actively seek.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "marketable credentials and specialized technical skills",
+                      "generic knowledge without specific applications",
+                      "theoretical understanding with limited utility"
+                    ],
+                    "correctAnswer": "marketable credentials and specialized technical skills"
+                  }
+                ],
+                "correctSentence": "Practical subjects provide marketable credentials and specialized technical skills that employers actively seek.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Career-focused degrees help graduates _____.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "achieve economic independence and financial stability",
+                      "avoid all workplace challenges and difficulties",
+                      "guarantee job satisfaction and happiness"
+                    ],
+                    "correctAnswer": "achieve economic independence and financial stability"
+                  }
+                ],
+                "correctSentence": "Career-focused degrees help graduates achieve economic independence and financial stability.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "In competitive job markets, _____ offer crucial advantages.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "practical qualifications in high-demand fields",
+                      "degrees from the most expensive universities",
+                      "certificates in outdated technologies"
+                    ],
+                    "correctAnswer": "practical qualifications in high-demand fields"
+                  }
+                ],
+                "correctSentence": "In competitive job markets, practical qualifications in high-demand fields offer crucial advantages.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Liberal arts education develops _____ across multiple disciplines.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "critical thinking and communication skills",
+                      "narrow specialization in single topics",
+                      "memorization without understanding"
+                    ],
+                    "correctAnswer": "critical thinking and communication skills"
+                  }
+                ],
+                "correctSentence": "Liberal arts education develops critical thinking and communication skills across multiple disciplines.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Pragmatic subject choices enable students to _____.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "avoid unemployment and underemployment after graduation",
+                      "skip difficult coursework and examinations",
+                      "complete degrees without studying diligently"
+                    ],
+                    "correctAnswer": "avoid unemployment and underemployment after graduation"
+                  }
+                ],
+                "correctSentence": "Pragmatic subject choices enable students to avoid unemployment and underemployment after graduation.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Practical subjects",
-              "verb": "offer",
-              "keywords": [
-                "clear career paths",
-                "financial security"
-              ]
-            },
-            "hint": "Focus on concrete career and financial benefits.",
-            "modelAnswer": "Practical subjects offer clear career paths and greater financial security after graduation.",
-            "minWords": 11
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, many _____ succeeded because they _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "groundbreaking scientists and artists",
+                      "wealthy business inheritors",
+                      "lottery winners and celebrities"
+                    ],
+                    "correctAnswer": "groundbreaking scientists and artists"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "pursued their passions despite uncertain career prospects",
+                      "chose the easiest and shortest programs",
+                      "attended only the most expensive universities"
+                    ],
+                    "correctAnswer": "pursued their passions despite uncertain career prospects"
+                  }
+                ],
+                "correctSentence": "For instance, many groundbreaking scientists and artists succeeded because they pursued their passions despite uncertain career prospects.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, graduates in _____ typically _____.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "engineering, computer science, and healthcare",
+                      "general studies and undeclared majors",
+                      "recreational and leisure programs"
+                    ],
+                    "correctAnswer": "engineering, computer science, and healthcare"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "secure well-paid positions immediately after graduation",
+                      "struggle to find any employment opportunities",
+                      "require additional decades of study"
+                    ],
+                    "correctAnswer": "secure well-paid positions immediately after graduation"
+                  }
+                ],
+                "correctSentence": "For example, graduates in engineering, computer science, and healthcare typically secure well-paid positions immediately after graduation.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Specifically, _____ often demonstrate _____ in their fields.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "students who study subjects they love",
+                      "students who choose randomly",
+                      "students who avoid all challenges"
+                    ],
+                    "correctAnswer": "students who study subjects they love"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "exceptional creativity and innovation",
+                      "minimal effort and engagement",
+                      "consistent mediocrity and apathy"
+                    ],
+                    "correctAnswer": "exceptional creativity and innovation"
+                  }
+                ],
+                "correctSentence": "Specifically, students who study subjects they love often demonstrate exceptional creativity and innovation in their fields.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "To illustrate, _____ may face _____ in competitive markets.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "liberal arts graduates",
+                      "medical school graduates",
+                      "engineering degree holders"
+                    ],
+                    "correctAnswer": "liberal arts graduates"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "prolonged job searches or underemployment",
+                      "immediate executive positions",
+                      "guaranteed high starting salaries"
+                    ],
+                    "correctAnswer": "prolonged job searches or underemployment"
+                  }
+                ],
+                "correctSentence": "To illustrate, liberal arts graduates may face prolonged job searches or underemployment in competitive markets.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "For instance, _____ provide _____ that ensure stable employment.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "degrees in nursing or software development",
+                      "certificates in ancient history",
+                      "diplomas in general knowledge"
+                    ],
+                    "correctAnswer": "degrees in nursing or software development"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "specialized skills in high-demand sectors",
+                      "vague theoretical understanding",
+                      "outdated technical knowledge"
+                    ],
+                    "correctAnswer": "specialized skills in high-demand sectors"
+                  }
+                ],
+                "correctSentence": "For instance, degrees in nursing or software development provide specialized skills in high-demand sectors that ensure stable employment.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Particularly, entrepreneurs like _____ achieved success through _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "Steve Jobs and Marie Curie",
+                      "professional athletes only",
+                      "inheritance beneficiaries"
+                    ],
+                    "correctAnswer": "Steve Jobs and Marie Curie"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "passionate pursuit of their interests",
+                      "avoiding all educational challenges",
+                      "focusing solely on financial gain"
+                    ],
+                    "correctAnswer": "passionate pursuit of their interests"
+                  }
+                ],
+                "correctSentence": "Particularly, entrepreneurs like Steve Jobs and Marie Curie achieved success through passionate pursuit of their interests.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "In economically uncertain times, _____ provide _____.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "practical qualifications",
+                      "hobby-based certificates",
+                      "unaccredited programs"
+                    ],
+                    "correctAnswer": "practical qualifications"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "crucial financial stability and security",
+                      "no particular advantages",
+                      "minimal employment prospects"
+                    ],
+                    "correctAnswer": "crucial financial stability and security"
+                  }
+                ],
+                "correctSentence": "In economically uncertain times, practical qualifications provide crucial financial stability and security.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Research indicates that _____ experience _____ compared to others.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "students studying subjects they love",
+                      "students who never attend classes",
+                      "students choosing programs randomly"
+                    ],
+                    "correctAnswer": "students studying subjects they love"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "higher academic achievement and greater satisfaction",
+                      "lower grades and increased dropout rates",
+                      "no measurable differences in outcomes"
+                    ],
+                    "correctAnswer": "higher academic achievement and greater satisfaction"
+                  }
+                ],
+                "correctSentence": "Research indicates that students studying subjects they love experience higher academic achievement and greater satisfaction compared to others.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Students",
-              "verb": "balance",
-              "keywords": [
-                "personal interests",
-                "market demands"
-              ]
-            },
-            "hint": "Mention finding middle ground between both approaches.",
-            "modelAnswer": "Students should ideally balance their personal interests with realistic consideration of market demands.",
-            "minWords": 12
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "following",
-              "one's passion",
-              "often",
-              "leads to",
-              "greater",
-              "academic",
-              "achievement"
-            ],
-            "correctAnswer": "Following one's passion often leads to greater academic achievement.",
-            "hint": "Start with gerund 'Following'"
+            "category": "counter-arguments",
+            "title": "Counter-Arguments",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "While passion-based learning has merit, _____ argue that _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "critics",
+                      "all students",
+                      "universities"
+                    ],
+                    "correctAnswer": "critics"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "financial security should not be ignored",
+                      "all subjects are equally valuable",
+                      "education quality doesn't matter"
+                    ],
+                    "correctAnswer": "financial security should not be ignored"
+                  }
+                ],
+                "correctSentence": "While passion-based learning has merit, critics argue that financial security should not be ignored.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Although career-focused degrees offer _____, they may lack _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "financial advantages",
+                      "any real value",
+                      "accreditation"
+                    ],
+                    "correctAnswer": "financial advantages"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "the intellectual fulfillment of passion-driven study",
+                      "basic educational standards",
+                      "qualified instructors"
+                    ],
+                    "correctAnswer": "the intellectual fulfillment of passion-driven study"
+                  }
+                ],
+                "correctSentence": "Although career-focused degrees offer financial advantages, they may lack the intellectual fulfillment of passion-driven study.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Despite _____, proponents maintain that _____.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "employment challenges in certain fields",
+                      "universal job guarantees",
+                      "elimination of all risks"
+                    ],
+                    "correctAnswer": "employment challenges in certain fields"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "following passion leads to greater innovation",
+                      "money is the only important factor",
+                      "education has no real value"
+                    ],
+                    "correctAnswer": "following passion leads to greater innovation"
+                  }
+                ],
+                "correctSentence": "Despite employment challenges in certain fields, proponents maintain that following passion leads to greater innovation.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "While some worry about _____, others note that _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "limited career prospects in humanities",
+                      "excessive job opportunities everywhere",
+                      "guaranteed success for all majors"
+                    ],
+                    "correctAnswer": "limited career prospects in humanities"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "these fields develop transferable skills valued across industries",
+                      "employment is impossible in these areas",
+                      "technical skills are completely unnecessary"
+                    ],
+                    "correctAnswer": "these fields develop transferable skills valued across industries"
+                  }
+                ],
+                "correctSentence": "While some worry about limited career prospects in humanities, others note that these fields develop transferable skills valued across industries.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "However, even _____ acknowledge that _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "advocates of practical education",
+                      "all university administrators",
+                      "government officials"
+                    ],
+                    "correctAnswer": "advocates of practical education"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "passion and motivation are essential for success",
+                      "student preferences are completely irrelevant",
+                      "all degrees are equally worthless"
+                    ],
+                    "correctAnswer": "passion and motivation are essential for success"
+                  }
+                ],
+                "correctSentence": "However, even advocates of practical education acknowledge that passion and motivation are essential for success.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Though _____ is important, _____ cannot be overlooked.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": [
+                      "personal fulfillment",
+                      "campus architecture",
+                      "university branding"
+                    ],
+                    "correctAnswer": "personal fulfillment"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": [
+                      "economic reality and job market demands",
+                      "the color of graduation gowns",
+                      "social media presence"
+                    ],
+                    "correctAnswer": "economic reality and job market demands"
+                  }
+                ],
+                "correctSentence": "Though personal fulfillment is important, economic reality and job market demands cannot be overlooked.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "career-oriented",
-              "subjects",
-              "provide",
-              "better",
-              "employment",
-              "opportunities",
-              "after",
-              "graduation"
-            ],
-            "correctAnswer": "Career-oriented subjects provide better employment opportunities after graduation.",
-            "hint": "Subject is 'Career-oriented subjects'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "universities",
-              "should",
-              "encourage",
-              "both",
-              "passion",
-              "and",
-              "practicality",
-              "in",
-              "education"
-            ],
-            "correctAnswer": "Universities should encourage both passion and practicality in education.",
-            "hint": "'should encourage' is the verb phrase"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "studying",
-              "humanities",
-              "develops",
-              "critical",
-              "thinking",
-              "and",
-              "communication",
-              "skills"
-            ],
-            "correctAnswer": "Studying humanities develops critical thinking and communication skills.",
-            "hint": "Start with gerund 'Studying'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "the",
-              "job market",
-              "values",
-              "specialized",
-              "skills",
-              "in",
-              "technical",
-              "fields"
-            ],
-            "correctAnswer": "The job market values specialized skills in technical fields.",
-            "hint": "'values' is the main verb"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Following one's passion _____ to higher motivation and success.",
-            "options": [
-              "lead",
-              "leads",
-              "leading"
-            ],
-            "correctAnswer": "leads",
-            "explanation": "Gerund subject 'Following' is singular, needs 's' on verb."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, career-focused degrees offer clearer employment paths.",
-            "options": [
-              "However",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to contrast passion-based with practical approaches."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Students should _____ personal interests with market realities.",
-            "options": [
-              "balance",
-              "balancing",
-              "balanced"
-            ],
-            "correctAnswer": "balance",
-            "explanation": "Use base form 'balance' after 'should'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ example, engineering degrees lead to well-paid careers.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For example' is correct for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Practical subjects enhance students' _____ in competitive markets.",
-            "options": [
-              "employability",
-              "employ",
-              "employment"
-            ],
-            "correctAnswer": "employability",
-            "explanation": "Use noun 'employability' (quality of being employable)."
+            "category": "conclusions",
+            "title": "Conclusion Statements",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while both _____ and _____ have merit, I believe _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "following personal passion",
+                      "selecting random subjects",
+                      "avoiding all challenges"
+                    ],
+                    "correctAnswer": "following personal passion"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "prioritizing career prospects",
+                      "choosing easy programs",
+                      "ignoring market realities"
+                    ],
+                    "correctAnswer": "prioritizing career prospects"
+                  },
+                  {
+                    "id": "conclusion1_b3",
+                    "options": [
+                      "students should seek subjects at the intersection of both",
+                      "only money matters in life",
+                      "education has no real value"
+                    ],
+                    "correctAnswer": "students should seek subjects at the intersection of both"
+                  }
+                ],
+                "correctSentence": "In conclusion, while both following personal passion and prioritizing career prospects have merit, I believe students should seek subjects at the intersection of both.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, the ideal approach _____ with _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "balances intrinsic motivation",
+                      "ignores personal interests completely",
+                      "disregards all practical concerns"
+                    ],
+                    "correctAnswer": "balances intrinsic motivation"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": [
+                      "realistic career planning",
+                      "wishful thinking only",
+                      "complete disregard for employment"
+                    ],
+                    "correctAnswer": "realistic career planning"
+                  }
+                ],
+                "correctSentence": "Overall, the ideal approach balances intrinsic motivation with realistic career planning.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ requires consideration of _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "choosing university subjects",
+                      "selecting dormitory rooms",
+                      "picking meal plans"
+                    ],
+                    "correctAnswer": "choosing university subjects"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "both personal interests and job market realities",
+                      "only the easiest available options",
+                      "exclusively financial considerations"
+                    ],
+                    "correctAnswer": "both personal interests and job market realities"
+                  }
+                ],
+                "correctSentence": "To summarize, choosing university subjects requires consideration of both personal interests and job market realities.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, _____ leads to _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "combining passion with practicality",
+                      "ignoring all personal preferences",
+                      "avoiding difficult decisions"
+                    ],
+                    "correctAnswer": "combining passion with practicality"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": [
+                      "sustainable professional success and personal satisfaction",
+                      "guaranteed failure in all endeavors",
+                      "mediocrity and dissatisfaction"
+                    ],
+                    "correctAnswer": "sustainable professional success and personal satisfaction"
+                  }
+                ],
+                "correctSentence": "On balance, combining passion with practicality leads to sustainable professional success and personal satisfaction.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "Ultimately, students should choose _____ while _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "subjects that genuinely interest them",
+                      "the shortest programs available",
+                      "only the most expensive options"
+                    ],
+                    "correctAnswer": "subjects that genuinely interest them"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "remaining aware of employment prospects",
+                      "completely ignoring career possibilities",
+                      "avoiding all practical considerations"
+                    ],
+                    "correctAnswer": "remaining aware of employment prospects"
+                  }
+                ],
+                "correctSentence": "Ultimately, students should choose subjects that genuinely interest them while remaining aware of employment prospects.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "In summary, while _____ cannot be dismissed, _____ remain equally important.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "practical career concerns",
+                      "irrelevant superficial factors",
+                      "meaningless arbitrary preferences"
+                    ],
+                    "correctAnswer": "practical career concerns"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "personal passion and intellectual curiosity",
+                      "avoiding all challenging subjects",
+                      "selecting the easiest path"
+                    ],
+                    "correctAnswer": "personal passion and intellectual curiosity"
+                  }
+                ],
+                "correctSentence": "In summary, while practical career concerns cannot be dismissed, personal passion and intellectual curiosity remain equally important.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

@@ -84,7 +84,9 @@
             "synonyms": [
               "government services",
               "state services"
-            ]
+            ],
+            "vietnameseDefinition": "Dịch vụ do chính phủ cung cấp cho tất cả công dân.",
+            "vietnameseExample": "Các dịch vụ công như y tế và giáo dục mang lại lợi ích cho toàn xã hội."
           },
           {
             "word": "universal access",
@@ -95,7 +97,9 @@
             "synonyms": [
               "equal access",
               "inclusive access"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng tiếp cận dịch vụ cho mọi người bất kể thu nhập.",
+            "vietnameseExample": "Khả năng tiếp cận y tế toàn dân đảm bảo rằng không ai bị từ chối điều trị do nghèo đói."
           },
           {
             "word": "taxpayer funding",
@@ -106,7 +110,9 @@
             "synonyms": [
               "public funding",
               "state funding"
-            ]
+            ],
+            "vietnameseDefinition": "Tiền thu được từ công dân qua thuế để trả cho các dịch vụ.",
+            "vietnameseExample": "Nguồn tài trợ từ người nộp thuế được sử dụng để hỗ trợ trường học và bệnh viện công."
           },
           {
             "word": "privatization",
@@ -117,7 +123,9 @@
             "synonyms": [
               "private ownership",
               "denationalization"
-            ]
+            ],
+            "vietnameseDefinition": "Chuyển giao dịch vụ từ chính phủ sang các công ty tư nhân.",
+            "vietnameseExample": "Tư nhân hóa y tế có thể dẫn đến dịch vụ hiệu quả hơn nhưng chi phí cao hơn."
           },
           {
             "word": "social welfare",
@@ -128,7 +136,9 @@
             "synonyms": [
               "social security",
               "public welfare"
-            ]
+            ],
+            "vietnameseDefinition": "Các chương trình của chính phủ nhằm hỗ trợ phúc lợi của công dân.",
+            "vietnameseExample": "Hệ thống phúc lợi xã hội nhằm giảm nghèo đói và bất bình đẳng trong xã hội."
           },
           {
             "word": "fiscal responsibility",
@@ -139,7 +149,9 @@
             "synonyms": [
               "financial accountability",
               "economic prudence"
-            ]
+            ],
+            "vietnameseDefinition": "Trách nhiệm quản lý tiền công một cách khôn ngoan.",
+            "vietnameseExample": "Trách nhiệm tài chính đòi hỏi chính phủ cân bằng chi tiêu với doanh thu."
           },
           {
             "word": "equitable",
@@ -151,7 +163,9 @@
               "fair",
               "just",
               "impartial"
-            ]
+            ],
+            "vietnameseDefinition": "Đối xử công bằng và không thiên vị cho tất cả mọi người.",
+            "vietnameseExample": "Hệ thống y tế công bằng đảm bảo rằng người giàu và người nghèo đều nhận được sự điều trị tương tự."
           },
           {
             "word": "subsidize",
@@ -163,39 +177,53 @@
               "fund",
               "support financially",
               "underwrite"
-            ]
+            ],
+            "vietnameseDefinition": "Hỗ trợ tài chính bằng ngân sách công.",
+            "vietnameseExample": "Nhiều chính phủ trợ cấp giáo dục để làm cho nó có giá cả phải chăng cho tất cả công dân."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "social equality",
             "definition": "Equal opportunities and treatment for all members of society.",
-            "example": "Government-funded education promotes social equality by giving everyone access to learning."
+            "example": "Government-funded education promotes social equality by giving everyone access to learning.",
+            "vietnameseDefinition": "Cơ hội và đối xử bình đẳng cho tất cả thành viên xã hội.",
+            "vietnameseExample": "Giáo dục được chính phủ tài trợ thúc đẩy bình đẳng xã hội bằng cách cho mọi người cơ hội tiếp cận học tập."
           },
           {
             "phrase": "economic efficiency",
             "definition": "Achieving maximum output with minimum waste of resources.",
-            "example": "Some argue that private healthcare offers better economic efficiency than government systems."
+            "example": "Some argue that private healthcare offers better economic efficiency than government systems.",
+            "vietnameseDefinition": "Đạt được sản lượng tối đa với lãng phí nguồn lực tối thiểu.",
+            "vietnameseExample": "Một số người cho rằng y tế tư nhân mang lại hiệu quả kinh tế tốt hơn so với hệ thống của chính phủ."
           },
           {
             "phrase": "individual choice",
             "definition": "The freedom to make personal decisions.",
-            "example": "Critics argue that government control limits individual choice in healthcare options."
+            "example": "Critics argue that government control limits individual choice in healthcare options.",
+            "vietnameseDefinition": "Quyền tự do đưa ra quyết định cá nhân.",
+            "vietnameseExample": "Những người chỉ trích cho rằng sự kiểm soát của chính phủ hạn chế sự lựa chọn cá nhân trong các lựa chọn y tế."
           },
           {
             "phrase": "basic rights",
             "definition": "Fundamental entitlements that everyone should have.",
-            "example": "Many view healthcare and education as basic rights that governments must guarantee."
+            "example": "Many view healthcare and education as basic rights that governments must guarantee.",
+            "vietnameseDefinition": "Quyền cơ bản mà mọi người đều có.",
+            "vietnameseExample": "Nhiều người coi y tế và giáo dục là quyền cơ bản mà chính phủ phải đảm bảo."
           },
           {
             "phrase": "taxpayer burden",
             "definition": "The financial weight placed on citizens through taxation.",
-            "example": "Opponents worry that funding all healthcare increases the taxpayer burden significantly."
+            "example": "Opponents worry that funding all healthcare increases the taxpayer burden significantly.",
+            "vietnameseDefinition": "Gánh nặng tài chính đặt lên công dân thông qua thuế.",
+            "vietnameseExample": "Những người phản đối lo ngại rằng tài trợ toàn bộ y tế làm tăng đáng kể gánh nặng cho người nộp thuế."
           },
           {
             "phrase": "private sector",
             "definition": "Businesses and organizations not owned by the government.",
-            "example": "The private sector can deliver education services more efficiently than government bureaucracies."
+            "example": "The private sector can deliver education services more efficiently than government bureaucracies.",
+            "vietnameseDefinition": "Các doanh nghiệp và tổ chức không thuộc sở hữu của chính phủ.",
+            "vietnameseExample": "Khu vực tư nhân có thể cung cấp dịch vụ giáo dục hiệu quả hơn so với bộ máy quan료 chính phủ."
           }
         ],
         "linkingPhrases": {

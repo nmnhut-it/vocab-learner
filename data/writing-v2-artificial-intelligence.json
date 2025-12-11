@@ -85,7 +85,9 @@
             "synonyms": [
               "mechanization",
               "computerization"
-            ]
+            ],
+            "vietnameseDefinition": "Việc sử dụng công nghệ để thực hiện các nhiệm vụ mà không cần can thiệp của con người.",
+            "vietnameseExample": "Tự động hóa dựa trên AI đang thay đổi các ngành sản xuất và dịch vụ."
           },
           {
             "word": "displacement",
@@ -96,7 +98,9 @@
             "synonyms": [
               "replacement",
               "removal"
-            ]
+            ],
+            "vietnameseDefinition": "Hành động đẩy cái gì đó ra khỏi vị trí của nó.",
+            "vietnameseExample": "Việc người lao động bị thay thế do AI tạo ra những thách thức kinh tế đáng kể."
           },
           {
             "word": "efficiency",
@@ -107,7 +111,9 @@
             "synonyms": [
               "productivity",
               "effectiveness"
-            ]
+            ],
+            "vietnameseDefinition": "Đạt được năng suất tối đa với nỗ lực lãng phí tối thiểu.",
+            "vietnameseExample": "Các hệ thống AI cải thiện đáng kể hiệu suất hoạt động trong nhiều lĩnh vực."
           },
           {
             "word": "obsolete",
@@ -118,7 +124,9 @@
             "synonyms": [
               "outdated",
               "antiquated"
-            ]
+            ],
+            "vietnameseDefinition": "Không còn được sử dụng hoặc lỗi thời.",
+            "vietnameseExample": "Nhiều vai trò công việc truyền thống có nguy cơ trở nên lỗi thời do sự tiến bộ của AI."
           },
           {
             "word": "unprecedented",
@@ -129,7 +137,9 @@
             "synonyms": [
               "extraordinary",
               "unparalleled"
-            ]
+            ],
+            "vietnameseDefinition": "Chưa từng được thực hiện hoặc trải nghiệm trước đây.",
+            "vietnameseExample": "AI đại diện cho sự chuyển đổi chưa từng có của lực lượng lao động toàn cầu."
           },
           {
             "word": "adaptability",
@@ -140,7 +150,9 @@
             "synonyms": [
               "flexibility",
               "versatility"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng thích nghi với các điều kiện mới.",
+            "vietnameseExample": "Người lao động cần khả năng thích nghi tốt hơn để phát triển trong nền kinh tế bị chi phối bởi AI."
           },
           {
             "word": "proliferation",
@@ -151,7 +163,9 @@
             "synonyms": [
               "expansion",
               "growth"
-            ]
+            ],
+            "vietnameseDefinition": "Sự gia tăng hoặc lan rộng nhanh chóng.",
+            "vietnameseExample": "Sự phổ biến của công nghệ AI đang định hình lại các mô hình việc làm trên toàn cầu."
           },
           {
             "word": "mitigate",
@@ -162,39 +176,53 @@
             "synonyms": [
               "alleviate",
               "reduce"
-            ]
+            ],
+            "vietnameseDefinition": "Làm giảm mức độ nghiêm trọng.",
+            "vietnameseExample": "Chính phủ phải thực hiện các chính sách để giảm thiểu tác động tiêu cực của AI đến việc làm."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "workforce automation",
             "definition": "Using technology to replace human labor.",
-            "example": "Workforce automation through AI is accelerating across manufacturing sectors."
+            "example": "Workforce automation through AI is accelerating across manufacturing sectors.",
+            "vietnameseDefinition": "Sử dụng công nghệ để thay thế lao động con người.",
+            "vietnameseExample": "Tự động hóa lực lượng lao động thông qua AI đang tăng tốc trong các lĩnh vực sản xuất."
           },
           {
             "phrase": "job displacement",
             "definition": "Workers losing jobs to technology.",
-            "example": "Job displacement affects low-skilled workers most severely in automated industries."
+            "example": "Job displacement affects low-skilled workers most severely in automated industries.",
+            "vietnameseDefinition": "Người lao động mất việc vì công nghệ.",
+            "vietnameseExample": "Mất việc làm ảnh hưởng nghiêm trọng nhất đến người lao động có kỹ năng thấp trong các ngành tự động hóa."
           },
           {
             "phrase": "machine learning",
             "definition": "AI systems that improve through experience.",
-            "example": "Machine learning algorithms now outperform humans in pattern recognition tasks."
+            "example": "Machine learning algorithms now outperform humans in pattern recognition tasks.",
+            "vietnameseDefinition": "Hệ thống AI được cải thiện thông qua kinh nghiệm.",
+            "vietnameseExample": "Các thuật toán học máy hiện vượt trội hơn con người trong các nhiệm vụ nhận dạng mẫu."
           },
           {
             "phrase": "economic inequality",
             "definition": "Unequal distribution of wealth and opportunity.",
-            "example": "AI adoption may exacerbate economic inequality between skilled and unskilled workers."
+            "example": "AI adoption may exacerbate economic inequality between skilled and unskilled workers.",
+            "vietnameseDefinition": "Sự phân phối không đồng đều của cải và cơ hội.",
+            "vietnameseExample": "Việc áp dụng AI có thể làm trầm trọng thêm bất bình đẳng kinh tế giữa người lao động có kỹ năng và không có kỹ năng."
           },
           {
             "phrase": "reskilling programs",
             "definition": "Training to learn new job skills.",
-            "example": "Reskilling programs help displaced workers transition to AI-complementary roles."
+            "example": "Reskilling programs help displaced workers transition to AI-complementary roles.",
+            "vietnameseDefinition": "Chương trình đào tạo để học các kỹ năng công việc mới.",
+            "vietnameseExample": "Các chương trình đào tạo lại kỹ năng giúp người lao động bị thay thế chuyển sang các vai trò bổ sung cho AI."
           },
           {
             "phrase": "cognitive tasks",
             "definition": "Work requiring thinking and decision-making.",
-            "example": "AI now handles complex cognitive tasks previously requiring human expertise."
+            "example": "AI now handles complex cognitive tasks previously requiring human expertise.",
+            "vietnameseDefinition": "Công việc đòi hỏi tư duy và ra quyết định.",
+            "vietnameseExample": "AI hiện xử lý các nhiệm vụ nhận thức phức tạp trước đây đòi hỏi chuyên môn của con người."
           }
         ],
         "linkingPhrases": {
@@ -233,215 +261,796 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "AI systems",
-              "verb": "perform",
-              "keywords": [
-                "repetitive tasks",
-                "greater efficiency"
-              ]
-            },
-            "hint": "Focus on productivity and accuracy benefits.",
-            "modelAnswer": "AI systems can perform repetitive tasks with significantly greater efficiency and accuracy than humans.",
-            "minWords": 13
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While AI automation offers _____, it also poses _____ for society.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["significant productivity gains", "minor improvements", "limited changes"],
+                    "correctAnswer": "significant productivity gains"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["serious employment challenges", "small inconveniences", "simple adjustments"],
+                    "correctAnswer": "serious employment challenges"
+                  }
+                ],
+                "correctSentence": "While AI automation offers significant productivity gains, it also poses serious employment challenges for society.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The rise of artificial intelligence represents _____ that brings both _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["an unprecedented technological transformation", "a small change", "a temporary trend"],
+                    "correctAnswer": "an unprecedented technological transformation"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["remarkable opportunities", "few benefits", "minor advantages"],
+                    "correctAnswer": "remarkable opportunities"
+                  },
+                  {
+                    "id": "thesis2_b3",
+                    "options": ["profound risks", "small problems", "easy solutions"],
+                    "correctAnswer": "profound risks"
+                  }
+                ],
+                "correctSentence": "The rise of artificial intelligence represents an unprecedented technological transformation that brings both remarkable opportunities and profound risks.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "Although _____ enhances business efficiency, it threatens _____ with displacement.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["workforce automation", "manual work", "human effort"],
+                    "correctAnswer": "workforce automation"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["millions of workers", "a few employees", "some businesses"],
+                    "correctAnswer": "millions of workers"
+                  }
+                ],
+                "correctSentence": "Although workforce automation enhances business efficiency, it threatens millions of workers with displacement.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "The _____ of AI technologies is fundamentally reshaping _____ worldwide.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["proliferation", "reduction", "elimination"],
+                    "correctAnswer": "proliferation"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["employment structures", "office buildings", "company names"],
+                    "correctAnswer": "employment structures"
+                  }
+                ],
+                "correctSentence": "The proliferation of AI technologies is fundamentally reshaping employment structures worldwide.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will examine both the _____ of AI automation and its _____ on workers.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["economic advantages", "minor benefits", "simple features"],
+                    "correctAnswer": "economic advantages"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": ["negative social impacts", "small effects", "temporary changes"],
+                    "correctAnswer": "negative social impacts"
+                  }
+                ],
+                "correctSentence": "This essay will examine both the economic advantages of AI automation and its negative social impacts on workers.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "While some view AI as _____, others see it as _____ to traditional employment.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["a driver of innovation", "a simple tool", "an old technology"],
+                    "correctAnswer": "a driver of innovation"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["a fundamental threat", "a minor risk", "an easy challenge"],
+                    "correctAnswer": "a fundamental threat"
+                  }
+                ],
+                "correctSentence": "While some view AI as a driver of innovation, others see it as a fundamental threat to traditional employment.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "AI adoption in the workplace creates a tension between _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["enhanced productivity", "slower processes", "reduced output"],
+                    "correctAnswer": "enhanced productivity"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["job security concerns", "workplace comfort", "office decoration"],
+                    "correctAnswer": "job security concerns"
+                  }
+                ],
+                "correctSentence": "AI adoption in the workplace creates a tension between enhanced productivity and job security concerns.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "The transformation of work through AI requires balancing _____ with _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["business competitiveness", "company profits only", "short-term gains"],
+                    "correctAnswer": "business competitiveness"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["worker protection", "management preferences", "cost reduction"],
+                    "correctAnswer": "worker protection"
+                  }
+                ],
+                "correctSentence": "The transformation of work through AI requires balancing business competitiveness with worker protection.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Automation",
-              "verb": "reduce",
-              "keywords": [
-                "operational costs",
-                "businesses"
-              ]
-            },
-            "hint": "Mention cost savings for companies.",
-            "modelAnswer": "Automation through AI dramatically reduces operational costs for businesses across multiple industries.",
-            "minWords": 11
+            "category": "topic-sentences",
+            "title": "Topic Sentences for Body Paragraphs",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "From a business perspective, AI dramatically _____ across multiple sectors.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["enhances operational efficiency", "increases paperwork", "creates confusion"],
+                    "correctAnswer": "enhances operational efficiency"
+                  }
+                ],
+                "correctSentence": "From a business perspective, AI dramatically enhances operational efficiency across multiple sectors.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "From a social perspective, however, _____ threatens millions with unemployment.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["widespread automation", "better technology", "improved systems"],
+                    "correctAnswer": "widespread automation"
+                  }
+                ],
+                "correctSentence": "From a social perspective, however, widespread automation threatens millions with unemployment.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "One significant advantage is that AI systems can _____ with unprecedented accuracy.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["perform complex cognitive tasks", "replace office furniture", "reduce workspace"],
+                    "correctAnswer": "perform complex cognitive tasks"
+                  }
+                ],
+                "correctSentence": "One significant advantage is that AI systems can perform complex cognitive tasks with unprecedented accuracy.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A major concern is that _____ disproportionately affects low-skilled workers.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["job displacement", "salary increase", "workplace improvement"],
+                    "correctAnswer": "job displacement"
+                  }
+                ],
+                "correctSentence": "A major concern is that job displacement disproportionately affects low-skilled workers.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "The advantages manifest primarily in _____ and cost reduction.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["increased productivity", "employee complaints", "office politics"],
+                    "correctAnswer": "increased productivity"
+                  }
+                ],
+                "correctSentence": "The advantages manifest primarily in increased productivity and cost reduction.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "The disadvantages are most severe in sectors with _____ positions.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["routine, repetitive", "creative, complex", "managerial, strategic"],
+                    "correctAnswer": "routine, repetitive"
+                  }
+                ],
+                "correctSentence": "The disadvantages are most severe in sectors with routine, repetitive positions.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "The _____ of AI in various industries presents both opportunities and challenges.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["proliferation", "disappearance", "reduction"],
+                    "correctAnswer": "proliferation"
+                  }
+                ],
+                "correctSentence": "The proliferation of AI in various industries presents both opportunities and challenges.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Governments must implement policies to _____ the negative impacts on workers.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["mitigate", "worsen", "ignore"],
+                    "correctAnswer": "mitigate"
+                  }
+                ],
+                "correctSentence": "Governments must implement policies to mitigate the negative impacts on workers.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Job displacement",
-              "verb": "threaten",
-              "keywords": [
-                "millions",
-                "workers",
-                "unemployment"
-              ]
-            },
-            "hint": "Focus on scale of employment threat.",
-            "modelAnswer": "Job displacement caused by AI threatens millions of workers with unemployment and economic insecurity.",
-            "minWords": 13
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments and Reasoning",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "Machine learning systems process vast datasets _____ than human workers.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["far faster and more accurately", "more slowly", "with equal speed"],
+                    "correctAnswer": "far faster and more accurately"
+                  }
+                ],
+                "correctSentence": "Machine learning systems process vast datasets far faster and more accurately than human workers.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "This leads to _____ for companies adopting these technologies.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["substantial cost reductions", "increased expenses", "minor changes"],
+                    "correctAnswer": "substantial cost reductions"
+                  }
+                ],
+                "correctSentence": "This leads to substantial cost reductions for companies adopting these technologies.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "AI systems operate continuously without _____ or benefits costs.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["errors, fatigue", "supervision, guidance", "updates, maintenance"],
+                    "correctAnswer": "errors, fatigue"
+                  }
+                ],
+                "correctSentence": "AI systems operate continuously without errors, fatigue or benefits costs.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "This results in _____ among displaced workers lacking alternatives.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["increased economic inequality", "better opportunities", "improved conditions"],
+                    "correctAnswer": "increased economic inequality"
+                  }
+                ],
+                "correctSentence": "This results in increased economic inequality among displaced workers lacking alternatives.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Studies project that up to _____ of current jobs could face automation within two decades.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["forty percent", "five percent", "ninety percent"],
+                    "correctAnswer": "forty percent"
+                  }
+                ],
+                "correctSentence": "Studies project that up to forty percent of current jobs could face automation within two decades.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "The pace of technological change often exceeds workers' capacity to _____.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["retrain for new roles", "maintain current positions", "request promotions"],
+                    "correctAnswer": "retrain for new roles"
+                  }
+                ],
+                "correctSentence": "The pace of technological change often exceeds workers' capacity to retrain for new roles.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "AI adoption may _____ by creating a skills gap in the workforce.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["exacerbate economic inequality", "reduce social differences", "eliminate poverty"],
+                    "correctAnswer": "exacerbate economic inequality"
+                  }
+                ],
+                "correctSentence": "AI adoption may exacerbate economic inequality by creating a skills gap in the workforce.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Workers need greater _____ to thrive in an AI-dominated economy.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["adaptability and reskilling", "traditional skills", "resistance to change"],
+                    "correctAnswer": "adaptability and reskilling"
+                  }
+                ],
+                "correctSentence": "Workers need greater adaptability and reskilling to thrive in an AI-dominated economy.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "AI adoption",
-              "verb": "exacerbate",
-              "keywords": [
-                "economic inequality",
-                "society"
-              ]
-            },
-            "hint": "Discuss widening gap between skilled and unskilled.",
-            "modelAnswer": "Widespread AI adoption may exacerbate economic inequality by disproportionately affecting low-skilled workers.",
-            "minWords": 11
+            "category": "examples-evidence",
+            "title": "Specific Examples and Evidence",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, in _____, AI-powered robots now assemble products with superhuman precision.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["manufacturing", "agriculture", "education"],
+                    "correctAnswer": "manufacturing"
+                  }
+                ],
+                "correctSentence": "For instance, in manufacturing, AI-powered robots now assemble products with superhuman precision.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "In finance, _____ execute millions of transactions instantaneously.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["algorithmic trading systems", "human brokers", "bank tellers"],
+                    "correctAnswer": "algorithmic trading systems"
+                  }
+                ],
+                "correctSentence": "In finance, algorithmic trading systems execute millions of transactions instantaneously.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "For example, _____ face near-certain displacement by autonomous vehicles.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["truck drivers", "software engineers", "doctors"],
+                    "correctAnswer": "truck drivers"
+                  }
+                ],
+                "correctSentence": "For example, truck drivers face near-certain displacement by autonomous vehicles.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Similarly, _____ are being replaced by automated checkout systems.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["cashiers and retail workers", "CEOs and executives", "university professors"],
+                    "correctAnswer": "cashiers and retail workers"
+                  }
+                ],
+                "correctSentence": "Similarly, cashiers and retail workers are being replaced by automated checkout systems.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A notable example is _____, where AI now performs complex diagnoses.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["the healthcare sector", "the fashion industry", "the restaurant business"],
+                    "correctAnswer": "the healthcare sector"
+                  }
+                ],
+                "correctSentence": "A notable example is the healthcare sector, where AI now performs complex diagnoses.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Specifically, _____ lose employment to robotic assembly lines.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["factory workers", "research scientists", "creative directors"],
+                    "correctAnswer": "factory workers"
+                  }
+                ],
+                "correctSentence": "Specifically, factory workers lose employment to robotic assembly lines.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "This is particularly evident in _____, where automation has eliminated thousands of positions.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["customer service centers", "creative agencies", "law firms"],
+                    "correctAnswer": "customer service centers"
+                  }
+                ],
+                "correctSentence": "This is particularly evident in customer service centers, where automation has eliminated thousands of positions.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "_____ help displaced workers transition to AI-complementary roles.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["Reskilling programs", "Traditional education", "Early retirement"],
+                    "correctAnswer": "Reskilling programs"
+                  }
+                ],
+                "correctSentence": "Reskilling programs help displaced workers transition to AI-complementary roles.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Workers",
-              "verb": "require",
-              "keywords": [
-                "reskilling",
-                "adapt",
-                "AI-dominated economy"
-              ]
-            },
-            "hint": "Mention need for training and adaptation.",
-            "modelAnswer": "Workers will require extensive reskilling and adaptability to thrive in an increasingly AI-dominated economy.",
-            "minWords": 13
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "artificial intelligence",
-              "is",
-              "transforming",
-              "the",
-              "nature",
-              "of",
-              "work",
-              "globally"
-            ],
-            "correctAnswer": "Artificial intelligence is transforming the nature of work globally.",
-            "hint": "Start with 'Artificial intelligence'"
+            "category": "counter-arguments",
+            "title": "Counter-arguments and Contrasts",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "_____, widespread automation threatens employment security for millions.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["However", "Moreover", "Therefore"],
+                    "correctAnswer": "However"
+                  }
+                ],
+                "correctSentence": "However, widespread automation threatens employment security for millions.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "_____ these economic benefits, the social costs cannot be ignored.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["Despite", "Because of", "Similar to"],
+                    "correctAnswer": "Despite"
+                  }
+                ],
+                "correctSentence": "Despite these economic benefits, the social costs cannot be ignored.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "_____, critics emphasize the risk of mass unemployment.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["Conversely", "Additionally", "Similarly"],
+                    "correctAnswer": "Conversely"
+                  }
+                ],
+                "correctSentence": "Conversely, critics emphasize the risk of mass unemployment.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "On the negative side, many traditional roles risk becoming _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["obsolete", "popular", "valuable"],
+                    "correctAnswer": "obsolete"
+                  }
+                ],
+                "correctSentence": "On the negative side, many traditional roles risk becoming obsolete.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "_____, the human costs of automation remain significant.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["Nevertheless", "Furthermore", "Likewise"],
+                    "correctAnswer": "Nevertheless"
+                  }
+                ],
+                "correctSentence": "Nevertheless, the human costs of automation remain significant.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "While AI creates efficiency, it also creates _____ for affected communities.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["social instability", "new opportunities", "better conditions"],
+                    "correctAnswer": "social instability"
+                  }
+                ],
+                "correctSentence": "While AI creates efficiency, it also creates social instability for affected communities.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "Although automation brings cost savings, it _____ poses risks to employment.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["simultaneously", "never", "rarely"],
+                    "correctAnswer": "simultaneously"
+                  }
+                ],
+                "correctSentence": "Although automation brings cost savings, it simultaneously poses risks to employment.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "_____ the efficiency gains, many workers face an uncertain future.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["Notwithstanding", "Considering", "Supporting"],
+                    "correctAnswer": "Notwithstanding"
+                  }
+                ],
+                "correctSentence": "Notwithstanding the efficiency gains, many workers face an uncertain future.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "AI",
-              "systems",
-              "outperform",
-              "humans",
-              "in",
-              "many",
-              "specialized",
-              "tasks"
-            ],
-            "correctAnswer": "AI systems outperform humans in many specialized tasks.",
-            "hint": "Subject is 'AI systems'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "millions",
-              "of",
-              "jobs",
-              "face",
-              "automation",
-              "in",
-              "the",
-              "coming",
-              "decades"
-            ],
-            "correctAnswer": "Millions of jobs face automation in the coming decades.",
-            "hint": "'face automation' is the key phrase"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "machine",
-              "learning",
-              "algorithms",
-              "improve",
-              "efficiency",
-              "across",
-              "industries"
-            ],
-            "correctAnswer": "Machine learning algorithms improve efficiency across industries.",
-            "hint": "Subject is 'Machine learning algorithms'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "governments",
-              "must",
-              "address",
-              "the",
-              "social",
-              "impacts",
-              "of",
-              "AI",
-              "automation"
-            ],
-            "correctAnswer": "Governments must address the social impacts of AI automation.",
-            "hint": "'must address' is the verb phrase"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "AI systems _____ operational efficiency across multiple sectors.",
-            "options": [
-              "improve",
-              "improves",
-              "improving"
-            ],
-            "correctAnswer": "improve",
-            "explanation": "Plural subject 'systems' takes base form 'improve'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, job displacement poses serious economic challenges.",
-            "options": [
-              "However",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to contrast advantages with disadvantages."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Many traditional roles risk becoming _____ due to automation.",
-            "options": [
-              "obsolete",
-              "obsolescence",
-              "obsoleting"
-            ],
-            "correctAnswer": "obsolete",
-            "explanation": "Use adjective 'obsolete' after 'becoming'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ instance, AI now performs complex medical diagnoses.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For instance' is correct for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Workers must develop _____ to adapt to technological change.",
-            "options": [
-              "adaptability",
-              "adapt",
-              "adapting"
-            ],
-            "correctAnswer": "adaptability",
-            "explanation": "Use noun 'adaptability' as object of 'develop'."
+            "category": "conclusions",
+            "title": "Conclusion Sentences",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while AI automation provides _____, it also creates _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["undeniable economic benefits", "minor improvements", "simple changes"],
+                    "correctAnswer": "undeniable economic benefits"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["profound social challenges", "easy solutions", "temporary problems"],
+                    "correctAnswer": "profound social challenges"
+                  }
+                ],
+                "correctSentence": "In conclusion, while AI automation provides undeniable economic benefits, it also creates profound social challenges.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, managing this transition requires _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["comprehensive reskilling programs", "ignoring workers", "accepting job loss"],
+                    "correctAnswer": "comprehensive reskilling programs"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["strengthened social safety nets", "reduced government support", "eliminating benefits"],
+                    "correctAnswer": "strengthened social safety nets"
+                  }
+                ],
+                "correctSentence": "Overall, managing this transition requires comprehensive reskilling programs and strengthened social safety nets.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "Taking both perspectives into account, _____ must implement policies to _____ negative impacts.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["governments", "corporations", "individuals"],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["mitigate", "increase", "ignore"],
+                    "correctAnswer": "mitigate"
+                  }
+                ],
+                "correctSentence": "Taking both perspectives into account, governments must implement policies to mitigate negative impacts.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, the key is ensuring technological progress _____ all members of society.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["benefits", "harms", "excludes"],
+                    "correctAnswer": "benefits"
+                  }
+                ],
+                "correctSentence": "On balance, the key is ensuring technological progress benefits all members of society.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "Successfully navigating this transformation demands balancing _____ with _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["business innovation", "profit maximization", "cost cutting"],
+                    "correctAnswer": "business innovation"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["worker welfare", "shareholder returns", "executive compensation"],
+                    "correctAnswer": "worker welfare"
+                  }
+                ],
+                "correctSentence": "Successfully navigating this transformation demands balancing business innovation with worker welfare.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "Ultimately, the future of work depends on our ability to _____ to this _____ change.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["adapt", "resist", "surrender"],
+                    "correctAnswer": "adapt"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": ["unprecedented", "minor", "temporary"],
+                    "correctAnswer": "unprecedented"
+                  }
+                ],
+                "correctSentence": "Ultimately, the future of work depends on our ability to adapt to this unprecedented change.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "The solution lies in fostering _____ between technological advancement and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["collaboration", "conflict", "separation"],
+                    "correctAnswer": "collaboration"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": ["human welfare", "corporate profits", "market dominance"],
+                    "correctAnswer": "human welfare"
+                  }
+                ],
+                "correctSentence": "The solution lies in fostering collaboration between technological advancement and human welfare.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "Moving forward, society must prioritize _____ while embracing _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["worker protection", "profit maximization", "cost reduction"],
+                    "correctAnswer": "worker protection"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["beneficial innovation", "unlimited automation", "job elimination"],
+                    "correctAnswer": "beneficial innovation"
+                  }
+                ],
+                "correctSentence": "Moving forward, society must prioritize worker protection while embracing beneficial innovation.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

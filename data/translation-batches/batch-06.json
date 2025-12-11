@@ -1,0 +1,502 @@
+[
+  {
+    "id": "extraterrestrial-life_topic_5",
+    "fileId": "extraterrestrial-life",
+    "type": "topic",
+    "phrase": "resource competition",
+    "englishDefinition": "Conflict over limited materials or territory.",
+    "englishExample": "Resource competition between civilizations could lead to conflict rather than cooperation.",
+    "vietnameseDefinition": "Xung đột về nguồn tài nguyên hoặc lãnh thổ có hạn.",
+    "vietnameseExample": "Cạnh tranh nguồn tài nguyên giữa các nền văn minh có thể dẫn đến xung đột thay vì hợp tác."
+  },
+  {
+    "id": "fast-food-health_academic_0",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "convenience",
+    "englishDefinition": "The quality of being easy to use or suitable for one's purposes.",
+    "englishExample": "Fast food offers convenience for people with busy schedules.",
+    "vietnameseDefinition": "Tính tiện lợi, dễ sử dụng hoặc phù hợp với mục đích của người dùng.",
+    "vietnameseExample": "Thức ăn nhanh mang lại sự tiện lợi cho những người có lịch trình bận rộn."
+  },
+  {
+    "id": "fast-food-health_academic_1",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "prevalence",
+    "englishDefinition": "The fact of being widespread or common.",
+    "englishExample": "The prevalence of fast food restaurants has grown in urban areas.",
+    "vietnameseDefinition": "Tính phổ biến hoặc lan rộng của một hiện tượng.",
+    "vietnameseExample": "Sự phổ biến của các nhà hàng thức ăn nhanh đã tăng lên ở các khu vực đô thị."
+  },
+  {
+    "id": "fast-food-health_academic_2",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "detrimental",
+    "englishDefinition": "Causing harm or damage.",
+    "englishExample": "Excessive fast food consumption can be detrimental to health.",
+    "vietnameseDefinition": "Gây hại hoặc gây tổn thương.",
+    "vietnameseExample": "Tiêu thụ thức ăn nhanh quá mức có thể gây hại cho sức khỏe."
+  },
+  {
+    "id": "fast-food-health_academic_3",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "affordable",
+    "englishDefinition": "Inexpensive; within one's financial means.",
+    "englishExample": "Fast food is affordable for low-income families.",
+    "vietnameseDefinition": "Có giá cả phải chăng, nằm trong khả năng tài chính của người mua.",
+    "vietnameseExample": "Thức ăn nhanh có giá phải chăng đối với các gia đình có thu nhập thấp."
+  },
+  {
+    "id": "fast-food-health_academic_4",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "nutritional",
+    "englishDefinition": "Relating to the process of providing food necessary for health.",
+    "englishExample": "Fast food typically has poor nutritional value.",
+    "vietnameseDefinition": "Liên quan đến dinh dưỡng cần thiết cho sức khỏe.",
+    "vietnameseExample": "Thức ăn nhanh thường có giá trị dinh dưỡng kém."
+  },
+  {
+    "id": "fast-food-health_academic_5",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "contribute",
+    "englishDefinition": "To help cause or bring about.",
+    "englishExample": "Fast food consumption contributes to rising obesity rates.",
+    "vietnameseDefinition": "Góp phần gây ra hoặc tạo nên một điều gì đó.",
+    "vietnameseExample": "Tiêu thụ thức ăn nhanh góp phần làm tăng tỷ lệ béo phì."
+  },
+  {
+    "id": "fast-food-health_academic_6",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "accessible",
+    "englishDefinition": "Easy to obtain or use.",
+    "englishExample": "Fast food chains are highly accessible in most cities.",
+    "vietnameseDefinition": "Dễ tiếp cận hoặc dễ sử dụng.",
+    "vietnameseExample": "Các chuỗi thức ăn nhanh rất dễ tiếp cận ở hầu hết các thành phố."
+  },
+  {
+    "id": "fast-food-health_academic_7",
+    "fileId": "fast-food-health",
+    "type": "academic",
+    "word": "substantial",
+    "englishDefinition": "Of considerable importance or size.",
+    "englishExample": "Fast food consumption poses substantial health risks.",
+    "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô lớn.",
+    "vietnameseExample": "Tiêu thụ thức ăn nhanh gây ra những rủi ro sức khỏe đáng kể."
+  },
+  {
+    "id": "fast-food-health_topic_0",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "dietary habits",
+    "englishDefinition": "Regular patterns of eating behavior.",
+    "englishExample": "Fast food has dramatically changed people's dietary habits.",
+    "vietnameseDefinition": "Thói quen ăn uống thường xuyên của một người.",
+    "vietnameseExample": "Thức ăn nhanh đã thay đổi thói quen ăn uống của mọi người một cách đáng kể."
+  },
+  {
+    "id": "fast-food-health_topic_1",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "time-constrained individuals",
+    "englishDefinition": "People with limited time due to busy schedules.",
+    "englishExample": "Fast food is particularly appealing to time-constrained individuals.",
+    "vietnameseDefinition": "Những người có thời gian hạn chế do lịch trình bận rộn.",
+    "vietnameseExample": "Thức ăn nhanh đặc biệt hấp dẫn đối với những người bị giới hạn về thời gian."
+  },
+  {
+    "id": "fast-food-health_topic_2",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "caloric intake",
+    "englishDefinition": "The amount of energy consumed through food.",
+    "englishExample": "Excessive fast food increases daily caloric intake significantly.",
+    "vietnameseDefinition": "Lượng năng lượng được hấp thụ qua thức ăn.",
+    "vietnameseExample": "Thức ăn nhanh quá mức làm tăng lượng calo nạp vào hàng ngày một cách đáng kể."
+  },
+  {
+    "id": "fast-food-health_topic_3",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "chronic diseases",
+    "englishDefinition": "Long-term health conditions like diabetes and heart disease.",
+    "englishExample": "Regular fast food consumption increases the risk of chronic diseases.",
+    "vietnameseDefinition": "Các bệnh mạn tính như tiểu đường và bệnh tim.",
+    "vietnameseExample": "Tiêu thụ thức ăn nhanh thường xuyên làm tăng nguy cơ mắc các bệnh mạn tính."
+  },
+  {
+    "id": "fast-food-health_topic_4",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "processed ingredients",
+    "englishDefinition": "Food components that have been chemically altered.",
+    "englishExample": "Fast food contains high levels of processed ingredients.",
+    "vietnameseDefinition": "Các thành phần thực phẩm đã được xử lý hóa học.",
+    "vietnameseExample": "Thức ăn nhanh chứa hàm lượng cao các thành phần đã qua chế biến."
+  },
+  {
+    "id": "fast-food-health_topic_5",
+    "fileId": "fast-food-health",
+    "type": "topic",
+    "phrase": "portion sizes",
+    "englishDefinition": "The amount of food served in one meal.",
+    "englishExample": "Fast food restaurants often serve excessive portion sizes.",
+    "vietnameseDefinition": "Khẩu phần thức ăn được phục vụ trong một bữa.",
+    "vietnameseExample": "Các nhà hàng thức ăn nhanh thường phục vụ khẩu phần quá lớn."
+  },
+  {
+    "id": "food-self-sufficiency_academic_0",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "food security",
+    "englishDefinition": "Having reliable access to sufficient affordable and nutritious food.",
+    "englishExample": "Food security is a critical concern for governments worldwide.",
+    "vietnameseDefinition": "Khả năng tiếp cận đáng tin cậy với nguồn thực phẩm đầy đủ, giá cả phải chăng và bổ dưỡng.",
+    "vietnameseExample": "An ninh lương thực là mối quan tâm quan trọng của các chính phủ trên toàn thế giới."
+  },
+  {
+    "id": "food-self-sufficiency_academic_1",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "agricultural self-sufficiency",
+    "englishDefinition": "A country's ability to produce all its own food needs.",
+    "englishExample": "Agricultural self-sufficiency remains a goal for many nations.",
+    "vietnameseDefinition": "Khả năng của một quốc gia tự sản xuất đủ nhu cầu lương thực của mình.",
+    "vietnameseExample": "Tự cung tự cấp về nông nghiệp vẫn là mục tiêu của nhiều quốc gia."
+  },
+  {
+    "id": "food-self-sufficiency_academic_2",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "import dependency",
+    "englishDefinition": "Reliance on foreign countries for essential goods.",
+    "englishExample": "High import dependency makes countries vulnerable to supply disruptions.",
+    "vietnameseDefinition": "Sự phụ thuộc vào các nước ngoài để có được hàng hóa thiết yếu.",
+    "vietnameseExample": "Sự phụ thuộc cao vào nhập khẩu khiến các quốc gia dễ bị ảnh hưởng bởi gián đoạn nguồn cung."
+  },
+  {
+    "id": "food-self-sufficiency_academic_3",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "domestic production",
+    "englishDefinition": "Goods manufactured or grown within a country.",
+    "englishExample": "The government invested heavily in domestic production of rice.",
+    "vietnameseDefinition": "Hàng hóa được sản xuất hoặc trồng trọt trong nước.",
+    "vietnameseExample": "Chính phủ đầu tư mạnh vào sản xuất gạo trong nước."
+  },
+  {
+    "id": "food-self-sufficiency_academic_4",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "trade agreements",
+    "englishDefinition": "Treaties between countries governing commercial exchange.",
+    "englishExample": "Modern trade agreements support the flow of agricultural products.",
+    "vietnameseDefinition": "Hiệp định giữa các quốc gia điều chỉnh hoạt động trao đổi thương mại.",
+    "vietnameseExample": "Các hiệp định thương mại hiện đại hỗ trợ dòng chảy sản phẩm nông nghiệp."
+  },
+  {
+    "id": "food-self-sufficiency_academic_5",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "supply chain",
+    "englishDefinition": "The network between producers and consumers.",
+    "englishExample": "Global supply chains were disrupted during the pandemic.",
+    "vietnameseDefinition": "Mạng lưới kết nối giữa nhà sản xuất và người tiêu dùng.",
+    "vietnameseExample": "Chuỗi cung ứng toàn cầu đã bị gián đoạn trong thời kỳ đại dịch."
+  },
+  {
+    "id": "food-self-sufficiency_academic_6",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "vulnerable",
+    "englishDefinition": "Exposed to potential harm or attack.",
+    "englishExample": "Countries heavily reliant on imports are vulnerable to price shocks.",
+    "vietnameseDefinition": "Dễ bị tổn thương hoặc bị tấn công.",
+    "vietnameseExample": "Các quốc gia phụ thuộc nhiều vào nhập khẩu dễ bị ảnh hưởng bởi cú sốc giá cả."
+  },
+  {
+    "id": "food-self-sufficiency_academic_7",
+    "fileId": "food-self-sufficiency",
+    "type": "academic",
+    "word": "comparative advantage",
+    "englishDefinition": "The ability to produce goods more efficiently than others.",
+    "englishExample": "Countries should focus on products where they have comparative advantage.",
+    "vietnameseDefinition": "Khả năng sản xuất hàng hóa hiệu quả hơn so với các nước khác.",
+    "vietnameseExample": "Các quốc gia nên tập trung vào các sản phẩm mà họ có lợi thế so sánh."
+  },
+  {
+    "id": "food-self-sufficiency_topic_0",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "food imports",
+    "englishDefinition": "Food products purchased from other countries.",
+    "englishExample": "Japan relies heavily on food imports to feed its population.",
+    "vietnameseDefinition": "Các sản phẩm thực phẩm được mua từ các nước khác.",
+    "vietnameseExample": "Nhật Bản phụ thuộc rất nhiều vào nhập khẩu thực phẩm để nuôi dân số của mình."
+  },
+  {
+    "id": "food-self-sufficiency_topic_1",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "climate conditions",
+    "englishDefinition": "Weather and environmental factors affecting agriculture.",
+    "englishExample": "Certain climate conditions make growing tropical fruits impossible in cold regions.",
+    "vietnameseDefinition": "Các yếu tố thời tiết và môi trường ảnh hưởng đến nông nghiệp.",
+    "vietnameseExample": "Một số điều kiện khí hậu khiến việc trồng trái cây nhiệt đới ở vùng lạnh trở nên bất khả thi."
+  },
+  {
+    "id": "food-self-sufficiency_topic_2",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "agricultural land",
+    "englishDefinition": "Land used for farming and food production.",
+    "englishExample": "Limited agricultural land restricts a country's ability to be self-sufficient.",
+    "vietnameseDefinition": "Đất được sử dụng để canh tác và sản xuất lương thực.",
+    "vietnameseExample": "Diện tích đất nông nghiệp hạn chế làm giảm khả năng tự cung tự cấp của một quốc gia."
+  },
+  {
+    "id": "food-self-sufficiency_topic_3",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "global trade",
+    "englishDefinition": "International exchange of goods and services.",
+    "englishExample": "Global trade allows countries to access diverse food products.",
+    "vietnameseDefinition": "Trao đổi hàng hóa và dịch vụ giữa các quốc gia.",
+    "vietnameseExample": "Thương mại toàn cầu cho phép các quốc gia tiếp cận các sản phẩm thực phẩm đa dạng."
+  },
+  {
+    "id": "food-self-sufficiency_topic_4",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "food prices",
+    "englishDefinition": "The cost of food products.",
+    "englishExample": "Food prices rise when countries restrict imports.",
+    "vietnameseDefinition": "Giá cả của các sản phẩm thực phẩm.",
+    "vietnameseExample": "Giá thực phẩm tăng khi các quốc gia hạn chế nhập khẩu."
+  },
+  {
+    "id": "food-self-sufficiency_topic_5",
+    "fileId": "food-self-sufficiency",
+    "type": "topic",
+    "phrase": "economic efficiency",
+    "englishDefinition": "Using resources in the most productive way.",
+    "englishExample": "Economic efficiency suggests countries should import some foods.",
+    "vietnameseDefinition": "Sử dụng nguồn lực theo cách hiệu quả nhất.",
+    "vietnameseExample": "Hiệu quả kinh tế cho thấy các quốc gia nên nhập khẩu một số loại thực phẩm."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_0",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "cinematic quality",
+    "englishDefinition": "The technical and artistic excellence of a film.",
+    "englishExample": "Hollywood films are known for their superior cinematic quality and production values.",
+    "vietnameseDefinition": "Chất lượng kỹ thuật và nghệ thuật của một bộ phim.",
+    "vietnameseExample": "Phim Hollywood nổi tiếng với chất lượng điện ảnh và giá trị sản xuất vượt trội."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_1",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "subsidies",
+    "englishDefinition": "Financial assistance provided by government.",
+    "englishExample": "French cinema has thrived thanks to generous government subsidies.",
+    "vietnameseDefinition": "Hỗ trợ tài chính do chính phủ cung cấp.",
+    "vietnameseExample": "Điện ảnh Pháp phát triển mạnh nhờ sự trợ cấp hào phóng của chính phủ."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_2",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "cultural representation",
+    "englishDefinition": "The portrayal of cultural values and identity.",
+    "englishExample": "Local films provide important cultural representation for national audiences.",
+    "vietnameseDefinition": "Sự thể hiện các giá trị văn hóa và bản sắc dân tộc.",
+    "vietnameseExample": "Phim địa phương cung cấp sự thể hiện văn hóa quan trọng cho khán giả trong nước."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_3",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "production values",
+    "englishDefinition": "The technical quality and budget invested in making a film.",
+    "englishExample": "International blockbusters typically have higher production values than local films.",
+    "vietnameseDefinition": "Chất lượng kỹ thuật và ngân sách đầu tư vào sản xuất phim.",
+    "vietnameseExample": "Các bom tấn quốc tế thường có giá trị sản xuất cao hơn phim địa phương."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_4",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "box office",
+    "englishDefinition": "Commercial success measured by ticket sales revenue.",
+    "englishExample": "Foreign films often dominate the box office in smaller markets.",
+    "vietnameseDefinition": "Thành công thương mại được đo bằng doanh thu bán vé.",
+    "vietnameseExample": "Phim nước ngoài thường thống trị phòng vé ở các thị trường nhỏ hơn."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_5",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "cultural heritage",
+    "englishDefinition": "Traditional values, stories, and artistic expressions of a culture.",
+    "englishExample": "Government support helps preserve cultural heritage through local filmmaking.",
+    "vietnameseDefinition": "Các giá trị truyền thống, câu chuyện và biểu hiện nghệ thuật của một nền văn hóa.",
+    "vietnameseExample": "Sự hỗ trợ của chính phủ giúp bảo tồn di sản văn hóa thông qua việc làm phim địa phương."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_6",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "dominate",
+    "englishDefinition": "To have controlling influence over.",
+    "englishExample": "Hollywood productions dominate cinema screens worldwide.",
+    "vietnameseDefinition": "Có ảnh hưởng chi phối hoặc thống trị.",
+    "vietnameseExample": "Các sản phẩm Hollywood thống trị màn ảnh rạp trên toàn thế giới."
+  },
+  {
+    "id": "foreign-local-films-twopart_academic_7",
+    "fileId": "foreign-local-films-twopart",
+    "type": "academic",
+    "word": "allocate",
+    "englishDefinition": "To distribute resources for a specific purpose.",
+    "englishExample": "Governments must decide whether to allocate funds to local film industries.",
+    "vietnameseDefinition": "Phân bổ nguồn lực cho một mục đích cụ thể.",
+    "vietnameseExample": "Chính phủ phải quyết định có nên phân bổ ngân sách cho ngành công nghiệp phim địa phương hay không."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_0",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "domestic cinema",
+    "englishDefinition": "Films produced within one's own country.",
+    "englishExample": "Many countries struggle to maintain viable domestic cinema industries.",
+    "vietnameseDefinition": "Phim được sản xuất trong nước.",
+    "vietnameseExample": "Nhiều quốc gia gặp khó khăn trong việc duy trì ngành công nghiệp điện ảnh trong nước khả thi."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_1",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "international blockbusters",
+    "englishDefinition": "Major commercially successful films distributed globally.",
+    "englishExample": "International blockbusters from Hollywood attract larger audiences than local productions.",
+    "vietnameseDefinition": "Các bộ phim thành công về mặt thương mại được phát hành toàn cầu.",
+    "vietnameseExample": "Các bom tấn quốc tế từ Hollywood thu hút khán giả đông hơn so với sản phẩm địa phương."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_2",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "film festival",
+    "englishDefinition": "Events showcasing films, often with prizes and recognition.",
+    "englishExample": "International film festivals like Cannes help promote both foreign and local cinema.",
+    "vietnameseDefinition": "Sự kiện trình chiếu phim, thường có giải thưởng và sự công nhận.",
+    "vietnameseExample": "Các liên hoan phim quốc tế như Cannes giúp quảng bá cả phim nước ngoài lẫn phim địa phương."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_3",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "streaming platforms",
+    "englishDefinition": "Online services like Netflix that distribute films digitally.",
+    "englishExample": "Streaming platforms have changed how audiences access both foreign and local films.",
+    "vietnameseDefinition": "Các dịch vụ trực tuyến như Netflix phân phối phim kỹ thuật số.",
+    "vietnameseExample": "Các nền tảng trực tuyến đã thay đổi cách khán giả tiếp cận cả phim nước ngoài lẫn phim địa phương."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_4",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "tax incentives",
+    "englishDefinition": "Government tax breaks to encourage film production.",
+    "englishExample": "Many countries offer tax incentives to support their local film industries.",
+    "vietnameseDefinition": "Ưu đãi thuế của chính phủ để khuyến khích sản xuất phim.",
+    "vietnameseExample": "Nhiều quốc gia cung cấp ưu đãi thuế để hỗ trợ ngành công nghiệp phim địa phương của họ."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_5",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "cultural diversity",
+    "englishDefinition": "Variety of cultural expressions and perspectives.",
+    "englishExample": "Supporting local films helps maintain cultural diversity in global cinema.",
+    "vietnameseDefinition": "Sự đa dạng các biểu hiện và quan điểm văn hóa.",
+    "vietnameseExample": "Hỗ trợ phim địa phương giúp duy trì sự đa dạng văn hóa trong điện ảnh toàn cầu."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_6",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "commercial viability",
+    "englishDefinition": "The ability to generate profit and sustain operations.",
+    "englishExample": "Without subsidies, many local film industries lack commercial viability.",
+    "vietnameseDefinition": "Khả năng tạo ra lợi nhuận và duy trì hoạt động.",
+    "vietnameseExample": "Không có trợ cấp, nhiều ngành công nghiệp phim địa phương thiếu tính khả thi về mặt thương mại."
+  },
+  {
+    "id": "foreign-local-films-twopart_topic_7",
+    "fileId": "foreign-local-films-twopart",
+    "type": "topic",
+    "phrase": "special effects",
+    "englishDefinition": "Visual and technical illusions used to enhance films.",
+    "englishExample": "Foreign films often have more impressive special effects due to larger budgets.",
+    "vietnameseDefinition": "Hiệu ứng hình ảnh và kỹ thuật được sử dụng để nâng cao chất lượng phim.",
+    "vietnameseExample": "Phim nước ngoài thường có hiệu ứng đặc biệt ấn tượng hơn do ngân sách lớn hơn."
+  },
+  {
+    "id": "free-public-transport_academic_0",
+    "fileId": "free-public-transport",
+    "type": "academic",
+    "word": "traffic congestion",
+    "englishDefinition": "Overcrowding of roads leading to slower traffic speeds.",
+    "englishExample": "Traffic congestion costs cities billions in lost productivity annually.",
+    "vietnameseDefinition": "Tình trạng quá tải giao thông dẫn đến tốc độ di chuyển chậm lại.",
+    "vietnameseExample": "Ùn tắc giao thông khiến các thành phố mất hàng tỷ đô la do giảm năng suất mỗi năm."
+  },
+  {
+    "id": "free-public-transport_academic_1",
+    "fileId": "free-public-transport",
+    "type": "academic",
+    "word": "public transit",
+    "englishDefinition": "Shared transportation services available to the general public.",
+    "englishExample": "Public transit includes buses, trains, and subway systems.",
+    "vietnameseDefinition": "Dịch vụ vận chuyển công cộng dành cho mọi người.",
+    "vietnameseExample": "Phương tiện công cộng bao gồm xe buýt, tàu hỏa và hệ thống tàu điện ngầm."
+  },
+  {
+    "id": "free-public-transport_academic_2",
+    "fileId": "free-public-transport",
+    "type": "academic",
+    "word": "fiscal burden",
+    "englishDefinition": "Financial cost or strain on government budgets.",
+    "englishExample": "Free public transport would impose a significant fiscal burden on taxpayers.",
+    "vietnameseDefinition": "Gánh nặng tài chính đối với ngân sách chính phủ.",
+    "vietnameseExample": "Giao thông công cộng miễn phí sẽ gây gánh nặng tài chính đáng kể cho người nộp thuế."
+  },
+  {
+    "id": "free-public-transport_academic_3",
+    "fileId": "free-public-transport",
+    "type": "academic",
+    "word": "ridership",
+    "englishDefinition": "The number of passengers using public transportation.",
+    "englishExample": "Luxembourg saw increased ridership after introducing free public transport.",
+    "vietnameseDefinition": "Số lượng hành khách sử dụng phương tiện công cộng.",
+    "vietnameseExample": "Luxembourg chứng kiến lượng hành khách tăng lên sau khi áp dụng giao thông công cộng miễn phí."
+  },
+  {
+    "id": "free-public-transport_academic_4",
+    "fileId": "free-public-transport",
+    "type": "academic",
+    "word": "infrastructure capacity",
+    "englishDefinition": "The maximum number of users transportation systems can accommodate.",
+    "englishExample": "Many cities lack sufficient infrastructure capacity to handle increased transit demand.",
+    "vietnameseDefinition": "Công suất tối đa mà hệ thống giao thông có thể chứa.",
+    "vietnameseExample": "Nhiều thành phố thiếu công suất cơ sở hạ tầng để đáp ứng nhu cầu vận chuyển tăng cao."
+  }
+]

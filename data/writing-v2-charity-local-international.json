@@ -89,7 +89,9 @@
             "synonyms": [
               "distribution",
               "assignment"
-            ]
+            ],
+            "vietnameseDefinition": "Sự phân bổ nguồn lực cho một mục đích cụ thể.",
+            "vietnameseExample": "Việc phân bổ quỹ từ thiện đòi hỏi phải xem xét cẩn thận các ưu tiên."
           },
           {
             "word": "humanitarian",
@@ -100,7 +102,9 @@
             "synonyms": [
               "philanthropic",
               "compassionate"
-            ]
+            ],
+            "vietnameseDefinition": "Quan tâm đến việc thúc đẩy phúc lợi con người.",
+            "vietnameseExample": "Các tổ chức viện trợ nhân đạo phản ứng với các cuộc khủng hoảng bất kể biên giới."
           },
           {
             "word": "prioritize",
@@ -111,7 +115,9 @@
             "synonyms": [
               "emphasize",
               "focus on"
-            ]
+            ],
+            "vietnameseDefinition": "Coi điều gì đó quan trọng hơn những thứ khác.",
+            "vietnameseExample": "Nhiều nhà tài trợ ưu tiên giúp đỡ các cộng đồng mà họ có thể quan sát trực tiếp."
           },
           {
             "word": "accountability",
@@ -122,7 +128,9 @@
             "synonyms": [
               "responsibility",
               "transparency"
-            ]
+            ],
+            "vietnameseDefinition": "Nghĩa vụ giải thích và biện minh cho các hành động.",
+            "vietnameseExample": "Các tổ chức từ thiện trong nước cung cấp trách nhiệm giải trình cao hơn cho người nộp thuế địa phương."
           },
           {
             "word": "obligation",
@@ -133,7 +141,9 @@
             "synonyms": [
               "duty",
               "responsibility"
-            ]
+            ],
+            "vietnameseDefinition": "Nghĩa vụ hoặc cam kết hành động.",
+            "vietnameseExample": "Một số người cho rằng chúng ta có nghĩa vụ đạo đức giúp đỡ những người dễ bị tổn thương nhất trên toàn cầu."
           },
           {
             "word": "equitable",
@@ -145,7 +155,9 @@
               "fair",
               "just",
               "impartial"
-            ]
+            ],
+            "vietnameseDefinition": "Công bằng và vô tư.",
+            "vietnameseExample": "Một cách tiếp cận công bằng xem xét nhu cầu thay vì quốc tịch."
           },
           {
             "word": "proximity",
@@ -156,7 +168,9 @@
             "synonyms": [
               "closeness",
               "nearness"
-            ]
+            ],
+            "vietnameseDefinition": "Sự gần gũi về không gian hoặc mối quan hệ.",
+            "vietnameseExample": "Sự gần gũi về địa lý tạo ra mối liên kết cảm xúc mạnh mẽ hơn với các hoàn cảnh địa phương."
           },
           {
             "word": "substantial",
@@ -167,39 +181,53 @@
             "synonyms": [
               "significant",
               "considerable"
-            ]
+            ],
+            "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+            "vietnameseExample": "Các cuộc khủng hoảng quốc tế thường đòi hỏi nguồn lực khẩn cấp đáng kể."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "domestic poverty",
             "definition": "Financial hardship within one's own country.",
-            "example": "Domestic poverty remains a serious issue in many developed nations."
+            "example": "Domestic poverty remains a serious issue in many developed nations.",
+            "vietnameseDefinition": "Khó khăn về tài chính trong chính quốc gia của mình.",
+            "vietnameseExample": "Nghèo đói trong nước vẫn là một vấn đề nghiêm trọng ở nhiều quốc gia phát triển."
           },
           {
             "phrase": "global inequality",
             "definition": "Disparities in wealth and resources between countries.",
-            "example": "Global inequality means some nations face far greater humanitarian needs."
+            "example": "Global inequality means some nations face far greater humanitarian needs.",
+            "vietnameseDefinition": "Sự chênh lệch về của cải và nguồn lực giữa các quốc gia.",
+            "vietnameseExample": "Bất bình đẳng toàn cầu có nghĩa là một số quốc gia phải đối mặt với nhu cầu nhân đạo lớn hơn nhiều."
           },
           {
             "phrase": "donor fatigue",
             "definition": "Reduced willingness to give due to overwhelming requests.",
-            "example": "Charities worry that donor fatigue limits their fundraising capacity."
+            "example": "Charities worry that donor fatigue limits their fundraising capacity.",
+            "vietnameseDefinition": "Sự giảm sút mong muốn đóng góp do quá nhiều yêu cầu.",
+            "vietnameseExample": "Các tổ chức từ thiện lo ngại rằng sự mệt mỏi của nhà tài trợ hạn chế khả năng gây quỹ của họ."
           },
           {
             "phrase": "humanitarian crisis",
             "definition": "Emergency situation threatening human welfare.",
-            "example": "Humanitarian crises like earthquakes require immediate international response."
+            "example": "Humanitarian crises like earthquakes require immediate international response.",
+            "vietnameseDefinition": "Tình huống khẩn cấp đe dọa phúc lợi con người.",
+            "vietnameseExample": "Các cuộc khủng hoảng nhân đạo như động đất đòi hỏi phản ứng quốc tế ngay lập tức."
           },
           {
             "phrase": "civic responsibility",
             "definition": "The duty citizens have to their community.",
-            "example": "Supporting local charities reflects civic responsibility and community bonds."
+            "example": "Supporting local charities reflects civic responsibility and community bonds.",
+            "vietnameseDefinition": "Nghĩa vụ của công dân đối với cộng đồng.",
+            "vietnameseExample": "Hỗ trợ các tổ chức từ thiện địa phương phản ánh trách nhiệm công dân và liên kết cộng đồng."
           },
           {
             "phrase": "resource distribution",
             "definition": "How charitable funds and aid are allocated.",
-            "example": "Effective resource distribution ensures aid reaches those most in need."
+            "example": "Effective resource distribution ensures aid reaches those most in need.",
+            "vietnameseDefinition": "Cách thức phân bổ quỹ từ thiện và viện trợ.",
+            "vietnameseExample": "Phân phối nguồn lực hiệu quả đảm bảo viện trợ đến tay những người cần nhất."
           }
         ],
         "linkingPhrases": {

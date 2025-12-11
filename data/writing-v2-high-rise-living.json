@@ -86,7 +86,9 @@
               "house",
               "shelter",
               "hold"
-            ]
+            ],
+            "vietnameseDefinition": "Cung cấp không gian hoặc nhà ở cho mọi người.",
+            "vietnameseExample": "Các tòa nhà cao tầng có thể chứa nhiều cư dân hơn trên diện tích đất đô thị hạn chế."
           },
           {
             "word": "density",
@@ -98,7 +100,9 @@
               "concentration",
               "crowding",
               "compactness"
-            ]
+            ],
+            "vietnameseDefinition": "Mức độ tập trung hoặc dày đặc của dân số.",
+            "vietnameseExample": "Phát triển nhà cao tầng làm tăng mật độ dân số ở trung tâm thành phố."
           },
           {
             "word": "vertical",
@@ -109,7 +113,9 @@
             "synonyms": [
               "upward",
               "perpendicular"
-            ]
+            ],
+            "vietnameseDefinition": "Phát triển theo chiều dọc thay vì lan rộng; xây cao thay vì xây rộng.",
+            "vietnameseExample": "Mở rộng theo chiều dọc giải quyết vấn đề đô thị hóa bằng cách xây dựng cao lên."
           },
           {
             "word": "infrastructure",
@@ -121,7 +127,9 @@
               "facilities",
               "services",
               "systems"
-            ]
+            ],
+            "vietnameseDefinition": "Các cơ sở hạ tầng và hệ thống cơ bản (đường xá, tiện ích, dịch vụ) cần thiết để hoạt động.",
+            "vietnameseExample": "Các dự án nhà cao tầng đòi hỏi cơ sở hạ tầng vững chắc để hỗ trợ dân số tập trung."
           },
           {
             "word": "isolate",
@@ -133,7 +141,9 @@
               "separate",
               "disconnect",
               "cut off"
-            ]
+            ],
+            "vietnameseDefinition": "Tách biệt hoặc ngắt kết nối với người khác.",
+            "vietnameseExample": "Các tòa tháp có thể cô lập cư dân khỏi tương tác cộng đồng ở tầng mặt đất."
           },
           {
             "word": "congestion",
@@ -145,7 +155,9 @@
               "overcrowding",
               "gridlock",
               "bottleneck"
-            ]
+            ],
+            "vietnameseDefinition": "Tình trạng quá đông đúc hoặc tập trung quá mức ở một khu vực.",
+            "vietnameseExample": "Các tòa nhà cao tầng có thể tạo ra tình trạng tắc nghẽn nghiêm trọng ở thang máy và khu vực chung."
           },
           {
             "word": "sprawl",
@@ -156,7 +168,9 @@
             "synonyms": [
               "expansion",
               "spread"
-            ]
+            ],
+            "vietnameseDefinition": "Sự mở rộng không kiểm soát của khu vực đô thị vào vùng nông thôn xung quanh.",
+            "vietnameseExample": "Xây dựng theo chiều dọc làm giảm sự lan rộng đô thị và bảo tồn không gian xanh."
           },
           {
             "word": "amenity",
@@ -168,39 +182,53 @@
               "facility",
               "convenience",
               "service"
-            ]
+            ],
+            "vietnameseDefinition": "Tiện nghi hoặc cơ sở hữu ích và mong muốn.",
+            "vietnameseExample": "Vườn trên sân thượng là một tiện nghi có giá trị trong các tòa nhà cao tầng hiện đại, cung cấp không gian giải trí cho cư dân."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "land scarcity",
             "definition": "Limited availability of usable land for development.",
-            "example": "In cities facing land scarcity, high-rise construction becomes essential."
+            "example": "In cities facing land scarcity, high-rise construction becomes essential.",
+            "vietnameseDefinition": "Sự khan hiếm đất có thể sử dụng để phát triển.",
+            "vietnameseExample": "Ở các thành phố đối mặt với khan hiếm đất đai, xây dựng nhà cao tầng trở nên thiết yếu."
           },
           {
             "phrase": "community cohesion",
             "definition": "The sense of connection and solidarity among neighbors.",
-            "example": "Low-rise housing typically fosters stronger community cohesion than tower blocks."
+            "example": "Low-rise housing typically fosters stronger community cohesion than tower blocks.",
+            "vietnameseDefinition": "Cảm giác kết nối và đoàn kết giữa các hàng xóm.",
+            "vietnameseExample": "Nhà ở thấp tầng thường thúc đẩy sự gắn kết cộng đồng mạnh hơn so với tòa tháp."
           },
           {
             "phrase": "footprint",
             "definition": "The area of ground covered by a building.",
-            "example": "High-rise buildings have a smaller footprint, preserving more land for parks."
+            "example": "High-rise buildings have a smaller footprint, preserving more land for parks.",
+            "vietnameseDefinition": "Diện tích mặt đất được che phủ bởi một tòa nhà.",
+            "vietnameseExample": "Các tòa nhà cao tầng có diện tích chiếm đất nhỏ hơn, bảo tồn nhiều đất hơn cho công viên."
           },
           {
             "phrase": "affordable housing",
             "definition": "Residential units priced within reach of average-income families.",
-            "example": "High-rise development can increase the supply of affordable housing units."
+            "example": "High-rise development can increase the supply of affordable housing units.",
+            "vietnameseDefinition": "Các đơn vị nhà ở có giá trong tầm với của các gia đình thu nhập trung bình.",
+            "vietnameseExample": "Phát triển nhà cao tầng có thể tăng nguồn cung các đơn vị nhà ở giá phải chăng."
           },
           {
             "phrase": "green space",
             "definition": "Parks, gardens, and natural areas within urban environments.",
-            "example": "Vertical construction preserves valuable green space in crowded cities."
+            "example": "Vertical construction preserves valuable green space in crowded cities.",
+            "vietnameseDefinition": "Công viên, vườn và các khu vực tự nhiên trong môi trường đô thị.",
+            "vietnameseExample": "Xây dựng theo chiều dọc bảo tồn không gian xanh quý giá ở các thành phố đông đúc."
           },
           {
             "phrase": "social isolation",
             "definition": "Lack of contact and connection with other people.",
-            "example": "Residents of large tower blocks sometimes experience social isolation."
+            "example": "Residents of large tower blocks sometimes experience social isolation.",
+            "vietnameseDefinition": "Thiếu tiếp xúc và kết nối với người khác.",
+            "vietnameseExample": "Cư dân của các tòa tháp lớn đôi khi trải qua sự cô lập xã hội."
           }
         ],
         "linkingPhrases": {

@@ -84,7 +84,9 @@
             "synonyms": [
               "city planning",
               "town planning"
-            ]
+            ],
+            "vietnameseDefinition": "Quá trình thiết kế và tổ chức các thành phố và thị trấn.",
+            "vietnameseExample": "Quy hoạch đô thị hiệu quả là cần thiết để quản lý dân số ngày càng tăng ở các thành phố."
           },
           {
             "word": "traffic congestion",
@@ -95,7 +97,9 @@
             "synonyms": [
               "traffic jams",
               "road congestion"
-            ]
+            ],
+            "vietnameseDefinition": "Giao thông đông đúc gây ra tốc độ chậm hơn và thời gian di chuyển lâu hơn.",
+            "vietnameseExample": "Tắc nghẽn giao thông gây thiệt hại hàng tỷ đô la năng suất cho các thành phố lớn hàng năm."
           },
           {
             "word": "commuter patterns",
@@ -106,7 +110,9 @@
             "synonyms": [
               "travel patterns",
               "commuting behavior"
-            ]
+            ],
+            "vietnameseDefinition": "Thói quen di chuyển đều đặn của người dân đi làm.",
+            "vietnameseExample": "Các mô hình đi lại cho thấy phần lớn giao thông xảy ra trong giờ cao điểm khi cư dân ngoại ô di chuyển vào thành phố."
           },
           {
             "word": "public infrastructure",
@@ -117,7 +123,9 @@
             "synonyms": [
               "public facilities",
               "civic infrastructure"
-            ]
+            ],
+            "vietnameseDefinition": "Các cơ sở vật chất và hệ thống cơ bản phục vụ cộng đồng như đường xá và giao thông.",
+            "vietnameseExample": "Các thành phố cần cơ sở hạ tầng công cộng vững chắc để hỗ trợ dân số đông đúc."
           },
           {
             "word": "population density",
@@ -128,7 +136,9 @@
             "synonyms": [
               "urban density",
               "residential density"
-            ]
+            ],
+            "vietnameseDefinition": "Số lượng người sống trên một đơn vị diện tích.",
+            "vietnameseExample": "Mật độ dân số tăng cao ở các thành phố có thể gây áp lực lên các dịch vụ và nhà ở hiện có."
           },
           {
             "word": "sustainable transport",
@@ -139,7 +149,9 @@
             "synonyms": [
               "green transport",
               "eco-friendly transport"
-            ]
+            ],
+            "vietnameseDefinition": "Phương tiện giao thông giảm thiểu tác động môi trường.",
+            "vietnameseExample": "Các thành phố đang đầu tư vào các phương án giao thông bền vững như làn đường xe đạp và xe buýt điện."
           },
           {
             "word": "accommodate",
@@ -151,7 +163,9 @@
               "house",
               "support",
               "facilitate"
-            ]
+            ],
+            "vietnameseDefinition": "Cung cấp không gian hoặc thích nghi với điều gì đó.",
+            "vietnameseExample": "Các thành phố phải chứa đựng dân số ngày càng tăng bằng nhà ở và dịch vụ đầy đủ."
           },
           {
             "word": "alleviate",
@@ -163,39 +177,53 @@
               "reduce",
               "ease",
               "relieve"
-            ]
+            ],
+            "vietnameseDefinition": "Làm cho vấn đề bớt nghiêm trọng hơn.",
+            "vietnameseExample": "Giao thông công cộng được cải thiện có thể giảm bớt tắc nghẽn giao thông đáng kể."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "rush hour traffic",
             "definition": "Heavy traffic during peak commuting times.",
-            "example": "Rush hour traffic is caused primarily by suburban commuters traveling to city centers."
+            "example": "Rush hour traffic is caused primarily by suburban commuters traveling to city centers.",
+            "vietnameseDefinition": "Giao thông đông đúc trong giờ cao điểm đi lại.",
+            "vietnameseExample": "Giao thông giờ cao điểm chủ yếu do người đi làm từ ngoại ô vào trung tâm thành phố gây ra."
           },
           {
             "phrase": "car-free city centers",
             "definition": "Urban areas where private vehicles are restricted or banned.",
-            "example": "Many European cities have established car-free city centers to reduce pollution and congestion."
+            "example": "Many European cities have established car-free city centers to reduce pollution and congestion.",
+            "vietnameseDefinition": "Khu vực đô thị nơi phương tiện cá nhân bị hạn chế hoặc cấm.",
+            "vietnameseExample": "Nhiều thành phố châu Âu đã thiết lập trung tâm thành phố không có ô tô để giảm ô nhiễm và tắc nghẽn."
           },
           {
             "phrase": "remote working trends",
             "definition": "Increasing pattern of employees working from home.",
-            "example": "Remote working trends have reduced commuter traffic in many cities since the pandemic."
+            "example": "Remote working trends have reduced commuter traffic in many cities since the pandemic.",
+            "vietnameseDefinition": "Xu hướng ngày càng tăng của nhân viên làm việc từ xa.",
+            "vietnameseExample": "Xu hướng làm việc từ xa đã giảm lưu lượng đi lại ở nhiều thành phố kể từ đại dịch."
           },
           {
             "phrase": "urban sprawl",
             "definition": "Uncontrolled expansion of cities into surrounding areas.",
-            "example": "Urban sprawl forces more people to commute long distances daily."
+            "example": "Urban sprawl forces more people to commute long distances daily.",
+            "vietnameseDefinition": "Sự mở rộng không kiểm soát của các thành phố vào các khu vực xung quanh.",
+            "vietnameseExample": "Sự phát triển đô thị lan rộng buộc nhiều người phải đi lại quãng đường dài hàng ngày."
           },
           {
             "phrase": "mass transit systems",
             "definition": "Public transportation networks serving large numbers of people.",
-            "example": "Tokyo's mass transit systems efficiently move millions of commuters daily."
+            "example": "Tokyo's mass transit systems efficiently move millions of commuters daily.",
+            "vietnameseDefinition": "Mạng lưới giao thông công cộng phục vụ số lượng lớn người dân.",
+            "vietnameseExample": "Hệ thống giao thông đại chúng của Tokyo di chuyển hiệu quả hàng triệu người đi làm mỗi ngày."
           },
           {
             "phrase": "housing affordability",
             "definition": "The ability of people to purchase or rent accommodation.",
-            "example": "Housing affordability remains a major challenge in encouraging urban migration."
+            "example": "Housing affordability remains a major challenge in encouraging urban migration.",
+            "vietnameseDefinition": "Khả năng mua hoặc thuê nhà ở của người dân.",
+            "vietnameseExample": "Khả năng chi trả nhà ở vẫn là thách thức lớn trong việc khuyến khích di cư đô thị."
           }
         ],
         "linkingPhrases": {
