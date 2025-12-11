@@ -17,10 +17,12 @@ let topicProgress = {
     paragraphData: {},
     essayText: '',
     exerciseResults: {},
+    revisionProgress: {},
     timeSpent: {},
     startTime: null,
     sessionId: ''
 };
+let isRevisionMode = false;
 
 // Telegram & Student Session
 let telegramSender = null;
@@ -125,13 +127,18 @@ function loadTopicProgress() {
     const savedProgress = localStorage.getItem(`${STORAGE_PROGRESS}_${currentTopic.id}`);
     if (savedProgress) {
         topicProgress = JSON.parse(savedProgress);
+        // Ensure revisionProgress exists
+        if (!topicProgress.revisionProgress) {
+            topicProgress.revisionProgress = {};
+        }
     } else {
         // Reset to default
         topicProgress = {
             completedSteps: [],
             paragraphData: {},
             essayText: '',
-            exerciseResults: {}
+            exerciseResults: {},
+            revisionProgress: {}
         };
     }
 
@@ -587,6 +594,27 @@ function renderExercisesStep(step, container) {
             ${renderSentenceBank()}
         </div>
 
+        <!-- Revision Practice Section -->
+        <div style="margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 0.75rem; color: white; text-align: center;">
+            <h3 style="margin-bottom: 0.75rem; color: white; font-size: 1.5rem;">📚 Ready to Review?</h3>
+            <p style="margin-bottom: 1.5rem; opacity: 0.9; font-size: 1rem;">
+                Practice all ${totalExercises} sentences with sentence unscrambling!
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap;">
+                <button onclick="enterRevisionMode()"
+                        style="background: white; color: #667eea; padding: 0.875rem 2rem; border: none; border-radius: 0.5rem; font-weight: 600; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s;"
+                        onmouseover="this.style.transform='translateY(-2px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                    🎯 Start Revision Practice
+                </button>
+                ${Object.keys(topicProgress.revisionProgress || {}).length > 0 ? `
+                    <span style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem;">
+                        ✓ ${Object.values(topicProgress.revisionProgress).filter(r => r.correct).length}/${totalExercises} completed
+                    </span>
+                ` : ''}
+            </div>
+        </div>
+
         <div class="step-navigation">
             <button class="btn-step btn-step-prev" onclick="navigateToStep(2)">← Previous</button>
             <button class="btn-step btn-step-next" onclick="completeStep(3)">
@@ -738,6 +766,257 @@ function copySentence(sentence) {
     }).catch(() => {
         alert('Sentence: ' + sentence);
     });
+}
+
+//===========================================
+// REVISION SECTION - SENTENCE UNSCRAMBLE
+//===========================================
+
+function getAllExerciseSentences() {
+    const step3 = currentTopic.steps.find(s => s.stepNumber === 3);
+    if (!step3) return [];
+
+    const content = normalizeExerciseContent(step3.content);
+    const sentences = [];
+
+    for (const section of content.exerciseSections || []) {
+        for (const exercise of section.exercises) {
+            if (exercise.correctSentence) {
+                sentences.push({
+                    id: `revision_${exercise.id}`,
+                    originalId: exercise.id,
+                    sentence: exercise.correctSentence,
+                    category: section.title
+                });
+            }
+        }
+    }
+
+    return sentences;
+}
+
+function scrambleSentence(sentence) {
+    // Split into words and shuffle
+    const words = sentence.split(' ');
+    const scrambled = [...words];
+
+    // Fisher-Yates shuffle
+    for (let i = scrambled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [scrambled[i], scrambled[j]] = [scrambled[j], scrambled[i]];
+    }
+
+    return scrambled;
+}
+
+function enterRevisionMode() {
+    isRevisionMode = true;
+    renderRevisionSection();
+}
+
+function exitRevisionMode() {
+    isRevisionMode = false;
+    renderInterface();
+    renderStep(currentStep);
+}
+
+function renderRevisionSection() {
+    const container = document.getElementById('mainContainer');
+    const allSentences = getAllExerciseSentences();
+
+    if (allSentences.length === 0) {
+        container.innerHTML = `
+            <div class="loading-message">
+                <p style="color: var(--color-text-light);">No exercises available for revision yet.</p>
+                <button class="btn-step btn-step-prev" onclick="exitRevisionMode()">← Back to Steps</button>
+            </div>
+        `;
+        return;
+    }
+
+    const completedCount = Object.values(topicProgress.revisionProgress || {}).filter(r => r.correct).length;
+    const totalCount = allSentences.length;
+    const percentage = Math.round((completedCount / totalCount) * 100);
+
+    container.innerHTML = `
+        <!-- Revision Header -->
+        <div class="question-section" style="margin-bottom: 2rem;">
+            <div class="question-meta">
+                <span class="question-category">📚 Revision Practice</span>
+                <span class="question-num">Sentence Unscramble</span>
+            </div>
+            <h2 class="question-text">Review All 48 Exercises - Sentence Rearrangement</h2>
+            <p style="color: var(--color-text-light); margin-top: 0.5rem;">
+                Rearrange the words to form the correct sentences from your exercises.
+            </p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                <span style="font-weight: 600;">Progress</span>
+                <span style="font-weight: 600; color: var(--color-accent);">${completedCount}/${totalCount} (${percentage}%)</span>
+            </div>
+            <div style="background: var(--color-bg-light); height: 8px; border-radius: 4px; overflow: hidden;">
+                <div style="background: var(--step-completed); height: 100%; width: ${percentage}%; transition: width 0.3s;"></div>
+            </div>
+        </div>
+
+        <!-- Back Button -->
+        <div style="margin-bottom: 2rem;">
+            <button class="btn-step btn-step-prev" onclick="exitRevisionMode()">← Back to Steps</button>
+        </div>
+
+        <!-- Revision Exercises -->
+        <div id="revisionExercises">
+            ${allSentences.map((item, index) => renderRevisionExercise(item, index)).join('')}
+        </div>
+
+        <!-- Complete Button -->
+        <div style="margin: 3rem 0; padding: 2rem; background: #f0fdf4; border-radius: 0.5rem; text-align: center;">
+            <h3 style="margin-bottom: 1rem;">Completed ${completedCount}/${totalCount} sentences</h3>
+            ${completedCount === totalCount ? `
+                <p style="color: var(--step-completed); font-weight: 600; margin-bottom: 1rem;">
+                    🎉 Excellent work! You've completed all revision exercises!
+                </p>
+            ` : `
+                <p style="color: var(--color-text-light); margin-bottom: 1rem;">
+                    Keep practicing to master all sentences!
+                </p>
+            `}
+            <button class="btn-step btn-step-next" onclick="exitRevisionMode()">Return to Lesson →</button>
+        </div>
+    `;
+}
+
+function renderRevisionExercise(item, index) {
+    const result = topicProgress.revisionProgress[item.id] || { userOrder: [] };
+    const isCorrect = result.correct;
+    const scrambledWords = result.scrambledWords || scrambleSentence(item.sentence);
+
+    // Save scrambled words if not already saved
+    if (!result.scrambledWords) {
+        topicProgress.revisionProgress[item.id] = {
+            ...result,
+            scrambledWords: scrambledWords
+        };
+        saveTopicProgress();
+    }
+
+    return `
+        <div class="exercise-card" style="border-left-color: ${isCorrect ? 'var(--step-completed)' : 'var(--color-accent)'}; background: ${isCorrect ? '#f0fdf4' : 'white'};">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <div class="exercise-title">Sentence ${index + 1} ${isCorrect ? '✓' : ''}</div>
+                <span style="font-size: 0.875rem; color: var(--color-text-light); background: var(--color-bg-light); padding: 0.25rem 0.75rem; border-radius: 0.25rem;">
+                    ${item.category}
+                </span>
+            </div>
+
+            ${!isCorrect ? `
+                <p style="margin-bottom: 1rem; color: var(--color-text-light); font-size: 0.875rem;">
+                    💡 Click the words in the correct order to form the sentence:
+                </p>
+
+                <!-- Word Chips -->
+                <div class="word-chips" id="words_${item.id}" style="margin-bottom: 1rem;">
+                    ${scrambledWords.map((word, i) => `
+                        <div class="word-chip ${result.userOrder.includes(word) ? 'placed' : ''}"
+                             onclick="selectRevisionWord('${item.id}', ${i}, '${word.replace(/'/g, "\\'")}')"
+                             id="chip_${item.id}_${i}">
+                            ${word}
+                        </div>
+                    `).join('')}
+                </div>
+
+                <!-- Answer Area -->
+                <div class="answer-area" id="answer_${item.id}" style="min-height: 60px; margin-bottom: 1rem;">
+                    ${result.userOrder.length ? result.userOrder.join(' ') : 'Your answer will appear here...'}
+                </div>
+
+                <!-- Action Buttons -->
+                <div style="display: flex; gap: 0.5rem;">
+                    <button class="btn-step btn-step-next" onclick="checkRevisionAnswer('${item.id}', '${item.sentence.replace(/'/g, "\\'")}')">
+                        Check Answer
+                    </button>
+                    <button class="btn-step btn-step-prev" onclick="resetRevisionExercise('${item.id}')">
+                        Reset
+                    </button>
+                </div>
+
+                <div id="result_${item.id}" style="margin-top: 1rem;"></div>
+            ` : `
+                <div style="padding: 1rem; background: white; border-radius: 0.375rem; border-left: 3px solid var(--step-completed);">
+                    <strong style="color: var(--step-completed);">✓ Correct:</strong>
+                    <span style="color: var(--color-text);">${item.sentence}</span>
+                </div>
+            `}
+        </div>
+    `;
+}
+
+function selectRevisionWord(exerciseId, wordIndex, word) {
+    const chip = document.getElementById(`chip_${exerciseId}_${wordIndex}`);
+    if (chip.classList.contains('placed')) return;
+
+    chip.classList.add('placed');
+
+    if (!topicProgress.revisionProgress[exerciseId]) {
+        topicProgress.revisionProgress[exerciseId] = { userOrder: [] };
+    }
+    topicProgress.revisionProgress[exerciseId].userOrder.push(word);
+    saveTopicProgress();
+
+    const answerArea = document.getElementById(`answer_${exerciseId}`);
+    answerArea.textContent = topicProgress.revisionProgress[exerciseId].userOrder.join(' ');
+}
+
+function resetRevisionExercise(exerciseId) {
+    const result = topicProgress.revisionProgress[exerciseId];
+    if (result) {
+        topicProgress.revisionProgress[exerciseId] = {
+            scrambledWords: result.scrambledWords, // Keep the same scrambled order
+            userOrder: []
+        };
+        saveTopicProgress();
+    }
+    renderRevisionSection();
+}
+
+async function checkRevisionAnswer(exerciseId, correctSentence) {
+    const userAnswer = topicProgress.revisionProgress[exerciseId]?.userOrder.join(' ') || '';
+
+    if (!userAnswer) {
+        alert('Please arrange the words first!');
+        return;
+    }
+
+    const isCorrect = userAnswer.toLowerCase().trim() === correctSentence.toLowerCase().trim();
+
+    topicProgress.revisionProgress[exerciseId].correct = isCorrect;
+    saveTopicProgress();
+
+    const resultDiv = document.getElementById(`result_${exerciseId}`);
+    if (isCorrect) {
+        resultDiv.innerHTML = `<div style="color: var(--step-completed); font-weight: 600; padding: 0.75rem; background: #f0fdf4; border-radius: 0.375rem;">✓ Perfect! Well done!</div>`;
+
+        // Check if all revision completed
+        const allSentences = getAllExerciseSentences();
+        const completedCount = Object.values(topicProgress.revisionProgress).filter(r => r.correct).length;
+
+        if (completedCount === allSentences.length) {
+            await sendRevisionCompletionToTelegram();
+        }
+
+        // Re-render after short delay to show success message
+        setTimeout(() => renderRevisionSection(), 1000);
+    } else {
+        resultDiv.innerHTML = `
+            <div style="color: #dc2626; padding: 0.75rem; background: #fee; border-radius: 0.375rem;">
+                ✗ Not quite right. Try again!
+                <br><small style="font-size: 0.875rem;">Correct answer: "${correctSentence}"</small>
+            </div>
+        `;
+    }
 }
 
 function renderBuildFromClues(exercise, index) {
@@ -1555,6 +1834,29 @@ async function sendEssaySubmissionToTelegram() {
         console.log('Essay submission notification sent');
     } catch (error) {
         console.error('Failed to send essay submission notification:', error);
+    }
+}
+
+async function sendRevisionCompletionToTelegram() {
+    if (!telegramSender || !studentSession || !currentTopic) return;
+
+    try {
+        const session = studentSession.getSession();
+        const allSentences = getAllExerciseSentences();
+        const completedCount = Object.values(topicProgress.revisionProgress || {}).filter(r => r.correct).length;
+
+        const message = `🎓 <b>Revision Practice Completed!</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📝 Topic: ${currentTopic.title}\n` +
+                       `📚 Activity: Sentence Unscramble Revision\n` +
+                       `✓ Sentences completed: ${completedCount}/${allSentences.length}\n` +
+                       `🆔 Session: ${session.sessionId}\n\n` +
+                       `The student has successfully reviewed all exercise sentences through unscrambling practice!`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log('Revision completion notification sent');
+    } catch (error) {
+        console.error('Failed to send revision completion notification:', error);
     }
 }
 
