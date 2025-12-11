@@ -85,7 +85,9 @@
             "synonyms": [
               "mechanization",
               "computerization"
-            ]
+            ],
+            "vietnameseDefinition": "Việc sử dụng công nghệ để thực hiện các nhiệm vụ mà không cần can thiệp của con người.",
+            "vietnameseExample": "Tự động hóa dựa trên AI đang thay đổi các ngành sản xuất và dịch vụ."
           },
           {
             "word": "displacement",
@@ -96,7 +98,9 @@
             "synonyms": [
               "replacement",
               "removal"
-            ]
+            ],
+            "vietnameseDefinition": "Hành động đẩy cái gì đó ra khỏi vị trí của nó.",
+            "vietnameseExample": "Việc người lao động bị thay thế do AI tạo ra những thách thức kinh tế đáng kể."
           },
           {
             "word": "efficiency",
@@ -107,7 +111,9 @@
             "synonyms": [
               "productivity",
               "effectiveness"
-            ]
+            ],
+            "vietnameseDefinition": "Đạt được năng suất tối đa với nỗ lực lãng phí tối thiểu.",
+            "vietnameseExample": "Các hệ thống AI cải thiện đáng kể hiệu suất hoạt động trong nhiều lĩnh vực."
           },
           {
             "word": "obsolete",
@@ -118,7 +124,9 @@
             "synonyms": [
               "outdated",
               "antiquated"
-            ]
+            ],
+            "vietnameseDefinition": "Không còn được sử dụng hoặc lỗi thời.",
+            "vietnameseExample": "Nhiều vai trò công việc truyền thống có nguy cơ trở nên lỗi thời do sự tiến bộ của AI."
           },
           {
             "word": "unprecedented",
@@ -129,7 +137,9 @@
             "synonyms": [
               "extraordinary",
               "unparalleled"
-            ]
+            ],
+            "vietnameseDefinition": "Chưa từng được thực hiện hoặc trải nghiệm trước đây.",
+            "vietnameseExample": "AI đại diện cho sự chuyển đổi chưa từng có của lực lượng lao động toàn cầu."
           },
           {
             "word": "adaptability",
@@ -140,7 +150,9 @@
             "synonyms": [
               "flexibility",
               "versatility"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng thích nghi với các điều kiện mới.",
+            "vietnameseExample": "Người lao động cần khả năng thích nghi tốt hơn để phát triển trong nền kinh tế bị chi phối bởi AI."
           },
           {
             "word": "proliferation",
@@ -151,7 +163,9 @@
             "synonyms": [
               "expansion",
               "growth"
-            ]
+            ],
+            "vietnameseDefinition": "Sự gia tăng hoặc lan rộng nhanh chóng.",
+            "vietnameseExample": "Sự phổ biến của công nghệ AI đang định hình lại các mô hình việc làm trên toàn cầu."
           },
           {
             "word": "mitigate",
@@ -162,39 +176,53 @@
             "synonyms": [
               "alleviate",
               "reduce"
-            ]
+            ],
+            "vietnameseDefinition": "Làm giảm mức độ nghiêm trọng.",
+            "vietnameseExample": "Chính phủ phải thực hiện các chính sách để giảm thiểu tác động tiêu cực của AI đến việc làm."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "workforce automation",
             "definition": "Using technology to replace human labor.",
-            "example": "Workforce automation through AI is accelerating across manufacturing sectors."
+            "example": "Workforce automation through AI is accelerating across manufacturing sectors.",
+            "vietnameseDefinition": "Sử dụng công nghệ để thay thế lao động con người.",
+            "vietnameseExample": "Tự động hóa lực lượng lao động thông qua AI đang tăng tốc trong các lĩnh vực sản xuất."
           },
           {
             "phrase": "job displacement",
             "definition": "Workers losing jobs to technology.",
-            "example": "Job displacement affects low-skilled workers most severely in automated industries."
+            "example": "Job displacement affects low-skilled workers most severely in automated industries.",
+            "vietnameseDefinition": "Người lao động mất việc vì công nghệ.",
+            "vietnameseExample": "Mất việc làm ảnh hưởng nghiêm trọng nhất đến người lao động có kỹ năng thấp trong các ngành tự động hóa."
           },
           {
             "phrase": "machine learning",
             "definition": "AI systems that improve through experience.",
-            "example": "Machine learning algorithms now outperform humans in pattern recognition tasks."
+            "example": "Machine learning algorithms now outperform humans in pattern recognition tasks.",
+            "vietnameseDefinition": "Hệ thống AI được cải thiện thông qua kinh nghiệm.",
+            "vietnameseExample": "Các thuật toán học máy hiện vượt trội hơn con người trong các nhiệm vụ nhận dạng mẫu."
           },
           {
             "phrase": "economic inequality",
             "definition": "Unequal distribution of wealth and opportunity.",
-            "example": "AI adoption may exacerbate economic inequality between skilled and unskilled workers."
+            "example": "AI adoption may exacerbate economic inequality between skilled and unskilled workers.",
+            "vietnameseDefinition": "Sự phân phối không đồng đều của cải và cơ hội.",
+            "vietnameseExample": "Việc áp dụng AI có thể làm trầm trọng thêm bất bình đẳng kinh tế giữa người lao động có kỹ năng và không có kỹ năng."
           },
           {
             "phrase": "reskilling programs",
             "definition": "Training to learn new job skills.",
-            "example": "Reskilling programs help displaced workers transition to AI-complementary roles."
+            "example": "Reskilling programs help displaced workers transition to AI-complementary roles.",
+            "vietnameseDefinition": "Chương trình đào tạo để học các kỹ năng công việc mới.",
+            "vietnameseExample": "Các chương trình đào tạo lại kỹ năng giúp người lao động bị thay thế chuyển sang các vai trò bổ sung cho AI."
           },
           {
             "phrase": "cognitive tasks",
             "definition": "Work requiring thinking and decision-making.",
-            "example": "AI now handles complex cognitive tasks previously requiring human expertise."
+            "example": "AI now handles complex cognitive tasks previously requiring human expertise.",
+            "vietnameseDefinition": "Công việc đòi hỏi tư duy và ra quyết định.",
+            "vietnameseExample": "AI hiện xử lý các nhiệm vụ nhận thức phức tạp trước đây đòi hỏi chuyên môn của con người."
           }
         ],
         "linkingPhrases": {

@@ -86,7 +86,9 @@
               "exhaustion",
               "reduction",
               "consumption"
-            ]
+            ],
+            "vietnameseDefinition": "Sự suy giảm hoặc cạn kiệt tài nguyên.",
+            "vietnameseExample": "Sự cạn kiệt nhiên liệu hóa thạch gây ra những thách thức nghiêm trọng về môi trường."
           },
           {
             "word": "sustainability",
@@ -98,7 +100,9 @@
               "durability",
               "longevity",
               "viability"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng duy trì tài nguyên cho các thế hệ tương lai.",
+            "vietnameseExample": "Tính bền vững môi trường đòi hỏi quản lý cẩn thận tài nguyên thiên nhiên."
           },
           {
             "word": "exponential",
@@ -110,7 +114,9 @@
               "rapid",
               "accelerating",
               "dramatic"
-            ]
+            ],
+            "vietnameseDefinition": "Tăng với tốc độ nhanh chóng gia tăng.",
+            "vietnameseExample": "Tăng trưởng dân số đã dẫn đến sự gia tăng theo cấp số nhân trong tiêu thụ tài nguyên."
           },
           {
             "word": "implement",
@@ -122,7 +128,9 @@
               "execute",
               "enforce",
               "apply"
-            ]
+            ],
+            "vietnameseDefinition": "Đưa một kế hoạch hoặc quyết định vào thực thi.",
+            "vietnameseExample": "Chính phủ phải thực thi các quy định chặt chẽ hơn về khai thác tài nguyên."
           },
           {
             "word": "conservation",
@@ -134,7 +142,9 @@
               "preservation",
               "protection",
               "management"
-            ]
+            ],
+            "vietnameseDefinition": "Sự bảo vệ và gìn giữ tài nguyên thiên nhiên.",
+            "vietnameseExample": "Bảo tồn rừng là điều thiết yếu để duy trì đa dạng sinh học."
           },
           {
             "word": "mitigate",
@@ -146,7 +156,9 @@
               "reduce",
               "alleviate",
               "diminish"
-            ]
+            ],
+            "vietnameseDefinition": "Làm giảm mức độ nghiêm trọng hoặc giảm tác động.",
+            "vietnameseExample": "Năng lượng tái tạo có thể giảm thiểu sự cạn kiệt nhiên liệu hóa thạch."
           },
           {
             "word": "rampant",
@@ -158,7 +170,9 @@
               "uncontrolled",
               "widespread",
               "unchecked"
-            ]
+            ],
+            "vietnameseDefinition": "Lan rộng và khó kiểm soát.",
+            "vietnameseExample": "Công nghiệp hóa tràn lan đã đẩy nhanh sự cạn kiệt tài nguyên."
           },
           {
             "word": "incentivize",
@@ -170,39 +184,53 @@
               "encourage",
               "motivate",
               "stimulate"
-            ]
+            ],
+            "vietnameseDefinition": "Thúc đẩy hoặc khuyến khích thông qua phần thưởng.",
+            "vietnameseExample": "Giảm thuế có thể khuyến khích doanh nghiệp áp dụng các hoạt động bền vững."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "renewable energy",
             "definition": "Energy from sources that naturally replenish (solar, wind, hydro).",
-            "example": "Transitioning to renewable energy reduces dependence on fossil fuels."
+            "example": "Transitioning to renewable energy reduces dependence on fossil fuels.",
+            "vietnameseDefinition": "Năng lượng từ các nguồn tự nhiên tái tạo (mặt trời, gió, thủy điện).",
+            "vietnameseExample": "Chuyển đổi sang năng lượng tái tạo làm giảm sự phụ thuộc vào nhiên liệu hóa thạch."
           },
           {
             "phrase": "carbon footprint",
             "definition": "The total greenhouse gas emissions caused by activities.",
-            "example": "Reducing our carbon footprint is crucial for environmental sustainability."
+            "example": "Reducing our carbon footprint is crucial for environmental sustainability.",
+            "vietnameseDefinition": "Tổng lượng khí thải nhà kính do các hoạt động gây ra.",
+            "vietnameseExample": "Giảm dấu chân carbon của chúng ta là điều quan trọng cho tính bền vững môi trường."
           },
           {
             "phrase": "ecological balance",
             "definition": "The equilibrium between living organisms and their environment.",
-            "example": "Deforestation disrupts the ecological balance of entire ecosystems."
+            "example": "Deforestation disrupts the ecological balance of entire ecosystems.",
+            "vietnameseDefinition": "Sự cân bằng giữa các sinh vật sống và môi trường của chúng.",
+            "vietnameseExample": "Phá rừng phá vỡ sự cân bằng sinh thái của toàn bộ hệ sinh thái."
           },
           {
             "phrase": "resource extraction",
             "definition": "The process of removing natural resources from the earth.",
-            "example": "Unregulated resource extraction leads to environmental degradation."
+            "example": "Unregulated resource extraction leads to environmental degradation.",
+            "vietnameseDefinition": "Quá trình lấy tài nguyên thiên nhiên từ trái đất.",
+            "vietnameseExample": "Khai thác tài nguyên không được quản lý dẫn đến suy thoái môi trường."
           },
           {
             "phrase": "circular economy",
             "definition": "An economic system aimed at eliminating waste through reuse and recycling.",
-            "example": "A circular economy model can significantly reduce raw material consumption."
+            "example": "A circular economy model can significantly reduce raw material consumption.",
+            "vietnameseDefinition": "Một hệ thống kinh tế nhằm loại bỏ chất thải thông qua tái sử dụng và tái chế.",
+            "vietnameseExample": "Mô hình kinh tế tuần hoàn có thể giảm đáng kể tiêu thụ nguyên liệu thô."
           },
           {
             "phrase": "population pressure",
             "definition": "Strain on resources caused by growing population.",
-            "example": "Population pressure intensifies competition for limited water resources."
+            "example": "Population pressure intensifies competition for limited water resources.",
+            "vietnameseDefinition": "Áp lực lên tài nguyên do dân số tăng trưởng gây ra.",
+            "vietnameseExample": "Áp lực dân số làm gia tăng cạnh tranh cho nguồn nước hạn chế."
           }
         ],
         "linkingPhrases": {

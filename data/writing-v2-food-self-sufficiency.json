@@ -79,7 +79,9 @@
             "synonyms": [
               "food stability",
               "nutritional security"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng tiếp cận đáng tin cậy với nguồn thực phẩm đầy đủ, giá cả phải chăng và bổ dưỡng.",
+            "vietnameseExample": "An ninh lương thực là mối quan tâm quan trọng của các chính phủ trên toàn thế giới."
           },
           {
             "word": "agricultural self-sufficiency",
@@ -90,7 +92,9 @@
             "synonyms": [
               "food independence",
               "agricultural autonomy"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng của một quốc gia tự sản xuất đủ nhu cầu lương thực của mình.",
+            "vietnameseExample": "Tự cung tự cấp về nông nghiệp vẫn là mục tiêu của nhiều quốc gia."
           },
           {
             "word": "import dependency",
@@ -101,7 +105,9 @@
             "synonyms": [
               "trade reliance",
               "foreign dependence"
-            ]
+            ],
+            "vietnameseDefinition": "Sự phụ thuộc vào các nước ngoài để có được hàng hóa thiết yếu.",
+            "vietnameseExample": "Sự phụ thuộc cao vào nhập khẩu khiến các quốc gia dễ bị ảnh hưởng bởi gián đoạn nguồn cung."
           },
           {
             "word": "domestic production",
@@ -112,7 +118,9 @@
             "synonyms": [
               "local production",
               "national production"
-            ]
+            ],
+            "vietnameseDefinition": "Hàng hóa được sản xuất hoặc trồng trọt trong nước.",
+            "vietnameseExample": "Chính phủ đầu tư mạnh vào sản xuất gạo trong nước."
           },
           {
             "word": "trade agreements",
@@ -123,7 +131,9 @@
             "synonyms": [
               "trade deals",
               "commercial treaties"
-            ]
+            ],
+            "vietnameseDefinition": "Hiệp định giữa các quốc gia điều chỉnh hoạt động trao đổi thương mại.",
+            "vietnameseExample": "Các hiệp định thương mại hiện đại hỗ trợ dòng chảy sản phẩm nông nghiệp."
           },
           {
             "word": "supply chain",
@@ -134,7 +144,9 @@
             "synonyms": [
               "distribution network",
               "logistics chain"
-            ]
+            ],
+            "vietnameseDefinition": "Mạng lưới kết nối giữa nhà sản xuất và người tiêu dùng.",
+            "vietnameseExample": "Chuỗi cung ứng toàn cầu đã bị gián đoạn trong thời kỳ đại dịch."
           },
           {
             "word": "vulnerable",
@@ -145,7 +157,9 @@
             "synonyms": [
               "susceptible",
               "exposed"
-            ]
+            ],
+            "vietnameseDefinition": "Dễ bị tổn thương hoặc bị tấn công.",
+            "vietnameseExample": "Các quốc gia phụ thuộc nhiều vào nhập khẩu dễ bị ảnh hưởng bởi cú sốc giá cả."
           },
           {
             "word": "comparative advantage",
@@ -156,39 +170,53 @@
             "synonyms": [
               "economic efficiency",
               "competitive edge"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng sản xuất hàng hóa hiệu quả hơn so với các nước khác.",
+            "vietnameseExample": "Các quốc gia nên tập trung vào các sản phẩm mà họ có lợi thế so sánh."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "food imports",
             "definition": "Food products purchased from other countries.",
-            "example": "Japan relies heavily on food imports to feed its population."
+            "example": "Japan relies heavily on food imports to feed its population.",
+            "vietnameseDefinition": "Các sản phẩm thực phẩm được mua từ các nước khác.",
+            "vietnameseExample": "Nhật Bản phụ thuộc rất nhiều vào nhập khẩu thực phẩm để nuôi dân số của mình."
           },
           {
             "phrase": "climate conditions",
             "definition": "Weather and environmental factors affecting agriculture.",
-            "example": "Certain climate conditions make growing tropical fruits impossible in cold regions."
+            "example": "Certain climate conditions make growing tropical fruits impossible in cold regions.",
+            "vietnameseDefinition": "Các yếu tố thời tiết và môi trường ảnh hưởng đến nông nghiệp.",
+            "vietnameseExample": "Một số điều kiện khí hậu khiến việc trồng trái cây nhiệt đới ở vùng lạnh trở nên bất khả thi."
           },
           {
             "phrase": "agricultural land",
             "definition": "Land used for farming and food production.",
-            "example": "Limited agricultural land restricts a country's ability to be self-sufficient."
+            "example": "Limited agricultural land restricts a country's ability to be self-sufficient.",
+            "vietnameseDefinition": "Đất được sử dụng để canh tác và sản xuất lương thực.",
+            "vietnameseExample": "Diện tích đất nông nghiệp hạn chế làm giảm khả năng tự cung tự cấp của một quốc gia."
           },
           {
             "phrase": "global trade",
             "definition": "International exchange of goods and services.",
-            "example": "Global trade allows countries to access diverse food products."
+            "example": "Global trade allows countries to access diverse food products.",
+            "vietnameseDefinition": "Trao đổi hàng hóa và dịch vụ giữa các quốc gia.",
+            "vietnameseExample": "Thương mại toàn cầu cho phép các quốc gia tiếp cận các sản phẩm thực phẩm đa dạng."
           },
           {
             "phrase": "food prices",
             "definition": "The cost of food products.",
-            "example": "Food prices rise when countries restrict imports."
+            "example": "Food prices rise when countries restrict imports.",
+            "vietnameseDefinition": "Giá cả của các sản phẩm thực phẩm.",
+            "vietnameseExample": "Giá thực phẩm tăng khi các quốc gia hạn chế nhập khẩu."
           },
           {
             "phrase": "economic efficiency",
             "definition": "Using resources in the most productive way.",
-            "example": "Economic efficiency suggests countries should import some foods."
+            "example": "Economic efficiency suggests countries should import some foods.",
+            "vietnameseDefinition": "Sử dụng nguồn lực theo cách hiệu quả nhất.",
+            "vietnameseExample": "Hiệu quả kinh tế cho thấy các quốc gia nên nhập khẩu một số loại thực phẩm."
           }
         ],
         "linkingPhrases": {

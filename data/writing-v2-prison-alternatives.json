@@ -90,7 +90,9 @@
             "synonyms": [
               "discouragement",
               "disincentive"
-            ]
+            ],
+            "vietnameseDefinition": "Điều gì đó ngăn cản một hành động hoặc hành vi.",
+            "vietnameseExample": "Bản án tù giam đóng vai trò như một biện pháp răn đe đối với tội phạm tiềm ẩn."
           },
           {
             "word": "rehabilitation",
@@ -101,7 +103,9 @@
             "synonyms": [
               "reintegration",
               "reform"
-            ]
+            ],
+            "vietnameseDefinition": "Quá trình giúp một người trở lại cuộc sống bình thường sau hình phạt hoặc bệnh tật.",
+            "vietnameseExample": "Dịch vụ cộng đồng tập trung vào cải tạo hơn là trừng phạt."
           },
           {
             "word": "proportionate",
@@ -112,7 +116,9 @@
             "synonyms": [
               "appropriate",
               "commensurate"
-            ]
+            ],
+            "vietnameseDefinition": "Tương ứng về quy mô, mức độ hoặc cường độ với một cái gì đó khác.",
+            "vietnameseExample": "Hình phạt nên tương xứng với mức độ nghiêm trọng của tội phạm."
           },
           {
             "word": "incarceration",
@@ -123,7 +129,9 @@
             "synonyms": [
               "imprisonment",
               "detention"
-            ]
+            ],
+            "vietnameseDefinition": "Trạng thái bị giam giữ trong tù.",
+            "vietnameseExample": "Giam giữ lâu dài có thể có tác động tâm lý tiêu cực."
           },
           {
             "word": "recidivism",
@@ -134,7 +142,9 @@
             "synonyms": [
               "reoffending",
               "relapse into crime"
-            ]
+            ],
+            "vietnameseDefinition": "Xu hướng của tội phạm tái phạm sau hình phạt.",
+            "vietnameseExample": "Các chương trình dựa vào cộng đồng có thể giảm tỷ lệ tái phạm hiệu quả hơn."
           },
           {
             "word": "facilitate",
@@ -146,7 +156,9 @@
               "enable",
               "assist",
               "promote"
-            ]
+            ],
+            "vietnameseDefinition": "Làm cho một hành động hoặc quá trình dễ dàng hơn.",
+            "vietnameseExample": "Các bản án thay thế hỗ trợ việc tái hòa nhập vào xã hội của người phạm tội."
           },
           {
             "word": "severity",
@@ -157,7 +169,9 @@
             "synonyms": [
               "seriousness",
               "gravity"
-            ]
+            ],
+            "vietnameseDefinition": "Mức độ nghiêm trọng hoặc khắc nghiệt của điều gì đó.",
+            "vietnameseExample": "Mức độ nghiêm trọng của hình phạt nên phù hợp với tội phạm đã thực hiện."
           },
           {
             "word": "substantial",
@@ -168,39 +182,53 @@
             "synonyms": [
               "significant",
               "considerable"
-            ]
+            ],
+            "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+            "vietnameseExample": "Tình trạng quá tải nhà tù tạo ra các vấn đề tài chính và xã hội đáng kể."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "community service",
             "definition": "Unpaid work performed for the benefit of the public as punishment.",
-            "example": "Community service allows offenders to give back to society."
+            "example": "Community service allows offenders to give back to society.",
+            "vietnameseDefinition": "Công việc không được trả lương thực hiện vì lợi ích của công chúng như một hình phạt.",
+            "vietnameseExample": "Dịch vụ cộng đồng cho phép người phạm tội cống hiến lại cho xã hội."
           },
           {
             "phrase": "petty crime",
             "definition": "Minor or less serious criminal offense.",
-            "example": "Petty crimes such as shoplifting rarely warrant imprisonment."
+            "example": "Petty crimes such as shoplifting rarely warrant imprisonment.",
+            "vietnameseDefinition": "Tội phạm nhỏ hoặc ít nghiêm trọng.",
+            "vietnameseExample": "Các tội phạm nhỏ như ăn cắp vặt hiếm khi đáng bị giam giữ."
           },
           {
             "phrase": "prison overcrowding",
             "definition": "When prisons hold more inmates than designed capacity.",
-            "example": "Alternative sentencing helps address prison overcrowding issues."
+            "example": "Alternative sentencing helps address prison overcrowding issues.",
+            "vietnameseDefinition": "Khi nhà tù giam giữ nhiều tù nhân hơn công suất thiết kế.",
+            "vietnameseExample": "Xử phạt thay thế giúp giải quyết vấn đề quá tải nhà tù."
           },
           {
             "phrase": "restorative justice",
             "definition": "A system focused on repairing harm rather than pure punishment.",
-            "example": "Restorative justice emphasizes reconciliation between offenders and victims."
+            "example": "Restorative justice emphasizes reconciliation between offenders and victims.",
+            "vietnameseDefinition": "Một hệ thống tập trung vào sửa chữa thiệt hại hơn là trừng phạt thuần túy.",
+            "vietnameseExample": "Công lý khôi phục nhấn mạnh sự hòa giải giữa người phạm tội và nạn nhân."
           },
           {
             "phrase": "reoffending rates",
             "definition": "The percentage of criminals who commit crimes again.",
-            "example": "Countries with alternative sentencing report lower reoffending rates."
+            "example": "Countries with alternative sentencing report lower reoffending rates.",
+            "vietnameseDefinition": "Tỷ lệ phần trăm tội phạm thực hiện tội phạm lại.",
+            "vietnameseExample": "Các quốc gia có xử phạt thay thế báo cáo tỷ lệ tái phạm thấp hơn."
           },
           {
             "phrase": "punitive approach",
             "definition": "A method focused on punishment rather than rehabilitation.",
-            "example": "The punitive approach to justice emphasizes harsh penalties for all offenders."
+            "example": "The punitive approach to justice emphasizes harsh penalties for all offenders.",
+            "vietnameseDefinition": "Một phương pháp tập trung vào trừng phạt hơn là cải tạo.",
+            "vietnameseExample": "Cách tiếp cận trừng phạt đối với công lý nhấn mạnh các hình phạt khắc nghiệt cho tất cả người phạm tội."
           }
         ],
         "linkingPhrases": {

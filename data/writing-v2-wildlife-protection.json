@@ -85,7 +85,9 @@
             "synonyms": [
               "preservation",
               "protection"
-            ]
+            ],
+            "vietnameseDefinition": "Bảo vệ và giữ gìn tài nguyên thiên nhiên.",
+            "vietnameseExample": "Bảo tồn động vật hoang dã đòi hỏi nguồn tài chính và chuyên môn đáng kể."
           },
           {
             "word": "biodiversity",
@@ -96,7 +98,9 @@
             "synonyms": [
               "biological diversity",
               "species variety"
-            ]
+            ],
+            "vietnameseDefinition": "Sự đa dạng sinh học trong một môi trường sống hoặc hệ sinh thái cụ thể.",
+            "vietnameseExample": "Bảo vệ tất cả các loài giúp duy trì đa dạng sinh học trong hệ sinh thái."
           },
           {
             "word": "ecosystem",
@@ -107,7 +111,9 @@
             "synonyms": [
               "habitat",
               "environment"
-            ]
+            ],
+            "vietnameseDefinition": "Cộng đồng sinh học của các sinh vật tương tác và môi trường của chúng.",
+            "vietnameseExample": "Mỗi loài đóng vai trò quan trọng trong hệ sinh thái của nó."
           },
           {
             "word": "prioritize",
@@ -118,7 +124,9 @@
             "synonyms": [
               "rank",
               "organize by importance"
-            ]
+            ],
+            "vietnameseDefinition": "Tổ chức theo thứ tự quan trọng.",
+            "vietnameseExample": "Nỗ lực bảo tồn nên ưu tiên các loài có nguy cơ tuyệt chủng sắp xảy ra."
           },
           {
             "word": "extinction",
@@ -129,7 +137,9 @@
             "synonyms": [
               "elimination",
               "disappearance"
-            ]
+            ],
+            "vietnameseDefinition": "Sự biến mất hoàn toàn của một loài.",
+            "vietnameseExample": "Nhiều loài đối mặt với nguy cơ tuyệt chủng do mất môi trường sống và biến đổi khí hậu."
           },
           {
             "word": "allocate",
@@ -141,7 +151,9 @@
               "distribute",
               "assign",
               "designate"
-            ]
+            ],
+            "vietnameseDefinition": "Phân phối tài nguyên cho một mục đích cụ thể.",
+            "vietnameseExample": "Quỹ hạn chế phải được phân bổ một cách khôn ngoan giữa các dự án bảo tồn."
           },
           {
             "word": "interconnected",
@@ -153,7 +165,9 @@
               "linked",
               "connected",
               "interdependent"
-            ]
+            ],
+            "vietnameseDefinition": "Có các phần được kết nối hoặc liên kết với nhau.",
+            "vietnameseExample": "Tất cả các loài đều được kết nối với nhau trong môi trường tự nhiên của chúng."
           },
           {
             "word": "substantial",
@@ -164,39 +178,53 @@
             "synonyms": [
               "significant",
               "considerable"
-            ]
+            ],
+            "vietnameseDefinition": "Có tầm quan trọng hoặc quy mô đáng kể.",
+            "vietnameseExample": "Bảo vệ động vật hoang dã đòi hỏi đầu tư tài chính và nguồn nhân lực đáng kể."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "endangered species",
             "definition": "Animals at serious risk of extinction.",
-            "example": "Pandas and tigers are classified as endangered species requiring urgent protection."
+            "example": "Pandas and tigers are classified as endangered species requiring urgent protection.",
+            "vietnameseDefinition": "Động vật có nguy cơ tuyệt chủng nghiêm trọng.",
+            "vietnameseExample": "Gấu trúc và hổ được phân loại là loài có nguy cơ tuyệt chủng cần bảo vệ khẩn cấp."
           },
           {
             "phrase": "habitat destruction",
             "definition": "The damage or elimination of natural living environments.",
-            "example": "Habitat destruction is the primary threat to wildlife worldwide."
+            "example": "Habitat destruction is the primary threat to wildlife worldwide.",
+            "vietnameseDefinition": "Sự phá hủy hoặc loại bỏ môi trường sống tự nhiên.",
+            "vietnameseExample": "Phá hủy môi trường sống là mối đe dọa chính đối với động vật hoang dã trên toàn thế giới."
           },
           {
             "phrase": "conservation resources",
             "definition": "Money, personnel, and materials dedicated to protecting wildlife.",
-            "example": "Conservation resources are limited and must be used strategically."
+            "example": "Conservation resources are limited and must be used strategically.",
+            "vietnameseDefinition": "Tiền, nhân sự và vật liệu dành riêng cho bảo vệ động vật hoang dã.",
+            "vietnameseExample": "Nguồn lực bảo tồn bị hạn chế và phải được sử dụng một cách chiến lược."
           },
           {
             "phrase": "ecological balance",
             "definition": "The natural equilibrium in an ecosystem.",
-            "example": "Protecting all species helps maintain ecological balance in nature."
+            "example": "Protecting all species helps maintain ecological balance in nature.",
+            "vietnameseDefinition": "Sự cân bằng tự nhiên trong một hệ sinh thái.",
+            "vietnameseExample": "Bảo vệ tất cả các loài giúp duy trì cân bằng sinh thái trong tự nhiên."
           },
           {
             "phrase": "keystone species",
             "definition": "Species that have disproportionate effects on their ecosystem.",
-            "example": "Wolves are keystone species whose presence affects entire ecosystems."
+            "example": "Wolves are keystone species whose presence affects entire ecosystems.",
+            "vietnameseDefinition": "Loài có tác động không cân đối đến hệ sinh thái của chúng.",
+            "vietnameseExample": "Sói là loài then chốt mà sự hiện diện của chúng ảnh hưởng đến toàn bộ hệ sinh thái."
           },
           {
             "phrase": "limited funding",
             "definition": "Insufficient financial resources.",
-            "example": "Limited funding forces conservationists to make difficult choices about which species to protect."
+            "example": "Limited funding forces conservationists to make difficult choices about which species to protect.",
+            "vietnameseDefinition": "Nguồn tài chính không đủ.",
+            "vietnameseExample": "Quỹ hạn chế buộc các nhà bảo tồn phải đưa ra lựa chọn khó khăn về loài nào cần bảo vệ."
           }
         ],
         "linkingPhrases": {

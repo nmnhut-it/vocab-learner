@@ -84,7 +84,9 @@
             "synonyms": [
               "immediate family",
               "small family unit"
-            ]
+            ],
+            "vietnameseDefinition": "Đơn vị gia đình chỉ bao gồm cha mẹ và con cái.",
+            "vietnameseExample": "Sự gia tăng của gia đình hạt nhân đã thay đổi cấu trúc xã hội truyền thống."
           },
           {
             "word": "extended family",
@@ -95,7 +97,9 @@
             "synonyms": [
               "multigenerational family",
               "broader family network"
-            ]
+            ],
+            "vietnameseDefinition": "Gia đình bao gồm các thành viên họ hàng ngoài cha mẹ và con cái.",
+            "vietnameseExample": "Gia đình mở rộng theo truyền thống cung cấp dịch vụ chăm sóc trẻ em và hỗ trợ người cao tuổi."
           },
           {
             "word": "social isolation",
@@ -106,7 +110,9 @@
             "synonyms": [
               "loneliness",
               "disconnection"
-            ]
+            ],
+            "vietnameseDefinition": "Thiếu tiếp xúc với người khác hoặc xã hội.",
+            "vietnameseExample": "Sống một mình có thể dẫn đến sự cô lập xã hội, đặc biệt là đối với người cao tuổi."
           },
           {
             "word": "independence",
@@ -117,7 +123,9 @@
             "synonyms": [
               "autonomy",
               "self-reliance"
-            ]
+            ],
+            "vietnameseDefinition": "Tự do khỏi sự kiểm soát hoặc hỗ trợ của người khác.",
+            "vietnameseExample": "Nhiều chuyên gia trẻ đánh giá cao sự độc lập của việc sống một mình."
           },
           {
             "word": "intergenerational support",
@@ -128,7 +136,9 @@
             "synonyms": [
               "cross-generational assistance",
               "family support network"
-            ]
+            ],
+            "vietnameseDefinition": "Sự hỗ trợ và chăm sóc trao đổi giữa các thế hệ khác nhau.",
+            "vietnameseExample": "Gia đình mở rộng cung cấp hỗ trợ liên thế hệ cho chăm sóc trẻ em và chăm sóc người cao tuổi."
           },
           {
             "word": "urbanization",
@@ -139,7 +149,9 @@
             "synonyms": [
               "urban growth",
               "city expansion"
-            ]
+            ],
+            "vietnameseDefinition": "Quá trình di chuyển dân số vào các thành phố.",
+            "vietnameseExample": "Đô thị hóa nhanh chóng đã góp phần vào sự suy giảm của việc sống trong gia đình mở rộng."
           },
           {
             "word": "mobility",
@@ -150,7 +162,9 @@
             "synonyms": [
               "movement",
               "flexibility"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng di chuyển tự do hoặc thay đổi vị trí.",
+            "vietnameseExample": "Sự di chuyển nghề nghiệp thường yêu cầu mọi người rời xa gia đình mở rộng của họ."
           },
           {
             "word": "cohesion",
@@ -161,39 +175,53 @@
             "synonyms": [
               "unity",
               "togetherness"
-            ]
+            ],
+            "vietnameseDefinition": "Trạng thái đoàn kết hoặc gắn bó với nhau.",
+            "vietnameseExample": "Sống với gia đình mở rộng tăng cường sự gắn kết xã hội trong cộng đồng."
           }
         ],
         "topicVocabulary": [
           {
             "phrase": "loneliness epidemic",
             "definition": "Widespread problem of social isolation affecting many people.",
-            "example": "The loneliness epidemic is particularly severe among urban dwellers living alone."
+            "example": "The loneliness epidemic is particularly severe among urban dwellers living alone.",
+            "vietnameseDefinition": "Vấn đề cô đơn lan rộng ảnh hưởng đến nhiều người.",
+            "vietnameseExample": "Dịch cô đơn đặc biệt nghiêm trọng ở những cư dân đô thị sống một mình."
           },
           {
             "phrase": "personal freedom",
             "definition": "The ability to make choices without interference from others.",
-            "example": "Living alone offers greater personal freedom in lifestyle choices."
+            "example": "Living alone offers greater personal freedom in lifestyle choices.",
+            "vietnameseDefinition": "Khả năng đưa ra lựa chọn mà không bị can thiệp từ người khác.",
+            "vietnameseExample": "Sống một mình mang lại tự do cá nhân lớn hơn trong các lựa chọn lối sống."
           },
           {
             "phrase": "childcare support",
             "definition": "Assistance with caring for and raising children.",
-            "example": "Extended families traditionally provided childcare support for working parents."
+            "example": "Extended families traditionally provided childcare support for working parents.",
+            "vietnameseDefinition": "Hỗ trợ chăm sóc và nuôi dạy trẻ em.",
+            "vietnameseExample": "Gia đình mở rộng theo truyền thống cung cấp hỗ trợ chăm sóc trẻ em cho cha mẹ đi làm."
           },
           {
             "phrase": "elderly care challenges",
             "definition": "Difficulties in providing care for aging family members.",
-            "example": "Nuclear families face greater elderly care challenges without extended family help."
+            "example": "Nuclear families face greater elderly care challenges without extended family help.",
+            "vietnameseDefinition": "Những khó khăn trong việc chăm sóc các thành viên gia đình cao tuổi.",
+            "vietnameseExample": "Gia đình hạt nhân đối mặt với nhiều thách thức chăm sóc người cao tuổi hơn nếu không có sự giúp đỡ của gia đình mở rộng."
           },
           {
             "phrase": "work-life balance",
             "definition": "Equilibrium between professional and personal life.",
-            "example": "Small family units can struggle with work-life balance without family support."
+            "example": "Small family units can struggle with work-life balance without family support.",
+            "vietnameseDefinition": "Sự cân bằng giữa cuộc sống nghề nghiệp và cá nhân.",
+            "vietnameseExample": "Các đơn vị gia đình nhỏ có thể gặp khó khăn với cân bằng công việc-cuộc sống nếu không có sự hỗ trợ của gia đình."
           },
           {
             "phrase": "family obligations",
             "definition": "Responsibilities and duties toward family members.",
-            "example": "Living separately reduces traditional family obligations and expectations."
+            "example": "Living separately reduces traditional family obligations and expectations.",
+            "vietnameseDefinition": "Trách nhiệm và nghĩa vụ đối với các thành viên trong gia đình.",
+            "vietnameseExample": "Sống riêng giảm bớt nghĩa vụ và kỳ vọng gia đình truyền thống."
           }
         ],
         "linkingPhrases": {
