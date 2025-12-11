@@ -148,6 +148,9 @@ async function markStepComplete(stepNumber) {
         topicProgress.completedSteps.push(stepNumber);
     }
 
+    // Send notification for each step completion
+    await sendStepCompletionToTelegram(stepNumber);
+
     // Send essay submission notification when Step 6 completes
     if (stepNumber === 6) {
         await sendEssaySubmissionToTelegram();
@@ -674,6 +677,9 @@ function checkSentenceTemplate(exerciseId) {
     } else {
         resultDiv.innerHTML = `<div style="color: #dc2626;">Not quite. Try again or check the correct answer after attempting.</div>`;
     }
+
+    // Send exercise progress notification at milestones
+    checkExerciseMilestone();
 
     renderInterface();
     renderStep(3);
@@ -1401,6 +1407,102 @@ async function sendSessionStartToTelegram() {
         console.log('Session start notification sent');
     } catch (error) {
         console.error('Failed to send session start notification:', error);
+    }
+}
+
+async function checkExerciseMilestone() {
+    if (!currentTopic || !telegramSender || !studentSession) return;
+
+    const correctCount = Object.values(topicProgress.exerciseResults || {}).filter(r => r.correct).length;
+    const step3 = currentTopic.steps.find(s => s.stepNumber === 3);
+    if (!step3) return;
+
+    const content = normalizeExerciseContent(step3.content);
+    const totalExercises = content.exerciseSections?.reduce((sum, section) => sum + section.exercises.length, 0) || 0;
+
+    if (totalExercises === 0) return;
+
+    // Define milestones (every 25% or every 10 exercises, whichever is smaller)
+    const milestones = [
+        Math.floor(totalExercises * 0.25),
+        Math.floor(totalExercises * 0.50),
+        Math.floor(totalExercises * 0.75),
+        totalExercises
+    ];
+
+    // Check if we just hit a milestone
+    if (milestones.includes(correctCount)) {
+        await sendExerciseProgressToTelegram(correctCount, totalExercises);
+    }
+}
+
+async function sendExerciseProgressToTelegram(correctCount, totalExercises) {
+    if (!telegramSender || !studentSession || !currentTopic) return;
+
+    try {
+        const session = studentSession.getSession();
+        const percentage = Math.round((correctCount / totalExercises) * 100);
+
+        let emoji = '📊';
+        if (percentage >= 100) emoji = '🎉';
+        else if (percentage >= 75) emoji = '🔥';
+        else if (percentage >= 50) emoji = '💪';
+
+        const message = `${emoji} <b>Exercise Progress Update</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📝 Topic: ${currentTopic.title}\n` +
+                       `✍️ Step 3: Sentence Building Exercises\n` +
+                       `✓ Completed: ${correctCount}/${totalExercises} (${percentage}%)\n` +
+                       `🆔 Session: ${session.sessionId}`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log(`Exercise progress notification sent: ${correctCount}/${totalExercises}`);
+    } catch (error) {
+        console.error('Failed to send exercise progress notification:', error);
+    }
+}
+
+async function sendStepCompletionToTelegram(stepNumber) {
+    if (!telegramSender || !studentSession || !currentTopic) return;
+
+    try {
+        const session = studentSession.getSession();
+        const step = currentTopic.steps.find(s => s.stepNumber === stepNumber);
+        if (!step) return;
+
+        const stepNames = {
+            1: "📋 Topic Analysis",
+            2: "📚 Vocabulary Learning",
+            3: "✍️ Sentence Building Exercises",
+            4: "🏗️ Essay Templates",
+            5: "📝 Paragraph Construction",
+            6: "🎓 Complete Essay Writing"
+        };
+
+        let additionalInfo = '';
+
+        // Add specific details based on step type
+        if (stepNumber === 3) {
+            const correctCount = Object.values(topicProgress.exerciseResults || {}).filter(r => r.correct).length;
+            const step3 = currentTopic.steps.find(s => s.stepNumber === 3);
+            const content = normalizeExerciseContent(step3.content);
+            const totalExercises = content.exerciseSections?.reduce((sum, section) => sum + section.exercises.length, 0) || 0;
+            additionalInfo = `\n✓ Exercises completed: ${correctCount}/${totalExercises} correct`;
+        } else if (stepNumber === 5) {
+            const blanksFilled = Object.keys(topicProgress.paragraphData || {}).length;
+            additionalInfo = `\n✓ Paragraph sections filled: ${blanksFilled}`;
+        }
+
+        const message = `${stepNames[stepNumber] || `Step ${stepNumber}`} <b>Completed</b>\n\n` +
+                       `👤 Student: ${session.name}\n` +
+                       `📝 Topic: ${currentTopic.title}\n` +
+                       `📍 Progress: ${topicProgress.completedSteps.length}/6 steps${additionalInfo}\n` +
+                       `🆔 Session: ${session.sessionId}`;
+
+        await telegramSender.sendTextMessage(message);
+        console.log(`Step ${stepNumber} completion notification sent`);
+    } catch (error) {
+        console.error(`Failed to send step ${stepNumber} completion notification:`, error);
     }
 }
 
