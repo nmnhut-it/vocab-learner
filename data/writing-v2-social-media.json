@@ -84,7 +84,9 @@
             "synonyms": [
               "connection",
               "linkage"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng kết nối và giao tiếp với người khác.",
+            "vietnameseExample": "Mạng xã hội đã cải thiện khả năng kết nối toàn cầu một cách đáng kể."
           },
           {
             "word": "dissemination",
@@ -95,7 +97,9 @@
             "synonyms": [
               "distribution",
               "spreading"
-            ]
+            ],
+            "vietnameseDefinition": "Sự phân phối hoặc lan truyền thông tin rộng rãi.",
+            "vietnameseExample": "Mạng xã hội cho phép lan truyền tin tức nhanh chóng đến hàng triệu người."
           },
           {
             "word": "polarization",
@@ -106,7 +110,9 @@
             "synonyms": [
               "division",
               "fragmentation"
-            ]
+            ],
+            "vietnameseDefinition": "Sự chia rẽ thành các nhóm đối lập cực đoan.",
+            "vietnameseExample": "Mạng xã hội có thể góp phần vào sự phân cực chính trị trong xã hội."
           },
           {
             "word": "misinformation",
@@ -117,7 +123,9 @@
             "synonyms": [
               "disinformation",
               "false information"
-            ]
+            ],
+            "vietnameseDefinition": "Thông tin sai lệch hoặc không chính xác.",
+            "vietnameseExample": "Sự lan truyền thông tin sai lệch trên mạng xã hội có thể gây hậu quả nghiêm trọng."
           },
           {
             "word": "amplify",
@@ -129,7 +137,9 @@
               "magnify",
               "enhance",
               "strengthen"
-            ]
+            ],
+            "vietnameseDefinition": "Làm tăng cường hoặc khuếch đại tác động của điều gì đó.",
+            "vietnameseExample": "Mạng xã hội khuếch đại tiếng nói của những người bị gạt ra ngoài lề."
           },
           {
             "word": "facilitate",
@@ -176,12 +186,16 @@
           {
             "phrase": "viral content",
             "definition": "Information that spreads rapidly online.",
-            "example": "Viral content can raise awareness about important social issues quickly."
+            "example": "Viral content can raise awareness about important social issues quickly.",
+            "vietnameseDefinition": "Nội dung lan truyền nhanh chóng và rộng rãi trực tuyến.",
+            "vietnameseExample": "Nội dung lan truyền có thể tiếp cận hàng triệu người chỉ trong vài giờ."
           },
           {
             "phrase": "digital activism",
             "definition": "Using online platforms to promote social or political change.",
-            "example": "Digital activism has mobilized millions for movements like climate action."
+            "example": "Digital activism has mobilized millions for movements like climate action.",
+            "vietnameseDefinition": "Sử dụng nền tảng trực tuyến để vận động thay đổi xã hội.",
+            "vietnameseExample": "Hoạt động xã hội kỹ thuật số đã đóng vai trò quan trọng trong các phong trào công bằng xã hội gần đây."
           },
           {
             "phrase": "mental wellbeing",
@@ -197,6 +211,41 @@
             "phrase": "cyberbullying",
             "definition": "Harassment or intimidation conducted online.",
             "example": "Cyberbullying on social platforms has become a serious concern for young people."
+          },
+          {
+            "phrase": "attention economy",
+            "definition": "Economic model where human attention is treated as a scarce commodity.",
+            "vietnameseDefinition": "Mô hình kinh tế xem sự chú ý của con người như một hàng hóa khan hiếm.",
+            "example": "Social media platforms operate in the attention economy, competing for user time.",
+            "vietnameseExample": "Các nền tảng mạng xã hội hoạt động trong nền kinh tế chú ý, cạnh tranh để có thời gian của người dùng."
+          },
+          {
+            "phrase": "algorithm-driven content",
+            "definition": "Content selected and displayed by automated computer systems.",
+            "vietnameseDefinition": "Nội dung được chọn và hiển thị bởi hệ thống máy tính tự động.",
+            "example": "Algorithm-driven content can create personalized but limited information environments.",
+            "vietnameseExample": "Nội dung được điều khiển bởi thuật toán có thể tạo ra môi trường thông tin được cá nhân hóa nhưng hạn chế."
+          },
+          {
+            "phrase": "digital footprint",
+            "definition": "The trail of data left by online activities.",
+            "vietnameseDefinition": "Dấu vết dữ liệu để lại bởi các hoạt động trực tuyến.",
+            "example": "Users should be aware of their digital footprint and privacy implications.",
+            "vietnameseExample": "Người dùng nên nhận thức về dấu chân kỹ thuật số và ý nghĩa riêng tư của họ."
+          },
+          {
+            "phrase": "content moderation",
+            "definition": "Process of monitoring and filtering user-generated content.",
+            "vietnameseDefinition": "Quá trình giám sát và lọc nội dung do người dùng tạo ra.",
+            "example": "Effective content moderation is essential for maintaining safe online spaces.",
+            "vietnameseExample": "Kiểm duyệt nội dung hiệu quả là cần thiết để duy trì không gian trực tuyến an toàn."
+          },
+          {
+            "phrase": "social comparison",
+            "definition": "Tendency to evaluate oneself by comparing with others.",
+            "vietnameseDefinition": "Xu hướng đánh giá bản thân bằng cách so sánh với người khác.",
+            "example": "Social media intensifies social comparison, often leading to decreased well-being.",
+            "vietnameseExample": "Mạng xã hội làm tăng sự so sánh xã hội, thường dẫn đến giảm hạnh phúc."
           }
         ],
         "linkingPhrases": {

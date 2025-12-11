@@ -350,8 +350,14 @@ function renderVocabularyStep(step, container) {
             <div class="vocab-card">
                 <div class="vocab-word">${vocab.word}</div>
                 <div class="vocab-pronunciation">${vocab.pronunciation}</div>
-                <div class="vocab-definition"><strong>${vocab.partOfSpeech}</strong> - ${vocab.definition}</div>
-                <div class="vocab-example">"${vocab.example}"</div>
+                <div class="vocab-definition">
+                    <strong>${vocab.partOfSpeech}</strong> - ${vocab.definition}
+                    ${vocab.vietnameseDefinition ? `<div style="color: var(--color-accent); margin-top: 0.25rem; font-style: italic;">🇻🇳 ${vocab.vietnameseDefinition}</div>` : ''}
+                </div>
+                <div class="vocab-example">
+                    "${vocab.example}"
+                    ${vocab.vietnameseExample ? `<div style="color: var(--color-text-light); margin-top: 0.25rem; font-style: italic; font-size: 0.875rem;">🇻🇳 "${vocab.vietnameseExample}"</div>` : ''}
+                </div>
                 ${vocab.synonyms ? `<div style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--color-text-light);">
                     <strong>Synonyms:</strong> ${vocab.synonyms.join(', ')}
                 </div>` : ''}
@@ -362,8 +368,14 @@ function renderVocabularyStep(step, container) {
         ${content.topicVocabulary.map(vocab => `
             <div class="vocab-card">
                 <div class="vocab-word">${vocab.phrase}</div>
-                <div class="vocab-definition">${vocab.definition}</div>
-                <div class="vocab-example">"${vocab.example}"</div>
+                <div class="vocab-definition">
+                    ${vocab.definition}
+                    ${vocab.vietnameseDefinition ? `<div style="color: var(--color-accent); margin-top: 0.25rem; font-style: italic;">🇻🇳 ${vocab.vietnameseDefinition}</div>` : ''}
+                </div>
+                <div class="vocab-example">
+                    "${vocab.example}"
+                    ${vocab.vietnameseExample ? `<div style="color: var(--color-text-light); margin-top: 0.25rem; font-style: italic; font-size: 0.875rem;">🇻🇳 "${vocab.vietnameseExample}"</div>` : ''}
+                </div>
             </div>
         `).join('')}
 

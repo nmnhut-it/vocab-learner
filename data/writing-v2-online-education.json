@@ -95,7 +95,9 @@
             "synonyms": [
               "self-control",
               "willpower"
-            ]
+            ],
+            "vietnameseDefinition": "Khả năng kiểm soát hành vi và động lực của bản thân.",
+            "vietnameseExample": "Học trực tuyến đòi hỏi kỷ luật tự giác mạnh mẽ và quản lý thời gian hiệu quả."
           },
           {
             "word": "interaction",
@@ -106,7 +108,9 @@
             "synonyms": [
               "engagement",
               "communication"
-            ]
+            ],
+            "vietnameseDefinition": "Giao tiếp hoặc trao đổi trực tiếp giữa mọi người.",
+            "vietnameseExample": "Các nền tảng trực tuyến không thể hoàn toàn thay thế tương tác trực tiếp trong lớp học."
           },
           {
             "word": "flexibility",
@@ -188,12 +192,49 @@
           {
             "phrase": "digital resources",
             "definition": "Educational materials available electronically.",
-            "example": "Online learning provides access to vast digital resources and materials."
+            "example": "Online learning provides access to vast digital resources and materials.",
+            "vietnameseDefinition": "Tài liệu học tập điện tử như sách điện tử và video.",
+            "vietnameseExample": "Tài nguyên kỹ thuật số làm cho tài liệu khóa học dễ tiếp cận và có thể tìm kiếm."
           },
           {
             "phrase": "hands-on experience",
             "definition": "Practical, direct involvement in activities.",
             "example": "Laboratory sciences require hands-on experience that online formats struggle to provide."
+          },
+          {
+            "phrase": "hybrid learning model",
+            "definition": "Combination of online and in-person instruction.",
+            "vietnameseDefinition": "Kết hợp giảng dạy trực tuyến và trực tiếp.",
+            "example": "The hybrid learning model offers flexibility while maintaining personal connection.",
+            "vietnameseExample": "Mô hình học tập kết hợp cung cấp sự linh hoạt đồng thời duy trì kết nối cá nhân."
+          },
+          {
+            "phrase": "self-paced learning",
+            "definition": "Educational approach where students progress at their own speed.",
+            "vietnameseDefinition": "Phương pháp giáo dục nơi sinh viên tiến bộ theo tốc độ riêng của họ.",
+            "example": "Self-paced learning allows students to spend more time on challenging topics.",
+            "vietnameseExample": "Học theo tốc độ riêng cho phép sinh viên dành nhiều thời gian hơn cho các chủ đề khó."
+          },
+          {
+            "phrase": "digital assessment",
+            "definition": "Testing and evaluation conducted through online platforms.",
+            "vietnameseDefinition": "Kiểm tra và đánh giá được thực hiện qua nền tảng trực tuyến.",
+            "example": "Digital assessment can provide immediate feedback to students.",
+            "vietnameseExample": "Đánh giá kỹ thuật số có thể cung cấp phản hồi tức thì cho sinh viên."
+          },
+          {
+            "phrase": "bandwidth requirements",
+            "definition": "Internet connection speed needed for online activities.",
+            "vietnameseDefinition": "Tốc độ kết nối internet cần thiết cho hoạt động trực tuyến.",
+            "example": "High bandwidth requirements can be a barrier for students in rural areas.",
+            "vietnameseExample": "Yêu cầu băng thông cao có thể là rào cản cho sinh viên ở vùng nông thôn."
+          },
+          {
+            "phrase": "academic integrity",
+            "definition": "Maintaining honesty and ethical standards in academic work.",
+            "vietnameseDefinition": "Duy trì sự trung thực và tiêu chuẩn đạo đức trong công việc học thuật.",
+            "example": "Online education faces challenges in ensuring academic integrity during exams.",
+            "vietnameseExample": "Giáo dục trực tuyến đối mặt với thách thức đảm bảo tính toàn vẹn học thuật trong kỳ thi."
           }
         ],
         "linkingPhrases": {
