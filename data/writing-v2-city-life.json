@@ -260,213 +260,786 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Cities",
-              "verb": "offer",
-              "keywords": [
-                "career opportunities",
-                "amenities"
-              ]
-            },
-            "hint": "Mention professional and lifestyle benefits.",
-            "modelAnswer": "Cities offer abundant career opportunities and extensive amenities for modern living.",
-            "minWords": 10
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some prefer _____ for career opportunities, others favor _____ for tranquility.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["city living", "isolation", "commuting"],
+                    "correctAnswer": "city living"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["countryside living", "traffic jams", "high costs"],
+                    "correctAnswer": "countryside living"
+                  }
+                ],
+                "correctSentence": "While some prefer city living for career opportunities, others favor countryside living for tranquility.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The choice between urban and rural living depends on _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["individual priorities", "random chance", "weather conditions"],
+                    "correctAnswer": "individual priorities"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["lifestyle preferences", "housing costs only", "transportation modes"],
+                    "correctAnswer": "lifestyle preferences"
+                  }
+                ],
+                "correctSentence": "The choice between urban and rural living depends on individual priorities and lifestyle preferences.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "Although cities offer _____, the countryside provides _____.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["extensive amenities", "clean air", "peace and quiet"],
+                    "correctAnswer": "extensive amenities"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["natural surroundings", "traffic congestion", "entertainment venues"],
+                    "correctAnswer": "natural surroundings"
+                  }
+                ],
+                "correctSentence": "Although cities offer extensive amenities, the countryside provides natural surroundings.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "This essay will examine both _____ and _____ before presenting my view.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["the advantages of urban living", "my personal opinion", "only city benefits"],
+                    "correctAnswer": "the advantages of urban living"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["the benefits of rural life", "traffic problems", "housing prices"],
+                    "correctAnswer": "the benefits of rural life"
+                  }
+                ],
+                "correctSentence": "This essay will examine both the advantages of urban living and the benefits of rural life before presenting my view.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "People have different preferences regarding _____, each with valid reasons.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["where they choose to live", "what they eat", "how they travel"],
+                    "correctAnswer": "where they choose to live"
+                  }
+                ],
+                "correctSentence": "People have different preferences regarding where they choose to live, each with valid reasons.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "In my opinion, _____ better suits _____ while _____ appeals more to _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["city life", "retirees", "rural areas"],
+                    "correctAnswer": "city life"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["young professionals", "farmers only", "elderly people"],
+                    "correctAnswer": "young professionals"
+                  },
+                  {
+                    "id": "thesis6_b3",
+                    "options": ["countryside living", "cities", "suburbs"],
+                    "correctAnswer": "countryside living"
+                  },
+                  {
+                    "id": "thesis6_b4",
+                    "options": ["families and retirees", "students", "business executives"],
+                    "correctAnswer": "families and retirees"
+                  }
+                ],
+                "correctSentence": "In my opinion, city life better suits young professionals while countryside living appeals more to families and retirees.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "The debate between city and countryside reflects a tension between _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["career ambitions", "housing size", "commute times"],
+                    "correctAnswer": "career ambitions"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["quality of life", "entertainment options", "shopping centers"],
+                    "correctAnswer": "quality of life"
+                  }
+                ],
+                "correctSentence": "The debate between city and countryside reflects a tension between career ambitions and quality of life.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "Both environments offer _____, but the optimal choice depends on _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["distinct advantages", "similar benefits", "identical features"],
+                    "correctAnswer": "distinct advantages"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["life stage and personal values", "property prices alone", "commute distance"],
+                    "correctAnswer": "life stage and personal values"
+                  }
+                ],
+                "correctSentence": "Both environments offer distinct advantages, but the optimal choice depends on life stage and personal values.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Rural areas",
-              "verb": "provide",
-              "keywords": [
-                "tranquility",
-                "natural surroundings"
-              ]
-            },
-            "hint": "Focus on peace and nature benefits.",
-            "modelAnswer": "Rural areas provide peaceful tranquility and beautiful natural surroundings away from urban chaos.",
-            "minWords": 11
+            "category": "topic-sentences",
+            "title": "Topic Sentences for Body Paragraphs",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Those who favor city life value the _____ that urban areas provide.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["abundance of career opportunities", "isolation from people", "lack of services"],
+                    "correctAnswer": "abundance of career opportunities"
+                  }
+                ],
+                "correctSentence": "Those who favor city life value the abundance of career opportunities that urban areas provide.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "Conversely, those who prefer the countryside appreciate _____ that rural living offers.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["the peace and natural beauty", "traffic congestion", "limited amenities"],
+                    "correctAnswer": "the peace and natural beauty"
+                  }
+                ],
+                "correctSentence": "Conversely, those who prefer the countryside appreciate the peace and natural beauty that rural living offers.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Urban dwellers benefit from _____ to essential services and entertainment.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["proximity", "distance", "barriers"],
+                    "correctAnswer": "proximity"
+                  }
+                ],
+                "correctSentence": "Urban dwellers benefit from proximity to essential services and entertainment.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "Rural residents enjoy a _____ pace of life compared to city dwellers.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["slower, more relaxed", "hectic, stressful", "identical"],
+                    "correctAnswer": "slower, more relaxed"
+                  }
+                ],
+                "correctSentence": "Rural residents enjoy a slower, more relaxed pace of life compared to city dwellers.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Cities provide _____ that are essential for professional advancement.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["networking opportunities", "agricultural jobs", "farming equipment"],
+                    "correctAnswer": "networking opportunities"
+                  }
+                ],
+                "correctSentence": "Cities provide networking opportunities that are essential for professional advancement.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "The countryside promotes _____ and connection to nature.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["sustainable lifestyles", "urban development", "industrial growth"],
+                    "correctAnswer": "sustainable lifestyles"
+                  }
+                ],
+                "correctSentence": "The countryside promotes sustainable lifestyles and connection to nature.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "One advantage of urban living is _____ to diverse cultures and experiences.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["exposure", "resistance", "opposition"],
+                    "correctAnswer": "exposure"
+                  }
+                ],
+                "correctSentence": "One advantage of urban living is exposure to diverse cultures and experiences.",
+                "usableIn": "body"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "A key benefit of rural areas is the _____ they offer compared to cities.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["tranquility", "congestion", "noise"],
+                    "correctAnswer": "tranquility"
+                  }
+                ],
+                "correctSentence": "A key benefit of rural areas is the tranquility they offer compared to cities.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Urban living",
-              "verb": "suffer",
-              "keywords": [
-                "traffic congestion",
-                "pollution"
-              ]
-            },
-            "hint": "Mention negative aspects of cities.",
-            "modelAnswer": "Urban living often suffers from severe traffic congestion and higher pollution levels.",
-            "minWords": 10
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments and Reasoning",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "Urban areas offer _____ across various industries and sectors.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["diverse employment options", "limited job choices", "agricultural work only"],
+                    "correctAnswer": "diverse employment options"
+                  }
+                ],
+                "correctSentence": "Urban areas offer diverse employment options across various industries and sectors.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "This leads to _____ for those prioritizing professional growth.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["greater career advancement", "fewer opportunities", "limited development"],
+                    "correctAnswer": "greater career advancement"
+                  }
+                ],
+                "correctSentence": "This leads to greater career advancement for those prioritizing professional growth.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Cities offer _____ including museums, theaters, and restaurants.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["vibrant cultural scenes", "limited entertainment", "no activities"],
+                    "correctAnswer": "vibrant cultural scenes"
+                  }
+                ],
+                "correctSentence": "Cities offer vibrant cultural scenes including museums, theaters, and restaurants.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "This results in _____ and reduced stress levels.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["improved wellbeing", "increased anxiety", "more health problems"],
+                    "correctAnswer": "improved wellbeing"
+                  }
+                ],
+                "correctSentence": "This results in improved wellbeing and reduced stress levels.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "The _____ in cities is typically higher than in rural areas.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["cost of living", "air quality", "community spirit"],
+                    "correctAnswer": "cost of living"
+                  }
+                ],
+                "correctSentence": "The cost of living in cities is typically higher than in rural areas.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Rural areas provide _____ where children can play safely outdoors.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["spacious homes with gardens", "cramped apartments", "office buildings"],
+                    "correctAnswer": "spacious homes with gardens"
+                  }
+                ],
+                "correctSentence": "Rural areas provide spacious homes with gardens where children can play safely outdoors.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Cities suffer from _____ and air pollution.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["traffic congestion", "clean air", "natural beauty"],
+                    "correctAnswer": "traffic congestion"
+                  }
+                ],
+                "correctSentence": "Cities suffer from traffic congestion and air pollution.",
+                "usableIn": "body"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Rural communities often feature _____ where neighbors know each other.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["closer-knit social networks", "anonymous relationships", "isolation"],
+                    "correctAnswer": "closer-knit social networks"
+                  }
+                ],
+                "correctSentence": "Rural communities often feature closer-knit social networks where neighbors know each other.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Countryside residents",
-              "verb": "enjoy",
-              "keywords": [
-                "slower pace",
-                "community"
-              ]
-            },
-            "hint": "Focus on lifestyle quality in rural areas.",
-            "modelAnswer": "Countryside residents enjoy a slower pace of life and closer-knit community relationships.",
-            "minWords": 11
+            "category": "examples-evidence",
+            "title": "Specific Examples and Evidence",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, cities like _____ provide access to multinational corporations.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["London and Singapore", "small villages", "farming communities"],
+                    "correctAnswer": "London and Singapore"
+                  }
+                ],
+                "correctSentence": "For instance, cities like London and Singapore provide access to multinational corporations.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ often relocate to villages for better quality of life.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["families with young children", "business executives", "university students"],
+                    "correctAnswer": "families with young children"
+                  }
+                ],
+                "correctSentence": "For example, families with young children often relocate to villages for better quality of life.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Particularly in _____, residents benefit from world-class healthcare and education.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["major cities", "remote areas", "small towns"],
+                    "correctAnswer": "major cities"
+                  }
+                ],
+                "correctSentence": "Particularly in major cities, residents benefit from world-class healthcare and education.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Such as _____, where residents enjoy clean air and natural scenery.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["rural villages", "downtown areas", "shopping districts"],
+                    "correctAnswer": "rural villages"
+                  }
+                ],
+                "correctSentence": "Such as rural villages, where residents enjoy clean air and natural scenery.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A notable example is _____, which offers vibrant nightlife and cultural events.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["New York City", "a farming community", "a remote hamlet"],
+                    "correctAnswer": "New York City"
+                  }
+                ],
+                "correctSentence": "A notable example is New York City, which offers vibrant nightlife and cultural events.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Specifically, _____ can afford larger homes in the countryside.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["middle-class families", "millionaires only", "homeless people"],
+                    "correctAnswer": "middle-class families"
+                  }
+                ],
+                "correctSentence": "Specifically, middle-class families can afford larger homes in the countryside.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "This is particularly evident in _____, where public transport is efficient and extensive.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["metropolitan areas", "rural regions", "isolated villages"],
+                    "correctAnswer": "metropolitan areas"
+                  }
+                ],
+                "correctSentence": "This is particularly evident in metropolitan areas, where public transport is efficient and extensive.",
+                "usableIn": "body"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Similarly, _____ often move to cities to pursue higher education.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["young people", "retirees", "elderly citizens"],
+                    "correctAnswer": "young people"
+                  }
+                ],
+                "correctSentence": "Similarly, young people often move to cities to pursue higher education.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "City dwellers",
-              "verb": "access",
-              "keywords": [
-                "cultural activities",
-                "entertainment"
-              ]
-            },
-            "hint": "Mention cultural and social benefits.",
-            "modelAnswer": "City dwellers can easily access diverse cultural activities and entertainment options year-round.",
-            "minWords": 11
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "cities",
-              "provide",
-              "better",
-              "career",
-              "opportunities",
-              "and",
-              "higher",
-              "salaries"
-            ],
-            "correctAnswer": "Cities provide better career opportunities and higher salaries.",
-            "hint": "Start with 'Cities'"
+            "category": "counter-arguments",
+            "title": "Counter-arguments and Contrasts",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "_____, rural areas may experience social isolation due to distance.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["However", "Moreover", "Therefore"],
+                    "correctAnswer": "However"
+                  }
+                ],
+                "correctSentence": "However, rural areas may experience social isolation due to distance.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "_____ these advantages, cities also have significant drawbacks.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["Despite", "Because of", "Similar to"],
+                    "correctAnswer": "Despite"
+                  }
+                ],
+                "correctSentence": "Despite these advantages, cities also have significant drawbacks.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "_____, the countryside offers peace but limited career prospects.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["Conversely", "Additionally", "Similarly"],
+                    "correctAnswer": "Conversely"
+                  }
+                ],
+                "correctSentence": "Conversely, the countryside offers peace but limited career prospects.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "On the other hand, urban living can be _____ and expensive.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["stressful", "relaxing", "affordable"],
+                    "correctAnswer": "stressful"
+                  }
+                ],
+                "correctSentence": "On the other hand, urban living can be stressful and expensive.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "_____, the lack of public services in rural areas can be problematic.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["Nevertheless", "Furthermore", "Likewise"],
+                    "correctAnswer": "Nevertheless"
+                  }
+                ],
+                "correctSentence": "Nevertheless, the lack of public services in rural areas can be problematic.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "While cities provide opportunities, they also create _____ for residents.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["stress and congestion", "peace and quiet", "natural beauty"],
+                    "correctAnswer": "stress and congestion"
+                  }
+                ],
+                "correctSentence": "While cities provide opportunities, they also create stress and congestion for residents.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "_____ the natural beauty, rural living can feel isolated for some people.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["Despite", "Because of", "Similar to"],
+                    "correctAnswer": "Despite"
+                  }
+                ],
+                "correctSentence": "Despite the natural beauty, rural living can feel isolated for some people.",
+                "usableIn": "body"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "In contrast to city benefits, the countryside _____ fewer career options.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["offers", "provides many", "guarantees unlimited"],
+                    "correctAnswer": "offers"
+                  }
+                ],
+                "correctSentence": "In contrast to city benefits, the countryside offers fewer career options.",
+                "usableIn": "body"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "the",
-              "countryside",
-              "offers",
-              "fresh",
-              "air",
-              "and",
-              "natural",
-              "beauty"
-            ],
-            "correctAnswer": "The countryside offers fresh air and natural beauty.",
-            "hint": "Subject is 'The countryside'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "urban",
-              "areas",
-              "suffer",
-              "from",
-              "noise",
-              "pollution",
-              "and",
-              "overcrowding"
-            ],
-            "correctAnswer": "Urban areas suffer from noise pollution and overcrowding.",
-            "hint": "'suffer from' is the verb phrase"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "rural",
-              "living",
-              "promotes",
-              "stronger",
-              "community",
-              "bonds",
-              "and",
-              "connections"
-            ],
-            "correctAnswer": "Rural living promotes stronger community bonds and connections.",
-            "hint": "Subject is 'Rural living'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "the",
-              "choice",
-              "depends",
-              "on",
-              "individual",
-              "priorities",
-              "and",
-              "lifestyle",
-              "preferences"
-            ],
-            "correctAnswer": "The choice depends on individual priorities and lifestyle preferences.",
-            "hint": "'depends on' is the key phrase"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Cities _____ abundant cultural amenities and entertainment options.",
-            "options": [
-              "offer",
-              "offers",
-              "offering"
-            ],
-            "correctAnswer": "offer",
-            "explanation": "Plural subject 'Cities' takes base form 'offer'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, rural areas provide peace and connection to nature.",
-            "options": [
-              "Conversely",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "Conversely",
-            "explanation": "Use 'Conversely' to contrast city and countryside benefits."
-          },
-          {
-            "id": "blank3",
-            "sentence": "The countryside offers a slower _____ of life.",
-            "options": [
-              "pace",
-              "pacing",
-              "paces"
-            ],
-            "correctAnswer": "pace",
-            "explanation": "Use singular noun 'pace' in the phrase 'pace of life'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ example, London provides world-class museums and theaters.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For example' is correct for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Urban living can be _____ due to high costs and stress.",
-            "options": [
-              "challenging",
-              "challenge",
-              "challenged"
-            ],
-            "correctAnswer": "challenging",
-            "explanation": "Use adjective 'challenging' after 'be'."
+            "category": "conclusions",
+            "title": "Conclusion Sentences",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while both environments offer _____, the optimal choice depends on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["distinct advantages", "identical benefits", "no benefits"],
+                    "correctAnswer": "distinct advantages"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["individual circumstances", "random factors", "weather only"],
+                    "correctAnswer": "individual circumstances"
+                  }
+                ],
+                "correctSentence": "In conclusion, while both environments offer distinct advantages, the optimal choice depends on individual circumstances.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ better serves career-focused individuals while _____ suits those valuing tranquility.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["city life", "rural living", "suburban areas"],
+                    "correctAnswer": "city life"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["countryside living", "urban areas", "office buildings"],
+                    "correctAnswer": "countryside living"
+                  }
+                ],
+                "correctSentence": "Overall, city life better serves career-focused individuals while countryside living suits those valuing tranquility.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "Ultimately, the decision reflects personal _____ and _____ stage.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["values", "finances only", "appearance"],
+                    "correctAnswer": "values"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["life", "career", "education"],
+                    "correctAnswer": "life"
+                  }
+                ],
+                "correctSentence": "Ultimately, the decision reflects personal values and life stage.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, there is no universally superior choice, only _____ for different people.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["different priorities", "wrong options", "identical preferences"],
+                    "correctAnswer": "different priorities"
+                  }
+                ],
+                "correctSentence": "On balance, there is no universally superior choice, only different priorities for different people.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "The key is choosing an environment that aligns with one's _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["personal goals", "neighbors' opinions", "social media posts"],
+                    "correctAnswer": "personal goals"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["lifestyle needs", "favorite colors", "political views"],
+                    "correctAnswer": "lifestyle needs"
+                  }
+                ],
+                "correctSentence": "The key is choosing an environment that aligns with one's personal goals and lifestyle needs.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "I believe the best approach is to _____ at different life stages.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["consider both options", "never move", "ignore preferences"],
+                    "correctAnswer": "consider both options"
+                  }
+                ],
+                "correctSentence": "I believe the best approach is to consider both options at different life stages.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Both city and countryside living have _____, making personal choice paramount.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["unique merits", "identical features", "no value"],
+                    "correctAnswer": "unique merits"
+                  }
+                ],
+                "correctSentence": "Both city and countryside living have unique merits, making personal choice paramount.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "The ideal living environment is one that best supports an individual's _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["aspirations", "limitations", "fears"],
+                    "correctAnswer": "aspirations"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["wellbeing", "expenses", "commute"],
+                    "correctAnswer": "wellbeing"
+                  }
+                ],
+                "correctSentence": "The ideal living environment is one that best supports an individual's aspirations and wellbeing.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

@@ -260,209 +260,1122 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Public transport",
-              "verb": "reduce",
-              "keywords": [
-                "traffic congestion",
-                "carbon emissions"
-              ]
-            },
-            "hint": "Mention both traffic and environmental benefits.",
-            "modelAnswer": "Public transport investment significantly reduces traffic congestion and carbon emissions in urban areas.",
-            "minWords": 11
+            "category": "thesis-statements",
+            "title": "Thesis Statements",
+            "description": "Practice writing balanced thesis statements for introductions",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While some advocate _____, others argue that _____ is equally important.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["prioritizing public transport to reduce congestion", "building more shopping malls", "increasing car ownership"],
+                    "correctAnswer": "prioritizing public transport to reduce congestion"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["road infrastructure development", "public transport only", "eliminating all cars"],
+                    "correctAnswer": "road infrastructure development"
+                  }
+                ],
+                "correctSentence": "While some advocate prioritizing public transport to reduce congestion, others argue that road infrastructure development is equally important.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "Infrastructure investment priorities remain _____, with _____ on each side.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["a contentious issue for governments", "simple", "unimportant"],
+                    "correctAnswer": "a contentious issue for governments"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["valid arguments", "no evidence", "only opinions"],
+                    "correctAnswer": "valid arguments"
+                  }
+                ],
+                "correctSentence": "Infrastructure investment priorities remain a contentious issue for governments, with valid arguments on each side.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "In my opinion, the optimal choice depends on _____, with _____ while _____.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["geographic and demographic context", "personal preferences", "random decisions"],
+                    "correctAnswer": "geographic and demographic context"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["urban areas needing public transport", "all areas being the same", "cities needing more cars"],
+                    "correctAnswer": "urban areas needing public transport"
+                  },
+                  {
+                    "id": "thesis3_b3",
+                    "options": ["rural regions requiring roads", "villages needing subways", "countryside needing less investment"],
+                    "correctAnswer": "rural regions requiring roads"
+                  }
+                ],
+                "correctSentence": "In my opinion, the optimal choice depends on geographic and demographic context, with urban areas needing public transport while rural regions requiring roads.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "This essay will discuss _____ and _____ before concluding that _____.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["the environmental benefits of mass transit", "random ideas", "unrelated topics"],
+                    "correctAnswer": "the environmental benefits of mass transit"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["the economic necessity of road networks", "the color of buses", "irrelevant factors"],
+                    "correctAnswer": "the economic necessity of road networks"
+                  },
+                  {
+                    "id": "thesis4_b3",
+                    "options": ["both are essential depending on context", "only one matters", "neither is important"],
+                    "correctAnswer": "both are essential depending on context"
+                  }
+                ],
+                "correctSentence": "This essay will discuss the environmental benefits of mass transit and the economic necessity of road networks before concluding that both are essential depending on context.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "While _____ offers environmental benefits, _____ remains crucial for _____.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["public transport investment", "private car usage", "building parking lots"],
+                    "correctAnswer": "public transport investment"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": ["road infrastructure", "public transport", "aviation"],
+                    "correctAnswer": "road infrastructure"
+                  },
+                  {
+                    "id": "thesis5_b3",
+                    "options": ["economic growth and rural accessibility", "city centers only", "entertainment purposes"],
+                    "correctAnswer": "economic growth and rural accessibility"
+                  }
+                ],
+                "correctSentence": "While public transport investment offers environmental benefits, road infrastructure remains crucial for economic growth and rural accessibility.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "The question of whether _____ or _____ should receive priority requires _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["mass transit systems", "bicycle paths", "parking garages"],
+                    "correctAnswer": "mass transit systems"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["highway networks", "public transport", "airports"],
+                    "correctAnswer": "highway networks"
+                  },
+                  {
+                    "id": "thesis6_b3",
+                    "options": ["careful consideration of regional needs", "simple answers", "no analysis"],
+                    "correctAnswer": "careful consideration of regional needs"
+                  }
+                ],
+                "correctSentence": "The question of whether mass transit systems or highway networks should receive priority requires careful consideration of regional needs.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "Although _____ argue for public transport, _____ contend that _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["environmentalists", "corporations", "tourists"],
+                    "correctAnswer": "environmentalists"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["business leaders and rural advocates", "city planners", "environmental groups"],
+                    "correctAnswer": "business leaders and rural advocates"
+                  },
+                  {
+                    "id": "thesis7_b3",
+                    "options": ["roads are essential for commerce", "public transport is perfect", "nothing matters"],
+                    "correctAnswer": "roads are essential for commerce"
+                  }
+                ],
+                "correctSentence": "Although environmentalists argue for public transport, business leaders and rural advocates contend that roads are essential for commerce.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "Both _____ and _____ serve vital functions, but priority should depend on _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["public transport systems", "private vehicles", "bicycle lanes"],
+                    "correctAnswer": "public transport systems"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["road networks", "subways", "trains"],
+                    "correctAnswer": "road networks"
+                  },
+                  {
+                    "id": "thesis8_b3",
+                    "options": ["population density and geographic factors", "political opinions", "random choices"],
+                    "correctAnswer": "population density and geographic factors"
+                  }
+                ],
+                "correctSentence": "Both public transport systems and road networks serve vital functions, but priority should depend on population density and geographic factors.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Road networks",
-              "verb": "facilitate",
-              "keywords": [
-                "commerce",
-                "economic growth"
-              ]
-            },
-            "hint": "Focus on economic benefits of good roads.",
-            "modelAnswer": "Well-maintained road networks support commerce and economic growth across all regions.",
-            "minWords": 11
+            "category": "topic-sentences",
+            "title": "Topic Sentences",
+            "description": "Practice writing clear topic sentences for body paragraphs",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "Proponents of public transport argue it offers _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["the most sustainable solution for urban transportation", "expensive tickets", "inconvenient schedules"],
+                    "correctAnswer": "the most sustainable solution for urban transportation"
+                  }
+                ],
+                "correctSentence": "Proponents of public transport argue it offers the most sustainable solution for urban transportation.",
+                "usableIn": "body-public-transport"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "Conversely, advocates of road investment contend that _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["comprehensive highway networks remain essential for economic development", "roads are outdated", "public transport is superior"],
+                    "correctAnswer": "comprehensive highway networks remain essential for economic development"
+                  }
+                ],
+                "correctSentence": "Conversely, advocates of road investment contend that comprehensive highway networks remain essential for economic development.",
+                "usableIn": "body-roads"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "From an environmental perspective, _____ offers clear advantages.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["mass transit", "private car use", "individual driving"],
+                    "correctAnswer": "mass transit"
+                  }
+                ],
+                "correctSentence": "From an environmental perspective, mass transit offers clear advantages.",
+                "usableIn": "body-public-transport"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "From an economic standpoint, _____ facilitates _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["road infrastructure", "limiting transportation", "reducing commerce"],
+                    "correctAnswer": "road infrastructure"
+                  },
+                  {
+                    "id": "topic4_b2",
+                    "options": ["freight transportation and business connectivity", "traffic jams", "environmental damage"],
+                    "correctAnswer": "freight transportation and business connectivity"
+                  }
+                ],
+                "correctSentence": "From an economic standpoint, road infrastructure facilitates freight transportation and business connectivity.",
+                "usableIn": "body-roads"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "A further benefit of public transport investment is _____.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["significant reduction in per-capita carbon emissions", "increased traffic congestion", "higher pollution levels"],
+                    "correctAnswer": "significant reduction in per-capita carbon emissions"
+                  }
+                ],
+                "correctSentence": "A further benefit of public transport investment is significant reduction in per-capita carbon emissions.",
+                "usableIn": "body-public-transport"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Road networks prove particularly vital for _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["rural communities and regional accessibility", "urban subway systems", "city centers only"],
+                    "correctAnswer": "rural communities and regional accessibility"
+                  }
+                ],
+                "correctSentence": "Road networks prove particularly vital for rural communities and regional accessibility.",
+                "usableIn": "body-roads"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Investing in mass transit yields _____ in densely populated areas.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["substantial environmental and efficiency benefits", "higher pollution", "increased traffic"],
+                    "correctAnswer": "substantial environmental and efficiency benefits"
+                  }
+                ],
+                "correctSentence": "Investing in mass transit yields substantial environmental and efficiency benefits in densely populated areas.",
+                "usableIn": "body-public-transport"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "Highway infrastructure enables _____ that underpin _____.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["commercial transportation networks", "urban congestion", "environmental damage"],
+                    "correctAnswer": "commercial transportation networks"
+                  },
+                  {
+                    "id": "topic8_b2",
+                    "options": ["national economic competitiveness", "traffic problems", "pollution levels"],
+                    "correctAnswer": "national economic competitiveness"
+                  }
+                ],
+                "correctSentence": "Highway infrastructure enables commercial transportation networks that underpin national economic competitiveness.",
+                "usableIn": "body-roads"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Mass transit systems",
-              "verb": "move",
-              "keywords": [
-                "thousands",
-                "efficiently"
-              ]
-            },
-            "hint": "Mention capacity and efficiency advantages.",
-            "modelAnswer": "Mass transit systems can move thousands of commuters efficiently during peak hours.",
-            "minWords": 11
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments",
+            "description": "Practice explaining WHY with reasoning sentences",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ can move _____ while significantly reducing _____.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["mass transit systems", "individual cars", "bicycles"],
+                    "correctAnswer": "mass transit systems"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": ["thousands of commuters efficiently", "few people slowly", "nobody"],
+                    "correctAnswer": "thousands of commuters efficiently"
+                  },
+                  {
+                    "id": "support1_b3",
+                    "options": ["per-capita carbon emissions", "government spending", "travel time"],
+                    "correctAnswer": "per-capita carbon emissions"
+                  }
+                ],
+                "correctSentence": "This is because mass transit systems can move thousands of commuters efficiently while significantly reducing per-capita carbon emissions.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "The reason is that _____ enable _____ and provide _____.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["roads", "trains", "buses"],
+                    "correctAnswer": "roads"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": ["freight transportation", "passenger trains", "subway systems"],
+                    "correctAnswer": "freight transportation"
+                  },
+                  {
+                    "id": "support2_b3",
+                    "options": ["access to remote communities", "urban congestion", "environmental damage"],
+                    "correctAnswer": "access to remote communities"
+                  }
+                ],
+                "correctSentence": "The reason is that roads enable freight transportation and provide access to remote communities.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Public transport investment reduces _____ in densely populated areas where _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["traffic congestion and air pollution", "government revenue", "employment"],
+                    "correctAnswer": "traffic congestion and air pollution"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": ["population density makes such systems economically viable", "nobody lives", "roads are perfect"],
+                    "correctAnswer": "population density makes such systems economically viable"
+                  }
+                ],
+                "correctSentence": "Public transport investment reduces traffic congestion and air pollution in densely populated areas where population density makes such systems economically viable.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Highway networks support _____ across _____, which _____.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["commercial activities", "public buses", "subway lines"],
+                    "correctAnswer": "commercial activities"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": ["vast distances", "short distances", "city blocks"],
+                    "correctAnswer": "vast distances"
+                  },
+                  {
+                    "id": "support4_b3",
+                    "options": ["underpins national economic competitiveness", "creates traffic", "wastes fuel"],
+                    "correctAnswer": "underpins national economic competitiveness"
+                  }
+                ],
+                "correctSentence": "Highway networks support commercial activities across vast distances, which underpins national economic competitiveness.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Mass transit eliminates the need for _____, thereby _____.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["expensive parking infrastructure and road widening", "public transportation", "government investment"],
+                    "correctAnswer": "expensive parking infrastructure and road widening"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": ["reducing overall urban development costs", "increasing congestion", "limiting mobility"],
+                    "correctAnswer": "reducing overall urban development costs"
+                  }
+                ],
+                "correctSentence": "Mass transit eliminates the need for expensive parking infrastructure and road widening, thereby reducing overall urban development costs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "In rural areas, _____ where public transport is _____.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["roads remain indispensable", "subways work well", "buses are common"],
+                    "correctAnswer": "roads remain indispensable"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": ["economically impractical due to low population density", "very popular", "highly profitable"],
+                    "correctAnswer": "economically impractical due to low population density"
+                  }
+                ],
+                "correctSentence": "In rural areas, roads remain indispensable where public transport is economically impractical due to low population density.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Investing in _____ yields _____ by _____.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["subway systems", "private vehicles", "parking lots"],
+                    "correctAnswer": "subway systems"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": ["substantial environmental benefits", "traffic congestion", "air pollution"],
+                    "correctAnswer": "substantial environmental benefits"
+                  },
+                  {
+                    "id": "support7_b3",
+                    "options": ["dramatically reducing vehicle emissions per passenger", "increasing car usage", "building more roads"],
+                    "correctAnswer": "dramatically reducing vehicle emissions per passenger"
+                  }
+                ],
+                "correctSentence": "Investing in subway systems yields substantial environmental benefits by dramatically reducing vehicle emissions per passenger.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Roads support _____ and _____, which are essential for _____.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["emergency services", "subway construction", "urban planning"],
+                    "correctAnswer": "emergency services"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": ["agriculture", "entertainment", "tourism"],
+                    "correctAnswer": "agriculture"
+                  },
+                  {
+                    "id": "support8_b3",
+                    "options": ["national food security and public safety", "reducing traffic", "environmental protection"],
+                    "correctAnswer": "national food security and public safety"
+                  }
+                ],
+                "correctSentence": "Roads support emergency services and agriculture, which are essential for national food security and public safety.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Rural areas",
-              "verb": "depend",
-              "keywords": [
-                "roads",
-                "accessibility"
-              ]
-            },
-            "hint": "Focus on why rural regions need roads more.",
-            "modelAnswer": "Rural areas depend heavily on roads for accessibility since public transport is often impractical.",
-            "minWords": 12
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "description": "Practice providing specific, concrete examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, cities like _____ have _____ that handle _____, dramatically reducing _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["Singapore and Tokyo", "small towns", "villages"],
+                    "correctAnswer": "Singapore and Tokyo"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": ["world-class subway networks", "few buses", "limited transport"],
+                    "correctAnswer": "world-class subway networks"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": ["millions of daily passengers", "dozens of people", "no commuters"],
+                    "correctAnswer": "millions of daily passengers"
+                  },
+                  {
+                    "id": "example1_b4",
+                    "options": ["traffic congestion and air pollution", "government spending", "employment"],
+                    "correctAnswer": "traffic congestion and air pollution"
+                  }
+                ],
+                "correctSentence": "For instance, cities like Singapore and Tokyo have world-class subway networks that handle millions of daily passengers, dramatically reducing traffic congestion and air pollution.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____'s extensive highway system supports _____ and connects _____.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["Australia", "Singapore", "Monaco"],
+                    "correctAnswer": "Australia"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": ["commercial activities across vast distances", "only urban areas", "small neighborhoods"],
+                    "correctAnswer": "commercial activities across vast distances"
+                  },
+                  {
+                    "id": "example2_b3",
+                    "options": ["isolated rural populations to essential services", "city centers only", "wealthy suburbs"],
+                    "correctAnswer": "isolated rural populations to essential services"
+                  }
+                ],
+                "correctSentence": "For example, Australia's extensive highway system supports commercial activities across vast distances and connects isolated rural populations to essential services.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Particularly, _____'s metro system serves _____ daily, demonstrating _____.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["London", "a small village", "a rural town"],
+                    "correctAnswer": "London"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": ["over 5 million passengers", "a few people", "no one"],
+                    "correctAnswer": "over 5 million passengers"
+                  },
+                  {
+                    "id": "example3_b3",
+                    "options": ["the capacity of mass transit in dense cities", "the failure of public transport", "irrelevant data"],
+                    "correctAnswer": "the capacity of mass transit in dense cities"
+                  }
+                ],
+                "correctSentence": "Particularly, London's metro system serves over 5 million passengers daily, demonstrating the capacity of mass transit in dense cities.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "A clear example is _____, where _____ relies heavily on _____.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["the American freight industry", "urban subway systems", "bicycle delivery"],
+                    "correctAnswer": "the American freight industry"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": ["the national economy", "local shops", "small businesses"],
+                    "correctAnswer": "the national economy"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": ["the interstate highway network", "public buses", "subway trains"],
+                    "correctAnswer": "the interstate highway network"
+                  }
+                ],
+                "correctSentence": "A clear example is the American freight industry, where the national economy relies heavily on the interstate highway network.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "Research shows that _____ in _____ reduced traffic by _____ after implementing _____.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["Copenhagen", "small towns", "rural areas"],
+                    "correctAnswer": "Copenhagen"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": ["Denmark", "Australia", "India"],
+                    "correctAnswer": "Denmark"
+                  },
+                  {
+                    "id": "example5_b3",
+                    "options": ["over 30%", "0%", "nothing"],
+                    "correctAnswer": "over 30%"
+                  },
+                  {
+                    "id": "example5_b4",
+                    "options": ["comprehensive metro expansion", "more roads", "parking lots"],
+                    "correctAnswer": "comprehensive metro expansion"
+                  }
+                ],
+                "correctSentence": "Research shows that Copenhagen in Denmark reduced traffic by over 30% after implementing comprehensive metro expansion.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "To illustrate, _____ depends on _____ for _____, making _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["Canada's agricultural sector", "urban transport", "city subways"],
+                    "correctAnswer": "Canada's agricultural sector"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": ["extensive road networks", "subway systems", "bike lanes"],
+                    "correctAnswer": "extensive road networks"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": ["transporting goods to markets", "entertainment", "tourism"],
+                    "correctAnswer": "transporting goods to markets"
+                  },
+                  {
+                    "id": "example6_b4",
+                    "options": ["road investment crucial for food security", "public transport sufficient", "roads unnecessary"],
+                    "correctAnswer": "road investment crucial for food security"
+                  }
+                ],
+                "correctSentence": "To illustrate, Canada's agricultural sector depends on extensive road networks for transporting goods to markets, making road investment crucial for food security.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Specifically, _____ experienced _____ after _____ its public transport system.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["Seoul", "a small town", "rural villages"],
+                    "correctAnswer": "Seoul"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": ["dramatic improvements in air quality", "increased pollution", "no changes"],
+                    "correctAnswer": "dramatic improvements in air quality"
+                  },
+                  {
+                    "id": "example7_b3",
+                    "options": ["modernizing", "reducing", "eliminating"],
+                    "correctAnswer": "modernizing"
+                  }
+                ],
+                "correctSentence": "Specifically, Seoul experienced dramatic improvements in air quality after modernizing its public transport system.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Evidence from _____ shows that _____ cannot adequately serve _____ where _____.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["rural Australia", "Tokyo", "Singapore"],
+                    "correctAnswer": "rural Australia"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": ["public transport", "highways", "roads"],
+                    "correctAnswer": "public transport"
+                  },
+                  {
+                    "id": "example8_b3",
+                    "options": ["dispersed populations", "dense cities", "urban centers"],
+                    "correctAnswer": "dispersed populations"
+                  },
+                  {
+                    "id": "example8_b4",
+                    "options": ["distances between communities are vast", "everyone lives close together", "density is high"],
+                    "correctAnswer": "distances between communities are vast"
+                  }
+                ],
+                "correctSentence": "Evidence from rural Australia shows that public transport cannot adequately serve dispersed populations where distances between communities are vast.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Governments",
-              "verb": "balance",
-              "keywords": [
-                "both types",
-                "infrastructure needs"
-              ]
-            },
-            "hint": "Mention the need for balanced investment.",
-            "modelAnswer": "Governments must carefully balance investment between both types of infrastructure based on regional needs.",
-            "minWords": 13
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "public transport",
-              "reduces",
-              "environmental",
-              "impact",
-              "of",
-              "urban",
-              "commuting"
-            ],
-            "correctAnswer": "Public transport reduces environmental impact of urban commuting.",
-            "hint": "Start with 'Public transport'"
+            "category": "counter-arguments",
+            "title": "Counter-arguments",
+            "description": "Practice acknowledging opposing viewpoints",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "Admittedly, _____ does provide _____, yet _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["road infrastructure", "only public transport", "eliminating all roads"],
+                    "correctAnswer": "road infrastructure"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": ["essential connectivity for commerce", "no benefits", "only problems"],
+                    "correctAnswer": "essential connectivity for commerce"
+                  },
+                  {
+                    "id": "counter1_b3",
+                    "options": ["it contributes to congestion in urban areas", "it solves everything", "it has no drawbacks"],
+                    "correctAnswer": "it contributes to congestion in urban areas"
+                  }
+                ],
+                "correctSentence": "Admittedly, road infrastructure does provide essential connectivity for commerce, yet it contributes to congestion in urban areas.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "While critics claim _____, _____ has proven _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["public transport is too expensive to implement", "public transport is perfect", "roads are unnecessary"],
+                    "correctAnswer": "public transport is too expensive to implement"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": ["evidence from major cities", "random opinions", "no data"],
+                    "correctAnswer": "evidence from major cities"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": ["long-term cost savings and environmental benefits", "complete failure", "no advantages"],
+                    "correctAnswer": "long-term cost savings and environmental benefits"
+                  }
+                ],
+                "correctSentence": "While critics claim public transport is too expensive to implement, evidence from major cities has proven long-term cost savings and environmental benefits.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Although _____ benefits urban areas, _____ cannot be denied for _____.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["mass transit", "road construction", "private vehicles"],
+                    "correctAnswer": "mass transit"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": ["the necessity of roads", "the irrelevance of roads", "eliminating all roads"],
+                    "correctAnswer": "the necessity of roads"
+                  },
+                  {
+                    "id": "counter3_b3",
+                    "options": ["rural and regional connectivity", "city centers", "wealthy neighborhoods"],
+                    "correctAnswer": "rural and regional connectivity"
+                  }
+                ],
+                "correctSentence": "Although mass transit benefits urban areas, the necessity of roads cannot be denied for rural and regional connectivity.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Despite _____, it must be acknowledged that _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["the environmental advantages of public transport", "no benefits of roads", "perfect solutions"],
+                    "correctAnswer": "the environmental advantages of public transport"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": ["roads remain vital for economic infrastructure", "public transport solves everything", "roads are obsolete"],
+                    "correctAnswer": "roads remain vital for economic infrastructure"
+                  }
+                ],
+                "correctSentence": "Despite the environmental advantages of public transport, it must be acknowledged that roads remain vital for economic infrastructure.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Some argue that _____, however, _____ demonstrates _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["road investment encourages car dependency", "roads have no impact", "everyone should drive"],
+                    "correctAnswer": "road investment encourages car dependency"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": ["balanced infrastructure development", "building only roads", "eliminating transport"],
+                    "correctAnswer": "balanced infrastructure development"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": ["that both can coexist productively", "only one option works", "neither is useful"],
+                    "correctAnswer": "that both can coexist productively"
+                  }
+                ],
+                "correctSentence": "Some argue that road investment encourages car dependency, however, balanced infrastructure development demonstrates that both can coexist productively.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Nevertheless, _____ remains important even in _____ where _____.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["road infrastructure", "eliminating roads", "ignoring transport"],
+                    "correctAnswer": "road infrastructure"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": ["cities with excellent public transport", "areas with no transport", "rural villages"],
+                    "correctAnswer": "cities with excellent public transport"
+                  },
+                  {
+                    "id": "counter6_b3",
+                    "options": ["emergency services and freight require road access", "nothing matters", "public transport is perfect"],
+                    "correctAnswer": "emergency services and freight require road access"
+                  }
+                ],
+                "correctSentence": "Nevertheless, road infrastructure remains important even in cities with excellent public transport where emergency services and freight require road access.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "It is worth noting that _____, though _____ help mitigate _____.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["roads can contribute to urban sprawl", "public transport is perfect", "infrastructure is unnecessary"],
+                    "correctAnswer": "roads can contribute to urban sprawl"
+                  },
+                  {
+                    "id": "counter7_b2",
+                    "options": ["proper planning policies", "ignoring issues", "building more roads"],
+                    "correctAnswer": "proper planning policies"
+                  },
+                  {
+                    "id": "counter7_b3",
+                    "options": ["these negative effects", "all problems", "nothing"],
+                    "correctAnswer": "these negative effects"
+                  }
+                ],
+                "correctSentence": "It is worth noting that roads can contribute to urban sprawl, though proper planning policies help mitigate these negative effects.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "Granted, _____ requires significant upfront investment, but _____ demonstrate _____.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["developing comprehensive public transport", "building simple roads", "doing nothing"],
+                    "correctAnswer": "developing comprehensive public transport"
+                  },
+                  {
+                    "id": "counter8_b2",
+                    "options": ["long-term economic analyses", "short-term views", "random opinions"],
+                    "correctAnswer": "long-term economic analyses"
+                  },
+                  {
+                    "id": "counter8_b3",
+                    "options": ["substantial returns through reduced congestion and pollution costs", "immediate losses", "no benefits"],
+                    "correctAnswer": "substantial returns through reduced congestion and pollution costs"
+                  }
+                ],
+                "correctSentence": "Granted, developing comprehensive public transport requires significant upfront investment, but long-term economic analyses demonstrate substantial returns through reduced congestion and pollution costs.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "road",
-              "infrastructure",
-              "supports",
-              "freight",
-              "transportation",
-              "and",
-              "deliveries"
-            ],
-            "correctAnswer": "Road infrastructure supports freight transportation and deliveries.",
-            "hint": "Subject is 'Road infrastructure'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "investing",
-              "in",
-              "mass transit",
-              "alleviates",
-              "traffic",
-              "congestion",
-              "significantly"
-            ],
-            "correctAnswer": "Investing in mass transit alleviates traffic congestion significantly.",
-            "hint": "Start with gerund 'Investing'"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "rural",
-              "communities",
-              "require",
-              "reliable",
-              "road",
-              "connections",
-              "for",
-              "access"
-            ],
-            "correctAnswer": "Rural communities require reliable road connections for access.",
-            "hint": "Subject is 'Rural communities'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "urban",
-              "areas",
-              "benefit",
-              "most",
-              "from",
-              "public",
-              "transport",
-              "investment"
-            ],
-            "correctAnswer": "Urban areas benefit most from public transport investment.",
-            "hint": "'benefit' is the main verb"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Public transport _____ traffic congestion in crowded cities.",
-            "options": [
-              "reduce",
-              "reduces",
-              "reducing"
-            ],
-            "correctAnswer": "reduces",
-            "explanation": "Singular subject 'Public transport' needs 's' on verb."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, road networks remain essential for rural accessibility.",
-            "options": [
-              "However",
-              "Therefore",
-              "Moreover"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to contrast with public transport arguments."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Governments must _____ limited budgets between competing priorities.",
-            "options": [
-              "allocate",
-              "allocates",
-              "allocation"
-            ],
-            "correctAnswer": "allocate",
-            "explanation": "Use base form 'allocate' after 'must'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ instance, Tokyo's subway system serves millions daily.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For instance' is correct for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Mass transit offers a more _____ transportation solution.",
-            "options": [
-              "sustainable",
-              "sustainability",
-              "sustain"
-            ],
-            "correctAnswer": "sustainable",
-            "explanation": "Use adjective 'sustainable' before noun 'solution'."
+            "category": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Practice writing effective conclusions that summarize and restate",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while _____ serve vital functions, optimal investment depends on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["both public transport and road infrastructure", "only one type", "neither option"],
+                    "correctAnswer": "both public transport and road infrastructure"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["geographic and demographic context", "random decisions", "political preferences"],
+                    "correctAnswer": "geographic and demographic context"
+                  }
+                ],
+                "correctSentence": "In conclusion, while both public transport and road infrastructure serve vital functions, optimal investment depends on geographic and demographic context.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, I believe _____ should prioritize _____ while _____ require _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["urban centers", "all areas", "no regions"],
+                    "correctAnswer": "urban centers"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["sustainable mass transit systems", "only roads", "neither option"],
+                    "correctAnswer": "sustainable mass transit systems"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": ["rural and regional areas", "cities", "urban zones"],
+                    "correctAnswer": "rural and regional areas"
+                  },
+                  {
+                    "id": "conclusion2_b4",
+                    "options": ["continued road development", "no investment", "only subways"],
+                    "correctAnswer": "continued road development"
+                  }
+                ],
+                "correctSentence": "Overall, I believe urban centers should prioritize sustainable mass transit systems while rural and regional areas require continued road development.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ offers _____ but _____ remains essential for _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["public transport", "private vehicles", "eliminating transport"],
+                    "correctAnswer": "public transport"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["environmental and efficiency benefits in cities", "no advantages", "only problems"],
+                    "correctAnswer": "environmental and efficiency benefits in cities"
+                  },
+                  {
+                    "id": "conclusion3_b3",
+                    "options": ["road infrastructure", "public transport", "neither"],
+                    "correctAnswer": "road infrastructure"
+                  },
+                  {
+                    "id": "conclusion3_b4",
+                    "options": ["economic growth and regional accessibility", "nothing", "entertainment"],
+                    "correctAnswer": "economic growth and regional accessibility"
+                  }
+                ],
+                "correctSentence": "To summarize, public transport offers environmental and efficiency benefits in cities but road infrastructure remains essential for economic growth and regional accessibility.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, the optimal approach is _____ based on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["strategic allocation of resources to both", "investing in only one", "eliminating all infrastructure"],
+                    "correctAnswer": "strategic allocation of resources to both"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": ["local population density and economic needs", "political ideology", "random choices"],
+                    "correctAnswer": "local population density and economic needs"
+                  }
+                ],
+                "correctSentence": "On balance, the optimal approach is strategic allocation of resources to both based on local population density and economic needs.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "Ultimately, _____ demands _____ rather than _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["effective infrastructure policy", "simple decisions", "no planning"],
+                    "correctAnswer": "effective infrastructure policy"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["balanced investment tailored to regional contexts", "uniform national approaches", "ignoring differences"],
+                    "correctAnswer": "balanced investment tailored to regional contexts"
+                  },
+                  {
+                    "id": "conclusion5_b3",
+                    "options": ["one-size-fits-all solutions", "customized strategies", "diverse approaches"],
+                    "correctAnswer": "one-size-fits-all solutions"
+                  }
+                ],
+                "correctSentence": "Ultimately, effective infrastructure policy demands balanced investment tailored to regional contexts rather than one-size-fits-all solutions.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "In summary, while _____ excel in _____, _____ prove indispensable for _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["mass transit systems", "private cars", "bicycles"],
+                    "correctAnswer": "mass transit systems"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": ["dense urban environments", "rural areas", "empty spaces"],
+                    "correctAnswer": "dense urban environments"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": ["roads", "trains", "subways"],
+                    "correctAnswer": "roads"
+                  },
+                  {
+                    "id": "conclusion6_b4",
+                    "options": ["ensuring universal accessibility and economic participation", "city living only", "entertainment purposes"],
+                    "correctAnswer": "ensuring universal accessibility and economic participation"
+                  }
+                ],
+                "correctSentence": "In summary, while mass transit systems excel in dense urban environments, roads prove indispensable for ensuring universal accessibility and economic participation.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Taking all factors into consideration, _____ should be determined by _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["infrastructure investment priorities", "random choices", "political preferences"],
+                    "correctAnswer": "infrastructure investment priorities"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": ["careful analysis of regional characteristics and needs", "arbitrary decisions", "financial constraints alone"],
+                    "correctAnswer": "careful analysis of regional characteristics and needs"
+                  }
+                ],
+                "correctSentence": "Taking all factors into consideration, infrastructure investment priorities should be determined by careful analysis of regional characteristics and needs.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "In the final analysis, _____ must pursue _____ that balances _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["governments", "corporations", "individuals"],
+                    "correctAnswer": "governments"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["integrated infrastructure strategies", "single-focus policies", "no planning"],
+                    "correctAnswer": "integrated infrastructure strategies"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": ["environmental sustainability with economic development needs", "only costs", "political goals"],
+                    "correctAnswer": "environmental sustainability with economic development needs"
+                  }
+                ],
+                "correctSentence": "In the final analysis, governments must pursue integrated infrastructure strategies that balances environmental sustainability with economic development needs.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

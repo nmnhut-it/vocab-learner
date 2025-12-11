@@ -295,207 +295,977 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Online education",
-              "verb": "provide",
-              "keywords": [
-                "accessible",
-                "geographical barriers"
-              ]
-            },
-            "hint": "Mention how it makes education accessible regardless of location.",
-            "modelAnswer": "Online education provides accessible learning opportunities from anywhere in the world.",
-            "minWords": 9
+            "category": "thesis-statements",
+            "title": "Thesis Statements",
+            "description": "Practice writing balanced thesis statements for introductions",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While online education offers _____, it also presents _____.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": ["significant advantages in accessibility and flexibility", "many problems for students", "limited educational value"],
+                    "correctAnswer": "significant advantages in accessibility and flexibility"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": ["notable challenges in interaction and self-discipline", "some minor issues", "better learning outcomes"],
+                    "correctAnswer": "notable challenges in interaction and self-discipline"
+                  }
+                ],
+                "correctSentence": "While online education offers significant advantages in accessibility and flexibility, it also presents notable challenges in interaction and self-discipline.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The rise of digital learning platforms has _____, though _____ remain concerns.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": ["transformed educational accessibility worldwide", "created many new problems", "replaced traditional education completely"],
+                    "correctAnswer": "transformed educational accessibility worldwide"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": ["practical skill development and social interaction", "cost savings", "improved test scores"],
+                    "correctAnswer": "practical skill development and social interaction"
+                  }
+                ],
+                "correctSentence": "The rise of digital learning platforms has transformed educational accessibility worldwide, though practical skill development and social interaction remain concerns.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "Although _____ benefits students in many ways, _____ cannot be ignored.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": ["online learning", "traditional education", "classroom attendance"],
+                    "correctAnswer": "online learning"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": ["its limitations in hands-on experience", "its popularity", "its convenience"],
+                    "correctAnswer": "its limitations in hands-on experience"
+                  }
+                ],
+                "correctSentence": "Although online learning benefits students in many ways, its limitations in hands-on experience cannot be ignored.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "Virtual classrooms provide _____ but struggle with _____.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": ["unprecedented flexibility and cost-effectiveness", "poor quality education", "outdated teaching methods"],
+                    "correctAnswer": "unprecedented flexibility and cost-effectiveness"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": ["maintaining student engagement and practical training", "internet connectivity", "affordable pricing"],
+                    "correctAnswer": "maintaining student engagement and practical training"
+                  }
+                ],
+                "correctSentence": "Virtual classrooms provide unprecedented flexibility and cost-effectiveness but struggle with maintaining student engagement and practical training.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "This essay will discuss both _____ of online education and _____.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": ["the advantages and disadvantages", "the popularity", "the technology"],
+                    "correctAnswer": "the advantages and disadvantages"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": ["argue for a balanced approach", "reject online learning", "promote virtual schools"],
+                    "correctAnswer": "argue for a balanced approach"
+                  }
+                ],
+                "correctSentence": "This essay will discuss both the advantages and disadvantages of online education and argue for a balanced approach.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "While some view online education as _____, others highlight _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": ["a revolutionary democratization of learning", "expensive and ineffective", "only for wealthy students"],
+                    "correctAnswer": "a revolutionary democratization of learning"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": ["concerns about quality and social isolation", "its popularity", "technical requirements"],
+                    "correctAnswer": "concerns about quality and social isolation"
+                  }
+                ],
+                "correctSentence": "While some view online education as a revolutionary democratization of learning, others highlight concerns about quality and social isolation.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "Digital learning has made education more _____, yet it lacks _____.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": ["accessible to students regardless of location", "expensive", "difficult to understand"],
+                    "correctAnswer": "accessible to students regardless of location"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": ["the personal interaction of traditional classrooms", "popularity", "government support"],
+                    "correctAnswer": "the personal interaction of traditional classrooms"
+                  }
+                ],
+                "correctSentence": "Digital learning has made education more accessible to students regardless of location, yet it lacks the personal interaction of traditional classrooms.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "Online education brings _____ alongside _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": ["significant cost savings and scheduling flexibility", "poor educational outcomes", "limited career opportunities"],
+                    "correctAnswer": "significant cost savings and scheduling flexibility"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": ["challenges in motivation and practical skill development", "increased enrollment", "better test scores"],
+                    "correctAnswer": "challenges in motivation and practical skill development"
+                  }
+                ],
+                "correctSentence": "Online education brings significant cost savings and scheduling flexibility alongside challenges in motivation and practical skill development.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Students",
-              "verb": "study",
-              "keywords": [
-                "own pace",
-                "flexibility"
-              ]
-            },
-            "hint": "Use 'at their own pace' and mention flexibility.",
-            "modelAnswer": "Students can study at their own pace with greater flexibility in scheduling.",
-            "minWords": 10
+            "category": "topic-sentences",
+            "title": "Topic Sentences",
+            "description": "Practice writing clear topic sentences for body paragraphs",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "One key advantage of online learning is _____.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": ["its exceptional accessibility regardless of geographical location", "the use of computers", "watching videos"],
+                    "correctAnswer": "its exceptional accessibility regardless of geographical location"
+                  }
+                ],
+                "correctSentence": "One key advantage of online learning is its exceptional accessibility regardless of geographical location.",
+                "usableIn": "body-advantages"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "However, a major drawback of virtual education is _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": ["the lack of face-to-face interaction and hands-on experience", "internet requirements", "computer costs"],
+                    "correctAnswer": "the lack of face-to-face interaction and hands-on experience"
+                  }
+                ],
+                "correctSentence": "However, a major drawback of virtual education is the lack of face-to-face interaction and hands-on experience.",
+                "usableIn": "body-disadvantages"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "Another significant benefit of digital learning platforms is _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": ["the flexibility to study at one's own pace and schedule", "being modern", "using technology"],
+                    "correctAnswer": "the flexibility to study at one's own pace and schedule"
+                  }
+                ],
+                "correctSentence": "Another significant benefit of digital learning platforms is the flexibility to study at one's own pace and schedule.",
+                "usableIn": "body-advantages"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "A further disadvantage concerns _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": ["the high level of self-discipline required for success", "internet speed", "screen brightness"],
+                    "correctAnswer": "the high level of self-discipline required for success"
+                  }
+                ],
+                "correctSentence": "A further disadvantage concerns the high level of self-discipline required for success.",
+                "usableIn": "body-disadvantages"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Online education also offers _____ compared to traditional institutions.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": ["substantial cost savings in tuition and accommodation", "newer buildings", "more students"],
+                    "correctAnswer": "substantial cost savings in tuition and accommodation"
+                  }
+                ],
+                "correctSentence": "Online education also offers substantial cost savings in tuition and accommodation compared to traditional institutions.",
+                "usableIn": "body-advantages"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "Virtual classrooms cannot adequately provide _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": ["the collaborative learning experiences of physical classrooms", "lectures", "assignments"],
+                    "correctAnswer": "the collaborative learning experiences of physical classrooms"
+                  }
+                ],
+                "correctSentence": "Virtual classrooms cannot adequately provide the collaborative learning experiences of physical classrooms.",
+                "usableIn": "body-disadvantages"
+              },
+              {
+                "id": "topic7",
+                "type": "template",
+                "template": "Digital learning platforms have revolutionized education by _____.",
+                "blanks": [
+                  {
+                    "id": "topic7_b1",
+                    "options": ["eliminating geographical and financial barriers to quality courses", "reducing educational quality", "making learning harder"],
+                    "correctAnswer": "eliminating geographical and financial barriers to quality courses"
+                  }
+                ],
+                "correctSentence": "Digital learning platforms have revolutionized education by eliminating geographical and financial barriers to quality courses.",
+                "usableIn": "body-advantages"
+              },
+              {
+                "id": "topic8",
+                "type": "template",
+                "template": "The primary limitation of online education lies in _____.",
+                "blanks": [
+                  {
+                    "id": "topic8_b1",
+                    "options": ["its inability to replicate hands-on practical training", "using computers", "internet requirements"],
+                    "correctAnswer": "its inability to replicate hands-on practical training"
+                  }
+                ],
+                "correctSentence": "The primary limitation of online education lies in its inability to replicate hands-on practical training.",
+                "usableIn": "body-disadvantages"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Online learning",
-              "verb": "require",
-              "keywords": [
-                "self-discipline",
-                "motivation"
-              ]
-            },
-            "hint": "Mention that it demands or requires these qualities.",
-            "modelAnswer": "Online learning requires strong self-discipline and consistent motivation from students.",
-            "minWords": 9
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments",
+            "description": "Practice explaining WHY with reasoning sentences",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This is because _____ can access quality courses _____.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": ["students from remote areas", "wealthy students", "local students"],
+                    "correctAnswer": "students from remote areas"
+                  },
+                  {
+                    "id": "support1_b2",
+                    "options": ["without relocating or commuting long distances", "easily", "quickly"],
+                    "correctAnswer": "without relocating or commuting long distances"
+                  }
+                ],
+                "correctSentence": "This is because students from remote areas can access quality courses without relocating or commuting long distances.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "This means that _____ can pursue education while _____.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": ["working professionals", "children", "retired people"],
+                    "correctAnswer": "working professionals"
+                  },
+                  {
+                    "id": "support2_b2",
+                    "options": ["maintaining their careers and family responsibilities", "sleeping", "exercising"],
+                    "correctAnswer": "maintaining their careers and family responsibilities"
+                  }
+                ],
+                "correctSentence": "This means that working professionals can pursue education while maintaining their careers and family responsibilities.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "The reason is that _____ cannot fully replicate _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": ["virtual platforms", "schools", "teachers"],
+                    "correctAnswer": "virtual platforms"
+                  },
+                  {
+                    "id": "support3_b2",
+                    "options": ["the dynamic interactions of physical classrooms", "lectures", "homework"],
+                    "correctAnswer": "the dynamic interactions of physical classrooms"
+                  }
+                ],
+                "correctSentence": "The reason is that virtual platforms cannot fully replicate the dynamic interactions of physical classrooms.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "This occurs because _____ requires _____ that many students lack.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": ["online learning", "traditional education", "classroom attendance"],
+                    "correctAnswer": "online learning"
+                  },
+                  {
+                    "id": "support4_b2",
+                    "options": ["exceptional self-discipline and motivation", "internet access", "a computer"],
+                    "correctAnswer": "exceptional self-discipline and motivation"
+                  }
+                ],
+                "correctSentence": "This occurs because online learning requires exceptional self-discipline and motivation that many students lack.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Digital platforms enable _____ through _____.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": ["personalized learning experiences", "standardized testing", "strict schedules"],
+                    "correctAnswer": "personalized learning experiences"
+                  },
+                  {
+                    "id": "support5_b2",
+                    "options": ["adaptive algorithms and self-paced content", "traditional textbooks", "classroom lectures"],
+                    "correctAnswer": "adaptive algorithms and self-paced content"
+                  }
+                ],
+                "correctSentence": "Digital platforms enable personalized learning experiences through adaptive algorithms and self-paced content.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Online courses eliminate _____, making education _____.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": ["commuting time and accommodation expenses", "homework", "exams"],
+                    "correctAnswer": "commuting time and accommodation expenses"
+                  },
+                  {
+                    "id": "support6_b2",
+                    "options": ["more affordable for low-income students", "easier", "faster"],
+                    "correctAnswer": "more affordable for low-income students"
+                  }
+                ],
+                "correctSentence": "Online courses eliminate commuting time and accommodation expenses, making education more affordable for low-income students.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Without _____, students studying online may experience _____.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": ["regular face-to-face contact", "homework", "lectures"],
+                    "correctAnswer": "regular face-to-face contact"
+                  },
+                  {
+                    "id": "support7_b2",
+                    "options": ["social isolation and reduced peer learning", "better grades", "more free time"],
+                    "correctAnswer": "social isolation and reduced peer learning"
+                  }
+                ],
+                "correctSentence": "Without regular face-to-face contact, students studying online may experience social isolation and reduced peer learning.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Home environments often present _____ that _____.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": ["more distractions than dedicated learning spaces", "better lighting", "comfortable furniture"],
+                    "correctAnswer": "more distractions than dedicated learning spaces"
+                  },
+                  {
+                    "id": "support8_b2",
+                    "options": ["undermine concentration and academic performance", "improve learning", "increase motivation"],
+                    "correctAnswer": "undermine concentration and academic performance"
+                  }
+                ],
+                "correctSentence": "Home environments often present more distractions than dedicated learning spaces that undermine concentration and academic performance.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Virtual classrooms",
-              "verb": "lack",
-              "keywords": [
-                "social interaction",
-                "traditional schools"
-              ]
-            },
-            "hint": "Compare to what traditional schools provide.",
-            "modelAnswer": "Virtual classrooms often lack the social interaction found in traditional school environments.",
-            "minWords": 10
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "description": "Practice providing specific, concrete examples",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, _____ can attend lectures from _____ through platforms like _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": ["a student in rural India", "any student", "some people"],
+                    "correctAnswer": "a student in rural India"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": ["prestigious universities like MIT or Harvard", "local schools", "nearby colleges"],
+                    "correctAnswer": "prestigious universities like MIT or Harvard"
+                  },
+                  {
+                    "id": "example1_b3",
+                    "options": ["Coursera or edX", "email", "television"],
+                    "correctAnswer": "Coursera or edX"
+                  }
+                ],
+                "correctSentence": "For instance, a student in rural India can attend lectures from prestigious universities like MIT or Harvard through platforms like Coursera or edX.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "For example, _____ students cannot gain _____ through screen-based learning alone.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": ["medical or engineering", "business", "history"],
+                    "correctAnswer": "medical or engineering"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": ["essential hands-on laboratory skills", "theoretical knowledge", "lecture notes"],
+                    "correctAnswer": "essential hands-on laboratory skills"
+                  }
+                ],
+                "correctSentence": "For example, medical or engineering students cannot gain essential hands-on laboratory skills through screen-based learning alone.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "Particularly, _____ have seen _____ enroll in online degree programs.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": ["working parents", "young children", "retired seniors"],
+                    "correctAnswer": "working parents"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": ["significant numbers", "few people", "nobody"],
+                    "correctAnswer": "significant numbers"
+                  }
+                ],
+                "correctSentence": "Particularly, working parents have seen significant numbers enroll in online degree programs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "To illustrate, during the COVID-19 pandemic, _____ students worldwide transitioned to _____, demonstrating _____.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": ["hundreds of millions of", "a few", "some"],
+                    "correctAnswer": "hundreds of millions of"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": ["online learning platforms", "libraries", "physical classrooms"],
+                    "correctAnswer": "online learning platforms"
+                  },
+                  {
+                    "id": "example4_b3",
+                    "options": ["both its viability and limitations", "its failure", "its perfection"],
+                    "correctAnswer": "both its viability and limitations"
+                  }
+                ],
+                "correctSentence": "To illustrate, during the COVID-19 pandemic, hundreds of millions of students worldwide transitioned to online learning platforms, demonstrating both its viability and limitations.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A clear example is _____, which offers _____ at a fraction of traditional costs.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": ["the University of Phoenix online program", "a local school", "any university"],
+                    "correctAnswer": "the University of Phoenix online program"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": ["accredited bachelor's and master's degrees", "simple certificates", "short courses"],
+                    "correctAnswer": "accredited bachelor's and master's degrees"
+                  }
+                ],
+                "correctSentence": "A clear example is the University of Phoenix online program, which offers accredited bachelor's and master's degrees at a fraction of traditional costs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "For instance, _____ reported that _____ of online students felt _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": ["a 2023 survey", "a teacher", "some people"],
+                    "correctAnswer": "a 2023 survey"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": ["over 60%", "nobody", "everyone"],
+                    "correctAnswer": "over 60%"
+                  },
+                  {
+                    "id": "example6_b3",
+                    "options": ["socially isolated and disconnected from peers", "very happy", "neutral"],
+                    "correctAnswer": "socially isolated and disconnected from peers"
+                  }
+                ],
+                "correctSentence": "For instance, a 2023 survey reported that over 60% of online students felt socially isolated and disconnected from peers.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "Specifically, platforms such as _____ provide _____ to learners worldwide.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": ["Khan Academy and Udacity", "traditional universities", "local libraries"],
+                    "correctAnswer": "Khan Academy and Udacity"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": ["free comprehensive courses in programming and mathematics", "expensive textbooks", "classroom seats"],
+                    "correctAnswer": "free comprehensive courses in programming and mathematics"
+                  }
+                ],
+                "correctSentence": "Specifically, platforms such as Khan Academy and Udacity provide free comprehensive courses in programming and mathematics to learners worldwide.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "Research shows that _____ struggle with _____ in purely online formats.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": ["science and art students", "all students", "teachers"],
+                    "correctAnswer": "science and art students"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": ["developing practical and creative skills", "reading textbooks", "taking notes"],
+                    "correctAnswer": "developing practical and creative skills"
+                  }
+                ],
+                "correctSentence": "Research shows that science and art students struggle with developing practical and creative skills in purely online formats.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Digital platforms",
-              "verb": "offer",
-              "keywords": [
-                "comprehensive courses",
-                "lower cost"
-              ]
-            },
-            "hint": "Mention cost advantages and course variety.",
-            "modelAnswer": "Digital platforms offer comprehensive courses at significantly lower costs than traditional institutions.",
-            "minWords": 10
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "online",
-              "education",
-              "has",
-              "transformed",
-              "the way",
-              "people",
-              "learn"
-            ],
-            "correctAnswer": "Online education has transformed the way people learn.",
-            "hint": "Start with 'Online education'"
+            "category": "counter-arguments",
+            "title": "Counter-arguments",
+            "description": "Practice acknowledging opposing viewpoints",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "Admittedly, _____ does offer _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": ["traditional classroom education", "online learning", "homeschooling"],
+                    "correctAnswer": "traditional classroom education"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": ["superior social interaction and immediate feedback", "lower costs", "more flexibility"],
+                    "correctAnswer": "superior social interaction and immediate feedback"
+                  }
+                ],
+                "correctSentence": "Admittedly, traditional classroom education does offer superior social interaction and immediate feedback.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "While _____ is a concern, _____ can mitigate this through _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": ["social isolation", "internet costs", "computer requirements"],
+                    "correctAnswer": "social isolation"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": ["online programs", "schools", "governments"],
+                    "correctAnswer": "online programs"
+                  },
+                  {
+                    "id": "counter2_b3",
+                    "options": ["virtual discussion groups and collaborative projects", "ignoring the problem", "reducing course content"],
+                    "correctAnswer": "virtual discussion groups and collaborative projects"
+                  }
+                ],
+                "correctSentence": "While social isolation is a concern, online programs can mitigate this through virtual discussion groups and collaborative projects.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Although critics argue that _____, _____ demonstrate otherwise.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": ["online education lacks quality", "online education is perfect", "traditional education is dead"],
+                    "correctAnswer": "online education lacks quality"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": ["numerous accredited programs and successful graduates", "some failures", "anecdotal evidence"],
+                    "correctAnswer": "numerous accredited programs and successful graduates"
+                  }
+                ],
+                "correctSentence": "Although critics argue that online education lacks quality, numerous accredited programs and successful graduates demonstrate otherwise.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "Despite _____, the benefits of _____ often outweigh _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": ["these limitations", "no problems", "perfect conditions"],
+                    "correctAnswer": "these limitations"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": ["increased accessibility and flexibility", "higher costs", "strict schedules"],
+                    "correctAnswer": "increased accessibility and flexibility"
+                  },
+                  {
+                    "id": "counter4_b3",
+                    "options": ["the disadvantages for many students", "all advantages", "nothing"],
+                    "correctAnswer": "the disadvantages for many students"
+                  }
+                ],
+                "correctSentence": "Despite these limitations, the benefits of increased accessibility and flexibility often outweigh the disadvantages for many students.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Some opponents claim _____, yet _____ suggests _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": ["students cannot learn effectively online", "all students prefer online learning", "online learning is free"],
+                    "correctAnswer": "students cannot learn effectively online"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": ["recent research", "old beliefs", "random opinions"],
+                    "correctAnswer": "recent research"
+                  },
+                  {
+                    "id": "counter5_b3",
+                    "options": ["comparable learning outcomes in many subjects", "total failure", "guaranteed success"],
+                    "correctAnswer": "comparable learning outcomes in many subjects"
+                  }
+                ],
+                "correctSentence": "Some opponents claim students cannot learn effectively online, yet recent research suggests comparable learning outcomes in many subjects.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Nevertheless, _____ remains a valid concern that requires _____.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": ["the lack of hands-on training", "internet speed", "screen size"],
+                    "correctAnswer": "the lack of hands-on training"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": ["hybrid learning solutions and in-person components", "ignoring completely", "no action"],
+                    "correctAnswer": "hybrid learning solutions and in-person components"
+                  }
+                ],
+                "correctSentence": "Nevertheless, the lack of hands-on training remains a valid concern that requires hybrid learning solutions and in-person components.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter7",
+                "type": "template",
+                "template": "It is true that _____, but _____ have developed _____ to address this.",
+                "blanks": [
+                  {
+                    "id": "counter7_b1",
+                    "options": ["online learning can feel impersonal", "traditional education is perfect", "all students love online learning"],
+                    "correctAnswer": "online learning can feel impersonal"
+                  },
+                  {
+                    "id": "counter7_b2",
+                    "options": ["many institutions", "few schools", "no programs"],
+                    "correctAnswer": "many institutions"
+                  },
+                  {
+                    "id": "counter7_b3",
+                    "options": ["interactive features and peer networking opportunities", "no solutions", "worse problems"],
+                    "correctAnswer": "interactive features and peer networking opportunities"
+                  }
+                ],
+                "correctSentence": "It is true that online learning can feel impersonal, but many institutions have developed interactive features and peer networking opportunities to address this.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter8",
+                "type": "template",
+                "template": "Even though _____ pose challenges, _____ are continuously improving _____.",
+                "blanks": [
+                  {
+                    "id": "counter8_b1",
+                    "options": ["technical difficulties and connectivity issues", "perfect systems", "no problems"],
+                    "correctAnswer": "technical difficulties and connectivity issues"
+                  },
+                  {
+                    "id": "counter8_b2",
+                    "options": ["technology providers", "critics", "opponents"],
+                    "correctAnswer": "technology providers"
+                  },
+                  {
+                    "id": "counter8_b3",
+                    "options": ["platform reliability and user experience", "nothing", "problems"],
+                    "correctAnswer": "platform reliability and user experience"
+                  }
+                ],
+                "correctSentence": "Even though technical difficulties and connectivity issues pose challenges, technology providers are continuously improving platform reliability and user experience.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "students",
-              "can",
-              "access",
-              "lectures",
-              "from",
-              "anywhere",
-              "in the world"
-            ],
-            "correctAnswer": "Students can access lectures from anywhere in the world.",
-            "hint": "Subject is 'Students'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "technical",
-              "difficulties",
-              "can",
-              "disrupt",
-              "online",
-              "classes",
-              "significantly"
-            ],
-            "correctAnswer": "Technical difficulties can disrupt online classes significantly.",
-            "hint": "'can disrupt' is the verb phrase"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "many",
-              "students",
-              "struggle",
-              "with",
-              "staying",
-              "motivated",
-              "at home"
-            ],
-            "correctAnswer": "Many students struggle with staying motivated at home.",
-            "hint": "Start with 'Many students'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "virtual",
-              "learning",
-              "eliminates",
-              "commuting",
-              "time",
-              "and",
-              "expenses"
-            ],
-            "correctAnswer": "Virtual learning eliminates commuting time and expenses.",
-            "hint": "Subject is 'Virtual learning'"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Online courses make education more _____ to people worldwide.",
-            "options": [
-              "accessible",
-              "access",
-              "accessing"
-            ],
-            "correctAnswer": "accessible",
-            "explanation": "Use adjective 'accessible' after 'more'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, students studying from home face more distractions.",
-            "options": [
-              "However",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to introduce a disadvantage after discussing advantages."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Virtual classrooms _____ the social interaction of traditional schools.",
-            "options": [
-              "lack",
-              "lacks",
-              "lacking"
-            ],
-            "correctAnswer": "lack",
-            "explanation": "Plural subject 'classrooms' takes base form 'lack'."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ working professionals, online degrees offer schedule flexibility.",
-            "options": [
-              "For",
-              "To",
-              "At"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For' indicates who benefits from something."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Students must develop strong self-discipline _____ succeed in online learning.",
-            "options": [
-              "to",
-              "for",
-              "in"
-            ],
-            "correctAnswer": "to",
-            "explanation": "Use 'to' + infinitive to show purpose."
+            "category": "conclusions",
+            "title": "Conclusion Sentences",
+            "description": "Practice writing effective conclusions that summarize and restate",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while online education offers _____, it also presents _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": ["significant benefits in accessibility and affordability", "no real advantages", "perfect solutions"],
+                    "correctAnswer": "significant benefits in accessibility and affordability"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": ["real challenges in interaction and practical training", "no problems", "unlimited opportunities"],
+                    "correctAnswer": "real challenges in interaction and practical training"
+                  }
+                ],
+                "correctSentence": "In conclusion, while online education offers significant benefits in accessibility and affordability, it also presents real challenges in interaction and practical training.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, _____ represents both _____ and _____ for modern education.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": ["digital learning", "traditional education", "homeschooling"],
+                    "correctAnswer": "digital learning"
+                  },
+                  {
+                    "id": "conclusion2_b2",
+                    "options": ["tremendous opportunities", "major problems", "simple solutions"],
+                    "correctAnswer": "tremendous opportunities"
+                  },
+                  {
+                    "id": "conclusion2_b3",
+                    "options": ["significant limitations", "perfect outcomes", "no challenges"],
+                    "correctAnswer": "significant limitations"
+                  }
+                ],
+                "correctSentence": "Overall, digital learning represents both tremendous opportunities and significant limitations for modern education.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, the advantages of _____ must be balanced against _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": ["flexibility and accessibility", "strict schedules", "high costs"],
+                    "correctAnswer": "flexibility and accessibility"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": ["concerns about quality and engagement", "overwhelming benefits", "no disadvantages"],
+                    "correctAnswer": "concerns about quality and engagement"
+                  }
+                ],
+                "correctSentence": "To summarize, the advantages of flexibility and accessibility must be balanced against concerns about quality and engagement.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, _____ may offer the optimal solution by combining _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": ["a hybrid learning model", "online-only education", "traditional classrooms only"],
+                    "correctAnswer": "a hybrid learning model"
+                  },
+                  {
+                    "id": "conclusion4_b2",
+                    "options": ["online flexibility with in-person interaction", "only advantages", "only traditional methods"],
+                    "correctAnswer": "online flexibility with in-person interaction"
+                  }
+                ],
+                "correctSentence": "On balance, a hybrid learning model may offer the optimal solution by combining online flexibility with in-person interaction.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "Ultimately, success in online education depends on _____ and _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": ["individual student discipline", "internet speed", "computer brands"],
+                    "correctAnswer": "individual student discipline"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": ["institutional support for engagement", "expensive equipment", "physical location"],
+                    "correctAnswer": "institutional support for engagement"
+                  }
+                ],
+                "correctSentence": "Ultimately, success in online education depends on individual student discipline and institutional support for engagement.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "In summary, while _____ cannot replace _____ entirely, it serves as _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": ["online learning", "homework", "textbooks"],
+                    "correctAnswer": "online learning"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": ["traditional education", "computers", "teachers"],
+                    "correctAnswer": "traditional education"
+                  },
+                  {
+                    "id": "conclusion6_b3",
+                    "options": ["a valuable complement expanding educational access", "a complete failure", "the only future"],
+                    "correctAnswer": "a valuable complement expanding educational access"
+                  }
+                ],
+                "correctSentence": "In summary, while online learning cannot replace traditional education entirely, it serves as a valuable complement expanding educational access.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion7",
+                "type": "template",
+                "template": "Taking both perspectives into account, _____ will likely depend on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion7_b1",
+                    "options": ["the future of education", "nothing important", "random factors"],
+                    "correctAnswer": "the future of education"
+                  },
+                  {
+                    "id": "conclusion7_b2",
+                    "options": ["effectively integrating online and traditional methods", "eliminating one approach", "ignoring technology"],
+                    "correctAnswer": "effectively integrating online and traditional methods"
+                  }
+                ],
+                "correctSentence": "Taking both perspectives into account, the future of education will likely depend on effectively integrating online and traditional methods.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion8",
+                "type": "template",
+                "template": "In the final analysis, _____ must recognize _____ while addressing _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion8_b1",
+                    "options": ["educational institutions", "students only", "nobody"],
+                    "correctAnswer": "educational institutions"
+                  },
+                  {
+                    "id": "conclusion8_b2",
+                    "options": ["the transformative potential of digital learning", "only disadvantages", "no benefits"],
+                    "correctAnswer": "the transformative potential of digital learning"
+                  },
+                  {
+                    "id": "conclusion8_b3",
+                    "options": ["its inherent limitations in social and practical dimensions", "no concerns", "perfect solutions"],
+                    "correctAnswer": "its inherent limitations in social and practical dimensions"
+                  }
+                ],
+                "correctSentence": "In the final analysis, educational institutions must recognize the transformative potential of digital learning while addressing its inherent limitations in social and practical dimensions.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }

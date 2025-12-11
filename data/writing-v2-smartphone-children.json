@@ -260,212 +260,1043 @@
       "title": "Sentence Builder",
       "type": "exercises",
       "unlockCondition": "Complete Step 2",
-      "completionCriteria": "Complete 12/15 exercises correctly",
+      "completionCriteria": "Complete 35/48 exercises correctly",
       "content": {
-        "buildFromClues": [
+        "exerciseSections": [
           {
-            "id": "clue1",
-            "clues": {
-              "subject": "Smartphones",
-              "verb": "provide",
-              "keywords": [
-                "constant contact",
-                "parents",
-                "safety"
-              ]
-            },
-            "hint": "Focus on safety and communication benefits.",
-            "modelAnswer": "Smartphones provide children with constant contact to parents for safety and emergencies.",
-            "minWords": 11
+            "category": "thesis-statements",
+            "title": "Introduction Thesis Statements",
+            "exercises": [
+              {
+                "id": "thesis1",
+                "type": "template",
+                "template": "While smartphones offer _____ to children, they also present _____.",
+                "blanks": [
+                  {
+                    "id": "thesis1_b1",
+                    "options": [
+                      "enhanced safety and educational opportunities",
+                      "expensive technology and complex features",
+                      "modern design and attractive colors"
+                    ],
+                    "correctAnswer": "enhanced safety and educational opportunities"
+                  },
+                  {
+                    "id": "thesis1_b2",
+                    "options": [
+                      "significant health and safety concerns",
+                      "minor software issues",
+                      "limited battery life"
+                    ],
+                    "correctAnswer": "significant health and safety concerns"
+                  }
+                ],
+                "correctSentence": "While smartphones offer enhanced safety and educational opportunities to children, they also present significant health and safety concerns.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis2",
+                "type": "template",
+                "template": "The proliferation of smartphones among children has become _____, raising questions about _____.",
+                "blanks": [
+                  {
+                    "id": "thesis2_b1",
+                    "options": [
+                      "increasingly prevalent in modern society",
+                      "less common in recent years",
+                      "prohibited by many schools"
+                    ],
+                    "correctAnswer": "increasingly prevalent in modern society"
+                  },
+                  {
+                    "id": "thesis2_b2",
+                    "options": [
+                      "appropriate usage and parental supervision",
+                      "device warranties and repair costs",
+                      "technical specifications and features"
+                    ],
+                    "correctAnswer": "appropriate usage and parental supervision"
+                  }
+                ],
+                "correctSentence": "The proliferation of smartphones among children has become increasingly prevalent in modern society, raising questions about appropriate usage and parental supervision.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis3",
+                "type": "template",
+                "template": "This development offers clear benefits in _____, yet presents concerns regarding _____.",
+                "blanks": [
+                  {
+                    "id": "thesis3_b1",
+                    "options": [
+                      "communication and access to educational resources",
+                      "device aesthetics and brand recognition",
+                      "entertainment and gaming capabilities"
+                    ],
+                    "correctAnswer": "communication and access to educational resources"
+                  },
+                  {
+                    "id": "thesis3_b2",
+                    "options": [
+                      "physical health, online safety, and social development",
+                      "battery performance and charging speed",
+                      "screen size and device weight"
+                    ],
+                    "correctAnswer": "physical health, online safety, and social development"
+                  }
+                ],
+                "correctSentence": "This development offers clear benefits in communication and access to educational resources, yet presents concerns regarding physical health, online safety, and social development.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis4",
+                "type": "template",
+                "template": "Although _____ can enhance children's connectivity, _____ remains a significant challenge.",
+                "blanks": [
+                  {
+                    "id": "thesis4_b1",
+                    "options": [
+                      "smartphone technology",
+                      "expensive devices",
+                      "complicated apps"
+                    ],
+                    "correctAnswer": "smartphone technology"
+                  },
+                  {
+                    "id": "thesis4_b2",
+                    "options": [
+                      "protecting them from inappropriate content and online risks",
+                      "choosing the right phone plan",
+                      "teaching them basic phone operations"
+                    ],
+                    "correctAnswer": "protecting them from inappropriate content and online risks"
+                  }
+                ],
+                "correctSentence": "Although smartphone technology can enhance children's connectivity, protecting them from inappropriate content and online risks remains a significant challenge.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis5",
+                "type": "template",
+                "template": "Children's smartphone ownership represents _____, requiring careful consideration of _____.",
+                "blanks": [
+                  {
+                    "id": "thesis5_b1",
+                    "options": [
+                      "both opportunities and challenges for modern families",
+                      "an expensive purchase decision",
+                      "a temporary technological trend"
+                    ],
+                    "correctAnswer": "both opportunities and challenges for modern families"
+                  },
+                  {
+                    "id": "thesis5_b2",
+                    "options": [
+                      "age-appropriate usage and adequate supervision",
+                      "warranty coverage and insurance options",
+                      "storage capacity and processing speed"
+                    ],
+                    "correctAnswer": "age-appropriate usage and adequate supervision"
+                  }
+                ],
+                "correctSentence": "Children's smartphone ownership represents both opportunities and challenges for modern families, requiring careful consideration of age-appropriate usage and adequate supervision.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis6",
+                "type": "template",
+                "template": "While some emphasize the _____ of smartphones, others highlight _____.",
+                "blanks": [
+                  {
+                    "id": "thesis6_b1",
+                    "options": [
+                      "educational benefits and safety advantages",
+                      "sleek design and portability",
+                      "camera quality and storage space"
+                    ],
+                    "correctAnswer": "educational benefits and safety advantages"
+                  },
+                  {
+                    "id": "thesis6_b2",
+                    "options": [
+                      "the risks of addiction and exposure to harmful content",
+                      "the high replacement costs",
+                      "the complicated user interface"
+                    ],
+                    "correctAnswer": "the risks of addiction and exposure to harmful content"
+                  }
+                ],
+                "correctSentence": "While some emphasize the educational benefits and safety advantages of smartphones, others highlight the risks of addiction and exposure to harmful content.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis7",
+                "type": "template",
+                "template": "The trend toward _____ reflects _____, though concerns about _____ persist.",
+                "blanks": [
+                  {
+                    "id": "thesis7_b1",
+                    "options": [
+                      "children owning personal devices",
+                      "purchasing expensive electronics",
+                      "replacing devices frequently"
+                    ],
+                    "correctAnswer": "children owning personal devices"
+                  },
+                  {
+                    "id": "thesis7_b2",
+                    "options": [
+                      "changing communication needs in the digital age",
+                      "aggressive marketing by technology companies",
+                      "peer pressure among young people"
+                    ],
+                    "correctAnswer": "changing communication needs in the digital age"
+                  },
+                  {
+                    "id": "thesis7_b3",
+                    "options": [
+                      "developmental impacts and online safety",
+                      "device durability and warranty coverage",
+                      "technical support availability"
+                    ],
+                    "correctAnswer": "developmental impacts and online safety"
+                  }
+                ],
+                "correctSentence": "The trend toward children owning personal devices reflects changing communication needs in the digital age, though concerns about developmental impacts and online safety persist.",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "thesis8",
+                "type": "template",
+                "template": "Providing children with smartphones involves balancing _____ against _____.",
+                "blanks": [
+                  {
+                    "id": "thesis8_b1",
+                    "options": [
+                      "the benefits of instant communication and digital literacy",
+                      "initial purchase price and monthly fees",
+                      "different brands and model options"
+                    ],
+                    "correctAnswer": "the benefits of instant communication and digital literacy"
+                  },
+                  {
+                    "id": "thesis8_b2",
+                    "options": [
+                      "potential harm to physical and mental wellbeing",
+                      "warranty terms and return policies",
+                      "device compatibility issues"
+                    ],
+                    "correctAnswer": "potential harm to physical and mental wellbeing"
+                  }
+                ],
+                "correctSentence": "Providing children with smartphones involves balancing the benefits of instant communication and digital literacy against potential harm to physical and mental wellbeing.",
+                "usableIn": "introduction"
+              }
+            ]
           },
           {
-            "id": "clue2",
-            "clues": {
-              "subject": "Educational apps",
-              "verb": "enhance",
-              "keywords": [
-                "learning",
-                "interactive"
-              ]
-            },
-            "hint": "Mention how apps support education.",
-            "modelAnswer": "Educational apps can enhance children's learning through interactive and engaging content.",
-            "minWords": 10
+            "category": "topic-sentences",
+            "title": "Topic Sentences",
+            "exercises": [
+              {
+                "id": "topic1",
+                "type": "template",
+                "template": "One significant benefit is the _____ smartphones provide.",
+                "blanks": [
+                  {
+                    "id": "topic1_b1",
+                    "options": [
+                      "enhanced safety and constant parental connectivity",
+                      "attractive design and modern appearance",
+                      "long battery life and fast charging"
+                    ],
+                    "correctAnswer": "enhanced safety and constant parental connectivity"
+                  }
+                ],
+                "correctSentence": "One significant benefit is the enhanced safety and constant parental connectivity smartphones provide.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic2",
+                "type": "template",
+                "template": "However, a major concern is _____.",
+                "blanks": [
+                  {
+                    "id": "topic2_b1",
+                    "options": [
+                      "children's exposure to inappropriate content and cyberbullying",
+                      "the high cost of premium smartphone models",
+                      "the limited storage capacity of devices"
+                    ],
+                    "correctAnswer": "children's exposure to inappropriate content and cyberbullying"
+                  }
+                ],
+                "correctSentence": "However, a major concern is children's exposure to inappropriate content and cyberbullying.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic3",
+                "type": "template",
+                "template": "A key advantage is that smartphones _____.",
+                "blanks": [
+                  {
+                    "id": "topic3_b1",
+                    "options": [
+                      "facilitate learning through educational apps and resources",
+                      "come in various colors and sizes",
+                      "support wireless charging technology"
+                    ],
+                    "correctAnswer": "facilitate learning through educational apps and resources"
+                  }
+                ],
+                "correctSentence": "A key advantage is that smartphones facilitate learning through educational apps and resources.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic4",
+                "type": "template",
+                "template": "On the negative side, excessive smartphone use _____.",
+                "blanks": [
+                  {
+                    "id": "topic4_b1",
+                    "options": [
+                      "can be detrimental to children's physical health and sleep patterns",
+                      "requires frequent software updates",
+                      "drains battery power quickly"
+                    ],
+                    "correctAnswer": "can be detrimental to children's physical health and sleep patterns"
+                  }
+                ],
+                "correctSentence": "On the negative side, excessive smartphone use can be detrimental to children's physical health and sleep patterns.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic5",
+                "type": "template",
+                "template": "Another important benefit involves _____.",
+                "blanks": [
+                  {
+                    "id": "topic5_b1",
+                    "options": [
+                      "developing essential digital literacy skills for the modern world",
+                      "accessing entertainment and gaming applications",
+                      "taking high-quality photos and videos"
+                    ],
+                    "correctAnswer": "developing essential digital literacy skills for the modern world"
+                  }
+                ],
+                "correctSentence": "Another important benefit involves developing essential digital literacy skills for the modern world.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "topic6",
+                "type": "template",
+                "template": "A significant drawback is that _____.",
+                "blanks": [
+                  {
+                    "id": "topic6_b1",
+                    "options": [
+                      "children may develop unhealthy dependency on digital devices",
+                      "smartphones require protective cases and screen protectors",
+                      "device prices increase with each new model"
+                    ],
+                    "correctAnswer": "children may develop unhealthy dependency on digital devices"
+                  }
+                ],
+                "correctSentence": "A significant drawback is that children may develop unhealthy dependency on digital devices.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue3",
-            "clues": {
-              "subject": "Excessive screen time",
-              "verb": "damage",
-              "keywords": [
-                "physical health",
-                "eyesight"
-              ]
-            },
-            "hint": "Focus on health concerns from overuse.",
-            "modelAnswer": "Excessive screen time can damage children's physical health, particularly their eyesight and posture.",
-            "minWords": 11
+            "category": "supporting-arguments",
+            "title": "Supporting Arguments (WHY/Reasoning)",
+            "exercises": [
+              {
+                "id": "support1",
+                "type": "template",
+                "template": "This enables children to _____ in emergency situations.",
+                "blanks": [
+                  {
+                    "id": "support1_b1",
+                    "options": [
+                      "contact parents immediately for assistance and safety",
+                      "play games and watch videos",
+                      "take photos of their surroundings"
+                    ],
+                    "correctAnswer": "contact parents immediately for assistance and safety"
+                  }
+                ],
+                "correctSentence": "This enables children to contact parents immediately for assistance and safety in emergency situations.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support2",
+                "type": "template",
+                "template": "Educational apps _____ that complement traditional classroom instruction.",
+                "blanks": [
+                  {
+                    "id": "support2_b1",
+                    "options": [
+                      "provide interactive learning opportunities",
+                      "consume significant battery power",
+                      "require regular updates and maintenance"
+                    ],
+                    "correctAnswer": "provide interactive learning opportunities"
+                  }
+                ],
+                "correctSentence": "Educational apps provide interactive learning opportunities that complement traditional classroom instruction.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support3",
+                "type": "template",
+                "template": "Without proper supervision, children _____.",
+                "blanks": [
+                  {
+                    "id": "support3_b1",
+                    "options": [
+                      "may encounter age-inappropriate material and online predators",
+                      "might drop and damage their devices",
+                      "could use too much mobile data"
+                    ],
+                    "correctAnswer": "may encounter age-inappropriate material and online predators"
+                  }
+                ],
+                "correctSentence": "Without proper supervision, children may encounter age-inappropriate material and online predators.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support4",
+                "type": "template",
+                "template": "Prolonged screen time _____ during crucial developmental years.",
+                "blanks": [
+                  {
+                    "id": "support4_b1",
+                    "options": [
+                      "can negatively impact eyesight, posture, and sleep quality",
+                      "uses electricity and increases energy costs",
+                      "reduces available device storage space"
+                    ],
+                    "correctAnswer": "can negatively impact eyesight, posture, and sleep quality"
+                  }
+                ],
+                "correctSentence": "Prolonged screen time can negatively impact eyesight, posture, and sleep quality during crucial developmental years.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support5",
+                "type": "template",
+                "template": "Constant connectivity allows parents to _____.",
+                "blanks": [
+                  {
+                    "id": "support5_b1",
+                    "options": [
+                      "monitor their children's location and respond to their needs",
+                      "control the device settings remotely",
+                      "track data usage and billing charges"
+                    ],
+                    "correctAnswer": "monitor their children's location and respond to their needs"
+                  }
+                ],
+                "correctSentence": "Constant connectivity allows parents to monitor their children's location and respond to their needs.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support6",
+                "type": "template",
+                "template": "Social media platforms expose young users to _____.",
+                "blanks": [
+                  {
+                    "id": "support6_b1",
+                    "options": [
+                      "unrealistic beauty standards and peer pressure",
+                      "advertising and promotional content",
+                      "different user interface designs"
+                    ],
+                    "correctAnswer": "unrealistic beauty standards and peer pressure"
+                  }
+                ],
+                "correctSentence": "Social media platforms expose young users to unrealistic beauty standards and peer pressure.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support7",
+                "type": "template",
+                "template": "Early smartphone access helps children _____.",
+                "blanks": [
+                  {
+                    "id": "support7_b1",
+                    "options": [
+                      "develop digital literacy skills essential for modern life",
+                      "understand warranty and insurance policies",
+                      "compare different device specifications"
+                    ],
+                    "correctAnswer": "develop digital literacy skills essential for modern life"
+                  }
+                ],
+                "correctSentence": "Early smartphone access helps children develop digital literacy skills essential for modern life.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "support8",
+                "type": "template",
+                "template": "Excessive device use may _____ among children.",
+                "blanks": [
+                  {
+                    "id": "support8_b1",
+                    "options": [
+                      "reduce face-to-face interaction and social development",
+                      "increase monthly subscription costs",
+                      "accelerate battery degradation"
+                    ],
+                    "correctAnswer": "reduce face-to-face interaction and social development"
+                  }
+                ],
+                "correctSentence": "Excessive device use may reduce face-to-face interaction and social development among children.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue4",
-            "clues": {
-              "subject": "Children",
-              "verb": "expose",
-              "keywords": [
-                "inappropriate content",
-                "online risks"
-              ]
-            },
-            "hint": "Discuss dangers of unrestricted access.",
-            "modelAnswer": "Children with smartphones may be exposed to inappropriate content and various online risks.",
-            "minWords": 12
+            "category": "examples-evidence",
+            "title": "Examples and Evidence",
+            "exercises": [
+              {
+                "id": "example1",
+                "type": "template",
+                "template": "For instance, a child who _____ can instantly _____.",
+                "blanks": [
+                  {
+                    "id": "example1_b1",
+                    "options": [
+                      "misses the school bus",
+                      "forgets their phone charger",
+                      "changes their wallpaper"
+                    ],
+                    "correctAnswer": "misses the school bus"
+                  },
+                  {
+                    "id": "example1_b2",
+                    "options": [
+                      "notify parents and arrange alternative transportation",
+                      "download a new app from the store",
+                      "adjust screen brightness settings"
+                    ],
+                    "correctAnswer": "notify parents and arrange alternative transportation"
+                  }
+                ],
+                "correctSentence": "For instance, a child who misses the school bus can instantly notify parents and arrange alternative transportation.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example2",
+                "type": "template",
+                "template": "Research shows that teenagers spending excessive time on _____ experience _____.",
+                "blanks": [
+                  {
+                    "id": "example2_b1",
+                    "options": [
+                      "image-focused platforms like Instagram",
+                      "productivity applications",
+                      "weather and news apps"
+                    ],
+                    "correctAnswer": "image-focused platforms like Instagram"
+                  },
+                  {
+                    "id": "example2_b2",
+                    "options": [
+                      "significantly higher rates of anxiety and depression",
+                      "improved photo editing skills",
+                      "faster typing speeds"
+                    ],
+                    "correctAnswer": "significantly higher rates of anxiety and depression"
+                  }
+                ],
+                "correctSentence": "Research shows that teenagers spending excessive time on image-focused platforms like Instagram experience significantly higher rates of anxiety and depression.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example3",
+                "type": "template",
+                "template": "For example, _____ teach _____ through gamification.",
+                "blanks": [
+                  {
+                    "id": "example3_b1",
+                    "options": [
+                      "learning apps like Duolingo and Khan Academy",
+                      "social media messaging applications",
+                      "photo editing and camera software"
+                    ],
+                    "correctAnswer": "learning apps like Duolingo and Khan Academy"
+                  },
+                  {
+                    "id": "example3_b2",
+                    "options": [
+                      "mathematics, languages, and science concepts",
+                      "how to purchase in-app items",
+                      "device maintenance and care"
+                    ],
+                    "correctAnswer": "mathematics, languages, and science concepts"
+                  }
+                ],
+                "correctSentence": "For example, learning apps like Duolingo and Khan Academy teach mathematics, languages, and science concepts through gamification.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example4",
+                "type": "template",
+                "template": "Specifically, children who _____ often suffer from _____.",
+                "blanks": [
+                  {
+                    "id": "example4_b1",
+                    "options": [
+                      "use devices late at night",
+                      "keep their phones on silent mode",
+                      "use protective phone cases"
+                    ],
+                    "correctAnswer": "use devices late at night"
+                  },
+                  {
+                    "id": "example4_b2",
+                    "options": [
+                      "disrupted sleep patterns and poor academic performance",
+                      "reduced storage space availability",
+                      "shorter battery charging cycles"
+                    ],
+                    "correctAnswer": "disrupted sleep patterns and poor academic performance"
+                  }
+                ],
+                "correctSentence": "Specifically, children who use devices late at night often suffer from disrupted sleep patterns and poor academic performance.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example5",
+                "type": "template",
+                "template": "A teenager working part-time can _____ if _____.",
+                "blanks": [
+                  {
+                    "id": "example5_b1",
+                    "options": [
+                      "request immediate assistance from parents",
+                      "download work-related applications",
+                      "check their work schedule online"
+                    ],
+                    "correctAnswer": "request immediate assistance from parents"
+                  },
+                  {
+                    "id": "example5_b2",
+                    "options": [
+                      "they feel unsafe or encounter problems",
+                      "they forget their employee discount",
+                      "they want to share photos with colleagues"
+                    ],
+                    "correctAnswer": "they feel unsafe or encounter problems"
+                  }
+                ],
+                "correctSentence": "A teenager working part-time can request immediate assistance from parents if they feel unsafe or encounter problems.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example6",
+                "type": "template",
+                "template": "Particularly, _____ has been linked to _____.",
+                "blanks": [
+                  {
+                    "id": "example6_b1",
+                    "options": [
+                      "prolonged smartphone use before bedtime",
+                      "using phone cases and accessories",
+                      "changing phone backgrounds regularly"
+                    ],
+                    "correctAnswer": "prolonged smartphone use before bedtime"
+                  },
+                  {
+                    "id": "example6_b2",
+                    "options": [
+                      "melatonin suppression and insomnia in adolescents",
+                      "improved device longevity",
+                      "better battery optimization"
+                    ],
+                    "correctAnswer": "melatonin suppression and insomnia in adolescents"
+                  }
+                ],
+                "correctSentence": "Particularly, prolonged smartphone use before bedtime has been linked to melatonin suppression and insomnia in adolescents.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example7",
+                "type": "template",
+                "template": "For instance, _____ enable children to _____.",
+                "blanks": [
+                  {
+                    "id": "example7_b1",
+                    "options": [
+                      "parental control features",
+                      "camera filters and effects",
+                      "custom ringtone options"
+                    ],
+                    "correctAnswer": "parental control features"
+                  },
+                  {
+                    "id": "example7_b2",
+                    "options": [
+                      "access age-appropriate content while blocking harmful material",
+                      "personalize their device appearance",
+                      "organize apps into folders"
+                    ],
+                    "correctAnswer": "access age-appropriate content while blocking harmful material"
+                  }
+                ],
+                "correctSentence": "For instance, parental control features enable children to access age-appropriate content while blocking harmful material.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "example8",
+                "type": "template",
+                "template": "In particular, studies show _____ among children who _____.",
+                "blanks": [
+                  {
+                    "id": "example8_b1",
+                    "options": [
+                      "increased rates of eye strain and myopia",
+                      "improved hand-eye coordination",
+                      "better multitasking abilities"
+                    ],
+                    "correctAnswer": "increased rates of eye strain and myopia"
+                  },
+                  {
+                    "id": "example8_b2",
+                    "options": [
+                      "spend more than three hours daily on screens",
+                      "regularly update their device software",
+                      "use screen protectors and cases"
+                    ],
+                    "correctAnswer": "spend more than three hours daily on screens"
+                  }
+                ],
+                "correctSentence": "In particular, studies show increased rates of eye strain and myopia among children who spend more than three hours daily on screens.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "clue5",
-            "clues": {
-              "subject": "Early access",
-              "verb": "develop",
-              "keywords": [
-                "digital literacy",
-                "technology skills"
-              ]
-            },
-            "hint": "Mention skill development benefits.",
-            "modelAnswer": "Early access to smartphones helps children develop essential digital literacy and technology skills.",
-            "minWords": 12
-          }
-        ],
-        "sentenceUnscramble": [
-          {
-            "id": "scramble1",
-            "words": [
-              "smartphones",
-              "enable",
-              "instant",
-              "communication",
-              "with",
-              "family",
-              "members"
-            ],
-            "correctAnswer": "Smartphones enable instant communication with family members.",
-            "hint": "Start with 'Smartphones'"
+            "category": "counter-arguments",
+            "title": "Counter-Arguments",
+            "exercises": [
+              {
+                "id": "counter1",
+                "type": "template",
+                "template": "While _____, critics argue that _____.",
+                "blanks": [
+                  {
+                    "id": "counter1_b1",
+                    "options": [
+                      "smartphones offer educational benefits",
+                      "devices have improved cameras",
+                      "phones come in various colors"
+                    ],
+                    "correctAnswer": "smartphones offer educational benefits"
+                  },
+                  {
+                    "id": "counter1_b2",
+                    "options": [
+                      "the same learning can occur through traditional books and computers",
+                      "battery technology has not advanced enough",
+                      "storage space remains limited"
+                    ],
+                    "correctAnswer": "the same learning can occur through traditional books and computers"
+                  }
+                ],
+                "correctSentence": "While smartphones offer educational benefits, critics argue that the same learning can occur through traditional books and computers.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter2",
+                "type": "template",
+                "template": "Although _____, it must be acknowledged that _____.",
+                "blanks": [
+                  {
+                    "id": "counter2_b1",
+                    "options": [
+                      "smartphones provide safety through parental connectivity",
+                      "smartphones have sleek designs",
+                      "smartphones support wireless charging"
+                    ],
+                    "correctAnswer": "smartphones provide safety through parental connectivity"
+                  },
+                  {
+                    "id": "counter2_b2",
+                    "options": [
+                      "children managed emergencies effectively before mobile technology existed",
+                      "older phone models still function adequately",
+                      "screen size preferences vary by user"
+                    ],
+                    "correctAnswer": "children managed emergencies effectively before mobile technology existed"
+                  }
+                ],
+                "correctSentence": "Although smartphones provide safety through parental connectivity, it must be acknowledged that children managed emergencies effectively before mobile technology existed.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter3",
+                "type": "template",
+                "template": "Despite concerns about _____, proponents maintain that _____.",
+                "blanks": [
+                  {
+                    "id": "counter3_b1",
+                    "options": [
+                      "screen addiction and health impacts",
+                      "device pricing and affordability",
+                      "technical specifications and features"
+                    ],
+                    "correctAnswer": "screen addiction and health impacts"
+                  },
+                  {
+                    "id": "counter3_b2",
+                    "options": [
+                      "proper parental controls and time limits mitigate these risks",
+                      "extended warranties cover most damages",
+                      "cloud storage reduces memory concerns"
+                    ],
+                    "correctAnswer": "proper parental controls and time limits mitigate these risks"
+                  }
+                ],
+                "correctSentence": "Despite concerns about screen addiction and health impacts, proponents maintain that proper parental controls and time limits mitigate these risks.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter4",
+                "type": "template",
+                "template": "While some worry about _____, others point out that _____.",
+                "blanks": [
+                  {
+                    "id": "counter4_b1",
+                    "options": [
+                      "reduced face-to-face social interaction",
+                      "expensive data plans and costs",
+                      "complex device settings and menus"
+                    ],
+                    "correctAnswer": "reduced face-to-face social interaction"
+                  },
+                  {
+                    "id": "counter4_b2",
+                    "options": [
+                      "smartphones actually enable children to maintain friendships across distances",
+                      "many budget-friendly options exist",
+                      "user interfaces have become more intuitive"
+                    ],
+                    "correctAnswer": "smartphones actually enable children to maintain friendships across distances"
+                  }
+                ],
+                "correctSentence": "While some worry about reduced face-to-face social interaction, others point out that smartphones actually enable children to maintain friendships across distances.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter5",
+                "type": "template",
+                "template": "Nevertheless, even with these risks, _____ when _____.",
+                "blanks": [
+                  {
+                    "id": "counter5_b1",
+                    "options": [
+                      "smartphones can be beneficial tools",
+                      "devices offer various features",
+                      "phones support multiple apps"
+                    ],
+                    "correctAnswer": "smartphones can be beneficial tools"
+                  },
+                  {
+                    "id": "counter5_b2",
+                    "options": [
+                      "parents implement appropriate supervision and usage guidelines",
+                      "users purchase protective accessories",
+                      "manufacturers release regular updates"
+                    ],
+                    "correctAnswer": "parents implement appropriate supervision and usage guidelines"
+                  }
+                ],
+                "correctSentence": "Nevertheless, even with these risks, smartphones can be beneficial tools when parents implement appropriate supervision and usage guidelines.",
+                "usableIn": "body-paragraph"
+              },
+              {
+                "id": "counter6",
+                "type": "template",
+                "template": "Though _____ is valid, _____.",
+                "blanks": [
+                  {
+                    "id": "counter6_b1",
+                    "options": [
+                      "the concern about online dangers",
+                      "the preference for certain brands",
+                      "the debate about storage capacity"
+                    ],
+                    "correctAnswer": "the concern about online dangers"
+                  },
+                  {
+                    "id": "counter6_b2",
+                    "options": [
+                      "education about digital citizenship can help children navigate safely",
+                      "all major manufacturers offer similar quality",
+                      "cloud services solve most storage issues"
+                    ],
+                    "correctAnswer": "education about digital citizenship can help children navigate safely"
+                  }
+                ],
+                "correctSentence": "Though the concern about online dangers is valid, education about digital citizenship can help children navigate safely.",
+                "usableIn": "body-paragraph"
+              }
+            ]
           },
           {
-            "id": "scramble2",
-            "words": [
-              "educational",
-              "apps",
-              "provide",
-              "interactive",
-              "learning",
-              "opportunities",
-              "for",
-              "children"
-            ],
-            "correctAnswer": "Educational apps provide interactive learning opportunities for children.",
-            "hint": "Subject is 'Educational apps'"
-          },
-          {
-            "id": "scramble3",
-            "words": [
-              "excessive",
-              "use",
-              "can",
-              "disrupt",
-              "sleep",
-              "patterns",
-              "and",
-              "routines"
-            ],
-            "correctAnswer": "Excessive use can disrupt sleep patterns and routines.",
-            "hint": "'can disrupt' is the verb phrase"
-          },
-          {
-            "id": "scramble4",
-            "words": [
-              "children",
-              "may",
-              "encounter",
-              "cyberbullying",
-              "or",
-              "inappropriate",
-              "content",
-              "online"
-            ],
-            "correctAnswer": "Children may encounter cyberbullying or inappropriate content online.",
-            "hint": "Start with 'Children'"
-          },
-          {
-            "id": "scramble5",
-            "words": [
-              "parental",
-              "supervision",
-              "is",
-              "essential",
-              "for",
-              "safe",
-              "smartphone",
-              "usage"
-            ],
-            "correctAnswer": "Parental supervision is essential for safe smartphone usage.",
-            "hint": "Subject is 'Parental supervision'"
-          }
-        ],
-        "fillInTheBlanks": [
-          {
-            "id": "blank1",
-            "sentence": "Smartphones _____ children with instant access to parents.",
-            "options": [
-              "provide",
-              "provides",
-              "providing"
-            ],
-            "correctAnswer": "provide",
-            "explanation": "Plural subject 'Smartphones' takes base form 'provide'."
-          },
-          {
-            "id": "blank2",
-            "sentence": "_____, excessive screen time can harm physical health.",
-            "options": [
-              "However",
-              "Moreover",
-              "Therefore"
-            ],
-            "correctAnswer": "However",
-            "explanation": "Use 'However' to introduce disadvantages after advantages."
-          },
-          {
-            "id": "blank3",
-            "sentence": "Children can _____ to inappropriate content online.",
-            "options": [
-              "be exposed",
-              "expose",
-              "exposing"
-            ],
-            "correctAnswer": "be exposed",
-            "explanation": "Use passive voice 'be exposed' for receiving action."
-          },
-          {
-            "id": "blank4",
-            "sentence": "_____ instance, learning apps teach mathematics through games.",
-            "options": [
-              "For",
-              "To",
-              "In"
-            ],
-            "correctAnswer": "For",
-            "explanation": "'For instance' is correct for giving examples."
-          },
-          {
-            "id": "blank5",
-            "sentence": "Parental supervision is _____ for safe smartphone usage.",
-            "options": [
-              "essential",
-              "essence",
-              "essentially"
-            ],
-            "correctAnswer": "essential",
-            "explanation": "Use adjective 'essential' after 'is'."
+            "category": "conclusions",
+            "title": "Conclusion Statements",
+            "exercises": [
+              {
+                "id": "conclusion1",
+                "type": "template",
+                "template": "In conclusion, while smartphones provide _____, they also pose _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion1_b1",
+                    "options": [
+                      "valuable communication and educational opportunities",
+                      "various entertainment features",
+                      "multiple color and size options"
+                    ],
+                    "correctAnswer": "valuable communication and educational opportunities"
+                  },
+                  {
+                    "id": "conclusion1_b2",
+                    "options": [
+                      "real risks to children's physical and mental wellbeing",
+                      "challenges with battery longevity",
+                      "difficulties with software compatibility"
+                    ],
+                    "correctAnswer": "real risks to children's physical and mental wellbeing"
+                  }
+                ],
+                "correctSentence": "In conclusion, while smartphones provide valuable communication and educational opportunities, they also pose real risks to children's physical and mental wellbeing.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion2",
+                "type": "template",
+                "template": "Overall, success depends on _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion2_b1",
+                    "options": [
+                      "appropriate parental supervision and balanced screen time management",
+                      "choosing the right mobile carrier plan",
+                      "purchasing adequate insurance coverage"
+                    ],
+                    "correctAnswer": "appropriate parental supervision and balanced screen time management"
+                  }
+                ],
+                "correctSentence": "Overall, success depends on appropriate parental supervision and balanced screen time management.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion3",
+                "type": "template",
+                "template": "To summarize, _____ requires _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion3_b1",
+                    "options": [
+                      "children's smartphone ownership",
+                      "device color selection",
+                      "storage capacity planning"
+                    ],
+                    "correctAnswer": "children's smartphone ownership"
+                  },
+                  {
+                    "id": "conclusion3_b2",
+                    "options": [
+                      "careful consideration of age-appropriateness and adequate safeguards",
+                      "reviewing warranty terms and conditions",
+                      "comparing technical specifications across models"
+                    ],
+                    "correctAnswer": "careful consideration of age-appropriateness and adequate safeguards"
+                  }
+                ],
+                "correctSentence": "To summarize, children's smartphone ownership requires careful consideration of age-appropriateness and adequate safeguards.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion4",
+                "type": "template",
+                "template": "On balance, the key lies in _____.",
+                "blanks": [
+                  {
+                    "id": "conclusion4_b1",
+                    "options": [
+                      "balancing connectivity benefits with health and safety protections",
+                      "selecting devices with optimal battery performance",
+                      "choosing phones with adequate storage space"
+                    ],
+                    "correctAnswer": "balancing connectivity benefits with health and safety protections"
+                  }
+                ],
+                "correctSentence": "On balance, the key lies in balancing connectivity benefits with health and safety protections.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion5",
+                "type": "template",
+                "template": "Ultimately, _____ must ensure _____ to maximize benefits while minimizing harm.",
+                "blanks": [
+                  {
+                    "id": "conclusion5_b1",
+                    "options": [
+                      "parents and educators",
+                      "device manufacturers",
+                      "mobile service providers"
+                    ],
+                    "correctAnswer": "parents and educators"
+                  },
+                  {
+                    "id": "conclusion5_b2",
+                    "options": [
+                      "age-suitable content restrictions and usage monitoring",
+                      "competitive pricing and payment plans",
+                      "regular software updates and patches"
+                    ],
+                    "correctAnswer": "age-suitable content restrictions and usage monitoring"
+                  }
+                ],
+                "correctSentence": "Ultimately, parents and educators must ensure age-suitable content restrictions and usage monitoring to maximize benefits while minimizing harm.",
+                "usableIn": "conclusion"
+              },
+              {
+                "id": "conclusion6",
+                "type": "template",
+                "template": "In summary, while _____ cannot be ignored, _____ remain paramount.",
+                "blanks": [
+                  {
+                    "id": "conclusion6_b1",
+                    "options": [
+                      "the advantages of connectivity and digital literacy",
+                      "the aesthetic design features",
+                      "the technical specifications"
+                    ],
+                    "correctAnswer": "the advantages of connectivity and digital literacy"
+                  },
+                  {
+                    "id": "conclusion6_b2",
+                    "options": [
+                      "children's safety and healthy development",
+                      "device durability and warranty coverage",
+                      "battery life and charging speed"
+                    ],
+                    "correctAnswer": "children's safety and healthy development"
+                  }
+                ],
+                "correctSentence": "In summary, while the advantages of connectivity and digital literacy cannot be ignored, children's safety and healthy development remain paramount.",
+                "usableIn": "conclusion"
+              }
+            ]
           }
         ]
       }
