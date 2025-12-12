@@ -1095,7 +1095,7 @@
                     "correctAnswer": "advocate for girls' education worldwide"
                   }
                 ],
-                "correctSentence": "For instance, Malala Yousafzai has used their fame to advocate for girls' education worldwide.",
+                "correctSentence": "For instance, Malala Yousafzai has used her fame to advocate for girls' education worldwide.",
                 "usableIn": "body-paragraph-1"
               },
               {
@@ -1776,6 +1776,121 @@
                   }
                 ],
                 "correctSentence": "On balance, the trend of celebrities as youth role models is more beneficial than harmful due to their ability to inspire positive social change and ambitious goals.",
+                "usableIn": "conclusion"
+              }
+            ]
+          },
+          {
+            "function": "sentence-unscramble",
+            "title": "Sentence Unscramble",
+            "description": "Arrange words to form correct sentences about celebrity influence",
+            "exercises": [
+              {
+                "id": "scramble1",
+                "type": "unscramble",
+                "words": [
+                  "celebrities",
+                  "increasingly",
+                  "influence",
+                  "young",
+                  "people's",
+                  "values",
+                  "and",
+                  "behavior"
+                ],
+                "correctSentence": "Celebrities increasingly influence young people's values and behavior.",
+                "hint": "Start with 'Celebrities'",
+                "usableIn": "introduction"
+              },
+              {
+                "id": "scramble2",
+                "type": "unscramble",
+                "words": [
+                  "famous",
+                  "individuals",
+                  "can",
+                  "inspire",
+                  "youth",
+                  "to",
+                  "pursue",
+                  "their",
+                  "goals"
+                ],
+                "correctSentence": "Famous individuals can inspire youth to pursue their goals.",
+                "hint": "Subject is 'Famous individuals'",
+                "usableIn": "body-paragraph-1"
+              },
+              {
+                "id": "scramble3",
+                "type": "unscramble",
+                "words": [
+                  "celebrity",
+                  "culture",
+                  "often",
+                  "promotes",
+                  "superficial",
+                  "values",
+                  "over",
+                  "substance"
+                ],
+                "correctSentence": "Celebrity culture often promotes superficial values over substance.",
+                "hint": "'promotes' is the main verb",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "scramble4",
+                "type": "unscramble",
+                "words": [
+                  "impressionable",
+                  "teenagers",
+                  "emulate",
+                  "both",
+                  "positive",
+                  "and",
+                  "negative",
+                  "celebrity",
+                  "behaviors"
+                ],
+                "correctSentence": "Impressionable teenagers emulate both positive and negative celebrity behaviors.",
+                "hint": "Start with 'Impressionable teenagers'",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "scramble5",
+                "type": "unscramble",
+                "words": [
+                  "social",
+                  "media",
+                  "amplifies",
+                  "celebrity",
+                  "influence",
+                  "on",
+                  "young",
+                  "audiences",
+                  "worldwide"
+                ],
+                "correctSentence": "Social media amplifies celebrity influence on young audiences worldwide.",
+                "hint": "'amplifies' is the key verb",
+                "usableIn": "body-paragraph-2"
+              },
+              {
+                "id": "scramble6",
+                "type": "unscramble",
+                "words": [
+                  "parents",
+                  "and",
+                  "educators",
+                  "should",
+                  "help",
+                  "young",
+                  "people",
+                  "critically",
+                  "evaluate",
+                  "celebrity",
+                  "culture"
+                ],
+                "correctSentence": "Parents and educators should help young people critically evaluate celebrity culture.",
+                "hint": "Start with 'Parents and educators'",
                 "usableIn": "conclusion"
               }
             ]
