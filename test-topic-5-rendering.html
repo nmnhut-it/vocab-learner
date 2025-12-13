@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 5 Rendering Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-result {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .pass {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .fail {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .exercise-preview {
+            margin: 10px 0;
+            padding: 10px;
+            background: #e9ecef;
+            border-left: 3px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Topic 5 (Environmental Responsibility) - Rendering Test</h1>
+    <p>Testing if the JSON file loads correctly and Step 3 exercises can be rendered.</p>
+
+    <div id="testResults"></div>
+
+    <h2>📊 Detailed Information</h2>
+    <div id="detailedInfo"></div>
+
+    <script>
+        const results = document.getElementById('testResults');
+        const detailedInfo = document.getElementById('detailedInfo');
+
+        function addResult(message, type = 'pass') {
+            const div = document.createElement('div');
+            div.className = `test-result ${type}`;
+            div.innerHTML = message;
+            results.appendChild(div);
+        }
+
+        function addDetail(title, content) {
+            const div = document.createElement('div');
+            div.innerHTML = `<h3>${title}</h3><pre>${content}</pre>`;
+            detailedInfo.appendChild(div);
+        }
+
+        // Test: Load the JSON file
+        async function runTests() {
+            try {
+                addResult('🔄 Loading data/writing-v2-environment.json...', 'warning');
+
+                const response = await fetch('data/writing-v2-environment.json');
+                if (!response.ok) {
+                    addResult(`❌ Failed to load JSON: ${response.status} ${response.statusText}`, 'fail');
+                    return;
+                }
+
+                addResult('✅ JSON file loaded successfully', 'pass');
+
+                const jsonData = await response.json();
+
+                // Test: Check basic structure
+                if (!jsonData.id) {
+                    addResult('❌ Missing id field', 'fail');
+                    return;
+                }
+                addResult(`✅ Topic ID: ${jsonData.id}`, 'pass');
+                addResult(`✅ Topic Title: ${jsonData.title}`, 'pass');
+
+                // Test: Check steps
+                if (!jsonData.steps || !Array.isArray(jsonData.steps)) {
+                    addResult('❌ Steps array is missing or invalid', 'fail');
+                    return;
+                }
+                addResult(`✅ Found ${jsonData.steps.length} steps`, 'pass');
+
+                // Test: Find Step 3
+                const step3 = jsonData.steps.find(s => s.stepNumber === 3);
+                if (!step3) {
+                    addResult('❌ Step 3 not found!', 'fail');
+                    return;
+                }
+                addResult(`✅ Step 3 found: "${step3.title}"`, 'pass');
+                addResult(`✅ Step 3 type: ${step3.type}`, 'pass');
+
+                // Test: Check Step 3 content
+                if (!step3.content) {
+                    addResult('❌ Step 3 content is missing', 'fail');
+                    return;
+                }
+                addResult('✅ Step 3 content exists', 'pass');
+
+                // Test: Check exerciseSections
+                if (!step3.content.exerciseSections) {
+                    addResult('❌ exerciseSections is missing', 'fail');
+                    return;
+                }
+
+                if (!Array.isArray(step3.content.exerciseSections)) {
+                    addResult('❌ exerciseSections is not an array', 'fail');
+                    return;
+                }
+
+                if (step3.content.exerciseSections.length === 0) {
+                    addResult('❌ exerciseSections array is EMPTY!', 'fail');
+                    return;
+                }
+
+                addResult(`✅ Found ${step3.content.exerciseSections.length} exercise sections`, 'pass');
+
+                // Count total exercises
+                let totalExercises = 0;
+                step3.content.exerciseSections.forEach((section, idx) => {
+                    const exerciseCount = section.exercises ? section.exercises.length : 0;
+                    totalExercises += exerciseCount;
+                    addResult(`✅ Section ${idx + 1}: "${section.title}" - ${exerciseCount} exercises`, 'pass');
+
+                    // Show first exercise as preview
+                    if (section.exercises && section.exercises.length > 0) {
+                        const firstEx = section.exercises[0];
+                        const preview = document.createElement('div');
+                        preview.className = 'exercise-preview';
+                        preview.innerHTML = `
+                            <strong>Sample Exercise:</strong><br>
+                            ID: ${firstEx.id}<br>
+                            Type: ${firstEx.type}<br>
+                            Template: ${firstEx.template}<br>
+                            Blanks: ${firstEx.blanks ? firstEx.blanks.length : 0}
+                        `;
+                        detailedInfo.appendChild(preview);
+                    }
+                });
+
+                addResult(`✅ Total exercises: ${totalExercises}`, 'pass');
+
+                // Add detailed JSON structure
+                addDetail('Complete Step 3 Structure', JSON.stringify({
+                    stepNumber: step3.stepNumber,
+                    title: step3.title,
+                    type: step3.type,
+                    exerciseSectionsCount: step3.content.exerciseSections.length,
+                    sections: step3.content.exerciseSections.map((s, i) => ({
+                        index: i,
+                        category: s.category,
+                        title: s.title,
+                        exerciseCount: s.exercises ? s.exercises.length : 0
+                    }))
+                }, null, 2));
+
+                // Final verdict
+                addResult(`
+                    <h2>🎉 ALL TESTS PASSED!</h2>
+                    <p><strong>The JSON file is correctly structured and should render properly.</strong></p>
+                    <p>If it's not showing in the browser, the issue might be:</p>
+                    <ul>
+                        <li>Browser cache - try hard refresh (Ctrl+Shift+R or Cmd+Shift+R)</li>
+                        <li>JavaScript error in the browser console</li>
+                        <li>Topic is locked (check topic.unlocked property)</li>
+                    </ul>
+                `, 'pass');
+
+            } catch (error) {
+                addResult(`❌ Test failed with error: ${error.message}`, 'fail');
+                console.error('Full error:', error);
+            }
+        }
+
+        // Run tests on page load
+        runTests();
+    </script>
+</body>
+</html>
