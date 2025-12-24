@@ -118,19 +118,37 @@ class AudioConverter {
      */
     async downloadAudio(audioBlob, fileName = 'recording', inputFormat = 'webm') {
         try {
-            const { blob, format } = await this.convertToMp3(audioBlob, inputFormat);
+            // Skip FFmpeg on mobile - too resource intensive
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-            // Create download link
+            let blob = audioBlob;
+            let format = inputFormat;
+
+            if (!isMobile) {
+                const result = await this.convertToMp3(audioBlob, inputFormat);
+                blob = result.blob;
+                format = result.format;
+            } else {
+                console.log('AudioConverter: Skipping MP3 conversion on mobile');
+            }
+
+            // Create download - use different approach for iOS
             const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `${fileName}.${format}`;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+
+            if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                // iOS: Open in new tab (download not well supported)
+                window.open(url, '_blank');
+            } else {
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `${fileName}.${format}`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
 
             // Cleanup
-            setTimeout(() => URL.revokeObjectURL(url), 1000);
+            setTimeout(() => URL.revokeObjectURL(url), 5000);
 
             return { blob, format };
         } catch (error) {

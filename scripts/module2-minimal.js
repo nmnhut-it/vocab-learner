@@ -1340,10 +1340,11 @@ async function downloadRecording() {
 
     const downloadBtn = document.getElementById('downloadAudioBtn');
     const originalText = downloadBtn.textContent;
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     try {
         downloadBtn.disabled = true;
-        downloadBtn.textContent = '⏳ Converting...';
+        downloadBtn.textContent = isMobile ? '⏳ Preparing...' : '⏳ Converting...';
 
         const question = allQuestions[currentIndex];
         const questionText = typeof question === 'string' ? question : question.question;
