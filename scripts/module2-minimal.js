@@ -318,10 +318,10 @@ function renderCurrentQuestion() {
     // Render form
     renderForm();
 
-    // Handle sample answer
+    // Handle sample answers (including alternatives)
     if (typeof question === 'object' && question.sampleAnswer) {
         document.getElementById('sampleSection').style.display = 'block';
-        renderSampleAnswer(question.sampleAnswer);
+        renderSampleAnswers(question);
     } else {
         document.getElementById('sampleSection').style.display = 'none';
     }
@@ -644,51 +644,153 @@ function generateTemplate4(v) {
     return answer;
 }
 
-// Render sample answer
-function renderSampleAnswer(sampleText) {
-    document.getElementById('sampleAnswer').textContent = sampleText;
-    currentSampleText = sampleText;
+// Render all sample answers (main + alternatives)
+function renderSampleAnswers(question) {
+    const container = document.getElementById('sampleCardsContainer');
+    container.innerHTML = '';
 
-    // Show listen button when sample is available
-    const listenBtn = document.getElementById('btnListenSample');
-    if (listenBtn) {
-        listenBtn.style.display = 'inline-block';
-    }
+    // Build array of all samples
+    const samples = [];
 
-    // Parse breakdown
+    // Add main sample (5W1H)
     const config = TECHNIQUE_CONFIG[currentTechnique];
-    const currentQuestion = allQuestions[currentIndex];
+    samples.push({
+        technique: '5W1H',
+        text: question.sampleAnswer,
+        breakdown: question[config.breakdownKey] || {},
+        isMain: true
+    });
 
-    let breakdown = {};
-    if (typeof currentQuestion === 'object' && config.breakdownKey && currentQuestion[config.breakdownKey]) {
-        breakdown = currentQuestion[config.breakdownKey];
+    // Add alternative samples if available
+    if (question.alternativeSamples && Array.isArray(question.alternativeSamples)) {
+        question.alternativeSamples.forEach(alt => {
+            samples.push({
+                technique: alt.technique,
+                text: alt.text,
+                breakdown: alt.breakdown || {},
+                isMain: false
+            });
+        });
     }
 
-    // Render breakdown
-    const breakdownDiv = document.getElementById('sampleBreakdown');
+    // Store for audio playback
+    currentSampleText = question.sampleAnswer;
 
-    if (Object.keys(breakdown).length > 0) {
-        // Visual rendering with color tags for all techniques
-        breakdownDiv.innerHTML = '<strong>Elements used:</strong><br><div style="margin-top: 0.5rem;">';
+    // Render each sample card
+    samples.forEach((sample, index) => {
+        const card = document.createElement('div');
+        card.className = 'sample-card' + (sample.isMain ? ' sample-card-main' : ' sample-card-alt');
+        card.innerHTML = `
+            <div class="sample-card-header">
+                <span class="sample-technique-badge ${sample.isMain ? 'badge-main' : 'badge-alt'}">
+                    ${sample.technique}
+                </span>
+                <div class="sample-audio-controls">
+                    <button class="btn-audio-listen" onclick="playSampleByIndex(${index})" data-sample-index="${index}">
+                        🔊 Listen
+                    </button>
+                    <button class="btn-audio-stop" onclick="stopSampleAudio()" style="display: none;" data-sample-index="${index}">
+                        ⏹️ Stop
+                    </button>
+                </div>
+            </div>
+            <div class="sample-card-breakdown">${renderBreakdownHTML(sample.breakdown, sample.technique)}</div>
+            <div class="sample-card-text">${sample.text}</div>
+        `;
+        container.appendChild(card);
+    });
 
-        // Get field mapping from config
-        const fieldMapping = getFieldMapping(currentTechnique);
+    // Store samples array for audio playback
+    window.currentSamples = samples;
+}
 
+// Render breakdown HTML for a sample
+function renderBreakdownHTML(breakdown, technique) {
+    if (!breakdown || Object.keys(breakdown).length === 0) {
+        return '<em style="color: #999;">Breakdown not available</em>';
+    }
+
+    let html = '<strong>Elements used:</strong><div style="margin-top: 0.5rem;">';
+    const fieldMapping = getFieldMapping(technique.toLowerCase().replace(/\s+/g, '_').replace('vs', '').replace('past__present', 'past_present'));
+
+    // For techniques not in the mapping, show raw breakdown
+    if (fieldMapping.length === 0) {
+        Object.entries(breakdown).forEach(([key, value]) => {
+            if (value) {
+                html += `<div style="margin-bottom: 0.5rem;">
+                    <span class="technique-tag">${key.toUpperCase()}</span>
+                    <span style="margin-left: 0.5rem;">${value}</span>
+                </div>`;
+            }
+        });
+    } else {
         fieldMapping.forEach(elem => {
             const value = breakdown[elem.key];
             if (value) {
-                breakdownDiv.innerHTML += `
-                    <div style="margin-bottom: 0.5rem;">
-                        <span class="technique-tag ${elem.color}">${elem.icon} ${elem.label}</span>
-                        <span style="margin-left: 0.5rem;">${value}</span>
-                    </div>`;
+                html += `<div style="margin-bottom: 0.5rem;">
+                    <span class="technique-tag ${elem.color}">${elem.icon} ${elem.label}</span>
+                    <span style="margin-left: 0.5rem;">${value}</span>
+                </div>`;
             }
         });
+    }
 
-        breakdownDiv.innerHTML += '</div>';
+    html += '</div>';
+    return html;
+}
+
+// Play sample by index
+async function playSampleByIndex(index) {
+    const samples = window.currentSamples;
+    if (!samples || !samples[index]) return;
+
+    const sample = samples[index];
+    currentSampleText = sample.text;
+
+    // For main sample (5W1H), use pre-generated audio
+    if (sample.isMain) {
+        await playSampleAnswer();
     } else {
-        // Fallback for questions without breakdown data
-        breakdownDiv.innerHTML = '<strong>Elements used:</strong><br><em style="color: #999;">Breakdown not available for this question</em>';
+        // For alternative samples, use TTS
+        await playSampleWithTTS(sample.text, index);
+    }
+}
+
+// Play sample using TTS for alternatives
+async function playSampleWithTTS(text, index) {
+    if (!window.ttsService) {
+        alert('TTS service not available');
+        return;
+    }
+
+    const buttons = document.querySelectorAll(`[data-sample-index="${index}"]`);
+    const listenBtn = buttons[0];
+    const stopBtn = buttons[1];
+
+    try {
+        if (listenBtn) listenBtn.style.display = 'none';
+        if (stopBtn) {
+            stopBtn.style.display = 'inline-block';
+            stopBtn.textContent = '⏳ Loading...';
+        }
+
+        isTTSPlaying = true;
+
+        await window.ttsService.speak(text, {
+            onStart: () => {
+                if (stopBtn) stopBtn.textContent = '⏹️ Stop';
+            },
+            onEnd: () => {
+                isTTSPlaying = false;
+                if (stopBtn) stopBtn.style.display = 'none';
+                if (listenBtn) listenBtn.style.display = 'inline-block';
+            }
+        });
+    } catch (error) {
+        console.error('TTS error:', error);
+        isTTSPlaying = false;
+        if (stopBtn) stopBtn.style.display = 'none';
+        if (listenBtn) listenBtn.style.display = 'inline-block';
     }
 }
 
@@ -1227,6 +1329,58 @@ async function sendAudioToTelegram() {
     } finally {
         sendBtn.disabled = false;
         sendBtn.textContent = originalText;
+    }
+}
+
+async function downloadRecording() {
+    if (!currentRecording) {
+        alert('No recording available');
+        return;
+    }
+
+    const downloadBtn = document.getElementById('downloadAudioBtn');
+    const originalText = downloadBtn.textContent;
+
+    try {
+        downloadBtn.disabled = true;
+        downloadBtn.textContent = '⏳ Converting...';
+
+        const question = allQuestions[currentIndex];
+        const questionText = typeof question === 'string' ? question : question.question;
+
+        // Create filename from question (first 30 chars)
+        const safeQuestion = questionText.replace(/[^a-zA-Z0-9\s]/g, '').trim().substring(0, 30).replace(/\s+/g, '_');
+        const fileName = `IELTS_Q${currentIndex + 1}_${safeQuestion}`;
+
+        // Get the input format from mimeType
+        const inputFormat = currentRecording.mimeType.includes('webm') ? 'webm' :
+                           currentRecording.mimeType.includes('ogg') ? 'ogg' : 'webm';
+
+        // Use audio converter for MP3 download
+        if (window.audioConverter) {
+            await window.audioConverter.downloadAudio(currentRecording.blob, fileName, inputFormat);
+        } else {
+            // Fallback: download original format
+            const url = URL.createObjectURL(currentRecording.blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `${fileName}.${inputFormat}`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+
+        downloadBtn.textContent = '✅ Downloaded!';
+        setTimeout(() => {
+            downloadBtn.textContent = originalText;
+        }, 2000);
+    } catch (error) {
+        console.error('Download failed:', error);
+        alert(`Download failed: ${error.message}`);
+        downloadBtn.textContent = originalText;
+    } finally {
+        downloadBtn.disabled = false;
     }
 }
 

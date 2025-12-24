@@ -146,6 +146,9 @@
                 <div class="audio-preview" id="audioPreview" style="display: none;">
                     <audio controls id="audioPlayer"></audio>
                     <div class="audio-actions">
+                        <button class="btn-download-audio" id="downloadAudioBtn" onclick="downloadRecording()">
+                            💾 Download MP3
+                        </button>
                         <button class="btn-send-telegram" id="sendTelegramBtn" onclick="sendAudioToTelegram()">
                             📤 Send to nmnhut-it
                         </button>
@@ -184,25 +187,17 @@
             </div>
         </section>
 
-        <!-- Sample Answer (Collapsible) -->
+        <!-- Sample Answers (Collapsible) -->
         <section class="sample-section" id="sampleSection" style="display: none;">
             <div class="sample-header">
                 <button class="sample-toggle" onclick="toggleSample()">
                     <span id="sampleToggleIcon">▶</span>
-                    <span>Compare with Band 7-7.5 Sample</span>
+                    <span>Compare with Band 7-7.5 Samples</span>
                 </button>
-                <div class="sample-audio-controls">
-                    <button class="btn-audio-listen" id="btnListenSample" onclick="playSampleAnswer()" style="display: none;">
-                        🔊 Listen
-                    </button>
-                    <button class="btn-audio-stop" id="btnStopSample" onclick="stopSampleAudio()" style="display: none;">
-                        ⏹️ Stop
-                    </button>
-                </div>
             </div>
             <div class="sample-content" id="sampleContent" style="display: none;">
-                <div class="sample-breakdown" id="sampleBreakdown"></div>
-                <div class="sample-answer" id="sampleAnswer"></div>
+                <!-- Multiple sample cards will be rendered here -->
+                <div id="sampleCardsContainer"></div>
             </div>
         </section>
 
@@ -236,6 +231,7 @@
 
     <!-- Scripts -->
     <script src="telegram.js"></script>
+    <script src="scripts/audioConverter.js"></script>
     <script src="scripts/ttsService.js"></script>
     <script src="scripts/sampleAudioService.js"></script>
     <script src="scripts/cameraCapture.js"></script>

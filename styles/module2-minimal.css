@@ -446,6 +446,79 @@ body {
     color: var(--color-text-light);
 }
 
+/* Sample Cards for Multiple Samples */
+#sampleCardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sample-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    transition: box-shadow 0.2s;
+}
+
+.sample-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sample-card-main {
+    border-left: 4px solid var(--color-accent);
+}
+
+.sample-card-alt {
+    border-left: 4px solid #10b981;
+}
+
+.sample-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sample-technique-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+.badge-main {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-alt {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.sample-card-breakdown {
+    margin-bottom: 1rem;
+    padding: 0.875rem;
+    background: var(--color-bg-light);
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    line-height: 1.7;
+}
+
+.sample-card-text {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    padding: 0.75rem;
+    background: #fafafa;
+    border-radius: 0.375rem;
+    border-left: 3px solid var(--color-border);
+}
+
 /* Feedback Section */
 .feedback-section {
     margin-bottom: 3rem;
@@ -705,6 +778,29 @@ body {
     color: #dc2626;
 }
 
+.btn-download-audio {
+    padding: 0.75rem 1rem;
+    background: #10b981;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-download-audio:hover {
+    background: #059669;
+    transform: translateY(-1px);
+}
+
+.btn-download-audio:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
 /* Responsive Audio Controls */
 @media (max-width: 640px) {
     .audio-controls {
@@ -725,7 +821,8 @@ body {
     }
 
     .btn-send-telegram,
-    .btn-delete-audio {
+    .btn-delete-audio,
+    .btn-download-audio {
         width: 100%;
     }
 }
