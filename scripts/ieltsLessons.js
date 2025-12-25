@@ -193,7 +193,14 @@ Format your response clearly with checkmarks (✓) for covered elements.`
                     {
                         question: 'What do you like to do on weekends?',
                         sampleAnswer: 'On weekends, I usually spend time exploring new cafés and restaurants around the city with my friends. We typically go out on Saturday afternoons because it gives us a chance to relax and catch up after a busy week. I enjoy trying different cuisines, which makes me feel adventurous and socially connected, and these outings are both fun and interesting.',
-                        w5h1: { what: 'exploring new cafés and restaurants', when: 'Saturday afternoons', where: 'around the city', who: 'with my friends', why: 'relax and catch up after busy week', how: 'feel adventurous and socially connected' }
+                        w5h1: { what: 'exploring new cafés and restaurants', when: 'Saturday afternoons', where: 'around the city', who: 'with my friends', why: 'relax and catch up after busy week', how: 'feel adventurous and socially connected' },
+                        alternativeSamples: [
+                            {
+                                technique: 'Contrast',
+                                text: 'It really depends on how I\'m feeling. On some weekends, when I need to recharge, I prefer staying home and doing quiet activities like reading or watching movies. But on other weekends, when I\'m feeling more energetic, I like to go out and explore - visiting new restaurants, hiking, or meeting friends. So my weekend activities vary quite a bit depending on my energy levels.',
+                                breakdown: { type: 'situation-based', sideA: 'quiet weekends at home reading/movies', sideB: 'active weekends out exploring/hiking/friends', marker: 'but on other weekends' }
+                            }
+                        ]
                     },
                     {
                         question: 'Do you have any hobbies?',
@@ -203,7 +210,14 @@ Format your response clearly with checkmarks (✓) for covered elements.`
                     {
                         question: 'What do you do in your free time?',
                         sampleAnswer: 'In my free time, I enjoy reading mystery novels and playing tennis. I usually read alone before bed at home, and I play tennis twice a week at a local court with some friends. Reading helps me relax because it takes my mind off daily worries, while tennis keeps me physically active. Both make me feel balanced and energized.',
-                        w5h1: { what: 'reading mystery novels and playing tennis', when: 'before bed / twice a week', where: 'at home / local court', who: 'alone / with friends', why: 'relax mind, stay physically active', how: 'feel balanced and energized' }
+                        w5h1: { what: 'reading mystery novels and playing tennis', when: 'before bed / twice a week', where: 'at home / local court', who: 'alone / with friends', why: 'relax mind, stay physically active', how: 'feel balanced and energized' },
+                        alternativeSamples: [
+                            {
+                                technique: 'Past vs Present',
+                                text: 'My free time activities have shifted quite a bit. In the past, I used to spend most of my free time playing video games - sometimes 4-5 hours a day on weekends. These days, I prefer reading books, going to cafés, or exploring new parts of the city. I think I started seeking more enriching activities as I got older and realized video games, while fun, weren\'t adding much value to my life.',
+                                breakdown: { past: 'video games 4-5 hours daily on weekends', present: 'reading, cafés, exploring city', why: 'sought more enriching activities with age' }
+                            }
+                        ]
                     },
 
                     // Daily Life (5)
@@ -404,7 +418,14 @@ Format your response clearly with checkmarks (✓) for covered elements.`
                     {
                         question: 'Do you prefer hot or cold weather?',
                         sampleAnswer: 'I prefer mild, cooler weather because I find it more comfortable for outdoor activities. Hot weather can be exhausting and makes me feel lethargic when I\'m outside or at work, while cold weather energizes me. I especially enjoy autumn temperatures around 20-25 degrees Celsius in parks or outdoor spaces, which I think is perfect for both work and leisure and makes me feel refreshed and active.',
-                        w5h1: { what: 'preferring mild, cooler weather around 20-25°C', when: 'especially during autumn', where: 'in parks or outdoor spaces', who: 'by myself for work and leisure activities', why: 'more comfortable for activities, cold energizes while hot exhausts', how: 'feel refreshed and active in cool weather, lethargic in hot' }
+                        w5h1: { what: 'preferring mild, cooler weather around 20-25°C', when: 'especially during autumn', where: 'in parks or outdoor spaces', who: 'by myself for work and leisure activities', why: 'more comfortable for activities, cold energizes while hot exhausts', how: 'feel refreshed and active in cool weather, lethargic in hot' },
+                        alternativeSamples: [
+                            {
+                                technique: 'Contrast',
+                                text: 'Whereas many people love hot summer weather for swimming and outdoor activities, I actually prefer cooler temperatures. Hot weather makes me feel lethargic and uncomfortable, while cool weather energizes me and makes me feel more productive. I suppose everyone has their ideal temperature range, and mine is definitely on the cooler side.',
+                                breakdown: { type: 'self vs others + temperature', sideA: 'others love hot weather for activities', sideB: 'I prefer cool weather, feels energizing vs lethargic', marker: 'whereas, while' }
+                            }
+                        ]
                     },
                     {
                         question: 'What is your favorite season?',
