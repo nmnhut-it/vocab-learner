@@ -6,7 +6,8 @@
       "Bash(for file in D:/vocab-learner/data/writing-v2-*.json)",
       "Bash(do node -e \"JSON.parse(require(''fs'').readFileSync(''$file'', ''utf8''))\")",
       "Bash(echo:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
